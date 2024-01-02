@@ -1,0 +1,521 @@
+"appid" "223350"
+"common"
+{
+	"name" "DayZ Server"
+	"type" "Tool"
+	"releasestate" "released"
+	"parent" "221100"
+	"oslist" "windows"
+	"clienticon" "f8c16699ed5ce1cc8aa9b15ed3fdd66553fce2bf"
+	"clienttga" "e529b20af459d1307c2e885c68293ba137971ecc"
+	"icon" "16a985dfee9b093d76a0ffc4cf4c77ba20c2eb0d"
+	"logo" "6af07b51e817a029260910719d2a77439d00463b"
+	"logo_small" "6af07b51e817a029260910719d2a77439d00463b_thumb"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "223350_eula_0"
+			"name" "DayZ Server EULA"
+			"url" "https://store.steampowered.com//eula/223350_eula_0"
+		}
+	}
+	"metacritic_name" "DayZ Server"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1537366562"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Bohemia Interactive"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Bohemia Interactive"
+		}
+	}
+	"steam_release_date" "1537365480"
+	"gameid" "223350"
+	"exfgls" "1"
+}
+"extended"
+{
+	"developer" "Bohemia Interactive"
+	"gamedir" "ValveTestApp223350"
+	"homepage" "http://dayz.com"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Bohemia Interactive"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "DayZServer"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DayZServer_x64.exe"
+			"description" "Launch Server"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"preloadonly" "1"
+	"overridescddb" "1"
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"223351"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6007197074671066757"
+				"size" "2887020603"
+				"download" "1001112512"
+			}
+			"experimental_public"
+			{
+				"gid" "6851238236280575555"
+				"size" "1857037019"
+				"download" "702440208"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internaldebug"
+			{
+				"gid" "BBB44C61F926C37B7B8C10BF46CF64B5"
+				"size" "4167444662DC343D94A3D1A65AA3C509"
+				"download" "C080BABF7EE8394B1966A40FFC73D802"
+			}
+			"internalplaytest"
+			{
+				"gid" "6C10D352E83305F91C7FE00DE956EEEA"
+				"size" "307521E7896E221122AD1509315FB9B1"
+				"download" "FDBDA7156A969C4463EFCA3BE0C8F63E"
+			}
+			"pr_test"
+			{
+				"gid" "48B89E799D1C0D14781FC1E2ADF09AE2"
+				"size" "B387912113835BB7657F618CC5C431DD"
+				"download" "163F7BCE49B54181AF7FE02A603AAC38"
+			}
+			"ps4_internal"
+			{
+				"gid" "2F505653BCE852B53C0378BCCA920BFA"
+				"size" "5B1B6EE873CB7BD8F18C829B15478DB6"
+				"download" "FD431DFF0162A1B07C8227CF1F830197"
+			}
+			"ps4_stable"
+			{
+				"gid" "C625C9E8157C6DF9709601F3E90B8543"
+				"size" "2E5FE62B961ED186103BD269F0F2871B"
+				"download" "BA2F9718210207F987FB5D9F20307003"
+			}
+			"ps4_test"
+			{
+				"gid" "D67C1ACD183854C4AFC4E4EE8920853C"
+				"size" "E377A4C6F95C3E95883CAA7930A0D135"
+				"download" "E77FA3DE6CCDB8B441A1475BA0BEB67E"
+			}
+			"qa_tmp"
+			{
+				"gid" "42247C9A383105D59308F4F81344558E"
+				"size" "17E2C9955F2C187EB4D3449D4CCC9B24"
+				"download" "1CABC2712EE25A5EE2D86724F0FB3329"
+			}
+			"release_test"
+			{
+				"gid" "C4D44500D733BE60F50063DCCA96BE62"
+				"size" "503A9E67CC7F30E10DBA1E34181828B3"
+				"download" "A46DDFFF6D07FBA29D422BE4654E45BA"
+			}
+			"stable"
+			{
+				"gid" "13289CA26B2A4807DE430111C8CAFD1B"
+				"size" "879C082A43F7B4F7962F4CF00A9247A2"
+				"download" "BBF35D801AA3F68E6F42C478A1FD70D7"
+			}
+			"stableprep"
+			{
+				"gid" "9C25DA61CB50C9643B1B3CBD5BAFB0BA"
+				"size" "2D677901CB0EAAE7BB76A1AA2FC33338"
+				"download" "66297AEEA6871465826DFA710F18C5D0"
+			}
+			"video"
+			{
+				"gid" "E4F84DE3418A5B5E7ACDC6CF3547D1CC"
+				"size" "2A1453A9C8CDE6D37A0FCA1A769F49CA"
+				"download" "63F4ADCC439EE903BFB00C550ECEC292"
+			}
+			"xb1_experimental"
+			{
+				"gid" "A4242D7728CF037AEEA1BAA6C9DF351E"
+				"size" "115878C9DA1A32AAABC91894DCE36639"
+				"download" "827342B825C6A05049620CA865061907"
+			}
+			"xb1_internal"
+			{
+				"gid" "9BDC5C460F551E5AF8AFF100DAA58CFF"
+				"size" "0AD49C544CEF32FC58B5FCD93A5C6A02"
+				"download" "8E2D3791EE0E1F2BC7A9F6EAABC5FB82"
+			}
+			"xb1_internal_exp"
+			{
+				"gid" "50585E91389BEB90876D23D587823284"
+				"size" "EFF9E171AC74A04C1F23E5C745841A12"
+				"download" "58367A00468C6CB2AC383AFB9E0CAE41"
+			}
+			"xb1_stable"
+			{
+				"gid" "9DBC4491E1C5D3349A582E516105ECC0"
+				"size" "288F7EE6F188D836393AA2F0C797E1B5"
+				"download" "335B7ACFED532AC12F934E318BF8D450"
+			}
+			"xb1_test"
+			{
+				"gid" "34211F7058257189E99B3B48C56BAD50"
+				"size" "E92423A26609966FD8154F75823619DE"
+				"download" "0FA360726E7012F1F0C973ECC6C13815"
+			}
+		}
+	}
+	"223352"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"internaldebug"
+			{
+				"gid" "454FB0F2306C239B736595FAD3278CB5"
+				"size" "F4D26D28906866F18179481DD9A161CD"
+				"download" "F4D26D28906866F18179481DD9A161CD"
+			}
+			"internalplaytest"
+			{
+				"gid" "293608B87D3F4778743A5130D6BDCFC7"
+				"size" "40C609E1F6D8416FCFAC1A6FC9DBE18C"
+				"download" "0A0476B46C27A0226B699D01DCCE226E"
+			}
+			"pr_test"
+			{
+				"gid" "098917A6FAB671799AB213BA6BF8A309"
+				"size" "E2C1B564F656A91450E31A98C73488DC"
+				"download" "49D4D179426A6A2BD2FCF7958CBC222C"
+			}
+			"stable"
+			{
+				"gid" "C5882CA3A0F4182E98809D13B8C4729C"
+				"size" "F8C3CA1AF0882FBBCCE1FB918E8A3155"
+				"download" "6612C39E76F4066E862F6454F697C187"
+			}
+			"stableprep"
+			{
+				"gid" "FC65EB9DFA1652435B75018667D82A8B"
+				"size" "137C82544F57F2AF0C157657DD71231E"
+				"download" "137C82544F57F2AF0C157657DD71231E"
+			}
+		}
+	}
+	"223353"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2640852994829938891"
+				"size" "40018936"
+				"download" "12651536"
+			}
+			"experimental_public"
+			{
+				"gid" "6169702869082609638"
+				"size" "32900600"
+				"download" "10542720"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internaldebug"
+			{
+				"gid" "5E20478BD5EF3F40FF74F64B3637E8CF"
+				"size" "DA7A64DCD89C3F9A9A28AD7CA13CA781"
+				"download" "5F44AA93E45AC938E871341BA9FCF05C"
+			}
+			"internalplaytest"
+			{
+				"gid" "72E7520EE5BB927791D9526BE77740AA"
+				"size" "11250639191394C36D9A6DAC52A25189"
+				"download" "2ABE7AB5B2BC9EC19E551E81791BB445"
+			}
+			"pr_test"
+			{
+				"gid" "6A9C9800A9606A86E09C9E0551D91475"
+				"size" "2CBEFFACB4D2CC4F86310FF6D839AC6C"
+				"download" "556B782E88AF93D81338F908156956A9"
+			}
+			"ps4_internal"
+			{
+				"gid" "3FBE50C60D2402098FB295B671184340"
+				"size" "A364DD94E744C4E031612566A0A29DBC"
+				"download" "A364DD94E744C4E031612566A0A29DBC"
+			}
+			"ps4_stable"
+			{
+				"gid" "67D486F858C44B3B925CEA721133AB91"
+				"size" "FBBD1E1F747864705114F7BC793B93E6"
+				"download" "FBBD1E1F747864705114F7BC793B93E6"
+			}
+			"ps4_test"
+			{
+				"gid" "9E8FC525179208EB70243D189DC9CF8E"
+				"size" "EE4419B87BDFB7C291120D56ECF2D72E"
+				"download" "EE4419B87BDFB7C291120D56ECF2D72E"
+			}
+			"qa_tmp"
+			{
+				"gid" "03E5870B7E9C500AFC33AA14CC18E26C"
+				"size" "3B5EDDC58F8DD5E575ECD773AF530926"
+				"download" "3B5EDDC58F8DD5E575ECD773AF530926"
+			}
+			"release_test"
+			{
+				"gid" "DC62CD191D007EEB6FFA41E329C2D598"
+				"size" "FBB9305101CA9355D93B0FF220B5D959"
+				"download" "8F3E63EA6490A7CB1EDB9C7AAB186E62"
+			}
+			"stable"
+			{
+				"gid" "591774E5D4D4CEC6D6EF4EEFC16E632C"
+				"size" "BE938CC99B5E2EC9351CEA5B2D5CA19B"
+				"download" "45505C3F804EA2D36C6E3B1E6E6158E7"
+			}
+			"stableprep"
+			{
+				"gid" "D24C8F936BF8DD077CBD3E1403F26C1E"
+				"size" "B84DAB3222C15F458CB3573029CE4DE9"
+				"download" "24E42366312F5F55BA006FFC4B831CFE"
+			}
+			"video"
+			{
+				"gid" "0289BF7049EC2172279D1575A1EC7B89"
+				"size" "489434C47479BDD491E6ABD811CB7D1C"
+				"download" "E3FF26177D2DCAB8E4E748A6088C4F91"
+			}
+			"xb1_experimental"
+			{
+				"gid" "ED8719AE41CF454E4D112032CE197537"
+				"size" "7F558043A0EC7E27BB1D82C4C7841BE9"
+				"download" "7F558043A0EC7E27BB1D82C4C7841BE9"
+			}
+			"xb1_internal"
+			{
+				"gid" "5211539F73FC10A59B24DB6CA305A3E7"
+				"size" "778E78BD52DD5F6D59782EF0B476CE09"
+				"download" "778E78BD52DD5F6D59782EF0B476CE09"
+			}
+			"xb1_internal_exp"
+			{
+				"gid" "E8E1FA89DE386846EE47A189BE410E11"
+				"size" "8B96D052FDA0969CFC218B0166E71E01"
+				"download" "8B96D052FDA0969CFC218B0166E71E01"
+			}
+			"xb1_stable"
+			{
+				"gid" "F634EA5A80628567CE7C50598306E75A"
+				"size" "DD10F92A6624FAB6F552AFD0CA0FC5DB"
+				"download" "DD10F92A6624FAB6F552AFD0CA0FC5DB"
+			}
+			"xb1_test"
+			{
+				"gid" "05A1C0797FBB6EF3975A09D381A51704"
+				"size" "06AA51AED311FA54AD233D6F89053806"
+				"download" "06AA51AED311FA54AD233D6F89053806"
+			}
+		}
+	}
+	"223354"
+	{
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12806201"
+			"timeupdated" "1701349206"
+		}
+		"experimental_public"
+		{
+			"buildid" "3889697"
+			"description" "Unstable testing version"
+			"timeupdated" "1559730582"
+		}
+		"internaldebug"
+		{
+			"buildid" "9206127"
+			"pwdrequired" "1"
+			"timeupdated" "1658994640"
+		}
+		"internalplaytest"
+		{
+			"buildid" "12951549"
+			"pwdrequired" "1"
+			"timeupdated" "1702476894"
+		}
+		"pr_test"
+		{
+			"buildid" "3022120"
+			"pwdrequired" "1"
+			"timeupdated" "1533900743"
+		}
+		"ps4_internal"
+		{
+			"buildid" "12951461"
+			"pwdrequired" "1"
+			"timeupdated" "1702476270"
+		}
+		"ps4_stable"
+		{
+			"buildid" "12951461"
+			"pwdrequired" "1"
+			"timeupdated" "1702543844"
+		}
+		"ps4_test"
+		{
+			"buildid" "12972693"
+			"pwdrequired" "1"
+			"timeupdated" "1702647254"
+		}
+		"qa_tmp"
+		{
+			"buildid" "4061133"
+			"pwdrequired" "1"
+			"timeupdated" "1668428933"
+		}
+		"release_test"
+		{
+			"buildid" "12806201"
+			"pwdrequired" "1"
+			"timeupdated" "1701081824"
+		}
+		"stable"
+		{
+			"buildid" "12951549"
+			"pwdrequired" "1"
+			"timeupdated" "1702543799"
+		}
+		"stableprep"
+		{
+			"buildid" "5726931"
+			"pwdrequired" "1"
+			"timeupdated" "1603449781"
+		}
+		"video"
+		{
+			"buildid" "8245752"
+			"pwdrequired" "1"
+			"timeupdated" "1701872189"
+		}
+		"xb1_experimental"
+		{
+			"buildid" "12540183"
+			"pwdrequired" "1"
+			"timeupdated" "1698319926"
+		}
+		"xb1_internal"
+		{
+			"buildid" "12951510"
+			"pwdrequired" "1"
+			"timeupdated" "1702476649"
+		}
+		"xb1_internal_exp"
+		{
+			"buildid" "12540183"
+			"pwdrequired" "1"
+			"timeupdated" "1698309429"
+		}
+		"xb1_stable"
+		{
+			"buildid" "12951510"
+			"pwdrequired" "1"
+			"timeupdated" "1702543823"
+		}
+		"xb1_test"
+		{
+			"buildid" "12972654"
+			"pwdrequired" "1"
+			"timeupdated" "1702646996"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "0"
+	"maxnumfiles" "0"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+}
+"_missing_token" "False"
+"_change_number" "21554192"
+"_sha" "b7cf7bf6fd134332966828d025376dcc008ec77b"
+"_size" "11479"
