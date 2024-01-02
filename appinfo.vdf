@@ -1,0 +1,107 @@
+"appid" "1180760"
+"common"
+{
+	"name" "Risk of Rain 2 Dedicated Server"
+	"type" "Tool"
+	"parent" "632360"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"clienttga" "25e79d73de0b4058652b70d0dcf68cc1775e2ad5"
+	"clienticon" "818320cd0870b7d6b22a0c6a108e4335697a4382"
+	"icon" "7a291e0189921643c400a072aa730d15ea0abfb4"
+	"logo" "0bbc7ffbf03488369945d4696468ea5dc487b8b7"
+	"logo_small" "0bbc7ffbf03488369945d4696468ea5dc487b8b7_thumb"
+	"releasestate" "released"
+	"associations"
+	{
+	}
+	"gameid" "1180760"
+}
+"config"
+{
+	"installdir" "Risk of Rain 2 Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Risk of Rain 2.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1180761"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5236366172322831599"
+				"size" "2247350388"
+				"download" "1761438240"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"public_test_server"
+			{
+				"gid" "6E8401C256712113B3B0876522D333B6"
+				"size" "D6C97ED3DA743B3E7024ABC10C9858E7"
+				"download" "D6D52F26894A96998238FFE988CD4574"
+			}
+			"qa_server"
+			{
+				"gid" "1B1BA01261AB4A7E7E6BDEF62461795F"
+				"size" "48DB4E75D9D41A2EE12BA5C88A3D2C1A"
+				"download" "25EFDDC01021CF8373DD83BEAC3EF7EB"
+			}
+		}
+	}
+	"baselanguages" "english"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8775641"
+			"timeupdated" "1653576968"
+		}
+		"public_test_server"
+		{
+			"buildid" "5439922"
+			"pwdrequired" "1"
+			"timeupdated" "1597968292"
+		}
+		"qa_server"
+		{
+			"buildid" "12808850"
+			"pwdrequired" "1"
+			"timeupdated" "1701101958"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21462587"
+"_sha" "8ff4f8efd9d79b4376f8b6a5e09cdb1f369a9bf8"
+"_size" "1904"
