@@ -1,0 +1,123 @@
+"appid" "240580"
+"common"
+{
+	"name" "Worms Clan Wars Editor"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" "windows"
+	"parent" "233840"
+	"clienticon" "d33550bd8e88832a57b68521eabf692b2978c1c1"
+	"clienttga" "d88b72d7dd0bd8855c6b0e6559e7f88a5a26c772"
+	"icon" "aa3156dab00553132dea849e9cc836e645083f6f"
+	"associations"
+	{
+	}
+	"gameid" "240580"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" ""
+	"disableoverlay" "1"
+	"gamedir" "ValveTestApp240580"
+	"homepage" ""
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateComingSoonNoPreload"
+	"visibleonlywhensubscribed" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Worms Clan Wars Editor"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "WCWEditor.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"240581"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1353128008291361784"
+				"size" "119697096"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"buildtest"
+			{
+				"gid" "EF6CCC94F64B743A9B08E5627CD5D91D"
+				"size" "446F2A23D0F0F66BAAC53EA5204033A7"
+				"download" "2381B649E140EDE3D98BDCA16B2633AC"
+			}
+			"internal"
+			{
+				"gid" "44FE6566D941C288BBCAEBDBCB409753"
+				"size" "0D262A064313D31D5919CBA8469687A1"
+				"download" "33CB0DED62438DDB72CDDD308296AD94"
+			}
+		}
+	}
+	"markdlcdepots" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "101963"
+		}
+		"buildtest"
+		{
+			"buildid" "106702"
+			"pwdrequired" "1"
+		}
+		"internal"
+		{
+			"buildid" "101963"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "c13e3c42ecef323988b8d95c4bb99b2acf87ab39"
+"_size" "1998"
