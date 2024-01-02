@@ -1,0 +1,416 @@
+"appid" "348510"
+"common"
+{
+	"name" "Autobahn Police Simulator"
+	"type" "Game"
+	"oslist" "windows"
+	"clienticon" "dfcc481507ff9975a41de0b3b5656979a37fc742"
+	"clienttga" "69bfd8bc8a0f6d3ab00f2194dbd945503523d4b5"
+	"icon" "c0fe0e971e5f0d20b2634854e7811e058891f5ad"
+	"logo" "c6c38adb35fc207ca67059006ed4f45f99315963"
+	"logo_small" "c6c38adb35fc207ca67059006ed4f45f99315963_thumb"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+	}
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1657152000"
+		"tested_build_id" "1741875"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Autobahn Police Simulator"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"german" "capsule_231x87_german.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"german" "header_german.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "de,en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1667913391"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Z-Software"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Aerosoft GmbH"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Aerosoft"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_18" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"hungarian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1440572712"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "348510"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "1644"
+		"2" "597"
+		"3" "19"
+		"4" "4182"
+		"5" "1100687"
+		"6" "4175"
+		"7" "1695"
+		"8" "21"
+		"9" "3859"
+		"10" "4305"
+		"11" "4711"
+		"12" "5350"
+		"13" "1654"
+		"14" "11333"
+	}
+	"review_score" "4"
+	"review_percentage" "29"
+}
+"extended"
+{
+	"developer" "Z-Software"
+	"publisher" "Aerosoft GmbH"
+	"gamemanualurl" "https://store.steampowered.com/manual/348510/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Autobahn Police Simulator"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "highwaypatrol2015.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "highwaypatrol2015.app"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+				"betakey" "bleeding"
+			}
+		}
+		"2"
+		{
+			"executable" "highwaypatrol2015.exe"
+			"arguments" "-force-d3d9"
+			"description" "Launch in DX9 Mode"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,hungarian"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"348511"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9087815474162341515"
+				"size" "14273188"
+				"download" "12960032"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bleeding"
+			{
+				"gid" "8164038BE57A4CB68D567E55339BD89C"
+				"size" "60BC50A2263B4F742D62E9E2A39F55A0"
+				"download" "6E6F556B549A3B47A620DB778E3AA49F"
+			}
+			"bleeding-compare"
+			{
+				"gid" "0DF27C1845FD09BFEBACAAE50FCD2008"
+				"size" "A8738BCF74BD53AA14CE5087D1311104"
+				"download" "1F3351B7C836C86CABBC94EF7906AFEF"
+			}
+			"testing"
+			{
+				"gid" "A3AC731BD6021A8042050DA5424E6AD1"
+				"size" "43C10AA5840FE88C1C978B8BE2569482"
+				"download" "CC56E43BA8BED7BC068F48333CE080E5"
+			}
+		}
+	}
+	"348512"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "210218490392118399"
+				"size" "4017533432"
+				"download" "933354864"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bleeding"
+			{
+				"gid" "1BD2FECA92A73F7A30185995B7B1109E"
+				"size" "D9673338EE1A00BB3360CEF52AEA013E"
+				"download" "699259CF0079B5E42DDD36FA99C67099"
+			}
+			"bleeding-compare"
+			{
+				"gid" "D6990106359F476041215FFF860F568B"
+				"size" "361E9B2F2C12B1E043308CECBB85414F"
+				"download" "361E9B2F2C12B1E043308CECBB85414F"
+			}
+			"testing"
+			{
+				"gid" "3F3F4277D9CB9A54CBF9162818D8A491"
+				"size" "3844BF6AEECFB941852709CAF93FECC1"
+				"download" "2C817DBB1347165B71A3380E16B03967"
+			}
+		}
+	}
+	"348513"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "556830361589940300"
+				"size" "67627684"
+				"download" "23415488"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bleeding"
+			{
+				"gid" "0FC8F2B82817D64C0076037A24463111"
+				"size" "2CFA12A7DC525C764EB917AC0FACCBF3"
+				"download" "69236925330C196ACF2FDFEC213DA818"
+			}
+			"bleeding-compare"
+			{
+				"gid" "CBBD1CFDD4E27920E910B17C922EA661"
+				"size" "A514458B5162A7BA3F9FCF6E2E5E4675"
+				"download" "00D146C15390AF7B29BE8AA4093DF094"
+			}
+			"testing"
+			{
+				"gid" "EC07A678340B74A25C0148C18691D2BD"
+				"size" "3B12ABD331C0A0EEAC2C53A6582202F9"
+				"download" "E75654231E92D1A85F3A1D6584CF3054"
+			}
+		}
+	}
+	"348514"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7071344476929725371"
+				"size" "4045483603"
+				"download" "935599360"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bleeding"
+			{
+				"gid" "764E57980E50FD70FCE8BCE63075F01D"
+				"size" "0DD9F2981F1D4C2DD1A70D700534E745"
+				"download" "7B22E5351963CCBC25AD11060829E281"
+			}
+			"bleeding-compare"
+			{
+				"gid" "330FD9C7B4DA75BFB19D50DCEFEB3DD2"
+				"size" "361E9B2F2C12B1E043308CECBB85414F"
+				"download" "361E9B2F2C12B1E043308CECBB85414F"
+			}
+			"testing"
+			{
+				"gid" "3380575484F29888D4BB7B5CF5B817F1"
+				"size" "8B9BE58DD58C82E120928E66A5784AD7"
+				"download" "5E496D1CDC5B7758D2950C02E1D2E44F"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1741875"
+			"timeupdated" "1491577019"
+		}
+		"bleeding"
+		{
+			"buildid" "1741875"
+			"pwdrequired" "1"
+			"timeupdated" "1491575923"
+		}
+		"bleeding-compare"
+		{
+			"buildid" "611911"
+			"pwdrequired" "1"
+		}
+		"testing"
+		{
+			"buildid" "1741875"
+			"pwdrequired" "1"
+			"timeupdated" "1491575971"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "20"
+}
+"_missing_token" "False"
+"_change_number" "21356862"
+"_sha" "120d78c2e6a79fbfb7f655bdabcb8a89c765c4af"
+"_size" "7986"
