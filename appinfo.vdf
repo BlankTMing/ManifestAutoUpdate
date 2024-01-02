@@ -1,0 +1,150 @@
+"appid" "813000"
+"common"
+{
+	"name" "PUBG: Experimental Server"
+	"section_type" "ownersonly"
+	"type" "Game"
+	"releasestate" "released"
+	"clienticon" "403f0380e233a9ecb7b3716391e73a0e2de69bdd"
+	"clienttga" "30ab448eb04d287cc155a834f89dc7bff46b29d0"
+	"icon" "10d309914cd9f4f82cc69d192a80a2a800dbfbca"
+	"exfgls" "1"
+	"oslist" "windows"
+	"osarch" ""
+	"logo" "7dfa3b8dc81d3f42201ce158a619ea434799d410"
+	"logo_small" "7dfa3b8dc81d3f42201ce158a619ea434799d410_thumb"
+	"metacritic_name" "PUBG Experimental Server"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1527725927"
+	"associations"
+	{
+	}
+	"gameid" "813000"
+}
+"config"
+{
+	"installdir" "PUBG_Experimental"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TslGame\\Binaries\\Win64\\TslGame.exe"
+			"arguments" "-LobbyUrl=pc-playtest-broapp.pubg.io -NoVerifyGC -NoEAC -NoBattleEye "
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "valvetest"
+			}
+		}
+	}
+}
+"depots"
+{
+	"depotdeltapatches" "1"
+	"813001"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1607277459557216130"
+				"size" "6862874200"
+				"download" "6376177488"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"valvetest"
+			{
+				"gid" "07F0ACD1A5D2DD7D9149A3FD2CA0F6AF"
+				"size" "5B66FAAC08E67D2AEEBEB5C539CE8105"
+				"download" "7E02444E9D94185B6B2282859EE9F2EB"
+			}
+		}
+	}
+	"813002"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2848349"
+			"timeupdated" "1528536727"
+		}
+		"valvetest"
+		{
+			"buildid" "7172250"
+			"pwdrequired" "1"
+			"timeupdated" "1628689559"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#display_public" "{#STATUS_%status_visibility%}{#DETAIL_INFO}{#ELAPSED_%elapsed_visibility%}"
+				"#display_custom" "{#STATUS_%status_visibility%}Custom Match{#ELAPSED_%elapsed_visibility%}"
+				"#display_event" "{#STATUS_%status_visibility%}%mode_in_lobby% Mode{#ELAPSED_%elapsed_visibility%}"
+				"#display_custom_training" "%mode_name% Mode{#ELAPSED_%elapsed_visibility%}"
+				"#display_arcade" "{#STATUS_%status_visibility%}%mode_name% Mode{#ELAPSED_%elapsed_visibility%}"
+				"#display_in_lobby" "In Lobby, {#%match_game_in_lobby%_MATCH_IN_LOBBY}"
+				"#display_watching" "Watching, {#WATCHING_%watching_contents%}{#ELAPSED_%elapsed_visibility%}"
+				"#display_playing" "Playing{#ELAPSED_%elapsed_visibility%}"
+				"#status_visible" "{#STATUS_%status%}, "
+				"#status_invisible" " "
+				"#status_chicken_dinner" "Winner Winner Chicken Dinner!"
+				"#status_dead_at_rank" "Dead at rank %rank%"
+				"#detail_info" "%map_name%, {#TEAM_STATUS_%team_status%}{#ALIVE_%alive_visibility%}"
+				"#alive_visible" ", %alive_player_num%/%total_player_num%"
+				"#alive_invisible" " "
+				"#elapsed_visible" ", {#ELAPSED_TIME}"
+				"#elapsed_invisible" " "
+				"#elapsed_time" "%elapsed_min%:%elapsed_sec% elapsed"
+				"#team_status_solo" "Solo"
+				"#team_status_duo" "Duo"
+				"#team_status_squad" "%my_team_members%Squad"
+				"#team_status_squadinteam" "%my_team_members%VS%enemy_team_members%"
+				"#team_status_in_lobby_visible" ", %squad_num%/%max_squad_num%"
+				"#team_status_in_lobby_invisible" " "
+				"#public_match_in_lobby" "%mode_in_lobby%{#TEAM_STATUS_IN_LOBBY_%lobby_team_visibility%}"
+				"#custom_match_in_lobby" "Custom Match"
+				"#event_match_in_lobby" "%mode_in_lobby% Mode"
+				"#invisible_match_in_lobby" " "
+				"#watching_replay" "Replay"
+				"#watching_custom_match" "Custom Match"
+				"#watching_killer_spectating" "Killer Spectating"
+				"#watching_team_spectating" "{#%match_type%_TEAM_SPECTATING}"
+				"#watching_deathcam" "DeathCam"
+				"#public_team_spectating" "Team Spectating, {#TEAM_STATUS_%team_status%}"
+				"#custom_team_spectating" "Team Spectating"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18821630"
+"_sha" "a8b2c39e0ef7dbe087f3f755f22c5820160af113"
+"_size" "4085"
