@@ -1,0 +1,878 @@
+"appid" "573410"
+"common"
+{
+	"name" "AI War 2"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"logo" "07f56539c8d7e89a7185e9e7fcf24e5514442999"
+	"logo_small" "07f56539c8d7e89a7185e9e7fcf24e5514442999_thumb"
+	"icon" "04036871e5bf488434a25df5b9b1a490381592e2"
+	"clienticon" "ba10348b09513cc6a0e177113c4c3157489b71a8"
+	"clienttga" "71df113475c4cbd8fb5ba10e67772fbe43ee246d"
+	"clienticns" "36a24cd5f2f19b55c2d2d18e8101dd09cf5b2c5e"
+	"linuxclienticon" "38c6dc440854319795dd73d2b26c0d1a77d8b1da"
+	"osextended" "macos64,macosapplesilicon"
+	"metacritic_name" "AI War 2"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1665887072"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Arcen Games, LLC"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Arcen Games, LLC"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "AI War"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Arcen Strategy"
+		}
+		"4"
+		{
+			"type" "franchise"
+			"name" "Arcenverse"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_22" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_48" "1"
+		"category_1" "1"
+		"category_27" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1571756390"
+	"metacritic_score" "75"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/ai-war-2\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "573410"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "1755"
+		"2" "3942"
+		"3" "1670"
+		"4" "4364"
+		"5" "599"
+		"6" "1676"
+		"7" "1708"
+		"8" "1678"
+		"9" "12472"
+		"10" "7107"
+		"11" "1669"
+		"12" "3810"
+		"13" "4182"
+		"14" "3859"
+		"15" "4168"
+		"16" "4161"
+		"17" "4695"
+		"18" "3813"
+		"19" "4166"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "Arcen Games, LLC"
+	"publisher" "Arcen Games, LLC"
+	"homepage" "https://wiki.arcengames.com/index.php\?title=AI_War_2:AI_War_2"
+	"listofdlc" "1196420,1290340,1466780"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "AI War 2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "AIWar2.exe"
+			"arguments" "-force-d3d11"
+			"description" "DirectX11"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "AIWar2.app"
+			"arguments" "-force-metal"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "Metal - Preferred"
+			}
+			"description" "Metal - Preferred"
+		}
+		"4"
+		{
+			"executable" "AIWar2Linux.x86_64"
+			"arguments" "-force-glcore "
+			"description" "OpenGL - Preferred"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"7"
+		{
+			"executable" "AIWar2.exe"
+			"arguments" "-force-glcore "
+			"description" "OpenGL"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"8"
+		{
+			"executable" "AIWar2Linux.x86_64"
+			"description" "Vulkan - Experimental"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"9"
+		{
+			"executable" "AIWar2.app"
+			"arguments" "-force-glcore"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "OpenGL - Legacy Support"
+			}
+			"description" "OpenGL - Legacy Support"
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "573410"
+	"573411"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5206038319328258558"
+				"size" "1122137093"
+				"download" "806884208"
+			}
+			"most_recent_stable"
+			{
+				"gid" "7228836071147697005"
+				"size" "1087741850"
+				"download" "799699792"
+			}
+			"y_historical_3_309"
+			{
+				"gid" "283284742055739693"
+				"size" "949401507"
+				"download" "786934400"
+			}
+			"z_historical_0_104"
+			{
+				"gid" "7514418073128931867"
+				"size" "485308595"
+				"download" "118553760"
+			}
+			"z_historical_0_112"
+			{
+				"gid" "7552257604398695306"
+				"size" "528031724"
+				"download" "155703568"
+			}
+			"z_historical_0_123"
+			{
+				"gid" "3814017982484349556"
+				"size" "106908339"
+				"download" "82931904"
+			}
+			"z_historical_0_301"
+			{
+				"gid" "9146075544308482678"
+				"size" "267619419"
+				"download" "201870192"
+			}
+			"z_historical_0_722"
+			{
+				"gid" "5547309745480065513"
+				"size" "665747020"
+				"download" "614886064"
+			}
+			"z_historical_0_816"
+			{
+				"gid" "1886319873511064424"
+				"size" "728876811"
+				"download" "623050320"
+			}
+			"z_historical_2_618"
+			{
+				"gid" "5570938067628868615"
+				"size" "892517452"
+				"download" "772144496"
+			}
+		}
+	}
+	"573412"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3066909119961555674"
+				"size" "1940171065"
+				"download" "523769632"
+			}
+			"most_recent_stable"
+			{
+				"gid" "4159784072935730581"
+				"size" "1924178745"
+				"download" "523769584"
+			}
+			"y_historical_3_309"
+			{
+				"gid" "3366026097751617737"
+				"size" "1750557204"
+				"download" "493597104"
+			}
+			"z_historical_0_104"
+			{
+				"gid" "8357118273418963817"
+				"size" "962628553"
+				"download" "266464512"
+			}
+			"z_historical_0_112"
+			{
+				"gid" "7935487503688802077"
+				"size" "818906063"
+				"download" "247945584"
+			}
+			"z_historical_0_123"
+			{
+				"gid" "8886715802345309545"
+				"size" "1152355570"
+				"download" "292499520"
+			}
+			"z_historical_0_301"
+			{
+				"gid" "1228840682234818460"
+				"size" "1238284422"
+				"download" "281329264"
+			}
+			"z_historical_0_722"
+			{
+				"gid" "3065328895218090466"
+				"size" "1299097880"
+				"download" "376145552"
+			}
+			"z_historical_0_816"
+			{
+				"gid" "8977661832406778100"
+				"size" "1548464083"
+				"download" "407230416"
+			}
+			"z_historical_2_618"
+			{
+				"gid" "3295524225410612997"
+				"size" "2397466016"
+				"download" "783950400"
+			}
+		}
+	}
+	"573413"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1991250374941160145"
+				"size" "2028279682"
+				"download" "546600112"
+			}
+			"most_recent_stable"
+			{
+				"gid" "5097385359417219832"
+				"size" "1993871090"
+				"download" "539410512"
+			}
+			"y_historical_3_309"
+			{
+				"gid" "2543118072742687295"
+				"size" "1887513471"
+				"download" "517329504"
+			}
+			"z_historical_0_104"
+			{
+				"gid" "4768743645349295366"
+				"size" "914834992"
+				"download" "261729488"
+			}
+			"z_historical_0_112"
+			{
+				"gid" "8862585795576379460"
+				"size" "778589737"
+				"download" "241076528"
+			}
+			"z_historical_0_123"
+			{
+				"gid" "690365669922885971"
+				"size" "1166784018"
+				"download" "298707456"
+			}
+			"z_historical_0_301"
+			{
+				"gid" "2960104161454190272"
+				"size" "1221536960"
+				"download" "286637536"
+			}
+			"z_historical_0_722"
+			{
+				"gid" "8455990997767620657"
+				"size" "1350833555"
+				"download" "384303280"
+			}
+			"z_historical_0_816"
+			{
+				"gid" "1331513140740699409"
+				"size" "1583262671"
+				"download" "418517648"
+			}
+			"z_historical_2_618"
+			{
+				"gid" "2594799836546712151"
+				"size" "2531936104"
+				"download" "810661968"
+			}
+		}
+	}
+	"573414"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4831242128098227591"
+				"size" "1944378091"
+				"download" "523082048"
+			}
+			"most_recent_stable"
+			{
+				"gid" "6497381673481877406"
+				"size" "1944377067"
+				"download" "523082000"
+			}
+			"y_historical_3_309"
+			{
+				"gid" "3579357659134901963"
+				"size" "1801964111"
+				"download" "509848592"
+			}
+			"z_historical_0_104"
+			{
+				"gid" "3512593937194739363"
+				"size" "989725869"
+				"download" "279909936"
+			}
+			"z_historical_0_112"
+			{
+				"gid" "1596025176884293414"
+				"size" "863373598"
+				"download" "263698384"
+			}
+			"z_historical_0_123"
+			{
+				"gid" "8194388119807058031"
+				"size" "1223670745"
+				"download" "314726576"
+			}
+			"z_historical_0_301"
+			{
+				"gid" "1353326186959511325"
+				"size" "1279507162"
+				"download" "303326368"
+			}
+			"z_historical_0_722"
+			{
+				"gid" "2404169912924934725"
+				"size" "1378946716"
+				"download" "392888592"
+			}
+			"z_historical_0_816"
+			{
+				"gid" "1180150529899841552"
+				"size" "1569835747"
+				"download" "415696256"
+			}
+			"z_historical_2_618"
+			{
+				"gid" "4165627895877830770"
+				"size" "2420772398"
+				"download" "795687632"
+			}
+		}
+	}
+	"573415"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1427973175950837124"
+				"size" "734835620"
+				"download" "282406512"
+			}
+			"most_recent_stable"
+			{
+				"gid" "756660848640484848"
+				"size" "734833572"
+				"download" "282406736"
+			}
+			"y_historical_3_309"
+			{
+				"gid" "401194312136011404"
+				"size" "645100351"
+				"download" "231876720"
+			}
+			"z_historical_0_104"
+			{
+				"gid" "8042644600796908643"
+				"size" "731827605"
+				"download" "258631056"
+			}
+			"z_historical_0_112"
+			{
+				"gid" "8042644600796908643"
+				"size" "731827605"
+				"download" "258631056"
+			}
+			"z_historical_0_123"
+			{
+				"gid" "8042644600796908643"
+				"size" "731827605"
+				"download" "258631056"
+			}
+			"z_historical_0_301"
+			{
+				"gid" "8042644600796908643"
+				"size" "731827605"
+				"download" "258631056"
+			}
+			"z_historical_0_722"
+			{
+				"gid" "1237340021441650814"
+				"size" "303872452"
+				"download" "165248784"
+			}
+			"z_historical_0_816"
+			{
+				"gid" "6841344798663973607"
+				"size" "330102339"
+				"download" "143933408"
+			}
+			"z_historical_2_618"
+			{
+				"gid" "920337802414683116"
+				"size" "499158865"
+				"download" "213762816"
+			}
+		}
+	}
+	"1196420"
+	{
+		"dlcappid" "1196420"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2791241300405356695"
+				"size" "1399212407"
+				"download" "217523232"
+			}
+			"most_recent_stable"
+			{
+				"gid" "2791241300405356695"
+				"size" "1399212407"
+				"download" "217523232"
+			}
+			"y_historical_3_309"
+			{
+				"gid" "8736200463206836133"
+				"size" "1280591004"
+				"download" "197135936"
+			}
+			"z_historical_0_104"
+			{
+				"gid" "8556516009791859187"
+				"size" "2233403328"
+				"download" "339495040"
+			}
+			"z_historical_0_112"
+			{
+				"gid" "8556516009791859187"
+				"size" "2233403328"
+				"download" "339495040"
+			}
+			"z_historical_0_123"
+			{
+				"gid" "8556516009791859187"
+				"size" "2233403328"
+				"download" "339495040"
+			}
+			"z_historical_0_301"
+			{
+				"gid" "8556516009791859187"
+				"size" "2233403328"
+				"download" "339495040"
+			}
+			"z_historical_0_722"
+			{
+				"gid" "8556516009791859187"
+				"size" "2233403328"
+				"download" "339495040"
+			}
+			"z_historical_0_816"
+			{
+				"gid" "8556516009791859187"
+				"size" "2233403328"
+				"download" "339495040"
+			}
+			"z_historical_2_618"
+			{
+				"gid" "5449563195862297391"
+				"size" "2233402403"
+				"download" "339495248"
+			}
+		}
+	}
+	"1290340"
+	{
+		"dlcappid" "1290340"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1659083308377204914"
+				"size" "2437988323"
+				"download" "346014000"
+			}
+			"most_recent_stable"
+			{
+				"gid" "1659083308377204914"
+				"size" "2437988323"
+				"download" "346014000"
+			}
+			"y_historical_3_309"
+			{
+				"gid" "8396957239646919580"
+				"size" "1668405520"
+				"download" "220258976"
+			}
+			"z_historical_0_104"
+			{
+				"gid" "2529105820027352414"
+				"size" "40051028"
+				"download" "12978208"
+			}
+			"z_historical_0_112"
+			{
+				"gid" "2529105820027352414"
+				"size" "40051028"
+				"download" "12978208"
+			}
+			"z_historical_0_123"
+			{
+				"gid" "2529105820027352414"
+				"size" "40051028"
+				"download" "12978208"
+			}
+			"z_historical_0_301"
+			{
+				"gid" "2529105820027352414"
+				"size" "40051028"
+				"download" "12978208"
+			}
+			"z_historical_0_722"
+			{
+				"gid" "2529105820027352414"
+				"size" "40051028"
+				"download" "12978208"
+			}
+			"z_historical_0_816"
+			{
+				"gid" "2529105820027352414"
+				"size" "40051028"
+				"download" "12978208"
+			}
+			"z_historical_2_618"
+			{
+				"gid" "7807064585553225896"
+				"size" "39528240"
+				"download" "12777008"
+			}
+		}
+	}
+	"1466780"
+	{
+		"dlcappid" "1466780"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3631543050311649399"
+				"size" "2261841667"
+				"download" "250055264"
+			}
+			"most_recent_stable"
+			{
+				"gid" "5045432910796361955"
+				"size" "2261841634"
+				"download" "250055264"
+			}
+			"y_historical_3_309"
+			{
+				"gid" "1543773710425727408"
+				"size" "652481"
+				"download" "224080"
+			}
+			"z_historical_0_104"
+			{
+				"gid" "5543470056554217268"
+				"size" "90904"
+				"download" "18944"
+			}
+			"z_historical_0_112"
+			{
+				"gid" "5543470056554217268"
+				"size" "90904"
+				"download" "18944"
+			}
+			"z_historical_0_123"
+			{
+				"gid" "5543470056554217268"
+				"size" "90904"
+				"download" "18944"
+			}
+			"z_historical_0_301"
+			{
+				"gid" "5543470056554217268"
+				"size" "90904"
+				"download" "18944"
+			}
+			"z_historical_0_722"
+			{
+				"gid" "5543470056554217268"
+				"size" "90904"
+				"download" "18944"
+			}
+			"z_historical_0_816"
+			{
+				"gid" "5543470056554217268"
+				"size" "90904"
+				"download" "18944"
+			}
+			"z_historical_2_618"
+			{
+				"gid" "687553302010245423"
+				"size" "48349"
+				"download" "11488"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13067962"
+			"timeupdated" "1703983446"
+		}
+		"most_recent_stable"
+		{
+			"buildid" "12956278"
+			"description" "A \'safe recent\' version of the game that we know is good.  If you have problems with the default build, you can always drop back to this."
+			"timeupdated" "1703168667"
+		}
+		"y_historical_3_309"
+		{
+			"buildid" "7018913"
+			"description" "Release 3.309.  Last version before the Great Refactor."
+			"timeupdated" "1644104725"
+		}
+		"z_historical_0_104"
+		{
+			"buildid" "6421233"
+			"description" "Alpha v0.104"
+			"timeupdated" "1616436785"
+		}
+		"z_historical_0_112"
+		{
+			"buildid" "6421299"
+			"description" "Alpha v0.112"
+			"timeupdated" "1616437311"
+		}
+		"z_historical_0_123"
+		{
+			"buildid" "6421304"
+			"description" "Alpha v0.123"
+			"timeupdated" "1616437357"
+		}
+		"z_historical_0_301"
+		{
+			"buildid" "6421351"
+			"description" "Alpha v0.301"
+			"timeupdated" "1616437859"
+		}
+		"z_historical_0_722"
+		{
+			"buildid" "6421359"
+			"description" "Alpha v0.722 (or 0.743\?) - Last version before The Pivot"
+			"timeupdated" "1616437916"
+		}
+		"z_historical_0_816"
+		{
+			"buildid" "6421366"
+			"description" "Alpha v0.816 - Last version before Fleets"
+			"timeupdated" "1616437984"
+		}
+		"z_historical_2_618"
+		{
+			"buildid" "5837239"
+			"description" "Release 2.618 - Last version before the new UI."
+			"timeupdated" "1616438297"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "PlayerData"
+			"pattern" "*.dat"
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "PlayerData"
+			"pattern" "*.bak"
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "PlayerData/Profiles"
+			"pattern" "*.aiwprof"
+			"recursive" "1"
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "PlayerData/Save"
+			"pattern" "*.save"
+			"recursive" "1"
+		}
+		"4"
+		{
+			"root" "gameinstall"
+			"path" "PlayerData/Save"
+			"pattern" "*.savemet"
+			"recursive" "1"
+		}
+		"5"
+		{
+			"root" "gameinstall"
+			"path" "PlayerData/Save"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21716255"
+"_sha" "7d4b6ea51e7133596ae274ab1df380802888af16"
+"_size" "16765"
