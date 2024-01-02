@@ -1,0 +1,161 @@
+"appid" "556450"
+"common"
+{
+	"name" "The Forest Dedicated Server"
+	"type" "Tool"
+	"parent" "242760"
+	"clienttga" "527ab4478abf14d924f771f8c1ff3ee3b430f774"
+	"clienticon" "e32c68d02e346fe27b0ac7671fc3b5c9ebf031af"
+	"icon" "3cce6bda43309dd6ca378b8367330b902f872ce3"
+	"oslist" "windows"
+	"osarch" ""
+	"logo" "d249fb63d7b82b8b412c4a2ebf070ac90c69fbd5"
+	"logo_small" "d249fb63d7b82b8b412c4a2ebf070ac90c69fbd5_thumb"
+	"releasestate" "released"
+	"associations"
+	{
+	}
+	"gameid" "556450"
+}
+"extended"
+{
+	"gamedir" "The Forest"
+	"serverbrowsername" "The Forest"
+}
+"config"
+{
+	"installdir" "TheForestDedicatedServer"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TheForestDedicatedServer.exe"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"556451"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6352551090763174807"
+				"size" "1697629777"
+				"download" "1143833680"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ds_beta_testing"
+			{
+				"gid" "A5E6411BF9FF903822E0B4A9833C84AF"
+				"size" "478B76AB9452B380BDFB466158F7337A"
+				"download" "D61F5B2078DF769667C07EF2173E2FC1"
+			}
+			"ds_test"
+			{
+				"gid" "1ACC80D2776935A55DE2FD7AAF343F68"
+				"size" "32E987B608BB7421877C2EEDAF7FEFEB"
+				"download" "347386C4130DFF359F42B96F5B019FBE"
+			}
+			"v0.60_branch"
+			{
+				"gid" "F926C3F0C669BC4217159F5260AA0C8E"
+				"size" "07060B84FE41E3036EEB29DA6409E035"
+				"download" "C81402F4B4996F543C9A1EE65E717F80"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3488796"
+			"timeupdated" "1548266964"
+		}
+		"ds_beta_testing"
+		{
+			"buildid" "4123733"
+			"pwdrequired" "1"
+			"timeupdated" "1566333298"
+		}
+		"ds_test"
+		{
+			"buildid" "3488796"
+			"pwdrequired" "1"
+			"timeupdated" "1548266975"
+		}
+		"v0.60_branch"
+		{
+			"buildid" "1799947"
+			"pwdrequired" "1"
+			"timeupdated" "1495149748"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20307700"
+"_sha" "5c8d477dec1dc29b2ed8c28a22d5957024ffc745"
+"_size" "2689"
