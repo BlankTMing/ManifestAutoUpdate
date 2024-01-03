@@ -1,0 +1,447 @@
+"appid" "758330"
+"common"
+{
+	"name" "Shenmue I & II"
+	"type" "Game"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"koreana" "1"
+		"schinese" "1"
+		"tchinese" "1"
+	}
+	"oslist" "windows"
+	"osarch" ""
+	"clienticon" "a29c591d967c2e55cee4d4beb468c163c8143757"
+	"clienttga" "05c8f00253b504f6ade613d96886625468718a38"
+	"icon" "6d99da3c90adf6f4e54e41f26d119ba2c42f1c0b"
+	"logo" "42d936ea0b536dc9269aaeef125ae427fe1711ac"
+	"logo_small" "42d936ea0b536dc9269aaeef125ae427fe1711ac_thumb"
+	"releasestate" "released"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "758330_eula_0"
+			"name" "Shenmue I & II EULA"
+			"url" "https://store.steampowered.com//eula/758330_eula_0"
+		}
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1647302400"
+		"tested_build_id" "3291213"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Shenmue I &amp;amp; II"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "50"
+			"height_pct" "87.90440705659992"
+		}
+	}
+	"store_asset_mtime" "1632429547"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "D3T"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SEGA"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_22" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"full_audio" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1534859793"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "758330"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "1695"
+		"2" "1742"
+		"3" "6915"
+		"4" "1693"
+		"5" "19"
+		"6" "122"
+		"7" "4166"
+		"8" "1743"
+		"9" "4559"
+		"10" "1756"
+		"11" "7782"
+		"12" "4182"
+		"13" "4004"
+		"14" "4434"
+		"15" "3965"
+		"16" "1697"
+		"17" "4158"
+		"18" "599"
+		"19" "4085"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "D3T"
+	"publisher" "SEGA"
+	"homepage" "https://shenmue.sega.com/"
+}
+"config"
+{
+	"installdir" "SMLaunch"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SteamLauncher.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "SteamLauncher.exe"
+			"arguments" "debug"
+			"description" "Launch game with debug features enabled"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "qa_debug "
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"1546770114"
+		{
+			"controller_type" "controller_xbox360"
+			"enabled_branches" "default,beta,development,qa_debug,qa_staging"
+		}
+		"1546774109"
+		{
+			"controller_type" "controller_ps4"
+			"enabled_branches" "default,beta,development,qa_debug,qa_staging"
+		}
+	}
+	"steamconfigurator3rdpartynative" "77"
+}
+"depots"
+{
+	"baselanguages" "english,german,french,koreana,schinese,tchinese"
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"758332"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2953351546760814442"
+				"size" "12947060059"
+				"download" "6001306736"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"babel"
+			{
+				"gid" "0261F926980B6125A1FD57EE3CEBD98A"
+				"size" "388CF1235FD91AE4D9C93DE9E6BB2D6F"
+				"download" "5891CEEFC5176A6D2C261243C1FF208C"
+			}
+			"beta"
+			{
+				"gid" "452C4731B28E307A35DEB1E6113ADD9A"
+				"size" "A8DCC6DCB5C125031CE80AC9C8289938"
+				"download" "4E4F69D6BDBDE7C0355D61540A270F3B"
+			}
+			"development"
+			{
+				"gid" "3F5F1300E263B92AA9626B6F722D8B6B"
+				"size" "298E9AE5E07AE561A27850F564553412"
+				"download" "083F8E5AD3B8BF7D6C197236D7B66624"
+			}
+			"ichi"
+			{
+				"gid" "779D5BA3387C2FE6D630D8B0A2EA28EC"
+				"size" "853C39BB4D821E5E7DC7853C6DE6BE77"
+				"download" "723FEE1806022EB5461D3DC7E4DC1EB2"
+			}
+			"internalqa"
+			{
+				"gid" "956B8426563F3E79C503A82479389FF7"
+				"size" "6D62E119722D70A6475BEC23AA1A2655"
+				"download" "A370A7C695C13F7ABB7ED97CB26769F6"
+			}
+			"lqa_main"
+			{
+				"gid" "8E39E6D776749A366B765E683E321D42"
+				"size" "A599FC1F0A53974D08B8EEBFF078E5E1"
+				"download" "211BE336691FACAE196799C7E11EC8D6"
+			}
+			"nvidia"
+			{
+				"gid" "B5567EA4E4F81356C0E0832B57D712D3"
+				"size" "86A93DF4065DD50F130B0D12608622D9"
+				"download" "5AA11D3537F8A48C6370EF9FDA557F84"
+			}
+			"old_test"
+			{
+				"gid" "C230B47FA874FD2E79C8977366504407"
+				"size" "4446BE03E1D090BB416D0675BC5EFC01"
+				"download" "FCD39DEA8020993D4364B734F66EB3DA"
+			}
+			"pc_rtm"
+			{
+				"gid" "C802ABBD04A740D8CB654A0E7D432520"
+				"size" "112AC411E75FC31D66BD0A0153B8E4B7"
+				"download" "3AE04325163B9A530A6D63C68177C241"
+			}
+			"qa_debug"
+			{
+				"gid" "5B211E3907991378A53EF74BA0A4E61C"
+				"size" "72CF94D8393255A0B3848F57748165F2"
+				"download" "12205A81D287E4E4B879852EF623855C"
+			}
+			"qa_main"
+			{
+				"gid" "8193AF786EDC62B18D3D71876AFD8030"
+				"size" "ACA3356F6F5F3F710A280127D37DA1A4"
+				"download" "D3B6795FA464D3C00F3F575B700245B5"
+			}
+			"qa_staging"
+			{
+				"gid" "DA92DF2E36439E5914F0ECA05B9D8E49"
+				"size" "C1DAEA611BBA18F5CFFE322D47120B42"
+				"download" "215CBC4C697B7968AE85B8C5E07E59F6"
+			}
+			"qa_staging_nd"
+			{
+				"gid" "8247E20D174ECBD7569C19C9CCBAF711"
+				"size" "43968AFF576FF9C0F36561D9F13501AA"
+				"download" "52A60058762353AD87C1FCF2142064DB"
+			}
+			"rollback_test"
+			{
+				"gid" "04AB92385F981F631D90ACE89CC0EA91"
+				"size" "C466649F0B6D9C4FEADD0DD2324AE58D"
+				"download" "AD08E3FDBBC565F31DA041EEB12022D1"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3291213"
+			"timeupdated" "1542279535"
+		}
+		"babel"
+		{
+			"buildid" "2615141"
+			"pwdrequired" "1"
+			"timeupdated" "1524730397"
+		}
+		"beta"
+		{
+			"buildid" "3245927"
+			"pwdrequired" "1"
+			"timeupdated" "1540478110"
+		}
+		"development"
+		{
+			"buildid" "3291213"
+			"pwdrequired" "1"
+			"timeupdated" "1541750336"
+		}
+		"ichi"
+		{
+			"buildid" "2615141"
+			"pwdrequired" "1"
+			"timeupdated" "1523303816"
+		}
+		"internalqa"
+		{
+			"buildid" "2561086"
+			"pwdrequired" "1"
+			"timeupdated" "1519810353"
+		}
+		"lqa_main"
+		{
+			"buildid" "2981365"
+			"pwdrequired" "1"
+			"timeupdated" "1532680678"
+		}
+		"nvidia"
+		{
+			"buildid" "2981365"
+			"pwdrequired" "1"
+			"timeupdated" "1532690369"
+		}
+		"old_test"
+		{
+			"buildid" "2615141"
+			"pwdrequired" "1"
+			"timeupdated" "1521473548"
+		}
+		"pc_rtm"
+		{
+			"buildid" "2981365"
+			"pwdrequired" "1"
+			"timeupdated" "1532934473"
+		}
+		"qa_debug"
+		{
+			"buildid" "3291221"
+			"pwdrequired" "1"
+			"timeupdated" "1541752077"
+		}
+		"qa_main"
+		{
+			"buildid" "3013624"
+			"pwdrequired" "1"
+			"timeupdated" "1533724097"
+		}
+		"qa_staging"
+		{
+			"buildid" "3291213"
+			"pwdrequired" "1"
+			"timeupdated" "1541752059"
+		}
+		"qa_staging_nd"
+		{
+			"buildid" "3051162"
+			"pwdrequired" "1"
+			"timeupdated" "1534857356"
+		}
+		"rollback_test"
+		{
+			"buildid" "3027460"
+			"pwdrequired" "1"
+			"timeupdated" "1535049365"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+}
+"_missing_token" "False"
+"_change_number" "21543789"
+"_sha" "f739844eb9c5e8ae2ef64da4129b0c4fdd7cc53d"
+"_size" "8719"
