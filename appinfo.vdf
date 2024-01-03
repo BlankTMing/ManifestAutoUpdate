@@ -1,0 +1,483 @@
+"appid" "224900"
+"common"
+{
+	"name" "Iron Sky Invasion"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"clienticon" "7de43d86b9f8c2e9fded7483fc97ed4aaaf992ad"
+	"clienttga" "8bff8e702a961de16613926359e483a02e59e208"
+	"icon" "9d155fbaeb27c40be3fac8be055dff5f608aea40"
+	"clienticns" "4bc3b3d084b68d7ca1524bcdb18abe3bff287bc2"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"polish" "1"
+		"czech" "1"
+	}
+	"logo" "136e6ca0b6bb535a3f85831c02b052f5fbc46c96"
+	"logo_small" "136e6ca0b6bb535a3f85831c02b052f5fbc46c96_thumb"
+	"releasestate" "released"
+	"osarch" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1652227200"
+		"tested_build_id" "1528445"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Iron Sky"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "27.621483375959087"
+			"height_pct" "79.16666666666666"
+		}
+	}
+	"store_asset_mtime" "1577615652"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Reality Pump"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Topware Interactive"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "1"
+		"1" "28"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_22" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "1"
+		}
+		"italian"
+		{
+			"supported" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+		}
+		"czech"
+		{
+			"supported" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+		}
+	}
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "224900"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "19"
+		"2" "9"
+		"3" "1755"
+		"4" "3942"
+		"5" "18594"
+		"6" "1719"
+		"7" "4136"
+	}
+	"review_score" "5"
+	"review_percentage" "58"
+}
+"extended"
+{
+	"developer" "Reality Pump"
+	"gamedir" "ValveTestApp224900"
+	"homepage" "http://www.ironskyinvasion.com/"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"installscript_macos" "IronSky.app/installscript_osx.vdf"
+	"languages" "english,french,italian,german,spanish,polish,czech"
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Topware Interactive"
+	"gamemanualurl" "https://store.steampowered.com/manual/224900/"
+	"listofdlc" "234860,234880,547430"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Iron Sky Invasion"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ISI_DX11.exe"
+			"description" "DirectX 11"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "IronSky.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "ISI_DX9.exe"
+			"description" "Iron Sky Invasion - Compatibility Mode (DX9)"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "RunGame"
+			"description" "Iron Sky Invasion"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigfileids" "794649571"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" "english,french,italian,german,spanish,polish,czech"
+	"markdlcdepots" "1"
+	"224901"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6507087421960205075"
+				"size" "1004552165"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devcomp"
+			{
+				"gid" "78B9AA982E1307DA09A5C791531CEB80"
+				"size" "E8FA5DF875587CC9C0581060CB5FB2BF"
+				"download" "F3B4422093B085E2AA6DCC4E2AE4FC90"
+			}
+		}
+	}
+	"224902"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "592363623320408524"
+				"size" "1010126023"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devcomp"
+			{
+				"gid" "2DC0F814147A8FBDB7369EA40945CBB8"
+				"size" "8DAC40AB5990388D5B646A9EA95C0DA7"
+				"download" "F3B4422093B085E2AA6DCC4E2AE4FC90"
+			}
+		}
+	}
+	"234860"
+	{
+		"dlcappid" "234860"
+	}
+	"234861"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5362535430921945998"
+				"size" "71235"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devcomp"
+			{
+				"gid" "FE305D92A10FC5A2967DBAC0D36CACCD"
+				"size" "70197D43DFDEA9FC25F8804C2F20B3C8"
+				"download" "F3B4422093B085E2AA6DCC4E2AE4FC90"
+			}
+		}
+	}
+	"234862"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1914682064002682027"
+				"size" "71498"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devcomp"
+			{
+				"gid" "39C7ADE29CD41A76EA4E0821ECC36BB9"
+				"size" "46AA3E3D7986DED239C97D612B8B587A"
+				"download" "F3B4422093B085E2AA6DCC4E2AE4FC90"
+			}
+		}
+	}
+	"234863"
+	{
+		"dlcappid" "234860"
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3440986534440184707"
+				"size" "71235"
+				"download" "46624"
+			}
+		}
+	}
+	"234880"
+	{
+		"dlcappid" "234880"
+	}
+	"234881"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2562299625684220144"
+				"size" "478069"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devcomp"
+			{
+				"gid" "C871ED69B69E9E33FDBEC57F17D0A36E"
+				"size" "45EDC218E190B6BDB1EBE0850C076EF5"
+				"download" "F3B4422093B085E2AA6DCC4E2AE4FC90"
+			}
+		}
+	}
+	"234882"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2843881263907163985"
+				"size" "478069"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devcomp"
+			{
+				"gid" "FAC118C98DDE136D72E2136FCBCD0A68"
+				"size" "45EDC218E190B6BDB1EBE0850C076EF5"
+				"download" "F3B4422093B085E2AA6DCC4E2AE4FC90"
+			}
+		}
+	}
+	"234883"
+	{
+		"dlcappid" "234880"
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2858625228801127683"
+				"size" "478069"
+				"download" "20240"
+			}
+		}
+	}
+	"547430"
+	{
+		"dlcappid" "547430"
+	}
+	"224903"
+	{
+		"dlcappid" "547430"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8818208149706748238"
+				"size" "1409892479"
+				"download" "1337810304"
+			}
+		}
+	}
+	"224904"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2197544404983240382"
+				"size" "1685544305"
+				"download" "1168578512"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1528445"
+			"timeupdated" "1484924466"
+		}
+		"devcomp"
+		{
+			"buildid" "161675"
+			"pwdrequired" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20225606"
+"_sha" "49c52b61f342b471aaefb5c59aef67a47c6a0f11"
+"_size" "8272"
