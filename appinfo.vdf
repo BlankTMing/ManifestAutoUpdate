@@ -1,0 +1,380 @@
+"appid" "548080"
+"common"
+{
+	"name" "Space Merchants: Arena"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"languages"
+	{
+		"english" "1"
+		"czech" "1"
+	}
+	"logo" "c503f6997fd3df40ba2212ae61c0e82b0c62181e"
+	"logo_small" "c503f6997fd3df40ba2212ae61c0e82b0c62181e_thumb"
+	"icon" "ab44bb6f8b156e14e8ca6e8420dc6f6c67de1f88"
+	"clienticon" "25c62b18284a5e71f92387270280952966da06e2"
+	"clienttga" "b59de25c48657e4ee1ebbc9368aa081bdb169b48"
+	"clienticns" "871d8538718c153440783e5e2b983d8dddef92bf"
+	"linuxclienticon" "5831e035a29ae29b7428106cd3a7f29c3357625e"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+		"xinput" "1"
+		"kbm" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+	}
+	"osvrsupport" "1"
+	"openvrsupport" "1"
+	"metacritic_name" "Space Merchants: Arena"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1639512973"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Playito.com"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Playito.com"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Tilt Five"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+		"3" "29"
+		"4" "3"
+		"5" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_36" "1"
+		"category_38" "1"
+		"category_27" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_18" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_9" "1"
+		"category_52" "1"
+		"category_53" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1478267355"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "548080"
+	"store_tags"
+	{
+		"0" "5547"
+		"1" "3813"
+		"2" "1755"
+		"3" "1775"
+		"4" "7926"
+		"5" "3968"
+		"6" "4202"
+		"7" "1774"
+		"8" "16598"
+		"9" "122"
+		"10" "21978"
+		"11" "4191"
+		"12" "3839"
+		"13" "1697"
+		"14" "4115"
+		"15" "7481"
+		"16" "19"
+		"17" "597"
+		"18" "599"
+		"19" "4236"
+	}
+	"review_score" "5"
+	"review_percentage" "68"
+}
+"extended"
+{
+	"developer" "Playito.com"
+	"publisher" "Playito.com"
+	"homepage" "http://playito.com/space-merchants-arena/"
+}
+"config"
+{
+	"installdir" "Space Merchants Arena"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SMA.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "Desktop version"
+			}
+			"description" "Desktop version"
+		}
+		"1"
+		{
+			"executable" "SMA.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Space Merchants: Arena (PC Windows)"
+			}
+			"description" "Space Merchants: Arena (PC Windows)"
+		}
+		"2"
+		{
+			"executable" "SMA.x86"
+			"description" "Space Merchants: Arena"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "SMAVR.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "VR version"
+			}
+			"description" "VR version"
+		}
+		"4"
+		{
+			"executable" "SMAVR.app"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "Space Merchants: Arena - SteamVR"
+			}
+			"description" "Space Merchants: Arena - SteamVR"
+		}
+		"5"
+		{
+			"executable" "SMAVR.x86"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "Space Merchants: Arena - SteamVR"
+			}
+			"description" "Space Merchants: Arena - SteamVR"
+		}
+		"6"
+		{
+			"executable" "SMAT5.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Tilt Five™ tabletop AR version"
+			}
+			"description" "Tilt Five™ tabletop AR version"
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229001"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"548081"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3950155538850438639"
+				"size" "709775635"
+				"download" "107846720"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"t5beta"
+			{
+				"gid" "B85A1DFE4A715BB174DCC8F443E7D20A"
+				"size" "D09A6E992BE344CFB966545AEAF732CD"
+				"download" "3C33AA03E8EFBEC1F513B874F9EA998B"
+			}
+		}
+	}
+	"548082"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1673596142223807846"
+				"size" "528985076"
+				"download" "143050416"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"t5beta"
+			{
+				"gid" "1ED4891288F6841B2FFFED73DB190D55"
+				"size" "F0A61F5E473581140117F2D436E70568"
+				"download" "0FFC8E350D9FFFF10C66F27B953C7040"
+			}
+		}
+	}
+	"548083"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3944186603041872360"
+				"size" "482901090"
+				"download" "135731968"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"t5beta"
+			{
+				"gid" "1651B939B2F3590D15EC4BE4789C0319"
+				"size" "0FE6E25833EC486DC64182E31046F6C3"
+				"download" "ECEE56B7F6DCA2F1AF4BE932F773C21D"
+			}
+		}
+	}
+	"baselanguages" "english,czech"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "7894098"
+			"timeupdated" "1639650540"
+		}
+		"t5beta"
+		{
+			"buildid" "7861169"
+			"pwdrequired" "1"
+			"timeupdated" "1639130357"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21720709"
+"_sha" "204d140deee40e2f737af232c39316cff2d3ef12"
+"_size" "6341"
