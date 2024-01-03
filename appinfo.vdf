@@ -1,0 +1,91 @@
+"appid" "629"
+"common"
+{
+	"name" "Portal 2 Authoring Tools"
+	"type" "Tool"
+	"gameid" "629"
+}
+"extended"
+{
+	"developer" "Valve"
+	"disableoverlay" "1"
+	"gamedir" "valve"
+	"homepage" "http://developer.valvesoftware.com"
+	"icon" ""
+	"noservers" "1"
+	"order" "20"
+	"primarycache" "629"
+	"state" "eStateTool"
+}
+"config"
+{
+	"usemms" ""
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bin\\sdklauncher.exe"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Portal 2"
+}
+"depots"
+{
+	"629"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "780654472080164614"
+				"size" "119278071"
+				"download" "32430656"
+			}
+			"beta"
+			{
+				"gid" "780654472080164614"
+				"size" "119278071"
+				"download" "32430656"
+			}
+			"limited_beta"
+			{
+				"gid" "1795810647766109820"
+				"size" "118928983"
+				"download" "32132432"
+			}
+		}
+	}
+	"621"
+	{
+		"systemdefined" "1"
+		"depotfromapp" "620"
+		"sharedinstall" "2"
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11097534"
+			"timeupdated" "1682532500"
+		}
+		"beta"
+		{
+			"buildid" "11097534"
+			"description" "Beta branch"
+			"timeupdated" "1682530627"
+		}
+		"limited_beta"
+		{
+			"buildid" "6625374"
+			"description" "Preview beta, use at your own risk"
+			"timeupdated" "1619748335"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20463396"
+"_sha" "86c2128d815ea3246cc36a57ccbb07bac4384b10"
+"_size" "1392"
