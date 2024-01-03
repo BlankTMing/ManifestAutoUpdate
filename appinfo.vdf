@@ -1,0 +1,360 @@
+"appid" "214170"
+"common"
+{
+	"name" "Divine Divinity"
+	"type" "Game"
+	"logo" "1b8e78e613544e01b2df4756fdd62266c2fb306e"
+	"logo_small" "1b8e78e613544e01b2df4756fdd62266c2fb306e_thumb"
+	"icon" "3c998935a3614a463b4af6f02b856ea80a7550f1"
+	"clienttga" "09c1e86a2a277c565915fc1dd0e1efb680867756"
+	"clienticon" "e85f1761e65b7780abbf1fa5e4226d3d8f7c36dc"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"russian" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1661472000"
+		"tested_build_id" "61130"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Divine Divinity"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1568727194"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Larian Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Larian Studios"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"original_release_date" "1032505200"
+	"steam_release_date" "1341507000"
+	"metacritic_score" "81"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/divine-divinity\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "214170"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "1684"
+		"2" "5851"
+		"3" "1693"
+		"4" "4231"
+		"5" "4182"
+		"6" "1695"
+		"7" "7107"
+		"8" "1646"
+		"9" "21"
+		"10" "4474"
+		"11" "3834"
+		"12" "3871"
+		"13" "19"
+		"14" "1742"
+		"15" "4166"
+		"16" "1756"
+		"17" "7208"
+		"18" "4136"
+		"19" "7782"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"developer" "Larian Studios"
+	"gamedir" "Divine Divinity"
+	"homepage" "http://larian.com/divinedivinity.php"
+	"icon" ""
+	"languages" "english,german,french,russian"
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Larian Studios"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "divine_divinity"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "div.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "configtool.exe"
+			"description" "Configure"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptsignature" "3d095e0e7b12001d4939fcae79689a465338955f675ee635bdbb2869c3828ebef61de6f74a4d5f18e8b4fc72f237235082f951be27497fc72a85b7b365de05531f9e1f7a3e8eb4ab8dbe8cfa90d79b17d09a991ff2860b3255ba46689c4bffa7a87a6cfafe180bbb027d862989930ca3c2168e26fec5fd2f00141b6ea8dac638"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"configuration"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214170"
+			"process 1" "%INSTALLDIR%\\configtool.exe"
+			"command 1" ""
+			"nocleanup" "0"
+		}
+	}
+}
+"depots"
+{
+	"214170"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5194937154695120905"
+				"size" "2306662069"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "7438293150494626372"
+				"size" "2367793743"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "3C649155B9E9A3D257A0DC032A87A30C"
+				"size" "29F630D6B13B687DCAD1FFAAE2C584C4"
+				"download" "D3F389BD590448387AA889780B49D7AF"
+			}
+		}
+	}
+	"214172"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "820071816460708874"
+				"size" "165806194"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "0663D77D6F6EC9F952269DD0FC760FB5"
+				"size" "D3DBE8287E70B43144AECE441AE9310A"
+				"download" "D3F389BD590448387AA889780B49D7AF"
+			}
+		}
+	}
+	"214171"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8575482005895744817"
+				"size" "196815870"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "CC2D851EEB9BCBC189AF020558CEE985"
+				"size" "4A813C5CAFA7E8768CA5EB18177D3FF6"
+				"download" "D3F389BD590448387AA889780B49D7AF"
+			}
+		}
+	}
+	"214173"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8613540334830051408"
+				"size" "172662153"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "F1DAF8F0B82E92938CA6B9B21C10D063"
+				"size" "CE356F7812D1CB651EB2A74820C0687D"
+				"download" "D3F389BD590448387AA889780B49D7AF"
+			}
+		}
+	}
+	"214174"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8953207741448160191"
+				"size" "328718643"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "2D35283AA5CE6BAFA3D916CA7FF0C922"
+				"size" "96F74D70E25EE11469627B5F08154645"
+				"download" "D3F389BD590448387AA889780B49D7AF"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"baselanguages" "english,german,french,russian"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "61130"
+		}
+		"beta"
+		{
+			"buildid" "60862"
+			"pwdrequired" "1"
+		}
+		"local"
+		{
+			"buildid" "4137"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21400495"
+"_sha" "d33604b468e91b1aec808fe8f0a55cb5edad561c"
+"_size" "6549"
