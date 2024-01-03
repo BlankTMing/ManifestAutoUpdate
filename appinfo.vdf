@@ -1,0 +1,222 @@
+"appid" "831570"
+"common"
+{
+	"name" "Isoland"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "78ce7ddbc9a506420feb94aca8de6b12cdf81df5"
+	"logo_small" "78ce7ddbc9a506420feb94aca8de6b12cdf81df5_thumb"
+	"icon" "214947fe929cfe2eb747ba530e4a0a18999488c3"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"clienticon" "8c641039a00fb95df3be55f763d0052d82fdf120"
+	"clienttga" "9bea9eca75de94ac99c5d0b7e48a105f324224de"
+	"clienticns" "3cef420c2b47b3baae92c947088857a3d6fa2864"
+	"metacritic_name" "Isoland"
+	"small_capsule"
+	{
+		"schinese" "capsule_231x87_schinese.jpg"
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"schinese" "header_schinese.jpg"
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1523847637"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Cotton Game"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Lilith Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1525227929"
+	"community_hub_visible" "1"
+	"gameid" "831570"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "1664"
+		"3" "1698"
+	}
+	"review_score" "8"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"developer" "Cotton Game"
+	"publisher" "Lilith Games"
+}
+"config"
+{
+	"installdir" "Isoland"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Isoland.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Isoland.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"831571"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4790967311198179569"
+				"size" "813157582"
+				"download" "158477008"
+			}
+		}
+	}
+	"831572"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5914710203653634445"
+				"size" "824337523"
+				"download" "160463424"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2923459"
+			"timeupdated" "1530854763"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10485760"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "CottonGame/Isoland_Steam/savedatas"
+			"pattern" "*.sav"
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "unity.CottonGame.Isoland_Steam/savedatas"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "CottonGame/Isoland_Steam/savedatas"
+					"replace" "CottonGame/Isoland_Steam/savedatas"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18821630"
+"_sha" "339e2e18324f746a4f5b1c5db0adf3c59c329248"
+"_size" "3424"
