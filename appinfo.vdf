@@ -1,0 +1,262 @@
+"appid" "512740"
+"common"
+{
+	"name" "Flat Path"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "954ed4ddfea51319fe2a02b9c801d769e229c464"
+	"logo_small" "954ed4ddfea51319fe2a02b9c801d769e229c464_thumb"
+	"clienticon" "8266170dc66137d5220c183f60c5758cc9992304"
+	"clienttga" "6d70832f9c5967de0386c0917a47e3c9cf22039b"
+	"icon" "82c881cb0125fb662e9b573815e7be57be129f1a"
+	"clienticns" "57950dc92bbb8f9a2370a75433a950a428ca5328"
+	"linuxclienticon" "529ee6510bb0f1987ebaf2cb1abd8ed90df6ac70"
+	"releasestate" "released"
+	"metacritic_name" "Flat Path"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "37.85749286438999"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1572982014"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "GooDCrafter"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "GooDCrafter"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_28" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1472024458"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "512740"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "597"
+		"2" "1664"
+		"3" "1654"
+		"4" "4094"
+		"5" "4182"
+		"6" "1756"
+		"7" "1773"
+		"8" "3871"
+		"9" "4305"
+		"10" "4711"
+		"11" "7481"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "GooDCrafter"
+	"publisher" "GooDCrafter"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "FlatPath"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "FlatPath.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "FlatPath.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "FlatPath"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"512741"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6765711318933664056"
+				"size" "144525210"
+				"download" "67761312"
+			}
+		}
+	}
+	"512742"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4344413602977436117"
+				"size" "146533360"
+				"download" "67119632"
+			}
+		}
+	}
+	"512743"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3713014199499417171"
+				"size" "155554411"
+				"download" "69788496"
+			}
+		}
+	}
+	"512744"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6069908043028126615"
+				"size" "152903306"
+				"download" "68237776"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1372557"
+			"timeupdated" "1475570520"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "FlatPath"
+			"pattern" "FlatPath.save"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "FlatPath"
+					"replace" "FlatPath"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "FlatPath"
+					"replace" ".local/share/FlatPath"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21673809"
+"_sha" "fe1fe25320412addfc22a8496a521417d6e266ab"
+"_size" "3979"
