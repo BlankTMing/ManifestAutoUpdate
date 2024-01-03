@@ -1,0 +1,627 @@
+"appid" "485980"
+"common"
+{
+	"name" "Syrian Warfare"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"logo" "53d911664fd6ed0fd0713cb875614efcc1f51563"
+	"logo_small" "53d911664fd6ed0fd0713cb875614efcc1f51563_thumb"
+	"clienticon" "5b280f7013c762259a6f1f676b8b0f54a37080ff"
+	"clienttga" "390af29ff19960d5b32d2f06728ee87b47b523b1"
+	"icon" "496e34099b45463794267687d40272bc96b4ad23"
+	"osarch" "64"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"schinese" "1"
+		"russian" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1659657600"
+		"tested_build_id" "4163498"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Syrian Warfare"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"russian" "capsule_231x87_russian.jpg"
+		"german" "capsule_231x87_german.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"russian" "header_russian.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "ru,en"
+		"library_hero" "en"
+		"library_logo" "en,ru"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "56.610085358526355"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1612267371"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Cats Who Play"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Cats Who Play"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1487666640"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "485980"
+	"store_tags"
+	{
+		"0" "3813"
+		"1" "1676"
+		"2" "4175"
+		"3" "4168"
+		"4" "4166"
+		"5" "4684"
+		"6" "5673"
+		"7" "3987"
+		"8" "9"
+		"9" "1708"
+		"10" "1678"
+		"11" "4182"
+		"12" "492"
+		"13" "4161"
+		"14" "10397"
+		"15" "1669"
+		"16" "8122"
+		"17" "3859"
+		"18" "3968"
+		"19" "599"
+	}
+	"review_score" "8"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"developer" "Cats Who Play"
+	"publisher" "Cats Who Play"
+	"homepage" "http://www.catswhoplay.com"
+	"gamemanualurl" "https://store.steampowered.com/manual/485980/"
+	"listofdlc" "599050,635030,938490"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Syrian Warfare"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bin\\SyrianWarfare.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "bin\\SyrianWarfare.exe"
+			"arguments" "-dlc ReturnToPalmyra"
+			"description" "Return to Palmyra"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "635030"
+			}
+		}
+		"2"
+		{
+			"executable" "bin2\\SyrianWarfare.exe"
+			"arguments" "-dlc Battlefields"
+			"description" "Battlefields"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "938490"
+			}
+		}
+		"3"
+		{
+			"executable" "bin2\\SW_editor.exe"
+			"arguments" "-dlc Battlefields"
+			"type" "editor"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "938490"
+			}
+			"description_loc"
+			{
+				"english" "Editor"
+			}
+			"description" "Editor"
+		}
+	}
+}
+"depots"
+{
+	"hasdepotsindlc" "1"
+	"baselanguages" "english,german,schinese,russian"
+	"workshopdepot" "485980"
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229020"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"485981"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5523791537587912781"
+				"size" "2636182236"
+				"download" "2452146752"
+			}
+			"default-old2"
+			{
+				"gid" "3378855438177674305"
+				"size" "2463918678"
+				"download" "2382440336"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "ED95A141B930DA0415285294D5926157"
+				"size" "6BA122718BC78AFFDE54A8FECABE6683"
+				"download" "0334200207194821CB58AA4801091498"
+			}
+		}
+	}
+	"485982"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2121076626907388259"
+				"size" "881564804"
+				"download" "893432880"
+			}
+			"default-old2"
+			{
+				"gid" "8129306705223041853"
+				"size" "881550482"
+				"download" "893418192"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "37C24C9133F4D2679D9D4B949979BD82"
+				"size" "229FFBA538B5AC0A9A19000380E0E2C8"
+				"download" "4B9CEA3182287B9B896541DBAE97CA30"
+			}
+		}
+	}
+	"485983"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7114003154763317577"
+				"size" "821064543"
+				"download" "832092736"
+			}
+			"default-old2"
+			{
+				"gid" "545566803565254203"
+				"size" "821054902"
+				"download" "832082816"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "53DECD30A560592B92B09C1AF1B00554"
+				"size" "87946CA01EF67A450620E2036645ECCE"
+				"download" "50D414C5C79EF08665E555B569F3DA6E"
+			}
+		}
+	}
+	"485984"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2347426517945025867"
+				"size" "821077662"
+				"download" "832107808"
+			}
+			"default-old2"
+			{
+				"gid" "2878674639429598486"
+				"size" "821065560"
+				"download" "832095264"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "95079D89411CCE0199F5B595FB742926"
+				"size" "14FA022C136308813A313E1E745DF036"
+				"download" "77907DF9FAD7814CA9E4513AA53CB4EC"
+			}
+		}
+	}
+	"485988"
+	{
+		"config"
+		{
+			"language" "schinese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7038287895233730970"
+				"size" "821742601"
+				"download" "832776160"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "120642998C36C996AF9080E0D84EB81D"
+				"size" "36FE83CD7DEF89759210B62F48C04E61"
+				"download" "AC753A6B9F19FDD0A8185EF8DEEACC18"
+			}
+		}
+	}
+	"599050"
+	{
+		"dlcappid" "599050"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2210353345882032752"
+				"size" "320732075"
+				"download" "275938208"
+			}
+			"default-old2"
+			{
+				"gid" "3903360433199990273"
+				"size" "313223787"
+				"download" "269991184"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "A9BDF36208E261834662C496BC52E389"
+				"size" "D8B24EEA77D24349ADA3A785EF18748B"
+				"download" "F245EE4C17B4A3BEF1F5DD7A4DD254BB"
+			}
+		}
+	}
+	"635030"
+	{
+		"dlcappid" "635030"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6428442541124881792"
+				"size" "863314177"
+				"download" "874814656"
+			}
+			"default-old2"
+			{
+				"gid" "2821257760454383929"
+				"size" "809786185"
+				"download" "820553664"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "882AAE0B5F443CAA48F5DD98395C92D5"
+				"size" "A54FAE6569DA4C931F6169243EBFF897"
+				"download" "79BF85080949E57D080ECD28C18FA2D2"
+			}
+		}
+	}
+	"485985"
+	{
+		"dlcappid" "635030"
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3291588655852064736"
+				"size" "261805076"
+				"download" "265113488"
+			}
+			"default-old2"
+			{
+				"gid" "7555176658071948951"
+				"size" "261079944"
+				"download" "264378368"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "6C70DE88C30AB70119273F6157BFE7CA"
+				"size" "EA3BEF405DE7794AD285B8B56AE558EE"
+				"download" "A751F38A6E10941321F7CE44D8C786C2"
+			}
+		}
+	}
+	"485986"
+	{
+		"dlcappid" "635030"
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5032067638912070894"
+				"size" "265979807"
+				"download" "269267808"
+			}
+			"default-old2"
+			{
+				"gid" "87663997130630762"
+				"size" "265254665"
+				"download" "268532976"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "135621CE71E56C42DC9998B02EF1E484"
+				"size" "86BFBB216FCAB94958412003D5751FD4"
+				"download" "204950908CC25F9D563AC93E85C9ABA4"
+			}
+		}
+	}
+	"485987"
+	{
+		"dlcappid" "635030"
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6523523254988142997"
+				"size" "265988238"
+				"download" "269277760"
+			}
+			"default-old2"
+			{
+				"gid" "4510637122655773457"
+				"size" "265263094"
+				"download" "268542768"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "2160B685DDAD28E781776FC548507DE9"
+				"size" "C5E93EEA66C8698986A20415E0370873"
+				"download" "2E25340A4C01C593FE94AD0F07020376"
+			}
+		}
+	}
+	"485989"
+	{
+		"dlcappid" "635030"
+		"config"
+		{
+			"language" "schinese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6653639576087020064"
+				"size" "265989482"
+				"download" "269277120"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "9195E32840228E627600D0007588CA06"
+				"size" "3EED0A137512C3E702105166CAC77732"
+				"download" "73B829D5185045C2E4CD9B0C33E08348"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4163498"
+			"timeupdated" "1567530944"
+		}
+		"default-old2"
+		{
+			"buildid" "2370991"
+			"description" "1.1.0.15"
+			"timeupdated" "1523963012"
+		}
+		"test"
+		{
+			"buildid" "4163498"
+			"pwdrequired" "1"
+			"timeupdated" "1567527219"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "2000000000"
+	"maxnumfiles" "32"
+	"appidredirect" "485980"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+}
+"_missing_token" "False"
+"_change_number" "19537958"
+"_sha" "33fd19411eb618440ee9517ac78c43f8231174d6"
+"_size" "11007"
