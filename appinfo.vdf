@@ -1,0 +1,70 @@
+"appid" "40810"
+"common"
+{
+	"name" "Super Meat Boy Editor"
+	"type" "Tool"
+	"gameid" "40810"
+}
+"extended"
+{
+	"developer" ""
+	"gamedir" "MeatBoyEditor"
+	"homepage" ""
+	"icon" ""
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "40811"
+	"serverbrowsername" ""
+	"state" "eStateTool"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Super Meat Boy"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SuperMeatBoy.exe"
+			"arguments" "-devmode -1280x720 "
+		}
+	}
+}
+"depots"
+{
+	"40801"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "40800"
+		"sharedinstall" "2"
+	}
+	"40811"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8183255873747710690"
+				"size" "4"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "52304"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "610de1f795a837adc847ab9efef485e91e48d394"
+"_size" "915"
