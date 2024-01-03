@@ -1,0 +1,236 @@
+"appid" "419590"
+"common"
+{
+	"name" "Tales from the Void"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"logo" "1d7785e378a53d11c7615e9d9ce1de020d38b371"
+	"logo_small" "1d7785e378a53d11c7615e9d9ce1de020d38b371_thumb"
+	"icon" "b8e476fca08f357853320fb1d44715a2d11fbc94"
+	"clienttga" "22b2a01eb433547e6ab439b79c6fec589dd281cd"
+	"clienticon" "ca276ceee042222695b08dd6d872aaf797bde3f0"
+	"releasestate" "released"
+	"clienticns" "ca276ceee042222695b08dd6d872aaf797bde3f0"
+	"linuxclienticon" "ca276ceee042222695b08dd6d872aaf797bde3f0"
+	"app_retired_publisher_request" "1"
+	"metacritic_name" "Tales from the Void"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1464362106"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "PortaPlay"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Black Dog "
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_29" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"full_audio" "true"
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"german"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"russian"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"ukrainian"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1463727600"
+	"steam_release_date" "1463774852"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "419590"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "19"
+		"2" "21"
+		"3" "492"
+	}
+	"review_score" "5"
+	"review_percentage" "67"
+}
+"extended"
+{
+	"developer" "PortaPlay"
+	"publisher" "Black Dog "
+	"homepage" "http://talesfromthevoidgame.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Tales from the Void"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "tales_from_the_void.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "tales_from_the_void.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,spanish,russian,ukrainian"
+	"419591"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4984709213394199723"
+				"size" "1960109048"
+				"download" "664442080"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "0FA31ADEAAF4759C8F486A19D1A025C9"
+				"size" "769091A81C4313E6520337BB964909EE"
+				"download" "1BEF2A3090463AB9F0CFCE8AFBD13633"
+			}
+		}
+	}
+	"419592"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2265120615564091457"
+				"size" "1968297957"
+				"download" "659969440"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "A50DE1B9ECE633E6CD4E743C771CBD4D"
+				"size" "B0413A27E0B0D37DEF6B343212735F82"
+				"download" "82C6E9F2259ED8421820885CE5C1E8D7"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1712033"
+			"timeupdated" "1490354410"
+		}
+		"beta"
+		{
+			"buildid" "1712033"
+			"pwdrequired" "1"
+			"timeupdated" "1490340485"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "500"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "tales_from_the_void_Data/saves"
+			"pattern" "*.txt"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "tales_from_the_void.app/Contents/saves"
+			"pattern" "*.txt"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19762561"
+"_sha" "9386b50cab9ef355a1cc7b551abc529282094211"
+"_size" "3949"
