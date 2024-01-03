@@ -1,0 +1,250 @@
+"appid" "875930"
+"common"
+{
+	"name" "Rehtona"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"icon" "e420ffc433a1bb5667a1cd0aa86a26771c244ada"
+	"logo" "e4f52ff438a35d0b11bfdf27cf638f776d906066"
+	"logo_small" "e4f52ff438a35d0b11bfdf27cf638f776d906066_thumb"
+	"clienticon" "d9749df674f32b5b444ff98aa122df384096500f"
+	"clienttga" "7dea443cf8660719e70363c4184091aee85a31f5"
+	"clienticns" "d9749df674f32b5b444ff98aa122df384096500f"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+	}
+	"osextended" "macos64"
+	"metacritic_name" "Rehtona"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "31.187427240977883"
+			"height_pct" "44.62814814814812"
+		}
+	}
+	"store_asset_mtime" "1585554156"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Dot 4 Joy"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Joyient"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+		"3" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_33" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_18" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1548230400"
+	"steam_release_date" "1548262950"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "875930"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "21"
+		"2" "597"
+		"3" "599"
+		"4" "3964"
+		"5" "1664"
+	}
+	"review_score" "8"
+	"review_percentage" "95"
+}
+"extended"
+{
+	"developer" "Dot 4 Joy"
+	"publisher" "Joyient"
+	"homepage" "http://www.rehtona.net/"
+}
+"config"
+{
+	"installdir" "Rehtona"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Rehtona.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Rehtona.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"1627793163"
+		{
+			"controller_type" "controller_steamcontroller_gordon"
+			"enabled_branches" "default"
+		}
+		"1627961656"
+		{
+			"controller_type" "controller_steamcontroller_gordon"
+			"enabled_branches" ""
+		}
+	}
+	"steamconfigurator3rdpartynative" "79"
+}
+"depots"
+{
+	"875931"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2336206849343076672"
+				"size" "453128621"
+				"download" "243727664"
+			}
+		}
+	}
+	"875932"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2597983619075961567"
+				"size" "435769915"
+				"download" "232851472"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5175956"
+			"timeupdated" "1592360240"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "5"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Joyient/Rehtona"
+			"pattern" "*.txt"
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "Joyient/Rehtona"
+			"pattern" "*.txt"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Joynient/Rehtona"
+					"replace" "Joyient/Rehtona"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinAppDataLocalLow"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Joynient/Rehtona"
+					"replace" "Joyient/Rehtona"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18821630"
+"_sha" "b6c3628214c9d2b72ed43838f017bcf31dde6ec8"
+"_size" "4056"
