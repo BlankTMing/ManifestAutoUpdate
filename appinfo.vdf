@@ -1,0 +1,603 @@
+"appid" "1167750"
+"common"
+{
+	"name" "The Lamplighters League"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"icon" "268b267bf7253b667840818c922e77747ce30ca8"
+	"clienticon" "2e01f8da11f4e86203f8edab669200e87dcec9a9"
+	"clienttga" "ca684f998178440c1669051ba4777bb6baf2d932"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "1167750_eula_0"
+			"name" "The Lamplighters League EULA"
+			"url" "https://store.steampowered.com//eula/1167750_eula_0"
+			"version" "1"
+		}
+	}
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"russian" "1"
+	}
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"has_adult_content" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1688428800"
+		"tested_build_id" "11564905"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-3"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "45.47215513096714"
+			"height_pct" "39.886995242361785"
+		}
+	}
+	"store_asset_mtime" "1696348253"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Harebrained Schemes"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Paradox Interactive"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "The Lamplighters League"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "25"
+		"1" "3"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1696348704"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1167750"
+	"store_tags"
+	{
+		"0" "1742"
+		"1" "21"
+		"2" "122"
+		"3" "9"
+		"4" "6426"
+		"5" "4325"
+		"6" "1741"
+		"7" "6971"
+		"8" "21725"
+		"9" "1708"
+		"10" "4145"
+		"11" "4252"
+		"12" "4791"
+		"13" "6052"
+		"14" "17305"
+		"15" "4598"
+		"16" "4166"
+		"17" "10808"
+		"18" "4604"
+		"19" "4182"
+	}
+	"review_score" "6"
+	"review_percentage" "72"
+}
+"extended"
+{
+	"developer" "Harebrained Schemes"
+	"publisher" "Paradox Interactive"
+	"homepage" "https://www.paradoxinteractive.com/games/lamplighters-league/about"
+	"listofdlc" "2244710,2244712,2626610,2678900"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "LamplightersLeague"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "launcher/dowser.exe"
+			"arguments" "--pdxlEnableSteamDeckCompatibilityMode"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Launcher"
+			}
+			"description" "Launcher"
+		}
+		"1"
+		{
+			"executable" "LamplightersLeague.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Game"
+			}
+			"description" "Game"
+		}
+		"4"
+		{
+			"executable" "WiseguyPrototype.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "poc-final"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,spanish,schinese"
+	"1167751"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6296667517667332105"
+				"size" "16070724113"
+				"download" "10258478160"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"archive"
+			{
+				"gid" "1F5BB028CA7EBF7AE5D964F8AD8A2BD9"
+				"size" "BEF71F94C2A49808718195B5747684DE"
+				"download" "ACCBBAE0CB45E67D8DF18B19195EE7FE"
+			}
+			"design_changes"
+			{
+				"gid" "01EF1D4FFE27CA25AE3776EAEF96AED2"
+				"size" "505DDDAB87F628486934523A67B4EB01"
+				"download" "357220C97473846119190EAC347C6841"
+			}
+			"experimental"
+			{
+				"gid" "10E60C8B77327AFCFCDC3F12C1F4E7BB"
+				"size" "6A8DCC9368251969D5CF86B736325F97"
+				"download" "B65B3633FB83465EC3A56BC888EA400D"
+			}
+			"external_partners"
+			{
+				"gid" "FD71B81689806DD8BDB48B5590A70475"
+				"size" "3886935D92CDA52A667B97219BD377C5"
+				"download" "A1938E1CCB6906B8B358BE96EC707517"
+			}
+			"jesse"
+			{
+				"gid" "48D90577D8E6ACFDA7E7D6AACFA9770C"
+				"size" "1C3E59C017BE4104AC306CFAF808942C"
+				"download" "907A670B4D7C2D9629E70948158DD79D"
+			}
+			"nightly"
+			{
+				"gid" "2ED807BE1267373C0FC1CB5C84EDCA43"
+				"size" "E8905E0D7E2156968FEB46125950D7E2"
+				"download" "37FBD9A261BD06FF8EC7513DE1E1E019"
+			}
+			"nightly-dev"
+			{
+				"gid" "EAF1E2755451739162DD3E7B1B0F24ED"
+				"size" "DF58E30BC73DA2FD0E09E927648D0DB8"
+				"download" "65B79497D73D85BCA5587C3E5226F7B1"
+			}
+			"nightly-loc"
+			{
+				"gid" "608607428F295FE3CDD14AF2FAFD7290"
+				"size" "0EEC90C5FEB9242378CB228888D1EF43"
+				"download" "8C1A7369091761D803735008865AE514"
+			}
+			"perf-testing"
+			{
+				"gid" "7AA2E970A9C8E62639FFE211A07DCAE3"
+				"size" "84FFC77260B133345DEC5D6FD9BD05E3"
+				"download" "5338E31E190C8014C7F2087A18A3E70A"
+			}
+			"poc-final"
+			{
+				"gid" "D116AC3C3D5DBB0D14C5C2C8C327E45F"
+				"size" "D6AD2E6CF35A69BCA52C4C14970A55D9"
+				"download" "B49A1FFF4A6AC174223650AB8EC7C35E"
+			}
+			"release-candidate"
+			{
+				"gid" "9FD4134DB089C4A15D0073779F0BF120"
+				"size" "799DBC025EA6F9CC0372ED9F575BBE3C"
+				"download" "E0CC8EF70987CFA9A006CC592641EDD4"
+			}
+			"review"
+			{
+				"gid" "D63D92784B64C2A979F0AFA032CAF64B"
+				"size" "64B7A31EA1E983A66D117895F07BD6D9"
+				"download" "1E0F65CCB50C007A35755AA07A138F0D"
+			}
+			"stable"
+			{
+				"gid" "D87405FF1F4103BFB9374ED38184D6E1"
+				"size" "0A7183F08BE72F11A3B7C08FE8A1952A"
+				"download" "E4DB1908A1DFBAC474036BF9078A9385"
+			}
+			"test"
+			{
+				"gid" "244222C03A9CCC18E044CE4DE460B6D7"
+				"size" "D47BAD4D69116F668C3C282DFC1B3D72"
+				"download" "599224887F6FBD7196C07940D8B98A59"
+			}
+			"upgrade"
+			{
+				"gid" "26EBE28FE152F11DB5B7F952F838822E"
+				"size" "F71B0B9DD2AA843C5C364E07A6770B34"
+				"download" "92D542B27EE63DE7A6BA88FD82BBE2C7"
+			}
+			"user-research"
+			{
+				"gid" "247C238B54B0EC626AA4673EFB570916"
+				"size" "01B406AD75256237D41F293C8CC825BB"
+				"download" "0102B54672DB838BD79E93C2EB7EA22B"
+			}
+		}
+	}
+	"2244712"
+	{
+		"dlcappid" "2244712"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8751909337571066395"
+				"size" "471712080"
+				"download" "454623952"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"archive"
+			{
+				"gid" "D93DF663422B760643DE9EC6F125D902"
+				"size" "0675F9D36DCE182AEB328C28C343EBC2"
+				"download" "22BD66B38117663AB672A0DC9B120B8B"
+			}
+			"design_changes"
+			{
+				"gid" "10FFFD3C030697D133C2919ECB6C5DB8"
+				"size" "0C9177855B2AEF819F09140C859FBDAB"
+				"download" "7135932FDA981B9560B22820C125B5FD"
+			}
+			"experimental"
+			{
+				"gid" "386D320F9D41CEE14441F8E0C74A76A8"
+				"size" "1E3541B8C762791EB98C4E5F830895EC"
+				"download" "7289D3781F7ECE61FD3EB4002E6E34A4"
+			}
+			"external_partners"
+			{
+				"gid" "A4E408C419DA0B72E2CB4886E1348F67"
+				"size" "9B8F7679DAF6B595A9E20F06E329654F"
+				"download" "C4DE949A15436015572FE3C35BDCB7E2"
+			}
+			"jesse"
+			{
+				"gid" "3B7A4D80982140B78E180FCD4DCFB4AC"
+				"size" "6033DF12491A40FA5EB8A0413F5AD92A"
+				"download" "2E35FA1621CBCFB3FDD90F7B5BF6A77F"
+			}
+			"nightly"
+			{
+				"gid" "72DE8F21161F518B52000957ED60C80E"
+				"size" "5AC8393700DC501E67E1F2EAA135C3B0"
+				"download" "ADBC2810F0F4424500EC7A12CC23B42F"
+			}
+			"nightly-dev"
+			{
+				"gid" "2B59127A00600B70A25409DB0929FD24"
+				"size" "6AEAB944E51786A3E5D67F55F43B488D"
+				"download" "F6758C24196D0235478320EBF8154C71"
+			}
+			"nightly-loc"
+			{
+				"gid" "BAAEEC2E7FECBB6F2600A41899602E6A"
+				"size" "4FAC5B86E8F4E6B2379C966B15C0ECD7"
+				"download" "4FAC5B86E8F4E6B2379C966B15C0ECD7"
+			}
+			"perf-testing"
+			{
+				"gid" "282FE7228143A4BD62D22E60077585E5"
+				"size" "2119D9929AA0C645382F513A28527CEB"
+				"download" "F99516FB97E6F80BBC423FBD62F83E06"
+			}
+			"release-candidate"
+			{
+				"gid" "22F7E5256F1C7F963E76CDB96DB10EE0"
+				"size" "541CEBDE044A660111093241940F1F0C"
+				"download" "319D9CE62E2B3469EBEE25D0463C6966"
+			}
+			"review"
+			{
+				"gid" "71DA7CE24A10B0703F3832D64A7D9EC5"
+				"size" "584F92B2807F7DFF1CAB293D08DBCF4F"
+				"download" "FB98EC1E61492A5CED75E974C384314C"
+			}
+			"stable"
+			{
+				"gid" "BD6E1155D85949CC18B1F669F8A41D8A"
+				"size" "03E31B40AEF1DE84961011B6F479A317"
+				"download" "18786C4252F9089C671903F0FEB22A60"
+			}
+			"test"
+			{
+				"gid" "7D7BA38247B49BF3EC75C342E3310CE1"
+				"size" "E90FE6E27B48076D0B6597C6DBECED94"
+				"download" "788394D2978CC73D9F4084195F9F071A"
+			}
+			"upgrade"
+			{
+				"gid" "14CCB386285D0B6733DEB3B73906FA95"
+				"size" "B828743374A90AA609AC25EDAEEF19B7"
+				"download" "018922C9141D449D0589C67015E6A880"
+			}
+			"user-research"
+			{
+				"gid" "85C95BA8E5924DE8350FC86109FEB3BF"
+				"size" "441315900ED94141A5C85F713A65E8F5"
+				"download" "ED42D461DBBD91DCB1896D3F66436E33"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12934597"
+			"timeupdated" "1702483183"
+		}
+		"archive"
+		{
+			"buildid" "12878539"
+			"pwdrequired" "1"
+			"timeupdated" "1701868233"
+		}
+		"design_changes"
+		{
+			"buildid" "12883650"
+			"pwdrequired" "1"
+			"timeupdated" "1701812101"
+		}
+		"experimental"
+		{
+			"buildid" "12759337"
+			"pwdrequired" "1"
+			"timeupdated" "1700594173"
+		}
+		"external_partners"
+		{
+			"buildid" "11063327"
+			"pwdrequired" "1"
+			"timeupdated" "1682118470"
+		}
+		"jesse"
+		{
+			"buildid" "12685887"
+			"pwdrequired" "1"
+			"timeupdated" "1699848235"
+		}
+		"nightly"
+		{
+			"buildid" "12890142"
+			"pwdrequired" "1"
+			"timeupdated" "1701868231"
+		}
+		"nightly-dev"
+		{
+			"buildid" "12887983"
+			"pwdrequired" "1"
+			"timeupdated" "1701852801"
+		}
+		"nightly-loc"
+		{
+			"buildid" "12890308"
+			"pwdrequired" "1"
+			"timeupdated" "1701869610"
+		}
+		"perf-testing"
+		{
+			"buildid" "12574449"
+			"pwdrequired" "1"
+			"timeupdated" "1698688635"
+		}
+		"poc-final"
+		{
+			"buildid" "4271739"
+			"pwdrequired" "1"
+			"timeupdated" "1570637662"
+		}
+		"release-candidate"
+		{
+			"buildid" "12934597"
+			"pwdrequired" "1"
+			"timeupdated" "1702340483"
+		}
+		"review"
+		{
+			"buildid" "12125985"
+			"pwdrequired" "1"
+			"timeupdated" "1694464612"
+		}
+		"stable"
+		{
+			"buildid" "11323281"
+			"pwdrequired" "1"
+			"timeupdated" "1685127569"
+		}
+		"test"
+		{
+			"buildid" "12607934"
+			"pwdrequired" "1"
+			"timeupdated" "1702315415"
+		}
+		"upgrade"
+		{
+			"buildid" "12878110"
+			"pwdrequired" "1"
+			"timeupdated" "1701771626"
+		}
+		"user-research"
+		{
+			"buildid" "12125985"
+			"pwdrequired" "1"
+			"timeupdated" "1694464382"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "5000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "HarebrainedSchemes/LamplightersLeague/save/Sync"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21716441"
+"_sha" "715346b05d0929ffc5b411ead41395e6140c5ab1"
+"_size" "12769"
