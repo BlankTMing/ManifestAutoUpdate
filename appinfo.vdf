@@ -1,0 +1,736 @@
+"appid" "798510"
+"common"
+{
+	"name" "SUPER DRAGON BALL HEROES WORLD MISSION"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" ""
+	"clienticon" "3e9a4ff7f0a14e2867064aa6c30ad4c6dc94580c"
+	"clienttga" "c66a9816b7fe935555f1219b47574d2c4d2e0346"
+	"icon" "41c3c652386b7cab34017f8bc39c4ed17e0456ec"
+	"logo" "e71b7ba7cb94fc8a0afc16864dd7785402058179"
+	"logo_small" "e71b7ba7cb94fc8a0afc16864dd7785402058179_thumb"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "798510_eula_0"
+			"name" "SUPER DRAGON BALL HEROES WORLD MISSION EULA"
+			"url" "https://store.steampowered.com//eula/798510_eula_0"
+		}
+	}
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1645488000"
+		"tested_build_id" "4407463"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "SUPER DRAGON BALL HEROES WORLD MISSION"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "63.95024393130544"
+			"height_pct" "55.68361247041376"
+		}
+	}
+	"store_asset_mtime" "1561480069"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Dimps Corporation"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "SAFARI GAMES Co., Ltd."
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "BANDAI NAMCO Entertainment"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_36" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_33" "1"
+		"category_1" "1"
+		"category_49" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1554415200"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "798510"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "4085"
+		"2" "791774"
+		"3" "1666"
+		"4" "3859"
+		"5" "1743"
+		"6" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "84"
+}
+"extended"
+{
+	"anti_cheat_support_url" ""
+	"developer" "Dimps Corporation"
+	"publisher" "BANDAI NAMCO Entertainment"
+	"listofdlc" "1011180,1018150,1018151"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "SUPER DRAGON BALL HEROES WORLD MISSION"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Launch_Game.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "SDBHeroes_WorldMission.exe"
+			"description" "NO EAC Launch (EAC無しの起動)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "eac-release, eac-debug, qa-debug, qa-release, dev-debug, dev-release, dev_debug_p1, dev_release_p1"
+			}
+		}
+		"2"
+		{
+			"executable" "Game_ReleaseSteam.exe"
+			"description" "Game_ReleaseSteam.exeから起動（昔のブランチ用）"
+			"type" "none"
+			"config"
+			{
+				"betakey" "safari-nocpk-dev"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+}
+"depots"
+{
+	"baselanguages" ""
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"798511"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6746379969074908139"
+				"size" "3479672672"
+				"download" "2981009152"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"compat"
+			{
+				"gid" "C3DE17F618081E188CC5DA4442D4A927"
+				"size" "C1ADFB534BC396B9C58ADCE69C4EED55"
+				"download" "2EEC5C15A5FAE8FE38219F7E4B9FF966"
+			}
+			"dev-debug"
+			{
+				"gid" "B9BAB3F6715B94487EB08E34115DEA01"
+				"size" "2CEF2047B613A819DE5CC64D180E92E6"
+				"download" "4043E7BF39782DB1FAEE60073A19EE6B"
+			}
+			"dev-release"
+			{
+				"gid" "94FC4EDD426306D144A515FBB8228D26"
+				"size" "9CA107FE0A32D0A978E1C281BD69B51D"
+				"download" "A6C8D2014A71A8A104C7300595CDB6DB"
+			}
+			"eac-debug"
+			{
+				"gid" "1593EA19F42EC4A19DD191DC52D4DA42"
+				"size" "4A330D3F5106851A149CFAF563935EA6"
+				"download" "0197AF60ED4595F80504ACE61A4BA2C8"
+			}
+			"eac-release"
+			{
+				"gid" "E0A51E9FF23E5BB9B868CF7D3E2A93ED"
+				"size" "92F482D7409B2322608B084EAC5D747C"
+				"download" "6B8F8DB580D90DFFEBF13F0510731482"
+			}
+			"mc_debug"
+			{
+				"gid" "17F6A2DB3C1D1DDE20E769DB80006E7D"
+				"size" "41BE26CA64AB3E50C189EEAD287D86FD"
+				"download" "B13BC22540BD8E4376644D35D35A8AE1"
+			}
+			"mc_production"
+			{
+				"gid" "0CD7D54E3E01DA0662ACF92ACFB626F6"
+				"size" "2DC18E2E3CBF4AF9C419342767A12266"
+				"download" "994A94B6730BE567622552FE9E993E07"
+			}
+			"mc_release"
+			{
+				"gid" "4FED9255170ECF86917FCF494060FE3A"
+				"size" "9DE530847793DB67E0EA9072DDF36CC7"
+				"download" "0BC9CDADF4B812C58F5A46374A3736DE"
+			}
+			"press"
+			{
+				"gid" "731457B8D850F7159B45B43D15F24E50"
+				"size" "41090069E76F80FC61212A29237D2275"
+				"download" "CAF012C82827A3C51DEB76D246885E34"
+			}
+			"qa-debug"
+			{
+				"gid" "5590C4584A0CEEA5648A6317709690B3"
+				"size" "196F4D733F1A6B22E264CA1EB395978F"
+				"download" "84B5BA0BA05A2D899B4A696ACA6E38E3"
+			}
+			"qa-release"
+			{
+				"gid" "3A3D047D60C789E6D601CCE325FDA572"
+				"size" "5B004BB54D88806FBC7F6FAF1D442275"
+				"download" "8BC80A880B2864C0BB3AF433ECD59B5B"
+			}
+			"safari-nocpk-dev"
+			{
+				"gid" "FAC0E4C830C1B0F36CF0236E8E503F08"
+				"size" "2A343F389998EE250A4532622AA20D84"
+				"download" "995BF8CB792821325BCEDDA1A4C06B26"
+			}
+			"v106_debug"
+			{
+				"gid" "EFF19D31382F1C173208DFAF820F80FE"
+				"size" "1CCD071FFB6CE3C104AA369C242B95F2"
+				"download" "01A6CCDA8F62C18B407DC95475393F22"
+			}
+			"v106_release"
+			{
+				"gid" "EFB90D7A9E06FB575E8C5E3C5E1FC31C"
+				"size" "8767BFE0311E126847F0056E3196A3F8"
+				"download" "1B7F4F746666049F1E9B57C271D619F8"
+			}
+		}
+	}
+	"798512"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5234313693834590661"
+				"size" "32784245"
+				"download" "20767232"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"compat"
+			{
+				"gid" "795E7A8227CB22A04D6834EE67C7A578"
+				"size" "59E3287C8A561DF2569034A4334BDD58"
+				"download" "67AB570FBD23470DD3D6D0C5D3D31B0F"
+			}
+			"dev-debug"
+			{
+				"gid" "4B370A12A034CC65823CB650F84B168E"
+				"size" "F5963930D07E828359926F26051505B0"
+				"download" "0301E249FD858D68C162ACF09B0233F7"
+			}
+			"dev-release"
+			{
+				"gid" "9B654AB56EAC6759430BFFAE44445C76"
+				"size" "DA8195D7C69663A6D24682BB7B53931E"
+				"download" "82CAD7CB3E044CFE0E3AE9ADBB73E2EF"
+			}
+			"eac-debug"
+			{
+				"gid" "D6B5CAF8BDED1B1007C7BAEDCE99D910"
+				"size" "5D254CA429B41647BB2D6628797E62D1"
+				"download" "B658D076F4420383F217213812787437"
+			}
+			"eac-release"
+			{
+				"gid" "D2B99624F5F75980806ED4FE0FCA29CB"
+				"size" "377D167DD42C26958FBDE3D8C7C0E76C"
+				"download" "322F483283B730BB58D563C548E1B644"
+			}
+			"mc_debug"
+			{
+				"gid" "635CCE51A0CAF54B2FC3DB159F6E9D61"
+				"size" "4332874ADAA9280AB6C5422E98DA3FA4"
+				"download" "0AA01F076444CBD55FBE1613C4C46F03"
+			}
+			"mc_production"
+			{
+				"gid" "90AB837273F9D646EF30250D9121FC10"
+				"size" "2356DA5A134D621DDEA1AE75ECD982F9"
+				"download" "BD46D3E66CC09D12183A02C973246E5C"
+			}
+			"mc_release"
+			{
+				"gid" "B597C7130909332E4105D15A5F3FA7A4"
+				"size" "0A124B437894F7368251C42662AF7AD9"
+				"download" "B797D1C16F80EE39A06A7A771004A782"
+			}
+			"press"
+			{
+				"gid" "6E740F0356515E52BBBCC292F9E3F22C"
+				"size" "49C9E8636BFD278507958CEB482B31D7"
+				"download" "8E4155D7E1D81CA83503BD0C1DF454C2"
+			}
+			"qa-debug"
+			{
+				"gid" "49FE42E817B9B740420D126DBED3A13E"
+				"size" "BC4EC30E7476BBBE6022D2B42B329445"
+				"download" "39ADF065CBDAF746D7EF485409E67D6A"
+			}
+			"qa-release"
+			{
+				"gid" "9CB78ABAE3BF441AEC04DA2D0DE71892"
+				"size" "E1249B03B7EE86E6A7C9695398F228D6"
+				"download" "329414D8E5C6C98B83338D52378C0324"
+			}
+			"safari-nocpk-dev"
+			{
+				"gid" "B5E604DD2F1F6E54D07772FAA97D8E5C"
+				"size" "BB5341DBE5408DB5704EF68C63DD6338"
+				"download" "3D38BBBD29D5AFD4D7075D07AE564817"
+			}
+			"v106_debug"
+			{
+				"gid" "836337F9FFBECC7E78033C8608E94D47"
+				"size" "0433AC44E0F7D0CEF1225A67EA078814"
+				"download" "37DD9EADE67661975BDC7D8EB76A02EE"
+			}
+			"v106_release"
+			{
+				"gid" "856480E187E1F995DD1337D9707163E4"
+				"size" "2DC87FE2498AC38C685D598B22FC3523"
+				"download" "44BF7F2A2637C3957BC318A782033C66"
+			}
+		}
+	}
+	"1018150"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2325386072930785147"
+				"size" "17596576"
+				"download" "17497600"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"compat"
+			{
+				"gid" "F85174830A2768F425A611D1AC80F5B7"
+				"size" "24E69451AB8E2486AD92FEFD854FE9FE"
+				"download" "D0F136F79BE5ACDDD13B592411266E17"
+			}
+			"dev-debug"
+			{
+				"gid" "558588344E1E70322CD84C87D05FB424"
+				"size" "A9620FFF27BDBFB84625A5EAD7857A62"
+				"download" "D0056A954A97C15A505BEC442B23F44D"
+			}
+			"dev-release"
+			{
+				"gid" "C3210014BCC6A13471B5375FAD72AD08"
+				"size" "9ACCDD645BB77179BEE6E465B08758AA"
+				"download" "50B9991360D9B85283A86DD386395F30"
+			}
+			"eac-release"
+			{
+				"gid" "68868C1DB01B68F3E405AA9FB6B4CCFA"
+				"size" "EFC7ED3FC099BD4686E4B74D9D9227F9"
+				"download" "0870A4F0C653F487071540CE594DACBA"
+			}
+			"mc_debug"
+			{
+				"gid" "6157926A51C361A2BB26A36C65DA8493"
+				"size" "C1BA58FDE54BC2F6BF4EE18D3E16E6D7"
+				"download" "F2317D9AE87EB2A6DB106CCF965D1AFA"
+			}
+			"mc_production"
+			{
+				"gid" "DC33E94233EA7830E04A7FE24C878149"
+				"size" "FE33E68392F1814854A44094E9605817"
+				"download" "9B872FCFAD171B44287536573266F67B"
+			}
+			"mc_release"
+			{
+				"gid" "220C0F4A9FD4470D8C39E2586B8A5135"
+				"size" "DEBD66AA158EE09F87768A6F0A387B2F"
+				"download" "E2C51A5F51883E3C6146852F45A5B22B"
+			}
+			"press"
+			{
+				"gid" "9AB06EBA7985A46EB0467C2C4273F660"
+				"size" "4E6B8247989DD1C82F17E676E317EEE9"
+				"download" "BE5D9DB2EE5AF0D9417062235EF5335E"
+			}
+			"qa-debug"
+			{
+				"gid" "E6F17EDEBE40BDAFB2DD7040AEFF8A1D"
+				"size" "ADB0038E49ED0C197153CEA747D8C836"
+				"download" "6F8439D0D72A69B0951148237347A62B"
+			}
+			"qa-release"
+			{
+				"gid" "7D8EC4EE478715C2C7F0DE37743C7C76"
+				"size" "622E31086D9F4A0A9458500A8C2F9095"
+				"download" "4C0FB1E151E4D75FD3B150AB6508A1B8"
+			}
+			"v106_debug"
+			{
+				"gid" "A47A32E31005D29FFA74D0EB6EE6551F"
+				"size" "E139ACDB2D07473061FE86E5F5BD508D"
+				"download" "DAB42320F66AF6432CB903050ADAC05F"
+			}
+			"v106_release"
+			{
+				"gid" "8E61C9896095027EAE1C0E4950A566EB"
+				"size" "07C9EA646ACB11C0EF20A0CCCFD36E0D"
+				"download" "E6CE3477D6706B6EC6AD995BB9FB983F"
+			}
+		}
+		"dlcappid" "1018150"
+	}
+	"1018151"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5112559561575317915"
+				"size" "14256288"
+				"download" "14203248"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"compat"
+			{
+				"gid" "CD46F299642D54B07B5CC4AC22C6E2B6"
+				"size" "370A4E9A1604314001B5CC8D7F1B4395"
+				"download" "CB525A40EB83D36791EF874AD7F216FE"
+			}
+			"dev-debug"
+			{
+				"gid" "6E0F5DD59507C44740E1927D74ED9F93"
+				"size" "16A31C0EE33620D16C01F0E98672BBE8"
+				"download" "39FFCBDD2EF2A00682B71822B3441E85"
+			}
+			"dev-release"
+			{
+				"gid" "351A1B25CFCCFFD77C5718D347AFB4BD"
+				"size" "09B062A293C2490E3B3CBA3B1B8A6361"
+				"download" "5669B35287A973339F3CBB0E43E58488"
+			}
+			"eac-release"
+			{
+				"gid" "484689CE80931BFA7F2A0942AAE4021A"
+				"size" "969A7B21DCE41AF0028D472D16C6B716"
+				"download" "363720768ED43657DDAD3018D484DB04"
+			}
+			"mc_debug"
+			{
+				"gid" "079D7AE5E24BB99F5C6418027942B3C9"
+				"size" "D8BA0E4A42582CD91BD423937533B278"
+				"download" "D7B26CCDF715F40C443E2CC3642794C0"
+			}
+			"mc_production"
+			{
+				"gid" "F392CB9B3E5A8002CEA315265FBE0BBD"
+				"size" "4C60B0751DEDB6A11F0F3DEFAADFAEC0"
+				"download" "B964198D47610B701AAC8A3B7B59C213"
+			}
+			"mc_release"
+			{
+				"gid" "9BB0291945415FF5360E2654EF832400"
+				"size" "F6FEBD2CD664739CD6D2160747E48576"
+				"download" "B4CA763A00A6DEB6D9EDFE194B187A39"
+			}
+			"press"
+			{
+				"gid" "F5D104E7B219E094E75F3376B3ECF5AA"
+				"size" "A8B6EBBF56F6B536BA139B882CA7AE97"
+				"download" "67323F52ACFC321427A3F936FB938C31"
+			}
+			"qa-debug"
+			{
+				"gid" "9EC7E5C73CB47B79A6255A59E6AFB7B6"
+				"size" "4BA26A349797DDA35D31D517D200A187"
+				"download" "940A4CBA43852072E49C7E37F63C0453"
+			}
+			"qa-release"
+			{
+				"gid" "2AF6CE84B053E0C50DEA5D73DCF49189"
+				"size" "8CF4D2614C51AAB5257D9271B05DF9CA"
+				"download" "F175A8EC6CC2B5582857844E529312E4"
+			}
+			"v106_debug"
+			{
+				"gid" "BA8EA24D65446F8EFED8E4D05BD6199D"
+				"size" "98DCCE59A7555386C320EDFF7449365F"
+				"download" "D313842ABA0382552BE7DD81F518CD2F"
+			}
+			"v106_release"
+			{
+				"gid" "907526260C83419BF096A1766EEC97CD"
+				"size" "B225C29115B03A961F300A80DF5AEE65"
+				"download" "ED51632202465E517E13897D9FD7261D"
+			}
+		}
+		"dlcappid" "1018151"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4407463"
+			"timeupdated" "1579107130"
+		}
+		"compat"
+		{
+			"buildid" "3543828"
+			"pwdrequired" "1"
+			"timeupdated" "1549628597"
+		}
+		"dev-debug"
+		{
+			"buildid" "4330613"
+			"pwdrequired" "1"
+			"timeupdated" "1572246686"
+		}
+		"dev-release"
+		{
+			"buildid" "4330614"
+			"pwdrequired" "1"
+			"timeupdated" "1572246697"
+		}
+		"eac-debug"
+		{
+			"buildid" "3589513"
+			"pwdrequired" "1"
+			"timeupdated" "1551077026"
+		}
+		"eac-release"
+		{
+			"buildid" "3589538"
+			"pwdrequired" "1"
+			"timeupdated" "1550993160"
+		}
+		"mc_debug"
+		{
+			"buildid" "4273729"
+			"pwdrequired" "1"
+			"timeupdated" "1570685567"
+		}
+		"mc_production"
+		{
+			"buildid" "3744543"
+			"pwdrequired" "1"
+			"timeupdated" "1556095578"
+		}
+		"mc_release"
+		{
+			"buildid" "4273730"
+			"pwdrequired" "1"
+			"timeupdated" "1570685580"
+		}
+		"press"
+		{
+			"buildid" "3660414"
+			"pwdrequired" "1"
+			"timeupdated" "1554304741"
+		}
+		"qa-debug"
+		{
+			"buildid" "4437103"
+			"pwdrequired" "1"
+			"timeupdated" "1574995337"
+		}
+		"qa-release"
+		{
+			"buildid" "4407463"
+			"pwdrequired" "1"
+			"timeupdated" "1574238289"
+		}
+		"safari-nocpk-dev"
+		{
+			"buildid" "3518576"
+			"pwdrequired" "1"
+			"timeupdated" "1548926397"
+		}
+		"v106_debug"
+		{
+			"buildid" "10715291"
+			"pwdrequired" "1"
+			"timeupdated" "1678237926"
+		}
+		"v106_release"
+		{
+			"buildid" "10715293"
+			"pwdrequired" "1"
+			"timeupdated" "1678237939"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "3000000"
+	"maxnumfiles" "30"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "BANDAI NAMCO Entertainment/SUPER DRAGON BALL HEROES WORLD MISSION/Saved/SaveGames/{Steam3AccountID}/"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21255034"
+"_sha" "8e158b1453546415fdfc7cf704f84c9c5cc77abe"
+"_size" "16632"
