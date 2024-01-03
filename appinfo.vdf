@@ -1,0 +1,76 @@
+"appid" "41520"
+"common"
+{
+	"name" "Torchlight Editor"
+	"clienticon" "f4265db97089cb278980e62853d7a47c9f7db5a3"
+	"clienttga" "64cb4fd776fa75960a6ca5cf245a03c2b0fd2ebe"
+	"icon" "b2a2a43e401dce3c69898b67b1b8af4481d96b08"
+	"logo" "e36226c6a0575e6e1838e1f915e91f8b31ab3008"
+	"logo_small" "e36226c6a0575e6e1838e1f915e91f8b31ab3008_thumb"
+	"type" "Tool"
+	"gameid" "41520"
+}
+"extended"
+{
+	"developer" "Runic Games, Inc."
+	"gamedir" "Torchlight"
+	"homepage" "http://www.torchlightgame.com/"
+	"icon" ""
+	"installscript" "41520_install.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "41502"
+	"serverbrowsername" ""
+	"state" "eStateTool"
+	"visibleonlywhensubscribed" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Torchlight"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TorchED\\Editor.exe"
+		}
+	}
+}
+"depots"
+{
+	"41501"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "41500"
+		"sharedinstall" "2"
+	}
+	"41502"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "129328113800824512"
+				"size" "1388705841"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "52308"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "2291d0f96911e9560513812be9d2b9af63b02532"
+"_size" "1285"
