@@ -1,0 +1,507 @@
+"appid" "509000"
+"common"
+{
+	"name" "QUBIC"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"eulas"
+	{
+	}
+	"logo" "3981e78e741aa79e40b6172d9ec1bed568f7df64"
+	"logo_small" "3981e78e741aa79e40b6172d9ec1bed568f7df64_thumb"
+	"icon" "6d53ebcf9b995a1a76c4574fa36bc9d0f652a1a4"
+	"clienticon" "353cc64c566bbbbeeaae10a041382df8f9270694"
+	"clienttga" "7e33fc359e170a565f780683a7773f6b5464c75c"
+	"linuxclienticon" "424d0ee0293a6032fb19d56c26a2e61dbd119298"
+	"metacritic_name" "QUBIC"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "28.71581450653983"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1560378969"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Triple-Star Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Rock Path Collective"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_13" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_15" "1"
+		"category_22" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"swedish"
+		{
+			"supported" "true"
+		}
+		"ukrainian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1479505713"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "509000"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "1664"
+		"2" "1677"
+		"3" "4182"
+		"4" "597"
+		"5" "1773"
+		"6" "4136"
+		"7" "1654"
+		"8" "1756"
+		"9" "3964"
+		"10" "1625"
+		"11" "1693"
+		"12" "1697"
+		"13" "5537"
+		"14" "21"
+		"15" "1036"
+		"16" "1621"
+		"17" "1662"
+		"18" "1719"
+		"19" "1732"
+	}
+	"review_score" "6"
+	"review_percentage" "74"
+}
+"extended"
+{
+	"developer" "Triple-Star Studio"
+	"publisher" "Rock Path Collective"
+	"listofdlc" "559220,700350,983750,1096190,1098850,1102840,1113440,1113441,1113442,1113443,1113444,1113445,1122390,1122391,1122392,1122397,1122398,1122399,1147310,1147311,1147312,1147313,1147314,1149410,1149411,1149412,1149413"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "QUBIC"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "QUBIC.exe"
+			"description" "Launch game"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "QUBIC.x86"
+			"description" "QUBIC x32"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"2"
+		{
+			"executable" "QUBIC.app"
+			"description" "Launch game"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "QUBIC.x86_64"
+			"description" "QUBIC x64"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"4"
+		{
+			"executable" "QUBIC.x86_64"
+			"arguments" "-screen-width 1920 -screen-height 1080 -screen-fullscreen 0-screen-width 1920 -screen-height 1080 -screen-fullscreen 0"
+			"description" "QUBIC x64 (Windowed)"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"5"
+		{
+			"executable" "QUBIC.x86"
+			"arguments" "-screen-width 1920 -screen-height 1080 -screen-fullscreen 0-screen-width 1920 -screen-height 1080 -screen-fullscreen 0"
+			"description" "QUBIC x32 (Windowed)"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,koreana,spanish,schinese,russian,portuguese,swedish,czech,brazilian,ukrainian"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229001"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"509001"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9162797560999109233"
+				"size" "104581378"
+				"download" "27499072"
+			}
+			"testers"
+			{
+				"gid" "9162797560999109233"
+				"size" "104581378"
+				"download" "27499072"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master"
+			{
+				"gid" "3C17F2B4A0C906B1C2C18A4514C3A391"
+				"size" "3BCDB2D911A041E6C1C3BB539E1B5866"
+				"download" "D1A095A21AB0ADF8D1178185D3E20968"
+			}
+		}
+	}
+	"509002"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4861991191827429642"
+				"size" "119994333"
+				"download" "30646224"
+			}
+			"testers"
+			{
+				"gid" "4861991191827429642"
+				"size" "119994333"
+				"download" "30646224"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master"
+			{
+				"gid" "819951FFF4828139C3FF3319E4B271A6"
+				"size" "B401000B569B128021437BA019160C1D"
+				"download" "C3B2D06BCCE79E0F6A9298C3C240B258"
+			}
+		}
+	}
+	"509003"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "839420739143255879"
+				"size" "109078741"
+				"download" "29665776"
+			}
+			"testers"
+			{
+				"gid" "839420739143255879"
+				"size" "109078741"
+				"download" "29665776"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master"
+			{
+				"gid" "A7902584B7633CCBD8F1EB9D28E16C85"
+				"size" "11E7279236BCD7497772D244A24F2D30"
+				"download" "9655FB4C32E8183B1495025304FF68ED"
+			}
+		}
+	}
+	"687330"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"dlcappid" "687330"
+	}
+	"700350"
+	{
+		"dlcappid" "700350"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7505072581217252450"
+				"size" "309474948"
+				"download" "283710880"
+			}
+			"testers"
+			{
+				"gid" "7505072581217252450"
+				"size" "309474948"
+				"download" "283710880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master"
+			{
+				"gid" "F0A53B39A97456A70E7F8B2607F38AC2"
+				"size" "FA9101FD3D65D356B46E0EC296BE7A2B"
+				"download" "F11B187A36ED2E527CC9F321D30990FD"
+			}
+		}
+	}
+	"509004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3803953794378397191"
+				"size" "110929362"
+				"download" "29528976"
+			}
+			"testers"
+			{
+				"gid" "3803953794378397191"
+				"size" "110929362"
+				"download" "29528976"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master"
+			{
+				"gid" "C6246AF1209758E922F4302531B7833A"
+				"size" "84E6482DF790D2B610B7CC68FA01F284"
+				"download" "74E831E0F7CDCF4DDD0691DF542DE4BC"
+			}
+		}
+	}
+	"509005"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5434792758196149382"
+				"size" "109298551"
+				"download" "30172880"
+			}
+			"testers"
+			{
+				"gid" "5434792758196149382"
+				"size" "109298551"
+				"download" "30172880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master"
+			{
+				"gid" "71D31DD7A182579479203B124138E2CB"
+				"size" "7F14227A003DC9B7E7531491D3EFB1D8"
+				"download" "E09B61EFA60A1B338566462768E5334C"
+			}
+		}
+	}
+	"hasdepotsindlc" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4155246"
+			"timeupdated" "1567212472"
+		}
+		"master"
+		{
+			"buildid" "4155246"
+			"pwdrequired" "1"
+			"timeupdated" "1567212451"
+		}
+		"testers"
+		{
+			"buildid" "4155246"
+			"description" "Open Beta Testing branch"
+			"timeupdated" "1567212461"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "62914560"
+	"maxnumfiles" "200"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "GameData"
+			"pattern" "*.*"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#status_atmainmenu" "At the main menu"
+				"#status_level" "Current level - %level%"
+			}
+		}
+		"russian"
+		{
+			"tokens"
+			{
+				"#status_atmainmenu" "В главном меню"
+				"#status_level" "Текущий уровень - %level%"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "683f6f09471b50f7d748a97679daa0ec4d11f034"
+"_size" "8659"
