@@ -1,0 +1,1608 @@
+"appid" "212910"
+"common"
+{
+	"name" "Call of Duty: Black Ops II - Zombies"
+	"type" "Game"
+	"clienticon" "07991a4f49c5ab8836c3cffe9f13366382bb2feb"
+	"clienttga" "785915196917e371d27b40ec8886a0d59325cd65"
+	"icon" "abbc45872375bcf8ac6b67cae6ed9ddb6c75d350"
+	"logo" "cb4cc34a1ec14a3237748919df4ad4d8aec946db"
+	"logo_small" "cb4cc34a1ec14a3237748919df4ad4d8aec946db_thumb"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"russian" "1"
+		"japanese" "1"
+		"polish" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1684368000"
+		"tested_build_id" "515845"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-2"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Call of Duty: Black Ops II - Zombies"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1358202617"
+	"associations"
+	{
+	}
+	"primary_genre" "0"
+	"category"
+	{
+	}
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "212910"
+	"store_tags"
+	{
+	}
+	"review_score" "9"
+	"review_percentage" "96"
+}
+"extended"
+{
+	"developer" ""
+	"gamedir" "ValveTestApp212910"
+	"homepage" ""
+	"icon" ""
+	"nodefaultenglishcontent" "1"
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"no_revenue_accumulation" "1"
+	"listofdlc" "219092,219096,219099,219102,219104"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"systemprofile" "1"
+	"contenttype" "3"
+	"installdir" "Call of Duty Black Ops II"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "t6zm.exe"
+			"vacmodulefilename" "resource\\sourceinit.dat"
+			"description" "Zombies"
+		}
+	}
+	"installscriptsignature" "8df46728f595f5f4169baf84357660f7fd4e7f10d22e9ea7a0c1d0fe718d8a41dbd23bde5a4c910dbafa92f8c531dde9a14a6553843bfebe89e39efb42bc7227d8d88a1e203707c857691dc3518601a28d87870066ef28c8b5fe930efacd355a5c8a28279870d9b59d9c0effd87ec357b6267406bea81b8630ded51b931327a3"
+	"installscriptoverride" "1"
+	"allowrunningmultipleinstances" "1"
+	"cegpublickey" "30819D300D06092A864886F70D010101050003818B00308187028181009F0C2FA694ABEA717B5BBADFCB35E2C0BF0068674452DF924DB4ECB48054585696E1B1F38D25C531E665269F6B91F8A4404B4F9431C1FD1B7D30C62D498B42984B170C0A21B1FA3E3B740CCF1E1D7F2D3B54C473C70811A8D3DEB51D71D35A04B83A76AB1ECAEA9981AA1B16139AAA1D91B2316057E0EFCED283351E26250C43020111"
+	"checkguid" "t6zm.exe"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\activision\\black ops ii"
+		{
+			"string"
+			{
+				"installpath" "%INSTALLDIR%"
+				"version" "1.0"
+				"spexepath" "%INSTALLDIR%\\t6sp.exe"
+				"mpexepath" "%INSTALLDIR%\\t6mp.exe"
+				"zmexepath" "%INSTALLDIR%\\t6zm.exe"
+				"english"
+				{
+					"language" "ENU"
+				}
+				"french"
+				{
+					"language" "FRA"
+				}
+				"italian"
+				{
+					"language" "ITA"
+				}
+				"german"
+				{
+					"language" "DEU"
+				}
+				"spanish"
+				{
+					"language" "ESP"
+				}
+				"russian"
+				{
+					"language" "RUS"
+				}
+				"polish"
+				{
+					"language" "PLK"
+				}
+				"japanese"
+				{
+					"language" "JPN"
+				}
+			}
+		}
+	}
+	"run process"
+	{
+		"vcredist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\202970"
+			"process 1" "%INSTALLDIR%\\redist\\vcredist_x86.exe"
+			"command 1" "/passive /norestart"
+			"nocleanup" "1"
+		}
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\202970"
+			"process 1" "%INSTALLDIR%\\redist\\DirectX\\dxsetup.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" ""
+	"markdlcdepots" "1"
+	"219092"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3355545260084890161"
+				"size" "400561344"
+				"download" "342536624"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "BD7F2A72F0F1C995E936C6461D5C215E"
+				"size" "1CDEB5C2F9A454E0203DF62CE31189A6"
+				"download" "08D18FEAB47493713942294EC9B49C1F"
+			}
+		}
+		"dlcappid" "219092"
+	}
+	"212911"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2218285080576667048"
+				"size" "13090816"
+				"download" "3602400"
+			}
+			"local"
+			{
+				"gid" "2265413816735053311"
+				"size" "13542400"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "5F8A1AFE389996C15D71A6B6D16FCFBB"
+				"size" "6B7EE5F26AAA31B7F5072A90D590454F"
+				"download" "D444CDBFF332D3603A3BF9B8CEC6DE3D"
+			}
+		}
+	}
+	"202972"
+	{
+		"depotfromapp" "202970"
+		"sharedinstall" "2"
+	}
+	"212912"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7173492351802578203"
+				"size" "600864128"
+				"download" "568060144"
+			}
+			"local"
+			{
+				"gid" "6155191277386175302"
+				"size" "578121984"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "89AC74F082B75262AECE526CD5D6EDA4"
+				"size" "A4DA4CD77CB5E2F397A82D7E7BF70367"
+				"download" "E6193CE06B0035E7488E8C27A80882B4"
+			}
+		}
+	}
+	"202975"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"depotfromapp" "202970"
+		"sharedinstall" "2"
+	}
+	"202976"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"depotfromapp" "202970"
+		"sharedinstall" "2"
+	}
+	"202977"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"depotfromapp" "202970"
+		"sharedinstall" "2"
+	}
+	"202978"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"depotfromapp" "202970"
+		"sharedinstall" "2"
+	}
+	"202979"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"depotfromapp" "202970"
+		"sharedinstall" "2"
+	}
+	"202995"
+	{
+		"config"
+		{
+			"language" "japanese"
+		}
+		"depotfromapp" "202970"
+		"sharedinstall" "2"
+	}
+	"202996"
+	{
+		"config"
+		{
+			"language" "polish"
+		}
+		"depotfromapp" "202970"
+		"sharedinstall" "2"
+	}
+	"202997"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"depotfromapp" "202970"
+		"sharedinstall" "2"
+	}
+	"212921"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8942509767028602311"
+				"size" "454760178"
+				"download" "452713296"
+			}
+			"local"
+			{
+				"gid" "4930322150289466574"
+				"size" "434856768"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "195D1F858F3F8B03B359A834A5481EDA"
+				"size" "FE25579CC018B4B7495618DCF4FBBDDB"
+				"download" "B4636ECF779B721F5F6BB8D149D7D0E5"
+			}
+		}
+	}
+	"212922"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8678673089453878920"
+				"size" "411628211"
+				"download" "411386048"
+			}
+			"local"
+			{
+				"gid" "7591324148462016854"
+				"size" "405494464"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "6E6222F3DAB6953968D534952443E481"
+				"size" "884D5158BD23446AA29F67AD4ED7138A"
+				"download" "1A0AF408794DC74E12121942D2EEF643"
+			}
+		}
+	}
+	"212923"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4325288223750995811"
+				"size" "392387137"
+				"download" "392116176"
+			}
+			"local"
+			{
+				"gid" "253243814724008213"
+				"size" "386621632"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "D35CE0F771CB4A5609E370D0E12FA2F2"
+				"size" "3CA2B8B2F0C8F3DD4EAF1C1EC621F88B"
+				"download" "8B537F84A4230E17723FAD5F57310FC7"
+			}
+		}
+	}
+	"212924"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5583935071805196033"
+				"size" "451850687"
+				"download" "451482608"
+			}
+			"local"
+			{
+				"gid" "4301164715546075695"
+				"size" "446147776"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "D7DCBE535598D32916574D44997E47B5"
+				"size" "90123C4E0BF76883E1D3297A2EEA7E96"
+				"download" "B01E37A7B90EF9AC6FEACC4B4DD4A62E"
+			}
+		}
+	}
+	"212925"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3163634041483756440"
+				"size" "438015949"
+				"download" "437773120"
+			}
+			"local"
+			{
+				"gid" "511680533836498494"
+				"size" "432425984"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "0A435E26C7E8AA812EC0D5676594D1CE"
+				"size" "177FAFEDCB7235F9227795C9E65A8E18"
+				"download" "29B5120B9ABE9256B50604C20576F85C"
+			}
+		}
+	}
+	"212926"
+	{
+		"config"
+		{
+			"language" "japanese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5358194006391748825"
+				"size" "454817564"
+				"download" "452770848"
+			}
+			"local"
+			{
+				"gid" "3193070734876948441"
+				"size" "446493696"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "C449DB1934DBA2D44FB134B16FE84852"
+				"size" "BADEB6F55C12E115C8138E39D3646748"
+				"download" "70429D2F842CCD27111EC740E93C7422"
+			}
+		}
+	}
+	"212927"
+	{
+		"config"
+		{
+			"language" "polish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1615947624091302306"
+				"size" "454792215"
+				"download" "452745248"
+			}
+			"local"
+			{
+				"gid" "7538288768585257466"
+				"size" "446464768"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "DF004042252FD703214EC9FBB91B5390"
+				"size" "F83F61AC2815EB80334D8018AF6C2EF5"
+				"download" "69BC2F9523105488D8D53E9A62094353"
+			}
+		}
+	}
+	"212928"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1688978644157572080"
+				"size" "402964863"
+				"download" "402627024"
+			}
+			"local"
+			{
+				"gid" "326224996199699721"
+				"size" "397716096"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "9003DA2E428AFE05FBA1FE241AA480D9"
+				"size" "2F66E74B9C765D840932F5EB1CC58B6C"
+				"download" "63D5DA5C5C177933C377A87BE76E04A2"
+			}
+		}
+	}
+	"202998"
+	{
+		"depotfromapp" "202970"
+		"sharedinstall" "2"
+	}
+	"219094"
+	{
+		"dlcappid" "219094"
+		"depotfromapp" "202970"
+		"sharedinstall" "2"
+	}
+	"219096"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6083944898681218397"
+				"size" "383239235"
+				"download" "365641728"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "644BE22382FB1F95CCF681293E8E0CB4"
+				"size" "E60B2F1A1B7C36F4875F82AD36A0E13B"
+				"download" "A102A3F6E512144BA5C1531255EEC5F3"
+			}
+		}
+		"dlcappid" "219096"
+	}
+	"233181"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4664140994489092100"
+				"size" "341308864"
+				"download" "329132208"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "57A6B9B22AFE7F445961442F49675AF6"
+				"size" "BD198B44AE52E6B07B06989C737FC119"
+				"download" "28E89BDA80F8B400E8F7B368B89070BB"
+			}
+		}
+	}
+	"233182"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4497978254252620785"
+				"size" "279518912"
+				"download" "279219888"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "7899FA513671907330FB07A16BD27568"
+				"size" "FB0A0931AB31B166386BBEEA0983F5E5"
+				"download" "44BE06FB32A7E106D4C37FDC00C24610"
+			}
+		}
+	}
+	"233183"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4764197661310044006"
+				"size" "268320512"
+				"download" "268010880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "E3309DC913AB7D50B16859316007AB67"
+				"size" "C9B6472E404D33CF881359D7D5933ADB"
+				"download" "089A5A4E317B893A9B9A516EDAE7532E"
+			}
+		}
+	}
+	"233184"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7493768293233010044"
+				"size" "287993472"
+				"download" "287554608"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "F718800587F45949ED99D794977583A0"
+				"size" "5143BD398447256E349E9CE7CA1A8DBD"
+				"download" "066F33C2C8FD22A41CE2CDC03890B9C8"
+			}
+		}
+	}
+	"233185"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8766002504692926338"
+				"size" "310669056"
+				"download" "310376064"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "F202B7433DC516BC3D0C0C6A86C8BE9D"
+				"size" "89598552AD42526D7ED042481BAE63F5"
+				"download" "E982ED7009DB0819EF719F0C79CF28F6"
+			}
+		}
+	}
+	"233186"
+	{
+		"config"
+		{
+			"language" "japanese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6880795305594739422"
+				"size" "341308928"
+				"download" "329132256"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "D3C05EB24F98D501ABF032F36671D8F0"
+				"size" "13BBDD8EB8D841D6B88122FBE8F6689C"
+				"download" "C19D24C7EDDBD71599D9A5AFE6522C57"
+			}
+		}
+	}
+	"233187"
+	{
+		"config"
+		{
+			"language" "polish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1300262062483564262"
+				"size" "341308864"
+				"download" "329132224"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "87028753D994B74936D3717D596264BC"
+				"size" "BD198B44AE52E6B07B06989C737FC119"
+				"download" "13A2B4C5891F5D7AA4875B13104AA20C"
+			}
+		}
+	}
+	"233188"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6301789178665746291"
+				"size" "281083712"
+				"download" "280366848"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "4470028AF546DA0911905A1BACD742DF"
+				"size" "E3FFF337736EA1CD58E1B8485DC44278"
+				"download" "ECEDCE73723A467C711A32AC55CF2FB8"
+			}
+		}
+	}
+	"219099"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8312826338200556582"
+				"size" "672003580"
+				"download" "639370064"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "514642F587BBFE99C28B4B35543BFCB4"
+				"size" "40F1543D2366BE5B6757DB7BE0C48ECC"
+				"download" "7C9AD4B80D178A037A346AFD24E57AA2"
+			}
+		}
+		"dlcappid" "219099"
+	}
+	"238811"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "411175400606548323"
+				"size" "323235776"
+				"download" "322004256"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "0B4AE2E78FD89CCF5B716B097F9CE8F5"
+				"size" "10D10F408C1C81380E8760AA0B0E1E63"
+				"download" "DB9970D04C641CFC904913EF727CDFB2"
+			}
+		}
+	}
+	"238812"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2159041321443513187"
+				"size" "275173632"
+				"download" "274566096"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "84B154D3BD20F0BEC6E8F338EE6AB585"
+				"size" "5C4B2310698311A70409CBA197DFC4FB"
+				"download" "65297809C4D6142D9EA6DF897B3FC06E"
+			}
+		}
+	}
+	"238813"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5592459654559696995"
+				"size" "268107904"
+				"download" "267500816"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "FDB161FC34838CF43A59F7FAF348B879"
+				"size" "16D13CEB04C7A082ED62E6A0A04227C1"
+				"download" "30AB9F4445B63596FD58255A1D3C4B75"
+			}
+		}
+	}
+	"238814"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3218645021804340047"
+				"size" "288514368"
+				"download" "287672800"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "EEDEBB8450892EF59CAB23C8ABCCF6B9"
+				"size" "66B43C951829BCCBCE3C795AB611760A"
+				"download" "5260318BB71654571F4FB2549E1E2564"
+			}
+		}
+	}
+	"238815"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7522532629479561918"
+				"size" "288159872"
+				"download" "287515824"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "8E1FEEDF9DDC68938BBC149D9CF2D7B8"
+				"size" "B88A4401ABC94A92D5DD9DF6C104191A"
+				"download" "DC879ABB2F5C6935E2A4BF7D78569F41"
+			}
+		}
+	}
+	"238816"
+	{
+		"config"
+		{
+			"language" "japanese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "679746093254754200"
+				"size" "323236032"
+				"download" "322004480"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "446A4C919C13D864F7B8E05115667934"
+				"size" "0269D1E3FD49BEA67A83FA745E553305"
+				"download" "981A2067567EF0D558F703EE6659C7EF"
+			}
+		}
+	}
+	"238817"
+	{
+		"config"
+		{
+			"language" "polish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4583108330490838221"
+				"size" "323235968"
+				"download" "322004448"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "EB9EF30B31B6DDECFCF33D3B5057F647"
+				"size" "75E9EB8260C6543D7820A8A058C85822"
+				"download" "13227B5CCA51D2CCEA09E5177400C522"
+			}
+		}
+	}
+	"238818"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3383282731542742831"
+				"size" "312287616"
+				"download" "311115696"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "8794DF00D41B34CD2EE010680E20477D"
+				"size" "D093FECA8E5554E9E0A28F4ED92F457C"
+				"download" "56E7AF18AA91A5227D83D4568DA3F8D2"
+			}
+		}
+	}
+	"219102"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5735097321577510919"
+				"size" "790834614"
+				"download" "759629712"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "A896A1C0E8A385A6360F10D1A451B57A"
+				"size" "CB84B17769234B69CA4162CF575DB909"
+				"download" "1B505E28AC619F1E0D476232BF5E2B2D"
+			}
+		}
+		"dlcappid" "219102"
+	}
+	"247169"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1779924028979804934"
+				"size" "431052480"
+				"download" "430480816"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "EBEA16132B2515C73F4B432BB12C8344"
+				"size" "2684DC94380B0591FFF961040828C67C"
+				"download" "A6A6C7AE7611EDA098E9E6F4F39EEC09"
+			}
+		}
+	}
+	"247170"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3208871003911302185"
+				"size" "386858624"
+				"download" "386574208"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "E4C88E46C7F8CDFBBCDA6491FC5BBCAA"
+				"size" "EC6DA9D785EF07262B096785F6CF08FD"
+				"download" "666FCB0AC36E42044F3B5F59651396A3"
+			}
+		}
+	}
+	"247171"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7536735363313167114"
+				"size" "382682688"
+				"download" "382441536"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "A8DCAAF91F5414EED0EE3101E57CD6C9"
+				"size" "1BB21E5799979514EF052E801A94B294"
+				"download" "B370A6EEF67BC45055A5B35B5F357566"
+			}
+		}
+	}
+	"247172"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4631959612606192943"
+				"size" "408665728"
+				"download" "408325136"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "5CF4CF8E79639E6101438DAB5C081D15"
+				"size" "383E5858CFDCCF5831FB3355C5B49DE1"
+				"download" "962AA7FBAB5D6BBFCFF50470988717A1"
+			}
+		}
+	}
+	"247173"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2400984025967731946"
+				"size" "416898688"
+				"download" "416645248"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "4128DF39C4B541D7F6D44EBA7B4AA224"
+				"size" "253B0A5865640280A425A5CAFA8AC201"
+				"download" "1D2551ADAE1978866B3D580A9AC621A6"
+			}
+		}
+	}
+	"247174"
+	{
+		"config"
+		{
+			"language" "japanese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1762353410019682734"
+				"size" "431052736"
+				"download" "430481040"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "7624086BD950CA382D7EF16CB976FA9B"
+				"size" "089FC5C9388C5847989E2AD78DA82672"
+				"download" "6210A46E69EC8B102FD93EFE8B780434"
+			}
+		}
+	}
+	"247175"
+	{
+		"config"
+		{
+			"language" "polish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6590545150150140095"
+				"size" "431052736"
+				"download" "430481056"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "418D6DA9C44582E61C2248BEBB647FE3"
+				"size" "089FC5C9388C5847989E2AD78DA82672"
+				"download" "0FAAFD0A3D5A52352F88302C29BC598C"
+			}
+		}
+	}
+	"247176"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1045349965220769849"
+				"size" "395970240"
+				"download" "395651120"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "4A9BCF8DCDC6EB6F1E8A52E1B2E282D2"
+				"size" "5EAC62B90C25F080179A1870651CFE3A"
+				"download" "5DCAA84CD0D3C11E6C6D6DC0FF3EADB4"
+			}
+		}
+	}
+	"219104"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "580718828309419192"
+				"size" "1196132977"
+				"download" "1123254880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "F78AC2AA28FBE9136DFDE085F39DEA63"
+				"size" "87405EE5D99B9FD426B18AC0C4A342F8"
+				"download" "6FDB1AFBEDCAAD0C15E64A3B62BEFB0B"
+			}
+		}
+		"dlcappid" "219104"
+	}
+	"255569"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "577328094221422745"
+				"size" "406168768"
+				"download" "394659968"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "B80850F4AEACDAD64BFD1277010E81F8"
+				"size" "504029D1F42A902E60967872802BA704"
+				"download" "8091B0D9E3399F5D24ED96B1FA61FE9B"
+			}
+		}
+	}
+	"255570"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2634057275195429479"
+				"size" "340385728"
+				"download" "329301088"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "AB38F526443634B64E46BD703D0A1CA2"
+				"size" "71B022F16A766679CB23E3A2873EFF51"
+				"download" "AC502757EABE1E731E97DA22A7540CAB"
+			}
+		}
+	}
+	"255571"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2759068461300104961"
+				"size" "405243968"
+				"download" "393356352"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "6044AD5D5514BE91305913A491DF412C"
+				"size" "DD6B446CF14ABC4D6AB65061DC689907"
+				"download" "5DADF741CC3D73FAFF16DC1452844E13"
+			}
+		}
+	}
+	"255572"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6316468451344225815"
+				"size" "401143744"
+				"download" "389790096"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "F05741B6C5D2A3F838EC9D874F2FF005"
+				"size" "E9EE3944AB265DF1787890596BD9E238"
+				"download" "848B43A9A8D7CD9A2503EE61232C5375"
+			}
+		}
+	}
+	"255573"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2078522143069019530"
+				"size" "389922496"
+				"download" "378615360"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "C13F108F91EC37286282228075E8896E"
+				"size" "AD8BCC52C9AA35C753930FD29975FEAF"
+				"download" "7349C40E4185DA2832A1C358280ECFB0"
+			}
+		}
+	}
+	"255574"
+	{
+		"config"
+		{
+			"language" "japanese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4434767707929500186"
+				"size" "406168960"
+				"download" "394665008"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "E30FD6424A193B2BE3C657EF8D213546"
+				"size" "13568EE8073F8689298A64941730C312"
+				"download" "52A9906DBE4F5011DC2B138BB90121D0"
+			}
+		}
+	}
+	"255575"
+	{
+		"config"
+		{
+			"language" "polish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3223612125189088869"
+				"size" "406168960"
+				"download" "394664960"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "D1A694D520D04372CB005EB3E245220D"
+				"size" "13568EE8073F8689298A64941730C312"
+				"download" "3370B113AAF37A7B7A4412FC23FBAE01"
+			}
+		}
+	}
+	"255576"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4338541736904757697"
+				"size" "389379584"
+				"download" "377379760"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "D026EF6D21A13CAD3D33B7770DA8D095"
+				"size" "936FABDE8E77C8403A6FC99FA0854519"
+				"download" "BFF472A54786236ADF9474B662DBACA1"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "515845"
+		}
+		"beta"
+		{
+			"buildid" "515845"
+			"pwdrequired" "1"
+		}
+		"local"
+		{
+			"buildid" "16745"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "5242880"
+	"maxnumfiles" "9"
+	"appidredirect" "202970"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "/players"
+			"pattern" "savegame.svg"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "/players"
+			"pattern" "user_common.cgp"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "/players"
+			"pattern" "bindings_sp.bdg"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "/players"
+			"pattern" "user_sp.cgp"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"4"
+		{
+			"root" "gameinstall"
+			"path" "/players"
+			"pattern" "bindings_mp.bdg"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"5"
+		{
+			"root" "gameinstall"
+			"path" "/players"
+			"pattern" "user_mp.cgp"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"6"
+		{
+			"root" "gameinstall"
+			"path" "/players"
+			"pattern" "bindings_zm.bdg"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"7"
+		{
+			"root" "gameinstall"
+			"path" "/players"
+			"pattern" "user_zm.cgp"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"8"
+		{
+			"root" "gameinstall"
+			"path" "/players"
+			"pattern" "savegame.foo"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21607992"
+"_sha" "cd08d513b7d548951216f43b60fe444fba10a7cc"
+"_size" "27393"
