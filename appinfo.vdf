@@ -1,0 +1,359 @@
+"appid" "431600"
+"common"
+{
+	"name" "Automobilista"
+	"type" "Game"
+	"oslist" "windows"
+	"releasestate" "released"
+	"icon" "5c9723a7d7b348173f0736c8b4b50e9797b49a3b"
+	"logo" "4ee3fb082ebcb68f8696a60ef102534c943c6380"
+	"logo_small" "4ee3fb082ebcb68f8696a60ef102534c943c6380_thumb"
+	"clienticon" "3dc37f6ac9512890ca63c2b2d0a2e5f61307b3f9"
+	"clienttga" "fb56b00fc5e2f3b1dd71c87a202f2f0482febe7e"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1676419200"
+		"tested_build_id" "4311892"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Automobilista"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "91.37931034482759"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1572643254"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Reiza Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Reiza Studios"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "9"
+		"1" "28"
+		"2" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_22" "1"
+		"category_18" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"dutch"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1456732800"
+	"steam_release_date" "1472075151"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "431600"
+	"store_tags"
+	{
+		"0" "699"
+		"1" "1100687"
+		"2" "599"
+		"3" "701"
+		"4" "3859"
+		"5" "4175"
+		"6" "1644"
+		"7" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"gamedir" "Automobilista"
+	"serverbrowsername" "Automobilista"
+	"developer" "Reiza Studios"
+	"publisher" "Reiza Studios"
+	"homepage" "http://www.game-automobilista.com"
+	"listofdlc" "521600,521610,544260,550800,599810,644210,724720,1150240,1150250"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Automobilista"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "AMS.exe"
+			"type" "default"
+		}
+		"1"
+		{
+			"executable" "AMS Config.exe"
+			"type" "config"
+		}
+		"2"
+		{
+			"executable" "AMS Dedicated.exe"
+			"type" "server"
+		}
+		"3"
+		{
+			"executable" "support\\Automobilista_User_Guide_EN.pdf"
+			"description" "View User Guide"
+			"type" "manual"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "SeasonTool\\SeasonTool.exe"
+			"arguments" "--disable-gpu"
+			"workingdir" "SeasonTool\\"
+			"description" "Custom Season Tool"
+			"type" "none"
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"431601"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1385375188031603626"
+				"size" "36691199159"
+				"download" "24249025600"
+			}
+			"beta"
+			{
+				"gid" "1385375188031603626"
+				"size" "36691199159"
+				"download" "24249025600"
+			}
+			"logitechg29"
+			{
+				"gid" "1385375188031603626"
+				"size" "36691199159"
+				"download" "24249025600"
+			}
+			"v1.4.54"
+			{
+				"gid" "7226033121834960520"
+				"size" "32304706672"
+				"download" "21129823408"
+			}
+			"v1.4.7_g29"
+			{
+				"gid" "1217502074107825957"
+				"size" "32783414868"
+				"download" "21580071520"
+			}
+			"v1.4.76"
+			{
+				"gid" "1993848820948907311"
+				"size" "32783418452"
+				"download" "21580075952"
+			}
+			"v1.4.8_g29"
+			{
+				"gid" "9143550261400059457"
+				"size" "33796300372"
+				"download" "22051155200"
+			}
+			"v1.4.93"
+			{
+				"gid" "6274884031436886064"
+				"size" "34278512673"
+				"download" "22354304592"
+			}
+			"v1.5.01"
+			{
+				"gid" "1855847832515483179"
+				"size" "34428398377"
+				"download" "22654821072"
+			}
+			"v1.5.16"
+			{
+				"gid" "5023548178650263501"
+				"size" "35794404308"
+				"download" "23566652432"
+			}
+			"v1.5.25"
+			{
+				"gid" "3227080150709646102"
+				"size" "36647169583"
+				"download" "24193992512"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4311892"
+			"timeupdated" "1571760489"
+		}
+		"beta"
+		{
+			"buildid" "4311892"
+			"description" "Closed Beta Branch"
+			"timeupdated" "1571760462"
+		}
+		"logitechg29"
+		{
+			"buildid" "4311892"
+			"timeupdated" "1571760474"
+		}
+		"v1.4.54"
+		{
+			"buildid" "2042818"
+			"timeupdated" "1504361609"
+		}
+		"v1.4.7_g29"
+		{
+			"buildid" "2145543"
+			"timeupdated" "1506349197"
+		}
+		"v1.4.76"
+		{
+			"buildid" "2145598"
+			"timeupdated" "1507312906"
+		}
+		"v1.4.8_g29"
+		{
+			"buildid" "2193954"
+			"timeupdated" "1507896475"
+		}
+		"v1.4.93"
+		{
+			"buildid" "2366076"
+			"timeupdated" "1514388359"
+		}
+		"v1.5.01"
+		{
+			"buildid" "2428153"
+			"timeupdated" "1524858241"
+		}
+		"v1.5.16"
+		{
+			"buildid" "3427428"
+			"timeupdated" "1567800644"
+		}
+		"v1.5.25"
+		{
+			"buildid" "4189843"
+			"timeupdated" "1568377127"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "41943040"
+	"maxnumfiles" "10000"
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "d8235185e75588add68959b44d594fbbf186989a"
+"_size" "6418"
