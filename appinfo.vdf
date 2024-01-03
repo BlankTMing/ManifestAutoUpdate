@@ -1,0 +1,251 @@
+"appid" "567170"
+"common"
+{
+	"name" "Mystery Mine"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "b7233999721cbc2c57829ffc4049322f30df1f62"
+	"logo_small" "b7233999721cbc2c57829ffc4049322f30df1f62_thumb"
+	"icon" "0f61761e1aeac0482dfe3a8e94d98243eec95d63"
+	"clienttga" "bd13301feddb5c8c0ec41c6aa3ea9be493d9b90e"
+	"clienticon" "3775d6dcfa73d144a249f4ce06f0fb61096814d6"
+	"clienticns" "a0b9908095833c46c56a28939096647170da9ce8"
+	"linuxclienticon" "5e74b64562bb799699e180674b7bcaad4f501a56"
+	"releasestate" "released"
+	"metacritic_name" "Mystery Mine"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1490284697"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "LEVER Software"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_13" "1"
+		"category_15" "1"
+		"category_18" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"ukrainian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+	}
+	"original_release_date" "1494918000"
+	"steam_release_date" "1495132480"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "567170"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "122"
+		"3" "1625"
+		"4" "3964"
+		"5" "4166"
+		"6" "1756"
+		"7" "3871"
+	}
+	"review_score" "5"
+	"review_percentage" "41"
+}
+"extended"
+{
+	"developer" "LEVER Software"
+}
+"config"
+{
+	"installdir" "Mystery Mine"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "MysteryMine.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "MysteryMine.app\\Contents\\MacOS\\MysteryMine"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "MysteryMine.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "MysteryMine.x86"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"baselanguages" "english,russian,ukrainian"
+	"567171"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8129785291634749721"
+				"size" "354675663"
+				"download" "82694896"
+			}
+		}
+	}
+	"567172"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7476189912987306213"
+				"size" "396297441"
+				"download" "95196320"
+			}
+		}
+	}
+	"567173"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5963581352368107228"
+				"size" "401108960"
+				"download" "95122976"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1835730"
+			"timeupdated" "1495305699"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "MysteryMine_Data/StreamingAssets"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "MysteryMine.app/Contents/Resources/Data/StreamingAssets"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "MysteryMine_Data/StreamingAssets"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20895740"
+"_sha" "24aebe47856bff3927f428c411e04bfe8f4a61d1"
+"_size" "3957"
