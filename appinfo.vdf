@@ -1,0 +1,230 @@
+"appid" "567600"
+"common"
+{
+	"name" "RYAN BLACK"
+	"type" "Game"
+	"releasestate" "released"
+	"clienticon" "a8d28037ab4c063bdaa30d5df9b67a68b5c66b1c"
+	"clienttga" "2a0e8be6114fa2879abd665fe8110d7610c7d8b4"
+	"icon" "2e80868039ab29394595ff1954b93a7d12cab7f1"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "1ad73b7adf9a15bede9c039dd36e09e5b3836d36"
+	"logo_small" "1ad73b7adf9a15bede9c039dd36e09e5b3836d36_thumb"
+	"metacritic_name" "RYAN BLACK"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "53.55225116704975"
+			"height_pct" "69.95649621362043"
+		}
+	}
+	"store_asset_mtime" "1589692681"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Trazzy Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Vita Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_25" "1"
+		"category_28" "1"
+		"category_33" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1484402252"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "567600"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "21"
+		"2" "492"
+		"3" "1659"
+		"4" "1774"
+		"5" "3798"
+		"6" "1667"
+		"7" "4182"
+		"8" "1662"
+		"9" "4166"
+		"10" "1742"
+		"11" "4036"
+		"12" "4158"
+		"13" "4975"
+		"14" "1625"
+		"15" "3871"
+		"16" "1773"
+		"17" "5611"
+		"18" "6052"
+		"19" "3978"
+	}
+	"review_score" "4"
+	"review_percentage" "39"
+}
+"extended"
+{
+	"developer" "Trazzy Entertainment"
+	"publisher" "Vita Games"
+}
+"config"
+{
+	"installdir" "RYAN BLACK"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "RyanBlack.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "RyanBlack.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"567601"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1506849606110610980"
+				"size" "3251919457"
+				"download" "580182800"
+			}
+		}
+	}
+	"567602"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3443342800239177639"
+				"size" "4050422312"
+				"download" "1368664048"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1643323"
+			"timeupdated" "1487599768"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1048576"
+	"maxnumfiles" "10"
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "path"
+					"replace" "Trazzy/Ryan Black/"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinAppDataLocalLow"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "path"
+					"replace" "Trazzy/Ryan Black/"
+				}
+			}
+		}
+	}
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "path"
+			"pattern" "*.dat"
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18903802"
+"_sha" "fa2023ea263b0f91d66a649049b963c90d0a766d"
+"_size" "3545"
