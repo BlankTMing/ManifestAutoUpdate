@@ -1,0 +1,96 @@
+"appid" "34850"
+"common"
+{
+	"name" "Sniper: Ghost Warrior - Dedicated Server"
+	"logo" "eda3a22ba8f866206f84e7e9a741280739845c91"
+	"logo_small" "eda3a22ba8f866206f84e7e9a741280739845c91_thumb"
+	"icon" "f6a4c75d3f1aa800292920409d074a8a4ce4de6b"
+	"clienttga" "3dc94cb166784d5ebcfe2eff12a9ce61fc62b493"
+	"clienticon" "92dd2f99841f4dd4e1f35b8a3b21375ea4f60974"
+	"type" "Tool"
+	"gameid" "34850"
+}
+"extended"
+{
+	"developer" "City Interactive S.A."
+	"gamedir" "Sniper - Ghost Warrior - Dedicated Server"
+	"homepage" "www.sniperghostwarrior.com"
+	"icon" ""
+	"installscript" "34850_install.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "34851"
+	"serverbrowsername" "Sniper - Ghost Warrior - Dedicated Server"
+	"state" "eStateTool"
+}
+"config"
+{
+	"installscriptsignature" "43bbdfacfc2a27d948101bbf82dbfa2d074344a9d80268d0cced156330c9b72ca45485a68c738d64b6bb4004358f84e3b8d8a0ea8ac76e247bc7427159382f817eb8db4b1f89618f398376487e0b7bcbf2198ceb75dd15ca94cbceef1748bceb61cc40d1895d52ddb373094c1a346eb5591335b274181c74890209bd22d9d6f9"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Sniper Ghost Warrior - Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Launcher.exe"
+		}
+	}
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\city interactive\\sniper2ds"
+		{
+			"string"
+			{
+				"destinationdir" "%INSTALLDIR%"
+				"writedir" "Sniper - Ghost Warrior - Dedicated Server"
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"vcredist"
+		{
+			"process 1" "%INSTALLDIR%\\VCRedist\\vcredist.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"34851"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "607942153121863508"
+				"size" "558729445"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "19460"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "7d7ba80d0b30ab9921fde8036db132b6ca9427e4"
+"_size" "2052"
