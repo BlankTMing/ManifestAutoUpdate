@@ -1,0 +1,112 @@
+"appid" "307400"
+"common"
+{
+	"name" "The Divinity Engine"
+	"section_type" "ownersonly"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" "windows"
+	"logo" "f1540500d4cbd21aa5453a1747e5fe42a93bd6e2"
+	"logo_small" "f1540500d4cbd21aa5453a1747e5fe42a93bd6e2_thumb"
+	"icon" "ca9cdafd4257253dba68babeed300874190fbbff"
+	"clienttga" "5b387e6c2f2aff9e56a2b91d00a888eb90577e40"
+	"clienticon" "40a9c1f97a7cba08a15035aef8fbf0341e5ae47e"
+	"associations"
+	{
+	}
+	"gameid" "307400"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "The Divinity Engine"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TheDivinityEngine.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228982"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229000"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"307401"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "984719054341369618"
+				"size" "62454279"
+				"download" "20722048"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"larian-qa"
+			{
+				"gid" "A6ED3EB1D9B6452A91A0F0494D6177C3"
+				"size" "E40B524412C012E50C7FB0004217247F"
+				"download" "BCDC61ED756E013AB08854E214A3F122"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "509190"
+		}
+		"larian-qa"
+		{
+			"buildid" "509190"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "0a3a07a0f9f48b66d101b70db30ffeedeba278af"
+"_size" "1748"
