@@ -1,0 +1,376 @@
+"appid" "733790"
+"common"
+{
+	"name" "Not Tonight"
+	"type" "Game"
+	"releasestate" "released"
+	"icon" "b390412315e57f0a195f535af76e707ec622367b"
+	"logo" "28365246fbe22670d09d44505c31965ff9b7c58a"
+	"logo_small" "28365246fbe22670d09d44505c31965ff9b7c58a_thumb"
+	"clienticon" "887fe1efcb1e1bf97e4c48bb4fcca531cb2338f7"
+	"clienttga" "63c67f26e3438d0625555317a2b308d442a4ae6d"
+	"oslist" "windows"
+	"osarch" ""
+	"languages"
+	{
+		"english" "1"
+		"spanish" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1657065600"
+		"tested_build_id" "8186526"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Not Tonight"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "43.053134380958326"
+			"height_pct" "78.10956060128245"
+		}
+	}
+	"store_asset_mtime" "1666955711"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "PanicBarn"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "No More Robots"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "No More Robots"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "25"
+		"1" "3"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1534517715"
+	"metacritic_score" "71"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/not-tonight\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "733790"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "10235"
+		"2" "3964"
+		"3" "122"
+		"4" "4853"
+		"5" "4598"
+		"6" "5030"
+		"7" "4754"
+		"8" "492"
+		"9" "4182"
+		"10" "21"
+		"11" "1756"
+		"12" "3871"
+		"13" "1742"
+		"14" "6971"
+		"15" "4004"
+		"16" "4026"
+		"17" "4711"
+		"18" "4190"
+		"19" "597"
+	}
+	"review_score" "8"
+	"review_percentage" "84"
+}
+"extended"
+{
+	"developer" "PanicBarn"
+	"publisher" "No More Robots"
+	"homepage" "http://www.nottonightgame.com"
+	"listofdlc" "1036480"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Not Tonight"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "NotTonight.exe"
+			"arguments" "-force glcore"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "NotTonight.exe"
+			"arguments" "-window-mode exclusive -force glcore"
+			"description" "Play Not Tonight (Exclusive Window Mode)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "NotTonight.exe"
+			"arguments" "-force-d3d11"
+			"description" "Play Not Tonight (DX11)"
+			"type" "none"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"733791"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1410363279338493326"
+				"size" "4179029199"
+				"download" "876455600"
+			}
+			"test"
+			{
+				"gid" "1410363279338493326"
+				"size" "4179029199"
+				"download" "876455600"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"challengemodetest"
+			{
+				"gid" "5C37D73E5761A298E5F71AF979213F9C"
+				"size" "5C8323EF231A77B39432A991FF061854"
+				"download" "F1AFF860CAD610E3614473F07921661D"
+			}
+			"chinese"
+			{
+				"gid" "DCF6C6C15152452529D22F90ACFE930E"
+				"size" "6D02F5C562276432673F97DACFF5BC9E"
+				"download" "E6255804BFAB8210BE19C39AA11845E5"
+			}
+			"developer"
+			{
+				"gid" "C1CBA7025A7D6480B7742FA0AFF4B609"
+				"size" "616036A460B8D658E14E2D17AFC4BBBD"
+				"download" "E11D170268148A501F428BF8DD8BE257"
+			}
+			"dlc_branch"
+			{
+				"gid" "68775E72466300C6744CAEE94203A3EC"
+				"size" "62BC7DC9BABD6F4819ABFA8A787D4E49"
+				"download" "BDFB2F2D775628710C4908BAC0B32435"
+			}
+			"spanish"
+			{
+				"gid" "6E6EC50E420476BC152F7B271EBB08AC"
+				"size" "F11C1275DFB76E95F26CC3FD83BC0D63"
+				"download" "D60F0A431F02DBFC7033ED4A4719AEBE"
+			}
+		}
+	}
+	"1036480"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8075341632198747782"
+				"size" "0"
+				"download" "0"
+			}
+			"test"
+			{
+				"gid" "8075341632198747782"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dlc_branch"
+			{
+				"gid" "3E542728AF2C66A30938302243261370"
+				"size" "5650CDA49CBD442658E3E6C522401C2C"
+				"download" "5650CDA49CBD442658E3E6C522401C2C"
+			}
+		}
+		"dlcappid" "1036480"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10039214"
+			"timeupdated" "1669733987"
+		}
+		"challengemodetest"
+		{
+			"buildid" "3313587"
+			"pwdrequired" "1"
+			"timeupdated" "1542370500"
+		}
+		"chinese"
+		{
+			"buildid" "3091748"
+			"pwdrequired" "1"
+			"timeupdated" "1536087253"
+		}
+		"developer"
+		{
+			"buildid" "4182728"
+			"pwdrequired" "1"
+			"timeupdated" "1669725238"
+		}
+		"dlc_branch"
+		{
+			"buildid" "3941352"
+			"pwdrequired" "1"
+			"timeupdated" "1561113628"
+		}
+		"spanish"
+		{
+			"buildid" "3048580"
+			"pwdrequired" "1"
+			"timeupdated" "1534788650"
+		}
+		"test"
+		{
+			"buildid" "10039214"
+			"timeupdated" "1669730837"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "209715200"
+	"maxnumfiles" "500"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Panicbarn/Not Tonight"
+			"pattern" "*.es3"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21382534"
+"_sha" "0cd49d413ff418aa98ddc688565dc3ad0c400fd0"
+"_size" "7091"
