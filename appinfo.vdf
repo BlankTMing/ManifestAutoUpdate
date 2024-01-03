@@ -1,0 +1,666 @@
+"appid" "1621690"
+"common"
+{
+	"name" "Core Keeper"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "efa098d33b18f540892d499b33ef0cd362596db8"
+	"logo_small" "efa098d33b18f540892d499b33ef0cd362596db8_thumb"
+	"clienticon" "61ad6cf2936a000a8f004cef2d4b790e76407538"
+	"clienttga" "2f3abebfd25cbf11966f1b6ace53084825cbdebc"
+	"icon" "661ff82410b3c1c49e0f6a5e3715c445dbccfb77"
+	"name_localized"
+	{
+	}
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"osextended" ""
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"thai" "1"
+		"japanese" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1678406400"
+		"tested_build_id" "10702308"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn"
+		"library_hero" "en,zh-cn"
+		"library_logo" "en,zh-cn"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "37.249822676500344"
+			"height_pct" "85.74363704416638"
+		}
+	}
+	"store_asset_mtime" "1699982178"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Pugstorm"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Fireshine Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Fireshine Games"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+		"3" "3"
+		"4" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_28" "1"
+		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"thai"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1646729194"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1621690"
+	"store_tags"
+	{
+		"0" "3843"
+		"1" "3964"
+		"2" "3810"
+		"3" "1100689"
+		"4" "21"
+		"5" "1662"
+		"6" "1702"
+		"7" "3871"
+		"8" "3834"
+		"9" "1643"
+		"10" "1720"
+		"11" "5125"
+		"12" "5981"
+		"13" "87918"
+		"14" "1654"
+		"15" "3920"
+		"16" "599"
+		"17" "4166"
+		"18" "5716"
+		"19" "597"
+	}
+	"review_score" "8"
+	"review_percentage" "91"
+}
+"extended"
+{
+	"developer" "Pugstorm"
+	"publisher" "Fireshine Games"
+}
+"config"
+{
+	"installdir" "Core Keeper"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CoreKeeper.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "CoreKeeper"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "CoreKeeper"
+			"arguments" "-force-opengl"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "Core Keeper (OpenGL)"
+			}
+			"description" "Core Keeper (OpenGL)"
+		}
+	}
+	"uselaunchcommandline" "1"
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1621691"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "943763884574608209"
+				"size" "635621300"
+				"download" "348475488"
+			}
+			"0.7.1"
+			{
+				"gid" "5537815892178850829"
+				"size" "353270382"
+				"download" "237117648"
+			}
+			"moddebug"
+			{
+				"gid" "5115436733258318758"
+				"size" "635621315"
+				"download" "348476000"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"age_ratings"
+			{
+				"gid" "2C452858EE6E9F330C65C0F924523B16"
+				"size" "986D8EB4B56093B63154EA27CD7D56B7"
+				"download" "B00C0F4D0D8988DE0E3E481FEBBE03D4"
+			}
+			"ambassadors"
+			{
+				"gid" "15BAED792770381650B0F1A05200B7F2"
+				"size" "6DCDEC01C80A2C19334B9B1FB20DD731"
+				"download" "51A28B75719F8802328F7FE685ED72BA"
+			}
+			"compatibility"
+			{
+				"gid" "8C5DA2BA3A2CAAB828F65ADABA844722"
+				"size" "229089EFA6125D5AC4160AFF6B707662"
+				"download" "1794ACAEA555AFF3362097981D20D9B4"
+			}
+			"corsair"
+			{
+				"gid" "95A7F5AAA91546B05B25ECDE48825FB3"
+				"size" "293082DA359E4F6A9D306731852952C7"
+				"download" "BBA0B4E68527092FDE93C1236B5A9CCA"
+			}
+			"developer"
+			{
+				"gid" "C5798C493122588EAE96830147C8B8B6"
+				"size" "A95B42B0632CDDC000BDD806CDD66D5B"
+				"download" "F1C9836C1D44023D393D674335360DD7"
+			}
+			"early_explorers"
+			{
+				"gid" "B464E5864DBE6C7EA48CCC3F287DC206"
+				"size" "ABCB17FAC702623DD6C1CFD697A4940C"
+				"download" "DCDCAF5ECC6FE8C2F65C415B231FD487"
+			}
+			"experimental"
+			{
+				"gid" "5900EC52D3B3531D3FE606A0AAB700E9"
+				"size" "BBA8EB570D035936228B0A7C454B64E0"
+				"download" "005AB76F8D286D6A960E05A71589F4BF"
+			}
+			"externalaccess"
+			{
+				"gid" "6D8583C6BC86ED961769D1AE1AFD2FB0"
+				"size" "D409DF3871E86C91310F32ABDF5B5382"
+				"download" "CEAC229CC71C016FD362B195185879A9"
+			}
+			"marketing"
+			{
+				"gid" "EAF09C2F6F268B2667C74ABABDC4E801"
+				"size" "56FEE286F889A626925CE3FDB8BB6C15"
+				"download" "B77A0ADB25CE418C5AA221AA23774E08"
+			}
+			"nightly"
+			{
+				"gid" "90A67C7473834ED05A93939849D6BA33"
+				"size" "2B7934271FBB248DC0568CBB4B6DBF53"
+				"download" "88A5D37DF60C62A2E1AD4846FD4222C0"
+			}
+			"press"
+			{
+				"gid" "026D3F17AF4AFC9E8863C056705E31C5"
+				"size" "459DF672B1671562010FF63B536C8901"
+				"download" "EDD29E21068B977C8BBDB58CB28E1051"
+			}
+			"private"
+			{
+				"gid" "42690B2E2BBEBCC9C341432BF0BB46B3"
+				"size" "45D50B089DB5343D33F3EA622A07DF98"
+				"download" "49FFC34977ADF463F4E6D5D527787794"
+			}
+			"publisher"
+			{
+				"gid" "50CECD85A3A6E017A4730ECE31D3733E"
+				"size" "1BF39D13E84F7ADBCA3EF157D0270961"
+				"download" "2A0A76D6DAE077CE488E68BF29339954"
+			}
+			"secret"
+			{
+				"gid" "9CE5A91C6059DA628BC424C0746A2CFE"
+				"size" "9FC1C581F03293101D65367542C4F28D"
+				"download" "FFF457546C5A0985BD75179B7F4E8E8D"
+			}
+			"splashscreen"
+			{
+				"gid" "651A35048A540715F90E08CBAA0CEB0A"
+				"size" "F803834C77ED4E61244B7EE117739A4D"
+				"download" "1904010E9A542C061E31DB26F11F523F"
+			}
+			"steamdeck"
+			{
+				"gid" "A5927426C9CBECDEC31C15610EEE0A96"
+				"size" "5010E8A586DEE7085704C53E9EEC9B02"
+				"download" "FDD2C68426CF58A49E8F27A450CC5B99"
+			}
+			"trailers"
+			{
+				"gid" "E43B007CFA894F2762FB55ADA4C75205"
+				"size" "8B98EE0C5B79F30EE1F23A40165FBDE3"
+				"download" "C0C34E6E25752615003C19B24A52B437"
+			}
+			"usability"
+			{
+				"gid" "EEF4B67F734B02A733FA666C326ABF5B"
+				"size" "56EAF5150610521189A401E3B3256812"
+				"download" "8DE22596C321F093E236F94841307F9C"
+			}
+		}
+	}
+	"1621692"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5305540204499833251"
+				"size" "674384678"
+				"download" "348407520"
+			}
+			"0.7.1"
+			{
+				"gid" "1103487944642273363"
+				"size" "363654224"
+				"download" "235883024"
+			}
+			"moddebug"
+			{
+				"gid" "5430790400840593751"
+				"size" "674384685"
+				"download" "348406864"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"age_ratings"
+			{
+				"gid" "7D6042910A82FED5F4F403AD8A282215"
+				"size" "B54876CA332421092849681E57BAC1D2"
+				"download" "218A1F3ABCD53377F61F81003B7F4AA6"
+			}
+			"ambassadors"
+			{
+				"gid" "386C89F13F309A558E157D7825CFA8D8"
+				"size" "84534610455EEDA368305B352803C3DB"
+				"download" "22574243898CA1664EFCB70DA2F00A84"
+			}
+			"compatibility"
+			{
+				"gid" "40408186E794C022BE7EE6A027F7CAE4"
+				"size" "A5F64B215B1A54F41777DC98560C46C9"
+				"download" "56777D6432981377672D20D2D994AF35"
+			}
+			"corsair"
+			{
+				"gid" "9C14CA13976C836DA7A7D9DC07708C70"
+				"size" "FE1845632164E10AD77D1CB354EA26BA"
+				"download" "CB6A4FE3E26E37EB74C5D368DCA0A731"
+			}
+			"developer"
+			{
+				"gid" "F66AC6678CDD3046EFF7B3E51037F787"
+				"size" "C0FA66179653D0DC16B310C9C45A41BD"
+				"download" "8F1B34C03BB8FCF205A7B9F6E535A8B6"
+			}
+			"early_explorers"
+			{
+				"gid" "9B6E899904E05A209AD81F4FDF2F4663"
+				"size" "6E5A9BBAB9D0740B8B5B9753EEB793FF"
+				"download" "967B5AACE63C1CC16E2822C0581BD015"
+			}
+			"experimental"
+			{
+				"gid" "146DE54DB73FB40ED668E3C175412DBB"
+				"size" "E50E9F782CB20DAA0BFF54C96F9D56BE"
+				"download" "9194F93B38FB4B243FF13FE27AE2C9A6"
+			}
+			"externalaccess"
+			{
+				"gid" "EF027521B7E30C3CA23128BC50C373E3"
+				"size" "151E822AB6034C24C27A300D9C433FDE"
+				"download" "33C94CA54F0570BAA021B384BBB0164A"
+			}
+			"marketing"
+			{
+				"gid" "451F0D6807142C35C5648B9D1BD3D02A"
+				"size" "0564BA377E63353625E2123ACEC12184"
+				"download" "E7A38CC803568EA0EDD63D6277D30D88"
+			}
+			"nightly"
+			{
+				"gid" "65CB8A3D52E6F95C0B037CDC78C20F86"
+				"size" "39F8ED2A25A5CE48EC4D06BEEE23AF96"
+				"download" "E145A1B673A50464B5C0D3C003E59DB8"
+			}
+			"press"
+			{
+				"gid" "0A105E8E7239D1271B0C74BC7F6F82F7"
+				"size" "A02C69C16CD50A35CC94C1D0FE0D5F5D"
+				"download" "A6A3E27F59C316679C05DFE1928C5D04"
+			}
+			"private"
+			{
+				"gid" "68F53D4E8F80365E23351A1B66F7174A"
+				"size" "E45779471274A395160CD891DE6773F1"
+				"download" "C844CA1CE38C5F9FDD46F75D65A060DF"
+			}
+			"publisher"
+			{
+				"gid" "FAAAF9158E7D5ED0F8BCBAB5675345E5"
+				"size" "E733C601D7CC2094DB769893269F8751"
+				"download" "48935424DBCAE85DF68FEDAADB823993"
+			}
+			"secret"
+			{
+				"gid" "5FF68F2B0AD834AAAD2D3FD2A20AF287"
+				"size" "124B1A95E84A2A415C6E7F728CFD2CCA"
+				"download" "E75AC91D260D6FBB28CD4EE01D6CD505"
+			}
+			"splashscreen"
+			{
+				"gid" "A29AB3F5A88793CFDE28452584B21F36"
+				"size" "D0FE27EA3E4142EC8D25342D56B2B760"
+				"download" "2D35F1250BEA2D26CB593B155C2A72AA"
+			}
+			"steamdeck"
+			{
+				"gid" "4E46D38C54684B365D268C1222272F4D"
+				"size" "F46289BFB30DF46E41A0FA02594BF243"
+				"download" "9716BB28CE20B0BEA0AA08BF0BA48F78"
+			}
+			"trailers"
+			{
+				"gid" "ED96F82FBE3608B12694E2E524911245"
+				"size" "8DB1E75E2CD975A33CD8FD6313F6986F"
+				"download" "E66457E870A312FD2784A59D0CB7257A"
+			}
+			"usability"
+			{
+				"gid" "6851D6FF8B10D79A2F46F69F09386AFF"
+				"size" "62B1F717B3CCCD75461E133618ACBC91"
+				"download" "03AF012349043638EC504DB6531DB7EE"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12959740"
+			"timeupdated" "1702547784"
+		}
+		"0.7.1"
+		{
+			"buildid" "12520890"
+			"description" "Legacy Build - 12520890"
+			"timeupdated" "1701251692"
+		}
+		"age_ratings"
+		{
+			"buildid" "12373687"
+			"pwdrequired" "1"
+			"timeupdated" "1696590769"
+		}
+		"ambassadors"
+		{
+			"buildid" "12959740"
+			"pwdrequired" "1"
+			"timeupdated" "1702548396"
+		}
+		"compatibility"
+		{
+			"buildid" "10398670"
+			"pwdrequired" "1"
+			"timeupdated" "1674640293"
+		}
+		"corsair"
+		{
+			"buildid" "9357687"
+			"pwdrequired" "1"
+			"timeupdated" "1661116857"
+		}
+		"developer"
+		{
+			"buildid" "12959740"
+			"pwdrequired" "1"
+			"timeupdated" "1702545380"
+		}
+		"early_explorers"
+		{
+			"buildid" "11163328"
+			"pwdrequired" "1"
+			"timeupdated" "1683285089"
+		}
+		"experimental"
+		{
+			"buildid" "8605588"
+			"pwdrequired" "1"
+			"timeupdated" "1655139407"
+		}
+		"externalaccess"
+		{
+			"buildid" "12959740"
+			"pwdrequired" "1"
+			"timeupdated" "1702548442"
+		}
+		"marketing"
+		{
+			"buildid" "12627983"
+			"pwdrequired" "1"
+			"timeupdated" "1699265527"
+		}
+		"moddebug"
+		{
+			"buildid" "12959788"
+			"description" "For mod debugging"
+			"timeupdated" "1702547885"
+		}
+		"nightly"
+		{
+			"buildid" "12048756"
+			"pwdrequired" "1"
+			"timeupdated" "1693220379"
+		}
+		"press"
+		{
+			"buildid" "12959740"
+			"pwdrequired" "1"
+			"timeupdated" "1702548413"
+		}
+		"private"
+		{
+			"buildid" "12959740"
+			"pwdrequired" "1"
+			"timeupdated" "1702548427"
+		}
+		"publisher"
+		{
+			"buildid" "12869634"
+			"pwdrequired" "1"
+			"timeupdated" "1701699013"
+		}
+		"secret"
+		{
+			"buildid" "9575587"
+			"pwdrequired" "1"
+			"timeupdated" "1663913884"
+		}
+		"splashscreen"
+		{
+			"buildid" "8605588"
+			"pwdrequired" "1"
+			"timeupdated" "1650633882"
+		}
+		"steamdeck"
+		{
+			"buildid" "10673750"
+			"pwdrequired" "1"
+			"timeupdated" "1677759159"
+		}
+		"trailers"
+		{
+			"buildid" "12893079"
+			"pwdrequired" "1"
+			"timeupdated" "1702043762"
+		}
+		"usability"
+		{
+			"buildid" "9572319"
+			"pwdrequired" "1"
+			"timeupdated" "1665501007"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000000"
+	"maxnumfiles" "10000"
+}
+"_missing_token" "False"
+"_change_number" "21643907"
+"_sha" "9fb9630da9e23846adf2732406f3a5a1a362ae61"
+"_size" "14019"
