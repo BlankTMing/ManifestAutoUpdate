@@ -1,0 +1,652 @@
+"appid" "636480"
+"common"
+{
+	"name" "Ravenfield"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "90ce9c8ec07c0fd1ff07d3f12d61220f0f474ed7"
+	"logo_small" "90ce9c8ec07c0fd1ff07d3f12d61220f0f474ed7_thumb"
+	"icon" "f6950fb3d34067c4fd6ece36d252d9a6590b84e8"
+	"clienticon" "b4301832eb1060b1b59900ebc7d0990f2c11a124"
+	"clienttga" "9c3e587b734cbe97476c5ab8ead3b6148e1eed8d"
+	"clienticns" "a13713c81924772fb74f9d9a24adf15102a13078"
+	"linuxclienticon" "2ae60cf25ebf54d4c61bb49a489115e9078dad92"
+	"releasestate" "released"
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1646092800"
+		"tested_build_id" "7077555"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Ravenfield"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "31"
+			"height_pct" "36"
+		}
+	}
+	"store_asset_mtime" "1494439094"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "SteelRaven7"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SteelRaven7"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_30" "1"
+		"category_17" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1495122780"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "636480"
+	"store_tags"
+	{
+		"0" "1663"
+		"1" "1678"
+		"2" "4182"
+		"3" "1774"
+		"4" "4168"
+		"5" "19"
+		"6" "3839"
+		"7" "3810"
+		"8" "493"
+		"9" "4136"
+		"10" "5711"
+		"11" "1708"
+		"12" "9"
+		"13" "492"
+		"14" "3968"
+		"15" "599"
+		"16" "1669"
+		"17" "4175"
+		"18" "4166"
+		"19" "21"
+	}
+	"review_score" "9"
+	"review_percentage" "96"
+}
+"extended"
+{
+	"developer" "SteelRaven7"
+	"publisher" "SteelRaven7"
+	"homepage" "http://ravenfieldgame.com/"
+}
+"config"
+{
+	"installdir" "Ravenfield"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ravenfield.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "ravenfield.app/Contents/MacOS/RavenfieldSteam"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "ravenfield.x86"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "ravenfield.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"4"
+		{
+			"executable" "ravenfield.exe"
+			"arguments" "-nocontentmods"
+			"description" "Ravenfield (No Mods)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"5"
+		{
+			"executable" "ravenfield.app/Contents/MacOS/RavenfieldSteam"
+			"arguments" "-nocontentmods"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "Ravenfield (No Mods)"
+			}
+			"description" "Ravenfield (No Mods)"
+		}
+		"6"
+		{
+			"executable" "ravenfield.x86"
+			"arguments" "-nocontentmods"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+			"description_loc"
+			{
+				"english" "Ravenfield (No Mods)"
+			}
+			"description" "Ravenfield (No Mods)"
+		}
+		"7"
+		{
+			"executable" "ravenfield.x86_64"
+			"arguments" "-nocontentmods"
+			"description" "Ravenfield (No Mods)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"8"
+		{
+			"executable" "ravenfield.exe"
+			"arguments" "-force-d3d9"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "legacy-ea25"
+			}
+			"description_loc"
+			{
+				"english" "Ravenfield (DirectX 9)"
+			}
+			"description" "Ravenfield (DirectX 9)"
+		}
+		"9"
+		{
+			"executable" "ravenfield.exe"
+			"arguments" "-force-d3d9 -nocontentmods"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "legacy-ea25"
+			}
+			"description_loc"
+			{
+				"english" "Ravenfield (DirectX 9, No Mods)"
+			}
+			"description" "Ravenfield (DirectX 9, No Mods)"
+		}
+		"11"
+		{
+			"executable" "ravenfield.exe"
+			"arguments" "-nointro -nocontentmods -noworkshopmods -benchmark"
+			"type" "benchmark"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"12"
+		{
+			"executable" "ravenfield.app/Contents/MacOS/RavenfieldSteam"
+			"arguments" "-nointro -nocontentmods -noworkshopmods -benchmark"
+			"type" "benchmark"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"13"
+		{
+			"executable" "ravenfield.x86_64"
+			"arguments" "-nointro -nocontentmods -noworkshopmods -benchmark"
+			"type" "benchmark"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"14"
+		{
+			"executable" "ravenfield.app"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+				"betakey" "legacy-ea25"
+			}
+			"description_loc"
+			{
+				"english" "Ravenfield (EA25)"
+			}
+			"description" "Ravenfield (EA25)"
+		}
+		"15"
+		{
+			"executable" "ravenfield.app"
+			"arguments" "-nocontentmods"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+				"betakey" "legacy-ea25"
+			}
+			"description_loc"
+			{
+				"english" "Ravenfield (EA25, No Mods)"
+			}
+			"description" "Ravenfield (EA25, No Mods)"
+		}
+		"16"
+		{
+			"executable" "ravenfield.exe"
+			"arguments" "-nointro -nocontentmods -resetresolution"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Ravenfield (Safe Mode)"
+			}
+			"description" "Ravenfield (Safe Mode)"
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"2670148355"
+		{
+			"controller_type" "controller_ps4"
+			"enabled_branches" "beta,debug,experimental"
+			"use_action_block" "false"
+		}
+	}
+	"steamconfigurator3rdpartynative" "65535"
+}
+"depots"
+{
+	"636481"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3921846046732476867"
+				"size" "1940227076"
+				"download" "631356864"
+			}
+			"beta"
+			{
+				"gid" "4068228744499039184"
+				"size" "1940236628"
+				"download" "631360800"
+			}
+			"legacy-ea25"
+			{
+				"gid" "1251747416013936807"
+				"size" "1618157194"
+				"download" "594449424"
+			}
+			"legacy-ea26"
+			{
+				"gid" "1478844812330669966"
+				"size" "1508527855"
+				"download" "525250880"
+			}
+			"ravenm-compatible"
+			{
+				"gid" "535952217990928218"
+				"size" "1876473353"
+				"download" "611935072"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"debug"
+			{
+				"gid" "E063B7014087C0DD2FC5FFD98C6A111E"
+				"size" "2E79D13FE4855DAEA768966E69BB4C12"
+				"download" "906EF177C03E90B5E061567F8227B0AA"
+			}
+			"experimental"
+			{
+				"gid" "6DFDABC8B782AA140B368493EB6519D8"
+				"size" "41923F00390F767E1850F577389915DC"
+				"download" "693E70D550A69D0BFA5EE73E788AE279"
+			}
+		}
+	}
+	"636482"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2126238881521803023"
+				"size" "1937287422"
+				"download" "630147552"
+			}
+			"beta"
+			{
+				"gid" "6022379378052317216"
+				"size" "1937296974"
+				"download" "630155632"
+			}
+			"legacy-ea25"
+			{
+				"gid" "6490698003312561859"
+				"size" "1605333490"
+				"download" "590316432"
+			}
+			"legacy-ea26"
+			{
+				"gid" "7218434860370321686"
+				"size" "1504955119"
+				"download" "523409520"
+			}
+			"ravenm-compatible"
+			{
+				"gid" "8755771031943156044"
+				"size" "1873539851"
+				"download" "610733680"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"debug"
+			{
+				"gid" "A322F1F1E1CD121DC4CD13CA14ACDB3D"
+				"size" "53ACE2905C88D5CFD8228C727238FD22"
+				"download" "011811D554DC22DAE619485F997F7C2F"
+			}
+			"experimental"
+			{
+				"gid" "61C643E55A345CFA7D8697D32C3ED3B6"
+				"size" "3BC4309270460C4B7D06FC3123112059"
+				"download" "63A04D3912D5A8E121DC7AE767CCFF46"
+			}
+		}
+	}
+	"636483"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8357851976633760251"
+				"size" "1943667447"
+				"download" "639610064"
+			}
+			"beta"
+			{
+				"gid" "5268899082979703975"
+				"size" "1943676999"
+				"download" "639615152"
+			}
+			"legacy-ea25"
+			{
+				"gid" "7794576301477195160"
+				"size" "1623493828"
+				"download" "595774368"
+			}
+			"legacy-ea26"
+			{
+				"gid" "7987702792927965202"
+				"size" "1512047487"
+				"download" "529690736"
+			}
+			"ravenm-compatible"
+			{
+				"gid" "53206852052873979"
+				"size" "1879711910"
+				"download" "620088512"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"debug"
+			{
+				"gid" "771C56D50C49A7C02A351C20339AE567"
+				"size" "DA6144C04DFDB8EF5672B1D1B3FB75D6"
+				"download" "47715871A4C95A1B57506131A4F7500D"
+			}
+			"experimental"
+			{
+				"gid" "A5117821D99DDAAB40134AB1157A4424"
+				"size" "E6EEDB700F918642F2D20820AB1952FD"
+				"download" "85478C844B392F9A617B43D32C38CB26"
+			}
+		}
+	}
+	"636484"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7259707960189215060"
+				"size" "1993620672"
+				"download" "646969232"
+			}
+			"beta"
+			{
+				"gid" "2426669782398009378"
+				"size" "1993630224"
+				"download" "646970304"
+			}
+			"legacy-ea25"
+			{
+				"gid" "2838717743585413347"
+				"size" "1638870873"
+				"download" "607950592"
+			}
+			"legacy-ea26"
+			{
+				"gid" "5092721267589527913"
+				"size" "1561888690"
+				"download" "538656256"
+			}
+			"ravenm-compatible"
+			{
+				"gid" "2211830728400371946"
+				"size" "1929250608"
+				"download" "627014720"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"debug"
+			{
+				"gid" "14A425E3B12CAA013BAF6FC4A1BB755D"
+				"size" "6647CB9133272EBEB0F646BE1D2FCE4D"
+				"download" "05B2B87C2D50C52C172F755B68BF8F25"
+			}
+			"experimental"
+			{
+				"gid" "0D4251F96D14C37CB92B89021FB19553"
+				"size" "813F35CE66935E9796549AC3C5500AE0"
+				"download" "5AECD2A1F66462FEA806F9CD62D50495"
+			}
+		}
+	}
+	"workshopdepot" "636480"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12790037"
+			"timeupdated" "1701100073"
+		}
+		"beta"
+		{
+			"buildid" "13022497"
+			"description" "Latest builds, might be buggy!!!"
+			"timeupdated" "1703178842"
+		}
+		"debug"
+		{
+			"buildid" "7903004"
+			"pwdrequired" "1"
+			"timeupdated" "1640106572"
+		}
+		"experimental"
+		{
+			"buildid" "11467938"
+			"pwdrequired" "1"
+			"timeupdated" "1686747984"
+		}
+		"legacy-ea25"
+		{
+			"buildid" "7077555"
+			"description" "EA25 running on Unity 5.6"
+			"timeupdated" "1640099176"
+		}
+		"legacy-ea26"
+		{
+			"buildid" "9037046"
+			"description" "EA26 running on Unity 2020.3"
+			"timeupdated" "1695201173"
+		}
+		"ravenm-compatible"
+		{
+			"buildid" "11954317"
+			"description" "Latest game version confirmed compatible with RavenM"
+			"timeupdated" "1695201203"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "21633896"
+"_sha" "1357f613ed8952a1328550cfd11ab55c6eeba0cd"
+"_size" "12498"
