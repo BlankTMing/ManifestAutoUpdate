@@ -1,0 +1,412 @@
+"appid" "1264280"
+"common"
+{
+	"name" "Slipways"
+	"type" "Game"
+	"releasestate" "released"
+	"clienticon" "f657cfc02f3c11d79f82ad210765c003bac63827"
+	"clienttga" "0ac1f6e4061ead1e80ea36f190aa7e4eb64fb349"
+	"icon" "9eca37ebdc70eecb83799775a6b982418265b043"
+	"logo" "37fa95b2556b102aa9c04d46c6c1b682dcc45030"
+	"logo_small" "37fa95b2556b102aa9c04d46c6c1b682dcc45030_thumb"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1669852800"
+		"tested_build_id" "9224584"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "68.99610421743208"
+			"height_pct" "94.94172030022938"
+		}
+	}
+	"store_asset_mtime" "1655914420"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Beetlewing"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Beetlewing"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_22" "1"
+		"category_30" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1622732300"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "1264280"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "1664"
+		"2" "1741"
+		"3" "3810"
+		"4" "1654"
+		"5" "1677"
+		"6" "3942"
+		"7" "4695"
+		"8" "8945"
+		"9" "5125"
+		"10" "12472"
+		"11" "5794"
+		"12" "1643"
+		"13" "1670"
+		"14" "4295"
+		"15" "1755"
+		"16" "492"
+		"17" "4182"
+		"18" "5350"
+		"19" "4202"
+	}
+	"review_score" "8"
+	"review_percentage" "92"
+}
+"extended"
+{
+	"developer" "Beetlewing"
+	"publisher" "Beetlewing"
+	"homepage" "https://slipways.net"
+}
+"config"
+{
+	"installdir" "Slipways"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Slipways.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Slipways.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Slipways.exe"
+			"arguments" "-low"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Play (safe graphics settings)"
+				"german" "Spielen (Sicherheitsmodus)"
+				"french" "Jouer (mode graphique sans échec)"
+				"spanish" "Iniciar (configuración gráfica segura)"
+				"schinese" "玩 （安全模式）"
+				"polish" "Zagraj (bezpieczne ustawienia graficzne)"
+			}
+			"description" "Play (safe graphics settings)"
+		}
+		"3"
+		{
+			"executable" "Slipways.app"
+			"arguments" "-low"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "Play (safe graphics settings)"
+				"german" "Spielen (Sicherheitsmodus)"
+				"french" "Jouer (mode graphique sans échec)"
+				"spanish" "Iniciar (configuración gráfica segura)"
+				"schinese" "玩 （安全模式）"
+				"polish" "Zagraj (bezpieczne ustawienia graficzne)"
+			}
+			"description" "Play (safe graphics settings)"
+		}
+	}
+	"steamdecktouchscreen" "1"
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"2826780853"
+		{
+			"controller_type" "controller_neptune"
+			"enabled_branches" "default,early,future,localization,previous"
+			"use_action_block" "true"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1264281"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2407281336297054975"
+				"size" "742720266"
+				"download" "492285680"
+			}
+			"previous"
+			{
+				"gid" "7680349311395662766"
+				"size" "741689418"
+				"download" "492013360"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"early"
+			{
+				"gid" "8588D658FE22B687B6A2147D658B218D"
+				"size" "EB1F96E0B418ADDB0FFEAEDC2630D3AF"
+				"download" "4438EF6EB86B890CBA14712CA539512A"
+			}
+			"future"
+			{
+				"gid" "BDF0498CAB0C8F315EAB1346150DA3F7"
+				"size" "18E9A8B468C50A941B50B565A5ADAEFD"
+				"download" "6A2B6B1C968361B3C6B169290362E0EA"
+			}
+			"localization"
+			{
+				"gid" "B1AFDEA004A6585F212B6E7243090B0B"
+				"size" "8A5D36E1A0BFB48D2A5BA0EAD6578DC2"
+				"download" "093BBC284C21087074BFA07BB9EBECB1"
+			}
+		}
+	}
+	"1264282"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3195194628171839106"
+				"size" "751964072"
+				"download" "496512320"
+			}
+			"previous"
+			{
+				"gid" "4382538823051673616"
+				"size" "740326322"
+				"download" "490943296"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"early"
+			{
+				"gid" "D9C4EBA991A6B0EFD06253968787E50B"
+				"size" "B89D529379F8F6998A56102EAF4AD91D"
+				"download" "D5813A1E0B67A051D6558D74CE7F9A5A"
+			}
+			"future"
+			{
+				"gid" "8F9077FDFCF272EB1FE65088C1AF003A"
+				"size" "5335B9F41D0BC34E56B6FA9F6E739E15"
+				"download" "51172D466A2B1E90AE6410B16E303CD3"
+			}
+			"localization"
+			{
+				"gid" "C9A7BEC62C6CFF18788147CBF8BB8C79"
+				"size" "4B85CEBEF1AC34BC292727520BB1038E"
+				"download" "543C313F0761BAAB025F747F9AD75203"
+			}
+		}
+	}
+	"workshopdepot" "1264280"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13077408"
+			"timeupdated" "1704207531"
+		}
+		"early"
+		{
+			"buildid" "13077408"
+			"pwdrequired" "1"
+			"timeupdated" "1704206218"
+		}
+		"future"
+		{
+			"buildid" "8978381"
+			"pwdrequired" "1"
+			"timeupdated" "1655813348"
+		}
+		"localization"
+		{
+			"buildid" "8895333"
+			"pwdrequired" "1"
+			"timeupdated" "1654689771"
+		}
+		"previous"
+		{
+			"buildid" "12363548"
+			"description" "The previous version of the game, for when something goes wrong with an update."
+			"timeupdated" "1704207429"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "50000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Beetlewing/slipways/saves"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21748675"
+"_sha" "f3a84a877f74715d8e87a9c0a77e407cb2d88906"
+"_size" "7950"
