@@ -1,0 +1,195 @@
+"appid" "824360"
+"common"
+{
+	"name" "PixARK Dedicated Server"
+	"type" "Tool"
+	"parent" "593600"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"logo" "268fffacee27e8fbc3eb115b5169bc3a43351d85"
+	"logo_small" "268fffacee27e8fbc3eb115b5169bc3a43351d85_thumb"
+	"icon" "1c9fc06e134195030e476e17c0b8c948ed5fe864"
+	"clienttga" "b02dba156698720af1fd938f43d578fdfaed147e"
+	"clienticon" "4396246b6c76653d8f44339e9528438229a0f652"
+	"associations"
+	{
+	}
+	"gameid" "824360"
+}
+"config"
+{
+	"installdir" "PixARK Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ShooterGame\\Binaries\\Win64\\PixARKServer.exe"
+			"workingdir" "ShooterGame\\Binaries\\Win64\\"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"824361"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9132017617518999420"
+				"size" "2690095816"
+				"download" "939002640"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"171test"
+			{
+				"gid" "2ED9D75D9722BD242E20742E36C33356"
+				"size" "DFA74CC056F845D3502EA8A1E1BE61A3"
+				"download" "B98D01BA387525DD8624E987BC3C46AD"
+			}
+			"171test_1"
+			{
+				"gid" "67F2978D67B0DE7CEDBF79129BCA3753"
+				"size" "C6A53B78F68E084B49E75762D1B5E939"
+				"download" "E075CD91A4E469FDB5CEFF38FC356F35"
+			}
+			"171test_2"
+			{
+				"gid" "3ACBB43368BCCF15BF8CF60499693FBF"
+				"size" "7CC3D7C2C0608C1B33D0CACF74E788E3"
+				"download" "08BD3E8EA3F100CC8FB3ABED18A7488F"
+			}
+			"chinatest"
+			{
+				"gid" "6C37C86ABAEE8339D16778A5C03AFE8C"
+				"size" "F850C4A631CD9329A6BCCB754BA0B835"
+				"download" "C07B2226D90A11A8C2E2339804E5A892"
+			}
+			"dlctest"
+			{
+				"gid" "82D2E95A5C4F4AC61C54A021595FDD11"
+				"size" "2EDB76D3165F9A0B246B1F742F4DBC41"
+				"download" "144C7B421522F3217D86EE8CF0513740"
+			}
+			"fullrelease"
+			{
+				"gid" "08C0C48C7EFB50D61C135FD44D05E5B0"
+				"size" "A3A244E35125651ABBC52DAF543ADD1E"
+				"download" "F8E512BE9D85AF052A1E6293ED4E32E2"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13026535"
+			"timeupdated" "1703227655"
+		}
+		"171test"
+		{
+			"buildid" "4124601"
+			"pwdrequired" "1"
+			"timeupdated" "1588830696"
+		}
+		"171test_1"
+		{
+			"buildid" "4773707"
+			"pwdrequired" "1"
+			"timeupdated" "1584089511"
+		}
+		"171test_2"
+		{
+			"buildid" "4124601"
+			"pwdrequired" "1"
+			"timeupdated" "1567155788"
+		}
+		"chinatest"
+		{
+			"buildid" "4046568"
+			"pwdrequired" "1"
+			"timeupdated" "1564127836"
+		}
+		"dlctest"
+		{
+			"buildid" "13026535"
+			"pwdrequired" "1"
+			"timeupdated" "1703219439"
+		}
+		"fullrelease"
+		{
+			"buildid" "4042834"
+			"pwdrequired" "1"
+			"timeupdated" "1564036086"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21642451"
+"_sha" "6e904e37392295e86aeb5b8e744b1c260b8f3932"
+"_size" "3535"
