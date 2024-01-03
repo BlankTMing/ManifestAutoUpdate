@@ -1,0 +1,510 @@
+"appid" "376030"
+"common"
+{
+	"name" "ARK: Survival Evolved Dedicated Server"
+	"section_type" "ownersonly"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"associations"
+	{
+	}
+	"gameid" "376030"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "ARK Survival Evolved Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe"
+			"arguments" "TheIsland\?listen "
+			"description" "Launch (Map: TheIsland)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe"
+			"arguments" "TheIsland\?listen -UseBattlEye"
+			"description" "Launch (Map: TheIsland, With BattlEye Anticheat)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe"
+			"arguments" "TheCenter\?listen"
+			"description" "Launch (Map: TheCenter)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe"
+			"arguments" "TheCenter\?listen -UseBattlEye"
+			"description" "Launch (Map: TheCenter, With BattlEye Anticheat)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe"
+			"arguments" "TheIsland\?listen -TotalConversionMod=111111111"
+			"description" "Launch (Map: TheIsland, Total Conversion: Primitive+)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"5"
+		{
+			"executable" "ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe"
+			"arguments" "TheIsland\?listen -TotalConversionMod=111111111 -UseBattlEye"
+			"description" "Launch (Map: TheIsland, Primitive+, With BattlEye Anticheat)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"6"
+		{
+			"executable" "ShooterGame/Binaries/Linux/ShooterGame"
+			"arguments" "TheIsland\?listen "
+			"description" "Launch (Map: TheIsland)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"7"
+		{
+			"executable" "ShooterGame/Binaries/Linux/ShooterGame"
+			"arguments" "TheIsland\?listen -UseBattlEye"
+			"description" "Launch (Map: TheIsland, With BattlEye Anticheat)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"8"
+		{
+			"executable" "ShooterGame/Binaries/Linux/ShooterGame"
+			"arguments" "TheCenter\?listen"
+			"description" "Launch (Map: TheCenter)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"9"
+		{
+			"executable" "ShooterGame/Binaries/Linux/ShooterGame"
+			"arguments" "TheCenter\?listen"
+			"description" "Launch (Map: TheCenter, With BattlEye Anticheat)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"10"
+		{
+			"executable" "ShooterGame/Binaries/Linux/ShooterGame"
+			"arguments" "TheCenter\?listen -UseBattlEye"
+			"description" "Launch (Map: TheCenter, With BattlEye Anticheat)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"11"
+		{
+			"executable" "ShooterGame/Binaries/Linux/ShooterGame"
+			"arguments" "TheIsland\?listen -TotalConversionMod=111111111"
+			"description" "Launch (Map: TheIsland, Total Conversion: Primitive+)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"12"
+		{
+			"executable" "ShooterGame/Binaries/Linux/ShooterGame"
+			"arguments" "TheIsland\?listen -TotalConversionMod=111111111 -UseBattlEye"
+			"description" "Launch (Map: TheIsland, Primitive+, With BattlEye Anticheat)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"376031"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3873896756387355933"
+				"size" "18775925629"
+				"download" "6578702464"
+			}
+			"experimental"
+			{
+				"gid" "4938714156080904010"
+				"size" "9076395353"
+				"download" "3138319952"
+			}
+			"timecapsule"
+			{
+				"gid" "385619103637186563"
+				"size" "18742658083"
+				"download" "6740753408"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"arklive"
+			{
+				"gid" "57A7D0892CF67B0886E4B1113E90971D"
+				"size" "75505A086C374C2E3A778FE3B5736B4B"
+				"download" "E20B84A4FA2EE8FBEE9C5560F8375EAB"
+			}
+			"dev2test"
+			{
+				"gid" "DAB9199FF624449276CA647101528DEC"
+				"size" "D2629D1C87EC4B2C75403E223E5EFDEA"
+				"download" "EA10F02C4DACC67762E35F08DA9F1DDD"
+			}
+			"devtest"
+			{
+				"gid" "2E8D216FDF14776C902561C3F746AD15"
+				"size" "1FEF46C5F676488E40D8186DEC39028C"
+				"download" "3F09BE8398726252F31C4DBBE97EC4DC"
+			}
+			"devtest_beta"
+			{
+				"gid" "9129DF3B7DCABBD05ACE5F6BB54146FC"
+				"size" "D16D5034A39D83EB9A99B18D8412B868"
+				"download" "95B77779E26A352B4EC5734E92297DEB"
+			}
+			"devtest2_beta"
+			{
+				"gid" "C27FAE3193593E56B09128F727334AC8"
+				"size" "5D66025BE2BAF8B75CD6369536CD2555"
+				"download" "01DA6AC472C6C3B43EF5356DA28A50C2"
+			}
+			"devtest3_beta"
+			{
+				"gid" "049D43607A1BA47E65C885991A6FB6B1"
+				"size" "E22D347BE00886832C119EE15D5B6860"
+				"download" "6E45B2CF1F1F98CCB4869864752FEE5C"
+			}
+			"eventtemp"
+			{
+				"gid" "2FB380026F03B748DA2E5C271097F107"
+				"size" "5F580147F2EEA945C7457F605723C7A0"
+				"download" "78980AB1C13B40ADA88A3FFD794AC18E"
+			}
+			"family"
+			{
+				"gid" "8C96304439BC2D5F26A1A21930E6353E"
+				"size" "0783205D33DB907AC17749B92F7FE6A4"
+				"download" "604DCC48426DD57BF1513AC81027D0BB"
+			}
+			"friedcheese"
+			{
+				"gid" "BD02E0C21451034D048D59EFABB43B29"
+				"size" "EEFD0E1F67D0A5541B4AC0223C931286"
+				"download" "B96080182114A1069297B877098C3A5D"
+			}
+			"hotfix3"
+			{
+				"gid" "F3977CCA9110D3A241F5CFB6690982F9"
+				"size" "6BEAA6EB0E5B63A5AB71913AA9FE92C8"
+				"download" "111FCE68790154779D51A0FA37D46002"
+			}
+			"hungryman"
+			{
+				"gid" "5F60B3C7D3599B40A63B59E8FAA62718"
+				"size" "59BB03D637EE90EEED44E02199D42EA7"
+				"download" "6D2840CEAA7569F20F9998DA7D0B1CE9"
+			}
+			"kidcuisine"
+			{
+				"gid" "1F2432ECD7BC9A7DEE6939AD446DE80C"
+				"size" "C96D8298C8498622C80A671C170BB7A5"
+				"download" "3429260C17364751F483DAC1DAE04CE4"
+			}
+			"lemonbar"
+			{
+				"gid" "4F9262B109F60E02E3D304DCD6FA5256"
+				"size" "9D8E2B29F6A8230CE7E4F9267F0FD62C"
+				"download" "D7D12B00D8318A50CE74D8730407CBC1"
+			}
+			"lemonbar_m"
+			{
+				"gid" "00013B7D88EF7333BE66CCADE5A55FDC"
+				"size" "3A8ADA77F66551EEB7B82555B10EAA84"
+				"download" "E71471BEC992B9B85F4DD425DAE56C55"
+			}
+			"lemonbar_s"
+			{
+				"gid" "7BF27781F6FECBD1359FC80CE1F3AC60"
+				"size" "635F2879FD26EA9BD7B843477DDC561A"
+				"download" "873D956FE3170A886E1BE39DAB8F50A0"
+			}
+			"nitradotesting"
+			{
+				"gid" "DFD6AE76021941F2CBD66325D8DA1A64"
+				"size" "DB526AE1AEBC75281A8E60AF6BFB9BA9"
+				"download" "3C1A1C6F017B6593147E4AD932E6419D"
+			}
+			"servertestbackup_s"
+			{
+				"gid" "FC649F0AE9449EADEB0B31072682F534"
+				"size" "D74D8A4A5BED4BA577B0F850B1F308A1"
+				"download" "23186A035E6A29AF4411A7FE06827773"
+			}
+			"threepp"
+			{
+				"gid" "49CC78D8F4CB02186F8CB173C705A032"
+				"size" "F30EE78F4AD41BB25F68FC3E484A9A2C"
+				"download" "28457FE0A7CB2432F4E089009DF114D8"
+			}
+			"threepx"
+			{
+				"gid" "9BB7A8434CFECB99154B963F488E072D"
+				"size" "1EFC2EF95AFBDEC12A768ECAD5C5F8E0"
+				"download" "3F7CF0A7FDC109980ED1B04D29BDF5CD"
+			}
+			"trailer"
+			{
+				"gid" "4376F55746FA3998A5ECFD09A0A088C5"
+				"size" "5B23877661B4456E0C4D01C91B1FBBD5"
+				"download" "0D75257F999EED6E99E32D5111279AD2"
+			}
+		}
+	}
+	"376032"
+	{
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12291776"
+			"timeupdated" "1696032099"
+		}
+		"arklive"
+		{
+			"buildid" "12291776"
+			"pwdrequired" "1"
+			"timeupdated" "1696032040"
+		}
+		"dev2test"
+		{
+			"buildid" "11925632"
+			"pwdrequired" "1"
+			"timeupdated" "1692027882"
+		}
+		"devtest"
+		{
+			"buildid" "11925756"
+			"pwdrequired" "1"
+			"timeupdated" "1692027904"
+		}
+		"devtest_beta"
+		{
+			"buildid" "12291970"
+			"pwdrequired" "1"
+			"timeupdated" "1695785139"
+		}
+		"devtest2_beta"
+		{
+			"buildid" "12380143"
+			"pwdrequired" "1"
+			"timeupdated" "1696643835"
+		}
+		"devtest3_beta"
+		{
+			"buildid" "3409246"
+			"pwdrequired" "1"
+			"timeupdated" "1545151414"
+		}
+		"eventtemp"
+		{
+			"buildid" "10084159"
+			"pwdrequired" "1"
+			"timeupdated" "1671227853"
+		}
+		"experimental"
+		{
+			"buildid" "4205769"
+			"timeupdated" "1568824771"
+		}
+		"family"
+		{
+			"buildid" "10173941"
+			"pwdrequired" "1"
+			"timeupdated" "1671414897"
+		}
+		"friedcheese"
+		{
+			"buildid" "10180269"
+			"pwdrequired" "1"
+			"timeupdated" "1671504919"
+		}
+		"hotfix3"
+		{
+			"buildid" "10186624"
+			"pwdrequired" "1"
+			"timeupdated" "1671561851"
+		}
+		"hungryman"
+		{
+			"buildid" "12291776"
+			"pwdrequired" "1"
+			"timeupdated" "1695782598"
+		}
+		"kidcuisine"
+		{
+			"buildid" "11924389"
+			"pwdrequired" "1"
+			"timeupdated" "1691783008"
+		}
+		"lemonbar"
+		{
+			"buildid" "11373375"
+			"pwdrequired" "1"
+			"timeupdated" "1685647547"
+		}
+		"lemonbar_m"
+		{
+			"buildid" "12291970"
+			"pwdrequired" "1"
+			"timeupdated" "1695847539"
+		}
+		"lemonbar_s"
+		{
+			"buildid" "12380143"
+			"pwdrequired" "1"
+			"timeupdated" "1696643912"
+		}
+		"nitradotesting"
+		{
+			"buildid" "6804751"
+			"pwdrequired" "1"
+			"timeupdated" "1622710853"
+		}
+		"servertestbackup_s"
+		{
+			"buildid" "10473490"
+			"pwdrequired" "1"
+			"timeupdated" "1675886386"
+		}
+		"threepp"
+		{
+			"buildid" "11925632"
+			"pwdrequired" "1"
+			"timeupdated" "1692036195"
+		}
+		"threepx"
+		{
+			"buildid" "11925756"
+			"pwdrequired" "1"
+			"timeupdated" "1692036209"
+		}
+		"timecapsule"
+		{
+			"buildid" "5131177"
+			"timeupdated" "1591494821"
+		}
+		"trailer"
+		{
+			"buildid" "11380229"
+			"pwdrequired" "1"
+			"timeupdated" "1685715177"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20584871"
+"_sha" "abc6c7bde5e8dc8075d92802ae004c1b0eee5d45"
+"_size" "10869"
