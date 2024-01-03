@@ -1,0 +1,159 @@
+"appid" "388990"
+"common"
+{
+	"name" "Automobilista Beta"
+	"section_type" "ownersonly"
+	"type" "Game"
+	"oslist" "windows"
+	"releasestate" "released"
+	"icon" "5c9723a7d7b348173f0736c8b4b50e9797b49a3b"
+	"clienttga" "fb56b00fc5e2f3b1dd71c87a202f2f0482febe7e"
+	"clienticon" "3dc37f6ac9512890ca63c2b2d0a2e5f61307b3f9"
+	"associations"
+	{
+	}
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "388990"
+}
+"extended"
+{
+	"gamedir" "Automobilista Beta"
+	"serverbrowsername" "Automobilista Beta"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "AMSBeta"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "AMS.exe"
+			"description" "Launch"
+			"type" "default"
+		}
+		"2"
+		{
+			"executable" "AMS Dedicated.exe"
+			"description" "Dedicated Server Tool"
+			"type" "server"
+		}
+		"3"
+		{
+			"executable" "AMS Config.exe"
+			"type" "config"
+		}
+		"4"
+		{
+			"executable" "support\\Automobilista_User_Guide_EN.pdf"
+			"type" "manual"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"5"
+		{
+			"executable" "SeasonTool\\SeasonTool.exe"
+			"arguments" "--disable-gpu"
+			"workingdir" "SeasonTool\\"
+			"description" "Custom Season Tool"
+			"type" "none"
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"388991"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9060565919354951806"
+				"size" "36691190714"
+				"download" "24267811600"
+			}
+			"beta"
+			{
+				"gid" "9060565919354951806"
+				"size" "36691190714"
+				"download" "24267811600"
+			}
+			"g29beta"
+			{
+				"gid" "9060565919354951806"
+				"size" "36691190714"
+				"download" "24267811600"
+			}
+			"v1.4.32b"
+			{
+				"gid" "9112127265463020920"
+				"size" "30594854402"
+				"download" "19868606544"
+			}
+			"v1.4.78"
+			{
+				"gid" "8712678051233748095"
+				"size" "33208020066"
+				"download" "21784408688"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4311947"
+			"timeupdated" "1571754588"
+		}
+		"beta"
+		{
+			"buildid" "4311947"
+			"timeupdated" "1571754565"
+		}
+		"g29beta"
+		{
+			"buildid" "4311947"
+			"timeupdated" "1571754575"
+		}
+		"v1.4.32b"
+		{
+			"buildid" "1944382"
+			"timeupdated" "1501097178"
+		}
+		"v1.4.78"
+		{
+			"buildid" "2152403"
+			"timeupdated" "1507047284"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "41943040"
+	"maxnumfiles" "10000"
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "2ddd557b91ec787ea46f5556ed1e92a5ace99d72"
+"_size" "2622"
