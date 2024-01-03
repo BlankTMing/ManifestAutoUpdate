@@ -1,0 +1,949 @@
+"appid" "215930"
+"common"
+{
+	"name" "Jagged Alliance 2 - Wildfire "
+	"type" "Game"
+	"logo" "398da64c1e33d203f8226c52ecfb0c705b88f100"
+	"logo_small" "398da64c1e33d203f8226c52ecfb0c705b88f100_thumb"
+	"clienticon" "0e9122481255c746bc414828cfc15f4665a5a059"
+	"clienttga" "e0dc53996a5d8fdf604543eaac99006bd3f7d183"
+	"icon" "30ddd4e6008d15916eb77a5ab465a569683a0e0e"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"metacritic_name" "Jagged Alliance 2 - Wildfire"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "29.02813299232737"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1577591487"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "I-deal Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Topware Interactive"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "3"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"polish"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"original_release_date" "1078732800"
+	"community_hub_visible" "1"
+	"gameid" "215930"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "122"
+		"2" "14139"
+		"3" "1677"
+		"4" "1741"
+		"5" "1708"
+		"6" "5851"
+		"7" "4182"
+		"8" "21725"
+		"9" "1693"
+		"10" "19"
+	}
+	"review_score" "6"
+	"review_percentage" "77"
+}
+"extended"
+{
+	"developer" "I-deal Games"
+	"gamedir" "Jagged Alliance 2 - Wildfire"
+	"homepage" "http://www.ja2.de/wf"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Topware Interactive"
+	"gamemanualurl" "https://store.steampowered.com/manual/215930/"
+	"listofdlc" "545210,2482740,2513910"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "ja2_wildfire"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "RunGame.bat"
+			"description" "Play Jagged Alliance 2 - WildFire"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Jagged Alliance Wildfire.app"
+			"description" "Play Jagged Alliance 2 - WildFire"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "RunGame"
+			"description" "Play Jagged Alliance 2 - WildFire"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"6"
+		{
+			"executable" "JA2Classic/RunGame.bat"
+			"workingdir" "JA2Classic"
+			"description" "Jagged Alliance 2 Classic"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "545210"
+			}
+		}
+		"7"
+		{
+			"executable" "Jagged Alliance 2 Classic.app"
+			"description" "Jagged Alliance 2 Classic"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "macos"
+				"ownsdlc" "545210"
+			}
+		}
+		"8"
+		{
+			"executable" "JA2Classic/RunGame"
+			"workingdir" "JA2Classic"
+			"description" "Jagged Alliance 2 Classic"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "linux"
+				"ownsdlc" "545210"
+			}
+		}
+		"9"
+		{
+			"executable" "ddc.cmd"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "2482740"
+			}
+			"description_loc"
+			{
+				"english" "Digital Deluxe Content"
+			}
+			"description" "Digital Deluxe Content"
+		}
+		"10"
+		{
+			"executable" "ddc"
+			"config"
+			{
+				"oslist" "macos"
+				"ownsdlc" "2482740"
+			}
+			"description_loc"
+			{
+				"english" "Digital Deluxe Content"
+			}
+			"description" "Digital Deluxe Content"
+		}
+		"11"
+		{
+			"executable" "ddc_xgd"
+			"config"
+			{
+				"oslist" "linux"
+				"ownsdlc" "2482740"
+			}
+			"description_loc"
+			{
+				"english" "Digital Deluxe Content"
+			}
+			"description" "Digital Deluxe Content"
+		}
+		"12"
+		{
+			"executable" "sg.cmd"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "2513910"
+			}
+			"description_loc"
+			{
+				"english" "JA2 Deutsches Lösungsbuch"
+			}
+			"description" "JA2 Deutsches Lösungsbuch"
+		}
+		"13"
+		{
+			"executable" "sg"
+			"config"
+			{
+				"oslist" "macos"
+				"ownsdlc" "2513910"
+			}
+			"description_loc"
+			{
+				"english" "JA2 Deutsches Lösungsbuch"
+			}
+			"description" "JA2 Deutsches Lösungsbuch"
+		}
+		"14"
+		{
+			"executable" "sg_xgd"
+			"config"
+			{
+				"oslist" "linux"
+				"ownsdlc" "2513910"
+			}
+			"description_loc"
+			{
+				"english" "JA2 Deutsches Lösungsbuch"
+			}
+			"description" "JA2 Deutsches Lösungsbuch"
+		}
+	}
+	"installscriptsignature" "2d17daeba457a7cf1c6ad3537c5d713103187bd66ba14c4e648e2e02e2b0ff6294778f4ca3843205b4494b6a426911c838e3cd73d1f4772f1b59cb5766b895d4a5e09efd79c70006ea41bfe6b334a4f9854d1663298b1b53ef34f2f6ee67baf14bfdfd2a7e26e7969b80858581740921ebca32ad2c7e42a48068e911fe995506"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_current_user\\software\\ideal-games\\ja2 wildfire"
+		{
+			"string"
+			{
+				"path" "%INSTALLDIR%"
+				"version" "6.04"
+			}
+		}
+		"hkey_current_user\\software\\microsoft\\windows nt\\currentversion\\appcompatflags\\layers"
+		{
+			"string"
+			{
+				"%installdir%\\wf6.exe" "RUNASADMIN"
+			}
+		}
+	}
+	"run process"
+	{
+		"serialkey"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\iDeal-Games\\JA2 Wildfire"
+			"process 1" "%INSTALLDIR%\\install\\wf.bat"
+			"nocleanup" "1"
+		}
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\install\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"215931"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4739273487930939927"
+				"size" "490326034"
+				"download" "303961408"
+			}
+		}
+	}
+	"215932"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2160364512078314632"
+				"size" "560039194"
+				"download" "417037376"
+			}
+		}
+	}
+	"215933"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4096749789688273037"
+				"size" "558966070"
+				"download" "415346464"
+			}
+		}
+	}
+	"215934"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4752398560107319203"
+				"size" "620855799"
+				"download" "480983712"
+			}
+		}
+	}
+	"215935"
+	{
+		"config"
+		{
+			"language" "polish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "451047042031580696"
+				"size" "563695164"
+				"download" "418260624"
+			}
+		}
+	}
+	"215936"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6006976533593672244"
+				"size" "677776077"
+				"download" "484320144"
+			}
+		}
+	}
+	"215937"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3030840436294651071"
+				"size" "1469134744"
+				"download" "764667968"
+			}
+		}
+	}
+	"215938"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2366295002804058127"
+				"size" "1465099706"
+				"download" "760901088"
+			}
+		}
+	}
+	"215939"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7233856037991056906"
+				"size" "1529979364"
+				"download" "828403616"
+			}
+		}
+	}
+	"215940"
+	{
+		"config"
+		{
+			"language" "polish"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8835273426827510721"
+				"size" "1472784566"
+				"download" "765094672"
+			}
+		}
+	}
+	"215941"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7439669462635833108"
+				"size" "1586865479"
+				"download" "823927632"
+			}
+		}
+	}
+	"215942"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6562598674882455909"
+				"size" "1810551142"
+				"download" "883791168"
+			}
+		}
+	}
+	"215943"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4625835698366680307"
+				"size" "1808761757"
+				"download" "881179488"
+			}
+		}
+	}
+	"215944"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "588605864640707042"
+				"size" "1873772057"
+				"download" "948784832"
+			}
+		}
+	}
+	"215945"
+	{
+		"config"
+		{
+			"language" "polish"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9027511704575245369"
+				"size" "1816577259"
+				"download" "885475888"
+			}
+		}
+	}
+	"215946"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8713826390890860874"
+				"size" "1930658172"
+				"download" "944308848"
+			}
+		}
+	}
+	"545212"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"oslist" "windows"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9181044439745276054"
+				"size" "979408706"
+				"download" "589219184"
+			}
+		}
+	}
+	"545213"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"oslist" "windows"
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5413711049842967495"
+				"size" "989190249"
+				"download" "670342848"
+			}
+		}
+	}
+	"545214"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"oslist" "windows"
+			"language" "polish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1697879256298126229"
+				"size" "907142125"
+				"download" "585691888"
+			}
+		}
+	}
+	"545215"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "905736974934517185"
+				"size" "925505842"
+				"download" "580878832"
+			}
+		}
+	}
+	"545216"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8328492486453775086"
+				"size" "1646049316"
+				"download" "801398880"
+			}
+		}
+	}
+	"545217"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"language" "german"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2539305619310375028"
+				"size" "1654298055"
+				"download" "873384352"
+			}
+		}
+	}
+	"545218"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"language" "polish"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9034544421497574924"
+				"size" "1572249931"
+				"download" "788733392"
+			}
+		}
+	}
+	"545219"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"language" "french"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8926106206782357981"
+				"size" "1590613648"
+				"download" "783711392"
+			}
+		}
+	}
+	"215947"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6855665277689064430"
+				"size" "1522653303"
+				"download" "793864320"
+			}
+		}
+	}
+	"215948"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"language" "german"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "18214860217834135"
+				"size" "1532434846"
+				"download" "873406352"
+			}
+		}
+	}
+	"215949"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"language" "polish"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7999060706809414784"
+				"size" "1450386722"
+				"download" "788755392"
+			}
+		}
+	}
+	"545211"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"language" "french"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1239312549835837332"
+				"size" "1468750439"
+				"download" "783942336"
+			}
+		}
+	}
+	"588860"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7907306112460554394"
+				"size" "1019218564"
+				"download" "640234912"
+			}
+		}
+	}
+	"588861"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"language" "russian"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5004402917251445917"
+				"size" "1684326370"
+				"download" "843276416"
+			}
+		}
+	}
+	"588862"
+	{
+		"dlcappid" "545210"
+		"config"
+		{
+			"language" "russian"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2191011954473003399"
+				"size" "1562463161"
+				"download" "843298416"
+			}
+		}
+	}
+	"2482740"
+	{
+		"dlcappid" "2482740"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1229005920385809922"
+				"size" "961506325"
+				"download" "968746656"
+			}
+		}
+	}
+	"2482741"
+	{
+		"dlcappid" "2482740"
+	}
+	"2513910"
+	{
+		"dlcappid" "2513910"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1448063315136353270"
+				"size" "71408396"
+				"download" "66951968"
+			}
+		}
+	}
+	"hasdepotsindlc" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11685825"
+			"timeupdated" "1689177977"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" "SavedGames"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" "Jagged Alliance Wildfire.app/Contents/Resources/drive_c/Jagged Alliance 2 Wildfire/SavedGames"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" "Game/SavedGames"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20160680"
+"_sha" "c64f646ed55440703dc86315b05103e7b74aaa17"
+"_size" "14784"
