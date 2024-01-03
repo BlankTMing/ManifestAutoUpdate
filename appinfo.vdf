@@ -1,0 +1,935 @@
+"appid" "209080"
+"common"
+{
+	"name" "Guns of Icarus Online"
+	"type" "Game"
+	"logo" "925b7c2a6b698144622bed4bd2d0086114df2fa9"
+	"logo_small" "925b7c2a6b698144622bed4bd2d0086114df2fa9_thumb"
+	"icon" "968e8c0b7a55f0229392278123dfd486140c9421"
+	"oslist" "windows,macos,linux"
+	"clienticns" "42279ac85b2fcf1e1298bb1ad08a33caa84f015c"
+	"linuxclienticon" "f4629661b4e030ad86a86b0a78d5a3b560c26c62"
+	"clienticon" "b988933f793ac7b6f4cee3d19578c0699a4af598"
+	"clienttga" "8b487b4f2d31e9e6deaefc47aa42c1e3fe1a1492"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "209080_eula_0"
+			"name" "Guns of Icarus Online EULA"
+			"url" "http://store.steampowered.com//eula/209080_eula_0"
+		}
+	}
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1651276800"
+		"tested_build_id" "5763101"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Guns of Icarus Online"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+	}
+	"store_asset_mtime" "1674849499"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Muse Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Muse Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "28"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_15" "1"
+		"category_18" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_30" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+		}
+	}
+	"steam_release_date" "1351530180"
+	"metacritic_score" "64"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/guns-of-icarus-online\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "209080"
+	"store_tags"
+	{
+		"0" "1777"
+		"1" "5711"
+		"2" "3859"
+		"3" "1685"
+		"4" "19"
+		"5" "1708"
+		"6" "492"
+		"7" "3878"
+		"8" "599"
+		"9" "21"
+		"10" "15045"
+		"11" "1663"
+		"12" "3843"
+		"13" "9"
+		"14" "1775"
+		"15" "3839"
+		"16" "1774"
+		"17" "4155"
+		"18" "5153"
+		"19" "128"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "Muse Games"
+	"gamedir" "Guns of Icarus Online"
+	"homepage" "http://gunsoficarus.com/"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"installscript_macos" "GunsOfIcarusOnline.app/installscript_osx.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "209081"
+	"primarycache_macos" "209082"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "windows,macos"
+	"publisher" "Muse Games"
+	"gamemanualurl" "https://store.steampowered.com/manual/209080/"
+	"listofdlc" "217810,217811"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "GunsOfIcarusOnline.exe"
+			"description" "Play Guns of Icarus Online (DirectX 11 - Recommended)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "GunsOfIcarusOnline.app/Contents/MacOS/GunsOfIcarusOnline"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "launch.sh"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"4"
+		{
+			"executable" "workshop/Workshop.app/Contents/MacOS/Workshop"
+			"description" "Launch Workshop Tool"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"5"
+		{
+			"executable" "workshop/launch.sh"
+			"description" "Launch Workshop Tool"
+			"workingdir" "workshop"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"6"
+		{
+			"executable" "GunsOfIcarusOnline.exe"
+			"arguments" "-force-d3d9"
+			"description" "Play Guns of Icarus Online (DirectX 9)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"7"
+		{
+			"executable" "workshop/Workshop.exe"
+			"workingdir" "workshop"
+			"description" "Launch Workshop Tool"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Guns of Icarus Online"
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigfileids" "528427000"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"workshopdepot" "0"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"209082"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5697246821893830016"
+				"size" "11501057223"
+				"download" "4437543216"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"autobuild"
+			{
+				"gid" "8B42D583761FB849E2952D1212D34F7B"
+				"size" "EA46C588F3A0C8BB22C8FF4B1B2F608B"
+				"download" "A06B2177E9A13E661628E66478DCEAAA"
+			}
+			"dev"
+			{
+				"gid" "0046730F1E924277A0E05664D2B93A35"
+				"size" "47EBD5E4AA00A4796638B8C2F36591BD"
+				"download" "A2EB0FB121001A4CF3E3299E5960B8C4"
+			}
+			"internaltest"
+			{
+				"gid" "C350A5A06345D535442990D1F925ACAF"
+				"size" "598EC8812972C9D93F4B6F1521EA3531"
+				"download" "166A897C02D502CB7EB78E955131041B"
+			}
+			"nightly"
+			{
+				"gid" "FB50A440E5D050DD78B78BBF4B84F174"
+				"size" "013D8DA0B75B1D557A7AD31F2FC98A2F"
+				"download" "7AC7204225C6CDC71D541A8E0B91B8C2"
+			}
+			"pubtest"
+			{
+				"gid" "846406993A5B5B8BA445B81C0A9E14F2"
+				"size" "4B1A5D5884792333485FAFC02210D9D3"
+				"download" "DC9D248B0FAD154540090D1BBC170181"
+			}
+			"u5test"
+			{
+				"gid" "FC246BC5C3EC32C4CBA1F34E8AB159A9"
+				"size" "EA5589C307AFAA8DD2E7A41A227D913C"
+				"download" "A724B67AC2CABA36AD16F5BE2C1D51C8"
+			}
+		}
+	}
+	"209081"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6561565056979399612"
+				"size" "11455971144"
+				"download" "4425282816"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"autobuild"
+			{
+				"gid" "17D863A9E1860DC087BBAFE6EF26A400"
+				"size" "EE2BE7D6EE8E636081F753F1BB969D1A"
+				"download" "D5CC565DC53DE83B3281C50AA8290AD3"
+			}
+			"dev"
+			{
+				"gid" "38712B059220557288BFEA8C719CFB11"
+				"size" "993C7046559D80122E797468CDC6AF78"
+				"download" "2C7D69554DF771E757D9F2898E99B5BF"
+			}
+			"internaltest"
+			{
+				"gid" "CA55DD17876A7CB55F0CDED4DA25E7AA"
+				"size" "90C7B46D57DBC148376BEC19B4C95E1B"
+				"download" "483B0C74527C0AEBCADBAB0CC042E8C2"
+			}
+			"nightly"
+			{
+				"gid" "9554515A6D083F4BBB80751559B1A69E"
+				"size" "4EEB7DAD0225424142F7188A217A63BD"
+				"download" "CE07D3A7B7C7F0A30C539AB83DD95E2E"
+			}
+			"pubtest"
+			{
+				"gid" "B5E9DFEBCC46D562743DB4C82B7F6E71"
+				"size" "EE507B7679195AF26C4E68C2E4F61B68"
+				"download" "92523C99F06FA05E6A00618DDFC22CF6"
+			}
+			"u5test"
+			{
+				"gid" "6FD8997BA3919FE1E93865F3642D7FB4"
+				"size" "768FE9E820AC0B476DC2328288824A0F"
+				"download" "090504C12168FA56A04910ED9FF2A26B"
+			}
+		}
+	}
+	"209083"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9116345966183829622"
+				"size" "11459834180"
+				"download" "4424994768"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"autobuild"
+			{
+				"gid" "9C47F92307BA5E449CCA055EA516A1C4"
+				"size" "3DBA136B51312D30F0F0EEBA8ED89AE5"
+				"download" "DD702BA4A234595EA211ABC15A103049"
+			}
+			"dev"
+			{
+				"gid" "9C3E7E050D81A63A337AC3B971337944"
+				"size" "163E6C37C3AC14FC7C17B8ECF800ADEC"
+				"download" "C1E989E2A95B67DB02DF237A22B33CD5"
+			}
+			"internaltest"
+			{
+				"gid" "30DECD3DC902E830152D0F8B4D9B2EE7"
+				"size" "C31356F9E903CC387E1026083AE167EA"
+				"download" "BCFC8C04C03CC0CEEA349EC915F5E130"
+			}
+			"nightly"
+			{
+				"gid" "6822A699D05EDC2742181CDD470C126C"
+				"size" "29002F4F04D540C7CC59595C67BC32C8"
+				"download" "210A01D5774E3EB3DF6FE2E1EB238AB8"
+			}
+			"pubtest"
+			{
+				"gid" "CCCCC894BC55FB2D2F17BC63BCDF9E94"
+				"size" "CB494893C977B46EFA8ECA634FB5CD46"
+				"download" "B5CF65645D29F33E4FFF3E8B397EBF68"
+			}
+			"u5test"
+			{
+				"gid" "0654D86F72F966546D63EFA46D297061"
+				"size" "8E7EA8A3A0464B8ACB2E60FEA500C883"
+				"download" "6B678E98F2F334FC58C71C942B868B54"
+			}
+		}
+	}
+	"217811"
+	{
+		"dlcappid" "217811"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4534259565316728061"
+				"size" "648322644"
+				"download" "585790832"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"autobuild"
+			{
+				"gid" "6220AF9A881FC915ABCBCC994717A327"
+				"size" "DBB50BE59830E0D90446E37CA3457307"
+				"download" "2022EF3E8646038977D30957977994C5"
+			}
+			"dev"
+			{
+				"gid" "84640DCC25A1897F0493568BBEDAEB94"
+				"size" "62089B708A55181EC2ADE293705C4EC2"
+				"download" "7BC349A21C740BC985A95F031E07EEFC"
+			}
+			"internaltest"
+			{
+				"gid" "4C659FAC58B98DFD6E157F3A7AE87A83"
+				"size" "2B5E67DCD3D86A26E300A4760BD929CE"
+				"download" "EB2D140EA92EE914E87814D05CBB40C8"
+			}
+			"nightly"
+			{
+				"gid" "1E8C8B40FC00114FBBC014113EB9E382"
+				"size" "6CB541DD07545DBB247764066A9DD0F3"
+				"download" "2C43EDE68C092680D3139540098F8A0E"
+			}
+			"pubtest"
+			{
+				"gid" "923CC0AC335BCDDAA9218979BF353400"
+				"size" "0E4E20D68AA7F49FE2D7D6D70E4746D8"
+				"download" "58E2724D731EEE6CC2DA84729D330EB4"
+			}
+			"u5test"
+			{
+				"gid" "BF488482AAC7321E6C054CB4078D69D3"
+				"size" "7443E4E5E6AE6954C809143B48BB2F54"
+				"download" "5EC6E1A2B3C53B60C6E8653D29F89DB3"
+			}
+		}
+	}
+	"209084"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "220790637853483369"
+				"size" "1299026795"
+				"download" "402931232"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"autobuild"
+			{
+				"gid" "F443BBB5BBFEB143FDC143AB7BA28E2B"
+				"size" "C9A3FDF4146E1ED519379F90D06D8FA4"
+				"download" "EA0ED04B05958DF36ACEE71524235085"
+			}
+			"dev"
+			{
+				"gid" "4B7493B0DDAC040E27663819ACECB179"
+				"size" "9AA34EBDC2B28B6BF82B124197449B1C"
+				"download" "091FE9A7BD476DF39565115156A6172F"
+			}
+			"internaltest"
+			{
+				"gid" "403FE8CAE547AABF5DE0D6955B78F3F2"
+				"size" "95FCED88DC63C6C425D76681A307EEFE"
+				"download" "D9289714EF9C7E2397FA54E0D691B091"
+			}
+			"nightly"
+			{
+				"gid" "BD402F307C939C9D132C23650D00841F"
+				"size" "CFDB03D715DA9C2E704593A6120094D7"
+				"download" "C41862773298D7B258CE93744A0F606F"
+			}
+			"pubtest"
+			{
+				"gid" "FA72E6EB41F3B85F327F2C95CAB34BFA"
+				"size" "82D704D88635FE4F7F479EFD0C22D5F2"
+				"download" "162C6182AB36968096A8211434AF13B5"
+			}
+			"u5test"
+			{
+				"gid" "B44C002E612CAE923069F1A8F84DE020"
+				"size" "D9C76AC8DCF008BA6F8D1607B31BFDDB"
+				"download" "988BACF7C904A2D8A12DFD99901D2705"
+			}
+		}
+	}
+	"209085"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9144816022082800222"
+				"size" "1958545728"
+				"download" "678915264"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"autobuild"
+			{
+				"gid" "6B44D6768CAEB9437F5816A4976840C4"
+				"size" "BAB35F93D8ECE767681F25D8B28406ED"
+				"download" "9A1F3DEE53E6580332EF55732D6D1978"
+			}
+			"dev"
+			{
+				"gid" "5AE769ECE882DCF9D193144B3E8BEB42"
+				"size" "EACAA3389431E362C1B03715ACFDA703"
+				"download" "46211981214F1D73E9A4B1B534C9A0DE"
+			}
+			"internaltest"
+			{
+				"gid" "F31947FC94D995D17354A0502DC05BB7"
+				"size" "29618B61EE5AD9DC6FE7692666B796F2"
+				"download" "20A77EDF6D8E08C9B27253D84B6D5AD4"
+			}
+			"nightly"
+			{
+				"gid" "2A1F28020406716F3D6FC4CBEEB2E69E"
+				"size" "30DB2949397566191F1388ECC21E176B"
+				"download" "B98EE0D0534E00BD376B4BCD56F11944"
+			}
+			"pubtest"
+			{
+				"gid" "B5F6CDC5396F7317CC278395E753E631"
+				"size" "38BC4117D9188B318288B136E7B465FB"
+				"download" "742F84ABA92A52DFBBD5A13AD48B2CF3"
+			}
+			"u5test"
+			{
+				"gid" "8E118D9A8352A0007D66A026C2D92525"
+				"size" "5E7C64B8ABC0CA6466C5C7E8D789B011"
+				"download" "A075C086B8963A0296086E541BD921E3"
+			}
+		}
+	}
+	"209086"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9193810719180160132"
+				"size" "1304539860"
+				"download" "403362064"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"autobuild"
+			{
+				"gid" "B8798C523CF19150310D0C237C27A6A7"
+				"size" "61B35C5A3A8F1FF5E701855FF2E5877A"
+				"download" "936025D564301A48E7C301CE8E03C609"
+			}
+			"dev"
+			{
+				"gid" "A52B184EC9C35AC811FB3566F5A4EFDE"
+				"size" "08E983832478D684477679327DA30521"
+				"download" "6F7D65E25F665225390FB0F422D1F77C"
+			}
+			"internaltest"
+			{
+				"gid" "62A98F155AFF1580BF9959202DAA5CD0"
+				"size" "E3C53F284B0E7AF2DC0EE637473BF84A"
+				"download" "7FF446288C65660E1D30C432E4329373"
+			}
+			"nightly"
+			{
+				"gid" "66444B8E94F219DE799C20642D81FE49"
+				"size" "D767F03F2B56D7D5EA23D814D5BF60BE"
+				"download" "AE4935A62F558B6C4091BB377AFABDE7"
+			}
+			"pubtest"
+			{
+				"gid" "FCD1F4162D32F7EF0F22D9E7F016B4DD"
+				"size" "2A4CBB1CE7F71495E1899FFC01E5A0EE"
+				"download" "ABE68F6928E69427B4F8EA9330CF638E"
+			}
+			"u5test"
+			{
+				"gid" "66AF146FE92E3F787268338B36BFD8D2"
+				"size" "6F0DFB51479915E51DBC2137E273E732"
+				"download" "FDB80456847BD9DFC9C86CBEDCF54010"
+			}
+		}
+	}
+	"252591"
+	{
+		"dlcappid" "252590"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1375785643676798105"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"autobuild"
+			{
+				"gid" "0562BDD2BE51D425AEC8C4F08E85CBA7"
+				"size" "3E7AE2FB620C4A4166003F38C3C38E8A"
+				"download" "3E7AE2FB620C4A4166003F38C3C38E8A"
+			}
+			"dev"
+			{
+				"gid" "16B942EDFF5E7DFB43EC8B0F37E2F6D2"
+				"size" "62E92FAA64AD91FBF4360C39AA922A99"
+				"download" "62E92FAA64AD91FBF4360C39AA922A99"
+			}
+			"internaltest"
+			{
+				"gid" "7C4DE2B8233F6EA5645A7F6B79107CBE"
+				"size" "A38727412320FD882CF670CBDCC6FBE6"
+				"download" "A38727412320FD882CF670CBDCC6FBE6"
+			}
+			"nightly"
+			{
+				"gid" "431F2C780F24B6344D855596508DB6AD"
+				"size" "EBBFD101373FE79C2338BD781E8D6AA6"
+				"download" "EBBFD101373FE79C2338BD781E8D6AA6"
+			}
+			"pubtest"
+			{
+				"gid" "058EFBC86DABC4A33433D275BB4B050C"
+				"size" "584E2316AB075313795896B27AAE3E0B"
+				"download" "584E2316AB075313795896B27AAE3E0B"
+			}
+			"u5test"
+			{
+				"gid" "FE8FF78F1128B35FA21D3FC1740C957D"
+				"size" "B947A95377DCEDB5BACE00A423441BD5"
+				"download" "B947A95377DCEDB5BACE00A423441BD5"
+			}
+		}
+	}
+	"252592"
+	{
+		"dlcappid" "252590"
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1283616150866559068"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"autobuild"
+			{
+				"gid" "F4FB51757DF82D5BE67FCFBB4546C9F0"
+				"size" "3E7AE2FB620C4A4166003F38C3C38E8A"
+				"download" "3E7AE2FB620C4A4166003F38C3C38E8A"
+			}
+			"dev"
+			{
+				"gid" "00FE51ECD9CF9945200743B11443023C"
+				"size" "62E92FAA64AD91FBF4360C39AA922A99"
+				"download" "62E92FAA64AD91FBF4360C39AA922A99"
+			}
+			"internaltest"
+			{
+				"gid" "B41C80DAA42ACC30C9EAA288EB480107"
+				"size" "A38727412320FD882CF670CBDCC6FBE6"
+				"download" "A38727412320FD882CF670CBDCC6FBE6"
+			}
+			"nightly"
+			{
+				"gid" "599DBAA2030511D95C6496FABD4B71CE"
+				"size" "EBBFD101373FE79C2338BD781E8D6AA6"
+				"download" "EBBFD101373FE79C2338BD781E8D6AA6"
+			}
+			"pubtest"
+			{
+				"gid" "15FB8123C7B0B992C924E5F2588A0AFE"
+				"size" "584E2316AB075313795896B27AAE3E0B"
+				"download" "584E2316AB075313795896B27AAE3E0B"
+			}
+			"u5test"
+			{
+				"gid" "0F2746BCC0A4115D6D4B74DF302D5A33"
+				"size" "B947A95377DCEDB5BACE00A423441BD5"
+				"download" "B947A95377DCEDB5BACE00A423441BD5"
+			}
+		}
+	}
+	"252593"
+	{
+		"dlcappid" "252590"
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2188049990866347568"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"autobuild"
+			{
+				"gid" "F902F734F2D849569E6339038AEF8047"
+				"size" "3E7AE2FB620C4A4166003F38C3C38E8A"
+				"download" "3E7AE2FB620C4A4166003F38C3C38E8A"
+			}
+			"dev"
+			{
+				"gid" "D1A9AD04ACB99FED51E050B80A649DB7"
+				"size" "62E92FAA64AD91FBF4360C39AA922A99"
+				"download" "62E92FAA64AD91FBF4360C39AA922A99"
+			}
+			"internaltest"
+			{
+				"gid" "42296924164D4BD1F640430CEA684CBD"
+				"size" "A38727412320FD882CF670CBDCC6FBE6"
+				"download" "A38727412320FD882CF670CBDCC6FBE6"
+			}
+			"nightly"
+			{
+				"gid" "9EBABBAD2F742E60B42BAE74D797A33E"
+				"size" "EBBFD101373FE79C2338BD781E8D6AA6"
+				"download" "EBBFD101373FE79C2338BD781E8D6AA6"
+			}
+			"pubtest"
+			{
+				"gid" "24A5315CD5A63FCEA393968DF1C1DFCD"
+				"size" "584E2316AB075313795896B27AAE3E0B"
+				"download" "584E2316AB075313795896B27AAE3E0B"
+			}
+			"u5test"
+			{
+				"gid" "D425DB8730998EEAE4C34135C9C943BB"
+				"size" "B947A95377DCEDB5BACE00A423441BD5"
+				"download" "B947A95377DCEDB5BACE00A423441BD5"
+			}
+		}
+	}
+	"252594"
+	{
+		"dlcappid" "576450"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4177138720995231476"
+				"size" "1357981655"
+				"download" "1180357712"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"autobuild"
+			{
+				"gid" "C2130954B25E80BF63DD794747589EF5"
+				"size" "8A4A83647280D019B151E609B9A44F99"
+				"download" "397F8E3AB023A35D2F73B927FAE10105"
+			}
+			"dev"
+			{
+				"gid" "3D9620B29BAE92CE2B2082EE7458FB00"
+				"size" "1EFB1B2326DEE516B019D54110565462"
+				"download" "598024E1576F5C82F4B6F67AE65F8E2A"
+			}
+			"internaltest"
+			{
+				"gid" "D51CE53CD4764835DB850823F4C4C049"
+				"size" "D962591C85BC487254854A955A4D67EB"
+				"download" "6506A49E41DC40487285E6E6F9E066A2"
+			}
+			"nightly"
+			{
+				"gid" "A33335AEDD00DE8989A8DCAB3D4AF294"
+				"size" "8728A29F14CDC087FEB006ECE64135F8"
+				"download" "7EC968F58FB3986B40A159ED4DD11662"
+			}
+			"pubtest"
+			{
+				"gid" "0B02E6610CC5870AD341803DE03E3AF8"
+				"size" "9F52989226B4EE99856DBD5930E5E3D6"
+				"download" "E741DCCED7A7BC4EE29FC20BFCABFEF5"
+			}
+			"u5test"
+			{
+				"gid" "346393DF68D712A0FDEC53EFC06DEBC4"
+				"size" "25EBF537F88B7A51C353D84BB562D6BD"
+				"download" "938CA782CA2393AE6E4D6AFC519B81B2"
+			}
+		}
+	}
+	"hasdepotsindlc" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5763101"
+			"timeupdated" "1604084526"
+		}
+		"autobuild"
+		{
+			"buildid" "5763101"
+			"pwdrequired" "1"
+			"timeupdated" "1604084161"
+		}
+		"dev"
+		{
+			"buildid" "2733964"
+			"pwdrequired" "1"
+			"timeupdated" "1525105304"
+		}
+		"internaltest"
+		{
+			"buildid" "5763101"
+			"pwdrequired" "1"
+			"timeupdated" "1604084535"
+		}
+		"nightly"
+		{
+			"buildid" "4989368"
+			"pwdrequired" "1"
+			"timeupdated" "1588761340"
+		}
+		"pubtest"
+		{
+			"buildid" "5763101"
+			"pwdrequired" "1"
+			"timeupdated" "1604084545"
+		}
+		"u5test"
+		{
+			"buildid" "3055316"
+			"pwdrequired" "1"
+			"timeupdated" "1534959358"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "31457280"
+	"maxnumfiles" "100"
+}
+"_missing_token" "False"
+"_change_number" "19606944"
+"_sha" "e8a8e0fcabf28f44fb509598e74ac5d7c3a9c832"
+"_size" "20509"
