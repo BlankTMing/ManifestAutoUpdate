@@ -1,0 +1,256 @@
+"appid" "233800"
+"common"
+{
+	"name" "Arma 3 Tools"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" "windows"
+	"clienticon" "54df35d94301e5a7fba403365d1d890e3078537b"
+	"clienttga" "738ee59eb2c7c34ae7921722400398513610f0e8"
+	"icon" "ca4f4e420142ea3fc2a62b97697797a3df95b224"
+	"parent" "107410"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "233800_eula_0"
+			"name" "Arma 3 Tools EULA"
+			"url" "http://store.steampowered.com/eula/233800_eula_0"
+			"version" "1"
+		}
+	}
+	"logo" "74d4160d95dc21cde01743be889626abd414e33a"
+	"logo_small" "74d4160d95dc21cde01743be889626abd414e33a_thumb"
+	"metacritic_name" "Arma 3 Tools"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1440080828"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Bohemia Interactive"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Bohemia Interactive"
+		}
+	}
+	"primary_genre" "0"
+	"category"
+	{
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"gameid" "233800"
+	"exfgls" "1"
+	"review_score" "8"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" "Bohemia Interactive"
+	"gamedir" "ValveTestApp233800"
+	"homepage" "http://dev.arma3.com/"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateComingSoonNoPreload"
+	"visibleonlywhensubscribed" "1"
+	"disableoverlay" "1"
+	"publisher" "Bohemia Interactive"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Arma 3 Tools"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Arma3Tools.exe"
+			"arguments" "/parent=steam"
+			"description" "Launch Tools Launcher"
+		}
+		"1"
+		{
+			"executable" "starter.exe"
+			"arguments" "/parent=steam /mode=run /tool=ObjectBuilder"
+			"description" "Launch Object Builder"
+		}
+		"2"
+		{
+			"executable" "starter.exe"
+			"arguments" "/parent=steam /mode=run /tool=TerrainBuilder"
+			"description" "Launch Terrain Builder"
+		}
+		"3"
+		{
+			"executable" "AddonBuilder\\AddonBuilder.exe"
+			"description" "Launch Addon Builder"
+		}
+		"5"
+		{
+			"executable" "Publisher\\Publisher.exe"
+			"description" "Launch Publisher"
+		}
+	}
+}
+"depots"
+{
+	"228981"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228984"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"preloadonly" "1"
+	"overridescddb" "1"
+	"233801"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "952676994002703582"
+				"size" "416290461"
+				"download" "103812288"
+			}
+			"development"
+			{
+				"gid" "952676994002703582"
+				"size" "416290461"
+				"download" "103812288"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"cdlc"
+			{
+				"gid" "B648D375FECEDBE74E60428E9F482779"
+				"size" "BC6A52F1F5FAAF513EAB805016BF5DE7"
+				"download" "55A72112B5012FDA0B817008D4E596E8"
+			}
+			"internallegacy"
+			{
+				"gid" "56329454E9890DA1ECFB8D35A28E997F"
+				"size" "779C9426C9F0B0808CC3BD35EB4A1F5B"
+				"download" "EE8279A7B2CE107DAA937DAB5D2DA383"
+			}
+			"legacy"
+			{
+				"gid" "D36855609E273B12AD3EE3EB6E73FD1F"
+				"size" "A5E61F782E4A4D82DEC3FE017B44F680"
+				"download" "5F12F529E1F72FD91AB18D891405CD0B"
+			}
+		}
+	}
+	"233802"
+	{
+	}
+	"markdlcdepots" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12076497"
+			"timeupdated" "1693913926"
+		}
+		"cdlc"
+		{
+			"buildid" "5826170"
+			"pwdrequired" "1"
+			"timeupdated" "1605268329"
+		}
+		"development"
+		{
+			"buildid" "12076497"
+			"description" "Development Build"
+			"timeupdated" "1693470216"
+		}
+		"internallegacy"
+		{
+			"buildid" "1154437"
+			"pwdrequired" "1"
+			"timeupdated" "1465408190"
+		}
+		"legacy"
+		{
+			"buildid" "11747844"
+			"pwdrequired" "1"
+			"timeupdated" "1693913898"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "500"
+}
+"_missing_token" "False"
+"_change_number" "20525779"
+"_sha" "441e750b507eb12ec7b5b8358686cdd1611cdffe"
+"_size" "4525"
