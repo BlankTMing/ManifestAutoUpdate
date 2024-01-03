@@ -1,0 +1,1600 @@
+"appid" "1930"
+"common"
+{
+	"icon" "f20291118f8abb2c4d50579801b908720b7d2651"
+	"logo" "57094b687bdeaef65791bf2b710c8c6a11189359"
+	"logo_small" "57094b687bdeaef65791bf2b710c8c6a11189359_thumb"
+	"metacritic_url" "pc/twoworlds"
+	"name" "Two Worlds: Epic Edition"
+	"clienttga" "df160401cf9bc74ee94b3675cbcbf9a9fac05717"
+	"clienticon" "0bb1f60f07383b3faac9fafb0231de17fadc0735"
+	"oslist" "windows,macos,linux"
+	"type" "Game"
+	"osarch" ""
+	"metacritic_name" "Two Worlds"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "30.033399380429984"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1694868872"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Reality Pump Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Topware Interactive"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Two Worlds"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "3"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_2" "1"
+		"category_29" "1"
+		"category_36" "1"
+		"category_38" "1"
+		"category_27" "1"
+		"category_18" "1"
+		"category_49" "1"
+		"category_9" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1241074800"
+	"metacritic_score" "65"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/two-worlds\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "1930"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "1695"
+		"2" "1684"
+		"3" "4182"
+		"4" "1697"
+		"5" "3859"
+		"6" "21"
+		"7" "19"
+		"8" "4172"
+		"9" "4231"
+		"10" "1742"
+		"11" "4747"
+		"12" "4604"
+		"13" "4057"
+		"14" "1646"
+		"15" "1685"
+		"16" "3834"
+		"17" "4191"
+		"18" "4166"
+		"19" "3810"
+	}
+	"review_score" "6"
+	"review_percentage" "76"
+}
+"extended"
+{
+	"developer" "Reality Pump Studios"
+	"gamedir" "Two Worlds - Epic Edition"
+	"homepage" "http://www.2-worlds.com/"
+	"icon" ""
+	"installscript" "1930_install.vdf"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp1930\\SteamKey"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "1931"
+	"serverbrowsername" ""
+	"showcdkeyonlaunch" "1"
+	"state" "eStateAvailable"
+	"publisher" "Topware Interactive"
+	"gamemanualurl" "https://store.steampowered.com/manual/1930/"
+	"listofdlc" "301210,637030,986290"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Two Worlds - Epic Edition"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TwoWorlds.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "TwoWorlds_RADEON.exe"
+			"description" "Launch Two Worlds - Radeon 9600 Compatibility Mode"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "2WSG.exe"
+			"description" "Strategy Guide"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "301210"
+			}
+		}
+		"3"
+		{
+			"executable" "RunGame"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"5"
+		{
+			"executable" "RunGame"
+			"arguments" "-safemode"
+			"description" "Two Worlds: Epic Edition (safe mode)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"6"
+		{
+			"executable" "RunSoundConfig"
+			"type" "config"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"7"
+		{
+			"executable" "Two Worlds - Epic Edition.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"8"
+		{
+			"executable" "TwoWorlds.exe"
+			"arguments" "-safemode"
+			"description" "Two Worlds: Epic Edition (safe mode)"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"9"
+		{
+			"executable" "ddc.cmd"
+			"description" "Digital Deluxe Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "986290"
+			}
+		}
+		"10"
+		{
+			"executable" "ddc"
+			"description" "Digital Deluxe Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+				"ownsdlc" "986290"
+			}
+		}
+		"11"
+		{
+			"executable" "ddc_xdg"
+			"description" "Digital Deluxe Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"ownsdlc" "986290"
+			}
+		}
+		"12"
+		{
+			"executable" "dp3d.exe"
+			"description" "Two Worlds Pinball"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "986290"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" "english"
+	"1931"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2523483050314834626"
+				"size" "4369873268"
+				"download" "3880776704"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "60291501EC166A8E6FBB43EBCA75DA51"
+				"size" "F88A94D6F9F4191F4337791C5B51613D"
+				"download" "223CC78D10146F8A0C0F72FAE9066240"
+			}
+			"linuxbeta"
+			{
+				"gid" "1D4C161BBDF0E912480D924A67B4B28C"
+				"size" "1F178720FCB58A22C7CE2BCBB7928FF9"
+				"download" "046D48795E35887C6670314A47F4E24A"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "04796147C754DCE75574C24F94518729"
+				"size" "8EB11D4B8D997728B2E74F068E9031EA"
+				"download" "33D409DF57D9732F6C0D817990FD79F2"
+			}
+			"macbeta"
+			{
+				"gid" "F65EEDD895371DE7D01AC6121519938A"
+				"size" "F590D0C595C4E1A2CDAD2D8B4BF334E0"
+				"download" "244F2F761B41204F0BD783B1202F41BE"
+			}
+			"windowsgog"
+			{
+				"gid" "0050FAEE73D8D24567FCB2C25FCDD891"
+				"size" "C38E7E290A89E11441793C713C5835D2"
+				"download" "8109FD433D2DC513AED2A5E233F669B9"
+			}
+		}
+	}
+	"1955"
+	{
+		"config"
+		{
+			"language" "czech"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8035491586407901359"
+				"size" "4454062544"
+				"download" "3920982032"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "89A248B985F1115FA115B7A6815E7DB6"
+				"size" "0261FE277177EC4C757A9EC08EC90BFB"
+				"download" "BBC73E2F3F7906555E7E2037574581DA"
+			}
+			"windowsgog"
+			{
+				"gid" "929C5EAF74266816080370ABA563F08A"
+				"size" "2DCC934E2B55EAB06361C164B8860487"
+				"download" "E01DD5D0AA2F1933DB75F5FF25B263AF"
+			}
+		}
+	}
+	"1932"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5601238444809976731"
+				"size" "1961704771"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "13B575DEC363F43A8A29776452A8A7AE"
+				"size" "F7AF1A5B0FB967A2510E457C4B9F6B23"
+				"download" "4ADBF495EF189F1A7938BB937DDDA2AF"
+			}
+			"linuxbeta"
+			{
+				"gid" "DDA6880EC04B1D13DFACA1D3D6B1A05A"
+				"size" "26D8D7E9B716559BB41EC261240B3C59"
+				"download" "046D48795E35887C6670314A47F4E24A"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "D59718B7C143BD76DEE62183DCD87D38"
+				"size" "93C93882E61F80FD0834F8518A5C2775"
+				"download" "33D409DF57D9732F6C0D817990FD79F2"
+			}
+			"macbeta"
+			{
+				"gid" "4D9A4EF8D4F6F892C68B5F5EB69FC173"
+				"size" "6EEDAE0560388D851A200B17C3F306C1"
+				"download" "244F2F761B41204F0BD783B1202F41BE"
+			}
+			"windowsgog"
+			{
+				"gid" "1CF2F77F11F160C4442A0B711AD05563"
+				"size" "5046DC8892A275652C85036DBC675D90"
+				"download" "A2D3A7F6546554E2A97A3D217D275E51"
+			}
+		}
+	}
+	"1933"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7010314438742393472"
+				"size" "1872506502"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "D6A2138E2D243A150345FC200210A33F"
+				"size" "BD94CEC8AA121E42F268A3A8E42579AE"
+				"download" "4ADBF495EF189F1A7938BB937DDDA2AF"
+			}
+			"linuxbeta"
+			{
+				"gid" "421BAEFB8E78FD17E49CD99432883825"
+				"size" "74D7005A170D3E632B3302BC2A1BB6BF"
+				"download" "046D48795E35887C6670314A47F4E24A"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "1CC68ED979247DB66DE6022C9FFF0885"
+				"size" "776D3792EAE5A1C238F228EBBCA567F9"
+				"download" "33D409DF57D9732F6C0D817990FD79F2"
+			}
+			"macbeta"
+			{
+				"gid" "FB85B4425685111197E8076A6520FEF3"
+				"size" "CE8468DEC49F8A63442169A0137727E2"
+				"download" "244F2F761B41204F0BD783B1202F41BE"
+			}
+			"windowsgog"
+			{
+				"gid" "A4BEE3C4648CD566DDCDBF783CE988B4"
+				"size" "ED4BCD31B290E72A6DF68A1EF09C2D1F"
+				"download" "A2D3A7F6546554E2A97A3D217D275E51"
+			}
+		}
+	}
+	"1934"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "222881814187675457"
+				"size" "1936268770"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "374794EE8C5D501F530E0545FAABE115"
+				"size" "8EBDBFC7F4CDF2BBEB2722E01C7A1CCE"
+				"download" "4ADBF495EF189F1A7938BB937DDDA2AF"
+			}
+			"linuxbeta"
+			{
+				"gid" "6DB930009B32F6D8394C8BC31FFEBA48"
+				"size" "A188B985CE0A9690B3D79AF5C5DA4FFB"
+				"download" "046D48795E35887C6670314A47F4E24A"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "E54612EA85230C02991A014C6650A861"
+				"size" "4D981D2A20ABEEE40B98A5DE85DC1B59"
+				"download" "33D409DF57D9732F6C0D817990FD79F2"
+			}
+			"macbeta"
+			{
+				"gid" "8E6FDADC9E6D3EE0C2C9EED607FDB668"
+				"size" "FF92A70B0A23972B3290035EA05DBABC"
+				"download" "244F2F761B41204F0BD783B1202F41BE"
+			}
+			"windowsgog"
+			{
+				"gid" "4116EF86019034C99FC9A2F0FF020DFE"
+				"size" "D6C15B61D8802AD37D9FFDE465ED5A56"
+				"download" "A2D3A7F6546554E2A97A3D217D275E51"
+			}
+		}
+	}
+	"1935"
+	{
+		"config"
+		{
+			"language" "italian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6087613703874835230"
+				"size" "21857114"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "9B01866DF92D4BD0EC09023BA9E72C15"
+				"size" "21DF3AEE5B2FB400919ABF126FC53F0F"
+				"download" "4ADBF495EF189F1A7938BB937DDDA2AF"
+			}
+			"linuxbeta"
+			{
+				"gid" "1C249EB65C9972F6320763B6E37A5275"
+				"size" "16C855EBFDFBCCCDAD9A55AF3CCBAA8A"
+				"download" "046D48795E35887C6670314A47F4E24A"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "BE338BFA7EE7C04F5C162D25364FC927"
+				"size" "ADF22243D982CF0961AEDECA04FCADC1"
+				"download" "33D409DF57D9732F6C0D817990FD79F2"
+			}
+			"macbeta"
+			{
+				"gid" "C8ACB141055818F6CBF770B28797A959"
+				"size" "76771260982959123FE1C93A663133D9"
+				"download" "244F2F761B41204F0BD783B1202F41BE"
+			}
+			"windowsgog"
+			{
+				"gid" "CBAE7E5CD1114BE6FCFCFE7275AC6698"
+				"size" "4A226C02C1EF5FF7906DB54A8C4FB97F"
+				"download" "A2D3A7F6546554E2A97A3D217D275E51"
+			}
+		}
+	}
+	"1956"
+	{
+		"config"
+		{
+			"language" "polish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6651438563368318416"
+				"size" "4454217833"
+				"download" "3921117216"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "5DC791E7A667059CEBD3C80BF7FBAD58"
+				"size" "599C19F3A9BBD8B69D9A9A9E7739F5CD"
+				"download" "689B0E2BF96EE106EEB39E068DA5606B"
+			}
+			"windowsgog"
+			{
+				"gid" "A658667B8BCCBF872E88B8D5C2D156C2"
+				"size" "41A0976BF4E8812796BE3967CF2C05F2"
+				"download" "C625B1082B485AC68F77B64D4A1B0C2D"
+			}
+		}
+	}
+	"1957"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "627805396117702295"
+				"size" "4454241047"
+				"download" "3921143184"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "FB3B1BC2318867E8F45C30DC8EBF06DA"
+				"size" "B9063162401A6B838F2B0DD04A4C5AD4"
+				"download" "214E5CD5B38DAD6928AF3025901F1A49"
+			}
+			"windowsgog"
+			{
+				"gid" "25A7C63AAA8559105BE5E2AFF8FA814C"
+				"size" "448EFDA3C88C9D4272324532D575303D"
+				"download" "6F97B3AA65340D19C23F3F8A4CE2A0ED"
+			}
+		}
+	}
+	"1936"
+	{
+		"config"
+		{
+			"language" "spanish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4717227029984444036"
+				"size" "21865306"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "E87599315EF661800156D2B2D3C38DED"
+				"size" "AEC2EADCFFC4C8214B239B44935B1E42"
+				"download" "4ADBF495EF189F1A7938BB937DDDA2AF"
+			}
+			"linuxbeta"
+			{
+				"gid" "18D6A704D392E61C95B1BACC8F0F2739"
+				"size" "363043BC5CF24B066C1A97C24F83911E"
+				"download" "046D48795E35887C6670314A47F4E24A"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "BD032096678D3B55C8AAEBD89BB77DF6"
+				"size" "A83ECEC37C5745F96634BF04C9B89BB0"
+				"download" "33D409DF57D9732F6C0D817990FD79F2"
+			}
+			"macbeta"
+			{
+				"gid" "7021CA152E674F4AD3554B875E2C97BA"
+				"size" "50A9EE3BEC1382930ADCD98F7832BBEF"
+				"download" "244F2F761B41204F0BD783B1202F41BE"
+			}
+			"windowsgog"
+			{
+				"gid" "FE203E0489906AB69EB98A707930FA51"
+				"size" "1A675287B07748B12A86747564BE9E83"
+				"download" "A2D3A7F6546554E2A97A3D217D275E51"
+			}
+		}
+	}
+	"301210"
+	{
+		"dlcappid" "301210"
+	}
+	"301212"
+	{
+		"dlcappid" "301210"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3917889449739011783"
+				"size" "253577831"
+				"download" "213237312"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "2A4B1D25195F6BD3599E8B1A9B131EA9"
+				"size" "EA7F9CC38738D69CB309D9494E61DE11"
+				"download" "C6E0523DA5FC769603435AC7EFA92172"
+			}
+			"linuxbeta"
+			{
+				"gid" "C2754ACABB0AE04279F110BE0CBFC7DB"
+				"size" "B63624D234E9367B31F7F990C97B95AD"
+				"download" "33E1AF21E9373951EC5C455548CC6248"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "218C9CB7911A6F0C70BDDD924DD46D54"
+				"size" "3C7F62FB10392877836F72E4E9D5A2FF"
+				"download" "76789AFD4A5124A37FD9D3DE40289E21"
+			}
+			"macbeta"
+			{
+				"gid" "20C3D3CA159043009AC455EEAB5E45BC"
+				"size" "FA3E29E2351A48F4649E3F0357C98975"
+				"download" "F333E349457B64570B4880BCDADBF80B"
+			}
+			"windowsgog"
+			{
+				"gid" "FD489BA892E363B8A78D40625F74066C"
+				"size" "531FF016E5D3E148DC866144838DFCFF"
+				"download" "ABE6DD5F16FCD0F19A1E78031F8D1C05"
+			}
+		}
+	}
+	"301211"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"dlcappid" "301210"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5204273234968201546"
+				"size" "348558356"
+				"download" "315459968"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "57D3D58D1957D7F8A6BDBBBF6677FC5B"
+				"size" "70EF3F0D81FF17E576AF91806E46ABB0"
+				"download" "1D1CF7EF274212EF6A71B1A63C20EEAD"
+			}
+			"linuxbeta"
+			{
+				"gid" "6F610104C73D114C93C6C0CEB18C84BF"
+				"size" "E05DFCDE89CF60DF2C444CB4E8311685"
+				"download" "B628AA3DBD3BBBC828255FA1733FD26E"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "548F905E2FE78696B391CBAA65FB46A1"
+				"size" "718944BF27546668AEE4F720C6B81AA6"
+				"download" "18E8E73FA40DE83E8A73D2C5D5915602"
+			}
+			"macbeta"
+			{
+				"gid" "0C2B0619DBDF5E3493F0FBA851B70EAC"
+				"size" "6EAF59CC62B81D402B9C6D52913A10D8"
+				"download" "7835545B74E64828CCF337B0F14C0E77"
+			}
+			"windowsgog"
+			{
+				"gid" "AAE8F968DDF16BF8488E6A015DED948B"
+				"size" "E32A72149E365EB8881A19B078075D0F"
+				"download" "0293D929E1678807EA8BC591B7F9B3DE"
+			}
+		}
+	}
+	"1943"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2933468909686765649"
+				"size" "1122920445"
+				"download" "584361680"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "A1F92B9CC6F9DBFC7BC5699B437E54FC"
+				"size" "B39DA356ACCDB4CC2D82CEE9B056827B"
+				"download" "A4D1D7EC9325C02CC0A0A65F7BA359E5"
+			}
+			"linuxbeta"
+			{
+				"gid" "C524F9D191DAE7E2DCEDE69BFFA4DE48"
+				"size" "2A875CC45E5469192178D1D7920741BA"
+				"download" "F51CA9506DADBDCCCDF43B873E699D05"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "56AB5BF0B618053251B6F3DDE0F976FA"
+				"size" "33C94C69BA20A3FC51E616B93B210536"
+				"download" "EBD713E2F4E77F431C7DB23DC89B6BBA"
+			}
+		}
+	}
+	"1948"
+	{
+		"config"
+		{
+			"language" "czech"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7290332942650521736"
+				"size" "4454062544"
+				"download" "3920982032"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "452D66355F317E77E290839AD012E2A4"
+				"size" "0261FE277177EC4C757A9EC08EC90BFB"
+				"download" "BBC73E2F3F7906555E7E2037574581DA"
+			}
+			"linuxbeta"
+			{
+				"gid" "530893236DCA6EB6FF3E0DDB7826EB37"
+				"size" "B076B5DC97FFD59D6DB6D7B6FF1F7AEF"
+				"download" "185AED356951DDFF4A333DD542C059D6"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "30526D510D8EA181C215C8B0734609F5"
+				"size" "EF8F4C89339ABB0248CD83B8D5B3A118"
+				"download" "65699A75F3F216C4D8114FE2FCBD0306"
+			}
+		}
+	}
+	"1937"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4677852886191900809"
+				"size" "4453291857"
+				"download" "3920294704"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "3C67BED0FA6DBBF6EBCD7ABD5DD44EEC"
+				"size" "A59858020E55C86DC7823AC7ACCC8070"
+				"download" "6E45EE6A6829D6B494A40C5763F4F86A"
+			}
+			"linuxbeta"
+			{
+				"gid" "AFBED2AE3C4E2918BBF123C3DFA71C21"
+				"size" "600E7B58CA0974B378F90CB7F1D7E9F3"
+				"download" "C636B90FCFEF5F48A3C5359FA8083E93"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "BEEC973E44500FD45534A60EDF40DFEF"
+				"size" "C5DC9DB533EC7CF8E744DFC3AE703A23"
+				"download" "8AA09ACFA1ED44C2609DB6C788A71593"
+			}
+		}
+	}
+	"1939"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1496305295108530671"
+				"size" "4365635188"
+				"download" "3819650736"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "C0E1515BA385FE885844A921D2B5A673"
+				"size" "DAFD461E1476A0D1B3AB978F3C8F16BF"
+				"download" "105EA7C41F1BF32CA374FE3361DC723F"
+			}
+			"linuxbeta"
+			{
+				"gid" "7BD408D40803636F9AD861347F5FACC0"
+				"size" "241428796AFFB00B0A88C65B7498C8AA"
+				"download" "786832B1623646F0BB34CAC339FF69A1"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "9227F345BB368F325D0107081C5496CB"
+				"size" "7CF95F169DBED18CF6378A66A45E147B"
+				"download" "2EAD2E1F4279DA15B0B057AF3C8B1C3D"
+			}
+		}
+	}
+	"1940"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1978845530670863022"
+				"size" "4429193057"
+				"download" "3910334928"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "7B543E891AFDEF8788749C658082E0FC"
+				"size" "9AE87BFAEB8CCCE52FF97DE513C40C2C"
+				"download" "1E4553243C4580D23B3A5840BA3FFEE8"
+			}
+			"linuxbeta"
+			{
+				"gid" "7185C8E83EA6119379F163FE9EA2F4A2"
+				"size" "58568FF086D30383791BAC35247D5BAF"
+				"download" "91A46E9F9E312F9898FF27BAE4A41FC0"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "A4C15BACEFD3637C4651D5303F38C54B"
+				"size" "2E1696F95E6E7C5AEAE6A7EE01FF2A1B"
+				"download" "9680D7176996C0F97180132C19E725E7"
+			}
+		}
+	}
+	"1941"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2974175366246344624"
+				"size" "4454232785"
+				"download" "3921127424"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "6147DED339E93A648F82BF5EEE0DF475"
+				"size" "440DA9B6794BCDEE86653441D2768CAD"
+				"download" "7F6F0EAE52B40F9F90F0D070877E4DA1"
+			}
+			"linuxbeta"
+			{
+				"gid" "EC38BAA95BFA2D0E3056436CE3E17D6B"
+				"size" "CB8468B89848178C9CA9EC0683C7E882"
+				"download" "05025749A8C15A92FF591862186DB0C8"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "30556AD65A5389211A0EFF435A70C059"
+				"size" "D8E3A083F2B8AFE9F751F4A6ABC5ACB6"
+				"download" "A7D1D0AD54521DAADCBDFD6E0DF6FA94"
+			}
+		}
+	}
+	"1949"
+	{
+		"config"
+		{
+			"language" "polish"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3744155573537903421"
+				"size" "4454217833"
+				"download" "3921117216"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "F24E30FB51C87185BEEFEE5492006D89"
+				"size" "599C19F3A9BBD8B69D9A9A9E7739F5CD"
+				"download" "689B0E2BF96EE106EEB39E068DA5606B"
+			}
+			"linuxbeta"
+			{
+				"gid" "1E2FE6A4559A372B78806AAF1CAEA39E"
+				"size" "EAF0CE25F01F5CCA3E340A4EB9692E37"
+				"download" "C228D196329B6D5EF8F94C4A8973608C"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "2CD6A52998ADF4AB1B42CE20F7D09AEC"
+				"size" "F8A79F29CDEAB3EB6A915F29EB61AF67"
+				"download" "A84E7025B362E0DBB93C72E6356587FB"
+			}
+		}
+	}
+	"1950"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7953917531321919425"
+				"size" "4454241047"
+				"download" "3921143184"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "A97FC12452B41AB8A961BD2EFD836170"
+				"size" "B9063162401A6B838F2B0DD04A4C5AD4"
+				"download" "214E5CD5B38DAD6928AF3025901F1A49"
+			}
+			"linuxbeta"
+			{
+				"gid" "740414EBCADCC43DDE3A88FB9009AD24"
+				"size" "5C6DE9326C50BDF965CD7EA4E2C8CAE1"
+				"download" "B8C2D3FFF4CC3657A761CB3F34F4B2FE"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "FE0C7F299E94069F7D8F757FE483F465"
+				"size" "50990A28ECDBFCE616D991718D4D66FA"
+				"download" "86632F026B9076232F3540934A61BDC5"
+			}
+		}
+	}
+	"1942"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6306156910657605386"
+				"size" "4454237777"
+				"download" "3921137200"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "716A5AA14A08E87E016ADD008E9EF5D8"
+				"size" "CD9C552769E44C9027C11350059288B8"
+				"download" "36C59E3F637DC418FF8C9D0D21347C95"
+			}
+			"linuxbeta"
+			{
+				"gid" "D6F26FCA495A9C5062EBB6DE47D73874"
+				"size" "45F2704C5A668D7B90F8046C01877AD3"
+				"download" "AD8F62DF65346939BE1787C20967B039"
+			}
+			"linuxbetacsmt"
+			{
+				"gid" "D6A2C6B73639A93E88D34C800EAF3D54"
+				"size" "963B68548D6A698643EA39C98E5F4FEF"
+				"download" "E5D6CB48C28B08AE9D51C96D89F52071"
+			}
+		}
+	}
+	"1951"
+	{
+		"config"
+		{
+			"language" "czech"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5151591136133290988"
+				"size" "5147601327"
+				"download" "4187070192"
+			}
+			"local"
+			{
+				"gid" "1669561483517009967"
+				"size" "693533008"
+				"download" "266088464"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "60C23596F7674967B04C9B41E8EECFB5"
+				"size" "8F84E72C469D3DF50E23A3E790E3AA70"
+				"download" "7666C4BD7E43F082E4CA8EB0AEED0CF1"
+			}
+			"macbeta"
+			{
+				"gid" "3A91A2FB16FCAC323E9FB43DB8FAB75E"
+				"size" "281DF07AD82DB3985C9E79F512E31039"
+				"download" "06B88CCEFD042AAE389FF42DEEC430A5"
+			}
+		}
+	}
+	"1938"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5953578131138706179"
+				"size" "5146479409"
+				"download" "4186380032"
+			}
+			"local"
+			{
+				"gid" "6767588521298407541"
+				"size" "5146479409"
+				"download" "4186380032"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "5EA4262BD9A1109463621CF2BFEBF356"
+				"size" "6767E9E9FCA8D18B5F4ABD24893F8BF4"
+				"download" "021C920BFE845BBCFA96DD69EAED1572"
+			}
+			"macbeta"
+			{
+				"gid" "DAEED0157A425D4EB1D10C05A0709DE4"
+				"size" "AB1B4D612EC9B48D4E7076C09DE89FCE"
+				"download" "AFBBB5C529F3ED3433338102DFF9375E"
+			}
+		}
+	}
+	"1944"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1894449688419170709"
+				"size" "5059180119"
+				"download" "4085739040"
+			}
+			"local"
+			{
+				"gid" "1981234770717426570"
+				"size" "5059180119"
+				"download" "4085739040"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "50CA7080220369D05FDED84FF136FF83"
+				"size" "6338B936E8FCB88B41F73C743C1A65B0"
+				"download" "F44F6A08CE09B89AB7FC262553B3D42B"
+			}
+			"macbeta"
+			{
+				"gid" "78EBA1565D9C7BFD5285A668A3C28061"
+				"size" "7A19E8AF8574D68A62812BCB9BD2A15A"
+				"download" "15B70549FECD3E0EDE458AF2E3559829"
+			}
+		}
+	}
+	"1945"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1759911041301252004"
+				"size" "5122731840"
+				"download" "4176423824"
+			}
+			"local"
+			{
+				"gid" "7637019128669480640"
+				"size" "5122731840"
+				"download" "4176423824"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "ADC5E92AA3B1A42B37879D73B1438D6B"
+				"size" "E5BF6638209264C9081B2814D4830843"
+				"download" "D36B1E1B86ED189C11E40604A5CBC826"
+			}
+			"macbeta"
+			{
+				"gid" "D3F4E6D126FD64F7A751C5F22F9C999C"
+				"size" "2CD7363D3F6F40555C248A98E1C024F6"
+				"download" "F2281ABDC1972C1193C3390814D244CC"
+			}
+		}
+	}
+	"1946"
+	{
+		"config"
+		{
+			"language" "italian"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9129458193648202632"
+				"size" "5147777716"
+				"download" "4187216240"
+			}
+			"local"
+			{
+				"gid" "2638111682171584554"
+				"size" "5147777716"
+				"download" "4187216240"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "EBCD5124809631F695FE7082D24E753A"
+				"size" "CBDDB049DEB8B384A354F2A7B4136136"
+				"download" "A525FD4575107427E43F60DDB0E99A98"
+			}
+			"macbeta"
+			{
+				"gid" "702F0AE273BDF7C74F4283B3EFC77E02"
+				"size" "427AFC4C528E17F8C1E65DFDC4EA21B9"
+				"download" "27D59800D2D7EDDC7642E7B0256484E0"
+			}
+		}
+	}
+	"1952"
+	{
+		"config"
+		{
+			"language" "polish"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8383786279531246475"
+				"size" "5147756616"
+				"download" "4187206336"
+			}
+			"local"
+			{
+				"gid" "688887389506284012"
+				"size" "5147756616"
+				"download" "4187206336"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "49D6AF6C815A26A808FEF77C71521DBB"
+				"size" "69437DF790EE44D054C50C0B72B977A8"
+				"download" "B38B78C9179FDB1BE75CC15EB66C6190"
+			}
+			"macbeta"
+			{
+				"gid" "BFA3029BDFA082EF2D6353AE520D9454"
+				"size" "394F6713B1E30DCAAD4D5ABB8E0F2B3C"
+				"download" "28634F8779EF438A64031C9C41853AD5"
+			}
+		}
+	}
+	"1953"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3754594584199236934"
+				"size" "5147785978"
+				"download" "4187231536"
+			}
+			"local"
+			{
+				"gid" "2186657513227560779"
+				"size" "5147785978"
+				"download" "4187231536"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "313C59B95F138695A663E88D20A6A118"
+				"size" "2C77228BFD9FD4881394058916C0265D"
+				"download" "7EA7FC282A2D74C55F91B9435C84D951"
+			}
+			"macbeta"
+			{
+				"gid" "75BA6627C19C9B392435D6E06DF6DF2F"
+				"size" "FA5A9F3EBF31BC17FA54EDB820F6E8FE"
+				"download" "EE6E613235EE2DD258DCE4453F403961"
+			}
+		}
+	}
+	"1947"
+	{
+		"config"
+		{
+			"language" "spanish"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8567966774847069141"
+				"size" "5147782708"
+				"download" "4187225664"
+			}
+			"local"
+			{
+				"gid" "76855247560261604"
+				"size" "5147782708"
+				"download" "4187225664"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "E222745B6EBB57EF9D6244876017E4CC"
+				"size" "149B4E07E5115A5560610C9DFBBA94A6"
+				"download" "A4D382391715CC2D9F32266C4953B999"
+			}
+			"macbeta"
+			{
+				"gid" "AA546C8E1D530CA858A69DC73688AB2D"
+				"size" "D1ABCB329720EF9D345626ABEDBB0086"
+				"download" "C390348C14270AE02510F21A6C097192"
+			}
+		}
+	}
+	"1954"
+	{
+		"dlcappid" "637030"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3537939186977675776"
+				"size" "108730344"
+				"download" "104041024"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "5CCF4D235E6326C2590BCF1A2B54AECE"
+				"size" "CE22654D6FA8D10531C989AA8F439359"
+				"download" "2A7533B0F5AD88EB939CA78280EFEBAC"
+			}
+		}
+	}
+	"1958"
+	{
+		"dlcappid" "986290"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7783355799275633352"
+				"size" "480101127"
+				"download" "482436816"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "24713B99D1F1CE68593DC0A3F5679A5D"
+				"size" "F04BAC7E1544B18C14B443F803278E7A"
+				"download" "BA03A650FC3BC2718D690F1FB81906A5"
+			}
+		}
+	}
+	"1959"
+	{
+		"dlcappid" "986290"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6189670511603442837"
+				"size" "245346161"
+				"download" "86547696"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ddcbeta"
+			{
+				"gid" "91A20F202A4C9B69009B7EC84E3ADA8F"
+				"size" "8BFAD0F8EA6354D554B37B5AD22FB711"
+				"download" "1C01619C78CE9EA1FDC7B90804DC8202"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3497030"
+			"timeupdated" "1548316313"
+		}
+		"ddcbeta"
+		{
+			"buildid" "3496983"
+			"pwdrequired" "1"
+			"timeupdated" "1548314949"
+		}
+		"linuxbeta"
+		{
+			"buildid" "8104162"
+			"pwdrequired" "1"
+			"timeupdated" "1643366723"
+		}
+		"linuxbetacsmt"
+		{
+			"buildid" "1069815"
+			"pwdrequired" "1"
+			"timeupdated" "1460458092"
+		}
+		"local"
+		{
+			"buildid" "1091145"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1461421702"
+		}
+		"macbeta"
+		{
+			"buildid" "1092059"
+			"pwdrequired" "1"
+			"timeupdated" "1461519960"
+		}
+		"windowsgog"
+		{
+			"buildid" "1180454"
+			"pwdrequired" "1"
+			"timeupdated" "1465922080"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Game/Two Worlds Saves"
+			"pattern" "*.TwoWorldsSave"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinSavedGames"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Game/Two Worlds Saves"
+					"replace" "Two Worlds Saves"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Game/Two Worlds Saves"
+					"replace" "Two Worlds - Epic Edition.app/drive_c/users/Wineskin/Saved Games/Two Worlds Saves"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21009990"
+"_sha" "da6e5f11d5f0aa261fc7da3a2cc317e69dc317d8"
+"_size" "31730"
