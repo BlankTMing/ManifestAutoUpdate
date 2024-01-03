@@ -1,0 +1,152 @@
+"appid" "532330"
+"common"
+{
+	"name" "Starbound Unstable Dedicated Server"
+	"type" "Tool"
+	"parent" "367540"
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"logo" "8fedfdc8c555664b50584b1958ebc95c0f042ffa"
+	"logo_small" "8fedfdc8c555664b50584b1958ebc95c0f042ffa_thumb"
+	"icon" "ffc8cfa0b3a79d77b4a5734e022354536830f816"
+	"clienticon" "6e639cd93b85ff89ca3aa26a6647cf1e77d95b36"
+	"clienttga" "df698f1444d635143bc6232196ca613090caf068"
+	"releasestate" "released"
+	"associations"
+	{
+	}
+	"gameid" "532330"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Starbound Unstable Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "win64/starbound_server.exe"
+			"workingdir" "win64/"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "linux/run-server.sh"
+			"workingdir" "linux/"
+			"type" "server"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"532331"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5267244793567263146"
+				"size" "264721498"
+				"download" "66332336"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "FF3AD8416D36CBFEBB9397383B186C30"
+				"size" "E4268B52992292D01D65132E2F63732A"
+				"download" "98D6BDB4CC6BA8F1C847BF2F87B7A024"
+			}
+		}
+	}
+	"532332"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2415726056771039409"
+				"size" "58629230"
+				"download" "17314944"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "3966E354F42985ED676F898F0FDE2393"
+				"size" "EB23F37C8D617C18EB8EA06AD5692F1D"
+				"download" "D3874DD809E99669FC0B0280C3070F2B"
+			}
+		}
+	}
+	"532333"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7221055458917227235"
+				"size" "37071911"
+				"download" "8441968"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "88C80FB3DDD2490363A20140E8C7BCB1"
+				"size" "84397552E256103092932256C781F809"
+				"download" "F301175B1425FFFCE3EDDE21A8C7CBAB"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3956393"
+			"timeupdated" "1561548929"
+		}
+		"staging"
+		{
+			"buildid" "4027518"
+			"pwdrequired" "1"
+			"timeupdated" "1563553670"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "b9fa9e8cbc59c3e2d44f9d1f8288cc9be5fde7d9"
+"_size" "2559"
