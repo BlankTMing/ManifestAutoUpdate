@@ -1,0 +1,221 @@
+"appid" "521630"
+"common"
+{
+	"name" "Toadled"
+	"type" "Game"
+	"logo" "b23ac226f64f54be8ccccd157fec26c5cabcc429"
+	"logo_small" "b23ac226f64f54be8ccccd157fec26c5cabcc429_thumb"
+	"icon" "8da110bdb6d68df7250e9a57746feb1c04e3d007"
+	"clienttga" "33110d63c90c53486d9cb514c51da2c622cbfc08"
+	"clienticon" "9f1fac2e4420a03a1832a8d030be428bdca37077"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"metacritic_name" "Toadled"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1482967390"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Giant Fox Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Giant Fox Studios"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_25" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1474564186"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "521630"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "597"
+		"3" "379975"
+		"4" "4182"
+		"5" "4726"
+		"6" "1756"
+		"7" "10397"
+	}
+	"review_score" "8"
+	"review_percentage" "84"
+}
+"extended"
+{
+	"developer" "Giant Fox Studios"
+	"publisher" "Giant Fox Studios"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Toadled"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ToadledWindows.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Toadled.app\\Contents\\MacOS\\Toadled"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Toadled\\Toadled.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "beta"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"521631"
+	{
+		"config"
+		{
+			"oslist" "windows,linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "231069647577010400"
+				"size" "414931602"
+				"download" "58159232"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "FFE8A2C882BFA809CA80DDFDC6822FAF"
+				"size" "2E95B6E2B388494A1C10A4C6CE124C55"
+				"download" "009AE322D7A5421AE71DBD5B3433DC15"
+			}
+		}
+	}
+	"521632"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2648753714451171016"
+				"size" "465415473"
+				"download" "71310560"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "33A56D8788B45CD91ABF126A7B867A0F"
+				"size" "CDC4B5388FC954FF84473B7962114D3D"
+				"download" "C85EDB91969CE6A423ECECA372D64218"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1865246"
+			"timeupdated" "1496497306"
+		}
+		"beta"
+		{
+			"buildid" "12734399"
+			"pwdrequired" "1"
+			"timeupdated" "1700248917"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000"
+	"maxnumfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "DefaultCompany/Toadled/save"
+			"pattern" "*.json"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "MacHome"
+			"path" "Library/Application Support/DefaultCompany/Toadled/save"
+			"pattern" "*.json"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+	"sync_while_suspended" "1"
+}
+"_missing_token" "False"
+"_change_number" "21167596"
+"_sha" "5d57f0cbd34e43c8b23b21518ca06aed4b67f0e2"
+"_size" "3582"
