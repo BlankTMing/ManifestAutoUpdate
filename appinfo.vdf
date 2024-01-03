@@ -1,0 +1,1026 @@
+"appid" "25000"
+"common"
+{
+	"name" "Overgrowth"
+	"logo" "9704ca5d2fdd68cbbabe9cd3369430b4973e337a"
+	"logo_small" "9704ca5d2fdd68cbbabe9cd3369430b4973e337a_thumb"
+	"icon" "b4fc4f8ab00a1fe366b97864db80dc889d6c32d0"
+	"clienttga" "b455d420e50d885613ef507e1e7a967c732789bf"
+	"clienticon" "fe5d4bc4262e31e605ef2f8c1a4c32f1a2198fe7"
+	"clienticns" "1a5c1e7fd6c102140699eaf27583a6a2d0e77850"
+	"oslist" "windows,macos,linux"
+	"linuxclienticon" "6a716408dd45b0e4e4c9bbb61fc0af447c77df25"
+	"releasestate" "released"
+	"osarch" ""
+	"osextended" "macos64"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1646179200"
+		"tested_build_id" "3450449"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Overgrowth"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "35.58926487747959"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1667232390"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Wolfire Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Wolfire Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Wolfire Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_17" "1"
+		"category_37" "1"
+		"category_39" "1"
+		"category_30" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_9" "1"
+		"category_44" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1508175622"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "25000"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "4036"
+		"2" "492"
+		"3" "6915"
+		"4" "3810"
+		"5" "1743"
+		"6" "1734"
+		"7" "1669"
+		"8" "3968"
+		"9" "4345"
+		"10" "3993"
+		"11" "1695"
+		"12" "1688"
+		"13" "1697"
+		"14" "3859"
+		"15" "4182"
+		"16" "4026"
+		"17" "4136"
+		"18" "21"
+		"19" "3841"
+	}
+	"review_score" "6"
+	"review_percentage" "79"
+}
+"extended"
+{
+	"developer" "Wolfire Games"
+	"gamedir" "Overgrowth"
+	"homepage" "http://www.wolfire.com/overgrowth"
+	"icon" ""
+	"installscript_macos" "Overgrowth.app/installscript_osx.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "25001"
+	"primarycache_macos" "25003"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "windows,macos"
+	"disable_shader_precaching" "1"
+	"publisher" "Wolfire Games"
+	"listofdlc" "271810"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Overgrowth"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Overgrowth.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Overgrowth.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Overgrowth.bin.x86_64"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "Overgrowth.bin.x86"
+			"description" "Play Overgrowth (Force 32bit)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228984"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"workshopdepot" "25000"
+	"25003"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5367962205282759232"
+				"size" "21294498971"
+				"download" "6621086720"
+			}
+			"advance_testing"
+			{
+				"gid" "1567213349294821380"
+				"size" "31265365049"
+				"download" "11019736512"
+			}
+			"internal_testing"
+			{
+				"gid" "276371169358471095"
+				"size" "31453027669"
+				"download" "11096901264"
+			}
+			"internal_testing_multiplayer"
+			{
+				"gid" "1654961952498501118"
+				"size" "31265306978"
+				"download" "11019790256"
+			}
+			"multiplayer"
+			{
+				"gid" "1302003952044624671"
+				"size" "31263931089"
+				"download" "11019707648"
+			}
+			"ouruin"
+			{
+				"gid" "2698991641157818603"
+				"size" "33833212567"
+				"download" "11702889440"
+			}
+			"version_1_3_1"
+			{
+				"gid" "8466721005670673449"
+				"size" "20835145503"
+				"download" "6431071328"
+			}
+			"version_1_4_0"
+			{
+				"gid" "5367962205282759232"
+				"size" "21294498971"
+				"download" "6621086720"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"advance_testing_debug"
+			{
+				"gid" "D998BD832D7E48C21A0908F90ED9D3D5"
+				"size" "1E469BAFF3852E715C83CCE8AEE01620"
+				"download" "B884FAA961E0E81004E3AE70476DC8BC"
+			}
+			"internal_testing_debug"
+			{
+				"gid" "5D0B0117170CC242BD277EA5070B6653"
+				"size" "C4CB752BB3BE8C7D21AE34D5657B90C0"
+				"download" "FED20324144A6DC9C9468B18A2096913"
+			}
+			"landing"
+			{
+				"gid" "CB5E2B5A9D357D27976DCF7959AEA052"
+				"size" "C9D2F3CF9A8C5CBDA3B7729EF0CD8D90"
+				"download" "9E6D9637223781578E2A39FDF878FEA9"
+			}
+			"modding_stable"
+			{
+				"gid" "7FAC653326C9EF11B07C9DE60ED8E7B1"
+				"size" "BC0A34A12D1F58BF4D3B807883BA12A0"
+				"download" "1A1F3A5CD12102804317AFFD12703590"
+			}
+			"official_alpha"
+			{
+				"gid" "6A1E66DADCF7EEE23B9BDFEDA73D6B96"
+				"size" "47D01FF95DE8CFAAB1CCC094E0936A39"
+				"download" "23DE1053C4C041E8F80C8340CA837C22"
+			}
+			"official_alpha_debug"
+			{
+				"gid" "8B5D3ABACC1833B9AF33E0C62191D9CB"
+				"size" "5C70995D93AF6D44475E9221B3FA20E7"
+				"download" "E350CA672931D0EA42C3CF490ED9E16D"
+			}
+			"spherical_harmonics"
+			{
+				"gid" "84737BA5F1B5B06D4811713954D823B0"
+				"size" "BF81A3B4D4807438F3F268CEF1518A57"
+				"download" "064C3A2284F0F56B48D5F484D823976D"
+			}
+			"test"
+			{
+				"gid" "27662B6ADB2EF0856CB96AD9A124EBFE"
+				"size" "C75D0407F3B3DD3F73345EDFBD1D2552"
+				"download" "9D09F46F7222DB26D2A2956FE4207504"
+			}
+			"therium2"
+			{
+				"gid" "B4C8B71C6374606DE8CB9565F84896C5"
+				"size" "4C1D0294D1B65B0B500A35C9B19890E8"
+				"download" "D894BEBFCC0FB8D59DA685264E47B51B"
+			}
+			"tuto_dev"
+			{
+				"gid" "564E4E45754738583E26177B725A3059"
+				"size" "C2D4A0E897F56095FBEAFF9574E1D6B2"
+				"download" "6438E106B78D520228B69E8EEC0567FE"
+			}
+		}
+	}
+	"25002"
+	{
+		"config"
+		{
+			"oslist" "windows,linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8572447376951838510"
+				"size" "21253430647"
+				"download" "6611914480"
+			}
+			"advance_testing"
+			{
+				"gid" "6975188859554414218"
+				"size" "31265365049"
+				"download" "11012874368"
+			}
+			"internal_testing"
+			{
+				"gid" "2422318804768849043"
+				"size" "31453027669"
+				"download" "11090045152"
+			}
+			"internal_testing_multiplayer"
+			{
+				"gid" "9189495293364724446"
+				"size" "31265306978"
+				"download" "11012885712"
+			}
+			"multiplayer"
+			{
+				"gid" "4485519976517338990"
+				"size" "31263931089"
+				"download" "11012803104"
+			}
+			"ouruin"
+			{
+				"gid" "8638549902113304123"
+				"size" "33833212567"
+				"download" "11695942496"
+			}
+			"version_1_3_1"
+			{
+				"gid" "8443470089264524871"
+				"size" "20794098555"
+				"download" "6421904976"
+			}
+			"version_1_4_0"
+			{
+				"gid" "8572447376951838510"
+				"size" "21253430647"
+				"download" "6611914480"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"advance_testing_debug"
+			{
+				"gid" "A247D38976C43D9BDEA658C198253B1A"
+				"size" "33041B388C2BDDAC8C6904C5CC0B3B5C"
+				"download" "3926A7B9A720944220D6CA7FFFA4870E"
+			}
+			"internal_testing_debug"
+			{
+				"gid" "9DAC14CDACEE2A471572B07799304537"
+				"size" "6060CC2AA0F92D1F70720BFEC7D25908"
+				"download" "51CB91B84B978CB5E4508F1BFE9A4ACC"
+			}
+			"landing"
+			{
+				"gid" "4A457009B5EAA4641595D30C6E377526"
+				"size" "7F59F9D404C9E1EEA63D9A0EFED01B77"
+				"download" "F2992E2A1F2825EF3334919B1E723F67"
+			}
+			"modding_stable"
+			{
+				"gid" "8FC97DE42E3BEE034E9D4FC600877DC7"
+				"size" "2EBEFD3CA7B891EF1EC732F651756789"
+				"download" "6A9412D3C78594A210AF89B94377064C"
+			}
+			"official_alpha"
+			{
+				"gid" "0DE9CC6A2190100BA94EC4FEECD5D8AB"
+				"size" "5FFECBD25BF43A1E0A73A8BC0C0016A7"
+				"download" "BA5AAFC08CCC311D988A5D8B7A63D4C9"
+			}
+			"official_alpha_debug"
+			{
+				"gid" "1B66C050D065A81003292F4C6128979D"
+				"size" "6FE3D365144F453669C87AC058036867"
+				"download" "D39502A8CB800B767A04C0317611643E"
+			}
+			"spherical_harmonics"
+			{
+				"gid" "9CCE16BDB73D7AB286B4A90883C337FB"
+				"size" "66CB672CA350389168700D0DFD41E703"
+				"download" "756F819B49C2A6EC83F36C5BDD42FBC2"
+			}
+			"test"
+			{
+				"gid" "3732262CA7E2E2AA9FD80D7D4A43FBCE"
+				"size" "D93BD32F1971440EB9E267CFE54EC6E4"
+				"download" "39C038945B822D757EA4C0AD7AFFF1EC"
+			}
+			"therium2"
+			{
+				"gid" "B4DDEC199DD0E60CD1B69882315DADFB"
+				"size" "6EA9831B6E5C1E76043EE03B4B13DACB"
+				"download" "BA6BB2D8D7748C64C97A87BB9E6FA7EB"
+			}
+			"tuto_dev"
+			{
+				"gid" "4DA0B7290ED9D73419C5D4E50ED4B8E4"
+				"size" "D9027C8621C1CBAC896E62DF780E2D7A"
+				"download" "ACEABD1AC98EF37AAB7180591A93AD70"
+			}
+		}
+	}
+	"25006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4818519136603890294"
+				"size" "23854933"
+				"download" "7165232"
+			}
+			"advance_testing"
+			{
+				"gid" "4219799921404627254"
+				"size" "40009970"
+				"download" "10372464"
+			}
+			"internal_testing"
+			{
+				"gid" "5367027971646501324"
+				"size" "31320458"
+				"download" "7903328"
+			}
+			"internal_testing_multiplayer"
+			{
+				"gid" "7588695093776556454"
+				"size" "40023282"
+				"download" "10380768"
+			}
+			"multiplayer"
+			{
+				"gid" "1243549639282672234"
+				"size" "41838022"
+				"download" "10599520"
+			}
+			"ouruin"
+			{
+				"gid" "474342271166990654"
+				"size" "34302918"
+				"download" "9438672"
+			}
+			"version_1_3_1"
+			{
+				"gid" "6820768059824713685"
+				"size" "23837013"
+				"download" "7161136"
+			}
+			"version_1_4_0"
+			{
+				"gid" "4818519136603890294"
+				"size" "23854933"
+				"download" "7165232"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"landing"
+			{
+				"gid" "D28CEA654A92D7717514E81011589041"
+				"size" "A2FF900E7B763DD6F56081B8DE2F0014"
+				"download" "D08AB0EBF47BE83C835E0B62BCF2913F"
+			}
+			"official_alpha"
+			{
+				"gid" "CA82F8D0B1ADBEDC4B4290594BF182A2"
+				"size" "4F6310CC11B69AAAABD833F2D0C97BB1"
+				"download" "298A2A53E25B0FFEAB20671FD51DDC65"
+			}
+			"test"
+			{
+				"gid" "E039E33D20065458D8E1FE10D1E5F904"
+				"size" "65CDC9C6D24B9DF04B01040790092D98"
+				"download" "74A0B22543260AF6CAD80053B6F97A36"
+			}
+			"therium2"
+			{
+				"gid" "D8D67387ED824D0342E2CCAE7BBF5FDD"
+				"size" "2761030EFC23BB4301BEC22AFAA679DA"
+				"download" "B22AA8F589415A16E9EF46137A27363C"
+			}
+			"tuto_dev"
+			{
+				"gid" "D11842863D38F44C87C1C8CC39F3D4ED"
+				"size" "FF5E3EE98836E109F38C1E8D1111E9F4"
+				"download" "C59994D0BAE02679073B057269A2AFEB"
+			}
+		}
+	}
+	"25005"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6893192256816917708"
+				"size" "28327825"
+				"download" "8382288"
+			}
+			"advance_testing"
+			{
+				"gid" "4174429846751618391"
+				"size" "40009970"
+				"download" "10372464"
+			}
+			"internal_testing"
+			{
+				"gid" "6567761062189932867"
+				"size" "31320458"
+				"download" "7903328"
+			}
+			"internal_testing_multiplayer"
+			{
+				"gid" "6205531152598541747"
+				"size" "40023282"
+				"download" "10380768"
+			}
+			"multiplayer"
+			{
+				"gid" "7280314710534352881"
+				"size" "41838022"
+				"download" "10599520"
+			}
+			"ouruin"
+			{
+				"gid" "6574365507519875606"
+				"size" "34302918"
+				"download" "9438672"
+			}
+			"version_1_3_1"
+			{
+				"gid" "8718016645112016728"
+				"size" "28304273"
+				"download" "8377632"
+			}
+			"version_1_4_0"
+			{
+				"gid" "6893192256816917708"
+				"size" "28327825"
+				"download" "8382288"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"landing"
+			{
+				"gid" "23080771A52902123728716B1C70BEA7"
+				"size" "F4A8F106A4F4A4AC7CA2FD3415423FB7"
+				"download" "7456C9E9B2866F682268873DA1E2314E"
+			}
+			"official_alpha"
+			{
+				"gid" "EC8E09C8B728BA36EE591A350CB2DA99"
+				"size" "8CA772CF2625161D2AA8AFAA2EB8CB37"
+				"download" "9430E955B9B2E835F8FEC3B0C7C21429"
+			}
+			"test"
+			{
+				"gid" "CBE70A4CD3A1DBD40490C6FA8246157F"
+				"size" "299D742016694D243795E1CEB5FE7130"
+				"download" "E7999D43A8E5D6061E8AC75EE1CB7044"
+			}
+			"therium2"
+			{
+				"gid" "F0BA2E1776ACFFA04834C5C66D4F2779"
+				"size" "9B1567EC538D58A9D1634B519F6FA277"
+				"download" "BC1D2FB70E91C542E82B01E6B21609AA"
+			}
+			"tuto_dev"
+			{
+				"gid" "D7D8540EF4AB1C154E95E7AFA0032FC9"
+				"size" "B697C6DE1B647AECE15795F1F1AE9A39"
+				"download" "9C4DAE0A3438591813EBB55D0F46D178"
+			}
+		}
+	}
+	"25004"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2109637481877491154"
+				"size" "223736763"
+				"download" "55351968"
+			}
+			"advance_testing"
+			{
+				"gid" "6485751876588534621"
+				"size" "352849466"
+				"download" "93975888"
+			}
+			"internal_testing"
+			{
+				"gid" "3816994195863153247"
+				"size" "280387765"
+				"download" "73802112"
+			}
+			"internal_testing_multiplayer"
+			{
+				"gid" "4171705128927229755"
+				"size" "354156091"
+				"download" "94298096"
+			}
+			"multiplayer"
+			{
+				"gid" "2942530294852757388"
+				"size" "355718371"
+				"download" "94496592"
+			}
+			"ouruin"
+			{
+				"gid" "3789720483991463247"
+				"size" "221453153"
+				"download" "53767536"
+			}
+			"version_1_3_1"
+			{
+				"gid" "673095512370856727"
+				"size" "223600983"
+				"download" "55315376"
+			}
+			"version_1_4_0"
+			{
+				"gid" "2109637481877491154"
+				"size" "223736763"
+				"download" "55351968"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"advance_testing_debug"
+			{
+				"gid" "452C3DC2328880212AA8365DC4569F54"
+				"size" "6C8AEB2697DBF3BB14FF0FC437440376"
+				"download" "66E03D58969E1D7429311FD8A49AA86D"
+			}
+			"internal_testing_debug"
+			{
+				"gid" "061A4786BD5CC1BFA1C8975520E2C6A3"
+				"size" "6DDB6A7CF0A4B07701895F0D36732D73"
+				"download" "156537311778C64D9CE2198E7409B7B6"
+			}
+			"landing"
+			{
+				"gid" "89FAF3CED8F917437D2708E25DB12210"
+				"size" "B1CDB98AF4D5AAFB73D5A05222C6DD86"
+				"download" "18830404ED729F1F84AC23AAF87B26AE"
+			}
+			"modding_stable"
+			{
+				"gid" "050F88BFF86C0637D1C56BDF1F066C52"
+				"size" "443BDCDEDF744172058BDADBE4E07722"
+				"download" "8EC359E53C7224315B6DE4A51D93575D"
+			}
+			"official_alpha"
+			{
+				"gid" "0BD604679091F48E0A4A683A13EBEBEF"
+				"size" "807754CD7F8F131A6611E4202891D984"
+				"download" "9F6053FE02EA1B0F77E3C5D08AF4B479"
+			}
+			"official_alpha_debug"
+			{
+				"gid" "BC8230E8E1125AF6D2FC8A2F9F3CC193"
+				"size" "5B152DA23AD6D18C1E8FA4255D6A76D4"
+				"download" "F1484879142C44BF746A3E5A767D0E23"
+			}
+			"test"
+			{
+				"gid" "ADA6EA71002758A76E0F4B35DE6C5B60"
+				"size" "738BA629C6EDBAF2DC96334F959C3B80"
+				"download" "60C104238EC3F18B51E824AFEA5B064F"
+			}
+			"therium2"
+			{
+				"gid" "0BB68ACA001766CE36039FB82F65A01E"
+				"size" "5FFC52E3238CC28B2BE0E3C3B52F4E73"
+				"download" "E03FFF7B51B32A3DCEB468A449C8843E"
+			}
+			"tuto_dev"
+			{
+				"gid" "62B31B6194E04569DEA0218C1B029B74"
+				"size" "0AAA6514700E1D6BA79FD8E9FBAEF808"
+				"download" "141479590A7B55B4D75E194A9E7EAC8D"
+			}
+		}
+	}
+	"25001"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4106272477922664518"
+				"size" "193083145"
+				"download" "55876496"
+			}
+			"advance_testing"
+			{
+				"gid" "4392521530343918873"
+				"size" "352849466"
+				"download" "93975888"
+			}
+			"internal_testing"
+			{
+				"gid" "3909231076444154989"
+				"size" "280387765"
+				"download" "73802112"
+			}
+			"internal_testing_multiplayer"
+			{
+				"gid" "5189744384760820563"
+				"size" "354156091"
+				"download" "94298096"
+			}
+			"multiplayer"
+			{
+				"gid" "2363210600826349074"
+				"size" "355718371"
+				"download" "94496592"
+			}
+			"ouruin"
+			{
+				"gid" "6672924068035609858"
+				"size" "221453153"
+				"download" "53767536"
+			}
+			"version_1_3_1"
+			{
+				"gid" "2060325042607416160"
+				"size" "192976617"
+				"download" "55889792"
+			}
+			"version_1_4_0"
+			{
+				"gid" "4106272477922664518"
+				"size" "193083145"
+				"download" "55876496"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"advance_testing_debug"
+			{
+				"gid" "A3BA63CDE042985010E2F34E921B0B61"
+				"size" "F14CC8BEF706536BC6969B34E2665F87"
+				"download" "D9EC99B35D4C9EC059EC0BD178233259"
+			}
+			"internal_testing_debug"
+			{
+				"gid" "8047C86C75EA43BB357201B440EF52E4"
+				"size" "69D031ED9CC50A79C9E953886CEFA1A8"
+				"download" "1A09595B1428F0CFB50231C44139C879"
+			}
+			"landing"
+			{
+				"gid" "80D72AFEBA2F522EBAC9AC2740510126"
+				"size" "F50B3D732E0153CC67D04AAFCE37A4D2"
+				"download" "AE78A3676F8AD6C165FFDAE38ACB0F0E"
+			}
+			"modding_stable"
+			{
+				"gid" "6346DF7C0F210456BF97FE98E71FBD18"
+				"size" "CC2EA9B79E1CFC223D722060672983F0"
+				"download" "857766443B0AEEFB03E1A691116B443E"
+			}
+			"official_alpha"
+			{
+				"gid" "7DFCA24B96B6A5EC03894A0E7DD6F364"
+				"size" "48BAFD0A68A81B6587A4A600CA5C396A"
+				"download" "346C4520CB58DB2562887E2469039E6E"
+			}
+			"official_alpha_debug"
+			{
+				"gid" "8D487785CB38FBD54663E0F00C7B4C8F"
+				"size" "B668F154576C5830B41D94A46814D9B7"
+				"download" "D00DA56819E1D7FB18997753BFACAA3F"
+			}
+			"spherical_harmonics"
+			{
+				"gid" "2ACA77E13A390B567F65A454FEA8BBE3"
+				"size" "CBDEA22CB7C0C69718BFF1953C07FAA2"
+				"download" "4F9F4B4C3E4575CFEE11B515265A577C"
+			}
+			"test"
+			{
+				"gid" "56301E9EFAF437EB9E3B12D1563FBAFE"
+				"size" "05C8995D9EB306F20CDA10DF165C5240"
+				"download" "A46E4642DC7969D53BFB6B9614C09EFC"
+			}
+			"therium2"
+			{
+				"gid" "0819F8EADDD51C39E54A7C518B5D009B"
+				"size" "E7B1929B300D08F426D26EBF09A69443"
+				"download" "5DFF00877A8186135A0F715A4E607AD8"
+			}
+			"tuto_dev"
+			{
+				"gid" "7D56F156711C32FC8DB52CBA2F241ACF"
+				"size" "744E20E0F925D50E8887DB7FFDDF1D60"
+				"download" "8F4B57292FFA1A9798B2DFA64F0D86D8"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3450449"
+			"timeupdated" "1547007364"
+		}
+		"advance_testing"
+		{
+			"buildid" "8438631"
+			"description" "Release candidate, will be the next alpha."
+			"timeupdated" "1648728658"
+		}
+		"advance_testing_debug"
+		{
+			"buildid" "1485704"
+			"pwdrequired" "1"
+			"timeupdated" "1480371784"
+		}
+		"internal_testing"
+		{
+			"buildid" "12403386"
+			"description" "Current master, very unstable."
+			"timeupdated" "1696941765"
+		}
+		"internal_testing_debug"
+		{
+			"buildid" "2212830"
+			"pwdrequired" "1"
+			"timeupdated" "1508427173"
+		}
+		"internal_testing_multiplayer"
+		{
+			"buildid" "8368000"
+			"description" "Unstable multiplayer testing branch."
+			"timeupdated" "1647274713"
+		}
+		"landing"
+		{
+			"buildid" "2878581"
+			"pwdrequired" "1"
+			"timeupdated" "1529492537"
+		}
+		"modding_stable"
+		{
+			"buildid" "2169503"
+			"pwdrequired" "1"
+			"timeupdated" "1507538727"
+		}
+		"multiplayer"
+		{
+			"buildid" "8295349"
+			"description" "Stable multiplayer test branch"
+			"timeupdated" "1646158158"
+		}
+		"official_alpha"
+		{
+			"buildid" "3456485"
+			"pwdrequired" "1"
+			"timeupdated" "1547096043"
+		}
+		"official_alpha_debug"
+		{
+			"buildid" "2192563"
+			"pwdrequired" "1"
+			"timeupdated" "1507807920"
+		}
+		"ouruin"
+		{
+			"buildid" "8171421"
+			"description" "ouruin testing"
+			"timeupdated" "1644401384"
+		}
+		"spherical_harmonics"
+		{
+			"buildid" "899833"
+			"pwdrequired" "1"
+		}
+		"test"
+		{
+			"buildid" "3285194"
+			"pwdrequired" "1"
+			"timeupdated" "1541600380"
+		}
+		"therium2"
+		{
+			"buildid" "2392307"
+			"pwdrequired" "1"
+			"timeupdated" "1513926330"
+		}
+		"tuto_dev"
+		{
+			"buildid" "4611941"
+			"pwdrequired" "1"
+			"timeupdated" "1580135281"
+		}
+		"version_1_3_1"
+		{
+			"buildid" "2937215"
+			"description" "Previous version"
+			"timeupdated" "1641808869"
+		}
+		"version_1_4_0"
+		{
+			"buildid" "3450449"
+			"description" "Current version"
+			"timeupdated" "1641808975"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "20622754"
+"_sha" "a216581891fb853a702463ce1df88791df47707e"
+"_size" "22177"
