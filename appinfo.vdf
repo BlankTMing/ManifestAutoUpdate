@@ -1,0 +1,353 @@
+"appid" "542100"
+"common"
+{
+	"name" "Train Crisis"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"icon" "3f8f2e948e6e925790c28d34fdaed8589220450d"
+	"clienticon" "c6d101ff348b51e8fd8596de9e04e9bfabe3dcfd"
+	"clienttga" "dddf9ceed1b0680bc9aa8c4ea40194e9a647adbf"
+	"clienticns" "f6749c770afccd1decb514c936d3081af2802a06"
+	"logo" "65eab07536040371645104c0895d27649f8d51ef"
+	"logo_small" "65eab07536040371645104c0895d27649f8d51ef_thumb"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"russian" "1"
+		"japanese" "1"
+		"portuguese" "1"
+		"arabic" "1"
+		"brazilian" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1700265600"
+		"tested_build_id" "3641275"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Train Crisis"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "33.128636069812586"
+			"height_pct" "51.7361111111111"
+		}
+	}
+	"store_asset_mtime" "1652718785"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "UPLAY Online"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "UPLAY Online"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"arabic"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1518091545"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "542100"
+	"store_tags"
+	{
+		"0" "1664"
+		"1" "597"
+		"2" "492"
+		"3" "1616"
+		"4" "4026"
+	}
+	"review_score" "6"
+	"review_percentage" "78"
+}
+"extended"
+{
+	"developer" "UPLAY Online"
+	"publisher" "UPLAY Online"
+}
+"config"
+{
+	"installdir" "TrainCrisis"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "traincrisis.exe"
+			"arguments" "-nolog"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "traincrisis.app/Contents/MacOS/traincrisis"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese,arabic,brazilian"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"542101"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7530184252083717809"
+				"size" "603124505"
+				"download" "157964160"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha"
+			{
+				"gid" "03E337AC8AAEB7DF4999C4E06DE2C453"
+				"size" "0D793534BB523DECB2E89D798C3490FE"
+				"download" "F1CCC1875E53EDFBA41AD51EBEC6500F"
+			}
+		}
+	}
+	"542102"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7494151367750170505"
+				"size" "617652624"
+				"download" "160694128"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha"
+			{
+				"gid" "E34C34ECFE3F7E5C7AC9F04C89AED375"
+				"size" "BBCD6FEB854671D87C052ABE1C5F7490"
+				"download" "4591DC367F09BEAB4CE208B4B7A656CB"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3641275"
+			"timeupdated" "1552476535"
+		}
+		"alpha"
+		{
+			"buildid" "3641275"
+			"pwdrequired" "1"
+			"timeupdated" "1552475646"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "U-Play online/Train Crisis"
+			"pattern" "*.tcs"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "U-Play online/Train Crisis"
+			"pattern" "*.tcs"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacDocuments"
+			"addpath" ""
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacHome"
+			"addpath" ""
+		}
+		"2"
+		{
+			"root" "WinMyDocuments"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ""
+		}
+		"3"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ""
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21687818"
+"_sha" "fb104298fe9e2691a15b89f7ce543294715afeec"
+"_size" "6148"
