@@ -1,0 +1,93 @@
+"appid" "983360"
+"common"
+{
+	"name" "Ancestors Legacy Dedicated Server"
+	"type" "Tool"
+	"parent" "620590"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"icon" "8867c1da1c36d7adc1059b9e822610df87076fc8"
+	"logo" "890955e84b261c511a7c3aa89c9e2196c095373f"
+	"logo_small" "890955e84b261c511a7c3aa89c9e2196c095373f_thumb"
+	"clienticon" "4e9ce28386b57cf2cca17f1e7617c19ae6532f42"
+	"clienttga" "1ae33b544205a2d5dd6632c2da02b4e2bfd60882"
+	"metacritic_name" "Ancestors Legacy Dedicated Server"
+	"associations"
+	{
+	}
+	"primary_genre" "0"
+	"category"
+	{
+	}
+	"steam_release_date" "1571158688"
+	"gameid" "983360"
+}
+"config"
+{
+	"installdir" "Ancestors Legacy Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Anc\\Binaries\\Win64\\AncServer-Win64-Shipping.exe"
+			"arguments" "-log -TeamSize=1 -GameEnv=1 -port=4110 -beaconport=4610 -queryport=11010 -Name=PUBLIC_DEDICATED"
+			"type" "none"
+		}
+	}
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"983361"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4992058984744125056"
+				"size" "1142274843"
+				"download" "276601968"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5593797"
+			"timeupdated" "1601022541"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20445399"
+"_sha" "6c6c600af3998ab870cb2d52c306997c79b35586"
+"_size" "1627"
