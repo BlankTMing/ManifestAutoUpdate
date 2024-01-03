@@ -1,0 +1,270 @@
+"appid" "415960"
+"common"
+{
+	"name" "Energy Cycle"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"icon" "a03cd59c7b841e7ae03290d90a4a3f62ac8bc642"
+	"clienticon" "67250a10841888603cc4dae09e4e918a13556543"
+	"clienttga" "20080994845dd0f8438ccca78f7ef1c77d7c5d77"
+	"logo" "70761fa43c45ecb8e7549dec573ea7f254e81a51"
+	"logo_small" "70761fa43c45ecb8e7549dec573ea7f254e81a51_thumb"
+	"releasestate" "released"
+	"metacritic_name" "Energy Cycle"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1573339033"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Sometimes You"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Sometimes You"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_17" "1"
+		"category_28" "1"
+		"category_23" "1"
+		"category_25" "1"
+		"category_43" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1452711209"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "415960"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "492"
+		"2" "1664"
+	}
+	"review_score" "5"
+	"review_percentage" "68"
+}
+"extended"
+{
+	"developer" "Sometimes You"
+	"publisher" "Sometimes You"
+	"homepage" "http://www.sometimesyou.com"
+	"listofdlc" "423240,426120"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Energy Cycle"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "EnergyCycle.exe"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "EnergyCycle.app"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "EnergyCycle.x86"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "EnergyCycle.x86_64"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"415961"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "379126160675947102"
+				"size" "430253817"
+				"download" "233765664"
+			}
+		}
+	}
+	"415962"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4115319745479476381"
+				"size" "479919289"
+				"download" "247676592"
+			}
+		}
+	}
+	"415963"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3546305021012411936"
+				"size" "481061344"
+				"download" "249275104"
+			}
+		}
+	}
+	"423240"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4629924731299881453"
+				"size" "197907018"
+				"download" "190919008"
+			}
+		}
+		"dlcappid" "423240"
+	}
+	"426120"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9187327254991784529"
+				"size" "151150494"
+				"download" "150273552"
+			}
+		}
+		"dlcappid" "426120"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2089299"
+			"timeupdated" "1504474826"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "5"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "EnergyCycle.app/Contents"
+			"pattern" "SaveFile.dat"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "EnergyCycle_Data"
+			"pattern" "SaveFile.dat"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "EnergyCycle_Data"
+			"pattern" "SaveFile.dat"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21712328"
+"_sha" "e9a8f52f8fcde55183d2bc4069b0380fbc2b5379"
+"_size" "4143"
