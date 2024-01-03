@@ -1,0 +1,270 @@
+"appid" "624220"
+"common"
+{
+	"name" "Football Manager 2018 Editor"
+	"section_type" "ownersonly"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"clienticon" "3c1679845996b395c5d60d6fff29308afdcfb70a"
+	"clienttga" "4f496fb82bba579ac5074e014fd722d36104d444"
+	"icon" "e685de186c23fcdaed150a64e4cc7da75267b297"
+	"clienticns" "34e505be90950a7324ac2555c14b975d1094e7d6"
+	"linuxclienticon" "014a92517a115658dc687d97d2693ac3950ba551"
+	"logo" "2dadcdde55ed483a2b0dd3b42528676422c8434f"
+	"logo_small" "2dadcdde55ed483a2b0dd3b42528676422c8434f_thumb"
+	"associations"
+	{
+	}
+	"gameid" "624220"
+}
+"config"
+{
+	"installdir" "Football Manager 2018 Editor"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "editor.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "editor.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "editor"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"624221"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1327672289595335221"
+				"size" "3108"
+				"download" "864"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"si-staging"
+			{
+				"gid" "5BFCFAE63EA2EF2A2EF2825F94039C94"
+				"size" "15586FD424F3B26DDB3928452436A9A1"
+				"download" "D2557903F6E687FADC4A47E6C2E20854"
+			}
+		}
+	}
+	"624222"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9028904581591999340"
+				"size" "31131845"
+				"download" "9975440"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"si-staging"
+			{
+				"gid" "B686F39B09B1282EAC8DD7EEBC8CF38F"
+				"size" "0CCBD31D9F667C3838B0C1174F4DFC6B"
+				"download" "F6801957E47C6204904487536622DF65"
+			}
+		}
+	}
+	"624223"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6154199940893278675"
+				"size" "39351605"
+				"download" "12050768"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"si-staging"
+			{
+				"gid" "D9A767678F141A52DAC8425D9A48F498"
+				"size" "56046F878C32CDE0933EDD6525BAABFE"
+				"download" "AD804A598FB01F921B5628907E820BCD"
+			}
+		}
+	}
+	"624224"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3319954976092464159"
+				"size" "84959589"
+				"download" "18660912"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"si-staging"
+			{
+				"gid" "2E6EA0CC317EB0919F2F3613FADB7FEA"
+				"size" "B6AE5BF32A5087F231A98CC22E0815AF"
+				"download" "B80C166CE979FFFBFB4D32526112ADF5"
+			}
+		}
+	}
+	"624225"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6428685917347624608"
+				"size" "48897895"
+				"download" "12819072"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"si-staging"
+			{
+				"gid" "48DEDDEA0D91D0F857D440531D65E587"
+				"size" "60C1CDC6C93C46718100C18862BC4DF5"
+				"download" "D5A1DBCF3B7902A48E262888421A08B8"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2557331"
+			"timeupdated" "1519919926"
+		}
+		"si-staging"
+		{
+			"buildid" "2557331"
+			"pwdrequired" "1"
+			"timeupdated" "1519655317"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "10000"
+	"appidredirect" "624090"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2018/cloud/games"
+			"pattern" "*.fm"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2018/cloud/tactics"
+			"pattern" "*.fmf"
+		}
+		"2"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2018/cloud/filters"
+			"pattern" "*.fmf"
+		}
+		"3"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2018/cloud/match plans"
+			"pattern" "*.fmf"
+		}
+		"4"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2018/cloud/set pieces"
+			"pattern" "*.fmf"
+		}
+		"5"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2018/cloud/shortlists"
+			"pattern" "*.fmf"
+		}
+		"6"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2018/cloud/profiles"
+			"pattern" "*.xml"
+		}
+		"copied_from_parent" "1"
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxXdgDataHome"
+			"addpath" ""
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18903802"
+"_sha" "dc3a1a131d83031113f13d70c187e5d4c5247711"
+"_size" "4781"
