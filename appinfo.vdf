@@ -1,0 +1,118 @@
+"appid" "654310"
+"common"
+{
+	"name" "For Honor - Public Test"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "fd4e6f834821573215fd71803958f2c0bb8411ec"
+	"logo_small" "fd4e6f834821573215fd71803958f2c0bb8411ec_thumb"
+	"clienttga" "e7d2bfe402d5ca731ae97a0948ca5b4374168ed4"
+	"clienticon" "5306624f370ca7a9c5d0ce465c9c1bf24282fa0d"
+	"icon" "64dd8eca34f0b5faeda135f057da1973806852f2"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "654310_eula_0"
+			"name" "For Honor - Public Test EULA"
+			"url" "http://store.steampowered.com//eula/654310_eula_0"
+		}
+	}
+	"associations"
+	{
+	}
+	"community_hub_visible" "1"
+	"gameid" "654310"
+}
+"config"
+{
+	"installdir" "For Honor - Technical Test Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "forhonor.exe"
+			"arguments" "-uplay_steam_mode /startedByUplay:Prod,4877,Live_LIVETTS"
+			"description" "Live tts"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"860214714"
+		{
+			"controller_type" "controller_steamcontroller_gordon"
+			"enabled_branches" "default"
+		}
+		"859704695"
+		{
+			"controller_type" "controller_steamcontroller_gordon"
+			"enabled_branches" "default"
+		}
+	}
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"654311"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1930542476704165704"
+				"size" "42218544928"
+				"download" "34350842704"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testpts"
+			{
+				"gid" "4AF6057C553812BDB8853AF628BD544E"
+				"size" "9248CC5F6971A878AE2F6EBABE5DA2E4"
+				"download" "B836B3C8926BB3BA5B1EFB07073308DA"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2127950"
+			"timeupdated" "1512775255"
+		}
+		"testpts"
+		{
+			"buildid" "2348635"
+			"pwdrequired" "1"
+			"timeupdated" "1512661099"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19643140"
+"_sha" "915b977560a6720ee6a3c95874bfccbe160d3633"
+"_size" "2115"
