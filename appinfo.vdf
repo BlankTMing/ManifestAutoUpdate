@@ -1,0 +1,256 @@
+"appid" "1420710"
+"common"
+{
+	"name" "Night of the Dead Dedicated Server"
+	"type" "Tool"
+	"parent" "1377380"
+	"logo" "6fc7c46d355e2467f3256b9cfcf7668e2269f21d"
+	"logo_small" "6fc7c46d355e2467f3256b9cfcf7668e2269f21d_thumb"
+	"icon" "eabc19352fa06b87cef3e75245114cf8e3363503"
+	"clienticon" "c750f8c6ab4b905b051da9388e837511ecb08873"
+	"clienttga" "750e8ccbffb50e1a25ed9ecdf95d6826bce6099a"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"associations"
+	{
+	}
+	"gameid" "1420710"
+}
+"extended"
+{
+	"gamedir" "NightOfTheDead"
+	"serverbrowsername" "Night of the Dead"
+}
+"config"
+{
+	"installdir" "Night of the Dead Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "StartServer.bat"
+			"type" "none"
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1420711"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "139759870106250969"
+				"size" "6893556635"
+				"download" "1812922672"
+			}
+			"1.2.4"
+			{
+				"gid" "3771050463460587124"
+				"size" "2028989861"
+				"download" "701229248"
+			}
+			"2.0.10"
+			{
+				"gid" "3610364227942991657"
+				"size" "5668925141"
+				"download" "1786019056"
+			}
+			"2.1.4"
+			{
+				"gid" "2480757649215252282"
+				"size" "4607917652"
+				"download" "1521391104"
+			}
+			"2.4.1"
+			{
+				"gid" "4151443525812262793"
+				"size" "4760259691"
+				"download" "1565833808"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha_development"
+			{
+				"gid" "1EE0890945E935D07227FD04AB18071A"
+				"size" "3394F9A49B8AD810998B98F0BFB0E03A"
+				"download" "4F4879BDEDB1C7BA347B5C58B43A2FA8"
+			}
+			"alpha_shipping"
+			{
+				"gid" "E07E9483701049C8DE4E7718FC567C37"
+				"size" "66B353329B63CC13F40D9C60C550A901"
+				"download" "DDDE5A5B961BFF201BAF7EB6BCD605C0"
+			}
+			"pre-alpha_development"
+			{
+				"gid" "E253F7091607E982757BAE6AEAD3654E"
+				"size" "5D46FAA992058B1424FA1EE00A79D457"
+				"download" "0CB6741010D825798E0A1006788511A5"
+			}
+			"pre-alpha_shipping"
+			{
+				"gid" "C40E5C01C1FA1547DEB53D6F23BA8AD9"
+				"size" "E3D5C85A585AA83F055D48677DD464B4"
+				"download" "B5F64842432C5761D0EC12149838CFFC"
+			}
+			"pre-alpha_test_development"
+			{
+				"gid" "FAA47FA8C7004269578745BC4B422920"
+				"size" "EBB6A88F9F48F3D990ACBEAE925C2EFB"
+				"download" "914D714E9D1A71E81F2AB74F770C0BA4"
+			}
+			"pre-alpha_test_shipping"
+			{
+				"gid" "BA4B6B5ABB378BC47EDC06E63732A553"
+				"size" "27288BE0664724B7E852D6D697682A44"
+				"download" "3DD0CD875B38FE6803BC9ECD07C5D8B7"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12958853"
+			"timeupdated" "1702542607"
+		}
+		"1.2.4"
+		{
+			"buildid" "8257638"
+			"description" "Stable version of 1.2.x"
+			"timeupdated" "1649984548"
+		}
+		"2.0.10"
+		{
+			"buildid" "10915984"
+			"description" "Stable version of 2.0.x"
+			"timeupdated" "1683538845"
+		}
+		"2.1.4"
+		{
+			"buildid" "11889066"
+			"description" "Stable version of 2.1.x"
+			"timeupdated" "1695376674"
+		}
+		"2.4.1"
+		{
+			"buildid" "12611209"
+			"description" "Stable version of 2.4.x"
+			"timeupdated" "1701164576"
+		}
+		"alpha_development"
+		{
+			"buildid" "12908987"
+			"pwdrequired" "1"
+			"timeupdated" "1702024878"
+		}
+		"alpha_shipping"
+		{
+			"buildid" "12958853"
+			"pwdrequired" "1"
+			"timeupdated" "1702537753"
+		}
+		"pre-alpha_development"
+		{
+			"buildid" "12887586"
+			"pwdrequired" "1"
+			"timeupdated" "1701849714"
+		}
+		"pre-alpha_shipping"
+		{
+			"buildid" "12849424"
+			"pwdrequired" "1"
+			"timeupdated" "1701430408"
+		}
+		"pre-alpha_test_development"
+		{
+			"buildid" "11788160"
+			"pwdrequired" "1"
+			"timeupdated" "1690337847"
+		}
+		"pre-alpha_test_shipping"
+		{
+			"buildid" "12419252"
+			"pwdrequired" "1"
+			"timeupdated" "1697074169"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21533490"
+"_sha" "feb61a20a13bbf3275efbbe65b193e2ca521dc5c"
+"_size" "4779"
