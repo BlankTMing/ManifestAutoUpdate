@@ -1,0 +1,481 @@
+"appid" "30"
+"common"
+{
+	"clienticon" "d2b202e0eeb70d84fdb80f6cf886c03064011f49"
+	"clienttga" "f89e24166fc51b47372557351043e2ae32f7b9a0"
+	"icon" "aadc0ce51ff6ba2042d633f8ec033b0de62091d0"
+	"logo" "beff21c4d29d2579e794c930bae599cd0c8a8f17"
+	"logo_small" "591ab1f034305bf66c0d2c62e8358ebc2815247c"
+	"metacritic_url" "pc/dayofdefeat"
+	"name" "Day of Defeat"
+	"clienticns" "e2fcc3b38e0ac80bf1beea5910d8b98563ae32f5"
+	"oslist" "windows,macos,linux"
+	"linuxclienticon" "51025cd4fbf5f16f3e330b0623190c8bd3a43aed"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1652745600"
+		"tested_build_id" "5424802"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Day of Defeat"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "37"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1364859574"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Valve"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Valve"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_8" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1051772400"
+	"metacritic_score" "79"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/day-of-defeat\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "30"
+	"store_tags"
+	{
+		"0" "1663"
+		"1" "4150"
+		"2" "3859"
+		"3" "1774"
+		"4" "19"
+		"5" "1678"
+		"6" "5711"
+		"7" "1693"
+		"8" "3839"
+		"9" "4155"
+		"10" "4168"
+		"11" "3987"
+		"12" "1708"
+		"13" "4182"
+		"14" "1685"
+		"15" "4004"
+		"16" "4026"
+		"17" "3916"
+		"18" "9"
+		"19" "5382"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"dependantonapp" "70"
+	"developer" "Valve"
+	"gamedir" "dod"
+	"homepage" "http://www.dayofdefeat.com/"
+	"icon" "steam/games/icon_dod"
+	"icon2" "steam/games/icon_dod_dull"
+	"order" "14"
+	"primarycache" "31"
+	"serverbrowsername" "Day of Defeat"
+	"vacmacmodulecache" "160"
+	"vacmodulecache" "202"
+	"vacmodulefilename" "sourceinit.dat"
+	"developer_url" "http://www.valvesoftware.com/"
+	"publisher" "Valve"
+}
+"config"
+{
+	"installdir" "Half-Life"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "hl.exe"
+			"arguments" "-steam -game dod"
+			"vacmodulefilename" "resource\\sourceinit.dat"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "hl.sh"
+			"arguments" "-steam -game dod"
+			"vacmodulefilename" "resource\\sourceinit_macos.dat"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "hl.sh"
+			"arguments" "-steam -game dod"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"systemprofile" "1"
+	"contenttype" "3"
+	"convertgcfs" "1"
+}
+"depots"
+{
+	"1"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"language" ""
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"31"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3826716661969602728"
+				"size" "391387184"
+				"download" "233925568"
+			}
+			"beta"
+			{
+				"gid" "3826716661969602728"
+				"size" "391387184"
+				"download" "233925568"
+			}
+		}
+	}
+	"3"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"language" ""
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"9"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" ""
+		}
+		"systemdefined" "1"
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"8"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" ""
+		}
+		"systemdefined" "1"
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"2"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"systemdefined" "1"
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"6"
+	{
+		"config"
+		{
+			"lowviolence" "1"
+			"language" ""
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"72"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"73"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"74"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"75"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"77"
+	{
+		"config"
+		{
+			"language" "schinese"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"78"
+	{
+		"config"
+		{
+			"language" "koreana"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"79"
+	{
+		"config"
+		{
+			"language" "tchinese"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"141"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"32"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4900573185183522700"
+				"size" "4713627"
+				"download" "3595456"
+			}
+			"beta"
+			{
+				"gid" "4900573185183522700"
+				"size" "4713627"
+				"download" "3595456"
+			}
+		}
+	}
+	"33"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3999480029339495281"
+				"size" "4722898"
+				"download" "3594576"
+			}
+			"beta"
+			{
+				"gid" "3999480029339495281"
+				"size" "4722898"
+				"download" "3594576"
+			}
+		}
+	}
+	"34"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6589552847600003522"
+				"size" "4715435"
+				"download" "3595376"
+			}
+			"beta"
+			{
+				"gid" "6589552847600003522"
+				"size" "4715435"
+				"download" "3595376"
+			}
+		}
+	}
+	"35"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "783796907033752286"
+				"size" "4715185"
+				"download" "3593024"
+			}
+			"beta"
+			{
+				"gid" "783796907033752286"
+				"size" "4715185"
+				"download" "3593024"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5424802"
+			"timeupdated" "1597791632"
+		}
+		"beta"
+		{
+			"buildid" "5424802"
+			"description" "SteamPipe beta"
+			"timeupdated" "1597789902"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20535019"
+"_sha" "6ebcdb5e6d44734c6c37bcf49ede961e81654b64"
+"_size" "7823"
