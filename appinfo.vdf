@@ -1,0 +1,132 @@
+"appid" "332670"
+"common"
+{
+	"name" "Project CARS - Dedicated Server"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"logo" "72379d729401b4649b818020b1821582813902c6"
+	"logo_small" "72379d729401b4649b818020b1821582813902c6_thumb"
+	"icon" "0d6d45ccb6271f0f20d3854995a4169579ab08b4"
+	"clienticon" "1afa8273debe4a8a3e8b178a015464bc89ad350c"
+	"clienttga" "a80f9adf4a27f9ee68853a9c567ee6329257d1a2"
+	"associations"
+	{
+	}
+	"gameid" "332670"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Project CARS Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DedicatedServerCmd.exe"
+			"description" "Launch (command-line)"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "DedicatedServerCmd"
+			"description" "Launch (command-line)"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228984"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"332671"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3453919693304578631"
+				"size" "13785874"
+				"download" "5525008"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "61FCAF9860B33B2A0057CC79729C39F5"
+				"size" "6198CE72D0C52B82A9506E7B887E3C1A"
+				"download" "E52A552D55CBBE3C01F23B63E16326FF"
+			}
+		}
+	}
+	"332672"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1138439470607335494"
+				"size" "25190591"
+				"download" "7855632"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "C9E261531B8F62267D73574FD0AFA267"
+				"size" "2A3210659D5F90DB0929539B7A7C5E4A"
+				"download" "54C7C9ACE9B970228448C4A296672BFE"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1299088"
+			"timeupdated" "1478270475"
+		}
+		"testing"
+		{
+			"buildid" "1299088"
+			"pwdrequired" "1"
+			"timeupdated" "1478270500"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "58a2f5fd6879dfa8e6b1d5f75cb3ced937da0b18"
+"_size" "2171"
