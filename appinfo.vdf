@@ -1,0 +1,184 @@
+"appid" "8790"
+"common"
+{
+	"name" "GTR 2 - FIA GT Racing Game"
+	"metacritic_url" "pc/gtr2"
+	"logo" "031f5b080cea2036701cc75098c6a8bb23831f30"
+	"logo_small" "031f5b080cea2036701cc75098c6a8bb23831f30_thumb"
+	"clienticon" "ae6c010bc822f09b598da02c129ca66fd99f64f1"
+	"clienttga" "ff680321967788185c45fbffec106ef2a8599803"
+	"icon" "ec67f9df6d27117b8f71910cc93c6533127e2706"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1682121600"
+		"tested_build_id" "26059"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "GTR 2 FIA GT Racing Game"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "SimBin Studios AB"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SimBin"
+		}
+	}
+	"primary_genre" "9"
+	"genres"
+	{
+		"0" "9"
+		"1" "28"
+		"2" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"original_release_date" "1157871600"
+	"community_hub_visible" "1"
+	"gameid" "8790"
+	"store_tags"
+	{
+		"0" "699"
+		"1" "1100687"
+		"2" "599"
+		"3" "701"
+		"4" "3859"
+		"5" "1644"
+		"6" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "91"
+}
+"extended"
+{
+	"developer" "SimBin Studios AB"
+	"gamedir" "GTR2"
+	"homepage" "http://www.simbin.com/games/gtr2/"
+	"icon" ""
+	"installscript" "SteamInstallscript.vdf"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_LOCAL_MACHINE\\SOFTWARE\\SBDT AB\\GTR2\\Keys\\SerialNumber"
+	"loadallbeforelaunch" "1"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "8791"
+	"serverbrowsername" ""
+	"showcdkeyonlaunch" "1"
+	"state" "eStateAvailable"
+	"publisher" "SimBin"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "GTR 2 - FIA GT Racing Game"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "sudo.exe"
+			"arguments" "GTR2.exe"
+			"description" "Launch GTR2"
+		}
+		"1"
+		{
+			"executable" "sudo.exe"
+			"arguments" "GTR2Config.exe"
+			"description" "Video Options"
+		}
+		"2"
+		{
+			"executable" "sudo.exe"
+			"arguments" "GTR2Dedicated.exe"
+			"description" "Dedicated server"
+		}
+	}
+	"installscriptsignature" "280e6c4059b9737b73c222fcf7637d5dc2412b6c19bbe50dba28b306c36b0ee51f5e5e515f7c034b08de16e56beb7972c89fe79a9457e192bb7029ec6f1e2a73cc207d6ca4e35cb7228d9309fc5ee8560ea59c745b0883094e78250d5bf9a92012afb4da70cfcd6b6d49cb2419df58a685e051df2d1022b461e800c3de118f90"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"vcredist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\8790"
+			"process 1" "%INSTALLDIR%\\vcredist_x86.exe"
+			"command 1" "/passive /norestart"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"8791"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5098389729679155819"
+				"size" "1645425368"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "26059"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21666342"
+"_sha" "3cbfa5bdf1cd2540a96f162772a71eac89d281b1"
+"_size" "3761"
