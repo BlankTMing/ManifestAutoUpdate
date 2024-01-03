@@ -1,0 +1,282 @@
+"appid" "33910"
+"common"
+{
+	"name" "Arma 2"
+	"logo" "9d4d576e4662870232eae35e50b041f93a9a6fa0"
+	"logo_small" "9d4d576e4662870232eae35e50b041f93a9a6fa0_thumb"
+	"icon" "7fd2d12d3f91ee3e69955121323bb89063ea304e"
+	"clienttga" "6602f8de3fcf0182c7d6851e9d52150e1ace34fe"
+	"clienticon" "87abc871bdd6d386e58c5c10699817d01954a13e"
+	"metacritic_url" "pc/arma2"
+	"oslist" "windows"
+	"osarch" ""
+	"type" "game"
+	"metacritic_name" "ARMA II"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Bohemia Interactive"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Bohemia Interactive"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "28"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_13" "1"
+		"category_17" "1"
+		"category_18" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"metacritic_score" "77"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/arma-ii\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "33910"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "9"
+		"2" "599"
+	}
+	"review_score" "5"
+	"review_percentage" "64"
+}
+"extended"
+{
+	"developer" "Bohemia Interactive"
+	"developer_url" "http://www.bistudio.com/"
+	"gamedir" "ARMA 2"
+	"gamemanualurl" "http://store.steampowered.com/manual/33900/"
+	"hasexternalregistrationurl" "1"
+	"homepage" "http://www.arma2.com"
+	"icon" ""
+	"installscript" "33910_install.vdf"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp33910\\SteamKey"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "33911"
+	"serverbrowsername" ""
+	"showcdkeyinmenu" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Bohemia Interactive"
+}
+"config"
+{
+	"installscriptsignature" "a88e5d19b9b8457aab88170970e48078ad8d57112fe0bbe84a96f9013ac6102a8463bd3f3d625acbc252d967a3c5d33338f115e952abb8cb32fc428d3b5afa95a824ef93d3fa78d338fde3e646f22934b9493413fc806392b1a2af5ccc680a9c0d763e8a6d9dcef151410d7a02eef911daa28d14e6c7ac9e20b78c5cea63638d"
+	"installscriptoverride" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "arma2.exe"
+		}
+		"1"
+		{
+			"description" "Launch in windowed mode"
+			"executable" "arma2.exe"
+			"arguments" "-window"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Arma 2"
+	"externalregistrationurl"
+	{
+		"english" "http://www.arma2.com"
+	}
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\bohemia interactive studio\\arma 2"
+		{
+			"string"
+			{
+				"main" "%INSTALLDIR%"
+				"data" "%INSTALLDIR%"
+			}
+			"binary"
+			{
+				"key" ""
+			}
+		}
+		"hkey_local_machine\\software\\bohemia interactive studio\\arma 2 oa\\expansions\\arma 2"
+		{
+			"string"
+			{
+				"path" "SOFTWARE\\Bohemia Interactive Studio\\ArmA 2"
+				"loadbefore" ""
+				"loadafter" "ARMA 2 OA"
+				"moddir" "CA"
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"description" "Microsoft DirectX for Windows"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"battleyea2"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\33910"
+			"description" "BattlEye Anti-Cheat software for ARMA 2"
+			"process 1" "%INSTALLDIR%\\BEsetup\\setup_BattlEyeARMA2.exe"
+			"ignoreexitcode" "1"
+			"nocleanup" "0"
+		}
+		"officialgamegroup"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\33910"
+			"description" "Official Game Group"
+			"process 1" "%INSTALLDIR%\\ARMA2_OGG.cmd"
+			"ignoreexitcode" "1"
+			"nocleanup" "1"
+		}
+	}
+	"arma 2 cd key"
+	{
+	}
+	"ea oreg"
+	{
+		"string"
+		{
+			"english"
+			{
+				"url" "http://www.arma2.com"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"33911"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "665065183021719977"
+				"size" "11566584"
+				"download" "4366336"
+			}
+			"beta"
+			{
+				"gid" "461737605275339216"
+				"size" "11263112"
+				"download" "5465584"
+			}
+			"legacy"
+			{
+				"gid" "461737605275339216"
+				"size" "11263112"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test2022"
+			{
+				"gid" "4E7DA51ED0DB6D2356011A5C379B474C"
+				"size" "9CF07FBD9CE90F3E27CBF01A17C497A8"
+				"download" "C3045CAE97E696214FC0B9574BE9AD8F"
+			}
+		}
+	}
+	"33901"
+	{
+		"systemdefined" "1"
+		"depotfromapp" "33900"
+		"sharedinstall" "2"
+	}
+	"33912"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4865777636804643330"
+				"size" "8923874699"
+				"download" "7191865472"
+			}
+			"beta"
+			{
+				"gid" "4865777636804643330"
+				"size" "8923874699"
+				"download" "7191865472"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test2022"
+			{
+				"gid" "1097610C191DA33C766BA9D08125AC1F"
+				"size" "7D1A42E836DA59DB66F4C4D1AD50474D"
+				"download" "A31E5588115690513D593E11AE3069F9"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10796005"
+			"timeupdated" "1679067666"
+		}
+		"beta"
+		{
+			"buildid" "4347743"
+			"timeupdated" "1572609909"
+		}
+		"legacy"
+		{
+			"buildid" "15471"
+		}
+		"test2022"
+		{
+			"buildid" "10787697"
+			"pwdrequired" "1"
+			"timeupdated" "1678990740"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21219526"
+"_sha" "cef9d24783fcc6a21e4fb402299f90b2a7a49ac3"
+"_size" "5559"
