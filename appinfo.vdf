@@ -1,0 +1,747 @@
+"appid" "816090"
+"common"
+{
+	"name" "Space Hulk: Deathwing - Enhanced Edition"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "b3958953761ff645db15bcb652652add300d6715"
+	"logo_small" "b3958953761ff645db15bcb652652add300d6715_thumb"
+	"icon" "86232cd08fab0432c4d20ce16ea2dadd0e619fff"
+	"clienticon" "847e4510e65e09e2d7f9afbab6db7999c6f30078"
+	"clienttga" "7887952c39bed93f11cb2d549ce0afaf4f21c5ea"
+	"oslist" "windows"
+	"osarch" "64"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"russian" "1"
+	}
+	"eulas"
+	{
+		"0"
+		{
+			"id" "298900_eula_0"
+			"name" "Space Hulk: Deathwing EULA"
+			"url" "http://store.steampowered.com//eula/298900_eula_0"
+		}
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1646438400"
+		"tested_build_id" "5277638"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "simultaneous_gamepad_mouse"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Space Hulk: Deathwing - Enhanced Edition"
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1689860887"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Streum On Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Focus Entertainment"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Warhammer"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_38" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1526976120"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "816090"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "12286"
+		"2" "1685"
+		"3" "1663"
+		"4" "1774"
+		"5" "21"
+		"6" "3843"
+		"7" "3859"
+		"8" "3839"
+		"9" "4667"
+		"10" "4166"
+		"11" "3942"
+		"12" "4345"
+		"13" "4182"
+		"14" "1667"
+		"15" "5310"
+		"16" "1755"
+		"17" "5611"
+		"18" "1673"
+	}
+	"review_score" "6"
+	"review_percentage" "72"
+}
+"extended"
+{
+	"developer" "Streum On Studio"
+	"publisher" "Focus Entertainment"
+	"homepage" "https://www.focus-home.com/games/space-hulk-deathwing-enhanced-edition"
+	"listofdlc" "816100,842330,842331,1303800"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Space Hulk Deathwing - Enhanced Edition"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SpaceHulkGame.exe"
+			"type" "default"
+		}
+		"1"
+		{
+			"executable" "SpaceHulkGame\\Binaries\\Win64\\SpaceHulkGame-Win64-Test.exe"
+			"arguments" "-SaveToUserDir -ExecCmds=\"SHDW.AllowTwitch 1\""
+			"description" "Test"
+			"type" "option1"
+			"config"
+			{
+				"betakey" "Local,shdwe_testqa,shdwe_twh_experimental"
+			}
+		}
+		"2"
+		{
+			"executable" "SpaceHulkGame\\Binaries\\Win64\\SpaceHulkGame.exe"
+			"description" "Dev version (use for debug only)"
+			"type" "option1"
+			"config"
+			{
+				"betakey" "local"
+			}
+		}
+		"3"
+		{
+			"executable" "SpaceHulkGame.exe"
+			"arguments" "-EnableTwitch"
+			"description" "Space Hulk: Deathwing - Enhanced Edition - Twitch Mode"
+			"type" "option1"
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"2754525227"
+		{
+			"controller_type" "controller_steamcontroller_gordon"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"hasdepotsindlc" "0"
+	"baselanguages" ""
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"816091"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8835363254210384627"
+				"size" "31075326645"
+				"download" "15032582416"
+			}
+			"local"
+			{
+				"gid" "4173739198964621220"
+				"size" "31040792912"
+				"download" "15022390864"
+			}
+			"support_exe"
+			{
+				"gid" "3691737543183576200"
+				"size" "31040348477"
+				"download" "15022352160"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev_gog"
+			{
+				"gid" "19FD2EF5D8181231E628624AE2A1315D"
+				"size" "29BDBA17CCC2E4D105A00A589D436C65"
+				"download" "4D13085D647B26FC663654585193BC62"
+			}
+			"fhi_gold"
+			{
+				"gid" "1B3146786E7B523F75ED378974CAA06B"
+				"size" "E80F08A526AB28CC40C384440DB70F47"
+				"download" "F698E3D2C05D5EA11F1E380957F94ED2"
+			}
+			"forlive_notestexe"
+			{
+				"gid" "AD266CA43B4BF6CF41915280FDDE1794"
+				"size" "59995818041A636652F8C698EEC8A9FE"
+				"download" "B897F1173C3C4E54686A823934E4CF30"
+			}
+			"games_workshop"
+			{
+				"gid" "9FAB97F2D885D0E409BD1DF6EAC8B229"
+				"size" "8168186FE3444467F2B8B243B413B2B7"
+				"download" "801AFD3B4089B8559A9FFA575F973302"
+			}
+			"krn_version"
+			{
+				"gid" "3323A2D7E0411E5A41696EA7069FF248"
+				"size" "B7A87593A4A1FCC07200F8C52D077267"
+				"download" "37AA4696385021723766B7851DD484EE"
+			}
+			"nda_nextpatch"
+			{
+				"gid" "9CD5853A99089794B9466BD708646EDD"
+				"size" "47BFAA8AE1C6ED4CD52D3F2AB5CA242B"
+				"download" "F52D2115D6CD627730D3D242C0E65914"
+			}
+			"shdwe_august2018"
+			{
+				"gid" "842455BE85D7E4ABCD7CCA3198FA8302"
+				"size" "BA9D5D7357A98100C342AFD770F2512A"
+				"download" "C7C149996702CF0BC12151F5E20A1F0A"
+			}
+			"shdwe_logging"
+			{
+				"gid" "1477898686488AE04AF0EAD1FA913320"
+				"size" "6D22F8B4A567575BAA67F5E8821388DD"
+				"download" "2ED5415E5CF8EEA160F892B71B4E1E6C"
+			}
+			"shdwe_patch3"
+			{
+				"gid" "AC0935EA72CA7A9E330FA32713ACA6A5"
+				"size" "A5C8B8461D9CE68C8C36D09821C019D2"
+				"download" "DF9848FE3B401AF379E114D15BB6E94F"
+			}
+			"shdwe_testqa"
+			{
+				"gid" "32B1FA98FCAA1EA46BAEE9ACAAC1A7DF"
+				"size" "F4088ABAEE28F4D592B63A48D0B0EEA5"
+				"download" "6F52D034363057348616A46D77C24FDF"
+			}
+			"shdwe_twh_experimental"
+			{
+				"gid" "86ED4D7CDE939AE68378583B4CED4D4C"
+				"size" "6817B0CE20ACD29BD3C25B1B3F50AF1A"
+				"download" "09F34213BE572916B6D0893126855E9E"
+			}
+			"test"
+			{
+				"gid" "972F4319937F4F4E6EA5EACB248850B6"
+				"size" "E783CE52E9343E2FA6A0CAE2174E0089"
+				"download" "AB7F97A8CDFCF3F2F0AE81EE2C990491"
+			}
+		}
+	}
+	"816092"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9075278056199464287"
+				"size" "99642556"
+				"download" "52566560"
+			}
+			"local"
+			{
+				"gid" "2782889609137566362"
+				"size" "1924127824"
+				"download" "320216400"
+			}
+			"support_exe"
+			{
+				"gid" "3093987972448493068"
+				"size" "73702032"
+				"download" "46747360"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev_gog"
+			{
+				"gid" "D4E051A35B831EBFD1B7254C4F350B0A"
+				"size" "941C8C8F756986B3DDF5A8C585F77A86"
+				"download" "5787653B40773360334FF18A4016EC7C"
+			}
+			"fhi_gold"
+			{
+				"gid" "0542A55BF2BE9DBE34E5A19E50B6B73A"
+				"size" "312F3FC3BBDA3DEC9F57485FF7E3EC65"
+				"download" "3094FBA6DFF912122685B530238A1CA7"
+			}
+			"forlive_notestexe"
+			{
+				"gid" "0A8B9FB7A9DA91A0286F2E801469ED87"
+				"size" "F3629F6871DAC99DB85145F50B2D77E6"
+				"download" "1A948316FC60E3B1F9973B0ABF8B4226"
+			}
+			"games_workshop"
+			{
+				"gid" "83DB66216087BECE7C0546C924C354AE"
+				"size" "7ABB8AFCDF996E6E0F00262CE6FC5CF8"
+				"download" "2E45F40A70507105B7C6479BAAFC4475"
+			}
+			"krn_version"
+			{
+				"gid" "F4AD16E15B44D5C60C96ED20A1204639"
+				"size" "2E495EE2DB8010992D20BB0722683CCF"
+				"download" "543284FACF9280BA0CD2D1F5D4B1ABEE"
+			}
+			"nda_nextpatch"
+			{
+				"gid" "BDF82564F54DB7DD5EF5F0584ABFD1A3"
+				"size" "B7585C2EEDEC657CDA337FA1CED903AB"
+				"download" "B7479AB9F905A3F6DC04F8DF6EBDFAA0"
+			}
+			"shdwe_august2018"
+			{
+				"gid" "46DAC9141870940606FCE43C6F7D47E5"
+				"size" "07AF2E604A36B993C5147870D912F6E3"
+				"download" "555C753FB6C25AD22571CB2E06988723"
+			}
+			"shdwe_logging"
+			{
+				"gid" "E9D1C3DAAA7B62A673E3C0C9BBB4C9D0"
+				"size" "045C5B5E25989608DFD24620803DE897"
+				"download" "0C15960F5387C6261BF1F787A98E1EDF"
+			}
+			"shdwe_patch3"
+			{
+				"gid" "CD2BC5BE15FB76EDB2E619868788547D"
+				"size" "53931975CCF435C0274C25B47F3219FE"
+				"download" "CAA6C221EC92F23ADCF04A147D51BEF1"
+			}
+			"shdwe_testqa"
+			{
+				"gid" "73552DF18AFC08DC07AD781BCD897F7B"
+				"size" "32AB31D6F84066A4C8E30B92ECFF46D6"
+				"download" "9EE4E2B8EE90326CF4255F1C68987196"
+			}
+			"shdwe_twh_experimental"
+			{
+				"gid" "70C57A6C36D638E98E7875ABBDCBCB79"
+				"size" "B707F345D0FEC875A3B5656A4E5DA33C"
+				"download" "05DD8EF3103E77CAD72FABF3CFA4E330"
+			}
+			"test"
+			{
+				"gid" "592F2F66AA1CAD7D27DEF51548320A00"
+				"size" "52791D72E3568DD2540BB100F18D8987"
+				"download" "6CF372C94F47E9E62173C56DA878E26C"
+			}
+		}
+	}
+	"816093"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7682825494530120683"
+				"size" "3401433"
+				"download" "3419936"
+			}
+			"support_exe"
+			{
+				"gid" "7682825494530120683"
+				"size" "3401433"
+				"download" "3419936"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev_gog"
+			{
+				"gid" "61F22AF0E218D778B6029794A2A40497"
+				"size" "7EEFA7DB37AEC0C49F7C03AB9D9DE068"
+				"download" "DD21521FC9D2B2205CC943B808FFCDFC"
+			}
+			"fhi_gold"
+			{
+				"gid" "76FF0945627E42E63B2845995A965611"
+				"size" "FDEE677D90399E865EAAD61215556F95"
+				"download" "F67D1F1064E86B8BD69EBE7B03196342"
+			}
+			"forlive_notestexe"
+			{
+				"gid" "CA07FB15FB23C090CC78C72082510B7A"
+				"size" "88A330A8DBC1A0117904853338EC4518"
+				"download" "CBABA5A9FD6B43433681D9A511BD2A5E"
+			}
+			"games_workshop"
+			{
+				"gid" "E2AA292190AD5BB2959B4C993E59EB86"
+				"size" "ECF6724DD09F55DAE5A844123AEA7C20"
+				"download" "AE77A789BB1EE5EDB5EDDACD6CF2DD5C"
+			}
+			"krn_version"
+			{
+				"gid" "E4025606E102EDD93B86C7FF7A8464C7"
+				"size" "C5E7151F43FAB2A1B9CB50F691D2558A"
+				"download" "0DC25FCC1278CF245940B2D22FBD6C8C"
+			}
+			"nda_nextpatch"
+			{
+				"gid" "D659D737E44480FF4F372B1F1BBE408A"
+				"size" "339DA5A4A13C7ADC10C61D49151B319E"
+				"download" "34CDD85CA983FE8106168E479363011C"
+			}
+			"shdwe_august2018"
+			{
+				"gid" "80341C9522F4E511E2F5F90C29D6FD41"
+				"size" "1021C36B8441B8533439ADCFAEC524CB"
+				"download" "120B16E01D6249B89F30E3C3C7B8FC2E"
+			}
+			"shdwe_logging"
+			{
+				"gid" "47DB5D0C5509E0AFE99C1039281B1286"
+				"size" "C6FC5B13984406DF65317145E6A6D374"
+				"download" "D7657626362E1AA30786525EB19B9AD0"
+			}
+			"shdwe_patch3"
+			{
+				"gid" "3C78E7397F8205DCF61CF6957F13A556"
+				"size" "25821B4A71F89997A4FD035FE710E7AD"
+				"download" "65711A6A4E3ABDD5E6FD118E6A145A86"
+			}
+			"shdwe_testqa"
+			{
+				"gid" "5C68D4E4F7473E69963AF0282E6B98E8"
+				"size" "92183A2FC11883A20FB778768E0C6396"
+				"download" "BFF50A9DA53FE4B5E05BB8944520FBDE"
+			}
+			"shdwe_twh_experimental"
+			{
+				"gid" "2C5AB381A864CB08F5AED79218C8B394"
+				"size" "D594F6A5355A61D9BE2E54A2A9B11530"
+				"download" "737D7E2DDD4794FB64DB18D41DB9C45E"
+			}
+			"test"
+			{
+				"gid" "F6160CD3E979A85B76E2C6C64EE08EE9"
+				"size" "D142E7234AF096F5E9AF6F7F45AE4D90"
+				"download" "8B21B9119371360A44EAECF0AA86CAE3"
+			}
+		}
+	}
+	"816094"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+	}
+	"816095"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+	}
+	"816096"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+	}
+	"816097"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+	}
+	"816098"
+	{
+		"config"
+		{
+			"language" "schinese"
+		}
+	}
+	"816099"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+	}
+	"816101"
+	{
+		"config"
+		{
+			"language" "koreana"
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5277638"
+			"timeupdated" "1594991244"
+		}
+		"dev_gog"
+		{
+			"buildid" "5396740"
+			"pwdrequired" "1"
+			"timeupdated" "1597135283"
+		}
+		"fhi_gold"
+		{
+			"buildid" "2709955"
+			"pwdrequired" "1"
+			"timeupdated" "1524503972"
+		}
+		"forlive_notestexe"
+		{
+			"buildid" "5050884"
+			"pwdrequired" "1"
+			"timeupdated" "1590402046"
+		}
+		"games_workshop"
+		{
+			"buildid" "2927255"
+			"pwdrequired" "1"
+			"timeupdated" "1531215653"
+		}
+		"krn_version"
+		{
+			"buildid" "2974916"
+			"pwdrequired" "1"
+			"timeupdated" "1532506260"
+		}
+		"local"
+		{
+			"buildid" "2999326"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1533207764"
+		}
+		"nda_nextpatch"
+		{
+			"buildid" "3007099"
+			"pwdrequired" "1"
+			"timeupdated" "1534239174"
+		}
+		"shdwe_august2018"
+		{
+			"buildid" "3007099"
+			"pwdrequired" "1"
+			"timeupdated" "1533472482"
+		}
+		"shdwe_logging"
+		{
+			"buildid" "3007667"
+			"pwdrequired" "1"
+			"timeupdated" "1533501301"
+		}
+		"shdwe_patch3"
+		{
+			"buildid" "2821787"
+			"pwdrequired" "1"
+			"timeupdated" "1527774250"
+		}
+		"shdwe_testqa"
+		{
+			"buildid" "3007099"
+			"pwdrequired" "1"
+			"timeupdated" "1550768907"
+		}
+		"shdwe_twh_experimental"
+		{
+			"buildid" "3582530"
+			"pwdrequired" "1"
+			"timeupdated" "1550768922"
+		}
+		"support_exe"
+		{
+			"buildid" "3007667"
+			"description" "Technical Support Exe logging (V2.42)"
+			"timeupdated" "1534518423"
+		}
+		"test"
+		{
+			"buildid" "3007099"
+			"pwdrequired" "1"
+			"timeupdated" "1540196305"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "52428800"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "/SpaceHulkEnhanced/Saved/SaveGames/"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "/SpaceHulkEnhanced/Saved/Config/WindowsNoEditor/"
+			"pattern" "Input.ini"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21715001"
+"_sha" "40ecd777d9f85764815247a2d09a47974b2d4892"
+"_size" "15494"
