@@ -1,0 +1,553 @@
+"appid" "50"
+"common"
+{
+	"clienticon" "19695f5ff11ac7a47b084e62361f212e6265a17a"
+	"clienttga" "923fdd6a256fa0d588182a0afb63f85d84065497"
+	"icon" "04e81206c10e12416908c72c5f22aad411b3aeef"
+	"logo" "bb696ddfd8f8ef0892d5f2154d8617528d3cc2ec"
+	"logo_small" "0eaf8c7ccd56d8a8014cdd1747e0709da94c7a8f"
+	"name" "Half-Life: Opposing Force"
+	"linuxclienticon" "1d109108ef9d9b427ae1c1f838a59c0f5ca29f4c"
+	"clienticns" "4641d7403217eab3dc8ef1c3ca5f72c075db6bda"
+	"oslist" "windows,macos,linux"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1652400000"
+		"tested_build_id" "5429885"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
+			}
+			"5"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Half-Life: Opposing Force"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "42.2205438066465"
+			"height_pct" "89.23611111111111"
+		}
+	}
+	"store_asset_mtime" "1568754361"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Gearbox Software"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Valve"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Half-Life"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_8" "1"
+		"category_44" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "941443200"
+	"community_hub_visible" "1"
+	"gameid" "50"
+	"store_tags"
+	{
+		"0" "1663"
+		"1" "19"
+		"2" "1693"
+		"3" "3942"
+		"4" "4182"
+		"5" "1774"
+		"6" "3839"
+		"7" "1673"
+		"8" "6691"
+		"9" "21"
+		"10" "4166"
+		"11" "4168"
+		"12" "1742"
+		"13" "15954"
+		"14" "1756"
+		"15" "4345"
+		"16" "1664"
+		"17" "1669"
+		"18" "1685"
+		"19" "4004"
+	}
+	"review_score" "9"
+	"review_percentage" "95"
+}
+"extended"
+{
+	"dependantonapp" "70"
+	"developer" "Gearbox Software"
+	"gamedir" "gearbox"
+	"hdaddon" "96"
+	"homepage" "http://www.gearboxsoftware.com/"
+	"icon" "steam/games/icon_opfor"
+	"icon2" "steam/games/icon_opfor_dull"
+	"order" "18"
+	"primarycache" "51"
+	"serverbrowsername" "Opposing Force"
+	"vacmacmodulecache" "160"
+	"vacmodulecache" "202"
+	"vacmodulefilename" "sourceinit.dat"
+	"developer_url" "http://www.gearboxsoftware.com"
+	"publisher" "Valve"
+}
+"config"
+{
+	"installdir" "Half-Life"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "hl.exe"
+			"arguments" "-steam -game gearbox"
+			"vacmodulefilename" "resource\\sourceinit.dat"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "hl.sh"
+			"arguments" "-steam -game gearbox"
+			"vacmodulefilename" "resource\\sourceinit_macos.dat"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "hl.sh"
+			"arguments" "-steam -game gearbox"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"contenttype" "3"
+	"convertgcfs" "1"
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"1"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"language" ""
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"51"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "789184054796507140"
+				"size" "286265390"
+				"download" "147668032"
+			}
+			"beta"
+			{
+				"gid" "789184054796507140"
+				"size" "286265390"
+				"download" "147668032"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "3C86CD15A440D4F77DEDB8651CB1303B"
+				"size" "BC0A9625AA541234109D3DDB54DBE81C"
+				"download" "6F553921715A52C7A4B0136C3CC5CE15"
+			}
+		}
+	}
+	"3"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"language" ""
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"2"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"systemdefined" "1"
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"9"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" ""
+		}
+		"systemdefined" "1"
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"8"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" ""
+		}
+		"systemdefined" "1"
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"96"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"6"
+	{
+		"config"
+		{
+			"lowviolence" "1"
+			"language" ""
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"72"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"73"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"74"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"75"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"77"
+	{
+		"config"
+		{
+			"language" "schinese"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"78"
+	{
+		"config"
+		{
+			"language" "koreana"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"79"
+	{
+		"config"
+		{
+			"language" "tchinese"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"141"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"depotfromapp" "70"
+		"sharedinstall" "2"
+	}
+	"52"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5528482501962900096"
+				"size" "34076169"
+				"download" "18320000"
+			}
+			"beta"
+			{
+				"gid" "5528482501962900096"
+				"size" "34076169"
+				"download" "18320000"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "0857853A7458ACCAB61CF990660C5960"
+				"size" "759596EB017AFB7876A3EB627C0D5E04"
+				"download" "937C2AF1B09A586ADA905007AE154D6A"
+			}
+		}
+	}
+	"53"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5763450929861348423"
+				"size" "35639689"
+				"download" "19131840"
+			}
+			"beta"
+			{
+				"gid" "5763450929861348423"
+				"size" "35639689"
+				"download" "19131840"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "87762F66419651C23DF0511406EB8124"
+				"size" "C9C3409D9C7A5AF8B9B2DE109E98F414"
+				"download" "93B9C47027228F1446245A1E5C5E41BF"
+			}
+		}
+	}
+	"56"
+	{
+		"config"
+		{
+			"language" "koreana"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6741694038486968355"
+				"size" "1047952"
+				"download" "348112"
+			}
+			"beta"
+			{
+				"gid" "6741694038486968355"
+				"size" "1047952"
+				"download" "348112"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "8849B9A19474F0D0D8165B2925095B01"
+				"size" "36CE5873345B71B9F647E957A86104A5"
+				"download" "E61DB9EC9D1CF7E2259137FB79477DF2"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5429885"
+			"timeupdated" "1597805786"
+		}
+		"beta"
+		{
+			"buildid" "5429885"
+			"description" "Steampipe beta"
+			"timeupdated" "1597805536"
+		}
+		"test"
+		{
+			"buildid" "9188138"
+			"pwdrequired" "1"
+			"timeupdated" "1700330676"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "500"
+	"savefiles"
+	{
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "gearbox/SAVE"
+			"pattern" "*.*"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "gearbox"
+			"pattern" "*.cfg"
+			"recursive" "1"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21205194"
+"_sha" "39428fefde8a02e5fbf0d8d8b705c69de348a1eb"
+"_size" "9149"
