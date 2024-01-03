@@ -1,0 +1,220 @@
+"appid" "1655430"
+"common"
+{
+	"name" "Witchaven II: Blood Vengeance"
+	"type" "Game"
+	"logo" "df8339a6f730de7a7f4a85ea210399bf594a939b"
+	"logo_small" "df8339a6f730de7a7f4a85ea210399bf594a939b_thumb"
+	"icon" "d62f32a2901a8f1f1ff31901a67b56847cd20577"
+	"clienticon" "bef719ae77f7f1a30e92be7854ad8d20945e1729"
+	"clienttga" "f2a88155e0ecf22b2ecb83047a8d8b85aeb9b787"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"releasestate" "released"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"has_adult_content" "1"
+	"has_adult_content_violence" "1"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "55.019313247555885"
+			"height_pct" "63.3413031693404"
+		}
+	}
+	"store_asset_mtime" "1623448482"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Capstone Software"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SNEG"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Witchaven"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "SNEG"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1623945662"
+	"community_hub_visible" "1"
+	"gameid" "1655430"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "1663"
+		"2" "1774"
+		"3" "3839"
+		"4" "4172"
+		"5" "3993"
+		"6" "4182"
+		"7" "1684"
+		"8" "122"
+		"9" "4345"
+		"10" "4667"
+		"11" "1667"
+		"12" "4004"
+	}
+	"review_score" "7"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"developer" "Capstone Software"
+	"publisher" "SNEG"
+}
+"config"
+{
+	"installdir" "Witchaven II Blood Vengeance"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Enhanced\\run-game.bat"
+			"workingdir" "Enhanced"
+			"type" "option1"
+			"description_loc"
+			{
+				"english" "(Enhanced version, recommended)"
+			}
+			"description" "(Enhanced version, recommended)"
+		}
+		"1"
+		{
+			"executable" "Enhanced\\run-setup.bat"
+			"workingdir" "Enhanced"
+			"type" "none"
+			"description_loc"
+			{
+				"english" "Edit game settings (Enhanced version)"
+			}
+			"description" "Edit game settings (Enhanced version)"
+		}
+		"2"
+		{
+			"executable" "Enhanced\\run-graphics-config.bat"
+			"workingdir" "Enhanced"
+			"type" "none"
+			"description_loc"
+			{
+				"english" "Edit DOSBox settings (Enhanced version)"
+			}
+			"description" "Edit DOSBox settings (Enhanced version)"
+		}
+		"3"
+		{
+			"executable" "Original\\run-game.bat"
+			"workingdir" "Original"
+			"type" "option3"
+			"description_loc"
+			{
+				"english" "(Original version)"
+			}
+			"description" "(Original version)"
+		}
+	}
+}
+"depots"
+{
+	"1655431"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9153764878374036731"
+				"size" "688348593"
+				"download" "153820224"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "6919910"
+			"timeupdated" "1624463215"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "20"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Enhanced\\GAME\\WHAVEN2"
+			"pattern" "SVGM*.MAP"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "Enhanced\\GAME\\WHAVEN2"
+			"pattern" "SVGN*.DAT"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "Original\\GAME\\WHAVEN2"
+			"pattern" "SVGM*.MAP"
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "Original\\GAME\\WHAVEN2"
+			"pattern" "SVGN*.DAT"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21379685"
+"_sha" "57f8649f5fdfec0a2e8e1b3ec331b7049e3cb7c2"
+"_size" "3785"
