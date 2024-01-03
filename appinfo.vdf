@@ -1,0 +1,148 @@
+"appid" "44690"
+"common"
+{
+	"name" "GT Legends"
+	"oslist" "windows"
+	"logo" "e3a301fbe97e7960fa958bf1f896add1d5a60fc4"
+	"logo_small" "e3a301fbe97e7960fa958bf1f896add1d5a60fc4_thumb"
+	"icon" "aee4a6592f67f485a4fb99803f319cb0a9d0910c"
+	"type" "game"
+	"metacritic_name" "GT Legends"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "SimBin Studios AB"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SimBin"
+		}
+	}
+	"primary_genre" "9"
+	"genres"
+	{
+		"0" "9"
+		"1" "28"
+		"2" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"original_release_date" "1127718000"
+	"metacritic_score" "84"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/gt-legends\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "44690"
+	"store_tags"
+	{
+		"0" "699"
+		"1" "599"
+		"2" "1100687"
+		"3" "701"
+		"4" "3859"
+		"5" "1644"
+		"6" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "SimBin Studios AB"
+	"gamedir" "ValveTestApp44690"
+	"homepage" "http://www.simbin.com/games/gt-legends/"
+	"icon" ""
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_LOCAL_MACHINE\\SOFTWARE\\10tacle Studios\\GTL\\Keys\\SerialNumber"
+	"noservers" "0"
+	"showcdkeyonlaunch" "1"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "SimBin"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "GT Legends"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "sudo.exe"
+			"arguments" "gtl.exe"
+			"description" "GT Legends"
+		}
+		"1"
+		{
+			"executable" "sudo.exe"
+			"arguments" "GTLConfig.exe"
+			"description" "Graphics options"
+		}
+	}
+	"installscriptsignature" "9a5e1ac951664ea20a02bdde7e46dd769769460ad56b758156df3da3d600cbc59e30da0c8ad5b7e7f251beefbd0c5aba970a35ad3e644c382c97c1b4e5ed4ff96fd4acc7d6016037956a4d9c4a590fc0c2b983ce051701cd7b1fe4332204eca2ee39654a46fc8dd18c8cca6c5a7560d9ee8bd8b9429b3500e8e9873a0541139d"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"vcredist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\44690"
+			"process 1" "%INSTALLDIR%\\vcredist_x86.exe"
+			"command 1" "/passive /norestart"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"44691"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4384957897624762406"
+				"size" "1873597778"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "23629"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19802278"
+"_sha" "a12dcfe1b3ee8e76c60304ef9c4fb2f26fafedec"
+"_size" "2849"
