@@ -1,0 +1,333 @@
+"appid" "7510"
+"common"
+{
+	"name" "X-Blades"
+	"logo" "85bb604055343baeae32c8afe9bc51107bb31318"
+	"logo_small" "85bb604055343baeae32c8afe9bc51107bb31318_thumb"
+	"icon" "311b4363fd29a55fbdd23f515e409785b520b6e8"
+	"clienttga" "ed92ae7351a654dabe2a192a22824c020d59c5f6"
+	"clienticon" "efaa3a8e494479ec88f4628ae342ac15cdc49c30"
+	"metacritic_url" "pc/xblades"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1651881600"
+		"tested_build_id" "1818159"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "X-Blades"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "50"
+			"height_pct" "73.26388888888889"
+		}
+	}
+	"store_asset_mtime" "1577603913"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Gaijin Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Topware Interactive"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "72"
+		"1" "73"
+		"2" "1"
+		"3" "25"
+		"4" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_18" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1234252800"
+	"steam_release_date" "1241118000"
+	"metacritic_score" "54"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/x-blades\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "7510"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "7208"
+		"2" "1646"
+		"3" "122"
+		"4" "21"
+		"5" "4085"
+		"6" "6650"
+		"7" "4182"
+		"8" "1684"
+		"9" "3955"
+		"10" "4667"
+		"11" "1697"
+		"12" "1756"
+		"13" "4158"
+		"14" "4777"
+	}
+	"review_score" "5"
+	"review_percentage" "61"
+}
+"extended"
+{
+	"developer" "Gaijin Entertainment"
+	"gamedir" "X-Blades"
+	"homepage" "http://www.x-blades.com/"
+	"icon" ""
+	"installscript" "7510_install.vdf"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp7510\\SteamKey"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "7511"
+	"serverbrowsername" ""
+	"showcdkeyonlaunch" "1"
+	"state" "eStateAvailable"
+	"publisher" "Topware Interactive"
+	"gamemanualurl" "https://store.steampowered.com/manual/7510/"
+	"listofdlc" "604280,604290"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "X-Blades"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "launcher.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "RunGame"
+			"description" "X-Blades (Recommended)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "X-Blades.app"
+			"description" "X-Blades"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "RunGameWithoutLauncher"
+			"description" "X-Blades without launcher"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"4"
+		{
+			"executable" "ddc.cmd"
+			"description" "Digital Deluxe Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "604280"
+			}
+		}
+		"5"
+		{
+			"executable" "ddc"
+			"description" "Digital Deluxe Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+				"ownsdlc" "604280"
+			}
+		}
+		"6"
+		{
+			"executable" "ddc_xdg"
+			"description" "Digital Deluxe Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"ownsdlc" "604280"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"7511"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8497984594087291390"
+				"size" "2496638856"
+				"download" "2388279024"
+			}
+		}
+	}
+	"7513"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5697552235143526455"
+				"size" "3103585375"
+				"download" "2584779184"
+			}
+		}
+	}
+	"7514"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7102719989891502317"
+				"size" "3042256324"
+				"download" "2576907824"
+			}
+		}
+	}
+	"7512"
+	{
+		"dlcappid" "604290"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8114717897058308002"
+				"size" "107335207"
+				"download" "100431488"
+			}
+		}
+	}
+	"7515"
+	{
+		"dlcappid" "604280"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2385697375162768402"
+				"size" "280341444"
+				"download" "282624608"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1818159"
+			"timeupdated" "1494601501"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19967303"
+"_sha" "b1fb4148039c16386c3a8045e81395e99506bf1b"
+"_size" "5748"
