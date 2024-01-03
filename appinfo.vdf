@@ -1,0 +1,317 @@
+"appid" "428900"
+"common"
+{
+	"name" "Linea, the Game"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "6d68c6ba452cfafd10fa0c24febff07037045a67"
+	"logo_small" "6d68c6ba452cfafd10fa0c24febff07037045a67_thumb"
+	"icon" "070d0e47d0426ebedb73578294f2a2c3791ece5b"
+	"clienttga" "9447a67768a5733e8558013945ec58bb5c951603"
+	"clienticon" "02277fdf3162e42a7dbe0faf34ba27aae0659e45"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"russian" "1"
+	}
+	"clienticns" "ebaf48bc53d0e30ff5d2078feb3a26bc7b2ea3fd"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1663977600"
+		"tested_build_id" "2441212"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Linea, the Game"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1569104252"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "KHB-Soft"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "KHB-Soft"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_25" "1"
+		"category_15" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1451934725"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "428900"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "597"
+		"2" "4094"
+		"3" "4026"
+		"4" "19"
+		"5" "1734"
+		"6" "1773"
+		"7" "1621"
+		"8" "8253"
+		"9" "1714"
+	}
+	"review_score" "8"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"legacykeylinkedexternally" "1"
+	"developer" "KHB-Soft"
+	"publisher" "KHB-Soft"
+	"homepage" "http://khb-soft.ru"
+	"listofdlc" "453330"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Linea, the Game"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Linea.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Linea.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Linea.x86"
+			"arguments" "-force-opengl"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "Linea.x86_64"
+			"arguments" "-force-opengl"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,russian"
+	"428901"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3599666911733491750"
+				"size" "347399546"
+				"download" "42308512"
+			}
+			"beta"
+			{
+				"gid" "3599666911733491750"
+				"size" "347399546"
+				"download" "42308512"
+			}
+		}
+	}
+	"428902"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5148608040978989319"
+				"size" "394189209"
+				"download" "55466928"
+			}
+			"beta"
+			{
+				"gid" "5148608040978989319"
+				"size" "394189209"
+				"download" "55466928"
+			}
+		}
+	}
+	"428903"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7363682126394349649"
+				"size" "395802142"
+				"download" "57514048"
+			}
+			"beta"
+			{
+				"gid" "7363682126394349649"
+				"size" "395802142"
+				"download" "57514048"
+			}
+		}
+	}
+	"453330"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2927966809432910216"
+				"size" "146"
+				"download" "160"
+			}
+			"beta"
+			{
+				"gid" "2927966809432910216"
+				"size" "146"
+				"download" "160"
+			}
+		}
+		"dlcappid" "453330"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2441212"
+			"timeupdated" "1516111188"
+		}
+		"beta"
+		{
+			"buildid" "2441212"
+			"description" "Beta branch"
+			"timeupdated" "1516110932"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18903802"
+"_sha" "fb068a5ec178871ec5ecc37d7d7dba021cb67835"
+"_size" "5363"
