@@ -1,0 +1,220 @@
+"appid" "388120"
+"common"
+{
+	"name" "Spakoyno: Back To USSR 2.0"
+	"type" "Game"
+	"clienticon" "c9ff036084a84a52a6680280bb8e411898df073f"
+	"clienttga" "30564c4ac9165d6c04efaeda5bb91ff9412d9ea7"
+	"icon" "23c93b243fa700a3bbc4949beb1fad21d8ffdb78"
+	"logo" "4d969b54e47bf77ca6cebeca940981dc0d842fb8"
+	"logo_small" "4d969b54e47bf77ca6cebeca940981dc0d842fb8_thumb"
+	"oslist" "windows"
+	"releasestate" "released"
+	"clienticns" "48d38b3e0f80992895235239d16026a6ad78bb8e"
+	"linuxclienticon" "4d4bb9ff8c9299af337027d86f31cdd9ce39879c"
+	"osarch" ""
+	"metacritic_name" "Spakoyno: Back To USSR 2.0"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1464710363"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Separate Game Development"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Dagestan Technology"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Dagestan Technology"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_22" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1455550861"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "388120"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "3799"
+		"2" "597"
+		"3" "10397"
+	}
+	"review_score" "5"
+	"review_percentage" "47"
+}
+"extended"
+{
+	"developer" "Separate Game Development"
+	"publisher" "Dagestan Technology"
+	"listofdlc" "459660"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Spakoyno Back To USSR 2.0"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SpakoynoReload.exe"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "SpakoynoReload.sh"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "SpakoynoReload.app\\Contents\\MacOS\\SpakoynoReload"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"hasdepotsindlc" "1"
+	"388121"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4380254551270660182"
+				"size" "770970690"
+				"download" "682433056"
+			}
+		}
+	}
+	"459660"
+	{
+		"dlcappid" "459660"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6304261155397205740"
+				"size" "95971590"
+				"download" "95645680"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1066366"
+			"timeupdated" "1460489548"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10485760"
+	"maxnumfiles" "20"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "game/saves"
+			"pattern" "*.save"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "game/saves"
+					"replace" "game/saves"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "game/saves"
+					"replace" "RHS.app/Contents/Resources/autorun/game/saves"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19113595"
+"_sha" "049e4cb9407159a46e6da81cbceadb7a3cbbd87b"
+"_size" "3587"
