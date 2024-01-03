@@ -1,0 +1,247 @@
+"appid" "44360"
+"common"
+{
+	"name" "F1 2011"
+	"logo" "dd3d5029a3b2b3c9448d29d2cb801749460843fd"
+	"logo_small" "dd3d5029a3b2b3c9448d29d2cb801749460843fd_thumb"
+	"icon" "b9e11fe7d04dc084298b8acd3e51285ffc89242a"
+	"clienttga" "8d7bcedc5227964899e3154cbff551a8ddd3208e"
+	"exfgls" "1"
+	"app_retired_publisher_request" "1"
+	"type" "game"
+	"metacritic_name" "F1 2011"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1316452541"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Codemasters Birmingham"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Codemasters"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "F1"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Codemasters"
+		}
+	}
+	"primary_genre" "9"
+	"genres"
+	{
+		"0" "9"
+		"1" "28"
+		"2" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+	}
+	"supported_languages"
+	{
+		"german"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"italian"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"metacritic_score" "83"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/f1-2011\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "44360"
+	"store_tags"
+	{
+		"0" "699"
+		"1" "599"
+		"2" "701"
+		"3" "1100687"
+		"4" "3859"
+		"5" "1644"
+		"6" "10816"
+		"7" "1685"
+	}
+	"review_score" "6"
+	"review_percentage" "75"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" "Codemasters Birmingham"
+	"g4w_gdf" "f1GDFBinary.dll"
+	"g4w_type" "2"
+	"gamedir" "F1 2011"
+	"homepage" "http://www.formula1-game.com"
+	"icon" ""
+	"installscript" "44360_install.vdf"
+	"languages" "english,french,german,italian,spanish"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp44360\\SteamKey"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "44361"
+	"serverbrowsername" ""
+	"showcdkeyonlaunch" "1"
+	"state" "eStateAvailable"
+	"supportscdkeycopytoclipboard" "1"
+	"publisher" "Codemasters"
+	"gamemanualurl" "https://store.steampowered.com/manual/44360/"
+}
+"config"
+{
+	"installscriptsignature" "8ca1f1a673a996696bcdbc79b2ccf1efb8008e494dfff7b7f5bcac85db267a24703dcfd228fb6fa4fc5b70a01645d0e3ed4d2277d0daf4aae3b19546c62dd09ee10d3d9597e60c706e48483182cef0af170f0f0dff2f748708ffdfa21c2dfd4ca2d65eb67a0ba472321d607161a9ae85b868e724fb34323cb3d6a2af22450fc6"
+	"installscriptoverride" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "F1_2011.exe"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "F1 2011"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\codemasters\\f1 2011"
+		{
+			"string"
+			{
+				"path_application" "%INSTALLDIR%\\"
+				"english"
+				{
+					"locale" "1033"
+					"language" "1033"
+				}
+				"french"
+				{
+					"locale" "1036"
+					"language" "1036"
+				}
+				"german"
+				{
+					"locale" "1031"
+					"language" "1031"
+				}
+				"italian"
+				{
+					"locale" "1040"
+					"language" "1040"
+				}
+				"spanish"
+				{
+					"language" "3082"
+					"locale" "3082"
+				}
+			}
+		}
+	}
+	"run process"
+	{
+		"gfwl"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\44360"
+			"process 1" "%INSTALLDIR%\\GFWL\\gfwlivesetup.exe"
+			"command 1" "/q"
+		}
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\44360"
+			"process 1" "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+		}
+		"openal"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\44360"
+			"process 1" "%INSTALLDIR%\\OpenAL\\OpenALwEAX.exe"
+			"command 1" "/s"
+		}
+		"rapture3d"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\44360"
+			"process 1" "%INSTALLDIR%\\Rapture3D\\rapture3d_2.4.9game.exe"
+			"command 1" "/silent"
+		}
+	}
+}
+"depots"
+{
+	"44361"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8352165679557423073"
+				"size" "10920103615"
+				"download" "0"
+			}
+		}
+	}
+	"44362"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9166524398415930724"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"baselanguages" "english,french,german,italian,spanish"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "64727"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20149378"
+"_sha" "ecb4ffc9d47de05be0f0ec091b2ff6a9592d262a"
+"_size" "4703"
