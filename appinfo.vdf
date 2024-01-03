@@ -1,0 +1,507 @@
+"appid" "375480"
+"common"
+{
+	"name" "Chronicon"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"icon" "43ba4454e87bfb71d210b354bab79a34b76c33d2"
+	"clienticon" "f466ebac9bc8310507a4159dd802aa0f4de25ce4"
+	"clienttga" "9f9025903ca41c411faa772608bec88945e23a80"
+	"logo" "133ec07dd61b3343778c95ad637c64dfeb849189"
+	"logo_small" "133ec07dd61b3343778c95ad637c64dfeb849189_thumb"
+	"osarch" "64"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"schinese" "1"
+		"latam" "1"
+	}
+	"name_localized"
+	{
+		"schinese" "Chronicon - 英雄旧忆"
+	}
+	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1648684800"
+		"tested_build_id" "8279951"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"metacritic_name" "Chronicon"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1644221039"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Subworld"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Subworld"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_24" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_15" "1"
+		"category_1" "1"
+		"category_44" "1"
+		"category_9" "1"
+		"category_39" "1"
+		"category_43" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1597993200"
+	"steam_release_date" "1598030040"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "375480"
+	"store_tags"
+	{
+		"0" "4236"
+		"1" "4231"
+		"2" "1646"
+		"3" "1720"
+		"4" "122"
+		"5" "3964"
+		"6" "1702"
+		"7" "492"
+		"8" "5125"
+		"9" "4840"
+		"10" "3841"
+		"11" "4106"
+		"12" "19"
+		"13" "3871"
+		"14" "6730"
+		"15" "1684"
+		"16" "21"
+		"17" "4182"
+		"18" "4057"
+		"19" "4155"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"developer" "Subworld"
+	"publisher" "Subworld"
+	"homepage" "http://www.subworldgames.com/chronicon/"
+	"listofdlc" "1599010,2206120"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Chronicon"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Chronicon.exe"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "run.sh"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "Chronicon (wider compatibility)"
+			}
+			"description" "Chronicon (wider compatibility)"
+		}
+		"3"
+		{
+			"executable" "Chronicon"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "Chronicon (Ubuntu)"
+			}
+			"description" "Chronicon (Ubuntu)"
+		}
+	}
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"2258572401"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"375481"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1635364617509322101"
+				"size" "496262911"
+				"download" "391250256"
+			}
+			"32-bit"
+			{
+				"gid" "3308143654165711631"
+				"size" "368518362"
+				"download" "228883520"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"localization"
+			{
+				"gid" "1815CEC3A401DB555CAE097AE1865FAF"
+				"size" "F8721A78E9B4D9B06917C52B6C26C643"
+				"download" "18C19208DAD5C7A917EAB976B6C6E965"
+			}
+			"preview"
+			{
+				"gid" "2737D8DBEFB7D99EF20C261582128FD7"
+				"size" "02F9576FF77C352A29B34FC279458DD5"
+				"download" "A4EC11967B856FA44A17F4C5D063DA70"
+			}
+			"tinkabuilds"
+			{
+				"gid" "2DCB93C16D0B44237C5E586766004864"
+				"size" "CC95F27A20CDE8DF2842DC6815D13FDD"
+				"download" "730855557F33F2F524C46CDE6DD67E7D"
+			}
+		}
+	}
+	"375482"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2869038777701886256"
+				"size" "509166092"
+				"download" "393580000"
+			}
+			"32-bit"
+			{
+				"gid" "2098586635065526406"
+				"size" "341553226"
+				"download" "239631680"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"localization"
+			{
+				"gid" "839ED41032D6918D1227EF9845BE6178"
+				"size" "A70DB7D33FC911B8199AD3135628FE2C"
+				"download" "0DAEF81EB74781FDBEB9206482F8F0C1"
+			}
+			"preview"
+			{
+				"gid" "BDC22B578B5F640CDF18713D5F6D0CB6"
+				"size" "5931072B8C1C47FA17FC30E4A743D8D0"
+				"download" "B15A38F181B6ED7855FEC0AB5F8E04EB"
+			}
+			"tinkabuilds"
+			{
+				"gid" "974959D649214670D75D2330266F1E7A"
+				"size" "9D77710BEAB657433AF75E1E2DA92026"
+				"download" "8ECAA5CA7E9E74C345193C80FECE60CE"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10675386"
+			"timeupdated" "1677771684"
+		}
+		"32-bit"
+		{
+			"buildid" "5949242"
+			"description" "32-bit version of Chronicon (OLD AND NOT MAINTAINED - NOT COMPATIBLE WITH DLC\'s)"
+			"timeupdated" "1607603474"
+		}
+		"localization"
+		{
+			"buildid" "10470323"
+			"pwdrequired" "1"
+			"timeupdated" "1675424129"
+		}
+		"preview"
+		{
+			"buildid" "10675386"
+			"pwdrequired" "1"
+			"timeupdated" "1677770256"
+		}
+		"tinkabuilds"
+		{
+			"buildid" "10628904"
+			"pwdrequired" "1"
+			"timeupdated" "1677237909"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "200"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Chronicon/save"
+			"pattern" "*.char"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "Chronicon/save"
+			"pattern" "*.dat"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "Chronicon/save"
+			"pattern" "*.stash"
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "Chronicon/save/backups"
+			"pattern" "*.backup*"
+		}
+		"4"
+		{
+			"root" "gameinstall"
+			"path" "Chronicon/graveyard"
+			"pattern" "*.grave"
+		}
+		"5"
+		{
+			"root" "gameinstall"
+			"path" "Chronicon/graveyard"
+			"pattern" "*.yard"
+		}
+		"12"
+		{
+			"root" "gameinstall"
+			"path" "Chronicon/save"
+			"pattern" "*.txt"
+			"recursive" "1"
+		}
+		"14"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Chronicon/save_test"
+			"pattern" "*.char"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"15"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Chronicon/save_test"
+			"pattern" "*.dat"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"16"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Chronicon/save_test"
+			"pattern" "*.stash"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"17"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Chronicon/save_test"
+			"pattern" "*.txt"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinAppDataLocal"
+			"addpath" ""
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ".config/"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21252893"
+"_sha" "00f8781a658d48c5c210c493814d9a9279913f96"
+"_size" "9113"
