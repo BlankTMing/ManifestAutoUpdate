@@ -1,0 +1,199 @@
+"appid" "1624110"
+"common"
+{
+	"name" "Football Manager 2022 Editor"
+	"type" "Tool"
+	"parent" "1569040"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64"
+	"logo" "71d1e6362381855578830315c52bb84bb65d438a"
+	"logo_small" "71d1e6362381855578830315c52bb84bb65d438a_thumb"
+	"icon" "8f9c66ff3c0c39739cc3f83d3a0473064ed9664e"
+	"clienticon" "5378dfe090d971caacd00577681f1a294da3529f"
+	"clienttga" "95fd639a7f2a5702fe938c5c681bce207b66b994"
+	"releasestate" "released"
+	"associations"
+	{
+	}
+	"gameid" "1624110"
+}
+"config"
+{
+	"installdir" "Football Manager 2022 Editor"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "editor.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "editor.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1624111"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7347753549410675616"
+				"size" "67225268"
+				"download" "21975968"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"si-bvt"
+			{
+				"gid" "F23DF7E547BE3A357EB5E45EC14D153C"
+				"size" "D85DF61964CFB08453C5F3EDECD54FB8"
+				"download" "B8A24B91AB345BAB631D41C338E44FA4"
+			}
+		}
+	}
+	"1624112"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6575397321165692481"
+				"size" "66803570"
+				"download" "20573648"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"si-bvt"
+			{
+				"gid" "8244FFB2386B6CDA077D5A62D399723D"
+				"size" "2C9CD8966410B347963B467945FF314E"
+				"download" "2D2F30BDED8D66145A00ECD666789549"
+			}
+		}
+	}
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,portuguese,polish,danish,dutch,norwegian,swedish,turkish,greek"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8415566"
+			"timeupdated" "1648137796"
+		}
+		"si-bvt"
+		{
+			"buildid" "10539744"
+			"pwdrequired" "1"
+			"timeupdated" "1676294073"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "10000"
+	"appidredirect" "1569040"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2022/cloud/games"
+			"pattern" "*.fm"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2022/cloud/tactics"
+			"pattern" "*.fmf"
+		}
+		"2"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2022/cloud/filters"
+			"pattern" "*.fmf"
+		}
+		"3"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2022/cloud/match plans"
+			"pattern" "*.fmf"
+		}
+		"4"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2022/cloud/set pieces"
+			"pattern" "*.fmf"
+		}
+		"5"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2022/cloud/shortlists"
+			"pattern" "*.fmf"
+		}
+		"6"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2022/cloud/profiles"
+			"pattern" "*.fmf"
+		}
+		"7"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2022/cloud/tactical_styles"
+			"pattern" "*.fmf"
+		}
+		"8"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2022/cloud/schedules"
+			"pattern" "*.fmf"
+		}
+		"9"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2022/cloud/player instructions"
+			"pattern" "*.fmf"
+		}
+		"copied_from_parent" "1"
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19574281"
+"_sha" "b8519ca870fddc1f988e861bc98897d2c01085e9"
+"_size" "3814"
