@@ -1,0 +1,203 @@
+"appid" "232150"
+"common"
+{
+	"name" "Killing Floor 2 - SDK"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" "windows"
+	"parent" "232090"
+	"logo" "b341754b0ca9192271226eb60c4e2a70b5b66ebe"
+	"logo_small" "b341754b0ca9192271226eb60c4e2a70b5b66ebe_thumb"
+	"icon" "2f0e11b75760cd65922d4c0e06cf41735fe3ff89"
+	"clienticon" "c06af195676543e6ec591c3df820563eb0aae901"
+	"clienttga" "2f53de6caba3e6d85eadee064ff78e18823f27bb"
+	"associations"
+	{
+	}
+	"community_hub_visible" "1"
+	"gameid" "232150"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" ""
+	"gamedir" "ValveTestApp232150"
+	"homepage" ""
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateComingSoonNoPreload"
+	"visibleonlywhensubscribed" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "killingfloor2"
+	"launch"
+	{
+		"2"
+		{
+			"executable" "Binaries/Win64/KFEditor.exe"
+			"arguments" "editor -useunpublished"
+			"description" "Killing Floor 2 Editor"
+			"type" "editor"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "Binaries/SDKFrontend.exe"
+			"workingdir" "Binaries"
+			"description" "Workshop Upload Tool"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "232150"
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229003"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"232151"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2204286137651373347"
+				"size" "100886541"
+				"download" "28658992"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "49B3CB300353A72B2B2B791C3E4C070B"
+				"size" "EB0796E32C81FD67235AF04122E45B5E"
+				"download" "3B4B64D3BEF70E10C77B2498147AA26E"
+			}
+			"communitytest"
+			{
+				"gid" "3814EBFDAC9A21BA1B7787708F5A4DC1"
+				"size" "87DAE7E0E578DEB3C874C451EE3A5F60"
+				"download" "FCC8F27B81BA0E07F0065899831FC37B"
+			}
+			"qa_test"
+			{
+				"gid" "1D8DD4F7F1D5074703EAA0A6C85667CD"
+				"size" "F62F3A39B8DC31A4F29A0335242DE440"
+				"download" "F34D1B42CC55F9CF7A3E6D90C54165C9"
+			}
+			"uploadtest"
+			{
+				"gid" "45C40AEB3422B0A62DA43B0C420D1C59"
+				"size" "38D141A77A413979248DC3A81798DDBB"
+				"download" "519F4BF4FDD54852BBA7661E6B16D155"
+			}
+		}
+	}
+	"232152"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8490316940429982849"
+				"size" "1101478"
+				"download" "485008"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "3B3C236DC1D7D2353804D66DBC28EB91"
+				"size" "24511164B44D99D5818D76EDFB113AD3"
+				"download" "F5D6A29F2D8FF2555B9B4D24F8372461"
+			}
+			"communitytest"
+			{
+				"gid" "BA60FF3458C9881FD163F11ED269F09E"
+				"size" "8C1F8B6900FD9EB5A2E453E0DC20DC57"
+				"download" "54AA5F875AA1E10E38B127587F230B2F"
+			}
+			"qa_test"
+			{
+				"gid" "5CE7223B5826266E10C4119D3B511132"
+				"size" "6610B0C97B8641545AB38FE644E175D2"
+				"download" "93AB38C62783F5C748F50FD715AFAD4C"
+			}
+			"uploadtest"
+			{
+				"gid" "0C48F364E35F8BB1A229506837D1A0F0"
+				"size" "D0C1F1B3650CD386338608B57BA74FF7"
+				"download" "69EA23A01594323FDB79B02131D56A44"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12781433"
+			"timeupdated" "1701792084"
+		}
+		"beta"
+		{
+			"buildid" "12983399"
+			"pwdrequired" "1"
+			"timeupdated" "1702809571"
+		}
+		"communitytest"
+		{
+			"buildid" "9862192"
+			"pwdrequired" "1"
+			"timeupdated" "1667508677"
+		}
+		"qa_test"
+		{
+			"buildid" "9326917"
+			"pwdrequired" "1"
+			"timeupdated" "1660680837"
+		}
+		"uploadtest"
+		{
+			"buildid" "1618975"
+			"pwdrequired" "1"
+			"timeupdated" "1486592419"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "100"
+}
+"_missing_token" "False"
+"_change_number" "21573041"
+"_sha" "a3b539b1cf7398f1651d1632baecaa6ab57d1421"
+"_size" "3935"
