@@ -1,0 +1,109 @@
+"appid" "1133110"
+"common"
+{
+	"name" "Ancestors Legacy Editor"
+	"type" "Tool"
+	"parent" "620590"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"clienticon" "4e9ce28386b57cf2cca17f1e7617c19ae6532f42"
+	"clienttga" "1ae33b544205a2d5dd6632c2da02b4e2bfd60882"
+	"icon" "8867c1da1c36d7adc1059b9e822610df87076fc8"
+	"logo" "890955e84b261c511a7c3aa89c9e2196c095373f"
+	"logo_small" "890955e84b261c511a7c3aa89c9e2196c095373f_thumb"
+	"releasestate" "released"
+	"associations"
+	{
+	}
+	"gameid" "1133110"
+}
+"config"
+{
+	"installdir" "Ancestors Legacy Editor"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Engine\\Binaries\\Win64\\UE4Editor.exe"
+			"arguments" "Anc"
+			"type" "none"
+		}
+		"1"
+		{
+			"executable" "Engine\\Binaries\\Win64\\UE4Editor.exe"
+			"arguments" "Anc -log"
+			"description" "With logs"
+			"type" "option1"
+		}
+	}
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1133111"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3579847354730955625"
+				"size" "57811286286"
+				"download" "36820368576"
+			}
+		}
+	}
+	"workshopdepot" "1133110"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4361991"
+			"timeupdated" "1573045977"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "21013b7d7e540a9808ab0d8b513b7c1a8914f8a8"
+"_size" "1738"
