@@ -1,0 +1,207 @@
+"appid" "12250"
+"common"
+{
+	"name" "Grand Theft Auto: San Andreas"
+	"logo" "32e2d1d2054295603724f30c81c3cf46dc6392c0"
+	"logo_small" "32e2d1d2054295603724f30c81c3cf46dc6392c0_thumb"
+	"oslist" "macos"
+	"eulas"
+	{
+		"0"
+		{
+			"url" "http://store.steampowered.com/eula/eula_Rockstar"
+			"id" "eula_Rockstar"
+			"name" "eula_Rockstar"
+		}
+	}
+	"visibleonlyonavailableplatforms" "1"
+	"app_retired_publisher_request" "1"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1646956800"
+		"tested_build_id" "459558"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Grand Theft Auto: San Andreas"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "47.673967768183864"
+			"height_pct" "98.86018242368462"
+		}
+	}
+	"store_asset_mtime" "1622583070"
+	"associations"
+	{
+	}
+	"primary_genre" "0"
+	"category"
+	{
+		"category_41" "1"
+		"category_42" "1"
+		"category_18" "1"
+	}
+	"metacritic_score" "93"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/grand-theft-auto-san-andreas\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "12250"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "1695"
+		"2" "4166"
+		"3" "113"
+	}
+	"review_score" "8"
+	"review_percentage" "96"
+}
+"extended"
+{
+	"developer" "TransGaming Inc."
+	"gamedir" "grand theft auto - san andreas"
+	"homepage" "http://www.gametreeonline.com/"
+	"icon" ""
+	"installscript_macos" "Grand Theft Auto - San Andreas.app/installscript_osx.vdf"
+	"launcheula" "http://store.steampowered.com/eula/eula_Rockstar"
+	"noservers" "1"
+	"order" "1"
+	"primarycache_macos" "12251"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "macos"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "grand theft auto - san andreas"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Grand Theft Auto - San Andreas.app/Contents/MacOS/cider"
+			"arguments" "-psn"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"2020388274"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"12251"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7054548885417979906"
+				"size" "4984902686"
+				"download" "5270323825266"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"drmfix"
+			{
+				"gid" "0BB4F214F2613F9338A29B086619F69F"
+				"size" "2F88108C459B804A4A4DBDBD1F06A4B0"
+				"download" "E37A5381C92A169A73BA432F1217C5AE"
+			}
+			"nomusic"
+			{
+				"gid" "03DED6721653DDA2304B21706638FC80"
+				"size" "45C2A545169243C81FDCCB263A613E6E"
+				"download" "099AB19E5BEE184C2757AFC3DD103391"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "425454"
+		}
+		"drmfix"
+		{
+			"buildid" "91888"
+			"pwdrequired" "1"
+		}
+		"nomusic"
+		{
+			"buildid" "425454"
+			"pwdrequired" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19631548"
+"_sha" "83e0cbd41930754e3c51af9fde3da89ea734aed4"
+"_size" "4244"
