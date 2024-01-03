@@ -1,0 +1,593 @@
+"appid" "671440"
+"common"
+{
+	"name" "Rise of Industry"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "c48449899f50504bd7b02b3c3877d6a1d21c50f7"
+	"logo_small" "c48449899f50504bd7b02b3c3877d6a1d21c50f7_thumb"
+	"icon" "7ed3e2ef36f3519ee0c829ddf394c4a9af64c644"
+	"clienticon" "9bbe63c864f3ef5f03a50d0ca5594eb7408c7185"
+	"clienttga" "79bbce42ac1994a7a0f8657fd31cd076bc6f1897"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"linuxclienticon" "89f2b9d937f8463032aa513d0aa584bdc38ed8ef"
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1660867200"
+		"tested_build_id" "7376124"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "55.01750291715287"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1697026406"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Dapper Penguin Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Kasedo Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Kasedo Games"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1556814720"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "671440"
+	"store_tags"
+	{
+		"0" "12472"
+		"1" "9"
+		"2" "599"
+		"3" "4695"
+		"4" "4328"
+		"5" "8945"
+		"6" "492"
+		"7" "7332"
+		"8" "4202"
+		"9" "1643"
+		"10" "4182"
+		"11" "3810"
+		"12" "5851"
+		"13" "255534"
+		"14" "1676"
+		"15" "4845"
+		"16" "10383"
+		"17" "8122"
+		"18" "1616"
+		"19" "1695"
+	}
+	"review_score" "6"
+	"review_percentage" "74"
+}
+"extended"
+{
+	"developer" "Dapper Penguin Studios"
+	"publisher" "Kasedo Games"
+	"homepage" "http://www.riseofindustry.com"
+	"listofdlc" "938410,1139110,1182960"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "RiseOfIndustry"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Rise of Industry.exe"
+			"description" "Latest Stable Version"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "Rise of Industry.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "Rise of Industry.app\\Contents\\MacOS\\Rise of Industry"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,italian,spanish,schinese,russian,brazilian"
+	"workshopdepot" "671440"
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"671441"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8360881793189550917"
+				"size" "1959055311"
+				"download" "782373520"
+			}
+			"experimental"
+			{
+				"gid" "1344987945947860667"
+				"size" "1927588186"
+				"download" "773887344"
+			}
+			"noburst"
+			{
+				"gid" "447601520694300014"
+				"size" "1934459550"
+				"download" "774478176"
+			}
+			"previousbuild"
+			{
+				"gid" "6412514160650966593"
+				"size" "1927775106"
+				"download" "773949840"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha5"
+			{
+				"gid" "A59AF95CA3C1D61DEDA172FC77A6BE81"
+				"size" "48769873DA5879811FEF6B8E4EEF2429"
+				"download" "610F556B0A6242EF55733340DE6FC816"
+			}
+			"internal"
+			{
+				"gid" "D6E6B72C8DDB3FB6571A3C9BACD9A290"
+				"size" "65C884A7491C66D9185DDD7B73164F17"
+				"download" "253DEC00F7120F91DC947329FDCE94BC"
+			}
+			"university"
+			{
+				"gid" "E2A35E485A5F684783CEB9219580485C"
+				"size" "48C8926C5F0F5CE14FA1B808666B9004"
+				"download" "E34CB1717F2D40D9FC37EFD6A0D2A60B"
+			}
+		}
+	}
+	"671443"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1682126488526700296"
+				"size" "1987424184"
+				"download" "790124080"
+			}
+			"experimental"
+			{
+				"gid" "4470421283594548942"
+				"size" "1951837049"
+				"download" "781903056"
+			}
+			"noburst"
+			{
+				"gid" "4470421283594548942"
+				"size" "1951837049"
+				"download" "781903056"
+			}
+			"previousbuild"
+			{
+				"gid" "4470421283594548942"
+				"size" "1951837049"
+				"download" "781903056"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha5"
+			{
+				"gid" "BD936B1E89A6EDF3E1FA4A21DB0C71C6"
+				"size" "A75CA215308FAD4BAD456BF56151A5AD"
+				"download" "E02B982491A6459C76099DD9C3EF3CD4"
+			}
+			"internal"
+			{
+				"gid" "F455BD00A62FC3C7CA013CA8245B0478"
+				"size" "B68D73EBECD6BAC11F97EE2143A18857"
+				"download" "26C6D10BA4782457C25932D1D1DA0B8B"
+			}
+			"university"
+			{
+				"gid" "734474B1B727530D4F38B346769BEFA9"
+				"size" "752D4077158438ED2A1444FE1F81CF9E"
+				"download" "A517F6F1E19800098077F145A26CAFD5"
+			}
+		}
+	}
+	"671442"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7039282614904897761"
+				"size" "1964231994"
+				"download" "784110816"
+			}
+			"experimental"
+			{
+				"gid" "3089942996666224177"
+				"size" "1928999987"
+				"download" "775586128"
+			}
+			"noburst"
+			{
+				"gid" "3089942996666224177"
+				"size" "1928999987"
+				"download" "775586128"
+			}
+			"previousbuild"
+			{
+				"gid" "3089942996666224177"
+				"size" "1928999987"
+				"download" "775586128"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha5"
+			{
+				"gid" "93CEE37F23BD7A08BCC3417485404B8F"
+				"size" "3D0239751AAB3765327BE7743D1085A9"
+				"download" "E0D8E05914BCC8F7B18335DA278D55EE"
+			}
+			"internal"
+			{
+				"gid" "C976E50F79248EE23DA657A860F5476F"
+				"size" "47288B13F2CC33D326B5C5B41BF7092B"
+				"download" "6066100B29A74B5237D85164D1831726"
+			}
+			"university"
+			{
+				"gid" "318F25E18F72EE66857D48F3D6F5789D"
+				"size" "6872B5FEED4D25F69A9C1CB28A48351E"
+				"download" "3D09A0AA7F6EAA753FFFC98207BC8012"
+			}
+		}
+	}
+	"938410"
+	{
+		"dlcappid" "938410"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4100241021132616765"
+				"size" "379316691"
+				"download" "373883280"
+			}
+			"experimental"
+			{
+				"gid" "1335443187133513138"
+				"size" "520139210"
+				"download" "514014080"
+			}
+			"noburst"
+			{
+				"gid" "1335443187133513138"
+				"size" "520139210"
+				"download" "514014080"
+			}
+			"previousbuild"
+			{
+				"gid" "1335443187133513138"
+				"size" "520139210"
+				"download" "514014080"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha5"
+			{
+				"gid" "88B7F3F638360F3BD3DE204EA01672BF"
+				"size" "AF44DA8F3D9B7D9578AA5AFA89E7F472"
+				"download" "C08B3791727EA53C2C14DD761F9AB688"
+			}
+			"internal"
+			{
+				"gid" "0DD6C602FDB98FC8126FCE45CFB41AD5"
+				"size" "62BE0D0FF7AAE67DE56F6B6668EB5CF4"
+				"download" "09DE59B20857302081CC2CB5F31FDCA3"
+			}
+			"university"
+			{
+				"gid" "B7819F84EB90420538F398D0162D0FE3"
+				"size" "7E67932005E261DDDF4E986F35D72F6C"
+				"download" "735D9040F8617390B3A14E8BE3AA0C37"
+			}
+		}
+	}
+	"1139110"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"dlcappid" "1139110"
+	}
+	"1182960"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6049285348538891318"
+				"size" "196278731"
+				"download" "194804656"
+			}
+			"experimental"
+			{
+				"gid" "6162235031522036890"
+				"size" "264204167"
+				"download" "261656224"
+			}
+			"noburst"
+			{
+				"gid" "6162235031522036890"
+				"size" "264204167"
+				"download" "261656224"
+			}
+			"previousbuild"
+			{
+				"gid" "6162235031522036890"
+				"size" "264204167"
+				"download" "261656224"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha5"
+			{
+				"gid" "2B5BBB971A33AB59863A9C016DADE95C"
+				"size" "CE3FE3BAE342156C05ED8720F31CD683"
+				"download" "A3AC36502B6A83480AE418B50F0CD43C"
+			}
+			"internal"
+			{
+				"gid" "B20891EF6258895BA0759B1C55064742"
+				"size" "17B50DA5CC730831185810D1D1634737"
+				"download" "8598E61B9BD59ADB58E738D89F2F8C0F"
+			}
+			"university"
+			{
+				"gid" "9EA128E962B114AEC865F3CEE25DE562"
+				"size" "6818F24EAE0FB9BF0BCCFC67C1CF167F"
+				"download" "B1247AF0F544BE1315AE586F66108F8D"
+			}
+		}
+		"dlcappid" "1182960"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9064059"
+			"timeupdated" "1662726611"
+		}
+		"alpha5"
+		{
+			"buildid" "6113390"
+			"pwdrequired" "1"
+			"timeupdated" "1611175765"
+		}
+		"experimental"
+		{
+			"buildid" "6076857"
+			"timeupdated" "1610555076"
+		}
+		"internal"
+		{
+			"buildid" "9064059"
+			"pwdrequired" "1"
+			"timeupdated" "1657028861"
+		}
+		"noburst"
+		{
+			"buildid" "7376113"
+			"timeupdated" "1631868760"
+		}
+		"previousbuild"
+		{
+			"buildid" "6081664"
+			"timeupdated" "1631864986"
+		}
+		"university"
+		{
+			"buildid" "6040034"
+			"pwdrequired" "1"
+			"timeupdated" "1609836898"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "RiseOfIndustry"
+			"pattern" "*.sav"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20637948"
+"_sha" "3fac61a5debe29700da7e6a3982cb83ca7f79dc3"
+"_size" "11236"
