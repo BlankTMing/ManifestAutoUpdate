@@ -1,0 +1,297 @@
+"appid" "219760"
+"common"
+{
+	"name" "Beyond Divinity"
+	"type" "Game"
+	"logo" "fc8d6cacb76a5a9b5ca5cc8482531e57790a246e"
+	"logo_small" "fc8d6cacb76a5a9b5ca5cc8482531e57790a246e_thumb"
+	"icon" "1b292705395f5d11cba06cedbba1a3083e1381d3"
+	"clienticon" "b4ca7cfb4b699ec186f430a81f65077b5effa340"
+	"clienttga" "2a17340e78b82854e3fa4db897c9fbc85019580b"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"russian" "1"
+		"polish" "1"
+	}
+	"metacritic_name" "Beyond Divinity"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50.11668611435239"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1568730308"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Larian Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Larian Studios"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+		}
+		"russian"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"polish"
+		{
+			"supported" "1"
+		}
+	}
+	"original_release_date" "1083049200"
+	"steam_release_date" "1351530000"
+	"metacritic_score" "73"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/beyond-divinity\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "219760"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "4182"
+		"2" "5851"
+		"3" "1684"
+		"4" "1693"
+		"5" "4231"
+		"6" "1646"
+		"7" "21"
+		"8" "4166"
+		"9" "19"
+		"10" "1756"
+		"11" "4474"
+	}
+	"review_score" "5"
+	"review_percentage" "51"
+}
+"extended"
+{
+	"developer" "Larian Studios"
+	"gamedir" "Beyond Divinity"
+	"homepage" "http://www.larian.com"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Larian Studios"
+	"gamemanualurl" "https://store.steampowered.com/manual/219760/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "beyond_divinity"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "div.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "configtool.exe"
+			"description" "Configure"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptsignature" "24e14e055b4c7eea9ac87edda0672c27ea1574b924913f49a4391865bafb8ef5ab07b8f17e7f139032da1a1c5109196f06ef3e1c141b2b084db0c6387e6d4585c260792921d4680e5fcee041d25e119d29320613bd86015b8a83afe227705b6fe8e349189368e700b20305901a4c9f08bb5c5c470abbdcba1879f7be2b7a2046"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\219760"
+			"process 1" "%INSTALLDIR%\\support\\DirectX90c\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"vcredist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\219760"
+			"process 1" "%INSTALLDIR%\\support\\VCRedist\\VS90sp1-redist_x86-9.0.30729.17"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+		"configuration"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\219760"
+			"process 1" "%INSTALLDIR%\\configtool.exe"
+			"command 1" ""
+			"nocleanup" "0"
+		}
+	}
+}
+"depots"
+{
+	"219761"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1585905422878456373"
+				"size" "1088690558"
+				"download" "0"
+			}
+		}
+	}
+	"219762"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5886755297918011289"
+				"size" "761390394"
+				"download" "0"
+			}
+		}
+	}
+	"219763"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6487178486836678177"
+				"size" "567594341"
+				"download" "0"
+			}
+		}
+	}
+	"219764"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7755417849507514162"
+				"size" "613034014"
+				"download" "0"
+			}
+		}
+	}
+	"219765"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2626670550960853743"
+				"size" "855941305"
+				"download" "0"
+			}
+		}
+	}
+	"219766"
+	{
+		"config"
+		{
+			"language" "polish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2359551513643694109"
+				"size" "572878708"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "52877"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21657731"
+"_sha" "ad97bb4156abdecc73f678e7624bacb081b754f4"
+"_size" "5083"
