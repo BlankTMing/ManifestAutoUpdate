@@ -1,0 +1,306 @@
+"appid" "41080"
+"common"
+{
+	"name" "Serious Sam 3 Dedicated Server"
+	"type" "Tool"
+	"gameid" "41080"
+}
+"extended"
+{
+	"developer" ""
+	"gamedir" "SeriousSam3"
+	"homepage" ""
+	"icon" ""
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "41081"
+	"primarycache_macos" "41082"
+	"sdk_notownedbydefault" "1"
+	"serverbrowsername" ""
+	"state" "eStateTool"
+	"validoslist" "windows,macos"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Bin\\Sam3_DedicatedServer.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Bin/Sam3_DedicatedServer"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Bin/runSam3_DedicatedServer.sh"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Serious Sam 3"
+}
+"depots"
+{
+	"41079"
+	{
+		"systemdefined" "1"
+		"depotfromapp" "41070"
+		"sharedinstall" "2"
+	}
+	"41075"
+	{
+		"systemdefined" "1"
+		"depotfromapp" "41070"
+		"sharedinstall" "2"
+	}
+	"41076"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "41070"
+		"sharedinstall" "2"
+	}
+	"41077"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "41070"
+		"sharedinstall" "2"
+	}
+	"41078"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "41070"
+		"sharedinstall" "2"
+	}
+	"41081"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5839909026259046758"
+				"size" "22452118"
+				"download" "7462080"
+			}
+			"legacyosx"
+			{
+				"gid" "7220882982092040604"
+				"size" "21557782"
+				"download" "8057920"
+			}
+			"publicbeta"
+			{
+				"gid" "5839909026259046758"
+				"size" "22452118"
+				"download" "7462080"
+			}
+			"safemode"
+			{
+				"gid" "7220882982092040604"
+				"size" "21557782"
+				"download" "8057920"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "B8E87FA970966BED0B30DA6165C3F887"
+				"size" "A0DE187076E1B1546B61ED335FE209B9"
+				"download" "B5348AEAA43497394CC9E1729D8D596A"
+			}
+			"closedbeta"
+			{
+				"gid" "E9DD296E400890D588ECEAA6C28ABBC4"
+				"size" "8D6434979A65667CE4884B6707813DC2"
+				"download" "5851A3840B188A22722DED2C0DB731F5"
+			}
+			"internal"
+			{
+				"gid" "38667A76BE45098900EBC718C8C36A5C"
+				"size" "0D778521DD7A8A028FD31379F7D79AA3"
+				"download" "C2D3A1ED9B24540D5657B760213616F5"
+			}
+		}
+	}
+	"41082"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1517549851102098716"
+				"size" "20240789"
+				"download" "5338736"
+			}
+			"legacyosx"
+			{
+				"gid" "7457740292106101545"
+				"size" "20035257"
+				"download" "4999808"
+			}
+			"publicbeta"
+			{
+				"gid" "1517549851102098716"
+				"size" "20240789"
+				"download" "5338736"
+			}
+			"safemode"
+			{
+				"gid" "7457740292106101545"
+				"size" "20035257"
+				"download" "4999808"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "7FA0EA245A68C42DEE5DBB40D6FE3232"
+				"size" "0D8AAFBF57250B3D6CC844AD06823363"
+				"download" "B5348AEAA43497394CC9E1729D8D596A"
+			}
+			"closedbeta"
+			{
+				"gid" "A417DEEEB4CBA9E5992CA98CA4008D7D"
+				"size" "7F43BA2F017A3C74BAD67C01E265F7E1"
+				"download" "204F862C4BAC3B855123D66B80CCB4B3"
+			}
+			"internal"
+			{
+				"gid" "0E6637C6CDC8F2755F6E2ADAC878D933"
+				"size" "3214920EB1012520A974C66639759BA6"
+				"download" "4692724FA95EC87E23CF0FCDBA335853"
+			}
+		}
+	}
+	"41083"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6611202159868083272"
+				"size" "45174071"
+				"download" "12104288"
+			}
+			"legacyosx"
+			{
+				"gid" "5010045415239750343"
+				"size" "41454505"
+				"download" "12803792"
+			}
+			"publicbeta"
+			{
+				"gid" "6611202159868083272"
+				"size" "45174071"
+				"download" "12104288"
+			}
+			"safemode"
+			{
+				"gid" "5010045415239750343"
+				"size" "41454505"
+				"download" "12803792"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"closedbeta"
+			{
+				"gid" "2EAEFD51601198076495006707DCC447"
+				"size" "32AD6E59885639BA159568A129743FFD"
+				"download" "EFCF0207C5659A683F1281ACB232BF49"
+			}
+			"internal"
+			{
+				"gid" "D1852ADAE42510F6525850401679FA4D"
+				"size" "95EB5CF980BD359B801A6C0C1EF7DE25"
+				"download" "46D3DEEC5503BB833ABACDCA1788C26B"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1094577"
+			"timeupdated" "1462782631"
+		}
+		"beta"
+		{
+			"buildid" "6429"
+			"pwdrequired" "1"
+		}
+		"closedbeta"
+		{
+			"buildid" "1094577"
+			"pwdrequired" "1"
+			"timeupdated" "1461659322"
+		}
+		"internal"
+		{
+			"buildid" "1094577"
+			"pwdrequired" "1"
+			"timeupdated" "1461656015"
+		}
+		"legacyosx"
+		{
+			"buildid" "652468"
+			"description" "For Mac OS X 10.5 Leopard and 10.6 Snow Leopard"
+		}
+		"publicbeta"
+		{
+			"buildid" "1094577"
+			"description" "Public testing"
+			"timeupdated" "1461659349"
+		}
+		"safemode"
+		{
+			"buildid" "652468"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "783829a703a3970a2a3f0018be0eadc03220b4bc"
+"_size" "5335"
