@@ -1,0 +1,295 @@
+"appid" "1662140"
+"common"
+{
+	"name" "房地产大亨"
+	"type" "Game"
+	"name_localized"
+	{
+		"english" "Real estate tycoon"
+		"japanese" "不動産社長"
+		"tchinese" "房地產大亨"
+		"thai" "ผู้ประกอบการอสังหาริมทรัพย์"
+	}
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"logo" "f77c85b78956e1244cb76976b2fc0fbe6f048246"
+	"logo_small" "f77c85b78956e1244cb76976b2fc0fbe6f048246_thumb"
+	"icon" "c1551f624e1f94dd9d47389308c1b4283621403c"
+	"clienticon" "6aaf25918a5159f7a79bbc4812aea4d858a8045f"
+	"clienttga" "5dcc824d524035f028da6b0b699725c1d9b1fe9b"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1663632000"
+		"tested_build_id" "9299089"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"sc_schinese" "header_sc_schinese.jpg"
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "83.60465116279069"
+			"height_pct" "87.99572548088341"
+		}
+	}
+	"store_asset_mtime" "1660015796"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Double Eggs"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Double Eggs"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+		"3" "2"
+		"4" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1659700430"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "1662140"
+	"store_tags"
+	{
+		"0" "4328"
+		"1" "599"
+		"2" "1643"
+		"3" "4845"
+		"4" "4695"
+		"5" "5673"
+		"6" "8945"
+		"7" "492"
+		"8" "597"
+		"9" "9"
+		"10" "4191"
+		"11" "1695"
+		"12" "4791"
+		"13" "4182"
+		"14" "493"
+		"15" "1100687"
+		"16" "4598"
+		"17" "5395"
+		"18" "12095"
+	}
+	"review_score" "5"
+	"review_percentage" "68"
+}
+"extended"
+{
+	"gamedir" "CityGame"
+	"anti_cheat_support_url" ""
+	"developer" "Double Eggs"
+	"publisher" "Double Eggs"
+}
+"config"
+{
+	"installdir" "RealEstateTycoon"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CityGame.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Start game with DX11"
+			}
+			"description" "Start game with DX11"
+		}
+		"1"
+		{
+			"executable" "CityGame.exe"
+			"arguments" "-dx12"
+			"type" "option1"
+			"description_loc"
+			{
+				"english" "Start game with DX12"
+				"schinese" "使用DX12启动(AMD显卡选择这项启动游戏)"
+			}
+			"description" "Start game with DX12"
+		}
+	}
+	"uselaunchcommandline" "1"
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"hasdepotsindlc" "0"
+	"baselanguages" "english,schinese"
+	"workshopdepot" "1662140"
+	"1662141"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6366662768316252148"
+				"size" "6084085148"
+				"download" "5466894480"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "9EB403AA32EDBB6DF3BBC95E200770D6"
+				"size" "B72F0F80F2437AD6CF8C183299BA62BB"
+				"download" "01733A81DE393D0FF79DB85EA255D97F"
+			}
+			"citygamedev"
+			{
+				"gid" "50AB58F316D2C862EA7696DEC722DE96"
+				"size" "407AB8D92F5A0A2103F4B177A5EE2C12"
+				"download" "DB135D1761F857074EC555FE01998028"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9719848"
+			"timeupdated" "1665733141"
+		}
+		"beta"
+		{
+			"buildid" "9719848"
+			"pwdrequired" "1"
+			"timeupdated" "1665731451"
+		}
+		"citygamedev"
+		{
+			"buildid" "9627891"
+			"pwdrequired" "1"
+			"timeupdated" "1664550051"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "SavesDir/{64BitSteamID}"
+			"pattern" "*.sav"
+		}
+	}
+	"sync_while_suspended" "1"
+}
+"_missing_token" "False"
+"_change_number" "21136950"
+"_sha" "8be7b9056bca0fed8fc74d2d5703f34f62516525"
+"_size" "5542"
