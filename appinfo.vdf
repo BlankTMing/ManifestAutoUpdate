@@ -1,0 +1,114 @@
+"appid" "1260"
+"common"
+{
+	"name" "Killing Floor SDK"
+	"logo" "354c07a75cc16f6bf551b81d27f4eee3436fc2fb"
+	"logo_small" "354c07a75cc16f6bf551b81d27f4eee3436fc2fb_thumb"
+	"icon" "d8a2d777cb4c59cf06aa244166db232336520547"
+	"clienttga" "ea0745342d5415ac4b7e66a160294f6f99db097a"
+	"clienticon" "3b231267de8f8c9e628701668f44dbdf79ed605d"
+	"type" "Tool"
+	"gameid" "1260"
+}
+"extended"
+{
+	"developer" "Tripwire Interactive"
+	"gamedir" "KillingFloor"
+	"homepage" "http://www.killingfloorthegame.com"
+	"icon" ""
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "1261"
+	"serverbrowsername" ""
+	"state" "eStateTool"
+	"visibleonlywhensubscribed" "1"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "System\\KFEd.exe"
+			"description" "KillingFloorSDK"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "KillingFloor"
+}
+"depots"
+{
+	"1251"
+	{
+		"systemdefined" "1"
+		"depotfromapp" "1250"
+		"sharedinstall" "2"
+	}
+	"1252"
+	{
+		"systemdefined" "1"
+		"depotfromapp" "1250"
+		"sharedinstall" "2"
+	}
+	"1261"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3950411908659536035"
+				"size" "19874155"
+				"download" "5631264"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internalbeta"
+			{
+				"gid" "97E3455D400E433682EBD2E3E6E9A5FB"
+				"size" "2678B546579D134469B6CDCCFF760E08"
+				"download" "7015E05EFBE20AF44E99DBAA7E894C2D"
+			}
+			"internaltest"
+			{
+				"gid" "8ACB3B4573A9341F2A8AFF5BFE661702"
+				"size" "43F1FC4182B584E49AE0CC2D1FF2F440"
+				"download" "B2AA35627C33BF904AA4DDC84976269F"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1074380"
+			"timeupdated" "1461081381"
+		}
+		"internalbeta"
+		{
+			"buildid" "1074380"
+			"pwdrequired" "1"
+			"timeupdated" "1460647725"
+		}
+		"internaltest"
+		{
+			"buildid" "132659"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "21511503"
+"_sha" "fb533e0912d6d9b824729628cd0e9db582b15f38"
+"_size" "2053"
