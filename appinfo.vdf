@@ -1,0 +1,310 @@
+"appid" "1650550"
+"common"
+{
+	"name" "Workshop Simulator"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"logo" "ec2a69c1d9f76070fbe04e4d21c34f96147caa0f"
+	"logo_small" "ec2a69c1d9f76070fbe04e4d21c34f96147caa0f_thumb"
+	"icon" "86643911a812cee6c4e3cdf812a94226a7cb2bfb"
+	"clienticon" "f4932a99c65527389e5f73caebcd5b6c52ca5b48"
+	"clienttga" "f5506585464b58caf601f879f246e940b723b97b"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"schinese" "1"
+		"russian" "1"
+		"japanese" "1"
+		"polish" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1670976000"
+		"tested_build_id" "10089395"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+			}
+			"4"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-5"
+			"requires_h264" "1"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1646910583"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "INTERMARUM"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "INTERMARUM"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_18" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1646931471"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1650550"
+	"store_tags"
+	{
+		"0" "1702"
+		"1" "599"
+		"2" "4182"
+		"3" "3810"
+		"4" "1742"
+		"5" "4175"
+		"6" "1654"
+		"7" "9204"
+		"8" "3839"
+		"9" "5608"
+		"10" "4166"
+		"11" "4191"
+		"12" "5900"
+		"13" "1698"
+		"14" "6691"
+		"15" "7250"
+		"16" "6276"
+		"17" "14720"
+		"18" "3834"
+		"19" "1100687"
+	}
+	"review_score" "5"
+	"review_percentage" "65"
+}
+"extended"
+{
+	"developer" "INTERMARUM"
+	"publisher" "INTERMARUM"
+	"homepage" "https://intermarum.com/"
+}
+"config"
+{
+	"installdir" "Workshop Simulator"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "WS2020\\Binaries\\Win64\\Workshop-Win64-Shipping.exe"
+			"workingdir" "WS2020\\Binaries\\Win64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1650551"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6761179622989102934"
+				"size" "11124449099"
+				"download" "5958882400"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"contests"
+			{
+				"gid" "BDAF80BE979D18FCCC5AE6110B89C112"
+				"size" "FCF84B3B65C63183AE47C1252FA8A79E"
+				"download" "6EB2E5B07610F19C108E8321285F542D"
+			}
+			"development"
+			{
+				"gid" "5DBF98C0ED6D340EB6677137E1263385"
+				"size" "EF17024CEF1C9C83402AAD31D1EA88BC"
+				"download" "95BC67F1B71495B49744CFFB851E8EE1"
+			}
+			"stable"
+			{
+				"gid" "3E68C304F8BDCEDE1BDF588EB0249DE8"
+				"size" "D81325115AEF6CC53DFF8843AE9F7837"
+				"download" "E608DA79CEA62D62BC91F4F6A62F9B17"
+			}
+		}
+	}
+	"hasdepotsindlc" "0"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10089395"
+			"timeupdated" "1670343582"
+		}
+		"contests"
+		{
+			"buildid" "7435149"
+			"pwdrequired" "1"
+			"timeupdated" "1634133702"
+		}
+		"development"
+		{
+			"buildid" "11037820"
+			"pwdrequired" "1"
+			"timeupdated" "1681890021"
+		}
+		"stable"
+		{
+			"buildid" "10089395"
+			"pwdrequired" "1"
+			"timeupdated" "1676469581"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "WS2020/Saved/SaveGames"
+			"pattern" "*.sav"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21456240"
+"_sha" "3c0e1c98da7b704a9495d25d2d147e132c27e091"
+"_size" "5649"
