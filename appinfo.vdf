@@ -1,0 +1,263 @@
+"appid" "527750"
+"common"
+{
+	"name" "Merger 3D"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" ""
+	"clienticon" "040043e1c0502310dfcddafdab9f270ee8ce0673"
+	"clienttga" "59aabae408b3ba0239525492168476c4acc4a2cc"
+	"icon" "0d79bc2fafbf726e4e5ab17790ee772b2aa1ba8b"
+	"logo" "ae92d5a7cb84367b3c57394315de532cd11353e6"
+	"logo_small" "ae92d5a7cb84367b3c57394315de532cd11353e6_thumb"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1662681600"
+		"tested_build_id" "1384270"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"3"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Merger 3D"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50.46125461254613"
+			"height_pct" "92.36111111111111"
+		}
+	}
+	"store_asset_mtime" "1573472167"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Mahhaon"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Art-Arcade"
+		}
+		"2"
+		{
+			"type" "developer"
+			"name" "Sun Pixel"
+		}
+		"3"
+		{
+			"type" "publisher"
+			"name" "Sometimes You"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1475171428"
+	"community_hub_visible" "1"
+	"gameid" "527750"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "1663"
+		"3" "3964"
+		"4" "4004"
+		"5" "3839"
+	}
+	"review_score" "5"
+	"review_percentage" "43"
+}
+"extended"
+{
+	"developer" "Mahhaon"
+	"publisher" "Sometimes You"
+	"homepage" "http://www.SometimesYou.com/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Merger 3D"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Merger3D(16x9).bat"
+			"description" "16:9"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Merger3D(4x3).bat"
+			"description" "4:3"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"527751"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7999383968239107636"
+				"size" "10583796"
+				"download" "9924752"
+			}
+			"nomouse"
+			{
+				"gid" "8695873292968658138"
+				"size" "10583892"
+				"download" "9924992"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1384270"
+			"timeupdated" "1476123040"
+		}
+		"nomouse"
+		{
+			"buildid" "1439997"
+			"description" "No mouse"
+			"timeupdated" "1478266181"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "5"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "game1"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "game2"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "game3"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "game4"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21071044"
+"_sha" "97b9c21bd52fbc64c3f8fa61ff585ba1687ec604"
+"_size" "4439"
