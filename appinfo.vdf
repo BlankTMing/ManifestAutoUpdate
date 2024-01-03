@@ -1,0 +1,292 @@
+"appid" "367540"
+"common"
+{
+	"name" "Starbound - Unstable"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "53eb828591fb86c72358b7939dde633ba3e5c6c7"
+	"logo_small" "53eb828591fb86c72358b7939dde633ba3e5c6c7_thumb"
+	"icon" "9420b506fe5b00fd02d9005f1f5555358e3f71f7"
+	"clienticon" "6e639cd93b85ff89ca3aa26a6647cf1e77d95b36"
+	"clienttga" "df698f1444d635143bc6232196ca613090caf068"
+	"oslist" "windows,macos,linux"
+	"associations"
+	{
+	}
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "367540"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Starbound - Unstable"
+	"launch"
+	{
+		"4"
+		{
+			"executable" "linux/run-client.sh"
+			"workingdir" "linux/"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"5"
+		{
+			"executable" "osx/Starbound.app"
+			"workingdir" "osx/"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"6"
+		{
+			"executable" "win32/starbound.exe"
+			"workingdir" "win32"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"7"
+		{
+			"executable" "win64/starbound.exe"
+			"workingdir" "win64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"8"
+		{
+			"executable" "linux/run-server.sh"
+			"workingdir" "linux/"
+			"type" "server"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"9"
+		{
+			"executable" "osx/run-server.sh"
+			"workingdir" "osx/"
+			"type" "server"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"10"
+		{
+			"executable" "win32/starbound_server.exe"
+			"workingdir" "win32/"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"11"
+		{
+			"executable" "win64/starbound_server.exe"
+			"workingdir" "win64/"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"12"
+		{
+			"executable" "win64/mod_uploader.exe"
+			"description" "Launch Mod Uploader Tool"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"13"
+		{
+			"executable" "win32/starbound.exe"
+			"workingdir" "win32"
+			"description" "Play Starbound - Unstable (32-bit)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "367540"
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"367541"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5314278016833612663"
+				"size" "907077290"
+				"download" "688553360"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "A0DEBF2576164DB87442901DBAAD9E23"
+				"size" "FCD17FD9F8463B1352A0C9B47A79F00D"
+				"download" "97A3596A3A2BDAAB27E3252745922EB7"
+			}
+		}
+	}
+	"367542"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1875440133219195426"
+				"size" "357382444"
+				"download" "45384656"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "7DA373B0F5FFA80D8D6C9AA1F5E22D6E"
+				"size" "C02672BBE08332E266D867A65A2938EF"
+				"download" "C5EC1AB6DC2F2A36DD4F2BFD7F818F3A"
+			}
+		}
+	}
+	"367543"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2512121673430225319"
+				"size" "406280049"
+				"download" "58399424"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "6DE975155503239614EA92776530C328"
+				"size" "AE67E96E82BA8672E57E0C474104AD64"
+				"download" "01B473990575A1D37B6F4C0B22FE05FB"
+			}
+		}
+	}
+	"367544"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4387733111344821"
+				"size" "161447639"
+				"download" "26514528"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "172F7267FA1F99A1F348283F5A2BA29B"
+				"size" "1F6A120BB9378B59DE468138DD1566CC"
+				"download" "CB1FEEF49043E570807381C9F0C3E9EC"
+			}
+		}
+	}
+	"367545"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4279469541793236901"
+				"size" "219902104"
+				"download" "49857824"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "21633AD1A72503858B012653B86D3B2E"
+				"size" "CF5BAD7C65E619D8F8983320AFE3DB65"
+				"download" "8DE216F2151DB6687C2815B6D8CE81B1"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4027517"
+			"timeupdated" "1563554752"
+		}
+		"staging"
+		{
+			"buildid" "4027517"
+			"pwdrequired" "1"
+			"timeupdated" "1563553583"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "e5d360de8ae22edcddf2b49888577d9ad8673d3b"
+"_size" "4840"
