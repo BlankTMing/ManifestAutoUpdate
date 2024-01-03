@@ -1,0 +1,167 @@
+"appid" "8690"
+"common"
+{
+	"name" "STCC: The Game"
+	"logo" "0e70419edd2434aef790763d026e7d75a7d9052d"
+	"logo_small" "0e70419edd2434aef790763d026e7d75a7d9052d_thumb"
+	"icon" "ee464bbd11413db29255d2bd44963d401059d6ec"
+	"clienttga" "96f7ff46cb45d3d6932d0902eb0be0ed4394339f"
+	"clienticon" "993465d53bdc0c98e0834ebcf0edb0892d54aab5"
+	"type" "game"
+	"metacritic_name" "STCC - The Game 1 - Expansion Pack for RACE 07"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "SimBin"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SimBin"
+		}
+	}
+	"primary_genre" "9"
+	"genres"
+	{
+		"0" "9"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1224658800"
+	"steam_release_date" "1224709200"
+	"community_hub_visible" "1"
+	"gameid" "8690"
+	"store_tags"
+	{
+		"0" "699"
+		"1" "1100687"
+		"2" "599"
+	}
+	"review_score" "6"
+	"review_percentage" "72"
+}
+"extended"
+{
+	"developer" "SimBin"
+	"gamedir" "STCC - The Game"
+	"homepage" "http://game.stcc.se/"
+	"icon" ""
+	"loadallbeforelaunch" "1"
+	"mustownapptopurchase" "8600"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "8691"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"developer_url" "http://www.simbin.se/"
+	"publisher" "SimBin"
+}
+"config"
+{
+	"contenttype" "3"
+	"convertgcfs" "1"
+	"installdir" "race 07"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SteamExpansionApp.exe"
+			"arguments" "-appId 8690 -cmd skin=stcc"
+		}
+		"1"
+		{
+			"description" "Video and Language Options"
+			"executable" "SteamExpansionApp.exe"
+			"arguments" "-appId 8690 -cmd /launchconfig"
+		}
+		"2"
+		{
+			"description" "Competition Registration"
+			"executable" "SteamExpansionApp.exe"
+			"arguments" "-appId 8690 -cmd /launchregistration"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"8619"
+	{
+		"optional" "1"
+		"systemdefined" "1"
+		"depotfromapp" "8600"
+		"sharedinstall" "2"
+	}
+	"8691"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6613580545303197169"
+				"size" "896371676"
+				"download" "0"
+			}
+		}
+	}
+	"1004"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "8600"
+		"sharedinstall" "2"
+	}
+	"markdlcdepots" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11260"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19409305"
+"_sha" "12158cba49cbfe70fac5fb88d6472c9db2423cb7"
+"_size" "2813"
