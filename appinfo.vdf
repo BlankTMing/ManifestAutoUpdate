@@ -1,0 +1,913 @@
+"appid" "211050"
+"common"
+{
+	"name" "Battle vs Chess"
+	"type" "Game"
+	"clienticon" "b10758d898b5931a93150eed118eaa0e71ca5fe0"
+	"clienttga" "4da06986db79ebc24b2102e177eb96f258233559"
+	"icon" "d92c3df0ee7ac6cace3500936e08ec54d4b6e0d3"
+	"clienticns" "6e588b1b1f8ef88d13bdce6090b9aa00ac0abe14"
+	"logo" "414f45296e2bada3bd7d5283a090883bed4a4a3f"
+	"logo_small" "414f45296e2bada3bd7d5283a090883bed4a4a3f_thumb"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"osextended" "macos64,macosnotarized"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1678492800"
+		"tested_build_id" "3537277"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Battle vs Chess"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "57.92838874680308"
+			"height_pct" "66.66666666666669"
+		}
+	}
+	"store_asset_mtime" "1667484326"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Targem Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Topware Interactive ACE"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "4"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_27" "1"
+		"category_18" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"italian"
+		{
+			"supported" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+		}
+		"russian"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"polish"
+		{
+			"supported" "1"
+		}
+		"hungarian"
+		{
+			"supported" "1"
+		}
+		"czech"
+		{
+			"supported" "1"
+		}
+	}
+	"community_hub_visible" "1"
+	"gameid" "211050"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "4184"
+		"2" "597"
+		"3" "1770"
+		"4" "3859"
+		"5" "1677"
+		"6" "1741"
+	}
+	"review_score" "6"
+	"review_percentage" "73"
+}
+"extended"
+{
+	"developer" "Targem Games"
+	"gamedir" "Battle vs Chess"
+	"homepage" "http://www.battlevschess.com"
+	"icon" ""
+	"installscript" "bvsc_install.vdf"
+	"installscriptosx" "BattleVsChess.app/installscript_osx.vdf"
+	"installscript_macos" "BattleVsChess.app/installscript_osx.vdf"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp211050\\SteamKey"
+	"noservers" "1"
+	"order" "1"
+	"serverbrowsername" ""
+	"showcdkeyonlaunch" "1"
+	"state" "eStateAvailable"
+	"supportscdkeycopytoclipboard" "1"
+	"validoslist" "windows,macos"
+	"publisher" "Topware Interactive ACE"
+	"gamemanualurl" "https://store.steampowered.com/manual/211050/"
+	"listofdlc" "338920,339760,510140"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "battlevschess.exe"
+			"arguments" "-dlc00 data\\dlc\\dark_desert\\ -dlc01 data\\dlc\\floating_island\\ %1 %2 %3 %4 %5 %6 %7 %8 %9"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "BattleVsChess.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "RunGame"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "ddc.cmd"
+			"description" "Explore Premium Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "510140"
+			}
+		}
+		"4"
+		{
+			"executable" "ddc"
+			"description" "Explore Premium Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+				"ownsdlc" "510140"
+			}
+		}
+		"5"
+		{
+			"executable" "ddc_xdg"
+			"description" "Explore Premium Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"ownsdlc" "510140"
+			}
+		}
+		"6"
+		{
+			"executable" "RunGame"
+			"description" "MacOS Catalina"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Battle vs Chess"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" ""
+	"211051"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1640486740674015293"
+				"size" "903382319"
+				"download" "682370464"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "D9A21680F5B073A7942C2D8D67D95592"
+				"size" "B7ED3E4255E43AA5477BE95A3712C50A"
+				"download" "BF674C900BC97C1A77C240C544881E34"
+			}
+			"macbeta"
+			{
+				"gid" "157F922893D5840183479045FBBAC851"
+				"size" "9D513007B306D3951B9F91200C5B83D4"
+				"download" "5F7252DE34FBE0F9D15ECE6E3AEF9390"
+			}
+		}
+	}
+	"211052"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6209916124478031510"
+				"size" "865009904"
+				"download" "558918160"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "196C6102AAA2DFCA91181FCA9DF745E5"
+				"size" "ACE3190A8C4959826C6BCA6C641C0E9E"
+				"download" "7C6EC4098B5C0194BC5E2C862053354B"
+			}
+			"macbeta"
+			{
+				"gid" "92B7C37A3EA63F581308C5CFE2AA704E"
+				"size" "343FAE3A730CB0B4F41C0772280065AC"
+				"download" "05418242E62FAF1D323C50BAE5D7E0C7"
+			}
+		}
+	}
+	"211063"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1865771251690588293"
+				"size" "1807814454"
+				"download" "957132976"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "CC6ABA1A5422DCEFA05DB90A90987656"
+				"size" "15F96DBD7AFB591B375B4981C9E4B546"
+				"download" "E011C8E14D39869A9C179724478704AB"
+			}
+			"macbeta"
+			{
+				"gid" "4126A862D628CA3CA9EB7FE70E10AFC6"
+				"size" "AE65614329845F3ECEB7F0636AC528CF"
+				"download" "2CE54EC83F34CE6F274CB42E6330CB4A"
+			}
+		}
+	}
+	"211053"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6504700247299560054"
+				"size" "76947"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "B117A6AB02B9E7E97983F8606E247E3B"
+				"size" "5E01BD4F891E043D37303257498EF65E"
+				"download" "4F1A5F15B4F023AC1255EA072A7FCC49"
+			}
+			"macbeta"
+			{
+				"gid" "C2B59AF96DCF9535B1CD0C02B9E6EFC3"
+				"size" "E9313A05436C0D8CE7C757CA2E3C1184"
+				"download" "93FCB07BCCC12EA06F2EBF052AFAAAF2"
+			}
+		}
+	}
+	"211054"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4354976408492434036"
+				"size" "39091"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "B75ABA16AA20BDB6706675D71D9B932D"
+				"size" "8D45F6E72B72EE8BC72AFB69A10C1095"
+				"download" "4F1A5F15B4F023AC1255EA072A7FCC49"
+			}
+			"macbeta"
+			{
+				"gid" "D59EDF7700E4F4FD2642F8F53864C673"
+				"size" "B7504874CFFC075753046FADA26B137F"
+				"download" "93FCB07BCCC12EA06F2EBF052AFAAAF2"
+			}
+		}
+	}
+	"211055"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1413802145649566466"
+				"size" "38428"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "47B8E88945662EF4B35F945094DE5EC2"
+				"size" "10AC3CF0F644313553559A96A12285D3"
+				"download" "4F1A5F15B4F023AC1255EA072A7FCC49"
+			}
+			"macbeta"
+			{
+				"gid" "D1F59C71343636C7218E86577B9E2064"
+				"size" "D5E92B77EF6F67994615BB9714C30C3A"
+				"download" "93FCB07BCCC12EA06F2EBF052AFAAAF2"
+			}
+		}
+	}
+	"211056"
+	{
+		"config"
+		{
+			"language" "italian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4114400852932572823"
+				"size" "88985"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "63DEADC040FA4C3751845DE78DE2C659"
+				"size" "A6374513344B299C0B336B9ADCA56EAF"
+				"download" "4F1A5F15B4F023AC1255EA072A7FCC49"
+			}
+			"macbeta"
+			{
+				"gid" "0053C5025A34214F5C6DDD492AE70164"
+				"size" "8BA6E81BB5A3C4C1A75096D6CD8D4891"
+				"download" "93FCB07BCCC12EA06F2EBF052AFAAAF2"
+			}
+		}
+	}
+	"211057"
+	{
+		"config"
+		{
+			"language" "spanish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2776693206037877936"
+				"size" "86557"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "8D2A5378CD41F82FB2586ABF7C96F442"
+				"size" "20FAFCE95216CD8343F4DFE4B532A722"
+				"download" "4F1A5F15B4F023AC1255EA072A7FCC49"
+			}
+			"macbeta"
+			{
+				"gid" "3EA5CFE487215391F4A63C21A2048CBC"
+				"size" "C729799F5ECAA0D044906A049BEBCD03"
+				"download" "93FCB07BCCC12EA06F2EBF052AFAAAF2"
+			}
+		}
+	}
+	"211058"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "609684220643236125"
+				"size" "58580"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "520B83DDBCDA36CD09380E10B528B2C2"
+				"size" "D1F70744CE05BF891EEDA21FCB78E5A4"
+				"download" "4F1A5F15B4F023AC1255EA072A7FCC49"
+			}
+			"macbeta"
+			{
+				"gid" "8C2E3F459F30A19D65E8E36DDA1DAA90"
+				"size" "3DC7E5084CA8D5739D02ED09968CC448"
+				"download" "93FCB07BCCC12EA06F2EBF052AFAAAF2"
+			}
+		}
+	}
+	"211059"
+	{
+		"config"
+		{
+			"language" "polish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5048684518016802038"
+				"size" "21725"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "21BEF2C5E84DD3EACDC5E266B3E08F66"
+				"size" "B152D40F3E1A1686D0DE17347884F832"
+				"download" "4F1A5F15B4F023AC1255EA072A7FCC49"
+			}
+			"macbeta"
+			{
+				"gid" "F44A7BA8DA7B23E76B40BE19CE56D2BC"
+				"size" "871C24ED1AAED7F432C2CC905FB87214"
+				"download" "93FCB07BCCC12EA06F2EBF052AFAAAF2"
+			}
+		}
+	}
+	"211060"
+	{
+		"config"
+		{
+			"language" "czech"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5940690688915738549"
+				"size" "82536"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "0F58AA1C002C88FB50B306F8738A5184"
+				"size" "E183D1747704D9C7A5CCEF2E605EB2B4"
+				"download" "4F1A5F15B4F023AC1255EA072A7FCC49"
+			}
+			"macbeta"
+			{
+				"gid" "0E5094FE2F40B06BD7C26BDF4FA244AB"
+				"size" "C74C0AE50E391DA65B73858CAD989284"
+				"download" "93FCB07BCCC12EA06F2EBF052AFAAAF2"
+			}
+		}
+	}
+	"211061"
+	{
+		"config"
+		{
+			"language" "hungarian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5081489271410202319"
+				"size" "83902"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "9266F485F204082C330CE9AB7EF05284"
+				"size" "E19009E40DDC4F9F42D894EA2E1E7816"
+				"download" "4F1A5F15B4F023AC1255EA072A7FCC49"
+			}
+			"macbeta"
+			{
+				"gid" "8AE5C6DC0560194CFA13BC642A788A7B"
+				"size" "4A241A882ECF1A7ECBF3522098E535C3"
+				"download" "93FCB07BCCC12EA06F2EBF052AFAAAF2"
+			}
+		}
+	}
+	"338920"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"dlcappid" "338920"
+	}
+	"338921"
+	{
+		"dlcappid" "338920"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2333248467125791901"
+				"size" "45037128"
+				"download" "31608304"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "A23AFE9A100D8F086F7A67FCFF667EC2"
+				"size" "A8228DF8CA1CB3AC61FEEA3B1BEFDC6F"
+				"download" "D8A399010B66A1B8FA5221CA661D18B4"
+			}
+			"macbeta"
+			{
+				"gid" "38A86D638CEBCD04D3168F0425E1D8FE"
+				"size" "A6F4FDC0001A35A413B902400B1EE177"
+				"download" "C92B0ABE2A7081031661B598427406E6"
+			}
+		}
+	}
+	"339760"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"dlcappid" "339760"
+	}
+	"339761"
+	{
+		"dlcappid" "339760"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5899041064777203765"
+				"size" "53232600"
+				"download" "34761952"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "637481DAF065DDA0DE73797AE2DE86B4"
+				"size" "108C6F3195FD0AF39F4EC3603C7C4A18"
+				"download" "2AB973D117B81C525F9087C5CB77309A"
+			}
+			"macbeta"
+			{
+				"gid" "0E5612662FCE253523C37AF93CDF1054"
+				"size" "4B159B330F41AD26D7A4838C9E44F1EC"
+				"download" "90669D8F869F7C09524C56D382E0E110"
+			}
+		}
+	}
+	"211064"
+	{
+		"dlcappid" "338920"
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5042403101442670334"
+				"size" "45037128"
+				"download" "31608304"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "0A5D335F320E30F79534932AFB2FEBB5"
+				"size" "A8228DF8CA1CB3AC61FEEA3B1BEFDC6F"
+				"download" "D8A399010B66A1B8FA5221CA661D18B4"
+			}
+			"macbeta"
+			{
+				"gid" "D48AEC5AEC308FC894724FE9C2B799BC"
+				"size" "A6F4FDC0001A35A413B902400B1EE177"
+				"download" "C92B0ABE2A7081031661B598427406E6"
+			}
+		}
+	}
+	"211065"
+	{
+		"dlcappid" "339760"
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8833500025399566354"
+				"size" "53232600"
+				"download" "34761952"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "DD2FF62A82E20FB579DCE79A7244A0DE"
+				"size" "108C6F3195FD0AF39F4EC3603C7C4A18"
+				"download" "2AB973D117B81C525F9087C5CB77309A"
+			}
+			"macbeta"
+			{
+				"gid" "14B82D59AAC074CB48176BBE209894A5"
+				"size" "4B159B330F41AD26D7A4838C9E44F1EC"
+				"download" "90669D8F869F7C09524C56D382E0E110"
+			}
+		}
+	}
+	"211062"
+	{
+		"dlcappid" "510140"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8937038623999121099"
+				"size" "207089740"
+				"download" "178072944"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bvsclinuxbeta"
+			{
+				"gid" "D9E644661A0F8F49409F94AC31DEC3F2"
+				"size" "94BCE3B4804CFB69DD161101CD508752"
+				"download" "297860E5904C90C1FDD33C2B3EBEC7E6"
+			}
+			"macbeta"
+			{
+				"gid" "7D1813D9ABCDD89A43BA514FB4C95FF1"
+				"size" "8EC43A2C0159F4FAA42B0D94BB760F91"
+				"download" "00FB36D4E580AEC87CE2498778C0D636"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "6756286"
+			"timeupdated" "1623327399"
+		}
+		"bvsclinuxbeta"
+		{
+			"buildid" "8082347"
+			"pwdrequired" "1"
+			"timeupdated" "1643115129"
+		}
+		"macbeta"
+		{
+			"buildid" "4713780"
+			"pwdrequired" "1"
+			"timeupdated" "1582644122"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "My Games/battle vs chess/"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinMyDocuments"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "MyGames/battle vs chess/"
+					"replace" "My Games/battle vs chess/"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinMyDocuments"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "My Games/battle vs chess/"
+					"replace" "My Games/battle vs chess/"
+				}
+			}
+		}
+		"2"
+		{
+			"root" "WinMyDocuments"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "My Games/battle vs chess/"
+					"replace" "battle vs chess/"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "9af0de0e1e5aca737a88ebd563deb026e470c5fd"
+"_size" "17023"
