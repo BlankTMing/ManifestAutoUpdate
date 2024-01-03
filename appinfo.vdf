@@ -1,0 +1,421 @@
+"appid" "463690"
+"common"
+{
+	"name" "Total War™: WARHAMMER® - Assembly Kit BETA"
+	"type" "Tool"
+	"oslist" "windows"
+	"clienticon" "4073fc72f7d6714d1487e74277e0cdda33a2e4a1"
+	"clienttga" "f6db08231a6dbf535f90b63bb4e7ab23f7bbc44e"
+	"icon" "6d5daf8094f04d2b19e1b0d51416ef1cccedbec5"
+	"releasestate" "released"
+	"logo" "bf16478bfbe043fa7adcb24752ca88f005a0a269"
+	"logo_small" "bf16478bfbe043fa7adcb24752ca88f005a0a269_thumb"
+	"metacritic_name" "Total War™: WARHAMMER® - Assembly Kit"
+	"library_assets"
+	{
+		"library_hero" "en"
+	}
+	"store_asset_mtime" "1575478881"
+	"associations"
+	{
+	}
+	"gameid" "463690"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Total War WARHAMMER"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "assembly_kit\\binaries\\BOB.AssemblyKit.x64.exe"
+			"workingdir" "assembly_kit\\binaries"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Exporter: BOB"
+			}
+			"description" "Exporter: BOB"
+		}
+		"2"
+		{
+			"executable" "assembly_kit\\binaries\\TWeak.AssemblyKit.x64.exe"
+			"arguments" "/standalone TWaD"
+			"workingdir" "assembly_kit\\binaries"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Database Editor: Dave"
+			}
+			"description" "Database Editor: Dave"
+		}
+		"3"
+		{
+			"executable" "assembly_kit\\binaries\\TWeak.AssemblyKit.x64.exe"
+			"arguments" "/standalone terrainmetadataeditor"
+			"workingdir" "assembly_kit\\binaries"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Battle Map Editor: Terry"
+			}
+			"description" "Battle Map Editor: Terry"
+		}
+		"4"
+		{
+			"executable" "assembly_kit\\binaries\\browse.bat"
+			"arguments" "http://wiki.totalwar.com/w/Total_War_WARHAMMER_Assembly_Kit_Manual"
+			"workingdir" "assembly_kit\\binaries"
+			"description" "Battle Map Editor Documentation"
+			"type" "manual"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "crumpets"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"463691"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3731128065205421953"
+				"size" "415150143"
+				"download" "103405296"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bagels"
+			{
+				"gid" "E5452B15C32E31DF2B433665AA3EAF11"
+				"size" "E14D5A59A0B59A031AC9F1F045D6F28B"
+				"download" "4CB076A7B7B958DB81F2481017D2E6A5"
+			}
+			"bamboo"
+			{
+				"gid" "6B05C43FA53EA26BFD4E5C6A3AA424F4"
+				"size" "2BCB17A8E1B22916FFE78BB09B16F5A7"
+				"download" "C80D85DA8D2F310171031384998911AD"
+			}
+			"benchmark_nightly"
+			{
+				"gid" "487CA3EB3687947080A24D4216A936DF"
+				"size" "6B63E17E030F2BDCF3E88D53618E1835"
+				"download" "6BFA91B8C479D033CFE2AE2310322728"
+			}
+			"butterfly"
+			{
+				"gid" "A7CD882041B33C43B0F9FCB24D75F53B"
+				"size" "0910B33FB5BCF960E9CE118E6475FDE0"
+				"download" "2918F1B3B5B6CC31D23B21A2D13767C7"
+			}
+			"butterfly2"
+			{
+				"gid" "CDA2114D451D23A5E83EAFEA2FD272AA"
+				"size" "15C9B9B890C61556FF1B74992B3F0C92"
+				"download" "CCBFA0D652834609286E3104F0EAF0F3"
+			}
+			"carousel"
+			{
+				"gid" "7DA4C2ED4B3DB6C878A328AEB9725867"
+				"size" "E87CF28B2AA74B3617A086DBF4AC3AB2"
+				"download" "2A12D804E6209882BD73DF4305B33883"
+			}
+			"cascade"
+			{
+				"gid" "47545564193CA2343C0764A388627FA8"
+				"size" "E09A3F315C7CEA1ECB542B3122243713"
+				"download" "B4E91E8DE2F60144C401A6BE923D869D"
+			}
+			"cottage"
+			{
+				"gid" "73C48EAA09719BE63AC9DCA16766C327"
+				"size" "5A8BC17C60479BBF0D2EA91D75D9845C"
+				"download" "7C57BCD6334769FC6BF65CFE738B80D3"
+			}
+			"crumpets"
+			{
+				"gid" "725F3B68F8433DB5B5473A1EEC40069F"
+				"size" "DB0C187F5A5FBC173120B5A20E3A4CDB"
+				"download" "6136A135E64E1BCA42C0A4EC9C32BDCC"
+			}
+			"crumpets2"
+			{
+				"gid" "406978D3FDE7AF2844C2B3084DF79D04"
+				"size" "A9645EEFBB550D6C54FC65B456D6F6E0"
+				"download" "662CD898C79FAD9AFAD6D53588F9083F"
+			}
+			"cw_nightly"
+			{
+				"gid" "AD18DEDE86A92E2B677F34ADC9523E47"
+				"size" "3E79015AB4E28C4EFCDB04D23DA73C58"
+				"download" "C6D449AF6A4973783F8091DC87C114E5"
+			}
+			"cw_release"
+			{
+				"gid" "10C8027A29F82C4091E45A1ECA0ADCC7"
+				"size" "6D654B8CCED5876D4D30F797F17B3D0B"
+				"download" "A1FC48B10A441907E0F069B6B9124019"
+			}
+			"dev_test"
+			{
+				"gid" "A39FECAA2814D90E08843194917AA6D0"
+				"size" "4BDEB33EA7AB2995BB77E66EF8A90B53"
+				"download" "913410F30021A36445C721481994ED33"
+			}
+			"modsquad"
+			{
+				"gid" "69DC5E50D7AFA6E7A0238C72ED727D6A"
+				"size" "FE844FCFC5BD9275D44E60C7F4C484D0"
+				"download" "C856C90D55ECD26F21C9FFF623FB4800"
+			}
+			"nightly"
+			{
+				"gid" "F17A1766B3C78993C4286A3382BAADE9"
+				"size" "17F2D0F1D40E4720F3452A5774DBBC5D"
+				"download" "D6F758B123A19AAC71E0379D28305391"
+			}
+			"poppy"
+			{
+				"gid" "A43D03DA3EA00233000C631A3CDE5B54"
+				"size" "30A0FB5832767E79AF0A66FAD13C0E61"
+				"download" "87D6B7E55FAD2F296A4B2C1B50794E73"
+			}
+			"release_candidate"
+			{
+				"gid" "227A8D068616E43F2F9772DD27F90374"
+				"size" "B92ADF8880E88653833EDA9D89198A3E"
+				"download" "F092A5DC48A379F825470FC0473243F6"
+			}
+			"review"
+			{
+				"gid" "8E98BD874E81A645DACCE1B16A3E1449"
+				"size" "667ADF9AB275E3A3579BD94BF006100B"
+				"download" "1EDB49F9A7C2652B66C70CC79B5F6AA7"
+			}
+			"sega_qa"
+			{
+				"gid" "39A23E84488893A4FBC530B95E1FEE3C"
+				"size" "8BB8F33CA03C38E87FFDC324C225D530"
+				"download" "4AD5845B121E9C30045634B2F32457AB"
+			}
+			"tulip"
+			{
+				"gid" "6C1C53B25844D2B08C7E66CA879DCA1F"
+				"size" "04170EE63D1DCC76F3DAAF6BB062A055"
+				"download" "BE7683A5CF89D3839E4FC9F4C59A0D2A"
+			}
+			"tulip2"
+			{
+				"gid" "7A99FBC6D469769A25E134E7D697C93F"
+				"size" "CF3C0E42D4B2D396C527B527721D8F1A"
+				"download" "2C457372E1453BD97C13710F28ACDD42"
+			}
+			"waterfall"
+			{
+				"gid" "DE3D80F12646A218A8E92DA4623A37F4"
+				"size" "F7FCF5DA0FB2F0873EDD5F0995014B72"
+				"download" "8B9048EA55774454ABB4A700098C0084"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11031264"
+			"timeupdated" "1692882024"
+		}
+		"bagels"
+		{
+			"buildid" "7689175"
+			"pwdrequired" "1"
+			"timeupdated" "1636548951"
+		}
+		"bamboo"
+		{
+			"buildid" "3028037"
+			"pwdrequired" "1"
+			"timeupdated" "1534158785"
+		}
+		"benchmark_nightly"
+		{
+			"buildid" "1169528"
+			"pwdrequired" "1"
+			"timeupdated" "1465356283"
+		}
+		"butterfly"
+		{
+			"buildid" "1352436"
+			"pwdrequired" "1"
+			"timeupdated" "1474601523"
+		}
+		"butterfly2"
+		{
+			"buildid" "1304069"
+			"pwdrequired" "1"
+			"timeupdated" "1472650651"
+		}
+		"carousel"
+		{
+			"buildid" "1281576"
+			"pwdrequired" "1"
+			"timeupdated" "1471320796"
+		}
+		"cascade"
+		{
+			"buildid" "1550259"
+			"pwdrequired" "1"
+			"timeupdated" "1483510395"
+		}
+		"cottage"
+		{
+			"buildid" "1222568"
+			"pwdrequired" "1"
+			"timeupdated" "1468269884"
+		}
+		"crumpets"
+		{
+			"buildid" "1721596"
+			"pwdrequired" "1"
+			"timeupdated" "1490765348"
+		}
+		"crumpets2"
+		{
+			"buildid" "1592485"
+			"pwdrequired" "1"
+			"timeupdated" "1485445385"
+		}
+		"cw_nightly"
+		{
+			"buildid" "8452851"
+			"pwdrequired" "1"
+			"timeupdated" "1648488154"
+		}
+		"cw_release"
+		{
+			"buildid" "11031264"
+			"pwdrequired" "1"
+			"timeupdated" "1681835186"
+		}
+		"dev_test"
+		{
+			"buildid" "1213150"
+			"pwdrequired" "1"
+			"timeupdated" "1467741079"
+		}
+		"modsquad"
+		{
+			"buildid" "1138347"
+			"pwdrequired" "1"
+			"timeupdated" "1464017793"
+		}
+		"nightly"
+		{
+			"buildid" "1196546"
+			"pwdrequired" "1"
+			"timeupdated" "1466739989"
+		}
+		"poppy"
+		{
+			"buildid" "1332027"
+			"pwdrequired" "1"
+			"timeupdated" "1473736903"
+		}
+		"release_candidate"
+		{
+			"buildid" "3028037"
+			"pwdrequired" "1"
+			"timeupdated" "1536230391"
+		}
+		"review"
+		{
+			"buildid" "1120527"
+			"pwdrequired" "1"
+			"timeupdated" "1462947136"
+		}
+		"sega_qa"
+		{
+			"buildid" "1994222"
+			"pwdrequired" "1"
+			"timeupdated" "1501240506"
+		}
+		"tulip"
+		{
+			"buildid" "1396236"
+			"pwdrequired" "1"
+			"timeupdated" "1476708822"
+		}
+		"tulip2"
+		{
+			"buildid" "1396236"
+			"pwdrequired" "1"
+			"timeupdated" "1476783146"
+		}
+		"waterfall"
+		{
+			"buildid" "1550186"
+			"pwdrequired" "1"
+			"timeupdated" "1483503568"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21092483"
+"_sha" "163278dbc46255759541ab038f87d2fc269b1c48"
+"_size" "9080"
