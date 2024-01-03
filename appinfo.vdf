@@ -1,0 +1,238 @@
+"appid" "1431100"
+"common"
+{
+	"name" "RollerBaller"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"logo" "35cb4407d42f653623e1153a087871cb0d41a0c7"
+	"logo_small" "35cb4407d42f653623e1153a087871cb0d41a0c7_thumb"
+	"icon" "1c5cd417a698cef56c505e44a9a2881b62fe7a76"
+	"clienticon" "d6fa043b395f0b1882570c9769103cef76c897d5"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1613419888"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "RedKar Devs"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Unknown Studios"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "RedKar Devs"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "9"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1605383100"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1431100"
+	"exfgls" "1"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "597"
+		"2" "699"
+		"3" "1773"
+		"4" "3834"
+		"5" "5395"
+		"6" "5652"
+		"7" "3877"
+		"8" "8666"
+		"9" "4191"
+		"10" "4305"
+		"11" "4252"
+		"12" "4166"
+		"13" "1751"
+		"14" "5350"
+		"15" "4136"
+		"16" "1654"
+		"17" "1644"
+		"18" "3968"
+		"19" "4182"
+	}
+	"review_score" "7"
+	"review_percentage" "80"
+}
+"extended"
+{
+	"developer" "RedKar Devs"
+	"publisher" "RedKar Devs"
+	"isfreeapp" "1"
+}
+"config"
+{
+	"installdir" "RollerBaller"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "RollerBaller.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "3"
+	"steamcontrollertouchtemplateindex" "8"
+	"steamconfigurator3rdpartynative" "65535"
+}
+"depots"
+{
+	"1431101"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1673041383007995667"
+				"size" "986516969"
+				"download" "260960320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "1F3DCC693276073F0B411CD6A7ED909C"
+				"size" "D7469ECCA148C9146F9C6D0D3D774315"
+				"download" "564635CD9D30B9C1DC5615420FAFB8CB"
+			}
+		}
+	}
+	"workshopdepot" "0"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "6243936"
+			"timeupdated" "1613431512"
+		}
+		"beta"
+		{
+			"buildid" "6243569"
+			"pwdrequired" "1"
+			"timeupdated" "1613423811"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Redkar Limited/RollerBaller/Saves"
+			"pattern" "*.dat"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Redkar Limited/RollerBaller/Saves"
+					"replace" "Redkar Limited/RollerBaller/Saves"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Redkar Limited/RollerBaller/Saves"
+					"replace" ".config/unity3d/Redkar Limited/RollerBaller/Saves"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21559322"
+"_sha" "5e65f7daa27bb61ad312cfaad7fdaf45905a9062"
+"_size" "3856"
