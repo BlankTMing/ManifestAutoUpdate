@@ -1,0 +1,223 @@
+"appid" "817480"
+"common"
+{
+	"name" "Total War Saga: Thrones of Britannia - Assembly Kit BETA"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"clienticon" "4073fc72f7d6714d1487e74277e0cdda33a2e4a1"
+	"clienttga" "f6db08231a6dbf535f90b63bb4e7ab23f7bbc44e"
+	"icon" "6d5daf8094f04d2b19e1b0d51416ef1cccedbec5"
+	"metacritic_name" "Total War Saga: Thrones of Britannia - Assembly Kit BETA"
+	"library_assets"
+	{
+		"library_hero" "en"
+	}
+	"store_asset_mtime" "1575478866"
+	"associations"
+	{
+		"0"
+		{
+			"type" "franchise"
+			"name" "Total War"
+		}
+	}
+	"gameid" "817480"
+}
+"config"
+{
+	"installdir" "Total War Saga Thrones of Britannia"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "assembly_kit\\binaries\\TWeak.AssemblyKit.exe"
+			"arguments" "/standalone totalwardatabase"
+			"workingdir" "assembly_kit\\binaries"
+			"description" "Database Editor: Dave"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "assembly_kit\\binaries\\TWeak.AssemblyKit.exe"
+			"arguments" "/standalone terrainmetadataeditor"
+			"workingdir" "assembly_kit\\binaries"
+			"description" "Battle Map Editor: Terry"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "deactivated"
+			}
+		}
+		"3"
+		{
+			"executable" "assembly_kit\\binaries\\BOB.AssemblyKit.exe"
+			"workingdir" "assembly_kit\\binaries"
+			"description" "Data Exporter: BOB"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "assembly_kit\\binaries\\TEd.AssemblyKit.exe"
+			"workingdir" "assembly_kit\\binaries"
+			"description" "TEd"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"817481"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4074723242274715805"
+				"size" "3290558352"
+				"download" "694895344"
+			}
+			"allegiance_patch"
+			{
+				"gid" "5738261842482640852"
+				"size" "4791956645"
+				"download" "868047056"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ak_test"
+			{
+				"gid" "E8B8A8C00AA5CFDD8B0B9C06F298A240"
+				"size" "43345E02CE3170312BA600A1BF06312C"
+				"download" "D8923587D4C5D72C77FB6CCFEF438883"
+			}
+			"allegiance_1"
+			{
+				"gid" "2C9AF8915607CCBA557BB6A17B4033BB"
+				"size" "34B91ED1076B7AB32A45032EFDFCD0B7"
+				"download" "F11971FFC66D8CBBAA8034BAAA71D586"
+			}
+			"cranberry"
+			{
+				"gid" "988CF080418341C5CF7BA443E89D0A0D"
+				"size" "2010348A97FE3AB029ABA152623F7192"
+				"download" "F56F8AD1AEE3477EFE1F22A71DB61B73"
+			}
+			"nightly"
+			{
+				"gid" "02E66347D30531D273EC6154C40E2BC1"
+				"size" "27C05F9A14BFB7711A3483259270893D"
+				"download" "2E70F372D93628D34A7385A3BF25EB73"
+			}
+			"trifle"
+			{
+				"gid" "FFA29561F37ABB539FCB0A0C8005C94B"
+				"size" "FADA3AAEBC629EFD25FCCE51AD1AB51E"
+				"download" "016E79515F0E974614B48C62C94990F3"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5296335"
+			"timeupdated" "1595325605"
+		}
+		"ak_test"
+		{
+			"buildid" "5296335"
+			"pwdrequired" "1"
+			"timeupdated" "1594904828"
+		}
+		"allegiance_1"
+		{
+			"buildid" "3068537"
+			"pwdrequired" "1"
+			"timeupdated" "1535445030"
+		}
+		"allegiance_patch"
+		{
+			"buildid" "3068537"
+			"description" "allegiance_patch"
+			"timeupdated" "1545293268"
+		}
+		"cranberry"
+		{
+			"buildid" "3454359"
+			"pwdrequired" "1"
+			"timeupdated" "1547043080"
+		}
+		"nightly"
+		{
+			"buildid" "3079578"
+			"pwdrequired" "1"
+			"timeupdated" "1535667637"
+		}
+		"trifle"
+		{
+			"buildid" "3035267"
+			"pwdrequired" "1"
+			"timeupdated" "1534411212"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19574281"
+"_sha" "227ef23247c366ed412e8972959611bff1c858e2"
+"_size" "4277"
