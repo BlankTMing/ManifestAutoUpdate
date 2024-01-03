@@ -1,0 +1,206 @@
+"appid" "550580"
+"common"
+{
+	"name" "Sticker Craft"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"icon" "48faffe451bd126ed437e2df80182fb2b050ec45"
+	"logo" "9cba9fcd22c0edad1fb391fc033290721782d173"
+	"logo_small" "9cba9fcd22c0edad1fb391fc033290721782d173_thumb"
+	"clienticon" "6474a646cb0f52dcfcf6542eb218a9e8a8f074e5"
+	"clienticns" "325b7b4a5e26e2170bc5dbb34967212fbb71b7a9"
+	"clienttga" "1a62180a201c6f60cdc9ce1bb7167f7070b5b093"
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+	}
+	"metacritic_name" "Sticker Craft"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1484649925"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Two More Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Two More Games"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_22" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1485504000"
+	"steam_release_date" "1484860458"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "550580"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "492"
+	}
+	"review_score" "6"
+	"review_percentage" "76"
+}
+"extended"
+{
+	"developer" "Two More Games"
+	"publisher" "Two More Games"
+}
+"config"
+{
+	"installdir" "Sticker Craft"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "StickerCraft_Steam.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,russian"
+	"550581"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6543744450841738148"
+				"size" "18625434"
+				"download" "13429184"
+			}
+			"publicbeta"
+			{
+				"gid" "6543744450841738148"
+				"size" "18625434"
+				"download" "13429184"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1597768"
+			"timeupdated" "1486050233"
+		}
+		"publicbeta"
+		{
+			"buildid" "1597768"
+			"timeupdated" "1485717302"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "20000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "StickerCraft_Steam"
+			"pattern" "*.ini"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "MacHome"
+			"path" "Library/Application Support/com.eikosol.scmac"
+			"pattern" "*.ini"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "StickerCraft_Steam"
+					"replace" "Library/Application Support/com.eikosol.scmac"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "MacHome"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinAppDataLocal"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Library/Application Support/com.eikosol.scmac"
+					"replace" "StickerCraft_Steam"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20447733"
+"_sha" "ff4ff9ee8e904c7e7b8da4940a7c058f8a69c550"
+"_size" "3335"
