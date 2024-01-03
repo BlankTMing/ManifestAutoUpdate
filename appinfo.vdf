@@ -1,0 +1,664 @@
+"appid" "834910"
+"common"
+{
+	"name" "ATLAS"
+	"type" "Game"
+	"logo" "6a8345f4a9640238c1e5d6ec1f491fe3053cbf1f"
+	"logo_small" "6a8345f4a9640238c1e5d6ec1f491fe3053cbf1f_thumb"
+	"icon" "1e6ea0c1ac52eaed07ae7ec957182948de938505"
+	"clienttga" "925998c43409b30cc277ed566d6e427243a084be"
+	"clienticon" "020fbbce077387dc8bf6d45ac30ac3f8f9b946d8"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1645660800"
+		"tested_build_id" "7694741"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "ATLAS"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "42"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1666906055"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Grapeshot Games"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Instinct Games"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Grapeshot Games"
+		}
+		"3"
+		{
+			"type" "publisher"
+			"name" "Snail Games USA"
+		}
+		"4"
+		{
+			"type" "franchise"
+			"name" "Grapeshot Games"
+		}
+	}
+	"primary_genre" "29"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "29"
+		"3" "3"
+		"4" "70"
+	}
+	"category"
+	{
+		"category_36" "1"
+		"category_20" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_30" "1"
+		"category_17" "1"
+		"category_2" "1"
+		"category_1" "1"
+		"category_28" "1"
+		"category_49" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+		}
+		"ukrainian"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1545508800"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "834910"
+	"store_tags"
+	{
+		"0" "1662"
+		"1" "1695"
+		"2" "1681"
+		"3" "13577"
+		"4" "21"
+		"5" "128"
+		"6" "1702"
+		"7" "4994"
+		"8" "493"
+		"9" "3843"
+		"10" "122"
+		"11" "3859"
+		"12" "1754"
+		"13" "3834"
+		"14" "3810"
+		"15" "7332"
+		"16" "19"
+		"17" "1775"
+		"18" "1685"
+		"19" "6730"
+	}
+	"review_score" "5"
+	"review_percentage" "47"
+}
+"extended"
+{
+	"anti_cheat_support_url" ""
+	"developer" "Grapeshot Games"
+	"publisher" "Grapeshot Games"
+	"homepage" "http://playatlas.com"
+	"listofdlc" "1129370"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "ATLAS"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ShooterGame\\Binaries\\Win64\\AtlasGame_BE.exe"
+			"workingdir" "ShooterGame\\Binaries\\Win64"
+			"description" "Play ATLAS"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "ShooterGame\\Binaries\\Win64\\AtlasGame_BE.exe"
+			"arguments" "-lowmemorymode"
+			"workingdir" "ShooterGame\\Binaries\\Win64"
+			"description" "Play ATLAS (Low Memory Mode)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "ShooterGame\\Binaries\\Win64\\AtlasGame.exe"
+			"workingdir" "ShooterGame\\Binaries\\Win64"
+			"description" "Play ATLAS (No BattlEye)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "PTR\\ShooterGame\\Binaries\\Win64\\AtlasGame.exe"
+			"workingdir" "PTR\\ShooterGame\\Binaries\\Win64\\"
+			"description" "Play ATLAS Public Test Realm"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"ownsdlc" "1113610"
+			}
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "834910"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228984"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"834911"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2951932169882106765"
+				"size" "133411421356"
+				"download" "46502378416"
+			}
+			"nomemoryleaks"
+			{
+				"gid" "2681120544113875062"
+				"size" "133402933361"
+				"download" "46496890512"
+			}
+			"publictestrealm"
+			{
+				"gid" "7527288885815101296"
+				"size" "132443672096"
+				"download" "46213368208"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alphabuild"
+			{
+				"gid" "B59C1ACAE91AD3508150FA5EB697C7F6"
+				"size" "04221BA3EE46E4899A4D61EDA0837591"
+				"download" "E2532BF999ED1E249E02719071333797"
+			}
+			"crash103752"
+			{
+				"gid" "3F77842DC1C6C278730CE80C48CA407E"
+				"size" "10E5F0076CF0D4298B4C8956D8ABE966"
+				"download" "A5F20A5C0353263FBC13DE01B9A90FBF"
+			}
+			"crash103757"
+			{
+				"gid" "48D7E346DA242D67134021584C449128"
+				"size" "6AB96767A98FCFBF9A081EE102E5C130"
+				"download" "87D846939034694381959C0B2358D484"
+			}
+			"crash103758"
+			{
+				"gid" "9DC0E56B444BD1A965A5A939C62628EA"
+				"size" "964218E21360936F8D6BC1F271C9ECDB"
+				"download" "2CC7D864221A7371010AD04FCFB386D7"
+			}
+			"crash103765"
+			{
+				"gid" "04F811749887BE5C44567096B210969F"
+				"size" "055B8EB6EE172AB0300356F112A0B363"
+				"download" "18749360B1B5D74F1CE9EB8AAAB3D448"
+			}
+			"decembertestersbranch"
+			{
+				"gid" "038C50531EC6A08AFA8312871BC4DF0A"
+				"size" "6BFB81E1E0E5E86EE2A07DE4AC7BBFD6"
+				"download" "70201987BE2B781B6AB06C3F93528261"
+			}
+			"finaltrail"
+			{
+				"gid" "2BDFC192FBF8094F0E875DED41D34659"
+				"size" "862483B3EB31259D92DCF8054F956B89"
+				"download" "886F1EAA0BB17896889DD41937A5042C"
+			}
+			"forevzatest"
+			{
+				"gid" "2745CC03531E0A850AEA75BE443392C7"
+				"size" "6EC2B0816A04E8A09595B551A100505A"
+				"download" "4C858A91EE43093D5B66E262728DBE79"
+			}
+			"latesttest"
+			{
+				"gid" "8FE84F5C19DDBDC9C647EF0260A8CF4B"
+				"size" "7F10129A04B8C81F4299993FC0BF458A"
+				"download" "CC8B15A9A198AA64AC7DF930D293B697"
+			}
+			"livebuild2"
+			{
+				"gid" "124D5F698A356D6DC6B3BA70CCBDB5A3"
+				"size" "D07757597919E0AE735720CFC76D754D"
+				"download" "844782270583EE9CA1E04151BA9CDDE0"
+			}
+			"newtest"
+			{
+				"gid" "E6800AE3BCC5C006457D87DEC6325EC4"
+				"size" "70F96BA724DAD7977E5BEDB2D3F7D64E"
+				"download" "7F2009FFF70A9389B392B69A6E92CB61"
+			}
+			"nvidiabuild"
+			{
+				"gid" "ADB6B7E32439FF1AA93A241FC48B8CFE"
+				"size" "FF14774ABD2CD1201CD1897DB99FE22E"
+				"download" "CCE178F908643E7D284E4F3B97BE0E1E"
+			}
+			"prelaunchplayers"
+			{
+				"gid" "08C24B28A4A4CF763EA5A172F40F3CFC"
+				"size" "572156C5CB51522BB0C64FF3D627433D"
+				"download" "61386208082747190DF4589E773C902C"
+			}
+			"robthevanquisher"
+			{
+				"gid" "0CD522B9CCB93C45748656357426B85A"
+				"size" "A3316311323A9A37C854F743C4EF5304"
+				"download" "E4858DDBB069697062B9B01D2780A573"
+			}
+			"test2021"
+			{
+				"gid" "7A8F77BDD9F4D8F82A305EB5F07CF1A5"
+				"size" "F510701334364907979C97E4128479CA"
+				"download" "0BBA5207C42DBD29BF4D92F21472D42D"
+			}
+			"testbranch"
+			{
+				"gid" "BDA063564056B299C1DD700BDFC5DD91"
+				"size" "7465D56B891D09ABB7068E36F2CB9AF2"
+				"download" "F66FAD1BE9790BD414896CFEF3D847A6"
+			}
+			"testbranchinstinct"
+			{
+				"gid" "782D5D2DCF05BE7F96D3300B8860E8D1"
+				"size" "99DCD767CFEAEFC788EC89D41DD45DCA"
+				"download" "1293840D6152CC62A387E0BBA02081D5"
+			}
+			"testlatest"
+			{
+				"gid" "ECD25B6B8A4880B3FB6905640D3024FB"
+				"size" "78CE885DAE02206BFCA04F87E0B309A6"
+				"download" "3AB1100A32A985F8667D0C6E7D98DF72"
+			}
+			"testnewest"
+			{
+				"gid" "F385CCF4DF64B0627F275E6C6346D004"
+				"size" "4E87116761975DAC9323022D7E82AEDE"
+				"download" "3CEFB13344C14DB4E8FFF41E2CCC348E"
+			}
+			"trailerbranchnew"
+			{
+				"gid" "86C91F1FFAA8EE55B470972A7D7BB2BA"
+				"size" "16EE6B73EB47001ADF579693E4765DCC"
+				"download" "E78F59CE7C98071BE4E1F26D6AB0F9AF"
+			}
+		}
+	}
+	"834912"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+	}
+	"834913"
+	{
+		"dlcappid" "1113610"
+	}
+	"1129370"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1114366802746681829"
+				"size" "6804221460"
+				"download" "1855016864"
+			}
+			"nomemoryleaks"
+			{
+				"gid" "1114366802746681829"
+				"size" "6804221460"
+				"download" "1855016864"
+			}
+			"publictestrealm"
+			{
+				"gid" "1114366802746681829"
+				"size" "6804221460"
+				"download" "1855016864"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"finaltrail"
+			{
+				"gid" "C89F225EFAF33E370EE76DBEFDD81568"
+				"size" "598F61D0B7C7F5F7141EC073B3AE0FB8"
+				"download" "A747D271F9B7ACBAF3B4396A5F4329A0"
+			}
+			"newtest"
+			{
+				"gid" "1875B521A809EA37AD617111B3A062A2"
+				"size" "16CBBE6E6442A9912CD637CA34750EA8"
+				"download" "3880169FA3475CAAEE4C4D48A22EAA04"
+			}
+			"test2021"
+			{
+				"gid" "0E8DE931525B8BEE7599E2FE29311781"
+				"size" "1B408DDC50FE5C94FDC2B5BC3DFA0629"
+				"download" "41CDAB1AA56D554BEF93A2B9ACB41D28"
+			}
+			"testlatest"
+			{
+				"gid" "3ED3FC16CD897DF8620A95358914379C"
+				"size" "436487CED0ABEB1009414758DA5B1281"
+				"download" "5C74D7B29ADF65D2EC2E575D885C4443"
+			}
+			"testnewest"
+			{
+				"gid" "2022804A702892207B34D2E255F0FDE0"
+				"size" "E3C64A36A1898AA8C58ABA2A1EA0938C"
+				"download" "A03447969E2EF48646F5EEFAB2EFA15D"
+			}
+		}
+		"dlcappid" "1129370"
+	}
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam,vietnamese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11309919"
+			"timeupdated" "1685473246"
+		}
+		"alphabuild"
+		{
+			"buildid" "3014952"
+			"pwdrequired" "1"
+			"timeupdated" "1533715958"
+		}
+		"crash103752"
+		{
+			"buildid" "3393090"
+			"pwdrequired" "1"
+			"timeupdated" "1544688974"
+		}
+		"crash103757"
+		{
+			"buildid" "3393787"
+			"pwdrequired" "1"
+			"timeupdated" "1544704245"
+		}
+		"crash103758"
+		{
+			"buildid" "3393271"
+			"pwdrequired" "1"
+			"timeupdated" "1544694490"
+		}
+		"crash103765"
+		{
+			"buildid" "3392939"
+			"pwdrequired" "1"
+			"timeupdated" "1544684430"
+		}
+		"decembertestersbranch"
+		{
+			"buildid" "3423764"
+			"pwdrequired" "1"
+			"timeupdated" "1545516299"
+		}
+		"finaltrail"
+		{
+			"buildid" "4237964"
+			"pwdrequired" "1"
+			"timeupdated" "1569644472"
+		}
+		"forevzatest"
+		{
+			"buildid" "3396373"
+			"pwdrequired" "1"
+			"timeupdated" "1544759098"
+		}
+		"latesttest"
+		{
+			"buildid" "3219486"
+			"pwdrequired" "1"
+			"timeupdated" "1539786353"
+		}
+		"livebuild2"
+		{
+			"buildid" "3152453"
+			"pwdrequired" "1"
+			"timeupdated" "1537824860"
+		}
+		"newtest"
+		{
+			"buildid" "4237964"
+			"pwdrequired" "1"
+			"timeupdated" "1675286133"
+		}
+		"nomemoryleaks"
+		{
+			"buildid" "10869203"
+			"timeupdated" "1680723871"
+		}
+		"nvidiabuild"
+		{
+			"buildid" "3412973"
+			"pwdrequired" "1"
+			"timeupdated" "1545246077"
+		}
+		"prelaunchplayers"
+		{
+			"buildid" "3423047"
+			"pwdrequired" "1"
+			"timeupdated" "1545483930"
+		}
+		"publictestrealm"
+		{
+			"buildid" "10131726"
+			"timeupdated" "1671478069"
+		}
+		"robthevanquisher"
+		{
+			"buildid" "3233474"
+			"pwdrequired" "1"
+			"timeupdated" "1540143457"
+		}
+		"test2021"
+		{
+			"buildid" "11309919"
+			"pwdrequired" "1"
+			"timeupdated" "1684957701"
+		}
+		"testbranch"
+		{
+			"buildid" "3412973"
+			"pwdrequired" "1"
+			"timeupdated" "1545246180"
+		}
+		"testbranchinstinct"
+		{
+			"buildid" "3356768"
+			"pwdrequired" "1"
+			"timeupdated" "1543630221"
+		}
+		"testlatest"
+		{
+			"buildid" "6083931"
+			"pwdrequired" "1"
+			"timeupdated" "1610658740"
+		}
+		"testnewest"
+		{
+			"buildid" "6000903"
+			"pwdrequired" "1"
+			"timeupdated" "1608618200"
+		}
+		"trailerbranchnew"
+		{
+			"buildid" "3412973"
+			"pwdrequired" "1"
+			"timeupdated" "1545246277"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+}
+"_missing_token" "False"
+"_change_number" "20278577"
+"_sha" "c7f5f0eadf38a0b3ddadf538adeff9ac565db00e"
+"_size" "13498"
