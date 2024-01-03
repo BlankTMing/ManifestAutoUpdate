@@ -1,0 +1,366 @@
+"appid" "485350"
+"common"
+{
+	"name" "Winter Novel"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"icon" "f1353806faf1d390d4e69be15249be2bab431cec"
+	"logo" "4a0939685835992102cb2b14b65dc33e663bdc0e"
+	"logo_small" "4a0939685835992102cb2b14b65dc33e663bdc0e_thumb"
+	"clienticon" "dd234b7a9ffe2b2f96d12df83f1c5f32b1d2c1ad"
+	"clienttga" "ac35b328f1cda2469e040df77ac62ab1ea1db8c6"
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+		"japanese" "1"
+		"polish" "1"
+		"brazilian" "1"
+		"ukrainian" "1"
+	}
+	"clienticns" "53a4c905021fe615b1b3ddf4c981c77b5b9bf684"
+	"linuxclienticon" "c70aa190c67e695e64fa1dca8f26b6e929554bb9"
+	"controllervr"
+	{
+		"xinput" "1"
+		"kbm" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1693008000"
+		"tested_build_id" "1583024"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Winter Novel"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "43.69894982497082"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1668887169"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "DeXP"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "DeXP"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_28" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"ukrainian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1470848639"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "485350"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "3799"
+		"2" "597"
+		"3" "599"
+		"4" "4085"
+		"5" "3964"
+		"6" "3871"
+	}
+	"review_score" "8"
+	"review_percentage" "83"
+}
+"extended"
+{
+	"developer" "DeXP"
+	"publisher" "DeXP"
+	"listofdlc" "487130,512670"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Winter Novel"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "WinterNovel.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "WinterNovel32"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"2"
+		{
+			"executable" "WinterNovel64"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "WinterNovel.sh"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"4"
+		{
+			"executable" "ConfigureScreensaver.vbs"
+			"description" "Configure Screensaver"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "512670"
+			}
+		}
+		"5"
+		{
+			"executable" "ConfigureScreensaver.vbs"
+			"arguments" "-files"
+			"description" "Show files (install screensaver)"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "512670"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,russian,polish,brazilian,ukrainian"
+	"485351"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5143451791211542822"
+				"size" "2931184"
+				"download" "719328"
+			}
+		}
+	}
+	"485352"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2606072184325219086"
+				"size" "758345"
+				"download" "711424"
+			}
+		}
+	}
+	"485353"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5591761388739655005"
+				"size" "754456"
+				"download" "702752"
+			}
+		}
+	}
+	"485354"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "317343463783505640"
+				"size" "1778342"
+				"download" "983264"
+			}
+		}
+	}
+	"487130"
+	{
+		"dlcappid" "487130"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3847525296729188143"
+				"size" "17448182"
+				"download" "17056816"
+			}
+		}
+	}
+	"512670"
+	{
+		"dlcappid" "0"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2829931073481748765"
+				"size" "1632039"
+				"download" "257136"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1583024"
+			"timeupdated" "1484992504"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "*.bin"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20432168"
+"_sha" "d184732add1e38905216d0d7a865e5ea79b0890e"
+"_size" "6020"
