@@ -1,0 +1,133 @@
+"appid" "533830"
+"common"
+{
+	"name" "Starbound Dedicated Server"
+	"type" "Tool"
+	"parent" "211820"
+	"releasestate" "released"
+	"logo" "e7cca6183981e17457044d7915f4d1081fbe41a2"
+	"logo_small" "e7cca6183981e17457044d7915f4d1081fbe41a2_thumb"
+	"icon" "82a6fd8f8aa38829ff41b419ca4d5bedc0caad1a"
+	"clienticon" "86f1307815556c533a7dbb316397c8fcfb4af178"
+	"clienttga" "c2176903ffe5e527378ef80a924a842dd0132314"
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"associations"
+	{
+	}
+	"gameid" "533830"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Starbound Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "win64/starbound_server.exe"
+			"workingdir" "win64/"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "linux/run-server.sh"
+			"workingdir" "linux/"
+			"type" "server"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"533831"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2755498507246012069"
+				"size" "264723874"
+				"download" "66376608"
+			}
+			"staging"
+			{
+				"gid" "4939007784564884823"
+				"size" "264724390"
+				"download" "66376816"
+			}
+		}
+	}
+	"533832"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7660845383161263255"
+				"size" "58629230"
+				"download" "17315120"
+			}
+			"staging"
+			{
+				"gid" "4436183008994172862"
+				"size" "58629230"
+				"download" "17316016"
+			}
+		}
+	}
+	"533833"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4004503843917843549"
+				"size" "37071911"
+				"download" "8441760"
+			}
+			"staging"
+			{
+				"gid" "7255521273658361477"
+				"size" "37071911"
+				"download" "8441776"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3959842"
+			"timeupdated" "1561628201"
+		}
+		"staging"
+		{
+			"buildid" "4083326"
+			"timeupdated" "1565187646"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18903802"
+"_sha" "4d92e9486ee325033e90925b98d890a9866ee278"
+"_size" "2116"
