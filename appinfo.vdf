@@ -1,0 +1,219 @@
+"appid" "211970"
+"common"
+{
+	"name" "Test Drive®: Ferrari Racing Legends"
+	"type" "Game"
+	"clienticon" "396e5e90970d86cb4f3cfdea147c4d69686a5879"
+	"clienttga" "bc75a3768d047bb30cee7f56324786b6c93f8ab1"
+	"icon" "a65a0d3483b49c3b4b8da9d92a2e753d4deb2577"
+	"logo" "32026dd1ac271b7cda161b25c84734751995f807"
+	"logo_small" "32026dd1ac271b7cda161b25c84734751995f807_thumb"
+	"oslist" "windows"
+	"releasestate" "released"
+	"exfgls" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1675296000"
+		"tested_build_id" "28709"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-6"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Test Drive Ferrari"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1354731271"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Slightly Mad Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Evolved Games"
+		}
+	}
+	"primary_genre" "9"
+	"genres"
+	{
+		"0" "9"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+		}
+		"italian"
+		{
+			"supported" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+		}
+	}
+	"steam_release_date" "1355162640"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "211970"
+	"store_tags"
+	{
+		"0" "699"
+		"1" "599"
+	}
+	"review_score" "5"
+	"review_percentage" "59"
+}
+"extended"
+{
+	"developer" "Slightly Mad Studios"
+	"gamedir" "Test Drive Ferrari Racing Legends"
+	"homepage" "http://www.tdfrl.com"
+	"icon" ""
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp211970\\SteamKey"
+	"noservers" "0"
+	"showcdkeyonlaunch" "1"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"supportscdkeycopytoclipboard" "1"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Evolved Games"
+	"gamemanualurl" "https://store.steampowered.com/manual/211970/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "TDFerrari"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TDFerrari.exe"
+			"arguments" ""
+			"description" "Launch Test Drive: Ferrari Racing Legends"
+			"workingdir" ""
+		}
+	}
+	"installscriptsignature" "5a37f5fc584ce3e590a900152476086f27d0176bd703d730aecdf48e91b25a966cba5ef3be0eb5cedd25bc7b54862019a486638b30af868fb6b24903fb1c4123da99ab0f95ad5bfe46fe6dadd8916d31eb0b3cd45187ced4701954d245e79cc8bc4a65dc1656fca4ce41f40f14abd2f929d433b67ced34c5e7c001410c60b835"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\slightly mad studios\\ferrari racing legends"
+		{
+			"string"
+			{
+				"installdir" "%INSTALLDIR%"
+			}
+		}
+	}
+	"run process"
+	{
+		"dxinstaller"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Slightly Mad Studios\\Ferrari Racing Legends"
+			"process 1" "%INSTALLDIR%\\Support\\DirectX\\dxsetup.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"gfwlinstaller"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Slightly Mad Studios\\Ferrari Racing Legends"
+			"process 1" "%INSTALLDIR%\\Support\\Gfwlivesetup.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+	}
+	"delete files on uninstall"
+	{
+		"%user_mydocs%\\test drive ferrari racing legends\\profiles\\default.sav" "%USER_MYDOCS%\\Test Drive Ferrari Racing Legends\\profiles\\default.sav"
+		"%user_mydocs%\\test drive ferrari racing legends\\graphicsconfig.xml" "%USER_MYDOCS%\\Test Drive Ferrari Racing Legends\\graphicsconfig.xml"
+	}
+}
+"depots"
+{
+	"211971"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4071953233854660443"
+				"size" "2865112744"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "2908403453641981331"
+				"size" "2585729960"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "28709"
+		}
+		"local"
+		{
+			"buildid" "2376"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21080055"
+"_sha" "81a2a658772f720368eb768454f1ec9af33f4baa"
+"_size" "4761"
