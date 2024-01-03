@@ -1,0 +1,543 @@
+"appid" "403240"
+"common"
+{
+	"name" "Squad Dedicated Server"
+	"type" "Tool"
+	"oslist" "windows,linux"
+	"logo" "43bc8f7ebbad4b8fee2eea9bc262be483dfb7983"
+	"logo_small" "43bc8f7ebbad4b8fee2eea9bc262be483dfb7983_thumb"
+	"icon" "2973559898c17218937162db6d2e423d3dc8a418"
+	"clienticon" "5cb6171b179fd2dc6a4a2dc49ef1760d0d839282"
+	"clienttga" "d26cb41f9f79cce4cc6bcbd40bc3e63e947d98a4"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "403240_eula_0"
+			"name" "Squad Dedicated Server EULA"
+			"url" "http://store.steampowered.com//eula/403240_eula_0"
+		}
+	}
+	"releasestate" "released"
+	"osarch" "64"
+	"associations"
+	{
+	}
+	"gameid" "403240"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Squad Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SquadServer.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "SquadServer.sh"
+			"type" "server"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"403241"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7646722747354506970"
+				"size" "13053088043"
+				"download" "3730548464"
+			}
+			"squad_experimental"
+			{
+				"gid" "798255790987238549"
+				"size" "12780367882"
+				"download" "3657848720"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha-11.2"
+			{
+				"gid" "286BEB7B9504102C1FBDA04353F6406A"
+				"size" "F7404090425BF56FE83DBD3C830227B0"
+				"download" "128B12D50DA5ED488E19B8CEE7E49489"
+			}
+			"alpha-12.2"
+			{
+				"gid" "B2D275BA6197FBC9EF31DE7A3BA738CE"
+				"size" "F9C174AAD2D75A09626B297A3E55BD5F"
+				"download" "098A9D55ECDE12CDB00CB572EAFD2FF8"
+			}
+			"alpha8"
+			{
+				"gid" "3633634FE474BC70DAEEBCBB7ED83420"
+				"size" "2AA54AD4018508DD77040E70BC82434A"
+				"download" "36030B82ACD91CAAF51263C57AE8BF5F"
+			}
+			"alpha9.7"
+			{
+				"gid" "1C1A52EB8D6E4E63065B11ABC7D6718C"
+				"size" "663D6855ABB63E2124F9D4A117197E20"
+				"download" "9D5D172D659316E36732EA6FB404360C"
+			}
+			"backtracking"
+			{
+				"gid" "2214BD8E5577FFCC23AF89E9DE3EDD85"
+				"size" "B6ECAF99FFF3F61BBB7ACE5832327A0B"
+				"download" "3F74952D441145C31BA4A320B446581C"
+			}
+			"caf_event"
+			{
+				"gid" "EA0648AB38C3E60E4C0F8EEE78F7707C"
+				"size" "49781692789F7B5282B366670036A827"
+				"download" "212229DD664B4DBC7C106465AFB2F3BB"
+			}
+			"newbuild-release"
+			{
+				"gid" "A2176C0EA188B8E44095A55E6941C775"
+				"size" "87A6DBCDC546CA0C37E2A6D1D1FF4BEA"
+				"download" "66CD7EA5674F9B2F95C1039667642D44"
+			}
+			"server-fixtest"
+			{
+				"gid" "6A8AEB44CECFFD786068074980C0D67B"
+				"size" "E61A263BD9D785213EFA1F31F350F015"
+				"download" "ACD784D0967A09C90C79FF432C7D6618"
+			}
+			"squad_hotfix_testing"
+			{
+				"gid" "E81BAA0D5245E886831CD8E4CD7AE886"
+				"size" "ADBBD880AF8CF05C2FCE84A6C7BF93CD"
+				"download" "6E58096ED5DDC5BAECF3C1C3B31122C7"
+			}
+			"squad_main"
+			{
+				"gid" "95CE4457EA764EE025C0E3FE41D208DF"
+				"size" "E2E21D3D7F1C22442E18645283849EDF"
+				"download" "A5640F53E648EECAB7DB00DBAE987970"
+			}
+			"squad_release"
+			{
+				"gid" "D3928C55E57038FD2351CE549A9B13E0"
+				"size" "F031393D205BD27816367BB5A10834A1"
+				"download" "FC5C5B76A75237FED4D068D817F9B87B"
+			}
+			"squad_testing"
+			{
+				"gid" "0630514D2FDADB22ABBCEC0E3A0C234C"
+				"size" "B890200820C0C1A4B97D9F38F4A4EDCA"
+				"download" "5E122E39AF5FBD0577DD84217BAD82BD"
+			}
+			"squad_tournament"
+			{
+				"gid" "7C1CFAEF49AB11F839A726D50BF19B60"
+				"size" "031F759EC7EAF19401D93BCE5EE774D7"
+				"download" "8EABB91FA588817F4F58A38ED3DF1A15"
+			}
+		}
+	}
+	"403242"
+	{
+		"config"
+		{
+			"osarch" "64"
+			"language" "english"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1190401067876655965"
+				"size" "13002149580"
+				"download" "3667013280"
+			}
+			"squad_experimental"
+			{
+				"gid" "7935487258682476279"
+				"size" "12789826270"
+				"download" "3627366992"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha-11.2"
+			{
+				"gid" "1D9EF18C73C4669777A9243F75823C4D"
+				"size" "7814DA4EAA732C65D0203A063A8068D0"
+				"download" "A2F0250423B2E98436220201FA61B6CE"
+			}
+			"alpha-12.2"
+			{
+				"gid" "BE3E7E230EF6EFA7D2CC4599E07AF7FB"
+				"size" "C16571DD92232C5D31398CB79E4BB4D2"
+				"download" "E4014426C580BBBD1B2191A8649639B7"
+			}
+			"alpha8"
+			{
+				"gid" "772575B9DB62477B9E9951856B9B447D"
+				"size" "489A11404F0D109140365C327FB3A2B5"
+				"download" "FEB75334560737C5821E7BB593598409"
+			}
+			"alpha9.7"
+			{
+				"gid" "D27069268C6D4E6135B943227F315C33"
+				"size" "E1F36A7AC72FC388751D9C49A0732470"
+				"download" "A19D9B0E28AE97E6C0E8B227804D6702"
+			}
+			"backtracking"
+			{
+				"gid" "116046A9FD7387322062C3C9730D8BB2"
+				"size" "9129A57C8F3A339D2E5D30D939547669"
+				"download" "DB89FCCAD085FCEFA5DF8000E9126513"
+			}
+			"caf_event"
+			{
+				"gid" "2F0D879E00712B513CBB728A035D65C2"
+				"size" "69A1722D9CB8CD9D8EC81AC2E912C419"
+				"download" "2913B1512D392DF9003FB044B0D48B6E"
+			}
+			"newbuild-release"
+			{
+				"gid" "AF8E8682C3ACABEAD539A0CCABA9BDB3"
+				"size" "345185E233893ACA347FAA2BEDAB4D5B"
+				"download" "5E2764BC28632E8B2BEF92114C0FB261"
+			}
+			"server-fixtest"
+			{
+				"gid" "8101313B3CCB77B2E94C554EC2BF5B8C"
+				"size" "C25D584502F4CB2A8EE1D833EACF2D3E"
+				"download" "E8D7D113B8078933F2E187359D18F8E1"
+			}
+			"squad_hotfix_testing"
+			{
+				"gid" "ED0A427503D55597E90A362A7D658EA5"
+				"size" "996BF36FFDA9558EF771C4B0F25AD98C"
+				"download" "28468A11A4DAF648DA08E9CA76836038"
+			}
+			"squad_main"
+			{
+				"gid" "953B804C026EE7878D36E43282A060AC"
+				"size" "B05DEF8743D89181AE0E5C71C1101ECE"
+				"download" "6C2C1457CD27C6B026D1134F42C4CF99"
+			}
+			"squad_release"
+			{
+				"gid" "D6D47FE2446489E640C5D4281B0950A1"
+				"size" "6AD840BC604F70987B87305FC8BB4927"
+				"download" "1CFCF262E80D90336FB52689E072B41D"
+			}
+			"squad_testing"
+			{
+				"gid" "8DB728442DC66C1898B7F1142EE235AD"
+				"size" "998252CDE79C9892FE4770CD9A3ED653"
+				"download" "856D896CCF5B369BD7C9D918EE650673"
+			}
+			"squad_tournament"
+			{
+				"gid" "A55291FC7CF68BF8947C1B8E448B84AF"
+				"size" "1093F9E1D5D9FC527C539F559F44C95E"
+				"download" "9BBE1EB393C9CAC0AFBE1784F0326429"
+			}
+		}
+	}
+	"1123920"
+	{
+		"dlcappid" "1123920"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8509449628493661206"
+				"size" "15654"
+				"download" "15264"
+			}
+			"squad_experimental"
+			{
+				"gid" "8509449628493661206"
+				"size" "15654"
+				"download" "15264"
+			}
+			"squad_tournament"
+			{
+				"gid" "8509449628493661206"
+				"size" "15654"
+				"download" "15264"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"backtracking"
+			{
+				"gid" "637D36B311D965868E55B0EB8FFB44B3"
+				"size" "C5309F78285D36126FB2B9065F40EA07"
+				"download" "FB7FFD3E1578BDA98A8CE5263BD95D71"
+			}
+			"squad_main"
+			{
+				"gid" "81008E04E853900E2BB0278CC970FB0F"
+				"size" "3A1A643DC33AEE90B77E396F854BAD52"
+				"download" "FD8604819624A41B36A60327F8E1F2E3"
+			}
+			"squad_previous"
+			{
+				"gid" "83DC9AA28D06B00254E5ECDEFC2214BD"
+				"size" "2E87E57AA44A0FEF77F350249E0A693F"
+				"download" "8C8D332634B97B689B6E32A659E1CBDC"
+			}
+			"squad_release"
+			{
+				"gid" "6EDA25A524BEF748B8997D93D19343C4"
+				"size" "0363CFD8664B5D41F12AB387E6174D64"
+				"download" "ACA80BC758CF9AFD8EFD4AD029A3516A"
+			}
+			"squad_steamfix"
+			{
+				"gid" "FB14A2F478809EA6AB44F26AB9476FC0"
+				"size" "FD87B6FE7BA3619F1AB8EFE8845D38BB"
+				"download" "48516B0D4E4253238FECA475565388E2"
+			}
+			"squad_testing"
+			{
+				"gid" "0379D217A1216252162AED3597E1A5BA"
+				"size" "A7E22080F827422A33FE654244F677A5"
+				"download" "4C1D4E2B8C218F85E6C4E04289388C63"
+			}
+			"squad_troubleshooting"
+			{
+				"gid" "97BEC1AEDDD2DAE76D681F7FBC1473FB"
+				"size" "8641AE5D5571CAAAE9E760D1EBEA5BD7"
+				"download" "788CBC67A28F1723340066A2663C0E24"
+			}
+			"tournament"
+			{
+				"gid" "3F253CC3B47F24F1E02F6776F1FA488B"
+				"size" "8C3352FF1333AB4D9EADF0DD50F784E7"
+				"download" "71EAFB79991BBDB10F8C54BA69C5E102"
+			}
+		}
+		"depotfromapp" "393380"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12960210"
+			"timeupdated" "1702578654"
+		}
+		"alpha-11.2"
+		{
+			"buildid" "2863387"
+			"pwdrequired" "1"
+			"timeupdated" "1542031011"
+		}
+		"alpha-12.2"
+		{
+			"buildid" "3396110"
+			"pwdrequired" "1"
+			"timeupdated" "1556801685"
+		}
+		"alpha8"
+		{
+			"buildid" "1703017"
+			"pwdrequired" "1"
+			"timeupdated" "1490030620"
+		}
+		"alpha9.7"
+		{
+			"buildid" "2315895"
+			"pwdrequired" "1"
+			"timeupdated" "1517938317"
+		}
+		"backtracking"
+		{
+			"buildid" "12720654"
+			"pwdrequired" "1"
+			"timeupdated" "1700856818"
+		}
+		"caf_event"
+		{
+			"buildid" "4048602"
+			"pwdrequired" "1"
+			"timeupdated" "1564167686"
+		}
+		"newbuild-release"
+		{
+			"buildid" "10134523"
+			"pwdrequired" "1"
+			"timeupdated" "1676297617"
+		}
+		"server-fixtest"
+		{
+			"buildid" "5037090"
+			"pwdrequired" "1"
+			"timeupdated" "1682374755"
+		}
+		"squad_experimental"
+		{
+			"buildid" "12651833"
+			"description" "Experimental Squad builds (compatible with Live clients)"
+			"timeupdated" "1699554641"
+		}
+		"squad_hotfix_testing"
+		{
+			"buildid" "12607416"
+			"pwdrequired" "1"
+			"timeupdated" "1699296813"
+		}
+		"squad_main"
+		{
+			"buildid" "12960210"
+			"pwdrequired" "1"
+			"timeupdated" "1702570661"
+		}
+		"squad_release"
+		{
+			"buildid" "12960210"
+			"pwdrequired" "1"
+			"timeupdated" "1702548352"
+		}
+		"squad_testing"
+		{
+			"buildid" "12663952"
+			"pwdrequired" "1"
+			"timeupdated" "1699561672"
+		}
+		"squad_tournament"
+		{
+			"buildid" "12651833"
+			"pwdrequired" "1"
+			"timeupdated" "1699554664"
+		}
+		"squad_previous"
+		{
+			"buildid" "11847097"
+			"pwdrequired" "1"
+			"timeupdated" "1695845923"
+		}
+		"squad_steamfix"
+		{
+			"buildid" "10146732"
+			"pwdrequired" "1"
+			"timeupdated" "1671029767"
+		}
+		"squad_troubleshooting"
+		{
+			"buildid" "12786214"
+			"pwdrequired" "1"
+			"timeupdated" "1700852817"
+		}
+		"tournament"
+		{
+			"buildid" "4298022"
+			"pwdrequired" "1"
+			"timeupdated" "1572096224"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21542011"
+"_sha" "c2f01503e079f4c9574f90daf4decbc326c8c307"
+"_size" "11569"
