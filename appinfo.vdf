@@ -1,0 +1,414 @@
+"appid" "219780"
+"common"
+{
+	"name" "Divinity II: Developer\'s Cut"
+	"type" "Game"
+	"clienticon" "c3fa656adf90d83643e4a912554f66a72a632d9a"
+	"clienttga" "543dab2aa5001768d54ff31e836b9c31cf848191"
+	"icon" "e0dae7e1b381620b7265023f350b169990da1abf"
+	"logo" "4f27f30ba5b89a80f162072e824d2255752945ad"
+	"logo_small" "4f27f30ba5b89a80f162072e824d2255752945ad_thumb"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1667606400"
+		"tested_build_id" "23566"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Divinity 2: Developer\'s Cut"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "72.40373395565928"
+			"height_pct" "95.59487057706008"
+		}
+	}
+	"store_asset_mtime" "1568729015"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Larian Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Larian Studios"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Focus Home Interactive"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"russian"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"polish"
+		{
+			"supported" "1"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1351530000"
+	"community_hub_visible" "1"
+	"gameid" "219780"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "1684"
+		"2" "1695"
+		"3" "1697"
+		"4" "4046"
+		"5" "4231"
+		"6" "4182"
+		"7" "21"
+		"8" "19"
+		"9" "4057"
+		"10" "4747"
+		"11" "4172"
+		"12" "4166"
+		"13" "1719"
+		"14" "1756"
+		"15" "1742"
+		"16" "7208"
+		"17" "4136"
+		"18" "4026"
+		"19" "4474"
+	}
+	"review_score" "8"
+	"review_percentage" "84"
+}
+"extended"
+{
+	"developer" "Larian Studios"
+	"gamedir" "Divinity 2 Director\'s Cut"
+	"homepage" "http://www.larian.com"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Larian Studios"
+	"gamemanualurl" "https://store.steampowered.com/manual/219780/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "divinity2_dev_cut"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Autorun.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptsignature" "344175d13c643b23acf9fa9a7c9c100b6b711955bbbcd9fd670dc754f95efc36ccc8e528fe34cd1382bb2ca9af8dde688312d2ab5ba96f9c3666aa9d08953c22477ae794c1c419c4e729537e616f3ce861ec14e1473069e7e9b56be43fafd49ccccb1029bd724770074ea3c83b3c93faf4ebb653e19aca837d003f406a506d93"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_current_user\\software\\larian studios\\divinity ii - dks"
+		{
+			"string"
+			{
+				"target_folder" "%INSTALLDIR%"
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\219780"
+			"process 1" "%INSTALLDIR%\\support\\DirectX\\Feb2007\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"vcredist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\219780"
+			"process 1" "%INSTALLDIR%\\support\\VCRedist\\VS80sp1-redist_x86-4053.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+		"vcredist2"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\219780"
+			"process 1" "%INSTALLDIR%\\support\\VCRedist\\VS90sp1-redist_x86-9.0.30729.17.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+		"physx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\219780"
+			"process 1" "%INSTALLDIR%\\support\\PhysX\\PhysX_9.09.0428_SystemSoftware.exe"
+			"command 1" "/quiet"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"219781"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "680918273947975519"
+				"size" "3051386981"
+				"download" "0"
+			}
+		}
+	}
+	"219782"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6253915778589161688"
+				"size" "6758992006"
+				"download" "0"
+			}
+		}
+	}
+	"219783"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7129837099643880910"
+				"size" "7544423299"
+				"download" "0"
+			}
+		}
+	}
+	"219784"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8969967851637397177"
+				"size" "7410703885"
+				"download" "0"
+			}
+		}
+	}
+	"219785"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2894376249660804045"
+				"size" "7527235358"
+				"download" "0"
+			}
+		}
+	}
+	"219786"
+	{
+		"config"
+		{
+			"language" "polish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2196818784475338260"
+				"size" "7711172530"
+				"download" "0"
+			}
+		}
+	}
+	"219787"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5709788403628094774"
+				"size" "209482781"
+				"download" "0"
+			}
+		}
+	}
+	"219788"
+	{
+		"config"
+		{
+			"language" "italian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7151150613532782803"
+				"size" "6758992006"
+				"download" "0"
+			}
+		}
+	}
+	"219789"
+	{
+		"config"
+		{
+			"language" "spanish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6918006692494886749"
+				"size" "6758992006"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "23566"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Divinity 2/Savegames"
+			"pattern" "*.dxg"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20686586"
+"_sha" "a2725dccd4370de3d7ca784817afb31412ada03a"
+"_size" "7115"
