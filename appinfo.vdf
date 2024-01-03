@@ -1,0 +1,118 @@
+"appid" "202480"
+"common"
+{
+	"name" "Skyrim Creation Kit"
+	"type" "Tool"
+	"clienticon" "be13cf55bc5329e6d9cc28c987d4b806895897ad"
+	"clienttga" "0cb2b02b76cf8a1f16c415998731f4e968780691"
+	"icon" "2166876d9cc68a81d121464ffed7d2b208e5e813"
+	"logo" "eff4e2c2ddd3d09d650162ab7cef7b44e76455f7"
+	"logo_small" "eff4e2c2ddd3d09d650162ab7cef7b44e76455f7_thumb"
+	"eulas"
+	{
+		"0"
+		{
+			"url" "http://store.steampowered.com/eula/eula_202480"
+			"id" "eula_202480"
+			"name" "eula_202480"
+		}
+	}
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "bgs.bethsoft.com"
+		}
+	}
+	"primary_genre" "0"
+	"genres"
+	{
+		"0" "57"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"gameid" "202480"
+}
+"extended"
+{
+	"developer" "bgs.bethsoft.com"
+	"disableoverlay" "1"
+	"gamedir" "skyrim"
+	"homepage" "www.creationkit.com"
+	"icon" ""
+	"launcheula" "http://store.steampowered.com/eula/eula_202480"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "202481"
+	"serverbrowsername" ""
+	"state" "eStateTool"
+}
+"config"
+{
+	"installscriptsignature" "59e7c5ad74832733a7a86273e860742930bc112aa2fb60471758fd1eda6c1e370b2e878b7b46260654efa1595a63961a07666383aff1032ab4e20a7251c93ef4949c8ef38a4694b894d815f817b3fc25fd304c027386d6aa8378c4e5b3ed8f5c9a495edbebfd4eab16311868239dfe8218ac01e4ff7fc10ddb1409a0c2ed350b"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "skyrim"
+	"allowrunningmultipleinstances" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CreationKit.exe"
+		}
+	}
+}
+"install"
+{
+	"run process"
+	{
+		"flowchartreg"
+		{
+			"hasrunkey" "HKEY_lOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\202480"
+			"process 1" "%WinDir%\\System32\\regsvr32.exe"
+			"command 1" "/s \"%INSTALLDIR%\\flowchartx32.dll\""
+		}
+	}
+}
+"depots"
+{
+	"202481"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5177699062672253696"
+				"size" "41366669"
+				"download" "30767968"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"workshopdepot" "202480"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "579498"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1073741824"
+	"maxnumfiles" "500"
+	"hidecloudui" "0"
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "4f42506b25fcff85cae14b6273486ecd40db6b7d"
+"_size" "2265"
