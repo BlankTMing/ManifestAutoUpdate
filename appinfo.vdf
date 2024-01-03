@@ -1,0 +1,102 @@
+"appid" "44630"
+"common"
+{
+	"name" "RACE 07 - Formula RaceRoom Add-On"
+	"clienticon" "c44432a5186b9572e855cc2c7a2c62b7aaad7373"
+	"clienttga" "443574011cc75b823289c343948b7510baee6697"
+	"icon" "a638f775e454c77b2cc06df20049ce0a09c6794f"
+	"logo" "2b03526ffc33573d715a0e7a2f2b339c9fc25a25"
+	"logo_small" "2b03526ffc33573d715a0e7a2f2b339c9fc25a25_thumb"
+	"type" "Game"
+	"community_hub_visible" "1"
+	"gameid" "44630"
+	"store_tags"
+	{
+	}
+}
+"extended"
+{
+	"developer" ""
+	"gamedir" "RACE 07 - Formula RaceRoom Add-On"
+	"homepage" ""
+	"icon" ""
+	"loadallbeforelaunch" "1"
+	"mustownapptopurchase" "8600"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "44631"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+}
+"config"
+{
+	"contenttype" "3"
+	"convertgcfs" "1"
+	"installdir" "race 07"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SteamExpansionApp.exe"
+			"arguments" "-appId 44630 -cmd skin=mosquitopack1"
+		}
+		"1"
+		{
+			"description" "Video and Language Options"
+			"executable" "SteamExpansionApp.exe"
+			"arguments" "-appId 44630 -cmd /launchconfig"
+		}
+		"2"
+		{
+			"description" "New Record"
+			"executable" "SteamExpansionApp.exe"
+			"arguments" "-appId 44630 -cmd /launchregistration"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"8619"
+	{
+		"optional" "1"
+		"systemdefined" "1"
+		"depotfromapp" "8600"
+		"sharedinstall" "2"
+	}
+	"44631"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "552809145496861504"
+				"size" "551145442"
+				"download" "0"
+			}
+		}
+	}
+	"1004"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "8600"
+		"sharedinstall" "2"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "82274"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21618138"
+"_sha" "25483a14468f27d2da57bd166f1052a45ede8290"
+"_size" "1836"
