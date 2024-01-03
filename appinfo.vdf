@@ -1,0 +1,166 @@
+"appid" "1863440"
+"common"
+{
+	"name" "Mount & Blade II: Dedicated Server"
+	"type" "Tool"
+	"parent" "261550"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"osextended" ""
+	"clienttga" "619dcbaf475b4417c4e02467d18c4a0992a001d8"
+	"clienticon" "67c469bce70b110fc0d2247dc1402695cc55175a"
+	"icon" "4d0ba27332070f96ac95cd29f1e40f12fd530a52"
+	"associations"
+	{
+	}
+	"gameid" "1863440"
+}
+"config"
+{
+	"installdir" "Mount & Blade II Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bin/Win64_Shipping_Server/DedicatedCustomServer.Starter.exe"
+			"workingdir" "bin/Win64_Shipping_Server"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Launch Server"
+			}
+			"description" "Launch Server"
+		}
+		"1"
+		{
+			"executable" "./dotnet"
+			"arguments" "TaleWorlds.Starter.DotNetCore.Linux.dll"
+			"workingdir" "bin/Linux64_Shipping_Server"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+				"betakey" "linux_test"
+			}
+			"description_loc"
+			{
+				"english" "Launch Linux Server"
+			}
+			"description" "Launch Linux Server"
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1863441"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8889581567137961843"
+				"size" "2811787671"
+				"download" "1606644112"
+			}
+			"beta"
+			{
+				"gid" "8889581567137961843"
+				"size" "2811787671"
+				"download" "1606644112"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"community.server.test"
+			{
+				"gid" "99A96C6E8687DB9F668D77333BD522EF"
+				"size" "A793C6B34789478F5A24F9DBB65F1683"
+				"download" "D747B0E5F8C512D1A21459876BED6679"
+			}
+			"internal.test.a"
+			{
+				"gid" "57A7E02523A0AEBBD00686A0A2BCB362"
+				"size" "F60A7ECE0DB8F623A2B8C6C6DE0E4CC9"
+				"download" "74D6FDA44AE131AD00752558C4F61D98"
+			}
+			"internal.test.b"
+			{
+				"gid" "B1DA3616D79B7EEFBE5C6B40818D8C73"
+				"size" "E68B8C3DDBD3FE7ADB69C3E2EBF7E994"
+				"download" "A4E9877058FF60A0F7A26E2C710E6EED"
+			}
+			"linux_test"
+			{
+				"gid" "6E3CCD98C4AD644C0F1A3404A821FED3"
+				"size" "0D9196FAC7111FBF514EC6C18B21B32C"
+				"download" "3BA20717F2211597EF84EA32E7F4C0EB"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13053045"
+			"timeupdated" "1703700541"
+		}
+		"beta"
+		{
+			"buildid" "13053045"
+			"description" "beta"
+			"timeupdated" "1703711695"
+		}
+		"community.server.test"
+		{
+			"buildid" "9827894"
+			"pwdrequired" "1"
+			"timeupdated" "1667043919"
+		}
+		"internal.test.a"
+		{
+			"buildid" "13053045"
+			"pwdrequired" "1"
+			"timeupdated" "1703700234"
+		}
+		"internal.test.b"
+		{
+			"buildid" "12088465"
+			"pwdrequired" "1"
+			"timeupdated" "1693570245"
+		}
+		"linux_test"
+		{
+			"buildid" "10136905"
+			"pwdrequired" "1"
+			"timeupdated" "1670938954"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21690363"
+"_sha" "5fa88ab61361950a974925b1955c0f259ef5ede2"
+"_size" "3167"
