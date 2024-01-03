@@ -1,0 +1,469 @@
+"appid" "253940"
+"common"
+{
+	"name" "Septerra Core"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "2aef9c711846a7865549283d7de566e82b7a586c"
+	"logo_small" "2aef9c711846a7865549283d7de566e82b7a586c_thumb"
+	"clienticon" "fe00ea55af657ea57d0e703f59653d6d1a7880aa"
+	"clienttga" "46684f582f647899d3dd09e5a439de09c8f7b852"
+	"icon" "2e61d6b36ed595769b23f0452b552e68fd1b6151"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1673395200"
+		"tested_build_id" "3550541"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-6"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Septerra Core: Legacy of the Creator"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1576488926"
+	"associations"
+	{
+		"0"
+		{
+			"type" "publisher"
+			"name" "Topware Interactive"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "941353200"
+	"metacritic_score" "70"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/septerra-core-legacy-of-the-creator\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "253940"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "1677"
+		"2" "4434"
+		"3" "5851"
+		"4" "7208"
+		"5" "4182"
+		"6" "1693"
+		"7" "3942"
+		"8" "1742"
+		"9" "21"
+		"10" "4085"
+		"11" "7782"
+	}
+	"review_score" "6"
+	"review_percentage" "74"
+}
+"extended"
+{
+	"publisher" "Topware Interactive"
+	"homepage" "http://www.septerra.de"
+	"gamemanualurl" "https://store.steampowered.com/manual/253940/"
+	"listofdlc" "1026170,1026171"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Septerra Core"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "septerra.exe"
+			"description" "Septerra Core"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Septerra Core.app"
+			"description" "Launch Septerra Core"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "RunGame"
+			"description" "Launch Septerra Core"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "ddc.cmd"
+			"description" "Digital Deuxe Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "1026171"
+			}
+		}
+		"4"
+		{
+			"executable" "ddc"
+			"description" "Digital Deluxe Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+				"ownsdlc" "1026171"
+			}
+		}
+		"5"
+		{
+			"executable" "ddc_xdg"
+			"description" "Digital Deluxe Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"ownsdlc" "1026171"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"baselanguages" ""
+	"253941"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7897443116987249726"
+				"size" "132145058"
+				"download" "124954336"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"scdevbeta"
+			{
+				"gid" "7B0A45DBC1A24967EA0E41047BB97FBB"
+				"size" "0E6C4B7D5E4269BF0352C41FD0B20A5B"
+				"download" "C3019A1F39B69D54AD3C18810B63C4BE"
+			}
+		}
+	}
+	"253942"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2995437276850597702"
+				"size" "705864180"
+				"download" "581439920"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"scdevbeta"
+			{
+				"gid" "2DF04E13A14CFC19B0C97087E901533F"
+				"size" "9A7E393412F9BEA1CE504392B89C06F1"
+				"download" "5207E3DF06930B85EEEB02AEB205512C"
+			}
+		}
+	}
+	"253943"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2480870642756936679"
+				"size" "556112660"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"scdevbeta"
+			{
+				"gid" "6E5949A6BA1ECF8174C88DF25DE9316D"
+				"size" "59A8672663089220F5AD68D4282A7FDB"
+				"download" "89D42AF3532A915E5359C776BF0390B2"
+			}
+		}
+	}
+	"253944"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6321694921446187697"
+				"size" "1369487093"
+				"download" "804649920"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"scdevbeta"
+			{
+				"gid" "90539DC1C4D8569E889CBE76108050B5"
+				"size" "0ABB5A49016795F9C5973564BC5ECEF8"
+				"download" "42D627233BF654A3CCA7B5EA265959FD"
+			}
+		}
+	}
+	"253945"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "783322144505928240"
+				"size" "1458892350"
+				"download" "833612160"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"scdevbeta"
+			{
+				"gid" "2F4475D95489F872FC0EC580D38FF6A2"
+				"size" "222152C9AE7E773401396CF610E74FD2"
+				"download" "1ED71F3B03A7100B4E8B45DED8C0ADCA"
+			}
+		}
+	}
+	"253946"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2609637349935551058"
+				"size" "1446867212"
+				"download" "834146208"
+			}
+		}
+	}
+	"253947"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4078198248233235650"
+				"size" "1536260172"
+				"download" "863107952"
+			}
+		}
+	}
+	"253948"
+	{
+		"dlcappid" "1026170"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2087871077758348702"
+				"size" "85254503"
+				"download" "84610800"
+			}
+		}
+	}
+	"253949"
+	{
+		"dlcappid" "1026171"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3515967409026120355"
+				"size" "151860140"
+				"download" "134664032"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3550541"
+			"timeupdated" "1549893547"
+		}
+		"scdevbeta"
+		{
+			"buildid" "1484371"
+			"pwdrequired" "1"
+			"timeupdated" "1480328236"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" "savedata/"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" "Septerra Core.app/Contents/Resources/drive_c/Program Files/Septerra Core/savedata/"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" "Game/savedata/"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19619166"
+"_sha" "2db674476fdcdecde3f7df282d532bc1ebc83e00"
+"_size" "8230"
