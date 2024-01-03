@@ -1,0 +1,134 @@
+"appid" "1481320"
+"common"
+{
+	"name" "Coffee Talk - Modding Tool"
+	"type" "Tool"
+	"parent" "914800"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" "macos64"
+	"icon" "d03102f13d0025364c905f737914e46acb162991"
+	"clienticon" "2be0e354ca4e4d4f374e62b164e1f2ee3f4f810d"
+	"clienttga" "9e7bc1ce578aac2f21b7911e96a963289ba6cc82"
+	"logo" "db0d2805ac0b451595af60b3642f2edbd492db04"
+	"logo_small" "db0d2805ac0b451595af60b3642f2edbd492db04_thumb"
+	"associations"
+	{
+	}
+	"gameid" "1481320"
+}
+"config"
+{
+	"installdir" "Coffee Talk - Modding Tool"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CoffeeTalkEditor.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "CoffeeTalkEditor.app\\Contents\\MacOS\\CoffeeTalkEditor"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "1481320"
+	"1481321"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3207685550948094524"
+				"size" "302112503"
+				"download" "75390000"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development_build"
+			{
+				"gid" "56DBDA198F6A2F58E18B5626585D7377"
+				"size" "41EABEA902A046ED4910A15BDD9611BC"
+				"download" "A1DAD0D43BFDEBD4C97C6D72206FEC2F"
+			}
+		}
+	}
+	"1481322"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5587574784280185466"
+				"size" "308738125"
+				"download" "78386480"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development_build"
+			{
+				"gid" "2D62F4189944BCD535E4F8360B83946F"
+				"size" "9BD03A6510DB4DA2F8F5703CBA7C18FD"
+				"download" "E0A7C3FE94973E014D281E0F87DEDE65"
+			}
+		}
+	}
+	"hasdepotsindlc" "0"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12284686"
+			"timeupdated" "1699936757"
+		}
+		"development_build"
+		{
+			"buildid" "12284686"
+			"pwdrequired" "1"
+			"timeupdated" "1695723765"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1048576000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "CoffeeTalkEditor_Data/Mods"
+			"pattern" "*"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21100416"
+"_sha" "1616aae2c29f6915543a39e058f9ff3d8a404e8f"
+"_size" "2280"
