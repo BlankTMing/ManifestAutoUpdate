@@ -1,0 +1,365 @@
+"appid" "224420"
+"common"
+{
+	"name" "Afterfall InSanity Extended Edition"
+	"type" "Game"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"polish" "1"
+		"czech" "1"
+	}
+	"oslist" "windows"
+	"clienticon" "26ac0ba5053b8521bdb01d54d2f1ac366f70ffe1"
+	"clienttga" "f45fa44e4d0def0a17c116023e76f156a8cc162f"
+	"icon" "f934d7548341cb9973bccf40b590d49800c25fab"
+	"logo" "099c673781fd457f9563a40d57fca42c71da174e"
+	"logo_small" "099c673781fd457f9563a40d57fca42c71da174e_thumb"
+	"metacritic_name" "Afterfall: InSanity"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1368124426"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Intoxicate Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Nicolas Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_29" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"polish"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"czech"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+	}
+	"metacritic_score" "50"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/afterfall-insanity\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "224420"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "1667"
+		"2" "3814"
+		"3" "3835"
+		"4" "21"
+		"5" "492"
+		"6" "4182"
+		"7" "1697"
+		"8" "3978"
+		"9" "1659"
+		"10" "1774"
+		"11" "4166"
+		"12" "3859"
+		"13" "1662"
+	}
+	"review_score" "5"
+	"review_percentage" "64"
+}
+"extended"
+{
+	"developer" "Intoxicate Studios"
+	"gamedir" "Afterfall Insanity Extended Edition"
+	"homepage" "www.afterfall-insanity.com"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Nicolas Games"
+	"listofdlc" "233010"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Afterfall InSanity"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Binaries/Win32/InSanity-Win32-Shipping.exe"
+			"description" "Launch GAME"
+			"workingdir" "Binaries/Win32"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Binaries/Win32/InSanity-Win32-Shipping.exe"
+			"arguments" "-dlc"
+			"description" "Launch DLC"
+			"workingdir" "Binaries/Win32"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "Binaries/Win32/InSanity-Win32-Shipping.exeBinaries/Win32/InSanity-Win32-Shipping.exeBinaries/Win32/InSanity-Win32-Shipping.exe"
+			"arguments" "-safemode"
+			"description" "Launch in SAFE MODE"
+			"workingdir" "Binaries/Win32"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptsignature" "00454fea432a1fbee89596ae9b725b3984852ab59a1f0d895ce0ea2a7e38a1c1691e09b618a52726299d7f5cf572d826f1677575ffb49c10bf0fbc8a5fa3c46101c44c041ae61c27a517ade1f8632c9bd0e392090bbbe085ef93bbd26147241b79487e825e6f1fd58619b2fdb919e745f9a98b37850777ffd55dd8fdb8b549bd"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"vcredist86"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\224420"
+			"process 1" "%INSTALLDIR%\\redist\\vcredist_x86.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+			"requirement_os"
+			{
+				"is64bitwindows" "0"
+			}
+		}
+		"vcredist64"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\224420"
+			"process 1" "%INSTALLDIR%\\redist\\vcredist_x64.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+			"requirement_os"
+			{
+				"is64bitwindows" "1"
+			}
+		}
+		"directx"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\224420"
+			"process 1" "%INSTALLDIR%\\redist\\directx\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"dotnet"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\224420"
+			"process 1" "%INSTALLDIR%\\redist\\dotnet\\dotnetfx35.exe"
+			"command 1" "/q /norestart"
+			"nocleanup" "1"
+		}
+		"amdcpupatch"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\224420"
+			"process 1" "%INSTALLDIR%\\redist\\amdcpusetup.exe"
+			"nocleanup" "1"
+			"requirement_os"
+			{
+				"ostype" "Windows XP"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"224421"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1380764645608572725"
+				"size" "713347222"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "573A0878F572CC07DD13D734F6F88187"
+				"size" "55D04FA8C94A66F3EE8E200F83F29300"
+				"download" "493CDA988845832FEFD25CF6D9B12C60"
+			}
+		}
+	}
+	"224422"
+	{
+		"config"
+		{
+			"language" "polish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8692220312719371693"
+				"size" "6701645124"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "6BC920FABD1A32C216E907F80C75620B"
+				"size" "3329355F2A26E1B8593F6ACD0652E125"
+				"download" "493CDA988845832FEFD25CF6D9B12C60"
+			}
+		}
+	}
+	"224423"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2740395797564769266"
+				"size" "6671803783"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "BA00DDDA45328CFFB609E329AB82165B"
+				"size" "8FE11A9FB3933576BB68436EDEBFC6DB"
+				"download" "493CDA988845832FEFD25CF6D9B12C60"
+			}
+		}
+	}
+	"224424"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8128427425610118046"
+				"size" "6625880685"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "704B6742AA76E73CF5B42E42621E838B"
+				"size" "D92030D9CB782D40DEDF5FD3613235A9"
+				"download" "493CDA988845832FEFD25CF6D9B12C60"
+			}
+		}
+	}
+	"224425"
+	{
+		"config"
+		{
+			"language" "czech"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7267259392554973429"
+				"size" "6627935269"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "892FFCDC3502AC0D06F957096D9269E7"
+				"size" "9214D3530E4FDED8D58BBA973351A570"
+				"download" "493CDA988845832FEFD25CF6D9B12C60"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "116870"
+		}
+		"beta"
+		{
+			"buildid" "116870"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "4"
+}
+"_missing_token" "False"
+"_change_number" "19661327"
+"_sha" "43c62923a75df853f3d72545ad7c7347009cf288"
+"_size" "6914"
