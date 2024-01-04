@@ -1,0 +1,246 @@
+"appid" "412680"
+"common"
+{
+	"name" "The Isle Dedicated Server"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "a07e3f238fda819658e0662530aeeceb5f54b56d"
+	"logo_small" "a07e3f238fda819658e0662530aeeceb5f54b56d_thumb"
+	"icon" "7ae88c1923dbcdee670769fca9c89cc0e540ab46"
+	"clienttga" "a25c7e5766e615588f7eb45df5d97d67438d6ca4"
+	"clienticon" "dcc409f581316cdb0deb73f8bcc5202d32edaee8"
+	"osarch" "64"
+	"clienticns" "53533f9475efe72df68bb319c5efc5907ff491a3"
+	"linuxclienticon" "3222a9de0598172781a707686044eb194d98e855"
+	"associations"
+	{
+	}
+	"gameid" "412680"
+}
+"extended"
+{
+	"gamedir" "theisle"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "The Isle Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TheIsleServer.exe"
+			"arguments" "-log"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "TheIsleServer.sh"
+			"arguments" "-log"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"412681"
+	{
+		"config"
+		{
+			"osarch" "64"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2602016430604302144"
+				"size" "2324743012"
+				"download" "593198128"
+			}
+			"evrima"
+			{
+				"gid" "2105881999800636878"
+				"size" "1181710570"
+				"download" "997413280"
+			}
+			"promotional"
+			{
+				"gid" "8450962309860220137"
+				"size" "2304778154"
+				"download" "568756976"
+			}
+			"spiro0.11.59.04"
+			{
+				"gid" "6019984741479392759"
+				"size" "1677359313"
+				"download" "1048626048"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "068BE3B6DD6D2990936CD57FBF6E6D9E"
+				"size" "3A65A1E8B66CEBD60D3EFAC967BA50EA"
+				"download" "38952AE8953D03F344C21E2922AFF03F"
+			}
+			"mechanic-test"
+			{
+				"gid" "E83C835DDF1FAE05752539C197776F81"
+				"size" "3227CF44D077C93C4CBE234EB1EE6732"
+				"download" "E190594247C96C46E9E5C1AF8A8F1EC4"
+			}
+			"qa-debug"
+			{
+				"gid" "BE44DBAC74D772D50DE8B93161D4F955"
+				"size" "A6DC15935A6C6F032259B72301B0AFB6"
+				"download" "D52D68871AA01ED4AC70FE878A9E7EDB"
+			}
+			"qa-shipping"
+			{
+				"gid" "BF9731E562616A73DCDC1F536A1262C6"
+				"size" "559478BD11BF1911CEF268E9250D29D4"
+				"download" "44D31D19E8E8B7DE0F3B8922B18701C0"
+			}
+			"stress-test"
+			{
+				"gid" "607B45D9E89DCBBE1F96A58D8E73948C"
+				"size" "94E889496D717010321FC8C37841E4A7"
+				"download" "A1EE8412D27F22CC7D6EEC8BB2D1AC79"
+			}
+		}
+	}
+	"412682"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"evrima"
+			{
+				"gid" "6267010785591315069"
+				"size" "3460676518"
+				"download" "1254634592"
+			}
+			"spiro0.11.59.04"
+			{
+				"gid" "3175858647194091748"
+				"size" "3508277151"
+				"download" "1268531152"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "3D791892AA088FA5AC275FF9F982952C"
+				"size" "A38060FD3BBE9CFA7B888007BDB1A3A1"
+				"download" "9198AEA48027BE6C4FC8E8BAB09C953C"
+			}
+			"mechanic-test"
+			{
+				"gid" "BAC672A80B9AF6811E80876B36262124"
+				"size" "D900AFD1F7C9D8E189C5C933EF0BD498"
+				"download" "7D28B79316CE70D5F818B0B142DBD9A5"
+			}
+			"qa-debug"
+			{
+				"gid" "3AFD52E0B45AB1F7CE74D3FBDC39F78E"
+				"size" "DB6B67B7CB364CAC25506B8BB2970663"
+				"download" "9D8FCC894F6996BA54DDCD6CC99B7F18"
+			}
+			"qa-shipping"
+			{
+				"gid" "61F8D75A729743D880DE4DF21B8E001E"
+				"size" "AD685747AAE9DF18E8964B3F0B23EA39"
+				"download" "B380D4127D4068D6E67AF3F1EBBE129D"
+			}
+			"stress-test"
+			{
+				"gid" "E35093A5B575F4F979472DA33A4CE1DE"
+				"size" "74C3B4D2B3B9E8451585FF204A0693D0"
+				"download" "82F17953D046C1C1F5BBAD087BD05392"
+			}
+		}
+	}
+	"412684"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8170223"
+			"timeupdated" "1644385904"
+		}
+		"evrima"
+		{
+			"buildid" "13013617"
+			"description" "evrima servers"
+			"timeupdated" "1703102089"
+		}
+		"internal"
+		{
+			"buildid" "13088214"
+			"pwdrequired" "1"
+			"timeupdated" "1704330470"
+		}
+		"mechanic-test"
+		{
+			"buildid" "13013617"
+			"pwdrequired" "1"
+			"timeupdated" "1703118247"
+		}
+		"promotional"
+		{
+			"buildid" "3728268"
+			"description" "Promotional and Marketing Branch"
+			"timeupdated" "1556985533"
+		}
+		"qa-debug"
+		{
+			"buildid" "13013617"
+			"pwdrequired" "1"
+			"timeupdated" "1703102065"
+		}
+		"qa-shipping"
+		{
+			"buildid" "13008304"
+			"pwdrequired" "1"
+			"timeupdated" "1703061550"
+		}
+		"spiro0.11.59.04"
+		{
+			"buildid" "12380465"
+			"description" "evrima spiro branch"
+			"timeupdated" "1699983388"
+		}
+		"stress-test"
+		{
+			"buildid" "12672532"
+			"pwdrequired" "1"
+			"timeupdated" "1700167113"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21751272"
+"_sha" "8de90e7b4de672a805da9e528aea77e87ff06cd3"
+"_size" "4938"
