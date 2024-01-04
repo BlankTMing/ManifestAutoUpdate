@@ -1,0 +1,229 @@
+"appid" "1052760"
+"common"
+{
+	"name" "Hexa Path"
+	"type" "Game"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"clienttga" "8ca95606331366e613c91d06100d1b9b1a45acbf"
+	"clienticon" "34fdf4ec7841c1a293eb02a7e740da5398e0cff9"
+	"icon" "e56b20c8295a28e3155fdba34321428d67783757"
+	"logo" "1999854fd7df266295dde795614fcb0669214af6"
+	"logo_small" "1999854fd7df266295dde795614fcb0669214af6_thumb"
+	"releasestate" "released"
+	"metacritic_name" "Hexa Path"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1667064342"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "NanningsGames"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "NanningsGames"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Nannings"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_28" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1554196193"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1052760"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "492"
+		"2" "1664"
+		"3" "1677"
+		"4" "4182"
+		"5" "4400"
+		"6" "5851"
+		"7" "4191"
+		"8" "9"
+		"9" "1756"
+		"10" "4166"
+		"11" "4791"
+		"12" "7481"
+		"13" "21"
+		"14" "5411"
+	}
+	"review_score" "7"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"developer" "NanningsGames"
+	"publisher" "NanningsGames"
+	"homepage" "http://www.nannings.nz"
+	"listofdlc" "1055790"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Hexa Path"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Hexa Path.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Hexa Path.x86_64"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1052761"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3047550544168616058"
+				"size" "131739699"
+				"download" "25180192"
+			}
+		}
+	}
+	"1055790"
+	{
+		"dlcappid" "1055790"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "407627017769108162"
+				"size" "253712789"
+				"download" "227649312"
+			}
+		}
+		"config"
+		{
+			"optionaldlc" "1055790"
+		}
+	}
+	"1052762"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8163866730425572421"
+				"size" "134004621"
+				"download" "25923488"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9895890"
+			"timeupdated" "1667942859"
+		}
+	}
+	"appmanagesdlc" "1"
+}
+"ufs"
+{
+	"quota" "10000"
+	"maxnumfiles" "2"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "NanningsGames/Hexa Path"
+			"pattern" "savedata"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "NanningsGames/Hexa Path"
+					"replace" ".config/unity3d/NanningsGames/Hexa Path"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20615791"
+"_sha" "9de530e80351f54b1232fef90b7f4562ccd26ad8"
+"_size" "3519"
