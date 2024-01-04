@@ -1,0 +1,120 @@
+"appid" "907840"
+"common"
+{
+	"name" "Hot Lava Language Mod Uploader"
+	"section_type" "ownersonly"
+	"type" "Tool"
+	"parent" "382560"
+	"releasestate" "released"
+	"icon" "f11dddf480bdb6cde2ae51e2195f480ebc18997a"
+	"logo" "c8f959d2aa7fc9fe8a8d08789bfba8f27e2c6696"
+	"logo_small" "c8f959d2aa7fc9fe8a8d08789bfba8f27e2c6696_thumb"
+	"clienttga" "90a766a474a18dd5c3fd2d8161a8a58a5a04eb03"
+	"clienticon" "f48b7911f844ebdc276dc168212c6359b2b41887"
+	"associations"
+	{
+	}
+	"gameid" "907840"
+}
+"config"
+{
+	"installdir" "HotLavaUploader"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ModUploader32.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+	}
+}
+"depots"
+{
+	"907841"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9025495945151158394"
+				"size" "9530662"
+				"download" "2676656"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"lastknowngood"
+			{
+				"gid" "D5403D29D6AE1B82A853F5E4577E9C4F"
+				"size" "FDE1EC7ECA76583D7E74914A6CD4378F"
+				"download" "4584DA0D85C2C324B0DFC4EF75C34D64"
+			}
+			"nightly"
+			{
+				"gid" "07424101373637AC7D1C770879E81199"
+				"size" "8E23D29D7298BE9126447756C8023BBD"
+				"download" "9974B290FFBA3AA154D4AEA55B51C301"
+			}
+			"staging"
+			{
+				"gid" "0DD0C750D77650BB05882A451FDA9E42"
+				"size" "21CB376B69F27F298B5054F77DB51E1A"
+				"download" "616AF674ADF9341735D09E9F53FC5421"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3706506"
+			"timeupdated" "1569357463"
+		}
+		"lastknowngood"
+		{
+			"buildid" "3001028"
+			"pwdrequired" "1"
+			"timeupdated" "1569357430"
+		}
+		"nightly"
+		{
+			"buildid" "4245670"
+			"pwdrequired" "1"
+			"timeupdated" "1569923045"
+		}
+		"staging"
+		{
+			"buildid" "3001028"
+			"pwdrequired" "1"
+			"timeupdated" "1533242082"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "50000000000"
+	"maxnumfiles" "5000"
+	"appidredirect" "382560"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "archive/build/saves/{64BitSteamID}"
+			"pattern" "*"
+			"recursive" "1"
+		}
+		"copied_from_parent" "1"
+	}
+}
+"_missing_token" "False"
+"_change_number" "18821630"
+"_sha" "f3600269c939b9206b5fe6f745f5d8986acb2d8b"
+"_size" "2207"
