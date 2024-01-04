@@ -1,0 +1,806 @@
+"appid" "365360"
+"common"
+{
+	"name" "Battle Brothers"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"clienticon" "9f266d84932d0220506791c7727564185fe17b69"
+	"clienttga" "3c2c8a0e5aab024c5af4e73993a31e95ea270b24"
+	"icon" "b99db2c64ea125ff01c2d31583ff560a834e999c"
+	"logo" "1d71147b28f3182b2d15164260fa5a4253cb6022"
+	"logo_small" "1d71147b28f3182b2d15164260fa5a4253cb6022_thumb"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "365360_eula_0"
+			"name" "Battle Brothers EULA"
+			"url" "http://store.steampowered.com//eula/365360_eula_0"
+		}
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1647648000"
+		"tested_build_id" "6780851"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Battle Brothers"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1667298490"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Overhype Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Overhype Studios"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Overhype Studios"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "3"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_42" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1490338800"
+	"steam_release_date" "1490374200"
+	"metacritic_score" "80"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/battle-brothers\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "365360"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "122"
+		"2" "4172"
+		"3" "1695"
+		"4" "1678"
+		"5" "19"
+		"6" "3810"
+		"7" "4747"
+		"8" "1708"
+		"9" "1741"
+		"10" "599"
+		"11" "14139"
+		"12" "1669"
+		"13" "4711"
+		"14" "21725"
+		"15" "3987"
+		"16" "1677"
+		"17" "4325"
+		"18" "4182"
+		"19" "21"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "Overhype Studios"
+	"publisher" "Overhype Studios"
+	"homepage" "http://battlebrothersgame.com/"
+	"listofdlc" "365381,365382,732460,961930,986090,1067690,1067750,1361280,1362330,1910050"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Battle Brothers"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "win32\\BattleBrothers.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "win32\\BattleBrothers.exe"
+			"arguments" "-reset"
+			"description" "Reset Configuration"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "Extras\\Lore & Art Book.pdf"
+			"description" "Open Digital Lore & Art Book"
+			"type" "none"
+			"config"
+			{
+				"ownsdlc" "365381"
+			}
+		}
+		"3"
+		{
+			"executable" "Extras\\The Caretaker - A Battle Brothers Comic.pdf"
+			"config"
+			{
+				"ownsdlc" "1910050"
+			}
+			"description_loc"
+			{
+				"english" "Open The Caretaker - A Battle Brothers Comic"
+			}
+			"description" "Open The Caretaker - A Battle Brothers Comic"
+		}
+	}
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"1865289578"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"365361"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8977077612802674522"
+				"size" "1363029322"
+				"download" "1133708384"
+			}
+			"1.1.x"
+			{
+				"gid" "7598099831852355230"
+				"size" "1235982871"
+				"download" "1037839664"
+			}
+			"1.2.x"
+			{
+				"gid" "1307921549856235594"
+				"size" "1275890778"
+				"download" "1031892944"
+			}
+			"1.3.x"
+			{
+				"gid" "4528801126724201175"
+				"size" "1232552273"
+				"download" "1015138000"
+			}
+			"1.4.x"
+			{
+				"gid" "8299897327965473841"
+				"size" "1355814861"
+				"download" "1127272544"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"preview"
+			{
+				"gid" "A798CE3CBF886FBED6DF5FFC4B2E233C"
+				"size" "1623BA06A7777553F3073F2C4256DBAA"
+				"download" "6D25377582121CC17B36BF1EB03DD220"
+			}
+			"private"
+			{
+				"gid" "FBA7F6FD03C5A864F25EE855362DDA23"
+				"size" "325A9AAB41ADC1B6892DD5FEDB6C466C"
+				"download" "8E26739A6F7D7CED5EFFC59E015917EC"
+			}
+		}
+	}
+	"365381"
+	{
+		"dlcappid" "365381"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2442013431067946371"
+				"size" "11295974"
+				"download" "10096352"
+			}
+			"1.1.x"
+			{
+				"gid" "2442013431067946371"
+				"size" "11295974"
+				"download" "10096352"
+			}
+			"1.2.x"
+			{
+				"gid" "2442013431067946371"
+				"size" "11295974"
+				"download" "10096352"
+			}
+			"1.3.x"
+			{
+				"gid" "2442013431067946371"
+				"size" "11295974"
+				"download" "10096352"
+			}
+			"1.4.x"
+			{
+				"gid" "2442013431067946371"
+				"size" "11295974"
+				"download" "10096352"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"preview"
+			{
+				"gid" "94BD82EDC44D3E23B0005DC102E3F540"
+				"size" "9642C68FFE22B0B165C461E0A3C5B4EF"
+				"download" "E17CA8D333E8826A59023D22C538D218"
+			}
+			"private"
+			{
+				"gid" "409039DD10391ADF1EC36895D68AAEB5"
+				"size" "5AEB3155E8EA2837E9E75FEED83B8E39"
+				"download" "3292447FF2E4322CBB870298C2858CA3"
+			}
+		}
+	}
+	"365382"
+	{
+		"dlcappid" "365382"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4497212939262597716"
+				"size" "5770"
+				"download" "3920"
+			}
+			"1.1.x"
+			{
+				"gid" "5832054726554828197"
+				"size" "5770"
+				"download" "3920"
+			}
+			"1.2.x"
+			{
+				"gid" "4497212939262597716"
+				"size" "5770"
+				"download" "3920"
+			}
+			"1.3.x"
+			{
+				"gid" "4497212939262597716"
+				"size" "5770"
+				"download" "3920"
+			}
+			"1.4.x"
+			{
+				"gid" "4497212939262597716"
+				"size" "5770"
+				"download" "3920"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"preview"
+			{
+				"gid" "E9C9FAF129CEE4CEA2DBFD4AE98A6FA8"
+				"size" "14BB694D511A747F0D35D9E573BC72D2"
+				"download" "AA5C1B98768EC24E818E203C19B3FEEC"
+			}
+			"private"
+			{
+				"gid" "FB7540CFFD25B5490218F12685A86C4B"
+				"size" "973A39B20FCAE5EB667ADBB1ED5083BD"
+				"download" "0ADC03E06814160EC3B6BF4C58A85347"
+			}
+		}
+	}
+	"732460"
+	{
+		"dlcappid" "732460"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7710260447017320527"
+				"size" "1517"
+				"download" "1136"
+			}
+			"1.1.x"
+			{
+				"gid" "3406273854384072877"
+				"size" "12984628"
+				"download" "10198976"
+			}
+			"1.2.x"
+			{
+				"gid" "7710260447017320527"
+				"size" "1517"
+				"download" "1136"
+			}
+			"1.3.x"
+			{
+				"gid" "7710260447017320527"
+				"size" "1517"
+				"download" "1136"
+			}
+			"1.4.x"
+			{
+				"gid" "7710260447017320527"
+				"size" "1517"
+				"download" "1136"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"preview"
+			{
+				"gid" "C864D6AD567A72C3C86116BAC186D1CE"
+				"size" "DC4A3004B6B003EDB8FFD5850DC0B73C"
+				"download" "2996C20737CA5EF2F9A7664AC3E2F757"
+			}
+			"private"
+			{
+				"gid" "539B007CFC35EF80EA6221AD4CE1DDA4"
+				"size" "AB30158D04BF929B31A7499C70B685D5"
+				"download" "0C4463465F52D75B79F2C0F9FC23BDB1"
+			}
+		}
+	}
+	"961930"
+	{
+		"dlcappid" "961930"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4519483112451416244"
+				"size" "95329421"
+				"download" "68360496"
+			}
+			"1.2.x"
+			{
+				"gid" "8352780600228480980"
+				"size" "4351"
+				"download" "3824"
+			}
+			"1.3.x"
+			{
+				"gid" "4519483112451416244"
+				"size" "95329421"
+				"download" "68360496"
+			}
+			"1.4.x"
+			{
+				"gid" "4519483112451416244"
+				"size" "95329421"
+				"download" "68360496"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"preview"
+			{
+				"gid" "5E52FE690AC683568FA22331A0780E59"
+				"size" "5AA7E4AACD4FDB07325CE9C1F3B537B5"
+				"download" "ACE8BEFD01219D680C70F37311C9619F"
+			}
+			"private"
+			{
+				"gid" "67714C373D628200E259894EB1E107B4"
+				"size" "47EE26C8322B811903B6BE03283788CE"
+				"download" "05E2762CEA9764840F1253DE238B9797"
+			}
+		}
+	}
+	"986090"
+	{
+		"dlcappid" "986090"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2073278951594053444"
+				"size" "1522"
+				"download" "1136"
+			}
+			"1.2.x"
+			{
+				"gid" "730172029711597677"
+				"size" "1430"
+				"download" "1056"
+			}
+			"1.3.x"
+			{
+				"gid" "2073278951594053444"
+				"size" "1522"
+				"download" "1136"
+			}
+			"1.4.x"
+			{
+				"gid" "2073278951594053444"
+				"size" "1522"
+				"download" "1136"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"preview"
+			{
+				"gid" "61CA5ECFD68F21CED3D393A4BD56D5FE"
+				"size" "38C6F1C219A2BA47FC1EB12DC5C937B9"
+				"download" "2996C20737CA5EF2F9A7664AC3E2F757"
+			}
+			"private"
+			{
+				"gid" "6C8D6CF13B05C0C098533C12B671E717"
+				"size" "1F626D3A5BB6C9F17D42C7F448E1F085"
+				"download" "0C4463465F52D75B79F2C0F9FC23BDB1"
+			}
+		}
+	}
+	"1067690"
+	{
+		"dlcappid" "1067690"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5969268974658547535"
+				"size" "14967496"
+				"download" "10413840"
+			}
+			"1.3.x"
+			{
+				"gid" "7562301137028663881"
+				"size" "14967260"
+				"download" "10413360"
+			}
+			"1.4.x"
+			{
+				"gid" "5969268974658547535"
+				"size" "14967496"
+				"download" "10413840"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"preview"
+			{
+				"gid" "DFDF488E2E673CB6FDA91E467D9F568D"
+				"size" "82416E83765F6B62EF93296EECFCCE3D"
+				"download" "7D322CCEF6E943EDD0903A9E1743E981"
+			}
+			"private"
+			{
+				"gid" "4EBEBA34563D4D9CADD93483C0EF31E7"
+				"size" "6BA88A7A665B638B0252DFF7980699B5"
+				"download" "FD9E9AE5FAF0EB9D5C4EC8F9CB5C3B42"
+			}
+		}
+	}
+	"1067750"
+	{
+		"dlcappid" "1067750"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "66624925374145362"
+				"size" "1526"
+				"download" "1136"
+			}
+			"1.3.x"
+			{
+				"gid" "66624925374145362"
+				"size" "1526"
+				"download" "1136"
+			}
+			"1.4.x"
+			{
+				"gid" "66624925374145362"
+				"size" "1526"
+				"download" "1136"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"preview"
+			{
+				"gid" "7B73308A7749B94CDED640D271D4F3EB"
+				"size" "C1CB0C4E5EAEB183AABCF53C72E86F4F"
+				"download" "2996C20737CA5EF2F9A7664AC3E2F757"
+			}
+			"private"
+			{
+				"gid" "BD808B874E9C4EB939DFD5DF14CB1944"
+				"size" "B517B2B1B64FBCD98FE2D50E9DCAF236"
+				"download" "0C4463465F52D75B79F2C0F9FC23BDB1"
+			}
+		}
+	}
+	"1361280"
+	{
+		"dlcappid" "1361280"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6237496906187000595"
+				"size" "155163776"
+				"download" "100850512"
+			}
+			"1.4.x"
+			{
+				"gid" "4067354269160217057"
+				"size" "155163704"
+				"download" "100850192"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"preview"
+			{
+				"gid" "996840C92B8AB5F7254D727520665EB5"
+				"size" "3FFCB9289A269BF67F427FFB29F1221F"
+				"download" "AB7050778EE85809D4A4CA3030B42F75"
+			}
+			"private"
+			{
+				"gid" "C4763702558465471BB5B4EACCF1EE45"
+				"size" "C5ECE3C1862D3E27A61C7519D13F5C85"
+				"download" "E712C45299D6F42066B1B929F12FFEEE"
+			}
+		}
+	}
+	"1362330"
+	{
+		"dlcappid" "1362330"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "191256620143658519"
+				"size" "1522"
+				"download" "1120"
+			}
+			"1.4.x"
+			{
+				"gid" "191256620143658519"
+				"size" "1522"
+				"download" "1120"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"preview"
+			{
+				"gid" "0A359FE50F5A03CD45A771C4FF3DA656"
+				"size" "38C6F1C219A2BA47FC1EB12DC5C937B9"
+				"download" "9D842EF918FB74F8BD41BE591671AD71"
+			}
+			"private"
+			{
+				"gid" "E4B6FA94E25607BE007CEDAB154D2F12"
+				"size" "1F626D3A5BB6C9F17D42C7F448E1F085"
+				"download" "C172221F3870755C9E46C740ED35A01B"
+			}
+		}
+	}
+	"1910050"
+	{
+		"dlcappid" "1910050"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "791638025242219165"
+				"size" "66946007"
+				"download" "65745056"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"preview"
+			{
+				"gid" "5A37EF5F8C7864986766D49F789B5157"
+				"size" "B107FD0BE34A5706B0D6F774166EE551"
+				"download" "E7026981FA32655BCE8ED535D131FF28"
+			}
+			"private"
+			{
+				"gid" "6F422EA844428034E7E7C8C56363914E"
+				"size" "D6525C1DB1A05D1B2C0C3D0C133F450D"
+				"download" "BE0EEEC377570C1EE0666E1648C4FF2A"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12000954"
+			"timeupdated" "1692693018"
+		}
+		"1.1.x"
+		{
+			"buildid" "2562010"
+			"description" "Version 1.1.x of Battle Brothers"
+			"timeupdated" "1542904891"
+		}
+		"1.2.x"
+		{
+			"buildid" "3613980"
+			"description" "Version 1.2.x of Battle Brothers"
+			"timeupdated" "1557158629"
+		}
+		"1.3.x"
+		{
+			"buildid" "4132318"
+			"description" "Version 1.3.x of Battle Brothers"
+			"timeupdated" "1593602508"
+		}
+		"1.4.x"
+		{
+			"buildid" "6780851"
+			"description" "Version 1.4.x of Battle Brothers"
+			"timeupdated" "1646832872"
+		}
+		"preview"
+		{
+			"buildid" "12000954"
+			"pwdrequired" "1"
+			"timeupdated" "1692693010"
+		}
+		"private"
+		{
+			"buildid" "12000954"
+			"pwdrequired" "1"
+			"timeupdated" "1692692625"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "600000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "Battle Brothers/savegames"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "savegames"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21717117"
+"_sha" "e9899037258f6bfba2f7bd75e8343530f5c6cb65"
+"_size" "15304"
