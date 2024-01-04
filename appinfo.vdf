@@ -1,0 +1,410 @@
+"appid" "823130"
+"common"
+{
+	"name" "Totally Accurate Battlegrounds"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"logo" "cf3b17ca4bf9328eb2489989e9c3c60b9bc8d61f"
+	"logo_small" "cf3b17ca4bf9328eb2489989e9c3c60b9bc8d61f_thumb"
+	"icon" "920902c516d435c3d9a6c5ef92e3cd4372f9314b"
+	"clienticon" "212ae35daa3af346a396e0e9334e3f116b1d8ca1"
+	"clienttga" "8636c7c8495aeae48b0974728a970600cbf72ed0"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "823130_eula_0"
+			"name" "Totally Accurate Battlegrounds EULA"
+			"url" "https://store.steampowered.com//eula/823130_eula_0"
+			"version" "1"
+		}
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1677715200"
+		"tested_build_id" "10621485"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Totally Accurate Battlegrounds"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "53.500583430571766"
+			"height_pct" "51.51982901923533"
+		}
+	}
+	"store_asset_mtime" "1702991090"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Landfall"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Landfall"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "landfall"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "37"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_36" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_35" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1528243080"
+	"community_hub_visible" "1"
+	"gameid" "823130"
+	"exfgls" "1"
+	"store_tags"
+	{
+		"0" "3859"
+		"1" "3968"
+		"2" "4747"
+		"3" "492"
+		"4" "128"
+		"5" "5350"
+		"6" "599"
+		"7" "9"
+		"8" "176981"
+		"9" "1663"
+		"10" "1774"
+		"11" "10397"
+		"12" "19"
+		"13" "1775"
+		"14" "1685"
+		"15" "3810"
+		"16" "5711"
+		"17" "1662"
+		"18" "1695"
+		"19" "4878"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "Landfall"
+	"publisher" "Landfall"
+	"homepage" "http://landfall.se"
+	"isfreeapp" "1"
+}
+"config"
+{
+	"installdir" "TotallyAccurateBattlegrounds"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TABG_Launcher.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "TotallyAccurateBattlegrounds.exe"
+			"type" "none"
+			"config"
+			{
+				"betakey" "ogtabg"
+			}
+		}
+		"3"
+		{
+			"executable" "TABG_Launcher.exe"
+			"arguments" "-force-vulkan"
+			"type" "none"
+			"config"
+			{
+				"betakey" "landfall"
+			}
+			"description_loc"
+			{
+				"english" "Launch with Vulkan"
+			}
+			"description" "Launch with Vulkan"
+		}
+		"4"
+		{
+			"executable" "TotallyAccurateBattlegrounds.exe"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "secret_test"
+			}
+			"description_loc"
+			{
+				"english" "Use This For Secret Test"
+			}
+			"description" "Use This For Secret Test"
+		}
+		"5"
+		{
+			"executable" "TotallyAccurateBattlegrounds.exe"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "landfall"
+			}
+			"description_loc"
+			{
+				"english" "Use This For Secret Test"
+			}
+			"description" "Use This For Secret Test"
+		}
+	}
+	"usemms" "1"
+}
+"depots"
+{
+	"823131"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4073830996699181916"
+				"size" "4723753482"
+				"download" "907976992"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"counterattack"
+			{
+				"gid" "B3552A588047FA30C3758A5FED6AE431"
+				"size" "925EDE84449A5DCCD10BCA93D024A9B3"
+				"download" "2A9DC24DAEA2E4C6958C1AED32D14167"
+			}
+			"deception"
+			{
+				"gid" "FFC1B68895871C26D78AB17852D11619"
+				"size" "8146F7DDA2F5FF6E72EC00BCA3559DEC"
+				"download" "1E93FF829858CA11AAEEC24303E0F096"
+			}
+			"deception_special"
+			{
+				"gid" "FBCABEC9BBF5AFCAEBB11FE8C5045AF5"
+				"size" "830F8AD5AE522D5CA2BE65086E60E762"
+				"download" "12204C6909FA75C5DEAF239ECE3E3753"
+			}
+			"easy_ac"
+			{
+				"gid" "B30E913310B840C4EC53CD322C9767D4"
+				"size" "D70E940B58EF33AC3288BFD8638BC04E"
+				"download" "3DAC53A2EF600FDA69B5D93135A5E0FC"
+			}
+			"equ8"
+			{
+				"gid" "F82AA462C7772B950B57DFF8611D5EBA"
+				"size" "7A7F9EDCF9C5F7349A72F23B7E028D2A"
+				"download" "9166780DDE58F57CA695876DC6A34AB5"
+			}
+			"free_test"
+			{
+				"gid" "DA1836FC25F26C56B60C9113988BED0F"
+				"size" "409DCBFC7B92D20882B3FDD89DF52CBF"
+				"download" "919A54D9B8FADD4AA11AED29D9F583DA"
+			}
+			"landfall"
+			{
+				"gid" "AA29122A1BA22D04044D9D0C6703974D"
+				"size" "E1D4E8BE05A26C3D60AD875D24E7737D"
+				"download" "BCA9D8D4F61912360439D7C8020CC996"
+			}
+			"landfalltest"
+			{
+				"gid" "C3EB2569F2310630451C4F0CBCD96C93"
+				"size" "793E1947A427F5990C967B1CBDB5CDD7"
+				"download" "D9E944E4CD567C6D982C86B21BDA978D"
+			}
+			"multiplay"
+			{
+				"gid" "474807AE0DB1B9F6DBD66C94897C7B86"
+				"size" "0C6E17CCF6F844FBACA9732B371F28A9"
+				"download" "2CAD39113B282BE110C2A898C08CBA8D"
+			}
+			"ogtabg"
+			{
+				"gid" "F84131B1500877C88D447B3734352297"
+				"size" "0B5A47C0777F179DAB970361FD424019"
+				"download" "C6EBB09C240A0F2135F35B4D95DE91EF"
+			}
+			"tabg-2023"
+			{
+				"gid" "A07F39DFB7B10C5835287B0DD00ED892"
+				"size" "C96C690357F3A958170CDFC046104E2A"
+				"download" "865F3C3789ABEA6C611FFCDEC4AF9A8B"
+			}
+		}
+	}
+	"823132"
+	{
+	}
+	"823133"
+	{
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12749598"
+			"timeupdated" "1700481081"
+		}
+		"counterattack"
+		{
+			"buildid" "5162894"
+			"pwdrequired" "1"
+			"timeupdated" "1592482118"
+		}
+		"deception"
+		{
+			"buildid" "5738159"
+			"pwdrequired" "1"
+			"timeupdated" "1603723864"
+		}
+		"deception_special"
+		{
+			"buildid" "5875249"
+			"pwdrequired" "1"
+			"timeupdated" "1606229850"
+		}
+		"easy_ac"
+		{
+			"buildid" "10621485"
+			"pwdrequired" "1"
+			"timeupdated" "1677167807"
+		}
+		"equ8"
+		{
+			"buildid" "9043601"
+			"pwdrequired" "1"
+			"timeupdated" "1656670981"
+		}
+		"free_test"
+		{
+			"buildid" "6646325"
+			"pwdrequired" "1"
+			"timeupdated" "1620140301"
+		}
+		"landfall"
+		{
+			"buildid" "12749598"
+			"pwdrequired" "1"
+			"timeupdated" "1700480900"
+		}
+		"landfalltest"
+		{
+			"buildid" "3331248"
+			"pwdrequired" "1"
+			"timeupdated" "1542892336"
+		}
+		"multiplay"
+		{
+			"buildid" "2902027"
+			"pwdrequired" "1"
+			"timeupdated" "1530195340"
+		}
+		"ogtabg"
+		{
+			"buildid" "3811949"
+			"pwdrequired" "1"
+			"timeupdated" "1594978808"
+		}
+		"tabg-2023"
+		{
+			"buildid" "12471465"
+			"pwdrequired" "1"
+			"timeupdated" "1697639551"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21599074"
+"_sha" "0435636649ec7b4b99a971e609be9351a83668d2"
+"_size" "8045"
