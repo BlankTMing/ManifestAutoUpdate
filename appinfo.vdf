@@ -1,0 +1,82 @@
+"appid" "104310"
+"common"
+{
+	"name" "Red Orchestra 2 SDK"
+	"type" "Tool"
+	"gameid" "104310"
+}
+"extended"
+{
+	"cwdoverride" "binaries\\win64"
+	"developer" ""
+	"disableoverlay" "1"
+	"gamedir" "RedOrchestra2SDK"
+	"homepage" ""
+	"icon" ""
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "104311"
+	"serverbrowsername" ""
+	"state" "eStateTool"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "binaries\\win64\\rogame.exe"
+			"arguments" "editor -cookededitor"
+			"workingdir" "binaries\\win64"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Red Orchestra 2"
+}
+"depots"
+{
+	"104311"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4320994200660046863"
+				"size" "399277499"
+				"download" "217667968"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internalbeta"
+			{
+				"gid" "11209360B38911F2A34BEA5BC0B55A00"
+				"size" "DAE80E1CD8132998DF1FC5C8631B3BD0"
+				"download" "AFC56619DE8830FF0267C19FB6FBD158"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "815569"
+		}
+		"internalbeta"
+		{
+			"buildid" "815569"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "853a681b7d68a9b0d4f8b68c260fb2bc96d2a2eb"
+"_size" "1254"
