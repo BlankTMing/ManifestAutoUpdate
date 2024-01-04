@@ -1,0 +1,137 @@
+"appid" "302200"
+"common"
+{
+	"name" "Miscreated Dedicated Server"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" ""
+	"logo" "1caf3ead5c52be5ffe45d5b2aed9f4510a7f4c21"
+	"logo_small" "1caf3ead5c52be5ffe45d5b2aed9f4510a7f4c21_thumb"
+	"icon" "aa5ad156c129a711b82f0a324bb46137947d1307"
+	"clienticon" "1ae20339de3855d8b1eb362854b49428132c96a0"
+	"clienttga" "4b5b05fe711233be7171649094fb039e7df9cc5e"
+	"osarch" ""
+	"associations"
+	{
+	}
+	"gameid" "302200"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "MiscreatedServer"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Bin64_dedicated/MiscreatedServer.exe"
+			"arguments" "-sv_port 64090 +sv_maxplayers 50 +map islands -mis_gameserverid 100  +sv_servername \"My Server\""
+			"description" "MiscreatedServer"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"302201"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7619112014446761930"
+				"size" "4662084334"
+				"download" "2605353376"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev"
+			{
+				"gid" "F6E93145E0624A7EBBDADA16DEB54CE0"
+				"size" "0461F75B43CA5CB5785BEB159AB271E6"
+				"download" "0777859C3169E0DBF23A882E5490AF97"
+			}
+			"experimental"
+			{
+				"gid" "8C83840627A7063E735F79F536C60DC2"
+				"size" "B4F34062459D083E9929C22C24B20EB9"
+				"download" "428C9343B3BAEB5E0283EA00046C8A50"
+			}
+			"hosting"
+			{
+				"gid" "FF11775E0EAB2A58DA21D19088CB77F4"
+				"size" "FAFC64CCDAF179FB95B7E9D3A7D37A3A"
+				"download" "5381E4C57D0A53E1332DE9F18CB7E26C"
+			}
+		}
+	}
+	"workshopdepot" "302200"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10410257"
+			"timeupdated" "1674756540"
+		}
+		"dev"
+		{
+			"buildid" "10480167"
+			"pwdrequired" "1"
+			"timeupdated" "1675553727"
+		}
+		"experimental"
+		{
+			"buildid" "5504149"
+			"pwdrequired" "1"
+			"timeupdated" "1599237694"
+		}
+		"hosting"
+		{
+			"buildid" "10328281"
+			"pwdrequired" "1"
+			"timeupdated" "1673832032"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "08ab8b8ceb53537e9a7f2ffa4e27b8a7df9d13aa"
+"_size" "2498"
