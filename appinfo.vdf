@@ -1,0 +1,531 @@
+"appid" "1369520"
+"common"
+{
+	"name" "Strangeland"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "d52f85ad25e2a55a92f54fb5d4cddef54c8c037e"
+	"logo_small" "d52f85ad25e2a55a92f54fb5d4cddef54c8c037e_thumb"
+	"clienticon" "eb86a05a08b8f944499770b5a0532ed39fa47ade"
+	"clienttga" "5b197cd7545fcb07e3b94a36b31a8f8fb5704260"
+	"icon" "e10ecb99b8401344b1c32104d27458da5ebad4ce"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"osextended" "macos64,macosnotarized"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1646870400"
+		"tested_build_id" "7939767"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "43.53003310658676"
+			"height_pct" "93.63084420090877"
+		}
+	}
+	"store_asset_mtime" "1652043350"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Wormwood Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Wadjet Eye Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Wormwood Studios"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_13" "1"
+		"category_14" "1"
+		"category_29" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"hungarian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1621947814"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1369520"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "1698"
+		"2" "3964"
+		"3" "1742"
+		"4" "1721"
+		"5" "1710"
+		"6" "1667"
+		"7" "5186"
+		"8" "6971"
+		"9" "15172"
+		"10" "5094"
+		"11" "4182"
+		"12" "4342"
+		"13" "4166"
+		"14" "3834"
+		"15" "7702"
+		"16" "7250"
+		"17" "15277"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"developer" "Wormwood Studios"
+	"publisher" "Wadjet Eye Games"
+	"homepage" "http://www.wormwoodstudios.com/p/strangeland.html"
+}
+"config"
+{
+	"installdir" "Strangeland"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Strangeland.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "winsetup.exe"
+			"type" "config"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Settings"
+				"koreana" "세팅"
+			}
+			"description" "Settings"
+		}
+		"2"
+		{
+			"executable" "Strangeland"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "Strangeland.app/Contents/MacOS/AGS"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"2889346308"
+		{
+			"controller_type" "controller_neptune"
+			"enabled_branches" "default,pre-test,testing"
+			"use_action_block" "false"
+		}
+	}
+	"steamdecktouchscreen" "1"
+}
+"depots"
+{
+	"1369521"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3846790109581291333"
+				"size" "4375187081"
+				"download" "1491087408"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"pre-test"
+			{
+				"gid" "4E9F0A77AEFC04AE3DD545CB15D934D1"
+				"size" "20E8236C91A311D1AE7F98FB599445A6"
+				"download" "5869847313E0FD66945766D30D4ED926"
+			}
+			"testing"
+			{
+				"gid" "B15FFE957E22CB18E09C66330A935C49"
+				"size" "D922C9528C1828112D3A788999F573F2"
+				"download" "A4A47140F6E64640066D57691CA4DE1C"
+			}
+		}
+	}
+	"1369522"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2619759636955299918"
+				"size" "4405397128"
+				"download" "1497724544"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"pre-test"
+			{
+				"gid" "9DE14A51182FD3ED6C1B50BE533AB189"
+				"size" "6E6B407429B1534AF8F62E450157DDA4"
+				"download" "56EE8D14162E270C1625B85BBC3D6D0C"
+			}
+			"testing"
+			{
+				"gid" "06A6DB1EED9E071A94A034F81A41BD46"
+				"size" "1FD881C955B071CEA2DE94F220792837"
+				"download" "BCB4A25F9FF71DB333A1ED48CEE1E8F0"
+			}
+		}
+	}
+	"1369524"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7914853675919175036"
+				"size" "4387092157"
+				"download" "1494200336"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"pre-test"
+			{
+				"gid" "039AB4C878DAB4B7AE0FA4305C795C53"
+				"size" "551FFE84B94E2569FBA3A45EFB214747"
+				"download" "21EB5D6FAE05A2BACA741B7C9209FD35"
+			}
+			"testing"
+			{
+				"gid" "9F003ED270C7A62EBC84C3B482EBA751"
+				"size" "7CCAC658D2FD73BCD4615620127833C1"
+				"download" "E9FF06AA0988B3FE2C07B304AF93B7DB"
+			}
+		}
+	}
+	"1369523"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"steamdeck" "1"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8122641655748658377"
+				"size" "4452119748"
+				"download" "1508809760"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"pre-test"
+			{
+				"gid" "04B76BD3A10E5410153E6EB08B9E597C"
+				"size" "00DF851F3166C7316D95F351CA871554"
+				"download" "6EFB84028F7747962BE5FFAEB8B94D94"
+			}
+		}
+	}
+	"1369525"
+	{
+		"config"
+		{
+			"language" "koreana"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3922114179780995751"
+				"size" "4382176131"
+				"download" "1606730256"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"pre-test"
+			{
+				"gid" "77D1A7087A0793E506AFD0639059A8C9"
+				"size" "1D10F3972A10331DC012DE3311967857"
+				"download" "D283D35F7AA8AFFE34D1D429ABC8CB6F"
+			}
+		}
+	}
+	"1369526"
+	{
+		"config"
+		{
+			"language" "koreana"
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4035954185655547254"
+				"size" "4427843469"
+				"download" "1616396208"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"pre-test"
+			{
+				"gid" "96B63E5CCBDB3CBE110BE7F9ED7DD045"
+				"size" "19F3D96EB90E77C447083C989D5A9E5F"
+				"download" "5A7218E693B2B9C230FC7B4FE4AB7300"
+			}
+		}
+	}
+	"1369527"
+	{
+		"config"
+		{
+			"language" "koreana"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6010869622997496710"
+				"size" "4388266706"
+				"download" "1609935728"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"pre-test"
+			{
+				"gid" "EC621E153CF5F96F975FA6EC3679142B"
+				"size" "18513D4B7456BE2D661DDF7FC21BD0F9"
+				"download" "7DF0E57F313B5B423CEF566E05648CD3"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9847671"
+			"timeupdated" "1667333620"
+		}
+		"pre-test"
+		{
+			"buildid" "9847671"
+			"pwdrequired" "1"
+			"timeupdated" "1667333609"
+		}
+		"testing"
+		{
+			"buildid" "7429012"
+			"pwdrequired" "1"
+			"timeupdated" "1632718955"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "524288000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"1"
+		{
+			"root" "WinSavedGames"
+			"path" "Strangeland"
+			"pattern" "*.ini"
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "WinSavedGames"
+			"path" "Strangeland"
+			"pattern" "*.bmp"
+			"recursive" "1"
+		}
+		"3"
+		{
+			"root" "WinSavedGames"
+			"path" "Strangeland"
+			"pattern" "*.file"
+			"recursive" "1"
+		}
+		"4"
+		{
+			"root" "WinSavedGames"
+			"path" "Strangeland"
+			"pattern" "*.dat"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinSavedGames"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Strangeland"
+					"replace" ".local/share/ags/Strangeland"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinSavedGames"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Strangeland"
+					"replace" "Strangeland"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18851103"
+"_sha" "01c95af4dd13b823468f6032b1a9f1f6973c2f2d"
+"_size" "9317"
