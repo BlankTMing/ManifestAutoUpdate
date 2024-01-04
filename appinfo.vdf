@@ -1,0 +1,663 @@
+"appid" "410340"
+"common"
+{
+	"name" "Liftoff"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "80616e9660b9d4cbecb8bbda5ef474f32c22aa54"
+	"logo_small" "80616e9660b9d4cbecb8bbda5ef474f32c22aa54_thumb"
+	"icon" "c6f3a404671e722222675053f40295bbbd57413a"
+	"clienttga" "088c70f8cbfedeb47ea9bf97296c2b06e9be0f2f"
+	"clienticon" "55999d2c4c20b7a88c340598c727fb94cea11523"
+	"clienticns" "c2325d6be2a5e05d6796127322171f3b90c00d8b"
+	"releasestate" "released"
+	"osarch" "64"
+	"osextended" "macos64,macosapplesilicon"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1660694400"
+		"tested_build_id" "8283472"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Liftoff"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "80.95427980898009"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1679322344"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "LuGus Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "LuGus Studios"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Liftoff® Drone Simulations"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "23"
+		"1" "9"
+		"2" "28"
+		"3" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_17" "1"
+		"category_18" "1"
+		"category_29" "1"
+		"category_30" "1"
+		"category_36" "1"
+		"category_25" "1"
+		"category_49" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"ukrainian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1536830760"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "410340"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "15045"
+		"2" "699"
+		"3" "4175"
+		"4" "701"
+		"5" "3839"
+		"6" "3859"
+		"7" "9204"
+		"8" "492"
+		"9" "493"
+		"10" "1702"
+		"11" "8122"
+		"12" "4182"
+		"13" "4166"
+		"14" "3834"
+		"15" "1036"
+		"16" "4191"
+		"17" "5673"
+		"18" "4036"
+		"19" "5794"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"developer" "LuGus Studios"
+	"publisher" "LuGus Studios"
+	"homepage" "http://www.liftoff-game.com"
+	"listofdlc" "1020100,1891780,2019790"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Liftoff"
+	"launch"
+	{
+		"4"
+		{
+			"executable" "launch.sh"
+			"description" "Liftoff (default)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"5"
+		{
+			"executable" "launch.sh"
+			"arguments" "-force-vulkan"
+			"description" "Liftoff (Vulkan rendering)"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"6"
+		{
+			"executable" "Liftoff.app"
+			"arguments" "-force-glcore"
+			"description" "Liftoff (default)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"7"
+		{
+			"executable" "Liftoff.app"
+			"arguments" "-force-metal"
+			"description" "Liftoff (Metal rendering)"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"8"
+		{
+			"executable" "Liftoff.exe"
+			"description" "Liftoff (default)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"9"
+		{
+			"executable" "Liftoff.exe"
+			"arguments" "-force-vulkan"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "alphatesting"
+			}
+			"description_loc"
+			{
+				"english" "Liftoff (Vulkan rendering)"
+			}
+			"description" "Liftoff (Vulkan rendering)"
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "410340"
+	"hasdepotsindlc" "1"
+	"410341"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8944084068614259643"
+				"size" "17972003207"
+				"download" "13826454896"
+			}
+			"liftoff_1.2.11"
+			{
+				"gid" "3038741536474241787"
+				"size" "16301778290"
+				"download" "5811261968"
+			}
+			"liftoff_1.3.15"
+			{
+				"gid" "7588614225010322413"
+				"size" "14214227755"
+				"download" "10301290848"
+			}
+			"liftoff_1.4.10"
+			{
+				"gid" "4111307688193568965"
+				"size" "15580986314"
+				"download" "11113359616"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alphatesting"
+			{
+				"gid" "CDDC893CF072E2DD5866A4A7265E99A8"
+				"size" "C99140E1CD9AF413D94FD88ABB737CAA"
+				"download" "E6F272BA8DF0F0890FB5E73C91FF1B71"
+			}
+			"betatesting"
+			{
+				"gid" "92F782644A5CEB075FE0B6BF0AE95C36"
+				"size" "7881B90253EDEAD8FE14E0EBC4BAB182"
+				"download" "06915C1C14C4B2B13FFF71937CBFEE33"
+			}
+			"iudro"
+			{
+				"gid" "40BCE024D6CEDF62E6EB9A0966356048"
+				"size" "2A8258949DB9D722B6857DB6F791A4A2"
+				"download" "109380A8EEA5706694B2E6FBB1282834"
+			}
+			"languagetesting"
+			{
+				"gid" "77A98A4B0DDD428A999592F9E4B8F105"
+				"size" "227B62E805871B751780F3D95B29AF07"
+				"download" "F9BEBE640B5945A2D15790F16C869F42"
+			}
+			"liftoff_delta"
+			{
+				"gid" "51D5BE7BBE5AF63A01F84A5D2DA1825E"
+				"size" "131CF5541EC6C2A5566C1296DEBF4651"
+				"download" "99FD432F74938C806650533D1E6229F8"
+			}
+			"liftoff_research"
+			{
+				"gid" "9336CC17F027A35CAA7EC9F1464C70BC"
+				"size" "134DAFB6DAAA26ECE794D124B661F1EE"
+				"download" "B284F5A7C9CC473B85476CCCB596D91D"
+			}
+			"liftoff_research_2"
+			{
+				"gid" "A80404B5CE218DE946FAA5CE51348923"
+				"size" "9DA82ECAFA05AC0CC9880D9276AC2F52"
+				"download" "9A0B0D430BDB5E1A70C7305909C25FB9"
+			}
+		}
+	}
+	"410342"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "193451343902722866"
+				"size" "17398291499"
+				"download" "13470879456"
+			}
+			"liftoff_1.2.11"
+			{
+				"gid" "2980891517134947244"
+				"size" "16292927247"
+				"download" "5810781760"
+			}
+			"liftoff_1.3.15"
+			{
+				"gid" "2804500526829847607"
+				"size" "13810877580"
+				"download" "10068520736"
+			}
+			"liftoff_1.4.10"
+			{
+				"gid" "8430196922738833336"
+				"size" "15056685314"
+				"download" "10805340944"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alphatesting"
+			{
+				"gid" "A28003A7AF7BDEACE9B57A6D861DF753"
+				"size" "262FE991D1D9B8B77FF15CC0033D869A"
+				"download" "E4FCF38CC2C55E04BE5D08E358AE5CAC"
+			}
+			"betatesting"
+			{
+				"gid" "ED921394765BE40FE3E5B8D2BF4982CE"
+				"size" "85C03540F179C287DB68D653C047083D"
+				"download" "7FA204719D5352820377043ADA826095"
+			}
+			"iudro"
+			{
+				"gid" "0C3FC6B56C3A5DFCE247F50E719C418D"
+				"size" "3009B1C201E94A279DC8C61263690520"
+				"download" "7257B71A611B122449392FEBF3262600"
+			}
+			"languagetesting"
+			{
+				"gid" "5619C7628F66D00BA27235FA3AC158C2"
+				"size" "C64816B2C2CBFCF77157C727000FEDA7"
+				"download" "5B9A47DCD409BC91A27DF2D442D9442D"
+			}
+			"liftoff_delta"
+			{
+				"gid" "876CA774D03724C7172437EA1CC15B0F"
+				"size" "A44C23A1CDCD377BF105B7527A7C139F"
+				"download" "F8B456731E9FA525A78A97F2E5719734"
+			}
+			"liftoff_research"
+			{
+				"gid" "83D899CF3050B2FF2C215F2F32937BB5"
+				"size" "56F73A72039A1D0B144B0B01D6BD8988"
+				"download" "7933714BE1141AF70138BC74D179EFF2"
+			}
+			"liftoff_research_2"
+			{
+				"gid" "2E8ACD18C1D5345136CA62B7C73E05C4"
+				"size" "CCE943C0C6D082DB68A8056FC63D063E"
+				"download" "D94A7DD2C30606683427726C54B5F108"
+			}
+		}
+	}
+	"410343"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7811939735174906241"
+				"size" "17881616531"
+				"download" "13768329680"
+			}
+			"liftoff_1.2.11"
+			{
+				"gid" "8362714863796629720"
+				"size" "16293931190"
+				"download" "5813990160"
+			}
+			"liftoff_1.3.15"
+			{
+				"gid" "2891476014370786624"
+				"size" "14168186652"
+				"download" "10274718928"
+			}
+			"liftoff_1.4.10"
+			{
+				"gid" "5451204186075747601"
+				"size" "15503201857"
+				"download" "11067812432"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alphatesting"
+			{
+				"gid" "C7B03FB19C037554E388DC86457C65F7"
+				"size" "DDAC885CE53D4D74C02303E38DA18E4B"
+				"download" "DAE0B22146A6F34A8302669E8BB66090"
+			}
+			"betatesting"
+			{
+				"gid" "A16EA0D6E3E8FC4EFED509E446DB7E39"
+				"size" "EE2D3383E81837EB6B83C924260BCECC"
+				"download" "C84724C7D0ED62803D28BB53EF9298FC"
+			}
+			"iudro"
+			{
+				"gid" "84840B93C68E515D32355FA2B96C2008"
+				"size" "E139BF767F867D66B1E12941643C3F02"
+				"download" "7F7E80A6599C07A4CDC5D3E71F1A26AD"
+			}
+			"languagetesting"
+			{
+				"gid" "953903AB1830BFBEDC92C8DA5049C775"
+				"size" "005E9EC9828A2D87F0BFE63F974C38F8"
+				"download" "C80C33E94FC79043FC803AC82CBD51D3"
+			}
+			"liftoff_delta"
+			{
+				"gid" "B204B7E131D6B397A2074EB4A2D16A3C"
+				"size" "ED6B08C93EDD4047F26CA69A5AC85EB1"
+				"download" "37A1294F85FA5B9A76C693964AB1988F"
+			}
+			"liftoff_research"
+			{
+				"gid" "18BA2C3780B9DB91F430BCFE0934A41D"
+				"size" "620D4E28B0E701E7DD13C82DB8DF7175"
+				"download" "D4B710A06374BFA301454A7C9B7B81A0"
+			}
+			"liftoff_research_2"
+			{
+				"gid" "A35075E61F1E1D029AD0AB1DB528BBCC"
+				"size" "17BF83A073EEB812C62D9C65C2689FE3"
+				"download" "78B0402826B11881BB34799C67206240"
+			}
+		}
+	}
+	"410344"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7217323552862899201"
+				"size" "14207276419"
+				"download" "10298183296"
+			}
+			"liftoff_1.2.11"
+			{
+				"gid" "1428373102393478913"
+				"size" "16295658530"
+				"download" "5809056656"
+			}
+			"liftoff_1.3.15"
+			{
+				"gid" "7217323552862899201"
+				"size" "14207276419"
+				"download" "10298183296"
+			}
+			"liftoff_1.4.10"
+			{
+				"gid" "7217323552862899201"
+				"size" "14207276419"
+				"download" "10298183296"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alphatesting"
+			{
+				"gid" "A152F5A17DC8218E559928929D304BFA"
+				"size" "1BF399A56DBE24A671B2C0C570DA8F40"
+				"download" "B4AAA21C1827A5E955D5E17F70267D69"
+			}
+			"betatesting"
+			{
+				"gid" "E1C30F6E002A8FB4BBB47C28513339EF"
+				"size" "97EF9147B65D2B83A7E8D4DA0C537CD3"
+				"download" "3266E7E09E32396F24287B4B09FE51A2"
+			}
+			"iudro"
+			{
+				"gid" "33D30BA42B3570056905E012A0E5CB40"
+				"size" "9A3DF78C8F90AF670672F662D3AEF969"
+				"download" "36080374FEEE136D094F683941A0007D"
+			}
+			"languagetesting"
+			{
+				"gid" "B7E9B1B69EBA9A3CD5C891DAA9B10267"
+				"size" "69D55AECA625E5B6259F2E449089EA74"
+				"download" "B14B5DC751D9BBC6FD9EAAB21DE16BE5"
+			}
+			"liftoff_delta"
+			{
+				"gid" "BED9FB1C5FBFD790D64347ED40522C49"
+				"size" "62D7A463E93F8685955DFD1DE22E7488"
+				"download" "95E9C3555D9604BE0D3CD8CDB040D01C"
+			}
+			"liftoff_research"
+			{
+				"gid" "1D85C3AA6291D970ECBBA77BB98F232F"
+				"size" "841F29738FC4FC311738DECBC19518DB"
+				"download" "B22072F04195598BBD50F113E84957BA"
+			}
+			"liftoff_research_2"
+			{
+				"gid" "656ECC368B6DBE5BFA5F6C2C195CF457"
+				"size" "E70A8C637A0DE1E283C0C72AF2FD4AA1"
+				"download" "2B72C29C4203899110492132E1B2C43E"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13004170"
+			"timeupdated" "1703064483"
+		}
+		"alphatesting"
+		{
+			"buildid" "13020078"
+			"pwdrequired" "1"
+			"timeupdated" "1703161270"
+		}
+		"betatesting"
+		{
+			"buildid" "10137449"
+			"pwdrequired" "1"
+			"timeupdated" "1670959633"
+		}
+		"iudro"
+		{
+			"buildid" "5296077"
+			"pwdrequired" "1"
+			"timeupdated" "1594899544"
+		}
+		"languagetesting"
+		{
+			"buildid" "10763292"
+			"pwdrequired" "1"
+			"timeupdated" "1678781549"
+		}
+		"liftoff_1.2.11"
+		{
+			"buildid" "4910637"
+			"description" "Liftoff Legacy v1.2"
+			"timeupdated" "1600870269"
+		}
+		"liftoff_1.3.15"
+		{
+			"buildid" "7562069"
+			"description" "Liftoff Legacy v1.3"
+			"timeupdated" "1641290252"
+		}
+		"liftoff_1.4.10"
+		{
+			"buildid" "9951046"
+			"description" "Liftoff Legacy v1.4"
+			"timeupdated" "1674033728"
+		}
+		"liftoff_delta"
+		{
+			"buildid" "10975062"
+			"pwdrequired" "1"
+			"timeupdated" "1681223708"
+		}
+		"liftoff_research"
+		{
+			"buildid" "5838284"
+			"pwdrequired" "1"
+			"timeupdated" "1605607668"
+		}
+		"liftoff_research_2"
+		{
+			"buildid" "11579195"
+			"pwdrequired" "1"
+			"timeupdated" "1687962493"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "200000000"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "21718277"
+"_sha" "463ef90ea413a9a30dc42eead491d7f0e1a291e3"
+"_size" "14044"
