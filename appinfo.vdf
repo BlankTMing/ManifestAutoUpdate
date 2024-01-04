@@ -1,0 +1,249 @@
+"appid" "1094060"
+"common"
+{
+	"name" "Escape First 2"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"logo" "394f0752c7b1528ab95bdb4de93d4d11c3145df7"
+	"logo_small" "394f0752c7b1528ab95bdb4de93d4d11c3145df7_thumb"
+	"clienticon" "10b9f365c59ecb5f8a827376e14eb7a27a407c2c"
+	"clienttga" "1c09f38e4413fd98928009d1ba6ea21be0779378"
+	"icon" "9db1f2626b394bc6aa1f5dee3286e2160d293308"
+	"releasestate" "released"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"openvrsupport" "1"
+	"metacritic_name" "Escape First 2"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "18.795344181161596"
+			"height_pct" "64.05775010788983"
+		}
+	}
+	"store_asset_mtime" "1561125089"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "OnSkull Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "OnSkull Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Escape Rooms"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_36" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_27" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_49" "1"
+		"category_52" "1"
+		"category_53" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1561065019"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1094060"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "1664"
+		"2" "597"
+		"3" "1685"
+		"4" "1667"
+		"5" "21978"
+		"6" "3834"
+		"7" "1738"
+		"8" "3839"
+		"9" "4191"
+		"10" "4175"
+		"11" "1721"
+		"12" "8369"
+		"13" "6129"
+		"14" "5716"
+		"15" "1775"
+		"16" "3859"
+		"17" "7250"
+		"18" "3843"
+		"19" "4172"
+	}
+	"review_score" "5"
+	"review_percentage" "54"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "OnSkull Games"
+	"publisher" "OnSkull Games"
+}
+"config"
+{
+	"installdir" "EscapeFirst2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "EscapeFirst2.exe"
+			"description" "Play on desktop - No VR"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "EscapeFirst2.exe"
+			"arguments" "-inVR"
+			"description" "Play in SteamVR"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "EscapeFirst2.exe"
+			"arguments" "-safeMode -show-screen-selector"
+			"description" "Opens pre-game options and disables gamepad"
+			"type" "config"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "6"
+	"steamconfigurator3rdpartynative" "2"
+	"steamdecktouchscreen" "1"
+}
+"depots"
+{
+	"1094061"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7274202234242261216"
+				"size" "5399056939"
+				"download" "2270761232"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5858698"
+			"timeupdated" "1605883071"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21670298"
+"_sha" "07c1198cfe22c77b620d715871b2654d3a7ec901"
+"_size" "4097"
