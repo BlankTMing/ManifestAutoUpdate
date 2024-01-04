@@ -1,0 +1,204 @@
+"appid" "72400"
+"common"
+{
+	"name" "Clones"
+	"logo" "90a667f8f905952149c7278b1f05d239aeac4037"
+	"logo_small" "90a667f8f905952149c7278b1f05d239aeac4037_thumb"
+	"icon" "b7ed8bc6a339731a5ad8e063af6ab210d0a87fba"
+	"clienticon" "edf2a976eb8cfb16ef578e01eaf7d7c85705ee4b"
+	"clienttga" "2f7da8dc5ab5a8c67549b864e468adc400245057"
+	"eulas"
+	{
+	}
+	"type" "game"
+	"metacritic_name" "Clones"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "36.24807460658776"
+			"height_pct" "66.59659674639056"
+		}
+	}
+	"store_asset_mtime" "1667227067"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Tomkorp Computer Solutions Inc."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Tomkorp Computer Solutions Inc."
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_15" "1"
+		"category_17" "1"
+		"category_29" "1"
+		"category_36" "1"
+		"category_49" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1290113640"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "72400"
+	"store_tags"
+	{
+		"0" "17337"
+		"1" "492"
+		"2" "21"
+		"3" "1664"
+		"4" "597"
+		"5" "9"
+	}
+	"review_score" "6"
+	"review_percentage" "74"
+}
+"extended"
+{
+	"developer" "Tomkorp Computer Solutions Inc."
+	"gamedir" "Clones"
+	"homepage" "https://clonesgame.com"
+	"icon" ""
+	"installscript" "clones_install.vdf"
+	"launcheula" "http://store.steampowered.com/eula/eula_clones"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "72401"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Tomkorp Computer Solutions Inc."
+	"gamemanualurl" "https://store.steampowered.com/manual/72400/"
+}
+"config"
+{
+	"installscriptsignature" "8f5864fc5aa8f76fbaa2e7e0a8176cfdfe11d49846e66d8674ec79434350fa758df8ad9e76a16826cc903424c85792ca85cc46199b69aaa2f9f6d51e38986a5110356b892ee1f28ad705ec925b5f75ecef0d3d6a6eaaa01cbcf85f042db752824596225a7d3ac53a4bf62ba2bc78b534a03e205552c1d0669716fd0dcac05fe5"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Clones"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Bin\\ClonesGame.exe"
+		}
+	}
+}
+"install"
+{
+	"run process"
+	{
+		"sound"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\72400\\Sound"
+			"process 1" "%INSTALLDIR%\\Installers\\OpenAL_Installer.exe"
+			"command 1" "/s"
+		}
+		"video"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\72400\\Video"
+			"process 1" "%INSTALLDIR%\\Installers\\dxsetup.exe"
+			"command 1" "/silent"
+		}
+		"extension"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\72400\\Extension"
+			"process 1" "%INSTALLDIR%\\Bin\\SteamClonesInstall.exe"
+		}
+	}
+}
+"depots"
+{
+	"72401"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5804261885298082303"
+				"size" "464202409"
+				"download" "447192256"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "83E1F1D37654AA67EC8EA679A90AC853"
+				"size" "D258E3D8BA7D15CEF4F8BE23EBAC01F2"
+				"download" "ABA74F4730EEAA19F04831049DAFE45D"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "944309"
+		}
+		"beta"
+		{
+			"buildid" "944309"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "21217959"
+"_sha" "ef0c1cebc1f8b51788388df696fe634544a3ccc4"
+"_size" "4001"
