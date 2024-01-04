@@ -1,0 +1,720 @@
+"appid" "280"
+"common"
+{
+	"clienticon" "d991f95d96e1c76d2acb944bb09447628cd96caa"
+	"clienttga" "bf3b23c9bf2252c27e6472c65383176002c1643c"
+	"icon" "b4f572a6cc5a6a84ae84634c31414b9123d2f26b"
+	"logo" "a612dd944b768e55389140298dcfda2165db8ced"
+	"logo_small" "c743d464719bd79150ceb616e4efd7ad6f0b175d"
+	"name" "Half-Life: Source"
+	"oslist" "windows,macos,linux"
+	"linuxclienticon" "87bda297bfca8fa26490f4a35d634d978c7da319"
+	"clienticns" "44b51f7d161d4d16f4517d36bd9eab1589b75c9e"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1664582400"
+		"tested_build_id" "4233304"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Half-Life: Source"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+	}
+	"store_asset_mtime" "1567239831"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Valve"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Valve"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Half-Life"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_44" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+		"thai"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1086073200"
+	"community_hub_visible" "1"
+	"gameid" "280"
+	"store_tags"
+	{
+		"0" "1663"
+		"1" "19"
+		"2" "1693"
+		"3" "3942"
+		"4" "4182"
+		"5" "3839"
+		"6" "1774"
+		"7" "1673"
+		"8" "6691"
+		"9" "1659"
+		"10" "1742"
+		"11" "21"
+		"12" "5708"
+		"13" "4166"
+		"14" "3859"
+		"15" "15954"
+		"16" "1667"
+		"17" "1756"
+		"18" "1669"
+		"19" "4345"
+	}
+	"review_score" "6"
+	"review_percentage" "70"
+}
+"extended"
+{
+	"developer" "Valve"
+	"directx_minver" "4.09.00.0903"
+	"gamedir" "hl1"
+	"homepage" "http://www.steampowered.com/"
+	"icon" "steam/games/icon_hl"
+	"icon2" "steam/games/icon_hl_dull"
+	"noservers" "1"
+	"order" "4"
+	"primarycache" "281"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"developer_url" "http://www.valvesoftware.com"
+	"publisher" "Valve"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "hl2.exe"
+			"arguments" "-game hl1 -steam"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "hl2.sh"
+			"arguments" "-game hl1 -steam"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "hl2.sh"
+			"arguments" "-game hl1 -steam"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"installdir" "Half-Life 2"
+	"steamvrsupport" "1"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"280"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8137697684063612960"
+				"size" "725859105"
+				"download" "341090944"
+			}
+			"beta"
+			{
+				"gid" "5314351696597892117"
+				"size" "722965275"
+				"download" "341752400"
+			}
+			"beta_deck"
+			{
+				"gid" "4702531228901465635"
+				"size" "724815804"
+				"download" "341429808"
+			}
+			"previous"
+			{
+				"gid" "1524937157681838211"
+				"size" "728643873"
+				"download" "0"
+			}
+		}
+	}
+	"281"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1209014309443900558"
+				"size" "40727023"
+				"download" "30585120"
+			}
+			"beta"
+			{
+				"gid" "1209014309443900558"
+				"size" "40727023"
+				"download" "30585120"
+			}
+			"beta_deck"
+			{
+				"gid" "1209014309443900558"
+				"size" "40727023"
+				"download" "30585120"
+			}
+			"previous"
+			{
+				"gid" "8012927469527986163"
+				"size" "40727023"
+				"download" "0"
+			}
+		}
+	}
+	"282"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2321482065533508154"
+				"size" "53852730"
+				"download" "36027232"
+			}
+			"beta"
+			{
+				"gid" "2321482065533508154"
+				"size" "53852730"
+				"download" "36027232"
+			}
+			"beta_deck"
+			{
+				"gid" "2321482065533508154"
+				"size" "53852730"
+				"download" "36027232"
+			}
+			"previous"
+			{
+				"gid" "6000753257525434188"
+				"size" "53852730"
+				"download" "0"
+			}
+		}
+	}
+	"283"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6826434594076489080"
+				"size" "50166889"
+				"download" "16775360"
+			}
+			"beta"
+			{
+				"gid" "6826434594076489080"
+				"size" "50166889"
+				"download" "16775360"
+			}
+			"beta_deck"
+			{
+				"gid" "6826434594076489080"
+				"size" "50166889"
+				"download" "16775360"
+			}
+			"previous"
+			{
+				"gid" "1564705421288865035"
+				"size" "50166889"
+				"download" "0"
+			}
+		}
+	}
+	"284"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5437250220505212365"
+				"size" "49369915"
+				"download" "38461680"
+			}
+			"beta"
+			{
+				"gid" "5437250220505212365"
+				"size" "49369915"
+				"download" "38461680"
+			}
+			"beta_deck"
+			{
+				"gid" "5437250220505212365"
+				"size" "49369915"
+				"download" "38461680"
+			}
+			"previous"
+			{
+				"gid" "7336424062639785155"
+				"size" "49369915"
+				"download" "0"
+			}
+		}
+	}
+	"285"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1835548264398775793"
+				"size" "56095325"
+				"download" "36943312"
+			}
+			"beta"
+			{
+				"gid" "1835548264398775793"
+				"size" "56095325"
+				"download" "36943312"
+			}
+			"beta_deck"
+			{
+				"gid" "1835548264398775793"
+				"size" "56095325"
+				"download" "36943312"
+			}
+			"previous"
+			{
+				"gid" "8871197904111589929"
+				"size" "56095325"
+				"download" "0"
+			}
+		}
+	}
+	"286"
+	{
+		"config"
+		{
+			"language" "koreana"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4630666986204671674"
+				"size" "47179140"
+				"download" "33843872"
+			}
+			"beta"
+			{
+				"gid" "4630666986204671674"
+				"size" "47179140"
+				"download" "33843872"
+			}
+			"beta_deck"
+			{
+				"gid" "4630666986204671674"
+				"size" "47179140"
+				"download" "33843872"
+			}
+			"previous"
+			{
+				"gid" "5536716871118935037"
+				"size" "47179140"
+				"download" "0"
+			}
+		}
+	}
+	"287"
+	{
+		"config"
+		{
+			"language" "schinese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6526596196411897386"
+				"size" "47376756"
+				"download" "32949568"
+			}
+			"beta"
+			{
+				"gid" "6526596196411897386"
+				"size" "47376756"
+				"download" "32949568"
+			}
+			"beta_deck"
+			{
+				"gid" "6526596196411897386"
+				"size" "47376756"
+				"download" "32949568"
+			}
+			"previous"
+			{
+				"gid" "6507393052706632648"
+				"size" "47376756"
+				"download" "0"
+			}
+		}
+	}
+	"288"
+	{
+		"config"
+		{
+			"language" "tchinese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9213303719893243751"
+				"size" "47376756"
+				"download" "32949568"
+			}
+			"beta"
+			{
+				"gid" "9213303719893243751"
+				"size" "47376756"
+				"download" "32949568"
+			}
+			"beta_deck"
+			{
+				"gid" "9213303719893243751"
+				"size" "47376756"
+				"download" "32949568"
+			}
+			"previous"
+			{
+				"gid" "1487277563275982633"
+				"size" "47376756"
+				"download" "0"
+			}
+		}
+	}
+	"221"
+	{
+		"systemdefined" "1"
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"222"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"223"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"224"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"225"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"226"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"227"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"228"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"229"
+	{
+		"config"
+		{
+			"language" "koreana"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"230"
+	{
+		"config"
+		{
+			"language" "tchinese"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"231"
+	{
+		"config"
+		{
+			"language" "schinese"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"232"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"326870"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3930958464335996279"
+				"size" "86548144"
+				"download" "79575344"
+			}
+			"beta"
+			{
+				"gid" "3930958464335996279"
+				"size" "86548144"
+				"download" "79575344"
+			}
+			"beta_deck"
+			{
+				"gid" "3930958464335996279"
+				"size" "86548144"
+				"download" "79575344"
+			}
+		}
+		"dlcappid" "326870"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4233304"
+			"timeupdated" "1569534575"
+		}
+		"beta"
+		{
+			"buildid" "8546870"
+			"description" "Beta updates"
+			"timeupdated" "1649803703"
+		}
+		"beta_deck"
+		{
+			"buildid" "8546827"
+			"description" "test beta"
+			"timeupdated" "1649803398"
+		}
+		"previous"
+		{
+			"buildid" "285420"
+			"description" "The previous public build"
+			"timeupdated" "1569534544"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "256"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "hl1/save"
+			"pattern" "*.sav"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "hl1"
+			"pattern" "*.cfg"
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20713032"
+"_sha" "78d747623255853a48b23013d025a20f1b2093bf"
+"_size" "11464"
