@@ -1,0 +1,491 @@
+"appid" "391730"
+"common"
+{
+	"name" "Crashlands"
+	"type" "Game"
+	"oslist" "windows"
+	"logo" "b714eb93b211e1aec8760ee5d066c0b5dbc0c27c"
+	"logo_small" "b714eb93b211e1aec8760ee5d066c0b5dbc0c27c_thumb"
+	"clienticon" "838cd09b1507d1bf2938e3d69fa7f5fe9d740417"
+	"clienttga" "1aa1bb8dd5e491c89bf71d2c652d704a3308ab61"
+	"icon" "8fb73009c5f9918aab9717d8f9db1a4604733297"
+	"releasestate" "released"
+	"osarch" ""
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+	}
+	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1645488000"
+		"tested_build_id" "7035137"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Crashlands"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50.93739898101344"
+			"height_pct" "50.42307693052574"
+		}
+	}
+	"store_asset_mtime" "1659108801"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Butterscotch Shenanigans"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Butterscotch Shenanigans"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Butterscotch Shenanigans"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_28" "1"
+		"category_9" "1"
+		"category_39" "1"
+		"category_24" "1"
+		"category_44" "1"
+		"category_41" "1"
+		"category_42" "1"
+		"category_43" "1"
+		"category_1" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1453380960"
+	"metacritic_score" "78"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/crashlands\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "391730"
+	"store_tags"
+	{
+		"0" "1100689"
+		"1" "122"
+		"2" "1662"
+		"3" "1695"
+		"4" "3834"
+		"5" "1702"
+		"6" "4182"
+		"7" "21"
+		"8" "3810"
+		"9" "7332"
+		"10" "492"
+		"11" "3871"
+		"12" "1643"
+		"13" "3942"
+		"14" "4791"
+		"15" "1719"
+		"16" "1742"
+		"17" "4136"
+		"18" "7208"
+		"19" "3859"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "Butterscotch Shenanigans"
+	"publisher" "Butterscotch Shenanigans"
+	"homepage" "https://www.bscotch.net/games/crashlands"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Crashlands"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Crashlands.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Crashlands.app\\Contents\\MacOS\\Crashlands"
+			"description" "Beta Launcher"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+				"betakey" "beta"
+			}
+		}
+		"3"
+		{
+			"executable" "Crashlands.app\\Contents\\MacOS\\Mac_Runner"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"4"
+		{
+			"executable" "Crashlands_1604\\Crashlands"
+			"description" "Ubuntu_16.04_Launcher"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"5"
+		{
+			"executable" "Crashlands_1804\\Crashlands"
+			"description" "Ubuntu_18.04_Launcher"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"6"
+		{
+			"executable" "Crashlands"
+			"description" "Beta Launcher"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"betakey" "beta"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"1906418496"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"391731"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5923494486344127082"
+				"size" "162056311"
+				"download" "95307584"
+			}
+			"beta"
+			{
+				"gid" "5994440629563656922"
+				"size" "161914961"
+				"download" "95199232"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"candidate"
+			{
+				"gid" "1D55170C8B4F2E729532E1C638EA8EEE"
+				"size" "A4AC6327F230B9BC230D0F012FF996F4"
+				"download" "31D76F859B90C64DF631DD8929E23159"
+			}
+			"develop"
+			{
+				"gid" "CBBA69D043651211CBF5B9A71959A97F"
+				"size" "3ED3104390C26235705E15D14ADA03FF"
+				"download" "F7012BA38112C2294F3BF198C24BE3A4"
+			}
+			"internal"
+			{
+				"gid" "16EFB0BC88B0EFC7E78D1E7E69557158"
+				"size" "5B1C76F44F2C10DBBE2CF526DA28784A"
+				"download" "82DE5B5B9A7C0FB7B96B809A7913EBDA"
+			}
+			"mac-legacy"
+			{
+				"gid" "032B63483F48E08E67E7F7F13B79C031"
+				"size" "32423D409E378979612291BDB67FD7F6"
+				"download" "3A14C42BEB8ADB6390106D5F21F61BBC"
+			}
+			"ubuntu"
+			{
+				"gid" "920D4D15351F01D105B305977083F584"
+				"size" "F7248C1FB2521FE9EAFBD9037510D595"
+				"download" "3B529817D9C18E4F35FF919E521438C6"
+			}
+		}
+	}
+	"391732"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5160663558593528303"
+				"size" "99499946"
+				"download" "76010288"
+			}
+			"beta"
+			{
+				"gid" "5160663558593528303"
+				"size" "99499946"
+				"download" "76010288"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"candidate"
+			{
+				"gid" "51CF5FF1737F24E2C682011D4290B511"
+				"size" "EFEDC1B937917F4C122273E313AC8AB1"
+				"download" "0176641084C1319C23902FF434FE74B2"
+			}
+			"develop"
+			{
+				"gid" "D185735ECFF2AF8265CF4C4F51A3026F"
+				"size" "7154C96FF2A70EED98ED5B34310BD0B4"
+				"download" "E1E6866AD1392F4D81F8D3F70DFC4471"
+			}
+			"internal"
+			{
+				"gid" "B94250B0498D771DB38DF8079DC69954"
+				"size" "54A1CA9898A8B6EEE9B91B4A7B99C0A0"
+				"download" "8352872B83F0F784BE1EC06B0BDEE819"
+			}
+			"mac-legacy"
+			{
+				"gid" "5F2EC6F66EF6E61077BF6360A761C8A3"
+				"size" "31E84411D0D2D4599952CAEED8EC40F9"
+				"download" "E7BBBBD26A3840125587CFD1D4E38472"
+			}
+			"ubuntu"
+			{
+				"gid" "9CB2990413BCC2FC0962AE40DCCAFC25"
+				"size" "0EF3A633F97278E9E592DAFA97D8DA43"
+				"download" "250A67C0AB0368BF756DE2F41C927782"
+			}
+		}
+	}
+	"391733"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3651336909143255242"
+				"size" "181385331"
+				"download" "137898880"
+			}
+			"beta"
+			{
+				"gid" "3651336909143255242"
+				"size" "181385331"
+				"download" "137898880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"candidate"
+			{
+				"gid" "435DCD7C68A8E0355A11C582536612B6"
+				"size" "78E43B8301536251AA1388BB4D085D88"
+				"download" "17D0FCF7D0FB818D3F38C2467FF8406D"
+			}
+			"develop"
+			{
+				"gid" "A39E66C4D1A162DDDACC84B0EBC3E645"
+				"size" "BE04CC678AD4AA92A15E1CAF1D9AEDF0"
+				"download" "201DD8CAC909EE2D74CA0DE78465BC71"
+			}
+			"internal"
+			{
+				"gid" "B1790181B4C57AA841A4415D28E054F9"
+				"size" "D0B246AAE22820C1EB8CD7DD9670634D"
+				"download" "C6A2CE31E142754355812EEE60EBDF17"
+			}
+			"mac-legacy"
+			{
+				"gid" "C4ADCA76DD1BEE57A64987EF3B0CFE0C"
+				"size" "5BE6FC9CB79EA85E479959A414C9A1D9"
+				"download" "DA4DEBC2218CFEC3ECEB078B5F5F552E"
+			}
+			"ubuntu"
+			{
+				"gid" "03A303B38F564F530F341E487A0E4D29"
+				"size" "FD5BBEA78DB020A649B1FA2B1C8685C8"
+				"download" "E85A3D8705FA93BAA45FF13E7CC3BC15"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11552696"
+			"timeupdated" "1687649337"
+		}
+		"beta"
+		{
+			"buildid" "9902112"
+			"description" "Beta - For testing changes"
+			"timeupdated" "1668007254"
+		}
+		"candidate"
+		{
+			"buildid" "9902079"
+			"pwdrequired" "1"
+			"timeupdated" "1668006982"
+		}
+		"develop"
+		{
+			"buildid" "11552257"
+			"pwdrequired" "1"
+			"timeupdated" "1687639232"
+		}
+		"internal"
+		{
+			"buildid" "11454712"
+			"pwdrequired" "1"
+			"timeupdated" "1686628767"
+		}
+		"mac-legacy"
+		{
+			"buildid" "2410743"
+			"pwdrequired" "1"
+			"timeupdated" "1526942841"
+		}
+		"ubuntu"
+		{
+			"buildid" "3321175"
+			"pwdrequired" "1"
+			"timeupdated" "1542654896"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "0"
+	"maxnumfiles" "0"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+}
+"_missing_token" "False"
+"_change_number" "21699370"
+"_sha" "e213a29783f3242a51ae10c5976443665d994e27"
+"_size" "9714"
