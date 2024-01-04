@@ -1,0 +1,230 @@
+"appid" "556280"
+"common"
+{
+	"name" "Neon Prism"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"icon" "79c06f6fd2a097beb041cb7103aa8500fc62ac55"
+	"logo" "e4447f23bb2c35535d493e451dedeff6870dc858"
+	"logo_small" "e4447f23bb2c35535d493e451dedeff6870dc858_thumb"
+	"clienttga" "f73cd8e2bda6ce1a78eba3059b285cd3a47f8226"
+	"clienticon" "ae87584b63f43cc4d0db267edd73c70a73b2c614"
+	"clienticns" "3b6135682f4694ecf216a16ae34e60d2c391e9fe"
+	"linuxclienticon" "a4664b81cf4294d9468109a4b319e9adea829e08"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1655251200"
+		"tested_build_id" "1523631"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Neon Prism"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1479118007"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "EGAMER"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SA Industry"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "SA Industry"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_22" "1"
+		"category_29" "1"
+		"category_28" "1"
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1479492901"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "556280"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "19"
+		"2" "492"
+		"3" "1664"
+	}
+	"review_score" "5"
+	"review_percentage" "66"
+}
+"extended"
+{
+	"developer" "EGAMER"
+	"publisher" "SA Industry"
+}
+"config"
+{
+	"installdir" "Neon Prism"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "NeonPrism.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "NeonPrism.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"556281"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4822814957412340543"
+				"size" "335120630"
+				"download" "97462944"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testbranch"
+			{
+				"gid" "F0495D89F14D23BA1339714D6A68DD64"
+				"size" "9DCC997DEF931E0C09F3871E1EB8D1CC"
+				"download" "EB06D36C3D42C8352676E203FEF9CEEA"
+			}
+		}
+	}
+	"556282"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3655850396037398226"
+				"size" "344063416"
+				"download" "99027680"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testbranch"
+			{
+				"gid" "ACE964F0F38A7101409306FF460BE8F6"
+				"size" "33B59F3534D5B50006286B7362FA50FC"
+				"download" "AEA072377DC8A624FBC2B5B8AE46EDB8"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1523631"
+			"timeupdated" "1481880281"
+		}
+		"testbranch"
+		{
+			"buildid" "1523574"
+			"pwdrequired" "1"
+			"timeupdated" "1481878433"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21488893"
+"_sha" "778485f964fbe75fe0bc6dd730f6885e98771a7f"
+"_size" "4210"
