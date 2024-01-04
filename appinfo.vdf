@@ -1,0 +1,607 @@
+"appid" "208730"
+"common"
+{
+	"name" "Game of Thrones "
+	"type" "Game"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"russian" "1"
+		"polish" "1"
+	}
+	"logo" "58a12d9058520a283b61b265bfb6d7d819a22f1e"
+	"logo_small" "58a12d9058520a283b61b265bfb6d7d819a22f1e_thumb"
+	"icon" "92b3048df9dea8b739560368f56841eb23ad5a8e"
+	"clienticon" "4bb4f657c7635083535458fe533429213749c952"
+	"clienttga" "ac5f9f9ae338b330eb8bd123a792ef90a88f1543"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1660780800"
+		"tested_build_id" "54046"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-4"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Game of Thrones"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1359179450"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Cyanide Studios"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_43" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1339088400"
+	"metacritic_score" "58"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/game-of-thrones\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "208730"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "1684"
+		"2" "19"
+		"3" "1742"
+		"4" "1697"
+		"5" "4172"
+		"6" "6426"
+		"7" "4182"
+		"8" "21"
+		"9" "3796"
+		"10" "1695"
+		"11" "4747"
+		"12" "7481"
+		"13" "4231"
+		"14" "6650"
+		"15" "6971"
+		"16" "4604"
+		"17" "5611"
+		"18" "12095"
+	}
+	"review_score" "6"
+	"review_percentage" "71"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" "Cyanide Studios"
+	"gamedir" "Game of Thrones"
+	"gamemanualurl" "http://store.steampowered.com/manual/208730/"
+	"guideappid" "206784"
+	"homepage" "http://www.gameofthrones-thegame.com/"
+	"icon" ""
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "208731"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"listofdlc" "208740,208741,208742,208743,208744,208745,208746,208747,208748,208749"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installscriptsignature" "68bd243fa04abc0ae0d7796b30e9f26202d1f39a37b2ef2a07f5d744f2dba24bc1e71aa7e3f7b9d84445ce2ed52c355ef33e1414419f9ced2c8bdc2f292ac8ffb08dfae268cf04b4331cadfec9911612589770228973447d4ff021db805938ee9543244a8f4e39af7039653628f3e9d0d2daffe6aaa8f24fadaeff0b1074db28"
+	"installscriptoverride" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Binaries\\Win32\\ShippingPC-AGOTGame.exe"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Game of Thrones"
+}
+"install"
+{
+	"run process"
+	{
+		"dotnet35"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\208730"
+			"process 1" "%INSTALLDIR%\\Binaries\\windows\\dotnetfx35.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+			"requirement_os"
+			{
+				"ostype" "Windows XP"
+			}
+		}
+		"vcredist32"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\208730"
+			"process 1" "%INSTALLDIR%\\Binaries\\windows\\vcredist_x86_vs2008sp1.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+			"requirement_os"
+			{
+				"is64bitwindows" "0"
+			}
+		}
+		"vcredist64"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\208730"
+			"process 1" "%INSTALLDIR%\\Binaries\\windows\\vcredist_x64_vs2008sp1.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+			"requirement_os"
+			{
+				"is64bitwindows" "1"
+			}
+		}
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\208730"
+			"process 1" "%INSTALLDIR%\\Binaries\\windows\\DXRedistCutdown\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"mschart"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\208730"
+			"process 1" "%INSTALLDIR%\\Binaries\\windows\\MSChart\\SPInstaller.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+		"amdcpu"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\208730"
+			"process 1" "%INSTALLDIR%\\Binaries\\windows\\AMD\\amdcpusetup.exe"
+			"command 1" "/s"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"208731"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6850744733791334687"
+				"size" "4259516801"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "6741494522205891526"
+				"size" "4259323932"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "566D9C01CF20003568B626139D5B2A85"
+				"size" "4741592249015FE28BB564F50197686B"
+				"download" "044F68D488ED19E6942FE8F75D3A287B"
+			}
+		}
+	}
+	"208732"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6924503990280167371"
+				"size" "3070146"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "462482153062411232"
+				"size" "3069988"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "6D1F37C74EF6BE9DC0C7D00F2A87E803"
+				"size" "5135323FBF5B679BDA7FE84F7820E236"
+				"download" "044F68D488ED19E6942FE8F75D3A287B"
+			}
+		}
+	}
+	"208733"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7414218988287993252"
+				"size" "1307755434"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "6562355940213535005"
+				"size" "1307755214"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "4C8C80F9DEC7121A868DE7F0754717D3"
+				"size" "44E3C13E0A641350904475F087F690CB"
+				"download" "044F68D488ED19E6942FE8F75D3A287B"
+			}
+		}
+	}
+	"208734"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "288783610058431575"
+				"size" "1489119178"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "94836479660540376"
+				"size" "1489119014"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "C4F7431D0128663A9161A9EEF0B2D9B3"
+				"size" "4B759A342625536242625EEBB927AA17"
+				"download" "044F68D488ED19E6942FE8F75D3A287B"
+			}
+		}
+	}
+	"208735"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2832186484444012934"
+				"size" "3127610"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "395626274054355638"
+				"size" "3127434"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "89E3423297DBD44AD75FB60A82A23431"
+				"size" "47F2C386F8359589BDF51EF52CCA4E29"
+				"download" "044F68D488ED19E6942FE8F75D3A287B"
+			}
+		}
+	}
+	"208736"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8160630873028144228"
+				"size" "3035122"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "4537929840168582227"
+				"size" "3034948"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "6E15EBDC5D0D7002B79A1FCFCAFC3932"
+				"size" "36384EDB744956881EB304E8ABA22287"
+				"download" "044F68D488ED19E6942FE8F75D3A287B"
+			}
+		}
+	}
+	"208737"
+	{
+		"config"
+		{
+			"language" "polish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5924010199536601949"
+				"size" "2844806"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "8556724097730869032"
+				"size" "2844642"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "D1830DCFB29861C83B56A5ADA35CB6BC"
+				"size" "5F9424FEA54A237BC39A6D36CE7B5947"
+				"download" "044F68D488ED19E6942FE8F75D3A287B"
+			}
+		}
+	}
+	"208738"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3619909454165399510"
+				"size" "2789627"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "6203636878378869736"
+				"size" "2789481"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "E632ECB81595AF0CF4C0616E0A174949"
+				"size" "E0CF5128C2EC91F39E8DC51519957126"
+				"download" "044F68D488ED19E6942FE8F75D3A287B"
+			}
+		}
+	}
+	"208740"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1973789910392218790"
+				"size" "610132044"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "F351F3B62774D7196ED9F0DF965E4837"
+				"size" "3D5DDFCE5D5E257D15070951612A0D90"
+				"download" "044F68D488ED19E6942FE8F75D3A287B"
+			}
+		}
+		"dlcappid" "208740"
+	}
+	"208741"
+	{
+		"optional" "1"
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1004578977355781253"
+				"size" "63682281"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "1004578977355781253"
+				"size" "63682281"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "75DE3AC7E35A4C99AE29DFD7673963EE"
+				"size" "2A4DD7BD69F9680B71D6BAD9478FC2ED"
+				"download" "044F68D488ED19E6942FE8F75D3A287B"
+			}
+		}
+		"dlcappid" "208741"
+	}
+	"208742"
+	{
+		"optional" "1"
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4978429797676929312"
+				"size" "38496266"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "4978429797676929312"
+				"size" "38496266"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "91AD69C956EE5E2029561DE6EC59F7D4"
+				"size" "536CA873A4E8D216A3F62AEA3E437ADE"
+				"download" "044F68D488ED19E6942FE8F75D3A287B"
+			}
+		}
+		"dlcappid" "208742"
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "54046"
+		}
+		"beta"
+		{
+			"buildid" "54046"
+			"pwdrequired" "1"
+		}
+		"local"
+		{
+			"buildid" "10458"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "524288000"
+	"maxnumfiles" "1000"
+	"hidecloudui" "0"
+	"savefiles"
+	{
+		"1"
+		{
+			"root" "WinMyDocuments"
+			"path" "/Game of Thrones/UnrealEngine3/Binaries/SaveData"
+			"pattern" "*"
+			"recursive" "1"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+		"2"
+		{
+			"root" "WinMyDocuments"
+			"path" "/Game of Thrones/UnrealEngine3/AGOTGame/Config"
+			"pattern" "AGOTInput.ini"
+			"recursive" "0"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19661327"
+"_sha" "f88301f54e6595df26bb029d8179d87c43060b79"
+"_size" "11317"
