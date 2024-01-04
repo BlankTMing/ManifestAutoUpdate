@@ -1,0 +1,367 @@
+"appid" "21000"
+"common"
+{
+	"name" "LEGO® Batman™: The Videogame"
+	"icon" "51fee43ed4f78494e23bd3eaeec5be43635dbd4c"
+	"clienttga" "7d21633225936105a3a2fda88297fab86a73eb06"
+	"clienticon" "0b898140fef2dda205cc1a8c64aaa6bca11d0962"
+	"logo" "63cde4cbc3ab537bfe53c85b7d0b8ecdffc7d9c8"
+	"logo_small" "de20b047346a174c735082b6b029f27bb940a9cd"
+	"metacritic_url" "pc/legobatman"
+	"oslist" "windows,macos"
+	"sortas" "LEGO Batman 1"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1655510400"
+		"tested_build_id" "10631"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "LEGO Batman: The Videogame"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "47"
+			"height_pct" "49"
+		}
+	}
+	"store_asset_mtime" "1681923941"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Traveller\'s Tales"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Warner Bros. Interactive Entertainment"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_24" "1"
+		"category_28" "1"
+		"category_44" "1"
+		"category_41" "1"
+		"category_42" "1"
+		"category_43" "1"
+		"category_1" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1223665200"
+	"metacritic_score" "80"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/lego-batman-the-videogame\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "21000"
+	"store_tags"
+	{
+		"0" "1736"
+		"1" "19"
+		"2" "21"
+		"3" "3841"
+		"4" "1671"
+		"5" "1685"
+		"6" "5350"
+		"7" "1719"
+		"8" "4182"
+		"9" "1751"
+		"10" "4136"
+		"11" "3859"
+		"12" "1697"
+		"13" "7368"
+		"14" "7481"
+		"15" "10816"
+		"16" "1693"
+		"17" "4747"
+		"18" "1695"
+		"19" "1664"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "Traveller\'s Tales"
+	"gamedir" "Lego Batman"
+	"homepage" "http://legobatmangame.com/"
+	"icon" ""
+	"installscript" "21000_install.vdf"
+	"installscript_macos" "LEGO Batman.app\\installscript_osx.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "21001"
+	"primarycache_macos" "21005"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"suppressims" "1"
+	"validoslist" "windows,macos"
+	"publisher" "Warner Bros. Interactive Entertainment"
+	"gamemanualurl" "https://store.steampowered.com/manual/21000/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Lego Batman"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "legobatman.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "LEGO Batman.app"
+			"description" "Mac Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"1911153494"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"21001"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5871323374027822051"
+				"size" "4499488341"
+				"download" "0"
+			}
+			"beta"
+			{
+				"gid" "5871323374027822051"
+				"size" "4499488341"
+				"download" "0"
+			}
+		}
+	}
+	"21002"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "302603787906994898"
+				"size" "149216"
+				"download" "0"
+			}
+			"beta"
+			{
+				"gid" "302603787906994898"
+				"size" "149216"
+				"download" "0"
+			}
+		}
+	}
+	"21003"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4999633951566687241"
+				"size" "214476"
+				"download" "0"
+			}
+			"beta"
+			{
+				"gid" "4999633951566687241"
+				"size" "214476"
+				"download" "0"
+			}
+		}
+	}
+	"21004"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7397377424455615958"
+				"size" "137969"
+				"download" "0"
+			}
+			"beta"
+			{
+				"gid" "7397377424455615958"
+				"size" "137969"
+				"download" "0"
+			}
+		}
+	}
+	"21005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4019824351870444877"
+				"size" "4349696619"
+				"download" "0"
+			}
+			"beta"
+			{
+				"gid" "4019824351870444877"
+				"size" "4349696619"
+				"download" "0"
+			}
+		}
+	}
+	"21006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1027077621092336532"
+				"size" "16741760"
+				"download" "0"
+			}
+			"beta"
+			{
+				"gid" "1027077621092336532"
+				"size" "16741760"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10631"
+		}
+		"beta"
+		{
+			"buildid" "10631"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21542873"
+"_sha" "50d1579be2cf270ddca4e2d33ded37e177d63aa3"
+"_size" "6417"
