@@ -1,0 +1,594 @@
+"appid" "1787090"
+"common"
+{
+	"name" "MyDockFinder"
+	"type" "Application"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"clienttga" "6a87a7f9828316c3182cee6bc87cac809a099867"
+	"clienticon" "3784098d8dc9121345b11c23585d3a11b54d85e6"
+	"icon" "71776d225a6d9984e93520b8892f0b121dbefa44"
+	"logo" "0e1efbc82e33d0da3aee906812bea320403c95b0"
+	"logo_small" "0e1efbc82e33d0da3aee906812bea320403c95b0_thumb"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"thai" "1"
+		"japanese" "1"
+		"portuguese" "1"
+		"dutch" "1"
+		"swedish" "1"
+		"ukrainian" "1"
+		"sc_schinese" "1"
+	}
+	"name_localized"
+	{
+		"sc_schinese" "MyDockFinder"
+	}
+	"releasestatesteamchina" "released"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"sc_schinese" "capsule_231x87_sc_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"sc_schinese" "header_sc_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-xc"
+		"library_hero" "en,zh-xc"
+		"library_logo" "en,zh-xc"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1679836000"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "MyDockFinder"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "MyDockFinder"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "MyDockFinder"
+		}
+	}
+	"primary_genre" "57"
+	"genres"
+	{
+		"0" "57"
+	}
+	"category"
+	{
+		"category_22" "1"
+		"category_30" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"ukrainian"
+		{
+			"supported" "true"
+		}
+		"dutch"
+		{
+			"supported" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+		}
+		"swedish"
+		{
+			"supported" "true"
+		}
+		"thai"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"greek"
+		{
+			"supported" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+		}
+		"bulgarian"
+		{
+			"supported" "true"
+		}
+		"vietnamese"
+		{
+			"supported" "true"
+		}
+		"arabic"
+		{
+			"supported" "true"
+		}
+		"hungarian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1637888429"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "1787090"
+	"exfgls" "1"
+	"store_tags"
+	{
+		"0" "87"
+		"1" "8013"
+		"2" "492"
+	}
+	"review_score" "6"
+	"review_percentage" "70"
+}
+"extended"
+{
+	"developer" "MyDockFinder"
+	"publisher" "MyDockFinder"
+	"homepage" "https://www.mydockfinder.com"
+}
+"config"
+{
+	"installdir" "MyDockFinder"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "dock_64.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "dock.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"2"
+		{
+			"executable" "dock.exe"
+			"arguments" "steamoffline"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+			"description_loc"
+			{
+				"english" "Offline"
+				"schinese" "离线运行"
+				"sc_schinese" "离线运行"
+			}
+			"description" "Offline"
+		}
+		"3"
+		{
+			"executable" "dock_64.exe"
+			"arguments" "steamoffline"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Offline"
+				"schinese" "离线运行"
+				"sc_schinese" "离线运行"
+			}
+			"description" "Offline"
+		}
+	}
+	"steam_china_only"
+	{
+		"steam_china_enable_duration_control" "0"
+		"steam_china_duration_control_show_interstitial" "0"
+	}
+	"uselaunchcommandline" "1"
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229007"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,dutch,swedish,hungarian,czech,turkish,arabic,brazilian,bulgarian,greek,ukrainian,vietnamese"
+	"workshopdepot" "1787090"
+	"hasdepotsindlc" "1"
+	"branches"
+	{
+		"steam_china_only"
+		{
+			"sc_schinese" "仅中国"
+		}
+		"v1.6.8"
+		{
+			"sc_schinese" "旧版本1.6.8"
+		}
+		"testversion"
+		{
+			"sc_schinese" "新版本测试通道 1.9.9.6"
+			"buildid" "13072079"
+			"description" "new version test 1.9.9.6"
+			"timeupdated" "1704106052"
+		}
+		"v1.7.6.1"
+		{
+			"sc_schinese" "旧版本1.7.6.1"
+		}
+		"v1.8"
+		{
+			"sc_schinese" "旧版本1.8"
+		}
+		"v1.8.8"
+		{
+			"sc_schinese" "旧版本1.8.8"
+		}
+		"v1.8.8.5"
+		{
+			"sc_schinese" "旧版本1.8.8.5"
+		}
+		"v1.8.9.1"
+		{
+			"sc_schinese" "新版本测试通道 1.8.9.1"
+		}
+		"v1.8.9.9"
+		{
+			"sc_schinese" "旧版本1.8.9.9"
+		}
+		"v1.9"
+		{
+			"sc_schinese" "历史版本19"
+		}
+		"v1.9.5"
+		{
+			"sc_schinese" "旧版本1.9.5"
+		}
+		"v1.9.7.4"
+		{
+			"sc_schinese" "旧版本1.9.7.4"
+		}
+		"v1.9.7.5"
+		{
+			"sc_schinese" "旧版本 1.9.7.5"
+		}
+		"v1.9.7.7"
+		{
+			"sc_schinese" "旧版本1.9.7.7"
+			"buildid" "10591863"
+			"description" "old-version1.9.7.7"
+			"timeupdated" "1678021032"
+		}
+		"v1.9.8.5"
+		{
+			"sc_schinese" "新版本测试通道 1.9.8.5"
+			"buildid" "11390238"
+			"description" "old-version1.9.8.5"
+			"timeupdated" "1688880282"
+		}
+		"v1.9.8.7"
+		{
+			"sc_schinese" "旧版本1.9.8.7"
+			"buildid" "11713869"
+			"description" "old-version1.9.8.7"
+			"timeupdated" "1691312019"
+		}
+		"v1.9.8.9"
+		{
+			"sc_schinese" "旧版本 1.9.8.9"
+			"buildid" "12058369"
+			"description" "old-version1.9.8.9"
+			"timeupdated" "1695538377"
+		}
+		"v1.9.9.1"
+		{
+			"sc_schinese" "旧版本1.9.9.1"
+			"buildid" "12295749"
+			"description" "old-version1.9.9.1"
+			"timeupdated" "1697369549"
+		}
+		"public"
+		{
+			"buildid" "13072079"
+			"timeupdated" "1704106075"
+		}
+	}
+	"1787091"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2348793859338075052"
+				"size" "53128638"
+				"download" "10854752"
+			}
+			"testversion"
+			{
+				"gid" "2348793859338075052"
+				"size" "53128638"
+				"download" "10854752"
+			}
+			"v1.9.7.7"
+			{
+				"gid" "1233479017008926626"
+				"size" "48020066"
+				"download" "9729280"
+			}
+			"v1.9.8.5"
+			{
+				"gid" "7283160569195656499"
+				"size" "175187931"
+				"download" "11740832"
+			}
+			"v1.9.8.7"
+			{
+				"gid" "3283593152261793163"
+				"size" "48893181"
+				"download" "10152128"
+			}
+			"v1.9.8.9"
+			{
+				"gid" "1467890988583951866"
+				"size" "50205458"
+				"download" "10453312"
+			}
+			"v1.9.9.1"
+			{
+				"gid" "5632974458940398815"
+				"size" "50980457"
+				"download" "10550112"
+			}
+		}
+	}
+}
+"ufs"
+{
+	"quota" "53687091200"
+	"maxnumfiles" "10000"
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#workshop" "WorkShop"
+			}
+		}
+		"schinese"
+		{
+			"tokens"
+			{
+				"#workshop" "创意工坊"
+			}
+		}
+		"tchinese"
+		{
+			"tokens"
+			{
+				"#workshop" "工作坊"
+			}
+		}
+		"dutch"
+		{
+			"tokens"
+			{
+				"#workshop" "Workshop"
+			}
+		}
+		"french"
+		{
+			"tokens"
+			{
+				"#workshop" "Workshop"
+			}
+		}
+		"german"
+		{
+			"tokens"
+			{
+				"#workshop" "Workshop"
+			}
+		}
+		"greek"
+		{
+			"tokens"
+			{
+				"#workshop" "Εργαστήρι"
+			}
+		}
+		"italian"
+		{
+			"tokens"
+			{
+				"#workshop" "Workshop"
+			}
+		}
+		"japanese"
+		{
+			"tokens"
+			{
+				"#workshop" "ワークショップ"
+			}
+		}
+		"koreana"
+		{
+			"tokens"
+			{
+				"#workshop" "창작마당"
+			}
+		}
+		"portuguese"
+		{
+			"tokens"
+			{
+				"#workshop" "Workshop"
+			}
+		}
+		"brazilian"
+		{
+			"tokens"
+			{
+				"#workshop" "Oficina"
+			}
+		}
+		"russian"
+		{
+			"tokens"
+			{
+				"#workshop" "Мастерская"
+			}
+		}
+		"spanish"
+		{
+			"tokens"
+			{
+				"#workshop" "Workshop"
+			}
+		}
+		"swedish"
+		{
+			"tokens"
+			{
+				"#workshop" "Workshop"
+			}
+		}
+		"thai"
+		{
+			"tokens"
+			{
+				"#workshop" "เวิร์กชอป"
+			}
+		}
+		"ukrainian"
+		{
+			"tokens"
+			{
+				"#workshop" "Майстерня"
+			}
+		}
+		"sc_schinese"
+		{
+			"tokens"
+			{
+				"#workshop" "创意工坊"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21724600"
+"_sha" "97ad68e20a859139da57a01e1e47fd83bf13675e"
+"_size" "9275"
