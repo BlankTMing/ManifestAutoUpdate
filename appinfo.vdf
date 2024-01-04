@@ -1,0 +1,650 @@
+"appid" "39510"
+"common"
+{
+	"name" "Gothic II: Gold Classic"
+	"clienticon" "bf34a70393d690d73009814ff53765ccbb67024f"
+	"clienttga" "dd11733c9841818112203fcb85985693987f332b"
+	"icon" "5c89feae2ceb954f6db723323261edb951d02926"
+	"logo" "ca3fbfb8167898fe4428412456197523b65f8f7d"
+	"logo_small" "ca3fbfb8167898fe4428412456197523b65f8f7d_thumb"
+	"sortas" "Gothic 2: Gold Edition"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1661472000"
+		"tested_build_id" "8523761"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Gothic II"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "27.16973596545793"
+			"height_pct" "70.53080614474307"
+		}
+	}
+	"store_asset_mtime" "1666955656"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Piranha Bytes"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "THQ Nordic"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Gothic"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "1"
+		"1" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1133251200"
+	"metacritic_score" "79"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/gothic-ii\?ftag=MCD-06-10aaa1f"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "39510"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "1693"
+		"2" "1695"
+		"3" "4166"
+		"4" "4182"
+		"5" "3952"
+		"6" "1684"
+		"7" "1742"
+		"8" "4604"
+		"9" "19"
+		"10" "1697"
+		"11" "4172"
+		"12" "4711"
+		"13" "21"
+		"14" "1756"
+		"15" "4026"
+		"16" "4046"
+		"17" "4057"
+		"18" "4231"
+		"19" "1681"
+	}
+	"review_score" "8"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"developer" "Piranha Bytes"
+	"gamedir" "Gothic II"
+	"homepage" "https://gothic-game.com"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "39511"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "THQ Nordic"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Gothic II"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "system\\GothicStarter.exe"
+			"type" "default"
+			"config"
+			{
+				"betakey" "default"
+			}
+		}
+		"1"
+		{
+			"executable" "launcher\\Gothic2SteamWorkshopLauncher.exe"
+			"workingdir" "launcher"
+			"type" "option1"
+			"config"
+			{
+				"betakey" "workshop"
+			}
+			"description_loc"
+			{
+				"english" "Mod launcher"
+			}
+			"description" "Mod launcher"
+		}
+		"2"
+		{
+			"executable" "system\\Gothic2.exe"
+			"workingdir" "system"
+			"type" "default"
+			"config"
+			{
+				"betakey" "original"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"baselanguages" ""
+	"workshopdepot" "39510"
+	"39519"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5067685749113517672"
+				"size" "0"
+				"download" "0"
+			}
+			"workshop"
+			{
+				"gid" "3641840156958988519"
+				"size" "3956900"
+				"download" "2159936"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"barcelona"
+			{
+				"gid" "46D00DC2CBEA5ABB4AA025A1707C847D"
+				"size" "64EE5B4104E4741797EF242A7D29589D"
+				"download" "B0704869925FB7E85722400C517C66C2"
+			}
+		}
+	}
+	"39511"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5059568151746222878"
+				"size" "3273771157"
+				"download" "2466864784"
+			}
+			"original"
+			{
+				"gid" "5007198551485934976"
+				"size" "3118100532"
+				"download" "2423311216"
+			}
+			"workshop"
+			{
+				"gid" "7496965022572017000"
+				"size" "3120525165"
+				"download" "2420297568"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"barcelona"
+			{
+				"gid" "150AB137A6781099144ED7E8BCD4292F"
+				"size" "3C616C801211027B6DE5BBBFFB852DC6"
+				"download" "265420DFFF08667A32F2867388E8DBD6"
+			}
+			"testgate"
+			{
+				"gid" "5757069A8054264146B0A927B26D6977"
+				"size" "6FC8297A7CB8599BD1F9DC939026451C"
+				"download" "5FCDB051591A848A76A3BA0127B76531"
+			}
+		}
+	}
+	"39517"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7226926567864185080"
+				"size" "74020521"
+				"download" "15646992"
+			}
+			"original"
+			{
+				"gid" "8840041661779106847"
+				"size" "68537254"
+				"download" "20310128"
+			}
+			"workshop"
+			{
+				"gid" "9207807382714786696"
+				"size" "62910682"
+				"download" "14132672"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"barcelona"
+			{
+				"gid" "DED4178DCBC486579AA482A910F05510"
+				"size" "E183583FD5E62DF2010EF369BF786CCD"
+				"download" "F34D0DA85E2DF0174B9620E93F3E6962"
+			}
+			"testgate"
+			{
+				"gid" "E546BA87A2CAC182C947888D3531B585"
+				"size" "E4B0DDDCADCE5EBA18A03DEA7DE95111"
+				"download" "A26094AFDF965C3E7EC4F747329F8659"
+			}
+		}
+	}
+	"39512"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "998169341576372951"
+				"size" "1964077679"
+				"download" "1616030736"
+			}
+			"original"
+			{
+				"gid" "4355052213156452535"
+				"size" "1961033461"
+				"download" "1619174896"
+			}
+			"workshop"
+			{
+				"gid" "5183514253387082976"
+				"size" "1952854137"
+				"download" "1614483696"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"barcelona"
+			{
+				"gid" "AF28975322CD2B421469156126E35658"
+				"size" "C21FB9380335ED0A0859A4D71BC4C04C"
+				"download" "FED5FE413CFADA6B632BB77B4267DD25"
+			}
+			"testgate"
+			{
+				"gid" "DC22B1B9AC4072A22DDC55D5EEBBF6E5"
+				"size" "0B91CBB233D54344665900A218C747FD"
+				"download" "ACBB3070B8B0FC787D62AB2E44E90C7A"
+			}
+		}
+	}
+	"39513"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5289397696824708902"
+				"size" "197237008"
+				"download" "135785232"
+			}
+			"original"
+			{
+				"gid" "6604582091876132088"
+				"size" "206192038"
+				"download" "141995856"
+			}
+			"workshop"
+			{
+				"gid" "5289397696824708902"
+				"size" "197237008"
+				"download" "135785232"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"barcelona"
+			{
+				"gid" "02F5ADBC902AEE809AD744F4118F6E6B"
+				"size" "168A5CAEB12D193C5A2C5F998A2DB4F1"
+				"download" "0011F3CEDD281F132D92703CA1864613"
+			}
+			"testgate"
+			{
+				"gid" "324722829D64EE9AFD487444180400DB"
+				"size" "A546A865235B016005E87125D21608BC"
+				"download" "3F3C114E41A934352B927C8BE936A4E4"
+			}
+		}
+	}
+	"39514"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3890767973784522915"
+				"size" "189086917"
+				"download" "130776672"
+			}
+			"original"
+			{
+				"gid" "2649368714888774747"
+				"size" "191943669"
+				"download" "137013168"
+			}
+			"workshop"
+			{
+				"gid" "3890767973784522915"
+				"size" "189086917"
+				"download" "130776672"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"barcelona"
+			{
+				"gid" "258255B0229C3D3AA24D027E289CB4BA"
+				"size" "FB67395BCD270B3DA36737ADB00A43D6"
+				"download" "687842AD9726ACB796960CE86AEA48DB"
+			}
+			"testgate"
+			{
+				"gid" "FE29BDF0FF7E6D915F380064E3B44DBB"
+				"size" "C264D4B96B137A96BC29F474863BA659"
+				"download" "5E92AA2FA06FC547D5C1DAC71ADC10E4"
+			}
+		}
+	}
+	"39515"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5402387635264061735"
+				"size" "192785372"
+				"download" "134296816"
+			}
+			"original"
+			{
+				"gid" "1661756271643532594"
+				"size" "195715336"
+				"download" "140177808"
+			}
+			"workshop"
+			{
+				"gid" "5402387635264061735"
+				"size" "192785372"
+				"download" "134296816"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"barcelona"
+			{
+				"gid" "B2CF20AF23915820E97AD5D1CF370D5D"
+				"size" "A78593979954E144E015A5C974E00D82"
+				"download" "4276CA5A2B9CEDBAE982B7C5E05B3C54"
+			}
+			"testgate"
+			{
+				"gid" "57838BFCB665C6A29FB01FCEF90E3725"
+				"size" "20C818827FEBF2B983E0D172F763B041"
+				"download" "5F1D7EC4EFCE0F5D2A0D6710F7F37668"
+			}
+		}
+	}
+	"39516"
+	{
+		"config"
+		{
+			"language" "polish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "950328956863520329"
+				"size" "2425052379"
+				"download" "1700210672"
+			}
+			"original"
+			{
+				"gid" "7895278316846897442"
+				"size" "2820540396"
+				"download" "1887547712"
+			}
+			"workshop"
+			{
+				"gid" "1158307755643863213"
+				"size" "2411291366"
+				"download" "1698616896"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"barcelona"
+			{
+				"gid" "8B31C47EEEB71E6D2FDCF7624922506C"
+				"size" "EDF0CCA3EA767B26F0DB1ABC33FE3747"
+				"download" "02F1885B6696D87BA03484E14BCAD833"
+			}
+			"testgate"
+			{
+				"gid" "74F751B84346CE17357B6EF2DE457116"
+				"size" "13F0C28E6309408D824F998C35472993"
+				"download" "A9806B78043C3C29B3076B5FC6DF1938"
+			}
+		}
+	}
+	"39518"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6789470951450256759"
+				"size" "2193499079"
+				"download" "1694729632"
+			}
+			"workshop"
+			{
+				"gid" "2330020905504979567"
+				"size" "2180375664"
+				"download" "1693012832"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"barcelona"
+			{
+				"gid" "7ACD158E9D0C8364C6E972AF60E9172D"
+				"size" "E725374C183022A2D78BC4F67C9F5933"
+				"download" "B487EB697988AB8B4B13558C86CA789C"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10042765"
+			"timeupdated" "1669762966"
+		}
+		"barcelona"
+		{
+			"buildid" "10042762"
+			"pwdrequired" "1"
+			"timeupdated" "1669762933"
+		}
+		"original"
+		{
+			"buildid" "1039721"
+			"description" "Original Release - Happy Anniversary!"
+			"timeupdated" "1616367623"
+		}
+		"testgate"
+		{
+			"buildid" "1039721"
+			"pwdrequired" "1"
+			"timeupdated" "1458832935"
+		}
+		"workshop"
+		{
+			"buildid" "9820952"
+			"description" "Workshop Beta"
+			"timeupdated" "1666956226"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Saves"
+			"pattern" "*.*"
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21327822"
+"_sha" "943d4a436bc6f6a64040c720606c7f8555a49c3b"
+"_size" "11906"
