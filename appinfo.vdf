@@ -1,0 +1,351 @@
+"appid" "865540"
+"common"
+{
+	"name" "PLAYNE"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"logo" "84ad380551eda0440d16aa7608c6aebd29a451cf"
+	"logo_small" "84ad380551eda0440d16aa7608c6aebd29a451cf_thumb"
+	"icon" "28e9e628e5ead00668d3de84ff58c5659ef3f644"
+	"clienticon" "f4ad841667b3a028ed8c7c837eb9d86cae1b082f"
+	"clienttga" "0387c54c77fc9fa4d171857b34e402ae537d4e1f"
+	"openvrsupport" "1"
+	"controllervr"
+	{
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1662681600"
+		"tested_build_id" "7034736"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "PLAYNE"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "1"
+			"height_pct" "2"
+		}
+	}
+	"store_asset_mtime" "1671708942"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Krish Shrikumar"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Vismaya"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "The Meditation Game"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_52" "1"
+		"category_53" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1588340640"
+	"steam_deck_blog_url" "https://steamcommunity.com/app/865540/discussions/8/"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "865540"
+	"store_tags"
+	{
+		"0" "1654"
+		"1" "4182"
+		"2" "15277"
+		"3" "1742"
+		"4" "4166"
+		"5" "30358"
+		"6" "1695"
+		"7" "3839"
+		"8" "3810"
+		"9" "597"
+		"10" "3834"
+		"11" "4145"
+		"12" "599"
+		"13" "4175"
+		"14" "13782"
+		"15" "9204"
+		"16" "3934"
+		"17" "5900"
+		"18" "1036"
+		"19" "492"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Krish Shrikumar"
+	"publisher" "Vismaya"
+	"homepage" "https://www.playne.co"
+	"listofdlc" "1525880"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "PLAYNE"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "PLAYNE.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"1"
+		{
+			"executable" "PLAYNE.exe"
+			"type" "default"
+			"description_loc"
+			{
+				"english" "Playne"
+			}
+			"description" "Playne"
+		}
+		"2"
+		{
+			"executable" "VR/PLAYNE.exe"
+			"type" "vr"
+			"config"
+			{
+				"ownsdlc" "1525880"
+			}
+			"description_loc"
+			{
+				"english" "Playne VR"
+			}
+			"description" "Playne VR"
+		}
+	}
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"865541"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3047271885241232538"
+				"size" "4244702261"
+				"download" "1537977152"
+			}
+			"preview"
+			{
+				"gid" "5578965823647508927"
+				"size" "3919883128"
+				"download" "1401672448"
+			}
+			"previousupdate"
+			{
+				"gid" "6075497181283035020"
+				"size" "3914890352"
+				"download" "1400204688"
+			}
+			"v113"
+			{
+				"gid" "3043752609478384040"
+				"size" "3451231158"
+				"download" "1229445232"
+			}
+		}
+	}
+	"1525880"
+	{
+		"dlcappid" "1525880"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5624851356209082955"
+				"size" "3766004294"
+				"download" "1351162816"
+			}
+			"preview"
+			{
+				"gid" "1564605672823971320"
+				"size" "3621372862"
+				"download" "1245785200"
+			}
+			"previousupdate"
+			{
+				"gid" "1564605672823971320"
+				"size" "3621372862"
+				"download" "1245785200"
+			}
+			"v113"
+			{
+				"gid" "5624851356209082955"
+				"size" "3766004294"
+				"download" "1351162816"
+			}
+		}
+	}
+	"1791800"
+	{
+		"dlcappid" "1791800"
+		"config"
+		{
+			"oslist" "windows"
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10190993"
+			"timeupdated" "1671615637"
+		}
+		"preview"
+		{
+			"buildid" "6293725"
+			"description" "Pre-Released Builds"
+			"timeupdated" "1614262491"
+		}
+		"previousupdate"
+		{
+			"buildid" "6360071"
+			"timeupdated" "1626360900"
+		}
+		"v113"
+		{
+			"buildid" "7165984"
+			"description" "Manually load version V1.1.3"
+			"timeupdated" "1628590614"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "20000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "PLAYNE/Saved/SaveGames"
+			"pattern" "*.sav"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20646576"
+"_sha" "72a8a489589baf6caa3cd4b6998048326b97dd20"
+"_size" "6038"
