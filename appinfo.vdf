@@ -1,0 +1,128 @@
+"appid" "2662210"
+"common"
+{
+	"name" "Astro Colony Dedicated Server"
+	"type" "Tool"
+	"parent" "1614550"
+	"icon" "228f20bf4fe62b5ccebd0edc41595cc38a4766e6"
+	"clienticon" "d30f7e35e4ae042a2238fd16d880cdde0b5cc367"
+	"clienttga" "4228319651651207eb70685373b4e730ae03ed39"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"community_hub_visible" "1"
+	"gameid" "2662210"
+}
+"config"
+{
+	"installdir" "Astro Colony Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "AstroColonyServer.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2662211"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8852138420984413344"
+				"size" "387878739"
+				"download" "187528080"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13086984"
+			"timeupdated" "1704316545"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21749461"
+"_sha" "5b00ef30d266fd030536752762021a2be4f25023"
+"_size" "1822"
