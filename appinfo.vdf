@@ -1,0 +1,249 @@
+"appid" "621000"
+"common"
+{
+	"name" "异常 | Exception"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" ""
+	"clienttga" "3fda5ac4329743b68336805804a3cae3297d4cc4"
+	"clienticon" "68a784a21fbf35fc03e9c2df973bae3c697e183f"
+	"icon" "1fcce492b2a02dee2427e572adf8e7e7a1425c10"
+	"logo" "9c8c263ce4cce37a07344d49cb8d54d10214208a"
+	"logo_small" "9c8c263ce4cce37a07344d49cb8d54d10214208a_thumb"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"tchinese" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1684281600"
+		"tested_build_id" "4141598"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "异常 | Exception"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1562243332"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Kunpo Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Kunpo Games"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_33" "1"
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_15" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1562310000"
+	"steam_release_date" "1562256423"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "621000"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "492"
+		"2" "5432"
+		"3" "5752"
+	}
+	"review_score" "9"
+	"review_percentage" "97"
+}
+"extended"
+{
+	"developer" "Kunpo Games"
+	"publisher" "Kunpo Games"
+}
+"config"
+{
+	"installdir" "Exception"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Exception.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,schinese,tchinese"
+	"621001"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7305691789894321924"
+				"size" "87357868"
+				"download" "56180240"
+			}
+		}
+	}
+	"621002"
+	{
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4141598"
+			"timeupdated" "1566886512"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Exception/{64BitSteamID}/levels"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Exception/{64BitSteamID}/player_levels"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Exception/{64BitSteamID}"
+			"pattern" "progress.json"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"3"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Exception/{64BitSteamID}"
+			"pattern" "player_level_progress.json"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"4"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Exception/{64BitSteamID}"
+			"pattern" "help.json"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"5"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Exception/{64BitSteamID}"
+			"pattern" "settings.json"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"6"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Exception/{64BitSteamID}"
+			"pattern" "user.json"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21607999"
+"_sha" "e48645a0db5bbd4607052395f725bd425fb0baf4"
+"_size" "4204"
