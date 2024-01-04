@@ -1,0 +1,219 @@
+"appid" "1607310"
+"common"
+{
+	"name" "汽车帝国"
+	"type" "Game"
+	"logo" "e0cfcaa43644d5f8164b62e21f824d41ddde169f"
+	"logo_small" "e0cfcaa43644d5f8164b62e21f824d41ddde169f_thumb"
+	"icon" "84ae537760d2840fdcbe8ae71030d83b5b99540c"
+	"clienticon" "f732e5245eb350762a2346ad2ad88ff4087575ff"
+	"clienttga" "5164dd5f2b8d24f61ecab0f10afd66febb4e1882"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"releasestate" "released"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "49.90654205607477"
+			"height_pct" "37.15277777777778"
+		}
+	}
+	"store_asset_mtime" "1628761400"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Shanghai huan zhen Info Tech Ltd"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Shanghai huan zhen Info Tech Ltd"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "2"
+		"3" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1628843328"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1607310"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "1100687"
+		"2" "5395"
+		"3" "4562"
+		"4" "1697"
+		"5" "1702"
+		"6" "12472"
+		"7" "9"
+		"8" "493"
+		"9" "492"
+		"10" "8945"
+	}
+	"review_score" "5"
+	"review_percentage" "52"
+}
+"extended"
+{
+	"developer" "Shanghai huan zhen Info Tech Ltd"
+	"publisher" "Shanghai huan zhen Info Tech Ltd"
+}
+"config"
+{
+	"installdir" "汽车帝国"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Car_Steam.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1607311"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1483984450478916131"
+				"size" "1686542317"
+				"download" "450136976"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "9A64249D48D9AFABB33DA7D59565A732"
+				"size" "3A3530FB17B2326F50422B0FDCB19F82"
+				"download" "9B0E24858ED38B6DE3B9F5927609A263"
+			}
+		}
+	}
+	"baselanguages" "english,schinese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9694836"
+			"timeupdated" "1665463755"
+		}
+		"test"
+		{
+			"buildid" "7444710"
+			"pwdrequired" "1"
+			"timeupdated" "1632911599"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10485760"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "HuanZhen/Car_Steam"
+			"pattern" "*"
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "HuanZhen/Car_Steam"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "MacAppSupport"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinAppDataLocalLow"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "HuanZhen/Car_Steam"
+					"replace" "HuanZhen/Car_Steam"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "HuanZhen/Car_Steam"
+					"replace" "HuanZhen/Car_Steam"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20782759"
+"_sha" "7ef78f161f2d049bba367d72baf4c4378d0c6063"
+"_size" "3590"
