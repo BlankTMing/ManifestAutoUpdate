@@ -1,0 +1,324 @@
+"appid" "214190"
+"common"
+{
+	"name" "Minimum"
+	"type" "Game"
+	"oslist" "windows"
+	"clienticon" "20f80a2a654cc67c0f1662dff20608e722b599fd"
+	"clienttga" "c14312050f44bced8ffd47d42ff5b88a581ee1e4"
+	"icon" "3f138b38697ffcd591aa69942b6d6cb2174d8d8f"
+	"logo" "f6b158620fd2d25cf5500cbef744cefc8c00635e"
+	"logo_small" "f6b158620fd2d25cf5500cbef744cefc8c00635e_thumb"
+	"releasestate" "released"
+	"app_retired_publisher_request" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1655510400"
+		"tested_build_id" "1146926"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Minimum"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1424812186"
+	"associations"
+	{
+		"0"
+		{
+			"type" "publisher"
+			"name" "Atari Inc."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Cubed Productions LLC"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_22" "1"
+		"category_15" "1"
+		"category_18" "1"
+		"category_29" "1"
+		"category_30" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1410347940"
+	"metacritic_score" "69"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/minimum\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "214190"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "3814"
+		"2" "3859"
+		"3" "1774"
+		"4" "1718"
+		"5" "1702"
+		"6" "5752"
+		"7" "492"
+		"8" "1732"
+		"9" "1685"
+		"10" "4094"
+		"11" "128"
+		"12" "1775"
+		"13" "3964"
+		"14" "1697"
+		"15" "9"
+		"16" "4821"
+		"17" "21"
+		"18" "3942"
+		"19" "3810"
+	}
+	"review_score" "5"
+	"review_percentage" "59"
+}
+"extended"
+{
+	"developer" ""
+	"gamedir" "minimum"
+	"homepage" "http://www.playminimum.com"
+	"icon" ""
+	"noservers" "0"
+	"serverbrowsername" "Minimum"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Atari Inc."
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Minimum"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Binaries/Win32/Minimum.exe"
+			"workingdir" "Binaries/Win32/"
+			"description" "Launch with Console"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Binaries/Win32/MinGame.exe"
+			"arguments" "-seekfreeloading"
+			"workingdir" "Binaries/Win32/"
+			"description" "Test Release"
+			"type" "none"
+			"config"
+			{
+				"betakey" "test"
+			}
+		}
+		"2"
+		{
+			"executable" "Binaries/MinimumLauncher.exe"
+			"workingdir" "Binaries"
+			"description" "Create Server"
+			"type" "none"
+			"config"
+			{
+				"betakey" "test"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229031"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"214191"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9202462642435912636"
+				"size" "1475718057"
+				"download" "837428208"
+			}
+			"beta"
+			{
+				"gid" "9202462642435912636"
+				"size" "1475718057"
+				"download" "837428208"
+			}
+			"local"
+			{
+				"gid" "496957260992092366"
+				"size" "1197318768"
+				"download" "672558512"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "CD4B28593B5E3C44FC6E13CA3E189771"
+				"size" "5991AB23CBE90D945AEACEECAE5E7831"
+				"download" "469B54DA2A7482ED9ACDC57FEAE6E9BC"
+			}
+			"test"
+			{
+				"gid" "99E4687B726DF520AC53279770657DC0"
+				"size" "AF57E2C68EDC566038431299A1937717"
+				"download" "59F520C8FC3A9D1D15C097BF3DCC75ED"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1146926"
+			"timeupdated" "1466792572"
+		}
+		"beta"
+		{
+			"buildid" "1146926"
+			"timeupdated" "1466792559"
+		}
+		"local"
+		{
+			"buildid" "908928"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+		"staging"
+		{
+			"buildid" "1146926"
+			"pwdrequired" "1"
+			"timeupdated" "1464217706"
+		}
+		"test"
+		{
+			"buildid" "1056933"
+			"pwdrequired" "1"
+			"timeupdated" "1459806069"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "50"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "MinGame/SaveData/"
+			"pattern" "*"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19628207"
+"_sha" "25b5ce7ba22213629dfe022e211aa8c2072fb601"
+"_size" "5957"
