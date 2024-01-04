@@ -1,0 +1,223 @@
+"appid" "1111450"
+"common"
+{
+	"name" "Youth Feather"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"logo" "bc20d3339e2b57b91d9b9d3be1e8da7d1a7b5a6c"
+	"logo_small" "bc20d3339e2b57b91d9b9d3be1e8da7d1a7b5a6c_thumb"
+	"icon" "a85dfb0e0e9b70a12504eff1e6e677388efd8e34"
+	"clienticon" "25a10ef3091f1f19e3212a1147ae668c60cf3ae3"
+	"clienttga" "c19fd6e5caa8c6c1adb8000c0ff3efcedf91fd86"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"tchinese" "1"
+	}
+	"name_localized"
+	{
+		"schinese" "青羽"
+		"tchinese" "青羽"
+	}
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "5"
+	}
+	"has_adult_content" "1"
+	"has_adult_content_sex" "1"
+	"metacritic_name" "Youth Feather"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "53.70117424815375"
+			"height_pct" "78.1762739433827"
+		}
+	}
+	"store_asset_mtime" "1565591310"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Youth Feather Center"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "YFL STUDIO"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Youth Feather Center"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_22" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1567130384"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1111450"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "492"
+		"2" "6650"
+		"3" "3799"
+	}
+	"review_score" "8"
+	"review_percentage" "91"
+}
+"extended"
+{
+	"developer" "Youth Feather Center"
+	"publisher" "Youth Feather Center"
+}
+"config"
+{
+	"installdir" "YouthFeather"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "YouthFeather.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1111451"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "878624933311689388"
+				"size" "393373012"
+				"download" "335197600"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "F66E84D937D0B688B67B8415DF7B48AC"
+				"size" "1822447A68DAED7400502B9EE0AA2955"
+				"download" "B7E95FE714D0D3DFF7C56B00771DD936"
+			}
+			"krkr"
+			{
+				"gid" "1D10417563CECBBF50DABF04B2555A94"
+				"size" "313592C755F72645AD4403C563DDC4D5"
+				"download" "1120EB94A89ACF264ED8369AAC7D4D30"
+			}
+			"private"
+			{
+				"gid" "EF9983205A01B5ABA8295DA01D759C7B"
+				"size" "A97268EA14605AA610C30A7C7297E23E"
+				"download" "D3D6C97053F26280368756FA71F1F53F"
+			}
+		}
+	}
+	"baselanguages" "schinese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4186160"
+			"timeupdated" "1568280483"
+		}
+		"beta"
+		{
+			"buildid" "4186160"
+			"pwdrequired" "1"
+			"timeupdated" "1568199056"
+		}
+		"krkr"
+		{
+			"buildid" "4121577"
+			"pwdrequired" "1"
+			"timeupdated" "1566300772"
+		}
+		"private"
+		{
+			"buildid" "4186160"
+			"pwdrequired" "1"
+			"timeupdated" "1568199048"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "savedata"
+			"pattern" "*.*"
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "NavilaSoftware/YouthFeather/SaveData"
+			"pattern" "*.nvlsav"
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "NavilaSoftware/YouthFeather/SaveData"
+			"pattern" "*.jpg"
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18821630"
+"_sha" "9f5d85eec44ba496b2cee44808dc0de1d3ed3a0f"
+"_size" "3841"
