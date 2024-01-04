@@ -1,0 +1,90 @@
+"appid" "2323970"
+"common"
+{
+	"name" "异星前哨 - 工具"
+	"type" "Tool"
+	"parent" "1904190"
+	"icon" "2655b00e4f8cd59d9b4446e81beb24ebaf1ba32e"
+	"clienttga" "4ae1a7dc47458981959bd1f501aa4411352c38dd"
+	"clienticon" "792f52e69c5d275ce43b4efc6f336c8f0c16daa9"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"name_localized"
+	{
+		"schinese" "异星前哨-工具"
+	}
+	"community_hub_visible" "1"
+	"gameid" "2323970"
+}
+"config"
+{
+	"installdir" "异星前哨 - 工具"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "translator/translator.exe"
+			"workingdir" "translator"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "translator"
+			}
+			"description" "translator"
+		}
+		"1"
+		{
+			"executable" "workshop_tool/workshop_tool.exe"
+			"workingdir" "workshop_tool"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "workshop_tool"
+			}
+			"description" "workshop_tool"
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "2323970"
+	"2323971"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8956957083967989603"
+				"size" "22140453"
+				"download" "9410128"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10574085"
+			"timeupdated" "1676622558"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1073741824"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "18573881"
+"_sha" "ae9e33fa4d82d5a78384ef357983c8ab46d7e193"
+"_size" "1472"
