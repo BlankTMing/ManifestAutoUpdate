@@ -1,0 +1,363 @@
+"appid" "1478160"
+"common"
+{
+	"name" "咸鱼喵喵"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"osextended" ""
+	"clienttga" "d9de9ec5e86a5e6466948699803d78c003d0e2be"
+	"clienticon" "da79971a31cf4a27cedcf78dc33fb72890c0b130"
+	"icon" "2307bb46b427759e14114e702e5c3fc96ed03118"
+	"name_localized"
+	{
+		"english" "Nyaruru Fishy Fight"
+		"japanese" "にゃるるファイト！"
+	}
+	"logo" "ef2dd638b532cffcfa265efa09110bcc4af733a0"
+	"logo_small" "ef2dd638b532cffcfa265efa09110bcc4af733a0_thumb"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"japanese" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1670889600"
+		"tested_build_id" "10055919"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-5"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"schinese" "capsule_231x87_schinese.jpg"
+		"english" "capsule_231x87.jpg"
+		"japanese" "capsule_231x87_japanese.jpg"
+	}
+	"header_image"
+	{
+		"schinese" "header_schinese.jpg"
+		"english" "header.jpg"
+		"japanese" "header_japanese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn,ja"
+		"library_hero" "en"
+		"library_logo" "en,zh-cn,ja"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1684654790"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "赤瞳大白猫"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "猫尾巴制作组"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "赤瞳大白猫"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_33" "1"
+		"category_29" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1686650481"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1478160"
+	"store_tags"
+	{
+		"0" "1628"
+		"1" "4085"
+		"2" "3834"
+		"3" "4726"
+		"4" "5379"
+		"5" "7208"
+		"6" "1625"
+		"7" "4106"
+		"8" "21"
+		"9" "3964"
+		"10" "6971"
+		"11" "19"
+		"12" "4182"
+		"13" "492"
+		"14" "1684"
+		"15" "122"
+		"16" "12095"
+		"17" "4026"
+		"18" "4136"
+		"19" "17894"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"absolutemousecoordinates" "0"
+	"developer" "赤瞳大白猫"
+	"publisher" "赤瞳大白猫"
+	"listofdlc" "2495690"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Nyaruru"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "nw.exe"
+			"arguments" "--in-process-gpu"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "default"
+				"schinese" "默认"
+			}
+			"description" "default"
+		}
+		"2"
+		{
+			"executable" "nw.exe"
+			"arguments" "--force_high_performance_gpu"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Please use this if FPS is low."
+				"schinese" "游戏掉帧请尝试这个"
+				"japanese" "リフレッシュレートが重い場合はこちら"
+			}
+			"description" "Please use this if FPS is low."
+		}
+		"3"
+		{
+			"executable" "nw"
+			"arguments" "--in-process-gpu"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"4"
+		{
+			"executable" "nw"
+			"arguments" "--in-process-gpu"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "Please turn off Steam Play in the settings, otherwise the game will crash."
+				"schinese" "请在设置里关闭Steam Play，否则游戏会闪退"
+			}
+			"description" "Please turn off Steam Play in the settings, otherwise the game will crash."
+		}
+		"5"
+		{
+			"executable" "nw.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Launching the game directly by opening the nw.exe file in the game directory may help resolve some of the crash issues."
+				"schinese" "直接打开游戏目录下的nw.exe进行游戏可能会解决一部分闪退问题"
+				"japanese" "ゲームがクラッシュする場合はフォルダ内のnw.exe"
+			}
+			"description" "Launching the game directly by opening the nw.exe file in the game directory may help resolve some of the crash issues."
+		}
+	}
+	"steamdecktouchscreen" "1"
+}
+"depots"
+{
+	"baselanguages" "english,schinese,japanese"
+	"hasdepotsindlc" "1"
+	"1478161"
+	{
+		"config"
+		{
+			"osarch" "64"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6079131137723823860"
+				"size" "659282088"
+				"download" "367810944"
+			}
+		}
+	}
+	"1478164"
+	{
+		"config"
+		{
+			"osarch" "64"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5140810563058206657"
+				"size" "659282088"
+				"download" "367781888"
+			}
+		}
+	}
+	"1478163"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5131636453842229461"
+				"size" "774412196"
+				"download" "379677584"
+			}
+		}
+	}
+	"2495690"
+	{
+		"dlcappid" "2495690"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8519005114582078722"
+				"size" "157675505"
+				"download" "157550496"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12758297"
+			"timeupdated" "1700557715"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "419430400"
+	"maxnumfiles" "30"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "save"
+			"pattern" "*.rmmzsave"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21567944"
+"_sha" "7892cbe0a2eabadcaf8402c08ef41542ee34076a"
+"_size" "6909"
