@@ -1,0 +1,622 @@
+"appid" "340"
+"common"
+{
+	"clienticon" "dddaffd2724873ff767b211b26f17c822c3eea30"
+	"clienttga" "f1f5ca656a5257166ea447a7beef62736f4dec3e"
+	"icon" "795e85364189511f4990861b578084deef086cb1"
+	"logo" "867cce5c4f37d5ed4aeffb57c60e220ddffe4134"
+	"logo_small" "48de6a193965c2f25f6fd109156dcdd028454392"
+	"name" "Half-Life 2: Lost Coast"
+	"clienticns" "18380bfdc004844c918de769de298bac5c21ca33"
+	"linuxclienticon" "4a75609ae32a548e85ec58ced4b17ae38f1547ea"
+	"oslist" "macos,windows,linux"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1645833600"
+		"tested_build_id" "8270650"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Half-Life 2: Lost Coast"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "45"
+			"height_pct" "31"
+		}
+	}
+	"store_asset_mtime" "1566852005"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Valve"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Valve"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Half-Life"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_12" "1"
+		"category_14" "1"
+		"category_44" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1130396400"
+	"community_hub_visible" "1"
+	"gameid" "340"
+	"store_tags"
+	{
+		"0" "1663"
+		"1" "19"
+		"2" "4182"
+		"3" "3839"
+		"4" "3942"
+		"5" "1774"
+		"6" "4234"
+		"7" "1673"
+		"8" "5030"
+		"9" "1693"
+		"10" "21"
+		"11" "5407"
+		"12" "4166"
+		"13" "4295"
+		"14" "15954"
+		"15" "113"
+		"16" "1742"
+		"17" "3835"
+		"18" "3859"
+		"19" "1756"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"dependantonapp" "220"
+	"developer" "Valve"
+	"gamedir" "lostcoast"
+	"homepage" "http://www.half-life2.com"
+	"icon" "steam/games/icon_lostcoast"
+	"icon2" "steam/games/icon_lostcoast_dull"
+	"noservers" "1"
+	"order" "2"
+	"primarycache" "341"
+	"sourcegame" "1"
+	"state" "eStateJustReleased"
+	"supports64bit" "0"
+	"video" "http://www.steampowered.com/"
+	"no_revenue_accumulation" "1"
+	"deckresolutionoverride" "Native"
+	"developer_url" "http://www.valvesoftware.com"
+	"publisher" "Valve"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "hl2.exe"
+			"arguments" "-game lostcoast -steam"
+			"workingdir" "bin"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "hl2.sh"
+			"arguments" "-game lostcoast -steam"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "hl2.sh"
+			"arguments" "-game lostcoast -steam"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Half-Life 2"
+	"convertgcfs" "1"
+	"steamvrsupport" "1"
+	"steamcontrollertemplateindex" "13"
+	"steaminputmanifestpath" "steam_input/action_manifest_hl2.vdf"
+	"steamconfigurator3rdpartynative" "65535"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"221"
+	{
+		"systemdefined" "1"
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"222"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"223"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"224"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"225"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"226"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"227"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"228"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"229"
+	{
+		"config"
+		{
+			"language" "koreana"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"230"
+	{
+		"config"
+		{
+			"language" "tchinese"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"231"
+	{
+		"config"
+		{
+			"language" "schinese"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"232"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"depotfromapp" "220"
+		"sharedinstall" "2"
+	}
+	"340"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4976378284936306281"
+				"size" "427911163"
+				"download" "215307168"
+			}
+			"beta"
+			{
+				"gid" "4976378284936306281"
+				"size" "427911163"
+				"download" "215307168"
+			}
+			"previous"
+			{
+				"gid" "6399278479139488338"
+				"size" "426876691"
+				"download" "0"
+			}
+		}
+	}
+	"341"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6979885552096053649"
+				"size" "31425102"
+				"download" "25485760"
+			}
+			"beta"
+			{
+				"gid" "6979885552096053649"
+				"size" "31425102"
+				"download" "25485760"
+			}
+			"previous"
+			{
+				"gid" "6979885552096053649"
+				"size" "31425102"
+				"download" "0"
+			}
+		}
+	}
+	"342"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8688972396248059346"
+				"size" "31415619"
+				"download" "25815344"
+			}
+			"beta"
+			{
+				"gid" "8688972396248059346"
+				"size" "31415619"
+				"download" "25815344"
+			}
+			"previous"
+			{
+				"gid" "8688972396248059346"
+				"size" "31415619"
+				"download" "0"
+			}
+		}
+	}
+	"343"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4927177138666542951"
+				"size" "31426024"
+				"download" "24152368"
+			}
+			"beta"
+			{
+				"gid" "4927177138666542951"
+				"size" "31426024"
+				"download" "24152368"
+			}
+			"previous"
+			{
+				"gid" "4927177138666542951"
+				"size" "31426024"
+				"download" "0"
+			}
+		}
+	}
+	"344"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "969114769022038447"
+				"size" "31429912"
+				"download" "26222304"
+			}
+			"beta"
+			{
+				"gid" "969114769022038447"
+				"size" "31429912"
+				"download" "26222304"
+			}
+			"previous"
+			{
+				"gid" "969114769022038447"
+				"size" "31429912"
+				"download" "0"
+			}
+		}
+	}
+	"345"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8779144899099398112"
+				"size" "31423632"
+				"download" "25639360"
+			}
+			"beta"
+			{
+				"gid" "8779144899099398112"
+				"size" "31423632"
+				"download" "25639360"
+			}
+			"previous"
+			{
+				"gid" "8779144899099398112"
+				"size" "31423632"
+				"download" "0"
+			}
+		}
+	}
+	"346"
+	{
+		"config"
+		{
+			"language" "koreana"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6338949186053427138"
+				"size" "31452444"
+				"download" "26291024"
+			}
+			"beta"
+			{
+				"gid" "6338949186053427138"
+				"size" "31452444"
+				"download" "26291024"
+			}
+			"previous"
+			{
+				"gid" "6338949186053427138"
+				"size" "31452444"
+				"download" "0"
+			}
+		}
+	}
+	"347"
+	{
+		"config"
+		{
+			"language" "schinese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2703979167453750234"
+				"size" "31405357"
+				"download" "22802704"
+			}
+			"beta"
+			{
+				"gid" "2703979167453750234"
+				"size" "31405357"
+				"download" "22802704"
+			}
+			"previous"
+			{
+				"gid" "2703979167453750234"
+				"size" "31405357"
+				"download" "0"
+			}
+		}
+	}
+	"348"
+	{
+		"config"
+		{
+			"language" "tchinese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1939076427909872754"
+				"size" "31434913"
+				"download" "26873488"
+			}
+			"beta"
+			{
+				"gid" "1939076427909872754"
+				"size" "31434913"
+				"download" "26873488"
+			}
+			"previous"
+			{
+				"gid" "1939076427909872754"
+				"size" "31434913"
+				"download" "0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12694564"
+			"timeupdated" "1700189250"
+		}
+		"beta"
+		{
+			"buildid" "12694564"
+			"description" "Beta updates"
+			"timeupdated" "1700189230"
+		}
+		"previous"
+		{
+			"buildid" "285412"
+			"description" "The previous public build"
+			"timeupdated" "1569534543"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21155105"
+"_sha" "c6ac5de81666ddc2bb9147b0021f591ca528b198"
+"_size" "10013"
