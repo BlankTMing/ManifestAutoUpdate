@@ -1,0 +1,255 @@
+"appid" "1543080"
+"common"
+{
+	"name" "Cute Honey 3"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"logo" "65dfc2f0e08954e7d185848c67c56a54f1178892"
+	"logo_small" "65dfc2f0e08954e7d185848c67c56a54f1178892_thumb"
+	"icon" "61643ffb1194b5dff1b1764748449cb199f15350"
+	"clienticon" "36c77e089f92ea0a9ebd5282225581e4bb90d739"
+	"clienttga" "f1173b217009109a785be77877feb2c990f25a84"
+	"languages"
+	{
+		"english" "1"
+		"koreana" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"japanese" "1"
+	}
+	"releasestate" "released"
+	"linuxclienticon" "010f20dc167c9b271ecf46e87da48042e7a46a2f"
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "5"
+	}
+	"has_adult_content" "1"
+	"has_adult_content_sex" "1"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "30.258064516129025"
+			"height_pct" "71.875"
+		}
+	}
+	"store_asset_mtime" "1675927930"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Lovely Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Lovely Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Cute girl"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1617659809"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1543080"
+	"store_tags"
+	{
+		"0" "12095"
+		"1" "597"
+		"2" "9551"
+		"3" "1774"
+		"4" "5537"
+		"5" "6650"
+		"6" "3834"
+		"7" "3871"
+		"8" "4085"
+		"9" "379975"
+		"10" "4726"
+		"11" "5984"
+		"12" "1684"
+		"13" "4136"
+		"14" "4057"
+		"15" "1742"
+		"16" "7208"
+		"17" "4182"
+		"18" "1664"
+		"19" "5230"
+	}
+	"review_score" "5"
+	"review_percentage" "65"
+}
+"extended"
+{
+	"developer" "Lovely Games"
+	"publisher" "Lovely Games"
+	"listofdlc" "1574650"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Cute Honey 3"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CuteHoney3.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1543081"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5958500552129148756"
+				"size" "326182206"
+				"download" "95609664"
+			}
+		}
+	}
+	"1574650"
+	{
+		"dlcappid" "1574650"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2684365501173551738"
+				"size" "6008496698"
+				"download" "301166720"
+			}
+		}
+	}
+	"hasdepotsindlc" "0"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "6481521"
+			"timeupdated" "1617365202"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "LovelyGames\\CuteHoney3\\Warning/"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" ""
+					"replace" "Warning/GameDataSave"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18879660"
+"_sha" "93f8e644ee3239ea89d34ae4aa3c4505f9e4b46f"
+"_size" "3966"
