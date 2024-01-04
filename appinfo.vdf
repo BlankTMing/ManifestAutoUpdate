@@ -1,0 +1,457 @@
+"appid" "1881200"
+"common"
+{
+	"name" "TRYP FPV"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64"
+	"icon" "519b8936d83341a637223ee8a2b662cd1a43b5a9"
+	"clienttga" "c6781acca944ea4d0644b8d6b2df0d1af16331bc"
+	"clienticon" "beeb8f89f13b17c4228402e03a47ff76a23af737"
+	"clienticns" "d0c4475217ebac00653caf3fb225af7e53a5b181"
+	"linuxclienticon" "db2cb4a176aa32a00a0decb54c346a261b7b7021"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1665705600"
+		"tested_build_id" "9114636"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"nokeyboardmouse" "1"
+	"controllertagwizard" "1"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "34.81007751937983"
+			"height_pct" "83.04457241615876"
+		}
+	}
+	"store_asset_mtime" "1679412715"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "UNDEAD BATTERY"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "UNDEAD BATTERY"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "23"
+		"1" "9"
+		"2" "28"
+		"3" "18"
+		"4" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1656576179"
+	"community_hub_visible" "1"
+	"gameid" "1881200"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "699"
+		"2" "701"
+		"3" "4175"
+		"4" "3839"
+		"5" "493"
+		"6" "1697"
+		"7" "492"
+		"8" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"developer" "UNDEAD BATTERY"
+	"publisher" "UNDEAD BATTERY"
+}
+"config"
+{
+	"installdir" "TRYP FPV"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TrypFPV.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "TrypFPV_Intel.app"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "TrypFPV.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+				"betakey" "dev_only"
+			}
+		}
+		"3"
+		{
+			"executable" "TrypFPV.exe"
+			"arguments" "-DX11"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "TRYP FPV with DirectX11 (not recommended)"
+			}
+			"description" "TRYP FPV with DirectX11 (not recommended)"
+		}
+		"4"
+		{
+			"executable" "TrypFPV.app"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "TRYP FPV for M1/M2 (experimental/High performance)"
+			}
+			"description" "TRYP FPV for M1/M2 (experimental/High performance)"
+		}
+	}
+	"steamcontrollertemplateindex" "3"
+	"steamdecktouchscreen" "1"
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1881201"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6745071691750509667"
+				"size" "14496233174"
+				"download" "12779295408"
+			}
+			"legacy"
+			{
+				"gid" "499565885167876654"
+				"size" "13497634229"
+				"download" "11620300896"
+			}
+			"local"
+			{
+				"gid" "249051706036711052"
+				"size" "6613964210"
+				"download" "6400298944"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev_only"
+			{
+				"gid" "51401CBB2E3305C4DF80A26D3144947C"
+				"size" "367EEDB5252C3F85AFA17C066FD24A61"
+				"download" "803AFA9B2156F41D14DC87F380F709D3"
+			}
+			"old_version"
+			{
+				"gid" "2D5E3DC64856E2D93F0C293B7AD8B37B"
+				"size" "C05D7E770FFD2989D070BC667736DC70"
+				"download" "A6D7F047BC6BD7EEB9B5A8B35BC170F4"
+			}
+			"perf_testing"
+			{
+				"gid" "E5F00961D5725CF795C91317A988F8CF"
+				"size" "B9C318E859F67558F28145C040C7368F"
+				"download" "C3752FF4A3D0BD8CA230FCFD4325048F"
+			}
+			"private_testing"
+			{
+				"gid" "B1518F86F4B7794CAB420BBE3ED15696"
+				"size" "F19D88CE91ABFFE1E4D1F9CB06F1BD36"
+				"download" "656E70BB4108E94CECDC90B56460DD58"
+			}
+		}
+	}
+	"1881202"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "144321715511527707"
+				"size" "23218638008"
+				"download" "19371349760"
+			}
+			"legacy"
+			{
+				"gid" "8773193627272578139"
+				"size" "21181692013"
+				"download" "17130761120"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev_only"
+			{
+				"gid" "6F02601DEC0FA1149C2EA2DD31D21343"
+				"size" "226C8F852CD48784B934294E3CEAB22B"
+				"download" "0DA285D797A8FC3339DFFD7F02329DAD"
+			}
+			"old_version"
+			{
+				"gid" "A5C70AB923A9DC86F509C950E6B28D39"
+				"size" "F37D4DA0F957232DF35BCDF11FB8ED9B"
+				"download" "EAAE4AD324A0DDD78F4DB63A4B31F582"
+			}
+			"perf_testing"
+			{
+				"gid" "D9A22286C21E91B0D19BA731BBE8AA46"
+				"size" "354DD5111F8F12CC018EF26D3FE42AB3"
+				"download" "61213499DA1EAB06B8CFDCC8D065823B"
+			}
+			"private_testing"
+			{
+				"gid" "7FFA25316ACDBFFEC6B4DB8F5571CE5C"
+				"size" "44390B7C7437EACEA5D31020248D9F71"
+				"download" "C3F24696F66F08DEB1E66A0201047811"
+			}
+		}
+	}
+	"1881203"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1477437602306238902"
+				"size" "9775431294"
+				"download" "7330713008"
+			}
+			"legacy"
+			{
+				"gid" "1477437602306238902"
+				"size" "9775431294"
+				"download" "7330713008"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev_only"
+			{
+				"gid" "6966E1EB1E3DED8E4FA1756ABC0C1251"
+				"size" "0A91E68329CD1C7A0FCD2F3CB48D106C"
+				"download" "7FCFD126582BF556BAC4FC06362EEEDD"
+			}
+			"old_version"
+			{
+				"gid" "98495C698A79B13292E0597C758FA622"
+				"size" "B6CF74544731D5E74601E6C3AAC0C3A6"
+				"download" "620A1CE0F479AC655C72A483C9D0A211"
+			}
+			"perf_testing"
+			{
+				"gid" "A2004D479CF077C59A69E1346FF0E75D"
+				"size" "8CBE91F86BB89E13817EA336C2A1A703"
+				"download" "FEDA8283EFBC70CFCDC956D69E89E288"
+			}
+			"private_testing"
+			{
+				"gid" "A970F90B04501F08BE754877DB3E55EC"
+				"size" "49610CFC9B7A8EA12111A91E47FAC07F"
+				"download" "4A4731BF5851DBB36C631FEAE042AEA4"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13033107"
+			"timeupdated" "1703280978"
+		}
+		"dev_only"
+		{
+			"buildid" "13030751"
+			"pwdrequired" "1"
+			"timeupdated" "1703258322"
+		}
+		"legacy"
+		{
+			"buildid" "11914552"
+			"description" "Legacy version"
+			"timeupdated" "1703176982"
+		}
+		"local"
+		{
+			"buildid" "8140096"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1643910770"
+		}
+		"old_version"
+		{
+			"buildid" "11252652"
+			"pwdrequired" "1"
+			"timeupdated" "1684320412"
+		}
+		"perf_testing"
+		{
+			"buildid" "12565404"
+			"pwdrequired" "1"
+			"timeupdated" "1698586922"
+		}
+		"private_testing"
+		{
+			"buildid" "13030751"
+			"pwdrequired" "1"
+			"timeupdated" "1703258332"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21651946"
+"_sha" "6bb5b6ad49049b3299bb1eecb7a79830b3503268"
+"_size" "8711"
