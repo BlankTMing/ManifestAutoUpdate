@@ -1,0 +1,249 @@
+"appid" "224960"
+"common"
+{
+	"name" "Tomb Raider I"
+	"type" "Game"
+	"clienticon" "d53749ac9150836906859106b2f016a81105ede7"
+	"clienttga" "2b1dc7e7367114e4418fa0e6a5e1a64c79b41a73"
+	"icon" "ba7d3a70fa6300f72bef961595addd1ff6b17a36"
+	"oslist" "windows"
+	"logo" "8d6c3b57af6cd63228aef85b98dab3a5e1470b76"
+	"logo_small" "8d6c3b57af6cd63228aef85b98dab3a5e1470b76_thumb"
+	"sortas" "Tomb Raider 1"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "224960_eula_0"
+			"name" "Tomb Raider I EULA"
+			"url" "https://store.steampowered.com//eula/224960_eula_0"
+			"version" "2"
+		}
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1645488000"
+		"tested_build_id" "4774071"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Tomb Raider I+II+III Trilogy"
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "23.053675612602106"
+			"height_pct" "26.316108294728366"
+		}
+	}
+	"store_asset_mtime" "1694118772"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Core Design"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Crystal Dynamics"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Tomb Raider"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"community_hub_visible" "1"
+	"gameid" "224960"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "19"
+		"2" "1693"
+		"3" "7208"
+		"4" "4182"
+		"5" "1664"
+		"6" "1625"
+		"7" "1697"
+		"8" "4004"
+		"9" "4106"
+		"10" "6691"
+		"11" "3916"
+		"12" "3814"
+		"13" "5395"
+		"14" "3834"
+		"15" "1774"
+		"16" "4166"
+		"17" "5160"
+		"18" "1756"
+		"19" "5537"
+	}
+	"review_score" "8"
+	"review_percentage" "85"
+}
+"extended"
+{
+	"developer" "Core Design"
+	"gamedir" "ValveTestApp224960"
+	"gamemanualurl" "http://store.steampowered.com/manual/224960/"
+	"homepage" ""
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"launcheula" "http://store.steampowered.com/eula/224960_eula"
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Crystal Dynamics"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Tomb Raider (I)"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DOSBox.exe"
+			"arguments" "-conf dosboxtr.conf"
+			"description" "Tomb Raider I"
+		}
+		"1"
+		{
+			"executable" "DOSBox.exe"
+			"arguments" "-conf dosboxtrWindowed.conf"
+			"description" "Tomb Raider 1 (Windowed)"
+			"type" "none"
+		}
+		"2"
+		{
+			"executable" "tombati.exe"
+			"description" "Start Tomb Raider I"
+			"type" "none"
+			"config"
+			{
+				"betakey" "test"
+			}
+		}
+		"3"
+		{
+			"executable" "tombub.exe"
+			"description" "Launch Tomb Raider - UB"
+			"type" "none"
+			"config"
+			{
+				"betakey" "test"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"preloadonly" "1"
+	"224961"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1018039351833983427"
+				"size" "318059021"
+				"download" "232068720"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "451B26171234FE444716BC1A560D76DA"
+				"size" "D67B3582B1973576C5EEFF568F8FC61C"
+				"download" "1E993C789841F1971F2B7F7D5CE19B19"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4774071"
+			"timeupdated" "1584097142"
+		}
+		"test"
+		{
+			"buildid" "5065605"
+			"pwdrequired" "1"
+			"timeupdated" "1590162171"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21095308"
+"_sha" "077b69e9821393771fd3ecbac2420be9466a95c1"
+"_size" "4548"
