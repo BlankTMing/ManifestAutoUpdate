@@ -1,0 +1,142 @@
+"appid" "219540"
+"common"
+{
+	"name" "Arma 2: Operation Arrowhead Beta (Obsolete)"
+	"type" "Game"
+	"logo" "c2ea07874fb1a776e4c5bfc659e5f296d656777d"
+	"logo_small" "c2ea07874fb1a776e4c5bfc659e5f296d656777d_thumb"
+	"clienticon" "46fbb4263cc8ab442cd939c5434d05b49d9d945f"
+	"clienttga" "66c958a4ce9cb6a72409ab7c8772b40ba3cd24ee"
+	"icon" "32431d84014bf4652181f45bc7c06f1ca3f34363"
+	"community_hub_visible" "1"
+	"gameid" "219540"
+}
+"extended"
+{
+	"developer" ""
+	"gamedir" "ValveTestApp219540"
+	"homepage" ""
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"no_revenue_accumulation" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "arma 2 operation arrowhead"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Expansion\\beta\\Arma2OA.exe"
+			"arguments" "-beta=Expansion\\beta;Expansion\\beta\\Expansion"
+			"description" "Launch Beta"
+			"workingdir" ".\\"
+		}
+	}
+	"installscriptsignature" "072d84fde2ef0ae5baf2e9dc1178cfcf141cba641b98854cb3ebe850f01729917320c9220d55f15f72f92a2a9d6f16a181050b8a3a4be357fdb238c7da4e35bb840c4a16b3e95a39e0115aff6d833a959ad1228d72fe2307a4ea49579e53c9fca6fbcc2162524f17602c60fef0b3b2a0a3884fecab217320d74083530c2cc01c"
+	"installscriptoverride" "1"
+	"externalregistrationurl"
+	{
+		"english" "http://www.arma2.com"
+	}
+}
+"install"
+{
+	"registry if not present"
+	{
+	}
+	"registry"
+	{
+	}
+	"run process"
+	{
+		"battleyeoabeta"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\219540"
+			"description" "BattlEye Anti-Cheat software for ARMA 2 OA beta"
+			"process 1" "%INSTALLDIR%\\expansion\\beta\\setup_BattlEyeARMA2OA.exe"
+			"ignoreexitcode" "0"
+			"nocleanup" "0"
+			"minimumhasrunvalue" "2"
+			"ascurrentuser" "0"
+		}
+	}
+	"arma 2 cd key"
+	{
+		"registrypath" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Bohemia Interactive Studio\\ArmA 2 OA\\KEY"
+	}
+	"ea oreg"
+	{
+		"string"
+		{
+			"english"
+			{
+				"url" "http://www.arma2.com"
+			}
+		}
+	}
+}
+"depots"
+{
+	"preloadonly" "1"
+	"219541"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6550263247666884023"
+				"size" "52543197"
+				"download" "0"
+			}
+			"beta108074"
+			{
+				"gid" "7888478692897229357"
+				"size" "40378810"
+				"download" "0"
+			}
+			"beta112555"
+			{
+				"gid" "3651664637375018602"
+				"size" "40379023"
+				"download" "0"
+			}
+			"test"
+			{
+				"gid" "6550263247666884023"
+				"size" "52543197"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "238935"
+		}
+		"beta108074"
+		{
+			"buildid" "93738"
+		}
+		"beta112555"
+		{
+			"buildid" "145144"
+		}
+		"test"
+		{
+			"buildid" "238935"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21219538"
+"_sha" "d431242d6af96b394064b7e4a20f3e75534d9884"
+"_size" "2841"
