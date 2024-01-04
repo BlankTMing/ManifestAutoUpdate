@@ -1,0 +1,347 @@
+"appid" "1880380"
+"common"
+{
+	"name" "Total War: WARHAMMER III - Assembly Kit BETA"
+	"type" "Tool"
+	"clienticon" "4073fc72f7d6714d1487e74277e0cdda33a2e4a1"
+	"clienttga" "f6db08231a6dbf535f90b63bb4e7ab23f7bbc44e"
+	"icon" "d047a562d5011d2712fbcba2bca617080eeac99a"
+	"parent" "1142710"
+	"releasestate" "released"
+	"associations"
+	{
+	}
+	"steam_release_date" "1662458340"
+	"community_hub_visible" "1"
+	"gameid" "1880380"
+}
+"config"
+{
+	"installdir" "Total War WARHAMMER III"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "assembly_kit\\binaries\\bob.modder.x64.exe"
+			"arguments" "-no_console"
+			"workingdir" "assembly_kit\\binaries"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Exporter: BOB"
+			}
+			"description" "Exporter: BOB"
+		}
+		"1"
+		{
+			"executable" "assembly_kit\\dave\\DaVE.retail.x64.exe"
+			"workingdir" "assembly_kit\\dave"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Database Editor: Dave"
+			}
+			"description" "Database Editor: Dave"
+		}
+		"2"
+		{
+			"executable" "assembly_kit\\binaries\\tweak.modder.x64.exe"
+			"arguments" "/standalone TerrainMetadataEditor"
+			"workingdir" "assembly_kit\\binaries"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Battle Map Editor: Terry"
+			}
+			"description" "Battle Map Editor: Terry"
+		}
+		"3"
+		{
+			"executable" "assembly_kit\\binaries\\browse.bat"
+			"arguments" "http://wiki.totalwar.com/w/Total_War_WARHAMMER_Assembly_Kit_Manual"
+			"workingdir" "assembly_kit\\binaries"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Show Assembly Kit Manual"
+			}
+			"description" "Show Assembly Kit Manual"
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1880381"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "146093685104390525"
+				"size" "3775149538"
+				"download" "432408560"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bird"
+			{
+				"gid" "F75768E1619770A13EF18609E221D66A"
+				"size" "6902F4260D09CFEF5A330DB8CC81E217"
+				"download" "1E59D15931E2CC798EFF029A70D7EE18"
+			}
+			"bird_2_0"
+			{
+				"gid" "D4D7B263187F3B9E90DA4E646F16EDFD"
+				"size" "CE6BE294B04BCB2D61D485A25905AA3C"
+				"download" "B24C5DA1068DE1ABA95E62BD04E756EB"
+			}
+			"bunny"
+			{
+				"gid" "1A7715C25EDDF8A32CCCF5670A2A493A"
+				"size" "D62711056137DA68B8F24E431E3B45B3"
+				"download" "4AE4ED2051D78ADAA16A68A5502CE88A"
+			}
+			"burdock"
+			{
+				"gid" "02B314D681980870543EB8F4C47B6788"
+				"size" "914C8EC596ABA618D1A3F302A0D83242"
+				"download" "916F9F54E04EC79FEEA0BD636DFDE25D"
+			}
+			"cardamon"
+			{
+				"gid" "EEA4D712D51631623251B9009C63FDCB"
+				"size" "3F393291D211C43BC4C1B747FA151128"
+				"download" "B7141C297E063EC9B082BF8BA2234DB7"
+			}
+			"carnation"
+			{
+				"gid" "395A12C96B340DB7B227356BB27CA524"
+				"size" "BF59D4369D000AB6A1770FA5AC283695"
+				"download" "0DCE5A20CD79A2E4FCBB3EEA6D9B0BC1"
+			}
+			"clover"
+			{
+				"gid" "DAA7B94716903126AD8F99C2F66035DF"
+				"size" "B3E48122690CF1288EDFB374BB92AC2C"
+				"download" "93684E355B8873F81E4F804D05D27DA5"
+			}
+			"clover2"
+			{
+				"gid" "22E0C456814EC8D1476BA9D9170C1F60"
+				"size" "316C1A6D6BCD78C05E8B4AD7F353C2DB"
+				"download" "A971C80C29CE8892D315F3D0DFA679FB"
+			}
+			"crosswort"
+			{
+				"gid" "47946EA0AD8BEE8FC38753B90164BA78"
+				"size" "6CFE8D30F97025E3D75541FBC077AD28"
+				"download" "2186680C08E634FD3228FE9CF6B329B6"
+			}
+			"crosswort2"
+			{
+				"gid" "CB619AC9D4249998E2541F2791841C6F"
+				"size" "B195A5B582EC28A8BC655782CDE34C8D"
+				"download" "0A772D99D1A386CBAE131F5BF8E2F38A"
+			}
+			"cw_nightly"
+			{
+				"gid" "C45D0CC8EED761F55C768BB35F8C023D"
+				"size" "A67B5D56C91F2AF742890DF6FE2F5F7F"
+				"download" "5476A94356BF2369B349586AC4137F7B"
+			}
+			"dev_nightly"
+			{
+				"gid" "61CD7DD79F8C75E536D4C4375E040A83"
+				"size" "55444E72B942DA8171AAFA733FD03F9E"
+				"download" "61D26E666C72072BBBA5E86825A12D0B"
+			}
+			"freesia"
+			{
+				"gid" "C99FBD75E194E225ECC57C03F43C1F4D"
+				"size" "7354F892D9B58BA2997424C279F9E720"
+				"download" "D59919D23A4016ED3784AE4FFE699922"
+			}
+			"petunia"
+			{
+				"gid" "0A6253DF0D7DD75749F370C0EB6D3E77"
+				"size" "31FD034483617314C10CF8B3CBECBC90"
+				"download" "7619A681D241E904105E2F6DD5777F7B"
+			}
+			"release_candidate"
+			{
+				"gid" "0B2E9424C8139EB6A3808EA06AB326B1"
+				"size" "4886F8D05BEA0B07E639529C5BF25722"
+				"download" "074DE4EF4BBAB2FB38EC19964DCDD595"
+			}
+			"spruce"
+			{
+				"gid" "8B6670389E2407EBEA00FEE2675A6B8D"
+				"size" "F3E42BB98147E2E3AB8878D02ABEBB1A"
+				"download" "11194081EFB0F1627B3F731E12A85D62"
+			}
+			"upload_test"
+			{
+				"gid" "65D129C78806A0770F5DE5FBEA5165BC"
+				"size" "0DA19C06FB6F1B9775AF14A4F5523E5A"
+				"download" "7991CDD48CDD4A376AE6FF8EDF599A87"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12894641"
+			"timeupdated" "1702378399"
+		}
+		"bird"
+		{
+			"buildid" "13087327"
+			"pwdrequired" "1"
+			"timeupdated" "1704320704"
+		}
+		"bird_2_0"
+		{
+			"buildid" "13087455"
+			"pwdrequired" "1"
+			"timeupdated" "1704322225"
+		}
+		"bunny"
+		{
+			"buildid" "13087131"
+			"pwdrequired" "1"
+			"timeupdated" "1704318217"
+		}
+		"burdock"
+		{
+			"buildid" "12625263"
+			"pwdrequired" "1"
+			"timeupdated" "1699222646"
+		}
+		"cardamon"
+		{
+			"buildid" "11906415"
+			"pwdrequired" "1"
+			"timeupdated" "1692191051"
+		}
+		"carnation"
+		{
+			"buildid" "9121259"
+			"pwdrequired" "1"
+			"timeupdated" "1657823259"
+		}
+		"clover"
+		{
+			"buildid" "13088194"
+			"pwdrequired" "1"
+			"timeupdated" "1704330253"
+		}
+		"clover2"
+		{
+			"buildid" "8313119"
+			"pwdrequired" "1"
+			"timeupdated" "1646383298"
+		}
+		"crosswort"
+		{
+			"buildid" "11231738"
+			"pwdrequired" "1"
+			"timeupdated" "1684127532"
+		}
+		"crosswort2"
+		{
+			"buildid" "12187430"
+			"pwdrequired" "1"
+			"timeupdated" "1694687040"
+		}
+		"cw_nightly"
+		{
+			"buildid" "8096136"
+			"pwdrequired" "1"
+			"timeupdated" "1643277809"
+		}
+		"dev_nightly"
+		{
+			"buildid" "9057903"
+			"pwdrequired" "1"
+			"timeupdated" "1656946013"
+		}
+		"freesia"
+		{
+			"buildid" "9275032"
+			"pwdrequired" "1"
+			"timeupdated" "1659974620"
+		}
+		"petunia"
+		{
+			"buildid" "9282934"
+			"pwdrequired" "1"
+			"timeupdated" "1660068655"
+		}
+		"release_candidate"
+		{
+			"buildid" "12193771"
+			"pwdrequired" "1"
+			"timeupdated" "1695028484"
+		}
+		"spruce"
+		{
+			"buildid" "10929190"
+			"pwdrequired" "1"
+			"timeupdated" "1680773162"
+		}
+		"upload_test"
+		{
+			"buildid" "12870331"
+			"pwdrequired" "1"
+			"timeupdated" "1701703569"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21751255"
+"_sha" "d5f49b7aef15606e0f5636e4f4310a923f777eac"
+"_size" "7354"
