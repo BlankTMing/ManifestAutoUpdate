@@ -1,0 +1,470 @@
+"appid" "259680"
+"common"
+{
+	"name" "Tales of Maj\'Eyal"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"clienticon" "e3ec542e1116422dc97fd890e41975364fdc1154"
+	"clienttga" "4e7f6cd709183fb87bff24b65e748c849809a8fc"
+	"icon" "d60d4bb491143473ef3a5219fceb27ac24a07bec"
+	"clienticns" "520fb755662db82f480eb18d7ca84d15eb1f4cc7"
+	"logo" "02776cff0223bd035a30fa209cb617e29531f6c9"
+	"logo_small" "02776cff0223bd035a30fa209cb617e29531f6c9_thumb"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1646179200"
+		"tested_build_id" "6938602"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Tales of Maj\'Eyal"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "62.87703016241298"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1660605688"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Netcore Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Netcore Games"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_30" "1"
+		"category_29" "1"
+		"category_35" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1356940800"
+	"steam_release_date" "1386896245"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "259680"
+	"store_tags"
+	{
+		"0" "454187"
+		"1" "1716"
+		"2" "1720"
+		"3" "1677"
+		"4" "1759"
+		"5" "4026"
+		"6" "122"
+		"7" "5125"
+		"8" "3871"
+		"9" "4791"
+		"10" "1684"
+		"11" "1695"
+		"12" "1708"
+		"13" "4236"
+		"14" "1669"
+		"15" "21"
+		"16" "4182"
+		"17" "492"
+		"18" "4711"
+		"19" "4747"
+	}
+	"review_score" "9"
+	"review_percentage" "95"
+}
+"extended"
+{
+	"developer" "Netcore Games"
+	"publisher" "Netcore Games"
+	"homepage" "http://te4.org/"
+	"listofdlc" "267480,316910,404250,590610"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "TalesMajEyal"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "t-engine.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "t-engine"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"2"
+		{
+			"executable" "t-engine64"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "T-Engine.app/Contents/MacOS/t-engine"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"259681"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7403821122255865910"
+				"size" "1065565963"
+				"download" "610115312"
+			}
+			"tome-1.5.10"
+			{
+				"gid" "2984232920961694810"
+				"size" "923664129"
+				"download" "535795088"
+			}
+			"tome-1.6.7"
+			{
+				"gid" "3790919508138518642"
+				"size" "919312426"
+				"download" "549772320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta-1.7"
+			{
+				"gid" "3FD007424450FC5283E95A2BDE714FCF"
+				"size" "C0D873ADEDE3186ADC3053C9CE27A23C"
+				"download" "8FBB3EC5CBC0A36495CCEB96037FC1DC"
+			}
+			"dgtest"
+			{
+				"gid" "BB5B34CA59A865E3CF2448B0E7E481A6"
+				"size" "FF0F129C7772E81629ADCAAA7629F2FD"
+				"download" "E9788A2C2E1B51FEF7555B23B574D261"
+			}
+		}
+	}
+	"267480"
+	{
+		"dlcappid" "267480"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1545537357460529009"
+				"size" "1362977"
+				"download" "761824"
+			}
+			"tome-1.5.10"
+			{
+				"gid" "1545537357460529009"
+				"size" "1362977"
+				"download" "761824"
+			}
+			"tome-1.6.7"
+			{
+				"gid" "1545537357460529009"
+				"size" "1362977"
+				"download" "761824"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta-1.7"
+			{
+				"gid" "A22686F2D3886D05925F4E90AFD95755"
+				"size" "5DC576292DDCF58059E7A6AF2CF529AA"
+				"download" "B1870D35E8A62269A5B024606F3009A5"
+			}
+			"dgtest"
+			{
+				"gid" "40F167F2C33BC18D3449C76282455CAA"
+				"size" "4C29ED8EEFF900D6C996AD09F3ED37B9"
+				"download" "81E6DED9EB7CE1FC3F30A32071258680"
+			}
+		}
+	}
+	"316910"
+	{
+		"dlcappid" "316910"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3750514671105789954"
+				"size" "34708698"
+				"download" "29068400"
+			}
+			"tome-1.5.10"
+			{
+				"gid" "7197986925949395015"
+				"size" "32213131"
+				"download" "26719440"
+			}
+			"tome-1.6.7"
+			{
+				"gid" "9058634220009372585"
+				"size" "32437425"
+				"download" "26955888"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta-1.7"
+			{
+				"gid" "9DFA61EA03DBA69D428F5CEEF8B7A03D"
+				"size" "28CD139F4F1E22FA6734897587FFC9AE"
+				"download" "E2E4052315DE4664C096C22F3E48D64C"
+			}
+			"dgtest"
+			{
+				"gid" "421540EC759A188285D414E9A959BB1F"
+				"size" "48D8D39A8EDD0DF2DE8E8FA763D4D7FA"
+				"download" "88E5AF37ABB045B86CAAECEE4789D13F"
+			}
+		}
+	}
+	"404250"
+	{
+		"dlcappid" "404250"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "964168769862730557"
+				"size" "150627446"
+				"download" "122184880"
+			}
+			"tome-1.5.10"
+			{
+				"gid" "2699379350552093877"
+				"size" "144046045"
+				"download" "102244016"
+			}
+			"tome-1.6.7"
+			{
+				"gid" "4571154328404236831"
+				"size" "142942939"
+				"download" "107765712"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta-1.7"
+			{
+				"gid" "C64CD9277EB3C2D5377F5EF3259E0F42"
+				"size" "0041A721B05C0C771FE74FB1B7C75FA9"
+				"download" "EC47D8FBC2FDCDC15C9262AF86A07911"
+			}
+			"dgtest"
+			{
+				"gid" "CFCAB5025B53DCEE3E565100F86F3CF7"
+				"size" "71B85160A8F3AC90077D352575B5C95E"
+				"download" "92DCF84AD3DD2E976CEB1C7AF5645C96"
+			}
+		}
+	}
+	"590610"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7483500325348544319"
+				"size" "145509482"
+				"download" "116767904"
+			}
+			"tome-1.5.10"
+			{
+				"gid" "9105054864165940304"
+				"size" "110430312"
+				"download" "103041808"
+			}
+			"tome-1.6.7"
+			{
+				"gid" "6571574058133010086"
+				"size" "110389126"
+				"download" "103500208"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta-1.7"
+			{
+				"gid" "A7338D760A9384DA98C9D48ADA2F00DD"
+				"size" "92C51D6A8F46347BDADFCE0326D205B7"
+				"download" "39510EE0EF8A537672F87DC36603EDCD"
+			}
+			"dgtest"
+			{
+				"gid" "7599FDEDF96719FD4A5EE25F37984842"
+				"size" "7F27ADEE4081BDF7DD626E437E6C1BF3"
+				"download" "7D22238846A1B2374CDC12C09FFBDC88"
+			}
+		}
+		"dlcappid" "590610"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11599546"
+			"timeupdated" "1688139151"
+		}
+		"beta-1.7"
+		{
+			"buildid" "5632588"
+			"pwdrequired" "1"
+			"timeupdated" "1601816978"
+		}
+		"dgtest"
+		{
+			"buildid" "11599546"
+			"pwdrequired" "1"
+			"timeupdated" "1688138691"
+		}
+		"tome-1.5.10"
+		{
+			"buildid" "3340719"
+			"description" "Game as it was in version 1.5.10"
+			"timeupdated" "1569060733"
+		}
+		"tome-1.6.7"
+		{
+			"buildid" "4709876"
+			"description" " Game as it was in version 1.6.7"
+			"timeupdated" "1603845513"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+}
+"_missing_token" "False"
+"_change_number" "20777800"
+"_sha" "d9be04d5e739486192351ca9ecf906587d9ed0c2"
+"_size" "8915"
