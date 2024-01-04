@@ -1,0 +1,417 @@
+"appid" "2430930"
+"common"
+{
+	"name" "ARK: Survival Ascended Dedicated Server"
+	"type" "Tool"
+	"parent" "2399830"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"icon" "655cc2012105979c2b8e4821d568351c86b22be7"
+	"clienticon" "3c1546488725d43835e3a05645d3072e99e0c621"
+	"clienttga" "cd48da01ba019629a67ee8ddca05ae3bb7ff6835"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "2430930_eula_0"
+			"name" "ARK: Survival Ascended Dedicated Server EULA"
+			"url" "https://store.steampowered.com//eula/2430930_eula_0"
+			"version" "1"
+		}
+	}
+	"releasestate" "released"
+	"gameid" "2430930"
+}
+"config"
+{
+	"installdir" "ARK Survival Ascended Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "\\ShooterGame\\Binaries\\Win64\\ArkAscendedServer.exe"
+			"arguments" "TheIsland_WP\?listen"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Launch (Map: TheIsland)"
+			}
+			"description" "Launch (Map: TheIsland)"
+		}
+		"1"
+		{
+			"executable" "\\ShooterGame\\Binaries\\Win64\\ArkAscendedServer.exe"
+			"arguments" "TheIsland_WP\?listen -UseBattlEye"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Launch (Map: TheIsland, With BattlEye Anticheat)"
+			}
+			"description" "Launch (Map: TheIsland, With BattlEye Anticheat)"
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"2430931"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9037462353969335148"
+				"size" "9309123802"
+				"download" "7593021712"
+			}
+			"public_test_realm"
+			{
+				"gid" "9037462353969335148"
+				"size" "9309123802"
+				"download" "7593021712"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"arktx"
+			{
+				"gid" "5C15850A881F7389C66114C3D187465A"
+				"size" "A8224420A8761F7323C9B218327D18BB"
+				"download" "E1BF70FC6D5270EF9B72F39DBF911A95"
+			}
+			"asalive"
+			{
+				"gid" "3DACBBE7252688EC4BBB1F3B4ABE1640"
+				"size" "31DFA2FB3CB357CEAF8CACBDEBEF3C3A"
+				"download" "A81CBB2A62BC4932A5BDD1EBF2353302"
+			}
+			"cachechecks"
+			{
+				"gid" "C37565F79EF0B0E8FDFC595A2BE20C18"
+				"size" "6A38693E12698BBC0F4B3F9D9A2E81C8"
+				"download" "46458949BEEC05EB1C0E31647E707509"
+			}
+			"continuous"
+			{
+				"gid" "CE5871CFF2DAF8FA0827DBDA1EF95A22"
+				"size" "4777E2028D7818361F84FD864F95491D"
+				"download" "B9F1EA5878BA392B54896477E933AACF"
+			}
+			"crossplay"
+			{
+				"gid" "591F157C86DBCF8BC049684FF5FA9A71"
+				"size" "AFFA7DAA0FE3ECAB370F871CF06E37F6"
+				"download" "D3A30FA371171282829BEF5176E89359"
+			}
+			"default_logging"
+			{
+				"gid" "E93A4729F6D5453F597276D85B0546BA"
+				"size" "D46D08BA74A896541834616525D744C3"
+				"download" "F9DC6994E48AB11053A5A86735AD00B6"
+			}
+			"epicark"
+			{
+				"gid" "59FC012D9367EFAB0D492A8E5A1B84A2"
+				"size" "0251873D7DF33566AA5378ADD996707D"
+				"download" "59BBD3EB1875E50059040B7ADCDD8EC1"
+			}
+			"farmhouse"
+			{
+				"gid" "C45162333F31287FEC6E0638DE0E34F2"
+				"size" "DA0744081C6A67D3E258895275671AF1"
+				"download" "ACEF5B6B90EEE61FD886ED5843712749"
+			}
+			"goodvis"
+			{
+				"gid" "AD45F0B6A6CB8C90A64236ACDE7EB49E"
+				"size" "8DAF985CB8067C398AB9480E8E02A9D0"
+				"download" "138436A7ECFCA6331A3A83D7F7D21009"
+			}
+			"hamoverdon"
+			{
+				"gid" "5FDE86F65661CE1A7AC3EA8C7F9F09B5"
+				"size" "2020E63F962966570EC1A04C66C24B46"
+				"download" "582316EF919ADBB0BE7C760151EC4EB2"
+			}
+			"lastknowngood"
+			{
+				"gid" "3D40874F1753152319F53AC755B28646"
+				"size" "C9CFF6E13600B281082B612E204AA790"
+				"download" "CC871AE9A023AE70240047E3DE5EBF1C"
+			}
+			"nightraider"
+			{
+				"gid" "255B7ADF177FE3561293D265324EBCB3"
+				"size" "483BB3C17C3F3E8E27840EFB2C9368D8"
+				"download" "8360BB50F6F5642A7B76F9C16798E770"
+			}
+			"nitradopc"
+			{
+				"gid" "6DE2DC22E7D4037330FB903B172BE204"
+				"size" "78505057D8D84A45B622CBD8F993BBDF"
+				"download" "0FE7A8C234B599D402B2ACE11161B393"
+			}
+			"npc_beta"
+			{
+				"gid" "2402B6F3F263EEEDF8FFE3CD61917701"
+				"size" "92F8F6F459E1005A202AA48BA7BFC894"
+				"download" "CD15DE3E7BA288A7D8560E104E71D727"
+			}
+			"oldplaytest"
+			{
+				"gid" "596F83E0FA0B36BBB045F1E78EFDA919"
+				"size" "5E9A2B32660DA3E9468ED832B7AB8E30"
+				"download" "AE2AB4495A368C2E9F5BA9D6FE65F9E3"
+			}
+			"playtest1"
+			{
+				"gid" "739117DC62667A8AE0E09606C31AB803"
+				"size" "072D42E2C31680ECC27F43D1637E05CE"
+				"download" "368EC8D733E78D563FBC9F65D9542138"
+			}
+			"qa_staging"
+			{
+				"gid" "7CB9CF93CFABCB4B5768A638000A9C96"
+				"size" "0F4F4E5B0CA19EDDF816841D151582AA"
+				"download" "7A2B41450C61EE2710653FD3E2489C51"
+			}
+			"rating_test"
+			{
+				"gid" "C85B3ACD191AEE1D2844CC87C7300D68"
+				"size" "F760F7755A316626DB35BC41F1AFE95E"
+				"download" "81C6163A21F68DA88B2B2405E44C638C"
+			}
+			"refeldest"
+			{
+				"gid" "6AEF0FF98BE28252E9248984A0CB32B9"
+				"size" "D70DC9F81AC3BF7F3682B7D00DD3FFD2"
+				"download" "94292044110BD87B5954149AF459D371"
+			}
+			"spam"
+			{
+				"gid" "DDF34DD246034CF3CEF8C8A326777B2F"
+				"size" "6003751A42EE08B16A42E9033528E70E"
+				"download" "F51E0A94E69FDDB067418C2F3E9B0094"
+			}
+			"unoff_beta"
+			{
+				"gid" "98369B1EDF1D25595298EB9F538D8AFA"
+				"size" "1ACF09CD2B004FF907E931DCC54BB05A"
+				"download" "BB9120ED323D08C1291408F77567A310"
+			}
+			"yeoldebuild"
+			{
+				"gid" "93222BCB73E3ED41B9D9C2EB9B2BDF82"
+				"size" "0F3D63C921E9E44250D4B46A5A3A8A74"
+				"download" "4A0BE83E5179DF2007C9C6C226C72B7B"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13077999"
+			"timeupdated" "1704217765"
+		}
+		"arktx"
+		{
+			"buildid" "12996297"
+			"pwdrequired" "1"
+			"timeupdated" "1702951787"
+		}
+		"asalive"
+		{
+			"buildid" "13077990"
+			"pwdrequired" "1"
+			"timeupdated" "1704214815"
+		}
+		"cachechecks"
+		{
+			"buildid" "12885202"
+			"pwdrequired" "1"
+			"timeupdated" "1701959840"
+		}
+		"continuous"
+		{
+			"buildid" "13016585"
+			"pwdrequired" "1"
+			"timeupdated" "1703128694"
+		}
+		"crossplay"
+		{
+			"buildid" "12752524"
+			"pwdrequired" "1"
+			"timeupdated" "1700503629"
+		}
+		"default_logging"
+		{
+			"buildid" "12844115"
+			"pwdrequired" "1"
+			"timeupdated" "1701455394"
+		}
+		"epicark"
+		{
+			"buildid" "12825426"
+			"pwdrequired" "1"
+			"timeupdated" "1701242805"
+		}
+		"farmhouse"
+		{
+			"buildid" "12682096"
+			"pwdrequired" "1"
+			"timeupdated" "1699934681"
+		}
+		"goodvis"
+		{
+			"buildid" "11726900"
+			"pwdrequired" "1"
+			"timeupdated" "1689699845"
+		}
+		"hamoverdon"
+		{
+			"buildid" "12563050"
+			"pwdrequired" "1"
+			"timeupdated" "1698531469"
+		}
+		"lastknowngood"
+		{
+			"buildid" "12970868"
+			"pwdrequired" "1"
+			"timeupdated" "1702750100"
+		}
+		"nightraider"
+		{
+			"buildid" "12844107"
+			"pwdrequired" "1"
+			"timeupdated" "1701454976"
+		}
+		"nitradopc"
+		{
+			"buildid" "13077996"
+			"pwdrequired" "1"
+			"timeupdated" "1704217724"
+		}
+		"npc_beta"
+		{
+			"buildid" "13088562"
+			"pwdrequired" "1"
+			"timeupdated" "1704334716"
+		}
+		"oldplaytest"
+		{
+			"buildid" "12633982"
+			"pwdrequired" "1"
+			"timeupdated" "1699490221"
+		}
+		"playtest1"
+		{
+			"buildid" "13074913"
+			"pwdrequired" "1"
+			"timeupdated" "1704168312"
+		}
+		"public_test_realm"
+		{
+			"buildid" "13077999"
+			"description" "Try out the new stuff"
+			"timeupdated" "1704217739"
+		}
+		"qa_staging"
+		{
+			"buildid" "13088558"
+			"pwdrequired" "1"
+			"timeupdated" "1704334660"
+		}
+		"rating_test"
+		{
+			"buildid" "12293770"
+			"pwdrequired" "1"
+			"timeupdated" "1696019688"
+		}
+		"refeldest"
+		{
+			"buildid" "12844100"
+			"pwdrequired" "1"
+			"timeupdated" "1701386008"
+		}
+		"spam"
+		{
+			"buildid" "12906182"
+			"pwdrequired" "1"
+			"timeupdated" "1701996620"
+		}
+		"unoff_beta"
+		{
+			"buildid" "13088570"
+			"pwdrequired" "1"
+			"timeupdated" "1704334774"
+		}
+		"yeoldebuild"
+		{
+			"buildid" "11447243"
+			"pwdrequired" "1"
+			"timeupdated" "1700335188"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21751831"
+"_sha" "74c5f8113f68f01a2ce88746559d76b9f9997c4b"
+"_size" "8809"
