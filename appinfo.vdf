@@ -1,0 +1,200 @@
+"appid" "2252590"
+"common"
+{
+	"name" "Football Manager 2024 Editor"
+	"type" "Tool"
+	"parent" "2252570"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64,macosapplesilicon,macosnotarized"
+	"icon" "4649e5509fdd96f6572a8d97631a1e882e3d428e"
+	"clienticon" "1622e91509748c1130e024e093fddb116cec3ead"
+	"clienttga" "feaf5cc2fbe848840a7253c3ce024193a9e026f4"
+	"community_hub_visible" "1"
+	"gameid" "2252590"
+}
+"config"
+{
+	"installdir" "Football Manager 2024 Editor"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "editor.exe"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "editor.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"2252591"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7112135270757972520"
+				"size" "102844367"
+				"download" "48156480"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"day0"
+			{
+				"gid" "A1DE84C20F50DB93B54FB020F58838CA"
+				"size" "CB79477A7A1B2080AD4EEA3339561301"
+				"download" "8701B3979A7E7C1C044EA011BDCEFBC7"
+			}
+			"nightly"
+			{
+				"gid" "728FFDC99C900847592862CC8C0C1538"
+				"size" "CFA1BE424A24AED100D8F6C95A0F1790"
+				"download" "B89F72DC770A23F735B4488A0E197127"
+			}
+			"si-bvt"
+			{
+				"gid" "79378E091F285F757B10B372FB439B74"
+				"size" "5646A8F567EF49DC8C4DB1AC09EB496F"
+				"download" "FAA2299DC25DC946D5EB5AC4FF734D7B"
+			}
+			"temp"
+			{
+				"gid" "B556936D00054FC5977107EF6639F22B"
+				"size" "FB3943D2818C2167C3F742B83AB856EA"
+				"download" "D18D272BF2BDC0F39763058BAEBA8A43"
+			}
+		}
+	}
+	"2252592"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2000792719175130274"
+				"size" "119364755"
+				"download" "35952352"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"day0"
+			{
+				"gid" "D324D92A6D5163C292B4E8FBCCEC4795"
+				"size" "4C44B49D35E9C2BFC6699E9DA92BDB03"
+				"download" "5713223BB7A3E2881F4518B943D388DE"
+			}
+			"nightly"
+			{
+				"gid" "8F3B927F61925E3F46A701CF5C6F0C6B"
+				"size" "0E9507995486517D86423FC5672DD683"
+				"download" "4895D68C7D5FEF9E7A2087FE8659FF38"
+			}
+			"si-bvt"
+			{
+				"gid" "5D80BCE83065DA43B1DCD97951ECBA91"
+				"size" "76452CEF4909943C9EF204B5F6923CC5"
+				"download" "09EBEB9EB709FD0C2377547DBCC3B697"
+			}
+			"temp"
+			{
+				"gid" "2C45373C95AE9CAE11EF9ADCFFBC2D74"
+				"size" "E68AD5D994142BECF56150F664688E75"
+				"download" "6012A35A39A4A0CC427B06F8FFF0A3B6"
+			}
+		}
+	}
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,russian,portuguese,polish,danish,dutch,norwegian,swedish,turkish,greek"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12781070"
+			"timeupdated" "1701353024"
+		}
+		"day0"
+		{
+			"buildid" "12629996"
+			"pwdrequired" "1"
+			"timeupdated" "1699276834"
+		}
+		"nightly"
+		{
+			"buildid" "13088257"
+			"pwdrequired" "1"
+			"timeupdated" "1704330979"
+		}
+		"si-bvt"
+		{
+			"buildid" "12928352"
+			"pwdrequired" "1"
+			"timeupdated" "1702292702"
+		}
+		"temp"
+		{
+			"buildid" "12912890"
+			"pwdrequired" "1"
+			"timeupdated" "1702051810"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "10000"
+	"appidredirect" "2252570"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2024/cloud/games"
+			"pattern" "*.fm"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Sports Interactive/Football Manager 2024/cloud"
+			"pattern" "*.fmf"
+			"recursive" "1"
+		}
+		"copied_from_parent" "1"
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21751349"
+"_sha" "e125fc82d7c457902d9f5c97e4e81a622d339bcb"
+"_size" "3892"
