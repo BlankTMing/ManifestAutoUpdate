@@ -1,0 +1,257 @@
+"appid" "65700"
+"common"
+{
+	"name" "Arma 2: British Armed Forces"
+	"logo" "0fc49e02b3274791d84571ec6bbd62b9cefdbdc0"
+	"logo_small" "0fc49e02b3274791d84571ec6bbd62b9cefdbdc0_thumb"
+	"clienticon" "13aaec67ac2d8affe1c385f733ff4cf669f54b05"
+	"clienttga" "66eb4194a29218ed548b2fcb39705bbbee0b525a"
+	"icon" "ff60d26fad0a23f4bb2991ec4768aa9ca74430eb"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"type" "game"
+	"metacritic_name" "ARMA II: British Armed Forces"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1635939246"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Bohemia Interactive"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Bohemia Interactive"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "28"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_18" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1282954020"
+	"community_hub_visible" "1"
+	"gameid" "65700"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "19"
+		"2" "9"
+		"3" "1663"
+		"4" "4175"
+		"5" "1708"
+		"6" "4168"
+		"7" "3810"
+		"8" "1774"
+	}
+	"review_score" "8"
+	"review_percentage" "83"
+}
+"extended"
+{
+	"developer" "Bohemia Interactive"
+	"developer_url" "http://www.bistudio.com/"
+	"gamedir" "ARMA 2 BAF"
+	"gamemanualurl" "http://store.steampowered.com/manual/33930/"
+	"homepage" "http://www.arma2.com"
+	"icon" ""
+	"installscript" "65700_install.vdf"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp65700\\SteamKey"
+	"mustownapptopurchase" "33930"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "65701"
+	"showcdkeyinmenu" "1"
+	"state" "eStateAvailable"
+	"supportscdkeycopytoclipboard" "0"
+	"publisher" "Bohemia Interactive"
+}
+"config"
+{
+	"installscriptsignature" "65b47bad55573f4fef965eda03ce240e9a04d73076ae823387b772213e92019a68bc687285daaa5c73542dc8808feca789cdc63573ebc5c3dfb9373f60d0c9a3eac7e0f0c77bc01e2564c1550995267bb3d5e2e420026890b6e5cc090ddd96572b27d4bda162f6c2bdf449df8715779abbe40059932d514fb94f9869f3974cd5"
+	"installscriptoverride" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DLCsetup\\BAF\\datacachepreprocessor.exe"
+			"arguments" "-updater"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "ARMA 2 Operation Arrowhead"
+	"externalregistrationurl"
+	{
+		"default" "http://www.arma2.com/"
+	}
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\bohemia interactive studio\\arma 2 baf"
+		{
+			"string"
+			{
+				"main" "%INSTALLDIR%"
+				"data" "%INSTALLDIR%\\BAF"
+			}
+		}
+		"hkey_local_machine\\software\\bohemia interactive studio\\arma 2 oa\\expansions\\arma 2 baf"
+		{
+			"string"
+			{
+				"path" "SOFTWARE\\Bohemia Interactive Studio\\ArmA 2 BAF"
+				"loadbefore" "ARMA 2 OA"
+				"loadafter" ""
+				"moddir" "BAF"
+			}
+		}
+	}
+	"run process"
+	{
+		"officialgamegroup"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\65700"
+			"description" "Official Game Group"
+			"process 1" "%INSTALLDIR%\\DLCSETUP\\BAF\\ARMA2OA_BAF_OGG.cmd"
+			"command 1" ""
+			"nocleanup" "1"
+			"ignoreexitcode" "1"
+		}
+	}
+	"run process on uninstall"
+	{
+		"datacacheremoval"
+		{
+			"description" "ARMA 2: BAF datacache removal from ARMA 2: OA"
+			"process 1" "%INSTALLDIR%\\BAF\\datacacheremoval.exe"
+			"ascurrentuser" "0"
+		}
+	}
+	"arma 2 cd key"
+	{
+		"registrypath" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Bohemia Interactive Studio\\ArmA 2 BAF\\KEY"
+	}
+	"ea oreg"
+	{
+		"string"
+		{
+			"url" "http://www.arma2.com/"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"65701"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1541962312444196822"
+				"size" "497973755"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "8928590F3EC576B2C048A49E13C1D8A8"
+				"size" "876DF2E37D1340647F45E182132E3474"
+				"download" "4627F273736C7DB683EEF3525A857C60"
+			}
+		}
+	}
+	"65702"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2191918916468014224"
+				"size" "497972220"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "766D003929DCE88B55460B81D993051D"
+				"size" "BCA5E699B24330D5EA4099C706682411"
+				"download" "4627F273736C7DB683EEF3525A857C60"
+			}
+		}
+	}
+	"65703"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7689738035401002177"
+				"size" "497972220"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "A34DF4EA05C654BBF72C0808F627E4A8"
+				"size" "BCA5E699B24330D5EA4099C706682411"
+				"download" "4627F273736C7DB683EEF3525A857C60"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "267781"
+		}
+		"testing"
+		{
+			"buildid" "267781"
+			"pwdrequired" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20061629"
+"_sha" "a716cea1068aa18eb34f1ff05d3a68759956480d"
+"_size" "5172"
