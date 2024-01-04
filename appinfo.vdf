@@ -1,0 +1,356 @@
+"appid" "858810"
+"common"
+{
+	"name" "Dawn of Man"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"clienttga" "9b6b3e5a03131f859cb6a877212cdd42b79be31f"
+	"clienticon" "a30ec806f1a80e34d034ef7bad7b9c2ea9da6444"
+	"icon" "de6ddc524df651a938c94a34b3a0bcf2e5e8a833"
+	"logo" "9cb879c547e0eab99d2078e93a6fbf37c338d2e8"
+	"logo_small" "9cb879c547e0eab99d2078e93a6fbf37c338d2e8_thumb"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"spanish" "1"
+	}
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1689897600"
+		"tested_build_id" "6525796"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-3"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "35.69778296382731"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1666985234"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Madruga Works"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Madruga Works"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_30" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1551430748"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "858810"
+	"store_tags"
+	{
+		"0" "4328"
+		"1" "220585"
+		"2" "9"
+		"3" "1662"
+		"4" "599"
+		"5" "3987"
+		"6" "3810"
+		"7" "4182"
+		"8" "4695"
+		"9" "1695"
+		"10" "492"
+		"11" "6426"
+		"12" "1676"
+		"13" "5363"
+		"14" "1742"
+		"15" "3859"
+		"16" "8945"
+		"17" "6650"
+		"18" "12472"
+		"19" "4853"
+	}
+	"review_score" "8"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"developer" "Madruga Works"
+	"publisher" "Madruga Works"
+	"homepage" "http://madrugaworks.com/dawnofman"
+}
+"config"
+{
+	"installdir" "DawnOfMan"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DawnOfMan.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "DawnOfMan.app/Contents/MacOS/DawnOfMan"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"3003192606"
+		{
+			"controller_type" "controller_neptune"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,spanish"
+	"workshopdepot" "858810"
+	"858811"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5319629622059478179"
+				"size" "1958714023"
+				"download" "1094349520"
+			}
+			"experimental"
+			{
+				"gid" "5319629622059478179"
+				"size" "1958714023"
+				"download" "1094349520"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "778CCAC25093EEAFE768A754A4623D01"
+				"size" "8F9FA3E250F8C61382C0194410229BCD"
+				"download" "D263EB0B8BF44C6068F5023AFBF325C3"
+			}
+		}
+	}
+	"858812"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8451244582099472458"
+				"size" "1952472090"
+				"download" "1093428928"
+			}
+			"experimental"
+			{
+				"gid" "8451244582099472458"
+				"size" "1952472090"
+				"download" "1093428928"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "296961FD371F0CD65AE8AA3804502635"
+				"size" "E590FCC2033751665DFA3B483937C9E6"
+				"download" "B26CEFE80FC930E6732E521DC2D4E1A7"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12590976"
+			"timeupdated" "1699953857"
+		}
+		"experimental"
+		{
+			"buildid" "12590976"
+			"description" "Experimental versions"
+			"timeupdated" "1698834712"
+		}
+		"internal"
+		{
+			"buildid" "12590976"
+			"pwdrequired" "1"
+			"timeupdated" "1698834195"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "20000000"
+	"maxnumfiles" "50"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "SavesDir"
+			"pattern" "*.sav"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#presence_default" "Playing game"
+				"#presence_tutorial" "Playing tutorial"
+				"#presence_continental_dawn" "Playing Continental Dawn"
+				"#presence_the_northlands" "Playing The Northlands"
+				"#presence_ancient_warriors" "Playing Ancient Warriors"
+				"#presence_challenge" "Playing challenge"
+				"#presence_community_game" "Playing community game"
+				"#presence_menus" "In menus"
+			}
+		}
+		"spanish"
+		{
+			"tokens"
+			{
+				"#presence_tutorial" "Jugando el tutorial"
+				"#presence_menus" "En menus"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21727451"
+"_sha" "12d2efbe3dd1fc3a31fb55b4beb305df26595fc3"
+"_size" "6589"
