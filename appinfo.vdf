@@ -1,0 +1,481 @@
+"appid" "1105510"
+"common"
+{
+	"name" "Yakuza 5 Remastered"
+	"type" "Game"
+	"releasestate" "released"
+	"clienttga" "8473a5c494bd07b74655d4b05b28aa1e209b6cc0"
+	"clienticon" "83ef318baa9ff25095cf0c7b3f08ec238e0e9a6a"
+	"icon" "0aa99cea8b752b22bd167752798d60bd1c112663"
+	"languages"
+	{
+		"english" "1"
+		"koreana" "1"
+		"tchinese" "1"
+		"japanese" "1"
+	}
+	"logo" "7dd9792542f7acd1d8519cecffebfacdad0fdddf"
+	"logo_small" "7dd9792542f7acd1d8519cecffebfacdad0fdddf_thumb"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "1105510_eula_0"
+			"name" "Yakuza 5 EULA"
+			"url" "https://store.steampowered.com//eula/1105510_eula_0"
+			"version" "2"
+		}
+	}
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "2"
+		"2" "5"
+	}
+	"has_adult_content" "1"
+	"has_adult_content_sex" "1"
+	"has_adult_content_violence" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1645660800"
+		"tested_build_id" "6407471"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "60.34883720930234"
+			"height_pct" "87.23581097126575"
+		}
+	}
+	"store_asset_mtime" "1611841208"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Ryu Ga Gotoku Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SEGA"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Yakuza"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_28" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1611846154"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1105510"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "21"
+		"2" "4158"
+		"3" "1695"
+		"4" "122"
+		"5" "4231"
+		"6" "6378"
+		"7" "1697"
+		"8" "5984"
+		"9" "1742"
+		"10" "1719"
+		"11" "4182"
+		"12" "4136"
+		"13" "4667"
+		"14" "4434"
+		"15" "12095"
+		"16" "3993"
+		"17" "4085"
+		"18" "1756"
+		"19" "1752"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "Ryu Ga Gotoku Studio"
+	"publisher" "SEGA"
+}
+"config"
+{
+	"installdir" "Yakuza 5"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "main\\Yakuza5.exe"
+			"workingdir" "main\\"
+			"type" "default"
+		}
+		"2"
+		{
+			"executable" "main\\devil_release.exe"
+			"workingdir" "main\\"
+			"description" "Release_executable"
+			"type" "option2"
+			"config"
+			{
+				"betakey" "test_sega_reference"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"1632190811"
+		{
+			"controller_type" "controller_xbox360"
+			"enabled_branches" "default,beta,compat_test,develop,develop2,stable,test,test_loc,test_sega_us"
+			"use_action_block" "false"
+		}
+		"1632208265"
+		{
+			"controller_type" "controller_generic"
+			"enabled_branches" "default,beta,compat_test,develop,develop2,stable,test,test_loc,test_sega_us"
+			"use_action_block" "false"
+		}
+		"1647560208"
+		{
+			"controller_type" "controller_steamcontroller_gordon"
+			"enabled_branches" "default,beta,compat_test,develop,develop2,stable,test,test_loc,test_sega_us"
+			"use_action_block" "false"
+		}
+		"1938254872"
+		{
+			"controller_type" "controller_ps4"
+			"enabled_branches" "default,beta,compat_test,develop,develop2,stable,test,test_loc,test_sega_us"
+			"use_action_block" "false"
+		}
+		"1938376810"
+		{
+			"controller_type" "controller_switch_pro"
+			"enabled_branches" "default,beta,compat_test,develop,develop2,stable,test,test_loc,test_sega_us"
+			"use_action_block" "false"
+		}
+		"9273801632231049"
+		{
+			"controller_type" "controller_steamcontroller_gordon"
+			"enabled_branches" "default,beta,compat_test,develop,develop2,stable,test,test_loc,test_sega_us"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"1105511"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5169313411801023997"
+				"size" "33631404241"
+				"download" "23799270352"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "B4CA7ABA266CB2FD6735D0E8F3DB8392"
+				"size" "11E59B34D2A9797F2F1D6E04465F1C7A"
+				"download" "9E38F73204D9EF9DAA8F3A095AB5260D"
+			}
+			"compat_test"
+			{
+				"gid" "665F8F7E2624D0C07CBF0FAC75C96010"
+				"size" "BF1CF2625518F23F0C888A5F2037EE9B"
+				"download" "DFDA4F2C826CB1405D2904D48C6445F7"
+			}
+			"develop"
+			{
+				"gid" "438652FF068B9B094978FA61EFFE0FEA"
+				"size" "F5376A3BFC1CF3EC8146AE3ACAF86224"
+				"download" "FF2CDCFAEA873940BC0AC4A6A664B1C9"
+			}
+			"develop2"
+			{
+				"gid" "6B7EE47EED290296B1D5DD0B6810A6F2"
+				"size" "B132FDC26BFA7BF0D54A1AEF5529D2F6"
+				"download" "EED5C0F7D8CAD7A64D6A0FD5D113A60C"
+			}
+			"hotfix_beta"
+			{
+				"gid" "6E6F446D18F51B4981C8780CE6D1869A"
+				"size" "21231F9043E59499E2F60100630CF6CA"
+				"download" "DDA197C4FD0F63A4E21621AC1829E541"
+			}
+			"stable"
+			{
+				"gid" "B0734E82FA641DF7D300196A487D22E1"
+				"size" "BC93C4EDF12AD518B21D3E5D4D35CBEE"
+				"download" "263F30B409D1C93E49AF5CB9E0687609"
+			}
+			"test_alt_upload_method"
+			{
+				"gid" "561FC81DC33667F6893C854856A3C63C"
+				"size" "B07F01393B6549496FE8EA0A40ED68A5"
+				"download" "852036B3F9C52822C32B6B1728841FCA"
+			}
+			"test_loc"
+			{
+				"gid" "95082E54CB259CC665C8FE7E1936E507"
+				"size" "B34B5E78F840B810F1CBC41ABA0B733E"
+				"download" "7585C539251A73CFE0548EF442BF71E2"
+			}
+			"test_sega_reference"
+			{
+				"gid" "3D5ADAA9281E07A584EA9D6C25C8D316"
+				"size" "3731CE14002DDC57EB9A09B7B9365CB6"
+				"download" "66F5854F67106AEF5B648B22BF1FB3FB"
+			}
+			"test_sega_us"
+			{
+				"gid" "69AD1F3A7B2E8D1A051738C629FD85A3"
+				"size" "65D74FEE1712203D57DAADB12788E561"
+				"download" "E478643C952E22BCBC79BCBF00F44005"
+			}
+		}
+	}
+	"1105512"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6566473845791138832"
+				"size" "32626992"
+				"download" "25683872"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "D773FA35A439A9A3A314A8FBA215878B"
+				"size" "23EC7CA2C37E923A3A8CE5EC184984CE"
+				"download" "152223DD26EE2E254D83A727C09C09DE"
+			}
+			"compat_test"
+			{
+				"gid" "CF933B192247E88EDBEB63732F223016"
+				"size" "A671221C7DF43C68566A38B8BF0F44FB"
+				"download" "975700F24BF12AED8E2DD677A0884FC6"
+			}
+			"develop"
+			{
+				"gid" "75CCF9120D07D41CFB5867D859D31405"
+				"size" "FF6728BC77E819BCDF8AC750A24A0AD8"
+				"download" "FCB1F64002F26757789F2E6FDCF22BFD"
+			}
+			"develop2"
+			{
+				"gid" "2579BC91E6FC1040093CA22D26D117AF"
+				"size" "C2508A05F3C01AC6B683831A8E8E4026"
+				"download" "35DD6197E1CAEF5C0A6EED6FFDD3F65F"
+			}
+			"hotfix_beta"
+			{
+				"gid" "53BD7454A35CA550E5808EE510FEF135"
+				"size" "96133C30B02A4F6363827AB27F1D2F21"
+				"download" "64B808A267FC854DBA603E881423AED6"
+			}
+			"stable"
+			{
+				"gid" "C463C5220BCC4DB066D55755763D9BF9"
+				"size" "6B0EE5BD1D6FCB2104B45EE67DE75A69"
+				"download" "0285BF4690D819A9C95E82C670C8F867"
+			}
+			"test_alt_upload_method"
+			{
+				"gid" "7E0E92DF04A46ECB07160F4A3301F524"
+				"size" "57584AC43CB9F57BCEB6327EB068CFFA"
+				"download" "593AA6DD89FA0B03769203BF7F6B9F16"
+			}
+			"test_loc"
+			{
+				"gid" "A5EB0B2B8B9E0793BE0B96261CEC5993"
+				"size" "672B43A904826DF4D8B681A070FFC547"
+				"download" "04463CCBD5D48ED5C02BF7E6E3E2AB4F"
+			}
+			"test_sega_reference"
+			{
+				"gid" "5A954DDA20FAEC081E1796629BCA3F8A"
+				"size" "4B81BCDD76F50EF511FF2A2B5E8C5EC0"
+				"download" "30A5DC39C87EAB67F6C8338869C33E26"
+			}
+			"test_sega_us"
+			{
+				"gid" "4155D7F01824EA9DC74ABE33E864C3A9"
+				"size" "52F95058E9E43554B37ABC18E19C7915"
+				"download" "D0710A9D41D4CF244ACE5F5FCB6DC181"
+			}
+		}
+	}
+	"baselanguages" "english,koreana,tchinese,japanese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "6407471"
+			"timeupdated" "1616774450"
+		}
+		"beta"
+		{
+			"buildid" "6006546"
+			"pwdrequired" "1"
+			"timeupdated" "1609765336"
+		}
+		"compat_test"
+		{
+			"buildid" "5292346"
+			"pwdrequired" "1"
+			"timeupdated" "1594916607"
+		}
+		"develop"
+		{
+			"buildid" "6386821"
+			"pwdrequired" "1"
+			"timeupdated" "1615869449"
+		}
+		"develop2"
+		{
+			"buildid" "6207451"
+			"pwdrequired" "1"
+			"timeupdated" "1612799473"
+		}
+		"hotfix_beta"
+		{
+			"buildid" "6407471"
+			"pwdrequired" "1"
+			"timeupdated" "1616169740"
+		}
+		"stable"
+		{
+			"buildid" "6006546"
+			"pwdrequired" "1"
+			"timeupdated" "1609765366"
+		}
+		"test_alt_upload_method"
+		{
+			"buildid" "5364549"
+			"pwdrequired" "1"
+			"timeupdated" "1596451329"
+		}
+		"test_loc"
+		{
+			"buildid" "5250195"
+			"pwdrequired" "1"
+			"timeupdated" "1593844465"
+		}
+		"test_sega_reference"
+		{
+			"buildid" "5369408"
+			"pwdrequired" "1"
+			"timeupdated" "1596541515"
+		}
+		"test_sega_us"
+		{
+			"buildid" "6407471"
+			"pwdrequired" "1"
+			"timeupdated" "1616148268"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "105906176"
+	"maxnumfiles" "202"
+}
+"_missing_token" "False"
+"_change_number" "20806418"
+"_sha" "1448c6ad8fd5620f57fe0ff7942d500623207b8f"
+"_size" "10304"
