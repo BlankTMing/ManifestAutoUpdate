@@ -1,0 +1,353 @@
+"appid" "1070260"
+"common"
+{
+	"name" "Graduated"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "809b7525ce50eab99f8f65d4735d90ecbb711f32"
+	"logo_small" "809b7525ce50eab99f8f65d4735d90ecbb711f32_thumb"
+	"icon" "78f6c410be0d228eb3a71a6e6cdfc25943add2f0"
+	"clienticns" "7017cb3cf5aad06255e9a84c64f461ef22a651fa"
+	"clienttga" "bce7c5faaf926d62e6269b54dd237bb0de41f896"
+	"clienticon" "189b92ed93d5f6271305aa3407e005a199eee597"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" "macos64,macosapplesilicon,macosnotarized"
+	"name_localized"
+	{
+		"sc_schinese" "小生活"
+		"schinese" "小生活"
+		"tchinese" "小生活"
+		"english" "Graduated"
+	}
+	"releasestatesteamchina" "prerelease"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1663200000"
+		"tested_build_id" "9312353"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"5"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-4"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Graduated"
+	"small_capsule"
+	{
+		"schinese" "capsule_231x87_schinese.jpg"
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"schinese" "header_schinese.jpg"
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "zh-cn,en"
+		"library_hero" "en"
+		"library_logo" "zh-cn,en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1684146533"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Love7"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "BD Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "BD Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "3"
+		"3" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1684479686"
+	"community_hub_visible" "1"
+	"gameid" "1070260"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "599"
+		"2" "10235"
+		"3" "597"
+		"4" "3920"
+		"5" "492"
+		"6" "1695"
+		"7" "1654"
+		"8" "4747"
+		"9" "32322"
+		"10" "5673"
+		"11" "4947"
+		"12" "4252"
+		"13" "5379"
+		"14" "16689"
+		"15" "3871"
+		"16" "4726"
+		"17" "5608"
+		"18" "615955"
+		"19" "8945"
+	}
+	"review_score" "6"
+	"review_percentage" "73"
+}
+"extended"
+{
+	"developer" "Love7"
+	"publisher" "BD Games"
+}
+"config"
+{
+	"installdir" "Graduated"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Graduated.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "graduated_mac.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steam_china_only"
+	{
+		"steam_china_enable_duration_control" "1"
+	}
+}
+"depots"
+{
+	"branches"
+	{
+		"steam_china_only"
+		{
+			"sc_schinese" "仅中国"
+		}
+		"public"
+		{
+			"buildid" "12451702"
+			"timeupdated" "1697460645"
+		}
+		"dev_test"
+		{
+			"buildid" "10858383"
+			"pwdrequired" "1"
+			"timeupdated" "1679829234"
+		}
+		"play_test"
+		{
+			"buildid" "11251605"
+			"pwdrequired" "1"
+			"timeupdated" "1684312498"
+		}
+	}
+	"baselanguages" "english,schinese"
+	"1070261"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6499608033491329"
+				"size" "529955708"
+				"download" "342287312"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev_test"
+			{
+				"gid" "0BA2F8F1C65CB656232AFF5F32567E71"
+				"size" "5B9CF4596306CC02D5CA3C75D843E1E9"
+				"download" "41ED948479F7E3F4B1AE8D7774D54B54"
+			}
+			"play_test"
+			{
+				"gid" "5A1E7C44F3520896BD7D0C8E597D478C"
+				"size" "06A5607F94FFEBCFDF8B32D6438875C8"
+				"download" "7A4A3930CA8CBE69347E447D4F0AB337"
+			}
+		}
+	}
+	"1070263"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8571442780727513019"
+				"size" "542725049"
+				"download" "341394448"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev_test"
+			{
+				"gid" "65E8781BEC2197F85F100CDE2371B686"
+				"size" "EB8C9E8BD06EED3204F8F44E62C2633C"
+				"download" "1E12EFE47481CCF5E89893EF842137BA"
+			}
+			"play_test"
+			{
+				"gid" "188A151FF211A8C3CA5A6D3057C785FD"
+				"size" "E0A5ECE396CFC14C9C54F458A464F844"
+				"download" "C33A7DCB03C273B7B5554164174053FB"
+			}
+		}
+	}
+	"1070264"
+	{
+		"config"
+		{
+			"language" "schinese"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3788095066957148060"
+				"size" "529955708"
+				"download" "342283232"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"play_test"
+			{
+				"gid" "30249D9844AA98A7F623004FEC8C2E81"
+				"size" "6768D81CB9DB47D1C146D277CEEFEDB9"
+				"download" "DADF0FCA4068A9E80277201BB2BD7B7C"
+			}
+		}
+	}
+}
+"ufs"
+{
+	"quota" "500000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Love7/Graduated/Saves"
+			"pattern" "*.*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20699022"
+"_sha" "847c6f26fcb29dd23882014d8c365272da562db7"
+"_size" "6459"
