@@ -1,0 +1,111 @@
+"appid" "588870"
+"common"
+{
+	"name" "Scrap Mechanic Mod Tool"
+	"type" "Tool"
+	"parent" "387990"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"eulas"
+	{
+		"0"
+		{
+			"id" "588870_eula_0"
+			"name" "Scrap Mechanic Mod Tool EULA"
+			"url" "http://store.steampowered.com//eula/588870_eula_0"
+		}
+	}
+	"logo" "679b5e960d5a3dcbec350e7a2a1e4ac527e81d92"
+	"logo_small" "679b5e960d5a3dcbec350e7a2a1e4ac527e81d92_thumb"
+	"icon" "42cd84b8869551681aa5eb40962f9158e8023403"
+	"clienticon" "85909c6cb9df372682a0690701065f12f8680a3e"
+	"clienttga" "0d38a6a46a7c2641c9aab4edab8c2813591e37d5"
+	"associations"
+	{
+	}
+	"gameid" "588870"
+}
+"config"
+{
+	"installdir" "Scrap Mechanic Mod Tool"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "./Release/ModTool.exe"
+			"workingdir" "./Release"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "588870"
+	"588871"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5094832243616215655"
+				"size" "39578832"
+				"download" "11712256"
+			}
+			"0.5.1"
+			{
+				"gid" "7552120927877772471"
+				"size" "654504152"
+				"download" "199402400"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test_dev"
+			{
+				"gid" "EBDA46150CF6466177414912E8300AE5"
+				"size" "204BF459F5F9E8E089E27D18C0410DFA"
+				"download" "9C3C09CEEFD6CCD8C9296ACCD77CB0F7"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12613959"
+			"timeupdated" "1699031293"
+		}
+		"0.5.1"
+		{
+			"buildid" "6464886"
+			"description" "Previous version"
+			"timeupdated" "1654003652"
+		}
+		"test_dev"
+		{
+			"buildid" "12613959"
+			"pwdrequired" "1"
+			"timeupdated" "1699029111"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "10000"
+}
+"_missing_token" "False"
+"_change_number" "20967393"
+"_sha" "9dfdf858ebad6f67a971b0a50943b88570d01af6"
+"_size" "1917"
