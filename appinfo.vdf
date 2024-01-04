@@ -1,0 +1,296 @@
+"appid" "2196790"
+"common"
+{
+	"name" "江湖幸存者"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"clienttga" "0f94049de837b8135f879d34e32ac0a80c16b0bd"
+	"clienticon" "51f0c32f0dc221644b12c98ca45a1c6bec6852ef"
+	"icon" "aaa37b26530c49a315286d575cf55777cea411a8"
+	"name_localized"
+	{
+		"english" "Jianghu Survivor"
+	}
+	"languages"
+	{
+		"english" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+	}
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1688083200"
+		"tested_build_id" "11410229"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-2"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"schinese" "capsule_231x87_schinese.jpg"
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"schinese" "header_schinese.jpg"
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "zh-cn,en"
+		"library_hero" "en,zh-cn"
+		"library_logo" "zh-cn,en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "24.37594246556698"
+			"height_pct" "60.01020796739907"
+		}
+	}
+	"store_asset_mtime" "1683630108"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Surprising Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Surprising Studio"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "4"
+		"3" "23"
+		"4" "3"
+		"5" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_28" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1685583044"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2196790"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "19"
+		"2" "122"
+		"3" "4106"
+		"4" "42804"
+		"5" "1716"
+		"6" "3871"
+		"7" "4726"
+		"8" "6815"
+		"9" "4608"
+		"10" "1654"
+		"11" "4057"
+		"12" "3993"
+		"13" "255534"
+		"14" "4182"
+		"15" "1685"
+		"16" "3843"
+		"17" "3859"
+		"18" "492"
+		"19" "9"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "Surprising Studio"
+	"publisher" "Surprising Studio"
+	"homepage" "https://surprising.studio/"
+}
+"config"
+{
+	"installdir" "Jianghu Survivors"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Jianghu Survivor.exe"
+			"arguments" "--AppId=2196790"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,spanish,schinese,tchinese,russian"
+	"2196791"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5673037903933509308"
+				"size" "1458945786"
+				"download" "783529968"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11410229"
+			"timeupdated" "1686136984"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Surprising Studio/Jianghu Survivor"
+			"pattern" "*"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#display_main_menu" "Main Menu"
+				"#display_lobby" "Lobby (%steam_player_group_size%/4)"
+				"#display_game" "{#map_%map%}%difficulty% %state% %minutes%m"
+				"#map_m0" "Yin Mountains"
+				"#map_m1" "Savage Rift"
+				"#map_m2" "Peak of Trials"
+				"#map_m3" "East Sea"
+			}
+		}
+		"schinese"
+		{
+			"tokens"
+			{
+				"#display_main_menu" "主菜单"
+				"#display_lobby" "大厅 (%steam_player_group_size%/4)"
+				"#display_game" "{#map_%map%}%difficulty% %state% %minutes%m"
+				"#map_m0" "阴山草原"
+				"#map_m1" "蛮荒裂谷"
+				"#map_m2" "试炼之峰"
+				"#map_m3" "东海"
+			}
+		}
+		"russian"
+		{
+			"tokens"
+			{
+				"#display_main_menu" "Главное меню"
+				"#display_lobby" "Лобби (%steam_player_group_size%/4)"
+				"#display_game" "{#map_%map%}%difficulty% %state% %minutes%m"
+				"#map_m0" "Иньшань"
+				"#map_m1" "Дикий разлом"
+				"#map_m2" "Пик испытаний"
+				"#map_m3" "Восточное море"
+			}
+		}
+		"spanish"
+		{
+			"tokens"
+			{
+				"#display_main_menu" "Menú principal"
+				"#display_lobby" "Lobby (%steam_player_group_size%/4)"
+				"#display_game" "{#map_%map%}%difficulty% %state% %minutes%m"
+				"#map_m0" "Montañas Yin"
+				"#map_m1" "Grieta salvaje"
+				"#map_m2" "Pico de pruebas"
+				"#map_m3" "Mar del Este"
+			}
+		}
+		"tchinese"
+		{
+			"tokens"
+			{
+				"#display_main_menu" "主菜單"
+				"#display_lobby" "大廳 (%steam_player_group_size%/4)"
+				"#display_game" "{#map_%map%}%difficulty% %state% %minutes%m"
+				"#map_m0" "陰山草原"
+				"#map_m1" "蠻荒裂谷"
+				"#map_m2" "試煉之峰"
+				"#map_m3" "東海"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20983943"
+"_sha" "ee3cddde885a3682e4ad95bd7db3d24a3317423b"
+"_size" "5662"
