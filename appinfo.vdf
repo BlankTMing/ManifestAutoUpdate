@@ -1,0 +1,479 @@
+"appid" "405710"
+"common"
+{
+	"name" "Staxel"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"clienticon" "8595ceb2acfabb1a940fc81475aca68b83db0dea"
+	"clienttga" "cb15233a9440843d2983011578360282582b8bef"
+	"icon" "2c025dc365c080a29d2e2d1411718fd68a8d2c70"
+	"logo" "d4e781dfa2c8e2a1c36ae842114d4346a4e40ee9"
+	"logo_small" "d4e781dfa2c8e2a1c36ae842114d4346a4e40ee9_thumb"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+	}
+	"osextended" "macos64,macosnotarized"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1646870400"
+		"tested_build_id" "7473809"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Staxel"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "71.77681030216422"
+			"height_pct" "90.27809787933995"
+		}
+	}
+	"store_asset_mtime" "1659690920"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Plukit"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Humble Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Humble Games"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "23"
+		"1" "3"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_30" "1"
+		"category_29" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"dutch"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1554994809"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "405710"
+	"store_tags"
+	{
+		"0" "87918"
+		"1" "4726"
+		"2" "4747"
+		"3" "22602"
+		"4" "3810"
+		"5" "30358"
+		"6" "1654"
+		"7" "1643"
+		"8" "1695"
+		"9" "1732"
+		"10" "3843"
+		"11" "3964"
+		"12" "597"
+		"13" "122"
+		"14" "599"
+		"15" "3859"
+		"16" "21"
+		"17" "1685"
+		"18" "4182"
+		"19" "1662"
+	}
+	"review_score" "6"
+	"review_percentage" "79"
+}
+"extended"
+{
+	"developer" "Plukit"
+	"publisher" "Humble Games"
+	"homepage" "http://playstaxel.com/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Staxel"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bin/Staxel.SteamLauncher.exe"
+			"workingdir" "bin/"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "StaxelCE\\Windows_64bit_FNA\\StaxelCE.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Staxel CE"
+			}
+			"description" "Staxel CE"
+		}
+		"2"
+		{
+			"executable" "bin/Staxel.ModManager.exe"
+			"workingdir" "bin/"
+			"description" "Mod Manager Tool"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "bin/Staxel.SteamLauncher.exe"
+			"arguments" "--disableMultisampling --disableLateSwapTear --disableFullscreen --disableSliders --warnings"
+			"workingdir" "bin/"
+			"description" "Compatibility Safe Mode"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"4"
+		{
+			"executable" "bin/Staxel.ServerWizard.exe"
+			"workingdir" "bin/"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"5"
+		{
+			"executable" "StaxelCE/Linux_64bit_FNA/StaxelCE"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"6"
+		{
+			"executable" "StaxelCE/MacOSX_64bit_FNA/StaxelCE.app/Contents/MacOS/StaxelCE"
+			"arguments" "/gldevice:Vulkan"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"7"
+		{
+			"executable" "StaxelCE/Linux_64bit_FNA/StaxelCE"
+			"arguments" "/gldevice:OpenGL /glprofile:core"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "Staxel CE (OpenGL Core profile)"
+			}
+			"description" "Staxel CE (OpenGL Core profile)"
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "405710"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229012"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"405712"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6435635815487709255"
+				"size" "181483234"
+				"download" "48677568"
+			}
+			"testing"
+			{
+				"gid" "6435635815487709255"
+				"size" "181483234"
+				"download" "48677568"
+			}
+			"testing32bit"
+			{
+				"gid" "894995170096276321"
+				"size" "125048011"
+				"download" "37269760"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "E1CCCCA3809206A8A86EFB908E2A52E2"
+				"size" "2874C54F297BA2AF62370ECFF57AFC8B"
+				"download" "9E666509A5C3DA64237A17C1438EDDF6"
+			}
+		}
+	}
+	"405711"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6362982275546210387"
+				"size" "1111074964"
+				"download" "724446032"
+			}
+			"testing"
+			{
+				"gid" "6362982275546210387"
+				"size" "1111074964"
+				"download" "724446032"
+			}
+			"testing32bit"
+			{
+				"gid" "8238955792463151891"
+				"size" "910561730"
+				"download" "607297088"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "BE038F3C4DFF10EB906AD533E63FAAB0"
+				"size" "72C8324742DD7E8772C624E77A0ED662"
+				"download" "10D5CEB30968C085B7137C33E86FADD0"
+			}
+		}
+	}
+	"405713"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1813362362848274994"
+				"size" "770837475"
+				"download" "515274224"
+			}
+			"testing"
+			{
+				"gid" "1813362362848274994"
+				"size" "770837475"
+				"download" "515274224"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "B966575D70EF1D3E21F1BC7FFE28A726"
+				"size" "65BDA93EF40849CF49E6F4DBAFA4FBA0"
+				"download" "D6B29DE8BFB35E6916A5E92A57652A39"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "7473809"
+			"timeupdated" "1633345678"
+		}
+		"staging"
+		{
+			"buildid" "7473809"
+			"pwdrequired" "1"
+			"timeupdated" "1633345660"
+		}
+		"testing"
+		{
+			"buildid" "7473809"
+			"description" "Testing branch"
+			"timeupdated" "1633345670"
+		}
+		"testing32bit"
+		{
+			"buildid" "2525450"
+			"description" "Legacy discontinued"
+			"timeupdated" "1518618791"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "10000"
+}
+"_missing_token" "False"
+"_change_number" "20364172"
+"_sha" "8c00d194b74299324f928bf352b3a93f18be5130"
+"_size" "8464"
