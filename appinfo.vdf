@@ -1,0 +1,878 @@
+"appid" "242840"
+"common"
+{
+	"name" "In Verbis Virtus"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"logo" "70f30a0688a9e5218dcc791ea3b5abba8ac27e8f"
+	"logo_small" "70f30a0688a9e5218dcc791ea3b5abba8ac27e8f_thumb"
+	"clienticon" "eb565cb5022d613b16ec99b8a98b48cdda94eea9"
+	"clienttga" "9c1ec8deaf2255e8c1ed4fdf9ed2d6f246b35521"
+	"icon" "683c97dde3c2fa01fdc2937d5289bcba8323698d"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1669161600"
+		"tested_build_id" "1645671"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "In Verbis Virtus"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "67.15285880980163"
+			"height_pct" "51.89969596052564"
+		}
+	}
+	"store_asset_mtime" "1667037016"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Indomitus Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Indomitus Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_13" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_29" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1428079860"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "242840"
+	"store_tags"
+	{
+		"0" "27758"
+		"1" "4057"
+		"2" "4604"
+		"3" "1664"
+		"4" "21"
+		"5" "4166"
+		"6" "4182"
+		"7" "3834"
+		"8" "3839"
+		"9" "4106"
+		"10" "1684"
+		"11" "6650"
+		"12" "19"
+		"13" "492"
+		"14" "1667"
+		"15" "5611"
+		"16" "4026"
+		"17" "122"
+		"18" "198631"
+		"19" "4191"
+	}
+	"review_score" "6"
+	"review_percentage" "79"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" "Indomitus Games"
+	"gamedir" "ValveTestApp242840"
+	"homepage" "http://www.indomitusgames.com/"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateComingSoonNoPreload"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Indomitus Games"
+	"listofdlc" "385930"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "In Verbis Virtus"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Binaries\\Win32\\IVV.exe"
+			"arguments" "-seekfreeloading"
+			"description" "Launch IVV"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Binaries\\Win32\\IVV.exe"
+			"arguments" "-seekfreeloading -windowed resx=800 resy=600"
+			"description" "Launch IVV (safe-mode)"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "/InVerbisVirtus.app/Contents/Resources/drive_c/Program Files/In Verbis Virtus/Binaries/Win32/UserCode/sutilsmo"
+			"description" "Launch IVV"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "Binaries\\Win32\\UserCode\\cmdow.exe"
+			"arguments" "/run explorer .\\Soundtrack\\"
+			"description" "Open Soundtrack folder"
+			"type" "none"
+			"config"
+			{
+				"ownsdlc" "385930"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" "english,german,french,italian,spanish,schinese,russian,turkish"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229002"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"242841"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6042675532936582426"
+				"size" "3446622611"
+				"download" "2382185856"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"press"
+			{
+				"gid" "D0B162552F82F44311869062CD80CB9E"
+				"size" "BD079C545469BCE945D1D6C8F859CA83"
+				"download" "F48B4C288F3BF022BA5130978469D549"
+			}
+			"test"
+			{
+				"gid" "EF107FA99412ED76BFC4523223F2AE11"
+				"size" "0A4CD8C67F8E560CE641CD721A6E9D6A"
+				"download" "01E5F5003013C9A602D28EE0340E554F"
+			}
+			"test-public"
+			{
+				"gid" "72266413EE2BD36B1E0B4CDD8C86030F"
+				"size" "ED4E3E1B06FBBE85665AF6668F08A1C8"
+				"download" "693BF3D1F0C2C6B5F37160E6F70C7CB3"
+			}
+		}
+	}
+	"242842"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4382709001939345677"
+				"size" "6089"
+				"download" "2320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"press"
+			{
+				"gid" "1475A77B53976300B813755561FC9FD0"
+				"size" "45B63F9CDA5E5582037389DAA6DE8998"
+				"download" "75539471D7AFC2C46A6DB31A9475A66E"
+			}
+			"test"
+			{
+				"gid" "EB68E7A12A302F170872A3B8CAC68048"
+				"size" "DDDF4A4ED936A08BD40CCD6C93919DBA"
+				"download" "E07068BEC948E95A85C750F739575387"
+			}
+			"test-public"
+			{
+				"gid" "E56164B4FB073166FECC60FF8DDE9346"
+				"size" "578BFA0A24F1B19F47C775F7E3B851AC"
+				"download" "D6AA2C7B2FC2BD8A6A28DB7CC3477CB6"
+			}
+		}
+	}
+	"242843"
+	{
+		"config"
+		{
+			"language" "italian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5178723732577251067"
+				"size" "6089"
+				"download" "2320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"press"
+			{
+				"gid" "9ED81C4ED7AB5649C3DA3D5CD31A7CE2"
+				"size" "45B63F9CDA5E5582037389DAA6DE8998"
+				"download" "75539471D7AFC2C46A6DB31A9475A66E"
+			}
+			"test"
+			{
+				"gid" "707B13611E84E1E0880549B142D01F86"
+				"size" "DDDF4A4ED936A08BD40CCD6C93919DBA"
+				"download" "E07068BEC948E95A85C750F739575387"
+			}
+			"test-public"
+			{
+				"gid" "E4924F4384942873A2261FC22F619A95"
+				"size" "578BFA0A24F1B19F47C775F7E3B851AC"
+				"download" "D6AA2C7B2FC2BD8A6A28DB7CC3477CB6"
+			}
+		}
+	}
+	"242844"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5037975410562546532"
+				"size" "6089"
+				"download" "2320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"press"
+			{
+				"gid" "8D026C4AFE4C13884FF370F9A645B3F5"
+				"size" "45B63F9CDA5E5582037389DAA6DE8998"
+				"download" "75539471D7AFC2C46A6DB31A9475A66E"
+			}
+			"test"
+			{
+				"gid" "A4F6F63AC4E919B983D98FA94747A27B"
+				"size" "DDDF4A4ED936A08BD40CCD6C93919DBA"
+				"download" "E07068BEC948E95A85C750F739575387"
+			}
+			"test-public"
+			{
+				"gid" "A4F56248707372B44F9BE21F28F616C5"
+				"size" "578BFA0A24F1B19F47C775F7E3B851AC"
+				"download" "D6AA2C7B2FC2BD8A6A28DB7CC3477CB6"
+			}
+		}
+	}
+	"242845"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3463803046368422113"
+				"size" "6089"
+				"download" "2320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"press"
+			{
+				"gid" "2F0065F65FDA4FAE52C00E5283DBF4B2"
+				"size" "45B63F9CDA5E5582037389DAA6DE8998"
+				"download" "75539471D7AFC2C46A6DB31A9475A66E"
+			}
+			"test"
+			{
+				"gid" "110B63E921DC3A671C5605802AF429B0"
+				"size" "DDDF4A4ED936A08BD40CCD6C93919DBA"
+				"download" "E07068BEC948E95A85C750F739575387"
+			}
+			"test-public"
+			{
+				"gid" "F420815804ECC618D8D31B998616D38F"
+				"size" "578BFA0A24F1B19F47C775F7E3B851AC"
+				"download" "D6AA2C7B2FC2BD8A6A28DB7CC3477CB6"
+			}
+		}
+	}
+	"242846"
+	{
+		"config"
+		{
+			"language" "schinese"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4218379403590788187"
+				"size" "6089"
+				"download" "2320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"press"
+			{
+				"gid" "B2DFC2065508ADC481E89F6A75709C6B"
+				"size" "45B63F9CDA5E5582037389DAA6DE8998"
+				"download" "75539471D7AFC2C46A6DB31A9475A66E"
+			}
+			"test"
+			{
+				"gid" "58382969C000405EF955BF94C2A72367"
+				"size" "DDDF4A4ED936A08BD40CCD6C93919DBA"
+				"download" "E07068BEC948E95A85C750F739575387"
+			}
+			"test-public"
+			{
+				"gid" "2835708D7F5083C7380DF9DBF3651695"
+				"size" "578BFA0A24F1B19F47C775F7E3B851AC"
+				"download" "D6AA2C7B2FC2BD8A6A28DB7CC3477CB6"
+			}
+		}
+	}
+	"242853"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2683622722706081020"
+				"size" "6089"
+				"download" "2320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"press"
+			{
+				"gid" "CCCE87AA890A6B6A790EFBE7A2C377A2"
+				"size" "45B63F9CDA5E5582037389DAA6DE8998"
+				"download" "75539471D7AFC2C46A6DB31A9475A66E"
+			}
+			"test"
+			{
+				"gid" "321EAB95EA698397D7591DC429BD422A"
+				"size" "DDDF4A4ED936A08BD40CCD6C93919DBA"
+				"download" "E07068BEC948E95A85C750F739575387"
+			}
+			"test-public"
+			{
+				"gid" "E5D27819DF5BF4F48FA141F69947E014"
+				"size" "578BFA0A24F1B19F47C775F7E3B851AC"
+				"download" "D6AA2C7B2FC2BD8A6A28DB7CC3477CB6"
+			}
+		}
+	}
+	"242855"
+	{
+		"config"
+		{
+			"language" "spanish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "102676812660227843"
+				"size" "6089"
+				"download" "2320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"press"
+			{
+				"gid" "5BFBAF3510DBE005D272DB7B6FDB3DE0"
+				"size" "45B63F9CDA5E5582037389DAA6DE8998"
+				"download" "75539471D7AFC2C46A6DB31A9475A66E"
+			}
+			"test"
+			{
+				"gid" "36564601BF1E7E7807C143E9D5E5588F"
+				"size" "DDDF4A4ED936A08BD40CCD6C93919DBA"
+				"download" "E07068BEC948E95A85C750F739575387"
+			}
+			"test-public"
+			{
+				"gid" "EB6E7A7F523CBBB94B170C32F9A96324"
+				"size" "578BFA0A24F1B19F47C775F7E3B851AC"
+				"download" "D6AA2C7B2FC2BD8A6A28DB7CC3477CB6"
+			}
+		}
+	}
+	"242857"
+	{
+		"config"
+		{
+			"language" "turkish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "395727239340714305"
+				"size" "6089"
+				"download" "2320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"press"
+			{
+				"gid" "330EAF74F78DA34B5151E30D64B8D5BF"
+				"size" "45B63F9CDA5E5582037389DAA6DE8998"
+				"download" "75539471D7AFC2C46A6DB31A9475A66E"
+			}
+			"test"
+			{
+				"gid" "CC37DDE363DDAAC950F5487A252DB2BB"
+				"size" "DDDF4A4ED936A08BD40CCD6C93919DBA"
+				"download" "E07068BEC948E95A85C750F739575387"
+			}
+			"test-public"
+			{
+				"gid" "B44C93986E65E99C940902EE3775EB36"
+				"size" "578BFA0A24F1B19F47C775F7E3B851AC"
+				"download" "D6AA2C7B2FC2BD8A6A28DB7CC3477CB6"
+			}
+		}
+	}
+	"242847"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "53F8568425331AB535D3F858FD4D9658"
+				"size" "B79427F41E3972A72290C0E0BB0AA225"
+				"download" "AE135B916F6FF2CA390140A3916E7493"
+			}
+			"test-public"
+			{
+				"gid" "217BFF984BE5447A8CFBF7AF1C6F81EB"
+				"size" "20E95443E98669AF30952EF4784AE898"
+				"download" "DEE45B4CC464F488DC8418787E79FCF0"
+			}
+		}
+	}
+	"242848"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "055560048086F41BE3E59B8E6AC745CC"
+				"size" "DDDF4A4ED936A08BD40CCD6C93919DBA"
+				"download" "E07068BEC948E95A85C750F739575387"
+			}
+			"test-public"
+			{
+				"gid" "2D1786880D4D37951B49F7D77585F9CE"
+				"size" "578BFA0A24F1B19F47C775F7E3B851AC"
+				"download" "D6AA2C7B2FC2BD8A6A28DB7CC3477CB6"
+			}
+		}
+	}
+	"242849"
+	{
+		"config"
+		{
+			"language" "italian"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "8E4909F9A808C38D4F3973AFE55F81A3"
+				"size" "DDDF4A4ED936A08BD40CCD6C93919DBA"
+				"download" "E07068BEC948E95A85C750F739575387"
+			}
+			"test-public"
+			{
+				"gid" "67940F3A75515949D618FE7E530929F5"
+				"size" "578BFA0A24F1B19F47C775F7E3B851AC"
+				"download" "D6AA2C7B2FC2BD8A6A28DB7CC3477CB6"
+			}
+		}
+	}
+	"242850"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "2B98C6F90367B1BC980F160AF6AF3FE4"
+				"size" "DDDF4A4ED936A08BD40CCD6C93919DBA"
+				"download" "E07068BEC948E95A85C750F739575387"
+			}
+			"test-public"
+			{
+				"gid" "63869F81EF7396DD4C0D9679E1C1BF7B"
+				"size" "578BFA0A24F1B19F47C775F7E3B851AC"
+				"download" "D6AA2C7B2FC2BD8A6A28DB7CC3477CB6"
+			}
+		}
+	}
+	"242851"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "61ED56049BEB2D012C98C08D7AC50372"
+				"size" "DDDF4A4ED936A08BD40CCD6C93919DBA"
+				"download" "E07068BEC948E95A85C750F739575387"
+			}
+			"test-public"
+			{
+				"gid" "795247CE1B1D2FD19CA09B74ADB98D7E"
+				"size" "578BFA0A24F1B19F47C775F7E3B851AC"
+				"download" "D6AA2C7B2FC2BD8A6A28DB7CC3477CB6"
+			}
+		}
+	}
+	"242852"
+	{
+		"config"
+		{
+			"language" "schinese"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "A177CC22D46D3E842606CFD062F94F19"
+				"size" "DDDF4A4ED936A08BD40CCD6C93919DBA"
+				"download" "E07068BEC948E95A85C750F739575387"
+			}
+			"test-public"
+			{
+				"gid" "1B653A5A1E53FB52780A25C332FF298C"
+				"size" "578BFA0A24F1B19F47C775F7E3B851AC"
+				"download" "D6AA2C7B2FC2BD8A6A28DB7CC3477CB6"
+			}
+		}
+	}
+	"242854"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "B6A7C7A7BBA9BF104FB937E871079973"
+				"size" "DDDF4A4ED936A08BD40CCD6C93919DBA"
+				"download" "E07068BEC948E95A85C750F739575387"
+			}
+			"test-public"
+			{
+				"gid" "A3F16036831FA3C454C10AAFFFBDD741"
+				"size" "578BFA0A24F1B19F47C775F7E3B851AC"
+				"download" "D6AA2C7B2FC2BD8A6A28DB7CC3477CB6"
+			}
+		}
+	}
+	"242856"
+	{
+		"config"
+		{
+			"language" "spanish"
+			"oslist" "macos"
+		}
+	}
+	"385930"
+	{
+		"dlcappid" "385930"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4910607299323108167"
+				"size" "498838078"
+				"download" "500987776"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"press"
+			{
+				"gid" "06434B285CA9868EDFAED3222EB95310"
+				"size" "B04FEAD47479931B00238DEA5B8A6202"
+				"download" "349BCC6FE2827CCC67ACCE34D0330748"
+			}
+			"test"
+			{
+				"gid" "46F690CA891FB05D45BA778FA7EA72EC"
+				"size" "58C54CE4D8DC787A7F596BB8DBC735D9"
+				"download" "D781FEE80B9AB234709C6251F388565F"
+			}
+			"test-public"
+			{
+				"gid" "E36B85C4E6F88E7EDA23D858CBCF5DE7"
+				"size" "D2874785EB96AB199442DB8242E97F92"
+				"download" "28178C8354565C5D5E389F38CFB9CBF1"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1645671"
+			"timeupdated" "1487677529"
+		}
+		"press"
+		{
+			"buildid" "1645675"
+			"pwdrequired" "1"
+			"timeupdated" "1487677594"
+		}
+		"test"
+		{
+			"buildid" "1643709"
+			"pwdrequired" "1"
+			"timeupdated" "1487609083"
+		}
+		"test-public"
+		{
+			"buildid" "1643709"
+			"pwdrequired" "1"
+			"timeupdated" "1487614522"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "200"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "/Binaries/Win32/UserCode/Saves"
+			"pattern" "*.sav"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "/Binaries/Win32/UserCode/AdaptedModels"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "9928410b68cc7b77fb86cb22cfad8d30b8c6be13"
+"_size" "16889"
