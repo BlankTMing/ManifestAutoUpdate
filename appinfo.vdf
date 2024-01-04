@@ -1,0 +1,448 @@
+"appid" "786450"
+"common"
+{
+	"name" "Don\'t Bite Me Bro! +"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "3aa2093ce2ef9194b3109fe074cb398bd41394cf"
+	"logo_small" "3aa2093ce2ef9194b3109fe074cb398bd41394cf_thumb"
+	"icon" "3e4421631a4a963003d92910056d049985c872d2"
+	"clienttga" "85ab8fc8daa4448ac1cf2c98362d0bf9183c65f8"
+	"clienticon" "a5f74e735bc3ef686f1548279be7ef13c7c99f57"
+	"clienticns" "4d1b28e92e86cb2e1b66ba59cc56dcc95883902e"
+	"linuxclienticon" "0b807d8f2bcc8d351651d065bdd0edc7c0a357e2"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1689120000"
+		"tested_build_id" "2936803"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-experimental"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Don\'t Bite Me Bro!"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1531381283"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "MUIFWEGO"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "MUIFWEGO"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Don\'t Bite Me Bro!"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "3"
+		"4" "28"
+		"5" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_37" "1"
+		"category_39" "1"
+		"category_24" "1"
+		"category_22" "1"
+		"category_18" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_9" "1"
+		"category_44" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1531772320"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "786450"
+	"store_tags"
+	{
+		"0" "3859"
+		"1" "9"
+		"2" "19"
+		"3" "599"
+		"4" "21"
+		"5" "492"
+		"6" "122"
+		"7" "1659"
+		"8" "1662"
+		"9" "7368"
+		"10" "1685"
+	}
+	"review_score" "8"
+	"review_percentage" "80"
+}
+"extended"
+{
+	"developer" "MUIFWEGO"
+	"publisher" "MUIFWEGO"
+	"homepage" "http://dontbitemebro.com"
+	"listofdlc" "828610,828611,828612,828613,828614,828615,828616,828620,828621,828622,828623,828624,828625,828626"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "DontBiteMeBro"
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+	}
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DontBiteMeBro_PC/DontBiteMeBro_PC.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "DontBiteMeBro_MAC.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "DontBiteMeBro_LINUX/DontBiteMeBro_LINUX.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"hasdepotsindlc" "0"
+	"786451"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6328993214541162304"
+				"size" "586324634"
+				"download" "52865776"
+			}
+		}
+	}
+	"786452"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9191142829566059769"
+				"size" "596074679"
+				"download" "53520544"
+			}
+		}
+	}
+	"786453"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9158526025367861207"
+				"size" "631803719"
+				"download" "67854960"
+			}
+		}
+	}
+	"828610"
+	{
+		"dlcappid" "828610"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1545181382265765334"
+				"size" "431"
+				"download" "128"
+			}
+		}
+	}
+	"828611"
+	{
+		"dlcappid" "828611"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2940736187797861094"
+				"size" "431"
+				"download" "128"
+			}
+		}
+	}
+	"828612"
+	{
+		"dlcappid" "828612"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "524295709672885812"
+				"size" "431"
+				"download" "128"
+			}
+		}
+	}
+	"828613"
+	{
+		"dlcappid" "828613"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7086698782814104489"
+				"size" "431"
+				"download" "128"
+			}
+		}
+	}
+	"828614"
+	{
+		"dlcappid" "828614"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6967672579787226131"
+				"size" "431"
+				"download" "128"
+			}
+		}
+	}
+	"828615"
+	{
+		"dlcappid" "828615"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3554873589003248099"
+				"size" "431"
+				"download" "128"
+			}
+		}
+	}
+	"828616"
+	{
+		"dlcappid" "828616"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4567203660496346325"
+				"size" "431"
+				"download" "128"
+			}
+		}
+	}
+	"828620"
+	{
+		"dlcappid" "828620"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1126019315260185720"
+				"size" "431"
+				"download" "128"
+			}
+		}
+	}
+	"828621"
+	{
+		"dlcappid" "828621"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1530447680601503179"
+				"size" "431"
+				"download" "128"
+			}
+		}
+	}
+	"828622"
+	{
+		"dlcappid" "828622"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5636278172032368444"
+				"size" "431"
+				"download" "128"
+			}
+		}
+	}
+	"828623"
+	{
+		"dlcappid" "828623"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7768303655868237728"
+				"size" "431"
+				"download" "128"
+			}
+		}
+	}
+	"828624"
+	{
+		"dlcappid" "828624"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3089575642026486371"
+				"size" "431"
+				"download" "128"
+			}
+		}
+	}
+	"828625"
+	{
+		"dlcappid" "828625"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3272862210991002402"
+				"size" "431"
+				"download" "128"
+			}
+		}
+	}
+	"828626"
+	{
+		"dlcappid" "828626"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9074486926652009936"
+				"size" "431"
+				"download" "128"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2936803"
+			"timeupdated" "1531318170"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20185474"
+"_sha" "dee6cea505fe0b554fed31c1a044d09bd5434691"
+"_size" "7239"
