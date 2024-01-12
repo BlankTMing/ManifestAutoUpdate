@@ -29,8 +29,57 @@
 	}
 	"has_adult_content" "1"
 	"has_adult_content_violence" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1704240000"
+		"tested_build_id" "12962301"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
-	"controller_support" "full"
+	"controller_support" "partial"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -52,7 +101,7 @@
 			"height_pct" "71.53327124580724"
 		}
 	}
-	"store_asset_mtime" "1702000651"
+	"store_asset_mtime" "1704928802"
 	"associations"
 	{
 		"0"
@@ -85,7 +134,6 @@
 		"category_45" "1"
 		"category_46" "1"
 		"category_22" "1"
-		"category_28" "1"
 		"category_55" "1"
 		"category_57" "1"
 		"category_1" "1"
@@ -95,6 +143,7 @@
 		"category_29" "1"
 		"category_30" "1"
 		"category_27" "1"
+		"category_18" "1"
 	}
 	"supported_languages"
 	{
@@ -142,26 +191,26 @@
 	"gameid" "2186680"
 	"store_tags"
 	{
-		"0" "5851"
-		"1" "3834"
-		"2" "3993"
+		"0" "3834"
+		"1" "5310"
+		"2" "21725"
 		"3" "1755"
-		"4" "21725"
-		"5" "4486"
-		"6" "4231"
-		"7" "1695"
-		"8" "5652"
-		"9" "6971"
-		"10" "7481"
-		"11" "4295"
-		"12" "4305"
-		"13" "12286"
+		"4" "3993"
+		"5" "7208"
+		"6" "4486"
+		"7" "7481"
+		"8" "4231"
+		"9" "4295"
+		"10" "1695"
+		"11" "5652"
+		"12" "17305"
+		"13" "6971"
 		"14" "1708"
-		"15" "7208"
-		"16" "4474"
+		"15" "1720"
+		"16" "1741"
 		"17" "122"
-		"18" "6426"
-		"19" "4747"
+		"18" "4305"
+		"19" "6426"
 	}
 	"review_score" "6"
 	"review_percentage" "75"
@@ -214,9 +263,9 @@
 		{
 			"public"
 			{
-				"gid" "6062334656397550572"
-				"size" "37883980919"
-				"download" "30499172112"
+				"gid" "5623996704643089346"
+				"size" "37865427058"
+				"download" "30497085680"
 			}
 		}
 		"encryptedmanifests"
@@ -247,15 +296,15 @@
 			}
 			"owlcat-release-debug"
 			{
-				"gid" "A2DC1017D1ED61872B00A51A6E91CD75"
-				"size" "18D61195B490064BCB54988839B6BDBB"
-				"download" "6CB7D417B556CDC3B45FC85EA8D99AC7"
+				"gid" "30027A8C34D652F6154B464CBDE1A637"
+				"size" "BD86A779C3DABF7E3DA8C56E920AC828"
+				"download" "58F66B9BD7A64D5C53237BDEAF8F7D8F"
 			}
 			"owlcat-release-test"
 			{
-				"gid" "33A3A25DE4D7B615308D6EC4E8DE60C7"
-				"size" "047A99C02A7CAA0F1E04DAA57018F32C"
-				"download" "4D00FE42856881C0A1E56C3C67877B47"
+				"gid" "9AD79F350B2EF41C08A3864CBE927DC7"
+				"size" "A82050D870FCF0B7B083AA304E9C28C4"
+				"download" "3D66824499103E18C420CF56E1686B87"
 			}
 			"owlcat-test"
 			{
@@ -287,24 +336,24 @@
 		{
 			"public"
 			{
-				"gid" "3519496975886321580"
-				"size" "37506398255"
-				"download" "29708268320"
+				"gid" "3308005959259918528"
+				"size" "37507370474"
+				"download" "29709265296"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"owlcat-release-debug"
 			{
-				"gid" "64428EB77A0E72B331A544C4DE3B5157"
-				"size" "94A3C30631293D3BD1B4036E1C6BE6AD"
-				"download" "B4265A5037422C13D358AADD72481EEA"
+				"gid" "88DA4C2FC33B39B3FD0607FB61478E14"
+				"size" "6D7289B5B8524AEB9443737D4FC60D41"
+				"download" "DB1E13B69E975EFBC5C98A844D811D63"
 			}
 			"owlcat-release-test"
 			{
-				"gid" "64C6DB3473FB0ABC96D883763293CFEA"
-				"size" "34F6CD3D4B4376F85075A8525B47A048"
-				"download" "30567F79320A7B17F134062E87B6739A"
+				"gid" "C56DAAC9F53311266178CB763D1C5B18"
+				"size" "298458684CC37C3CB936FEA51B2653CC"
+				"download" "F4A7CCEECD64C0E9FF74B0CBBDD5DD94"
 			}
 			"test-deploy"
 			{
@@ -368,8 +417,8 @@
 	{
 		"public"
 		{
-			"buildid" "13065833"
-			"timeupdated" "1703928443"
+			"buildid" "13155413"
+			"timeupdated" "1705054528"
 		}
 		"media"
 		{
@@ -397,15 +446,15 @@
 		}
 		"owlcat-release-debug"
 		{
-			"buildid" "13064264"
+			"buildid" "13152340"
 			"pwdrequired" "1"
-			"timeupdated" "1703889805"
+			"timeupdated" "1705023617"
 		}
 		"owlcat-release-test"
 		{
-			"buildid" "13064207"
+			"buildid" "13152177"
 			"pwdrequired" "1"
-			"timeupdated" "1703888565"
+			"timeupdated" "1705022375"
 		}
 		"owlcat-test"
 		{
@@ -458,6 +507,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21750704"
-"_sha" "cb47c6216a88566f02674964f922d318bc23422f"
-"_size" "8773"
+"_change_number" "21862739"
+"_sha" "826340ae1e5a7e486cc58661315124bc704e478a"
+"_size" "10010"
