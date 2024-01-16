@@ -168,6 +168,11 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1664902800"
 	"community_visible_stats" "1"
@@ -219,6 +224,15 @@
 				"oslist" "windows"
 			}
 		}
+		"1"
+		{
+			"executable" "VaultoftheVoid.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
 	}
 	"steamcontrollertemplateindex" "4"
 	"steamdecktouchscreen" "1"
@@ -227,64 +241,59 @@
 {
 	"1135811"
 	{
-		"config"
-		{
-			"language" ""
-		}
 	}
 	"1135812"
 	{
 		"config"
 		{
 			"oslist" "windows"
-			"language" ""
 		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "110522720314319332"
-				"size" "749622223"
-				"download" "642110304"
+				"gid" "5272374872170382950"
+				"size" "376218969"
+				"download" "321719024"
 			}
 			"beta"
 			{
-				"gid" "110522720314319332"
-				"size" "749622223"
-				"download" "642110304"
+				"gid" "5272374872170382950"
+				"size" "376218969"
+				"download" "321719024"
 			}
 			"localisation"
 			{
-				"gid" "3270105671048319618"
-				"size" "374694545"
-				"download" "320267760"
+				"gid" "5272374872170382950"
+				"size" "376218969"
+				"download" "321719024"
 			}
 			"rewrite_beta"
 			{
-				"gid" "3270105671048319618"
-				"size" "374694545"
-				"download" "320267760"
+				"gid" "5272374872170382950"
+				"size" "376218969"
+				"download" "321719024"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"internal"
 			{
-				"gid" "D7875524DB0237A7C01604D3B98514D0"
-				"size" "6653F22E7239524B0AD6FE635B7640E8"
-				"download" "191E8B2E1197F20CDD2999D5D40376EE"
+				"gid" "99FBBAECF48A22CBD800F92BC28492E3"
+				"size" "C45FFB2129AD3606B9D6F7CC19F42A5E"
+				"download" "88BFCD1EA1332D61D32C6D268A5DD519"
 			}
 			"internal_private"
 			{
-				"gid" "A048A647C43A59377668C38113CF0C56"
-				"size" "595759AF4C32F52EDADB55BA6BDECEA5"
-				"download" "BB17B7919999D2A5D9B5C8717A1FAF67"
+				"gid" "A0F6AEEF6EB2912F7B1681B20FABFCC6"
+				"size" "4F60C6C22998A40ABD28F09D9C15BDE5"
+				"download" "8AAB43458C438DE6637A94F0FFC70798"
 			}
 			"josh"
 			{
-				"gid" "B8981AD59C45BA6058898135B5CAA43D"
-				"size" "6754BA508DC0AEAE9F5EC5DE0C0D9DA1"
-				"download" "B99F3A1235BF016A20CAE7A02622C40D"
+				"gid" "26279FAC03CA10D2B49254AAE91A1BE0"
+				"size" "098F656C77CFACE27F822C6B8CA2397C"
+				"download" "1F2B3CF432F3B316BD708F279D549398"
 			}
 			"private"
 			{
@@ -304,43 +313,56 @@
 				"size" "D935E2577D8680089BC76E08F2EC92EA"
 				"download" "BEDF48C83468F38AE259084256B70843"
 			}
+			"taipei"
+			{
+				"gid" "B4232965F7076F928B05A72E486890EB"
+				"size" "488655424722711B5E101470490D8133"
+				"download" "D6855C8654BB0872A274C4E4D2D376C3"
+			}
+		}
+	}
+	"1135813"
+	{
+		"config"
+		{
+			"oslist" "macos"
 		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "11269246"
-			"timeupdated" "1684969013"
+			"buildid" "13179834"
+			"timeupdated" "1705361685"
 		}
 		"beta"
 		{
-			"buildid" "11269246"
-			"timeupdated" "1684476450"
+			"buildid" "13179834"
+			"timeupdated" "1705361436"
 		}
 		"internal"
 		{
-			"buildid" "13077394"
+			"buildid" "13179834"
 			"pwdrequired" "1"
-			"timeupdated" "1704206074"
+			"timeupdated" "1705361250"
 		}
 		"internal_private"
 		{
-			"buildid" "12968704"
+			"buildid" "13179834"
 			"pwdrequired" "1"
-			"timeupdated" "1702695063"
+			"timeupdated" "1705361623"
 		}
 		"josh"
 		{
-			"buildid" "13045354"
+			"buildid" "13143807"
 			"pwdrequired" "1"
-			"timeupdated" "1703558460"
+			"timeupdated" "1704955877"
 		}
 		"localisation"
 		{
-			"buildid" "13077394"
+			"buildid" "13179834"
 			"description" "Branch for testing Vault of the Voids Localisation"
-			"timeupdated" "1704206097"
+			"timeupdated" "1705361638"
 		}
 		"private"
 		{
@@ -362,9 +384,15 @@
 		}
 		"rewrite_beta"
 		{
-			"buildid" "13077394"
+			"buildid" "13179834"
 			"description" "Beta testing for the new rewrite."
-			"timeupdated" "1704206110"
+			"timeupdated" "1705361647"
+		}
+		"taipei"
+		{
+			"buildid" "13179834"
+			"pwdrequired" "1"
+			"timeupdated" "1705361657"
 		}
 	}
 }
@@ -416,12 +444,13 @@
 			{
 				"#map" "{#floor} %floor% / {%difficulty%}%instability% / {%class%}"
 				"#vault" "{#thevault} / {%difficulty%}%instability% / {%class%}"
-				"#dd" "Daily Draft"
+				"#dd" "{#dailydraft} / {%class%}"
 				"#battle" "{%mobgroup%} / {%difficulty%}%instability% / {%class%}"
 				"#ddbattle" "{%mobgroup%} / {#dailydraft} / {%class%}"
 				"#main_menu" "Main Menu"
 				"#floor" "Floor"
 				"#thevault" "The Vault"
+				"#dailydraft" "Daily Draft"
 				"#introduction" "Introduction"
 				"#normal" "Normal"
 				"#hard" "Hard"
@@ -486,12 +515,13 @@
 			{
 				"#map" "{#floor} %floor% / {%difficulty%}%instability% / {%class%}"
 				"#vault" "{#thevault} / {%difficulty%}%instability% / {%class%}"
-				"#dd" "Täglicher Draft"
+				"#dd" "{#dailydraft} / {%class%}"
 				"#battle" "{%mobgroup%} / {%difficulty%}%instability% / {%class%}"
 				"#ddbattle" "{%mobgroup%} / {#dailydraft} / {%class%}"
 				"#main_menu" "Hauptmenü"
 				"#floor" "Ebene"
 				"#thevault" "Das Verlies"
+				"#dailydraft" "Täglicher Draft"
 				"#introduction" "Einführung"
 				"#normal" "Normal"
 				"#hard" "Schwer"
@@ -556,12 +586,13 @@
 			{
 				"#map" "{#floor} %floor% / {%difficulty%}%instability% / {%class%}"
 				"#vault" "{#thevault} / {%difficulty%}%instability% / {%class%}"
-				"#dd" "Desafío Diario"
+				"#dd" "{#dailydraft} / {%class%}"
 				"#battle" "{%mobgroup%} / {%difficulty%}%instability% / {%class%}"
 				"#ddbattle" "{%mobgroup%} / {#dailydraft} / {%class%}"
 				"#main_menu" "Menú Principal"
 				"#floor" "Piso"
 				"#thevault" "La Bóveda"
+				"#dailydraft" "Desafío Diario"
 				"#introduction" "Introducción"
 				"#normal" "Normal"
 				"#hard" "Difícil"
@@ -604,7 +635,7 @@
 				"#hag" "La Bruja"
 				"#birth_pit" "Foso de Nacimiento"
 				"#black_coach" "El Carruaje Oscuro"
-				"#blood_hive" "La Colmena de Sangre"
+				"#blood_hive" "Colmena Sangrienta"
 				"#star_council" "El Consejo de las Estrellas"
 				"#the_puppetmaster" "El Maestro de Marionetas"
 				"#spider_nest" "El nido de las arañas"
@@ -626,12 +657,13 @@
 			{
 				"#map" "{#floor} %floor% / {%difficulty%}%instability% / {%class%}"
 				"#vault" "{#thevault} / {%difficulty%}%instability% / {%class%}"
-				"#dd" "Défi quotidien"
+				"#dd" "{#dailydraft} / {%class%}"
 				"#battle" "{%mobgroup%} / {%difficulty%}%instability% / {%class%}"
 				"#ddbattle" "{%mobgroup%} / {#dailydraft} / {%class%}"
 				"#main_menu" "Menu principal"
 				"#floor" "Étage"
 				"#thevault" "La Crypte"
+				"#dailydraft" "Défi quotidien"
 				"#introduction" "Introduction"
 				"#normal" "Normal"
 				"#hard" "Difficile"
@@ -696,12 +728,13 @@
 			{
 				"#map" "{#floor} %floor% / {%difficulty%}%instability% / {%class%}"
 				"#vault" "{#thevault} / {%difficulty%}%instability% / {%class%}"
-				"#dd" "Sfida Giornaliera"
+				"#dd" "{#dailydraft} / {%class%}"
 				"#battle" "{%mobgroup%} / {%difficulty%}%instability% / {%class%}"
 				"#ddbattle" "{%mobgroup%} / {#dailydraft} / {%class%}"
 				"#main_menu" "Menu Principale"
 				"#floor" "Piano"
 				"#thevault" "The Vault"
+				"#dailydraft" "Sfida Giornaliera"
 				"#introduction" "Introduzione"
 				"#normal" "Normale"
 				"#hard" "Difficile"
@@ -766,12 +799,13 @@
 			{
 				"#map" "{#floor} %floor% / {%difficulty%}%instability% / {%class%}"
 				"#vault" "{#thevault} / {%difficulty%}%instability% / {%class%}"
-				"#dd" "デイリードラフト"
+				"#dd" "{#dailydraft} / {%class%}"
 				"#battle" "{%mobgroup%} / {%difficulty%}%instability% / {%class%}"
 				"#ddbattle" "{%mobgroup%} / {#dailydraft} / {%class%}"
 				"#main_menu" "メインメニュー"
 				"#floor" "階層"
 				"#thevault" "The Vault"
+				"#dailydraft" "デイリードラフト"
 				"#introduction" "ﾁｭｰﾄﾘｱﾙ"
 				"#normal" "ﾉｰﾏﾙ"
 				"#hard" "ﾊｰﾄﾞ"
@@ -836,12 +870,13 @@
 			{
 				"#map" "第%floor%层 / {%difficulty%}%instability% / {%class%}"
 				"#vault" "{#thevault} / {%difficulty%}%instability% / {%class%}"
-				"#dd" "每日演练"
+				"#dd" "{#dailydraft} / {%class%}"
 				"#battle" "{%mobgroup%} / {%difficulty%}%instability% / {%class%}"
 				"#ddbattle" "{%mobgroup%} / {#dailydraft} / {%class%}"
 				"#main_menu" "主菜单"
 				"#floor" "层数"
 				"#thevault" "穹牢"
+				"#dailydraft" "每日演练"
 				"#introduction" "入门"
 				"#normal" "普通"
 				"#hard" "困难"
@@ -906,12 +941,13 @@
 			{
 				"#map" "第%floor%層 / {%difficulty%}%instability% / {%class%}"
 				"#vault" "{#thevault} / {%difficulty%}%instability% / {%class%}"
-				"#dd" "每日演練"
+				"#dd" "{#dailydraft} / {%class%}"
 				"#battle" "{%mobgroup%} / {%difficulty%}%instability% / {%class%}"
 				"#ddbattle" "{%mobgroup%} / {#dailydraft} / {%class%}"
 				"#main_menu" "主選單"
 				"#floor" "階層"
 				"#thevault" "穹牢"
+				"#dailydraft" "每日演練"
 				"#introduction" "入門"
 				"#normal" "普通"
 				"#hard" "困難"
@@ -939,7 +975,7 @@
 				"#skeleton_king" "骷髏王"
 				"#swamp_mistress" "沼澤女巫"
 				"#cursed_swine" "詛咒之豬"
-				"#band_of_raiders" "強襲團隊"
+				"#band_of_raiders" "強襲軍團"
 				"#unholy_court" "邪惡之庭"
 				"#the_council" "議會"
 				"#the_forgotten" "被遺忘者"
@@ -967,12 +1003,12 @@
 				"#the_forged" "鍛造士兵"
 				"#scoutlight" "無魂之光"
 				"#disciples_of_straw" "稻草信徒"
-				"#wicked_worshipers" "邪惡崇拜者"
+				"#wicked_worshipers" "邪惡信徒"
 			}
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "21734086"
-"_sha" "610cc712242a37f2b4b19828fcd0b38f063c71d9"
-"_size" "28619"
+"_change_number" "21905519"
+"_sha" "7a0b2886beeb531d98ce2d1af879b4bd062cd8f1"
+"_size" "29477"
