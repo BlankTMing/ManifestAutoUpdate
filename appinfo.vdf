@@ -9,9 +9,9 @@
 	"clienticon" "7f2dff50ce892b5b83f8a7c616c264914be37f02"
 	"clienttga" "12f9e4a2b48120f141b5067baec80162716ef540"
 	"releasestate" "released"
-	"oslist" "windows"
+	"oslist" "windows,macos"
 	"osarch" ""
-	"osextended" ""
+	"osextended" "macos64,macosapplesilicon,macosnotarized"
 	"languages"
 	{
 		"english" "1"
@@ -252,42 +252,48 @@
 		{
 			"public"
 			{
-				"gid" "8107124994900802372"
-				"size" "376218713"
-				"download" "321708976"
+				"gid" "4195530413775626440"
+				"size" "376276680"
+				"download" "321761968"
 			}
 			"beta"
 			{
-				"gid" "8107124994900802372"
-				"size" "376218713"
-				"download" "321708976"
+				"gid" "4195530413775626440"
+				"size" "376276680"
+				"download" "321761968"
 			}
 			"localisation"
 			{
-				"gid" "8107124994900802372"
-				"size" "376218713"
-				"download" "321708976"
+				"gid" "4195530413775626440"
+				"size" "376276680"
+				"download" "321761968"
+			}
+			"macos_test"
+			{
+				"gid" "4195530413775626440"
+				"size" "376276680"
+				"download" "321761968"
 			}
 			"rewrite_beta"
 			{
-				"gid" "8107124994900802372"
-				"size" "376218713"
-				"download" "321708976"
+				"gid" "4195530413775626440"
+				"size" "376276680"
+				"download" "321761968"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"internal"
 			{
-				"gid" "87B570C3A054385671A615C2F5DDF3FF"
-				"size" "D83D9F7589DE94B3587DA613BA03EF19"
-				"download" "307AF057113846D1B715E28988C4F2E8"
+				"gid" "11D4D6AB2D4179CE8A6AD1423E73FEFF"
+				"size" "B44A16EB81C164A0F432211F265D6FC8"
+				"download" "B5568752C58BAB11FB2732E8C202CBAF"
 			}
 			"internal_private"
 			{
-				"gid" "E519276F6C0EB2D40E62E6602135FD61"
-				"size" "9C671A92BE41E7704106632E6719EB5C"
-				"download" "A1F3B65FB0F1537892F23CD9427C68F3"
+				"gid" "CBC76308D2C147A7B1E8C0F5C8FECBB1"
+				"size" "325FBB4B8D870773733B8FBF57279A0A"
+				"download" "1BDE3B542719C655601515763F8EC7E2"
 			}
 			"josh"
 			{
@@ -315,9 +321,9 @@
 			}
 			"taipei"
 			{
-				"gid" "4973C5A82C21C89AAC0A20771E103CB0"
-				"size" "609E491A76FAD5FAAEE93EA0549C5029"
-				"download" "7A5BAA4E24D53E504E3C504691DBB89E"
+				"gid" "7F209C6B38A6046BBFF3268585FF9B7C"
+				"size" "BE5DBB539096AA6A12913D6A62971455"
+				"download" "17BF000841013EC3415DB0EB2A41BE1D"
 			}
 		}
 	}
@@ -327,42 +333,66 @@
 		{
 			"oslist" "macos"
 		}
+		"manifests"
+		{
+			"macos_test"
+			{
+				"gid" "1744676618998195580"
+				"size" "374924013"
+				"download" "322413952"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"josh"
+			{
+				"gid" "26B13FDF5FD94DF749984898F01A7000"
+				"size" "B2A6DD654169D43D6CB1E0AE97C8F8DA"
+				"download" "4C4661CB7F3695472DD0ED5619EAFB22"
+			}
+		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13182531"
-			"timeupdated" "1705391189"
+			"buildid" "13192183"
+			"timeupdated" "1705468243"
 		}
 		"beta"
 		{
-			"buildid" "13182531"
-			"timeupdated" "1705391127"
+			"buildid" "13192183"
+			"timeupdated" "1705468143"
 		}
 		"internal"
 		{
-			"buildid" "13182531"
+			"buildid" "13192183"
 			"pwdrequired" "1"
-			"timeupdated" "1705390732"
+			"timeupdated" "1705467967"
 		}
 		"internal_private"
 		{
-			"buildid" "13182531"
+			"buildid" "13192183"
 			"pwdrequired" "1"
-			"timeupdated" "1705391116"
+			"timeupdated" "1705468155"
 		}
 		"josh"
 		{
-			"buildid" "13143807"
+			"buildid" "13191932"
 			"pwdrequired" "1"
-			"timeupdated" "1704955877"
+			"timeupdated" "1705464819"
 		}
 		"localisation"
 		{
-			"buildid" "13182531"
+			"buildid" "13192183"
 			"description" "Branch for testing Vault of the Voids Localisation"
-			"timeupdated" "1705391104"
+			"timeupdated" "1705468132"
+		}
+		"macos_test"
+		{
+			"buildid" "13192472"
+			"description" "macOS test: do not select on Windows or your game will go poof!"
+			"timeupdated" "1705470967"
 		}
 		"private"
 		{
@@ -384,15 +414,15 @@
 		}
 		"rewrite_beta"
 		{
-			"buildid" "13182531"
+			"buildid" "13192183"
 			"description" "Beta testing for the new rewrite."
-			"timeupdated" "1705391138"
+			"timeupdated" "1705468167"
 		}
 		"taipei"
 		{
-			"buildid" "13182531"
+			"buildid" "13192183"
 			"pwdrequired" "1"
-			"timeupdated" "1705391167"
+			"timeupdated" "1705468183"
 		}
 	}
 }
@@ -431,6 +461,24 @@
 			"root" "WinAppDataLocal"
 			"path" "VaultoftheVoid"
 			"pattern" "PlayerRunChecksum.txt"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "VaultoftheVoid"
+					"replace" "com.vaultofthevoid"
+				}
+			}
 		}
 	}
 }
@@ -1009,6 +1057,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21909779"
-"_sha" "7cc0032f96815287fef23ca9d6ddec974e1ad5be"
-"_size" "29477"
+"_change_number" "21925630"
+"_sha" "00871323777d6619fefbbce151f6fd605c35aff0"
+"_size" "30426"
