@@ -26,35 +26,41 @@
 		"english" "1"
 		"schinese" "1"
 		"tchinese" "1"
+		"japanese" "1"
 	}
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1690502400"
-		"tested_build_id" "11700766"
+		"test_timestamp" "1704499200"
+		"tested_build_id" "12848594"
 		"tests"
 		{
 			"0"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
 			}
 			"1"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
 			}
 			"2"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
 			}
 			"3"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
 			}
 			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"5"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
@@ -70,9 +76,10 @@
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-8.0-3"
+			"recommended_runtime" "proton-stable"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "一方灵田"
@@ -94,17 +101,18 @@
 	}
 	"library_assets"
 	{
-		"library_capsule" "en,zh-cn,ja,zh-tw"
+		"library_capsule" "en,zh-tw,ja,zh-cn"
 		"library_hero" "en"
 		"library_logo" "en,ja,zh-cn,zh-tw"
+		"library_header" "en,zh-cn,zh-tw,ja"
 		"logo_position"
 		{
-			"pinned_position" "CenterCenter"
-			"width_pct" "42.50865678023544"
-			"height_pct" "63.888888888888886"
+			"pinned_position" "BottomLeft"
+			"width_pct" "40.31085458243325"
+			"height_pct" "65.27777777777777"
 		}
 	}
-	"store_asset_mtime" "1702968881"
+	"store_asset_mtime" "1705548202"
 	"associations"
 	{
 		"0"
@@ -127,10 +135,10 @@
 	"genres"
 	{
 		"0" "1"
-		"1" "4"
-		"2" "3"
-		"3" "28"
-		"4" "70"
+		"1" "25"
+		"2" "4"
+		"3" "3"
+		"4" "28"
 	}
 	"category"
 	{
@@ -164,8 +172,13 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
-	"steam_release_date" "1651128889"
+	"steam_release_date" "1705543196"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "1201230"
@@ -174,26 +187,26 @@
 		"0" "22602"
 		"1" "1702"
 		"2" "87918"
-		"3" "5981"
-		"4" "15564"
-		"5" "10235"
-		"6" "4231"
-		"7" "1654"
-		"8" "122"
+		"3" "10235"
+		"4" "122"
+		"5" "15564"
+		"6" "5981"
+		"7" "4231"
+		"8" "1654"
 		"9" "3920"
 		"10" "599"
 		"11" "1742"
-		"12" "4695"
-		"13" "19"
-		"14" "4252"
-		"15" "5984"
-		"16" "4182"
-		"17" "21"
+		"12" "21"
+		"13" "4695"
+		"14" "19"
+		"15" "4252"
+		"16" "5984"
+		"17" "4182"
 		"18" "4474"
 		"19" "1643"
 	}
 	"review_score" "8"
-	"review_percentage" "81"
+	"review_percentage" "82"
 }
 "extended"
 {
@@ -236,9 +249,9 @@
 		{
 			"public"
 			{
-				"gid" "3405240385502583265"
-				"size" "5346886295"
-				"download" "2272799456"
+				"gid" "9200083973272688039"
+				"size" "6138351698"
+				"download" "2593030256"
 			}
 		}
 		"encryptedmanifests"
@@ -269,15 +282,15 @@
 			}
 			"test"
 			{
-				"gid" "7742B97680B208C749EBBAD2E46CFF32"
-				"size" "95C8A5B5348846B4D4A1E3D6A437ACF8"
-				"download" "5F375F61714C49206FCF94A91189FC59"
+				"gid" "9FD9AEC0EB0F075EE63C652FC2E21C7E"
+				"size" "E26C669DD1FEE58D66AF60C994A64CB2"
+				"download" "16F07BF4991969419C962E23AAA28255"
 			}
 			"test2"
 			{
-				"gid" "A2D221EDBDA42236D9E90FACCBAC10CE"
-				"size" "18E5352C291060955B51AADB01617FA6"
-				"download" "E5B7670ADBC567BD8985C99752F1596C"
+				"gid" "612DCA08A147D2C0E98720AA873AE316"
+				"size" "88C09F7FBE9E5EC0458905311BA70E32"
+				"download" "54F652FD73600D67EFD031F3BFA1D549"
 			}
 		}
 	}
@@ -291,14 +304,14 @@
 		"test2"
 		{
 			"sc_schinese" "test2"
-			"buildid" "13061856"
+			"buildid" "13205302"
 			"pwdrequired" "1"
-			"timeupdated" "1703852348"
+			"timeupdated" "1705566435"
 		}
 		"public"
 		{
-			"buildid" "11719162"
-			"timeupdated" "1689647030"
+			"buildid" "13196099"
+			"timeupdated" "1705543171"
 		}
 		"0.4.44demo"
 		{
@@ -326,9 +339,9 @@
 		}
 		"test"
 		{
-			"buildid" "13061856"
+			"buildid" "13145921"
 			"pwdrequired" "1"
-			"timeupdated" "1703848638"
+			"timeupdated" "1704972908"
 		}
 	}
 }
@@ -348,6 +361,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21705213"
-"_sha" "d2ef6bc7b32d832c6452f67e43f5c6f5393fd564"
-"_size" "6889"
+"_change_number" "21944608"
+"_sha" "811e800056a72680b8c4bfd33b34b5a355e9b653"
+"_size" "7152"
