@@ -248,14 +248,49 @@
 		"steam_china_enable_duration_control" "1"
 	}
 	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "2"
 }
 "depots"
 {
+	"workshopdepot" "591460"
+	"branches"
+	{
+		"steam_china_only"
+		{
+			"sc_schinese" "仅中国"
+			"buildid" "13199179"
+			"pwdrequired" "1"
+			"timeupdated" "1705519843"
+		}
+		"public"
+		{
+			"buildid" "13199179"
+			"timeupdated" "1705592618"
+		}
+		"legacy"
+		{
+			"buildid" "8669956"
+			"pwdrequired" "1"
+			"timeupdated" "1660227795"
+		}
+		"local_branch"
+		{
+			"buildid" "13199179"
+			"pwdrequired" "1"
+			"timeupdated" "1705519739"
+		}
+		"ptr_build"
+		{
+			"buildid" "11615857"
+			"timeupdated" "1688402123"
+		}
+	}
 	"591461"
 	{
 		"config"
 		{
 			"oslist" "windows"
+			"realm" "steamglobal"
 		}
 		"manifests"
 		{
@@ -288,43 +323,42 @@
 			}
 			"steam_china_only"
 			{
-				"gid" "BABA60A70238C64E8F9F0B50AD30E038"
-				"size" "34A24EEABB611F79A785C5B4C4396B68"
-				"download" "116E84D074675CF41AF3E0BCBD87C01D"
+				"gid" "8CB2577ABA38CE330DA123F903EF5AB4"
+				"size" "9DA966E12D198485CC40D51FBE9B1875"
+				"download" "195957F8BD7231CE5FBCD51699A854BE"
 			}
 		}
 	}
-	"workshopdepot" "591460"
-	"branches"
+	"591462"
 	{
-		"steam_china_only"
+		"config"
 		{
-			"sc_schinese" "仅中国"
-			"buildid" "10108555"
-			"pwdrequired" "1"
-			"timeupdated" "1670531793"
+			"realm" "steamchina"
+			"oslist" "windows"
 		}
-		"public"
+		"manifests"
 		{
-			"buildid" "11615857"
-			"timeupdated" "1688402133"
+			"public"
+			{
+				"gid" "7922292456972073123"
+				"size" "2442210598"
+				"download" "307744416"
+			}
 		}
-		"legacy"
+		"encryptedmanifests"
 		{
-			"buildid" "8669956"
-			"pwdrequired" "1"
-			"timeupdated" "1660227795"
-		}
-		"local_branch"
-		{
-			"buildid" "11615857"
-			"pwdrequired" "1"
-			"timeupdated" "1688401970"
-		}
-		"ptr_build"
-		{
-			"buildid" "11615857"
-			"timeupdated" "1688402123"
+			"local_branch"
+			{
+				"gid" "C7A9C3EC5B4679984F343CEF435A35C9"
+				"size" "7FF3ED64395C7DEC75417C6A186F5282"
+				"download" "75459F1AA9B3E1F83DE8EF65B72F9258"
+			}
+			"steam_china_only"
+			{
+				"gid" "B1A93FBE40390A342877B9BE92326AA9"
+				"size" "D27BC2108CC024EF0D3F0C3DF2A0EFE9"
+				"download" "D03CB4224820C33FCEE6B4A267ECF405"
+			}
 		}
 	}
 }
@@ -344,6 +378,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21681257"
-"_sha" "916221e758e956db6c2442ec02384bd5c51ef0c6"
-"_size" "6524"
+"_change_number" "21950808"
+"_sha" "4dedbc2721fedf64b6032353c559604b53459953"
+"_size" "7216"
