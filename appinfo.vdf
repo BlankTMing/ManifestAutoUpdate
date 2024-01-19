@@ -36,23 +36,43 @@
 	"has_adult_content" "1"
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1648252800"
-		"tested_build_id" "8138687"
+		"category" "2"
+		"test_timestamp" "1704844800"
+		"tested_build_id" "13029620"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 		}
 		"configuration"
 		{
-			"supported_input" "simultaneous_gamepad_mouse"
-			"requires_manual_keyboard_invoke" "0"
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "1"
+			"primary_player_is_controller_slot_0" "0"
 			"non_deck_display_glyphs" "1"
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
@@ -60,6 +80,7 @@
 			"recommended_runtime" "proton-stable"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Farmer\'s Life"
@@ -265,18 +286,18 @@
 		{
 			"public"
 			{
-				"gid" "4685480537095701245"
-				"size" "7729294258"
-				"download" "3793899856"
+				"gid" "9023374193513576493"
+				"size" "7899914927"
+				"download" "3874750608"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"beta"
 			{
-				"gid" "7BE1D07048D5183CBDF28B81BF68E1F3"
-				"size" "F964066581BBD8F3CF54BD997B16DAB2"
-				"download" "63C043ADBDBF596C029123C11B5DF860"
+				"gid" "B612CEE3F9897F34AAB9473B4D263D7A"
+				"size" "B3044CC23CEA5E42EDD275CC0382965B"
+				"download" "FD2EBD1CABF39261E99247B0C4402F39"
 			}
 			"betajsz"
 			{
@@ -290,14 +311,14 @@
 	{
 		"public"
 		{
-			"buildid" "13126701"
-			"timeupdated" "1704806356"
+			"buildid" "13206209"
+			"timeupdated" "1705600041"
 		}
 		"beta"
 		{
-			"buildid" "13126622"
+			"buildid" "13206194"
 			"pwdrequired" "1"
-			"timeupdated" "1704805843"
+			"timeupdated" "1705572464"
 		}
 		"betajsz"
 		{
@@ -313,6 +334,6 @@
 	"maxnumfiles" "20"
 }
 "_missing_token" "False"
-"_change_number" "21817691"
-"_sha" "d11c985d0ac72349b1085128ad9a65600f53258a"
-"_size" "5539"
+"_change_number" "21952623"
+"_sha" "976fc67eeb068f7d16ec07e11b815f3cc8962f14"
+"_size" "6049"
