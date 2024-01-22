@@ -3,14 +3,15 @@
 {
 	"name" "Cliff Empire"
 	"type" "Game"
-	"oslist" "windows"
-	"osarch" ""
+	"oslist" "windows,macos"
+	"osarch" "64"
 	"clienticon" "09b04976b0acc17658b38cbe13a4d48770cc66be"
 	"clienttga" "f40e422432c4fd821f02712edf093c79db37a878"
 	"icon" "0994ef8e34af43d32beef0fd166236b3cdb4e247"
 	"logo" "d21d630283bb9d3844f3afced330a9d5b494d452"
 	"logo_small" "d21d630283bb9d3844f3afced330a9d5b494d452_thumb"
 	"releasestate" "released"
+	"osextended" "macosapplesilicon"
 	"steam_deck_compatibility"
 	{
 		"category" "2"
@@ -242,62 +243,108 @@
 			}
 			"description" "Cliff Empire - Remastered"
 		}
+		"2"
+		{
+			"executable" "CliffEmbire_Build.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "testing mac integration"
+			}
+			"description" "testing mac integration"
+		}
 	}
 }
 "depots"
 {
 	"baselanguages" "english,ukrainian"
 	"hasdepotsindlc" "0"
-	"809141"
+	"workshopdepot" "809140"
+	"809142"
 	{
 		"config"
 		{
-			"oslist" "windows"
+			"oslist" "macos"
+			"osarch" "64"
 		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "2043932665825535134"
-				"size" "1172983048"
-				"download" "816733680"
+				"gid" "4748343910853667822"
+				"size" "582552231"
+				"download" "440179360"
 			}
 			"betatesting"
 			{
-				"gid" "2043932665825535134"
-				"size" "1172983048"
-				"download" "816733680"
+				"gid" "4748343910853667822"
+				"size" "582552231"
+				"download" "440179360"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"devmode"
 			{
-				"gid" "7986F645E704A9DA67176431DF8B9596"
-				"size" "F8AA1C2D581EEC60395071967344B4D0"
-				"download" "490F39926CD917F5387C5ECADF752752"
+				"gid" "73995DF09498B8EB2423E01815797FD9"
+				"size" "56F9D420F910D53B0030FAF3CD3BE574"
+				"download" "A0F5A286AEA571BC7029CD4BBDA6D279"
 			}
 		}
 	}
-	"workshopdepot" "809140"
+	"809141"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5041035500765469227"
+				"size" "1173118790"
+				"download" "816871984"
+			}
+			"betatesting"
+			{
+				"gid" "5041035500765469227"
+				"size" "1173118790"
+				"download" "816871984"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devmode"
+			{
+				"gid" "73E65458BD807BE70DE75B68C31071C8"
+				"size" "CAE4DBC4F4394AEBD3F27370A16D52DF"
+				"download" "3B677FE1E4783E86DC27B09BA5AAFE2B"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13183692"
-			"timeupdated" "1705401018"
+			"buildid" "13232428"
+			"timeupdated" "1705861887"
 		}
 		"betatesting"
 		{
-			"buildid" "13183692"
+			"buildid" "13232428"
 			"description" "Newest builds available here. may have some bugs."
-			"timeupdated" "1705400988"
+			"timeupdated" "1705861862"
 		}
 		"devmode"
 		{
-			"buildid" "13183692"
+			"buildid" "13232428"
 			"pwdrequired" "1"
-			"timeupdated" "1705400165"
+			"timeupdated" "1705860982"
 		}
 	}
 }
@@ -340,6 +387,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21911829"
-"_sha" "a0a5d63a9cda2219b7d32e031ceee8e3985ea857"
-"_size" "6023"
+"_change_number" "21989659"
+"_sha" "5685de1d93cf18e092c4af707e6946faf3ea541c"
+"_size" "6859"
