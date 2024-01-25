@@ -88,6 +88,8 @@
 		"english" "capsule_231x87.jpg"
 		"schinese" "capsule_231x87_schinese.jpg"
 		"sc_schinese" "capsule_231x87_sc_schinese.jpg"
+		"tchinese" "capsule_231x87_tchinese.jpg"
+		"japanese" "capsule_231x87_japanese.jpg"
 	}
 	"header_image"
 	{
@@ -99,9 +101,10 @@
 	}
 	"library_assets"
 	{
-		"library_capsule" "zh-cn,en,zh-xc"
-		"library_hero" "en,zh-cn,zh-xc"
-		"library_logo" "en,zh-cn,zh-xc"
+		"library_capsule" "zh-cn,en,zh-xc,ja,zh-tw"
+		"library_hero" "en,zh-cn,zh-xc,zh-tw,ja"
+		"library_logo" "en,zh-cn,zh-xc,ja,zh-tw"
+		"library_header" "zh-xc,zh-cn,zh-tw,en,ja"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -109,7 +112,7 @@
 			"height_pct" "57.4079061975221"
 		}
 	}
-	"store_asset_mtime" "1700557475"
+	"store_asset_mtime" "1706166053"
 	"associations"
 	{
 		"0"
@@ -130,7 +133,6 @@
 		"1" "25"
 		"2" "23"
 		"3" "3"
-		"4" "70"
 	}
 	"category"
 	{
@@ -162,7 +164,7 @@
 			"subtitles" "true"
 		}
 	}
-	"steam_release_date" "1686711060"
+	"steam_release_date" "1706151840"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "1952370"
@@ -230,14 +232,20 @@
 		"steam_china_only"
 		{
 			"sc_schinese" "仅中国"
-			"buildid" "12731237"
+			"buildid" "13261747"
 			"pwdrequired" "1"
-			"timeupdated" "1700225771"
+			"timeupdated" "1706150918"
 		}
 		"public"
 		{
-			"buildid" "12731278"
-			"timeupdated" "1700226088"
+			"buildid" "13266588"
+			"timeupdated" "1706150999"
+		}
+		"1.0_beta_version"
+		{
+			"buildid" "13260321"
+			"pwdrequired" "1"
+			"timeupdated" "1706105319"
 		}
 		"beta_test_build"
 		{
@@ -247,15 +255,15 @@
 		}
 		"steam_china_dev"
 		{
-			"buildid" "12726841"
+			"buildid" "13261747"
 			"pwdrequired" "1"
-			"timeupdated" "1700188409"
+			"timeupdated" "1706114043"
 		}
 		"testin"
 		{
-			"buildid" "12729872"
+			"buildid" "13260267"
 			"pwdrequired" "1"
-			"timeupdated" "1700216643"
+			"timeupdated" "1706104918"
 		}
 	}
 	"1952371"
@@ -269,13 +277,19 @@
 		{
 			"public"
 			{
-				"gid" "5908792446447378042"
-				"size" "2749380420"
-				"download" "2089149312"
+				"gid" "4408967450764105607"
+				"size" "3009731487"
+				"download" "2301533488"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"1.0_beta_version"
+			{
+				"gid" "BACE3E864CCB463E36472B96090D069B"
+				"size" "AD0BAAFE2F546B4A184BC9EBAE3FD1C7"
+				"download" "4D64C38C621D47D5FDE3DAA914A515B5"
+			}
 			"beta_test_build"
 			{
 				"gid" "AAC1A50D27A89BEAA5EE46035F10E5A0"
@@ -296,9 +310,9 @@
 			}
 			"testin"
 			{
-				"gid" "D5CCB9D54566E496B07BCD6BB2661C91"
-				"size" "690F16E7B662D05FFE03AECFD929AEA8"
-				"download" "A843F15AB62390E8E0E9E64C1562A848"
+				"gid" "5DAC146AC793A7479535C130FF197976"
+				"size" "10AAD56BF531D1F30B0CD65E60F43CDD"
+				"download" "36CDB8F95691FF46C3FC4B9A3339FDD7"
 			}
 		}
 	}
@@ -313,24 +327,30 @@
 		{
 			"public"
 			{
-				"gid" "2046309758247894578"
-				"size" "2743243288"
-				"download" "2068062976"
+				"gid" "4744457598266327764"
+				"size" "3044015471"
+				"download" "2309392960"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"1.0_beta_version"
+			{
+				"gid" "0489317D3F21D2B0831E7F1C7367D301"
+				"size" "8D79393F5D69B96A4796CA0E46200199"
+				"download" "47994CECDD86D3A28EC408C1AEAA387A"
+			}
 			"steam_china_dev"
 			{
-				"gid" "8C17151D4D76FB24E3C60DBDDCFF8ABD"
-				"size" "4E0CB99393A4C8CBE9A3AED90F326E4A"
-				"download" "4495567A05CC55EB59FB661E5CEB2920"
+				"gid" "3750D06FDA288686E1F513B389D10D84"
+				"size" "220D6EE1D09002C4810642248B4D1D18"
+				"download" "18E8C831F7A3117FCCF3D79920A4D294"
 			}
 			"steam_china_only"
 			{
-				"gid" "AA818D0535217496496C4A6ED6ABEB49"
-				"size" "4076D484F6B3398D5F9471AD6969E41E"
-				"download" "B5538A1C5FE7B322BE5F80F6C156A9A5"
+				"gid" "F0689A59B7F818E495EC440806B6794F"
+				"size" "0335A660EDEAFB4A80FDD6574E311B12"
+				"download" "9D9A02BA5B1C66387000A39CC50E6A28"
 			}
 		}
 	}
@@ -383,6 +403,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21746743"
-"_sha" "ced1aae1382f6d6ddb63ba5a775b67a1e29f3641"
-"_size" "7485"
+"_change_number" "22044728"
+"_sha" "612f651b0c72c9c5d256af3db5db70a85b5dd558"
+"_size" "8113"
