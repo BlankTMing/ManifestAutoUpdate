@@ -1,0 +1,157 @@
+"appid" "2278520"
+"common"
+{
+	"name" "Enshrouded Dedicated Server"
+	"type" "Tool"
+	"parent" "1203620"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"clienticon" "93dd534afbe8af5bf11f3990de9aa295031bfeb9"
+	"clienttga" "fe73371754e5775388602786867295c4c3820fe5"
+	"icon" "557a4d508c28df929080361f076a8a84a92556e2"
+	"releasestate" "released"
+	"gameid" "2278520"
+	"exfgls" "1"
+}
+"config"
+{
+	"installdir" "EnshroudedServer"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "enshrouded_server.exe"
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2278521"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2577228422014751303"
+				"size" "12797256476"
+				"download" "2841021504"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"server_hosting"
+			{
+				"gid" "A146DD5DA6D5CCBC7DA2CFD4AA6BF852"
+				"size" "D8C1C4ED75803537D0BDC468EED0A965"
+				"download" "4AA1B567950E4C055AE694635855EFA2"
+			}
+			"stable"
+			{
+				"gid" "9FA6193A050D09A9EE66E6F7609936D7"
+				"size" "563D48344CCD0441554E36EE7F10EC82"
+				"download" "B69AB568F9B00F1FD5431DC9A0D0756F"
+			}
+			"unstable"
+			{
+				"gid" "A7BCD56D13339312BD0F9D625D06D1D0"
+				"size" "D1B1004DC83634F36ABA89658C3B00F7"
+				"download" "384BE37938360521522F07C8721407E9"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13261158"
+			"timeupdated" "1706112220"
+		}
+		"server_hosting"
+		{
+			"buildid" "13261158"
+			"pwdrequired" "1"
+			"timeupdated" "1706110552"
+		}
+		"stable"
+		{
+			"buildid" "13145308"
+			"pwdrequired" "1"
+			"timeupdated" "1705052101"
+		}
+		"unstable"
+		{
+			"buildid" "13261158"
+			"pwdrequired" "1"
+			"timeupdated" "1706110545"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22052605"
+"_sha" "1d64a8ab94f12ccbebaf216d2168138984e823c7"
+"_size" "2531"
