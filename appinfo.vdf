@@ -1,0 +1,878 @@
+"appid" "65530"
+"common"
+{
+	"name" "SpellForce 2 - Faith in Destiny"
+	"logo" "df8102fa40ea8784656cd127c53fb1167ffb9dc6"
+	"logo_small" "df8102fa40ea8784656cd127c53fb1167ffb9dc6_thumb"
+	"icon" "a06c377c04a7c60a304dcb2174c75298c40d0cc2"
+	"type" "Game"
+	"clienttga" "c5f98f541d924d105500a75bea4538eb64969faa"
+	"clienticon" "d3304bc37c1f23ff7054da0178766955e55981a2"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1685664000"
+		"tested_build_id" "52591"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-2"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "SpellForce 2: Faith in Destiny"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "78.1168368558537"
+		}
+	}
+	"store_asset_mtime" "1562764910"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Mind Over Matter Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "THQ Nordic"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "SpellForce"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "3"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"italian"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+		}
+	}
+	"steam_release_date" "1340125200"
+	"metacritic_score" "55"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/spellforce-2-faith-in-destiny\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "65530"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "9"
+		"2" "1684"
+		"3" "1676"
+		"4" "3859"
+	}
+	"review_score" "5"
+	"review_percentage" "60"
+}
+"extended"
+{
+	"developer" "Mind Over Matter Studios"
+	"gamedir" "Spellforce 2: The Faith of Destiny"
+	"homepage" "http://www.spellforce.com"
+	"icon" ""
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "65531"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"publisher" "THQ Nordic"
+	"listofdlc" "213930,213931,213932,213933,226350,226370,226390"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SpellForce2FaithInDestiny.exe"
+			"arguments" ""
+			"description" "Launch the Game"
+			"workingdir" ""
+		}
+		"1"
+		{
+			"executable" "SpellForce2FaithinDestinyEditor.exe"
+			"arguments" ""
+			"description" "Launch Editor"
+			"workingdir" ""
+		}
+		"2"
+		{
+			"executable" "Docs/SF2_FiD_Manual.pdf"
+			"arguments" ""
+			"description" "Game Manual"
+			"workingdir" ""
+		}
+		"3"
+		{
+			"executable" "Docs/MapEditorFirstSteps.pdf"
+			"arguments" ""
+			"description" "Editor Introduction"
+			"workingdir" ""
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Spellforce 2 - Faith in Destiny"
+	"installscriptsignature" "2e4497cd0345c47c158876129a7881f192281250751e0b2b4893799eb925af317538c060bb1e259ef03dd572298d6c6dafb90484c5014396a737ae5d730228bbe2f6368febd41bade4a331027a72e0b670071b67808c5975d266643dacd2b716c08ab667e69f80239952b4a2b57d3a2a6bedb5e56fae234e15e8d906d959f02b"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"description" "Microsoft DirectX"
+			"nocleanup" "1"
+		}
+	}
+	"firewall"
+	{
+		"spellforce 2 faith in destiny" "%INSTALLDIR%\\SpellForce2FaithinDestiny.exe"
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"65531"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8765616893054665911"
+				"size" "4536602856"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "A1BD37CD22A02A3CDF16BBF0EAD525E8"
+				"size" "3E84647AD24878337256595FE50E35D5"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"65532"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3718004142575322082"
+				"size" "319692629"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "9B548D6B3A9179B9E5E6162EBFDE24DE"
+				"size" "3B15D6A57697CA19D2ED289927BC2297"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"65533"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2499152283037673887"
+				"size" "339100780"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "519707EF2C1676BCBC394C98D680E744"
+				"size" "475905D33B78610F45313F4BCE9B568E"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"65534"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3308436147229410543"
+				"size" "327541246"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "7AD42419B865C00CA7623B9FB0282D4C"
+				"size" "CE1E3823008AF8CDED3D8198B2E0AB13"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"65535"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6687873950402261885"
+				"size" "302043600"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "59A6431941CF53927CE1A405C40A4BE6"
+				"size" "A44E967E03D223FB625516FB2A2CE211"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"65536"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6408355483092483264"
+				"size" "319213985"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "A49CCB3C6735722787ED7709242044E8"
+				"size" "06A66F7AF99D97A11D13171EC4D31C14"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"65537"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4593882572061590910"
+				"size" "103174432"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "DC08458C351D20F766048FA34BD9B658"
+				"size" "8E7EF28C16352384294813B28EBB16AA"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"213930"
+	{
+		"dlcappid" "213930"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1662528184208302914"
+				"size" "312788695"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "6FA11367612B2530AF50237317D675B4"
+				"size" "E74A69EEF63AF9CC7D417C796F176C9A"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226351"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "735481872223460023"
+				"size" "4594919"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "FD2117D74C159AA4385457FE59A6C4F0"
+				"size" "74C7273F86AF15FDBAB9F0530394DE8A"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226352"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1188664988722537360"
+				"size" "73626564"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "DF13EF2AE2DC722D8004E50D14502719"
+				"size" "C28C59282CD89CA2425819077382BBF4"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226353"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "903542689363261281"
+				"size" "79658465"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "687BC8181FF71318E2DFFB556EFAE7B8"
+				"size" "A6BC77C91D676F9E1381C0E99DFEC8E6"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226354"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "764889058841221629"
+				"size" "73626564"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "41BC6363E8FEB5B379EBC09F693E1AAA"
+				"size" "C28C59282CD89CA2425819077382BBF4"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226355"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1843964890778189193"
+				"size" "73626564"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "73AE81CF7440D1A77AF4206ABA93D9CD"
+				"size" "C28C59282CD89CA2425819077382BBF4"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226356"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "904525437391117036"
+				"size" "73626564"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "B715F7220EA102F829142CA07B59A445"
+				"size" "C28C59282CD89CA2425819077382BBF4"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226371"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "620472254704942314"
+				"size" "5897126"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "9721DB4E16B936272318394FF545C762"
+				"size" "D3C511A2CB13A222F0A94D7AFE978F67"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226372"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3571917616381741956"
+				"size" "51268368"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "A5779DF314EF7BAEAD8A7438529DE699"
+				"size" "55D18769DCBBB17BC6B1828105FE6417"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226373"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "509704629760269345"
+				"size" "50688618"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "CF475ADC093BE1102A907B4080A30DC9"
+				"size" "039A91ED5B0FA1E5CB5E1C785E5F8B3B"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226374"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1346975625267798922"
+				"size" "51268368"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "5EEBDE27D7225FA2A273C43C9D1995AA"
+				"size" "55D18769DCBBB17BC6B1828105FE6417"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226375"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "615957847901562540"
+				"size" "51268368"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "33EFAE27FE7DF475AF6493F6D0B608ED"
+				"size" "55D18769DCBBB17BC6B1828105FE6417"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226376"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3542964550445107221"
+				"size" "51268368"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "AED0B13DB4EDBEB5FEB496D80CBC71C8"
+				"size" "55D18769DCBBB17BC6B1828105FE6417"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226391"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4675473171336840244"
+				"size" "4270475"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "DCA5AAC6F2174A54302960CA0F8A87AB"
+				"size" "29A4FCE20903313ACE8A47E5BBD155CA"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226392"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1954812341075411354"
+				"size" "42346702"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "F65BB288A55CE590B7579374BA72D3A6"
+				"size" "0216B68195EE9A4784A7A125E21C2296"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226393"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3625373653841209597"
+				"size" "43060430"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "38216DF89DAE47796226F41508E2A5B6"
+				"size" "004B4F544AA293094339E7057B80EC43"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226394"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135816460602808867"
+				"size" "42346702"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "2646E3C48C3939629F2F800BD016FEB6"
+				"size" "0216B68195EE9A4784A7A125E21C2296"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226395"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3635368775895372322"
+				"size" "42346702"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "0E96382CAB43840C130D02944D21C545"
+				"size" "0216B68195EE9A4784A7A125E21C2296"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"226396"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1467877854944817294"
+				"size" "42346702"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"patchbeta"
+			{
+				"gid" "7FF82328C81931E164B049504DA8D198"
+				"size" "0216B68195EE9A4784A7A125E21C2296"
+				"download" "6AA73CDFDE191713B5C6E8AB066C456B"
+			}
+		}
+	}
+	"hasdepotsindlc" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "52591"
+		}
+		"patchbeta"
+		{
+			"buildid" "52591"
+			"pwdrequired" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19599035"
+"_sha" "a740fe2017f0c5f91f38af6a418fbab91d726d9d"
+"_size" "15114"
