@@ -1,0 +1,290 @@
+"appid" "367970"
+"common"
+{
+	"name" "Medieval Engineers Dedicated Server"
+	"type" "Tool"
+	"oslist" "windows"
+	"releasestate" "released"
+	"associations"
+	{
+	}
+	"gameid" "367970"
+}
+"extended"
+{
+	"gamedir" "Medieval Engineers"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Medieval Engineers Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DedicatedServer/MedievalEngineersDedicated.exe"
+			"description" "Launch"
+			"workingdir" "DedicatedServer"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"1"
+		{
+			"executable" "DedicatedServer64/MedievalEngineersDedicated.exe"
+			"description" "Launch"
+			"workingdir" "DedicatedServer64"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"367971"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4353014925469155315"
+				"size" "1917199296"
+				"download" "785431328"
+			}
+			"0.2.70"
+			{
+				"gid" "8708066655424873290"
+				"size" "1059966957"
+				"download" "216245008"
+			}
+			"0.3.8"
+			{
+				"gid" "9020582738573568232"
+				"size" "1211778203"
+				"download" "327915232"
+			}
+			"0.4.20"
+			{
+				"gid" "7496619810833376367"
+				"size" "1403819490"
+				"download" "417074080"
+			}
+			"0.5.23"
+			{
+				"gid" "8317524616206950350"
+				"size" "1333379955"
+				"download" "388231680"
+			}
+			"0.6.4"
+			{
+				"gid" "6387099835503853948"
+				"size" "1529968483"
+				"download" "520266800"
+			}
+			"communityedition"
+			{
+				"gid" "2975209383734484383"
+				"size" "1930978964"
+				"download" "788179104"
+			}
+			"last_week"
+			{
+				"gid" "8703148628929953842"
+				"size" "1916836603"
+				"download" "785353040"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ctg_major"
+			{
+				"gid" "D7FEC63D2B21FA6176BAF8E0AF83C443"
+				"size" "E36583A7BFD66843CABD6E937461CC89"
+				"download" "5D6F4BF33FA8BE7FEF520EF370159B4A"
+			}
+			"ctg_weekly"
+			{
+				"gid" "8532D192EB50B44D602B8C323100FC17"
+				"size" "755D97FF944BD29B4B2E399232949A40"
+				"download" "0D42B7AD8A96439F6A3C727EE5F4390B"
+			}
+			"develop"
+			{
+				"gid" "47CA2A4A58E6F9EAB3011A836EB6B0CC"
+				"size" "5EA44D4AD49B4A9811263002EC37FC2D"
+				"download" "390CF8807C4FEAA2691A90B914A7EE5D"
+			}
+			"develop_major"
+			{
+				"gid" "AE00D9CF3BF340239A3B30DFC5FF06ED"
+				"size" "E9377973D6F36BB346F6536C5BB7F81A"
+				"download" "F6A6D84F8027A3E79E90CA02B0F4D17A"
+			}
+			"master"
+			{
+				"gid" "7C556C7398F3571CE60D44B124CDC879"
+				"size" "E71BF2A109AE7EDAE711A8418B23F76A"
+				"download" "32C602241BB254538B38CA33C2F7FC08"
+			}
+		}
+	}
+	"workshopdepot" "367970"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4676574"
+			"timeupdated" "1584457360"
+		}
+		"0.2.70"
+		{
+			"buildid" "1146003"
+			"description" "Legacy Archive (32bit support)"
+			"timeupdated" "1494339512"
+		}
+		"0.3.8"
+		{
+			"buildid" "1501782"
+			"description" "Planets Stable"
+			"timeupdated" "1481646377"
+		}
+		"0.4.20"
+		{
+			"buildid" "1794614"
+			"description" "Farming Stable"
+			"timeupdated" "1494339419"
+		}
+		"0.5.23"
+		{
+			"buildid" "2186089"
+			"description" "Shovel Stable"
+			"timeupdated" "1510821222"
+		}
+		"0.6.4"
+		{
+			"buildid" "3412282"
+			"description" "Character Stable"
+			"timeupdated" "1550163386"
+		}
+		"communityedition"
+		{
+			"buildid" "9012370"
+			"description" "Community Edition"
+			"timeupdated" "1657721445"
+		}
+		"ctg_major"
+		{
+			"buildid" "13260260"
+			"pwdrequired" "1"
+			"timeupdated" "1706105410"
+		}
+		"ctg_weekly"
+		{
+			"buildid" "5588602"
+			"pwdrequired" "1"
+			"timeupdated" "1600964110"
+		}
+		"develop"
+		{
+			"buildid" "13260260"
+			"pwdrequired" "1"
+			"timeupdated" "1706104886"
+		}
+		"develop_major"
+		{
+			"buildid" "3751261"
+			"pwdrequired" "1"
+			"timeupdated" "1555615585"
+		}
+		"last_week"
+		{
+			"buildid" "3681352"
+			"description" "Last week\'s build"
+			"timeupdated" "1556263064"
+		}
+		"master"
+		{
+			"buildid" "3412282"
+			"pwdrequired" "1"
+			"timeupdated" "1545223290"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22033046"
+"_sha" "5f367c1fd7f00d27d945706e2acd5d98162c8b3d"
+"_size" "5091"
