@@ -1,0 +1,250 @@
+"appid" "293030"
+"common"
+{
+	"name" "Contagion Dedicated Server"
+	"type" "Tool"
+	"releasestate" "released"
+	"parent" "238430"
+	"oslist" "windows"
+	"logo" "8ec7c8b7cced70ff7fe3de10cad80daa83a92957"
+	"logo_small" "8ec7c8b7cced70ff7fe3de10cad80daa83a92957_thumb"
+	"icon" "d483ac635feea91250e13639cfff2e74a49d4261"
+	"clienticon" "00326093e2661b0707ffa191a47db7db261da439"
+	"clienttga" "4d32ef2ac080fbfbd1de08529298ffd26d3e3130"
+	"osarch" ""
+	"osextended" ""
+	"associations"
+	{
+	}
+	"gameid" "293030"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Contagion Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "contagionds.exe"
+			"arguments" "-secure -steam"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "contagion_dedicated"
+			"arguments" "-secure -steam -game contagion"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229031"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"293031"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4629743115102116736"
+				"size" "12981910168"
+				"download" "4321742480"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "4BC26F1AC458BED3DAA24537C7360D6A"
+				"size" "FB4E809D7FFF95280A94715A3EC7F3DC"
+				"download" "032621904BEB9D421A43C045BEA00F1F"
+			}
+			"quality_assurance"
+			{
+				"gid" "2A87A50ACDCCCAE53A30433BE9AFED9F"
+				"size" "4B4891FBF707E7D72F33DF3DC4C342DB"
+				"download" "937C53D846E1407A13C3B4C3CB46A938"
+			}
+		}
+	}
+	"293032"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6002145982606768166"
+				"size" "106912665"
+				"download" "28001024"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "70CB5FDEDDB05B2BC90F6B58E25EC0D5"
+				"size" "7DAA64B20A19102DC4E62CB9774036AA"
+				"download" "1495B7F2B40BAF9C64C60A7F665AEAEB"
+			}
+			"quality_assurance"
+			{
+				"gid" "37B3B4A7CA54D485FDAB8BECEFFEBD90"
+				"size" "0F2EA52B4DDB320638BC318B88311D53"
+				"download" "E1F9CF3E7E01AD5671EB6B10073702A6"
+			}
+		}
+	}
+	"293033"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1748948970844579195"
+				"size" "603069"
+				"download" "48288"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "3EFFEC35129247C8DE7C79F1FFEA1F13"
+				"size" "07D50610C99465752D55263349EEA370"
+				"download" "14F4C5E1ED8C4EC955C5F4416131D3D8"
+			}
+			"quality_assurance"
+			{
+				"gid" "650A9154ACB586C2EAA5DF22585E4B0A"
+				"size" "0D5FD3DE0325F783EBCC9553B760A8EF"
+				"download" "6A7240933DA2DB1F443CF48A2359D119"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11650947"
+			"timeupdated" "1688746185"
+		}
+		"developer"
+		{
+			"buildid" "7716160"
+			"pwdrequired" "1"
+			"timeupdated" "1636995203"
+		}
+		"quality_assurance"
+		{
+			"buildid" "13279058"
+			"pwdrequired" "1"
+			"timeupdated" "1706251759"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22061900"
+"_sha" "6656c7c687af52cc6dced6fe08b520f0f1a0f714"
+"_size" "4185"
