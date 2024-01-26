@@ -1,0 +1,615 @@
+"appid" "887860"
+"common"
+{
+	"name" "Insurgency: Sandstorm Community Test Environment"
+	"section_type" "ownersonly"
+	"type" "Game"
+	"releasestate" "unavailable"
+	"oslist" "windows"
+	"osarch" "64"
+	"clienttga" "8eba259c22e90df29fd2f5f157b4394cd7074a9e"
+	"clienticon" "477a2e8f82a9f9f55d1f42529ad0f69f5765e51f"
+	"icon" "d60ba72a9478e916ebd60f58648f4a0a2bf8756c"
+	"clienticns" "403be5d999c33b8dfee9c29f59b7980bf7041110"
+	"linuxclienticon" "8bb975e4b086d076e9e930450a488401dc198a29"
+	"logo" "69b03299a072409285543abee15b58a74ded295a"
+	"logo_small" "69b03299a072409285543abee15b58a74ded295a_thumb"
+	"associations"
+	{
+	}
+	"gameid" "887860"
+	"exfgls" "2"
+	"store_tags"
+	{
+	}
+}
+"extended"
+{
+	"gamedir" "sandstorm"
+	"serverbrowsername" "Insurgency: Sandstorm (Closed Technical Alpha)"
+}
+"config"
+{
+	"installdir" "sandstorm_beta"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "InsurgencyEAC.exe"
+			"type" "default"
+		}
+		"1"
+		{
+			"executable" "InsurgencyEAC.exe"
+			"arguments" "-clickedreplay=373d2264-9310-48b2-ae53-e73f322f3bcb"
+			"description" "Town replay"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "focus_perf"
+			}
+		}
+		"2"
+		{
+			"executable" "InsurgencyEAC.exe"
+			"arguments" "-clickedreplay=f4fbf0e8-7bff-4a2b-bb41-277c686253a2"
+			"description" "Precinct replay"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "focus_perf"
+			}
+		}
+		"3"
+		{
+			"executable" "Insurgency.exe"
+			"arguments" "-noeac"
+			"description" "Sandstorm no EAC"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "unstable,unstable_test,unstable_shipping"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,turkish,brazilian"
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"887861"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7273503393137229365"
+				"size" "272671248"
+				"download" "209674624"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"baseline"
+			{
+				"gid" "B36A8D8DB9096C25FDE3875100BD69F4"
+				"size" "6A8931016E4BFA6A11D36A3C6C805FE1"
+				"download" "DA196F2770938ED74A3DC9C73E7A307F"
+			}
+			"community_test"
+			{
+				"gid" "D08822A4C82C0EEB037FBFE8C458927B"
+				"size" "A69EB444BCAA027FE6A32E7165E53A5C"
+				"download" "21BEA756C28C42FC16E43ACF31F1B7E8"
+			}
+			"nwi_nightly"
+			{
+				"gid" "879145D5DD1EEBD195755D8B537B8886"
+				"size" "D3C696AB9E40C2C7A09E7660A7082194"
+				"download" "208922B27FEC443EB8BA5C4283F161AF"
+			}
+			"playthrough"
+			{
+				"gid" "9F514E8FE27C230C29D4E36E89E3BAC7"
+				"size" "A67CB8015D279BF5D5E87539884D056E"
+				"download" "82BBEA91B2D1BC516E7328EEC651310F"
+			}
+			"ss_cte_1"
+			{
+				"gid" "A2AC27D2A56899C8F31B0D40F6E9B05E"
+				"size" "1EE8F1F7E98C82ED6BA2D1E5D8896B04"
+				"download" "52EFEC83795DF5C18E8CB041384CEBB3"
+			}
+			"ss_cte_2"
+			{
+				"gid" "5C99855B1E17A2CFCA282635DC44023D"
+				"size" "5844846E039893587D9F50217F9FBAB6"
+				"download" "6EF2631E1C64F9E769064BDCF9AE63DD"
+			}
+			"ss_cte_3"
+			{
+				"gid" "88269055F0FB98ED78AD95AA910DC4AD"
+				"size" "1E04B9D75176E40EA6B3FACF2073B219"
+				"download" "D63BB41F27865A851C2680B27A7249B2"
+			}
+			"ss_cte_4"
+			{
+				"gid" "599A13A9FBD43C7DD7EBC358DFC31588"
+				"size" "43BF334CE62D888C493DFC1EAFEF0A3E"
+				"download" "95CF79624EC7B9B020593B7C94B72D89"
+			}
+			"ss_egs_1"
+			{
+				"gid" "CEC2C57BE3EBDE2EA50FF3017D3E83F8"
+				"size" "C3DE6BF92555157B347B96C1536335C4"
+				"download" "DC010D6539486F55FC9CD5E098A9ED2A"
+			}
+			"ss_evaluation_1"
+			{
+				"gid" "6C966EECF3430C00922AFC3AD01F1E78"
+				"size" "DDC3F22DDF779C44245733994BA32415"
+				"download" "27E74433F455C8D0E89BB5BE421BEDC1"
+			}
+			"ss_external_1"
+			{
+				"gid" "FB743C044561C8D692C9762D8743B8A8"
+				"size" "EE30DAD7F3C1AD07D1FB3C38B536C20D"
+				"download" "9E9CBB516F2171FBF52A444BB87CF7FE"
+			}
+			"ss_external_2"
+			{
+				"gid" "A147642A6D51B200F8D97A3E36B1E2C9"
+				"size" "8FD896A0D23CD903AC4BF6682BA24442"
+				"download" "0901EC6277091F5A682CEB6EC07D5BA4"
+			}
+			"ss_external_3"
+			{
+				"gid" "17015E9B602F6F2994C4B7E4FB262620"
+				"size" "0008450446D630766E0658E2BBB8757F"
+				"download" "14FC47C786048AB5D2C73765F2266398"
+			}
+			"ss_external_egs"
+			{
+				"gid" "4FD5A218BC873533172EA97DC5381F58"
+				"size" "D3248539DA025455B26ED3EBF03C46E7"
+				"download" "E9D002AD57735AA1D97AF63EA441DFD9"
+			}
+			"ss_marketing"
+			{
+				"gid" "13AA9F86B32241B2605623B085626108"
+				"size" "9B6F087AC1066D200513E55768E8F6FB"
+				"download" "F666EEB3ACD1F482243D884BD6A813C9"
+			}
+			"unstable"
+			{
+				"gid" "FFAC252E324C28C3CA66332BADD675BD"
+				"size" "285E0D6BB88A6EA067E913DA87016CA7"
+				"download" "2B4747678D7248EE3A821CA1AA49F34E"
+			}
+			"unstable_shipping"
+			{
+				"gid" "6EDA64214FFDC02146F8D68A82672666"
+				"size" "213AAD8830117D05873D5B5C9EEF4744"
+				"download" "AC6C54D8364424E7880516BD19AF1626"
+			}
+			"unstable_test"
+			{
+				"gid" "4B34CADA0AA4551A178666A250210493"
+				"size" "1E41EE2F4B3EB78FDE0ACBC81D40E77F"
+				"download" "8E8184BE416AB1C25F6079A64D07ED08"
+			}
+		}
+	}
+	"1575010"
+	{
+		"dlcappid" "1575010"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "303772630779096563"
+				"size" "272671248"
+				"download" "209674624"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"baseline"
+			{
+				"gid" "803D98D601464F748C86C9A7DBC55484"
+				"size" "B1264C28EF276EA4EC49009ADB4580EB"
+				"download" "16A21F9CE5E2A126294FAF90030194E4"
+			}
+			"community_test"
+			{
+				"gid" "E9AAF1D93E56F3513484556EFFFC2F30"
+				"size" "A4339A01BF60506C1328030FF932342A"
+				"download" "71808C0F56486288557A2582BAD05212"
+			}
+			"nwi_nightly"
+			{
+				"gid" "7330855A14235231963088C2BC84D5DD"
+				"size" "D3C696AB9E40C2C7A09E7660A7082194"
+				"download" "208922B27FEC443EB8BA5C4283F161AF"
+			}
+			"playthrough"
+			{
+				"gid" "8B3497B889EE403D988EECA5362D573A"
+				"size" "05849F8117DC2C055AA03A04DFECE55A"
+				"download" "6A0F77867B2E01408890409DED441FA9"
+			}
+			"ss_cte_1"
+			{
+				"gid" "B3B8F38A29EA3E952E00DFCD0A5BEC8E"
+				"size" "D3AFD90970B04C01840CFC869288C3BE"
+				"download" "FCC00845739DA2990F8B926E81E3B6F9"
+			}
+			"ss_cte_2"
+			{
+				"gid" "1E1395B541700AB7EA09E3CFF25B1E81"
+				"size" "DB5F80E88AE93CB6BE4BBB4C9DD1DA41"
+				"download" "3F7A69DF72DAD67BB208F1BF43CC2449"
+			}
+			"ss_cte_3"
+			{
+				"gid" "D80F3AE5679AF59F2112DD052DA4D382"
+				"size" "0B69EA31C522C8CDF474BECF79AAA305"
+				"download" "73934857BF1850BF9378EF52CED8EFAB"
+			}
+			"ss_cte_4"
+			{
+				"gid" "6B14CDCC7E17029894C3B9D0E64BA7F3"
+				"size" "595121CB9D865D31CEE6172EA562FAD9"
+				"download" "7247FE5E2349FC0FE219CDA8C1F1305C"
+			}
+			"ss_egs_1"
+			{
+				"gid" "8756FD32DCF0CD2DC622AD7EE1ABA95B"
+				"size" "D594A7AB93024D8AEEAAE5CEFF2D1CB6"
+				"download" "6DA40CDA947CE092AF949AD3FC3F1698"
+			}
+			"ss_evaluation_1"
+			{
+				"gid" "A367EE8FCC455FB36028C6A1D93B7EE0"
+				"size" "19F808923045EF731ABB63B1DA929D88"
+				"download" "97E6D2B31847C33A76DB65F09CDAB221"
+			}
+			"ss_external_1"
+			{
+				"gid" "31F0145BDBCAE0CF97612CA9D32CFD94"
+				"size" "943AA14797BE0E4267B03687A0B388F4"
+				"download" "15BCC79A92F9E47737BEBB0CFD2FB6F9"
+			}
+			"ss_external_2"
+			{
+				"gid" "34705079A0DA7D421CF7075CED6E8C95"
+				"size" "99D73EDB6BDF00E1726C94C30094297D"
+				"download" "C474F9DB21C3FA9DA3E7194E60F0D781"
+			}
+			"ss_external_3"
+			{
+				"gid" "E1E25FD18EA159394FD9A951B24E15FE"
+				"size" "33DF50575CD1A2396DDD54D1E0C0B044"
+				"download" "98F07369103D527FD8D4A005A1982EA8"
+			}
+			"ss_external_egs"
+			{
+				"gid" "E6E587EB7427EB7FC3D89F1A65BEA87A"
+				"size" "931BF6F9EB090AA0185AA8297801BBD5"
+				"download" "91EE4E4657A9667B2A4A892B14E56269"
+			}
+			"ss_marketing"
+			{
+				"gid" "CAB824602306A1A2E213C535D10A1729"
+				"size" "E40B2E0671D1CA660F8452166D88F173"
+				"download" "AEF31C49C0F7900D6E49E7916646DA44"
+			}
+			"unstable"
+			{
+				"gid" "115351A75F35F05B1BE375E5A8CA5107"
+				"size" "B5E48CDCF61932B0A032F862264C6623"
+				"download" "D316B9D73806BD5774C50D5B5D41A300"
+			}
+			"unstable_shipping"
+			{
+				"gid" "774E1A680C6049828F961936C6AC6CB8"
+				"size" "60205036EBEC97722153964446556B5B"
+				"download" "BB29E5B6754A812EF3A231B6CCE759AF"
+			}
+			"unstable_test"
+			{
+				"gid" "CB0A197540A66D8841E7543CD4FA9D17"
+				"size" "C19821D654AF57BB36754A5F87A50CB1"
+				"download" "0AB96F63BC98A8F1F80495CA30B92A90"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "7371809"
+			"timeupdated" "1631811623"
+		}
+		"baseline"
+		{
+			"buildid" "7321614"
+			"pwdrequired" "1"
+			"timeupdated" "1631147697"
+		}
+		"community_test"
+		{
+			"buildid" "13259899"
+			"pwdrequired" "1"
+			"timeupdated" "1706102546"
+		}
+		"nwi_nightly"
+		{
+			"buildid" "7371809"
+			"pwdrequired" "1"
+			"timeupdated" "1631811583"
+		}
+		"playthrough"
+		{
+			"buildid" "10389039"
+			"pwdrequired" "1"
+			"timeupdated" "1674662154"
+		}
+		"ss_cte_1"
+		{
+			"buildid" "13141827"
+			"pwdrequired" "1"
+			"timeupdated" "1704935015"
+		}
+		"ss_cte_2"
+		{
+			"buildid" "12923406"
+			"pwdrequired" "1"
+			"timeupdated" "1702222279"
+		}
+		"ss_cte_3"
+		{
+			"buildid" "13278638"
+			"pwdrequired" "1"
+			"timeupdated" "1706247375"
+		}
+		"ss_cte_4"
+		{
+			"buildid" "13269616"
+			"pwdrequired" "1"
+			"timeupdated" "1706177760"
+		}
+		"ss_egs_1"
+		{
+			"buildid" "7583723"
+			"pwdrequired" "1"
+			"timeupdated" "1634928055"
+		}
+		"ss_evaluation_1"
+		{
+			"buildid" "13271323"
+			"pwdrequired" "1"
+			"timeupdated" "1706189196"
+		}
+		"ss_external_1"
+		{
+			"buildid" "11355184"
+			"pwdrequired" "1"
+			"timeupdated" "1685495483"
+		}
+		"ss_external_2"
+		{
+			"buildid" "12826682"
+			"pwdrequired" "1"
+			"timeupdated" "1701423303"
+		}
+		"ss_external_3"
+		{
+			"buildid" "12517039"
+			"pwdrequired" "1"
+			"timeupdated" "1698116328"
+		}
+		"ss_external_egs"
+		{
+			"buildid" "7686344"
+			"pwdrequired" "1"
+			"timeupdated" "1636570667"
+		}
+		"ss_marketing"
+		{
+			"buildid" "10364204"
+			"pwdrequired" "1"
+			"timeupdated" "1674227663"
+		}
+		"unstable"
+		{
+			"buildid" "9159688"
+			"pwdrequired" "1"
+			"timeupdated" "1658354561"
+		}
+		"unstable_shipping"
+		{
+			"buildid" "7251399"
+			"pwdrequired" "1"
+			"timeupdated" "1629936680"
+		}
+		"unstable_test"
+		{
+			"buildid" "10432577"
+			"pwdrequired" "1"
+			"timeupdated" "1675254426"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "50000000"
+	"maxnumfiles" "1000"
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#statuswithoutscore" "{#Status_%gamestatus%}"
+				"#statuswithscore" "{#Status_%gamestatus%}: %score%"
+				"#status_viewingreplay" "Watching a replay"
+				"#status_atmainmenu" "Main Menu"
+				"#status_inqueue" "Finding a match"
+				"#status_inqueuefortype" "In queue for %playlisttitle%"
+				"#status_playing" "Playing a match"
+				"#status_playingmapmode" "Playing %mapmodename%"
+				"#status_playingplaylistmapmode" "Playing %playlisttitle% %mapmodename%"
+				"#status_viewingmatchresults" "Viewing post-match results"
+				"#status_generictesting" "Helping build a better game!"
+			}
+		}
+		"german"
+		{
+			"tokens"
+			{
+				"#statuswithoutscore" "{#Status_%gamestatus%}"
+				"#statuswithscore" "{#Status_%gamestatus%}: %score%"
+				"#status_viewingreplay" "Sieht sich eine Wiederholung an"
+				"#status_atmainmenu" "Hauptmenü"
+				"#status_inqueue" "Sucht nach einem Match"
+				"#status_inqueuefortype" "Sucht nach einem {#Type_%type%}-Match"
+				"#status_playing" "Spielt ein Match"
+				"#status_playingmapmode" "Spielt %mapmodename%"
+				"#status_viewingmatchresults" "Viewing post-match results"
+				"#type_coop" "Co-op"
+				"#type_versus" "Versus"
+				"#type_comp" "Competitive"
+			}
+		}
+		"french"
+		{
+			"tokens"
+			{
+				"#statuswithoutscore" "{#Status_%gamestatus%}"
+				"#statuswithscore" "{#Status_%gamestatus%}: %score%"
+				"#status_viewingreplay" "Regarde un ralenti"
+				"#status_atmainmenu" "Menu principal"
+				"#status_inqueue" "Cherche une partie"
+				"#status_inqueuefortype" "En recherche d\'une partie {#Type_%type%}"
+				"#status_playing" "Dans une partie"
+				"#status_playingmapmode" "Joue à une partie %mapmodename%"
+				"#status_viewingmatchresults" "Viewing post-match results"
+				"#type_coop" "Coopératif"
+				"#type_versus" "Versus"
+				"#type_comp" "Competitive"
+			}
+		}
+		"italian"
+		{
+			"tokens"
+			{
+				"#statuswithoutscore" "{#Status_%gamestatus%}"
+				"#statuswithscore" "{#Status_%gamestatus%}: %score%"
+				"#status_viewingreplay" "Guarda un replay"
+				"#status_atmainmenu" "Menu principale"
+				"#status_inqueue" "Cerca una partita"
+				"#status_inqueuefortype" "Cerca una partita {#Type_%type%}"
+				"#status_playing" "Gioca una partita"
+				"#status_playingmapmode" "In %mapmodename%"
+				"#status_viewingmatchresults" "Viewing post-match results"
+				"#type_coop" "Co-op"
+				"#type_versus" "Versus"
+				"#type_comp" "Competitive"
+			}
+		}
+		"spanish"
+		{
+			"tokens"
+			{
+				"#statuswithoutscore" "{#Status_%gamestatus%}"
+				"#statuswithscore" "{#Status_%gamestatus%}: %score%"
+				"#status_viewingreplay" "Viendo una repetición"
+				"#status_atmainmenu" "Menú principal"
+				"#status_inqueue" "Buscando una partida"
+				"#status_inqueuefortype" "Buscando una partida {#Type_%type%}"
+				"#status_playing" "Jugando una partida"
+				"#status_playingmapmode" "Jugando %mapmodename%"
+				"#status_viewingmatchresults" "Viewing post-match results"
+				"#type_coop" "Cooperativo"
+				"#type_versus" "Versus"
+				"#type_comp" "Competitive"
+			}
+		}
+		"schinese"
+		{
+			"tokens"
+			{
+				"#statuswithoutscore" "{#Status_%gamestatus%}"
+				"#statuswithscore" "{#Status_%gamestatus%}: %score%"
+				"#status_viewingreplay" "观看回放"
+				"#status_atmainmenu" "主菜单"
+				"#status_inqueue" "搜索比赛"
+				"#status_inqueuefortype" "找到一局{#Type_%type%}比赛"
+				"#status_playing" "进行一局比赛"
+				"#status_playingmapmode" "玩%mapmodename%"
+				"#status_viewingmatchresults" "Viewing post-match results"
+				"#type_coop" "组队"
+				"#type_versus" "对抗"
+				"#type_comp" "Competitive"
+			}
+		}
+		"russian"
+		{
+			"tokens"
+			{
+				"#statuswithoutscore" "{#Status_%gamestatus%}"
+				"#statuswithscore" "{#Status_%gamestatus%}: %score%"
+				"#status_viewingreplay" "Смотрит повтор"
+				"#status_atmainmenu" "Главное меню"
+				"#status_inqueue" "Ищет игру"
+				"#status_inqueuefortype" "Найдена игра: {#Type_%type%}"
+				"#status_playing" "Играет"
+				"#status_playingmapmode" "Играет: %mapmodename%"
+				"#status_viewingmatchresults" "Viewing post-match results"
+				"#type_coop" "Совместная игра"
+				"#type_versus" "Дуэль"
+				"#type_comp" "Competitive"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22061348"
+"_sha" "c417d6e37dd81db552c3f1a0c79519449bf059b5"
+"_size" "15766"
