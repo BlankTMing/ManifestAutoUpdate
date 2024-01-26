@@ -1,0 +1,273 @@
+"appid" "669310"
+"common"
+{
+	"name" "Brave Path"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"clienticon" "5c0a11587b3d0e65c6ead9dcf7fdf8514cd228b6"
+	"clienttga" "0e4c3ea6f3b1933261d67ec4d10e601689288a3c"
+	"icon" "7697afe2ab9b99492901cb21ff9d41523aa48b97"
+	"clienticns" "babb029dbe8879c042d74f5dea261055de0baa06"
+	"linuxclienticon" "184582e27e912fb8820cacb5708580f0208f75ca"
+	"logo" "b1e8cfb5b4b7be105a6d7331cc0701b60b40b35d"
+	"logo_small" "b1e8cfb5b4b7be105a6d7331cc0701b60b40b35d_thumb"
+	"releasestate" "released"
+	"metacritic_name" "Brave Path"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "52.45040840140024"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1572984844"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "GooDCrafter"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "GooDCrafter"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1501098221"
+	"community_hub_visible" "1"
+	"gameid" "669310"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "492"
+		"2" "3871"
+		"3" "1716"
+		"4" "1702"
+		"5" "1720"
+		"6" "1759"
+		"7" "5125"
+		"8" "7332"
+		"9" "1684"
+		"10" "1708"
+		"11" "1756"
+		"12" "3834"
+		"13" "3964"
+		"14" "4182"
+		"15" "4325"
+		"16" "4474"
+		"17" "4711"
+		"18" "4791"
+	}
+	"review_score" "7"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "GooDCrafter"
+	"publisher" "GooDCrafter"
+}
+"config"
+{
+	"installdir" "BravePath"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "BravePath.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "BravePath.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "BravePath"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"669311"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6301081380431075504"
+				"size" "110176502"
+				"download" "44258912"
+			}
+		}
+	}
+	"669312"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6007677791047644396"
+				"size" "110360764"
+				"download" "43298320"
+			}
+		}
+	}
+	"669313"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4821901538611140528"
+				"size" "120526394"
+				"download" "46122848"
+			}
+		}
+	}
+	"669314"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8341830267047554178"
+				"size" "117861444"
+				"download" "44575504"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1952189"
+			"timeupdated" "1499773519"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "50"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "BravePath"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "BravePath"
+					"replace" "BravePath"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "BravePath"
+					"replace" ".local/share/BravePath"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21873111"
+"_sha" "d9e818fc598e21011ea690f944630f9a2687fa6e"
+"_size" "4079"
