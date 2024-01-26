@@ -1,0 +1,379 @@
+"appid" "1000030"
+"common"
+{
+	"name" "Cook, Serve, Delicious! 3\?!"
+	"type" "Game"
+	"logo" "224e4b83c00c062af8da58422fac76682b46a2cb"
+	"logo_small" "224e4b83c00c062af8da58422fac76682b46a2cb_thumb"
+	"icon" "53f7239e8c1b8cb1090592cc1ee97d981333498e"
+	"clienticon" "f7181dd6ef6bd7dcd2e55c079e6e148b2a660ff5"
+	"clienttga" "72b2fece517f958e846454ffd4122c7cafaefd79"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" "macos64,macosnotarized"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1686614400"
+		"tested_build_id" "11417492"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-2"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Cook, Serve, Delicious! 3\?!"
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "56.76779463243873"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1705978644"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Vertigo Gaming Inc."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Vertigo Gaming Inc."
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Cook, Serve, Delicious!"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "28"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_39" "1"
+		"category_24" "1"
+		"category_28" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_44" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_43" "1"
+		"category_41" "1"
+		"category_42" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1602659024"
+	"metacritic_score" "79"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/cook-serve-delicious!-3!\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1000030"
+	"store_tags"
+	{
+		"0" "1674"
+		"1" "12472"
+		"2" "4026"
+		"3" "597"
+		"4" "1773"
+		"5" "9"
+		"6" "3871"
+		"7" "4136"
+		"8" "599"
+		"9" "1685"
+		"10" "1719"
+		"11" "5350"
+		"12" "19"
+		"13" "3841"
+		"14" "3859"
+		"15" "7368"
+		"16" "3920"
+		"17" "4182"
+		"18" "4508"
+		"19" "1734"
+	}
+	"review_score" "8"
+	"review_percentage" "91"
+}
+"extended"
+{
+	"developer" "Vertigo Gaming Inc."
+	"publisher" "Vertigo Gaming Inc."
+	"homepage" "http://www.cookservedelicious.com"
+}
+"config"
+{
+	"installdir" "CookServeDelicious3"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CSD3.exe"
+			"description" "Launch Game"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "CSD3_Foodtruck.app"
+			"description" "Launch Mac Version"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"2068336180"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "1"
+}
+"depots"
+{
+	"1000031"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4294986155902772539"
+				"size" "1378271206"
+				"download" "1273423472"
+			}
+			"v1.00"
+			{
+				"gid" "4950362426996562843"
+				"size" "1598071219"
+				"download" "1464628448"
+			}
+			"v1.01"
+			{
+				"gid" "454311836439638894"
+				"size" "1592767923"
+				"download" "1459356336"
+			}
+			"v1.02"
+			{
+				"gid" "4020144098361147197"
+				"size" "1368670647"
+				"download" "1249716816"
+			}
+			"v1.02.03"
+			{
+				"gid" "5091342191414663195"
+				"size" "1385020626"
+				"download" "1265727392"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"keybinds"
+			{
+				"gid" "259678740757D1BDB4FC738B24DC81E0"
+				"size" "0F8692688F195925AB9EAD35ECD9A7E8"
+				"download" "FD6BB89BDAC69834F4A67419E60F9FB4"
+			}
+			"privatebeta"
+			{
+				"gid" "F1AD30D192C0D1894E7B03DE671A046B"
+				"size" "2B1CC7C7FF0EC49C5E9B26DFDB102786"
+				"download" "232D9BC60DAD8CD50DE9A8395E18D59B"
+			}
+		}
+	}
+	"1000032"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "873920289103182495"
+				"size" "1435657633"
+				"download" "1272313904"
+			}
+			"v1.01"
+			{
+				"gid" "597399246200140300"
+				"size" "1580978488"
+				"download" "1438854400"
+			}
+			"v1.02"
+			{
+				"gid" "2121102927382207426"
+				"size" "1406911128"
+				"download" "1259070608"
+			}
+			"v1.02.03"
+			{
+				"gid" "6984747278248773429"
+				"size" "1406905334"
+				"download" "1259097904"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"keybinds"
+			{
+				"gid" "22927A3988060F7D859A03FF01ADFBD0"
+				"size" "18C149559330E290E7440C6B5550F3F8"
+				"download" "46C8850770D5997348CEB9AF71C09573"
+			}
+			"privatebeta"
+			{
+				"gid" "4C2720A646A84720F8709CC6EC6384A5"
+				"size" "428536D4E19BC865714112C8AF9DE911"
+				"download" "162A667F325C774E14E0D020FCA8F613"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11555797"
+			"timeupdated" "1687727333"
+		}
+		"keybinds"
+		{
+			"buildid" "5829291"
+			"pwdrequired" "1"
+			"timeupdated" "1605666756"
+		}
+		"privatebeta"
+		{
+			"buildid" "11555797"
+			"pwdrequired" "1"
+			"timeupdated" "1687727321"
+		}
+		"v1.00"
+		{
+			"buildid" "5689940"
+			"description" "Release Build"
+			"timeupdated" "1603918028"
+		}
+		"v1.01"
+		{
+			"buildid" "5829291"
+			"description" "Stable Build"
+			"timeupdated" "1655835712"
+		}
+		"v1.02"
+		{
+			"buildid" "8994909"
+			"description" "Stable Build"
+			"timeupdated" "1660090712"
+		}
+		"v1.02.03"
+		{
+			"buildid" "9291391"
+			"description" "Previous Version"
+			"timeupdated" "1686681368"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "20"
+}
+"_missing_token" "False"
+"_change_number" "22008530"
+"_sha" "bef868319dab4afc85e587e3ca4e5a2a856c26b4"
+"_size" "7371"
