@@ -1,0 +1,238 @@
+"appid" "572010"
+"common"
+{
+	"name" "No Way Out"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"clienttga" "f4f9b80ce085859e31c0a05178a90ef9f4eebe87"
+	"clienticon" "e8455c69d42ab404e2aecd0951dfdbf2516ef166"
+	"icon" "7ed4b32d17cc8ee90e7e179a00f232da4e2dfe07"
+	"logo" "a6d979ce3e0c7fb4406776e3f490f15dd3929b47"
+	"logo_small" "a6d979ce3e0c7fb4406776e3f490f15dd3929b47_thumb"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1666742400"
+		"tested_build_id" "1584765"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "No Way Out"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+	}
+	"store_asset_mtime" "1570894379"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Rafael Farias"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Fiassink Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_29" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1538694403"
+	"community_hub_visible" "1"
+	"gameid" "572010"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "21"
+		"2" "492"
+		"3" "1695"
+		"4" "7208"
+	}
+	"review_score" "5"
+	"review_percentage" "42"
+}
+"extended"
+{
+	"developer" "Rafael Farias"
+	"publisher" "Fiassink Games"
+	"homepage" "https://www.facebook.com/nowayoutgame"
+}
+"config"
+{
+	"installdir" "No Way Out"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "NoWayOut.exe"
+			"type" "default"
+		}
+	}
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"572011"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6068623156313157462"
+				"size" "4234546200"
+				"download" "2216626512"
+			}
+		}
+	}
+	"baselanguages" "english,brazilian"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1584765"
+			"timeupdated" "1503541161"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "NoWayOut/Saved/SaveGames"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "NoWayOut/Saved/SaveGames"
+					"replace" "NoWayOut/Saved/SaveGames"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21572791"
+"_sha" "c8882cd0f10793b5b9a79b26bf7252d4e09d0a64"
+"_size" "4200"
