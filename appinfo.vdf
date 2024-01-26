@@ -1,0 +1,98 @@
+"appid" "230630"
+"common"
+{
+	"name" "Painkiller Hell & Damnation Development Kit (PDK)"
+	"section_type" "ownersonly"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" "windows"
+	"logo" "27f6147e078d6546252e397598652e2076fb4449"
+	"logo_small" "27f6147e078d6546252e397598652e2076fb4449_thumb"
+	"clienticon" "c577da8d64a82b0466d3c629323f3faca3eb2e59"
+	"clienttga" "1dc27046c3c927856922f3b2468c247e8eff8ae0"
+	"icon" "d212116bc894a9c521fa1cad1053862e28a490b7"
+	"parent" "214870"
+	"eulas"
+	{
+		"0"
+		{
+			"url" "http://store.steampowered.com/eula/230630_eula"
+			"id" "230630_eula"
+			"name" "230630_eula"
+		}
+	}
+	"gameid" "230630"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" ""
+	"gamedir" "ValveTestApp230630"
+	"homepage" ""
+	"icon" ""
+	"launcheula" "http://store.steampowered.com/eula/230630_eula"
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateTool"
+	"visibleonlywhensubscribed" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Painkiller Hell & Damnation Development Kit"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Binaries/PKDevLauncher.exe"
+			"description" "Launch Painkiller Hell & Damnation Editor"
+			"workingdir" "Binaries/Win32"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Docs/PDK_Instructions.pdf"
+			"description" "View Modkit & User generated Content Documentation"
+		}
+	}
+}
+"depots"
+{
+	"230631"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2173301190266873641"
+				"size" "15386132514"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "280750"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "4b4fbaf298ab995a670639a555bc8082790dd653"
+"_size" "1825"
