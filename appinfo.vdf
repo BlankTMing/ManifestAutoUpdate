@@ -1,0 +1,237 @@
+"appid" "206760"
+"common"
+{
+	"name" "Painkiller: Recurring Evil"
+	"type" "Game"
+	"logo" "be69fe24a717cf10374c93bd2c0258b824441bdf"
+	"logo_small" "be69fe24a717cf10374c93bd2c0258b824441bdf_thumb"
+	"icon" "4c8e34ad4dbdf4c02cfcd9bc3e02aee4f62a0468"
+	"clienttga" "b4485be8498c8b17881ae929637929eab7a8b21c"
+	"sortas" "Painkiller 5: Recurring Evil"
+	"metacritic_name" "Painkiller: Recurring Evil"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "44.86581096849475"
+			"height_pct" "50.75991450961767"
+		}
+	}
+	"store_asset_mtime" "1562844438"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Med-Art"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Prime Matter"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Painkiller"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"metacritic_score" "38"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/painkiller-recurring-evil\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "206760"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "10808"
+		"2" "4191"
+		"3" "1663"
+		"4" "1774"
+		"5" "3839"
+		"6" "1667"
+		"7" "4182"
+		"8" "4345"
+	}
+	"review_score" "5"
+	"review_percentage" "45"
+}
+"extended"
+{
+	"developer" "Med-Art"
+	"gamedir" "Painkiller Recurring Evil"
+	"homepage" "http://www.painkillergame.com/"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "206761"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Prime Matter"
+}
+"config"
+{
+	"installscriptsignature" "8ac044a7b76810dcb77d741c6a45d12f6c78ac91e0c5270b09f3a2242e15c7d9627522d509e9d74dbe8a104c7cd08f50f06c40c0c5e24931dd9d5cf1b7ff2443b4abee33619f855efc9b3e20100b37860a78003abe26ed6c49cb9e4f36638c94c2cb9ebb6d2453ef39dcb37747ccdbb765ccf91b18ffb0be3fdf21f49029eb03"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Painkiller Recurring Evil"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Bin\\RecurringEvil.exe"
+		}
+		"1"
+		{
+			"description" "Editor"
+			"executable" "Bin\\RecurringEvilEditor.exe"
+		}
+	}
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_current_machine\\software\\nordic games\\painkiller recurring evil"
+		{
+			"string"
+			{
+				"install_path" "%INSTALLDIR%"
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\206760"
+			"process 1" "%INSTALLDIR%\\directx\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"206764"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1498636942192017417"
+				"size" "87278678"
+				"download" "0"
+			}
+		}
+	}
+	"206761"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8750907215095545966"
+				"size" "1990754983"
+				"download" "0"
+			}
+		}
+	}
+	"206762"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9126099795076529166"
+				"size" "1020346253"
+				"download" "0"
+			}
+		}
+	}
+	"206763"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "439135580353428913"
+				"size" "223106764"
+				"download" "0"
+			}
+		}
+	}
+	"206765"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "268500031104903240"
+				"size" "257136716"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "30007"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21888338"
+"_sha" "0f300f19ac87a40b8c517da0ebc859564da7aa08"
+"_size" "4033"
