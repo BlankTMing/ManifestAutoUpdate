@@ -1,0 +1,148 @@
+"appid" "2245910"
+"common"
+{
+	"name" "Jump King Worldsmith"
+	"type" "Tool"
+	"parent" "1061090"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"name_localized"
+	{
+		"english" "Jump King Worldsmith"
+	}
+	"clienttga" "268dd58e5043f8061be471b6de830e4b20666fed"
+	"clienticon" "2278d0cb4b408a17929d662ca4845c56027d4c44"
+	"icon" "fa6aa23d8bafe97c6a0858fcb7935cb3dc9ba74f"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "2245910_eula_0"
+			"name" "Jump King Worldsmith EULA"
+			"url" "https://store.steampowered.com//eula/2245910_eula_0"
+			"version" "3"
+		}
+	}
+	"releasestate" "released"
+	"associations"
+	{
+	}
+	"gameid" "2245910"
+}
+"config"
+{
+	"installdir" "Jump King Workshop"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "JKWorldsmith.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+	"uselaunchcommandline" "1"
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229007"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"workshopdepot" "2245910"
+	"2245911"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6493088930469531845"
+				"size" "397869034"
+				"download" "135636528"
+			}
+			"legacy"
+			{
+				"gid" "78261214514580077"
+				"size" "1078371"
+				"download" "341280"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"worldsmith"
+			{
+				"gid" "79D78776CECEA2218C37319C3DA80BBE"
+				"size" "55C0CD8873C6876FAF868EE885AB4B45"
+				"download" "D48699225B04591BCE33A67A5BA48CEA"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13317390"
+			"timeupdated" "1706649422"
+		}
+		"legacy"
+		{
+			"buildid" "13184039"
+			"description" "Legacy \'Workshop Manager\' branch"
+			"timeupdated" "1705402516"
+		}
+		"worldsmith"
+		{
+			"buildid" "13317390"
+			"pwdrequired" "1"
+			"timeupdated" "1706649350"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "50000"
+	"maxnumfiles" "20"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" ""
+			"pattern" "*.set"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" ""
+			"pattern" "*.exe.config"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22136513"
+"_sha" "a1edd70e08610086c9be9744f6a999e8813e880b"
+"_size" "2337"
