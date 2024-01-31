@@ -75,28 +75,27 @@
 		"schinese" "capsule_231x87_schinese.jpg"
 		"english" "capsule_231x87.jpg"
 		"japanese" "capsule_231x87_japanese.jpg"
-		"sc_schinese" "capsule_231x87_sc_schinese.jpg"
 	}
 	"header_image"
 	{
 		"schinese" "header_schinese.jpg"
 		"english" "header.jpg"
 		"japanese" "header_japanese.jpg"
-		"sc_schinese" "header_sc_schinese.jpg"
 	}
 	"library_assets"
 	{
-		"library_capsule" "ja,zh-cn,en,zh-xc"
-		"library_hero" "en,zh-cn"
-		"library_logo" "en,ja,zh-cn,zh-xc"
+		"library_capsule" "ja,zh-cn,en"
+		"library_hero" "en"
+		"library_logo" "en,ja,zh-cn"
+		"library_header" "en,zh-cn,ja"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
-			"width_pct" "30.93188801313002"
-			"height_pct" "62.196089542498186"
+			"width_pct" "31.37760819437449"
+			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1703169208"
+	"store_asset_mtime" "1706614623"
 	"associations"
 	{
 		"0"
@@ -116,7 +115,6 @@
 		"0" "1"
 		"1" "25"
 		"2" "23"
-		"3" "70"
 	}
 	"category"
 	{
@@ -144,7 +142,7 @@
 			"subtitles" "true"
 		}
 	}
-	"steam_release_date" "1692150900"
+	"steam_release_date" "1706666183"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "2273430"
@@ -154,9 +152,9 @@
 		"1" "1628"
 		"2" "4106"
 		"3" "1625"
-		"4" "3964"
-		"5" "4711"
-		"6" "3871"
+		"4" "3871"
+		"5" "3964"
+		"6" "4711"
 		"7" "19"
 		"8" "5125"
 		"9" "3959"
@@ -172,12 +170,14 @@
 		"19" "4182"
 	}
 	"review_score" "8"
-	"review_percentage" "90"
+	"review_percentage" "91"
 }
 "extended"
 {
 	"developer" "91Act"
 	"publisher" "91Act"
+	"listofdlc" "2771130"
+	"dlcavailableonstore" "1"
 }
 "config"
 {
@@ -227,16 +227,29 @@
 		{
 			"sc_schinese" "仅中国"
 		}
+		"bbee-ea"
+		{
+			"sc_schinese" "Early Access"
+			"buildid" "12847799"
+			"description" "Early Access"
+			"timeupdated" "1706080711"
+		}
 		"public"
 		{
-			"buildid" "12847799"
-			"timeupdated" "1701421580"
+			"buildid" "13302381"
+			"timeupdated" "1706666355"
+		}
+		"bbee"
+		{
+			"buildid" "13302381"
+			"pwdrequired" "1"
+			"timeupdated" "1706593578"
 		}
 		"innertest"
 		{
-			"buildid" "12847799"
+			"buildid" "13302381"
 			"pwdrequired" "1"
-			"timeupdated" "1701420164"
+			"timeupdated" "1706537584"
 		}
 		"onlyfor91ceo"
 		{
@@ -250,18 +263,6 @@
 			"pwdrequired" "1"
 			"timeupdated" "1690516205"
 		}
-		"steamkol"
-		{
-			"buildid" "11921785"
-			"pwdrequired" "1"
-			"timeupdated" "1691762674"
-		}
-		"tobusiness"
-		{
-			"buildid" "11921785"
-			"pwdrequired" "1"
-			"timeupdated" "1691762690"
-		}
 	}
 	"2273431"
 	{
@@ -274,6 +275,12 @@
 		{
 			"public"
 			{
+				"gid" "7845126862991889031"
+				"size" "7623310917"
+				"download" "6634411376"
+			}
+			"bbee-ea"
+			{
 				"gid" "1181538358703119718"
 				"size" "5527866314"
 				"download" "4686327248"
@@ -281,11 +288,17 @@
 		}
 		"encryptedmanifests"
 		{
+			"bbee"
+			{
+				"gid" "D9653F137F3F2428E08F1C7FB6565CE5"
+				"size" "C6D98688EC87ED6ABB4D7AFCCC732F91"
+				"download" "F56830D034E1B5D3C95B7510D197B06E"
+			}
 			"innertest"
 			{
-				"gid" "89A4FA0325BCCD75FF33052E9E47261F"
-				"size" "7158F576FBCF4381E4D77E61533B95CB"
-				"download" "CF0DEC07476FC1BE19940399A58D4275"
+				"gid" "2D464301EDC843D7E5E1D418E6C9CE3A"
+				"size" "617268F843B95EEC21EE770D00A01B24"
+				"download" "E5FCE690C0FEDC03FC478A2C3B5A701F"
 			}
 			"onlyfor91ceo"
 			{
@@ -298,18 +311,6 @@
 				"gid" "47795F94C2B5B4950F4A0C485E0D4833"
 				"size" "481C0A364F139563EEC01A31FA6E9AAB"
 				"download" "3C6DE94EF8726568D969FF4F70328EE0"
-			}
-			"steamkol"
-			{
-				"gid" "F1C8C6388547AF24E85C21562BFAAD3D"
-				"size" "38A083042370F711FB1026EB1551DA32"
-				"download" "670177605ADEFA6F21EC28AAEF998E68"
-			}
-			"tobusiness"
-			{
-				"gid" "3537D61AD4B1A7004E6E0DE3D9FD04C0"
-				"size" "7024CE71529721E2EDEEA65EE23C6871"
-				"download" "EE21F18A5EDDB283EB0971A63EB6BD43"
 			}
 		}
 	}
@@ -324,6 +325,12 @@
 		{
 			"public"
 			{
+				"gid" "5601532752362149847"
+				"size" "8008614162"
+				"download" "6685184032"
+			}
+			"bbee-ea"
+			{
 				"gid" "8289491013708764854"
 				"size" "5795480466"
 				"download" "4739167264"
@@ -331,11 +338,17 @@
 		}
 		"encryptedmanifests"
 		{
+			"bbee"
+			{
+				"gid" "2ADD47594FAA6C99DADD8EE39D7D68EC"
+				"size" "79D2D22AB44660B6BF5E9FC76BC5CF43"
+				"download" "31957FF48E036CF5FB5D1B617B744F01"
+			}
 			"innertest"
 			{
-				"gid" "02D20764159040674E78C04DE34C61DF"
-				"size" "7B26B346EB7BF5EE6AC008E48E20E329"
-				"download" "97B493A36322F5A44123471B184944F4"
+				"gid" "C413DBA72D6E55C46AC24DEEB9BA9FF9"
+				"size" "7A3BF0AC1B85D42C4ADDC278385666DA"
+				"download" "C8BAB567C63AB9E28AE5D621B4119E81"
 			}
 			"onlyfor91ceo"
 			{
@@ -349,17 +362,33 @@
 				"size" "02CFBB4AED41A7448FDD3A9C1EB569E2"
 				"download" "7FF1FD34E33A33264056A03F65F24A49"
 			}
-			"steamkol"
+		}
+	}
+	"2771130"
+	{
+		"dlcappid" "2771130"
+		"manifests"
+		{
+			"public"
 			{
-				"gid" "005F953F65E5E5BAF10648F9AFFA52B4"
-				"size" "DF42202C1449942570E885B4BC53D92D"
-				"download" "AECE4310CE2BE1E8DCEB6A01A82B100F"
+				"gid" "8440413603119081723"
+				"size" "132709570"
+				"download" "132753472"
 			}
-			"tobusiness"
+		}
+		"encryptedmanifests"
+		{
+			"bbee"
 			{
-				"gid" "02D52F9E465423ECCA17C3836107A314"
-				"size" "15CC3841445006318F071C8BDD3ADBD0"
-				"download" "853A2339E543353F4369FD03F72BD159"
+				"gid" "78E2794C584596B053FF5324CB5A85FB"
+				"size" "D333F0E7EC32F3294A97F6660AF8A2F8"
+				"download" "A536708AA1DC0F2F37A4EBD93257993B"
+			}
+			"innertest"
+			{
+				"gid" "C0D0EF0B47CB9627BD7F1DA26029E13D"
+				"size" "B17776D587F297666137FDC84A556055"
+				"download" "1FB538038E9958890581D64C88A3ECD6"
 			}
 		}
 	}
@@ -384,6 +413,13 @@
 			"pattern" "*"
 			"recursive" "1"
 		}
+		"4"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "91Act/BlazBlueEntropyEffect/Steam/{Steam3AccountID}/Save"
+			"pattern" "*"
+			"recursive" "1"
+		}
 	}
 	"rootoverrides"
 	{
@@ -398,6 +434,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21689548"
-"_sha" "c4aa415815d6a3e56713ea680efdc12dd2eba182"
-"_size" "8032"
+"_change_number" "22126746"
+"_sha" "d3cab200b49fdca7240a9a86868752debc1a46b4"
+"_size" "8614"
