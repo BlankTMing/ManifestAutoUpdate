@@ -1,0 +1,311 @@
+"appid" "415420"
+"common"
+{
+	"name" "Nyan Cat: Lost In Space"
+	"type" "Game"
+	"oslist" "windows,linux"
+	"clienticon" "e5477c37cb6a711f0e94d8f9062e7bbda7c41244"
+	"clienttga" "1796e4ff34a5d6b134cee41260a4bfe1bb9cfafe"
+	"icon" "1a666e9e92e4c33159db60a4545ad2e51dca64dc"
+	"logo" "b18338c3db0e82e77dfdbcdf03f8a601fd4d8464"
+	"logo_small" "b18338c3db0e82e77dfdbcdf03f8a601fd4d8464_thumb"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1686700800"
+		"tested_build_id" "2567711"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Nyan Cat: Lost In Space"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1449145685"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "isTom Games Kft."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "isTom Games Kft."
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_29" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1449233166"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "415420"
+	"store_tags"
+	{
+		"0" "10397"
+		"1" "17894"
+		"2" "1625"
+		"3" "21"
+		"4" "4106"
+		"5" "3964"
+		"6" "597"
+		"7" "4726"
+		"8" "19"
+		"9" "4182"
+		"10" "1755"
+		"11" "4136"
+		"12" "492"
+		"13" "3871"
+		"14" "4026"
+		"15" "1719"
+		"16" "4115"
+		"17" "44868"
+		"18" "4342"
+		"19" "5379"
+	}
+	"review_score" "8"
+	"review_percentage" "92"
+}
+"extended"
+{
+	"gamedir" ""
+	"developer" "isTom Games Kft."
+	"publisher" "isTom Games Kft."
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Nyan Cat Lost In Space"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bin_x86\\NyanCat.exe"
+			"workingdir" "bin_x86"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "bin_x64_linux/game.sh"
+			"workingdir" "bin_x64_linux"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "bin_x86\\NyanCat.exe"
+			"arguments" "-oldschool"
+			"workingdir" "bin_x86"
+			"description" "Retro Mode"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "bin_x86\\NyanCat.exe"
+			"arguments" "-windowed -w 960 -h 640"
+			"workingdir" "bin_x86"
+			"description" "Safe Mode"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229020"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"415421"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6991666460020760590"
+				"size" "89021482"
+				"download" "88348288"
+			}
+			"local"
+			{
+				"gid" "5891782163369206515"
+				"size" "160172655"
+				"download" "143425088"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "9AEED4ED05658C6505002A40AA23E22F"
+				"size" "EAAA3E5D466FD905E004B75EE6D3E643"
+				"download" "F7BB254472C2719142BB1176DC16C7F6"
+			}
+		}
+	}
+	"415422"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7923369923543721584"
+				"size" "2842166"
+				"download" "863024"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "7373FC38DAE0DB2948BFE6B025DB7E78"
+				"size" "46F2285E470A2EB29A550959E3810CC2"
+				"download" "7D5075A233DFB5257A52AF70E39BE8C6"
+			}
+		}
+	}
+	"415423"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "237262177702448809"
+				"size" "5226213"
+				"download" "1516000"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "5B35EB723F1374D807C6AECA62BC088D"
+				"size" "626629E40466F64002A9FCC2C315B34E"
+				"download" "E4002C9E2109F51E125F85A35497EFFB"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2567711"
+			"timeupdated" "1519918594"
+		}
+		"beta"
+		{
+			"buildid" "2567711"
+			"pwdrequired" "1"
+			"timeupdated" "1519918169"
+		}
+		"local"
+		{
+			"buildid" "836614"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19243960"
+"_sha" "251985721b78b83971572f5ec8859c14bdb908ce"
+"_size" "5510"
