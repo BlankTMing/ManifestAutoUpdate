@@ -1,0 +1,291 @@
+"appid" "691320"
+"common"
+{
+	"name" "Gun Club VR"
+	"type" "Game"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"oslist" "windows"
+	"osarch" "64"
+	"logo" "e44abd9d43065e60fc075e38badbf66d333f4fa1"
+	"logo_small" "e44abd9d43065e60fc075e38badbf66d333f4fa1_thumb"
+	"icon" "26a6a87f33f5e37abb78090a21b62cb15d541392"
+	"clienttga" "4ba3c1f89fcf31869fd651bdc2b49b6503fae6c4"
+	"clienticon" "0c35686deee33f995dd13380a45d9bf8e1055853"
+	"releasestate" "released"
+	"openvr_action_manifest_path" "Gun Club VR_Data\\StreamingAssets\\SteamVR\\actions.json"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1644278400"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Gun Club VR"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "38.914819136522794"
+			"height_pct" "72.4174780337212"
+		}
+	}
+	"store_asset_mtime" "1670805370"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "The Binary Mill"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "The Binary Mill"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Gun Club VR"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_52" "1"
+		"category_54" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1535433063"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "691320"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "1774"
+		"1" "5765"
+		"2" "21978"
+		"3" "1663"
+		"4" "4175"
+		"5" "599"
+		"6" "19"
+		"7" "3839"
+		"8" "492"
+		"9" "1659"
+		"10" "1773"
+		"11" "1734"
+		"12" "5154"
+	}
+	"review_score" "8"
+	"review_percentage" "80"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "The Binary Mill"
+	"publisher" "The Binary Mill"
+	"homepage" "http://www.thebinarymill.com"
+	"listofdlc" "1562720,2113980"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Gun Club VR"
+	"launch"
+	{
+		"3"
+		{
+			"executable" "Gun Club VR.exe"
+			"arguments" "-vrmode openvr"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"4"
+		{
+			"executable" "Gun Club VR.exe"
+			"arguments" "-vrmode oculus"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"5"
+		{
+			"executable" "Gun_Club_VR.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "GCVR Legacy Option"
+			}
+			"description" "GCVR Legacy Option"
+		}
+	}
+}
+"depots"
+{
+	"691321"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8238604085853985323"
+				"size" "7020395036"
+				"download" "6155169168"
+			}
+			"public_beta"
+			{
+				"gid" "8632144081184525841"
+				"size" "8769507087"
+				"download" "3544714112"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "C1CD5313CACCCDF5EDA5066056F4D6BC"
+				"size" "AFFE78D1439619B0030636E7D9A6E13D"
+				"download" "E572201727C93CE8FDE83FF0D6A7ACE3"
+			}
+			"cloudtesting"
+			{
+				"gid" "86BB7D8595EACB9D74A4F8CD8C8553CC"
+				"size" "728A6CE5B932498D735CADFFD7BC200D"
+				"download" "86E3A1F4ECFE3F50264B0C453FA92740"
+			}
+			"experimental"
+			{
+				"gid" "1A7F12C5389069D973B4E04C94388B74"
+				"size" "F431FEC9C864C5A2893274242E5E8DA7"
+				"download" "35CD3192832D6046A4C5C5CCDB26F326"
+			}
+		}
+	}
+	"691322"
+	{
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10197313"
+			"timeupdated" "1671686934"
+		}
+		"beta"
+		{
+			"buildid" "10197313"
+			"pwdrequired" "1"
+			"timeupdated" "1671686652"
+		}
+		"cloudtesting"
+		{
+			"buildid" "6296694"
+			"pwdrequired" "1"
+			"timeupdated" "1614303091"
+		}
+		"experimental"
+		{
+			"buildid" "3488786"
+			"pwdrequired" "1"
+			"timeupdated" "1548114543"
+		}
+		"public_beta"
+		{
+			"buildid" "7038235"
+			"description" "Public Beta Testing"
+			"timeupdated" "1626414854"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "15728640"
+	"maxnumfiles" "8"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+}
+"_missing_token" "False"
+"_change_number" "20373489"
+"_sha" "d0e6031e46ddf8bc164c9956ec4bdb104b277582"
+"_size" "5306"
