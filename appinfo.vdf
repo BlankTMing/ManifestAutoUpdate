@@ -37,32 +37,54 @@
 	"releasestatesteamchina" "released"
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1701302400"
-		"tested_build_id" "12790138"
+		"category" "2"
+		"test_timestamp" "1704499200"
+		"tested_build_id" "13047015"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
 		}
 		"configuration"
 		{
 			"supported_input" "gamepad"
-			"requires_manual_keyboard_invoke" "0"
+			"requires_manual_keyboard_invoke" "1"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "1"
+			"non_deck_display_glyphs" "0"
 			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
 			"recommended_runtime" "proton-stable"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
+	"metacritic_name" "My Time at Sandrock"
 	"controller_support" "full"
 	"small_capsule"
 	{
@@ -211,6 +233,8 @@
 		}
 	}
 	"steam_release_date" "1698933600"
+	"metacritic_score" "81"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/my-time-at-sandrock\?ftag=MCD-06-10aaa1f"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "1084600"
@@ -221,16 +245,16 @@
 		"2" "3810"
 		"3" "87918"
 		"4" "1702"
-		"5" "122"
-		"6" "3859"
+		"5" "3859"
+		"6" "122"
 		"7" "9551"
 		"8" "1695"
 		"9" "4747"
 		"10" "5981"
 		"11" "3835"
 		"12" "597"
-		"13" "599"
-		"14" "21"
+		"13" "21"
+		"14" "599"
 		"15" "4182"
 		"16" "7208"
 		"17" "4195"
@@ -409,21 +433,21 @@
 		"multi_test_zy_new"
 		{
 			"sc_schinese" "多人项目专用测试分支"
-			"buildid" "13046935"
+			"buildid" "13330987"
 			"pwdrequired" "1"
-			"timeupdated" "1703586212"
+			"timeupdated" "1706752852"
 		}
 		"multi_beta_zy"
 		{
 			"sc_schinese" "多人体验服测试分支"
-			"buildid" "13047015"
+			"buildid" "13269487"
 			"pwdrequired" "1"
-			"timeupdated" "1703587863"
+			"timeupdated" "1706176950"
 		}
 		"public"
 		{
-			"buildid" "13057209"
-			"timeupdated" "1703768710"
+			"buildid" "13331429"
+			"timeupdated" "1706756630"
 		}
 		"beta"
 		{
@@ -530,15 +554,15 @@
 		}
 		"private_test"
 		{
-			"buildid" "13055719"
+			"buildid" "13298577"
 			"pwdrequired" "1"
-			"timeupdated" "1703747540"
+			"timeupdated" "1706507397"
 		}
 		"private_test_release"
 		{
-			"buildid" "13056952"
+			"buildid" "13298650"
 			"pwdrequired" "1"
-			"timeupdated" "1703764931"
+			"timeupdated" "1706508289"
 		}
 		"super_secret_testing"
 		{
@@ -572,9 +596,9 @@
 		{
 			"public"
 			{
-				"gid" "7827415022137264496"
-				"size" "9526378560"
-				"download" "7717176944"
+				"gid" "1638548681311021201"
+				"size" "10802709665"
+				"download" "8929632144"
 			}
 		}
 		"encryptedmanifests"
@@ -605,15 +629,15 @@
 			}
 			"multi_beta_zy"
 			{
-				"gid" "891E5194919252EDDD71AF4354697043"
-				"size" "0EE76F8F91D27DC003EB7B7110910CC0"
-				"download" "B9A31FF787D5C78E5903FEC846DC860C"
+				"gid" "3C0209961E21FF2C287FB936321AEBD4"
+				"size" "3826C46CF67A558A76838CA9A4EEBD7C"
+				"download" "16B55F1E48615BC9EEDBAE031D16328D"
 			}
 			"multi_test_zy_new"
 			{
-				"gid" "9BC84356548579344597479599215801"
-				"size" "1F7DB3354E146FACD31B6B83E5EE699D"
-				"download" "40E25D46D19EEF19E68BE9BFA35C9ACC"
+				"gid" "3C9BB392623568DB5924D7FAA7DF0BEE"
+				"size" "3887DAA80EB7FCAB98E0736A471C00AB"
+				"download" "807EAB6B08246F8E2E9F70B50B33FD4B"
 			}
 			"newdemotest"
 			{
@@ -635,15 +659,15 @@
 			}
 			"private_test"
 			{
-				"gid" "AF57E48F01A0F29654941C3293019500"
-				"size" "BD9D8A050D0922C12902A87BC0E07797"
-				"download" "278552F027F94C029FCCEE500A15AB3F"
+				"gid" "9B915C2723C535D91EB7EB010545EFE7"
+				"size" "25050949ECACA254FC43955B94522F88"
+				"download" "E21C96C54272D5E0D65F62AED135B717"
 			}
 			"private_test_release"
 			{
-				"gid" "2A8B4C0E56DEF97DDBDD5B81C393331D"
-				"size" "27FBEA43F2EEE12B1469EEB62E8167BE"
-				"download" "D96F4391AB92D42D8C4E58485795F569"
+				"gid" "8367D840076B1D7D8784EC7823B0DD2E"
+				"size" "4B97554D75EB64A91DDB1AA7ABA4BD6E"
+				"download" "BBEE833C707AAEB7C3305BBEFC6C4A53"
 			}
 			"super_secret_testing"
 			{
@@ -691,9 +715,9 @@
 		{
 			"public"
 			{
-				"gid" "7223790397037619778"
-				"size" "28288252177"
-				"download" "12024291328"
+				"gid" "5449237807106855545"
+				"size" "28674169218"
+				"download" "12235568368"
 			}
 			"ks_demo"
 			{
@@ -814,15 +838,15 @@
 			}
 			"private_test"
 			{
-				"gid" "D14340426897143A119981CF2072B3DE"
-				"size" "995238D23C27B9831B1E7E96AF30CA2D"
-				"download" "3CC6C1112845B45B513073CB7C6996D4"
+				"gid" "8BF0B479460EEC949B92FCF080368B48"
+				"size" "6B61F21E12B4FBE495FC5CD0F8BB2FA9"
+				"download" "9AED90D0B2385700607DD85A4E5250A6"
 			}
 			"private_test_release"
 			{
-				"gid" "1516A29FDD81F86DBA4C8C75B6D36228"
-				"size" "61CDAF433BDDDB081128FB1CCF40D417"
-				"download" "978A39BA74B5B45BEF33D4D04C77AAD7"
+				"gid" "2F29445261A4B832165F774FC948F3C6"
+				"size" "5B3798D838F0FB6D2EB48B5C9F67AE44"
+				"download" "E3A5A0504BBB3F2FF6243D2578EAC09E"
 			}
 			"super_secret_testing"
 			{
@@ -910,6 +934,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21702371"
-"_sha" "85b6d6b60e9001ba1cc9fec2c052ce653b90b077"
-"_size" "19010"
+"_change_number" "22145323"
+"_sha" "7c05009f5b1464cc61ec2fc99025f31e56d707f3"
+"_size" "19699"
