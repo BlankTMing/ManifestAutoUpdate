@@ -274,24 +274,24 @@
 		{
 			"public"
 			{
-				"gid" "8971632060853657837"
-				"size" "1101840405"
-				"download" "400734496"
+				"gid" "6983952035608426018"
+				"size" "1055634856"
+				"download" "391656400"
 			}
 			"betatesting"
 			{
-				"gid" "8971632060853657837"
-				"size" "1101840405"
-				"download" "400734496"
+				"gid" "6983952035608426018"
+				"size" "1055634856"
+				"download" "391656400"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"devmode"
 			{
-				"gid" "D5FF067C0FF5DEC2D297CC332D576AAE"
-				"size" "0995E6D10DCDDEF0F17D78B057FB3561"
-				"download" "ED5FBD4FBD383920BDC9009C3C3E7D53"
+				"gid" "DEA1839F92B89C24FFCDAB8560EBDB73"
+				"size" "5ACFBCE4F3594262640753AC2000E1B1"
+				"download" "8CA199279DA5DFE66ECD06EEA1CF9317"
 			}
 		}
 	}
@@ -331,20 +331,20 @@
 	{
 		"public"
 		{
-			"buildid" "13357285"
-			"timeupdated" "1706977761"
+			"buildid" "13371147"
+			"timeupdated" "1707152305"
 		}
 		"betatesting"
 		{
-			"buildid" "13357285"
+			"buildid" "13371147"
 			"description" "Newest builds available here. may have some bugs."
-			"timeupdated" "1706977724"
+			"timeupdated" "1707152266"
 		}
 		"devmode"
 		{
-			"buildid" "13357285"
+			"buildid" "13371147"
 			"pwdrequired" "1"
-			"timeupdated" "1706977713"
+			"timeupdated" "1707149486"
 		}
 	}
 }
@@ -356,37 +356,50 @@
 	{
 		"0"
 		{
-			"root" "WinAppDataLocalLow"
+			"root" "gameinstall"
 			"path" "LionsShade/Cliff Empire"
 			"pattern" "*.sav"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 		"1"
 		{
-			"root" "WinAppDataLocalLow"
+			"root" "gameinstall"
 			"path" "LionsShade/Cliff Empire"
 			"pattern" "*.bak"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 		"2"
 		{
-			"root" "WinAppDataLocalLow"
+			"root" "gameinstall"
 			"path" "LionsShade/Cliff Empire"
 			"pattern" "*.jpg"
-			"platforms"
-			{
-				"1" "Windows"
-			}
+		}
+		"6"
+		{
+			"root" "gameinstall"
+			"path" "LionsShade/Cliff Empire"
+			"pattern" "persist.conf"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinAppDataLocalLow"
+			"addpath" ""
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "22186678"
-"_sha" "4faea6bd2553666b74447c3e511f4ce160312a72"
-"_size" "6861"
+"_change_number" "22212592"
+"_sha" "516ef98d1520debcdc896fddde424b73039c6872"
+"_size" "7108"
