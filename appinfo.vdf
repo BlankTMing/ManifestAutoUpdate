@@ -1,0 +1,175 @@
+"appid" "497110"
+"common"
+{
+	"name" "Gang Beasts Server"
+	"type" "Tool"
+	"parent" "285900"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"icon" "96d0e7ef5bad4760338287b6f85563c336291137"
+	"logo" "2a08400880d2aef6247e0b8c897840011836e034"
+	"logo_small" "2a08400880d2aef6247e0b8c897840011836e034_thumb"
+	"clienticon" "93e147828b67cf479b43b71d8907d1fe34f7aa71"
+	"clienttga" "5fec91db9cbace87674c483b05517c2cb2e1f59c"
+	"linuxclienticon" "b2e1a60f95a0e4ae75414f9452c54db9cb29cba8"
+	"releasestate" "released"
+	"associations"
+	{
+	}
+	"gameid" "497110"
+}
+"extended"
+{
+	"gamedir" "GangBeasts"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Gang Beasts Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Wrapper.exe"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "runWrapper.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"497111"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6593635910386374974"
+				"size" "1357366228"
+				"download" "397772336"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "3379FC4F9858C86283E8C2C2062E12FC"
+				"size" "A624E0AE57C9F1441FC15AA91837709C"
+				"download" "E0488B6BFA702406524A25F5FF78F1A5"
+			}
+		}
+	}
+	"497112"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1520651104960184265"
+				"size" "1367934386"
+				"download" "414758736"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "B8A2E7791DA1F98E2582508E835E74D7"
+				"size" "D1267B6C3DF482F4038CA95A4798A6A0"
+				"download" "CE4680BB1AD2B3877DE3C8EFDD86D946"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1949880"
+			"timeupdated" "1499701715"
+		}
+		"development"
+		{
+			"buildid" "1926031"
+			"pwdrequired" "1"
+			"timeupdated" "1498758971"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20307700"
+"_sha" "05f0e38a6594e2edca2f81e8a7af72575b525aa2"
+"_size" "2756"
