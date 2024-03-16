@@ -19,26 +19,31 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1702425600"
-		"tested_build_id" "12911599"
+		"test_timestamp" "1709078400"
+		"tested_build_id" "13431472"
 		"tests"
 		{
 			"0"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
 			}
 			"1"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
 			}
 			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
-			"3"
+			"4"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
@@ -47,7 +52,7 @@
 		"configuration"
 		{
 			"supported_input" "gamepad"
-			"requires_manual_keyboard_invoke" "0"
+			"requires_manual_keyboard_invoke" "1"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
 			"non_deck_display_glyphs" "0"
@@ -85,7 +90,7 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1683628090"
+	"store_asset_mtime" "1709726431"
 	"associations"
 	{
 		"0"
@@ -110,10 +115,15 @@
 		}
 		"4"
 		{
+			"type" "publisher"
+			"name" "Frozen District"
+		}
+		"5"
+		{
 			"type" "franchise"
 			"name" "Builder Simulator"
 		}
-		"5"
+		"6"
 		{
 			"type" "franchise"
 			"name" "Frozen Way"
@@ -138,6 +148,7 @@
 		"category_56" "1"
 		"category_57" "1"
 		"category_58" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -212,8 +223,8 @@
 		"5" "1036"
 		"6" "1654"
 		"7" "4711"
-		"8" "9204"
-		"9" "5350"
+		"8" "5350"
+		"9" "9204"
 		"10" "4695"
 		"11" "12472"
 		"12" "3839"
@@ -248,6 +259,15 @@
 				"oslist" "windows"
 			}
 		}
+		"1"
+		{
+			"executable" "BuilderSimulator.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
 	}
 	"steamdecktouchscreen" "5"
 	"steamconfigurator3rdpartynative" "65535"
@@ -262,9 +282,9 @@
 		{
 			"public"
 			{
-				"gid" "1373901889752461558"
-				"size" "11824621231"
-				"download" "8726879632"
+				"gid" "6231328251487375698"
+				"size" "11856496298"
+				"download" "8751073824"
 			}
 		}
 		"encryptedmanifests"
@@ -313,9 +333,9 @@
 			}
 			"steamdecktest"
 			{
-				"gid" "F165584E07B68A4BB72AF3689A832598"
-				"size" "ED64D60E9B66A0684C8112363913834C"
-				"download" "29D641C10F670C3CEE3610DCE36157C2"
+				"gid" "6DAC48C2604D4B88F56419542A6F3919"
+				"size" "5354445855718821030F85EC5DC3A4B9"
+				"download" "6C8BA6359CB2C0ADD3D7CAF4B9293052"
 			}
 			"steamdecktest2"
 			{
@@ -350,7 +370,7 @@
 		{
 			"macbuild"
 			{
-				"gid" "15886EF7466EF288A49935C34710B4BD"
+				"gid" "E52FB910BCBFABAD1220B6FA598C76FD"
 				"size" "0A1AFB7EB54E95BEDC872C9005488653"
 				"download" "57145DC7F8DA1A623D5DD8A9FF104894"
 			}
@@ -366,8 +386,8 @@
 	{
 		"public"
 		{
-			"buildid" "12911599"
-			"timeupdated" "1702042356"
+			"buildid" "13656960"
+			"timeupdated" "1709731969"
 		}
 		"antivirustests"
 		{
@@ -383,9 +403,9 @@
 		}
 		"macbuild"
 		{
-			"buildid" "13025141"
+			"buildid" "13109540"
 			"pwdrequired" "1"
-			"timeupdated" "1703204543"
+			"timeupdated" "1704587093"
 		}
 		"mactest"
 		{
@@ -413,9 +433,9 @@
 		}
 		"steamdecktest"
 		{
-			"buildid" "12911599"
+			"buildid" "13656960"
 			"pwdrequired" "1"
-			"timeupdated" "1702065474"
+			"timeupdated" "1709730150"
 		}
 		"steamdecktest2"
 		{
@@ -488,6 +508,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21645968"
-"_sha" "c0b0088c3d4fa3d09b8f4fbda725e4d74803d8b9"
-"_size" "9594"
+"_change_number" "22655697"
+"_sha" "330ddce3a55475d3df69179169353613b8809513"
+"_size" "9949"
