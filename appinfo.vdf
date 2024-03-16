@@ -29,8 +29,6 @@
 		"0" "2"
 		"1" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "3"
@@ -95,7 +93,7 @@
 			"height_pct" "79.43094057734886"
 		}
 	}
-	"store_asset_mtime" "1704617605"
+	"store_asset_mtime" "1709132729"
 	"associations"
 	{
 		"0"
@@ -135,6 +133,7 @@
 		"category_57" "1"
 		"category_58" "1"
 		"category_53" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -176,6 +175,7 @@
 		}
 	}
 	"steam_release_date" "1613494560"
+	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "1000360"
 	"store_tags"
@@ -236,7 +236,7 @@
 		"1"
 		{
 			"executable" "Hellish Quart.exe"
-			"arguments" "-vrmode openvr"
+			"arguments" "--enable-vr"
 			"type" "vr"
 			"config"
 			{
@@ -252,7 +252,7 @@
 		"2"
 		{
 			"executable" "Hellish Quart.exe"
-			"arguments" "-vrmode oculus"
+			"arguments" "--enable-vr"
 			"type" "othervr"
 			"config"
 			{
@@ -291,9 +291,9 @@
 		{
 			"public"
 			{
-				"gid" "6025784597033348635"
-				"size" "13423627097"
-				"download" "6406413888"
+				"gid" "6595867715347305529"
+				"size" "12903673582"
+				"download" "5983406880"
 			}
 			"oldversion"
 			{
@@ -313,20 +313,26 @@
 				"size" "13046058152"
 				"download" "6191029168"
 			}
+			"oldversion4"
+			{
+				"gid" "2989871013164741742"
+				"size" "13419996969"
+				"download" "6406089088"
+			}
 			"test"
 			{
-				"gid" "4652167096143560107"
-				"size" "13414330445"
-				"download" "6403613072"
+				"gid" "6595867715347305529"
+				"size" "12903673582"
+				"download" "5983406880"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"storytest"
 			{
-				"gid" "33CC57F82A0F60320C388FBC134BB11B"
-				"size" "0BB093C077C044F4C7202DEC80826B1C"
-				"download" "F091C8F2757DEA6E8CE3E755D9943320"
+				"gid" "8DE837965A03CB2F34730A4F06E44184"
+				"size" "5C346A9E6D45978DE4413B9C9EC21608"
+				"download" "8190111B57FC2791B0AF50685DEC0388"
 			}
 		}
 	}
@@ -334,8 +340,8 @@
 	{
 		"public"
 		{
-			"buildid" "13401003"
-			"timeupdated" "1707378563"
+			"buildid" "13762635"
+			"timeupdated" "1710602171"
 		}
 		"oldversion"
 		{
@@ -355,17 +361,23 @@
 			"description" "From Dec 2023"
 			"timeupdated" "1707229129"
 		}
+		"oldversion4"
+		{
+			"buildid" "13466417"
+			"description" "From Feb 2024"
+			"timeupdated" "1708354997"
+		}
 		"storytest"
 		{
-			"buildid" "13226604"
+			"buildid" "13762635"
 			"pwdrequired" "1"
-			"timeupdated" "1705748498"
+			"timeupdated" "1710602517"
 		}
 		"test"
 		{
-			"buildid" "13381501"
+			"buildid" "13762635"
 			"description" "Beta"
-			"timeupdated" "1707227335"
+			"timeupdated" "1710601574"
 		}
 	}
 }
@@ -388,6 +400,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22257138"
-"_sha" "6e731447011a6f77f67de001cff1f867bd532113"
-"_size" "7106"
+"_change_number" "22793408"
+"_sha" "e759650a4496c6759eff29d01f613dffec534a00"
+"_size" "7333"
