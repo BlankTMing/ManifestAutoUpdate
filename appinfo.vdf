@@ -29,7 +29,61 @@
 	{
 		"0" "5"
 	}
-	"has_adult_content" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1704758400"
+		"tested_build_id" "12585554"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"5"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"metacritic_name" "Scene Investigators"
 	"controllertagwizard" "1"
 	"controller_support" "partial"
 	"small_capsule"
@@ -52,7 +106,7 @@
 			"height_pct" "92.93312870787976"
 		}
 	}
-	"store_asset_mtime" "1698974388"
+	"store_asset_mtime" "1704911693"
 	"associations"
 	{
 		"0"
@@ -78,6 +132,7 @@
 		"category_22" "1"
 		"category_18" "1"
 		"category_23" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -134,6 +189,8 @@
 		}
 	}
 	"steam_release_date" "1698156035"
+	"metacritic_score" "76"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/scene-investigators\?ftag=MCD-06-10aaa1f"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "1159830"
@@ -149,8 +206,8 @@
 		"7" "3834"
 		"8" "4166"
 		"9" "9204"
-		"10" "5673"
-		"11" "4182"
+		"10" "4182"
+		"11" "5673"
 		"12" "3839"
 		"13" "4191"
 		"14" "21"
@@ -161,7 +218,7 @@
 		"19" "1667"
 	}
 	"review_score" "6"
-	"review_percentage" "78"
+	"review_percentage" "75"
 }
 "extended"
 {
@@ -191,9 +248,9 @@
 		{
 			"public"
 			{
-				"gid" "462973658333303391"
-				"size" "25526886755"
-				"download" "7643227840"
+				"gid" "5811556148419381090"
+				"size" "25552615771"
+				"download" "7655307488"
 			}
 			"previousversion"
 			{
@@ -244,8 +301,8 @@
 	{
 		"public"
 		{
-			"buildid" "13048411"
-			"timeupdated" "1703618586"
+			"buildid" "13420461"
+			"timeupdated" "1707529653"
 		}
 		"dlctest"
 		{
@@ -322,6 +379,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21727140"
-"_sha" "aace76b70663fe8589e5ab899a22cd2622361253"
-"_size" "5796"
+"_change_number" "22551044"
+"_sha" "9d05e4070081c08755eb42d3069595966fb0b3db"
+"_size" "7309"
