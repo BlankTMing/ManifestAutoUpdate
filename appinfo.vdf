@@ -32,9 +32,6 @@
 		"1" "2"
 		"2" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_sex" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "1"
@@ -309,7 +306,7 @@
 		"0"
 		{
 			"executable" "rust.exe"
-			"arguments" "-logfile \"output_log.txt\" -disable-gpu-skinning --normal-rendering \"-graphics.dlss -1\" -graphics.dlss 1- \" -graphics.dlss 1-\""
+			"arguments" "-logfile \"output_log.txt\" -timestamps -disable-gpu-skinning --normal-rendering \"-graphics.dlss -1\" -graphics.dlss 1- \" -graphics.dlss 1-\""
 			"type" "default"
 			"config"
 			{
@@ -324,7 +321,7 @@
 		"1"
 		{
 			"executable" "./rust.app"
-			"arguments" "-logfile \"output_log.txt\" -disable-gpu-skinning --normal-rendering \"-graphics.dlss -1\" -graphics.dlss 1-"
+			"arguments" "-logfile \"output_log.txt\" -timestamps -disable-gpu-skinning --normal-rendering \"-graphics.dlss -1\" -graphics.dlss 1-"
 			"type" "default"
 			"config"
 			{
@@ -339,7 +336,7 @@
 		"2"
 		{
 			"executable" "rust"
-			"arguments" "-logfile \"output_log.txt\" -disable-gpu-skinning --normal-rendering \"-graphics.dlss -1\" \"-graphics.dlss -1\" -graphics.dlss 1-"
+			"arguments" "-logfile \"output_log.txt\" -timestamps -disable-gpu-skinning --normal-rendering \"-graphics.dlss -1\" \"-graphics.dlss -1\" -graphics.dlss 1-"
 			"type" "default"
 			"config"
 			{
@@ -354,7 +351,7 @@
 		"3"
 		{
 			"executable" "rust.exe"
-			"arguments" "-logfile \"output_log.txt\""
+			"arguments" "-logfile \"output_log.txt\" -timestamps"
 			"type" "option1"
 			"config"
 			{
@@ -370,7 +367,7 @@
 		"4"
 		{
 			"executable" "./rust.app"
-			"arguments" "-logfile \"output_log.txt\""
+			"arguments" "-logfile \"output_log.txt\" -timestamps"
 			"type" "option1"
 			"config"
 			{
@@ -386,7 +383,7 @@
 		"5"
 		{
 			"executable" "rust"
-			"arguments" "-logfile \"output_log.txt\""
+			"arguments" "-logfile \"output_log.txt\" -timestamps"
 			"type" "option1"
 			"config"
 			{
@@ -448,48 +445,48 @@
 		{
 			"public"
 			{
-				"gid" "3317892016495204214"
-				"size" "28822955211"
-				"download" "17163351856"
+				"gid" "3601592019064890293"
+				"size" "29223384191"
+				"download" "17427853696"
 			}
 			"last-last-month"
-			{
-				"gid" "7349653548567432614"
-				"size" "24361244445"
-				"download" "14467406752"
-			}
-			"last-month"
 			{
 				"gid" "6589908780369401305"
 				"size" "24669431769"
 				"download" "14743872368"
+			}
+			"last-month"
+			{
+				"gid" "5365806023481877465"
+				"size" "28822961963"
+				"download" "17163427440"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"debug"
 			{
-				"gid" "5C2430B1AFA7807D6C15FD88926ABACE"
-				"size" "E3E5640C08D5D46DCA897EA5AEAA6419"
-				"download" "6D5FDC8761CF9C75F0C02DCE02EBCB15"
+				"gid" "BB495BDB06FEF57B02EFAB9A91D5827D"
+				"size" "A7C2A53113ACB588C041B3673355CF27"
+				"download" "9501AAECBB17DD0395D12FF0677BCCAD"
 			}
 			"release"
 			{
-				"gid" "07C355785DF7A2A773E98597E39943D3"
-				"size" "14213290B5B955B7FE149ECD13BB9935"
-				"download" "88D15D5EE6E35D0399D584E20EA6877C"
+				"gid" "BBED6D66E3E09BBB2C2669F7CADBC75F"
+				"size" "3FCBC9A5782F91B578752954E7C48BFB"
+				"download" "B0924BB2F53266FAB866EB043E23CFDA"
 			}
 			"release-debug"
 			{
-				"gid" "E075A18BF5367C93498C26EDE4EEBFAD"
-				"size" "A3055CE0B91A21C8166A7AA3B7CE297D"
-				"download" "77C9CD885CDF92C3E49313C45D5C900A"
+				"gid" "236AE6D4A7041E9BA5A127FB400132CA"
+				"size" "F1C6C1C7ECF6DD0CF995416CC2952A61"
+				"download" "6891A84D3301AE646340AEFFA67FEE4A"
 			}
 			"test"
 			{
-				"gid" "67426EB4C8EC1AEA13157DCAD76F7490"
-				"size" "F10601DD612544052AC5FD77EBFC69C5"
-				"download" "DFAC16A214A01E1CB6D856C7C3DCBBCC"
+				"gid" "CC344961EE0FCE75951BB9C7D50C887A"
+				"size" "21B8CD83B7DE7AEE8A6D2EE47F629D47"
+				"download" "7C24C734155B4D7B640F5C89F8579A49"
 			}
 			"test-debug"
 			{
@@ -516,48 +513,48 @@
 		{
 			"public"
 			{
-				"gid" "6761609254473720426"
-				"size" "4660512930"
-				"download" "1706995008"
+				"gid" "3719186555873595912"
+				"size" "4949329534"
+				"download" "1887126672"
 			}
 			"last-last-month"
-			{
-				"gid" "6750536104846942983"
-				"size" "4618637607"
-				"download" "1687015648"
-			}
-			"last-month"
 			{
 				"gid" "339091670818304165"
 				"size" "4624604220"
 				"download" "1690170416"
+			}
+			"last-month"
+			{
+				"gid" "2360865700090942696"
+				"size" "4656937917"
+				"download" "1705013216"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"debug"
 			{
-				"gid" "B4B7CBC471F65DFBD060B621FA4EAABE"
-				"size" "67548332E63739963C5B1A36DC96424D"
-				"download" "0D876DA392F534BF5BF102DF6B6B0B8A"
+				"gid" "1E71E2A119CAB812652C48D6B838C7D2"
+				"size" "E986365C898093C2CDA481C78EAE76B7"
+				"download" "4ED5A3859967C589E5519724966FCB7C"
 			}
 			"release"
 			{
-				"gid" "115ABF9E87DC6C85DDE09ABEFEF105B2"
-				"size" "B2CFFDE331A220015C29654FF839F2B7"
-				"download" "5C1B8FACD656D38B40DE0417EAEBC285"
+				"gid" "1E2631A52C6F371B6320113424B33E9E"
+				"size" "581744AAA1DB3E975B197ED59B28CB31"
+				"download" "135A96399CABBDFAD5ED968ECE4209A4"
 			}
 			"release-debug"
 			{
-				"gid" "2023E284F495AFCE52BC8A0DD4B485C9"
-				"size" "F54157246DEB0B3A4E9271F9B6A46628"
-				"download" "9C4F8CEA0F6C2ABA8D17CB94457BCAE1"
+				"gid" "2DABCE219B196BFDC329CD9C7E3FA4CF"
+				"size" "1A3FA81B71E365BC9CDDC1C377D7DC0A"
+				"download" "6C77AEB00980BB92436808850DADF460"
 			}
 			"test"
 			{
-				"gid" "26FA4883090A62B927A7AE6AF48788B0"
-				"size" "089893E231A0994691C544928E94AFB0"
-				"download" "6043E8820F0316485A7F53E11163E12E"
+				"gid" "21E1AD2BE4940CBA8B0F7A0CB3814C21"
+				"size" "CC3C00A38EE6B9FE1E80C5F820934076"
+				"download" "AC8685505706E9AD1BB5DB21BE72AFD8"
 			}
 			"test-debug"
 			{
@@ -585,48 +582,48 @@
 		{
 			"public"
 			{
-				"gid" "7028457364125767820"
-				"size" "718166940"
-				"download" "521092192"
+				"gid" "9136697147288873247"
+				"size" "780401000"
+				"download" "533185968"
 			}
 			"last-last-month"
-			{
-				"gid" "1505284979523996684"
-				"size" "706348542"
-				"download" "512488592"
-			}
-			"last-month"
 			{
 				"gid" "8118064878764629145"
 				"size" "707679584"
 				"download" "513055712"
+			}
+			"last-month"
+			{
+				"gid" "4380970296844531494"
+				"size" "717569762"
+				"download" "520711184"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"debug"
 			{
-				"gid" "0F38BA0983FBC0396CEE7523AE5FCA15"
-				"size" "A1B35C23C0C6BFABFF50122D3E05F744"
-				"download" "996EBC730367E487AB0D8CC1D8CC5036"
+				"gid" "32622E72ADAA213EFD3AA4140D92FA2C"
+				"size" "B81F110082065DCFE492DB81F2865ACC"
+				"download" "5EF464C1EEFA2B7DCC237C80C9C232B2"
 			}
 			"release"
 			{
-				"gid" "B9412F12343813699A199EAA54C2D6EA"
-				"size" "4B372E3160B03373ABB73FDA7B5CF37B"
-				"download" "FBFB6AF601BD2BBF411438D370FA3863"
+				"gid" "DD51259F2F668A2B82FAB5919D83838C"
+				"size" "3035B7AF7197BF41A82C1A33ABED34EC"
+				"download" "6987FAE65C8448B11F389D6AC879FA4A"
 			}
 			"release-debug"
 			{
-				"gid" "6CD0DD52F928FEFDFF61D74A7909FC01"
-				"size" "EC86A9993377C4A9086066AAFCAE36BC"
-				"download" "8E80180AC5207FF546CB5F3B805CD01B"
+				"gid" "A90578AAB63A8DDD85A9D49F90AD2175"
+				"size" "C4011B1255643F93090E051D36A4637E"
+				"download" "B96B957AF470AE18C4F97306539D747D"
 			}
 			"test"
 			{
-				"gid" "4FF47B4F56D0A123124CBF049F0BC0D5"
-				"size" "8CAC2033BAFAFE6FB3093E8177AC8824"
-				"download" "E93046BBF8297AF83CB913E7A08B33EA"
+				"gid" "C4955D2DA5E86F50D13A7EDDA764433D"
+				"size" "861DAE721D7ABA7AA3990C60B1AE1403"
+				"download" "CE520BB70A2A00B14ABCC0D0FD336D4A"
 			}
 			"test-debug"
 			{
@@ -646,44 +643,44 @@
 	{
 		"public"
 		{
-			"buildid" "13380543"
-			"timeupdated" "1707226657"
+			"buildid" "13685119"
+			"timeupdated" "1710006577"
 		}
 		"debug"
 		{
-			"buildid" "11029092"
+			"buildid" "13672684"
 			"pwdrequired" "1"
-			"timeupdated" "1683203214"
+			"timeupdated" "1709836235"
 		}
 		"last-last-month"
 		{
-			"buildid" "12999513"
+			"buildid" "13257862"
 			"description" "Last last months patch"
-			"timeupdated" "1706812489"
+			"timeupdated" "1709836290"
 		}
 		"last-month"
 		{
-			"buildid" "13257862"
+			"buildid" "13544764"
 			"description" "Last months patch"
-			"timeupdated" "1706812570"
+			"timeupdated" "1709836315"
 		}
 		"release"
 		{
-			"buildid" "13380543"
+			"buildid" "13724939"
 			"pwdrequired" "1"
-			"timeupdated" "1707221045"
+			"timeupdated" "1710325027"
 		}
 		"release-debug"
 		{
-			"buildid" "13380562"
+			"buildid" "13724967"
 			"pwdrequired" "1"
-			"timeupdated" "1707221175"
+			"timeupdated" "1710325138"
 		}
 		"test"
 		{
-			"buildid" "13334348"
+			"buildid" "13672684"
 			"pwdrequired" "1"
-			"timeupdated" "1706812714"
+			"timeupdated" "1709836441"
 		}
 		"test-debug"
 		{
@@ -701,17 +698,15 @@
 }
 "ufs"
 {
-	"quota" "100000000000"
+	"quota" "10000000000"
 	"maxnumfiles" "2000"
-	"ignoreexternalfiles" "1"
-	"hidecloudui" "1"
 	"savefiles"
 	{
 		"0"
 		{
 			"root" "gameinstall"
 			"path" "cfg"
-			"pattern" "*.cfg"
+			"pattern" "keys.cfg"
 		}
 	}
 }
@@ -731,6 +726,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22227128"
-"_sha" "46b5f587a51c5db01ce7e99fc14df5fe446fe5dd"
-"_size" "14402"
+"_change_number" "22742712"
+"_sha" "b0a5339d574bca69a673adfe304ccd8e031c1b81"
+"_size" "14332"
