@@ -34,15 +34,30 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1693958400"
-		"tested_build_id" "12013221"
+		"category" "2"
+		"test_timestamp" "1708560000"
+		"tested_build_id" "2399440"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
 		}
 		"configuration"
@@ -58,6 +73,7 @@
 			"recommended_runtime" "proton-stable"
 			"requires_h264" "1"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"controllertagwizard" "1"
@@ -127,6 +143,7 @@
 		"category_57" "1"
 		"category_58" "1"
 		"category_60" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -193,8 +210,8 @@
 		"4" "198913"
 		"5" "123332"
 		"6" "1644"
-		"7" "4175"
-		"8" "3859"
+		"7" "3859"
+		"8" "4175"
 		"9" "4182"
 		"10" "7368"
 		"11" "3839"
@@ -208,14 +225,14 @@
 		"19" "12057"
 	}
 	"review_score" "6"
-	"review_percentage" "77"
+	"review_percentage" "78"
 }
 "extended"
 {
 	"developer" "Milestone S.r.l."
 	"publisher" "Milestone S.r.l."
 	"homepage" "https://ridevideogame.com/"
-	"listofdlc" "2315150,2315160,2315170,2315180,2315190,2315200,2315210,2315220,2315230,2315240,2315250,2315260,2315270,2331010"
+	"listofdlc" "2315150,2315160,2315170,2315180,2315190,2315200,2315210,2315220,2315230,2315240,2315250,2315260,2315270,2315290,2315300,2315310,2331010"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -259,9 +276,9 @@
 		{
 			"public"
 			{
-				"gid" "6285661233469237602"
-				"size" "51423634197"
-				"download" "48612929680"
+				"gid" "2123407219131123926"
+				"size" "52258513306"
+				"download" "49431775008"
 			}
 		}
 		"encryptedmanifests"
@@ -316,9 +333,9 @@
 			}
 			"devbranch"
 			{
-				"gid" "D359B865365047D86B57D8437EF9C47E"
-				"size" "4D85FAF3DA40B187ABB2EE8DF88DD9BB"
-				"download" "5D10DC82149488AA533CE492162142B6"
+				"gid" "C9BCE5B132C1E4400B8E5D605A5CA6B5"
+				"size" "03701AF6F6552FC56384DA7D7AC4EB17"
+				"download" "E55E8628E91884DCE07CCEE1F9187514"
 			}
 			"epicxplay"
 			{
@@ -352,9 +369,9 @@
 			}
 			"live_me_five"
 			{
-				"gid" "2AB7CC9ED0DAED53A61A606F0F619321"
-				"size" "B47BFA61229F095831D2A876406BE7CA"
-				"download" "79CC27475070E8EED012BDD2F6C2A4B3"
+				"gid" "96607AA582DDA3CB290E33A8EDB48882"
+				"size" "77510CB802ABF59ABBBC20272281ED80"
+				"download" "FD08628B8D693FDFF6D0D637661B10A2"
 			}
 			"mock_review"
 			{
@@ -382,9 +399,9 @@
 			}
 			"testbranch"
 			{
-				"gid" "AAA540B00DE86B55CFDF0E41E946EAD8"
-				"size" "47FBE4DB40DDB6D68C9B1A9A2AC5B57E"
-				"download" "26091C1FDA68CD221EAFEC0FDF8A324B"
+				"gid" "A1A715B70A57B689C91F89F5408340EE"
+				"size" "AF9D155D6DD23B721BD7B9C1120BB83E"
+				"download" "607AC2A122AEA0C914A7FA67B757CAFE"
 			}
 			"testeos"
 			{
@@ -398,8 +415,8 @@
 	{
 		"public"
 		{
-			"buildid" "13315793"
-			"timeupdated" "1706777986"
+			"buildid" "13410226"
+			"timeupdated" "1708506049"
 		}
 		"agerating"
 		{
@@ -451,9 +468,9 @@
 		}
 		"devbranch"
 		{
-			"buildid" "13327987"
+			"buildid" "13523296"
 			"pwdrequired" "1"
-			"timeupdated" "1706729311"
+			"timeupdated" "1708544737"
 		}
 		"epicxplay"
 		{
@@ -487,9 +504,9 @@
 		}
 		"live_me_five"
 		{
-			"buildid" "13178416"
+			"buildid" "13447076"
 			"pwdrequired" "1"
-			"timeupdated" "1705396657"
+			"timeupdated" "1707927690"
 		}
 		"mock_review"
 		{
@@ -517,9 +534,9 @@
 		}
 		"testbranch"
 		{
-			"buildid" "13315793"
+			"buildid" "13760119"
 			"pwdrequired" "1"
-			"timeupdated" "1706637072"
+			"timeupdated" "1710563690"
 		}
 		"testeos"
 		{
@@ -545,6 +562,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22148871"
-"_sha" "e41cde8e8f18c9e9b932e69f6fc42f0ad0bfcb3a"
-"_size" "11038"
+"_change_number" "22790378"
+"_sha" "480a0e4bedf576e889bd37b20194ca05d53f3988"
+"_size" "11472"
