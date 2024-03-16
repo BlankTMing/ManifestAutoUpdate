@@ -19,11 +19,15 @@
 	{
 		"english" "1"
 		"german" "1"
+		"french" "1"
+		"italian" "1"
 		"koreana" "1"
 		"spanish" "1"
 		"schinese" "1"
+		"tchinese" "1"
 		"thai" "1"
 		"japanese" "1"
+		"brazilian" "1"
 	}
 	"steam_deck_compatibility"
 	{
@@ -91,7 +95,7 @@
 			"height_pct" "85.74363704416638"
 		}
 	}
-	"store_asset_mtime" "1700216976"
+	"store_asset_mtime" "1709723280"
 	"associations"
 	{
 		"0"
@@ -129,6 +133,7 @@
 		"category_23" "1"
 		"category_45" "1"
 		"category_46" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -160,6 +165,22 @@
 		{
 			"supported" "true"
 		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
 	}
 	"steam_release_date" "1646729194"
 	"community_visible_stats" "1"
@@ -169,8 +190,8 @@
 	{
 		"0" "3843"
 		"1" "3964"
-		"2" "3810"
-		"3" "1100689"
+		"2" "1100689"
+		"3" "3810"
 		"4" "21"
 		"5" "1662"
 		"6" "1702"
@@ -234,6 +255,56 @@
 			}
 			"description" "Core Keeper (OpenGL)"
 		}
+		"3"
+		{
+			"executable" "CoreKeeper.exe"
+			"arguments" "-safemode"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Core Keeper (no mods)"
+				"german" "Core Keeper (keine Mods)"
+				"french" "Core Keeper (pas de mods)"
+				"italian" "Core Keeper (nessuna mod)"
+				"koreana" "Core Keeper (모드 없음)"
+				"spanish" "Core Keeper (sin mods)"
+				"schinese" "Core Keeper (无模组)"
+				"tchinese" "Core Keeper (無模組)"
+				"thai" "Core Keeper (ไม่มี mod)"
+				"japanese" "Core Keeper (MODなし)"
+				"brazilian" "Core Keeper (sem mods)"
+			}
+			"description" "Core Keeper (no mods)"
+		}
+		"4"
+		{
+			"executable" "CoreKeeper"
+			"arguments" "-safemode"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "Core Keeper (no mods)"
+				"german" "Core Keeper (keine Mods)"
+				"french" "Core Keeper (pas de mods)"
+				"italian" "Core Keeper (nessuna mod)"
+				"koreana" "Core Keeper (모드 없음)"
+				"spanish" "Core Keeper (sin mods)"
+				"schinese" "Core Keeper (无模组)"
+				"tchinese" "Core Keeper (無模組)"
+				"thai" "Core Keeper (ไม่มี mod)"
+				"japanese" "Core Keeper (MODなし)"
+				"brazilian" "Core Keeper (sem mods)"
+			}
+			"description" "Core Keeper (no mods)"
+		}
 	}
 	"uselaunchcommandline" "1"
 }
@@ -258,9 +329,9 @@
 		{
 			"public"
 			{
-				"gid" "9095091714062843689"
-				"size" "636278237"
-				"download" "348354848"
+				"gid" "8081398058137710229"
+				"size" "644390534"
+				"download" "353817104"
 			}
 			"0.7.1"
 			{
@@ -274,11 +345,17 @@
 				"size" "635621300"
 				"download" "348475488"
 			}
+			"0.7.3"
+			{
+				"gid" "3414912731463985201"
+				"size" "636303579"
+				"download" "348373504"
+			}
 			"moddebug"
 			{
-				"gid" "8372562732418480900"
-				"size" "636278248"
-				"download" "348357248"
+				"gid" "8279753016355701127"
+				"size" "644390505"
+				"download" "353819840"
 			}
 		}
 		"encryptedmanifests"
@@ -291,9 +368,9 @@
 			}
 			"ambassadors"
 			{
-				"gid" "AC19F7902675B67128D9EF0A18A40EAF"
-				"size" "477012C18B52798E2647B9B1A44D7EB4"
-				"download" "CEB49E22E5BE3D3FAAD44414F71D07F6"
+				"gid" "05A6D65AFCBC7A333598989BBC755321"
+				"size" "73BD367D05F884636D5470AC72797B86"
+				"download" "37002CDA785196BB3F34F054542DEBA5"
 			}
 			"compatibility"
 			{
@@ -309,9 +386,9 @@
 			}
 			"developer"
 			{
-				"gid" "2B47A8235C477035CB3D6E0F864205BF"
-				"size" "1EB549387BA6100B463AD8F9FBB53932"
-				"download" "36318E5F6EBE9678AB05C58DE227A677"
+				"gid" "7AF10CAF2654F07DC08E8EEC45815B09"
+				"size" "D6712CD4341CE88CC67B33FE057C946F"
+				"download" "9532E999F30DF5507E021A9FD4B86C11"
 			}
 			"early_explorers"
 			{
@@ -327,9 +404,9 @@
 			}
 			"externalaccess"
 			{
-				"gid" "46127BDD9A88C95919A35ADB43138202"
-				"size" "FE4A44D465831D873F7CB3093D7A7102"
-				"download" "338FD6E15A5103ADF67AB785EA447769"
+				"gid" "EC1A018C8D8D864BD3A951B2D480CEEC"
+				"size" "A716D950A81F53AFFC48F0DF049856EF"
+				"download" "92DD1F341AF4D292E30E8431EFB2F3A7"
 			}
 			"marketing"
 			{
@@ -345,15 +422,15 @@
 			}
 			"press"
 			{
-				"gid" "BCE2454B8DCCAF84A465F38CAAF9F0D2"
-				"size" "2E0800D453979CF15FD5ABF4D38E2C67"
-				"download" "22DB12507BD23347B976A4C3624491CB"
+				"gid" "77C85260B2F2991E7C08619E5497E8E7"
+				"size" "132E4744BF0D6EB5778B7F490429C223"
+				"download" "53DA95076A82CBA0A1F7FF6F94EF0120"
 			}
 			"private"
 			{
-				"gid" "E06C44C62CAFCC91CF633E3A07AB7F2D"
-				"size" "2212D16AAEEF6E08F7E1A5AA88EBADA7"
-				"download" "BCF22EB24D37286D2260ECD9490EBE5B"
+				"gid" "4B2174E5F120E0C76805BFF404762E1E"
+				"size" "0FB7C8CC1A07AA2F92DA42DBEA7C2D67"
+				"download" "64FAF729C5E87116809C22112A3AD069"
 			}
 			"publisher"
 			{
@@ -381,9 +458,9 @@
 			}
 			"trailers"
 			{
-				"gid" "A796077B8787DC1CD2E7B39DC4FCF9AB"
-				"size" "48A4910788B079066989E20E7B10761F"
-				"download" "A25FC05727ECD9D68BCC51E4AB7D158C"
+				"gid" "79F7072B5C1727BC108DC5CA5088D634"
+				"size" "596181431F7502FE39220B77B406807F"
+				"download" "A58AF964071ABDC8620E4026F046478E"
 			}
 			"usability"
 			{
@@ -403,9 +480,9 @@
 		{
 			"public"
 			{
-				"gid" "8915800608823772852"
-				"size" "677410071"
-				"download" "348822656"
+				"gid" "2002433109385879485"
+				"size" "686263989"
+				"download" "354296288"
 			}
 			"0.7.1"
 			{
@@ -419,11 +496,17 @@
 				"size" "674384678"
 				"download" "348407520"
 			}
+			"0.7.3"
+			{
+				"gid" "4438538967916979394"
+				"size" "677408361"
+				"download" "348828656"
+			}
 			"moddebug"
 			{
-				"gid" "1125709551915264110"
-				"size" "677410077"
-				"download" "348819424"
+				"gid" "3412546589298533006"
+				"size" "686263999"
+				"download" "354295664"
 			}
 		}
 		"encryptedmanifests"
@@ -436,9 +519,9 @@
 			}
 			"ambassadors"
 			{
-				"gid" "7C7CAF19AA0D4241F90E2758E864B9A4"
-				"size" "731E4827A40A2EC1AAA3196429532950"
-				"download" "8A598BF4EBDC2C8E1788F6160D8B8E48"
+				"gid" "63B55E292DA702CD91A742B81B7559FD"
+				"size" "67555F172462EE597507E572895C4141"
+				"download" "5E86B9EF03BBC855391E04BC7EEFD295"
 			}
 			"compatibility"
 			{
@@ -454,9 +537,9 @@
 			}
 			"developer"
 			{
-				"gid" "A306CE764D1F46E515994143BBCA289F"
-				"size" "1E1499786C6448C2FB6F75D4493DD451"
-				"download" "365DDA7F389BC3D6DDDFB9E621DAE96F"
+				"gid" "D3713DFC86506B8D867F53910DF62FA0"
+				"size" "1CA6160C671C8372990D3B2EEC88D885"
+				"download" "B5CD52FD3B95663D1DBFB7DE3932AA8F"
 			}
 			"early_explorers"
 			{
@@ -472,9 +555,9 @@
 			}
 			"externalaccess"
 			{
-				"gid" "B092AEEEA6E4403DFF49483092EF76D0"
-				"size" "D03CB91BAF13CEF9CA84FB6C40130957"
-				"download" "12AB40E10EA171AE7A37795FDA356929"
+				"gid" "F8D2B65846CCA9CDB0409A4360B1B738"
+				"size" "16E8CDCAEA3983BE2E701D47B6ECA802"
+				"download" "312B91290A8720C7BDEA7F180173FDD2"
 			}
 			"marketing"
 			{
@@ -490,15 +573,15 @@
 			}
 			"press"
 			{
-				"gid" "79ADF47A42AEEC216861E281B103D2A8"
-				"size" "872E4B83AA6DD1350FA7C26728AB4DD8"
-				"download" "B8F341B282385196CEEF58D8AEA82963"
+				"gid" "2C7F180AA3B836A4278DD792B87A278F"
+				"size" "F2E8F3CC25317072AD6A622310BE99EE"
+				"download" "F4A579D5BF3674F69816EDE82924B4B1"
 			}
 			"private"
 			{
-				"gid" "336B849D6419CAC4B7E22E7C588638FD"
-				"size" "5EBF24DC2058A312514D047CE9286011"
-				"download" "96BB04000B8FF30B9FAFE1F6C582B7F0"
+				"gid" "4AA5587C53F84661F2A3FB0DC1B68530"
+				"size" "3DA2162EF508CDA3527D732C22392EFB"
+				"download" "C56A998CEA1D5E3A4EFF7E8FD69E4512"
 			}
 			"publisher"
 			{
@@ -526,9 +609,9 @@
 			}
 			"trailers"
 			{
-				"gid" "51EFD599F40EFE0B136670E5C9326F43"
-				"size" "AC5522D21B1EC8727AEF081276E0A12B"
-				"download" "AE7CBBE2CEB4C846D538E23382D1BD51"
+				"gid" "0162B3E626764A51207EFCD1293EFD85"
+				"size" "4A67BCEA095F3B0868EEC3703ED11E3C"
+				"download" "B3E3810FE74DF5AE8E467CE0690D24E9"
 			}
 			"usability"
 			{
@@ -542,8 +625,8 @@
 	{
 		"public"
 		{
-			"buildid" "13390370"
-			"timeupdated" "1707299227"
+			"buildid" "13736477"
+			"timeupdated" "1710410079"
 		}
 		"0.7.1"
 		{
@@ -557,6 +640,12 @@
 			"description" "Legacy build - 12959740"
 			"timeupdated" "1706694750"
 		}
+		"0.7.3"
+		{
+			"buildid" "13462550"
+			"description" "Legacy build - 13462550"
+			"timeupdated" "1709891529"
+		}
 		"age_ratings"
 		{
 			"buildid" "12373687"
@@ -565,9 +654,9 @@
 		}
 		"ambassadors"
 		{
-			"buildid" "13390370"
+			"buildid" "13736477"
 			"pwdrequired" "1"
-			"timeupdated" "1707299118"
+			"timeupdated" "1710409903"
 		}
 		"compatibility"
 		{
@@ -583,9 +672,9 @@
 		}
 		"developer"
 		{
-			"buildid" "13390370"
+			"buildid" "13736477"
 			"pwdrequired" "1"
-			"timeupdated" "1707297662"
+			"timeupdated" "1710403820"
 		}
 		"early_explorers"
 		{
@@ -601,9 +690,9 @@
 		}
 		"externalaccess"
 		{
-			"buildid" "13390370"
+			"buildid" "13728538"
 			"pwdrequired" "1"
-			"timeupdated" "1707299149"
+			"timeupdated" "1710410112"
 		}
 		"marketing"
 		{
@@ -613,9 +702,9 @@
 		}
 		"moddebug"
 		{
-			"buildid" "13390427"
+			"buildid" "13728538"
 			"description" "For mod debugging"
-			"timeupdated" "1707299265"
+			"timeupdated" "1710410129"
 		}
 		"nightly"
 		{
@@ -625,15 +714,15 @@
 		}
 		"press"
 		{
-			"buildid" "13390370"
+			"buildid" "13736477"
 			"pwdrequired" "1"
-			"timeupdated" "1707299132"
+			"timeupdated" "1710409915"
 		}
 		"private"
 		{
-			"buildid" "13390370"
+			"buildid" "13736477"
 			"pwdrequired" "1"
-			"timeupdated" "1707299166"
+			"timeupdated" "1710409929"
 		}
 		"publisher"
 		{
@@ -839,6 +928,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22241371"
-"_sha" "721d55c5884006bff94878ea6a8fd8b159437229"
-"_size" "19679"
+"_change_number" "22759286"
+"_sha" "a432d649df1bc29657739710460940c8706ee223"
+"_size" "21721"
