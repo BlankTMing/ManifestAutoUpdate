@@ -1,30 +1,56 @@
 "appid" "12360"
 "common"
 {
-	"clienticon" "338df560d5f29acd0fe888b6fdb953b7ab1e4bed"
-	"clienttga" "8144f046028b9d50214f0a14dac057e12b46f267"
-	"name" "FlatOut: Ultimate Carnage"
+	"clienticon" "3bda7946e4293258ca259f2dc4fb11f49e7a117b"
+	"clienttga" "2e039a5dca82c216cf657879b9d476f621c58c09"
+	"name" "FlatOut: Ultimate Carnage Collector\'s Edition"
 	"logo" "b78a799d55c2e71f38999e8b2cd6f042082d157a"
 	"logo_small" "858efc49dbe68fffa1c70266a9018b7bcd829d76"
-	"icon" "ae8285124541a49bbb080e661627436acba78ecc"
+	"icon" "18e8998d43630ecf4bd26c252f10930d6b524e72"
 	"metacritic_url" "pc/flatoutultimatecarnage"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+	}
 	"type" "game"
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1646438400"
-		"tested_build_id" "2753"
+		"category" "3"
+		"test_timestamp" "1709251200"
+		"tested_build_id" "13543527"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
 		}
 		"configuration"
 		{
-			"supported_input" "other"
+			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
@@ -32,11 +58,15 @@
 			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-1RC"
 			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "FlatOut: Ultimate Carnage"
+	"controllertagwizard" "1"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -50,14 +80,15 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
-			"pinned_position" "BottomCenter"
-			"width_pct" "67.62013729977116"
-			"height_pct" "53.419615293279506"
+			"pinned_position" "BottomLeft"
+			"width_pct" "38.463773977713544"
+			"height_pct" "83.2712266201703"
 		}
 	}
-	"store_asset_mtime" "1570634160"
+	"store_asset_mtime" "1709802585"
 	"associations"
 	{
 		"0"
@@ -66,6 +97,16 @@
 			"name" "Bugbear Entertainment"
 		}
 		"1"
+		{
+			"type" "developer"
+			"name" "ZOOM Platform Media"
+		}
+		"2"
+		{
+			"type" "developer"
+			"name" "Jordan Freeman Group"
+		}
+		"3"
 		{
 			"type" "publisher"
 			"name" "Strategy First"
@@ -78,14 +119,18 @@
 	}
 	"category"
 	{
-		"category_1" "1"
 		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
 		"english"
 		{
 			"supported" "true"
+			"full_audio" "true"
 		}
 		"french"
 		{
@@ -103,11 +148,28 @@
 		{
 			"supported" "true"
 		}
+		"czech"
+		{
+			"supported" "true"
+		}
+		"hungarian"
+		{
+			"supported" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
 	}
 	"original_release_date" "1219129200"
 	"steam_release_date" "1219129200"
 	"metacritic_score" "79"
 	"metacritic_fullurl" "https://www.metacritic.com/game/pc/flatout-ultimate-carnage\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "12360"
 	"store_tags"
@@ -126,9 +188,11 @@
 		"11" "3968"
 		"12" "4182"
 		"13" "4136"
+		"14" "1685"
+		"15" "1693"
 	}
 	"review_score" "8"
-	"review_percentage" "86"
+	"review_percentage" "87"
 }
 "extended"
 {
@@ -137,43 +201,76 @@
 	"homepage" "http://www.flatoutgame.com/"
 	"icon" "steam/games/icon_FlatOut Ultimate Carnage"
 	"installscript" "InstallScript.vdf"
-	"legacykeyregistrationmethod" "registry"
-	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp12360\\SteamKey"
 	"noservers" "1"
 	"order" "1"
 	"primarycache" "12361"
 	"serverbrowsername" ""
-	"showcdkeyonlaunch" "1"
 	"state" "eStateAvailable"
-	"supportscdkeycopytoclipboard" "0"
+	"deckresolutionoverride" "Native"
+	"hadthirdpartycdkey" "1"
 	"publisher" "Strategy First"
+	"gamemanualurl" "https://store.steampowered.com/manual/12360/"
 }
 "config"
 {
 	"contenttype" "3"
-	"installdir" "FlatOut Ultimate Carnage"
+	"installdir" "FlatOut Ultimate Carnage CE"
 	"launch"
 	{
-		"0"
+		"1"
 		{
 			"executable" "Launcher.exe"
+			"type" "option1"
+			"config"
+			{
+				"betakey" "gfwl"
+			}
+			"description_loc"
+			{
+				"english" "GFWL Version"
+			}
+			"description" "GFWL Version"
+		}
+		"2"
+		{
+			"executable" "Fouc.exe"
+			"type" "default"
+		}
+		"3"
+		{
+			"executable" "Fouc.exe"
+			"arguments" "-launcher"
+			"type" "config"
+			"description_loc"
+			{
+				"english" "Configuration Tool"
+				"german" "Konfigurationswerkzeug"
+				"french" "Outil de configuration"
+				"italian" "Strumento di configurazione"
+				"spanish" "Herramienta de configuración"
+				"russian" "Инструмент конфигурации"
+				"polish" "Narzędzie konfiguracji"
+				"hungarian" "Konfigurációs eszköz"
+				"czech" "Nástroj pro konfiguraci"
+			}
+			"description" "Configuration Tool"
 		}
 	}
+	"steamcontrollertemplateindex" "4"
+	"steamdecktouchscreen" "5"
+	"steamconfigurator3rdpartynative" "65533"
 }
 "depots"
 {
-	"12362"
+	"overridescddb" "1"
+	"228990"
 	{
-		"systemdefined" "1"
-		"manifests"
+		"config"
 		{
-			"public"
-			{
-				"gid" "752421524611369987"
-				"size" "4153444411"
-				"download" "0"
-			}
+			"oslist" "windows"
 		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
 	}
 	"12361"
 	{
@@ -182,36 +279,335 @@
 		{
 			"public"
 			{
+				"gid" "2844117153376933237"
+				"size" "353242255"
+				"download" "267133648"
+			}
+			"gfwl"
+			{
 				"gid" "689583021985976178"
 				"size" "517986699"
 				"download" "0"
 			}
 		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "BC778B6BCAF56AE80C632E96C98828AF"
+				"size" "D5E7C72A8BAEA586293DBD374BF0A3F9"
+				"download" "2D5776AB4BB8E538B80E668922E1BACC"
+			}
+		}
 	}
-	"12363"
+	"12362"
 	{
-		"optional" "1"
 		"systemdefined" "1"
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "9178342019531213201"
-				"size" "4096829603"
+				"gid" "6247001494345259201"
+				"size" "4688619881"
+				"download" "3234781248"
+			}
+			"gfwl"
+			{
+				"gid" "752421524611369987"
+				"size" "4153444411"
 				"download" "0"
 			}
 		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "B66820BA7D1AF82D089A9D72B0D8CC71"
+				"size" "95AFE5E6F9C803EC2D0B811061A93F10"
+				"download" "E7B5260C2DC29E9BCD7934C04FD31BE8"
+			}
+		}
 	}
-	"overridescddb" "1"
+	"12365"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1450024317469657347"
+				"size" "8660"
+				"download" "688"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "A78AAA4F5FB1F81C4AF58DD2879AC7ED"
+				"size" "A3A4998FC188A8D7346C7E445AE5ED34"
+				"download" "AA4EE039915A60ED7B3A1506635AE8FE"
+			}
+		}
+	}
+	"12366"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "107604193322718631"
+				"size" "8660"
+				"download" "688"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "AFB636C28F1964FB05CDB812D0AA0637"
+				"size" "A3A4998FC188A8D7346C7E445AE5ED34"
+				"download" "AA4EE039915A60ED7B3A1506635AE8FE"
+			}
+		}
+	}
+	"12367"
+	{
+		"config"
+		{
+			"language" "hungarian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "107474595129320722"
+				"size" "8661"
+				"download" "688"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "7EA9BE7EA70709CDE661943D6D5065D5"
+				"size" "BA4F235BB2ABC7C885366452215535BF"
+				"download" "AA4EE039915A60ED7B3A1506635AE8FE"
+			}
+		}
+	}
+	"12368"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1002923263084311050"
+				"size" "8660"
+				"download" "688"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "9217CA5BA44B04BB02FE7B49F0649875"
+				"size" "A3A4998FC188A8D7346C7E445AE5ED34"
+				"download" "AA4EE039915A60ED7B3A1506635AE8FE"
+			}
+		}
+	}
+	"2844480"
+	{
+		"config"
+		{
+			"language" "polish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "41298877719351335"
+				"size" "8660"
+				"download" "688"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "BE2C506574BAB5F933521DB8CDCA5D2C"
+				"size" "A3A4998FC188A8D7346C7E445AE5ED34"
+				"download" "AA4EE039915A60ED7B3A1506635AE8FE"
+			}
+		}
+	}
+	"2844481"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "774036250781670738"
+				"size" "258517"
+				"download" "240192"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "BD1F7FDA376098F224157DB8D7605009"
+				"size" "A5479E8C99BBD91A3E1B91BBB2F72F24"
+				"download" "DB68CA441DCFCCF42D6D547FF57B8DCD"
+			}
+		}
+	}
+	"2844482"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2858493943417880793"
+				"size" "8660"
+				"download" "688"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "7695D9085A604FC1BBCED409BED4F6CB"
+				"size" "A3A4998FC188A8D7346C7E445AE5ED34"
+				"download" "AA4EE039915A60ED7B3A1506635AE8FE"
+			}
+		}
+	}
+	"2844484"
+	{
+		"config"
+		{
+			"language" "czech"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7062479292615686706"
+				"size" "8660"
+				"download" "688"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "ED8ED90CB2F4B0BA5BB195079766E54B"
+				"size" "A3A4998FC188A8D7346C7E445AE5ED34"
+				"download" "AA4EE039915A60ED7B3A1506635AE8FE"
+			}
+		}
+	}
+	"12369"
+	{
+		"config"
+		{
+			"steamdeck" "1"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "193374845912379358"
+				"size" "464665"
+				"download" "240608"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "7B9929ADD373123D1AC3956E40F81ADF"
+				"size" "25F2583E052E1339F609390FCCAE1750"
+				"download" "6F777020BBA71662C1A4AC77B3A17CB0"
+			}
+		}
+	}
+	"baselanguages" "english,german,french,italian,spanish,russian,polish,hungarian,czech"
 	"branches"
 	{
 		"public"
 		{
+			"buildid" "13729526"
+			"timeupdated" "1710350862"
+		}
+		"gfwl"
+		{
 			"buildid" "2753"
+			"description" "old gfwl version"
+			"timeupdated" "1707984638"
+		}
+		"zoomplatform"
+		{
+			"buildid" "13729526"
+			"pwdrequired" "1"
+			"timeupdated" "1710350820"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "268435456"
+	"maxnumfiles" "256"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "FlatOut Ultimate Carnage/Savegame"
+			"pattern" "player_*.sav"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "FlatOut Ultimate Carnage/Savegame"
+			"pattern" "*.dat"
+		}
+		"2"
+		{
+			"root" "WinAppDataLocal"
+			"path" "FlatOut Ultimate Carnage/Savegame"
+			"pattern" "gfwl_id.txt"
+		}
+		"3"
+		{
+			"root" "WinAppDataLocal"
+			"path" "FlatOut Ultimate Carnage/Savegame"
+			"pattern" "gfwl_username.txt"
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "20085264"
-"_sha" "4bc149177c302dda29db7ebc24b4ad7dad916cfe"
-"_size" "4006"
+"_change_number" "22749264"
+"_sha" "51f112bbf36010aa850f6eeca4b40d85a89e4a99"
+"_size" "11213"
