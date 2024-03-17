@@ -22,39 +22,59 @@
 	}
 	"osextended" ""
 	"linuxclienticon" "5aa48d2d5892776d01c7dba8b7dae3f045114684"
+	"exfgls" "1"
 	"content_descriptors"
 	{
 		"0" "2"
 		"1" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1651536000"
-		"tested_build_id" "8460015"
+		"category" "2"
+		"test_timestamp" "1708732800"
+		"tested_build_id" "13525742"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
 		{
-			"supported_input" "simultaneous_gamepad_mouse"
-			"requires_manual_keyboard_invoke" "1"
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "1"
-			"non_deck_display_glyphs" "1"
-			"small_text" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "native"
+			"recommended_runtime" "proton-stable"
 			"requires_h264" "0"
-			"gamescope_frame_limiter_not_supported" "1"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Last Epoch"
@@ -79,7 +99,7 @@
 			"height_pct" "64.05775010788986"
 		}
 	}
-	"store_asset_mtime" "1705959510"
+	"store_asset_mtime" "1708532031"
 	"associations"
 	{
 		"0"
@@ -100,7 +120,6 @@
 		"1" "25"
 		"2" "23"
 		"3" "3"
-		"4" "70"
 	}
 	"category"
 	{
@@ -113,6 +132,7 @@
 		"category_9" "1"
 		"category_38" "1"
 		"category_35" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -154,36 +174,38 @@
 			"supported" "true"
 		}
 	}
-	"steam_release_date" "1556656200"
+	"steam_release_date" "1708534849"
+	"metacritic_score" "79"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/last-epoch\?ftag=MCD-06-10aaa1f"
 	"community_hub_visible" "1"
 	"gameid" "899770"
 	"store_tags"
 	{
 		"0" "4231"
-		"1" "1646"
-		"2" "122"
-		"3" "4236"
+		"1" "4236"
+		"2" "1646"
+		"3" "122"
 		"4" "5851"
-		"5" "19"
-		"6" "21"
-		"7" "493"
-		"8" "492"
-		"9" "3859"
+		"5" "3859"
+		"6" "19"
+		"7" "21"
+		"8" "1685"
+		"9" "492"
 		"10" "1720"
-		"11" "4791"
-		"12" "4182"
-		"13" "4345"
-		"14" "4667"
-		"15" "4747"
+		"11" "4182"
+		"12" "4791"
+		"13" "493"
+		"14" "4345"
+		"15" "4667"
 		"16" "1684"
-		"17" "1685"
+		"17" "4747"
 		"18" "4057"
 		"19" "10679"
 	}
-	"review_score" "8"
-	"review_percentage" "84"
-	"review_score_bombs" "8"
-	"review_percentage_bombs" "84"
+	"review_score" "6"
+	"review_percentage" "77"
+	"review_score_bombs" "6"
+	"review_percentage_bombs" "77"
 }
 "extended"
 {
@@ -218,6 +240,22 @@
 				"osarch" "64"
 			}
 		}
+		"2"
+		{
+			"executable" "Last Epoch.exe"
+			"arguments" "--offline"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Full Offline"
+			}
+			"description" "Full Offline"
+		}
 	}
 }
 "depots"
@@ -234,18 +272,18 @@
 		{
 			"public"
 			{
-				"gid" "2744891072477414123"
-				"size" "18866298151"
-				"download" "8036347952"
+				"gid" "1536575172131346053"
+				"size" "22474867745"
+				"download" "10426475056"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"hurdygurdy"
 			{
-				"gid" "4B515F2E398A22D6483E66E8D8FDB433"
-				"size" "BA1EF704305693F8015DCD6512151B60"
-				"download" "6A0825E14773D5A2A16EE3E057277757"
+				"gid" "FCD9224EC159A1F046C08772E856C0FD"
+				"size" "3EAFED889433E270AB5CAFE0C0340C69"
+				"download" "A82EEDD0D7F240F63F3E2484E7866D8E"
 			}
 		}
 	}
@@ -260,9 +298,9 @@
 		{
 			"public"
 			{
-				"gid" "6438516286441791687"
-				"size" "20210041278"
-				"download" "8430209248"
+				"gid" "5927112682516108526"
+				"size" "25134896094"
+				"download" "11127153280"
 			}
 		}
 		"encryptedmanifests"
@@ -279,14 +317,14 @@
 	{
 		"public"
 		{
-			"buildid" "13338003"
-			"timeupdated" "1706807032"
+			"buildid" "13746214"
+			"timeupdated" "1710463493"
 		}
 		"hurdygurdy"
 		{
-			"buildid" "12129937"
+			"buildid" "13734354"
 			"pwdrequired" "1"
-			"timeupdated" "1694073039"
+			"timeupdated" "1710385386"
 		}
 	}
 }
@@ -343,6 +381,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22155856"
-"_sha" "0c97865167ca5167e5acb1f3ce65eddc7380df6e"
-"_size" "6114"
+"_change_number" "22795117"
+"_sha" "a421f1c65181e194a0a7d6250444b29b0e2c1245"
+"_size" "6981"
