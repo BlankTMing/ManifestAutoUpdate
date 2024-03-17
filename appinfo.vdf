@@ -1,7 +1,7 @@
 "appid" "17480"
 "common"
 {
-	"name" "Command and Conquer: Red Alert 3"
+	"name" "Command & Conquer™ Red Alert™ 3"
 	"metacritic_url" "pc/commandandconquerredalert3"
 	"logo" "1b9a5723f68bf15ba865e151afbde9f1eb9a3846"
 	"logo_small" "1b9a5723f68bf15ba865e151afbde9f1eb9a3846_thumb"
@@ -16,6 +16,34 @@
 			"name" "Command and Conquer: Red Alert 3 EULA"
 			"url" "http://store.steampowered.com//eula/17480_eula_1"
 		}
+	}
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"name_localized"
+	{
+		"danish" "Command & Conquer™ Red Alert™ 3"
+		"dutch" "Command & Conquer™ Red Alert™ 3"
+		"finnish" "Command & Conquer™ Red Alert™ 3"
+		"french" "Command & Conquer™: Alerte Rouge™ 3"
+		"german" "Command & Conquer™: Alarmstufe Rot 3"
+		"italian" "Command & Conquer™ Red Alert™ 3"
+		"norwegian" "Command & Conquer™ Red Alert™ 3"
+		"polish" "Command & Conquer™ Red Alert™ 3"
+		"portuguese" "Command & Conquer™ Red Alert™ 3"
+		"russian" "Command & Conquer™ Red Alert™ 3"
+		"spanish" "Command & Conquer™ Red Alert™ 3"
+		"swedish" "Command & Conquer™ Red Alert™ 3"
+		"turkish" "Command & Conquer™ Red Alert™ 3"
+		"brazilian" "Command & Conquer™ Red Alert™ 3"
+		"tchinese" "《終極動員令：紅色警戒 3》"
+		"japanese" "Command & Conquer™ Red Alert™ 3"
+		"koreana" "Command & Conquer™ Red Alert™ 3"
+		"schinese" "《命令与征服™：红色警戒 3》"
+		"czech" "Command & Conquer™ Red Alert™ 3"
+		"latam" "Command & Conquer™ Red Alert™ 3"
+		"thai" "Command & Conquer™ Red Alert™ 3"
+		"ukrainian" "Command & Conquer™ Red Alert™ 3"
 	}
 	"type" "game"
 	"steam_deck_compatibility"
@@ -79,6 +107,7 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -86,7 +115,7 @@
 			"height_pct" "27"
 		}
 	}
-	"store_asset_mtime" "1426111943"
+	"store_asset_mtime" "1709221145"
 	"associations"
 	{
 		"0"
@@ -113,6 +142,7 @@
 	"category"
 	{
 		"category_2" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -166,14 +196,14 @@
 		"2" "7332"
 		"3" "3859"
 		"4" "1685"
-		"5" "4598"
-		"6" "4182"
-		"7" "3942"
-		"8" "4161"
+		"5" "4182"
+		"6" "4598"
+		"7" "4161"
+		"8" "3942"
 		"9" "1678"
 		"10" "4508"
-		"11" "19"
-		"12" "3843"
+		"11" "3843"
+		"12" "19"
 		"13" "1693"
 		"14" "1756"
 		"15" "1719"
@@ -195,14 +225,13 @@
 	"icon" ""
 	"installscript" "installscript.vdf"
 	"launcheula" "http://storefront.steampowered.com/eula_testapp17480"
-	"legacykeyregistrationmethod" "registry"
-	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp17480\\SteamKey"
 	"noservers" "1"
 	"order" "1"
 	"primarycache" "17481"
 	"serverbrowsername" ""
 	"showcdkeyinmenu" "1"
 	"state" "eStateAvailable"
+	"hadthirdpartycdkey" "1"
 	"publisher" "Electronic Arts"
 	"gamemanualurl" "https://store.steampowered.com/manual/17480/"
 }
@@ -218,13 +247,44 @@
 		}
 		"1"
 		{
-			"description" "View Support Information"
+			"executable" "Data\\WorldBuilder.exe"
+			"description_loc"
+			{
+				"english" "Launch World Builder"
+			}
+			"description" "Launch World Builder"
+		}
+		"2"
+		{
 			"executable" "Support\\EA Help\\Electronic_Arts_Technical_Support.htm"
+			"description_loc"
+			{
+				"english" "View Support Information"
+			}
+			"description" "View Support Information"
 		}
 	}
 }
 "depots"
 {
+	"228981"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
 	"17481"
 	{
 		"systemdefined" "1"
@@ -232,9 +292,24 @@
 		{
 			"public"
 			{
-				"gid" "7764986692466191886"
-				"size" "8740203658"
-				"download" "0"
+				"gid" "653672268483414842"
+				"size" "8676160377"
+				"download" "6934196192"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"age_ratings"
+			{
+				"gid" "C3B8C2A45CB02BB7391EE6463EE7677E"
+				"size" "B02CBC3C7B43015C2151F223D01128F7"
+				"download" "293DDCF60BBE67FE700B4A348C7D8F81"
+			}
+			"eacc"
+			{
+				"gid" "97845A108C9FCE13089C09F470CEC312"
+				"size" "92E9616611D05C3B2C65EB34ECA82BCC"
+				"download" "9D34BA8DB0559D21A0DEEC5994546098"
 			}
 		}
 	}
@@ -248,9 +323,24 @@
 		{
 			"public"
 			{
-				"gid" "868985356280360033"
+				"gid" "7641386508001202904"
 				"size" "2278382397"
-				"download" "0"
+				"download" "1887701328"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"age_ratings"
+			{
+				"gid" "D1881104BD59FB0818E7E1F5C4BB9580"
+				"size" "A03934E85BBD61CA49D3319BA01511DF"
+				"download" "645862788E41D112D361A39A3242BDBC"
+			}
+			"eacc"
+			{
+				"gid" "F1D2C3D727E37C86B1505B3FCC376D8F"
+				"size" "0B84C712992E15BCA32A5103F5F3F19F"
+				"download" "0762A7FBBD4F0E7ACFE9DDC81F071632"
 			}
 		}
 	}
@@ -264,9 +354,24 @@
 		{
 			"public"
 			{
-				"gid" "8692171736524055041"
+				"gid" "103913089125215938"
 				"size" "298951134"
-				"download" "0"
+				"download" "146483040"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"age_ratings"
+			{
+				"gid" "430C3DAF05E7E6D5376ADF17356FFCBB"
+				"size" "49793CD6CFDEEFC643A4666446DA8A21"
+				"download" "98EE00E63B0B2AA432B3B8F5B3AA9D84"
+			}
+			"eacc"
+			{
+				"gid" "3357479127741CF61E938C60E78A2C5B"
+				"size" "7806A231718ACBC2B1B45C3F0D988659"
+				"download" "524ABB63FA19301A0CC45D29D0EFE30D"
 			}
 		}
 	}
@@ -280,9 +385,24 @@
 		{
 			"public"
 			{
-				"gid" "6872022137988603316"
+				"gid" "6677461725964279354"
 				"size" "2323859214"
-				"download" "0"
+				"download" "1880607376"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"age_ratings"
+			{
+				"gid" "73173F39A6E61931CC795D7D29404E88"
+				"size" "52C6C0E605204BC58D0EF73E5AB811CC"
+				"download" "DF249D42FCB92303BDC60F15EBD4B2D6"
+			}
+			"eacc"
+			{
+				"gid" "FC7688303382398BB4B2796333F91BE4"
+				"size" "75F25DB4EC2BF323395460040784B744"
+				"download" "E97E56492970E9A5D2CCBBD852401350"
 			}
 		}
 	}
@@ -296,9 +416,24 @@
 		{
 			"public"
 			{
-				"gid" "5295712577487425283"
+				"gid" "9063166583739198350"
 				"size" "2336743232"
-				"download" "0"
+				"download" "1893126416"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"age_ratings"
+			{
+				"gid" "1879C32E9C79B2FE2A8DFF5A428717CE"
+				"size" "E329DAA5757A13A41B8E14771730A62A"
+				"download" "F50AD8F9CE7428ADE1D6C5DE0330F9CF"
+			}
+			"eacc"
+			{
+				"gid" "9CB2BFD6FE9EF9DFC4AF20D763010D82"
+				"size" "3D6E45297DCF544DDC3C8B511F9AC48E"
+				"download" "6761070100192A9F0A21C2EA2C824B21"
 			}
 		}
 	}
@@ -312,9 +447,24 @@
 		{
 			"public"
 			{
-				"gid" "8714125917421566915"
+				"gid" "1144206454096772966"
 				"size" "298831428"
-				"download" "0"
+				"download" "146376992"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"age_ratings"
+			{
+				"gid" "F8C92D2B9EB338AE7E49CC31635F98AD"
+				"size" "9839E40DC415A89A03E31375FD21CC1B"
+				"download" "09ECD5AD608877142B553FC080529249"
+			}
+			"eacc"
+			{
+				"gid" "E4409A2C5E61C5AB96177F57ECDFE5BB"
+				"size" "1B4898EDE8C12E2ACA046198EA4CD534"
+				"download" "6C0784E9C4F4481BFB2B727CEEC105BA"
 			}
 		}
 	}
@@ -328,9 +478,24 @@
 		{
 			"public"
 			{
-				"gid" "7347804921902201924"
+				"gid" "6156928887569032857"
 				"size" "2237958710"
-				"download" "0"
+				"download" "1838925184"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"age_ratings"
+			{
+				"gid" "234734A148C09F183C45371DD0DA0CAF"
+				"size" "DB7843753AE24E75449D82C4A23D15D3"
+				"download" "8E134F3CF797F3FFE88449C791A86E73"
+			}
+			"eacc"
+			{
+				"gid" "765DA04CD7057B7AEB225028F9C2F800"
+				"size" "37B86210D1BC90CADC37E5D9BB670B73"
+				"download" "1134075250925E6300185E0B525137F0"
 			}
 		}
 	}
@@ -344,9 +509,24 @@
 		{
 			"public"
 			{
-				"gid" "4241475671531904703"
+				"gid" "2396992433358461684"
 				"size" "298919113"
-				"download" "0"
+				"download" "146450560"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"age_ratings"
+			{
+				"gid" "D127C4224D9FF7CCB70A103DBA541384"
+				"size" "1A941C099F224DFE148307E69D8E5D69"
+				"download" "A0941A42A36245BB0A866F88A7211E47"
+			}
+			"eacc"
+			{
+				"gid" "B1DB9C016944F1C757039276ACA3F86F"
+				"size" "F6D4B9A6EB875CA874DBABB80D30BBEC"
+				"download" "80A6869AA68BE2B75C3307DE4525548C"
 			}
 		}
 	}
@@ -360,22 +540,92 @@
 		{
 			"public"
 			{
-				"gid" "8196080998326618446"
+				"gid" "5204438489548255125"
 				"size" "2316873124"
-				"download" "0"
+				"download" "1916835392"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"age_ratings"
+			{
+				"gid" "F9F663CF9DDD89A5C8614660D740994F"
+				"size" "94F263D1690C9F6F8D404989DF7E4F30"
+				"download" "F1F686F067783C2D81E953872BC02876"
+			}
+			"eacc"
+			{
+				"gid" "A3879FB486AD6E027DA84A3E2103BAE6"
+				"size" "D6FE8317E5E480E1B4C1A0CEE61D7E73"
+				"download" "AE49590E45A0BC3573A297D93B626F50"
 			}
 		}
 	}
 	"overridescddb" "1"
+	"baselanguages" "english,german,french,italian,spanish,russian,polish,hungarian,czech"
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "252138"
+			"buildid" "13686239"
+			"timeupdated" "1709986455"
+		}
+		"age_ratings"
+		{
+			"buildid" "13263785"
+			"pwdrequired" "1"
+			"timeupdated" "1706190218"
+		}
+		"eacc"
+		{
+			"buildid" "13686239"
+			"pwdrequired" "1"
+			"timeupdated" "1709936261"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "Red Alert 3/Profiles"
+			"pattern" "*.*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "WinSavedGames"
+			"path" "Red Alert 3"
+			"pattern" "*.*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Red Alert 3"
+			"pattern" "*.*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "21063274"
-"_sha" "1f5e789991fd46c50a2d333a480bd23d025ae67b"
-"_size" "6495"
+"_change_number" "22713838"
+"_sha" "5434e01123eb7d0c2b02e7f4ae756a3ec51cba50"
+"_size" "12587"
