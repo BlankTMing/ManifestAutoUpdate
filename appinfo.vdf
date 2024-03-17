@@ -1,7 +1,7 @@
 "appid" "1035760"
 "common"
 {
-	"name" "微光之镜 Glimmer in Mirror"
+	"name" "Glimmer in Mirror"
 	"type" "Game"
 	"icon" "7e6eb68967f8d7c39b81ff9525925d6d1f212598"
 	"logo" "3d406db7f6f771d9e7ca19d284aac9e65a08265e"
@@ -11,7 +11,6 @@
 	"releasestate" "released"
 	"name_localized"
 	{
-		"english" "Glimmer in Mirror"
 		"schinese" "微光之镜"
 		"tchinese" "微光之鏡"
 		"sc_schinese" "微光之镜"
@@ -93,6 +92,7 @@
 		"library_capsule" "en,zh-cn"
 		"library_hero" "zh-cn,en"
 		"library_logo" "zh-cn,en"
+		"library_header" "en,zh-cn"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -100,7 +100,7 @@
 			"height_pct" "83.62816230322609"
 		}
 	}
-	"store_asset_mtime" "1673358820"
+	"store_asset_mtime" "1710407553"
 	"associations"
 	{
 		"0"
@@ -123,6 +123,11 @@
 			"type" "publisher"
 			"name" "MapleDorm Games"
 		}
+		"4"
+		{
+			"type" "franchise"
+			"name" "CubeGame"
+		}
 	}
 	"primary_genre" "1"
 	"genres"
@@ -139,12 +144,11 @@
 		"category_2" "1"
 		"category_22" "1"
 		"category_28" "1"
-		"category_45" "1"
-		"category_46" "1"
 		"category_29" "1"
 		"category_23" "1"
 		"category_15" "1"
 		"category_33" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -218,8 +222,8 @@
 		"10" "4231"
 		"11" "21"
 		"12" "4106"
-		"13" "4726"
-		"14" "1628"
+		"13" "1628"
+		"14" "4726"
 		"15" "122"
 		"16" "1684"
 		"17" "3871"
@@ -233,7 +237,7 @@
 {
 	"developer" "MapleDorm Games"
 	"publisher" "方块游戏(CubeGame)"
-	"homepage" "https://space.bilibili.com/7686012"
+	"homepage" "https://wgzj.cubejoy.com/"
 }
 "config"
 {
@@ -272,6 +276,18 @@
 		{
 			"public"
 			{
+				"gid" "6282997535849507827"
+				"size" "5476903697"
+				"download" "748072960"
+			}
+			"beta"
+			{
+				"gid" "6282997535849507827"
+				"size" "5476903697"
+				"download" "748072960"
+			}
+			"v0.6"
+			{
 				"gid" "1778622951304086709"
 				"size" "5567828280"
 				"download" "682569696"
@@ -285,12 +301,6 @@
 				"size" "9330BCE86312B29F82019AF20A45619B"
 				"download" "907D34F211945C5600566C6905D6593B"
 			}
-			"beta"
-			{
-				"gid" "139262D87B9D1EDF229E6F2418C2F9A5"
-				"size" "2F177C400B103F4D729BCBFBE7F0C8DD"
-				"download" "8490697954DE68B2BE19AB410A297508"
-			}
 			"demo"
 			{
 				"gid" "9D737D98705F6D2F80753489EF0C34BB"
@@ -299,9 +309,9 @@
 			}
 			"develop"
 			{
-				"gid" "5F6B6312157991E707EB6DCACC1DA169"
-				"size" "8D9407837035CB17C454CE2684AA30EE"
-				"download" "01A939DE3BE1F12BFC4CB9A15808DDAA"
+				"gid" "B5D91DE9E6AC8F534CC326CC60E7B743"
+				"size" "179CEA8CB3B60F790F2AD29FD50F758C"
+				"download" "D43942D76F119B0B4C10E9E9F491CE81"
 			}
 			"steam_china_only"
 			{
@@ -320,10 +330,17 @@
 			"pwdrequired" "1"
 			"timeupdated" "1672459021"
 		}
+		"v0.6"
+		{
+			"sc_schinese" "游戏旧版本归档（v0.6）"
+			"buildid" "10786159"
+			"description" "Game old version archive (v0.6)"
+			"timeupdated" "1709886512"
+		}
 		"public"
 		{
-			"buildid" "10786159"
-			"timeupdated" "1678980759"
+			"buildid" "13756364"
+			"timeupdated" "1710530994"
 		}
 		"alpha"
 		{
@@ -333,9 +350,9 @@
 		}
 		"beta"
 		{
-			"buildid" "5884264"
-			"pwdrequired" "1"
-			"timeupdated" "1606367385"
+			"buildid" "13756364"
+			"description" "Public beta test branch"
+			"timeupdated" "1710531117"
 		}
 		"demo"
 		{
@@ -345,9 +362,9 @@
 		}
 		"develop"
 		{
-			"buildid" "10786159"
+			"buildid" "13756364"
 			"pwdrequired" "1"
-			"timeupdated" "1678980087"
+			"timeupdated" "1710529979"
 		}
 	}
 }
@@ -399,6 +416,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21744264"
-"_sha" "b3910edf4bd59f8ddf719826207c76028cf08411"
-"_size" "7472"
+"_change_number" "22786098"
+"_sha" "8cbf68ce9b1f97d9ae8be8355b011843d3b683b3"
+"_size" "7751"
