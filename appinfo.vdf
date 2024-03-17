@@ -88,6 +88,7 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "CenterCenter"
@@ -149,6 +150,7 @@
 		"category_57" "1"
 		"category_58" "1"
 		"category_59" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -226,16 +228,16 @@
 		"5" "4026"
 		"6" "42804"
 		"7" "7208"
-		"8" "3959"
-		"9" "7569"
-		"10" "3964"
-		"11" "8253"
+		"8" "7569"
+		"9" "3959"
+		"10" "8253"
+		"11" "3964"
 		"12" "3871"
 		"13" "1646"
 		"14" "4791"
 		"15" "5125"
-		"16" "122"
-		"17" "4057"
+		"16" "4057"
+		"17" "122"
 		"18" "1684"
 		"19" "19"
 	}
@@ -308,6 +310,7 @@
 			"config"
 			{
 				"oslist" "macos"
+				"betakey" "legacy"
 			}
 			"description_loc"
 			{
@@ -338,6 +341,7 @@
 			"config"
 			{
 				"oslist" "linux"
+				"betakey" "legacy"
 			}
 			"description_loc"
 			{
@@ -384,6 +388,7 @@
 			"config"
 			{
 				"oslist" "windows"
+				"betakey" "legacy"
 			}
 			"description_loc"
 			{
@@ -415,6 +420,7 @@
 			{
 				"oslist" "linux"
 				"osarch" "64"
+				"betakey" "legacy"
 			}
 			"description_loc"
 			{
@@ -429,6 +435,7 @@
 			"config"
 			{
 				"oslist" "macos"
+				"betakey" "legacy"
 			}
 			"description_loc"
 			{
@@ -443,6 +450,7 @@
 			"config"
 			{
 				"oslist" "windows"
+				"betakey" "legacy"
 			}
 			"description_loc"
 			{
@@ -471,7 +479,7 @@
 		"1898653507"
 		{
 			"controller_type" "controller_mobile_touch"
-			"enabled_branches" "default,experimental_client,mactesting,razorsedge"
+			"enabled_branches" "default,experimental_client,legacy,mactesting,razorsedge"
 			"use_action_block" "false"
 		}
 	}
@@ -482,30 +490,29 @@
 		"2940219257"
 		{
 			"controller_type" "controller_generic"
-			"enabled_branches" "default,experimental_client,mactesting,razorsedge"
+			"enabled_branches" "default,experimental_client,legacy,mactesting,razorsedge"
 			"use_action_block" "false"
 		}
 		"2940222273"
 		{
 			"controller_type" "controller_neptune"
-			"enabled_branches" "default,experimental_client,mactesting,razorsedge"
+			"enabled_branches" "default,experimental_client,legacy,mactesting,razorsedge"
 			"use_action_block" "false"
 		}
 		"2940224665"
 		{
 			"controller_type" "controller_ps5"
-			"enabled_branches" "default,experimental_client,mactesting,razorsedge"
+			"enabled_branches" "default,experimental_client,legacy,mactesting,razorsedge"
 			"use_action_block" "false"
 		}
 		"2940227155"
 		{
 			"controller_type" "controller_xboxone"
-			"enabled_branches" "default,experimental_client,mactesting,razorsedge"
+			"enabled_branches" "default,experimental_client,legacy,mactesting,razorsedge"
 			"use_action_block" "true"
 		}
 	}
 	"uselaunchcommandline" "1"
-	"steamconfigurator3rdpartynative" "65535"
 }
 "depots"
 {
@@ -545,9 +552,27 @@
 				"size" "1486611857"
 				"download" "1374488032"
 			}
+			"legacy"
+			{
+				"gid" "6500174575869804275"
+				"size" "1486611857"
+				"download" "1374488032"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "F2FDA2FCC366B899C7798541DB0A5D05"
+				"size" "3988B9E85665250CC93703CE6BA6060E"
+				"download" "05C68F9C3A30307FCB970847C138348C"
+			}
+			"coldsteel_new"
+			{
+				"gid" "EF5EAE6F41A3B44A0B958D9567CE214E"
+				"size" "EA20F4832006DF56F5D405869621CC9A"
+				"download" "77221595C338294D87E63FE16D864036"
+			}
 			"experimental_client"
 			{
 				"gid" "EB974FB507813978AE4F9DA3CA54CFB8"
@@ -594,9 +619,27 @@
 				"size" "1633749476"
 				"download" "1431704896"
 			}
+			"legacy"
+			{
+				"gid" "4727330498046063179"
+				"size" "1633749476"
+				"download" "1431704896"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "3D68144B25B426392C80B2990892CE11"
+				"size" "1E3566F1495EC9396C06DA69381EC95F"
+				"download" "214508AF47AB3CDA3402275CF3930C97"
+			}
+			"coldsteel_new"
+			{
+				"gid" "6A7044F88513F39C9165CB748607A0AB"
+				"size" "162D7B865DB097D00ECEFFCC4D20E4EA"
+				"download" "7DDCB50D27508380577FD942D91048D3"
+			}
 			"experimental_client"
 			{
 				"gid" "BD954F658486D33AE88660787D234311"
@@ -643,9 +686,27 @@
 				"size" "1548276766"
 				"download" "1431483552"
 			}
+			"legacy"
+			{
+				"gid" "3462815885007914830"
+				"size" "1548276766"
+				"download" "1431483552"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "4D6646D1C389685F70695115A2C2E197"
+				"size" "332269EA2F7570A19A36E4A9CEB459E0"
+				"download" "92058A04D66515EFE387EDB308B63E13"
+			}
+			"coldsteel_new"
+			{
+				"gid" "A18F913FCBE4DC423B83E3CC78B499F3"
+				"size" "DB853A6645D61A10D8F39DC7440481F9"
+				"download" "F1C04C6445E35B48946BA85A86883390"
+			}
 			"experimental_client"
 			{
 				"gid" "2CF82B2410537526A76F72D21B232AE9"
@@ -693,9 +754,27 @@
 				"size" "0"
 				"download" "0"
 			}
+			"legacy"
+			{
+				"gid" "2232323183465492955"
+				"size" "0"
+				"download" "0"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "72DCA4FEDC5E2179ECC9975372686033"
+				"size" "C5C5AC06187E7AB4B3C697AE0101DAC4"
+				"download" "C5C5AC06187E7AB4B3C697AE0101DAC4"
+			}
+			"coldsteel_new"
+			{
+				"gid" "0C746B6411C1BFAD95CA1CC00668EED4"
+				"size" "EAD276A5E9580BCCFEFA0AD0F65F0994"
+				"download" "EAD276A5E9580BCCFEFA0AD0F65F0994"
+			}
 			"experimental_client"
 			{
 				"gid" "B479D722CF88A8812EC24F147716510B"
@@ -743,9 +822,27 @@
 				"size" "0"
 				"download" "0"
 			}
+			"legacy"
+			{
+				"gid" "3673134151412406193"
+				"size" "0"
+				"download" "0"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "2FFB1DD330A91573491CC536E053C49C"
+				"size" "C5C5AC06187E7AB4B3C697AE0101DAC4"
+				"download" "C5C5AC06187E7AB4B3C697AE0101DAC4"
+			}
+			"coldsteel_new"
+			{
+				"gid" "FF740D3A904A47345AD0FFD93BB32ABB"
+				"size" "EAD276A5E9580BCCFEFA0AD0F65F0994"
+				"download" "EAD276A5E9580BCCFEFA0AD0F65F0994"
+			}
 			"experimental_client"
 			{
 				"gid" "35CCAE846820A0B099A7E0E5B11D5B41"
@@ -793,9 +890,27 @@
 				"size" "0"
 				"download" "0"
 			}
+			"legacy"
+			{
+				"gid" "6396579400485105714"
+				"size" "0"
+				"download" "0"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "214D5450457DAE850E70B5641FA4E2DA"
+				"size" "C5C5AC06187E7AB4B3C697AE0101DAC4"
+				"download" "C5C5AC06187E7AB4B3C697AE0101DAC4"
+			}
+			"coldsteel_new"
+			{
+				"gid" "DA93AA32EC8C9A39DB41171AAC1CB437"
+				"size" "EAD276A5E9580BCCFEFA0AD0F65F0994"
+				"download" "EAD276A5E9580BCCFEFA0AD0F65F0994"
+			}
 			"experimental_client"
 			{
 				"gid" "F1C96452F3400E4165EAF2DD3E456C63"
@@ -838,9 +953,27 @@
 				"size" "1720972341"
 				"download" "1740116352"
 			}
+			"legacy"
+			{
+				"gid" "7248945412762249622"
+				"size" "1720972341"
+				"download" "1740116352"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "3359E011487834B99C5B2F34078CF296"
+				"size" "7F677BD0EBA63D2F0150E9442B8A2086"
+				"download" "0E361CE5CC5BE847BAA4D0402771F71F"
+			}
+			"coldsteel_new"
+			{
+				"gid" "8754161F8319981E2478045EC9FC818F"
+				"size" "7CDD2B73AFBFFE5A902D6320041752B6"
+				"download" "799780D645ABAD94BC35597C26E7E90E"
+			}
 			"experimental_client"
 			{
 				"gid" "DC47C534CB4FCFC8A613BDF2EA2B1A24"
@@ -884,9 +1017,27 @@
 				"size" "564026920"
 				"download" "565943584"
 			}
+			"legacy"
+			{
+				"gid" "441937160032073935"
+				"size" "564026920"
+				"download" "565943584"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "A653BCAC9A4794FBF82CFD947590D816"
+				"size" "05A5719A092CC024CFF96400F681658A"
+				"download" "45E2DE68B6D755669DE4E643249403D7"
+			}
+			"coldsteel_new"
+			{
+				"gid" "A92673C82317386DA2C7EC5C07E36C4A"
+				"size" "4851820F4B083E0904A367060701995F"
+				"download" "D8F3341357C24F4B261F5B48FA7E2109"
+			}
 			"experimental_client"
 			{
 				"gid" "D6F05E872866B9E1F113DCE1D85FE47B"
@@ -934,9 +1085,27 @@
 				"size" "1985303307"
 				"download" "1899765584"
 			}
+			"legacy"
+			{
+				"gid" "7273586692546981468"
+				"size" "1985303307"
+				"download" "1899765584"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "846D76862FDDCF588486CBEE13154492"
+				"size" "863A6C31233701A34EAF9CE735041D86"
+				"download" "1A65AEA7CF22DC8993C273478AD58129"
+			}
+			"coldsteel_new"
+			{
+				"gid" "BE1EF88A7BD677919D7A038FD16CB185"
+				"size" "50E490B6A32207DC2CAF2E1255C3607B"
+				"download" "87C8DFBE6EDADA2FC990083949ACDAC7"
+			}
 			"experimental_client"
 			{
 				"gid" "547D1BBC0CBE59FE55F25714D3C8583D"
@@ -984,9 +1153,27 @@
 				"size" "2108996068"
 				"download" "1956938096"
 			}
+			"legacy"
+			{
+				"gid" "5633019732755714459"
+				"size" "2108996068"
+				"download" "1956938096"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "3C238327C7F8E2A9B93E499F77479D8F"
+				"size" "9F433F9061D442C08FC3BF9FF8F41DA8"
+				"download" "F6817EB604354CF7285D1A2B9E17C3B4"
+			}
+			"coldsteel_new"
+			{
+				"gid" "73EC28CF1BA0A98361A7CADDA71EFBB0"
+				"size" "BBE4826E2DA87397AC66C8AD590F129C"
+				"download" "77A20BEB22AF3370A9B72B5ACDA6C600"
+			}
 			"experimental_client"
 			{
 				"gid" "588E36AC9AF11E0FB614C2991F5AFF91"
@@ -1028,9 +1215,27 @@
 				"size" "2022442319"
 				"download" "1956878192"
 			}
+			"legacy"
+			{
+				"gid" "352147026067536827"
+				"size" "2022442319"
+				"download" "1956878192"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "8A43FD4B495273A63E928AB85C2EDC06"
+				"size" "DF3214A87EA42F118284BA81B2A97427"
+				"download" "8B4741321934C615D0FE80EDE17959B2"
+			}
+			"coldsteel_new"
+			{
+				"gid" "99D2D36527A18128B33C246A01B6EDE5"
+				"size" "F1B2CD8A65A5098E05E2892C514BEA80"
+				"download" "2756E9D53790AFC9BBD6AC79CEE4A306"
+			}
 			"experimental_client"
 			{
 				"gid" "7CBC0EB722EE173B81EF83A22DECF8BC"
@@ -1067,6 +1272,12 @@
 		{
 			"public"
 			{
+				"gid" "5834467766114284707"
+				"size" "207999262"
+				"download" "91198160"
+			}
+			"legacy"
+			{
 				"gid" "845042445285665040"
 				"size" "235777627"
 				"download" "72212096"
@@ -1074,6 +1285,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "0122484D71C7ECE5F44D200E57D1A57D"
+				"size" "C3D0AB86BEA8738FDA9C017DD75309A1"
+				"download" "33A8AE91B83EBDE3B50747BB62C334E4"
+			}
+			"coldsteel_new"
+			{
+				"gid" "0A60AAF2CEB5009C154AFE7114DEB5B3"
+				"size" "D443718248029673F3FE54303DF925AB"
+				"download" "7905AEC2BF99816611D345D24949CEBC"
+			}
 			"experimental_client"
 			{
 				"gid" "D46D9B1827EBAA13ACFD2BC110199D9A"
@@ -1088,15 +1311,15 @@
 			}
 			"razorsedge"
 			{
-				"gid" "57B6EBBF2FF04F69BE16C6D73DDDC0F3"
-				"size" "68FECD999B9EAB72A63E57C7E2DB1831"
-				"download" "A1FB58B75C57FAD880631590B8EBE877"
+				"gid" "03B5B29B477173C1613E2FC7FB935700"
+				"size" "11E22383395EA1CC75932709637F321D"
+				"download" "9E753D2E2BA54F095040610BC95877F0"
 			}
 			"v4_testing"
 			{
-				"gid" "6A57399657CEE08A8E168F6856D2DB8A"
-				"size" "9E4A4B47C3F148727567E8819964A3D3"
-				"download" "0FBD598FCA19642C8C0D6722139237DB"
+				"gid" "47B53AC7706D7E08FC2FB17AA780190D"
+				"size" "C953986C189C363A0484C842FC508FF4"
+				"download" "40141BF373270C538CFD6127FA4123ED"
 			}
 		}
 	}
@@ -1111,6 +1334,12 @@
 		{
 			"public"
 			{
+				"gid" "6631010925935926515"
+				"size" "232659136"
+				"download" "103250592"
+			}
+			"legacy"
+			{
 				"gid" "1206045201537588146"
 				"size" "266249110"
 				"download" "88200544"
@@ -1118,6 +1347,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "8C01AECA9D724D20C327C82A12DC30B4"
+				"size" "940F5A4CBFC73508B238CDB7C37AAD84"
+				"download" "8476B7070B86649F7FFADF91EB1E15DA"
+			}
+			"coldsteel_new"
+			{
+				"gid" "F52BAD1E4597900C2FFBAE1BFB052D91"
+				"size" "154397FEEC36F21647A58F64A724BAED"
+				"download" "7AA0A33F4459DA7742C250A71852CA4B"
+			}
 			"experimental_client"
 			{
 				"gid" "FB461415E3D2D52817270E4368350825"
@@ -1132,15 +1373,15 @@
 			}
 			"razorsedge"
 			{
-				"gid" "2B92DC5659D9892C59B58ACC3BEF25EE"
-				"size" "BBE9083345B0A4D7C2A7890BDDA051C5"
-				"download" "A4CA2DAEFD0C960BCD678AACB1015A59"
+				"gid" "D9E1F99B336A8BBA95289B4A4A4F3469"
+				"size" "550C621E317E9E0F8111095D1AB97646"
+				"download" "6075347F9DA271B6FE39A45432684A91"
 			}
 			"v4_testing"
 			{
-				"gid" "3CD28CCA807DFE8A2B25219280A30AAF"
-				"size" "4B09BFF6917667D0BCE5BFDC39A60F4F"
-				"download" "A587582D937B279B0DD666C065F32275"
+				"gid" "4356DE6E8EC98589AD23A5D7A414E724"
+				"size" "F16F2D2C10889DC706ABA972A3B4AA88"
+				"download" "82CE1816A96580FB3304AC7C68191B28"
 			}
 		}
 	}
@@ -1155,6 +1396,12 @@
 		{
 			"public"
 			{
+				"gid" "2562985287690072185"
+				"size" "116356843"
+				"download" "78530816"
+			}
+			"legacy"
+			{
 				"gid" "3237576505887945458"
 				"size" "71239286"
 				"download" "39061328"
@@ -1162,6 +1409,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "B180F7E96099B590EAB923A4C832E01D"
+				"size" "D4C2FF44502C1A8D514499226CB3402F"
+				"download" "05F39BDEE7073B4C45A58E3AC64EF405"
+			}
+			"coldsteel_new"
+			{
+				"gid" "2C0A0F274BB43476E8A1C0E2E78F20F1"
+				"size" "17C87C504774E5961B15F404BEFA0C5D"
+				"download" "47BD5FCDAD5B426FAA77CB5EADC38DDA"
+			}
 			"experimental_client"
 			{
 				"gid" "6890821E4D26A7093EEC19F52B64678A"
@@ -1176,15 +1435,15 @@
 			}
 			"razorsedge"
 			{
-				"gid" "8D6BFC8F1D2CE1F32300C6B0D656CEB6"
-				"size" "F1C65A6D28789FA301FAFAE5D31A659D"
-				"download" "F7D2F3C5A6905E54809E55F9131739E0"
+				"gid" "259475F62A4207E93E8ADE3450919A4F"
+				"size" "244005D6753949ACF1004AED93E6F90C"
+				"download" "1F8F519A4B413A891ADBD2865C617968"
 			}
 			"v4_testing"
 			{
-				"gid" "5B5BA2767656AA21B42445D3ACFBCAD2"
-				"size" "13AA6E7A5CFC4B92ABDF2A4DFFEF3D4C"
-				"download" "CEAC3AF6DF12E1ED4B541012903ABE47"
+				"gid" "BEAE0B26F6C20A8943645F52D5D97FA6"
+				"size" "5208E83CCD627B4AF41D07AAECF57BC9"
+				"download" "B74A86BE6DC857CE8C6A32ECDC997DFC"
 			}
 		}
 	}
@@ -1200,6 +1459,12 @@
 		{
 			"public"
 			{
+				"gid" "1936272253113944024"
+				"size" "128434403"
+				"download" "90651920"
+			}
+			"legacy"
+			{
 				"gid" "3575407032547324475"
 				"size" "83988468"
 				"download" "51952032"
@@ -1207,6 +1472,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "E36EC0F92945D04C9D5D2AE3E53E2420"
+				"size" "EA735375C651C76497A7FACD533971E3"
+				"download" "09784F9BD171C5BA65227698AABB10C3"
+			}
+			"coldsteel_new"
+			{
+				"gid" "A9703D9861BB069F84A1393BE57DBD68"
+				"size" "C047E1797E722CF7722048ECCF2E2659"
+				"download" "813580F57736D675A38AA2B595549DA7"
+			}
 			"experimental_client"
 			{
 				"gid" "629F17061AD2134169A54B1DA62F7B2F"
@@ -1221,15 +1498,15 @@
 			}
 			"razorsedge"
 			{
-				"gid" "5DFA509379634958A58E05CDE6D1DF62"
-				"size" "63654F278ED681B5596041BD29110490"
-				"download" "3078CE937C9491B45F41752EFAD817AC"
+				"gid" "B80F01B2CEC0F269A3B2477790D331A6"
+				"size" "F3D8691AB4E7EE2AF6E595321389839E"
+				"download" "BECD1B5713A4EAAA7F4883E890E11874"
 			}
 			"v4_testing"
 			{
-				"gid" "5F0755F4C1441D520CB11A5ED22D86D8"
-				"size" "E490D8414DEF4A92AFEAF73D2F63B66B"
-				"download" "C92AB3AE7BAF2128AC02B602F10306E5"
+				"gid" "F12C62ED2F5802B041BBE45DDC830C50"
+				"size" "BF0C2C2F53B6FFEF3ACA8EE5034DA8C9"
+				"download" "982BD7F617A6D034C1E96B0F63B04BA2"
 			}
 		}
 	}
@@ -1244,6 +1521,12 @@
 		{
 			"public"
 			{
+				"gid" "3689398906952057664"
+				"size" "198162998"
+				"download" "86736528"
+			}
+			"legacy"
+			{
 				"gid" "8699474925881294027"
 				"size" "107732603"
 				"download" "44491936"
@@ -1251,6 +1534,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "C8F762E0D07C8324E2ADB378BFAE9F3E"
+				"size" "75EE46567D2DD75F9A14418BA89C488E"
+				"download" "55E677FA011BDA503808C920BF32197C"
+			}
+			"coldsteel_new"
+			{
+				"gid" "33B1E2B92C7F3C49D5FDD79413AA108D"
+				"size" "794AFFB02F7400168DF5ABF55FDAA43E"
+				"download" "1FF1C8632D7AF3570E5D9B9F8D6FADD7"
+			}
 			"experimental_client"
 			{
 				"gid" "15FD056FD27323E28D917C832080433D"
@@ -1265,15 +1560,15 @@
 			}
 			"razorsedge"
 			{
-				"gid" "A37F6660B9ADB90E50DD3D2036F727E4"
-				"size" "1C527DE1BE6C48A5877B846EB39CE298"
-				"download" "2A49DFFA02548D2B5959838A4DBAC475"
+				"gid" "5360A2C62AD107A0CCC02B1716905F80"
+				"size" "1365CCB2BAA98C1715FD039C8F8DBA02"
+				"download" "334CA4BF008D2DC9BC348F090F35677E"
 			}
 			"v4_testing"
 			{
-				"gid" "054D329136201A41E8FE3D98E7D6A901"
-				"size" "F7EE14AC1F35E0EE4C8A0CD72E55CB73"
-				"download" "943B2224A1E1BB2F6A1ABC1EAB15D2EA"
+				"gid" "78C138C1496203F6507DC693027CDCF3"
+				"size" "D0E33FB80FC7B77F7F1FE9998A5900EC"
+				"download" "5B993922A599770D263028BAB443C574"
 			}
 		}
 	}
@@ -1289,6 +1584,12 @@
 		{
 			"public"
 			{
+				"gid" "2526821329320474809"
+				"size" "210203701"
+				"download" "98873152"
+			}
+			"legacy"
+			{
 				"gid" "5097556165488698169"
 				"size" "120477325"
 				"download" "57386160"
@@ -1296,6 +1597,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"coldsteel"
+			{
+				"gid" "41BAA19F3F9BD9EE0B0ECA45F54132AC"
+				"size" "565B2D331CD732FD1330E9E1DF76865D"
+				"download" "CEC3A80FCA9ABB23CED3474DF3B990FA"
+			}
+			"coldsteel_new"
+			{
+				"gid" "5FDDE26835DADD59B5A7E11DB1554A54"
+				"size" "6F172CA9529F09D7C650008ECDE6755D"
+				"download" "4034CB04C9EEF750291E771EBE900AC0"
+			}
 			"experimental_client"
 			{
 				"gid" "AEB9C808CEC659381A7AE2ADED2E24AF"
@@ -1304,15 +1617,68 @@
 			}
 			"razorsedge"
 			{
-				"gid" "7C7237DD1E67F334AD9006EAE2ECFD3B"
-				"size" "286B852BA35FF05B3B169E7C5926EEF4"
-				"download" "5AD05FF60765F1D53754CA5C10BA9C3D"
+				"gid" "9797D2621ACA070D0B551A033DAEBD1E"
+				"size" "4FB905472AE50CFF70D85063EC16AAFE"
+				"download" "F5CAE97353268CB39ED4BE4AE550D962"
 			}
 			"v4_testing"
 			{
-				"gid" "9C82BF9E6789CA1A7DD261578DC880B1"
-				"size" "9790BB70AEAEDED2B69536D52FB684C9"
-				"download" "49DF1863805875855DEE5FB957E6EAEA"
+				"gid" "F2E97FEC69268A832488820B75B09546"
+				"size" "C806C1CC7F230F4EAE2B6F63FCD21200"
+				"download" "406B9253FDB9EEBFE4411394621F24F1"
+			}
+		}
+	}
+	"2828720"
+	{
+		"dlcappid" "2828720"
+		"config"
+		{
+			"oslist" "windows,linux"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"coldsteel"
+			{
+				"gid" "4F004216A9CF8489F61BB5260A536F8E"
+				"size" "601DDF47BC6C726D5A643F320631CDF5"
+				"download" "562B465C01936A1997BC112616D70073"
+			}
+			"coldsteel_new"
+			{
+				"gid" "A8AF4DBBF9F5C08A1428FCBF8F5E92A5"
+				"size" "59D9D72D913B806179D3E8A39E31F4DD"
+				"download" "767DFFCD0A8A107FC0783793B14B16E2"
+			}
+		}
+	}
+	"2828721"
+	{
+		"dlcappid" "2828720"
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"coldsteel"
+			{
+				"gid" "B2A226509D706F39B0297A9267E16388"
+				"size" "601DDF47BC6C726D5A643F320631CDF5"
+				"download" "562B465C01936A1997BC112616D70073"
+			}
+			"coldsteel_new"
+			{
+				"gid" "D34F0DA0B80A48BDC09DCA9B2DA4579A"
+				"size" "59D9D72D913B806179D3E8A39E31F4DD"
+				"download" "767DFFCD0A8A107FC0783793B14B16E2"
 			}
 		}
 	}
@@ -1320,14 +1686,32 @@
 	{
 		"public"
 		{
-			"buildid" "12703508"
-			"timeupdated" "1699996968"
+			"buildid" "13737133"
+			"timeupdated" "1710411402"
+		}
+		"coldsteel"
+		{
+			"buildid" "13580904"
+			"pwdrequired" "1"
+			"timeupdated" "1709069559"
+		}
+		"coldsteel_new"
+		{
+			"buildid" "13750839"
+			"pwdrequired" "1"
+			"timeupdated" "1710498025"
 		}
 		"experimental_client"
 		{
 			"buildid" "12703508"
 			"pwdrequired" "1"
 			"timeupdated" "1699996900"
+		}
+		"legacy"
+		{
+			"buildid" "12703508"
+			"description" "v3.7.5"
+			"timeupdated" "1709801288"
 		}
 		"mactesting"
 		{
@@ -1337,15 +1721,15 @@
 		}
 		"razorsedge"
 		{
-			"buildid" "13074233"
+			"buildid" "13719184"
 			"pwdrequired" "1"
-			"timeupdated" "1704156036"
+			"timeupdated" "1710277616"
 		}
 		"v4_testing"
 		{
-			"buildid" "13074233"
+			"buildid" "13737133"
 			"pwdrequired" "1"
-			"timeupdated" "1704156058"
+			"timeupdated" "1710408030"
 		}
 		"zone5"
 		{
@@ -1378,6 +1762,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21728833"
-"_sha" "bee5244f0b0fbf3fc621d0e7260f4bfbf95cbf4b"
-"_size" "29187"
+"_change_number" "22778636"
+"_sha" "a05fd12363f626007c5a9dd2055c4422abebe3d6"
+"_size" "38628"
