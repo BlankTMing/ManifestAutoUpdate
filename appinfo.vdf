@@ -33,7 +33,7 @@
 			"height_pct" "50"
 		}
 	}
-	"store_asset_mtime" "1635183079"
+	"store_asset_mtime" "1709109702"
 	"associations"
 	{
 		"0"
@@ -42,6 +42,16 @@
 			"name" "Object Software"
 		}
 		"1"
+		{
+			"type" "developer"
+			"name" "ZOOM Platform Media"
+		}
+		"2"
+		{
+			"type" "developer"
+			"name" "Jordan Freeman Group"
+		}
+		"3"
 		{
 			"type" "publisher"
 			"name" "Strategy First"
@@ -57,10 +67,22 @@
 	"category"
 	{
 		"category_2" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_47" "1"
+		"category_23" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
 		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"russian"
 		{
 			"supported" "true"
 			"full_audio" "true"
@@ -96,6 +118,7 @@
 	"developer" "Object Software"
 	"publisher" "Strategy First"
 	"homepage" "http://www.strategyfirst.com/"
+	"gamemanualurl" "https://store.steampowered.com/manual/1717410/"
 }
 "config"
 {
@@ -125,22 +148,79 @@
 		{
 			"public"
 			{
-				"gid" "8209353674683037487"
-				"size" "1964443179"
-				"download" "1068872512"
+				"gid" "2995131566516866365"
+				"size" "2172896745"
+				"download" "1249692576"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "DBE78507D2A75D53D4500AB35AAAFD2D"
+				"size" "F34274873303EDEE8AA28A62BB9FDEA0"
+				"download" "572B5D174E60C209264992D7DCED8C80"
 			}
 		}
 	}
+	"1717412"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3260205667725282989"
+				"size" "934607658"
+				"download" "615812880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "EC482A601D001C4B1A79D2F2115CF9EC"
+				"size" "CDCCACE93EB72769E4389DB91C0913F6"
+				"download" "B7BD1DA3DC67D1456D76988EFFB12F23"
+			}
+		}
+	}
+	"baselanguages" "english,russian"
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "7143362"
-			"timeupdated" "1628170035"
+			"buildid" "13530667"
+			"timeupdated" "1708605496"
+		}
+		"testing"
+		{
+			"buildid" "13530667"
+			"pwdrequired" "1"
+			"timeupdated" "1708603255"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "512"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "System"
+			"pattern" "*"
+			"recursive" "1"
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "21654449"
-"_sha" "438ef106294a7d3f53497e4d73a28fc618123771"
-"_size" "2409"
+"_change_number" "22593882"
+"_sha" "611f5612c8a4be56c8536e6d7ef459802a4e760a"
+"_size" "3826"
