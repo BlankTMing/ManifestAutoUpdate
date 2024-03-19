@@ -1,0 +1,169 @@
+"appid" "416880"
+"common"
+{
+	"name" "Ballistic Overkill Dedicated Server"
+	"type" "Tool"
+	"oslist" "windows,linux"
+	"logo" "ccff1d9464165da90bf0a44ddedd2df044f4515f"
+	"logo_small" "ccff1d9464165da90bf0a44ddedd2df044f4515f_thumb"
+	"icon" "6a4f474e91effe3651fc0aeb9fa16a36dd40ab38"
+	"clienttga" "8d0604342b39d8f194f4d4e419c01004c8731bb7"
+	"clienticon" "d1e0ff364186a35ea978854bf9718a3313fb441b"
+	"releasestate" "released"
+	"clienticns" "256769b52f517483c0f9da1250ef24bd5f107350"
+	"linuxclienticon" "c420d6ff55c5f66e9652e259aa2d7a55f3ff8464"
+	"associations"
+	{
+	}
+	"community_hub_visible" "1"
+	"gameid" "416880"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "BODS"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "BODSLauncher.exe"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "./BODS.x86"
+			"arguments" "-logFile output.txt"
+			"type" "server"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"416881"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5226631182675636115"
+				"size" "61213777"
+				"download" "16789280"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "BAF54EB1C653C8F0B3B417431540AA02"
+				"size" "87F55607CF1D44196CDCBFBB611604A6"
+				"download" "DC68FB62995BF6528A1BD4A847DFC03D"
+			}
+		}
+	}
+	"416882"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6149405167024505758"
+				"size" "93700030"
+				"download" "27944880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "1401F93D1112B64A39ABAF669E2E6971"
+				"size" "C491952973FC020DB770A37EB25A4994"
+				"download" "6D97F038D1A64297A7E1A0775CE65F30"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4607866"
+			"timeupdated" "1580232666"
+		}
+		"development"
+		{
+			"buildid" "4607866"
+			"pwdrequired" "1"
+			"timeupdated" "1579964115"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20307700"
+"_sha" "beb9bd2504b619be7ac274bb289cafeff2a78f5a"
+"_size" "2722"
