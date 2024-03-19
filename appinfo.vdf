@@ -1,0 +1,320 @@
+"appid" "22120"
+"common"
+{
+	"name" "Penumbra: Black Plague"
+	"icon" "ec88493c14d9e8b7f90bcc4c12841931dcf53611"
+	"clienttga" "ffe0562dd15758eaed6eb2793edd85b274ff56c1"
+	"clienticon" "eb0978bc9aa6faba37b2dd8a85a54992744c4736"
+	"logo" "0412f1d1a62e67c1c1f1ba9f14bed1db2f232a4e"
+	"logo_small" "0412f1d1a62e67c1c1f1ba9f14bed1db2f232a4e_thumb"
+	"metacritic_url" "pc/penumbrablackplague"
+	"clienticns" "c85161699004588e1aea137897b1a9aa3fead9e0"
+	"oslist" "windows,macos,linux"
+	"sortas" "Penumbra 2: Black Plague"
+	"type" "game"
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "2"
+		"2" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1655164800"
+		"tested_build_id" "459397"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Penumbra: Black Plague"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "69.13652275379229"
+			"height_pct" "89.89551175492757"
+		}
+	}
+	"store_asset_mtime" "1667218882"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Frictional Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Frictional Games"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_13" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1232750460"
+	"metacritic_score" "78"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/penumbra-black-plague\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "22120"
+	"store_tags"
+	{
+		"0" "1667"
+		"1" "21"
+		"2" "3839"
+		"3" "1721"
+		"4" "1687"
+		"5" "1742"
+		"6" "4166"
+		"7" "492"
+		"8" "4182"
+		"9" "3978"
+		"10" "1664"
+		"11" "7432"
+		"12" "19"
+		"13" "4342"
+		"14" "1662"
+		"15" "1756"
+		"16" "1693"
+		"17" "6650"
+		"18" "3859"
+		"19" "4345"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"cwdoverride" "redist"
+	"developer" "Frictional Games"
+	"gamedir" "Penumbra Black Plague"
+	"gamemanualurl" "http://store.steampowered.com/manual/22120/"
+	"homepage" "http://www.penumbragame.com/"
+	"icon" ""
+	"installscript" "22120_install.vdf"
+	"installscriptosx" "installscript_osx.vdf"
+	"installscript_macos" "installscript_osx.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "22121"
+	"primarycache_mac" "22124"
+	"primarycache_macos" "22124"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "windows,macos,linux"
+	"publisher" "Frictional Games"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "redist\\penumbra.exe"
+			"workingdir" "redist"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "BlackPlague.app/Contents/MacOS/BlackPlague"
+			"description" "Penumbra: Black Plague"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "blackplague"
+			"description" "Penumbra: Black Plague"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Penumbra Black Plague"
+}
+"depots"
+{
+	"229020"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"22124"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8577834682388612539"
+				"size" "1068559446"
+				"download" "234224906037"
+			}
+		}
+	}
+	"22125"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6751314725889541865"
+				"size" "1035621927"
+				"download" "235123425954"
+			}
+		}
+	}
+	"22121"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8512573193629897769"
+				"size" "1411568928"
+				"download" "0"
+			}
+		}
+	}
+	"22122"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5591698940128254379"
+				"size" "2993"
+				"download" "0"
+			}
+		}
+	}
+	"22123"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4522275859371437781"
+				"size" "2994"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "459397"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "0"
+	"maxnumfiles" "0"
+}
+"_missing_token" "False"
+"_change_number" "22332387"
+"_sha" "564fdd6b7d7def87375528ed5a9398d462d66293"
+"_size" "5717"
