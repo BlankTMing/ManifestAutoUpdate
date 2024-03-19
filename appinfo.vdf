@@ -1,0 +1,277 @@
+"appid" "22180"
+"common"
+{
+	"name" "Penumbra: Overture"
+	"logo" "16ebed8c557f592b5d3bd4f8c2b52ba9b4afe578"
+	"logo_small" "16ebed8c557f592b5d3bd4f8c2b52ba9b4afe578_thumb"
+	"metacritic_url" "pc/penumbra"
+	"clienticon" "d0198ef8148ee6fe29433b795d67c326e7f8cf45"
+	"icon" "2db20eef4e5768a82d2cba3b62ec0e10bafc0c94"
+	"clienttga" "fb11e965bfa4747df7a9243935bf8286f0826679"
+	"clienticns" "fcaf9aa563d0627f5bd10ee75915c4cdcd95f865"
+	"oslist" "windows,macos,linux"
+	"sortas" "Penumbra 1: Overture"
+	"type" "game"
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1652313600"
+		"tested_build_id" "459398"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Penumbra: Overture"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "39.920542312607665"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1667218895"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Frictional Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Frictional Games"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_13" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1175238000"
+	"steam_release_date" "1236380400"
+	"metacritic_score" "73"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/penumbra-overture\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "22180"
+	"store_tags"
+	{
+		"0" "1667"
+		"1" "21"
+		"2" "3839"
+		"3" "492"
+		"4" "3978"
+		"5" "4166"
+		"6" "1721"
+		"7" "4182"
+		"8" "1742"
+		"9" "1687"
+		"10" "4342"
+		"11" "1664"
+		"12" "7432"
+		"13" "19"
+		"14" "1662"
+		"15" "1693"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"cwdoverride" "redist"
+	"developer" "Frictional Games"
+	"gamedir" "Penumbra Overture"
+	"homepage" "http://www.penumbragame.com"
+	"icon" ""
+	"installscript" "22180_install.vdf"
+	"installscriptosx" "Penumbra.app/installscript_osx.vdf"
+	"installscript_macos" "Penumbra.app/installscript_osx.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "22181"
+	"primarycache_mac" "22182"
+	"primarycache_macos" "22182"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "windows,macos,linux"
+	"publisher" "Frictional Games"
+	"gamemanualurl" "https://store.steampowered.com/manual/22180/"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "redist\\penumbra.exe"
+			"workingdir" "redist"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Penumbra.app/Contents/MacOS/Penumbra"
+			"description" "Penumbra: Overture"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "penumbra"
+			"description" "Penumbra: Overture"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Penumbra Overture"
+}
+"depots"
+{
+	"229020"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"22182"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6506300935710744705"
+				"size" "851108816"
+				"download" "162586584682"
+			}
+		}
+	}
+	"22181"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2633694780435938990"
+				"size" "827681045"
+				"download" "0"
+			}
+		}
+	}
+	"22183"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5494634795949117498"
+				"size" "829959099"
+				"download" "163226515442"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "459398"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22759886"
+"_sha" "6deff4229e5fa002e621790a77b81a8bccf95a79"
+"_size" "5174"
