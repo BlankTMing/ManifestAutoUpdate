@@ -1,0 +1,396 @@
+"appid" "296300"
+"common"
+{
+	"name" "Ballistic Overkill"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "296300_eula_0"
+			"name" "Ballistic EULA"
+			"url" "http://store.steampowered.com//eula/296300_eula_0"
+		}
+	}
+	"clienttga" "ca37efb0f621019730a461db6a18678613fa2b09"
+	"logo" "3a5d05dc9db7df1f658a61f1870803bb0745023f"
+	"logo_small" "3a5d05dc9db7df1f658a61f1870803bb0745023f_thumb"
+	"icon" "3dfbac7f837c33c2807d5631eaa7215d3b0bc600"
+	"clienticon" "018a66c3027d61c33274526f8a6fd961a78d6e95"
+	"clienticns" "e9fccb967fd4d28508d55f3f67c1101b02dfbe50"
+	"linuxclienticon" "42c5be83d4261a252b2d0398be36b6fcf3b9e0fe"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"polish" "1"
+		"swedish" "1"
+		"hungarian" "1"
+		"turkish" "1"
+		"brazilian" "1"
+	}
+	"app_retired_publisher_request" "1"
+	"market_presence" "1"
+	"metacritic_name" "Ballistic Overkill"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1575494907"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Aquiris Game Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Aquiris Game Studio"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_27" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_36" "1"
+		"category_22" "1"
+		"category_8" "1"
+		"category_49" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"swedish"
+		{
+			"supported" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+		}
+		"hungarian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1490730120"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "296300"
+	"store_tags"
+	{
+		"0" "1663"
+		"1" "1774"
+		"2" "19"
+		"3" "3859"
+		"4" "3839"
+		"5" "597"
+		"6" "493"
+		"7" "492"
+		"8" "128"
+		"9" "1775"
+		"10" "1734"
+		"11" "4136"
+		"12" "113"
+		"13" "4155"
+		"14" "4166"
+		"15" "21"
+		"16" "3843"
+		"17" "9"
+		"18" "4182"
+		"19" "1697"
+	}
+	"review_score" "6"
+	"review_percentage" "75"
+}
+"extended"
+{
+	"gamedir" "ballistic"
+	"developer" "Aquiris Game Studio"
+	"publisher" "Aquiris Game Studio"
+	"listofdlc" "562870,563100,563101,563102,563103,563104,563105,563106,563107,969260,969261,969262,973770,988870"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Ballistic"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "BallisticOverkill.exe"
+			"arguments" "-logfile output.txt"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "BallisticOverkill.app"
+			"arguments" "-force-glcore -logfile output.txt"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "BallisticOverkill.x86_64"
+			"arguments" "-logfile output.txt"
+			"description" "Ballistic 64x"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "BallisticOverkill.x86"
+			"arguments" "-logfile output.txt"
+			"description" "Ballistic i386"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"1262748342"
+		{
+			"controller_type" "controller_steamcontroller_gordon"
+			"enabled_branches" "default,beta144,development"
+		}
+	}
+	"usemms" "1"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" "english,german,french,spanish,brazilian"
+	"296301"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4174833831828907474"
+				"size" "4048686565"
+				"download" "3198252736"
+			}
+			"v1.4.6"
+			{
+				"gid" "8964900319661235395"
+				"size" "3697559136"
+				"download" "2960413520"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "9E18E431BDBCD6382275C2C79F4285DC"
+				"size" "493920828493CB963E8DD439474429B3"
+				"download" "9B3325FCE35096A21D7C9DB56C7667B2"
+			}
+			"developmentqa"
+			{
+				"gid" "008E0667C333F20A27CC7E438154C1FD"
+				"size" "3080335E47199611FAC632E9ADF84F19"
+				"download" "5FA45FACF952A5B951E0E9AA639E7FE1"
+			}
+		}
+	}
+	"296302"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6282670459604749317"
+				"size" "4039944299"
+				"download" "3189530992"
+			}
+			"v1.4.6"
+			{
+				"gid" "8276398211415183927"
+				"size" "3730226191"
+				"download" "2965704288"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "5D64672D77ACD99FA1D54827E5445E5D"
+				"size" "6054A1B2603B8743D996D41A2C5D4B22"
+				"download" "B834FB1FFDA3D08DF23903C365D508B4"
+			}
+			"developmentqa"
+			{
+				"gid" "838680D772A9628229FBEA96FD37C25F"
+				"size" "E62CAD412078B5C51FFEAAA9A19B3D6A"
+				"download" "F4F0B1694E7C6150126E5D897DDE1F09"
+			}
+		}
+	}
+	"296303"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "234281370277586782"
+				"size" "4072144078"
+				"download" "3207057104"
+			}
+			"v1.4.6"
+			{
+				"gid" "815242676615950077"
+				"size" "3732623690"
+				"download" "2970680720"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "D1A925CF05432FCBC57A24FD6DC5605B"
+				"size" "71C0E2861CEC66FD040721683D7AB9D3"
+				"download" "8A565DC2CB0E091A1714156F75506A2C"
+			}
+			"developmentqa"
+			{
+				"gid" "4FB0FB2796147CF5942F3763E72D0973"
+				"size" "720A45BC001E7B0C45D1CE13281F0955"
+				"download" "3503648F150944C526F2827F05CB6109"
+			}
+		}
+	}
+	"workshopdepot" "296300"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4602070"
+			"timeupdated" "1580232629"
+		}
+		"development"
+		{
+			"buildid" "4602070"
+			"pwdrequired" "1"
+			"timeupdated" "1579815604"
+		}
+		"developmentqa"
+		{
+			"buildid" "3395648"
+			"pwdrequired" "1"
+			"timeupdated" "1544792351"
+		}
+		"v1.4.6"
+		{
+			"buildid" "2896958"
+			"description" "MacOSX"
+			"timeupdated" "1533587744"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "75429a2d0149ae35e7499732029a3b46297a85af"
+"_size" "7061"
