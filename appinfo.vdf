@@ -1,0 +1,311 @@
+"appid" "226700"
+"common"
+{
+	"name" "Infestation: Survivor Stories 2020"
+	"type" "Game"
+	"logo" "69e0c20fd13765b5e9abb62052ffe839217f8963"
+	"logo_small" "69e0c20fd13765b5e9abb62052ffe839217f8963_thumb"
+	"icon" "ab6d7f0b24559766a9de3b5eeb702cc6fe15a077"
+	"clienttga" "509ad1fcc04076450e659ff684c5b7bc5267b1da"
+	"clienticon" "e5e4c8787283dc09dfdb00c409c81f36a35a4eac"
+	"oslist" "windows"
+	"exfgls" "1"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "226700_eula_0"
+			"name" "Infestation: Survivor Stories Classic EULA"
+			"url" "https://store.steampowered.com//eula/226700_eula_0"
+			"version" "2"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "48.720930232558146"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1620741412"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Fredaikis AB"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "OP Productions LLC"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "37"
+		"2" "23"
+		"3" "29"
+		"4" "3"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_20" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_22" "1"
+		"category_35" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+		}
+		"thai"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"vietnamese"
+		{
+			"supported" "true"
+		}
+	}
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "226700"
+	"store_tags"
+	{
+		"0" "1659"
+		"1" "1662"
+		"2" "128"
+		"3" "19"
+		"4" "1695"
+		"5" "1775"
+		"6" "3859"
+		"7" "122"
+		"8" "492"
+		"9" "599"
+		"10" "1663"
+		"11" "1685"
+		"12" "1667"
+		"13" "3835"
+		"14" "1774"
+		"15" "6730"
+		"16" "3814"
+		"17" "113"
+		"18" "1697"
+		"19" "597"
+	}
+	"review_score" "5"
+	"review_percentage" "41"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" "Fredaikis AB"
+	"gamedir" "ValveTestApp226700"
+	"homepage" "https://www.playnewz.com/"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateComingSoonNoPreload"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "OP Productions LLC"
+	"gamemanualurl" "https://store.steampowered.com/manual/226700/"
+	"isfreeapp" "1"
+	"listofdlc" "227660,227661,227662,267590,267591"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "The War Z"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "InfestationLauncher.exe"
+			"arguments" "-steam -fupd"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Start Infestation: Survivor Stories"
+			}
+			"description" "Start Infestation: Survivor Stories"
+		}
+	}
+	"installscriptsignature" "54bba07311d77434b51fd0a2eec33aea0639af95d63a7053c1ae49e56faf2793e82856c1670216b61b356cebd55d7bfc518d87105021162230589a999dd65c332df51a3bb63a725db1cdd64d84211bb6de7cca1294be54b8531ba10842077cccad9f43c8cbe783be0a08cda21f9377c779f8181acb789bf73728ae5074ab2668"
+	"installscriptoverride" "1"
+	"noupdatesafterinstall" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\226700"
+			"process 1" "%INSTALLDIR%\\dxwebsetup.exe"
+			"command 1" "/q"
+			"nocleanup" "0"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3966345552745568756"
+				"size" "13699237"
+				"download" "13244128"
+			}
+		}
+		"depotfromapp" "228980"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6645201662696499616"
+				"size" "29212173"
+				"download" "22411856"
+			}
+		}
+		"depotfromapp" "228980"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1829726630299308803"
+				"size" "102931551"
+				"download" "100658080"
+			}
+		}
+		"depotfromapp" "228980"
+	}
+	"226701"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3016329465484754027"
+				"size" "17611194102"
+				"download" "14558998768"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13843937"
+			"timeupdated" "1711372977"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#status_ow" "Playing Arcade"
+				"#status_br" "Playing Battle Royale"
+				"#status_comp" "Playing Competitive"
+				"#status_surv" "Playing Survival"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22898624"
+"_sha" "6e65efccfaa6c7b4e26252a11776ab64266e158f"
+"_size" "5279"
