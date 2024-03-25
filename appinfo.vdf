@@ -1,0 +1,131 @@
+"appid" "802240"
+"common"
+{
+	"name" "SOS: Classic"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "802240_eula_0"
+			"name" "SOS: Test Server EULA"
+			"url" "http://store.steampowered.com//eula/802240_eula_0"
+		}
+	}
+	"logo" "e4f8e2a5a5038d0faaacbf387f45a259a5df23af"
+	"logo_small" "e4f8e2a5a5038d0faaacbf387f45a259a5df23af_thumb"
+	"icon" "043931aed3dacd4e52fdd8bebe3a932c2060c476"
+	"clienttga" "d04890d92ef1a986b7834a17235e8ea703b8be78"
+	"clienticon" "7883099905e5e84735cefff13a5b00f96d4b4727"
+	"releasestate" "released"
+	"associations"
+	{
+	}
+	"community_hub_visible" "1"
+	"gameid" "802240"
+}
+"config"
+{
+	"installdir" "SOS Test Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SOS\\Binaries\\Win64\\SOS-Win64-Shipping.exe"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229002"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"802241"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2538159907689412824"
+				"size" "9447878528"
+				"download" "3276713328"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"branch_dev"
+			{
+				"gid" "503C6B9FDCDFE0929E416DC5221FF09A"
+				"size" "F4C6BEDEAECC5B05AFBD7631BE696A3C"
+				"download" "C3F533CF0DFE3F3EE33FC1E508B93859"
+			}
+			"branch_prod"
+			{
+				"gid" "300093A6ECCE39284237CA6F87F57918"
+				"size" "A772C8F49E8E7D3916FC84C6932F0F7A"
+				"download" "E9E9A12FE40BA0DD85712C51AB442A51"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3208683"
+			"timeupdated" "1539386580"
+		}
+		"branch_dev"
+		{
+			"buildid" "3208683"
+			"pwdrequired" "1"
+			"timeupdated" "1539379480"
+		}
+		"branch_prod"
+		{
+			"buildid" "3208683"
+			"pwdrequired" "1"
+			"timeupdated" "1539380144"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "3430daad677d1f589eec939c521a7a3e0a575bf8"
+"_size" "2225"
