@@ -1,0 +1,179 @@
+"appid" "1504860"
+"common"
+{
+	"name" "Hell Let Loose (Public Testing)"
+	"section_type" "ownersonly"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"logo" "f861a8bb56827ef91da0dafd531f5fdd506376c2"
+	"logo_small" "f861a8bb56827ef91da0dafd531f5fdd506376c2_thumb"
+	"clienticon" "0fdcc5ceb1fa504077b0f8189afc31498e75183c"
+	"clienttga" "b0c40cb334d5d5b23888c4cc4440b18a2c2fbf46"
+	"icon" "4eaacc9b9695577ce335b8b77f2933689e9e673b"
+	"releasestate" "released"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "43.704092743202125"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1614082166"
+	"associations"
+	{
+	}
+	"community_hub_visible" "1"
+	"gameid" "1504860"
+}
+"config"
+{
+	"installdir" "Hell Let Loose (Public Testing)"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Launch_HLL.exe"
+			"arguments" "-UserDir=Playtest"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "HLL\\Binaries\\Win64\\HLL.exe"
+			"arguments" "-UserDir=Playtest -noeac"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "2023test"
+			}
+			"description_loc"
+			{
+				"english" "Development (no EAC)"
+			}
+			"description" "Development (no EAC)"
+		}
+		"2"
+		{
+			"executable" "HLL\\Binaries\\Win64\\HLL.exe"
+			"arguments" "-noEAC"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "qa_testing"
+			}
+			"description_loc"
+			{
+				"english" "Development (no EAC)"
+			}
+			"description" "Development (no EAC)"
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1504861"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9167700371681231063"
+				"size" "52811741431"
+				"download" "23146030864"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"qa_testing"
+			{
+				"gid" "3C6DE894F60C0492F88CFB239079CB09"
+				"size" "DBE38725B80A494E378A6B298E3C3648"
+				"download" "D766E790C0C9485FDE477D4C71B05F78"
+			}
+			"twitchcon"
+			{
+				"gid" "267CF8090F1307596DD27C412C1A2586"
+				"size" "CB63BD50572392EFAAA2DF5BC3D7DC6B"
+				"download" "0F70D211976BD536EB2A34532113A3F5"
+			}
+			"wc_testing"
+			{
+				"gid" "3097A27B867B8DE2715C7CE47E6A9077"
+				"size" "1EE54538FA20F6DEE331B4DECD3208B1"
+				"download" "CF7A9E45A251EC1943A170EAFFDD92CC"
+			}
+		}
+	}
+	"baselanguages" "english,german,french,koreana,spanish,schinese,tchinese,russian,japanese,polish,brazilian"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12837164"
+			"timeupdated" "1707817743"
+		}
+		"qa_testing"
+		{
+			"buildid" "13413541"
+			"pwdrequired" "1"
+			"timeupdated" "1707475612"
+		}
+		"twitchcon"
+		{
+			"buildid" "12424189"
+			"pwdrequired" "1"
+			"timeupdated" "1697116526"
+		}
+		"wc_testing"
+		{
+			"buildid" "13413541"
+			"pwdrequired" "1"
+			"timeupdated" "1707817047"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22332387"
+"_sha" "d5de78182a93148c420d6955e043ceb8f839cfef"
+"_size" "3421"
