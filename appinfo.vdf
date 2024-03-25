@@ -69,7 +69,7 @@
 			"height_pct" "83.88062274415918"
 		}
 	}
-	"store_asset_mtime" "1700213822"
+	"store_asset_mtime" "1711120414"
 	"associations"
 	{
 		"0"
@@ -101,6 +101,7 @@
 		"category_45" "1"
 		"category_46" "1"
 		"category_28" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -170,40 +171,31 @@
 		"8" "4175"
 		"9" "1669"
 		"10" "1654"
-		"11" "597"
-		"12" "8945"
-		"13" "4166"
-		"14" "10383"
+		"11" "8945"
+		"12" "597"
+		"13" "10383"
+		"14" "4166"
 		"15" "3859"
 		"16" "493"
 		"17" "1695"
 		"18" "1756"
-		"19" "9130"
+		"19" "5348"
 	}
 	"review_score" "5"
-	"review_percentage" "59"
+	"review_percentage" "56"
 }
 "extended"
 {
 	"developer" "Colossal Order Ltd."
 	"publisher" "Paradox Interactive"
-	"listofdlc" "2427730,2427731"
+	"listofdlc" "2427730,2427731,2427740,2427741,2427742,2427743,2427744,2427745,2427746"
+	"dlcavailableonstore" "1"
 }
 "config"
 {
 	"installdir" "Cities Skylines II"
 	"launch"
 	{
-		"0"
-		{
-			"executable" "Launcher/dowser.exe"
-			"type" "default"
-			"config"
-			{
-				"oslist" "windows"
-				"osarch" "64"
-			}
-		}
 		"3"
 		{
 			"executable" "Cities2.exe"
@@ -268,6 +260,36 @@
 			}
 			"description" "Cities: Skylines II (No launcher)"
 		}
+		"7"
+		{
+			"executable" "Cities2.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Cities: Skylines II (with mods)"
+			}
+			"description" "Cities: Skylines II (with mods)"
+		}
+		"8"
+		{
+			"executable" "Launcher/dowser.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Cities: Skylines II"
+			}
+			"description" "Cities: Skylines II"
+		}
 	}
 }
 "depots"
@@ -287,9 +309,9 @@
 		{
 			"public"
 			{
-				"gid" "3305430583496659470"
-				"size" "59720572176"
-				"download" "55232310768"
+				"gid" "2240725249723137014"
+				"size" "63697895178"
+				"download" "59136139072"
 			}
 		}
 		"encryptedmanifests"
@@ -300,11 +322,17 @@
 				"size" "58C4CD08FFC5329B59304F3F97635FBD"
 				"download" "F9B379B1D15C3F8CF3EE567197CC2F98"
 			}
+			"beach_properties"
+			{
+				"gid" "A87D4220E93754F6CB4FC7334AF4BAB7"
+				"size" "716A3849E45ADDB08F7AF86206611F64"
+				"download" "7ED68F3065D33C35B9D32C5B2868394F"
+			}
 			"co_test"
 			{
-				"gid" "4C80FF5F4B694BE11A3284A35A4ADC08"
-				"size" "66EA04D0EDD2EB118280D21AD51E4600"
-				"download" "2ED30E4E26D82DB545357EC16B6C3798"
+				"gid" "AB7C5233F28B2D3462FF61D208280C2B"
+				"size" "2685F9442C7FFA00D509D9D6C9F6A829"
+				"download" "79DC2F13AF193CA4FEB4AFFB381D5684"
 			}
 			"coherent"
 			{
@@ -320,9 +348,15 @@
 			}
 			"development"
 			{
-				"gid" "28833C3FBF19622FC21DB0F78EBA670D"
-				"size" "D9F78A3342D4951C2F77F1FDF63035A1"
-				"download" "FAD2F076C3C80A4199B876DBB79E3964"
+				"gid" "C02224A63D487D3AEC8A97D3CADFCB8C"
+				"size" "80FB87542244C6FC1708956E776DB285"
+				"download" "DCBDC21B7D56D569A584E2674488EFE2"
+			}
+			"early_access"
+			{
+				"gid" "F16ECF367C29E8840D91005670234596"
+				"size" "01753C9B3839AB725C8317706FAAA7D1"
+				"download" "88B433C9E93025A96CD07965170B2522"
 			}
 			"goldmaster"
 			{
@@ -330,23 +364,23 @@
 				"size" "19243EE07A30073BA6660A3D0E88ABD5"
 				"download" "F9A59F1DCBB46F2250A3CC4019FE685E"
 			}
-			"modding"
+			"marketing"
 			{
-				"gid" "D6F5677C817BA4D176AD38B274AA3ED6"
-				"size" "B3C4ECBBCD2B708B17C3E52C57B48ABD"
-				"download" "6669BC845B3CCFE861C82B6D9E5200AA"
+				"gid" "2743EAE64AF66518463C77136E153611"
+				"size" "92733F202B6902D17C2CBC6C3F74A976"
+				"download" "432DE08D4A32D6822425CA76BB4A9F42"
 			}
-			"modding_old"
+			"marketing2"
 			{
-				"gid" "99CE31F5BD6502225076E769F164A5E8"
-				"size" "87E68005A54D3FFD9970863F9AA1DEA4"
-				"download" "438C5175340CB40FD8BB3D596081E58B"
+				"gid" "CCD4F607A742CCBA9E9FC6DCBC56079B"
+				"size" "4193683AA468033EE311EF6DC5772897"
+				"download" "686F341BA3E12E96A604CA1FF11D38D3"
 			}
 			"modding_upcoming"
 			{
-				"gid" "F64C1111A24E1A66B884EE26F2D6ED6E"
-				"size" "F488C4BDC2C1D183425FEAF8BF8D82BE"
-				"download" "32B429ED381EAA92B6156C09C6643C05"
+				"gid" "48200722057C0265FD70D8DC085C2B81"
+				"size" "85A4FE082AF8ABF8C627B6BF21F81ACA"
+				"download" "9F2AE80DA67DB3460C831B63EEF80EAD"
 			}
 			"nightly"
 			{
@@ -374,9 +408,9 @@
 			}
 			"pdx_test"
 			{
-				"gid" "04663A326C2F807AF6B02CAED4B31B54"
-				"size" "BC6826D76D6210F8C4EDCD82B60FE255"
-				"download" "EA847F8B1A45365A5EA6D15F0D414CF1"
+				"gid" "B52282DBC4FCD816084B508768232F88"
+				"size" "FDB284A77AD0D1823878DB335DBC0F20"
+				"download" "E2129F680C4D786F9C66408598370638"
 			}
 			"plaion"
 			{
@@ -386,39 +420,39 @@
 			}
 			"qloc_balance"
 			{
-				"gid" "5BA92FF645B17911486A53281FF6C5DB"
-				"size" "F50B7AD08CF2C49631CC621FB8B71E1D"
-				"download" "00F1A111588EDC32126E19F068EE6C06"
+				"gid" "497F44BECE643D3CA686BC0FA387BD3F"
+				"size" "3F868548A286359F6CFE5293B715561C"
+				"download" "231DD6B48AB1CC7F9ED9C3E084F0188B"
 			}
 			"qloc_main"
 			{
-				"gid" "8D71F4FB12CB2EF20FF33B67C195F562"
-				"size" "D720F24CA5EED86A3D6305067CFB96F3"
-				"download" "BC2D05B73F693751A38871FD77BC181F"
+				"gid" "58FEB1F73492DAAB17E892C58DBFD879"
+				"size" "791A3FC4CF1C8C08D2F98954694A0DF9"
+				"download" "06731ED563A18E6073C33BD6F36B6486"
 			}
 			"qloc_previous"
 			{
-				"gid" "6153AB535C356E62209066435E1DB829"
-				"size" "52A5A14BE133D7158F2C6896F5FE3247"
-				"download" "0094CA85FD962AAC00798B5B84C23BE5"
+				"gid" "345E6F6FE72A8A5A678132284F472D8A"
+				"size" "FD33487920187DDBBD60B4004D0083E0"
+				"download" "2DB1804A364B94792AC53B10C2BDFF04"
 			}
 			"release"
 			{
-				"gid" "3B1C2D40E2B180B05DDBDFD0F2846472"
-				"size" "84E870560B3E719A006914719CC65A22"
-				"download" "7921B70F1F3C5C1777364B251A542E29"
+				"gid" "06F81B5DC155FB39FA6FC82162CE2104"
+				"size" "6D6AEDE7F7DBAAF786234986616676F6"
+				"download" "7DE0727ECEA2758CAEA7862EAF6D0762"
 			}
 			"staging"
 			{
-				"gid" "73D638E3A87D215F81E2E6D0FFB49AD6"
-				"size" "F06A75B7FA24962537DBB87A57B3E57F"
-				"download" "0EF409CAB23F34EDE64C8D82BF787E8E"
+				"gid" "F0A59A85F451C1627504EB4C33327B15"
+				"size" "67C5369E4C3EE558564FB6C0554CFA8C"
+				"download" "3850A20AF2FD65C61DE42E517D1AEC58"
 			}
 			"staging_development"
 			{
-				"gid" "A8570D2D090E86F329E612BF10A74F5A"
-				"size" "FB6E678631F53C8119515AC82F1FC456"
-				"download" "EC9C644586A6B5EAF9348FED839C5221"
+				"gid" "CED4D8BDDBB0EE416F52CF05792ABCA3"
+				"size" "F4CF60F02778BA148EE09229BAD9A59B"
+				"download" "066ECBE2A58151D373D660217976EC70"
 			}
 		}
 	}
@@ -427,8 +461,8 @@
 	{
 		"public"
 		{
-			"buildid" "13284902"
-			"timeupdated" "1706705947"
+			"buildid" "13799827"
+			"timeupdated" "1711385993"
 		}
 		"audio"
 		{
@@ -436,11 +470,17 @@
 			"pwdrequired" "1"
 			"timeupdated" "1695130165"
 		}
+		"beach_properties"
+		{
+			"buildid" "13646517"
+			"pwdrequired" "1"
+			"timeupdated" "1709649605"
+		}
 		"co_test"
 		{
-			"buildid" "12953700"
+			"buildid" "13754504"
 			"pwdrequired" "1"
-			"timeupdated" "1702492049"
+			"timeupdated" "1710518378"
 		}
 		"coherent"
 		{
@@ -456,9 +496,15 @@
 		}
 		"development"
 		{
-			"buildid" "13288066"
+			"buildid" "13829868"
 			"pwdrequired" "1"
-			"timeupdated" "1706323831"
+			"timeupdated" "1711164838"
+		}
+		"early_access"
+		{
+			"buildid" "13799827"
+			"pwdrequired" "1"
+			"timeupdated" "1711121796"
 		}
 		"goldmaster"
 		{
@@ -466,23 +512,23 @@
 			"pwdrequired" "1"
 			"timeupdated" "1697792698"
 		}
-		"modding"
+		"marketing"
 		{
-			"buildid" "12821820"
+			"buildid" "13467970"
 			"pwdrequired" "1"
-			"timeupdated" "1702671088"
+			"timeupdated" "1708081149"
 		}
-		"modding_old"
+		"marketing2"
 		{
-			"buildid" "12428632"
+			"buildid" "13622546"
 			"pwdrequired" "1"
-			"timeupdated" "1700662223"
+			"timeupdated" "1709542903"
 		}
 		"modding_upcoming"
 		{
-			"buildid" "12979828"
+			"buildid" "13822769"
 			"pwdrequired" "1"
-			"timeupdated" "1702728411"
+			"timeupdated" "1711118699"
 		}
 		"nightly"
 		{
@@ -510,9 +556,9 @@
 		}
 		"pdx_test"
 		{
-			"buildid" "13284902"
+			"buildid" "13799827"
 			"pwdrequired" "1"
-			"timeupdated" "1706511945"
+			"timeupdated" "1711006632"
 		}
 		"plaion"
 		{
@@ -522,39 +568,39 @@
 		}
 		"qloc_balance"
 		{
-			"buildid" "12431107"
+			"buildid" "13698324"
 			"pwdrequired" "1"
-			"timeupdated" "1697180558"
+			"timeupdated" "1710144673"
 		}
 		"qloc_main"
 		{
-			"buildid" "13284902"
+			"buildid" "13822769"
 			"pwdrequired" "1"
-			"timeupdated" "1706511923"
+			"timeupdated" "1711351222"
 		}
 		"qloc_previous"
 		{
-			"buildid" "13239865"
+			"buildid" "13799827"
 			"pwdrequired" "1"
-			"timeupdated" "1706252288"
+			"timeupdated" "1711351212"
 		}
 		"release"
 		{
-			"buildid" "13288368"
+			"buildid" "13830017"
 			"pwdrequired" "1"
-			"timeupdated" "1706327636"
+			"timeupdated" "1711167070"
 		}
 		"staging"
 		{
-			"buildid" "13288206"
+			"buildid" "13822769"
 			"pwdrequired" "1"
-			"timeupdated" "1706325565"
+			"timeupdated" "1711112674"
 		}
 		"staging_development"
 		{
-			"buildid" "12928324"
+			"buildid" "13417590"
 			"pwdrequired" "1"
-			"timeupdated" "1702291640"
+			"timeupdated" "1707502896"
 		}
 	}
 }
@@ -588,6 +634,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22134736"
-"_sha" "e7c5857dd605ada6774d52d613cc53201a4fd983"
-"_size" "12116"
+"_change_number" "22901635"
+"_sha" "a3749084060ebaeae8ba386c910e794ac8a9602a"
+"_size" "13198"
