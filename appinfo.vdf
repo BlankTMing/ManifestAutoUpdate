@@ -1,0 +1,99 @@
+"appid" "70004"
+"common"
+{
+	"name" "Dino D-Day SDK"
+	"type" "Tool"
+	"gameid" "70004"
+}
+"extended"
+{
+	"developer" ""
+	"gamedir" "dinoddaysdk"
+	"homepage" ""
+	"icon" ""
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "70003"
+	"serverbrowsername" ""
+	"state" "eStateTool"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Dino D-Day"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bin\\SDKLauncher.exe"
+		}
+	}
+}
+"depots"
+{
+	"70003"
+	{
+		"optional" "1"
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4656082492747871009"
+				"size" "161342844"
+				"download" "42396960"
+			}
+			"public_beta"
+			{
+				"gid" "4656082492747871009"
+				"size" "161342844"
+				"download" "42396960"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"sdk_beta"
+			{
+				"gid" "714B52115DE1DE34DF948507A6CC09AB"
+				"size" "019112A23804A1C63D09C94C99D9C234"
+				"download" "7B4EFFB17C18CDF1D56A258C6B7B3CBE"
+			}
+		}
+	}
+	"70001"
+	{
+		"systemdefined" "1"
+		"depotfromapp" "70000"
+		"sharedinstall" "2"
+	}
+	"70002"
+	{
+		"systemdefined" "1"
+		"depotfromapp" "70000"
+		"sharedinstall" "2"
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1036580"
+			"timeupdated" "1486517875"
+		}
+		"public_beta"
+		{
+			"buildid" "1036580"
+			"timeupdated" "1459377453"
+		}
+		"sdk_beta"
+		{
+			"buildid" "1036580"
+			"pwdrequired" "1"
+			"timeupdated" "1458693898"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "1bdd613dabe6aa683547dd293cdcf9c34184ccf8"
+"_size" "1495"
