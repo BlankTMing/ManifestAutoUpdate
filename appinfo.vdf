@@ -1,0 +1,106 @@
+"appid" "220600"
+"common"
+{
+	"name" "Football Manager 2013 Editor"
+	"type" "Tool"
+	"logo" "2bfdca15cbd7130afd376e2c62aa67429cd5fde5"
+	"logo_small" "2bfdca15cbd7130afd376e2c62aa67429cd5fde5_thumb"
+	"oslist" "windows,macos"
+	"clienticon" "cedc0be9ebafe5c181071fcc65e8c3790590e553"
+	"clienttga" "2b52b3572ce9dccd8bc49e38aa7968ee2ea4f270"
+	"icon" "6a4e8f16aa7ef986b837ed4fad156c1ea109f60d"
+	"clienticns" "910024a39d085a955fbbc16995fc35755999e475"
+	"gameid" "220600"
+}
+"extended"
+{
+	"developer" "Sports Interactive"
+	"gamedir" "Football Manager 2013 Editor"
+	"homepage" "http://www.sigames.com/"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"validoslist" "windows,macos"
+	"visibleonlywhensubscribed" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Football Manager 2013 Editor"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "editor.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Editor.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"220601"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6670118250685177603"
+				"size" "162716109"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "2130844620841837617"
+				"size" "162716109"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "14E5E3EF2C47BF2C8B72E3333A99F8E7"
+				"size" "3870ECFB66C1558A3F236DB91C34AA33"
+				"download" "B272FFACEE229F75B88FF6758D38C857"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "48624"
+		}
+		"local"
+		{
+			"buildid" "48621"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+		"test"
+		{
+			"buildid" "48624"
+			"pwdrequired" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "d7e87b9c90104866f17ba2dbc64f13c3a9904a74"
+"_size" "1895"
