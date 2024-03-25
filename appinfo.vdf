@@ -1,0 +1,413 @@
+"appid" "2102320"
+"common"
+{
+	"name" "MISTROGUE: Mist and the Living Dungeons"
+	"type" "Game"
+	"icon" "a5e49a0ecc4ddbff501e77e9645ea53d7d43b200"
+	"clienttga" "ef2b2bdc085517ce258764b4fa82248257a5aebb"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64,macosapplesilicon"
+	"clienticon" "dc9c06f0de2653917227461208f2f1ef5b1ae453"
+	"clienticns" "aedc60e40d382faf5ce180ed67cff81c96f8035a"
+	"releasestate" "released"
+	"name_localized"
+	{
+		"japanese" "MISTROGUE ミストと生けるダンジョン"
+		"koreana" "MISTROGUE 미스트와 살아있는 던전"
+	}
+	"languages"
+	{
+		"english" "1"
+		"koreana" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"japanese" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1684972800"
+		"tested_build_id" "11074359"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-1"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"japanese" "capsule_231x87_japanese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"japanese" "header_japanese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,ja"
+		"library_hero" "en,ja"
+		"library_logo" "en,ja"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "72.99771167048053"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1701415736"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Polyscape Inc."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Polyscape Inc."
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "3"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1698368413"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2102320"
+	"store_tags"
+	{
+		"0" "4434"
+		"1" "4231"
+		"2" "198631"
+		"3" "1720"
+		"4" "3955"
+		"5" "42804"
+		"6" "1716"
+		"7" "3959"
+		"8" "122"
+		"9" "19"
+		"10" "492"
+		"11" "5125"
+		"12" "4182"
+		"13" "6730"
+		"14" "4191"
+		"15" "493"
+		"16" "6691"
+		"17" "9"
+		"18" "4791"
+		"19" "1684"
+	}
+	"review_score" "6"
+	"review_percentage" "71"
+}
+"extended"
+{
+	"developer" "Polyscape Inc."
+	"publisher" "Polyscape Inc."
+	"homepage" "https://forms.gle/RcmwEfyCVsLhbjcP8"
+}
+"config"
+{
+	"installdir" "MISTROGUE"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "MISTROGUE.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Win"
+			}
+			"description" "Win"
+		}
+		"1"
+		{
+			"executable" "MISTROGUE.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "Mac"
+			}
+			"description" "Mac"
+		}
+	}
+}
+"depots"
+{
+	"2102322"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5095976330761260910"
+				"size" "6475180497"
+				"download" "4755535072"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"battleroad_internal"
+			{
+				"gid" "925E028216787F6A40059D750A7FDF4A"
+				"size" "5C06E91E1375027C8FE64D0F1F238B47"
+				"download" "715DDEC4135600F1B8F20AF761AE60B6"
+			}
+			"ezakisama"
+			{
+				"gid" "3123CBF4D3D313033BB56CA98ADFE416"
+				"size" "C01AEC73A99E6BD5EF347527F3BA1A52"
+				"download" "628C0CB6512B74C659B68653606B0863"
+			}
+			"forpress"
+			{
+				"gid" "E40D23AD03EACF6B0E1333C0953BDE62"
+				"size" "4E03B1D2D7A176952967A5233E49B97A"
+				"download" "68CF960D2A8E91370400DE8A6A7DD92C"
+			}
+			"forstreamer"
+			{
+				"gid" "8588A3E6E08C467F1232D114CEBB0991"
+				"size" "A5BA439CA285F65C9A2C838B34D480A1"
+				"download" "E3CE1B2AEB51BCEF9082787D3284B7CA"
+			}
+			"hotfix_qa"
+			{
+				"gid" "1C4B50ABFEA02B69A41FF6DE27F686A8"
+				"size" "8917F8FDA5039C93E517721258880626"
+				"download" "1FC065D38CB1DE67D7662B4A74A0FCF3"
+			}
+			"korea"
+			{
+				"gid" "62E8F07315E9EE5B386B14563024EE39"
+				"size" "F4A89AD6444011D886C9C04C314221AE"
+				"download" "93A3DC5C396738472FEF4F97E8BA2C90"
+			}
+		}
+	}
+	"2102323"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "717652353077600265"
+				"size" "6629985788"
+				"download" "4849404176"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"battleroad_internal"
+			{
+				"gid" "79CB5DDD230ED4022985159CF27DAFEE"
+				"size" "DF8FD1B6185DCC9BC8DAF6E42786F5C0"
+				"download" "F2BFECC9BCFA489DD227A9CD7E181155"
+			}
+			"ezakisama"
+			{
+				"gid" "B22E7EE3D7D9ED29A47F69D24710C1A8"
+				"size" "FFFBD4E5F3A43A91CE5D555C1C6B7D56"
+				"download" "51F9CFE1C81546661743900790C07D99"
+			}
+			"forpress"
+			{
+				"gid" "7FB7EAC62DFB18F47D7ECFBDB68B4AE2"
+				"size" "745D0BD22E27A43B167B879F0285D0F9"
+				"download" "6B2A4AA532A675DD81C34A113BBEF5EC"
+			}
+			"forstreamer"
+			{
+				"gid" "30EA6E035D3C0EA2CE61C9487894B39F"
+				"size" "D6BA6C6DB240E41DD60D7C17CD0077AD"
+				"download" "1252896FC1E0E58ACBDC9A8BE074CACE"
+			}
+			"hotfix_qa"
+			{
+				"gid" "BCC73D689938270AB975FC438BF0FDA4"
+				"size" "A1BB52244B212AECE2B5967373227272"
+				"download" "206337D1DCDD3793F76F496232CD92F7"
+			}
+			"korea"
+			{
+				"gid" "32B7AB793E85686480674F79B416E75F"
+				"size" "EF1B4D0E9BAD6FA449A3079A9EABF40A"
+				"download" "22F3FA0C7BBDE4A314214CDB3CE78804"
+			}
+		}
+	}
+	"baselanguages" "english,japanese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13493363"
+			"timeupdated" "1708311215"
+		}
+		"battleroad_internal"
+		{
+			"buildid" "13493363"
+			"pwdrequired" "1"
+			"timeupdated" "1708308986"
+		}
+		"ezakisama"
+		{
+			"buildid" "12689688"
+			"pwdrequired" "1"
+			"timeupdated" "1699883630"
+		}
+		"forpress"
+		{
+			"buildid" "12550223"
+			"pwdrequired" "1"
+			"timeupdated" "1698387330"
+		}
+		"forstreamer"
+		{
+			"buildid" "12550223"
+			"pwdrequired" "1"
+			"timeupdated" "1698387340"
+		}
+		"hotfix_qa"
+		{
+			"buildid" "12544676"
+			"pwdrequired" "1"
+			"timeupdated" "1698387225"
+		}
+		"korea"
+		{
+			"buildid" "12828335"
+			"pwdrequired" "1"
+			"timeupdated" "1701263329"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "MISTROGUE_Data/StreamingAssets/"
+			"pattern" "SAVEDATA.BIN"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "MISTROGUE.app/Contents/Resources/Data/StreamingAssets/"
+			"pattern" "SAVEDATA.BIN"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22599709"
+"_sha" "4de39264c5233be36d43182079303dafe6b6707c"
+"_size" "8077"
