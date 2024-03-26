@@ -4,7 +4,7 @@
 	"name" "Vigil: The Longest Night"
 	"type" "Game"
 	"releasestate" "released"
-	"oslist" "windows"
+	"oslist" "windows,linux"
 	"osarch" ""
 	"logo" "d8149ded09d6d994349d0369a13d3220d61c4e21"
 	"logo_small" "d8149ded09d6d994349d0369a13d3220d61c4e21_thumb"
@@ -36,8 +36,6 @@
 		"0" "2"
 		"1" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "1"
@@ -120,6 +118,7 @@
 		"category_23" "1"
 		"category_45" "1"
 		"category_46" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -168,6 +167,11 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1602694260"
 	"metacritic_score" "75"
@@ -181,8 +185,8 @@
 		"1" "3798"
 		"2" "29482"
 		"3" "4026"
-		"4" "1625"
-		"5" "7208"
+		"4" "7208"
+		"5" "1625"
 		"6" "6426"
 		"7" "4231"
 		"8" "4106"
@@ -195,8 +199,8 @@
 		"15" "6971"
 		"16" "1742"
 		"17" "19"
-		"18" "1684"
-		"19" "4604"
+		"18" "4604"
+		"19" "1684"
 	}
 	"review_score" "8"
 	"review_percentage" "87"
@@ -274,8 +278,15 @@
 			"enabled_branches" "default,chapter_1,controllertest,debug_2017,debug_2018,debug_2018_rewired,debug_2018_steam_input,debug_2019,demotest,discord_test,internal_beta,lastversion,maptest,media,open_beta,showcase,test,tmp_test"
 			"use_action_block" "false"
 		}
+		"3156928270"
+		{
+			"controller_type" "controller_neptune"
+			"enabled_branches" "default,open_beta"
+			"use_action_block" "false"
+		}
 	}
 	"steamconfigurator3rdpartynative" "15"
+	"steamdecktouchscreen" "1"
 }
 "depots"
 {
@@ -286,15 +297,14 @@
 		"config"
 		{
 			"oslist" "windows"
-			"language" ""
 		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "8477437378742226073"
-				"size" "3056357956"
-				"download" "2494732096"
+				"gid" "2636413640993880606"
+				"size" "3647619654"
+				"download" "2551726368"
 			}
 			"controllertest"
 			{
@@ -355,9 +365,9 @@
 			}
 			"internal_beta"
 			{
-				"gid" "08D3694940638ED22E03CBEA82A64B68"
-				"size" "99BBE7AFDCE2B73C75F5D4D0D96C917F"
-				"download" "9B6F0E808E6E766B005A6CEC94FC6923"
+				"gid" "6337365B87010C31428A0C7A1641C19F"
+				"size" "9969E5052941F3D9EA47736EB0C36962"
+				"download" "5634356BFE870886D7BC760A5C784114"
 			}
 			"maptest"
 			{
@@ -373,15 +383,15 @@
 			}
 			"open_beta"
 			{
-				"gid" "20B86ADDD0095904B30ABB359649E494"
-				"size" "97F2A9F6859D5EAAB3F6A98618400D2E"
-				"download" "85A53D08B7D0A420A80F11FE4B003A5C"
+				"gid" "77B703AACD96F2087A3F93B85B1D48FE"
+				"size" "9D6F81E35630EF3C043A2571E881EF97"
+				"download" "EFD24CE3D2B7570DE7C390AF9BBA3637"
 			}
 			"test"
 			{
-				"gid" "5F0DDD8A081D8F2AE21567C26C30445F"
-				"size" "EC43EE4543B8462CE23DF1BB8C9D8987"
-				"download" "801DE9409E32A4AE428357AF3DE3DD4D"
+				"gid" "12F1B7E47FF3A16656C587C3217A1C89"
+				"size" "F55E0C84EC8B335F7C25527A5E882C8A"
+				"download" "EF221E29589B3C2DD9CC9841C8BAEC5E"
 			}
 			"tmp_test"
 			{
@@ -397,7 +407,6 @@
 		"config"
 		{
 			"oslist" "windows"
-			"language" ""
 		}
 		"manifests"
 		{
@@ -496,7 +505,6 @@
 		"config"
 		{
 			"oslist" "windows"
-			"language" ""
 		}
 		"manifests"
 		{
@@ -595,7 +603,6 @@
 		"config"
 		{
 			"oslist" "windows"
-			"language" ""
 		}
 		"manifests"
 		{
@@ -688,12 +695,43 @@
 			}
 		}
 	}
+	"720563"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8968471881842137880"
+				"size" "5303550822"
+				"download" "3758192544"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"open_beta"
+			{
+				"gid" "ACE159FEFD6E0D21BD56D4F92927D803"
+				"size" "2F75DC38895CC2A3B9293E46E98FB257"
+				"download" "C94DE2AAA42DD032E49D3A52AF351728"
+			}
+			"test"
+			{
+				"gid" "BD3EAAFE9BA1F16C46C985F7A190C5C8"
+				"size" "E7610A485D6AC75B25790A574B2973EC"
+				"download" "54CA9F4D1956D32A60920D3251E84A20"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13364428"
-			"timeupdated" "1707179010"
+			"buildid" "13847687"
+			"timeupdated" "1711396599"
 		}
 		"chapter_1"
 		{
@@ -745,9 +783,9 @@
 		}
 		"internal_beta"
 		{
-			"buildid" "5810666"
+			"buildid" "13678568"
 			"pwdrequired" "1"
-			"timeupdated" "1605085504"
+			"timeupdated" "1709884753"
 		}
 		"lastversion"
 		{
@@ -769,15 +807,15 @@
 		}
 		"open_beta"
 		{
-			"buildid" "13364428"
+			"buildid" "13847687"
 			"pwdrequired" "1"
-			"timeupdated" "1707091714"
+			"timeupdated" "1711396099"
 		}
 		"test"
 		{
-			"buildid" "6012139"
+			"buildid" "13847486"
 			"pwdrequired" "1"
-			"timeupdated" "1608839168"
+			"timeupdated" "1711394639"
 		}
 		"tmp_test"
 		{
@@ -839,6 +877,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22218207"
-"_sha" "705741fbd10ebee556882b326555b29cf515c66f"
-"_size" "19130"
+"_change_number" "22903757"
+"_sha" "f9e27c139ca1875c3ef97e43ee6343d39a22d77c"
+"_size" "19850"
