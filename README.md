@@ -1,6 +1,5 @@
-## 更新时间：2024-03-27 23:56:08
+## 更新时间：2024-03-28 00:06:58
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1044720 | Farthest Frontier| Game |
-| 2789700 | Farthest Frontier Mod Tools| Tool |
-| 252490 | Rust| Game |
+| 1203620 | Enshrouded| Game |
+| 2278520 | Enshrouded Dedicated Server| Tool |
