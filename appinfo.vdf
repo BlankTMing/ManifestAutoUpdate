@@ -6,9 +6,9 @@
 	"clienticon" "bf0d4ba0e1e90c37883332007523e5c75d9b6910"
 	"clienttga" "aed0f12a5dfdf543d5ea56ebe1caa650a55cd044"
 	"icon" "ad9c5dc98995fc91612d3e6b5cab7ca56ea8fb47"
-	"oslist" "windows"
+	"oslist" "windows,macos,linux"
 	"osarch" ""
-	"osextended" ""
+	"osextended" "macos64,macosapplesilicon"
 	"releasestate" "released"
 	"steam_deck_compatibility"
 	{
@@ -83,6 +83,11 @@
 			"type" "publisher"
 			"name" "PUNKCAKE Delicieux"
 		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "PUNKCAKE"
+		}
 	}
 	"primary_genre" "1"
 	"genres"
@@ -102,6 +107,7 @@
 		"category_56" "1"
 		"category_57" "1"
 		"category_58" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -215,6 +221,25 @@
 			}
 			"description" "Compatibility mode - CRT effect disabled"
 		}
+		"2"
+		{
+			"executable" "shotgun_king.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "shotgun_king"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
 	}
 	"steamcontrollertemplateindex" "4"
 	"steamcontrollertouchtemplateindex" "8"
@@ -223,15 +248,20 @@
 }
 "depots"
 {
+	"workshopdepot" "1972440"
 	"1972441"
 	{
+		"config"
+		{
+			"oslist" "windows"
+		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "8686488960158942525"
-				"size" "76240986"
-				"download" "66397504"
+				"gid" "6179688595943398200"
+				"size" "92632617"
+				"download" "84714288"
 			}
 			"v1.39"
 			{
@@ -241,13 +271,44 @@
 			}
 		}
 	}
-	"workshopdepot" "1972440"
+	"1972442"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6408318119951604550"
+				"size" "91522200"
+				"download" "83807888"
+			}
+		}
+	}
+	"1972443"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "735917054840942523"
+				"size" "94283285"
+				"download" "84052864"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13383431"
-			"timeupdated" "1707239681"
+			"buildid" "13872442"
+			"timeupdated" "1711561226"
 		}
 		"v1.39"
 		{
@@ -263,18 +324,6 @@
 	"maxnumfiles" "200"
 	"savefiles"
 	{
-		"0"
-		{
-			"root" "gameinstall"
-			"path" ""
-			"pattern" "save.bnk"
-		}
-		"1"
-		{
-			"root" "gameinstall"
-			"path" ""
-			"pattern" "stats.bnk"
-		}
 		"2"
 		{
 			"root" "gameinstall"
@@ -282,8 +331,35 @@
 			"pattern" "*.bnk"
 		}
 	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" ""
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" "PUNKCAKE Delicieux/Shotgun King - The Final Checkmate/"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ".local/share/PUNKCAKE Delicieux/Shotgun King - The Final Checkmate/"
+		}
+	}
 }
 "_missing_token" "False"
-"_change_number" "22230548"
-"_sha" "0ad382e88670ce97b88933c3c409c8e2e2f37ff8"
-"_size" "4990"
+"_change_number" "22936368"
+"_sha" "9996ad575841569a1ce1972f53ea392cacfa20af"
+"_size" "6198"
