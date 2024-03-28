@@ -1,0 +1,235 @@
+"appid" "1875460"
+"common"
+{
+	"name" "Midnight Ghost Hunt - Beta Test"
+	"type" "Beta"
+	"parent" "915810"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"icon" "8a5d189d042482d800101866b8e4fb4356474713"
+	"logo" "34a99ba4f0b02307d1f376af01b6b20b29c76c62"
+	"logo_small" "34a99ba4f0b02307d1f376af01b6b20b29c76c62_thumb"
+	"clienttga" "83e0f7229711a9980be83a1cca3f2c70e0f99631"
+	"clienticon" "772f15bf36f9cf39b9d1e2939ef044e93e6ef1ae"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "1875460_eula_0"
+			"name" "Midnight Ghost Hunt - Beta Playtest EULA"
+			"url" "https://store.steampowered.com//eula/1875460_eula_0"
+			"version" "1"
+		}
+	}
+	"releasestate" "released"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "94.81566820276498"
+			"height_pct" "45.47365543280258"
+		}
+	}
+	"store_asset_mtime" "1642476842"
+	"associations"
+	{
+	}
+	"primary_genre" "0"
+	"category"
+	{
+	}
+	"steam_release_date" "1643307375"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1875460"
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"betaforappid" "915810"
+}
+"config"
+{
+	"installdir" "Midnight Ghost Hunt Playtest"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "start_protected_game.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "launch_game.bat"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "brunetest"
+			}
+			"description_loc"
+			{
+				"english" "and Force install EAC"
+			}
+			"description" "and Force install EAC"
+		}
+	}
+	"uselaunchcommandline" "1"
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1875461"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7264754181969572187"
+				"size" "24468071249"
+				"download" "23072292080"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"brunetest"
+			{
+				"gid" "F4EF5E712FD3094CE90FF417430A939B"
+				"size" "9DAADC1A750E5F9057FF4A0D8CACFE9C"
+				"download" "503C7AD1E9FE4427EBB10DC113953D05"
+			}
+			"hardware-support"
+			{
+				"gid" "2DB5F0DAEF74B4D1D9D75B138426D569"
+				"size" "FBF19462FBD795241C04011761BF13C8"
+				"download" "006A0C8AF90EF8B3485D11E613F3F2DE"
+			}
+			"internal"
+			{
+				"gid" "D9D990AF21417F59B700F03B5174AD4D"
+				"size" "37D313BA597DB36F2A45C5EFDDFBB58A"
+				"download" "67FF56B949386097BFE94D35F59A9E1F"
+			}
+			"lastbuild"
+			{
+				"gid" "8930B0770CF6F0D8A30CCAF35EDDB0BA"
+				"size" "1F5E87E40843F74ED9F504288F5FE393"
+				"download" "C5377DFA503397A261B7C1B385A3F771"
+			}
+			"perftest"
+			{
+				"gid" "376F098E0B20A7D31C50E5E9E6BC7880"
+				"size" "BA6E0E45AF0F6EC2A73F3D0A1DC09365"
+				"download" "99C87A784F3CAB10739D42819D19D93F"
+			}
+			"qa-test"
+			{
+				"gid" "9BB2C461BF161B868A959E5900DB0E03"
+				"size" "EF100DB3D71C360FCA0162B098F32BDF"
+				"download" "4A44A64477DEB3E53222D49EBB56BC33"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8464745"
+			"timeupdated" "1648632419"
+		}
+		"brunetest"
+		{
+			"buildid" "8441008"
+			"pwdrequired" "1"
+			"timeupdated" "1648238300"
+		}
+		"hardware-support"
+		{
+			"buildid" "8464297"
+			"pwdrequired" "1"
+			"timeupdated" "1648708911"
+		}
+		"internal"
+		{
+			"buildid" "8464297"
+			"pwdrequired" "1"
+			"timeupdated" "1648628631"
+		}
+		"lastbuild"
+		{
+			"buildid" "8107311"
+			"pwdrequired" "1"
+			"timeupdated" "1643412074"
+		}
+		"perftest"
+		{
+			"buildid" "8360905"
+			"pwdrequired" "1"
+			"timeupdated" "1647291976"
+		}
+		"qa-test"
+		{
+			"buildid" "8360905"
+			"pwdrequired" "1"
+			"timeupdated" "1647263303"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#status" "%TEAM% in %MAP% %LOBBY_COUNT%/%LOBBY_MAX%"
+				"#mainmenu" "MainMenu"
+				"#waitingforplayers" "MainMenu: %LOBBY_COUNT%/%LOBBY_MAX%"
+				"#tutorial_hunter" "Playing Hunter Tutorial"
+				"#tutorial_ghost" "Playing Ghost Tutorial"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20445399"
+"_sha" "fe0100d30c7df2815e0a8fca98a33a807622b60a"
+"_size" "4524"
