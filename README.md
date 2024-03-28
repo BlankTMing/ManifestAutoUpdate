@@ -1,21 +1,23 @@
-## 更新时间：2024-03-28 08:56:25
+## 更新时间：2024-03-28 16:15:28
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 413150 | Stardew Valley| Game |
+| 434650 | Lost Castle| Game |
 | 322330 | Don't Starve Together| Game |
-| 1501750 | Lords of the Fallen| Game |
+| 2244130 | Ratopia| Game |
 | 343050 | Don't Starve Together Dedicated Server| Tool |
-| 1466860 | Age of Empires IV: Anniversary Edition| Game |
-| 275850 | No Man's Sky| Game |
-| 1599340 | Lost Ark| Game |
-| 1169040 | Necesse| Game |
-| 1169370 | Necesse Dedicated Server| Tool |
-| 1782120 | ZERO Sievert| Game |
-| 899770 | Last Epoch| Game |
-| 1972440 | Shotgun King: The Final Checkmate| Game |
-| 1489970 | Highrise City| Game |
-| 1676840 | For The King II| Game |
-| 770810 | Good Pizza, Great Pizza| Game |
-| 505460 | Foxhole| Game |
-| 1351240 | Taxi Life: A City Driving Simulator| Game |
-| 1541840 | 古剑奇谭网络版 海外版| Game |
+| 1149460 | Icarus| Game |
+| 2273430 | BlazBlue Entropy Effect| Game |
+| 740260 | Crimson Imprint plus -Nonexistent Christmas-| Game |
+| 593600 | PixARK| Game |
+| 1247270 | Divinity: Original Sin 2 Soundtrack| Music |
+| 633230 | NARUTO TO BORUTO: SHINOBI STRIKER| Game |
+| 2056210 | LONESTAR| Game |
+| 2781370 | EXIT KUN| Game |
+| 533300 | Zup!| Game |
+| 878490 | Goblins on Alien Planet| Game |
+| 418460 | Rising Storm 2: Vietnam| Game |
+| 418500 | Rising Storm 2 - SDK| Tool |
+| 1042400 | Rising Storm 2: Vietnam - Green Army Men Base| DLC |
+| 852740 | Away From Earth: Mars| Game |
+| 2168150 | Teslagrad Remastered| Game |
+| 553850 | HELLDIVERS™ 2| Game |
