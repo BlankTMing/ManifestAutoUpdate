@@ -19,6 +19,55 @@
 	"oslist" "windows,linux"
 	"osarch" "64"
 	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1710979200"
+		"tested_build_id" "13715735"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"small_capsule"
 	{
@@ -43,7 +92,7 @@
 			"height_pct" "74.11538503996721"
 		}
 	}
-	"store_asset_mtime" "1710323283"
+	"store_asset_mtime" "1711590750"
 	"associations"
 	{
 		"0"
@@ -79,6 +128,8 @@
 		"category_49" "1"
 		"category_36" "1"
 		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -120,18 +171,18 @@
 	"store_tags"
 	{
 		"0" "1084988"
-		"1" "9"
-		"2" "6276"
+		"1" "6276"
+		"2" "9"
 		"3" "1775"
 		"4" "3859"
-		"5" "17770"
-		"6" "1091588"
+		"5" "1091588"
+		"6" "17770"
 		"7" "492"
 		"8" "1708"
 		"9" "791774"
-		"10" "3993"
-		"11" "4236"
-		"12" "1677"
+		"10" "1677"
+		"11" "3993"
+		"12" "4236"
 		"13" "1716"
 		"14" "4711"
 		"15" "3871"
@@ -206,9 +257,9 @@
 		{
 			"public"
 			{
-				"gid" "1867908164107007945"
-				"size" "220954872"
-				"download" "158116608"
+				"gid" "7706263040459321011"
+				"size" "220960312"
+				"download" "158119312"
 			}
 		}
 	}
@@ -222,9 +273,9 @@
 		{
 			"public"
 			{
-				"gid" "565894349584808672"
-				"size" "243036712"
-				"download" "163736928"
+				"gid" "1087861698753204322"
+				"size" "243040840"
+				"download" "163740064"
 			}
 		}
 	}
@@ -232,8 +283,8 @@
 	{
 		"public"
 		{
-			"buildid" "13846748"
-			"timeupdated" "1711389717"
+			"buildid" "13893984"
+			"timeupdated" "1711714054"
 		}
 	}
 }
@@ -275,7 +326,64 @@
 		}
 	}
 }
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#status_ingame" "{#gamemode_%gamemode%}: {#class_%class%} (%wins% #Wins/#Round %round%)"
+				"#gamemode_ranked" "Ranked"
+				"#gamemode_unranked" "Unranked"
+				"#round" "Round"
+				"#wins" "Wins"
+				"#class_ranger" "Ranger"
+				"#class_reaper" "Reaper"
+				"#class_berserker" "Berserker"
+				"#class_pyromancer" "Pyromancer"
+			}
+		}
+		"german"
+		{
+			"tokens"
+			{
+				"#status_ingame" "{#gamemode_%gamemode%}: {#class_%class%} (%wins% {#Wins}/{#Round} %round%)"
+				"#status_menu" "Hauptmenü"
+				"#gamemode_ranked" "Gewertet"
+				"#gamemode_unranked" "Ungewertet"
+				"#round" "R"
+				"#wins" "W"
+				"#class_ranger" "Waldläufer"
+				"#class_reaper" "Sensenfrau"
+				"#class_berserker" "Berserker"
+				"#class_pyromancer" "Pyromane"
+				"#class_hunter" "Jäger"
+				"#class_lifebinder" "Lebensbinder"
+				"#class_pathfinder" "Pfadfinder"
+				"#class_grovekeeper" "Wächter des Waldes"
+				"#class_beastmaster" "Bestienzähmer"
+				"#class_vampiress" "Vampirella"
+				"#class_witch" "Hexe"
+				"#class_hexblade" "Fluchklinge"
+				"#class_venomancer" "Schlangenbeschwörer"
+				"#class_alchemist" "Alchimist"
+				"#class_pack leader" "Rudelführer"
+				"#class_blacksmith" "Schmied"
+				"#class_chieftain" "Häuptling"
+				"#class_shaman" "Schamane"
+				"#class_fighter" "Krieger"
+				"#class_firebender" "Feuerbändiger"
+				"#class_crusader" "Kreuzritter"
+				"#class_ashbringer" "Aschbringer"
+				"#class_cryomancer" "Kryomane"
+				"#class_scalewarden" "Drachenwächter"
+			}
+		}
+	}
+}
 "_missing_token" "False"
-"_change_number" "22902556"
-"_sha" "5df8650f6b01f9ddbd8f3351f5c7c30b2e8ec52f"
-"_size" "4745"
+"_change_number" "22961673"
+"_sha" "6c7fd64706a4396576eebc83970e3480081146f7"
+"_size" "7682"
