@@ -10,6 +10,55 @@
 	"oslist" "windows"
 	"osarch" ""
 	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1710288000"
+		"tested_build_id" "13569906"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"small_capsule"
 	{
@@ -58,6 +107,7 @@
 	{
 		"category_2" "1"
 		"category_22" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -124,20 +174,20 @@
 		"1" "4695"
 		"2" "12472"
 		"3" "9204"
-		"4" "4202"
-		"5" "4845"
+		"4" "4182"
+		"5" "4202"
 		"6" "1643"
-		"7" "4182"
-		"8" "3839"
+		"7" "3839"
+		"8" "4845"
 		"9" "10235"
 		"10" "3810"
 		"11" "4191"
-		"12" "597"
+		"12" "3859"
 		"13" "8945"
-		"14" "1644"
+		"14" "597"
 		"15" "4175"
-		"16" "492"
-		"17" "3859"
+		"16" "1644"
+		"17" "492"
 		"18" "6276"
 		"19" "493"
 	}
@@ -168,18 +218,18 @@
 		{
 			"public"
 			{
-				"gid" "4322432119269982968"
-				"size" "4575238329"
-				"download" "1363350096"
+				"gid" "4679512719250660866"
+				"size" "4582933191"
+				"download" "1366519104"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"beta"
 			{
-				"gid" "EEBEBA59B9E80763D86181BD57875439"
-				"size" "A6AE7819262512AFC052D63154D84509"
-				"download" "A9B3AD4BC09CDEAAAC0FEF521E1C446D"
+				"gid" "F79C5AA40539DBDF36D00FCAA9191645"
+				"size" "5D07383BA4FB90F142F23B3A9968FF9C"
+				"download" "536F4ED23D6390C5CDD12B7B04137216"
 			}
 		}
 	}
@@ -187,18 +237,32 @@
 	{
 		"public"
 		{
-			"buildid" "13751670"
-			"timeupdated" "1710503467"
+			"buildid" "13893947"
+			"timeupdated" "1711720193"
 		}
 		"beta"
 		{
-			"buildid" "13732132"
+			"buildid" "13893947"
 			"pwdrequired" "1"
-			"timeupdated" "1710368271"
+			"timeupdated" "1711713760"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "400000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "\\Nokta Games\\Supermarket Simulator"
+			"pattern" "*.es3"
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "22795117"
-"_sha" "1893a00e90c16488c3f974870e6e8e45ab42058c"
-"_size" "3067"
+"_change_number" "22962186"
+"_sha" "a96ba0f2eaaeb8e3b54074653e227b1b978f2a9a"
+"_size" "4533"
