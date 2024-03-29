@@ -1,19 +1,18 @@
-## 更新时间：2024-03-29 16:15:38
+## 更新时间：2024-03-30 00:15:52
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 774171 | Muse Dash| Game |
-| 638990 | 苏醒之路| Game |
-| 322330 | 饥荒联机版| Game |
+| 1272320 | Diplomacy is Not an Option| Game |
+| 1876890 | 逸剑风云决| Game |
 | 2244130 | Ratopia| Game |
-| 1135810 | Vault of the Void / 虚空穹牢| Game |
-| 2375550 | 人中之龙7外传 无名之龙| Game |
-| 343050 | Don't Starve Together Dedicated Server| Tool |
-| 2273430 | 苍翼：混沌效应| Game |
-| 2066020 | 灵魂石幸存者| Game |
-| 1081450 | 克瑞因的纷争| Game |
-| 2218400 | 贪婪大地| Game |
-| 2171630 | 地心归途| Game |
-| 2340650 | 古龙风云录| Game |
-| 2420110 | 《地平线 西之绝境™》完整版| Game |
-| 1683380 | 噗噗的冒险乐园| Game |
-| 1824580 | 魔卡地下城| Game |
+| 1687590 | Mars Base| Game |
+| 1034140 | Subverse| Game |
+| 756800 | Contraband Police| Game |
+| 1094520 | 部落与弯刀| Game |
+| 275850 | No Man's Sky 无人深空| Game |
+| 997010 | Police Simulator: Patrol Officers| Game |
+| 1293080 | Football, Tactics & Glory: Football Stars| DLC |
+| 1489970 | Highrise City| Game |
+| 1430760 | Aquarist - 建造水族馆，繁殖鱼类，拓展你的业务!| Game |
+| 2670630 | Supermarket Simulator| Game |
+| 2427700 | 背包乱斗：福西法的宝藏 Backpack Battles| Game |
+| 1684350 | 奇唤士| Game |
