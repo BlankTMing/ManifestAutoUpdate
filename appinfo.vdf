@@ -1,0 +1,334 @@
+"appid" "489360"
+"common"
+{
+	"name" "CASE: Animatronics"
+	"type" "Game"
+	"logo" "b77246c53946639da1859d3ab5429fb90832a4f5"
+	"logo_small" "b77246c53946639da1859d3ab5429fb90832a4f5_thumb"
+	"icon" "0d47c18f977a93bd94a156fe2630ab8f71237bc2"
+	"clienttga" "39f158e3d360c1e28b3bd8700e15d052589dfdac"
+	"oslist" "windows,macos"
+	"clienticon" "90be5c4dbfd4eddb6d22bfc943752231051c34fa"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1662595200"
+		"tested_build_id" "1422043"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "CASE: Animatronics"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "57.729983679645386"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1667119751"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Walnut LLC"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Last Level"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Walnut LLC"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "CASE: Animatronics"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1470250769"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "489360"
+	"store_tags"
+	{
+		"0" "1667"
+		"1" "5752"
+		"2" "3978"
+		"3" "3839"
+		"4" "4182"
+		"5" "1721"
+		"6" "492"
+		"7" "1687"
+		"8" "3942"
+		"9" "1662"
+		"10" "19"
+		"11" "599"
+		"12" "21"
+		"13" "3859"
+		"14" "4342"
+		"15" "4166"
+		"16" "4026"
+		"17" "4345"
+		"18" "1742"
+		"19" "4106"
+	}
+	"review_score" "8"
+	"review_percentage" "84"
+}
+"extended"
+{
+	"developer" "Walnut LLC"
+	"publisher" "Walnut LLC"
+	"homepage" "https://www.walnutdevgames.com/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "CASE Animatronics"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "case.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "case.app\\Contents\\MacOS\\case"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "case.x86"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "case.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"baselanguages" "english,german,spanish,russian"
+	"489361"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4755360090564275368"
+				"size" "1051579163"
+				"download" "424528672"
+			}
+		}
+	}
+	"489364"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8588098885602730531"
+				"size" "1047220043"
+				"download" "423117456"
+			}
+		}
+	}
+	"489362"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5253998858573532249"
+				"size" "1090990575"
+				"download" "436510432"
+			}
+		}
+	}
+	"489363"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2756210343979071505"
+				"size" "1083117463"
+				"download" "433995232"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1422043"
+			"timeupdated" "1477664588"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000"
+	"maxnumfiles" "10"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+}
+"_missing_token" "False"
+"_change_number" "22575545"
+"_sha" "d26f997be4046b1b385396adabc170688fd4f56d"
+"_size" "5465"
