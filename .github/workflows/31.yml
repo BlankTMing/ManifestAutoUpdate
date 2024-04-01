@@ -16,7 +16,7 @@ jobs:
         with:
           fetch-depth: 1
           submodules: recursive
-          token: ${{ secrets.TOKEN }}
+          #token: ${{ secrets.TOKEN }}
       - name: Set up Python 3.10
         uses: actions/setup-python@v3
         with:
