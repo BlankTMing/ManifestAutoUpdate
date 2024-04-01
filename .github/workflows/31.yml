@@ -1,0 +1,30 @@
+name: CI
+on:
+  workflow_dispatch:
+    permissions:
+      actions: write
+  schedule:
+    - cron: '0 */12 * * *'
+concurrency:
+  group: wait
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+          submodules: recursive
+          token: ${{ secrets.TOKEN }}
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.10"
+      - run: |
+          git config --local user.name github-actions[bot]
+          git config --local user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git fetch --unshallow
+          git remote set-url origin https://github.com/BlankTMing/ManifestAutoUpdate-
+          git push target --all
+          git push target --tags
