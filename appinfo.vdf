@@ -1,0 +1,128 @@
+"appid" "2542970"
+"common"
+{
+	"name" "Coffee Talk Episode 2: Hibiscus & Butterfly - Modding Tool"
+	"type" "Tool"
+	"parent" "1663220"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" ""
+	"clienttga" "fd8432489153fecfd6a344a4a5b8e7fd34930893"
+	"clienticon" "1413479d87789fb4202600e359d0dc00d4b608c8"
+	"icon" "3ef8067a5dd89ad1f78129222c7f77279259c617"
+	"releasestate" "released"
+	"gameid" "2542970"
+}
+"config"
+{
+	"installdir" "Coffee Talk Episode 2 Hibiscus & Butterfly - Modding Tool"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CTHBMOD.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "CTHBMOD.app\\Contents\\MacOS\\CTHBMOD"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"2542971"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4027379298130828652"
+				"size" "326923717"
+				"download" "77690896"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "106A827D4683E3A2E19B5DE38C7EF617"
+				"size" "1E70FC87C9355EBD6582C2FA5B4884E5"
+				"download" "807A6C1A365F58FD0BBA4CF18168CF02"
+			}
+		}
+	}
+	"2542972"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6779957940982933290"
+				"size" "333717778"
+				"download" "80837744"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "5BDE422A62D1A04722ADFBEFF3EC742B"
+				"size" "9879457761A91B8D523BA015E1C915B7"
+				"download" "D7A125C62D338663A91BAA86CBB19563"
+			}
+		}
+	}
+	"workshopdepot" "2542970"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12175200"
+			"timeupdated" "1694583909"
+		}
+		"testing"
+		{
+			"buildid" "12010870"
+			"pwdrequired" "1"
+			"timeupdated" "1692778967"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1048576000"
+	"maxnumfiles" "1000"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "CTHBMOD_Data/Mods"
+			"pattern" "*"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20343661"
+"_sha" "4198eb000036c0b1efa239bafbb66f4194ba3f32"
+"_size" "2116"
