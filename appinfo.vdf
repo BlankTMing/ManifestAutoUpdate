@@ -1,0 +1,206 @@
+"appid" "1475430"
+"common"
+{
+	"name" "天师"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"clienttga" "0e1ed55017bfdce92d653df9a60bfde45ead9cda"
+	"icon" "7aa61d34c31fb56696a5d0ef91935f610b6cc96d"
+	"logo" "b78ad52624e87554fbd8e884d88caa0dc5f65a6b"
+	"logo_small" "b78ad52624e87554fbd8e884d88caa0dc5f65a6b_thumb"
+	"clienticon" "0fcc26282a90dcbf39a53c181c5b9a6b427994aa"
+	"releasestate" "released"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn"
+		"library_hero" "en,zh-cn"
+		"library_logo" "en,zh-cn"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1637729655"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "明枭网络"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "明枭网络"
+		}
+	}
+	"primary_genre" "0"
+	"category"
+	{
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1641317671"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "1475430"
+	"store_tags"
+	{
+		"0" "1659"
+		"1" "122"
+		"2" "6971"
+		"3" "1741"
+		"4" "1742"
+		"5" "1695"
+		"6" "17305"
+		"7" "4182"
+		"8" "14139"
+		"9" "5379"
+		"10" "12472"
+		"11" "6426"
+		"12" "4191"
+		"13" "3871"
+	}
+	"review_score" "5"
+	"review_percentage" "62"
+}
+"extended"
+{
+	"developer" "明枭网络"
+	"publisher" "明枭网络"
+}
+"config"
+{
+	"installdir" "ImmortalMaster"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ImmortalMaster.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "ImmortalMaster.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,schinese"
+	"1475431"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7543003143646873045"
+				"size" "483937069"
+				"download" "358468480"
+			}
+			"fortest"
+			{
+				"gid" "7543003143646873045"
+				"size" "483937069"
+				"download" "358468480"
+			}
+		}
+	}
+	"1475432"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+	}
+	"1475433"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+	}
+	"workshopdepot" "1475430"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13653989"
+			"timeupdated" "1709709919"
+		}
+		"fortest"
+		{
+			"buildid" "13653989"
+			"description" "for test"
+			"timeupdated" "1709709931"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Minshore/ImmortalMaster/Save"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"2"
+		{
+			"root" "MacAppSupport"
+			"path" "Minshore/ImmortalMaster/Save"
+			"pattern" "*.dat"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22909675"
+"_sha" "8ffd07b4b839c92e295f4d0355903e560c029e76"
+"_size" "3237"
