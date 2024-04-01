@@ -26,5 +26,5 @@ jobs:
           git config --local user.email 41898282+github-actions[bot]@users.noreply.github.com
           git fetch --unshallow
           git remote set-url origin https://github.com/BlankTMing/ManifestAutoUpdate-
-          git push target --all
-          git push target --tags
+          git push --all
+          git push --tags
