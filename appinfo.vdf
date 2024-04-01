@@ -1,0 +1,512 @@
+"appid" "239070"
+"common"
+{
+	"name" "Hammerwatch"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"icon" "2d07672b1ccb294a5986ebc36c4138216c55d60d"
+	"logo" "5fbd27b4d719e9d81257c83b09292e391c0e0544"
+	"logo_small" "5fbd27b4d719e9d81257c83b09292e391c0e0544_thumb"
+	"clienttga" "4073cdfd26560df1624c648049072de0195ae8f7"
+	"clienticon" "d2d06ceb691844341a2d62f42374b0c510103a1c"
+	"clienticns" "cf1ce12d1397c1f0fd4c53951c32e2b64023da51"
+	"linuxclienticon" "1abe61fef0f814e77291b9aa680c8c40b7f80b93"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1667865600"
+		"tested_build_id" "3077805"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Hammerwatch"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1534080899"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Crackshell"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Crackshell"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Hammerwatch"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_24" "1"
+		"category_17" "1"
+		"category_18" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_30" "1"
+		"category_44" "1"
+		"category_38" "1"
+		"category_39" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1376326800"
+	"metacritic_score" "72"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/hammerwatch\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "239070"
+	"store_tags"
+	{
+		"0" "1720"
+		"1" "492"
+		"2" "122"
+		"3" "1685"
+		"4" "3964"
+		"5" "19"
+		"6" "3841"
+		"7" "3843"
+		"8" "21"
+		"9" "1646"
+		"10" "4004"
+		"11" "1684"
+		"12" "3859"
+		"13" "3871"
+		"14" "4791"
+		"15" "4840"
+		"16" "7368"
+		"17" "4182"
+		"18" "1716"
+		"19" "8122"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" "Crackshell"
+	"gamedir" "ValveTestApp239070"
+	"homepage" "http://www.hammerwatch.com/"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateComingSoonNoPreload"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Crackshell"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Hammerwatch"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Hammerwatch.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "editor/HammerEditor.exe"
+			"description" "Launch Editor"
+			"workingdir" "editor/"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "RunHammerwatch"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"4"
+		{
+			"executable" "RunHammerwatch"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229002"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229020"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"239071"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9213025353677025414"
+				"size" "182924059"
+				"download" "157353696"
+			}
+			"1.3"
+			{
+				"gid" "6038447391393479561"
+				"size" "177696280"
+				"download" "38034351118"
+			}
+			"1.31"
+			{
+				"gid" "6884499353695169541"
+				"size" "177377587"
+				"download" "154393344"
+			}
+			"1.32"
+			{
+				"gid" "1141056536200317178"
+				"size" "177824150"
+				"download" "154177168"
+			}
+			"1.40"
+			{
+				"gid" "8955229723156501026"
+				"size" "182901531"
+				"download" "157274640"
+			}
+			"old_1.2"
+			{
+				"gid" "8955924198278655776"
+				"size" "128861417"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"1.41"
+			{
+				"gid" "6073700257662D85974F58F27560ED08"
+				"size" "4CAB2F57D5B860F2848A330843D25B8D"
+				"download" "D2F20555B43079E356D9BB9EB897A003"
+			}
+		}
+	}
+	"239072"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2679154786871257764"
+				"size" "6411648"
+				"download" "1203760"
+			}
+			"1.3"
+			{
+				"gid" "2840058807188487634"
+				"size" "2233168"
+				"download" "60171650"
+			}
+			"1.31"
+			{
+				"gid" "2679154786871257764"
+				"size" "6411648"
+				"download" "1203760"
+			}
+			"1.32"
+			{
+				"gid" "2679154786871257764"
+				"size" "6411648"
+				"download" "1203760"
+			}
+			"1.40"
+			{
+				"gid" "2679154786871257764"
+				"size" "6411648"
+				"download" "1203760"
+			}
+			"old_1.2"
+			{
+				"gid" "7886303697790273521"
+				"size" "436048"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"1.41"
+			{
+				"gid" "5670C8DD8A0804D8061F4CEF1C48644D"
+				"size" "F7B36864B3CE7C1C4C9150CC7A11019E"
+				"download" "59C73C94F77F9081E087E9B346B6850F"
+			}
+		}
+	}
+	"239073"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "512117944171223794"
+				"size" "25008146"
+				"download" "6595664"
+			}
+			"1.3"
+			{
+				"gid" "5985705784879760635"
+				"size" "19768259"
+				"download" "46791074701"
+			}
+			"1.31"
+			{
+				"gid" "512117944171223794"
+				"size" "25008146"
+				"download" "6595664"
+			}
+			"1.32"
+			{
+				"gid" "512117944171223794"
+				"size" "25008146"
+				"download" "6595664"
+			}
+			"1.40"
+			{
+				"gid" "512117944171223794"
+				"size" "25008146"
+				"download" "6595664"
+			}
+			"old_1.2"
+			{
+				"gid" "8460144271017809398"
+				"size" "135978074"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"1.41"
+			{
+				"gid" "13409954A483D1798D71BA8D9397E8E4"
+				"size" "791979242018AA94CD3F45AC65B12680"
+				"download" "D4A1B1F0342603369C39531FA516650E"
+			}
+		}
+	}
+	"239074"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3295706349486781817"
+				"size" "49928972"
+				"download" "12878672"
+			}
+			"1.3"
+			{
+				"gid" "8060855032587345529"
+				"size" "43173349"
+				"download" "61623172585"
+			}
+			"1.31"
+			{
+				"gid" "3295706349486781817"
+				"size" "49928972"
+				"download" "12878672"
+			}
+			"1.32"
+			{
+				"gid" "3295706349486781817"
+				"size" "49928972"
+				"download" "12878672"
+			}
+			"1.40"
+			{
+				"gid" "3295706349486781817"
+				"size" "49928972"
+				"download" "12878672"
+			}
+			"old_1.2"
+			{
+				"gid" "2331397754325712541"
+				"size" "345"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"1.41"
+			{
+				"gid" "528EA5F74CA56163555E1A4195BFFC1D"
+				"size" "3EE3667B315BE95389CC7D1F27F32AED"
+				"download" "04A47FBD3CE9A745FC3B462921DB2FD6"
+			}
+		}
+	}
+	"markdlcdepots" "1"
+	"workshopdepot" "239070"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3077805"
+			"timeupdated" "1535640903"
+		}
+		"1.3"
+		{
+			"buildid" "383811"
+		}
+		"1.31"
+		{
+			"buildid" "586631"
+		}
+		"1.32"
+		{
+			"buildid" "1052681"
+			"timeupdated" "1459516814"
+		}
+		"1.40"
+		{
+			"buildid" "3028526"
+			"timeupdated" "1534171371"
+		}
+		"1.41"
+		{
+			"buildid" "3077805"
+			"pwdrequired" "1"
+			"timeupdated" "1535630322"
+		}
+		"old_1.2"
+		{
+			"buildid" "159571"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+}
+"_missing_token" "False"
+"_change_number" "20320972"
+"_sha" "5cef990bb18d65f7ffb540e9b9a2439c5ac72d5b"
+"_size" "9097"
