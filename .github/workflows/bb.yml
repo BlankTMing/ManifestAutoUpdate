@@ -23,5 +23,7 @@ jobs:
         run: |
           git remote set-url --push origin https://github.com/BlankTMing/ManifestAutoUpdate_Backup
           git fetch --prune
-          for branch in $(git branch --format='%(refname:short)' --list); do git push origin $branch; done
-          for tag in $(git tag); do git push origin $tag; done
+          for branch in $(git for-each-ref --format='%(refname:short)' refs/heads/); do
+             git push origin $branch
+          done
+          #for tag in $(git tag); do git push origin $tag; done
