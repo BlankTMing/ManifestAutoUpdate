@@ -18,24 +18,15 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
           fetch-depth: 0
-      - name: Push to Backup Repository
+      - name: Push All Branches to Remote Repository
         run: |
-          git fetch --prune
-      - name: List Local Branches
-        run: |
-          branches=$(git branch --format='%(refname:short)' --list)
-          echo "$branches"  # 可以添加这个命令以查看获取到的分支列表
-        shell: bash
-      - name: Push to Backup Repository
-        run: |
+          git fetch origin
           git remote set-url --push origin https://github.com/BlankTMing/ManifestAutoUpdate_Backup
-      - name: Push Local Branches to Remote
+          git push --all origin
+      - name: Push Branches to Backup Repository
         run: |
-          for branch in $branches; do
-            git push origin $branch
+          for branch in $(git branch --format='%(refname:short)'); do
+             git push origin $branch
           done
-        shell: bash
-  
-      - name: Push to Backup Repository
-        run: |
           for tag in $(git tag); do git push origin $tag; done
+          
