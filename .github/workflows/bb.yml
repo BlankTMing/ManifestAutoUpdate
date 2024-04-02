@@ -1,0 +1,26 @@
+name: Backup
+
+on:
+  push:
+    branches:
+      - '*'
+    tags:
+      - '*'
+
+jobs:
+  backup:
+    name: Backup Repository
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Push to Backup Repository
+        uses: ad-m/github-push-action@master
+        with:
+          token: ${{ secrets.TOKEN }}
+          branch: ${{ github.ref }}
+          repository: BlankTMing/ManifestAutoUpdate_Backup
