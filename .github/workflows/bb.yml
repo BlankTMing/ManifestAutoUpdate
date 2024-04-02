@@ -2,11 +2,6 @@ name: Backup
 
 on:
   workflow_dispatch:
-    branches:
-      - '*'
-    tags:
-      - '*'
-
 jobs:
   backup:
     name: Backup Repository
@@ -20,14 +15,5 @@ jobs:
           fetch-depth: 0
       - name: Push All Branches to Remote Repository
         run: |
-          git branch --format='%(refname:short)'
-          git fetch origin
           git remote set-url --push origin https://github.com/BlankTMing/ManifestAutoUpdate_Backup
-          git push --all origin
-      - name: Push Branches to Backup Repository
-        run: |
-          for branch in $(git branch --format='%(refname:short)'); do
-             git push origin $branch
-          done
-          for tag in $(git tag); do git push origin $tag; done
-          
+          run: git fetch --all
