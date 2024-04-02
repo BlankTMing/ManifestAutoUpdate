@@ -22,6 +22,5 @@ jobs:
       - name: Push to Backup Repository
         uses: ad-m/github-push-action@master
         with:
-          force: true
-          tags: true
+          branch: ${{ github.ref }}
           repository: BlankTMing/ManifestAutoUpdate_Backup
