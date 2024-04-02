@@ -15,5 +15,6 @@ jobs:
           fetch-depth: 0
       - name: Push All Branches to Remote Repository
         run: |
-          #git remote set-url --push origin https://github.com/BlankTMing/ManifestAutoUpdate_Backup
-          git fetch --all
+          git fetch origin --tags
+          git remote set-url origin https://github.com/BlankTMing/ManifestAutoUpdate_Backup
+          git push --mirror origin
