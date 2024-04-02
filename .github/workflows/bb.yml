@@ -18,9 +18,9 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
           fetch-depth: 0
-
-      - name: Push to Backup Repository
-        uses: ad-m/github-push-action@master
-        with:
-          branch: '*'
-          repository: BlankTMing/ManifestAutoUpdate_Backup
+      - run: |
+          git config --local user.name github-actions[bot]
+          git config --local user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git remote set-url origin https://github.com/BlankTMing/ManifestAutoUpdate_Backup
+          git push --all
+          git push --tags
