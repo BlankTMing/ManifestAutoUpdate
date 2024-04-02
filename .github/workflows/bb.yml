@@ -22,5 +22,6 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.TOKEN }}
-          branch: ${{ github.ref }}
+          force: true
+          tags: true
           repository: BlankTMing/ManifestAutoUpdate_Backup
