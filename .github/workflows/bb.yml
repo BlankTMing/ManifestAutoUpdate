@@ -21,5 +21,30 @@ jobs:
       - run: |
           git config --local user.name github-actions[bot]
           git config --local user.email 41898282+github-actions[bot]@users.noreply.github.com
+          name: Backup
+
+on:
+  workflow_dispatch:
+    branches:
+      - '*'
+    tags:
+      - '*'
+
+jobs:
+  backup:
+    name: Backup Repository
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.TOKEN }}
+          fetch-depth: 0
+          
+      - name: Push to Backup Repository
+        run: |
           git remote set-url --push origin https://github.com/BlankTMing/ManifestAutoUpdate_Backup
-          git push --mirror
+          git fetch --prune
+          for branch in $(git branch --format='%(refname:short)' --list); do git push origin $branch; done
+          for tag in $(git tag); do git push origin $tag; done
