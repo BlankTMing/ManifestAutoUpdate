@@ -12,9 +12,8 @@ jobs:
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.TOKEN }}
-          fetch-depth: 0
       - name: Push All Branches to Remote Repository
         run: |
-          git fetch origin --tags
+          git clone --mirror https://github.com/BlankTMing/ManifestAutoUpdate
           git remote set-url origin https://github.com/BlankTMing/ManifestAutoUpdate_Backup
           git push --mirror origin
