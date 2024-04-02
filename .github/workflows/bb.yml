@@ -16,12 +16,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
         with:
+          token: ${{ secrets.TOKEN }}
           fetch-depth: 0
 
       - name: Push to Backup Repository
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.TOKEN }}
           force: true
           tags: true
           repository: BlankTMing/ManifestAutoUpdate_Backup
