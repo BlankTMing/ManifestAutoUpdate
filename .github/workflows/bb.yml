@@ -14,29 +14,6 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.TOKEN }}
-          fetch-depth: 0
-      - run: |
-          git config --local user.name github-actions[bot]
-          git config --local user.email 41898282+github-actions[bot]@users.noreply.github.com
-          name: Backup
-
-on:
-  workflow_dispatch:
-    branches:
-      - '*'
-    tags:
-      - '*'
-
-jobs:
-  backup:
-    name: Backup Repository
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Repository
         uses: actions/checkout@v2
         with:
           token: ${{ secrets.TOKEN }}
