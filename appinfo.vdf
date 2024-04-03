@@ -37,7 +37,6 @@
 		"ukrainian" "1"
 		"latam" "1"
 	}
-	"openxrsupport" "1"
 	"controllervr"
 	{
 		"oculus" "1"
@@ -47,14 +46,12 @@
 		"seated" "1"
 		"standing" "1"
 	}
+	"openvrsupport" "1"
 	"content_descriptors"
 	{
 		"0" "2"
 		"1" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_sex" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "3"
@@ -160,6 +157,7 @@
 		"category_57" "1"
 		"category_58" "1"
 		"category_53" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -301,11 +299,11 @@
 		"12" "21978"
 		"13" "4026"
 		"14" "1664"
-		"15" "4182"
-		"16" "4345"
+		"15" "4345"
+		"16" "4182"
 		"17" "4667"
-		"18" "1687"
-		"19" "19"
+		"18" "19"
+		"19" "1687"
 	}
 	"review_score" "8"
 	"review_percentage" "91"
@@ -327,6 +325,7 @@
 		"0"
 		{
 			"executable" "DEVOUR.exe"
+			"arguments" "-timestamps"
 			"type" "default"
 			"config"
 			{
@@ -337,6 +336,7 @@
 		"1"
 		{
 			"executable" "Devour.app\\Contents\\MacOS\\DEVOUR"
+			"arguments" "-timestamps"
 			"type" "default"
 			"config"
 			{
@@ -346,7 +346,7 @@
 		"2"
 		{
 			"executable" "DEVOUR.exe"
-			"arguments" "--vr"
+			"arguments" "-timestamps --vr"
 			"type" "option1"
 			"config"
 			{
@@ -362,7 +362,7 @@
 		"3"
 		{
 			"executable" "DEVOUR.exe"
-			"arguments" "--vr"
+			"arguments" "-timestamps --vr"
 			"type" "vr"
 			"config"
 			{
@@ -393,18 +393,18 @@
 		{
 			"public"
 			{
-				"gid" "4628934548231052167"
-				"size" "9821305615"
-				"download" "5009321200"
+				"gid" "3312951675720404469"
+				"size" "10367060334"
+				"download" "5215669504"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"devs"
 			{
-				"gid" "C8866A3F6981D9E3B2809A7B3C4CC628"
-				"size" "8689ED997F827E49BF4B86D3338AE7A1"
-				"download" "A86F729DED4A46264842356BE68E4A32"
+				"gid" "99012E2F892E0ECE8B29E6A44F256251"
+				"size" "6BBD6F35F318D3D86097C894AEBA1B9F"
+				"download" "21CA28D48CC93A3E9C94E6666850FD11"
 			}
 		}
 	}
@@ -418,18 +418,18 @@
 		{
 			"public"
 			{
-				"gid" "2519903643713681206"
-				"size" "9821305615"
-				"download" "5008058912"
+				"gid" "2691829665533599215"
+				"size" "10367060334"
+				"download" "5214843536"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"devs"
 			{
-				"gid" "B0A941B960D6C2983CDC2E23C8CD0D0F"
-				"size" "8689ED997F827E49BF4B86D3338AE7A1"
-				"download" "3069774FAC719754E6B6C8CE51FA19FF"
+				"gid" "B753765904BE8AA32186CED3B499F4A6"
+				"size" "6BBD6F35F318D3D86097C894AEBA1B9F"
+				"download" "5C54C55D3CCCA0921A8E64F23DFBB8A9"
 			}
 		}
 	}
@@ -443,18 +443,18 @@
 		{
 			"public"
 			{
-				"gid" "6845443622148521154"
-				"size" "9926791766"
-				"download" "5031993424"
+				"gid" "4172738198592638996"
+				"size" "10477445381"
+				"download" "5241472064"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"devs"
 			{
-				"gid" "674F3F711B7F2471A91B7F5B1DA53441"
-				"size" "C676CBFC61B71AEDD6D12327CF857028"
-				"download" "02EE0057203D612743F6DDFCE11520DC"
+				"gid" "E8C6F586F8C95D3817F50D7DC8C4961A"
+				"size" "288EF748E6080213FFDBB0A1FD698869"
+				"download" "7470945C5420DA190116F9F0EEC365E5"
 			}
 		}
 	}
@@ -484,14 +484,14 @@
 	{
 		"public"
 		{
-			"buildid" "13059586"
-			"timeupdated" "1703808457"
+			"buildid" "13928985"
+			"timeupdated" "1712101225"
 		}
 		"devs"
 		{
-			"buildid" "13059586"
+			"buildid" "13928985"
 			"pwdrequired" "1"
-			"timeupdated" "1703808422"
+			"timeupdated" "1712100963"
 		}
 	}
 }
@@ -501,6 +501,6 @@
 	"maxnumfiles" "5"
 }
 "_missing_token" "False"
-"_change_number" "21718550"
-"_sha" "eb931125d2fda263523b87cd63e7d3483bc2214f"
-"_size" "8598"
+"_change_number" "23005643"
+"_sha" "40327330769679358b30a364e3558aaeeabaf2a3"
+"_size" "8615"
