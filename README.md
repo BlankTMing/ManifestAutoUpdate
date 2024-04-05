@@ -1,12 +1,16 @@
-## 更新时间：2024-04-05 09:09:19
+## 更新时间：2024-04-05 16:08:37
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 850190 | Goat Simulator 3| Game |
-| 2198510 | 耀斑纪元 - New Cycle| Game |
-| 290100 | 堡垒：猎鹰战纪| Game |
-| 813780 | Age of Empires II: Definitive Edition| Game |
-| 1228810 | Age of Empires II: Definitive Edition Soundtrack| Music |
-| 2776760 | 耀斑纪元 New Cycle - 完整原声音乐| Music |
-| 2153350 | 兄弟：双子传说 重制版（Brothers: A Tale of Two Sons Remake）| Game |
-| 1127700 | 逆向坍塌：面包房行动| Game |
-| 2849120 | 逆向坍塌：面包房行动  : Soundtrack| Music |
+| 1147560 | 小骨：英雄杀手(Skul: The Hero Slayer)| Game |
+| 730 | Counter-Strike 2| Game |
+| 2201940 | 船舶墓地模拟器2| Game |
+| 2430930 | ARK: Survival Ascended Dedicated Server| Tool |
+| 1149460 | 翼星求生 ICARUS| Game |
+| 700580 | Rust - Staging Branch| Game |
+| 1426730 | 天神镇| Game |
+| 611790 | House Party| Game |
+| 1623730 | Palworld / 幻兽帕鲁| Game |
+| 2394010 | Palworld Dedicated Server| Tool |
+| 1955830 | 东方冰之勇者记| Game |
+| 2340500 |  创造三国志| Game |
+| 2279700 | 古神：太古试炼| Game |
