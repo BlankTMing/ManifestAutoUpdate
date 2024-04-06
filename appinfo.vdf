@@ -1,0 +1,116 @@
+"appid" "410950"
+"common"
+{
+	"name" "Hatred Editor"
+	"type" "Tool"
+	"oslist" "windows"
+	"logo" "721b19b0aa532ae4b09c14ae62ea6e0915d7c8b8"
+	"logo_small" "721b19b0aa532ae4b09c14ae62ea6e0915d7c8b8_thumb"
+	"icon" "091055fcdf2d144959f83cacd2b526b8068e2c95"
+	"clienticon" "faa357e744d013d2507b70a021d57c553aa37b08"
+	"clienttga" "4e479e1cf017787879d1972b5354e36da2723029"
+	"parent" "341940"
+	"releasestate" "released"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "410950_eula_0"
+			"name" "Hatred Editor EULA"
+			"url" "http://store.steampowered.com//eula/410950_eula_0"
+		}
+	}
+	"associations"
+	{
+	}
+	"gameid" "410950"
+}
+"extended"
+{
+	"gamedir" ""
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "HatredEditor"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Engine\\Binaries\\Win64\\UE4Editor.exe"
+			"arguments" "Hatred"
+			"type" "default"
+		}
+		"1"
+		{
+			"executable" "Engine\\Binaries\\Win64\\UE4Editor.exe"
+			"arguments" "Hatred -log"
+			"type" "option1"
+			"description_loc"
+			{
+				"english" "Logging"
+			}
+			"description" "Logging"
+		}
+	}
+}
+"depots"
+{
+	"410951"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3840287723554064469"
+				"size" "20739424817"
+				"download" "11268069936"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "8E324AA9C685D6B93E5747A5EB5A774A"
+				"size" "791AA5268FA654304F153C906E84B5A0"
+				"download" "E768330E0FF3BC2BE8AC3246A65D13F1"
+			}
+			"internal_testing"
+			{
+				"gid" "DD8960B66933451D7E2E6B7F48766B88"
+				"size" "5904521C4EB2F9E3ECCAFDB42650D436"
+				"download" "1E63A83E8D472A46801D6BC3C84075DD"
+			}
+		}
+	}
+	"workshopdepot" "410950"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1205956"
+			"timeupdated" "1707984432"
+		}
+		"beta"
+		{
+			"buildid" "1205956"
+			"pwdrequired" "1"
+			"timeupdated" "1467281139"
+		}
+		"internal_testing"
+		{
+			"buildid" "10953120"
+			"pwdrequired" "1"
+			"timeupdated" "1680849108"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "22353243"
+"_sha" "1e1c249551b655a80755a2c47f3ffab45bcdc978"
+"_size" "2084"
