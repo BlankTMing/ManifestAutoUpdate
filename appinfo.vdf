@@ -1,0 +1,248 @@
+"appid" "1177400"
+"common"
+{
+	"name" "江湖余生：缘起"
+	"type" "Game"
+	"icon" "6a03ab170173571e90b1bb70eed5abe41d09985e"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"logo" "0a38a167c2e6aae6592c3460d2e6622d803fe338"
+	"logo_small" "0a38a167c2e6aae6592c3460d2e6622d803fe338_thumb"
+	"clienttga" "ebc9eaa43fad90e67968bc444a02cfa5495c1663"
+	"clienticon" "244b6f23aab3816136966940f28bb7f3ce165d73"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1670889600"
+		"tested_build_id" "6310778"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "江湖余生"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn"
+		"library_hero" "zh-cn,en"
+		"library_logo" "zh-cn,en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "38.870203820978105"
+			"height_pct" "99.01448587033957"
+		}
+	}
+	"store_asset_mtime" "1673425099"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "柚子丁工作室"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "INDIECN"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "INDIECN"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "3"
+		"3" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1618826488"
+	"community_hub_visible" "1"
+	"gameid" "1177400"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "599"
+		"2" "21"
+		"3" "5984"
+		"4" "492"
+		"5" "1662"
+		"6" "1666"
+		"7" "14139"
+		"8" "1751"
+		"9" "1742"
+		"10" "4182"
+	}
+	"review_score" "6"
+	"review_percentage" "78"
+}
+"extended"
+{
+	"developer" "柚子丁工作室"
+	"publisher" "INDIECN"
+}
+"config"
+{
+	"installdir" "江湖余生"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "JHYS_OV.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1177401"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7559296335969386500"
+				"size" "874584170"
+				"download" "188166544"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "A64E5F6D6DD5E2D328DEE96FE59644B0"
+				"size" "81899FA9062FFA4F257CE3C534B2462D"
+				"download" "C65535D365DDBDE0597433605BAF1E3B"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "6310778"
+			"timeupdated" "1614601183"
+		}
+		"test"
+		{
+			"buildid" "6303900"
+			"pwdrequired" "1"
+			"timeupdated" "1614411339"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10485760"
+	"maxnumfiles" "8"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Pomelo\\JHYS_OV"
+			"pattern" "*.json"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Pomelo\\JHYS_OV"
+					"replace" "unity.Pomelo.JHYS_OV"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ".config/unity3d/Pomelo/JHYS_OV"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20752017"
+"_sha" "c098017959d4b33fb0b6e566295bf4a38e21ac92"
+"_size" "4481"
