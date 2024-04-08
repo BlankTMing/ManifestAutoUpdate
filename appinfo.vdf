@@ -1,0 +1,264 @@
+"appid" "473520"
+"common"
+{
+	"name" "Autumn"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "bed863412f02cac83b8fb5ccdc4c6d2d5233e2bb"
+	"logo_small" "bed863412f02cac83b8fb5ccdc4c6d2d5233e2bb_thumb"
+	"icon" "1df66f38d8035411c8ce63193c962998c167eaf5"
+	"clienttga" "06feeaa2e427e2d7c917350086a44c1a92c06425"
+	"clienticns" "4e8ab3458acae9d19b03ff265289df9989c3d98e"
+	"linuxclienticon" "3ce7fe54a8bc2c47f9ddc7ac9ea5437144669daf"
+	"clienticon" "a77184a6bd8bab967cbfc630e1275a9ab8b0e9a9"
+	"releasestate" "released"
+	"metacritic_name" "Autumn"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1711146080"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Nuno Donato"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Conglomerate 5"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Conglomerate 5"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1411455600"
+	"steam_release_date" "1463212256"
+	"community_hub_visible" "1"
+	"gameid" "473520"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "492"
+		"2" "1664"
+		"3" "1654"
+		"4" "3798"
+		"5" "4400"
+		"6" "1714"
+		"7" "4305"
+		"8" "4726"
+		"9" "4166"
+		"10" "4136"
+		"11" "6426"
+		"12" "4182"
+		"13" "7948"
+		"14" "4252"
+		"15" "9"
+		"16" "1721"
+		"17" "1663"
+		"18" "599"
+		"19" "6650"
+	}
+	"review_score" "5"
+	"review_percentage" "59"
+}
+"extended"
+{
+	"developer" "Nuno Donato"
+	"publisher" "Conglomerate 5"
+	"homepage" "http://www.bitoutsidethebox.com/autumn"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Autumn"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "autumn.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"1"
+		{
+			"executable" "autumn.run"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "autumn.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "Autumn.app/Contents/MacOS/love"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"473521"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6153457977147431930"
+				"size" "44193424"
+				"download" "39600016"
+			}
+		}
+	}
+	"473522"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4023965991507635631"
+				"size" "45933696"
+				"download" "39973792"
+			}
+		}
+	}
+	"473523"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2242376228993530321"
+				"size" "53093589"
+				"download" "41141536"
+			}
+		}
+	}
+	"473524"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3687619067020998149"
+				"size" "60121263"
+				"download" "40257328"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1147448"
+			"timeupdated" "1464251442"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "LinuxHome"
+			"path" ".local/share/love/autumn"
+			"pattern" "*.dat"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+		"2"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "autumn"
+			"pattern" "*.dat"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"3"
+		{
+			"root" "MacAppSupport"
+			"path" "autumn"
+			"pattern" "*.dat"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22889483"
+"_sha" "92b8f975950e87d22d16b6680be4b3419f961ca4"
+"_size" "3949"
