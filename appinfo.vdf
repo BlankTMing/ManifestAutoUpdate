@@ -1,0 +1,272 @@
+"appid" "467090"
+"common"
+{
+	"name" "A Game of Changes"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"clienticon" "6930a81a920f12928ea29f156f259650ee5b55ad"
+	"clienttga" "d4012349619a16cbb0bfb2a0dae728f0e0023100"
+	"icon" "fdb42cf15bab497d1f0b5af2fb12f577d991c68c"
+	"clienticns" "000964fa68e4ac2d0fb37d0b6cdc167dfd4a2893"
+	"linuxclienticon" "0712bcc658be9ac66976e77d68fa9a9da10eec47"
+	"logo" "fc4aa96d5227a5800cc60bdc6bf49ec0a3f51643"
+	"logo_small" "fc4aa96d5227a5800cc60bdc6bf49ec0a3f51643_thumb"
+	"metacritic_name" "A Game of Changes"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1711112711"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Nuno Donato"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Conglomerate 5"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Conglomerate 5"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1464903907"
+	"community_hub_visible" "1"
+	"gameid" "467090"
+	"store_tags"
+	{
+		"0" "1664"
+		"1" "5395"
+		"2" "6129"
+		"3" "21"
+		"4" "1625"
+		"5" "5537"
+		"6" "1697"
+		"7" "5923"
+		"8" "1719"
+		"9" "3968"
+		"10" "4182"
+		"11" "4191"
+		"12" "4166"
+		"13" "4136"
+		"14" "597"
+		"15" "492"
+		"16" "6426"
+		"17" "1717"
+		"18" "699"
+	}
+	"review_score" "5"
+	"review_percentage" "66"
+}
+"extended"
+{
+	"developer" "Nuno Donato"
+	"publisher" "Conglomerate 5"
+	"homepage" "http://www.bitoutsidethebox.com/agoc"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "A Game of Changes"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "agoc.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "agoc"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "agoc.app/Contents/MacOS/agoc"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,schinese,portuguese"
+	"467091"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8699479469008805639"
+				"size" "81847411"
+				"download" "62953920"
+			}
+		}
+	}
+	"467092"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1465785619036201487"
+				"size" "80247923"
+				"download" "62438208"
+			}
+		}
+	}
+	"467093"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3379706550999032057"
+				"size" "90327829"
+				"download" "65046304"
+			}
+		}
+	}
+	"467094"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2139890265437470155"
+				"size" "92945456"
+				"download" "64710336"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1176486"
+			"timeupdated" "1465679442"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000"
+	"maxnumfiles" "5"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinAppDataRoaming"
+			"addpath" "A Game of Changes"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ".A Game of Changes"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacHome"
+			"addpath" ".A Game of Changes"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22933656"
+"_sha" "509a0d317bce667e4882bf840441fc0f11d249b9"
+"_size" "4225"
