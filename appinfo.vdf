@@ -1,0 +1,388 @@
+"appid" "608800"
+"common"
+{
+	"name" "Guns of Icarus Alliance"
+	"type" "Game"
+	"logo" "198aadc4cd79c1883e0f813973cfb335337c7f62"
+	"logo_small" "198aadc4cd79c1883e0f813973cfb335337c7f62_thumb"
+	"icon" "d7f95f73cbed6458a74bcd4a7c0872fe332367ec"
+	"oslist" "windows,macos,linux"
+	"clienticns" "42279ac85b2fcf1e1298bb1ad08a33caa84f015c"
+	"linuxclienticon" "f4629661b4e030ad86a86b0a78d5a3b560c26c62"
+	"clienticon" "b988933f793ac7b6f4cee3d19578c0699a4af598"
+	"clienttga" "8b487b4f2d31e9e6deaefc47aa42c1e3fe1a1492"
+	"releasestate" "released"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "608800_eula_0"
+			"name" "Guns of Icarus Alliance EULA"
+			"url" "http://store.steampowered.com//eula/608800_eula_0"
+		}
+	}
+	"osarch" ""
+	"osextended" "macos64"
+	"metacritic_name" "Guns of Icarus Alliance"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "65.16919486581097"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1569259409"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Muse Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Muse Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "28"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_36" "1"
+		"category_9" "1"
+		"category_22" "1"
+		"category_30" "1"
+		"category_15" "1"
+		"category_18" "1"
+		"category_35" "1"
+		"category_38" "1"
+		"category_49" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1490979600"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "608800"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "19"
+		"2" "21"
+		"3" "599"
+		"4" "1777"
+		"5" "3859"
+		"6" "5711"
+		"7" "1685"
+		"8" "3839"
+		"9" "3878"
+		"10" "1756"
+		"11" "1774"
+		"12" "3843"
+		"13" "1663"
+		"14" "5350"
+		"15" "6730"
+		"16" "15045"
+	}
+	"review_score" "6"
+	"review_percentage" "76"
+}
+"extended"
+{
+	"developer" "Muse Games"
+	"publisher" "Muse Games"
+	"homepage" "http://gunsoficarus.com/"
+	"gamemanualurl" "https://store.steampowered.com/manual/608800/"
+	"listofdlc" "616130,616350"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Guns of Icarus Online"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "GunsOfIcarusOnline.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "./GunsOfIcarusOnline.app/Contents/MacOS/GunsOfIcarusOnline"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "launch.sh"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "GunsOfIcarusOnline.exe"
+			"arguments" "-force-d3d9"
+			"description" "Play Guns of Icarus: Alliance (DirectX 9)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "workshop/Workshop.exe"
+			"workingdir" "workshop"
+			"description" "Launch Workshop Tool"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"5"
+		{
+			"executable" "workshop/Workshop.app/Contents/MacOS/Workshop"
+			"workingdir" "workshop"
+			"description" "Launch Workshop Tool"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"6"
+		{
+			"executable" "workshop/launch.sh"
+			"workingdir" "workshop"
+			"description" "Launch Workshop Tool"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"null"
+	{
+		"depotfromapp" "217811"
+	}
+	"baselanguages" "english"
+	"209084"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "209080"
+		"sharedinstall" "2"
+	}
+	"209085"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"depotfromapp" "209080"
+		"sharedinstall" "2"
+	}
+	"209086"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"depotfromapp" "209080"
+		"sharedinstall" "2"
+	}
+	"209081"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "209080"
+		"sharedinstall" "2"
+	}
+	"209082"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "209080"
+		"sharedinstall" "2"
+	}
+	"209083"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "209080"
+		"sharedinstall" "2"
+	}
+	"608807"
+	{
+		"dlcappid" "616130"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5129621856291126093"
+				"size" "648322644"
+				"download" "544075456"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"autobuild"
+			{
+				"gid" "395DEBEF55E50EB9BBEA7551387DA994"
+				"size" "28CFB6577698B7154FBACA4E5AA8CE44"
+				"download" "312E53E6EC6361203E6355ED69C822AF"
+			}
+			"internaltest"
+			{
+				"gid" "BEFFFB7193D9952F422DBE2CC9CA4D7D"
+				"size" "B30E568384D27ABE7DB145C4A1AD5E73"
+				"download" "FC2DBF530B723FDDA313D6B4E851E3A9"
+			}
+		}
+	}
+	"608808"
+	{
+		"dlcappid" "616130"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4916066845522055578"
+				"size" "1299959597"
+				"download" "1185973952"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"autobuild"
+			{
+				"gid" "22AB7073CBCAE656CE67CD84180FC720"
+				"size" "D67BB04E8FDCDB6074C8845AB44D6D22"
+				"download" "C71F4537F7816EAE774A97D3B630CC4C"
+			}
+			"internaltest"
+			{
+				"gid" "2E09F0F183AE5A83249A78869D5FE8CE"
+				"size" "A9023DDD029F61CDCF89DB9AC69353A5"
+				"download" "354950AC69B4038817226E4E8C9891C9"
+			}
+		}
+	}
+	"608801"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5012510065418039923"
+				"size" "109472894"
+				"download" "29995904"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"autobuild"
+			{
+				"gid" "C294E58837779DE44C9D730191859641"
+				"size" "32884B034AB452E5DCD559695FA8EAAD"
+				"download" "B6BA0019DC87CD970B6C723A46393936"
+			}
+			"internaltest"
+			{
+				"gid" "6B305FA8CCAA70D9D31E9C21C6925C56"
+				"size" "4BD739867BA314381096EEAEE2547C72"
+				"download" "E71F8CD253464557A41510A7586D465F"
+			}
+			"nightly"
+			{
+				"gid" "574BF2E088BCA1B0302E6EA684841B3D"
+				"size" "0750CE14D2849A8E7D537F368CC04A47"
+				"download" "DFD8E6BD713FF5764A6527249153DF16"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1739919"
+			"timeupdated" "1492011576"
+		}
+		"autobuild"
+		{
+			"buildid" "2646479"
+			"pwdrequired" "1"
+			"timeupdated" "1522364879"
+		}
+		"internaltest"
+		{
+			"buildid" "1739919"
+			"pwdrequired" "1"
+			"timeupdated" "1492010570"
+		}
+		"nightly"
+		{
+			"buildid" "1730136"
+			"pwdrequired" "1"
+			"timeupdated" "1491079130"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "3a9ae92e0830a5038304846b7eeea5012e43c49a"
+"_size" "6976"
