@@ -1,0 +1,147 @@
+"appid" "206980"
+"common"
+{
+	"name" "War of the Roses Balance Beta"
+	"type" "Game"
+	"logo" "edbc12973ba245bdd19d27994494ccdecbcd5520"
+	"logo_small" "edbc12973ba245bdd19d27994494ccdecbcd5520_thumb"
+	"clienticon" "e1200eec91f693a2ab0827869852a75d607d242c"
+	"clienttga" "10ad019f03be7abce7563cb00cb30bbd5721a9aa"
+	"icon" "f1bf7dd2ad1010bcf6d3b58454a402c8c179fae6"
+	"languages"
+	{
+		"english" "1"
+		"japanese" "1"
+	}
+	"eulas"
+	{
+		"0"
+		{
+			"id" "206980_eula_0"
+			"name" "War of the Roses Balance Beta EULA"
+			"url" "https://store.steampowered.com//eula/206980_eula_0"
+			"version" "1"
+		}
+	}
+	"community_hub_visible" "1"
+	"gameid" "206980"
+}
+"extended"
+{
+	"developer" ""
+	"gamedir" "War of the Roses Alpha"
+	"homepage" ""
+	"icon" ""
+	"installscript" "install\\installscript.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "206981"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"no_revenue_accumulation" "1"
+}
+"config"
+{
+	"installscriptsignature" "15ad1a31332dd6818036f6d9a993f5322919b77b9b62982e38a4b45f59bfcd1f5c0241e85834dfeeae17dc2ea38a637072f6ac694928351692026d923a89b6905390e696b1f5477212c1051ca9c02d3e74d38067cbaff8a3105871b67ed98fd60fd0775f453427bf148f98b79e741c38c75ecb9cac17c29a0b3789a458b66707"
+	"installscriptoverride" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "run_game.exe"
+			"arguments" "wotr.exe -bundle-dir bundle"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "War of the Roses Alpha"
+}
+"install"
+{
+	"run process"
+	{
+		"vcredist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\206980"
+			"process 1" "%INSTALLDIR%\\install\\vcredist_x86.exe"
+			"command 1" "/q /norestart"
+			"nocleanup" "1"
+		}
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\206980"
+			"process 1" "%INSTALLDIR%\\install\\DirectX Feb 2010\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"206981"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6075265243232129252"
+				"size" "6641390883"
+				"download" "0"
+			}
+			"localization"
+			{
+				"gid" "8647286541396852938"
+				"size" "6583572390"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "D5C3FB946AABF6F95CA387E573C4735F"
+				"size" "175CA720955668E470FADB4E6B2F1FD6"
+				"download" "D7E0F1E7755C55B440A9857F8555006F"
+			}
+			"test-x"
+			{
+				"gid" "56DD8934FB9FA4FB43BBB0DEF99B8DEF"
+				"size" "F44E962532EE2B89F453986149BD73A0"
+				"download" "67CA977D4E86E529BD00A79017627D9B"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"baselanguages" "english,french,japanese,portuguese,polish"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "145882"
+		}
+		"localization"
+		{
+			"buildid" "67837"
+		}
+		"test"
+		{
+			"buildid" "141841"
+			"pwdrequired" "1"
+		}
+		"test-x"
+		{
+			"buildid" "157181"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+	"hidecloudui" "1"
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "cf24d6163a356107a2f231bc9b2507aceca8fdde"
+"_size" "3086"
