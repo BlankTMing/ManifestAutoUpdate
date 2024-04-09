@@ -1,0 +1,283 @@
+"appid" "46520"
+"common"
+{
+	"name" "Wasteland Angel"
+	"logo" "cb623dd9ff7f5e8734f598e5421fa2f076b97395"
+	"logo_small" "cb623dd9ff7f5e8734f598e5421fa2f076b97395_thumb"
+	"icon" "91cc53f6aae97dce59f94c04454333d170a08326"
+	"clienttga" "fff17965f86fa9c77f04bc48db984d81d7d675be"
+	"clienticon" "8e663509a346324ed1cda592038cbdd083927c45"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"russian" "1"
+	}
+	"type" "game"
+	"metacritic_name" "Wasteland Angel"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1314824197"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Octane Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_18" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1314892800"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "46520"
+	"store_tags"
+	{
+		"0" "5547"
+		"1" "4885"
+		"2" "4102"
+		"3" "4255"
+		"4" "4637"
+		"5" "4758"
+		"6" "699"
+		"7" "1644"
+		"8" "1774"
+		"9" "1773"
+		"10" "7208"
+		"11" "4191"
+		"12" "5851"
+		"13" "4791"
+		"14" "4136"
+		"15" "3835"
+		"16" "6426"
+		"17" "11104"
+		"18" "19"
+		"19" "1662"
+	}
+	"review_score" "5"
+	"review_percentage" "58"
+}
+"extended"
+{
+	"developer" "Octane Games"
+	"gamedir" "Wasteland Angel"
+	"homepage" ""
+	"icon" ""
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "46521"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"listofdlc" "46523"
+}
+"config"
+{
+	"installscriptsignature" "2de4783656ecc1e11cd825dff8555cd6a90c252ba9ba59822cafa007d567b7330adb7df9dafee216f591d9de60830a8a5a6e13c623ebc6f35400ee5eb46a24d9f90be12c6c0da5bf8f84da372306fd830d53744237bbb5ebdc47e886d70e6e345a2207e4a9d1a0836d51487e9145570b1e09212f7ee9c55989f55dd48e884de7"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Wasteland Angel"
+	"launch"
+	{
+		"0"
+		{
+			"description" "Play Wasteland Angel"
+			"executable" "./bin/x86/dx9/Angel.exe"
+		}
+	}
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\wasteland angel"
+		{
+			"string"
+			{
+				"install_path" "%INSTALLDIR%"
+				"exe_path" "%INSTALLDIR%\\bin\\x86\\dx9\\Angel.exe"
+			}
+		}
+	}
+	"run process"
+	{
+		"vcredistributable"
+		{
+			"process 1" "%INSTALLDIR%\\Studio_Redistributable\\vcredist_x86.exe"
+			"command 1" "/q"
+			"description" "Microsoft Visual C++ Redistributable 2010"
+			"nocleanup" "1"
+		}
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"description" "Microsoft DirectX"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"46523"
+	{
+		"optional" "1"
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5295709044246249196"
+				"size" "31904628"
+				"download" "0"
+			}
+		}
+		"dlcappid" "46523"
+	}
+	"46522"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8985391564506116246"
+				"size" "108247672"
+				"download" "0"
+			}
+		}
+	}
+	"46521"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1503277754777948941"
+				"size" "1017321408"
+				"download" "0"
+			}
+		}
+	}
+	"46524"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7466456298584648069"
+				"size" "333543395"
+				"download" "0"
+			}
+		}
+	}
+	"46525"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1146074829976415605"
+				"size" "328209355"
+				"download" "0"
+			}
+		}
+	}
+	"46526"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "289499240880344662"
+				"size" "328226718"
+				"download" "0"
+			}
+		}
+	}
+	"46527"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7552805574062718253"
+				"size" "328068754"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11512"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+	"hidecloudui" "0"
+}
+"_missing_token" "False"
+"_change_number" "21405399"
+"_sha" "66992874c487867fce9b547402df188b607b142d"
+"_size" "4586"
