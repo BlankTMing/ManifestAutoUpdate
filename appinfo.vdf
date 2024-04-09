@@ -1,0 +1,154 @@
+"appid" "285050"
+"common"
+{
+	"name" "Showtime!"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"logo" "e9d826810f9eb747ea44475c4bfaccd05c54fe08"
+	"logo_small" "e9d826810f9eb747ea44475c4bfaccd05c54fe08_thumb"
+	"icon" "b5ff2358af7738f0212038ed0cf145d2a2a6acf6"
+	"clienttga" "7b08eaaaf1fd9bb3b9542c9f047e6b400a0cc515"
+	"clienticon" "44fd5d9acedf6cbb18cfa61ca3a8402731fe9f79"
+	"metacritic_name" "Showtime!"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1420536370"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Myrtilus Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "KISS ltd"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_17" "1"
+		"category_29" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1378018800"
+	"steam_release_date" "1400875260"
+	"community_hub_visible" "1"
+	"gameid" "285050"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "12472"
+		"2" "597"
+		"3" "9"
+		"4" "492"
+		"5" "4700"
+	}
+	"review_score" "5"
+	"review_percentage" "60"
+}
+"extended"
+{
+	"developer" "Myrtilus Entertainment"
+	"publisher" "KISS ltd"
+	"homepage" "http://www.myrtilusentertainment.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Showtime"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Showtime.exe"
+			"description" "Launch Showtime!"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "editor.exe"
+			"description" "Launch Editor"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptsignature" "4c624e626e4cdeff7d809ace9aa1b419eff23b5f078417678ac462d06652d1c7dfafe5c40e3e24e9facb6a54b35a393cb8dc6089dc04aa0051f6acb7edbf8b4d5e132c95d78cca4e265940b12a6fd9097015f2fb9352f6371a3d5868e8a281832a83b77e8c746d758acb2aac025d8b884f397c220dfe7bf6283b4974129671e0"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"vb6"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\285050"
+			"process 1" "%INSTALLDIR%\\Redist\\VB6-RuntimeFiles.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"285051"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7072907677989744947"
+				"size" "43787007"
+				"download" "29091632"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "555408"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "73694f4c3699164dd70e7b1f4e6ab1c724912735"
+"_size" "2783"
