@@ -6,40 +6,35 @@
 	"releasestate" "released"
 	"logo" "739a034d977da69ee80de4cf041711f29a9d8bad"
 	"logo_small" "739a034d977da69ee80de4cf041711f29a9d8bad_thumb"
-	"icon" "0bb9b5fbde8ef6f403209a0323a04eed3c50d40c"
-	"clienticon" "2ba500a20e08edfc853d171b4d0befbd5b887727"
-	"clienttga" "6ed500d084457a4bcb7a808d6d808b7936d4f93c"
+	"icon" "95278d64933f5420aff962bba6770478cc29e74b"
+	"clienticon" "77a98f7d8c625a29cb0845a504ee1195a7cb474f"
+	"clienttga" "4c7a1fc309c3a0a6495cc31a73267ba8e0bcb8d8"
 	"oslist" "windows"
 	"osarch" ""
 	"osextended" ""
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1651881600"
-		"tested_build_id" "8508214"
+		"category" "3"
+		"test_timestamp" "1710288000"
+		"tested_build_id" "13578268"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"1"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"2"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
 			}
 			"3"
-			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
-			}
-			"4"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
@@ -48,20 +43,21 @@
 		"configuration"
 		{
 			"supported_input" "gamepad"
-			"requires_manual_keyboard_invoke" "1"
+			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "1"
-			"small_text" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-1RC"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"controllertagwizard" "1"
-	"controller_support" "partial"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -82,7 +78,7 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1707833170"
+	"store_asset_mtime" "1712657165"
 	"associations"
 	{
 		"0"
@@ -100,7 +96,6 @@
 	"genres"
 	{
 		"0" "25"
-		"1" "70"
 	}
 	"category"
 	{
@@ -108,7 +103,14 @@
 		"category_22" "1"
 		"category_45" "1"
 		"category_46" "1"
-		"category_18" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_28" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -169,20 +171,35 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
-	"steam_release_date" "1648134786"
+	"steam_release_date" "1712757291"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "1284190"
 	"store_tags"
 	{
-		"0" "1742"
-		"1" "1100689"
-		"2" "7332"
-		"3" "4166"
+		"0" "3843"
+		"1" "1685"
+		"2" "1100689"
+		"3" "7332"
 		"4" "1695"
-		"5" "1662"
-		"6" "1643"
+		"5" "1643"
+		"6" "1662"
 		"7" "3810"
 		"8" "1702"
 		"9" "3834"
@@ -190,12 +207,12 @@
 		"11" "3839"
 		"12" "21"
 		"13" "255534"
-		"14" "3942"
-		"15" "8945"
+		"14" "8945"
+		"15" "3942"
 		"16" "1755"
-		"17" "9204"
-		"18" "1673"
-		"19" "493"
+		"17" "1742"
+		"18" "9204"
+		"19" "1673"
 	}
 	"review_score" "9"
 	"review_percentage" "96"
@@ -220,6 +237,8 @@
 			}
 		}
 	}
+	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "8"
 }
 "depots"
 {
@@ -229,30 +248,30 @@
 		{
 			"public"
 			{
-				"gid" "97037030159597411"
-				"size" "6753895393"
-				"download" "3174786528"
+				"gid" "7909227680995349132"
+				"size" "8068677636"
+				"download" "4048847232"
 			}
 			"development"
 			{
-				"gid" "97037030159597411"
-				"size" "6753895393"
-				"download" "3174786528"
+				"gid" "7909227680995349132"
+				"size" "8068677636"
+				"download" "4048847232"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"internal"
 			{
-				"gid" "63B6228CBA092DCE38E3520B0907EDFD"
-				"size" "331BBC255E9632C1F5286A5262176BBD"
-				"download" "D81354AC51A919EB99885DC5CD4FCE3C"
+				"gid" "2FEE9DEA7CD2D35EA18965A49D16F3BC"
+				"size" "56D412EE8FCCBE75A7B7C0B1F77D62CC"
+				"download" "F68674658EB52F7D09C9FA0D8CC21D16"
 			}
 			"multiplayer-beta-test"
 			{
-				"gid" "B18182BF6C306238C1EF8DC82881E9CC"
-				"size" "3992CD0130F35785DC8EC20DC1E0C4F7"
-				"download" "D1AD784515672002437350A161CD8C83"
+				"gid" "9056CF94205248FC80A301CEBA4F4E83"
+				"size" "7BE0E8CCF9647ED04D64E03066C96F15"
+				"download" "9B9CE2DDAD04C3480AA7BF111B292C34"
 			}
 			"private-music"
 			{
@@ -266,26 +285,26 @@
 	{
 		"public"
 		{
-			"buildid" "13578268"
-			"timeupdated" "1709112505"
+			"buildid" "14007608"
+			"timeupdated" "1712753228"
 		}
 		"development"
 		{
-			"buildid" "13578268"
+			"buildid" "14007608"
 			"description" "Dev branch. This is a work in progress branch. May contains bugs & broken features. May affect or corrupt save files.."
-			"timeupdated" "1709052662"
+			"timeupdated" "1712740794"
 		}
 		"internal"
 		{
-			"buildid" "13578281"
+			"buildid" "14007608"
 			"pwdrequired" "1"
-			"timeupdated" "1709052369"
+			"timeupdated" "1712740459"
 		}
 		"multiplayer-beta-test"
 		{
-			"buildid" "13578281"
+			"buildid" "14007608"
 			"pwdrequired" "1"
-			"timeupdated" "1709052650"
+			"timeupdated" "1712740784"
 		}
 		"private-music"
 		{
@@ -324,6 +343,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22707090"
-"_sha" "d4b633fb2db6f6a1bcc51eef784685a0daf87d56"
-"_size" "6050"
+"_change_number" "23102653"
+"_sha" "5e1ecb28c26c972e125ef5b2e5942571c7512c65"
+"_size" "6359"
