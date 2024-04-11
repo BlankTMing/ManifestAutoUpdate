@@ -142,8 +142,8 @@
 		"4" "4328"
 		"5" "1643"
 		"6" "4305"
-		"7" "4166"
-		"8" "3964"
+		"7" "3964"
+		"8" "4166"
 		"9" "599"
 		"10" "4191"
 		"11" "492"
@@ -195,15 +195,15 @@
 		{
 			"public"
 			{
-				"gid" "7762058045229358412"
-				"size" "566258002"
-				"download" "55490224"
+				"gid" "34680268720447028"
+				"size" "566264461"
+				"download" "55496144"
 			}
 			"beta"
 			{
-				"gid" "7762058045229358412"
-				"size" "566258002"
-				"download" "55490224"
+				"gid" "34680268720447028"
+				"size" "566264461"
+				"download" "55496144"
 			}
 		}
 	}
@@ -217,15 +217,15 @@
 		{
 			"public"
 			{
-				"gid" "5731840090076529815"
-				"size" "582685571"
-				"download" "58997392"
+				"gid" "6929874230162811807"
+				"size" "582715442"
+				"download" "59017248"
 			}
 			"beta"
 			{
-				"gid" "5731840090076529815"
-				"size" "582685571"
-				"download" "58997392"
+				"gid" "6929874230162811807"
+				"size" "582715442"
+				"download" "59017248"
 			}
 		}
 	}
@@ -233,14 +233,14 @@
 	{
 		"public"
 		{
-			"buildid" "13691441"
-			"timeupdated" "1710025613"
+			"buildid" "14000197"
+			"timeupdated" "1712819529"
 		}
 		"beta"
 		{
-			"buildid" "13691441"
+			"buildid" "14000197"
 			"description" "Branch for beta testing"
-			"timeupdated" "1710010082"
+			"timeupdated" "1712682011"
 		}
 	}
 }
@@ -255,21 +255,6 @@
 			"root" "WinAppDataLocalLow"
 			"path" "Friedemann/SUMMERHOUSE/Save"
 			"pattern" "*.json"
-			"platforms"
-			{
-				"1" "Windows"
-			}
-			"recursive" "1"
-		}
-		"1"
-		{
-			"root" "MacAppSupport"
-			"path" "Friedemann/SUMMERHOUSE/Save"
-			"pattern" "*.json"
-			"platforms"
-			{
-				"1" "MacOS"
-			}
 			"recursive" "1"
 		}
 		"2"
@@ -277,24 +262,37 @@
 			"root" "WinAppDataLocalLow"
 			"path" "Friedemann/SUMMERHOUSE/SaveGameImages"
 			"pattern" "*.png"
-			"platforms"
-			{
-				"1" "Windows"
-			}
+			"recursive" "1"
 		}
-		"3"
+		"4"
 		{
-			"root" "MacAppSupport"
-			"path" "Friedemann/SUMMERHOUSE/SaveGameImages"
-			"pattern" "*.png"
-			"platforms"
-			{
-				"1" "MacOS"
-			}
+			"root" "WinAppDataLocalLow"
+			"path" "Friedemann/SUMMERHOUSE/Progress"
+			"pattern" "*.json"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ""
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "22961077"
-"_sha" "932ec60ce9c34c2e76c1b81ab4364794f0022cb8"
-"_size" "4743"
+"_change_number" "23113141"
+"_sha" "8f8c2f3e96f4d1c18b4c0e0e0cc80000fc7dca08"
+"_size" "4765"
