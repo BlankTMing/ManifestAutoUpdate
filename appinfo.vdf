@@ -1,0 +1,179 @@
+"appid" "2533070"
+"common"
+{
+	"name" "TerraTech Worlds Dedicated Server"
+	"type" "Tool"
+	"parent" "2313330"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"icon" "ca2a55a5c0bcc631dd27ee44a347ae6c767463f5"
+	"clienticon" "7c650a35347c45ff860ff8777b458119472a616f"
+	"clienttga" "ffc282b236dbf4d5025b061fef504e40ba60f06b"
+	"releasestate" "released"
+	"gameid" "2533070"
+}
+"config"
+{
+	"installdir" "TTW_Dedicated_Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TT2Server.exe"
+			"arguments" "-log -nullrhi"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"2533071"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5467713670578839645"
+				"size" "4636605459"
+				"download" "978230752"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devtest"
+			{
+				"gid" "9241C8B053E93C36F211DC2798D280F1"
+				"size" "26D5D71AB48289C895CC819B9E7578B9"
+				"download" "406554FE61F5CE37450AF3F141E6941F"
+			}
+			"internaldev"
+			{
+				"gid" "DF40EDF28EE8EA193684DAEB3F6D3992"
+				"size" "A94F0B3B8E955F41FB0E63DA36FDCB33"
+				"download" "22E3D0620A8BE4BBE4DE0ECB6427A09D"
+			}
+			"linux_experimental"
+			{
+				"gid" "FA8779B6E9BFD23118ADA9CC237E8D94"
+				"size" "F7C4147BFB06D590DDCB7C3A8B165442"
+				"download" "87E3E7F03D5561A4DA9EB82DCCE91E0E"
+			}
+			"partner"
+			{
+				"gid" "CA321B374B3E28BD706F2B8676A19B68"
+				"size" "4AEF94FBA491419CD54FF2CBB3C86E38"
+				"download" "E3DD7B89AD0A303B33A227E730BCA663"
+			}
+			"qa_test"
+			{
+				"gid" "6F6B7DC5258826FA7350B0433A6F6D96"
+				"size" "11C831F3E259C035D37847A162E9A76E"
+				"download" "AEA7B807184AA767AED14644D8C83156"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13962140"
+			"timeupdated" "1712324368"
+		}
+		"devtest"
+		{
+			"buildid" "13828127"
+			"pwdrequired" "1"
+			"timeupdated" "1711146553"
+		}
+		"internaldev"
+		{
+			"buildid" "13933534"
+			"pwdrequired" "1"
+			"timeupdated" "1712135654"
+		}
+		"linux_experimental"
+		{
+			"buildid" "13774851"
+			"pwdrequired" "1"
+			"timeupdated" "1710772146"
+		}
+		"partner"
+		{
+			"buildid" "13938171"
+			"pwdrequired" "1"
+			"timeupdated" "1712236734"
+		}
+		"qa_test"
+		{
+			"buildid" "14023293"
+			"pwdrequired" "1"
+			"timeupdated" "1712844580"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23118342"
+"_sha" "2572a78408cf2ca71aa77824e5387b6a330899b4"
+"_size" "3112"
