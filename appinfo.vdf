@@ -39,6 +39,55 @@
 		"brazilian" "1"
 		"ukrainian" "1"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1712966400"
+		"tested_build_id" "14012060"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"metacritic_name" "Sons of Valhalla"
 	"controllertagwizard" "1"
 	"controller_support" "full"
@@ -259,24 +308,18 @@
 		{
 			"public"
 			{
-				"gid" "7643381085643948412"
-				"size" "3211343271"
-				"download" "493716960"
+				"gid" "424239355793214095"
+				"size" "3223676155"
+				"download" "497606912"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"alpha"
-			{
-				"gid" "CE0FFAAF3185647111C02BEC6E279E52"
-				"size" "6E98C23CD19F9897A83937ED23059B52"
-				"download" "99D065D98EA7CCDEB0022B5F0B5275B1"
-			}
 			"first-test"
 			{
-				"gid" "A4FDC261906C1F137FB76905F76E97F1"
-				"size" "D0697F41CEDD3B927AA3AFF8A578EB3D"
-				"download" "58E133F5B82AF122BE9C8F71E8BF1479"
+				"gid" "B588FBB3A86EC73EBD18181D29111EAD"
+				"size" "5713DE67A86CFCF11A59A44BC0B7A851"
+				"download" "1FAFDE5A803F1439FB70CE2A5F4589EE"
 			}
 			"loc-test"
 			{
@@ -292,9 +335,9 @@
 			}
 			"pre-release"
 			{
-				"gid" "E76CDD99418CD8482CCBDDAA7266B8F3"
-				"size" "FDD1DDF2960A78905FFE1CC45B5282A7"
-				"download" "86DC0AA4BC8FA35B398940F1298D20A1"
+				"gid" "507009433CFEC193323150AFC289DCC8"
+				"size" "59AE57BD0D754351384F3A75C3A03B82"
+				"download" "5567846A6B72FFDB5BA42C2810506C25"
 			}
 			"pre-test"
 			{
@@ -304,9 +347,9 @@
 			}
 			"qa-test"
 			{
-				"gid" "68A44CB96400336FF4118628729BDD96"
-				"size" "C5878B35F922A566AE6CA6DD2A0108B1"
-				"download" "572EAA800F9D6125A93ED53990E00855"
+				"gid" "B1F95B37767C4CDBA8D407FE40D6731E"
+				"size" "DBFFBE32747DEBA5BC08987991A8F9E9"
+				"download" "75F1A94F163103A152B11970EC4C2F63"
 			}
 			"trailer"
 			{
@@ -330,12 +373,6 @@
 		}
 		"encryptedmanifests"
 		{
-			"alpha"
-			{
-				"gid" "99DE79E05B3E98E454DC4E05FD7825F1"
-				"size" "0EC01FAB4EAF85531CBD707769CA775D"
-				"download" "D2D42FADD88153A9F1CE8B0562D64161"
-			}
 			"first-test"
 			{
 				"gid" "5B9D4DD124285DF5CE7F6EC52481FBCC"
@@ -384,20 +421,14 @@
 	{
 		"public"
 		{
-			"buildid" "14012060"
-			"timeupdated" "1712766880"
-		}
-		"alpha"
-		{
-			"buildid" "14012060"
-			"pwdrequired" "1"
-			"timeupdated" "1712766940"
+			"buildid" "14049462"
+			"timeupdated" "1713102581"
 		}
 		"first-test"
 		{
-			"buildid" "14012060"
+			"buildid" "14049462"
 			"pwdrequired" "1"
-			"timeupdated" "1712766318"
+			"timeupdated" "1713102040"
 		}
 		"loc-test"
 		{
@@ -413,9 +444,9 @@
 		}
 		"pre-release"
 		{
-			"buildid" "14012060"
+			"buildid" "14049462"
 			"pwdrequired" "1"
-			"timeupdated" "1712766932"
+			"timeupdated" "1713102439"
 		}
 		"pre-test"
 		{
@@ -425,9 +456,9 @@
 		}
 		"qa-test"
 		{
-			"buildid" "14012060"
+			"buildid" "14049462"
 			"pwdrequired" "1"
-			"timeupdated" "1712766923"
+			"timeupdated" "1713102432"
 		}
 		"trailer"
 		{
@@ -456,6 +487,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23109683"
-"_sha" "151e59866dcdc488f2d5ff725c51b0dc91df3bd7"
-"_size" "9029"
+"_change_number" "23149700"
+"_sha" "162f63d6ffbfec7dda2fd9d08f322e089e58f8d1"
+"_size" "9816"
