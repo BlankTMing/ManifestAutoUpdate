@@ -1,0 +1,652 @@
+"appid" "333300"
+"common"
+{
+	"name" "ADOM (Ancient Domains Of Mystery)"
+	"type" "Game"
+	"icon" "6e5e1a6870889cf82521c1ccf57d80bccf0a919c"
+	"clienticns" "8b715a84a4b621f4d051eafc31731fbfea82f65f"
+	"clienticon" "69c2a9446abe3eb2572ca2f499b5a8648bbe95a0"
+	"clienttga" "f5cb2062488870462b3d3e688aa8cc5070781846"
+	"oslist" "windows,macos,linux"
+	"linuxclienticon" "cedf354d7b38772a6e487bd0223c4fd12f87620e"
+	"logo" "aeb7dfc81bb16f11ce931485196890cc1d0a4ccf"
+	"logo_small" "aeb7dfc81bb16f11ce931485196890cc1d0a4ccf_thumb"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "333300_eula_0"
+			"name" "ADOM (Ancient Domains Of Mystery) EULA"
+			"url" "http://store.steampowered.com//eula/333300_eula_0"
+		}
+	}
+	"releasestate" "released"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1693526400"
+		"tested_build_id" "5820078"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "ADOM (Ancient Domains Of Mystery)"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1666805364"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Thomas Biskup"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Jochen Terstiege"
+		}
+		"2"
+		{
+			"type" "developer"
+			"name" "Zeno Rogue"
+		}
+		"3"
+		{
+			"type" "developer"
+			"name" "Krzysztof Dycha"
+		}
+		"4"
+		{
+			"type" "developer"
+			"name" "Lucas Dieguez"
+		}
+		"5"
+		{
+			"type" "publisher"
+			"name" "Assemble Entertainment"
+		}
+		"6"
+		{
+			"type" "franchise"
+			"name" "ADOM"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "3"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1447700343"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "333300"
+	"store_tags"
+	{
+		"0" "454187"
+		"1" "4474"
+		"2" "1720"
+		"3" "1759"
+		"4" "1677"
+		"5" "4026"
+		"6" "1716"
+		"7" "17389"
+		"8" "3871"
+		"9" "9"
+		"10" "122"
+		"11" "5125"
+		"12" "3964"
+		"13" "1684"
+		"14" "4166"
+		"15" "21"
+		"16" "7569"
+		"17" "4182"
+		"18" "492"
+		"19" "4711"
+	}
+	"review_score" "8"
+	"review_percentage" "84"
+}
+"extended"
+{
+	"developer" "Thomas Biskup"
+	"publisher" "Assemble Entertainment"
+	"homepage" "https://www.adom.de"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "ADOM"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "adom.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "ADOM.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "adom"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"333301"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7630884721185693106"
+				"size" "578116871"
+				"download" "533905904"
+			}
+			"2.3.8-r81"
+			{
+				"gid" "4904148635905481085"
+				"size" "547797457"
+				"download" "515661872"
+			}
+			"beta"
+			{
+				"gid" "7630884721185693106"
+				"size" "578116871"
+				"download" "533905904"
+			}
+			"release-100"
+			{
+				"gid" "2568048069899551493"
+				"size" "578222619"
+				"download" "534017952"
+			}
+			"release-101"
+			{
+				"gid" "3509011203908081780"
+				"size" "578114655"
+				"download" "533905328"
+			}
+			"release-64"
+			{
+				"gid" "2286193462348440873"
+				"size" "201559943"
+				"download" "175465392"
+			}
+			"release-69"
+			{
+				"gid" "1523099533137393876"
+				"size" "233793086"
+				"download" "207055472"
+			}
+			"release-70"
+			{
+				"gid" "1637660286126189499"
+				"size" "255526579"
+				"download" "228840240"
+			}
+			"release-72"
+			{
+				"gid" "690040988775663097"
+				"size" "279245255"
+				"download" "252545536"
+			}
+			"release-88"
+			{
+				"gid" "395318102230497801"
+				"size" "561335760"
+				"download" "528212912"
+			}
+			"release-94"
+			{
+				"gid" "565296341033657872"
+				"size" "570555063"
+				"download" "531578640"
+			}
+			"release-96"
+			{
+				"gid" "823862556646886724"
+				"size" "567379557"
+				"download" "531401168"
+			}
+			"release-98"
+			{
+				"gid" "7561623616233894743"
+				"size" "578017927"
+				"download" "533885024"
+			}
+			"release-99"
+			{
+				"gid" "2600629805583997730"
+				"size" "578018439"
+				"download" "533884976"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "A7C67A81D9DE4C1A2068DC21457EB92A"
+				"size" "FD23FC76030A0793CE20015E50A9C114"
+				"download" "CA7E74A3D4DCA290DA1815B2425933C8"
+			}
+		}
+	}
+	"333302"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1735692159990042256"
+				"size" "569992594"
+				"download" "532575616"
+			}
+			"2.3.8-r81"
+			{
+				"gid" "3129033160018283864"
+				"size" "553668657"
+				"download" "516762064"
+			}
+			"beta"
+			{
+				"gid" "1735692159990042256"
+				"size" "569992594"
+				"download" "532575616"
+			}
+			"release-100"
+			{
+				"gid" "6581913039069697275"
+				"size" "570609460"
+				"download" "532864560"
+			}
+			"release-101"
+			{
+				"gid" "1547379086645511101"
+				"size" "570502668"
+				"download" "532751104"
+			}
+			"release-64"
+			{
+				"gid" "3460996988458966808"
+				"size" "209796037"
+				"download" "177454064"
+			}
+			"release-69"
+			{
+				"gid" "3498714560648693964"
+				"size" "241108021"
+				"download" "208704448"
+			}
+			"release-70"
+			{
+				"gid" "5531384876960580069"
+				"size" "262855384"
+				"download" "230484544"
+			}
+			"release-72"
+			{
+				"gid" "6585302368120011810"
+				"size" "287880001"
+				"download" "254559664"
+			}
+			"release-88"
+			{
+				"gid" "7576053756041787335"
+				"size" "568130127"
+				"download" "529636128"
+			}
+			"release-94"
+			{
+				"gid" "3594547214839622432"
+				"size" "577353086"
+				"download" "533007664"
+			}
+			"release-96"
+			{
+				"gid" "6070936605200458459"
+				"size" "574178116"
+				"download" "532831984"
+			}
+			"release-98"
+			{
+				"gid" "8193542495486670271"
+				"size" "574426558"
+				"download" "532923744"
+			}
+			"release-99"
+			{
+				"gid" "749992232009554190"
+				"size" "574422390"
+				"download" "532925360"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "F8AC5A5231446B2BFA9B1E98D37994EB"
+				"size" "001FFFEF3532E29A240F1454C502F530"
+				"download" "9284DEF2AAFB27CF1772E153CF18C3EE"
+			}
+		}
+	}
+	"333303"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8937853492504983558"
+				"size" "559936265"
+				"download" "528556000"
+			}
+			"2.3.8-r81"
+			{
+				"gid" "6008977727147159581"
+				"size" "539993608"
+				"download" "512697792"
+			}
+			"beta"
+			{
+				"gid" "8937853492504983558"
+				"size" "559936265"
+				"download" "528556000"
+			}
+			"release-100"
+			{
+				"gid" "3139473321367072874"
+				"size" "560042590"
+				"download" "528667312"
+			}
+			"release-101"
+			{
+				"gid" "5888892365329241542"
+				"size" "559935650"
+				"download" "528554640"
+			}
+			"release-64"
+			{
+				"gid" "4476351822847981273"
+				"size" "196189523"
+				"download" "173392560"
+			}
+			"release-69"
+			{
+				"gid" "1180937980964219455"
+				"size" "228236309"
+				"download" "204905840"
+			}
+			"release-70"
+			{
+				"gid" "2014496869941524468"
+				"size" "249967242"
+				"download" "226690624"
+			}
+			"release-72"
+			{
+				"gid" "6812383976247531173"
+				"size" "273974799"
+				"download" "250501792"
+			}
+			"release-88"
+			{
+				"gid" "2967483086406549846"
+				"size" "553541100"
+				"download" "525239568"
+			}
+			"release-94"
+			{
+				"gid" "7678354752716477515"
+				"size" "562758483"
+				"download" "528605792"
+			}
+			"release-96"
+			{
+				"gid" "492844681909404969"
+				"size" "559583489"
+				"download" "528429632"
+			}
+			"release-98"
+			{
+				"gid" "7081383177957765767"
+				"size" "559876985"
+				"download" "528544032"
+			}
+			"release-99"
+			{
+				"gid" "6623709281607670144"
+				"size" "559876985"
+				"download" "528544096"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "305D1CA30B8A1962139D63DDAFB0743D"
+				"size" "3BFE83C9CE9840BA5D8E419695048B90"
+				"download" "E7A746EF3CC585606FE6D112EBF202D9"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5820078"
+			"timeupdated" "1605177290"
+		}
+		"2.3.8-r81"
+		{
+			"buildid" "2277841"
+			"description" "2.3.8 (Release 81)"
+			"timeupdated" "1514019336"
+		}
+		"beta"
+		{
+			"buildid" "5820078"
+			"description" "Public beta test"
+			"timeupdated" "1605177276"
+		}
+		"internal"
+		{
+			"buildid" "5820078"
+			"pwdrequired" "1"
+			"timeupdated" "1605177196"
+		}
+		"release-100"
+		{
+			"buildid" "3420788"
+			"description" "Release 100 (3.3.2)"
+			"timeupdated" "1548766123"
+		}
+		"release-101"
+		{
+			"buildid" "3512046"
+			"description" "Release 101 (3.3.3)"
+			"timeupdated" "1604655354"
+		}
+		"release-64"
+		{
+			"buildid" "909973"
+			"description" "Release 64 (2.0.3)"
+			"timeupdated" "1473101114"
+		}
+		"release-69"
+		{
+			"buildid" "1316622"
+			"description" "Release 69 (2.2.3)"
+			"timeupdated" "1474131444"
+		}
+		"release-70"
+		{
+			"buildid" "1341416"
+			"description" "Release 70 (2.2.4)"
+			"timeupdated" "1478014614"
+		}
+		"release-72"
+		{
+			"buildid" "2208167"
+			"description" "Release 72 (2.2.6)"
+			"timeupdated" "1509359654"
+		}
+		"release-88"
+		{
+			"buildid" "2407268"
+			"description" "Release 88 (3.0.6)"
+			"timeupdated" "1522233833"
+		}
+		"release-94"
+		{
+			"buildid" "2678243"
+			"description" "Release 94 (3.1.5)"
+			"timeupdated" "1525345357"
+		}
+		"release-96"
+		{
+			"buildid" "2759162"
+			"description" "Release 96 (3.2.1)"
+			"timeupdated" "1527161349"
+		}
+		"release-98"
+		{
+			"buildid" "3149378"
+			"description" "Release 98 (3.3.0)"
+			"timeupdated" "1539176673"
+		}
+		"release-99"
+		{
+			"buildid" "3164433"
+			"description" "Release 99 (3.3.1)"
+			"timeupdated" "1540901711"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23041968"
+"_sha" "e01d861200bfdafcd70146313ae988c0897df9e7"
+"_size" "12108"
