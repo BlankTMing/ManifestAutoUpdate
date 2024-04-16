@@ -1,0 +1,156 @@
+"appid" "354750"
+"common"
+{
+	"name" "Invisible, Inc. Mod Uploader"
+	"section_type" "ownersonly"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"associations"
+	{
+	}
+	"gameid" "354750"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Invisible Inc Mod Uploader"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ModUploader.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "ModUploader"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "ModUploader.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228984"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"354751"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7197058196838490097"
+				"size" "3653312"
+				"download" "1098128"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev"
+			{
+				"gid" "5AF38235B71326ADBC414EC2F062E8E8"
+				"size" "3DE5F399E03F548D883B8286F574305C"
+				"download" "1DC290B32F12809D0DC70E17C7061F45"
+			}
+		}
+	}
+	"354752"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1417975518278367552"
+				"size" "6380836"
+				"download" "1777056"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev"
+			{
+				"gid" "3440DFD7C207C72CE9C9E00192F0CCD5"
+				"size" "0C18224E61C18F5CB4DCC2465CE22C6D"
+				"download" "712C4FADD0BED5330CE093FFD4891FD1"
+			}
+		}
+	}
+	"354753"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8831862741356642024"
+				"size" "4673356"
+				"download" "1458160"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev"
+			{
+				"gid" "30EF74FFC2D98CF352C91FA358F4BF08"
+				"size" "B508DA9E47A38D1C8772ADE6919BA962"
+				"download" "A8DECDAE980161F8757504D6FE201251"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "851667"
+		}
+		"dev"
+		{
+			"buildid" "851667"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "100"
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "9ad035dbf1a1823e05fa1299c817405f22b81fed"
+"_size" "2261"
