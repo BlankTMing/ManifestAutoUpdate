@@ -16,7 +16,6 @@
 	{
 		"0" "5"
 	}
-	"has_adult_content" "1"
 	"metacritic_name" "Scheming Through The Zombie Apocalypse: The Beginning"
 	"small_capsule"
 	{
@@ -38,7 +37,7 @@
 			"height_pct" "84.57611018760389"
 		}
 	}
-	"store_asset_mtime" "1572644335"
+	"store_asset_mtime" "1713177350"
 	"associations"
 	{
 		"0"
@@ -74,6 +73,8 @@
 		"category_2" "1"
 		"category_22" "1"
 		"category_29" "1"
+		"category_23" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -171,9 +172,9 @@
 		{
 			"public"
 			{
-				"gid" "2275759719833010505"
-				"size" "1473608433"
-				"download" "340755872"
+				"gid" "298434480657886974"
+				"size" "1478936613"
+				"download" "342372752"
 			}
 		}
 		"encryptedmanifests"
@@ -196,9 +197,9 @@
 		{
 			"public"
 			{
-				"gid" "2796215210671448657"
-				"size" "1482409035"
-				"download" "343379888"
+				"gid" "4582664693783362607"
+				"size" "1521464027"
+				"download" "354539504"
 			}
 		}
 		"encryptedmanifests"
@@ -215,8 +216,8 @@
 	{
 		"public"
 		{
-			"buildid" "5392704"
-			"timeupdated" "1597060389"
+			"buildid" "14059779"
+			"timeupdated" "1713204119"
 		}
 		"betatesting"
 		{
@@ -228,10 +229,37 @@
 }
 "ufs"
 {
-	"quota" "2000000"
+	"quota" "10000000"
 	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Entertainment Forge\\Scheming Through The Zombie Apocalypse"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Entertainment Forge\\Scheming Through The Zombie Apocalypse"
+					"replace" "com.EntertainmentForge.SchemingThroughTheZombieApocalypse"
+				}
+			}
+		}
+	}
 }
 "_missing_token" "False"
-"_change_number" "19293514"
-"_sha" "39eda6b947746ea89fea9187ed836cdb8eab68e4"
-"_size" "3971"
+"_change_number" "23163551"
+"_sha" "9cfcd0ba54b40f359bf5fac6c45a8074c86d111e"
+"_size" "4512"
