@@ -1,0 +1,246 @@
+"appid" "604450"
+"common"
+{
+	"name" "Another Adventure"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "23ef00a809b75bddbd80ff14f1e987b38ec29c60"
+	"logo_small" "23ef00a809b75bddbd80ff14f1e987b38ec29c60_thumb"
+	"icon" "16e6084c95a6d48f1e6eba9c71eb4c2b6882de7a"
+	"clienttga" "d03fe473bb54bf541bd0e8cc645d6a499f773535"
+	"clienticon" "ea1655649b7ee324e8d551caf2eee8dc3c98aced"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+	}
+	"metacritic_name" "Another Adventure"
+	"small_capsule"
+	{
+		"schinese" "capsule_231x87_schinese.jpg"
+		"english" "capsule_231x87.jpg"
+		"tchinese" "capsule_231x87_tchinese.jpg"
+	}
+	"header_image"
+	{
+		"schinese" "header_schinese.jpg"
+		"tchinese" "header_tchinese.jpg"
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1488696197"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "ThankCreate Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "ThankCreate Studio"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "WhisperGames"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1489147435"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "604450"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "21"
+		"2" "5984"
+		"3" "1664"
+		"4" "3799"
+	}
+	"review_score" "8"
+	"review_percentage" "91"
+}
+"extended"
+{
+	"developer" "ThankCreate Studio"
+	"publisher" "ThankCreate Studio"
+	"homepage" "http://another.thankcreate.com"
+}
+"config"
+{
+	"installdir" "Another Adventure"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "AnotherAdventure.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "AnotherAdventure.app\\Contents\\MacOS\\AnotherAdventure"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"604451"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3340271557111510692"
+				"size" "423894410"
+				"download" "117991152"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"for_i18n"
+			{
+				"gid" "EA6C6620249A3F2E270C1ABA7C15E634"
+				"size" "CB23910B6E6DAB48FBCBE0D617E354E6"
+				"download" "BB05F98A55B5C600B80346240E7FEBD2"
+			}
+		}
+	}
+	"604452"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7247536747103883838"
+				"size" "468959772"
+				"download" "130511920"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"for_i18n"
+			{
+				"gid" "8CA22EED834C18DE97FBDD13A2BAAB3B"
+				"size" "8A0D1C0E9FB1CA6E1A2ABFD7E3255494"
+				"download" "6E4AA3CA7BD4B73BF37E0504C600A8A8"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3086196"
+			"timeupdated" "1535923857"
+		}
+		"for_i18n"
+		{
+			"buildid" "3137202"
+			"pwdrequired" "1"
+			"timeupdated" "1537379877"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "SteamCloudDocuments"
+			"path" "save"
+			"pattern" "cloudsave.data"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "SteamCloudDocuments"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinAppDataLocal"
+			"addpath" "AnotherAdventure"
+		}
+		"1"
+		{
+			"root" "SteamCloudDocuments"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" "AnotherAdventure"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18903802"
+"_sha" "3fbf14e14b0ba1aa2573560ca2c48d15549de82a"
+"_size" "4131"
