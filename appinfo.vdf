@@ -1,0 +1,460 @@
+"appid" "253150"
+"common"
+{
+	"name" "Halfway"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "39b2db460847b83057ab8efba55dd30e482be661"
+	"logo_small" "39b2db460847b83057ab8efba55dd30e482be661_thumb"
+	"linuxclienticon" "c278eb0422355a0d1f68fde618e1e39fcde1cd48"
+	"clienticns" "36dacba5a4d42021c6472cf4bf7b68e482ae80c5"
+	"clienticon" "6206b3f537786b96050e4e42f980a0f471813477"
+	"clienttga" "928b29c7963b0923277a60807d08e59a1efea9df"
+	"icon" "9c97ef2957ec57383ca65a502fcda79714353558"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1651622400"
+		"tested_build_id" "8365772"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "UntitledApp"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "35.79728857327305"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1667297241"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Robotality"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Chucklefish"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "3"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_22" "1"
+		"category_23" "1"
+		"category_15" "1"
+		"category_2" "1"
+		"category_30" "1"
+		"category_29" "1"
+		"category_17" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1406045019"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "253150"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "9"
+		"2" "492"
+		"3" "19"
+		"4" "1677"
+		"5" "3964"
+		"6" "3942"
+		"7" "1741"
+		"8" "1708"
+		"9" "1755"
+		"10" "4182"
+		"11" "3871"
+		"12" "14139"
+		"13" "4791"
+	}
+	"review_score" "6"
+	"review_percentage" "73"
+}
+"extended"
+{
+	"developer" "Robotality"
+	"publisher" "Chucklefish"
+	"homepage" "http://www.halfwaygame.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Halfway"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Halfway.exe"
+			"arguments" "-steam"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Halfway.app"
+			"arguments" "-steam"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Halfway"
+			"arguments" "-steam"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "Halfway.app"
+			"arguments" "-steam -editor"
+			"description" "Launch Modding Tools..."
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"4"
+		{
+			"executable" "Halfway.exe"
+			"arguments" "-steam -editor"
+			"description" "Launch Modding Tools..."
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"5"
+		{
+			"executable" "Halfway"
+			"arguments" "-steam -editor"
+			"description" "Launch Modding Tools..."
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"2730137865"
+		{
+			"controller_type" "controller_neptune"
+			"enabled_branches" "default,beta"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"253151"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2054655058113348936"
+				"size" "264666297"
+				"download" "181178672"
+			}
+			"1.2.7"
+			{
+				"gid" "4941558098015305954"
+				"size" "265260674"
+				"download" "184297440"
+			}
+			"free-cursor"
+			{
+				"gid" "2623003743901230501"
+				"size" "265261493"
+				"download" "184301392"
+			}
+			"test"
+			{
+				"gid" "2054655058113348936"
+				"size" "264666297"
+				"download" "181178672"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "438311CFEC84F5FBC829AC193B0A7418"
+				"size" "0CD42CE3D779AEFCB0BDBC8085B5CEF5"
+				"download" "291772AD5B598546581949AC7F2908A0"
+			}
+		}
+	}
+	"253152"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7486992941536397541"
+				"size" "275259811"
+				"download" "186214384"
+			}
+			"1.2.7"
+			{
+				"gid" "6516180332795440902"
+				"size" "275116265"
+				"download" "189137424"
+			}
+			"free-cursor"
+			{
+				"gid" "4881467575680463478"
+				"size" "275117084"
+				"download" "189132688"
+			}
+			"test"
+			{
+				"gid" "7486992941536397541"
+				"size" "275259811"
+				"download" "186214384"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "F4C42EFFA246727055C4EBE3C661C24A"
+				"size" "6B807F520F7436CC8720900E397B6011"
+				"download" "FC394EBA99CA315F13812A04F8146774"
+			}
+		}
+	}
+	"253153"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7953923163101763360"
+				"size" "278298135"
+				"download" "186574928"
+			}
+			"1.2.7"
+			{
+				"gid" "3218222469122638712"
+				"size" "278749408"
+				"download" "189676000"
+			}
+			"free-cursor"
+			{
+				"gid" "2733014789305804636"
+				"size" "278750227"
+				"download" "189677712"
+			}
+			"test"
+			{
+				"gid" "7953923163101763360"
+				"size" "278298135"
+				"download" "186574928"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "67671596707DBCE9ECEB2E451F9F3C0B"
+				"size" "DCDB2E27C43EEACE19B0F290D6338DEE"
+				"download" "9EAD0407E5FF850B6EE393CD11E9707F"
+			}
+		}
+	}
+	"253154"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6328378722838445335"
+				"size" "275705738"
+				"download" "184841856"
+			}
+			"1.2.7"
+			{
+				"gid" "4547272641859684152"
+				"size" "276132867"
+				"download" "187948016"
+			}
+			"free-cursor"
+			{
+				"gid" "7217677005113798528"
+				"size" "276133686"
+				"download" "187948448"
+			}
+			"test"
+			{
+				"gid" "6328378722838445335"
+				"size" "275705738"
+				"download" "184841856"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "B4B2FA2EE4F49014917A78B483BBF3BE"
+				"size" "08D830A68F44AF88C883F541FD7227BE"
+				"download" "E36757F661450F27B0C18727C85C90DD"
+			}
+		}
+	}
+	"workshopdepot" "253150"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8365772"
+			"timeupdated" "1647336315"
+		}
+		"1.2.7"
+		{
+			"buildid" "749880"
+			"description" "Win 10 / Intel HD 3000"
+			"timeupdated" "1499069960"
+		}
+		"beta"
+		{
+			"buildid" "8365772"
+			"pwdrequired" "1"
+			"timeupdated" "1647251903"
+		}
+		"free-cursor"
+		{
+			"buildid" "883931"
+			"description" "Disables mouse cursor locked-in to game window."
+			"timeupdated" "1467966891"
+		}
+		"test"
+		{
+			"buildid" "8365772"
+			"description" "Public test version"
+			"timeupdated" "1647336300"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "250000000"
+	"maxnumfiles" "100"
+}
+"_missing_token" "False"
+"_change_number" "19547894"
+"_sha" "7597d914fe6e8ecd6ba613ef76eee372f1335461"
+"_size" "8341"
