@@ -1,0 +1,110 @@
+"appid" "704770"
+"common"
+{
+	"name" "Expeditions: Viking Editor"
+	"type" "Tool"
+	"parent" "445190"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"logo" "89edede2ef245c47cb682b979355994747a3e648"
+	"logo_small" "89edede2ef245c47cb682b979355994747a3e648_thumb"
+	"icon" "6e07527867f091e55a1bdf3aba679a89214a672a"
+	"clienticon" "9433b90a332bed9fb529ea1db240327dd3cd5a08"
+	"clienttga" "bcaa0adfe9062362977f271ba4bb4eb82d071e8c"
+	"associations"
+	{
+	}
+	"gameid" "704770"
+}
+"config"
+{
+	"installdir" "Expeditions Viking Editor"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ConEdit\\ConversationEditor.exe"
+			"workingdir" "ConEdit\\"
+			"type" "editor"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Expeditions Viking XML Kit Instructions.pdf"
+			"type" "manual"
+		}
+		"2"
+		{
+			"executable" "Steam Workshop Uploader\\VikingWorkshopUploader.exe"
+			"description" "Open Steamworks uploading tool"
+			"type" "none"
+		}
+	}
+}
+"depots"
+{
+	"704771"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "695653654476953146"
+				"size" "35008984"
+				"download" "6211184"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "040EFAEAA34CA6B474E800719C8AE1C1"
+				"size" "8C0FE97A5F3EABDFA40F9E78D87EC984"
+				"download" "D2999D139F4FE1A653DC0796ABC2151B"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2739697"
+			"timeupdated" "1525272334"
+		}
+		"beta"
+		{
+			"buildid" "2282543"
+			"pwdrequired" "1"
+			"timeupdated" "1525272301"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000000"
+	"maxnumfiles" "1000"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Steam Workshop Uploader/Published Items"
+			"pattern" "*.xml"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18903802"
+"_sha" "ceff23b6707d5cfc4d3ef18570bb8fc9353a806f"
+"_size" "1931"
