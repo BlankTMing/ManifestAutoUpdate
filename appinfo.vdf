@@ -1,0 +1,688 @@
+"appid" "600610"
+"common"
+{
+	"name" "The Hand of Merlin"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"clienttga" "2e0a86572ccef1e7b2808c7ca864072cfdef1691"
+	"clienticon" "a7394ef2cf6a00e5f8fb5b675395b89471b7e128"
+	"icon" "c12a342360d446934759ba1613e0a1bed5e8e8a0"
+	"logo" "4edbb7b550ceb1a51429348f26acac9a2cdef0de"
+	"logo_small" "4edbb7b550ceb1a51429348f26acac9a2cdef0de_thumb"
+	"name_localized"
+	{
+		"schinese" "梅林之手"
+	}
+	"osextended" "macos64,macosapplesilicon"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1652227200"
+		"tested_build_id" "8676973"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "The Hand of Merlin"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "64.05841842792685"
+		}
+	}
+	"store_asset_mtime" "1652942154"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Room-C Games"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Croteam"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Versus Evil"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Versus Evil"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "23"
+		"1" "3"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_28" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1655226300"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "600610"
+	"store_tags"
+	{
+		"0" "1741"
+		"1" "1708"
+		"2" "1716"
+		"3" "9"
+		"4" "1742"
+		"5" "1684"
+		"6" "14139"
+		"7" "3942"
+		"8" "1759"
+		"9" "122"
+		"10" "4026"
+		"11" "21725"
+		"12" "3959"
+		"13" "4166"
+		"14" "7948"
+		"15" "4325"
+		"16" "4172"
+		"17" "4182"
+		"18" "4711"
+		"19" "492"
+	}
+	"review_score" "6"
+	"review_percentage" "72"
+}
+"extended"
+{
+	"developer" "Room-C Games"
+	"publisher" "Versus Evil"
+	"homepage" "https://www.roomcgames.com/"
+}
+"config"
+{
+	"installdir" "The Hand of Merlin"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Bin\\x64\\Merlin.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Bin/x64/Merlin"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "Bin/x64/Merlin"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "Bin\\x64\\Merlin_Unrestricted.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "moddable"
+			}
+			"description" "moddable"
+		}
+		"4"
+		{
+			"executable" "Bin/x64/Merlin_Unrestricted"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "moddable"
+			}
+			"description" "moddable"
+		}
+		"5"
+		{
+			"executable" "Bin/x64/Merlin_Unrestricted"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "moddable"
+			}
+			"description" "moddable"
+		}
+	}
+	"steamdecktouchscreen" "4"
+	"steamcontrollertemplateindex" "4"
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails" ""
+}
+"depots"
+{
+	"600611"
+	{
+		"config"
+		{
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "949907509408691908"
+				"size" "5193549543"
+				"download" "5152069040"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"closed_beta"
+			{
+				"gid" "61EF057C7CB5A32B801266E503AEB27C"
+				"size" "29E0D20963B06FCDE27EE62779E896B1"
+				"download" "C2C22D6F41774CC329FF1BF93B682B0A"
+			}
+			"early_access"
+			{
+				"gid" "6E2C519E30444CBD47D94BAD25C70DE1"
+				"size" "0C84F082C1EC58D8B48833D9473DCF6D"
+				"download" "A4778DC6CAF1801225503686CDFF17A0"
+			}
+			"internal"
+			{
+				"gid" "1F0B1189B9E28D30DBC52E0BB3588BBB"
+				"size" "1A1387C6B3DC44D856BB248BD35659B6"
+				"download" "E2F597F0ADF3E72C305701BD87FF48DE"
+			}
+			"media_review"
+			{
+				"gid" "5F11876E34CCE2B84F17841C51809412"
+				"size" "8F98936691FB751193DDBDAF735F7C30"
+				"download" "0589AFDDBF934B9AAB784E505793E3CC"
+			}
+			"prototype_goemt"
+			{
+				"gid" "0D97D71B70AF333A07DB25E33B01D370"
+				"size" "83DA193EB0A187E65DB95CD02CF005C8"
+				"download" "8D68BC905892F3B906163D51957203A4"
+			}
+			"prototype_hom"
+			{
+				"gid" "1500CD642E97A0B5628209497D8CD6CB"
+				"size" "5BFA451C40FDA5E2B30B9157F0756646"
+				"download" "F98313CAE62D3E6D7C82879AD0CD2C4E"
+			}
+			"vse_ms1"
+			{
+				"gid" "517B45193CA3D1685E8999CDB10A9E31"
+				"size" "5A8EEF052522799EB50A4B653E06CA7A"
+				"download" "9416653504A3C67146C447FD28A40DB8"
+			}
+		}
+	}
+	"600612"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "380608155828357088"
+				"size" "75365888"
+				"download" "23033216"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"closed_beta"
+			{
+				"gid" "90CB9F35714FBA20B8B3D4788926F097"
+				"size" "21CEC8F501043E903C9EC200C05BA984"
+				"download" "BDCF55F24E360C06E3991409BF2E38D4"
+			}
+			"early_access"
+			{
+				"gid" "28549E807FE3E24202F66B09834E77C4"
+				"size" "9CBC061A7428408B6977050523D155A4"
+				"download" "04C493484ED7731845C08AC0E5DFED1E"
+			}
+			"internal"
+			{
+				"gid" "2E856EF9EAEB933A8C0C1853EF5D4006"
+				"size" "46F89CDF9DDB8A6CA1399ABB7F22268D"
+				"download" "BAC83BD3007995A00340426C03BCF9E5"
+			}
+			"media_review"
+			{
+				"gid" "EEB0CA73D567A8C7CE9E4E5F76F3F0A0"
+				"size" "C08DBEFA8ACB17B3B9EE92217F249D4F"
+				"download" "FCED50CB6D61313593B4404BCF7CEF21"
+			}
+			"prototype_goemt"
+			{
+				"gid" "5E266DE31FDE9CD60336DECEA4D003EF"
+				"size" "B7284E097E317D77D6184AA703219BBA"
+				"download" "65A4C7B612C130039DE493B75778BD71"
+			}
+			"prototype_hom"
+			{
+				"gid" "022CA19ABAEB9F2AA8417673F7C0F019"
+				"size" "C0B705D77BBBB7C3617CABF29701FDD1"
+				"download" "5D8FFC09DF28A1D816A2A038845F9455"
+			}
+			"vse_ms1"
+			{
+				"gid" "0F1AE6DEBC7C54D237CC7FFB3387F192"
+				"size" "335B5C90363F068B3DF7A7F6B1EB6F56"
+				"download" "1D21580F48F51B0A88DE5B1F38B7B2EC"
+			}
+		}
+	}
+	"600613"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1170549008892817706"
+				"size" "89177819"
+				"download" "36773632"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"closed_beta"
+			{
+				"gid" "1B69022EC20B72A9A108617FCFA46830"
+				"size" "1A421DBD4B1CD7A7E4DBD9AB0BC71C2C"
+				"download" "1C34E8DF5789CD21A00FF0BCD6DE6FA0"
+			}
+			"early_access"
+			{
+				"gid" "C3516CB4B4B29C622EE74AF10C76282C"
+				"size" "9B3BBD96A0645CF1F09F818FCB32879A"
+				"download" "24E3136C99DBE015B98BD48087E117D3"
+			}
+			"internal"
+			{
+				"gid" "0A0DB877D14B6CDF1FAF9E90FC7CD422"
+				"size" "77167E74A433764DB56EE0717DFBB562"
+				"download" "174CAAAFB8F903652631A0A134899647"
+			}
+			"media_review"
+			{
+				"gid" "A70CC584FBB9347AEF8001B4CDB24592"
+				"size" "1D9CCE93CBFC037C6FC20D2AECA31E7E"
+				"download" "8F6C34CEE701D5DF573F11ED4C8457F2"
+			}
+			"prototype_goemt"
+			{
+				"gid" "E5743118C370A50517D6B8C88A821FF9"
+				"size" "0262043F67D2AC524BAD8C22315DAF35"
+				"download" "CD54D3CBE8A26DF8E18E32578C7389BD"
+			}
+			"prototype_hom"
+			{
+				"gid" "B8B0D588A047970B1B9ED58002F29645"
+				"size" "344BAEDC7892399E5E0C7C91B3A7595B"
+				"download" "010F2C950DEF3306C6C86CFB5423925E"
+			}
+			"vse_ms1"
+			{
+				"gid" "BD8AA90239F25DC74EB9FCD3BE68C297"
+				"size" "22370FFDA2307CCB60D83FA400EF9D00"
+				"download" "033B4F1F12B0217743AE5F33F5C0C871"
+			}
+		}
+	}
+	"600614"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5095193119087196139"
+				"size" "98877424"
+				"download" "27628880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"closed_beta"
+			{
+				"gid" "D92546A79532F8163E8F45CC5217FFE5"
+				"size" "11E321D90FEE61EC2B80E4F8D8247123"
+				"download" "8C7B4E4CA8F0F15F4102A3C329EECDBA"
+			}
+			"early_access"
+			{
+				"gid" "8F4080F9B0F5CCC0C51A248C6B917EC1"
+				"size" "281B4E0A5FB67F4B6E6274E951E13C88"
+				"download" "796A9ACF68B224C5C7761D5DC7076DD2"
+			}
+			"internal"
+			{
+				"gid" "A7105E9F8BFECA97E14CB6F67C38C7BB"
+				"size" "A356DB34801C49D85717E76F54184224"
+				"download" "7CA2ADBD5217CD2EFA2281CA4D494058"
+			}
+			"media_review"
+			{
+				"gid" "78CF295A12BCCB58DAE365537D665732"
+				"size" "98CAD90FAB026B9D4FBC7033752E5F3D"
+				"download" "DA17C1A703B380586F912D7C73760477"
+			}
+			"vse_ms1"
+			{
+				"gid" "077AAD4080D1235088ACDCC5D76D1841"
+				"size" "80E7D19CCDC82D41C1F6E25A89F4DC7C"
+				"download" "3D9D2A8649DC63B1397A0320DBB2C124"
+			}
+		}
+	}
+	"600615"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5111567937547345736"
+				"size" "89622072"
+				"download" "25461488"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"closed_beta"
+			{
+				"gid" "22011442ABF836469DD97F657184F74F"
+				"size" "F58C52D5D86E255D356F8136862D4CEE"
+				"download" "0F9F2D7CF76425530A371BF094235A0F"
+			}
+			"early_access"
+			{
+				"gid" "ED4C452778C57B383730ED375AD0179B"
+				"size" "CC45D8516868CB43711EE2C29D31FFA4"
+				"download" "5B36B426E9DF028E0242524BB2D0276D"
+			}
+			"internal"
+			{
+				"gid" "D1E0AC971DB8DC548944344DCC6FEC2A"
+				"size" "FB5B729F5D74C1222E290758A529BED5"
+				"download" "CE19E8475028B494AE5F0A39F4372A60"
+			}
+			"media_review"
+			{
+				"gid" "854392AE71E3A8699647703853B1309B"
+				"size" "163CBD58CFE5585F16BF3EBAD5FE9C91"
+				"download" "BBD8B0171EB13AAAF6CB16D321BCE90A"
+			}
+			"vse_ms1"
+			{
+				"gid" "EAD0045D279B9A504363BCAA23629592"
+				"size" "0FFC48C4876898CED0ED7634EFB8132B"
+				"download" "7854F53DDB37FA6A051FF666443CCA33"
+			}
+		}
+	}
+	"600616"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3133511118155455036"
+				"size" "32646057"
+				"download" "9118304"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"closed_beta"
+			{
+				"gid" "821A27BF3579C3A1FA1EF2CE26F9F09C"
+				"size" "EB9924CF236BD1BC92C8CE00627245AB"
+				"download" "A78B35278C0172E2C89CF268BF4E23AC"
+			}
+			"early_access"
+			{
+				"gid" "476D6D859FC877AEFC67242A89B61F12"
+				"size" "11BD96679BFCB6936724BBC4ACB3260C"
+				"download" "3CA0404EA17F2F7A08B7EB2D5481E2A7"
+			}
+			"internal"
+			{
+				"gid" "657E994C666B85BA30E8924DB5432665"
+				"size" "9F26CDAA386F587DDDBBD741F9AA60EB"
+				"download" "D9F2F40E964B73E2863DD7710F7F0515"
+			}
+			"media_review"
+			{
+				"gid" "9D7E7C27BBB4888088C55E56DB2FB143"
+				"size" "E7ED4CEAC6398708432BD2C09214A984"
+				"download" "B87F0A6AB18B5987F287DD367F092606"
+			}
+			"vse_ms1"
+			{
+				"gid" "347690F9FDFD5F94A156B8D38AA22276"
+				"size" "5E2A3508E65816969DF8E21CCCC0B68B"
+				"download" "B7AC4194259008AF713300406C98570B"
+			}
+		}
+	}
+	"600617"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5584690276205949493"
+				"size" "23667416"
+				"download" "7426768"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"closed_beta"
+			{
+				"gid" "EE6424BD79CCF3148DA30B600230AD1F"
+				"size" "130D4A2F9F2714518DF0E2F11B4E8D65"
+				"download" "84797BA9CC811E72DF60D7D3975345CC"
+			}
+			"early_access"
+			{
+				"gid" "103250238ED2DB027174769C3FE6234C"
+				"size" "3745118A36D7735F51B4F7782383CFC0"
+				"download" "3536B1CF18C925797C4B7AD36FF0239A"
+			}
+			"internal"
+			{
+				"gid" "8318B0C3C77691DC8F71625A15D17CBB"
+				"size" "41440ACEE1885745AF00112F9776CE98"
+				"download" "D01E31466F0BDB53FA0DADA6C50C095E"
+			}
+			"media_review"
+			{
+				"gid" "138BF9F0B6D7B66B17349DCE0F583FD6"
+				"size" "0AFEABABB6EE909BE5AB81A7442CC674"
+				"download" "3D73DDF81A715758C98BB7AD52AEC82A"
+			}
+			"vse_ms1"
+			{
+				"gid" "B569B92941F146C5C6209A33AAB84D1F"
+				"size" "0AAF75EF71E1FE6379DA0BB9ACDCFD42"
+				"download" "11CB2B7EA18FC46300BF8B85FBD21DAE"
+			}
+		}
+	}
+	"workshopdepot" "600610"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9544927"
+			"timeupdated" "1666461222"
+		}
+		"closed_beta"
+		{
+			"buildid" "7582571"
+			"pwdrequired" "1"
+			"timeupdated" "1634918676"
+		}
+		"early_access"
+		{
+			"buildid" "6681556"
+			"pwdrequired" "1"
+			"timeupdated" "1621432285"
+		}
+		"internal"
+		{
+			"buildid" "9544927"
+			"pwdrequired" "1"
+			"timeupdated" "1663590961"
+		}
+		"media_review"
+		{
+			"buildid" "8791611"
+			"pwdrequired" "1"
+			"timeupdated" "1653315393"
+		}
+		"prototype_goemt"
+		{
+			"buildid" "4105190"
+			"pwdrequired" "1"
+			"timeupdated" "1565796857"
+		}
+		"prototype_hom"
+		{
+			"buildid" "4105185"
+			"pwdrequired" "1"
+			"timeupdated" "1565796840"
+		}
+		"vse_ms1"
+		{
+			"buildid" "6671442"
+			"pwdrequired" "1"
+			"timeupdated" "1620558179"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1073741824"
+	"maxnumfiles" "8192"
+}
+"_missing_token" "False"
+"_change_number" "19452247"
+"_sha" "8f43789a8b57c8a8095ca33319b08d5341159945"
+"_size" "14399"
