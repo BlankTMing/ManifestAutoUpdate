@@ -8,8 +8,8 @@
 	"logo" "07165fb02e18a4cf544125c1bd350fe300aef362"
 	"logo_small" "07165fb02e18a4cf544125c1bd350fe300aef362_thumb"
 	"icon" "51182b6a74035eb913b353d5d60e596c3804daf6"
-	"clienttga" "9787ddfdbdd9152cff5edd3f45a3856f70b268cb"
-	"clienticon" "866ec9836186e7127888bfd7a11231a3971f105d"
+	"clienttga" "294f739d2bf9ef4734cb1a11bec8b9dc23c05c4d"
+	"clienticon" "1415b1b6fac6fda330c576e7de3a5e8bcc852f2a"
 	"osarch" ""
 	"osextended" ""
 	"eulas"
@@ -26,8 +26,6 @@
 		"0" "2"
 		"1" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "2"
@@ -77,6 +75,7 @@
 		}
 	}
 	"metacritic_name" "Black Mesa"
+	"controllertagwizard" "1"
 	"controller_support" "partial"
 	"small_capsule"
 	{
@@ -98,7 +97,7 @@
 			"height_pct" "20.36333412491095"
 		}
 	}
-	"store_asset_mtime" "1698563310"
+	"store_asset_mtime" "1713220472"
 	"associations"
 	{
 		"0"
@@ -139,6 +138,8 @@
 		"category_42" "1"
 		"category_45" "1"
 		"category_46" "1"
+		"category_59" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -342,20 +343,6 @@
 	"installdir" "Black Mesa"
 	"launch"
 	{
-		"0"
-		{
-			"executable" "bms.exe"
-			"arguments" "-game bms +developer 0 -steam"
-			"config"
-			{
-				"oslist" "windows"
-			}
-			"description_loc"
-			{
-				"english" "Launch"
-			}
-			"description" "Launch"
-		}
 		"1"
 		{
 			"executable" "bms.sh"
@@ -370,8 +357,53 @@
 			}
 			"description" "Launch"
 		}
+		"2"
+		{
+			"executable" "bms.exe"
+			"arguments" "-steam"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Black Mesa (Default)"
+			}
+			"description" "Black Mesa (Default)"
+		}
+		"3"
+		{
+			"executable" "bms.exe"
+			"arguments" "-steam -disabledxvk"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Black Mesa (DirectX9+11)"
+			}
+			"description" "Black Mesa (DirectX9+11)"
+		}
+		"4"
+		{
+			"executable" "bms.exe"
+			"arguments" "-steam -disabledxvk -forceuid3d9"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Black Mesa (DirectX 9 Only Fallback)"
+			}
+			"description" "Black Mesa (DirectX 9 Only Fallback)"
+		}
 	}
-	"steamcontrollertemplateindex" "1"
+	"steamcontrollertemplateindex" "13"
 	"steamcontrollertouchtemplateindex" "1"
 	"steamcontrollertouchconfigdetails"
 	{
@@ -382,15 +414,9 @@
 			"use_action_block" "false"
 		}
 	}
-	"steamcontrollerconfigdetails"
-	{
-		"566763288"
-		{
-			"controller_type" "controller_steamcontroller_gordon"
-			"enabled_branches" "default"
-			"use_action_block" "false"
-		}
-	}
+	"steamdecktouchscreen" "1"
+	"steaminputmanifestpath" "steam_input/action_manifest.vdf"
+	"steamconfigurator3rdpartynative" "65535"
 }
 "depots"
 {
@@ -418,15 +444,21 @@
 		{
 			"public"
 			{
-				"gid" "3249135505293653932"
-				"size" "28906910373"
-				"download" "13102910304"
+				"gid" "5983356667338586420"
+				"size" "28986966939"
+				"download" "12814637072"
 			}
 			"black-mesa-1-0"
 			{
 				"gid" "8115579749856978618"
 				"size" "27328565035"
 				"download" "12467420944"
+			}
+			"black-mesa-definitive-edition"
+			{
+				"gid" "3249135505293653932"
+				"size" "28906910373"
+				"download" "13102910304"
 			}
 			"crossfire-update(cu2)"
 			{
@@ -442,9 +474,9 @@
 			}
 			"public-beta"
 			{
-				"gid" "3249135505293653932"
-				"size" "28906910373"
-				"download" "13102910304"
+				"gid" "5983356667338586420"
+				"size" "28986966939"
+				"download" "12814637072"
 			}
 			"surface-tension-update(cu3)"
 			{
@@ -469,9 +501,9 @@
 		{
 			"developer"
 			{
-				"gid" "ABE236B5943F338116B227C7A0E73B38"
-				"size" "26444D831615786DB4CF7CFBCCC940EF"
-				"download" "D67D8784F1A34F7E23C1AAC0DFD0CCC9"
+				"gid" "94B77C9CD628E0C3826EF9058924384A"
+				"size" "39EDE43FFEFA458D11EBB899C8424BC8"
+				"download" "ADD21CA40F31453F2C1FCF5427E8A4FA"
 			}
 		}
 	}
@@ -485,15 +517,21 @@
 		{
 			"public"
 			{
-				"gid" "8240819222393783946"
-				"size" "201155421"
-				"download" "55861152"
+				"gid" "1262306906040616291"
+				"size" "318862474"
+				"download" "54796768"
 			}
 			"black-mesa-1-0"
 			{
 				"gid" "7820192829475752661"
 				"size" "200929089"
 				"download" "55806384"
+			}
+			"black-mesa-definitive-edition"
+			{
+				"gid" "8240819222393783946"
+				"size" "201155421"
+				"download" "55861152"
 			}
 			"halloween-update(cu4)"
 			{
@@ -503,9 +541,9 @@
 			}
 			"public-beta"
 			{
-				"gid" "8240819222393783946"
-				"size" "201155421"
-				"download" "55861152"
+				"gid" "1262306906040616291"
+				"size" "318862474"
+				"download" "54796768"
 			}
 			"surface-tension-update(cu3)"
 			{
@@ -530,9 +568,9 @@
 		{
 			"developer"
 			{
-				"gid" "39126AF62D2220626582B499E59E0002"
-				"size" "62099472D1031A529128B8EB3F5404D3"
-				"download" "97C4B52F014E3CCC886AB1FBAF3F1475"
+				"gid" "04E52192CD61B12198A7642174E710D8"
+				"size" "BAA16CCFA44232708691404E818938AA"
+				"download" "21958212A0896979BD2349A60395D9E1"
 			}
 		}
 	}
@@ -553,15 +591,21 @@
 		{
 			"public"
 			{
-				"gid" "6446890871977040921"
-				"size" "244925917"
-				"download" "79468672"
+				"gid" "7924422780614122196"
+				"size" "207021927"
+				"download" "67859232"
 			}
 			"black-mesa-1-0"
 			{
 				"gid" "3494859625544878799"
 				"size" "244801304"
 				"download" "79460240"
+			}
+			"black-mesa-definitive-edition"
+			{
+				"gid" "6446890871977040921"
+				"size" "244925917"
+				"download" "79468672"
 			}
 			"crossfire-update(cu2)"
 			{
@@ -577,9 +621,9 @@
 			}
 			"public-beta"
 			{
-				"gid" "6446890871977040921"
-				"size" "244925917"
-				"download" "79468672"
+				"gid" "7924422780614122196"
+				"size" "207021927"
+				"download" "67859232"
 			}
 			"surface-tension-update(cu3)"
 			{
@@ -604,9 +648,9 @@
 		{
 			"developer"
 			{
-				"gid" "B66F48ACCA4A032BFA7894B37D545272"
-				"size" "64FEA81CF512575206E636B6B4BAC4F4"
-				"download" "817590DE6D0C276442A98F6500CA6DEF"
+				"gid" "C2EACAC28B868A144349D39F40FBD097"
+				"size" "6CB561B251819DE63030526ACC740094"
+				"download" "3E02C0A97798F168D2E5FF20209AC5A3"
 			}
 		}
 	}
@@ -620,15 +664,21 @@
 		{
 			"public"
 			{
-				"gid" "782883281231210347"
-				"size" "912781575"
-				"download" "686428720"
+				"gid" "5909980735403050706"
+				"size" "912781603"
+				"download" "684455136"
 			}
 			"black-mesa-1-0"
 			{
 				"gid" "1798757922934555767"
 				"size" "892033396"
 				"download" "669811184"
+			}
+			"black-mesa-definitive-edition"
+			{
+				"gid" "782883281231210347"
+				"size" "912781575"
+				"download" "686428720"
 			}
 			"crossfire-update(cu2)"
 			{
@@ -644,9 +694,9 @@
 			}
 			"public-beta"
 			{
-				"gid" "782883281231210347"
-				"size" "912781575"
-				"download" "686428720"
+				"gid" "5909980735403050706"
+				"size" "912781603"
+				"download" "684455136"
 			}
 			"surface-tension-update(cu3)"
 			{
@@ -671,9 +721,9 @@
 		{
 			"developer"
 			{
-				"gid" "F0CA617316B0ED21AAB672F0C5756841"
-				"size" "53650820C608B6283B8B13D6D498434C"
-				"download" "EF602D18E4295F4D486430349DBBE8CF"
+				"gid" "CCB11A8E56252231540EBDF489ACC985"
+				"size" "D393EDA356E81FC97586DCE76BF68B15"
+				"download" "4E6F218258FA3F6D4C1724FD047167AE"
 			}
 		}
 	}
@@ -683,14 +733,20 @@
 	{
 		"public"
 		{
-			"buildid" "7336708"
-			"timeupdated" "1631704192"
+			"buildid" "14053053"
+			"timeupdated" "1713218098"
 		}
 		"black-mesa-1-0"
 		{
 			"buildid" "4815922"
 			"description" "The March 1.0 release of the game"
 			"timeupdated" "1603678682"
+		}
+		"black-mesa-definitive-edition"
+		{
+			"buildid" "7336708"
+			"description" "Last update to DE in 2021"
+			"timeupdated" "1711492788"
 		}
 		"crossfire-update(cu2)"
 		{
@@ -700,9 +756,9 @@
 		}
 		"developer"
 		{
-			"buildid" "7336708"
+			"buildid" "14053053"
 			"pwdrequired" "1"
-			"timeupdated" "1631267039"
+			"timeupdated" "1713158685"
 		}
 		"halloween-update(cu4)"
 		{
@@ -712,9 +768,9 @@
 		}
 		"public-beta"
 		{
-			"buildid" "7336708"
+			"buildid" "14053053"
 			"description" "This branch is for our public beta."
-			"timeupdated" "1631297269"
+			"timeupdated" "1713196367"
 		}
 		"surface-tension-update(cu3)"
 		{
@@ -749,6 +805,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "20887064"
-"_sha" "fd8db6b66be03bb316f012477942a943ab653985"
-"_size" "13733"
+"_change_number" "23166328"
+"_sha" "b3ad358d2afe5b8be348b010d1c71cec95f79348"
+"_size" "15011"
