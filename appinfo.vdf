@@ -1,0 +1,423 @@
+"appid" "718560"
+"common"
+{
+	"name" "Scythe: Digital Edition"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "b8cc4b66959d9ff913f3fb32a5c0bc68be2d3170"
+	"logo_small" "b8cc4b66959d9ff913f3fb32a5c0bc68be2d3170_thumb"
+	"icon" "215ecc3515a76492bb00c80026cee3013ac07232"
+	"clienttga" "8c484d4d69e06f336bd8b7935f3f35417272da61"
+	"clienticon" "e9cecf7b42405fdf86d2a3bfdeeedbf5bef0056f"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"japanese" "1"
+		"polish" "1"
+		"brazilian" "1"
+	}
+	"clienticns" "8ea869e8aafe26982ad1d4666a67a5da09ff612e"
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1644883200"
+		"tested_build_id" "6853356"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "1"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Scythe: Digital Edition"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "91.07351225204201"
+			"height_pct" "94.45499881263359"
+		}
+	}
+	"store_asset_mtime" "1646904586"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "The Knights of Unity"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "The Knights of Unity"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_37" "1"
+		"category_22" "1"
+		"category_1" "1"
+		"category_36" "1"
+		"category_29" "1"
+		"category_49" "1"
+		"category_44" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1536141600"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "718560"
+	"store_tags"
+	{
+		"0" "1770"
+		"1" "9"
+		"2" "1677"
+		"3" "3859"
+		"4" "1670"
+		"5" "17389"
+		"6" "4598"
+		"7" "4821"
+		"8" "1717"
+		"9" "1741"
+		"10" "3942"
+		"11" "1777"
+		"12" "5382"
+		"13" "3987"
+		"14" "4182"
+		"15" "4747"
+		"16" "5411"
+		"17" "6815"
+		"18" "1708"
+		"19" "1775"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "The Knights of Unity"
+	"publisher" "The Knights of Unity"
+	"listofdlc" "1021190"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Scythe Digital Edition"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Scythe.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Scythe.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Scythe.app"
+			"arguments" "-force-glcore"
+			"description" "Scythe (OpenGL)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "Scythe.exe"
+			"arguments" "-force-glcore"
+			"description" "Scythe (OpenGL)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"718561"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "149802630721454604"
+				"size" "688008799"
+				"download" "317753856"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"1.3.6"
+			{
+				"gid" "0ABEBC82C4C6E8CE60C934A7024A4C8D"
+				"size" "214FEAE9D156D8A373F8133065AB2B18"
+				"download" "121E6FC32C8622FB40C4CD83006BFCB5"
+			}
+			"alpha"
+			{
+				"gid" "27C7360FAE7084C35862446388F840C2"
+				"size" "34727DB121044C2D60464E3ED5475FE2"
+				"download" "C418ED0BFD76E7BC1DDADB90662EE74A"
+			}
+			"aplha_2"
+			{
+				"gid" "86F8E87F1901E980C4D683F93247C625"
+				"size" "8E7E551F65B73917B99BE2C9EF8EC96A"
+				"download" "0EECFF8A3BC832BF7C1F0195E3979DDD"
+			}
+			"backup.steam.stable"
+			{
+				"gid" "44ED77863C283BAEBDC74B5F66DBD791"
+				"size" "090897B3B203D9DC003BE831AA51BEF8"
+				"download" "8051DF575C1A185B9300DFFBE0F0EEFE"
+			}
+			"hotfix"
+			{
+				"gid" "AEFF3F51B83B937F95790EC886079A19"
+				"size" "472B65B3F3B7CF34173015C26302DE8F"
+				"download" "15E4463C6C844BC4979DDCEE99D8A15A"
+			}
+			"reset.achievements.branch"
+			{
+				"gid" "E6F3B0EC06E07450C5E4591FA0798C72"
+				"size" "B565CE1FF2AB3C231D74B992FEF918C5"
+				"download" "EEB7CCAF176EA2ED324FAAD1949C521C"
+			}
+			"testbranch"
+			{
+				"gid" "C3447C9267730570D0BAEBF475C03CBC"
+				"size" "F8DBCC7CF4879111F94C81DF90F9A564"
+				"download" "13C5428D0C64D0C34FA856AC54AD520D"
+			}
+		}
+	}
+	"718562"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2283418912594800388"
+				"size" "727942501"
+				"download" "325860400"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"1.3.6"
+			{
+				"gid" "372EEBB63EA9309DF0E445B8C0E1FDA3"
+				"size" "9C38F5AA94310D4B7E14567C36FEDC8A"
+				"download" "4896692C9505FDCCD810CB42B2BD90DF"
+			}
+			"alpha"
+			{
+				"gid" "2E9A4DA5024AC6B3A916D3E1544E681E"
+				"size" "D1732082B0FEA78C07406731706933CF"
+				"download" "23BE3BA0004226D5CB364F215EB1D286"
+			}
+			"aplha_2"
+			{
+				"gid" "A009BF30E57BC4F87A6F8D6A56DB06B3"
+				"size" "EB2F28D10893C501BEADF768573EB562"
+				"download" "9DABFB7E9BCECBEBAFA631CC5B7B40A2"
+			}
+			"backup.steam.stable"
+			{
+				"gid" "1061FD316CF49F2711B353704C85007D"
+				"size" "751CDAFA77B19A4F106E1270C6F9D6BC"
+				"download" "15E1471832426EC8406CA3FD9BC12B80"
+			}
+			"hotfix"
+			{
+				"gid" "2850869A721C2DF80EC81CBE168C856F"
+				"size" "4F17074177B09AC3290616C499252B30"
+				"download" "EEA3DCFBD1B357DB49F6B462C724E19D"
+			}
+			"reset.achievements.branch"
+			{
+				"gid" "677FFCD8EB7249630D87D5E037286CB3"
+				"size" "11B525C71D3CD871DEE7AC41848F8BB2"
+				"download" "02118F889F75BDC2536A3C8238300C19"
+			}
+			"testbranch"
+			{
+				"gid" "26C46697E057CB4D0622C56C2D0E6706"
+				"size" "CF864624AC1330D990F05F8E9091197B"
+				"download" "1D127957232CEA4C7332981FBA843A87"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11617263"
+			"timeupdated" "1688980198"
+		}
+		"1.3.6"
+		{
+			"buildid" "3438875"
+			"pwdrequired" "1"
+			"timeupdated" "1548079073"
+		}
+		"alpha"
+		{
+			"buildid" "8454692"
+			"pwdrequired" "1"
+			"timeupdated" "1648510036"
+		}
+		"aplha_2"
+		{
+			"buildid" "8482779"
+			"pwdrequired" "1"
+			"timeupdated" "1648834151"
+		}
+		"backup.steam.stable"
+		{
+			"buildid" "4306003"
+			"pwdrequired" "1"
+			"timeupdated" "1586357912"
+		}
+		"hotfix"
+		{
+			"buildid" "10710345"
+			"pwdrequired" "1"
+			"timeupdated" "1678196512"
+		}
+		"reset.achievements.branch"
+		{
+			"buildid" "5432439"
+			"pwdrequired" "1"
+			"timeupdated" "1597849535"
+		}
+		"testbranch"
+		{
+			"buildid" "11617263"
+			"pwdrequired" "1"
+			"timeupdated" "1688416466"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22617153"
+"_sha" "ec368bfceecda264eb2109db050b26b693250312"
+"_size" "8103"
