@@ -19,7 +19,7 @@
 			"id" "1167630_eula_0"
 			"name" "Teardown EULA"
 			"url" "https://store.steampowered.com//eula/1167630_eula_0"
-			"version" "6"
+			"version" "8"
 		}
 	}
 	"steam_deck_compatibility"
@@ -184,8 +184,8 @@
 		"2" "3810"
 		"3" "1732"
 		"4" "3839"
-		"5" "1680"
-		"6" "4182"
+		"5" "4182"
+		"6" "1680"
 		"7" "1695"
 		"8" "4175"
 		"9" "599"
@@ -221,6 +221,20 @@
 			"executable" "teardown.exe"
 			"type" "default"
 		}
+		"1"
+		{
+			"executable" "teardown64_profile_steam.exe"
+			"type" "option1"
+			"config"
+			{
+				"betakey" "kindergarten"
+			}
+			"description_loc"
+			{
+				"english" "dev version"
+			}
+			"description" "dev version"
+		}
 	}
 	"steamcontrollertouchtemplateindex" "1"
 	"steamcontrollertouchconfigdetails"
@@ -246,15 +260,15 @@
 		{
 			"public"
 			{
-				"gid" "888628616412251554"
-				"size" "3756971357"
-				"download" "2829662304"
+				"gid" "941193543802090161"
+				"size" "4651973015"
+				"download" "3019300448"
 			}
 			"experimental"
 			{
-				"gid" "3466399356597314831"
-				"size" "3756980314"
-				"download" "2830301248"
+				"gid" "941193543802090161"
+				"size" "4651973015"
+				"download" "3019300448"
 			}
 			"local"
 			{
@@ -297,15 +311,21 @@
 			}
 			"dlc-test"
 			{
-				"gid" "6B50C58EAFF89F0D3B3B26481C1BB6DA"
-				"size" "164019771276F2CFB5F6DB1205F090C1"
-				"download" "59F482E4F3FB50FA217D052264AC08F4"
+				"gid" "1050C9C3B2F64E0146EBB492D0515868"
+				"size" "5C487291F2AC867CC14C7FFC30F8F857"
+				"download" "3CE418D2F3023F97B2CB09DEAFDC05BA"
 			}
 			"hydra"
 			{
-				"gid" "86223E0E986675251D2AD0D145433317"
-				"size" "E87E51414F7BEB716C3D77B4648571B2"
-				"download" "6BD8424CDC9920595350C805E595BFC6"
+				"gid" "9D6D81B81C4CC0CFAFB197DD5EC1FD5C"
+				"size" "5779928664EA0225AC529450FF5C55CB"
+				"download" "522ED31378001850FC4E5EC9E9FA0A59"
+			}
+			"kindergarten"
+			{
+				"gid" "CB5444BEB10BC098E98DAF2996689693"
+				"size" "7A6154273B1835ED87E1ED4E84F4EC67"
+				"download" "8865EECAD33318833F250AA4FFE300BD"
 			}
 			"press_branch"
 			{
@@ -319,14 +339,26 @@
 				"size" "69C13B18C786AF2B019A191834C62CDC"
 				"download" "BCE01C2F158442AD0D81A9D16ACD3190"
 			}
+			"summercamp"
+			{
+				"gid" "5F9D3DE0140A1B0F76A59D7B0B04FE7C"
+				"size" "FBDD8A48A7EB056976E183BB85244CD6"
+				"download" "8D29702232D62AB3419291355C629323"
+			}
+			"test_steam_transfer"
+			{
+				"gid" "6E9BC4ADCE238E78A32F9BCE85CD4414"
+				"size" "6DC472C18D0B0BE6BB41E929B615967F"
+				"download" "052CB976E1386605A1966EBC96870DFC"
+			}
 		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13000102"
-			"timeupdated" "1702990844"
+			"buildid" "14020066"
+			"timeupdated" "1713351676"
 		}
 		"alpha"
 		{
@@ -354,21 +386,27 @@
 		}
 		"dlc-test"
 		{
-			"buildid" "13000102"
+			"buildid" "14080820"
 			"pwdrequired" "1"
-			"timeupdated" "1702987548"
+			"timeupdated" "1713345687"
 		}
 		"experimental"
 		{
-			"buildid" "12988747"
+			"buildid" "14020066"
 			"description" "The latest features and fixes"
-			"timeupdated" "1702906630"
+			"timeupdated" "1712834752"
 		}
 		"hydra"
 		{
-			"buildid" "12928292"
+			"buildid" "13269545"
 			"pwdrequired" "1"
-			"timeupdated" "1702291417"
+			"timeupdated" "1706177236"
+		}
+		"kindergarten"
+		{
+			"buildid" "14075073"
+			"pwdrequired" "1"
+			"timeupdated" "1713303901"
 		}
 		"local"
 		{
@@ -395,6 +433,18 @@
 			"pwdrequired" "1"
 			"timeupdated" "1669386394"
 		}
+		"summercamp"
+		{
+			"buildid" "14075024"
+			"pwdrequired" "1"
+			"timeupdated" "1713303456"
+		}
+		"test_steam_transfer"
+		{
+			"buildid" "14069303"
+			"pwdrequired" "1"
+			"timeupdated" "1713267655"
+		}
 	}
 }
 "ufs"
@@ -412,6 +462,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21599028"
-"_sha" "962efa354154d103e52a570d73bd17723781a341"
-"_size" "8154"
+"_change_number" "23189343"
+"_sha" "ee95dbd2af8951fae286e507a4bc16e31f9cdd0b"
+"_size" "9265"
