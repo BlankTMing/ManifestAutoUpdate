@@ -1,15 +1,19 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-04-18 16:22:37
+## 更新时间：2024-04-18 20:53:40
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 730 | Counter-Strike 2| Game |
-| 1149460 | 翼星求生 ICARUS| Game |
-| 960090 | Bloons TD 6| Game |
-| 1426730 | 天神镇| Game |
-| 824360 | PixARK Dedicated Server| Tool |
-| 2056210 | 孤星猎人| Game |
-| 1952370 | 湮灭线| Game |
-| 2439710 | 诸子无双| Game |
-| 1963040 | 山门与幻境| Game |
-| 1573100 | Subterrain: Mines of Titan| Game |
+| 1403440 | Broken Roads| Game |
+| 2319030 | 宝莲灯：太子沉香| Game |
+| 1244630 | House Builder| Game |
+| 1425350 | Botany Manor| Game |
+| 2761510 | 帅气的我与100个女友！| Game |
+| 1726130 | 无径之林| Game |
+| 1671360 | Ereban: Shadow Legacy| Game |
+| 1579880 | The Light Brigade| Game |
+| 1068820 | OVR Toolkit| Application |
+| 394160 | ARCADE GAME SERIES: PAC-MAN| Game |
+| 1606180 | 下一站江湖Ⅱ| Game |
+| 2182400 | 喜丧| Game |
+| 2302890 | 东方冰之勇者记 - 新支持者包| DLC |
+| 1159090 | 佐瑞亚：碎裂纪元| Game |
