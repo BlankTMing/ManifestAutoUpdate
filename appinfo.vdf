@@ -46,8 +46,6 @@
 		"0" "2"
 		"1" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "2"
@@ -276,7 +274,7 @@
 	"workshop_visible" "1"
 	"community_hub_visible" "1"
 	"gameid" "440"
-	"exfgls" "1"
+	"exfgls" "3"
 	"store_tags"
 	{
 		"0" "113"
@@ -352,12 +350,12 @@
 	{
 		"0"
 		{
-			"executable" "hl2.exe"
-			"arguments" "-steam -game tf"
-			"vacmodulefilename" "resource\\sourceinit.dat"
+			"executable" "tf_win64.exe"
+			"arguments" "-steam"
 			"config"
 			{
 				"oslist" "windows"
+				"osarch" "64"
 			}
 		}
 		"1"
@@ -371,12 +369,38 @@
 		}
 		"2"
 		{
-			"executable" "hl2.sh"
-			"arguments" "-game tf -steam"
+			"executable" "tf.sh"
+			"arguments" "-steam"
 			"config"
 			{
 				"oslist" "linux"
+				"osarch" "64"
 			}
+		}
+		"6"
+		{
+			"executable" "tf.exe"
+			"arguments" "-steam"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"7"
+		{
+			"executable" "tf.sh"
+			"arguments" "-steam -gl"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Legacy OpenGL"
+			}
+			"description" "Legacy OpenGL"
 		}
 	}
 	"vrcompositorsupport" "0"
@@ -400,6 +424,15 @@
 		}
 	}
 	"uselaunchcommandline" "1"
+	"app_mappings"
+	{
+		"1"
+		{
+			"platform" "linux"
+			"tool" "SteamLinuxRuntime_sniper"
+			"comment" "sniper SLR"
+		}
+	}
 }
 "depots"
 {
@@ -423,9 +456,9 @@
 		{
 			"public"
 			{
-				"gid" "310401172695269575"
-				"size" "27580496338"
-				"download" "13103139344"
+				"gid" "3635157605395103386"
+				"size" "27585185992"
+				"download" "13104915840"
 			}
 			"pre_07_25_23_demos"
 			{
@@ -447,15 +480,9 @@
 			}
 			"prerelease"
 			{
-				"gid" "310401172695269575"
-				"size" "27580496338"
-				"download" "13103139344"
-			}
-			"vscript_test"
-			{
-				"gid" "310401172695269575"
-				"size" "27580496338"
-				"download" "13103139344"
+				"gid" "3635157605395103386"
+				"size" "27585185992"
+				"download" "13104915840"
 			}
 		}
 	}
@@ -494,12 +521,6 @@
 				"size" "825745"
 				"download" "43168"
 			}
-			"vscript_test"
-			{
-				"gid" "1118032470228587934"
-				"size" "825745"
-				"download" "43168"
-			}
 		}
 	}
 	"232251"
@@ -513,9 +534,9 @@
 		{
 			"public"
 			{
-				"gid" "3545034868290892873"
-				"size" "597833872"
-				"download" "479509088"
+				"gid" "1976382797546040682"
+				"size" "553204947"
+				"download" "352578816"
 			}
 			"pre_07_25_23_demos"
 			{
@@ -537,15 +558,9 @@
 			}
 			"prerelease"
 			{
-				"gid" "3545034868290892873"
-				"size" "597833872"
-				"download" "479509088"
-			}
-			"vscript_test"
-			{
-				"gid" "3545034868290892873"
-				"size" "597833872"
-				"download" "479509088"
+				"gid" "1976382797546040682"
+				"size" "553204947"
+				"download" "352578816"
 			}
 		}
 	}
@@ -560,9 +575,9 @@
 		{
 			"public"
 			{
-				"gid" "948384044076174684"
-				"size" "510916113"
-				"download" "391278896"
+				"gid" "678390272316880472"
+				"size" "103246051"
+				"download" "22586512"
 			}
 			"pre_07_25_23_demos"
 			{
@@ -584,15 +599,9 @@
 			}
 			"prerelease"
 			{
-				"gid" "948384044076174684"
-				"size" "510916113"
-				"download" "391278896"
-			}
-			"vscript_test"
-			{
-				"gid" "948384044076174684"
-				"size" "510916113"
-				"download" "391278896"
+				"gid" "678390272316880472"
+				"size" "103246051"
+				"download" "22586512"
 			}
 		}
 	}
@@ -607,9 +616,9 @@
 		{
 			"public"
 			{
-				"gid" "1021304105111148610"
-				"size" "575311564"
-				"download" "459132032"
+				"gid" "7356486807344930561"
+				"size" "405622516"
+				"download" "285114960"
 			}
 			"pre_07_25_23_demos"
 			{
@@ -631,15 +640,9 @@
 			}
 			"prerelease"
 			{
-				"gid" "1021304105111148610"
-				"size" "575311564"
-				"download" "459132032"
-			}
-			"vscript_test"
-			{
-				"gid" "1021304105111148610"
-				"size" "575311564"
-				"download" "459132032"
+				"gid" "7356486807344930561"
+				"size" "405622516"
+				"download" "285114960"
 			}
 		}
 	}
@@ -681,12 +684,6 @@
 				"size" "7452052"
 				"download" "2986208"
 			}
-			"vscript_test"
-			{
-				"gid" "646330807595077556"
-				"size" "7452052"
-				"download" "2986208"
-			}
 		}
 	}
 	"445"
@@ -699,9 +696,9 @@
 		{
 			"public"
 			{
-				"gid" "5602233730528152354"
+				"gid" "4462275339090266921"
 				"size" "90075889"
-				"download" "79353248"
+				"download" "79353264"
 			}
 			"pre_07_25_23_demos"
 			{
@@ -723,15 +720,9 @@
 			}
 			"prerelease"
 			{
-				"gid" "5602233730528152354"
+				"gid" "4462275339090266921"
 				"size" "90075889"
-				"download" "79353248"
-			}
-			"vscript_test"
-			{
-				"gid" "5602233730528152354"
-				"size" "90075889"
-				"download" "79353248"
+				"download" "79353264"
 			}
 		}
 	}
@@ -745,9 +736,9 @@
 		{
 			"public"
 			{
-				"gid" "6215119033293728486"
+				"gid" "4932209831621142568"
 				"size" "74594251"
-				"download" "65214128"
+				"download" "65214112"
 			}
 			"pre_07_25_23_demos"
 			{
@@ -769,15 +760,9 @@
 			}
 			"prerelease"
 			{
-				"gid" "6215119033293728486"
+				"gid" "4932209831621142568"
 				"size" "74594251"
-				"download" "65214128"
-			}
-			"vscript_test"
-			{
-				"gid" "6215119033293728486"
-				"size" "74594251"
-				"download" "65214128"
+				"download" "65214112"
 			}
 		}
 	}
@@ -791,9 +776,9 @@
 		{
 			"public"
 			{
-				"gid" "8469957949853360122"
+				"gid" "638274067337307989"
 				"size" "73934506"
-				"download" "64158192"
+				"download" "64158176"
 			}
 			"pre_07_25_23_demos"
 			{
@@ -815,15 +800,9 @@
 			}
 			"prerelease"
 			{
-				"gid" "8469957949853360122"
+				"gid" "638274067337307989"
 				"size" "73934506"
-				"download" "64158192"
-			}
-			"vscript_test"
-			{
-				"gid" "8469957949853360122"
-				"size" "73934506"
-				"download" "64158192"
+				"download" "64158176"
 			}
 		}
 	}
@@ -837,9 +816,9 @@
 		{
 			"public"
 			{
-				"gid" "2451727451644207550"
+				"gid" "476175847494669680"
 				"size" "73947996"
-				"download" "58909344"
+				"download" "58909360"
 			}
 			"pre_07_25_23_demos"
 			{
@@ -861,15 +840,9 @@
 			}
 			"prerelease"
 			{
-				"gid" "2451727451644207550"
+				"gid" "476175847494669680"
 				"size" "73947996"
-				"download" "58909344"
-			}
-			"vscript_test"
-			{
-				"gid" "2451727451644207550"
-				"size" "73947996"
-				"download" "58909344"
+				"download" "58909360"
 			}
 		}
 	}
@@ -877,8 +850,8 @@
 	{
 		"public"
 		{
-			"buildid" "13131251"
-			"timeupdated" "1704848318"
+			"buildid" "14098740"
+			"timeupdated" "1713480155"
 		}
 		"pre_07_25_23_demos"
 		{
@@ -899,14 +872,8 @@
 		}
 		"prerelease"
 		{
-			"buildid" "13131251"
-			"timeupdated" "1704848395"
-		}
-		"vscript_test"
-		{
-			"buildid" "13131251"
-			"description" "VScript beta. Cannot connect to public servers or matchmaking."
-			"timeupdated" "1704848405"
+			"buildid" "14098740"
+			"timeupdated" "1713480261"
 		}
 	}
 }
@@ -1494,6 +1461,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21825407"
-"_sha" "eaac867d4b210f8c650d2822eeb332549b8b045a"
-"_size" "50123"
+"_change_number" "23214432"
+"_sha" "81473f14109bbe8f6dcdcb7f58e095f3672a9ebd"
+"_size" "49203"
