@@ -1,29 +1,34 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-04-19 09:16:41
+## 更新时间：2024-04-19 16:22:11
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 413150 | Stardew Valley| Game |
-| 730 | Counter-Strike 2| Game |
-| 202970 | Call of Duty: Black Ops II| Game |
-| 63910 | King's Bounty: Crossworlds| game |
+| 1483870 | Draw & Guess - 你画我猜| Game |
+| 1963570 | Cuisineer 猫娘小厨| Game |
+| 740 | Counter-Strike Global Offensive - Dedicated Server| Tool |
 | 440 | Team Fortress 2| game |
 | 570 | Dota 2| game |
-| 1262240 | 植物大战僵尸™: 和睦小镇保卫战| Game |
-| 1326470 | Sons Of The Forest| Game |
-| 2465200 | Sons Of The Forest Dedicated Server| Tool |
-| 1836200 | Fallout 76 Public Test Server| Beta |
-| 294100 | RimWorld| Game |
-| 899770 | Last Epoch| Game |
-| 469600 | Legion TD 2| Game |
-| 15170 | Heroes of Might & Magic V| game |
-| 1755830 | Astrea: Six-Sided Oracles| Game |
-| 314650 | SpaceEngine| Game |
-| 1166860 | Rival Stars Horse Racing| Game |
-| 885000 | Synth Riders| Game |
-| 2202100 | Infection Free Zone - Map Editor| Tool |
-| 1579880 | The Light Brigade| Game |
-| 2786680 | 美女，请别影响我学习| Game |
-| 1606180 | 下一站江湖Ⅱ| Game |
-| 2212330 | Your Only Move Is HUSTLE| Game |
-| 2026880 | Deadly Night| Game |
+| 1222210 | 超逼真的攻城模拟器| Game |
+| 269310 | Infectonator : Survivors| Game |
+| 622650 | Bendy and the Ink Machine| Game |
+| 1236990 | Boris and the Dark Survival| Game |
+| 746510 | Duck Season PC| Game |
+| 568090 | Tattletail| Game |
+| 1179080 | FAITH| Game |
+| 2310670 | Midnight Arrow| Game |
+| 1063660 | Bendy and the Dark Revival| Game |
+| 383980 | Rivals of Aether| Game |
+| 2075070 | KinitoPET| Game |
+| 955060 | The Watson-Scott Test| Game |
+| 1406850 | 廖添丁：绝代凶贼之末日| Game |
+| 2292060 | 法术圆盘| Game |
+| 1266430 | 迷失幻途| Game |
+| 839630 | 实境求生| Game |
+| 809140 | Cliff Empire| Game |
+| 1377380 | Night of the Dead| Game |
+| 1420710 | Night of the Dead Dedicated Server| Tool |
+| 1952370 | 湮灭线| Game |
+| 2351560 | 清零计划2：天启派对| Game |
+| 2510720 | 神器行者| Game |
+| 2450100 | 西游幸存者| Game |
+| 2182400 | 喜丧| Game |
