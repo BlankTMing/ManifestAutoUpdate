@@ -1,0 +1,286 @@
+"appid" "2280"
+"common"
+{
+	"clienticon" "cce0c6d1657c07bc7a65fe3d85b3cbdef98a5c46"
+	"clienttga" "84526bd184d7dc85f8f2543b2ac61dc76b70b5f6"
+	"icon" "3e5e70b1e0c4869dc3276b10b830f6ce9d341cf9"
+	"logo" "9c9d555b77699d263dfe25769284943f4b4eef3b"
+	"logo_small" "40df0550264d43162a1f1205f03a7e0f29082fda"
+	"name" "DOOM (1993)"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"eulas"
+	{
+		"0"
+		{
+			"id" "2280_eula_0"
+			"name" "The Ultimate DOOM EULA"
+			"url" "https://store.steampowered.com//eula/2280_eula_0"
+			"version" "1"
+		}
+	}
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1645747200"
+		"tested_build_id" "5619887"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Ultimate Doom"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "52.91715285880981"
+			"height_pct" "63.7855787143439"
+		}
+	}
+	"store_asset_mtime" "1660855740"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "id Software"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "id Software"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "DOOM"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_1" "1"
+		"category_37" "1"
+		"category_39" "1"
+		"category_24" "1"
+		"category_44" "1"
+		"category_49" "1"
+		"category_9" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "799225200"
+	"steam_release_date" "1186183800"
+	"community_hub_visible" "1"
+	"gameid" "2280"
+	"store_tags"
+	{
+		"0" "1663"
+		"1" "1693"
+		"2" "19"
+		"3" "6691"
+		"4" "4004"
+		"5" "1756"
+		"6" "3916"
+		"7" "9541"
+		"8" "1774"
+		"9" "3839"
+		"10" "4182"
+		"11" "4345"
+		"12" "1669"
+		"13" "1734"
+		"14" "3942"
+		"15" "4667"
+		"16" "1023537"
+		"17" "4975"
+		"18" "3859"
+		"19" "4026"
+	}
+	"review_score" "9"
+	"review_percentage" "96"
+}
+"extended"
+{
+	"developer" "id Software"
+	"gamedir" "Ultimate Doom"
+	"homepage" "http://www.idsoftware.com/games/doom/doom-ultimate/"
+	"icon" "steam/games/icon_Ultimate Doom"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "2281"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"developer_url" "http://www.idsoftware.com/"
+	"publisher" "id Software"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Ultimate Doom"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "rerelease\\DOOM.exe"
+			"type" "none"
+			"config"
+			{
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "base\\dosbox.exe"
+			"arguments" "-conf base\\ultimatem.conf -fullscreen -exit"
+			"description" "Launch DOS version"
+			"type" "none"
+		}
+		"2"
+		{
+			"executable" "base\\dosbox.exe"
+			"arguments" "-conf base\\ultimate.conf -fullscreen -exit"
+			"description" "Launch DOS version with classic controls"
+			"type" "none"
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2281"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4486750217790005770"
+				"size" "455495300"
+				"download" "299902224"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "C9486E4AE9737590AD4AA57FBCE3A552"
+				"size" "876CCC97B8C9F14180C7EC2286415CB8"
+				"download" "EEF582939AC9A02EC658D78F5B1EF7CF"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"baselanguages" "english,german,french,italian,spanish"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5619887"
+			"timeupdated" "1601992631"
+		}
+		"beta"
+		{
+			"buildid" "5619887"
+			"pwdrequired" "1"
+			"timeupdated" "1601519444"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "500000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "base"
+			"pattern" "*.DSG"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+		"2"
+		{
+			"root" "WinSavedGames"
+			"path" "id Software/DOOM Classic"
+			"pattern" "*.dat"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22890648"
+"_sha" "8096bdd7cebf6ec855e1225f2b458f442ac877c2"
+"_size" "5107"
