@@ -1,0 +1,223 @@
+"appid" "810570"
+"common"
+{
+	"name" "FACE"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "b0074d1f93e25ff401d61d974a6d26af08625a75"
+	"logo_small" "b0074d1f93e25ff401d61d974a6d26af08625a75_thumb"
+	"clienttga" "70daa1a4c3983ea51bac2c0e0769d5691c0ed933"
+	"clienticon" "769b591a9d10fe5bcf2cd8ddf865ef2b807541d2"
+	"icon" "e71ae2b16b61e9a96b99d5d05352160931b4efcc"
+	"clienticns" "7cee40924447a99a8a80c84f0803de77cc2042fb"
+	"linuxclienticon" "4bf8ee3d082a30ebf243f7e910ab341bd6d55f20"
+	"osextended" "macos64"
+	"metacritic_name" "FACE"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1519418800"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Mikhail Melnikov"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Mikhail Melnikov"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_15" "1"
+		"category_25" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1520344096"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "810570"
+	"review_score" "5"
+	"review_percentage" "58"
+}
+"extended"
+{
+	"developer" "Mikhail Melnikov"
+	"publisher" "Mikhail Melnikov"
+}
+"config"
+{
+	"installdir" "FACE"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "FACE.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "FACE.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "FACE.x86"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"810571"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2256792341604556934"
+				"size" "182596527"
+				"download" "28975952"
+			}
+		}
+	}
+	"810572"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3750768004294910994"
+				"size" "202465927"
+				"download" "34339616"
+			}
+		}
+	}
+	"810573"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2069632681803618799"
+				"size" "199358041"
+				"download" "35276032"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2565473"
+			"timeupdated" "1519857072"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Mikhail Melnikov/FACE"
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Mikhail Melnikov/FACE"
+					"replace" "Mikhail Melnikov/FACE"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Mikhail Melnikov/FACE"
+					"replace" ".config/unity3d/Mikhail Melnikov/FACE"
+				}
+			}
+		}
+	}
+	"appidredirect" "810570"
+}
+"_missing_token" "False"
+"_change_number" "22647575"
+"_sha" "88f865f3bbec483a7764eedbabc19e8735984440"
+"_size" "3460"
