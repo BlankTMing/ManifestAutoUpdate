@@ -1,0 +1,251 @@
+"appid" "44340"
+"common"
+{
+	"name" "Operation Flashpoint: Red River"
+	"icon" "f66dd400734a6c0be674b6086059073db94af4f7"
+	"clienticon" "d0598ff9a5ddcc00d3a72b5865eb83b00af20397"
+	"clienttga" "da0cda1e088ebd123e5ef07b6ec21387347a2553"
+	"logo" "c2321e427db6dc9f2d3c80c285cd7a8cc98272ac"
+	"logo_small" "c2321e427db6dc9f2d3c80c285cd7a8cc98272ac_thumb"
+	"exfgls" "1"
+	"type" "game"
+	"metacritic_name" "Operation Flashpoint: Red River"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1302711547"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Codemasters Action Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Codemasters"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Codemasters"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"metacritic_score" "67"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/operation-flashpoint-red-river\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "44340"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "1663"
+		"2" "9"
+		"3" "4168"
+		"4" "1708"
+		"5" "3859"
+		"6" "1685"
+		"7" "1774"
+		"8" "599"
+		"9" "4175"
+		"10" "1695"
+		"11" "1678"
+		"12" "4182"
+		"13" "3839"
+	}
+	"review_score" "5"
+	"review_percentage" "51"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" "Codemasters Action Studio"
+	"gamedir" "Operation Flashpoint Red River"
+	"homepage" "http://www.flashpointgame.com/"
+	"icon" ""
+	"installscript" "44340_install.vdf"
+	"languages" "english,french,german,italian,spanish"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp44340\\SteamKey"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "44341"
+	"serverbrowsername" ""
+	"showcdkeyonlaunch" "1"
+	"state" "eStateAvailable"
+	"supportscdkeycopytoclipboard" "1"
+	"publisher" "Codemasters"
+}
+"config"
+{
+	"installscriptsignature" "794dcdfb518d9f98f47482e1f3fd8f7f541cd636f176fdfca4d79b7acaed843f35e8897a2c2369cbb776aec9c9abd8f55422416e3ea8a13b9753f39bcd3a7004c5b5ea13252f5fe288cb106ef03c863fe0c3cc48af9913fdc05d41f4109370953d48ba7687f25c4dce519cdcc634d1f1cd43dfebd8c38c26962d356fc66e10ea"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Operation Flashpoint Red River"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "RedRiverLauncher.exe"
+		}
+	}
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\codemasters\\operation flashpoint: red river"
+		{
+			"string"
+			{
+				"path_application" "%INSTALLDIR%\\"
+				"english"
+				{
+					"locale" "1033"
+				}
+				"french"
+				{
+					"locale" "1036"
+				}
+				"german"
+				{
+					"locale" "1031"
+				}
+				"italian"
+				{
+					"locale" "1040"
+				}
+				"spanish"
+				{
+					"locale" "3082"
+				}
+			}
+		}
+	}
+	"registry if not present"
+	{
+		"hkey_local_machine\\software\\codemasters\\operation flashpoint: red river"
+		{
+			"string"
+			{
+				"english"
+				{
+					"language" ""
+				}
+				"french"
+				{
+					"language" ""
+				}
+				"german"
+				{
+					"language" ""
+				}
+				"italian"
+				{
+					"language" ""
+				}
+				"spanish"
+				{
+					"language" ""
+				}
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\44340"
+			"process 1" "%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+		}
+		"dotnet"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\44340"
+			"process 1" "%INSTALLDIR%\\redist\\DotNet\\dotNetFx40_Full_x86_x64.exe"
+			"command 1" "/passive /norestart"
+			"ignoreexitcode" "1"
+		}
+		"gfwl"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\44340"
+			"process 1" "%INSTALLDIR%\\redist\\GFWL\\gfwlivesetup.exe"
+			"command 1" "/q"
+		}
+		"vc"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\44340"
+			"process 1" "%INSTALLDIR%\\redist\\VC\\vcredist_x86.exe"
+			"command 1" "/q"
+		}
+	}
+}
+"depots"
+{
+	"44341"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2614765756851018143"
+				"size" "5130947114"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"baselanguages" "english,french,german,italian,spanish"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "21347"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22360238"
+"_sha" "d6e243caa035cbcce77c9674a778e68e22cd1522"
+"_size" "4851"
