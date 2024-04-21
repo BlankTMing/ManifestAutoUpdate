@@ -1,0 +1,368 @@
+"appid" "231140"
+"common"
+{
+	"name" "Cities XL Platinum"
+	"type" "Game"
+	"clienticon" "1a246fbc540d1df3fb427f9b5732926c19535063"
+	"clienttga" "253439f6fec9ae77627f0a845a5dc52c66bcd73c"
+	"icon" "b98c63743fd64454009d49682dae66e2f749255c"
+	"oslist" "windows"
+	"logo" "76003a39a8f9d7df6ccd864782ac6a4a85868961"
+	"logo_small" "76003a39a8f9d7df6ccd864782ac6a4a85868961_thumb"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1675468800"
+		"tested_build_id" "45278"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-6"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Cities XL Platinum"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "59.37398981013433"
+			"height_pct" "92.41836600351976"
+		}
+	}
+	"store_asset_mtime" "1563293373"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Focus Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Focus Entertainment"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+		}
+		"italian"
+		{
+			"supported" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+		}
+		"polish"
+		{
+			"supported" "1"
+		}
+	}
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "231140"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "4328"
+		"2" "9"
+		"3" "3810"
+		"4" "12472"
+		"5" "4182"
+		"6" "4695"
+		"7" "1643"
+	}
+	"review_score" "5"
+	"review_percentage" "57"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" "Focus Entertainment"
+	"gamedir" "Cities XL Platinum"
+	"homepage" "http://www.citiesxl.com/"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Focus Entertainment"
+	"gamemanualurl" "https://store.steampowered.com/manual/231140/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Cities XL Platinum"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CitiesXL_Platinum.exe"
+		}
+	}
+	"installscriptsignature" "3ddf5591f4373eb3de4984685d375342d08b07de52c937891f72c7ddb1996f1917d076541294cffb7969518376d525067693c7cd9f65868bc487b7b6f7617c0e03f9cdc6e8de4f5b9bd73c6e32e6aa61cefc319bb33898284f11fb9c950c577c96815074937b1b08c0576277bc220d73f08f899066be90dac1fad0cd7caa65e7"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\DirectX9\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"dotnet"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\231140"
+			"process 1" "%INSTALLDIR%\\dotnetfx.exe"
+			"command 1" "/q:a /c:"
+			"command 2" "install /l /q"
+			"nocleanup" "1"
+			"requirement_os"
+			{
+				"is64bitwindows" "0"
+			}
+		}
+		"vcredist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\231140"
+			"process 1" "%INSTALLDIR%\\vcredist_x86.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"231141"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2931017148117250403"
+				"size" "6449020318"
+				"download" "0"
+			}
+		}
+	}
+	"231142"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "661776355392256722"
+				"size" "7813"
+				"download" "0"
+			}
+		}
+	}
+	"231143"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4059261145208955309"
+				"size" "7813"
+				"download" "0"
+			}
+		}
+	}
+	"231144"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5992320382020697757"
+				"size" "7813"
+				"download" "0"
+			}
+		}
+	}
+	"231145"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5711090914172418031"
+				"size" "7813"
+				"download" "0"
+			}
+		}
+	}
+	"231146"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2241643561968529992"
+				"size" "7813"
+				"download" "0"
+			}
+		}
+	}
+	"231147"
+	{
+		"config"
+		{
+			"language" "polish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3734090428128401967"
+				"size" "7813"
+				"download" "0"
+			}
+		}
+	}
+	"231148"
+	{
+		"config"
+		{
+			"language" "tchinese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2467437530896034141"
+				"size" "7813"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "45278"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Focus Home Interactive/Cities XL 2012/live/offline/solo"
+			"pattern" "*"
+			"recursive" "1"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20101233"
+"_sha" "6120ad8cc403599e176879d2e841f0bb9e287ce9"
+"_size" "6352"
