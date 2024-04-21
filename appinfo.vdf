@@ -1,0 +1,252 @@
+"appid" "282010"
+"common"
+{
+	"name" "Carmageddon Max Pack"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"clienttga" "364b21a72ac8aea242f00291ac7ced61a08dbaac"
+	"clienticon" "97d5e439ccb48d9f9e693607de95f9b8ac3ae336"
+	"icon" "877693d6c3e27fc9347414a9604b495e6c6defe6"
+	"logo" "0cc18b0696aaa47d84e5c827c6c0ad7a5787a5ad"
+	"logo_small" "0cc18b0696aaa47d84e5c827c6c0ad7a5787a5ad_thumb"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1676419200"
+		"tested_build_id" "310086"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Carmageddon"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "56.06767794632441"
+			"height_pct" "55.699358822132524"
+		}
+	}
+	"store_asset_mtime" "1561963957"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Stainless Games Ltd"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "THQ Nordic"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Carmageddon"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "9"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_29" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"original_release_date" "867654000"
+	"community_hub_visible" "1"
+	"gameid" "282010"
+	"store_tags"
+	{
+		"0" "4102"
+		"1" "699"
+		"2" "19"
+		"3" "1693"
+		"4" "4345"
+		"5" "492"
+		"6" "6691"
+		"7" "11104"
+		"8" "3859"
+		"9" "4004"
+		"10" "4182"
+		"11" "1756"
+		"12" "1773"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "Stainless Games Ltd"
+	"publisher" "THQ Nordic"
+	"homepage" "http://www.carmageddon.com"
+	"gamemanualurl" "https://store.steampowered.com/manual/282010/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Carmageddon1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DOSBOX\\dosbox.exe"
+			"arguments" " -conf ..\\dosboxCARMA.conf -conf ..\\dosboxCARMA_single.conf -noconsole -c exit"
+			"description" "Carmageddon"
+			"workingdir" "DOSBOX\\"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "DOSBOX\\dosbox.exe"
+			"arguments" "-conf ..\\dosboxCARSPLAT.conf -conf ..\\dosboxCARSPLAT_single.conf -noconsole -c exit"
+			"description" "Launch Carmageddon Splat Pack"
+			"workingdir" "DOSBOX\\"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "DOSBOX\\dosbox.exe"
+			"arguments" "-conf ..\\dosboxCARSPLAT.conf -conf ..\\dosboxCARSPLAT_server.conf -noconsole -c exit"
+			"description" "Launch Carmageddon Splat Pack Multiplayer Host"
+			"workingdir" "DOSBOX\\"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "DOSBOX\\dosbox.exe"
+			"arguments" "-conf ..\\dosboxCARSPLAT.conf -conf ..\\dosboxCARSPLAT_client.conf -noconsole -c exit"
+			"description" "Launch Carmageddon Splat Pack Multiplayer Client"
+			"workingdir" "DOSBOX\\"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "DOSBOX\\dosbox.exe"
+			"arguments" "-conf ..\\dosboxCARMA.conf -conf ..\\dosboxCARMA_server.conf -noconsole -c exit"
+			"description" "Launch Carmageddon Multiplayer Host"
+			"workingdir" "DOSBOX\\"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"5"
+		{
+			"executable" "DOSBOX\\dosbox.exe"
+			"arguments" "-conf ..\\dosboxCARMA.conf -conf ..\\dosboxCARMA_client.conf -noconsole -c exit"
+			"description" "Launch Carmageddon Multiplayer Client"
+			"workingdir" "DOSBOX\\"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"282011"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7562233059913527179"
+				"size" "598935708"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "310086"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23123725"
+"_sha" "05270ffdef1b549712ef6cfe607c7d776cb0e081"
+"_size" "5247"
