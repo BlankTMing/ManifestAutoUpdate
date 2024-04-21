@@ -1,0 +1,224 @@
+"appid" "2290"
+"common"
+{
+	"clienticon" "aa6b2fba2a066fb808bfa0c27096b6dece2219d1"
+	"clienttga" "9bc628594fc0cfc0689168df49a1cea5d819708c"
+	"icon" "5d0621ab96bf6b01213149e02e38e7155cb2c9ed"
+	"logo" "1e0cd3379c55bf95d2e8648dbdda445ad6f65e12"
+	"logo_small" "f2ee87b9074fcbc6e4f60bd1cd89f8144635ceea"
+	"name" "Final DOOM"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "2290_eula_0"
+			"name" "Final DOOM EULA"
+			"url" "https://store.steampowered.com//eula/2290_eula_0"
+			"version" "1"
+		}
+	}
+	"app_retired_publisher_request" "1"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1652832000"
+		"tested_build_id" "242360"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "simultaneous_gamepad_mouse"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Final DOOM"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "50"
+			"height_pct" "55.21794975991324"
+		}
+	}
+	"store_asset_mtime" "1573221302"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "id Software"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "id Software"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "834994800"
+	"steam_release_date" "1186183800"
+	"community_hub_visible" "1"
+	"gameid" "2290"
+	"store_tags"
+	{
+		"0" "1663"
+		"1" "19"
+		"2" "1693"
+		"3" "4004"
+		"4" "1774"
+		"5" "3839"
+		"6" "4182"
+		"7" "6691"
+		"8" "1669"
+		"9" "3942"
+		"10" "4026"
+		"11" "4345"
+		"12" "1756"
+		"13" "3859"
+		"14" "3916"
+		"15" "9541"
+		"16" "1659"
+		"17" "1667"
+		"18" "1023537"
+		"19" "4166"
+	}
+	"review_score" "8"
+	"review_percentage" "85"
+}
+"extended"
+{
+	"developer" "id Software"
+	"gamedir" "Final Doom"
+	"homepage" "http://www.idsoftware.com/games/doom/doom-final/"
+	"icon" "steam/games/icon_Final Doom"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "2291"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"developer_url" "http://www.idsoftware.com/"
+	"publisher" "id Software"
+	"gamemanualurl" "https://store.steampowered.com/manual/2290/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Final Doom"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "base\\dosbox.exe"
+			"arguments" "-conf .\\base\\plutoniam.conf -fullscreen -exit"
+		}
+		"1"
+		{
+			"description" "Launch Plutonia Mission with classic controls"
+			"executable" "base\\dosbox.exe"
+			"arguments" "-conf .\\base\\plutonia.conf -fullscreen -exit"
+		}
+		"2"
+		{
+			"description" "Launch Final Doom: TNT Evilution"
+			"executable" "base\\dosbox.exe"
+			"arguments" "-conf .\\base\\tntm.conf -fullscreen -exit"
+		}
+		"3"
+		{
+			"description" "Launch Final Doom: TNT Evilution with classic controls"
+			"executable" "base\\dosbox.exe"
+			"arguments" "-conf .\\base\\tnt.conf -fullscreen -exit"
+		}
+	}
+}
+"depots"
+{
+	"2291"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5563217545413979229"
+				"size" "41114051"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "242360"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "500000000"
+	"maxnumfiles" "10"
+	"hidecloudui" "0"
+	"savefiles"
+	{
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "base"
+			"pattern" "*.DSG"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22931897"
+"_sha" "e00ffe25dcf57ca8550d51e0d7dc00700f99c89f"
+"_size" "4279"
