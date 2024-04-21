@@ -1,0 +1,405 @@
+"appid" "22450"
+"common"
+{
+	"name" "Hunted: The Demon\'s Forge"
+	"logo" "87c3724950ecace486caffe29f732188b687bf2f"
+	"logo_small" "87c3724950ecace486caffe29f732188b687bf2f_thumb"
+	"clienticon" "d844df3ff807185ec6d4e5b8bac8e0c357280d8d"
+	"clienttga" "d52ae8cd97f6cbc07750e9ae61a4418d913e7ac4"
+	"icon" "927ff26def42282f6e9c5cd0a52e04d8906c45e6"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1646438400"
+		"tested_build_id" "3611"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Hunted: The Demon\'s Forge"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "23.107489698908693"
+		}
+	}
+	"store_asset_mtime" "1572893931"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "inXile Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Bethesda Softworks"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+	}
+	"category"
+	{
+		"category_18" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1306868400"
+	"metacritic_score" "61"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/hunted-the-demons-forge\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "22450"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "21"
+		"2" "1697"
+		"3" "1684"
+		"4" "1685"
+		"5" "1646"
+		"6" "4604"
+		"7" "4182"
+		"8" "122"
+		"9" "7208"
+		"10" "4106"
+		"11" "3841"
+	}
+	"review_score" "6"
+	"review_percentage" "74"
+}
+"extended"
+{
+	"allowpurchasefromrestrictedcountries" "0"
+	"developer" "inXile Entertainment"
+	"gamedir" "Hunted"
+	"guideappid" "22892"
+	"homepage" "http://Huntedthegame.com"
+	"icon" ""
+	"installscript" "22450_install.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "22451"
+	"purchaserestrictedcountries" "AE"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Bethesda Softworks"
+	"gamemanualurl" "https://store.steampowered.com/manual/22450/"
+	"listofdlc" "22456"
+}
+"config"
+{
+	"installscriptsignature" "686677af7062c38389adf59342a628819840d55b99647939b5ab8e9be8393e7cff76f9282f018313d856987eeaea7240f23087811c3ea65a9c32295e484dbd9958c5eb681b26359670a72298da859ab3424add49adc761acdc778700dc4fdd9ae7740060f3aad2ef417b62fb63a4000784575d1ab58de3b0e515c38f910e9796"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Hunted"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "BINARIES\\WIN32\\hunted.exe"
+		}
+	}
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\bethesda softworks\\hunted\\installpath"
+		{
+			"string"
+			{
+				"installpath" "%INSTALLDIR%"
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\22450"
+			"process 1" "%INSTALLDIR%\\Redist\\DX\\DXSETUP.exe"
+			"command 1" "/silent"
+		}
+		"vcredist_x86"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\22450"
+			"process 1" "%INSTALLDIR%\\Redist\\vcredist_x86_vs2008sp1.exe"
+			"command 1" "/q"
+		}
+		"vcredist_x64"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\22450"
+			"process 1" "%INSTALLDIR%\\Redist\\vcredist_x64_vs2008sp1.exe"
+			"command 1" "/q"
+			"requirement_os"
+			{
+				"is64bitwindows" "1"
+			}
+		}
+		"amd"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\22450"
+			"process 1" "%INSTALLDIR%\\Redist\\AMD\\amdcpusetup.exe"
+			"command 1" "/s"
+			"requirement_os"
+			{
+				"ostype" "Windows XP"
+			}
+			"requirement_cpu"
+			{
+				"processorid" "AuthenticAMD"
+			}
+		}
+	}
+}
+"depots"
+{
+	"22451"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3706542738958552163"
+				"size" "11438656283"
+				"download" "0"
+			}
+		}
+	}
+	"22452"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5907712849193322003"
+				"size" "27975"
+				"download" "0"
+			}
+		}
+	}
+	"22453"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4773246636780536239"
+				"size" "27975"
+				"download" "0"
+			}
+		}
+	}
+	"22454"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6856521546085138977"
+				"size" "488459060"
+				"download" "0"
+			}
+		}
+	}
+	"22455"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8224055982367379414"
+				"size" "488459060"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3611"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "500000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"1"
+		{
+			"root" "WinMyDocuments"
+			"path" "My Games/Hunted/DFGame/SaveData"
+			"pattern" "Player.dfprofile"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+		"2"
+		{
+			"root" "WinMyDocuments"
+			"path" "My Games/Hunted/DFGame/Config"
+			"pattern" "DFInput.ini"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+		"3"
+		{
+			"root" "WinMyDocuments"
+			"path" "My Games/Hunted/DFGame/Config"
+			"pattern" "DFGame.ini"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+		"4"
+		{
+			"root" "WinMyDocuments"
+			"path" "My Games/Hunted/DFGame/Config"
+			"pattern" "DFInventory.ini"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+		"5"
+		{
+			"root" "WinMyDocuments"
+			"path" "My Games/Hunted/DFGame/Config"
+			"pattern" "DFPawn.ini"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+		"6"
+		{
+			"root" "WinMyDocuments"
+			"path" "My Games/Hunted/DFGame/Config"
+			"pattern" "DFRecords.ini"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+		"7"
+		{
+			"root" "WinMyDocuments"
+			"path" "My Games/Hunted/DFGame/Config"
+			"pattern" "DFSkill.ini"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22720810"
+"_sha" "50a3d6011a57a4d0e912a7779305dbaa22aa2e93"
+"_size" "7458"
