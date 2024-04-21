@@ -1,0 +1,232 @@
+"appid" "894110"
+"common"
+{
+	"name" "PIDO1"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "c5eef897a1c952942a446c7750bb445ddebd463c"
+	"logo_small" "c5eef897a1c952942a446c7750bb445ddebd463c_thumb"
+	"clienticon" "d81d0ef36d52642040b6a54c38a066fa6cf3b055"
+	"clienttga" "c7e2bd9178491108e4d575900970b58a49611328"
+	"icon" "464c0b9f3f03c5edd5cd9d4990f5a5e24e5a47f8"
+	"clienticns" "ae1430b6a97a0b461364e7520680ceea82e7863e"
+	"linuxclienticon" "8091e448b9426f88dd5e837f34342f0989807050"
+	"osextended" "macos64"
+	"metacritic_name" "PIDO1"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1530441567"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Mikhail Melnikov"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Mikhail Melnikov"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_15" "1"
+		"category_18" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1531928440"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "894110"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "5537"
+	}
+	"review_score" "5"
+	"review_percentage" "67"
+}
+"extended"
+{
+	"developer" "Mikhail Melnikov"
+	"publisher" "Mikhail Melnikov"
+}
+"config"
+{
+	"installdir" "PIDO1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "PIDO1.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "PIDO1.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "PIDO1.x86"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"894111"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "839919389512866493"
+				"size" "46715385"
+				"download" "12317040"
+			}
+		}
+	}
+	"894112"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8462764423696702372"
+				"size" "69963236"
+				"download" "17686256"
+			}
+		}
+	}
+	"894113"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6052947145528567584"
+				"size" "65748006"
+				"download" "18870336"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2958281"
+			"timeupdated" "1531986254"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000"
+	"maxnumfiles" "1"
+	"appidredirect" "894110"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Mikhail Melnikov/PIDO1"
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Mikhail Melnikov/PIDO1"
+					"replace" "Mikhail Melnikov/PIDO1"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Mikhail Melnikov/PIDO1"
+					"replace" ".config/unity3d/Mikhail Melnikov/PIDO1"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22594812"
+"_sha" "252d902314aecccc6955aa0bad46dff6de08a5e5"
+"_size" "3613"
