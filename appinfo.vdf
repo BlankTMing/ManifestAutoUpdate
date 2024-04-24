@@ -1,0 +1,163 @@
+"appid" "2909700"
+"common"
+{
+	"name" "DayZ Experimental Tools"
+	"type" "Tool"
+	"parent" "1024020"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"icon" "0a72434068c2a1e037d7ae91e95e2c57f50da923"
+	"clienttga" "0b5eab174ef8716b4ae9da90b66aef664bbed9db"
+	"clienticon" "da020fd6554f91782017a60d09d5929521e30b11"
+	"releasestate" "released"
+	"gameid" "2909700"
+	"exfgls" "9"
+}
+"config"
+{
+	"installdir" "DayZ Experimental Tools"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Bin\\Launcher\\DayZToolsLauncher.exe"
+			"workingdir" "Bin\\Launcher\\"
+			"type" "default"
+			"description_loc"
+			{
+				"english" "Experimental DayZ Tools Launcher"
+			}
+			"description" "Experimental DayZ Tools Launcher"
+		}
+		"1"
+		{
+			"executable" "Bin\\Workbench\\workbenchApp.exe"
+			"workingdir" "Bin\\Workbench\\"
+			"description_loc"
+			{
+				"english" "Launch Workbench"
+			}
+			"description" "Launch Workbench"
+		}
+		"2"
+		{
+			"executable" "Bin\\Launcher\\launcher.bat"
+			"arguments" "\"Bin\""
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Open DayZ Tools directory"
+			}
+			"description" "Open DayZ Tools directory"
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228984"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2909701"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5649965655110827761"
+				"size" "484396026"
+				"download" "199282640"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "DC71E8B89A8749F2665869A387D5ADE1"
+				"size" "836B44193AAD9430010EEB6A8608DD89"
+				"download" "948530C3DEFB824616B078201B497471"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14143536"
+			"timeupdated" "1713873581"
+		}
+		"staging"
+		{
+			"buildid" "14143536"
+			"pwdrequired" "1"
+			"timeupdated" "1713864010"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23266964"
+"_sha" "5c466d8be344789e66d176f03c482984a3928e63"
+"_size" "2653"
