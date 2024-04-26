@@ -41,15 +41,30 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1709683200"
+		"category" "2"
+		"test_timestamp" "1712793600"
 		"tested_build_id" "13445086"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
 		}
 		"configuration"
@@ -203,9 +218,9 @@
 		"13" "7481"
 		"14" "1646"
 		"15" "4046"
-		"16" "12057"
+		"16" "6730"
 		"17" "4057"
-		"18" "6730"
+		"18" "12057"
 		"19" "4608"
 	}
 	"review_score" "8"
@@ -216,7 +231,7 @@
 	"developer" "Cygames, Inc."
 	"publisher" "Cygames, Inc."
 	"homepage" "https://relink.granbluefantasy.jp/"
-	"listofdlc" "2183570,2694640,2694650,2694660,2694670,2710000,2782160,2782170,2782180,2782190,2782200,2799840,2799850"
+	"listofdlc" "2183570,2694640,2694650,2694660,2694670,2710000,2782160,2782170,2782180,2782190,2782200,2799840,2799850,2853950,2853960,2853970,2853980,2853990,2854000,2854010,2854020"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -283,9 +298,9 @@
 		{
 			"public"
 			{
-				"gid" "5441053063594789789"
-				"size" "85291072593"
-				"download" "56992577232"
+				"gid" "8283567221727202932"
+				"size" "91580871780"
+				"download" "61080717264"
 			}
 		}
 		"encryptedmanifests"
@@ -340,27 +355,15 @@
 			}
 			"masterbr-v1_2-master"
 			{
-				"gid" "816CF017C3D6E847F8A8178D1FA7C0B8"
-				"size" "2C8468B9524F1E1E1F1DB11CB18A10F9"
-				"download" "80148747BA92654D0302E4475C548ED7"
+				"gid" "F49D52E9E2EF71F51203FF2C9219BD1F"
+				"size" "F47A12D528E1DE9F0E72F6986C6BAD49"
+				"download" "88697DD1C5ED3E0411D142DEFBAFDCAA"
 			}
 			"masterbr-v1_2-master_qa"
 			{
-				"gid" "1D26841D6A8B693A0EEFFC0227B7C761"
-				"size" "93B76FE1C063C25D88591CCDB588B231"
-				"download" "615195637CAD81032337C6CF5D270AE9"
-			}
-			"masterbr-v1_3-master"
-			{
-				"gid" "4D233F7068058C009B44FA917C7B95A8"
-				"size" "055E8A7F82A52E7B3356D36DE68779B7"
-				"download" "CCCFCCF3F5708299CC124E8E71007297"
-			}
-			"masterbr-v1_3-master_qa"
-			{
-				"gid" "AEA9AFDFA4E03C06B0B5B539D6DF7B2D"
-				"size" "2A4F0B88A189CCB67A4BFAB3FFE0EB45"
-				"download" "02EE65AA1C4FF607314FC2B947C10585"
+				"gid" "530A2B9F7314410E37C562733753E12C"
+				"size" "01025D8A487F09A475A7A34DEDB4A380"
+				"download" "C03BCFD43A66BCBA1048DC3ED9F0EB62"
 			}
 			"testbranch"
 			{
@@ -368,14 +371,26 @@
 				"size" "7E83912C43335F388E1ED1B0C33E4C7F"
 				"download" "051A19281AA1FBAE161E7B9E6FFD983D"
 			}
+			"masterbr-v1_3-master"
+			{
+				"gid" "B06975C31B9C298D3BE6725F0B8DCE79"
+				"size" "94FC0479C1160602F6C52963FEB0A3B5"
+				"download" "6574C43D9FC21FC2E1148C916F74D998"
+			}
+			"masterbr-v1_3-master_qa"
+			{
+				"gid" "4FE6163CC93FA8BB835A6A06900BE856"
+				"size" "C535FEFA22EAFF0B8FC55C9E78D3C422"
+				"download" "F09FFE29E3C754FFB00A97BE95F22C5E"
+			}
 		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13912201"
-			"timeupdated" "1712552420"
+			"buildid" "14145265"
+			"timeupdated" "1714107692"
 		}
 		"ag-v1_0_1-master"
 		{
@@ -427,33 +442,33 @@
 		}
 		"masterbr-v1_2-master"
 		{
-			"buildid" "13971321"
+			"buildid" "14145265"
 			"pwdrequired" "1"
-			"timeupdated" "1712380037"
+			"timeupdated" "1713873798"
 		}
 		"masterbr-v1_2-master_qa"
 		{
-			"buildid" "13971313"
+			"buildid" "14145262"
 			"pwdrequired" "1"
-			"timeupdated" "1712379850"
-		}
-		"masterbr-v1_3-master"
-		{
-			"buildid" "13980634"
-			"pwdrequired" "1"
-			"timeupdated" "1712528225"
-		}
-		"masterbr-v1_3-master_qa"
-		{
-			"buildid" "13980637"
-			"pwdrequired" "1"
-			"timeupdated" "1712528303"
+			"timeupdated" "1713873765"
 		}
 		"testbranch"
 		{
 			"buildid" "13680146"
 			"pwdrequired" "1"
 			"timeupdated" "1710486042"
+		}
+		"masterbr-v1_3-master"
+		{
+			"buildid" "14178584"
+			"pwdrequired" "1"
+			"timeupdated" "1714083773"
+		}
+		"masterbr-v1_3-master_qa"
+		{
+			"buildid" "14178589"
+			"pwdrequired" "1"
+			"timeupdated" "1714083816"
 		}
 	}
 }
@@ -472,6 +487,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23067247"
-"_sha" "0201cd8d24418c7829a35255f3c4bbd9d71ab517"
-"_size" "10569"
+"_change_number" "23309291"
+"_sha" "d5e45a74a87dda665a226eb980fa082ca389c26c"
+"_size" "10990"
