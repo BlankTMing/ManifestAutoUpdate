@@ -127,12 +127,12 @@
 		"3"
 		{
 			"type" "franchise"
-			"name" "PlayWay S.A."
+			"name" "Rejected Games"
 		}
 		"4"
 		{
 			"type" "franchise"
-			"name" "Rejected Games"
+			"name" "PlayWay S.A."
 		}
 	}
 	"primary_genre" "23"
@@ -156,6 +156,7 @@
 		"category_42" "1"
 		"category_13" "1"
 		"category_17" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -249,8 +250,8 @@
 		"9" "122"
 		"10" "21006"
 		"11" "1698"
-		"12" "4975"
-		"13" "10235"
+		"12" "10235"
+		"13" "4975"
 		"14" "4182"
 		"15" "3834"
 		"16" "4695"
@@ -318,9 +319,9 @@
 		{
 			"public"
 			{
-				"gid" "796437121660555419"
-				"size" "5409250606"
-				"download" "1940472384"
+				"gid" "3244419935886247431"
+				"size" "5409636010"
+				"download" "1940556912"
 			}
 			"experimental"
 			{
@@ -343,12 +344,6 @@
 		}
 		"encryptedmanifests"
 		{
-			"extra_testing"
-			{
-				"gid" "2BFED25DA87B35B029826EE9DEEC18A2"
-				"size" "3349E7B0B99E0AA33C19CB50358F2E48"
-				"download" "DBC37FC7FFC4D67BC40DF4EE85C54F9F"
-			}
 			"full"
 			{
 				"gid" "2E466D63F29457647E25EF4A9244E355"
@@ -373,6 +368,12 @@
 				"size" "E22226CC3DC219E20D7B5798E2B366BB"
 				"download" "77BF4F4CB5FC31BB78282DE3BFE6A28A"
 			}
+			"extra_testing"
+			{
+				"gid" "9B9BD875CCFA67B187299BB8570F628B"
+				"size" "B4AF77F0B1C0A766C9141D2597C33F93"
+				"download" "FBAE1B1785855D3ADCEF09CD75979862"
+			}
 		}
 	}
 	"761832"
@@ -393,17 +394,17 @@
 		}
 		"encryptedmanifests"
 		{
-			"extra_testing"
-			{
-				"gid" "7E9E5BA2CE226FBCBFE6612237A2ADD2"
-				"size" "AC958450B686956C41A0DA717236F294"
-				"download" "4AC7FF3D15137BA34095EB9F4A462ACD"
-			}
 			"mac_os"
 			{
 				"gid" "94F4484C3E2081CFA3676A9610D7F11E"
 				"size" "BFD7E063D6EECE4BCE539C39B77DDC80"
 				"download" "89AA38E7C308C6DB17CC8814533CAA3F"
+			}
+			"extra_testing"
+			{
+				"gid" "7E9E5BA2CE226FBCBFE6612237A2ADD2"
+				"size" "AC958450B686956C41A0DA717236F294"
+				"download" "4AC7FF3D15137BA34095EB9F4A462ACD"
 			}
 		}
 	}
@@ -411,20 +412,14 @@
 	{
 		"public"
 		{
-			"buildid" "13675212"
-			"timeupdated" "1709853660"
+			"buildid" "14175761"
+			"timeupdated" "1714064982"
 		}
 		"experimental"
 		{
 			"buildid" "9374161"
 			"description" "experimental game branch"
 			"timeupdated" "1661291885"
-		}
-		"extra_testing"
-		{
-			"buildid" "13635175"
-			"pwdrequired" "1"
-			"timeupdated" "1709573896"
 		}
 		"full"
 		{
@@ -462,6 +457,12 @@
 			"pwdrequired" "1"
 			"timeupdated" "1666549065"
 		}
+		"extra_testing"
+		{
+			"buildid" "14152122"
+			"pwdrequired" "1"
+			"timeupdated" "1713913799"
+		}
 	}
 }
 "ufs"
@@ -476,9 +477,16 @@
 			"path" "Saves"
 			"pattern" "*.prp"
 		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "Saves"
+			"pattern" "*.bck"
+			"recursive" "1"
+		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "22679327"
-"_sha" "c90f6544050f59492a156cceca0374a02d67b59d"
-"_size" "8909"
+"_change_number" "23302584"
+"_sha" "bb20e2ee22295142510556138e358b57d19c0ae6"
+"_size" "9039"
