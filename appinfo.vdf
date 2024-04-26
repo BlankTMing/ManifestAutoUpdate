@@ -27,6 +27,55 @@
 		"schinese" "1"
 		"tchinese" "1"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1713398400"
+		"tested_build_id" "14023843"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"small_capsule"
 	{
@@ -170,9 +219,9 @@
 		{
 			"public"
 			{
-				"gid" "3372849931355924500"
-				"size" "1227802332"
-				"download" "794769456"
+				"gid" "2684913242864405057"
+				"size" "1228892686"
+				"download" "795545568"
 			}
 			"stable"
 			{
@@ -182,9 +231,9 @@
 			}
 			"opentest"
 			{
-				"gid" "3372849931355924500"
-				"size" "1227802332"
-				"download" "794769456"
+				"gid" "2684913242864405057"
+				"size" "1228892686"
+				"download" "795545568"
 			}
 		}
 		"encryptedmanifests"
@@ -260,8 +309,8 @@
 		}
 		"public"
 		{
-			"buildid" "14159559"
-			"timeupdated" "1713963079"
+			"buildid" "14174493"
+			"timeupdated" "1714058108"
 		}
 		"demo_test"
 		{
@@ -319,9 +368,9 @@
 		}
 		"opentest"
 		{
-			"buildid" "14159559"
+			"buildid" "14174493"
 			"description" "玩家公开测试"
-			"timeupdated" "1713963032"
+			"timeupdated" "1714057958"
 		}
 	}
 	"baselanguages" "english,schinese,tchinese,japanese"
@@ -399,6 +448,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23283060"
-"_sha" "acddbcffaa554fb8b17b0eb6035340fcc80a2df9"
-"_size" "7841"
+"_change_number" "23300870"
+"_sha" "81299508c1a95d679c82112afd187fe0d60a0493"
+"_size" "9084"
