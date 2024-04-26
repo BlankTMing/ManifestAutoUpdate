@@ -37,54 +37,51 @@
 	"osarch" "64"
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1644969600"
-		"tested_build_id" "4460038"
+		"category" "3"
+		"test_timestamp" "1714003200"
+		"tested_build_id" "13721887"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
-			}
-			"1"
-			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-			}
-			"2"
-			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
-			"3"
+			"1"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
-			"4"
+			"2"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
 			}
-			"5"
+			"3"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
 		{
 			"supported_input" "gamepad"
-			"requires_manual_keyboard_invoke" "1"
-			"requires_non_controller_launcher_nav" "1"
-			"primary_player_is_controller_slot_0" "0"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
 			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-7.0-1"
+			"recommended_runtime" "proton-9.0-1RC"
 			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Fallout 4"
@@ -142,6 +139,9 @@
 		"category_43" "1"
 		"category_41" "1"
 		"category_42" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -232,7 +232,7 @@
 		"19" "4747"
 	}
 	"review_score" "8"
-	"review_percentage" "82"
+	"review_percentage" "83"
 }
 "extended"
 {
@@ -297,13 +297,25 @@
 		{
 			"public"
 			{
-				"gid" "7497069378349273908"
-				"size" "6092666130"
-				"download" "5591136656"
+				"gid" "7332110922360867314"
+				"size" "6093409141"
+				"download" "5591883552"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "95860BAEC7E904190F2165CBC79CAA52"
+				"size" "0DC22730A96BD781E21F926C5C6CEEC3"
+				"download" "054FB547149DEE5E040B616652A2ADD4"
+			}
+			"cervantes"
+			{
+				"gid" "5EAB38F3FF0A05A019C60273E334EA45"
+				"size" "BD95FE22C05CADD6E9CF921E1F89EDB5"
+				"download" "7930A8AF235EF96E361E44583DBCFD71"
+			}
 			"dechirico"
 			{
 				"gid" "0D58437B326BDCE8CD38EE5010351C38"
@@ -318,18 +330,30 @@
 		{
 			"public"
 			{
-				"gid" "5847529232406005096"
-				"size" "65503104"
-				"download" "50450992"
+				"gid" "3747866029627240371"
+				"size" "52549912"
+				"download" "39856416"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "E0DCB12A54B90490D89E455083E570F1"
+				"size" "4E2504B290E63F72ADAEA7C6ECE43EB3"
+				"download" "94C3A751CAC7959E85C09B1A41451B07"
+			}
+			"cervantes"
+			{
+				"gid" "A61947780B0355D8A707EBAF0321095B"
+				"size" "6B3577C7C9FF11352C378ECAD52631DF"
+				"download" "91B186C07B043462E23D9220C2BB55D6"
+			}
 			"dechirico"
 			{
-				"gid" "54FDB8FE7FD567EE19B42ED9867DBE40"
-				"size" "11639A19B515BEB05036D3684B7C58AD"
-				"download" "5F41C24B4D08B2A98A06507C00418122"
+				"gid" "BA6E0CF43AC9ED0546C466BF31D5D0A8"
+				"size" "71026BBBB6D90BA4921E7C68EC65F01C"
+				"download" "3CD103A48E5A92C53E4F25A5FA81AE60"
 			}
 		}
 	}
@@ -339,18 +363,30 @@
 		{
 			"public"
 			{
-				"gid" "5819088023757897745"
-				"size" "19539383766"
-				"download" "18897952800"
+				"gid" "3876298980394425306"
+				"size" "20446061583"
+				"download" "19750354704"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "58C80D695FA09AE078C790DC0F96137C"
+				"size" "620206927B01743DBD8ED2959AA3188D"
+				"download" "81C8CA41D5D8103D880EF23BCD49902E"
+			}
+			"cervantes"
+			{
+				"gid" "871F5E41245CF02A1E28E4E7D01B7154"
+				"size" "1737C1BBE4DF460E83478B1258F9E39C"
+				"download" "B9224574F21A37D52C949BC91F486BF7"
+			}
 			"dechirico"
 			{
-				"gid" "3BCEFDC91A92ACAC3FA12BCD5239CC16"
-				"size" "07AA318E98B3C1505AC6D922570789D8"
-				"download" "CC1515DA24E9D4120AA634D5E4C51EB0"
+				"gid" "3E1ECA7CF203DED313A7B42D0D0C9F48"
+				"size" "B29BB6F9B75F69582A7DABB52D297DCD"
+				"download" "8638CD454B17D287582FA3D9F6BDF1AE"
 			}
 		}
 	}
@@ -364,13 +400,25 @@
 		{
 			"public"
 			{
-				"gid" "2178106366609958945"
+				"gid" "8492427313392140315"
 				"size" "3815537394"
 				"download" "3400681728"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "77AA5EA48AF160D9CF67706B4E8B5E3A"
+				"size" "0DC6D939AA74A10BF4E6C5631C7F4A19"
+				"download" "5690A2FD3E6E6F38973CEA3FBB0DD35A"
+			}
+			"cervantes"
+			{
+				"gid" "DB3157E6DFA45383CA90B0B17A7AE699"
+				"size" "6EBD9B2BEA0E31CA85F1CD7CA3ED641D"
+				"download" "15BD7182D14E126F9BD0E1BE78E335FD"
+			}
 			"dechirico"
 			{
 				"gid" "39CC369F464D644928DCFEF40921CE2D"
@@ -389,13 +437,25 @@
 		{
 			"public"
 			{
-				"gid" "7549549550652702123"
-				"size" "3707019770"
-				"download" "3312582112"
+				"gid" "8045191663392248690"
+				"size" "3705871504"
+				"download" "3314769536"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "5FCA5EE2831F23BE1F7D20F4BC5EC2C5"
+				"size" "FF4BEDEC90C3FF1E0EFE0337FF3A8257"
+				"download" "EF18AE3D67D0D6EFFF48C33216E2DAE2"
+			}
+			"cervantes"
+			{
+				"gid" "924B8CF9652E71F28867F85CE9584F49"
+				"size" "34F753A9E3AA436029C7D9A5B23702B8"
+				"download" "A4E215F149E4AA3766B8341CBD0DEBD5"
+			}
 			"dechirico"
 			{
 				"gid" "EF500FA791221A6F4E1FC8929EFC6ED4"
@@ -414,13 +474,25 @@
 		{
 			"public"
 			{
-				"gid" "6854162778963425477"
-				"size" "3857103170"
-				"download" "3452554752"
+				"gid" "5181861686732774133"
+				"size" "3857440646"
+				"download" "3456660848"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "CE079BFB5E5110C46946907E6FB1B979"
+				"size" "6ABAB4D4F472068A6A43E9D116590295"
+				"download" "48B79DB4F138F7A3AD55204ACB7E240A"
+			}
+			"cervantes"
+			{
+				"gid" "3D1D943991ECA14E4D5F44B44BEC2B9A"
+				"size" "4B401018B52B5C695F314DFC525C58E0"
+				"download" "495E5A8BF7AFB97F699E69EBB14C6D42"
+			}
 			"dechirico"
 			{
 				"gid" "AEA965EFAD28C1462BD6D670EF4F757C"
@@ -439,13 +511,25 @@
 		{
 			"public"
 			{
-				"gid" "783101348965844295"
-				"size" "3860044996"
-				"download" "3460466256"
+				"gid" "6159581842674600625"
+				"size" "3860394081"
+				"download" "3464567504"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "31CAF26409CB48ABE6B312E10B15A70E"
+				"size" "A6933BBBC51B83B60E8196D0572004F5"
+				"download" "590814B951E335968F56AA3B2CCB57CD"
+			}
+			"cervantes"
+			{
+				"gid" "86D0298398F404C21B4EEF25763D6A30"
+				"size" "6C11FB8E8DF54CD790D6BAE419BF74F2"
+				"download" "C19BCD3100907CDC761EFB914F08B5D7"
+			}
 			"dechirico"
 			{
 				"gid" "3880EFB1DAEE29F97F0B4E9B88A38A7F"
@@ -464,13 +548,25 @@
 		{
 			"public"
 			{
-				"gid" "7717372852115364102"
-				"size" "3817097502"
-				"download" "3416285648"
+				"gid" "2941745134283711063"
+				"size" "3817979526"
+				"download" "3420572304"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "80DA90843CB586F88CDD152B74D52389"
+				"size" "BA7794FBDF6117B9ACD0F41F15D3BA90"
+				"download" "9CF045ECDD3545D42ABADFFA1EC3DD93"
+			}
+			"cervantes"
+			{
+				"gid" "C18C2881F43A15116201C866D523EB1A"
+				"size" "EDE28734EB515F008FD7A8BEB3F0F197"
+				"download" "9072A86B2541B844C18C66B54CC81221"
+			}
 			"dechirico"
 			{
 				"gid" "A95AE75FBCFEF20702F0675F3532373C"
@@ -489,13 +585,25 @@
 		{
 			"public"
 			{
-				"gid" "8378357397609964253"
-				"size" "3767234638"
-				"download" "3340937680"
+				"gid" "4656512446653497676"
+				"size" "3767234654"
+				"download" "3340937696"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "CC752615A8AC502B51277BC011BD18C6"
+				"size" "60BE70A1E57C5BC6301E1985064D4669"
+				"download" "9F1A42DB59E9D626F10E0746B2B653F3"
+			}
+			"cervantes"
+			{
+				"gid" "EB2895724EE0629B805D59C540578548"
+				"size" "1EC1021BC44C7F29F736E44FFBECBDDC"
+				"download" "832F93A44CC9BEAA620704A3A0A39C0D"
+			}
 			"dechirico"
 			{
 				"gid" "3BD9FBBD850B7D2E51FC4DFA0BAFAEE2"
@@ -514,13 +622,25 @@
 		{
 			"public"
 			{
-				"gid" "4735225695214536532"
-				"size" "3767194894"
-				"download" "3340855504"
+				"gid" "9220466047319762009"
+				"size" "3767194910"
+				"download" "3340855520"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "AF658E6BAF7D97ED235C34C6AFF29703"
+				"size" "5FACDE75649549A1A6B9D3DA41A67941"
+				"download" "CF57D37B67816699434D2F05891E5762"
+			}
+			"cervantes"
+			{
+				"gid" "9B691924CC312FED2C9CF828BF7CF4E9"
+				"size" "E8D711567F20E2969058B35EFE1AD47D"
+				"download" "0766CDA66FA964988B1C26ABA069A3B4"
+			}
 			"dechirico"
 			{
 				"gid" "52670BBDB2B33D61A4132AA632EF0414"
@@ -539,13 +659,25 @@
 		{
 			"public"
 			{
-				"gid" "7540680803954664080"
-				"size" "3767107204"
-				"download" "3340826112"
+				"gid" "8191305962459798887"
+				"size" "3767107220"
+				"download" "3340826128"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "41DD8969A9A916DBD3EDDA348E6F644B"
+				"size" "EB24EAD1DD227DF8DE243528824E3A67"
+				"download" "BBE6B2E9A88567A0CE976C8A21DF467B"
+			}
+			"cervantes"
+			{
+				"gid" "D2B03AC47C09DF708ABB624A5F12F7FB"
+				"size" "CDAB9046DE4FFF4E65A119894EC4437D"
+				"download" "FF413E23E34EBAC090E208F2C20EDE4E"
+			}
 			"dechirico"
 			{
 				"gid" "C186A00792884B9E4210DF15AC36BFF1"
@@ -564,18 +696,30 @@
 		{
 			"public"
 			{
-				"gid" "6742459130628608886"
-				"size" "22519350790"
-				"download" "21550163632"
+				"gid" "8665224215527782698"
+				"size" "3815537499"
+				"download" "3400681776"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "9080249F67AAA360A5C903ED15902FC7"
+				"size" "638B6C601730379505484467F5C1ADC9"
+				"download" "AE1249C0D1B0F07D92DEB276F82DF6C9"
+			}
+			"cervantes"
+			{
+				"gid" "585266C57BD1F1074F5AA78A287BB40F"
+				"size" "8BFDD210F91EBBDA6A08BE6B072DF207"
+				"download" "CF510AD6FC58878CDB5415608A9D445B"
+			}
 			"dechirico"
 			{
-				"gid" "386E116A113E7C33F64499DC6BDE51E7"
-				"size" "47EECD2A14865C4B176996D8059888C6"
-				"download" "C97A19D5E7D37D70342BDF804EB73A14"
+				"gid" "55B8DA1C5CBE5103FDC4DF2B5751936E"
+				"size" "E530AD9CD9E12AA9D236F7BC6B103C5F"
+				"download" "AAFAED1AEAF13414E07FCDC1A22B0354"
 			}
 		}
 	}
@@ -589,18 +733,30 @@
 		{
 			"public"
 			{
-				"gid" "3455288010746962666"
-				"size" "25521513666"
-				"download" "24511957424"
+				"gid" "6797758859461570066"
+				"size" "6767298705"
+				"download" "6296841872"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "6055360F79ED302007171B6F1BC3A604"
+				"size" "633D367744AABFB29A88394E6F15F850"
+				"download" "96820DCF53E9A70D367F9C9147291253"
+			}
+			"cervantes"
+			{
+				"gid" "016C5F6A846712A741B4332A5984B870"
+				"size" "7ED18E66FE2CF046100B5F8C7F5500E6"
+				"download" "732E6651FF4A9809C4D8E78F027456F2"
+			}
 			"dechirico"
 			{
-				"gid" "5025B913F88DEB6CDFC7A088C2A0482B"
-				"size" "6BD944D4298AE8F7C9A519BA846995A0"
-				"download" "DD6AEF4B48FBA8606925D7EEC575289B"
+				"gid" "038EAA130BF94CFA83BF191F1286615B"
+				"size" "00AA3025F748FC5FE19C301E7AFAC0DA"
+				"download" "DD7D1AD8A4BBA5C37D22AF141D2AEF80"
 			}
 		}
 	}
@@ -611,18 +767,30 @@
 		{
 			"public"
 			{
-				"gid" "1691678129192680960"
-				"size" "615585599"
-				"download" "383322560"
+				"gid" "1213339795579796878"
+				"size" "616387982"
+				"download" "383488992"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "986EF370EDE41B84A86A2D4B7948E180"
+				"size" "717C75B6AD82FE769737C0966A773E72"
+				"download" "B0CB5605C337EFC8961C9C9E0A3F7AA2"
+			}
+			"cervantes"
+			{
+				"gid" "17F7AC0E01B7C890E9F3818539CB0209"
+				"size" "158000DA443EEB42ECEA95D00C4E51D9"
+				"download" "1691ECDE42A940363E32EBACBC63A7C5"
+			}
 			"dechirico"
 			{
-				"gid" "0BDB63DDF68BC74A42E6E54EA44E000A"
-				"size" "9C704B5491E252D273D46B66007D58C0"
-				"download" "B707D01A6E5B1CF5089FA1A273EBF586"
+				"gid" "57509E4469F954C57B24681A9FFE158D"
+				"size" "23FE82C99230D49FC3986992F75F5B5F"
+				"download" "C1E36AB7D7DA51BF57C82BE59313C572"
 			}
 		}
 	}
@@ -637,18 +805,30 @@
 		{
 			"public"
 			{
-				"gid" "5106118861901111234"
-				"size" "130989066"
-				"download" "114760000"
+				"gid" "7785009542965564688"
+				"size" "130988561"
+				"download" "114758176"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "04795637A084B0ECE725D4AED458F6E0"
+				"size" "D743C67B11A2D8D3E6822E3A986B5A61"
+				"download" "F4C7B6C0C1E3EFF274B0BF1A518AFFFE"
+			}
+			"cervantes"
+			{
+				"gid" "4EE5968C69F33D6D5E4ED836CD760E02"
+				"size" "D653EFF0626BD75A8B3E2AA6865F0E4F"
+				"download" "FC2C4265DCE97C38D536C9B2E941FEF4"
+			}
 			"dechirico"
 			{
-				"gid" "D277CBF7B802DA12F7902F83007CF93B"
-				"size" "0EB36DC1A494EBC9A4C367C9BB7079CE"
-				"download" "DC42F4D5D197C61F027B069465E29DD2"
+				"gid" "F1795CD8127E3E93A90D0A268BCE8020"
+				"size" "167AD009DDE62D378BAA0F808B6313B6"
+				"download" "E64B337F819687503E329611685D4753"
 			}
 		}
 	}
@@ -663,18 +843,30 @@
 		{
 			"public"
 			{
-				"gid" "5590419866095647350"
-				"size" "135307976"
-				"download" "118498032"
+				"gid" "7005875929366232340"
+				"size" "135307471"
+				"download" "118496192"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "0642ED7ADC30C0C08EE94BADE567CF28"
+				"size" "E1ED283F1A825315DE49DF0D0E20D7DE"
+				"download" "F87804A9F3751E94A0E88CC4CF16F442"
+			}
+			"cervantes"
+			{
+				"gid" "4EBDB6B41E9AF40180AD9E21EF64DBD8"
+				"size" "16D4D5E25396EB459A0F02AEFEC3E7E6"
+				"download" "41D7E41FA02FC59E699132560D41FA06"
+			}
 			"dechirico"
 			{
-				"gid" "421164C84407F7576FFC91172D0B736F"
-				"size" "4C1A9139E78F6B056D0DAC5D182FB24C"
-				"download" "0CBD60E35158E3F3FBC9F2329FBBFA85"
+				"gid" "D8F484A2C3E5558C52896924B1E403A9"
+				"size" "CC232AD4CBE3FEBF7F22849A19F13FE4"
+				"download" "7ADCA999A9552C3485B9104ACBCF26C6"
 			}
 		}
 	}
@@ -689,18 +881,30 @@
 		{
 			"public"
 			{
-				"gid" "2207548206398235202"
-				"size" "188466713"
-				"download" "146456336"
+				"gid" "7032871961633882628"
+				"size" "188466208"
+				"download" "146454496"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "55030CC5B6B0A12B531786AADFC875E0"
+				"size" "1637CC77C611919DD592F5215CBD190A"
+				"download" "58760229A74F012B7D33F5C6DB8B0386"
+			}
+			"cervantes"
+			{
+				"gid" "B7DCEBC8A541156C69A1B42A00539BED"
+				"size" "9181D008827744FDC9E3572926C8EB6A"
+				"download" "10E5F04CA414AC6AAECB43C5937F4DD7"
+			}
 			"dechirico"
 			{
-				"gid" "348456427E588F5F68E7B53B3718575D"
-				"size" "5DB13267BECF039020837F35CBA0D280"
-				"download" "4B25C12406C93001C0AF37698361F9B5"
+				"gid" "AFCD3946997630BDED362A291A9C3092"
+				"size" "F067D2CCC10D364499BF10046D52A45E"
+				"download" "3113B8116D06BAB5CC3D043E60F4AD0E"
 			}
 		}
 	}
@@ -715,18 +919,30 @@
 		{
 			"public"
 			{
-				"gid" "9032251103390457158"
-				"size" "128628040"
-				"download" "112163952"
+				"gid" "3456890184317469397"
+				"size" "128627535"
+				"download" "112162112"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "4432E34FFEC10074D03B3F01839747D4"
+				"size" "F5A4C4A1885353C78BDEBA7B8EC9EED4"
+				"download" "8CB77BD51279BF3C3A15F3E974716EF3"
+			}
+			"cervantes"
+			{
+				"gid" "56FE71B974150781DA60113E53BD9ACE"
+				"size" "6118CF8EC275FCD8215EF22C168A04D1"
+				"download" "521F3DC4CC979CF44DBFCD5D4AB85B86"
+			}
 			"dechirico"
 			{
-				"gid" "DDCEEA191FE0007450B39D996F7D72A2"
-				"size" "1B53FD1E3A5F6C915CBD9DF3F5FFD78E"
-				"download" "D6D73D062B54EB67A36DEAC850B80389"
+				"gid" "E192F42B88E7BBBC6ED8391A1D7B2D3A"
+				"size" "7602C21C28D60CBE66721130997560AA"
+				"download" "6C53882CAD7A54E4B589F3A5BC8FEE28"
 			}
 		}
 	}
@@ -741,18 +957,30 @@
 		{
 			"public"
 			{
-				"gid" "2953236065717816833"
-				"size" "196628223"
-				"download" "154408928"
+				"gid" "3302169299215915593"
+				"size" "196627718"
+				"download" "154407088"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "8B3129D85E139B73C910ED9563B73DA5"
+				"size" "C6E68AB4C3B3F65C68C850077AE3E579"
+				"download" "ABD657128932416BC059E83207F195FD"
+			}
+			"cervantes"
+			{
+				"gid" "94BF39A0537DB8E5066A2807E4E8E557"
+				"size" "72AF03B8EFC21B874DBC81653E4F85B2"
+				"download" "3CC96230AC9A104C18E8CD27CEF6D210"
+			}
 			"dechirico"
 			{
-				"gid" "FA3EB31E39F3FCA61FDB273B88A395D1"
-				"size" "CF95895A2F32188A67415129218234DF"
-				"download" "13077C76CF2ECA913E71A7215624CC47"
+				"gid" "1666B0E3B5A06A92B8C9C7EC6E220D4E"
+				"size" "0B71CA4183987D3D70B5C040EF092BA8"
+				"download" "BDFB3CFC1E2081F41FE9EDCF3EBE03DB"
 			}
 		}
 	}
@@ -767,18 +995,30 @@
 		{
 			"public"
 			{
-				"gid" "6475533526946306248"
-				"size" "190674332"
-				"download" "150265040"
+				"gid" "3855123742386435744"
+				"size" "130988561"
+				"download" "114762688"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "FDE9CB00C88410A9267936828AF61BB1"
+				"size" "D743C67B11A2D8D3E6822E3A986B5A61"
+				"download" "BD7672E44EEF3DE7BABB76C821670A45"
+			}
+			"cervantes"
+			{
+				"gid" "74D9637E282D3AC3FC349B3A0975AD94"
+				"size" "D653EFF0626BD75A8B3E2AA6865F0E4F"
+				"download" "329E3CE81A4D64120CCD46471A2659CC"
+			}
 			"dechirico"
 			{
-				"gid" "E7308C1BF097817EFA1F0E2017A43678"
-				"size" "EF11B1E429797E888685EE6CF775ED4B"
-				"download" "C48E1E458764B7DD94D2B7FAF7EB504B"
+				"gid" "4550DFB789AD3FA266836289B49E44DB"
+				"size" "167AD009DDE62D378BAA0F808B6313B6"
+				"download" "C972A546F4B862DF6696CDCE55F19A91"
 			}
 		}
 	}
@@ -793,18 +1033,30 @@
 		{
 			"public"
 			{
-				"gid" "2675794883952625475"
-				"size" "190674332"
-				"download" "150265040"
+				"gid" "7266521576458366233"
+				"size" "130988561"
+				"download" "114762688"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "FFDCCEF6C7210DCB7387C8A3B3EC5385"
+				"size" "D743C67B11A2D8D3E6822E3A986B5A61"
+				"download" "BD7672E44EEF3DE7BABB76C821670A45"
+			}
+			"cervantes"
+			{
+				"gid" "2EB06BED095D747FCC2E593169984C46"
+				"size" "D653EFF0626BD75A8B3E2AA6865F0E4F"
+				"download" "329E3CE81A4D64120CCD46471A2659CC"
+			}
 			"dechirico"
 			{
-				"gid" "F5D325D60021BD84EF1AF8AC825111F4"
-				"size" "EF11B1E429797E888685EE6CF775ED4B"
-				"download" "C48E1E458764B7DD94D2B7FAF7EB504B"
+				"gid" "089C7064E1CDA4C3676302AE74693CD9"
+				"size" "167AD009DDE62D378BAA0F808B6313B6"
+				"download" "C972A546F4B862DF6696CDCE55F19A91"
 			}
 		}
 	}
@@ -819,18 +1071,30 @@
 		{
 			"public"
 			{
-				"gid" "8276750634369029613"
-				"size" "190674332"
-				"download" "150265040"
+				"gid" "2863491461978199343"
+				"size" "130988561"
+				"download" "114762688"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "8BD7B32BB09B9F728CE4A3A2A5212B3A"
+				"size" "D743C67B11A2D8D3E6822E3A986B5A61"
+				"download" "BD7672E44EEF3DE7BABB76C821670A45"
+			}
+			"cervantes"
+			{
+				"gid" "A3FB5ACC223CD7B4D1268AB8B366FE2D"
+				"size" "D653EFF0626BD75A8B3E2AA6865F0E4F"
+				"download" "329E3CE81A4D64120CCD46471A2659CC"
+			}
 			"dechirico"
 			{
-				"gid" "9377AC1FF002578F6C079B8E0DD0BCA5"
-				"size" "EF11B1E429797E888685EE6CF775ED4B"
-				"download" "C48E1E458764B7DD94D2B7FAF7EB504B"
+				"gid" "E5FC5DC8CB389471285745AAEFDBCBDC"
+				"size" "167AD009DDE62D378BAA0F808B6313B6"
+				"download" "C972A546F4B862DF6696CDCE55F19A91"
 			}
 		}
 	}
@@ -845,18 +1109,30 @@
 		{
 			"public"
 			{
-				"gid" "367504569468547727"
-				"size" "494632631"
-				"download" "248257168"
+				"gid" "2755212490240557490"
+				"size" "495101199"
+				"download" "248357280"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "A987A48A73D75FA892097091619BCE67"
+				"size" "264B7791C72573F342C57DDC276DDA5B"
+				"download" "823B9E91578C6268D30392871D602DC4"
+			}
+			"cervantes"
+			{
+				"gid" "1499A9E67BEB2ADFB228CCD56213D1FF"
+				"size" "D8B0A46CEDA5569F6993C03FD58EC139"
+				"download" "FE7976D9727F1182703260E67005ECCC"
+			}
 			"dechirico"
 			{
-				"gid" "DA5E190781BF7190A482943EB5C2E3BF"
-				"size" "1469433F23CA7F9311D3701B82961C77"
-				"download" "F281F1C2010FC2318E4716013086BD6B"
+				"gid" "8715CEB4D3894CEEFD4E08922C26EB26"
+				"size" "374C9A490D1DB505344EEFCBA1653C7A"
+				"download" "1DD40584063E907E9C7549AA83B0B28A"
 			}
 		}
 	}
@@ -871,18 +1147,30 @@
 		{
 			"public"
 			{
-				"gid" "6756984187996423348"
-				"size" "501193028"
-				"download" "254135504"
+				"gid" "1644608195071865486"
+				"size" "501544601"
+				"download" "254228864"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "3583353113496319F0EED0518421C5DB"
+				"size" "ABA1BE4C7EF37D92B8A6FB54D8C2AE07"
+				"download" "84B6F3A5A46BD0A6898BD58035DCFD3D"
+			}
+			"cervantes"
+			{
+				"gid" "E5C5C9FF406045C0834E452E8ACC26B3"
+				"size" "24B9C056FDC4B7A600F9E5E006D67F40"
+				"download" "6B695DA5FEC39B7B273D4412E4408582"
+			}
 			"dechirico"
 			{
-				"gid" "D3B3F47D42AE841DFC5DA6BC9E0329A2"
-				"size" "17E5D5AAD3B14E36DC5A719D65008392"
-				"download" "9FC6A601397BDB3150C5575F050E68D8"
+				"gid" "64B4C327B8CBFCA87A09FA0F7401F834"
+				"size" "96E92699222AC8075EA5E0F69A9871B6"
+				"download" "9DB4F3C87920506532F89566D88E641A"
 			}
 		}
 	}
@@ -893,18 +1181,30 @@
 		{
 			"public"
 			{
-				"gid" "1255562923187931216"
-				"size" "79345533"
-				"download" "56719152"
+				"gid" "366079256218893805"
+				"size" "79350969"
+				"download" "56723888"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "4922058F2A8526947EC41411F51AB400"
+				"size" "7CFC95D6D3BF16F9CE3C2925642649B2"
+				"download" "B0A9A830A7CABDD6AF445E8C24D31A30"
+			}
+			"cervantes"
+			{
+				"gid" "04EE7ECC1999ADB48F0CBF4CF9E09332"
+				"size" "24D6DF8741F06C74EA6389E08F84E68E"
+				"download" "3D5B14C33CFA48C15293D055A673A2EB"
+			}
 			"dechirico"
 			{
-				"gid" "44B2F69FD665D9976C6CF9CF056DB40E"
-				"size" "D6EA4EACB470F9B59330B0F8CD9D5A27"
-				"download" "7AA3F4948EE03D4A2B8FA1DA0BBA011D"
+				"gid" "BFB9E9A19D6674E09C4FFA7E7CF33D51"
+				"size" "7D73BAB9E184BC07D83FFD118E0E1DD6"
+				"download" "5A1A9270F7BDC1D5658AAB98883E3ACB"
 			}
 		}
 	}
@@ -922,6 +1222,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "B2B939341E6F87CB7BABC16C19D63B4A"
+				"size" "3DFE9680AE5271FDE6CCB08645FE58F5"
+				"download" "47D527B13DC971888A41623249881686"
+			}
+			"cervantes"
+			{
+				"gid" "56DCC707CAA58CEDCDE9CC6CE1F55C12"
+				"size" "FF6A8D2AD6C97A36C406919FBAF6EA75"
+				"download" "3A43CF6A28E32B5E6F0D76AC5019139B"
+			}
 			"dechirico"
 			{
 				"gid" "5D4F558411C8EAF06106E0CBCA6CE233"
@@ -948,6 +1260,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "AF3A92458237A14E5C77C3F2777DBFF4"
+				"size" "3F07416863AC8A5767540C11AAB212F6"
+				"download" "BE87E9ACF93250448140B0E122BA55CB"
+			}
+			"cervantes"
+			{
+				"gid" "66D53F71D37333105322BFB57CBE2811"
+				"size" "2AEF5806F4DB19C89A6C159E3EEF9102"
+				"download" "A775F9B1ABA08EC3334BEF0FBE1C9459"
+			}
 			"dechirico"
 			{
 				"gid" "494E2113A3EF43222AADDA43DC5B36AE"
@@ -974,6 +1298,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "4B05E5613DF676883C47AAF7C482D233"
+				"size" "074AE7113C8ADC45FB58EFE1088653D3"
+				"download" "197AE4F74041E0B4B7969E122394CA39"
+			}
+			"cervantes"
+			{
+				"gid" "0397CE86258510A9125F1B610C747F4F"
+				"size" "6B151C6BCDE28ADD65C3C61094B24B8C"
+				"download" "A59BEF0E9E17F399904044F54FA2A276"
+			}
 			"dechirico"
 			{
 				"gid" "69FA132569EDD6D41E56023542C93782"
@@ -1000,6 +1336,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "ED64AD3A723D92F3465FBA4A4F792FBC"
+				"size" "E1F163C6A2E5367D557099FD0DA87641"
+				"download" "F8D91C9A20F218E3703265C103404151"
+			}
+			"cervantes"
+			{
+				"gid" "E3E4FBCAE0CC1070E5AC431423564952"
+				"size" "7A78CB02CF915B11656BA3DCCE336008"
+				"download" "57C2F952352FD82BAB1495BE92E24EA9"
+			}
 			"dechirico"
 			{
 				"gid" "E9FE134CD14148AC4250A52735C72E28"
@@ -1026,6 +1374,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "C17A99B1EA0991FF1C31A7386E76837D"
+				"size" "07C6204341AD6EDEBA591E8513F922AE"
+				"download" "D64142951A1FB5A7E2F447164F6F467F"
+			}
+			"cervantes"
+			{
+				"gid" "63448E0C8A315CE1020D4CA2B20CAC11"
+				"size" "05DCB0BFEE94703B5A1AF7C3891F0DF1"
+				"download" "48F38347D2F7515B4AD632C42322B05B"
+			}
 			"dechirico"
 			{
 				"gid" "03FE88009846714E46D842CFFAFE68C2"
@@ -1052,6 +1412,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "17B46820C7B94B0979924214F8850D61"
+				"size" "79C07F920FAC1BBFC624E1758C37D29E"
+				"download" "F23AF87070E9228D6D08775BC78DB9B2"
+			}
+			"cervantes"
+			{
+				"gid" "F71B2C949761304CAC8A6BBA37518F2D"
+				"size" "D66A5D2C947AC3C9AC679AE35A3FC1ED"
+				"download" "5CFC437D8AA68FF79A60EACFA64F1976"
+			}
 			"dechirico"
 			{
 				"gid" "0C0BD216EB7E616035AAC43C6FA5B76D"
@@ -1078,6 +1450,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "4942C9A2657DB2FEEC532B87E3A85A0C"
+				"size" "3F07416863AC8A5767540C11AAB212F6"
+				"download" "BE87E9ACF93250448140B0E122BA55CB"
+			}
+			"cervantes"
+			{
+				"gid" "BAF836BAA217658B7380E254F6E3D318"
+				"size" "2AEF5806F4DB19C89A6C159E3EEF9102"
+				"download" "A775F9B1ABA08EC3334BEF0FBE1C9459"
+			}
 			"dechirico"
 			{
 				"gid" "AE7F9461928AC5BE2E217510F130CF6B"
@@ -1104,6 +1488,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "DFEAC24DFF2F0CD88162BB7A73C2F670"
+				"size" "3F07416863AC8A5767540C11AAB212F6"
+				"download" "BE87E9ACF93250448140B0E122BA55CB"
+			}
+			"cervantes"
+			{
+				"gid" "89A2BD600695964CB88F1EB265B322AF"
+				"size" "2AEF5806F4DB19C89A6C159E3EEF9102"
+				"download" "A775F9B1ABA08EC3334BEF0FBE1C9459"
+			}
 			"dechirico"
 			{
 				"gid" "7E7AE6C9FFB98C5984E9BAF4B465401E"
@@ -1130,6 +1526,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "2B514D7A67821C3F7C195923289A179A"
+				"size" "3F07416863AC8A5767540C11AAB212F6"
+				"download" "BE87E9ACF93250448140B0E122BA55CB"
+			}
+			"cervantes"
+			{
+				"gid" "24B1E54BEC072A02186FAB98659DE4CF"
+				"size" "2AEF5806F4DB19C89A6C159E3EEF9102"
+				"download" "A775F9B1ABA08EC3334BEF0FBE1C9459"
+			}
 			"dechirico"
 			{
 				"gid" "74ADE99DF0A7919AEB3BA94FE7D5130D"
@@ -1156,6 +1564,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "D84F64D465089330CC5A9FC35AB5AE00"
+				"size" "3F07416863AC8A5767540C11AAB212F6"
+				"download" "BE87E9ACF93250448140B0E122BA55CB"
+			}
+			"cervantes"
+			{
+				"gid" "35450783969775808B2590E51D811956"
+				"size" "2AEF5806F4DB19C89A6C159E3EEF9102"
+				"download" "A775F9B1ABA08EC3334BEF0FBE1C9459"
+			}
 			"dechirico"
 			{
 				"gid" "26516DF3E9959F786C96EC181D9D3CDA"
@@ -1182,6 +1602,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "E32DB33AF4B83479F47F818E69A7DD6B"
+				"size" "441C5F0DCFD1C124912F2443337E3932"
+				"download" "6DDC57BF71CC775C230D5440317B1C72"
+			}
+			"cervantes"
+			{
+				"gid" "A18FA4ECDF09D8A2D8E136B990469ED9"
+				"size" "2A9D1B04C61BF14AC96C94B11BEEEA81"
+				"download" "B5EE0A5A8C694865BC11081418037694"
+			}
 			"dechirico"
 			{
 				"gid" "60F5F1DC1392149C26CA0DBCF8288098"
@@ -1204,6 +1636,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "E26528AB4E4DCED88134DDE0B2F5EBAB"
+				"size" "5BCCC341BCAE2E03EF935185C61FFF5C"
+				"download" "2C239BAE8CF204B04B098BF64A586427"
+			}
+			"cervantes"
+			{
+				"gid" "1464E2DDC27735B15D615B0D5458E915"
+				"size" "7A200409B6C30390A1BCC9B4E21D6A63"
+				"download" "BFB51A9518D65093575296129265F698"
+			}
 			"dechirico"
 			{
 				"gid" "CA72A523A754C130FAA3E98BABB77249"
@@ -1226,6 +1670,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "D685C83E0CA18FCAE620403D7BF17604"
+				"size" "E73024560D17E33AB21B7C3AD2242307"
+				"download" "F2A535B9546F6684060D82CCE0F307B4"
+			}
+			"cervantes"
+			{
+				"gid" "B2C8256B75539DE98967AF2D8F3D95CE"
+				"size" "D57DCB78B17568617A5380D12A2C7D1B"
+				"download" "B3F5584786DC646A4A567E29CDC19A35"
+			}
 			"dechirico"
 			{
 				"gid" "34EA5C66366DEA9833A59802B8427566"
@@ -1252,6 +1708,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "F3A77B5EEE08F7136897C685209D893C"
+				"size" "0EB25C7BF955C26AE8B34D85D0E31DFB"
+				"download" "A3C6580BB1F8F86DE244E96CEB2EAFB6"
+			}
+			"cervantes"
+			{
+				"gid" "6DB503E87A6A8632B83B37A6D9632037"
+				"size" "B850C434B661F71D8BF302546CA0DF35"
+				"download" "859D0B23C1AB21A530A6193A737A4BCE"
+			}
 			"dechirico"
 			{
 				"gid" "8AA3F8DBF6E366435EE31B0793C5CA15"
@@ -1278,6 +1746,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "397852415BEC28B964084B6D657E1990"
+				"size" "338E9BA619DF2FE15ECBEEF0B9F0E2AC"
+				"download" "27424E1D3AEE62145DBB7F35F0F76D9E"
+			}
+			"cervantes"
+			{
+				"gid" "88B0D0ACC5B939158F8D4CA0C52821B7"
+				"size" "876D78DE877B6D167A06E0F2C6F69803"
+				"download" "0AAFBC3F8F055B6FD8BDEBD22A733DC6"
+			}
 			"dechirico"
 			{
 				"gid" "A908FFBFC2E6650F41A3ABD6B13293BB"
@@ -1304,6 +1784,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "D86D5D879FF54688E6F9F123179A15F3"
+				"size" "A9039E429E773E67DBF0BF961069A803"
+				"download" "A39967A5AEE25FA36C889A7AA83FB75E"
+			}
+			"cervantes"
+			{
+				"gid" "CBF039ECADDDB3D65622079B2856A663"
+				"size" "962414DD581EA50D11A2E14D4C1A2701"
+				"download" "A939D3FB77F71334BB4B173F757273A9"
+			}
 			"dechirico"
 			{
 				"gid" "A66212E45AE0C82B6DCE7D0EE4F728EF"
@@ -1330,6 +1822,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "951BFBEB8244FF3FDAF4810569E80A97"
+				"size" "FA9D64F960D08C8BE00D1815A61DDAE3"
+				"download" "4EB500DC7243B234ABECBC791A72AA68"
+			}
+			"cervantes"
+			{
+				"gid" "726868B57F3E9AB4D73431F43458D501"
+				"size" "0561F8B480C4BF6BF49EB43F4BD5C068"
+				"download" "6E4209A654D198C394F42A665B775ACF"
+			}
 			"dechirico"
 			{
 				"gid" "048DD14DC1F7FA63BC368AEC941FA10E"
@@ -1356,6 +1860,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "961EEA0900F6BD2745B8E2E8F2FF71CD"
+				"size" "CB0D175282AC90165CF1F019F29E97E0"
+				"download" "9C2BE80C012941705EF708F12CA3EF7C"
+			}
+			"cervantes"
+			{
+				"gid" "1C2A60959FABFC7653ECA37C512C8B74"
+				"size" "DD3385D381F381B98183F1FC0C72A964"
+				"download" "271AF7F9CAE27A405937790563BCC291"
+			}
 			"dechirico"
 			{
 				"gid" "82F4FC4A33C233BD2FFDF8E19440932F"
@@ -1382,6 +1898,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "3A22DC0D298541DA92F6E5DB35960976"
+				"size" "0EB25C7BF955C26AE8B34D85D0E31DFB"
+				"download" "A3C6580BB1F8F86DE244E96CEB2EAFB6"
+			}
+			"cervantes"
+			{
+				"gid" "FADC686379E55443B42DD2E7E22CA1A4"
+				"size" "B850C434B661F71D8BF302546CA0DF35"
+				"download" "859D0B23C1AB21A530A6193A737A4BCE"
+			}
 			"dechirico"
 			{
 				"gid" "400E6FFD43CB67C1F055FCDF9C828DDB"
@@ -1408,6 +1936,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "011D79A04B1BD5E1999F087466F11881"
+				"size" "0EB25C7BF955C26AE8B34D85D0E31DFB"
+				"download" "A3C6580BB1F8F86DE244E96CEB2EAFB6"
+			}
+			"cervantes"
+			{
+				"gid" "B7ED36922EEB91B18E6876FE4E88AD69"
+				"size" "B850C434B661F71D8BF302546CA0DF35"
+				"download" "859D0B23C1AB21A530A6193A737A4BCE"
+			}
 			"dechirico"
 			{
 				"gid" "02B7422BEE699B70C4142C58C19C6703"
@@ -1434,6 +1974,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "0C6B75B643673D0C1CC27E9A6E92A011"
+				"size" "0EB25C7BF955C26AE8B34D85D0E31DFB"
+				"download" "A3C6580BB1F8F86DE244E96CEB2EAFB6"
+			}
+			"cervantes"
+			{
+				"gid" "C3CC1C95C63EB3605AF65FD6C2B5ABCC"
+				"size" "B850C434B661F71D8BF302546CA0DF35"
+				"download" "859D0B23C1AB21A530A6193A737A4BCE"
+			}
 			"dechirico"
 			{
 				"gid" "F97501AA5184B43935F40E6AC2FDB137"
@@ -1460,6 +2012,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "0F8646A376E36B8AEEB35A61BC8B0A00"
+				"size" "0EB25C7BF955C26AE8B34D85D0E31DFB"
+				"download" "A3C6580BB1F8F86DE244E96CEB2EAFB6"
+			}
+			"cervantes"
+			{
+				"gid" "DEAA4DD86B9AC01A5389E51DFC6E20CE"
+				"size" "B850C434B661F71D8BF302546CA0DF35"
+				"download" "859D0B23C1AB21A530A6193A737A4BCE"
+			}
 			"dechirico"
 			{
 				"gid" "BC55562ADB01F08E33BF6215EF146E8A"
@@ -1486,6 +2050,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "281E78B34BDBDA13D52EA3E86C61BEE6"
+				"size" "57F4221DFCB38C088C1B76EEC2392879"
+				"download" "27C11D341E5353F176C19EE0A11AD074"
+			}
+			"cervantes"
+			{
+				"gid" "6F1D4D4FCA0DA221E3EEFB721D2D3679"
+				"size" "7713EC832A2D132C934016B619AD803D"
+				"download" "8B9C99A85555CFB907203D96B48512ED"
+			}
 			"dechirico"
 			{
 				"gid" "15D8942C5EAC48D1AC09733CEEB62C38"
@@ -1508,6 +2084,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "C602138D0363732D276B892DC12A4B54"
+				"size" "4585009DB7BE1A1794007AE8A32DF572"
+				"download" "E1A77EF453C71DBD00E7A39E0C49E5CA"
+			}
+			"cervantes"
+			{
+				"gid" "0D129BBA06E969887F3161F8DDADBD3A"
+				"size" "8E7EEEAAEA65C27FC6200CA315410C5A"
+				"download" "2A14B8935FAA745BD4C2A27A6F4D98B7"
+			}
 			"dechirico"
 			{
 				"gid" "BBC452145D53387D12EE4CA9C3FF76FB"
@@ -1534,6 +2122,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "818E21A6F2360070A598B72177605025"
+				"size" "ADDBBD11F8CBE05A0DBE787B5E9FC043"
+				"download" "F1A12C99FC8BEA415344B06D2DCC7EB0"
+			}
+			"cervantes"
+			{
+				"gid" "FD36E118B82CAD86A9146D62D6C85847"
+				"size" "5C615F3AB3D99A8BAEE0BB4470D74606"
+				"download" "3A7BF04DD8885BA428CD3310D8786455"
+			}
 			"dechirico"
 			{
 				"gid" "DB157F71AE7DBF5A1B957839EF0E67BE"
@@ -1560,6 +2160,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "0D764598DE23D70A24FEC1AF59A8CECC"
+				"size" "0B16ED4BBD0B8FBB7F1CF6E0269BFD1C"
+				"download" "4528499DCE62C5CE3AFA78FC2AA5FEB3"
+			}
+			"cervantes"
+			{
+				"gid" "BB361602280F5294F6C74E4F28EB2627"
+				"size" "991E06F74D3019520FD6E97E19950B30"
+				"download" "A4D506BDE45213C5A7C2B95F0067B67B"
+			}
 			"dechirico"
 			{
 				"gid" "0827E83BEC742315EBFF5C0FB907403A"
@@ -1586,6 +2198,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "5A1516A3D5EBEEA24C94BF76FF1CA158"
+				"size" "D5719409EECB9ACA3053308157BC0CF2"
+				"download" "4603B422607830078A6C9463906B08CF"
+			}
+			"cervantes"
+			{
+				"gid" "F91B5DD3594D147AED57D5D8770AF372"
+				"size" "E2FE4B458F746F87FA25CA95BA2F42EE"
+				"download" "457969B05C97BC39F9E6B87AC54A3F37"
+			}
 			"dechirico"
 			{
 				"gid" "327D79CF729612B546FBFC7C1FDF55A7"
@@ -1612,6 +2236,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "9D6464EF9B42DDF077A3EAEE94748CF8"
+				"size" "3ADE898416FAD919714BCE8F87A10BC5"
+				"download" "0886E758BC66A291C6865C4ED8A7BE76"
+			}
+			"cervantes"
+			{
+				"gid" "EFC43F0F8CD050B6896D25F02340B377"
+				"size" "B7C8BC8CD7D0EBD3832103ADE99ACF85"
+				"download" "AE4CECC4C9B5CFDBAFCC36D833A06AF7"
+			}
 			"dechirico"
 			{
 				"gid" "36064E7627303E608177984F3582FFE6"
@@ -1638,6 +2274,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "6D98D5C4778CB4432FC9826A4FD74362"
+				"size" "587807F4CE9C2AAC60947FBD1EF4528E"
+				"download" "313E02FF424DE826EF77A6ECBEAB966D"
+			}
+			"cervantes"
+			{
+				"gid" "A699F7754928B8C6AB49B67BD6126C88"
+				"size" "B1AF6EE7C71F3EA149460AFF090DF66B"
+				"download" "EADE01F188291836D83C8693829C49E1"
+			}
 			"dechirico"
 			{
 				"gid" "C0C0ED5D4358B7EDEBA553A39B31F5AD"
@@ -1664,6 +2312,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "7534CD2DF5D9AAD37C7F2CDB34D16E91"
+				"size" "ADDBBD11F8CBE05A0DBE787B5E9FC043"
+				"download" "F1A12C99FC8BEA415344B06D2DCC7EB0"
+			}
+			"cervantes"
+			{
+				"gid" "DE176D922D601E329FFD433AB52EE6F8"
+				"size" "5C615F3AB3D99A8BAEE0BB4470D74606"
+				"download" "3A7BF04DD8885BA428CD3310D8786455"
+			}
 			"dechirico"
 			{
 				"gid" "78E935A50D3B0BE99DE3015E0F0B002A"
@@ -1690,6 +2350,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "10599510F45A5F505E189740849FAFE1"
+				"size" "ADDBBD11F8CBE05A0DBE787B5E9FC043"
+				"download" "F1A12C99FC8BEA415344B06D2DCC7EB0"
+			}
+			"cervantes"
+			{
+				"gid" "A0728F90D56FB33C4A35BC64AC1250EC"
+				"size" "5C615F3AB3D99A8BAEE0BB4470D74606"
+				"download" "3A7BF04DD8885BA428CD3310D8786455"
+			}
 			"dechirico"
 			{
 				"gid" "D946DDBADEEE56797DBF31BE7660A564"
@@ -1716,6 +2388,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "711B545316D55161728107DAEC9F4549"
+				"size" "ADDBBD11F8CBE05A0DBE787B5E9FC043"
+				"download" "F1A12C99FC8BEA415344B06D2DCC7EB0"
+			}
+			"cervantes"
+			{
+				"gid" "CFE707259F1C5942074B2F27EC17D259"
+				"size" "5C615F3AB3D99A8BAEE0BB4470D74606"
+				"download" "3A7BF04DD8885BA428CD3310D8786455"
+			}
 			"dechirico"
 			{
 				"gid" "05A77E30C614EC365A2A95A78374CD1B"
@@ -1742,6 +2426,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "8831F58EC9812AD8ACFC1FEDDF5D4BA0"
+				"size" "5F9081A4772994C9AA8AE56161A6128B"
+				"download" "2E0B16C9DD8EA08733F7AF518EEE3A39"
+			}
+			"cervantes"
+			{
+				"gid" "1A6A5181D01042B0A720F0DDB5FB2CA2"
+				"size" "3EB072D7965D08E220C3F6563E360AE7"
+				"download" "0265F0282F80A4068F451DF4596BFBBE"
+			}
 			"dechirico"
 			{
 				"gid" "A9ACA430AD2BF75A7BE7E806FA3711B4"
@@ -1768,6 +2464,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "49AD1CF7290D3698510F9885E3327174"
+				"size" "BFDD2CAA4893CB339FA182A1AE6F19B7"
+				"download" "41428826BCCE94E1C00A3E2C0CE036B6"
+			}
+			"cervantes"
+			{
+				"gid" "DEBE00A31D45211999BFD232DB8CEA8E"
+				"size" "70FF7EB780443ABD7701714AC70E15C7"
+				"download" "008367663C0252B2009A39DF4290F434"
+			}
 			"dechirico"
 			{
 				"gid" "DEEBA64AB9A1A297D83AB7EDB048FE15"
@@ -1789,6 +2497,18 @@
 		}
 		"encryptedmanifests"
 		{
+			"beta2"
+			{
+				"gid" "3EFEE7E30306811D5811EE09A1F1C196"
+				"size" "3DADBB95B8B30956A12EC16D6C3D4A50"
+				"download" "0B89A9F95162A5DD3D763C521B353A79"
+			}
+			"cervantes"
+			{
+				"gid" "105AC5F16A615BA8D01D317B549E2353"
+				"size" "827CEFD9B5807B4738C4765C2DAD2D62"
+				"download" "28C3A61E342CBA55AF8ADF89C7A28763"
+			}
 			"dechirico"
 			{
 				"gid" "8CED87E4D8F9438A09D015F2441ADA5F"
@@ -1802,14 +2522,26 @@
 	{
 		"public"
 		{
-			"buildid" "4460038"
-			"timeupdated" "1575496899"
+			"buildid" "14160910"
+			"timeupdated" "1714053732"
+		}
+		"beta2"
+		{
+			"buildid" "14160910"
+			"pwdrequired" "1"
+			"timeupdated" "1713969978"
+		}
+		"cervantes"
+		{
+			"buildid" "14160910"
+			"pwdrequired" "1"
+			"timeupdated" "1713969994"
 		}
 		"dechirico"
 		{
-			"buildid" "12908006"
+			"buildid" "14160910"
 			"pwdrequired" "1"
-			"timeupdated" "1702015454"
+			"timeupdated" "1713970010"
 		}
 	}
 }
@@ -1832,6 +2564,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21451294"
-"_sha" "fae3ba8371743a5ee6b41fbdd0c72a0260e7e7f3"
-"_size" "31483"
+"_change_number" "23299803"
+"_sha" "bdfd5cc725bd50087d9b5948c246bf6b8927dff0"
+"_size" "52478"
