@@ -1,0 +1,365 @@
+"appid" "378610"
+"common"
+{
+	"name" "Valley"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "22e9230acc8cbda99ac00851be2d1a35201569af"
+	"logo_small" "22e9230acc8cbda99ac00851be2d1a35201569af_thumb"
+	"icon" "28e8149b20e2f7bff9757c8a7641ff81620d7275"
+	"clienttga" "1c0890ae923d785af8df1a8c6c2ba44d85fb32e4"
+	"clienticon" "40887f1d11b38a027fb676f0aa5974591870c722"
+	"osarch" ""
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1648166400"
+		"tested_build_id" "1595577"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "simultaneous_gamepad_mouse"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Valley"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "35.122520420069975"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1666998242"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Blue Isle Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Blue Isle Publishing"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_28" "1"
+		"category_43" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1472022000"
+	"steam_release_date" "1472045768"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "378610"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "3839"
+		"2" "3834"
+		"3" "4036"
+		"4" "492"
+		"5" "4182"
+		"6" "19"
+		"7" "1695"
+		"8" "4166"
+		"9" "1756"
+		"10" "3942"
+		"11" "5900"
+		"12" "1742"
+		"13" "5395"
+		"14" "1667"
+		"15" "4234"
+		"16" "4057"
+		"17" "1625"
+		"18" "1662"
+		"19" "1684"
+	}
+	"review_score" "8"
+	"review_percentage" "91"
+}
+"extended"
+{
+	"developer" "Blue Isle Studios"
+	"publisher" "Blue Isle Publishing"
+	"homepage" "http://valleythegame.com"
+	"listofdlc" "494420"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Valley"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Valley.exe"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Valley.app"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Valley.x86_64"
+			"arguments" "-force-opengl"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "Valley.exe"
+			"arguments" "-show-screen-selector"
+			"type" "config"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "Valley.app"
+			"arguments" "-show-screen-selector"
+			"type" "config"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"5"
+		{
+			"executable" "Valley.x86_64"
+			"arguments" "-show-screen-selector -force-opengl"
+			"type" "config"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"378611"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5266660420996570278"
+				"size" "4272653497"
+				"download" "2134327520"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"publicbeta"
+			{
+				"gid" "9E0CD223095290E195083844972E8E14"
+				"size" "BA976A33227A6C950738912A309B23F6"
+				"download" "EA0446EF9C5573E8A3E951DBC51AA4A9"
+			}
+			"test"
+			{
+				"gid" "CBF1EDE0445A4359A365CC6A618571C7"
+				"size" "61F5DAA6E6F4941DFF5D827811CDEA9F"
+				"download" "768C41896920FD8210C6BF7D51A14165"
+			}
+		}
+	}
+	"378612"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6920699665547402947"
+				"size" "4312084650"
+				"download" "2147231120"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"publicbeta"
+			{
+				"gid" "8864BA535EA55F43E8D973B214600E46"
+				"size" "3C304F14AC7CA85DA212EFFF426FE619"
+				"download" "F67EB739A191FE10D0EBCCD7DE0D47C0"
+			}
+			"test"
+			{
+				"gid" "193B2AD520558193EB63B9AB6D6E0BA7"
+				"size" "081C31603B791165CA8E0053477C441B"
+				"download" "BE5A434C45A7C498612EE4D2E32B3A68"
+			}
+		}
+	}
+	"378613"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2536499499969865056"
+				"size" "4286257795"
+				"download" "2135495456"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"publicbeta"
+			{
+				"gid" "4ADA2D330A47A684DF946D10E810F689"
+				"size" "021028889BEA0F021C5CF9CFD0FD0B32"
+				"download" "DD484D402957FE5028525BC12C2B1DB1"
+			}
+			"test"
+			{
+				"gid" "7B1919CE929AFAF70B68B00ECF0C10FF"
+				"size" "02BE5FD891EFEB8269528C4F2B5A6548"
+				"download" "691DAD45FED99FA4DF288CF0199057B1"
+			}
+		}
+	}
+	"494420"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2319917858554560019"
+				"size" "899718141"
+				"download" "753540176"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"publicbeta"
+			{
+				"gid" "544B3BC88BB4186295AD2D4D7B04CF17"
+				"size" "AD007D5406A235FB36F46FB64A39AE41"
+				"download" "32E2B97A4595EAE47D585A019D182860"
+			}
+			"test"
+			{
+				"gid" "0DAB89179D89415525B9F633C44E5BEE"
+				"size" "3B0CE63FFBD77CFDABE2362E19BCC89D"
+				"download" "723CAC6AEFDC3E3D87686445F8201A57"
+			}
+		}
+		"dlcappid" "494420"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1595577"
+			"timeupdated" "1485552203"
+		}
+		"publicbeta"
+		{
+			"buildid" "1586439"
+			"pwdrequired" "1"
+			"timeupdated" "1485211444"
+		}
+		"test"
+		{
+			"buildid" "1430421"
+			"pwdrequired" "1"
+			"timeupdated" "1477948140"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "5000000"
+	"maxnumfiles" "12"
+}
+"_missing_token" "False"
+"_change_number" "22747614"
+"_sha" "4c4e114b970c9ae21d1d8d854436a5bf77214079"
+"_size" "6674"
