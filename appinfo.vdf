@@ -1,0 +1,170 @@
+"appid" "283350"
+"common"
+{
+	"name" "Eurofighter Typhoon"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"logo" "7e32a43f9aea79bd11f503e945ca3be454adc211"
+	"logo_small" "7e32a43f9aea79bd11f503e945ca3be454adc211_thumb"
+	"clienttga" "a290131bd44c8f2628334b063d1383ff56c65e4f"
+	"icon" "f9a2ef79928818894f29e0f7a74ef96cd50a2025"
+	"clienticon" "98824703ea58993593019d823fa7cdd09a96716d"
+	"metacritic_name" "Eurofighter Typhoon"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1398201160"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Rage Software"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Funbox Media Ltd"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"original_release_date" "996476400"
+	"steam_release_date" "1399062161"
+	"metacritic_score" "69"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/eurofighter-typhoon\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "283350"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "15045"
+		"2" "599"
+	}
+	"review_score" "4"
+	"review_percentage" "24"
+}
+"extended"
+{
+	"developer" "Rage Software"
+	"publisher" "Funbox Media Ltd"
+	"homepage" "http://www.funboxmedia.co.uk/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Eurofighter Typhoon"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Typhoon.exe"
+			"description" "Play Eurofighter Typhoon"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "config3dr2000.exe"
+			"description" "Configure Settings"
+		}
+	}
+	"installscriptsignature" "15975f34ae3390324526db01d20d2dcdff7f4a5bf147fe020dba7d3e3d60620a916b81ab082dd044d243b3cb5ba4640bb5c2ed891e9a299cac59412dd085d663d2ddaf7f1e943299c5e991b4536211ec39810c1f7240c09e1c0ec72f6f9b72d5927b24e6db412b0c0d565dc590901b35d4ec394b7b6a738ada0112c43afe6fa2"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\rage software\\eurofighter typhoon\\1.00.000"
+		{
+			"string"
+			{
+				"installpath" "%INSTALLDIR%"
+			}
+			"dword"
+			{
+				"patchversion" "1000"
+			}
+		}
+		"hkey_current_user\\software\\microsoft\\windows nt\\currentversion\\appcompatflags\\layers"
+		{
+			"string"
+			{
+				"%installdir%\\typhoon.exe" "WIN98 RUNASADMIN"
+			}
+		}
+		"hkey_current_user\\software\\digital image design\\hovis"
+		{
+			"string"
+			{
+				"hovappdata" "%INSTALLDIR%"
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\283350"
+			"process 1" "%INSTALLDIR%\\DirectX\\dxwebsetup.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"283351"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1115782814568173102"
+				"size" "532688686"
+				"download" "0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "242461"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "0"
+	"maxnumfiles" "0"
+}
+"_missing_token" "False"
+"_change_number" "22861534"
+"_sha" "ff0719f2812a2e355aac30a7bb17a6f2d9c977a7"
+"_size" "3236"
