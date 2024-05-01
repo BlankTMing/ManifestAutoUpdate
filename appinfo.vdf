@@ -1,0 +1,330 @@
+"appid" "686260"
+"common"
+{
+	"name" "Forged Battalion"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"icon" "0623ce99a9b7c20eb325e1a2c1fadbc551cb856f"
+	"logo" "7767f3bcb7680bd5a990341b95f3f0ca1ef0e0cc"
+	"logo_small" "7767f3bcb7680bd5a990341b95f3f0ca1ef0e0cc_thumb"
+	"clienttga" "7eb52b97e59e19942b813a0c5e7330f12875cbb1"
+	"clienticon" "0ca27cf4697627a51788de7aa0bb9b33f8110422"
+	"clienticns" "56c2b211d6dfe0849c563e6ff7cbd1bc214c7bad"
+	"linuxclienticon" "bfbd99452425b12e7bb4c9facc083f3a9104d19c"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1667433600"
+		"tested_build_id" "3024021"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Forged Battalion"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "55.49687625985817"
+			"height_pct" "49.26833333333334"
+		}
+	}
+	"store_asset_mtime" "1563532282"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Petroglyph"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Petroglyph"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Petroglyph"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_36" "1"
+		"category_38" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_30" "1"
+		"category_49" "1"
+		"category_9" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1534262280"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "686260"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "1676"
+		"2" "599"
+		"3" "492"
+		"4" "3859"
+		"5" "4182"
+	}
+	"review_score" "5"
+	"review_percentage" "57"
+}
+"extended"
+{
+	"developer" "Petroglyph"
+	"publisher" "Petroglyph"
+	"homepage" "https://www.petroglyphgames.com"
+}
+"config"
+{
+	"installdir" "ForgedBattalion"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ClientLauncherG.exe"
+			"arguments" "DUMP_FULL"
+			"type" "default"
+		}
+		"1"
+		{
+			"executable" "ClientLauncherR.exe"
+			"arguments" "DEVNUMS=133 DUMP_FULL IGNOREASSERTS"
+			"type" "option1"
+			"config"
+			{
+				"betakey" "beta"
+			}
+			"description_loc"
+			{
+				"english" "DebugKeys Build"
+			}
+			"description" "DebugKeys Build"
+		}
+		"2"
+		{
+			"executable" "ClientLauncherG.exe"
+			"arguments" "DUMP_FULL COORDURL=http://52.7.55.172:6530/"
+			"type" "option2"
+			"config"
+			{
+				"betakey" "never"
+			}
+			"description_loc"
+			{
+				"english" "Gold Build"
+			}
+			"description" "Gold Build"
+		}
+		"3"
+		{
+			"executable" "ClientLauncherG.exe"
+			"arguments" "RUN_EDITOR"
+			"description" "Make Custom Maps"
+			"type" "editor"
+		}
+	}
+	"steamcontrollertemplateindex" "6"
+	"steamdecktouchscreen" "1"
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"686261"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8303580153967111229"
+				"size" "1570290022"
+				"download" "979181040"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "91C1D5AB1573BC4C0B4B4B7AD7578905"
+				"size" "5DC163694A0A9967E70F9575F189759D"
+				"download" "A6A1F37A4C930F72A220006AE240299B"
+			}
+			"customersupport"
+			{
+				"gid" "052D3D02379B0883CDB5EFC8A3CDF8FC"
+				"size" "FF37637BC5BEBC3442E56F863715A59A"
+				"download" "CF5A105C8D0527D634C1BAE2EB735388"
+			}
+			"test"
+			{
+				"gid" "96F5FBEA0677D780B5DACA561A3ADF31"
+				"size" "AF53C2857E826AA1F994C9D7727FECF5"
+				"download" "5EAF6A8454D0E9BD383D812D58E243D6"
+			}
+		}
+	}
+	"workshopdepot" "686260"
+	"baselanguages" "english,german,french,koreana,spanish,schinese,russian"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13005997"
+			"timeupdated" "1703196159"
+		}
+		"beta"
+		{
+			"buildid" "13005997"
+			"pwdrequired" "1"
+			"timeupdated" "1703035836"
+		}
+		"customersupport"
+		{
+			"buildid" "2446493"
+			"pwdrequired" "1"
+			"timeupdated" "1516275511"
+		}
+		"test"
+		{
+			"buildid" "2470192"
+			"pwdrequired" "1"
+			"timeupdated" "1517225045"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "512000000"
+	"maxnumfiles" "5120"
+}
+"_missing_token" "False"
+"_change_number" "22593138"
+"_sha" "4e4954d05fedbc67844962fecbe273e98c24fab6"
+"_size" "6286"
