@@ -1,23 +1,31 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-05-01 16:54:17
+## 更新时间：2024-05-01 16:59:10
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1637171 | 永劫无间 - 终极版升级包（需拥有豪华版）| DLC |
-| 688590 | Hard Rock Zombie Truck| Game |
-| 707370 | Crankies Workshop: Whirlbot Assembly| Game |
-| 884250 | Fitzzle Wise Owls| Game |
-| 777160 | Forgotten Places: Regained Castle| Game |
-| 791970 | QLORB| Game |
-| 860390 | Math Speed Challenge| Game |
-| 843210 | You're Fired| Game |
-| 243800 | Gas Guzzlers Extreme| Game |
-| 1505410 | Looking for girls| Game |
-| 1079340 | homicide| Game |
-| 1081140 | Zombies war| Game |
-| 966160 | Seek Love| Game |
-| 713920 | Brayan Odleys Numbers| Game |
-| 973580 | 狙击手：幽灵战士契约| Game |
-| 1244510 | Sniper Ghost Warrior Contracts - Soundtrack| Music |
-| 493520 | GTFO| Game |
-| 1786200 | 战争与玫瑰| Game |
+| 1390580 | Curse Lsland| Game |
+| 774861 | Project Winter| Game |
+| 893180 | Catherine Classic| Game |
+| 905940 | 女神驾到丨Happy Together| Game |
+| 716110 | Bitcoin Clicker| Game |
+| 1051170 | 家园/HOME| Game |
+| 772540 | Battle Royale Trainer| Game |
+| 263280 | Spintires®| Game |
+| 204300 | Awesomenauts| Game |
+| 313010 | Cities XXL| Game |
+| 447820 | Day of Infamy| Game |
+| 268750 | Magicite| Game |
+| 393160 | Cities XXL Map Editor| Tool |
+| 323320 | Grow Home| Game |
+| 422970 | Devil Daggers| Game |
+| 374900 | Agatha Christie - The ABC Murders| Game |
+| 252290 | Elegy For A Dead World| Game |
+| 718850 | Age of Wonders: Planetfall| Game |
+| 425410 | Road to Ballhalla| Game |
+| 47890 | The Sims™ 3| game |
+| 1275500 | ENDLESS™ Space 2 - Original Soundtrack| Music |
+| 426000 | HunieCam Studio| Game |
+| 1275570 | ENDLESS™ Space 2 - Harmonic Memories Soundtrack| Music |
+| 222750 | Wargame: AirLand Battle| Game |
+| 1275580 | ENDLESS™ Space 2 - Lost Symphony Soundtrack| Music |
+| 364420 | Roguelands| Game |
