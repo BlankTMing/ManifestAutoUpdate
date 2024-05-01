@@ -1,0 +1,157 @@
+"appid" "406800"
+"common"
+{
+	"name" "Out of Reach Dedicated Server"
+	"type" "Tool"
+	"oslist" "windows,linux"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "406800_eula_0"
+			"name" "Out of Reach Dedicated Server EULA"
+			"url" "http://store.steampowered.com//eula/406800_eula_0"
+		}
+	}
+	"logo" "826b564ec6746e044a552e3f3065af4a09104cfa"
+	"logo_small" "826b564ec6746e044a552e3f3065af4a09104cfa_thumb"
+	"icon" "d050d8031d6dc7ce44df707fe3eee21e8cf338d9"
+	"clienttga" "e0073c5f4e419bad604bd01e9e8675c6bd6b15ef"
+	"clienticon" "d98d52129b190caa511d49b0b647e55e508e8a00"
+	"releasestate" "released"
+	"section_type" "ownersonly"
+	"associations"
+	{
+	}
+	"community_hub_visible" "1"
+	"gameid" "406800"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "oor-server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SFS2X/sfs2x-service"
+			"arguments" "start -Dspring.profiles.active=h2"
+			"type" "server"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "SFS2X\\oor-server.bat"
+			"workingdir" "SFS2X"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"406801"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4579662108376774771"
+				"size" "1089506001"
+				"download" "452100624"
+			}
+			"acceptance-test"
+			{
+				"gid" "4579662108376774771"
+				"size" "1089506001"
+				"download" "452100624"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "8C5FA85E896581AD24D8A87DA26EED59"
+				"size" "FBB51C59CAD5455F2DDD60E2E5BF05F1"
+				"download" "257DF71F10855CAB9EE314C84F41EBE5"
+			}
+		}
+	}
+	"406802"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3187265135399302722"
+				"size" "1101154340"
+				"download" "470012640"
+			}
+			"acceptance-test"
+			{
+				"gid" "3187265135399302722"
+				"size" "1101154340"
+				"download" "470012640"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "57F2B82054F865C8620E3CB914DD7F2C"
+				"size" "707705CEED0E900F5B91CEB881E9086F"
+				"download" "5AA13A2726336AC0F0F06C820170EEF7"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3087675"
+			"timeupdated" "1536057889"
+		}
+		"acceptance-test"
+		{
+			"buildid" "3087675"
+			"timeupdated" "1535989678"
+		}
+		"beta"
+		{
+			"buildid" "3087675"
+			"pwdrequired" "1"
+			"timeupdated" "1536057879"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "f9770d817d3059c06cadda5bedc06755b8bfcca6"
+"_size" "2714"
