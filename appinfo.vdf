@@ -1,0 +1,237 @@
+"appid" "485120"
+"common"
+{
+	"name" "Frog Climbers"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "db13b4ebab28f5e7cb601f44a198d93c4ae3d67c"
+	"logo_small" "db13b4ebab28f5e7cb601f44a198d93c4ae3d67c_thumb"
+	"clienticon" "d1fe7344fa04c9dc12845aa922e059408e4a2135"
+	"clienttga" "20d5d367fc021d0b868cc8fb8e7f1b7ed562f6c8"
+	"icon" "fec32b203c3e04ff3cb472cfef92f161f0132ab3"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"app_retired_publisher_request" "1"
+	"metacritic_name" "Frog Climbers"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1656581991"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "TeamCrew"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Dear Villagers"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Dear Villagers"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_37" "1"
+		"category_24" "1"
+		"category_25" "1"
+		"category_28" "1"
+		"category_44" "1"
+		"category_41" "1"
+		"category_42" "1"
+		"category_43" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1475737200"
+	"steam_release_date" "1475768580"
+	"community_hub_visible" "1"
+	"gameid" "485120"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "7368"
+		"2" "4136"
+		"3" "4036"
+		"4" "4840"
+	}
+	"review_score" "8"
+	"review_percentage" "83"
+}
+"extended"
+{
+	"developer" "TeamCrew"
+	"publisher" "Dear Villagers"
+	"homepage" "http://frogclimbers.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Frog Climbers"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "FrogClimbers.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "FrogClimbers.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"1908700209"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"485121"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2863381204661274469"
+				"size" "1045284366"
+				"download" "144059920"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "BF9EF4674F859B34323CCA860F19300D"
+				"size" "DDDB088E4A172DE16F163E4E1420779F"
+				"download" "A137981CD0E4BC48C6F145C2E42FBAAC"
+			}
+		}
+	}
+	"485122"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "3072AFCA832289E00EAC6464DEA64D6B"
+				"size" "06A90D2CF430A84C80BA621A4C79028B"
+				"download" "5EE9118292A905786D2F45C4BD0AC1F5"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1507051"
+			"timeupdated" "1481226604"
+		}
+		"beta"
+		{
+			"buildid" "1734625"
+			"pwdrequired" "1"
+			"timeupdated" "1491319397"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "500000"
+	"maxnumfiles" "500"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20575197"
+"_sha" "0b2486c9342f88292eaaad5e4d1d9efa9a30ffdb"
+"_size" "3912"
