@@ -15,7 +15,6 @@
 	{
 		"0" "5"
 	}
-	"has_adult_content" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "3"
@@ -280,7 +279,7 @@
 		"19" "7743"
 	}
 	"review_score" "8"
-	"review_percentage" "84"
+	"review_percentage" "85"
 }
 "extended"
 {
@@ -298,11 +297,26 @@
 		"0"
 		{
 			"executable" "Planes, Bullets and Vodka.exe"
-			"type" "default"
+			"type" "option1"
 			"config"
 			{
 				"oslist" "windows"
 			}
+			"description_loc"
+			{
+				"english" "Planes, Bullets and Vodka"
+			}
+			"description" "Planes, Bullets and Vodka"
+		}
+		"1"
+		{
+			"executable" "Gifts\\Burning Skies Neon\\Burning Skies Neon.exe"
+			"type" "option2"
+			"description_loc"
+			{
+				"english" "Burning Skies Neon"
+			}
+			"description" "Burning Skies Neon"
 		}
 	}
 }
@@ -335,6 +349,7 @@
 	}
 	"577020"
 	{
+		"dlcappid" "577020"
 		"manifests"
 		{
 			"public"
@@ -353,20 +368,40 @@
 				"download" "5C03E64AF0FCEF3AC14C4D6E11B8AFC2"
 			}
 		}
-		"dlcappid" "577020"
+	}
+	"562362"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5813109673458727519"
+				"size" "225729822"
+				"download" "110959760"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development_branch"
+			{
+				"gid" "542EBEBB9B66DB943AD0A87F300D8C43"
+				"size" "D0E1F98960FE4B95D7408756D5DB48E0"
+				"download" "EED069002CE23DB80BE48E8363898C91"
+			}
+		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13127504"
-			"timeupdated" "1704811879"
+			"buildid" "14225616"
+			"timeupdated" "1714507808"
 		}
 		"development_branch"
 		{
-			"buildid" "13127504"
+			"buildid" "14225616"
 			"pwdrequired" "1"
-			"timeupdated" "1704811959"
+			"timeupdated" "1714507271"
 		}
 	}
 }
@@ -393,6 +428,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21818831"
-"_sha" "2133d673e29832c9c556f66d6d29060aa7846b6f"
-"_size" "7031"
+"_change_number" "23365552"
+"_sha" "dae4a58a52e5d7f678978273a43d24bb18760c24"
+"_size" "7724"
