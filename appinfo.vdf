@@ -1,0 +1,626 @@
+"appid" "368420"
+"common"
+{
+	"name" "Mirage: Arcane Warfare"
+	"type" "Game"
+	"eulas"
+	{
+		"1"
+		{
+			"id" "368420_eula_1"
+			"name" "Mirage: Arcane Warfare EULA 1"
+			"url" "http://store.steampowered.com//eula/368420_eula_1"
+		}
+	}
+	"logo" "fe99a993ace9c26d8fe7ff317c4ea41ba41f1f43"
+	"logo_small" "fe99a993ace9c26d8fe7ff317c4ea41ba41f1f43_thumb"
+	"clienticon" "bb13b878957142d222166847ccc42c30c77ca404"
+	"clienttga" "8fa8115e13fb80cc9e361c6979ce92aef843315d"
+	"icon" "c0b61f2a0d0499217b8b947eab1a995966dfe3c8"
+	"oslist" "windows"
+	"releasestate" "released"
+	"osarch" "64"
+	"metacritic_name" "Mirage: Arcane Warfare"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1504647279"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Torn Banner Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Torn Banner Studios"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "73"
+		"1" "74"
+		"2" "1"
+		"3" "23"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_36" "1"
+		"category_18" "1"
+		"category_29" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1495558860"
+	"metacritic_score" "74"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/mirage-arcane-warfare\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "368420"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "3859"
+		"2" "3839"
+		"3" "4057"
+		"4" "1663"
+		"5" "4345"
+		"6" "4667"
+		"7" "1756"
+		"8" "492"
+		"9" "1684"
+		"10" "1697"
+		"11" "1775"
+	}
+	"review_score" "5"
+	"review_percentage" "53"
+}
+"extended"
+{
+	"gamedir" "TBL"
+	"developer" "Torn Banner Studios"
+	"publisher" "Torn Banner Studios"
+	"homepage" "http://www.miragearcanewarfare.com/"
+	"listofdlc" "548660,614740"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Mirage Arcane Warfare"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TBL-Win64-Shipping.exe"
+			"description" "Latte Shipping"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "TBL-Win64-Test.exe"
+			"arguments" "-novsync -noverifygc -uncapfps"
+			"description" "Test -- TBL-Win64-Test.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"ownsdlc" "536820"
+			}
+		}
+		"3"
+		{
+			"executable" "TBL.exe"
+			"arguments" "-log"
+			"description" "Development -- TBL.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"ownsdlc" "536820"
+			}
+		}
+		"4"
+		{
+			"executable" "TBL-Win64-Debug.exe"
+			"arguments" "-log"
+			"description" "Debug -- TBL-Win64-Debug.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"ownsdlc" "536820"
+			}
+		}
+		"5"
+		{
+			"executable" "TBL\\Binaries\\Win64\\TBL-Win64-Shipping.exe"
+			"description" "Shipping, no wrapper"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"ownsdlc" "536820"
+			}
+		}
+	}
+	"usemms" "1"
+}
+"depots"
+{
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"368421"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1468268255518728710"
+				"size" "15718816450"
+				"download" "5258857104"
+			}
+			"local"
+			{
+				"gid" "2332660819971814461"
+				"size" "11293346228"
+				"download" "3119087984"
+			}
+			"patch_testing"
+			{
+				"gid" "1468268255518728710"
+				"size" "15718816450"
+				"download" "5258857104"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha_testing"
+			{
+				"gid" "DC40EF875A24B4DBBDD44FAEEE91EF15"
+				"size" "D92CD6815B0E106F6D2556CAA4F2EFE1"
+				"download" "DC0F65C0204FCCCEF42982AEE24695D3"
+			}
+			"cl31539"
+			{
+				"gid" "7AC43BB14B6A7BF0A3D2599E24A3D1C9"
+				"size" "C025B5062D15D33E01D7E897D4F0A999"
+				"download" "F68821EB8291A88767D6B6AB08180DD4"
+			}
+			"continuous"
+			{
+				"gid" "E7B085BBCCD4CCE9534BC99F3F25435D"
+				"size" "F1FD4BE2C385761A0378CA04EF03B301"
+				"download" "E1DF9975CE627824BDD68CF0E6AB5018"
+			}
+			"gdc_build"
+			{
+				"gid" "437B571F73AB3B0FA66866C59AA8E098"
+				"size" "8ABED1E8C4A7482BF5D971704A68477A"
+				"download" "535A50D95F66AFE152A51F1D2970601B"
+			}
+			"last_live"
+			{
+				"gid" "B2C0011E016344556B6C76DDB0DF37D8"
+				"size" "F2627CD45B26CBC1B314197FC0455190"
+				"download" "7CEB25E6D472B0CCACBAAFF28F039955"
+			}
+			"latest"
+			{
+				"gid" "5F07EDD1927829CB307EE4A34E812B19"
+				"size" "CFAA69A53F0A5DC9ED10735368BC29A6"
+				"download" "FA332DF7C63EC058A0D3840F1376A00A"
+			}
+			"live"
+			{
+				"gid" "5E439B68CB70560A5AA44339DC107941"
+				"size" "E19BCEC1336104B98A42D870164657FA"
+				"download" "1B4AD9E5615705126FB65C526A44ECC3"
+			}
+			"marketing"
+			{
+				"gid" "198D623FA2133BD20D61A818AF9B4FD3"
+				"size" "7B75AD67EF3107B79B90F46F609FCBDD"
+				"download" "B5D84E53569502EA7A8AFB2255A65BF1"
+			}
+			"marketing2"
+			{
+				"gid" "1ACA03CD2177063FE8DED5E97EB7D56A"
+				"size" "E734741861415FC56EE7C6507BDF8426"
+				"download" "E0766405C2A4565F70D01C8DFF9B644F"
+			}
+			"mirage_launch"
+			{
+				"gid" "BA06E788DC4E718E47ABF67B1E1437F4"
+				"size" "E65EE72D46D20728D7934F5896658C7A"
+				"download" "AAF78439DD608670BF3803FA6CC7FEE8"
+			}
+			"nightly"
+			{
+				"gid" "654567CD32573758226AB201A9C158A7"
+				"size" "76C9521076AFE8F1A3A8121D36BB0A3F"
+				"download" "990E14D3A37E89761C812F06F650FE9F"
+			}
+			"pax_archive"
+			{
+				"gid" "AF749FB263D35E52DE5E8419B7369B1A"
+				"size" "9B490DFF2F770B1A7DA162F4F939A376"
+				"download" "7CCF6D8926BCDD19D647E2B744591114"
+			}
+			"pax_west"
+			{
+				"gid" "9C3519D587E1485737CE82396BF08BB4"
+				"size" "C206F46F35C9CE37705FDC7E263F57D0"
+				"download" "28A1AC2A90D7EBD97C920D8E46BC3933"
+			}
+			"testing"
+			{
+				"gid" "15658055BBE40567B0F99BDA81AEDCA9"
+				"size" "8816A4F84C659CDD14989FAC6598D5EC"
+				"download" "7CC26DEB2CAA44F62913F1F38EC29137"
+			}
+			"trailer"
+			{
+				"gid" "ED3DDCF9A1B275CC7F3E2CE4839583B8"
+				"size" "5229F0468A3DA4D3AA0E09E399CE624A"
+				"download" "1E5E956EAA4B82B54C0DC7DAF359A19F"
+			}
+			"withlinux"
+			{
+				"gid" "3171192575386BB7C3D2AC1DB0D06432"
+				"size" "C2B984D510C817BE7C46799ECA9300D7"
+				"download" "55131B5AC1D060EC7FA8D7D69F1364B7"
+			}
+		}
+	}
+	"536820"
+	{
+		"dlcappid" "536820"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6882676419056800428"
+				"size" "409459712"
+				"download" "86671632"
+			}
+			"patch_testing"
+			{
+				"gid" "6882676419056800428"
+				"size" "409459712"
+				"download" "86671632"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha_testing"
+			{
+				"gid" "63669888A9407A436DB2E8105454A12A"
+				"size" "61FDA7D5F6672879B36B0CEC134F18FC"
+				"download" "0DDBDE16ED3A74F2310B0EE138D64446"
+			}
+			"last_live"
+			{
+				"gid" "E5B6B92C7ACECCC79901B3DA8938CD09"
+				"size" "1AC18BA24D2318D7AFE690DB350D88ED"
+				"download" "695B7EB38EE53CE61A2120D35F230F22"
+			}
+			"latest"
+			{
+				"gid" "FD6A73CABEA6579CBB515486AEE62614"
+				"size" "717E0FB99C3540BEB32B63FAF8BA4962"
+				"download" "46E4FE782C799815E7836D4D2AAB3726"
+			}
+			"live"
+			{
+				"gid" "87F5258B4AD5F7E41EE390F84C1BC1EF"
+				"size" "D594570E595390292772D340999F8AE0"
+				"download" "067D8439C6C05E3E152D0C9DB65B4CF0"
+			}
+			"marketing"
+			{
+				"gid" "CDE88B3B1388B7A405212FAC6B4F5153"
+				"size" "51538A02E939EB23FD78988E45FBB050"
+				"download" "3A26E765C355DE02B3C71473A9F08FC1"
+			}
+			"marketing2"
+			{
+				"gid" "AB3652775D1CFFF5301AB12C1E21569D"
+				"size" "E573A8347A73B36EBEFACDE0CC6D39B1"
+				"download" "EC3E9A6BC11A2B2B7D81D2A164CC2FDF"
+			}
+			"mirage_launch"
+			{
+				"gid" "6B84CE7997B0CA228CBFBA4E2960CDAF"
+				"size" "2575492CE7EB2C0E0C92DE8D6402AAC5"
+				"download" "255CDBD86C40B0E55147691A291D1A51"
+			}
+			"nightly"
+			{
+				"gid" "90F4426C3D0C73F744FB764DC272AFFC"
+				"size" "27B985D2CE49C850BF225F5288246F69"
+				"download" "9A415F3819EC4E3D506CF6C7BB8636DC"
+			}
+			"testing"
+			{
+				"gid" "8E4E18B29951CB020F15B569B5F59931"
+				"size" "0AD39B00E9086DA5AE39109939D45F4C"
+				"download" "C62FDE9EA18B360ECD65A4E0AB13E242"
+			}
+			"trailer"
+			{
+				"gid" "FD2F06576FF1691F223A83973CF8A88E"
+				"size" "B46579223714EA4D98AE2DAD8D3F74DB"
+				"download" "D4D2E125D9EEFBB81E155B44B03E8A2B"
+			}
+		}
+	}
+	"548660"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5986226876968242506"
+				"size" "516998975"
+				"download" "517268192"
+			}
+			"patch_testing"
+			{
+				"gid" "5986226876968242506"
+				"size" "516998975"
+				"download" "517268192"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha_testing"
+			{
+				"gid" "61F667DB3A391A58EAE42704A1405642"
+				"size" "33C940B1BEA919DD6F2D70BF6B22514D"
+				"download" "9E0F905D4D7E4A4E830647408E67B046"
+			}
+			"last_live"
+			{
+				"gid" "923D76052F9D0436595AF0FF1C04D112"
+				"size" "3276F8D07F42461CD34B18F52B65968F"
+				"download" "7E8E346F0B3848CC2269B19AA90A0C09"
+			}
+			"latest"
+			{
+				"gid" "589C026123CFC3BF4407B83B7464A6E9"
+				"size" "6B79546F7706AA026210B4CA58FE056A"
+				"download" "05D70CC214506036ABF81DC78619C152"
+			}
+			"live"
+			{
+				"gid" "65584F9CE3CEEA0E25E665790C68A863"
+				"size" "CAB7A51DB25654340F8369948527AF72"
+				"download" "17942E80322BA80ACEEC95FD9D074588"
+			}
+			"mirage_launch"
+			{
+				"gid" "4E9F31AB83DEBFB6C47CA8DBB1D5E329"
+				"size" "35D4F582139A23858CDF73A11113B728"
+				"download" "7B64E47F6E23B69D94AEFBC87DE18719"
+			}
+			"testing"
+			{
+				"gid" "1619AAC10939DEC47819CC5164CBA23A"
+				"size" "A794CBD686E2AB2A6C24E692998CA94F"
+				"download" "E6B766B772AB5C0B7354FF1E9107B533"
+			}
+		}
+		"dlcappid" "548660"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2157521"
+			"timeupdated" "1506970051"
+		}
+		"alpha_testing"
+		{
+			"buildid" "1950070"
+			"pwdrequired" "1"
+			"timeupdated" "1499718806"
+		}
+		"cl31539"
+		{
+			"buildid" "679613"
+			"pwdrequired" "1"
+		}
+		"continuous"
+		{
+			"buildid" "1131022"
+			"pwdrequired" "1"
+			"timeupdated" "1463463844"
+		}
+		"gdc_build"
+		{
+			"buildid" "962086"
+			"pwdrequired" "1"
+		}
+		"last_live"
+		{
+			"buildid" "1976974"
+			"pwdrequired" "1"
+			"timeupdated" "1504126745"
+		}
+		"latest"
+		{
+			"buildid" "2157521"
+			"pwdrequired" "1"
+			"timeupdated" "1506644194"
+		}
+		"live"
+		{
+			"buildid" "2063487"
+			"pwdrequired" "1"
+			"timeupdated" "1504126847"
+		}
+		"local"
+		{
+			"buildid" "1338604"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1473986764"
+		}
+		"marketing"
+		{
+			"buildid" "1819607"
+			"pwdrequired" "1"
+			"timeupdated" "1494885460"
+		}
+		"marketing2"
+		{
+			"buildid" "1600240"
+			"pwdrequired" "1"
+			"timeupdated" "1485870589"
+		}
+		"mirage_launch"
+		{
+			"buildid" "1838553"
+			"pwdrequired" "1"
+			"timeupdated" "1495546004"
+		}
+		"nightly"
+		{
+			"buildid" "1445660"
+			"pwdrequired" "1"
+			"timeupdated" "1478587381"
+		}
+		"patch_testing"
+		{
+			"buildid" "2157521"
+			"description" "patch testing for Mirage"
+			"timeupdated" "1506719591"
+		}
+		"pax_archive"
+		{
+			"buildid" "1075468"
+			"pwdrequired" "1"
+			"timeupdated" "1462224602"
+		}
+		"pax_west"
+		{
+			"buildid" "1300577"
+			"pwdrequired" "1"
+			"timeupdated" "1472480698"
+		}
+		"testing"
+		{
+			"buildid" "2114218"
+			"pwdrequired" "1"
+			"timeupdated" "1506606729"
+		}
+		"trailer"
+		{
+			"buildid" "1561997"
+			"pwdrequired" "1"
+			"timeupdated" "1484109405"
+		}
+		"withlinux"
+		{
+			"buildid" "983957"
+			"pwdrequired" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19661327"
+"_sha" "4a93e0e4b6e64970ed5f2b7857091b1c901fd8a1"
+"_size" "12807"
