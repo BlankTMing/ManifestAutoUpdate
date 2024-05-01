@@ -1,0 +1,315 @@
+"appid" "72000"
+"common"
+{
+	"name" "Closure"
+	"logo" "6e01635915c7a052c64c81f1408844a596917d2e"
+	"logo_small" "6e01635915c7a052c64c81f1408844a596917d2e_thumb"
+	"clienticon" "bfb23da3dfdedc1fc981d63466b3feff85a348cd"
+	"clienttga" "cfd0e0c6503572303f46d23ec9fc9164adec963d"
+	"icon" "7da11a2030451f15450452b6c5f0aeb45b39fbd3"
+	"clienticns" "a223ae21e189d8bf8aadb7b17f75bb784d876f5e"
+	"oslist" "windows,macos,linux"
+	"linuxclienticon" "bd4656c01d22ea7b74f9c134b9a12d960a5d18b3"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1670889600"
+		"tested_build_id" "136324"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-5"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Closure"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "61.410000561100276"
+			"height_pct" "99.13192878414532"
+		}
+	}
+	"store_asset_mtime" "1667931805"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Eyebrow Interactive"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Eyebrow Interactive"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_28" "1"
+		"category_14" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"metacritic_score" "78"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/closure\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "72000"
+	"store_tags"
+	{
+		"0" "1664"
+		"1" "1625"
+		"2" "492"
+		"3" "5537"
+		"4" "1710"
+		"5" "3871"
+		"6" "4182"
+		"7" "4342"
+		"8" "1667"
+		"9" "13782"
+		"10" "1756"
+		"11" "4166"
+	}
+	"review_score" "8"
+	"review_percentage" "85"
+}
+"extended"
+{
+	"developer" "Eyebrow Interactive"
+	"gamedir" "ValveTestApp72000"
+	"homepage" "http://www.closuregame.com"
+	"icon" ""
+	"installscriptosx" "Closure.app/installscript_osx.vdf"
+	"installscript_macos" "Closure.app/installscript_osx.vdf"
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"validoslist" "windows,macos"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Eyebrow Interactive"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Closure.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Closure.app"
+			"workingdir" "/"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "run_steam.sh"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Closure"
+}
+"depots"
+{
+	"72001"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2345454519641525052"
+				"size" "476841501"
+				"download" "276480144"
+			}
+			"legacy_oct_2013"
+			{
+				"gid" "2221212811193700540"
+				"size" "479575839"
+				"download" "0"
+			}
+			"zink"
+			{
+				"gid" "4786329727728993978"
+				"size" "491398685"
+				"download" "279549680"
+			}
+		}
+	}
+	"72002"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "25244549939117284"
+				"size" "475580937"
+				"download" "276038544"
+			}
+			"legacy_oct_2013"
+			{
+				"gid" "7000995822220145097"
+				"size" "504836725"
+				"download" "0"
+			}
+			"zink"
+			{
+				"gid" "25244549939117284"
+				"size" "475580937"
+				"download" "276038544"
+			}
+		}
+	}
+	"72003"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5505807305117284960"
+				"size" "476425041"
+				"download" "275016448"
+			}
+			"legacy_oct_2013"
+			{
+				"gid" "8679076681866069867"
+				"size" "484713088"
+				"download" "0"
+			}
+			"zink"
+			{
+				"gid" "5505807305117284960"
+				"size" "476425041"
+				"download" "275016448"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14098604"
+			"timeupdated" "1713456308"
+		}
+		"legacy_oct_2013"
+		{
+			"buildid" "136324"
+			"description" "previous version of the game, before the 2024 maintenance update"
+			"timeupdated" "1713144614"
+		}
+		"zink"
+		{
+			"buildid" "14134553"
+			"description" "Zink for Windows"
+			"timeupdated" "1713800873"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1048576"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "23253052"
+"_sha" "3d15bfef84d4ad81f5eeb2cd1f7c8591c1d2156a"
+"_size" "5915"
