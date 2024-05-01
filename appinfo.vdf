@@ -1,0 +1,182 @@
+"appid" "824240"
+"common"
+{
+	"name" "Unfortunate Spacemen Dedicated Server"
+	"type" "Tool"
+	"parent" "408900"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"clienticon" "3242110be3b41234e8d5ed6e224d13b3c3a9e5e0"
+	"clienttga" "6a4d4ad9f750891fc9ff8078728ed3d8850236a8"
+	"icon" "1b195661a0eb26c6b51880bbfc14efdcfff0d470"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "824240_eula_0"
+			"name" "Spacemen Dedicated Srv EULA"
+			"url" "http://store.steampowered.com//eula/824240_eula_0"
+		}
+	}
+	"logo" "316bb2e9c3e38f275c706e379b10e2028962d52c"
+	"logo_small" "316bb2e9c3e38f275c706e379b10e2028962d52c_thumb"
+	"associations"
+	{
+	}
+	"gameid" "824240"
+	"exfgls" "9"
+}
+"extended"
+{
+	"gamedir" "UnfortunateSpacemen"
+	"serverbrowsername" "U F"
+}
+"config"
+{
+	"installdir" "SpacemenServer"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "UnfortunateSpacemenServer.exe"
+			"arguments" "-log"
+			"description" "Dedicated Server for Unfortunate Spacemen"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"824244"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4579656557535617433"
+				"size" "6830805211"
+				"download" "6486371760"
+			}
+			"publicbeta"
+			{
+				"gid" "7149370064101760938"
+				"size" "6832477328"
+				"download" "6518811760"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "D997D492CD6DB80EDF8D422BB8AB7EF8"
+				"size" "59F7509DABA41B8B23B991EB7CCA6A6D"
+				"download" "3ECF36680F761273F716BC07006C2C77"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13627993"
+			"timeupdated" "1709508801"
+		}
+		"beta"
+		{
+			"buildid" "13685665"
+			"pwdrequired" "1"
+			"timeupdated" "1709931891"
+		}
+		"publicbeta"
+		{
+			"buildid" "13685665"
+			"description" "publicbeta"
+			"timeupdated" "1709931985"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22692795"
+"_sha" "333fbc137d3ab0335d81fffb8826fc0c407fa940"
+"_size" "2908"
