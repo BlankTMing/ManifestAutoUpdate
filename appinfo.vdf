@@ -1,0 +1,301 @@
+"appid" "897590"
+"common"
+{
+	"name" "Memories of Mars - Dedicated Server"
+	"type" "Tool"
+	"parent" "644290"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"logo" "a20e6003db5d20996598545c6b82a86dca40a386"
+	"logo_small" "a20e6003db5d20996598545c6b82a86dca40a386_thumb"
+	"icon" "5651eff56b86cce8991b56b6ce098f3d3ebd674f"
+	"clienticon" "4b9f9819fdaeb0ad0695567604151981a2ba7a75"
+	"clienttga" "3c945e1e5bd64a5836d2bed11669c29365922522"
+	"associations"
+	{
+	}
+	"gameid" "897590"
+}
+"config"
+{
+	"installdir" "Memories of Mars - Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Game\\Binaries\\Win64\\MemoriesOfMarsServer.exe"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "MemoriesOfMarsServer.sh"
+			"type" "server"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "Run Server.bat"
+			"description" "Launch Game Server (restart automatically)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "RunServer.sh"
+			"description" "Launch Game Server (restart automatically)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"897591"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1383079057898914674"
+				"size" "789260960"
+				"download" "660204160"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"gportal"
+			{
+				"gid" "E8921B2CD88FEE7744F452D5CEB7A055"
+				"size" "4BFBFA8080A664B1C6F81C76B18528C8"
+				"download" "0016AE181B3EE80B8467CAF7F89790C6"
+			}
+			"gportal_ps4"
+			{
+				"gid" "906C6055E4339EC666501122E45EACE3"
+				"size" "9AE9DF59E45FA0511D90C36476EB7C8C"
+				"download" "B32DB8BA87DB5275ABAC22DEA6716F1C"
+			}
+			"gportal_xbox"
+			{
+				"gid" "A724F427B3E54639AB1BA7C9BE92F143"
+				"size" "79221D961933E4F75883039529C368D2"
+				"download" "3FE8A0E9F3421A4188F04E0A46D7E968"
+			}
+			"official"
+			{
+				"gid" "B2CAE2BF321B29806D2960ED2F460901"
+				"size" "F21DBA6F887D91781B9AB6E763B0714E"
+				"download" "C675D849AB256D18F7821368B1CBBD32"
+			}
+			"preview"
+			{
+				"gid" "29DC8B8FDCDFFE9A7B9881D6FABA18E1"
+				"size" "F57AB9E61578B467DFAD144EAB90A734"
+				"download" "39D34B8686EE437EF97F9368461E4563"
+			}
+			"private_server"
+			{
+				"gid" "15BBB0DDCB780016602E046701F185B3"
+				"size" "F698E853C410F8D471D93BCD17136949"
+				"download" "ADC087370C7CFA1B9864B7B4C25AEF2D"
+			}
+		}
+	}
+	"897592"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1448483816528976722"
+				"size" "2009369662"
+				"download" "637674448"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"gportal"
+			{
+				"gid" "46C406A02174A0342347054BA4F9F328"
+				"size" "26D80D0B73B2B557FC2B39B570E010F3"
+				"download" "1743F372375F2624E5C6288A2E99C614"
+			}
+			"gportal_ps4"
+			{
+				"gid" "F6AF2E15190F72A16FC5A56AF39200DB"
+				"size" "B174336739014945E09B8C645598A2BE"
+				"download" "3E729D25AF26954271D55CCD4E27200C"
+			}
+			"gportal_xbox"
+			{
+				"gid" "FA662F2A3F990CC5FC40A88DA5474BDA"
+				"size" "E192B99811C17BDBC0A6EB883A3C0883"
+				"download" "1DB6D5BB7C30A265A07716B4B84A1299"
+			}
+			"official"
+			{
+				"gid" "3DFCFD71DF21429119A409540C9CBF17"
+				"size" "C1F8C8560A4B3A3F9E0ED6C73ACF67C0"
+				"download" "3DF3B1C0A97F14989F4F6FB8FAD8F8B4"
+			}
+			"preview"
+			{
+				"gid" "DAC72537E959D48325D2D0DD9DE72320"
+				"size" "E0F1BA4F72CDE2D82B9960380C8F7FE3"
+				"download" "C17C478E42C7AB6058A12D58121DFBDF"
+			}
+			"private_server"
+			{
+				"gid" "4E92D5443FCBF119DA85555BC8A69320"
+				"size" "45F3AD15069077A6134BCD954681CD10"
+				"download" "33EE72E9781DE24D68A8F14C512D15A8"
+			}
+		}
+	}
+	"baselanguages" "english,german"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5021879"
+			"timeupdated" "1589388958"
+		}
+		"gportal"
+		{
+			"buildid" "4741902"
+			"pwdrequired" "1"
+			"timeupdated" "1583334773"
+		}
+		"gportal_ps4"
+		{
+			"buildid" "5021879"
+			"pwdrequired" "1"
+			"timeupdated" "1589383313"
+		}
+		"gportal_xbox"
+		{
+			"buildid" "5021879"
+			"pwdrequired" "1"
+			"timeupdated" "1589383324"
+		}
+		"official"
+		{
+			"buildid" "2937113"
+			"pwdrequired" "1"
+			"timeupdated" "1531324916"
+		}
+		"preview"
+		{
+			"buildid" "3487052"
+			"pwdrequired" "1"
+			"timeupdated" "1548070235"
+		}
+		"private_server"
+		{
+			"buildid" "4400344"
+			"pwdrequired" "1"
+			"timeupdated" "1574079625"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20307700"
+"_sha" "c5dec7db82c8cd32dba5d31814f017c0562b2e2d"
+"_size" "5670"
