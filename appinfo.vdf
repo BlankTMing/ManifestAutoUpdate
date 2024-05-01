@@ -1,0 +1,91 @@
+"appid" "393160"
+"common"
+{
+	"name" "Cities XXL Map Editor"
+	"type" "Tool"
+	"oslist" "windows"
+	"clienticon" "5dab3743c8abba980e005d46d22572e75bd4cd1f"
+	"clienttga" "bfb139000956fb4dbb47d39d53ad5ff74a78cd44"
+	"icon" "5b86b324fe8a6475e15b5b9fe098a9ea213aaf8b"
+	"parent" "313010"
+	"releasestate" "released"
+	"associations"
+	{
+	}
+	"gameid" "393160"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Cities XXL Map Editor"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CitiesXXL_MapEditor.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229002"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"393161"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3838127233253205034"
+				"size" "2165438056"
+				"download" "806657104"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"qa_test"
+			{
+				"gid" "751D5C321B14FA7B2B84C88B25B4F830"
+				"size" "F807968A9D77E81C8BA137909364CA22"
+				"download" "ADE8C3D8A207D1C13901AD7CD57AB68D"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "838433"
+		}
+		"qa_test"
+		{
+			"buildid" "838433"
+			"pwdrequired" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "6855bf6a1d063e8cacfbc0d5052ee9562c182d76"
+"_size" "1376"
