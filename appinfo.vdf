@@ -1,0 +1,317 @@
+"appid" "415880"
+"common"
+{
+	"name" "Disc Jam"
+	"type" "Game"
+	"oslist" "windows"
+	"logo" "cb34f1caf4a2cb50fce10901ddb2fc1b34fc884f"
+	"logo_small" "cb34f1caf4a2cb50fce10901ddb2fc1b34fc884f_thumb"
+	"icon" "96994a5b1c2a75f1579f86b5a4a3ae4e91175247"
+	"clienttga" "87a385a9164120b77fd498bb562004c73a5fc039"
+	"clienticon" "9865edc5a0dd77f21213eaa51c0e5eb97c7d0b11"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1648080000"
+		"tested_build_id" "5683521"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Disc Jam"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "32.59219491943037"
+			"height_pct" "68.05555555555554"
+		}
+	}
+	"store_asset_mtime" "1572305485"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "High Horse Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "High Horse Entertainment"
+		}
+	}
+	"primary_genre" "18"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "18"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_9" "1"
+		"category_24" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_2" "1"
+		"category_36" "1"
+		"category_37" "1"
+		"category_38" "1"
+		"category_39" "1"
+		"category_27" "1"
+		"category_44" "1"
+		"category_49" "1"
+		"category_43" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1488899100"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "415880"
+	"store_tags"
+	{
+		"0" "701"
+		"1" "19"
+		"2" "3859"
+		"3" "492"
+		"4" "3878"
+		"5" "1773"
+		"6" "597"
+		"7" "1685"
+		"8" "4840"
+	}
+	"review_score" "6"
+	"review_percentage" "76"
+}
+"extended"
+{
+	"developer" "High Horse Entertainment"
+	"publisher" "High Horse Entertainment"
+	"homepage" "http://www.discjamgame.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Disc Jam"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Icon.exe"
+			"description" "Disc Jam"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "Icon.exe"
+			"arguments" "-lowendrenderer"
+			"description" "Disc Jam (use renderer for low-end PCs)"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "DiscJam/Binaries/Linux/Icon-Linux-Shipping"
+			"description" "Disc Jam"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"4"
+		{
+			"executable" "DiscJam/Binaries/Linux/Icon-Linux-Shipping"
+			"arguments" "-LowEndRenderer"
+			"description" "Disc Jam (use renderer for low-end PCs)"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"415881"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "61024156441358754"
+				"size" "3135292132"
+				"download" "1179347280"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "875CC72252D80E40106A269B0D37D86C"
+				"size" "2E14BC8632EE58EB2FEF47E0D91FF19B"
+				"download" "7DBDE53F6D15E99F3C11FE7CD15875A8"
+			}
+			"qa-sd1"
+			{
+				"gid" "A5ED274BC68B4BA44B542C3E44B95443"
+				"size" "4484BCAAD43BF8EC493F691A0892ED08"
+				"download" "48B50A91E97963F612CFF4E51CF2CC7F"
+			}
+			"qa-sp1"
+			{
+				"gid" "40181AF8A6C9DA107BB40B532442B0D1"
+				"size" "C0B754A3079200BA0F0DCB4CC3AEF0DE"
+				"download" "F3E8C1E6EF5914C8F6136A4889703834"
+			}
+		}
+	}
+	"415882"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3435012779367900700"
+				"size" "3201773056"
+				"download" "1207957216"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "D225F4E4A835057DFE75EBC87B6C4C9D"
+				"size" "0996120C984A5326FBCD0AB025FDE78C"
+				"download" "BA3FAFE3F99A8CEA049AA05B6019C6D6"
+			}
+			"qa-sd1"
+			{
+				"gid" "F2921C751E4C89A3AC705AB09FCC1BBB"
+				"size" "BA0AF52F7F8508720C92106B90DE1C90"
+				"download" "EA7ACA8B4CCBA840C894BD948C8D7DE7"
+			}
+			"qa-sp1"
+			{
+				"gid" "89DAAC84CA175657C553B13A98678475"
+				"size" "0F67993C3C94328079B9B2CA73837BD4"
+				"download" "C7086F4C03A8072BDC0D0743852D0182"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5683521"
+			"timeupdated" "1602704476"
+		}
+		"internal"
+		{
+			"buildid" "5683521"
+			"pwdrequired" "1"
+			"timeupdated" "1602704168"
+		}
+		"qa-sd1"
+		{
+			"buildid" "2553355"
+			"pwdrequired" "1"
+			"timeupdated" "1519451902"
+		}
+		"qa-sp1"
+		{
+			"buildid" "2553375"
+			"pwdrequired" "1"
+			"timeupdated" "1519452773"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18903802"
+"_sha" "540bf7c83a97e5d82c3800d857d1f8e702ff2603"
+"_size" "6228"
