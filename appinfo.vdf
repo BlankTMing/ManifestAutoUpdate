@@ -1,0 +1,233 @@
+"appid" "219600"
+"common"
+{
+	"name" "NBA 2K13"
+	"type" "Game"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"tchinese" "1"
+	}
+	"logo" "9239a70278884e6c5e96b2808e6eb8daa159baf9"
+	"logo_small" "9239a70278884e6c5e96b2808e6eb8daa159baf9_thumb"
+	"icon" "13788378e1223abd36a0c9d06e5e77f2e36b112c"
+	"clienttga" "b91da9a80501042571dde9b0129d089d81cc4518"
+	"clienticon" "dcd731875c770e56239a8e8c43f0f8e01ec9fe94"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "219600_eula_0"
+			"name" "NBA 2K13 EULA"
+			"url" "http://store.steampowered.com//eula/219600_eula_0"
+		}
+	}
+	"releasestate" "released"
+	"metacritic_name" "NBA 2K13"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1368469796"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Visual Concepts"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "2K Games"
+		}
+	}
+	"primary_genre" "0"
+	"genres"
+	{
+		"0" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_9" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+		}
+		"italian"
+		{
+			"supported" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+	}
+	"metacritic_score" "90"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/nba-2k13\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "219600"
+	"store_tags"
+	{
+		"0" "1746"
+		"1" "701"
+	}
+	"review_score" "8"
+	"review_percentage" "82"
+}
+"extended"
+{
+	"developer" "Visual Concepts"
+	"gamedir" "NBA 2K13"
+	"homepage" "http://2ksports.com/games/nba2k13"
+	"icon" ""
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp219600\\SteamKey"
+	"noservers" "0"
+	"showcdkeyonlaunch" "1"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"supportscdkeycopytoclipboard" "1"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "2K Games"
+	"gamemanualurl" "https://store.steampowered.com/manual/219600/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "NBA2K13"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "nba2k13.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptsignature" "2b6147eca4806c5048be9fa35527ee2cb52f23e2d59eed02a1ff02cdd019004f9e8ec4092545b009dcd881a007cc92decd5c49b2f4dd7fc1868608b18fc953ca962ab84c53401a4ec7a345f87f1c93d6007ae84e58ff00b2ede3231e0d18c98cf13773d6d0d9913efca1b07c06b245376283ef1a99d6738dd294c490c06bf018"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_current_user\\software\\2k sports\\nba 2k13"
+		{
+			"dword"
+			{
+				"english"
+				{
+					"setuplanguage" "9"
+				}
+				"spanish"
+				{
+					"setuplanguage" "10"
+				}
+				"french"
+				{
+					"setuplanguage" "12"
+				}
+				"german"
+				{
+					"setuplanguage" "7"
+				}
+				"italian"
+				{
+					"setuplanguage" "16"
+				}
+			}
+			"string"
+			{
+				"install dir" "%INSTALLDIR%"
+			}
+		}
+	}
+	"run process"
+	{
+		"microsoft directx"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\219600"
+			"process 1" "%INSTALLDIR%\\Redist\\dxsetup.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"visual c++ redistributable package (x86)"
+		{
+			"process 1" "%INSTALLDIR%\\Redist\\vcredist_x86.exe"
+			"command 1" "/q:a"
+			"description" "Visual C++ Redistributable Package (x86)"
+			"nocleanup" "1"
+			"ignoreexitcode" "1"
+		}
+	}
+}
+"depots"
+{
+	"219601"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6765084184662499668"
+				"size" "7667318326"
+				"download" "0"
+			}
+		}
+	}
+	"219602"
+	{
+		"config"
+		{
+			"language" "tchinese"
+			"oslist" "windows"
+		}
+	}
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "20361"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20676270"
+"_sha" "4ff1db93844613996a4b169cf64e2204ccc47772"
+"_size" "4181"
