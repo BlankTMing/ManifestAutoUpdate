@@ -1,0 +1,263 @@
+"appid" "400430"
+"common"
+{
+	"name" "The Vanishing of Ethan Carter Redux"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"logo" "1d5dcfed693a2b01a9fcdddff3c9bff9ccaaf4d9"
+	"logo_small" "1d5dcfed693a2b01a9fcdddff3c9bff9ccaaf4d9_thumb"
+	"clienticon" "3c69fa06f7b970dbde2eca9ec3e7f40be7603833"
+	"clienttga" "0ce08f7a5087487b76dc75a9452008d43f7dd9cd"
+	"icon" "1385cf04f3625f1281c964f070cc6eaeb5642cd3"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "258520_eula_0"
+			"name" "The Vanishing of Ethan Carter EULA"
+			"url" "http://store.steampowered.com//eula/258520_eula_0"
+		}
+	}
+	"languages"
+	{
+		"english" "1"
+		"polish" "1"
+		"czech" "1"
+	}
+	"parent" "258520"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1655510400"
+		"tested_build_id" "775821"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "The Vanishing of Ethan Carter UE4"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "35.64425749855158"
+			"height_pct" "68.6240990296082"
+		}
+	}
+	"store_asset_mtime" "1573658766"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "The Astronauts"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_28" "1"
+		"category_2" "1"
+		"category_29" "1"
+		"category_22" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "400430"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "5900"
+		"3" "1742"
+		"4" "1667"
+		"5" "5613"
+		"6" "4166"
+		"7" "5716"
+		"8" "1664"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"developer" "The Astronauts"
+	"homepage" "http://EthanCarterGame.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "The Vanishing of Ethan Carter Redux"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "EthanCarter.exe"
+			"description" "Launch Game"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "EthanCarter.exe"
+			"arguments" "-cleanhal"
+			"description" "Launch with default settings"
+			"type" "safemode"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,italian,spanish,polish,czech"
+	"400431"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2328641900028952894"
+				"size" "5810048599"
+				"download" "2549573008"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "775821"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "5"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "My Games/The Vanishing of Ethan Carter Redux/SavedGames"
+			"pattern" "*.*"
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23336412"
+"_sha" "4879f8505baaa70e71fc435742e89dba97b97eba"
+"_size" "4812"
