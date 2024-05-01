@@ -1,0 +1,521 @@
+"appid" "243200"
+"common"
+{
+	"name" "Memoria"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"clienticon" "91c78c49acaf7c58a9f260ca98682f4e166f39c0"
+	"clienttga" "d4a8a70bc7a821a4aacf4fa73dca569bd7f2f815"
+	"icon" "d9490b1cd51cb802f8650472cf47ee8dbfec2777"
+	"logo" "6ab3319f46d4823d59c042dbd75676891084859c"
+	"logo_small" "6ab3319f46d4823d59c042dbd75676891084859c_thumb"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"russian" "1"
+	}
+	"clienticns" "01c5920c29e762a63c5520fb07a1131c2fc13b46"
+	"linuxclienticon" "5ebb2eb6561bc79d6144c82f73b0c8e5d64b916a"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1645488000"
+		"tested_build_id" "1456990"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "simultaneous_gamepad_mouse"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Memoria"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1610480416"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Daedalic Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Daedalic Entertainment"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1377813600"
+	"metacritic_score" "79"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/memoria\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "243200"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "1698"
+		"2" "1664"
+		"3" "1742"
+		"4" "4182"
+		"5" "3871"
+		"6" "1693"
+		"7" "1684"
+		"8" "4004"
+		"9" "6691"
+		"10" "492"
+		"11" "6815"
+		"12" "4166"
+		"13" "7208"
+		"14" "769306"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" "Daedalic Entertainment"
+	"gamedir" "ValveTestApp243200"
+	"homepage" ""
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateComingSoonNoPreload"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Daedalic Entertainment"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Memoria"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "memoria.exe"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "VisionaireConfigurationTool.exe"
+			"description" "Visionaire Configuration Tool"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "Memoria.app"
+			"workingdir" "./"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "start"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"baselanguages" "english,german,russian,polish"
+	"hasdepotsindlc" "1"
+	"228982"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228984"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229000"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"243201"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8503272663015690729"
+				"size" "9503400551"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "FE1D8892C34F388A651DDA12EC3CE7EC"
+				"size" "74FC1D97DC39DE6257EE65FA0B2D0AE3"
+				"download" "D1304303869FD640D7F2BEDAA03B757D"
+			}
+			"loca-qa"
+			{
+				"gid" "0FDAF6B37F0069D74CB23F64756F755E"
+				"size" "1D8C858E4191CB10A78EF4EE880C9B1C"
+				"download" "23063CF63698B880F7DC10514940CA51"
+			}
+			"testing"
+			{
+				"gid" "531E2DBDD5355BE6F896358EF2787FC8"
+				"size" "4548ADFCFC775DB5B6CA0C8AF8B5938F"
+				"download" "47FA0C5BF0C5A26CC401A95880096D21"
+			}
+		}
+	}
+	"243202"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+			"language" ""
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4278298678371141490"
+				"size" "9503400551"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "847F4C91BA9EEE1D50F2F8B4A71CF24E"
+				"size" "74FC1D97DC39DE6257EE65FA0B2D0AE3"
+				"download" "D1304303869FD640D7F2BEDAA03B757D"
+			}
+			"loca-qa"
+			{
+				"gid" "652ADD64C597F2A6107373BEF2FED089"
+				"size" "F99068EEB7EFE6C0B240C1A1869703BF"
+				"download" "16981418FC9DC0D4D078CCA8D3C8DA79"
+			}
+			"testing"
+			{
+				"gid" "44F1059894A874DDC38F00C55CDEA6AC"
+				"size" "4548ADFCFC775DB5B6CA0C8AF8B5938F"
+				"download" "47FA0C5BF0C5A26CC401A95880096D21"
+			}
+		}
+	}
+	"243203"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3092430539277553092"
+				"size" "21058792"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "85A6B6E34F1C0C82148A610ED3E0AFF4"
+				"size" "50A7A89E3FD2419CA519018CDAA588A4"
+				"download" "2FB6248ED032F8DEF6EAB61210544533"
+			}
+			"loca-qa"
+			{
+				"gid" "A872B63A16EDEE6B09849F58CD96EE81"
+				"size" "83A4B1E64EEFE68FB648D57C6AA0585C"
+				"download" "7290F782293494F1533275B9E9003156"
+			}
+			"testing"
+			{
+				"gid" "DB63C0CB3CF6415A1BEBE70103FCFD2F"
+				"size" "347EF69B23EA9443FE34C90CB319D6F4"
+				"download" "4BEE3839C54E512DCF433BF08D65B1D8"
+			}
+		}
+	}
+	"243204"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+			"language" ""
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3674902249665920403"
+				"size" "32285317"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "182E03EAFFF2446741B35767F9604B5D"
+				"size" "F09932BF628E628042F724CBD6BB18E9"
+				"download" "2256E0027B100C9FA2A415CDB5AB9331"
+			}
+			"loca-qa"
+			{
+				"gid" "E8AF90C59C0FC216D06F9A3518FCC0B7"
+				"size" "44CB5F5630EC3C4ED1FA2AE6A4A0E304"
+				"download" "16981418FC9DC0D4D078CCA8D3C8DA79"
+			}
+			"testing"
+			{
+				"gid" "1EF554DFF6DB372F80259B29BD86726C"
+				"size" "9823A1EBDD66E19686E518D50560CD6B"
+				"download" "84C0C52448688C773C16122493A00DDA"
+			}
+		}
+	}
+	"243205"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "8B73DBA196E410BA0F69FFB450F5F2F0"
+				"size" "74FC1D97DC39DE6257EE65FA0B2D0AE3"
+				"download" "0295AE2DF324D36F8B7CDE50DC7EDE2B"
+			}
+			"testing"
+			{
+				"gid" "1B0A108FC6BD5714CC405CCDF9982A93"
+				"size" "4548ADFCFC775DB5B6CA0C8AF8B5938F"
+				"download" "A1BFAFB57B2DE9F3DF4D6D140A18BE79"
+			}
+		}
+	}
+	"243206"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "FCFEAC79580FAFCFFAE1D394873F24C7"
+				"size" "D3E3AB04FB3E7EA9C998EAFDF49CCF24"
+				"download" "AF75BF86F77A0DC3405BC844AD3E1F77"
+			}
+			"testing"
+			{
+				"gid" "4636CCFE174EF1B0742AE82EDF9AAFBF"
+				"size" "A694C109659841C4D057C5630DB5070A"
+				"download" "4D60E1EC8D4428E8BE22D8665B7D28CC"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1456990"
+			"timeupdated" "1479118328"
+		}
+		"beta"
+		{
+			"buildid" "1456987"
+			"pwdrequired" "1"
+			"timeupdated" "1479118253"
+		}
+		"loca-qa"
+		{
+			"buildid" "5540163"
+			"pwdrequired" "1"
+			"timeupdated" "1600074959"
+		}
+		"testing"
+		{
+			"buildid" "1456989"
+			"pwdrequired" "1"
+			"timeupdated" "1479118289"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "350"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Daedalic Entertainment/Memoria/Savegames/"
+			"pattern" "*.dat"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "Daedalic Entertainment/Memoria/Savegames/"
+			"pattern" "*.dat"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"2"
+		{
+			"root" "LinuxXdgDataHome"
+			"path" "Daedalic Entertainment/Memoria/Savegames/"
+			"pattern" "*.dat"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22699559"
+"_sha" "079bdc5745f26321d14d01eb54f0e0d52ba4b087"
+"_size" "9672"
