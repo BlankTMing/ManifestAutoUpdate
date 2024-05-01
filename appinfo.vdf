@@ -1,0 +1,140 @@
+"appid" "63110"
+"common"
+{
+	"name" "Alter Ego"
+	"clienticon" "ad1d4c094107434c52376de578876f6b08718a5a"
+	"clienttga" "0dd0c37f97641976d6c88c5462d414c04b0d97b6"
+	"icon" "da695f2f82a77ea3363fa554687325d04f5e6daf"
+	"logo" "324b5714b621698f801c3c0a170e458741e97c14"
+	"logo_small" "324b5714b621698f801c3c0a170e458741e97c14_thumb"
+	"type" "game"
+	"metacritic_name" "Alter Ego"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "bitComposer Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Viva Media"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1280871420"
+	"metacritic_score" "59"
+	"metacritic_fullurl" "http://www.metacritic.com/game/pc/alter-ego\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "63110"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "1698"
+		"2" "5716"
+		"3" "5613"
+	}
+	"review_score" "6"
+	"review_percentage" "70"
+}
+"extended"
+{
+	"developer" "bitComposer Games"
+	"gamedir" "Alter Ego"
+	"homepage" "http://www.bit-composer.com/www_en/game.aspx\?gameid=67862d37-f424-48d4-aa0d-6b13879e34a4"
+	"icon" ""
+	"installscript" "63110_install.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "63111"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Viva Media"
+}
+"config"
+{
+	"installscriptsignature" "44aef613683afe860f67fffc19bceb7255a3c9360093e367710e59a0f15c7f500898fa3dbf3fb500cea94b1842ee19df1cd317ca6f753cce9c7e14a2eec87f3ee68a045ca678241fb21b8a251d7b8c863dc46721be8114c65d6a2ebdea1bd931e7cf361555a2c8676ece92049ab97d5f17a553e00ac038bc9ef1b4156cba516d"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Alter Ego"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "AlterEgo.exe"
+		}
+	}
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\viva media\\alter ego us"
+		{
+			"string"
+			{
+				"installfolder" "%INSTALLDIR%"
+			}
+		}
+	}
+	"run process"
+	{
+		"oal"
+		{
+			"process 1" "%INSTALLDIR%\\oalinst.exe"
+			"command 1" "/s"
+		}
+	}
+}
+"depots"
+{
+	"63111"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2604264851160969012"
+				"size" "2213543056"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "23897"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19661327"
+"_sha" "33a7534f87c0ae5f27a5ae504825ed33c41e5e63"
+"_size" "2587"
