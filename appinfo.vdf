@@ -1,0 +1,235 @@
+"appid" "267980"
+"common"
+{
+	"name" "Hostile Waters: Antaeus Rising"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"clienticon" "f1e4dbdb4bee3852a2560109f28733d918277295"
+	"clienttga" "8a7cf303f61337c52c5163226664ac159dc351e7"
+	"icon" "16e39ac1fdd63f50b9d1dca5ff8f69c00360a051"
+	"logo" "87954c8183ec79c5009e82a28e724824ef78f2db"
+	"logo_small" "87954c8183ec79c5009e82a28e724824ef78f2db_thumb"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1681171200"
+		"tested_build_id" "179574"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"5"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Hostile Waters: Antaeus Rising"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1391103251"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Rage Software"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Funbox Media Ltd"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_29" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"original_release_date" "992502000"
+	"steam_release_date" "1391074951"
+	"metacritic_score" "80"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/hostile-waters-antaeus-rising\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "267980"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "19"
+		"2" "3942"
+		"3" "4182"
+		"4" "1693"
+		"5" "1774"
+		"6" "1676"
+	}
+	"review_score" "6"
+	"review_percentage" "76"
+}
+"extended"
+{
+	"developer" "Rage Software"
+	"publisher" "Funbox Media Ltd"
+	"homepage" "http://www.funboxmedia.co.uk/"
+	"gamemanualurl" "https://store.steampowered.com/manual/267980/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Hostile Waters Antaeus Rising"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "HostileSetup.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptsignature" "09df02a5b130364adf494decb8a7c4de170736cc3e88d7791045c42a2e57c932d142c8460537074d2c980823f4e63ac54fec36c70ced498d5db119c00f421b4f12a015865e12cdc13b96140a2b48f54fc11a882f9ba8282a6be2aa45a796eb0c4f7e1bee80ce7e69fe6f627c402ce57dbf874abfded09ceb86d4835eee725fd2"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\rage software\\hostile waters\\1.00.000"
+		{
+			"string"
+			{
+				"installpath" "%INSTALLDIR%"
+			}
+			"dword"
+			{
+				"patchversion" "103e"
+			}
+		}
+		"hkey_current_user\\software\\microsoft\\windows nt\\currentversion\\appcompatflags\\layers"
+		{
+			"string"
+			{
+				"%installdir%\\hostilesetup.exe" "WIN98"
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\267980"
+			"process 1" "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"267981"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8282750013279446067"
+				"size" "610244168"
+				"download" "0"
+			}
+		}
+	}
+	"267982"
+	{
+	}
+	"markdlcdepots" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "179574"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "100"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21968890"
+"_sha" "b6fc228c8563c96d6c5d57d2388ad631bac203ce"
+"_size" "4759"
