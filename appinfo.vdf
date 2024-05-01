@@ -1,0 +1,138 @@
+"appid" "629800"
+"common"
+{
+	"name" "MORDHAU Dedicated Server"
+	"type" "Tool"
+	"parent" "629760"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"logo" "02a5c5026b1eb99cb0f8dfd94e1c4de94449b67f"
+	"logo_small" "02a5c5026b1eb99cb0f8dfd94e1c4de94449b67f_thumb"
+	"icon" "f04be0f078a1e41dd4df0149255617be299e0831"
+	"clienttga" "45cd687f7684e3ae2ea3245299402ef78dd99823"
+	"clienticon" "1ce1643c91aa49fee0b63c68f8fb56f8a08d540b"
+	"associations"
+	{
+	}
+	"gameid" "629800"
+	"exfgls" "9"
+}
+"config"
+{
+	"installdir" "Mordhau Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "MordhauServer.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "MordhauServer.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"629801"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3633615677537529317"
+				"size" "4180637745"
+				"download" "1355670528"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "27B6DEA8583D7C40FB1D6C80AC169033"
+				"size" "F08E9BBF51EC1F7D5CD3142686055A0F"
+				"download" "8B4AD04FA4259A357EB10B04B6CAADCC"
+			}
+			"testing"
+			{
+				"gid" "5617FF4F6FF226B1979113E9F5EDE505"
+				"size" "720EB7B02C0A2DB2437FA760EA779464"
+				"download" "D8DE838A9CDE7AA5FE4A7C9C442CD122"
+			}
+		}
+	}
+	"629802"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3129445423816681016"
+				"size" "5410249527"
+				"download" "1477085408"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "E16170A4DF68E3913894C87DF2256BAA"
+				"size" "DEB98A3DA8F00DEF479C34A077ED09C2"
+				"download" "74DB0383A352C6B950D6D3B4CB809D14"
+			}
+			"testing"
+			{
+				"gid" "6EAEC439E7C53B8A2E61105B8C3FF811"
+				"size" "CBD52F3C9219518BE2BC56104851010B"
+				"download" "1D79A7FB7172BC90F6EDCF8A2E982001"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14199827"
+			"timeupdated" "1714388514"
+		}
+		"development"
+		{
+			"buildid" "11379686"
+			"pwdrequired" "1"
+			"timeupdated" "1685711568"
+		}
+		"testing"
+		{
+			"buildid" "14215315"
+			"pwdrequired" "1"
+			"timeupdated" "1714473158"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23357737"
+"_sha" "ea89bb9b904b5970363cf2c7a6c8878a430e8002"
+"_size" "2461"
