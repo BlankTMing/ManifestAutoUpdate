@@ -1,0 +1,343 @@
+"appid" "425410"
+"common"
+{
+	"name" "Road to Ballhalla"
+	"type" "Game"
+	"oslist" "windows"
+	"logo" "cadc61cab082b3c4088059905b3f5e7406743bae"
+	"logo_small" "cadc61cab082b3c4088059905b3f5e7406743bae_thumb"
+	"icon" "e482bda69dd3c79f7c7f59c508af75dcb5cfc249"
+	"clienttga" "36156651d258356b63eef43e5a2b794614eea7b3"
+	"clienticon" "7443089a74073297b290e59c0e201db0003ba7c2"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1669420800"
+		"tested_build_id" "6975181"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-5"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Road to Ballhalla"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "62.86395334255769"
+			"height_pct" "87.73384522019055"
+		}
+	}
+	"store_asset_mtime" "1667319697"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Torched Hill"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "tinyBuild"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "tinyBuild"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "9"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_30" "1"
+		"category_17" "1"
+		"category_43" "1"
+		"category_45" "1"
+		"category_46" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1470416732"
+	"metacritic_score" "75"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/road-to-ballhalla\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "425410"
+	"store_tags"
+	{
+		"0" "1719"
+		"1" "4136"
+		"2" "5094"
+		"3" "1752"
+		"4" "5537"
+		"5" "5923"
+		"6" "4094"
+		"7" "1773"
+		"8" "1621"
+		"9" "4026"
+		"10" "19"
+		"11" "4305"
+		"12" "1664"
+		"13" "5395"
+		"14" "1625"
+		"15" "4791"
+		"16" "699"
+		"17" "4166"
+		"18" "4182"
+		"19" "8122"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "Torched Hill"
+	"publisher" "tinyBuild"
+	"homepage" "https://torchedhill.com/roadtoballhalla"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Road to Ballhalla"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Rerolled\\RoadToBallhallaUE4.exe"
+			"description" "Road to Ballhalla"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Editor\\rtbtiled.exe"
+			"type" "editor"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "Legacy\\RoadToBallhallaUE4.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "tinybetabuild"
+			}
+			"description_loc"
+			{
+				"english" "Road To Ballhalla (Legacy)"
+			}
+			"description" "Road To Ballhalla (Legacy)"
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "425410"
+	"baselanguages" "english,german"
+	"hasdepotsindlc" "1"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"425413"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9079729290101899173"
+				"size" "19"
+				"download" "64"
+			}
+			"final2018build"
+			{
+				"gid" "9079729290101899173"
+				"size" "19"
+				"download" "64"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"privatebeta"
+			{
+				"gid" "7CD1E9039CBC4DFF6E92529AE6DD8432"
+				"size" "BAA9621DD8DC9F6729BA15B487E8FCD5"
+				"download" "7C820D8100148738FB971F340E414223"
+			}
+		}
+	}
+	"425411"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1722769188107492084"
+				"size" "504669022"
+				"download" "194342128"
+			}
+			"final2018build"
+			{
+				"gid" "6688941496880217448"
+				"size" "1007966503"
+				"download" "394373968"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"privatebeta"
+			{
+				"gid" "94EE72B31A6C8A2D8817C4BDF27C29BE"
+				"size" "269B252B175730C047E206023A739D88"
+				"download" "D055AD06AA2D82777276B240495F3E80"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13716784"
+			"timeupdated" "1710261577"
+		}
+		"final2018build"
+		{
+			"buildid" "3045897"
+			"description" "build from Aug 19, 2018"
+			"timeupdated" "1707557913"
+		}
+		"privatebeta"
+		{
+			"buildid" "13716784"
+			"pwdrequired" "1"
+			"timeupdated" "1710260987"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "RoadToBallhallaUE4/Saved/SaveGames"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22732568"
+"_sha" "cbd26b126cbd966a567e1c92702a2d8ea1eb96e1"
+"_size" "6282"
