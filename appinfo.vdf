@@ -1,0 +1,492 @@
+"appid" "394690"
+"common"
+{
+	"name" "Tower Unite"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"clienticon" "6ed98e5b89859c9219f6fef4f5e5c1b09785dce2"
+	"clienttga" "f4a676bb32a1a05105ece8e38179de2f782eb429"
+	"icon" "53c78cd39b2421412fd367214f26c453714e6225"
+	"logo" "60f2dd02ce9d23347da300cda078ea38186f8795"
+	"logo_small" "60f2dd02ce9d23347da300cda078ea38186f8795_thumb"
+	"eulas"
+	{
+		"1"
+		{
+			"id" "394690_eula_1"
+			"name" "Tower Unite EULA 1"
+			"url" "http://store.steampowered.com//eula/394690_eula_1"
+		}
+	}
+	"osarch" "64"
+	"openvrsupport" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1645660800"
+		"tested_build_id" "7536727"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Tower Unite"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "49.91564034887339"
+			"height_pct" "84.4623416406478"
+		}
+	}
+	"store_asset_mtime" "1709249874"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "PixelTail Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "PixelTail Games"
+		}
+	}
+	"primary_genre" "29"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "4"
+		"3" "23"
+		"4" "29"
+		"5" "9"
+		"6" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_20" "1"
+		"category_9" "1"
+		"category_18" "1"
+		"category_33" "1"
+		"category_8" "1"
+		"category_23" "1"
+		"category_36" "1"
+		"category_38" "1"
+		"category_30" "1"
+		"category_22" "1"
+		"category_15" "1"
+		"category_25" "1"
+		"category_49" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1460152620"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "394690"
+	"store_tags"
+	{
+		"0" "3859"
+		"1" "597"
+		"2" "22955"
+		"3" "4747"
+		"4" "128"
+		"5" "493"
+		"6" "1695"
+		"7" "3810"
+		"8" "4136"
+		"9" "492"
+		"10" "1756"
+		"11" "19"
+		"12" "21"
+		"13" "699"
+		"14" "1663"
+		"15" "10397"
+		"16" "1659"
+		"17" "599"
+		"18" "1697"
+		"19" "1773"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"gamedir" "Tower Unite"
+	"serverbrowsername" "Tower Unite"
+	"developer" "PixelTail Games"
+	"publisher" "PixelTail Games"
+	"homepage" "https://www.towerunite.com"
+	"listofdlc" "2792910"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Tower Unite"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "tower.exe"
+			"arguments" "-nohmd"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Tower Unite DirectX 11"
+			}
+			"description" "Tower Unite DirectX 11"
+		}
+		"1"
+		{
+			"executable" "Tower/Binaries/Linux/Tower-Linux-Shipping"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "tower.exe"
+			"arguments" "-d3d10 -nohmd"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Tower Unite DirectX 10 (for slower computers)"
+			}
+			"description" "Tower Unite DirectX 10 (for slower computers)"
+		}
+		"3"
+		{
+			"executable" "tower.exe"
+			"arguments" "-vr"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "VR Alpha (no menu)"
+			}
+			"description" "VR Alpha (no menu)"
+		}
+		"4"
+		{
+			"executable" "tower.exe"
+			"arguments" "cmd /c \"set OPENSSL_ia32cap=:~0x20000000 && %command%\""
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "developer"
+			}
+			"description_loc"
+			{
+				"english" "Tower Unite New CPU"
+			}
+			"description" "Tower Unite New CPU"
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "394690"
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"394691"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4289744699665228956"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developerbeta"
+			{
+				"gid" "A5FFBCB57DDD60679089A13D2F6FABED"
+				"size" "00E2F4A842F97E59AF42911E1F280180"
+				"download" "00E2F4A842F97E59AF42911E1F280180"
+			}
+			"prehistorictimes"
+			{
+				"gid" "9B2F441847D822B6ECF393E542D15BE7"
+				"size" "6CA0DD886425E22C03C643121A68D209"
+				"download" "20027ED6F9C081FC9DAD8FEF217E1E93"
+			}
+			"temp"
+			{
+				"gid" "7C6C78FE0CE2E7850B6885A84796E2F8"
+				"size" "8D4B5F6DFBF1CB7626B3204FBB4B478E"
+				"download" "8D4B5F6DFBF1CB7626B3204FBB4B478E"
+			}
+			"dev2"
+			{
+				"gid" "6E146AD02AB71DB27BCA587F6F1C9627"
+				"size" "456F63CF6E5F51B49918CF0C696D467E"
+				"download" "456F63CF6E5F51B49918CF0C696D467E"
+			}
+			"developer"
+			{
+				"gid" "706B5351BEE47203B3807D9DA1C25CDC"
+				"size" "5DCB02DD964377D9CBF39C26CA4E0523"
+				"download" "5DCB02DD964377D9CBF39C26CA4E0523"
+			}
+			"shipdev"
+			{
+				"gid" "22E39B546D29679037DF1C11D4731CA5"
+				"size" "3900688628C1B7B359AB3470C2FCDB17"
+				"download" "3900688628C1B7B359AB3470C2FCDB17"
+			}
+		}
+	}
+	"394692"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7840533135362514447"
+				"size" "24698272714"
+				"download" "23833747392"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developerbeta"
+			{
+				"gid" "D185A9FF1B8256E5EDF50442A778847B"
+				"size" "B95CB904AA151ED2040861F6C377F8D9"
+				"download" "B5761BD2F3E618805893196A43DF94D1"
+			}
+			"prehistorictimes"
+			{
+				"gid" "64AC6705C746448A8D0FE2ED1228C3B4"
+				"size" "A850AEE72E36E48A409BCA9EBAF208D3"
+				"download" "78CCF592C2C05271DA8CE1BED636A549"
+			}
+			"temp"
+			{
+				"gid" "84FD4F2CFB577F00549866985E3E1E21"
+				"size" "4EEF2D90ACE6C3090DCA64E0FFF26BB4"
+				"download" "D68F67F83AC9F68BC2C72B46201EBA43"
+			}
+			"dev2"
+			{
+				"gid" "C3AB60456784EE08F2E24C25E366786F"
+				"size" "F7E74152C1A3B49D17D0344B912C6E5C"
+				"download" "8EC1DA30536947E0A621D0A0EA174DCE"
+			}
+			"developer"
+			{
+				"gid" "1EDA6F7FBD929A8D398176D3F125299F"
+				"size" "EBA872E49B1F63A51DFE97193BE2AF2D"
+				"download" "A334582D008651777A862249ABFDF9B5"
+			}
+			"shipdev"
+			{
+				"gid" "7E3985CB492BC0F820E9D61FDBFA0F3C"
+				"size" "F2D700E89F0FDEDAB91D7A548CF5B7D1"
+				"download" "3E7C1A5AF389FB5AE09ADBBB52ECB95F"
+			}
+		}
+	}
+	"hasdepotsindlc" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14212450"
+			"timeupdated" "1714424401"
+		}
+		"developerbeta"
+		{
+			"buildid" "4280960"
+			"pwdrequired" "1"
+			"timeupdated" "1610666065"
+		}
+		"prehistorictimes"
+		{
+			"buildid" "1047869"
+			"pwdrequired" "1"
+			"timeupdated" "1459315181"
+		}
+		"temp"
+		{
+			"buildid" "1497264"
+			"pwdrequired" "1"
+			"timeupdated" "1600202405"
+		}
+		"dev2"
+		{
+			"buildid" "14231748"
+			"pwdrequired" "1"
+			"timeupdated" "1714560928"
+		}
+		"developer"
+		{
+			"buildid" "14231495"
+			"pwdrequired" "1"
+			"timeupdated" "1714558523"
+		}
+		"shipdev"
+		{
+			"buildid" "14212930"
+			"pwdrequired" "1"
+			"timeupdated" "1714424379"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "2000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Tower/Saved/Config/WindowsNoEditor"
+			"pattern" "Game.ini"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "Tower/ClientPlayerData2/"
+			"pattern" "*.dat"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "Tower/Saved/Config/WindowsNoEditor"
+			"pattern" "TowerBans.ini"
+		}
+		"3"
+		{
+			"root" "LinuxHome"
+			"path" ".config/Epic/Tower/Saved/Config/LinuxNoEditor"
+			"pattern" "Game.ini"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+		"4"
+		{
+			"root" "gameinstall"
+			"path" "Tower/Cloud/"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#playing" "{#Playing_%gameMode%}"
+				"#playing_condo" "%gameWorld%-%map%"
+				"#playing_gameworld" "%gameWorld%-%map%: Round[%round%/%maxRound%]"
+				"#playing_golf" "%gameWorld%-%map%: Hole[%round%/%maxRound%]"
+				"#playing_accel" "%gameWorld%-%map%: Lap[%lap%/%maxLap%] Round[%round%/%maxRound%]"
+				"#playing_lobby" "In the Plaza: %serverName%"
+				"#playing_mainmenu" "At Main Menu"
+				"#waiting" "Waiting for players %gameWorld%-%map%"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23372692"
+"_sha" "89c023c1aae9a246db90d2321b26b84de0b61b62"
+"_size" "9671"
