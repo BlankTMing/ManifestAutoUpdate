@@ -69,6 +69,7 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "CenterCenter"
@@ -76,7 +77,7 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1661336292"
+	"store_asset_mtime" "1714634828"
 	"associations"
 	{
 		"0"
@@ -119,6 +120,7 @@
 		"category_44" "1"
 		"category_22" "1"
 		"category_29" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -186,6 +188,7 @@
 	}
 	"steam_release_date" "1637064140"
 	"community_visible_stats" "1"
+	"workshop_visible" "1"
 	"community_hub_visible" "1"
 	"gameid" "846770"
 	"store_tags"
@@ -202,8 +205,8 @@
 		"9" "5363"
 		"10" "4791"
 		"11" "492"
-		"12" "5030"
-		"13" "15564"
+		"12" "15564"
+		"13" "5030"
 		"14" "9564"
 		"15" "3810"
 		"16" "4236"
@@ -254,8 +257,61 @@
 		}
 		"2"
 		{
-			"executable" "DYSMANTLE-OpenGL.exe"
+			"executable" "DYSMANTLE.exe"
+			"arguments" "--features MODS,STAGE_EDITOR,SHADEGROWN_DEVELOPMENT_ENVIRONMENT"
 			"type" "option1"
+			"description_loc"
+			{
+				"english" "DYSMANTLE with Mods"
+			}
+			"description" "DYSMANTLE with Mods"
+		}
+		"3"
+		{
+			"executable" "DYSMANTLE.exe"
+			"arguments" "--renderer d3d12"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "DYSMANTLE (Direct3D 12, experimental)"
+			}
+			"description" "DYSMANTLE (Direct3D 12, experimental)"
+		}
+		"4"
+		{
+			"executable" "DYSMANTLE.exe"
+			"arguments" "--renderer vulkan"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "DYSMANTLE (Vulkan, experimental)"
+			}
+			"description" "DYSMANTLE (Vulkan, experimental)"
+		}
+		"5"
+		{
+			"executable" "DYSMANTLE-OpenGL.exe"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "previous_default"
+			}
+			"description_loc"
+			{
+				"english" "DYSMANTLE (OpenGL)"
+			}
+			"description" "DYSMANTLE (OpenGL)"
+		}
+		"6"
+		{
+			"executable" "DYSMANTLE.exe"
+			"arguments" "--renderer opengl"
 			"config"
 			{
 				"oslist" "windows"
@@ -266,36 +322,6 @@
 			}
 			"description" "DYSMANTLE (OpenGL)"
 		}
-		"3"
-		{
-			"executable" "DYSMANTLE-D3D12.exe"
-			"type" "option2"
-			"config"
-			{
-				"oslist" "windows"
-				"betakey" "beta"
-			}
-			"description_loc"
-			{
-				"english" "DYSMANTLE (Direct3D 12, experimental)"
-			}
-			"description" "DYSMANTLE (Direct3D 12, experimental)"
-		}
-		"4"
-		{
-			"executable" "DYSMANTLE-Vulkan.exe"
-			"type" "option3"
-			"config"
-			{
-				"oslist" "windows"
-				"betakey" "beta"
-			}
-			"description_loc"
-			{
-				"english" "DYSMANTLE (Vulkan, experimental)"
-			}
-			"description" "DYSMANTLE (Vulkan, experimental)"
-		}
 	}
 	"steamcontrollertemplateindex" "4"
 	"steamcontrollertouchtemplateindex" "8"
@@ -303,8 +329,7 @@
 }
 "depots"
 {
-	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,russian,japanese,turkish,brazilian"
-	"228988"
+	"228989"
 	{
 		"config"
 		{
@@ -313,6 +338,7 @@
 		"depotfromapp" "228980"
 		"sharedinstall" "1"
 	}
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,turkish,brazilian"
 	"846771"
 	{
 		"config"
@@ -323,27 +349,27 @@
 		{
 			"public"
 			{
-				"gid" "7717861275984382243"
-				"size" "1949752503"
-				"download" "1432861152"
+				"gid" "6419175302176644828"
+				"size" "1992177079"
+				"download" "1444818080"
 			}
 			"beta"
 			{
-				"gid" "8101938546532672271"
-				"size" "1960039161"
-				"download" "1436181264"
+				"gid" "6419175302176644828"
+				"size" "1992177079"
+				"download" "1444818080"
 			}
 			"pre_beta"
 			{
-				"gid" "8101938546532672271"
-				"size" "1960039161"
-				"download" "1436181264"
+				"gid" "6419175302176644828"
+				"size" "1992177079"
+				"download" "1444818080"
 			}
 			"previous_default"
 			{
-				"gid" "2444709699415764217"
-				"size" "3916297082"
-				"download" "1805398640"
+				"gid" "7717861275984382243"
+				"size" "1949752503"
+				"download" "1432861152"
 			}
 		}
 	}
@@ -358,27 +384,27 @@
 		{
 			"public"
 			{
-				"gid" "3128608113841039414"
-				"size" "1585027772"
-				"download" "1170033312"
+				"gid" "5295505590547084511"
+				"size" "1569465219"
+				"download" "1157211072"
 			}
 			"beta"
 			{
-				"gid" "3128608113841039414"
-				"size" "1585027772"
-				"download" "1170033312"
+				"gid" "5295505590547084511"
+				"size" "1569465219"
+				"download" "1157211072"
 			}
 			"pre_beta"
 			{
-				"gid" "3128608113841039414"
-				"size" "1585027772"
-				"download" "1170033312"
+				"gid" "5295505590547084511"
+				"size" "1569465219"
+				"download" "1157211072"
 			}
 			"previous_default"
 			{
-				"gid" "1889776522151640169"
-				"size" "1731911177"
-				"download" "1240557232"
+				"gid" "3128608113841039414"
+				"size" "1585027772"
+				"download" "1170033312"
 			}
 		}
 	}
@@ -395,26 +421,26 @@
 	{
 		"public"
 		{
-			"buildid" "13116689"
-			"timeupdated" "1704713100"
+			"buildid" "14242164"
+			"timeupdated" "1714642847"
 		}
 		"beta"
 		{
-			"buildid" "13116686"
+			"buildid" "14242164"
 			"description" "Test builds, backup saves before trying!"
-			"timeupdated" "1704713071"
+			"timeupdated" "1714642693"
 		}
 		"pre_beta"
 		{
-			"buildid" "13116664"
+			"buildid" "14242164"
 			"description" "Experimental builds, try at your own risk!"
-			"timeupdated" "1704712869"
+			"timeupdated" "1714642389"
 		}
 		"previous_default"
 		{
-			"buildid" "11139233"
+			"buildid" "13116689"
 			"description" "Previous main branch build. Switch to this if you\'ve got problems with a new update."
-			"timeupdated" "1697623219"
+			"timeupdated" "1714642715"
 		}
 	}
 }
@@ -453,6 +479,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21800575"
-"_sha" "a99124ec0fd4e0fa7df64587e33d4f6796385a78"
-"_size" "8281"
+"_change_number" "23386182"
+"_sha" "cbd3af8e72d1b3b4621c0b9317e03bce9447ebf3"
+"_size" "8865"
