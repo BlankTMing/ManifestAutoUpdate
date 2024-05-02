@@ -78,14 +78,15 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
-			"width_pct" "71"
-			"height_pct" "49"
+			"width_pct" "100"
+			"height_pct" "75.21705058180956"
 		}
 	}
-	"store_asset_mtime" "1695739037"
+	"store_asset_mtime" "1711038533"
 	"associations"
 	{
 		"0"
@@ -101,7 +102,7 @@
 		"2"
 		{
 			"type" "publisher"
-			"name" "BANDAI NAMCO Entertainment"
+			"name" "Bandai Namco Entertainment"
 		}
 		"3"
 		{
@@ -134,6 +135,7 @@
 		"category_49" "1"
 		"category_55" "1"
 		"category_56" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -233,13 +235,13 @@
 		"19" "4046"
 	}
 	"review_score" "8"
-	"review_percentage" "89"
+	"review_percentage" "90"
 }
 "extended"
 {
 	"anti_cheat_support_url" ""
 	"developer" "QLOC"
-	"publisher" "BANDAI NAMCO Entertainment"
+	"publisher" "Bandai Namco Entertainment"
 	"homepage" "http://www.dragonballxenoverse2.com/"
 	"listofdlc" "507510,508400,508401,508402,508403,508404,508405,540070,540071,556270,621100,739280,739281,739282,740140,740141,740142,740143,740160,953020,1108460,1108461,1507380,1544340,1744080,1999190,2023140,2161540,2161560,2377310"
 	"dlcavailableonstore" "1"
@@ -298,35 +300,17 @@
 		}
 		"encryptedmanifests"
 		{
+			"compatibility_nodebug"
+			{
+				"gid" "370DF6F309D9C62FA289AA0146D0CE1B"
+				"size" "D421E3CC0160F374D54B92676B95C123"
+				"download" "87BC146C49CAC5E1187DD1E8BC7184E8"
+			}
 			"crashtesting"
 			{
 				"gid" "784F4BA32A5530FAFF0105CE745B865C"
 				"size" "D1ED382DD491854FED06440498DA2390"
 				"download" "8BE9B90D40A33BA361B0217E72EADA17"
-			}
-			"dev_hybrid_all_lang_win10"
-			{
-				"gid" "3153C466890BEFE2331DD04393E7C731"
-				"size" "338AD1BCEE83C3B86B10A15B91C32065"
-				"download" "4FAF451229BE83807FE857F6D19953C1"
-			}
-			"dev_prod_all_lang_win10"
-			{
-				"gid" "EEFD4DC374D48F3AC0E2FAE6371E7327"
-				"size" "A33A8D5EF604F376528CEBF7433EA759"
-				"download" "D3D5DA487759FC5EEB91E415966ED345"
-			}
-			"dev_qa"
-			{
-				"gid" "4FBD798B78AB705809AC6146F7B4D123"
-				"size" "DE3FB844DCF30EB38E3BD4E3D38E3369"
-				"download" "E44E69EC62DD6B8FE8849CCE639B5869"
-			}
-			"dev_qa_debug"
-			{
-				"gid" "502D762FC74C5A67B5F642113831DDBD"
-				"size" "AA78A5C3F3CADEF1E3108DF1FF2AE690"
-				"download" "96BCC401C945E452B9D08BC6CDA40FC1"
 			}
 			"dev_qa_debug_cctv_testing"
 			{
@@ -345,12 +329,6 @@
 				"gid" "CC72A20CE724EF78C63076DC00125A67"
 				"size" "4DFFDF7061D85BDDD514F323E89C8077"
 				"download" "3A839443DABA6E9E25766EFFAC0A1C5E"
-			}
-			"dev_release_all_lang_win10"
-			{
-				"gid" "83BFF3CE73408DB1CC0D0C7D919144DF"
-				"size" "760B566B7577E227CA69A3A2B5A287DC"
-				"download" "1B48B4EC8D4FB72EDB0C5C8027BCDACB"
 			}
 			"jp_multitest"
 			{
@@ -372,9 +350,39 @@
 			}
 			"test152245"
 			{
-				"gid" "230CCA3708A09608F9D96CDCBE0F564D"
-				"size" "E64103CD9349317AA0A1F7288843AB14"
-				"download" "57AEF866E2E9139418E3D029B880C0B3"
+				"gid" "A0B85DD9047EF1DF2E6DAEFBF6A59CAA"
+				"size" "16B1C9A04048F4D4BDD1B40385E291AC"
+				"download" "83C423AA81E0698F1A45E2E93A824448"
+			}
+			"dev_hybrid_all_lang_win10"
+			{
+				"gid" "55C287F2AA769DCA7BDA8DE6EE4D1F43"
+				"size" "614F758C0158816A07F29FAA9959C4C1"
+				"download" "997FC507ECE34DB422228F583A3687CE"
+			}
+			"dev_prod_all_lang_win10"
+			{
+				"gid" "D4BAE8E9E988C36E13D37D6F1237E31C"
+				"size" "A07BA6005563C4918A540DEE85AC5AE0"
+				"download" "4F5C828485D79E58ABB9153547B9F29E"
+			}
+			"dev_qa"
+			{
+				"gid" "0A0E8CEFDA77DD3382540168E04D006E"
+				"size" "051DF731A34A205CFA807511803C7971"
+				"download" "DF2965CF4956C1B610417F2466BE4E90"
+			}
+			"dev_qa_debug"
+			{
+				"gid" "142889DAEA02627408ADB1A21FB4DF70"
+				"size" "087E2BAD8183599C54D390DF31B03655"
+				"download" "5AD5513125BA2F0BDEA943075800A874"
+			}
+			"dev_release_all_lang_win10"
+			{
+				"gid" "C934AA220F2BA324C461E2EB1B95C13B"
+				"size" "5B95C0BA37381AB1E4F7C7F4ACA1FFC1"
+				"download" "77049C62C6C991E957CC86D4E158E409"
 			}
 		}
 	}
@@ -391,35 +399,17 @@
 		}
 		"encryptedmanifests"
 		{
+			"compatibility_nodebug"
+			{
+				"gid" "2371CA7CFD017FFD4DE26376A531E3F7"
+				"size" "3C75EE28FC7502160303BE4C0B2D8D6A"
+				"download" "3C75EE28FC7502160303BE4C0B2D8D6A"
+			}
 			"crashtesting"
 			{
 				"gid" "0373C4F705910F4DC916F21396358491"
 				"size" "87870881D368410DB26B25C6A0C0E691"
 				"download" "652B6D117E4D12F9BAEEE2EFCC5BBB14"
-			}
-			"dev_hybrid_all_lang_win10"
-			{
-				"gid" "D11BEE46F0D8F414E2C675B3FAA62F2B"
-				"size" "A15F32E743DA65BD45847A24AA14CB72"
-				"download" "8F972ED24A09617C368F6ADFC071CD0B"
-			}
-			"dev_prod_all_lang_win10"
-			{
-				"gid" "2ED3F850C3DAC8893271AEA4984241A6"
-				"size" "D4BD54FB805A0576FA58A65CA13CD7C6"
-				"download" "34429A042FED717DEE291EDEEDCF5A41"
-			}
-			"dev_qa"
-			{
-				"gid" "6F1B84FA0FACF1A1694A0D51CD48BE01"
-				"size" "EF684B29239A061E03FCE2C447A52FEF"
-				"download" "C1EB4B802C2023FBFBF0EDA4279CFF72"
-			}
-			"dev_qa_debug"
-			{
-				"gid" "B0208E712C611198F3D81D84A0E87E34"
-				"size" "9CC0B6F87200873B21C337B518B2C4BE"
-				"download" "1219AD4883D20E179279A048AF38D2E5"
 			}
 			"dev_qa_debug_cctv_testing"
 			{
@@ -438,12 +428,6 @@
 				"gid" "0B79346D20C162232D8B521A0A5DAC4A"
 				"size" "FEFFA8AF602F94E162972F71C1BD87FD"
 				"download" "B231553DECBC8391D56036A123B8BF8F"
-			}
-			"dev_release_all_lang_win10"
-			{
-				"gid" "817FF81BC4914890473A10F6F6E7FD44"
-				"size" "8A2635FEA4135FFB7D6C5F745B418396"
-				"download" "87074BA558977680D8BB3E233F1539DD"
 			}
 			"jp_multitest"
 			{
@@ -465,9 +449,39 @@
 			}
 			"test152245"
 			{
-				"gid" "562981F01F01E45689C563C884FDD8B9"
-				"size" "3D4F8B812F713744B6BB61AA1C0D7FB9"
-				"download" "FE462CE99E8C58F31F1BCE9C1004C6F8"
+				"gid" "CA431795FDF5FAC16576FC143F8C396C"
+				"size" "769214526D5497C2747F24488319ABCC"
+				"download" "5BCC1F93AB187EA2A368283DC5F1DD12"
+			}
+			"dev_hybrid_all_lang_win10"
+			{
+				"gid" "A301E4AAFF7169C69169F94C867B0718"
+				"size" "F81B57A493B4F3BD2C737AA847C97656"
+				"download" "71F0D628A493F8394CE85ECCD787EA39"
+			}
+			"dev_prod_all_lang_win10"
+			{
+				"gid" "5543E7650FF7C3C69B5FBFB11B58925F"
+				"size" "C86E915B3F1B0A03625A2CC72D6F4358"
+				"download" "D854A3CD613C5F9FE1FAEA32561BD01C"
+			}
+			"dev_qa"
+			{
+				"gid" "2C94E72DB891721D4F189C8C0159863C"
+				"size" "7DB2541C869A0250DD6BD10D8EA127F7"
+				"download" "E0DEE6800A00D6BA6440024EC1B957EC"
+			}
+			"dev_qa_debug"
+			{
+				"gid" "E09BA46300342727080F8B6C18D32C67"
+				"size" "8945AEF5B991209F79334B0D0EE77D72"
+				"download" "BEDE5565CE84038E8AD51DEDC5BDC079"
+			}
+			"dev_release_all_lang_win10"
+			{
+				"gid" "71A49F9D086090CEFC54117D2BB04FFF"
+				"size" "8890730BBA2C9EB040021F7EA7D9D5FC"
+				"download" "A31C976BAD5B7B79C8A2D871A86A489A"
 			}
 		}
 	}
@@ -485,11 +499,59 @@
 		}
 		"encryptedmanifests"
 		{
+			"compatibility_nodebug"
+			{
+				"gid" "7245263F508EA0D618952FF778BF3350"
+				"size" "278BA29324C8345EA2ED658834CAA00B"
+				"download" "7E3D543DAB73A2B85021BB1D76C9F01F"
+			}
 			"crashtesting"
 			{
 				"gid" "8170CEE4AA5305F59C100637FFEF7A43"
 				"size" "2F8EAB9D3ADFC1019B1B9DD9F3062923"
 				"download" "2CD5EEE0E66B80A1E590570E4EB1510F"
+			}
+			"dev_qa_debug_cctv_testing"
+			{
+				"gid" "1858DA2D1267A2BEAC9031684B404565"
+				"size" "5487B7E4070FBE31A41E9C42B0861DAB"
+				"download" "DB8D0F4348B64C7AD6294BCC70E9808D"
+			}
+			"dev_rc5_hybrid"
+			{
+				"gid" "3DB4FFE6CB3ACAD48091102C706F6676"
+				"size" "8BBD06E660E099A3532ABEF32A6CC011"
+				"download" "82A3FF8A45C0A42F86B562AE1CE04741"
+			}
+			"dev_rc5_release"
+			{
+				"gid" "AF4D6262A5E202EE00B0DE5949CC1F36"
+				"size" "F5C2BA6BC38FFA291E8DB6B9D3DDDB62"
+				"download" "B200E5DB9D1E67AE98D640E5AF36D015"
+			}
+			"jp_multitest"
+			{
+				"gid" "106299D2B452EB9C5A862C076B91DA56"
+				"size" "DF2AA280CF13A45D98523802A0024827"
+				"download" "C858C54323CCF2F833CA71EEDB1B918E"
+			}
+			"quick_test"
+			{
+				"gid" "5A19F56BFE49EF6529CA16CF128DA7D6"
+				"size" "EB856DB7A871C2D8097412F91FB7D67C"
+				"download" "B6173886187B6DDC1DBD2BC9D5254428"
+			}
+			"test13022023"
+			{
+				"gid" "ADB362E3BD9FB13373B83ABEE34453CB"
+				"size" "8427EC3E15E46EF6D6D23A7719572D12"
+				"download" "E390A85306EC92CA187BAEE881F43FF7"
+			}
+			"test152245"
+			{
+				"gid" "81DD9D21BEE88204B2945382C1CCEE30"
+				"size" "EBB77AE5DCDC9AE080F30D8501569C40"
+				"download" "E9F26D8A7C71ABB5A2AB4DE0292CE288"
 			}
 			"dev_hybrid_all_lang_win10"
 			{
@@ -515,53 +577,11 @@
 				"size" "560383D4D11C9A93A989BE0AB8B197AA"
 				"download" "A90DA507B963AA6BD6E0ACBA4E74C095"
 			}
-			"dev_qa_debug_cctv_testing"
-			{
-				"gid" "1858DA2D1267A2BEAC9031684B404565"
-				"size" "5487B7E4070FBE31A41E9C42B0861DAB"
-				"download" "DB8D0F4348B64C7AD6294BCC70E9808D"
-			}
-			"dev_rc5_hybrid"
-			{
-				"gid" "3DB4FFE6CB3ACAD48091102C706F6676"
-				"size" "8BBD06E660E099A3532ABEF32A6CC011"
-				"download" "82A3FF8A45C0A42F86B562AE1CE04741"
-			}
-			"dev_rc5_release"
-			{
-				"gid" "AF4D6262A5E202EE00B0DE5949CC1F36"
-				"size" "F5C2BA6BC38FFA291E8DB6B9D3DDDB62"
-				"download" "B200E5DB9D1E67AE98D640E5AF36D015"
-			}
 			"dev_release_all_lang_win10"
 			{
 				"gid" "0750143F7D219C8A9C894F216BEE05F3"
 				"size" "342A7D3E8731C7ECDF1270E58DF0AB83"
 				"download" "86A7F3C80CBE4E3C29A75B11C60AA4ED"
-			}
-			"jp_multitest"
-			{
-				"gid" "106299D2B452EB9C5A862C076B91DA56"
-				"size" "DF2AA280CF13A45D98523802A0024827"
-				"download" "C858C54323CCF2F833CA71EEDB1B918E"
-			}
-			"quick_test"
-			{
-				"gid" "5A19F56BFE49EF6529CA16CF128DA7D6"
-				"size" "EB856DB7A871C2D8097412F91FB7D67C"
-				"download" "B6173886187B6DDC1DBD2BC9D5254428"
-			}
-			"test13022023"
-			{
-				"gid" "ADB362E3BD9FB13373B83ABEE34453CB"
-				"size" "8427EC3E15E46EF6D6D23A7719572D12"
-				"download" "E390A85306EC92CA187BAEE881F43FF7"
-			}
-			"test152245"
-			{
-				"gid" "E7E25648A566F2B80C64ED01AE00975D"
-				"size" "EBB77AE5DCDC9AE080F30D8501569C40"
-				"download" "BF86AB869BAFF8A7DAA8854E6574CD0E"
 			}
 		}
 	}
@@ -572,35 +592,17 @@
 			"buildid" "12772494"
 			"timeupdated" "1701936768"
 		}
+		"compatibility_nodebug"
+		{
+			"buildid" "13997613"
+			"pwdrequired" "1"
+			"timeupdated" "1712667269"
+		}
 		"crashtesting"
 		{
 			"buildid" "10675593"
 			"pwdrequired" "1"
 			"timeupdated" "1678278902"
-		}
-		"dev_hybrid_all_lang_win10"
-		{
-			"buildid" "12831195"
-			"pwdrequired" "1"
-			"timeupdated" "1701282614"
-		}
-		"dev_prod_all_lang_win10"
-		{
-			"buildid" "13016760"
-			"pwdrequired" "1"
-			"timeupdated" "1703130710"
-		}
-		"dev_qa"
-		{
-			"buildid" "12772494"
-			"pwdrequired" "1"
-			"timeupdated" "1700753505"
-		}
-		"dev_qa_debug"
-		{
-			"buildid" "12772542"
-			"pwdrequired" "1"
-			"timeupdated" "1700753404"
 		}
 		"dev_qa_debug_cctv_testing"
 		{
@@ -619,12 +621,6 @@
 			"buildid" "12473857"
 			"pwdrequired" "1"
 			"timeupdated" "1697730712"
-		}
-		"dev_release_all_lang_win10"
-		{
-			"buildid" "12831138"
-			"pwdrequired" "1"
-			"timeupdated" "1701282260"
 		}
 		"jp_multitest"
 		{
@@ -646,9 +642,39 @@
 		}
 		"test152245"
 		{
-			"buildid" "9394915"
+			"buildid" "13518736"
 			"pwdrequired" "1"
-			"timeupdated" "1661782478"
+			"timeupdated" "1708531203"
+		}
+		"dev_hybrid_all_lang_win10"
+		{
+			"buildid" "14185257"
+			"pwdrequired" "1"
+			"timeupdated" "1714133060"
+		}
+		"dev_prod_all_lang_win10"
+		{
+			"buildid" "14166625"
+			"pwdrequired" "1"
+			"timeupdated" "1714007921"
+		}
+		"dev_qa"
+		{
+			"buildid" "14185172"
+			"pwdrequired" "1"
+			"timeupdated" "1714136983"
+		}
+		"dev_qa_debug"
+		{
+			"buildid" "14185257"
+			"pwdrequired" "1"
+			"timeupdated" "1714136897"
+		}
+		"dev_release_all_lang_win10"
+		{
+			"buildid" "14185172"
+			"pwdrequired" "1"
+			"timeupdated" "1714132614"
 		}
 	}
 }
@@ -659,6 +685,6 @@
 	"appidredirect" "323470"
 }
 "_missing_token" "False"
-"_change_number" "21624761"
-"_sha" "a80649d00d2c8f05a5dcfe986e45e24e2bbcadb1"
-"_size" "14782"
+"_change_number" "23315141"
+"_sha" "1162b60c8f70a772790b4b595e7d3092773adcfe"
+"_size" "15526"
