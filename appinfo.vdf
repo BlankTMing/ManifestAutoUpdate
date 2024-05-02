@@ -1,0 +1,260 @@
+"appid" "38720"
+"common"
+{
+	"name" "RUSH"
+	"logo" "b1359d9a1d37199493dee056a854ff70735924de"
+	"logo_small" "b1359d9a1d37199493dee056a854ff70735924de_thumb"
+	"icon" "734f6b5196a95c73e69e0525ea3e64e90a12fc93"
+	"clienttga" "301ca48ef717baf4b78ab0ba1dfc27d2ee3709c9"
+	"clienticon" "a17de4e65da92e45657259f4ef2fafd9749753df"
+	"clienticns" "071878b5a7c39545b8070b6c261de730c06b0636"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"dutch" "1"
+	}
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"osextended" "macos64,macosnotarized"
+	"type" "game"
+	"metacritic_name" "RUSH"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Two Tribes"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Two Tribes Publishing"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+	}
+	"supported_languages"
+	{
+		"dutch"
+		{
+			"supported" "true"
+		}
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1291399200"
+	"metacritic_score" "73"
+	"metacritic_fullurl" "http://www.metacritic.com/game/pc/rush\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "38720"
+	"store_tags"
+	{
+		"0" "1664"
+		"1" "492"
+		"2" "597"
+		"3" "4182"
+		"4" "9"
+		"5" "4400"
+		"6" "4305"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "Two Tribes"
+	"gamedir" "RUSH"
+	"homepage" "http://www.twotribes.com/rush"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"installscript_macos" "RUSH.app/installscript_osx.vdf"
+	"languages" "english,german,french,spanish,italian,dutch"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "38721"
+	"primarycache_macos" "38722"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "windows,macos"
+	"publisher" "Two Tribes Publishing"
+	"listofdlc" "98012"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "RUSH"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "rush.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "RUSH.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "./RUSH.bin.x86"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" "english,german,french,spanish,italian,dutch"
+	"markdlcdepots" "1"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"38721"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6310569386126047308"
+				"size" "274809027"
+				"download" "0"
+			}
+		}
+	}
+	"38722"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5224961914068267918"
+				"size" "163226547"
+				"download" "115964432"
+			}
+		}
+	}
+	"38723"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7442307014536787324"
+				"size" "169354914"
+				"download" "117554896"
+			}
+		}
+	}
+	"98012"
+	{
+		"dlcappid" "98012"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "802517688290875267"
+				"size" "10691187"
+				"download" "0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5360252"
+			"timeupdated" "1596297178"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "21769991"
+"_sha" "338b2fac3e9ed33bc6f533293bf9bbbc601b1c17"
+"_size" "4087"
