@@ -1,0 +1,247 @@
+"appid" "876860"
+"common"
+{
+	"name" "Magic Chess"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"languages"
+	{
+		"english" "1"
+	}
+	"clienttga" "195e3f18f26c1e535031a6114c634585a4aa3766"
+	"clienticon" "61d0318c287e7a5e2955afdd4b4c698a965de7fe"
+	"icon" "eec4fdcc7e9207bb57e079872e85d654f6071dd7"
+	"clienticns" "ba9ecbca48b4c326ccae98803abbd2ec7471e8f7"
+	"logo" "a57c26fdda914839d88d206d769005524b47239b"
+	"logo_small" "a57c26fdda914839d88d206d769005524b47239b_thumb"
+	"releasestate" "released"
+	"app_retired_publisher_request" "1"
+	"metacritic_name" "Magic Chess"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1533544114"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "One Tap Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "One Tap Games"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "18"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1529479532"
+	"community_hub_visible" "1"
+	"gameid" "876860"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "9"
+		"2" "701"
+		"3" "599"
+		"4" "4184"
+	}
+	"review_score" "4"
+	"review_percentage" "26"
+}
+"extended"
+{
+	"developer" "One Tap Games"
+	"publisher" "One Tap Games"
+	"homepage" "https://art-of-adventures.com"
+}
+"config"
+{
+	"installdir" "Magic Chess"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Magic Chess.app/Contents/MacOS/Magic Chess"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"1"
+		{
+			"executable" "Magic Chess.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese"
+	"876861"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5006411876915147209"
+				"size" "139947701"
+				"download" "38223040"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"develop"
+			{
+				"gid" "7C03543A368ECBE050E5D8D0E3DAAC57"
+				"size" "E3FD9AB49A7741E3CA138A51EF5414E9"
+				"download" "AA9AF260DDB7AD35374D9E49ED9B5BA2"
+			}
+		}
+	}
+	"876862"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8383831445369370376"
+				"size" "192825813"
+				"download" "52097904"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"develop"
+			{
+				"gid" "7D775E4A848C4F14B93F2835C3EFA4DC"
+				"size" "4ACC61D95619BEB0C42727786B26054C"
+				"download" "89E68848FC052D3D931A55BD038E10CC"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2860966"
+			"timeupdated" "1528970590"
+		}
+		"develop"
+		{
+			"buildid" "2860966"
+			"pwdrequired" "1"
+			"timeupdated" "1528970582"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "200"
+	"maxnumfiles" "1"
+	"appidredirect" "876860"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Playloft/Magic Chess"
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Playloft/Magic Chess"
+					"replace" "com.playloft.MagicChess_mac"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21051004"
+"_sha" "a1aa9ab93da1bf5d2823af31f16a465aeb185401"
+"_size" "3905"
