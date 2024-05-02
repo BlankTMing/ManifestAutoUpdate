@@ -1,0 +1,207 @@
+"appid" "777640"
+"common"
+{
+	"name" "Lightform"
+	"type" "Game"
+	"releasestate" "released"
+	"clienticon" "d37669296276d28fd3cc115073e9267973c7483e"
+	"clienttga" "a30efb1e7dae6e0b9422d223b3d358bc549c72c8"
+	"icon" "75174a5d692eca95c76c30548fefb221708fe990"
+	"logo" "2a79fecbd621df117a1ad3e276512e8a9a995969"
+	"logo_small" "2a79fecbd621df117a1ad3e276512e8a9a995969_thumb"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+	}
+	"app_retired_publisher_request" "1"
+	"metacritic_name" "Lightform"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"store_asset_mtime" "1533529053"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Shadow Motion"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Shadow Motion"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1519097916"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "777640"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "21"
+		"2" "1664"
+		"3" "1625"
+		"4" "3871"
+		"5" "4182"
+		"6" "4342"
+		"7" "5094"
+		"8" "5716"
+		"9" "9541"
+		"10" "1667"
+		"11" "1742"
+		"12" "3834"
+		"13" "4166"
+		"14" "4604"
+		"15" "5537"
+		"16" "5851"
+		"17" "5984"
+		"18" "4026"
+		"19" "4726"
+	}
+	"review_score" "4"
+	"review_percentage" "25"
+}
+"extended"
+{
+	"developer" "Shadow Motion"
+	"publisher" "Shadow Motion"
+	"homepage" "https://steam.gamenesis.com"
+}
+"config"
+{
+	"installdir" "Lightform"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Lightform.app\\Contents\\MacOS\\Lightform"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"1"
+		{
+			"executable" "Lightform.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,schinese,russian,portuguese"
+	"777641"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1880108102659661779"
+				"size" "651939935"
+				"download" "53905920"
+			}
+		}
+	}
+	"777642"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8180855661052754314"
+				"size" "663242717"
+				"download" "56706528"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2524775"
+			"timeupdated" "1518604615"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "WonderBox Games/Lightform"
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "WonderBox Games/Lightform"
+					"replace" "com.wonderboxgames.Lightformmac"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18903802"
+"_sha" "12a58739e22359dd7c187da67a957ca7bdc49840"
+"_size" "3264"
