@@ -1,0 +1,235 @@
+"appid" "815250"
+"common"
+{
+	"name" "Magic League"
+	"type" "Game"
+	"releasestate" "released"
+	"clienttga" "942aa0151023d4cc9ffe0f7b2fa5df0e747e5827"
+	"clienticon" "f589796cfd42fdeb5629c74696d268d23492674a"
+	"icon" "5ea5e79dc8b790d6d18fc5884bb2a4be02785d72"
+	"logo" "8faad5ddff79a7ec4e855d1987e5720c75ada4c8"
+	"logo_small" "8faad5ddff79a7ec4e855d1987e5720c75ada4c8_thumb"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"koreana" "1"
+		"schinese" "1"
+		"russian" "1"
+		"japanese" "1"
+		"portuguese" "1"
+	}
+	"app_retired_publisher_request" "1"
+	"metacritic_name" "Magic League"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1540463688"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Art Of Adventures"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Art Of Adventures"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1525100490"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "815250"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "4182"
+		"3" "1666"
+		"4" "9"
+		"5" "21"
+		"6" "1718"
+	}
+	"review_score" "3"
+	"review_percentage" "17"
+}
+"extended"
+{
+	"developer" "Art Of Adventures"
+	"publisher" "Art Of Adventures"
+	"homepage" "https://art-of-adventures.com"
+}
+"config"
+{
+	"installdir" "Magic League"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Magic League.app/Contents/MacOS/Magic League"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"1"
+		{
+			"executable" "Magic League.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"815251"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3867040910300350035"
+				"size" "316824812"
+				"download" "86617808"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"betatest"
+			{
+				"gid" "E0CD31A9CB06415E4030F8D62F21E196"
+				"size" "CBD740F2712FCFEA9E0F22B7BB2F65B7"
+				"download" "6BB290FEE96BBA5C2649DCA60ACD87B5"
+			}
+		}
+	}
+	"815252"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2210509160308895539"
+				"size" "369204204"
+				"download" "101301408"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"betatest"
+			{
+				"gid" "E0CA67CB8D529CB4E125DA0624C41382"
+				"size" "7AC2B777EC4CCB737523816ED94AAC5B"
+				"download" "C89AF4D0818F9903AB2C076B9C7392DB"
+			}
+		}
+	}
+	"baselanguages" "english,german,schinese,russian,portuguese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2825144"
+			"timeupdated" "1528102103"
+		}
+		"betatest"
+		{
+			"buildid" "2825144"
+			"pwdrequired" "1"
+			"timeupdated" "1527844066"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "5"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Playloft/Magic League"
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "SavesDir"
+					"replace" "com.playloft.MagicLeaguemac"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18821630"
+"_sha" "35304a09a7663454d1c012e41f375aafc24cb2f8"
+"_size" "3779"
