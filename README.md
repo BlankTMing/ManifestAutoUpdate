@@ -1,40 +1,34 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-05-02 10:30:21
+## 更新时间：2024-05-02 10:39:10
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 655280 | Ping| Game |
-| 725490 | NewOld| Game |
-| 692180 | Bad Shooter 2| Game |
-| 683210 | Apez | Game |
-| 301990 | School Bus Fun| Game |
-| 645760 | Heroic Dungeon| Game |
-| 253370 | Axis Game Factory's AGFPRO 3.0| Application |
-| 1135240 | Men of War: Assault Squad 2 - Cold War| Game |
-| 487030 | Beasts Battle| Game |
-| 635250 | Evil Genome| Game |
-| 571310 | SteamWorld Dig 2| Game |
-| 365140 | DREAMFLIGHT VR| Game |
-| 535520 | Nidhogg 2| Game |
-| 295790 | Never Alone (Kisima Ingitchuna)| Game |
-| 448880 | Spells 'n' Stuff| Game |
-| 615000 | Totally Accurate Battle Zombielator| Game |
-| 1270100 | Bingfa：Warring States| Game |
-| 336250 | Monster Jam| Game |
-| 711990 | Elise the Devil| Game |
-| 298520 | Orbital Gear| Game |
-| 242550 | Rayman Legends| Game |
-| 201420 | Toki Tori 2+| Game |
-| 237530 | Toki Tori 2+ Level Editor| Tool |
-| 38720 | RUSH| game |
-| 342620 | It came from space and ate our brains| Game |
-| 340470 | You Are Not a Banana: Better Edition| Game |
-| 397870 | Arcane Sorcery| Game |
-| 411080 | SHOWTIME 2073| Game |
-| 263460 | Girls Like Robots| Game |
-| 355560 | Trigger Runners| Game |
-| 288930 | The Charnel House Trilogy| Game |
-| 315830 | Daedalus - No Escape| Game |
-| 263960 | Wyv and Keep: The Temple of the Lost Idol| Game |
-| 384680 | MechaNika| Game |
-| 314810 | Randal's Monday| Game |
+| 732060 | The Monk and the Warrior. The Heart of the King.| Game |
+| 517630 | Just Cause 4| Game |
+| 1292880 | 零号刺客| Game |
+| 965080 | 江湖求生| Game |
+| 414580 | Uriel's Chasm 2: את| Game |
+| 361620 | True Bliss| Game |
+| 355430 | SNOWFLAKE TATTOO| Game |
+| 292620 | Pressured| Game |
+| 284950 | Pixel Puzzles: Japan| Game |
+| 435010 | Krinkle Krusher| Game |
+| 301690 | Cobi Treasure Deluxe| Game |
+| 473690 | Absolver| Game |
+| 319830 | AX:EL| Game |
+| 340200 | Bloop| Game |
+| 463670 | Runeyana| Game |
+| 509780 | Fire Arrow Plus| Game |
+| 466820 | Zenodyne R| Game |
+| 510330 | Shotgun Raiders| Game |
+| 301540 | Rhythm Destruction| Game |
+| 291330 | Final Slam 2| Game |
+| 533860 | Multimirror| Game |
+| 433750 | The Grandfather| Game |
+| 341060 | The Lady| Game |
+| 647050 | Super Hardcore| Game |
+| 514010 | Football Mogul 15| Game |
+| 371850 | Football Mogul 2014| Game |
+| 416610 | The Growth Journey| Game |
+| 450850 | Cube Land Arena| Game |
+| 355410 | Radium| Game |
