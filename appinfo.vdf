@@ -1,0 +1,248 @@
+"appid" "304670"
+"common"
+{
+	"name" "Aeon Command"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "ac7d10ab2759861c313e09f46c9a0eb0ff0ba1e4"
+	"logo_small" "ac7d10ab2759861c313e09f46c9a0eb0ff0ba1e4_thumb"
+	"icon" "0974ef85889780e6af14972862c4e453a4835b82"
+	"clienttga" "49f2d227ce2ca0c853093356e740b96acbcccf68"
+	"clienticon" "eb4386a44396a73b7739b939b8e80336fd3bbbbd"
+	"clienticns" "55394321da1d0466363cda249713304704330ee9"
+	"linuxclienticon" "c4d6fc9d998369b37e6093a5b351ab441a2559b8"
+	"metacritic_name" "Aeon Command"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1403128469"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Bat Country Games, LLC"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Bat Country Games, LLC"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_15" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1404407281"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "304670"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "492"
+		"2" "597"
+		"3" "1755"
+		"4" "3942"
+	}
+	"review_score" "6"
+	"review_percentage" "78"
+}
+"extended"
+{
+	"developer" "Bat Country Games, LLC"
+	"publisher" "Bat Country Games, LLC"
+	"homepage" "http://aeoncommand.com/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "aeoncommand"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "aeoncommand.exe"
+			"arguments" "-force-gfx-st"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "aeoncommand.x86"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"2"
+		{
+			"executable" "aeoncommand.x86_64"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "aeoncommand.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+}
+"depots"
+{
+	"229004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"304671"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "483836947147011239"
+				"size" "144644702"
+				"download" "159514688455"
+			}
+		}
+	}
+	"304672"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4984378577913017755"
+				"size" "150204741"
+				"download" "118253541263"
+			}
+		}
+	}
+	"304673"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8562241265290479171"
+				"size" "153036087"
+				"download" "202493904352"
+			}
+		}
+	}
+	"304674"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5513859472177590968"
+				"size" "178542046"
+				"download" "308801449463"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "322941"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "aeoncommand_Data"
+			"pattern" "save.dat"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "aeoncommand_data"
+			"pattern" "save.dat"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20782534"
+"_sha" "5e2a5ed8bbff1c3463c32dd32d11480c6f2dc0c6"
+"_size" "3900"
