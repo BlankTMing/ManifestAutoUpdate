@@ -1,0 +1,226 @@
+"appid" "807780"
+"common"
+{
+	"name" "Mahjong Classic"
+	"type" "Game"
+	"logo" "1d8ff5cf52143768507645f187afe9c888441d13"
+	"logo_small" "1d8ff5cf52143768507645f187afe9c888441d13_thumb"
+	"icon" "a4e40562d50ae10c78b2a8fbb9a2aa13c0e48fb5"
+	"clienticon" "2074e14689c2db4153e35e830f6ae8b55e5010e9"
+	"clienttga" "c662e5bb3461c233d845438f1ba6b1bfbd908343"
+	"clienticns" "5f45e679b85ea160eb77e235aaffc0b75a4d5caa"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"schinese" "1"
+		"russian" "1"
+		"portuguese" "1"
+	}
+	"app_retired_publisher_request" "1"
+	"metacritic_name" "Mahjong Classic"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"store_asset_mtime" "1533889460"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Tap by Tap"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Tap by Tap"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1520830800"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "807780"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "4182"
+		"2" "1770"
+		"3" "1664"
+		"4" "3871"
+		"5" "4305"
+	}
+	"review_score" "4"
+	"review_percentage" "21"
+}
+"extended"
+{
+	"developer" "Tap by Tap"
+	"publisher" "Tap by Tap"
+	"homepage" "http://steam.action-portal.com"
+}
+"config"
+{
+	"installdir" "Majong Classic"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Majong Classic.app\\Contents\\MacOS\\Majong Classic"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"1"
+		{
+			"executable" "Majong Classic.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"807781"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1776399449400510300"
+				"size" "920554919"
+				"download" "153915056"
+			}
+			"beta-test"
+			{
+				"gid" "1776399449400510300"
+				"size" "920554919"
+				"download" "153915056"
+			}
+		}
+	}
+	"807782"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8074078103040875068"
+				"size" "934068547"
+				"download" "156836304"
+			}
+			"beta-test"
+			{
+				"gid" "8074078103040875068"
+				"size" "934068547"
+				"download" "156836304"
+			}
+		}
+	}
+	"baselanguages" "english,german,schinese,russian,portuguese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3411781"
+			"timeupdated" "1545213278"
+		}
+		"beta-test"
+		{
+			"buildid" "3411781"
+			"timeupdated" "1545213156"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Playloft/Majong Classic"
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Playloft/Majong Classic"
+					"replace" "com.playloft.MajongClassicmac"
+				}
+			}
+		}
+	}
+	"appidredirect" "807780"
+}
+"_missing_token" "False"
+"_change_number" "23296673"
+"_sha" "e5562c70310537d3b2d9bc7957c8139ed8ca4e51"
+"_size" "3651"
