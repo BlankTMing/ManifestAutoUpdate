@@ -1,0 +1,219 @@
+"appid" "237530"
+"common"
+{
+	"name" "Toki Tori 2+ Level Editor"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"clienticns" "7ccde93f3c3c4ec1c25bb86dc00f2be67252c16e"
+	"clienticon" "c86c59a46b0db0579d2885e2a4f0f66a9d894beb"
+	"clienttga" "2fde231197e8def43ca4bef4347c7e89c8451edf"
+	"icon" "dd1a4ef8d8f2dfbb49e33526c9679b70eb4018c8"
+	"osarch" ""
+	"osextended" "macos64"
+	"community_hub_visible" "1"
+	"gameid" "237530"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" ""
+	"gamedir" "ValveTestApp237530"
+	"homepage" ""
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateComingSoonNoPreload"
+	"visibleonlywhensubscribed" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Toki Tori 2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "tokitori2.exe"
+			"arguments" "--editor"
+			"type" "editor"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Toki Tori 2+.app"
+			"arguments" "--editor"
+			"type" "editor"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "TokiTori2.bin.x86"
+			"arguments" "--editor"
+			"type" "editor"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "TokiTori2.bin.x86_64"
+			"arguments" "--editor"
+			"type" "editor"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" "english,german,french,italian,spanish"
+	"markdlcdepots" "1"
+	"201421"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "201420"
+		"sharedinstall" "2"
+	}
+	"201422"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"depotfromapp" "201420"
+		"sharedinstall" "2"
+	}
+	"201423"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"depotfromapp" "201420"
+		"sharedinstall" "2"
+	}
+	"237531"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6299999037102012294"
+				"size" "224692"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"community"
+			{
+				"gid" "5DF3039484DF749FBB7E336CE9A37BEC"
+				"size" "58C2E545D0FFC0099BEB73938A43AD98"
+				"download" "CE9DA1B99F593036D7DBDDFA8917D90E"
+			}
+			"test"
+			{
+				"gid" "A37FA6EBE194405E3E6B186656EDC59B"
+				"size" "5335D87077DDC83E9CA7078D1CE04647"
+				"download" "619194F93B6291E0D01463734D7E0FA1"
+			}
+		}
+	}
+	"237532"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4915355402297260010"
+				"size" "125"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"community"
+			{
+				"gid" "C7F5F44F414A458C7F173CBAEDA3BB41"
+				"size" "5A0D9C20EAC64AF3BB6E7610C8961A8D"
+				"download" "CE9DA1B99F593036D7DBDDFA8917D90E"
+			}
+			"test"
+			{
+				"gid" "A9CB1B88333F4B65D3858A649EBB3BFE"
+				"size" "F75C123A1AE8A992597D8959C4843090"
+				"download" "619194F93B6291E0D01463734D7E0FA1"
+			}
+		}
+	}
+	"237533"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8043240932184293857"
+				"size" "224692"
+				"download" "0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "168874"
+		}
+		"community"
+		{
+			"buildid" "86840"
+			"pwdrequired" "1"
+		}
+		"test"
+		{
+			"buildid" "86840"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "18987327"
+"_sha" "cb02c16aeb67e56f8e7dbb496f83757966426722"
+"_size" "3616"
