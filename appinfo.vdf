@@ -1,0 +1,486 @@
+"appid" "225160"
+"common"
+{
+	"name" "Shadow Warrior Classic Redux"
+	"type" "Game"
+	"logo" "a01d6486778b4a8af907c391d0b342e09ab5a733"
+	"logo_small" "a01d6486778b4a8af907c391d0b342e09ab5a733_thumb"
+	"icon" "782389ab2535d0bf97f1b00ae772640a9ae09b00"
+	"oslist" "windows,macos,linux"
+	"clienticon" "a852fb45e453f7e1aee3e6110be863ec02636dbf"
+	"clienttga" "767c1acafda2e28ef5a68541580ef00d9a45d492"
+	"clienticns" "e8885368ca2b27675fb1c0a6e5edaa5015ac03b6"
+	"releasestate" "released"
+	"linuxclienticon" "9957077b55697cf93ceace08d59c1ed3a95f8e81"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1658361600"
+		"tested_build_id" "1526090"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Shadow Warrior Classic"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "51.144164759725385"
+			"height_pct" "85.7159819520304"
+		}
+	}
+	"store_asset_mtime" "1706008313"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "General Arcade"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Devolver Digital"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Shadow Warrior"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_28" "1"
+		"category_17" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"original_release_date" "863506800"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "225160"
+	"store_tags"
+	{
+		"0" "1663"
+		"1" "1693"
+		"2" "19"
+		"3" "4004"
+		"4" "1774"
+		"5" "4345"
+		"6" "3916"
+		"7" "1688"
+		"8" "1719"
+		"9" "4182"
+		"10" "3839"
+		"11" "4136"
+		"12" "4667"
+		"13" "6691"
+		"14" "6650"
+		"15" "5708"
+		"16" "1023537"
+		"17" "5923"
+		"18" "21"
+		"19" "4026"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "General Arcade"
+	"gamedir" "ValveTestApp225160"
+	"homepage" "http://www.3drealms.com/sw/"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Devolver Digital"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Shadow Warrior Classic"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bin/sw.exe"
+			"description" "Play Shadow Warrior Classic Redux"
+			"workingdir" "gameroot"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "bin/sw.sh"
+			"description" "Play Shadow Warrior Classic Redux"
+			"workingdir" "gameroot"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "bin/sw.exe"
+			"arguments" "-addon1"
+			"description" "Play Shadow Warrior: Wanton Destruction "
+			"workingdir" "gameroot"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "bin/sw.sh"
+			"arguments" "-addon1"
+			"description" "Play Shadow Warrior: Wanton Destruction"
+			"workingdir" "gameroot"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"4"
+		{
+			"executable" "bin/sw.exe"
+			"arguments" "-addon2"
+			"description" "Play Shadow Warrior: Twin Dragon "
+			"workingdir" "gameroot"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"5"
+		{
+			"executable" "bin/sw.sh"
+			"arguments" "-addon2"
+			"description" "Play Shadow Warrior: Twin Dragon"
+			"workingdir" "gameroot"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"6"
+		{
+			"executable" "bin/dosbox/dosbox.exe"
+			"arguments" "-conf dosbox_swarrior.conf -conf dosbox_swarrior_single.conf -noconsole -c exit"
+			"description" "Play Shadow Warrior Classic (1997)"
+			"workingdir" "gameroot/classic"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"7"
+		{
+			"executable" "bin/sw_dosbox.sh"
+			"arguments" "-conf dosbox_swarrior.conf -conf dosbox_swarrior_single.conf -noconsole -c exit"
+			"description" "Play Shadow Warrior Classic (1997)"
+			"workingdir" "gameroot/classic"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"8"
+		{
+			"executable" "bin/sw.sh"
+			"description" "Launch"
+			"workingdir" "gameroot"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"9"
+		{
+			"executable" "bin/sw.sh"
+			"arguments" "-addon1"
+			"description" "Play Shadow Warrior: Wanton Destruction"
+			"workingdir" "gameroot"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"10"
+		{
+			"executable" "bin/sw.sh"
+			"arguments" "-addon2"
+			"description" "Play Shadow Warrior: Twin Dragon "
+			"workingdir" "gameroot"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"11"
+		{
+			"executable" "bin/sw_dosbox.sh"
+			"arguments" "-conf dosbox_swarrior.conf -conf dosbox_swarrior_single.conf -noconsole -c exit"
+			"description" "Play Shadow Warrior Classic (1997)"
+			"workingdir" "gameroot/classic"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"12"
+		{
+			"executable" "bin\\build.exe"
+			"description" "Launch Level Editor"
+			"workingdir" "gameroot"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"13"
+		{
+			"executable" "bin/build_linux.sh"
+			"description" "Launch Level Editor"
+			"workingdir" "gameroot"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"14"
+		{
+			"executable" "bin/build_mac.sh"
+			"description" "Launch Level Editor"
+			"workingdir" "gameroot"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"225161"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3695170644392011120"
+				"size" "555470938"
+				"download" "244454112"
+			}
+			"public-beta"
+			{
+				"gid" "3695170644392011120"
+				"size" "555470938"
+				"download" "244454112"
+			}
+			"sdl1"
+			{
+				"gid" "2712263007183425571"
+				"size" "553700734"
+				"download" "0"
+			}
+		}
+	}
+	"225164"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1184201241338310002"
+				"size" "12214920"
+				"download" "4440912"
+			}
+			"public-beta"
+			{
+				"gid" "1184201241338310002"
+				"size" "12214920"
+				"download" "4440912"
+			}
+			"sdl1"
+			{
+				"gid" "103784938461046790"
+				"size" "12007505"
+				"download" "0"
+			}
+		}
+	}
+	"225162"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8409439608864543659"
+				"size" "21207674"
+				"download" "7233296"
+			}
+			"public-beta"
+			{
+				"gid" "8409439608864543659"
+				"size" "21207674"
+				"download" "7233296"
+			}
+			"sdl1"
+			{
+				"gid" "431732993603923373"
+				"size" "11516850"
+				"download" "0"
+			}
+		}
+	}
+	"225163"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7207821163636110280"
+				"size" "19532498"
+				"download" "6566768"
+			}
+			"public-beta"
+			{
+				"gid" "7207821163636110280"
+				"size" "19532498"
+				"download" "6566768"
+			}
+			"sdl1"
+			{
+				"gid" "7499209748010872217"
+				"size" "18547083"
+				"download" "0"
+			}
+		}
+	}
+	"markdlcdepots" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1526090"
+			"timeupdated" "1481982232"
+		}
+		"public-beta"
+		{
+			"buildid" "1526090"
+			"description" "Public Beta"
+			"timeupdated" "1481982300"
+		}
+		"sdl1"
+		{
+			"buildid" "198569"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "100"
+}
+"_missing_token" "False"
+"_change_number" "23175963"
+"_sha" "f4953ae9e1f18cac59560b36cd19e6282b14f2b1"
+"_size" "9089"
