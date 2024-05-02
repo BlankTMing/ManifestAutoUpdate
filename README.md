@@ -1,44 +1,24 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-05-02 18:43:45
+## 更新时间：2024-05-02 18:48:15
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 320970 | IGT Slots Paradise Garden| Game |
-| 880400 | Lingering Fragrance| Game |
-| 688130 | Pogostuck: Rage With Your Friends| Game |
-| 324740 | The Warlock of Firetop Mountain| Game |
-| 756050 | Achievement Hunter: Scars| Game |
-| 331810 | Lost Region| Game |
-| 423700 | Apocalypse Hotel - The Post-Apocalyptic Hotel Simulator!| Game |
-| 468570 | De-Void| Game |
-| 610840 | JASEM: Just Another Shooter with Electronic Music| Game |
-| 390340 | Umbrella Corps| Game |
-| 455640 | Edgar| Game |
-| 105100 | Lume| game |
-| 271550 | Tribloos 2| Game |
-| 868920 | Pylow| Game |
-| 302310 | Dungeon of Elements| Game |
-| 444720 | Inexistence| Game |
-| 513540 | Deadly Metal| Game |
-| 613670 | The Chronicles of Dragon Wing - Reborn| Game |
-| 527460 | Lepofrenia| Game |
-| 676580 | NEO Impossible Bosses| Game |
-| 416630 | True Lover's Knot| Game |
-| 459130 | Love in the Glen| Game |
-| 604040 | Legion Tale| Game |
-| 58610 | Wargame: European Escalation| Game |
-| 551520 | Last Days of Spring 2| Game |
-| 829250 | Craft and Dungeon| Game |
-| 719460 | Crankies Workshop: Grizzbot Assembly 2| Game |
-| 705430 | Crankies Workshop: Lerpbot Assembly| Game |
-| 707380 | Crankies Workshop: Zazzbot Assembly| Game |
-| 910490 | Killsquad| Game |
-| 867480 | Daddy| Game |
-| 1033450 | Treasure chest Corps-結界を維持するため、魔物を退治した| Game |
-| 896220 | Dangerous Skies 80's edition| Game |
-| 1132730 | 巅峰骑士团| Game |
-| 816990 | Dead Dust| Game |
-| 812940 | Dear Leader| Game |
-| 849550 | Depth Siege Atlantis| Game |
-| 880413 | OVERKILL's The Walking Dead: Digital Art Book| DLC |
-| 880414 | OVERKILL's The Walking Dead: Original Soundtrack| DLC |
+| 461840 | Zenge| Game |
+| 1254420 | My psychedelic world| Game |
+| 473740 | Crystal City| Game |
+| 1281130 | Thrice in a row| Game |
+| 16450 | F.E.A.R. 2: Project Origin| game |
+| 566990 | Russian Car Driver| Game |
+| 744260 | 宅人传说| Game |
+| 421040 | Plantera| Game |
+| 575130 | Danko and treasure map| Game |
+| 262830 | Crimsonland| Game |
+| 305740 | Pitiri 1977| Game |
+| 252550 | Qbeh-1: The Atlas Cube| Game |
+| 545950 | Tesla's Best Friend| Game |
+| 747340 | Unforgiving - A Northern Hymn| Game |
+| 485370 | Mad Combat Marines| Game |
+| 341080 | Nexus : One Core| Game |
+| 346560 | 王国英雄II| Game |
+| 340340 | Domestic Dog| Game |
+| 257990 | Oozi: Earth Adventure| Game |
