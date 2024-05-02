@@ -1,0 +1,243 @@
+"appid" "955400"
+"common"
+{
+	"name" "Bonds"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "603517ee25856ad2f20c00ecc0a204abd8a762f6"
+	"logo_small" "603517ee25856ad2f20c00ecc0a204abd8a762f6_thumb"
+	"icon" "16deb073b9dc385509b2ae0a62c16aa3272d3f64"
+	"clienticon" "42478240cba02765a060b5d2a36bfa3a9dcf8f6d"
+	"clienttga" "262a23f7c9eb1e9ab0090ac9e2a7d53785082628"
+	"releasestate" "released"
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "3"
+		"2" "4"
+		"3" "5"
+	}
+	"restricted_countries" "CN,DE"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "66.86046511627904"
+			"height_pct" "93.6950843030159"
+		}
+	}
+	"store_asset_mtime" "1636991045"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "DID Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "DID Games"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1513065600"
+	"steam_release_date" "1541085180"
+	"community_hub_visible" "1"
+	"gameid" "955400"
+	"store_tags"
+	{
+		"0" "12095"
+		"1" "492"
+		"2" "597"
+		"3" "599"
+		"4" "7208"
+		"5" "3799"
+		"6" "4085"
+		"7" "4726"
+		"8" "4947"
+	}
+	"review_score" "8"
+	"review_percentage" "96"
+}
+"extended"
+{
+	"developer" "DID Games"
+	"publisher" "DID Games"
+	"homepage" "https://did.games"
+}
+"config"
+{
+	"installdir" "Bonds"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Game.exe"
+			"arguments" "--in-process-gpu"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Game.app"
+			"arguments" "--in-process-gpu"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Game"
+			"arguments" "--in-process-gpu"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"955401"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9141785501689725312"
+				"size" "3890"
+				"download" "1760"
+			}
+		}
+	}
+	"955402"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6934569530192347995"
+				"size" "570612220"
+				"download" "450241904"
+			}
+		}
+	}
+	"955403"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5741648345880695406"
+				"size" "913302102"
+				"download" "456675888"
+			}
+		}
+	}
+	"955404"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5627211177283297890"
+				"size" "709955555"
+				"download" "480221792"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3230533"
+			"timeupdated" "1539990576"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "20"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "www/save"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "www/save"
+					"replace" "Game.app/Contents/Resources/app.nw/save"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22921111"
+"_sha" "4559df4d8dd93daf907819781e713e0e65820909"
+"_size" "3598"
