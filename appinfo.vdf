@@ -1,0 +1,200 @@
+"appid" "99410"
+"common"
+{
+	"name" "Garshasp: Temple of the Dragon"
+	"type" "Game"
+	"clienticon" "00f01168023eb1bf6469aaadd1d6a35fa256e039"
+	"clienttga" "7112a443c5a0d7d1e1c0b79847ac7708aee91e8e"
+	"icon" "4372aa7e87bec09efed914fe54eb3e8335f9a895"
+	"logo" "8635463a25468a8506f3a15b6e41d56209c2ef35"
+	"logo_small" "8635463a25468a8506f3a15b6e41d56209c2ef35_thumb"
+	"metacritic_name" "Garshasp DLC1"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1347667349"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Dead Mage"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Digital Dragon"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"persian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1348506000"
+	"community_hub_visible" "1"
+	"gameid" "99410"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "1646"
+		"3" "1684"
+	}
+	"review_score" "4"
+	"review_percentage" "32"
+}
+"extended"
+{
+	"developer" "Dead Mage"
+	"gamedir" "ValveTestApp99410"
+	"homepage" "http://garshasp.com"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Digital Dragon"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "distro/garshasp.exe"
+			"description" "Play Game"
+			"workingdir" "distro"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "distro/garshaspconfig.exe"
+			"description" "Configuration"
+			"workingdir" "distro"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "ValveTestApp99410"
+	"installscriptsignature" "9d03eb5464e6b54c8ca521ee7b77c8e893cc164c0c8646c1217f43737c6f21126a909ca5f98ccf1299ee0ac208ef80efecb79551e56cd265107e745fe89f35a24c21314ed7a8ea0e4fa1bb3416e9dd8416c8c9a7b05933c1cc0ff5c6ca7a499d4828eb737dc6b443e1d9c555901b59ed51de87718363b1a34d8ddbe79be6cbe5"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"vcredist"
+		{
+			"process 1" "%INSTALLDIR%\\redist\\vcredist_x86_2008_sp1.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+			"description" "Visual C Library "
+		}
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\redist\\directx_aug2009_redist\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+			"description" "Microsoft DirectX"
+		}
+		"openal"
+		{
+			"process 1" "%INSTALLDIR%\\redist\\oalinst.exe"
+			"command 1" "/s"
+			"nocleanup" "1"
+			"description" "OpenAL"
+		}
+		"physx legacy"
+		{
+			"process 1" "%windir%\\system32\\msiexec.exe"
+			"command 1" "/i \"%INSTALLDIR%\\redist\\PhysX-9.12.1031-SystemSoftware-Legacy.msi\" /passive"
+			"nocleanup" "1"
+			"description" "Nvidia PhysX Legacy"
+		}
+	}
+}
+"depots"
+{
+	"99411"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5576948621224843729"
+				"size" "1860757810"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "3183249408525567100"
+				"size" "1870636850"
+				"download" "0"
+			}
+			"physfix"
+			{
+				"gid" "5576948621224843729"
+				"size" "1860757810"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "36095"
+		}
+		"local"
+		{
+			"buildid" "10815"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+		"physfix"
+		{
+			"buildid" "36097"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19729945"
+"_sha" "2c7182ad7520a78820fbe2a07a6bfd5258f26a66"
+"_size" "3811"
