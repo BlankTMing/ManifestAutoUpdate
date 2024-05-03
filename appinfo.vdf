@@ -1,0 +1,361 @@
+"appid" "494150"
+"common"
+{
+	"name" "The Thrill of the Fight"
+	"type" "Game"
+	"oslist" "windows"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"logo" "d1b4542778630c25f5a2b462034390a4428deaa2"
+	"logo_small" "d1b4542778630c25f5a2b462034390a4428deaa2_thumb"
+	"clienticon" "ad5b9035011b12e7355f8e1aca2f03da37e32b3e"
+	"clienttga" "df2e8d1c57556528256abecc95ea212e7fd53e32"
+	"icon" "44cbcee14efb7c06caa1f0144660294206023be9"
+	"releasestate" "released"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1644883200"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "The Thrill of the Fight"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1666988215"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Sealost Interactive LLC"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Sealost Interactive LLC"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_52" "1"
+		"category_54" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"original_release_date" "1467356400"
+	"steam_release_date" "1571936618"
+	"community_hub_visible" "1"
+	"gameid" "494150"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "701"
+		"1" "21978"
+		"2" "19"
+		"3" "6506"
+		"4" "12190"
+		"5" "1743"
+	}
+	"review_score" "9"
+	"review_percentage" "95"
+}
+"extended"
+{
+	"developer" "Sealost Interactive LLC"
+	"publisher" "Sealost Interactive LLC"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "The Thrill of the Fight"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "The Thrill of the Fight.exe"
+			"type" "vr"
+			"config"
+			{
+				"betakey" "beta"
+			}
+			"description_loc"
+			{
+				"english" "(new beta exe)"
+			}
+			"description" "(new beta exe)"
+		}
+		"1"
+		{
+			"executable" "The Thrill of the Fight.exe"
+			"arguments" "-xrsdk-pre-init-library OculusXRPlugin"
+			"type" "othervr"
+			"config"
+			{
+				"betakey" "beta"
+			}
+			"description_loc"
+			{
+				"english" "(new beta exe)"
+			}
+			"description" "(new beta exe)"
+		}
+		"2"
+		{
+			"executable" "game.exe"
+			"type" "vr"
+		}
+		"3"
+		{
+			"executable" "game.exe"
+			"arguments" "-vrmode oculus"
+			"type" "othervr"
+		}
+		"4"
+		{
+			"executable" "The Thrill of the Fight.exe"
+			"type" "vr"
+			"config"
+			{
+				"betakey" "staging"
+			}
+			"description_loc"
+			{
+				"english" "(new beta exe)"
+			}
+			"description" "(new beta exe)"
+		}
+		"5"
+		{
+			"executable" "The Thrill of the Fight.exe"
+			"arguments" "-xrsdk-pre-init-library OculusXRPlugin"
+			"type" "othervr"
+			"config"
+			{
+				"betakey" "staging"
+			}
+			"description_loc"
+			{
+				"english" "(new beta exe)"
+			}
+			"description" "(new beta exe)"
+		}
+	}
+}
+"depots"
+{
+	"494151"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3830702208992990530"
+				"size" "1507751382"
+				"download" "479163856"
+			}
+			"beta"
+			{
+				"gid" "3166172605494945949"
+				"size" "1511262034"
+				"download" "568837120"
+			}
+			"rollback"
+			{
+				"gid" "3693759034849678122"
+				"size" "1505172934"
+				"download" "478016672"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"190123"
+			{
+				"gid" "FD004B2663F2820F720294B3E454DB96"
+				"size" "ED5B3772A65833F618E7DAD1FA54CB1D"
+				"download" "2269D93FA0E3082B79EBDE04023B2916"
+			}
+			"190506"
+			{
+				"gid" "49EA62553B8679C716990930FC9F414C"
+				"size" "2E062F05F9F2DD2F9AE3F754FF448DC1"
+				"download" "D59729C0A5445C715EB65DC7024725FE"
+			}
+			"bhaptics"
+			{
+				"gid" "57B2C5843BB296D427394ECD03136E5C"
+				"size" "A7D33F541D6F23DB4B43FFCC86392D5E"
+				"download" "5D0D5E7259FF389C54DC1B8111081063"
+			}
+			"qs-special"
+			{
+				"gid" "FB299693C4AB02A2CC43D388D1A8B46D"
+				"size" "256C7808AAE76174EADE3E8214BA8FEF"
+				"download" "9207299068F2FF5E3EF47DA49E1D9E7B"
+			}
+			"staging"
+			{
+				"gid" "D1136BB3B8F2D0DB5853A08F55B89058"
+				"size" "BEB7F3517E972638A8EC00ADEDD44BFA"
+				"download" "06AF4BF4C8793EB82738923F4DC5DD00"
+			}
+			"update14"
+			{
+				"gid" "A0F99FE062B1DAFEF60F3CFD4AC2F233"
+				"size" "758B9654B07E5B355B23BD1A4041A80E"
+				"download" "35D6F2A04573BB34CBAECA9B6711FC73"
+			}
+			"update16"
+			{
+				"gid" "08697A6ECCAC82B5058E0A12554F17D7"
+				"size" "D5FAB89333939D6C920A3F4C09773871"
+				"download" "BFDF0C2FB70CD13B4CF65C6785D0350D"
+			}
+			"update18"
+			{
+				"gid" "F289CBC31A179A6FB78CB117D6478438"
+				"size" "8D8E1785B51CC8D6F1C298E5DDFD193E"
+				"download" "F8B78493F796413E7899CB69F3FF23B1"
+			}
+		}
+	}
+	"baselanguages" "english"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4641271"
+			"timeupdated" "1580919276"
+		}
+		"190123"
+		{
+			"buildid" "3496052"
+			"pwdrequired" "1"
+			"timeupdated" "1556119546"
+		}
+		"190506"
+		{
+			"buildid" "3798143"
+			"pwdrequired" "1"
+			"timeupdated" "1561476572"
+		}
+		"beta"
+		{
+			"buildid" "6164339"
+			"description" "Latest changes for testing"
+			"timeupdated" "1612054139"
+		}
+		"bhaptics"
+		{
+			"buildid" "4531917"
+			"pwdrequired" "1"
+			"timeupdated" "1577648620"
+		}
+		"qs-special"
+		{
+			"buildid" "1978744"
+			"pwdrequired" "1"
+			"timeupdated" "1500665194"
+		}
+		"rollback"
+		{
+			"buildid" "4315887"
+			"description" "Revert to previous update"
+			"timeupdated" "1580919257"
+		}
+		"staging"
+		{
+			"buildid" "6164339"
+			"pwdrequired" "1"
+			"timeupdated" "1612054067"
+		}
+		"update14"
+		{
+			"buildid" "1575127"
+			"pwdrequired" "1"
+			"timeupdated" "1497299328"
+		}
+		"update16"
+		{
+			"buildid" "1939347"
+			"pwdrequired" "1"
+			"timeupdated" "1508074872"
+		}
+		"update18"
+		{
+			"buildid" "2562858"
+			"pwdrequired" "1"
+			"timeupdated" "1524661518"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20142237"
+"_sha" "501c6407399df88f107c5a9a3e04ac29f47dedcb"
+"_size" "6970"
