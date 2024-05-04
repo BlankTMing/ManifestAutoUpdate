@@ -1,0 +1,572 @@
+"appid" "257850"
+"common"
+{
+	"name" "Hyper Light Drifter"
+	"type" "Game"
+	"releasestate" "released"
+	"eulas"
+	{
+	}
+	"icon" "d7d57d58051fec87e4b5c54bbac5bfacdd0ac964"
+	"logo" "313677b416e4ddbb417af42072b9df64f7277106"
+	"logo_small" "313677b416e4ddbb417af42072b9df64f7277106_thumb"
+	"clienticon" "6cf3b4beace5ed4c95048591d16bfbd1788e8176"
+	"clienttga" "810aec68a66fb83b504311f24615781a9fc688cb"
+	"oslist" "windows,macos,linux"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1644883200"
+		"tested_build_id" "1978608"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Hyper Light Drifter"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+	}
+	"store_asset_mtime" "1649867992"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Heart Machine"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Heart Machine"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_29" "1"
+		"category_39" "1"
+		"category_37" "1"
+		"category_44" "1"
+		"category_41" "1"
+		"category_42" "1"
+		"category_43" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_9" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1459414500"
+	"metacritic_score" "84"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/hyper-light-drifter\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "257850"
+	"store_tags"
+	{
+		"0" "3964"
+		"1" "1756"
+		"2" "4166"
+		"3" "21"
+		"4" "4026"
+		"5" "492"
+		"6" "19"
+		"7" "1646"
+		"8" "4182"
+		"9" "3834"
+		"10" "122"
+		"11" "3871"
+		"12" "4305"
+		"13" "4791"
+		"14" "3835"
+		"15" "4231"
+		"16" "1628"
+		"17" "29482"
+		"18" "1684"
+		"19" "3942"
+	}
+	"review_score" "8"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"developer" "Heart Machine"
+	"publisher" "Heart Machine"
+	"homepage" "http://heartmachine.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "HyperLightDrifter"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "HyperLightDrifter.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "HyperLightDrifter.app"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "run.sh"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"4"
+		{
+			"executable" "HyperLightDrifter.exe"
+			"arguments" "-output hld-log-output.txt"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "support_test"
+			}
+			"description_loc"
+			{
+				"english" "with Logging"
+			}
+			"description" "with Logging"
+		}
+		"5"
+		{
+			"executable" "HyperLightDrifter.exe"
+			"arguments" "-output hld-log-output.txt"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "devwindows"
+			}
+			"description_loc"
+			{
+				"english" "with Logging"
+			}
+			"description" "with Logging"
+		}
+	}
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"1898645229"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"257851"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1411175085556622330"
+				"size" "534475726"
+				"download" "441596704"
+			}
+			"7-21-2017"
+			{
+				"gid" "3834727163321091447"
+				"size" "919201953"
+				"download" "773784000"
+			}
+			"controller_test"
+			{
+				"gid" "4237484080522991286"
+				"size" "919296430"
+				"download" "774117568"
+			}
+			"last_update"
+			{
+				"gid" "3834727163321091447"
+				"size" "919201953"
+				"download" "773784000"
+			}
+			"next_update"
+			{
+				"gid" "6611715872079489371"
+				"size" "534477902"
+				"download" "441601504"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devmaclinux"
+			{
+				"gid" "AA372703F221C883212587E83665736C"
+				"size" "160714E362E31123CBFBA7024E00BEFE"
+				"download" "67D7D95335A198AE5BC7E5D9F641A0D4"
+			}
+			"devwindows"
+			{
+				"gid" "BF08CF38CDCF0ECE7DA7AB016ABE853A"
+				"size" "9A725E9EC1FED9335D5603B8981B4164"
+				"download" "31CB3FC0307FDBA96A01643C50C330FF"
+			}
+			"gms2_build_candidate"
+			{
+				"gid" "E6632B2CD61C0CA3A8791662C9FD5977"
+				"size" "CE0456E8238656D8C0EB98067845EA56"
+				"download" "2F286891CCF2295D224B93AC03095F46"
+			}
+			"secret_branch"
+			{
+				"gid" "F11C608F06F1047D39FDAC65821E2662"
+				"size" "6F22075CB6D848FD34F989BAD527B1B4"
+				"download" "16CF2DE51E7A5014CCD336EBF5941CB3"
+			}
+			"support_test"
+			{
+				"gid" "8300545B00CD0BBF879AD82E7A0CFF9B"
+				"size" "11CCC9587ADCCC5B13FAE1F379E6AC76"
+				"download" "4D1A6D21A3CEDFE638118EDB5F25C237"
+			}
+		}
+	}
+	"257852"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5541547840583884942"
+				"size" "925670505"
+				"download" "776361120"
+			}
+			"7-21-2017"
+			{
+				"gid" "5541547840583884942"
+				"size" "925670505"
+				"download" "776361120"
+			}
+			"controller_test"
+			{
+				"gid" "4386809465771017997"
+				"size" "924489338"
+				"download" "775850880"
+			}
+			"last_update"
+			{
+				"gid" "5541547840583884942"
+				"size" "925670505"
+				"download" "776361120"
+			}
+			"next_update"
+			{
+				"gid" "7231882101239602292"
+				"size" "926237234"
+				"download" "776746592"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devmaclinux"
+			{
+				"gid" "301F22B589D6EAFA6BC13478DFFA882F"
+				"size" "0E6B74A5B53DE4715D904E24AD48B721"
+				"download" "A851768BD9181685978F180EB45CBB82"
+			}
+			"devwindows"
+			{
+				"gid" "62EE072C6133957853E349D0432555BE"
+				"size" "74C440575E8EB5DDFC54D28240C1398A"
+				"download" "E84FF36D2A16E05BE12E0E3D2B8EB2CD"
+			}
+			"gms2_build_candidate"
+			{
+				"gid" "0CB58BE8F9C20E9EB614997120D7AA07"
+				"size" "241230C154D42C47B38DFE410AB4463E"
+				"download" "09FBDBC62786CD758D298395C49BF982"
+			}
+			"secret_branch"
+			{
+				"gid" "9FBC9A95EBA6A4ADC018631E92637544"
+				"size" "630D41B3CA6FD97F6F7467B8AA168258"
+				"download" "003099918D4BCE5E1CC0A5722ED24598"
+			}
+			"support_test"
+			{
+				"gid" "9D9F0845BB657E93441FB5D832CF338A"
+				"size" "AAE4E38FF1E8F696F5FA5DA4796D4CCD"
+				"download" "F25D1EE0D37B53071F4AB7E1A05CCA53"
+			}
+		}
+	}
+	"257853"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "777887703126145612"
+				"size" "924996043"
+				"download" "774822960"
+			}
+			"7-21-2017"
+			{
+				"gid" "777887703126145612"
+				"size" "924996043"
+				"download" "774822960"
+			}
+			"controller_test"
+			{
+				"gid" "6911642462230892596"
+				"size" "925559363"
+				"download" "775154304"
+			}
+			"last_update"
+			{
+				"gid" "777887703126145612"
+				"size" "924996043"
+				"download" "774822960"
+			}
+			"next_update"
+			{
+				"gid" "8671401007102822150"
+				"size" "926226316"
+				"download" "775349072"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devmaclinux"
+			{
+				"gid" "143E4B62AC829AE7F38ABDDCA71DBF9A"
+				"size" "1DC7BD6C666FE79D15045672CAF8ADB6"
+				"download" "E48DED81A17FCD095653B0177F5080DD"
+			}
+			"devwindows"
+			{
+				"gid" "31FCE57481C08C1BDEB661B954901300"
+				"size" "A6D86A4F7D20FFE70EA616C452AA1FC9"
+				"download" "631DA062AEC97AFC47638ADD590B9905"
+			}
+			"gms2_build_candidate"
+			{
+				"gid" "4A79DE4884DA7E0DFCB47D9FFF7F51B6"
+				"size" "E286DD32F7D81BBD92F5226713D353F8"
+				"download" "5AABC18090D6045D8CF0385806B2D452"
+			}
+			"secret_branch"
+			{
+				"gid" "B039F114A0A76A2021398701D14F2E81"
+				"size" "A265AB97253DFFE30AAEFCCC227B1847"
+				"download" "ECD3CEEDCC0F5F549CB749E0A3577D6D"
+			}
+			"support_test"
+			{
+				"gid" "E2855FE7FF87A5B9899A518E396930F6"
+				"size" "4EFE6E668A33AFD41458B8784B1F00CE"
+				"download" "B405EB535300BC3E02F65CD67DA60E92"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10930509"
+			"timeupdated" "1680637688"
+		}
+		"7-21-2017"
+		{
+			"buildid" "3334408"
+			"description" "This is the original stable release."
+			"timeupdated" "1666093893"
+		}
+		"controller_test"
+		{
+			"buildid" "9749831"
+			"description" "Switch to this to test controller fixes"
+			"timeupdated" "1666139983"
+		}
+		"devmaclinux"
+		{
+			"buildid" "9292850"
+			"pwdrequired" "1"
+			"timeupdated" "1660184229"
+		}
+		"devwindows"
+		{
+			"buildid" "13498043"
+			"pwdrequired" "1"
+			"timeupdated" "1708353886"
+		}
+		"gms2_build_candidate"
+		{
+			"buildid" "9499848"
+			"pwdrequired" "1"
+			"timeupdated" "1663000501"
+		}
+		"last_update"
+		{
+			"buildid" "3334408"
+			"description" "Switch to this if you want to use the previous update"
+			"timeupdated" "1666093788"
+		}
+		"next_update"
+		{
+			"buildid" "13498051"
+			"description" "Upcoming patch"
+			"timeupdated" "1708353929"
+		}
+		"secret_branch"
+		{
+			"buildid" "1359165"
+			"pwdrequired" "1"
+			"timeupdated" "1474960601"
+		}
+		"support_test"
+		{
+			"buildid" "9499848"
+			"pwdrequired" "1"
+			"timeupdated" "1663000523"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23140412"
+"_sha" "516bae6412156ab0f5d8a50aac377c0e96ccf026"
+"_size" "11327"
