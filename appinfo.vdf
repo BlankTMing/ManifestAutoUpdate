@@ -1,0 +1,242 @@
+"appid" "205350"
+"common"
+{
+	"name" "Mortal Kombat Kollection"
+	"type" "Game"
+	"icon" "048e463386c8f0049d6e08bbf8f5ebb5d232394f"
+	"clienttga" "527cc35e2e48b7e60913f134ded2fa05bd96ea46"
+	"clienticon" "4d2a59ebe9683adbb4b8fd304a0afd07c496a6c8"
+	"logo" "44281a64a93a583fdd2435036ac794e7dcc7beb8"
+	"logo_small" "44281a64a93a583fdd2435036ac794e7dcc7beb8_thumb"
+	"exfgls" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1660608000"
+		"tested_build_id" "29965"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-4"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Mortal Kombat Kollection"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1411588237"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "NetherRealm Studios, High Voltage"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Warner Bros. Interactive Entertainment"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"italian"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"portuguese"
+		{
+			"supported" "1"
+		}
+	}
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "205350"
+	"store_tags"
+	{
+		"0" "1743"
+		"1" "1693"
+		"2" "19"
+		"3" "1773"
+		"4" "4004"
+		"5" "4345"
+		"6" "7368"
+		"7" "4736"
+		"8" "3871"
+		"9" "3859"
+		"10" "4158"
+		"11" "4667"
+		"12" "4182"
+	}
+	"review_score" "5"
+	"review_percentage" "53"
+}
+"extended"
+{
+	"developer" "NetherRealm Studios, High Voltage"
+	"gamedir" "Mortal Kombat Arcade Kollection"
+	"homepage" "http://www.mortalkombat.com"
+	"icon" ""
+	"installscript" "205350_install.vdf"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp205350\\SteamKey"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "205351"
+	"serverbrowsername" ""
+	"showcdkeyonlaunch" "1"
+	"state" "eStateAvailable"
+	"supportscdkeycopytoclipboard" "1"
+	"publisher" "Warner Bros. Interactive Entertainment"
+}
+"config"
+{
+	"installscriptsignature" "524b99213e296ecd7f8a4530dcfed5fcca72e647b35e95af326b04414f26c432f7a28588190437690916f6c8107cae368c258914d4a6e3aa19919aa2bc36bf411d4f338cfec88eb1a86e5692e360207007b7a5e752ce95542be913d8b755ba73bce307cf4c6520b0defa30d5a85faab89b9f1befe22e4b1ff93effdf6561e95f"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Mortal Kombat Arcade Kollection"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "BINARIES\\WIN32\\MKHDGame.exe"
+		}
+	}
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\wbgames\\mortal kombat arcade kollection"
+		{
+			"string"
+			{
+				"installdir" "%INSTALLDIR%\\"
+			}
+			"dword"
+			{
+				"english"
+				{
+					"locale" "1033"
+				}
+				"french"
+				{
+					"locale" "1036"
+				}
+				"german"
+				{
+					"locale" "1031"
+				}
+				"italian"
+				{
+					"locale" "1040"
+				}
+				"spanish"
+				{
+					"locale" "3082"
+				}
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\support\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"install vcredist"
+		{
+			"process 1" "%INSTALLDIR%\\support\\vcredist_x86.exe"
+			"command 1" "/q"
+		}
+		"g4w"
+		{
+			"process 1" "%INSTALLDIR%\\support\\Gfwlivesetup.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"205351"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1880882559616689825"
+				"size" "631024856"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "29965"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "21924248"
+"_sha" "af2557e7c890588162cacb564bbe6d9e19b764e2"
+"_size" "4611"
