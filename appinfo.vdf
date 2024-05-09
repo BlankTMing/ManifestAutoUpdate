@@ -4,7 +4,7 @@
 	"name" "Imagine Earth"
 	"type" "Game"
 	"releasestate" "released"
-	"oslist" "windows,linux"
+	"oslist" "windows,macos,linux"
 	"languages"
 	{
 		"english" "1"
@@ -30,7 +30,7 @@
 	{
 	}
 	"osarch" "64"
-	"osextended" ""
+	"osextended" "macos64,macosapplesilicon,macosnotarized"
 	"steam_deck_compatibility"
 	{
 		"category" "3"
@@ -104,7 +104,7 @@
 			"height_pct" "67.07575591704702"
 		}
 	}
-	"store_asset_mtime" "1704742699"
+	"store_asset_mtime" "1715189652"
 	"associations"
 	{
 		"0"
@@ -143,6 +143,7 @@
 		"category_56" "1"
 		"category_57" "1"
 		"category_58" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -278,6 +279,15 @@
 				"osarch" "64"
 			}
 		}
+		"2"
+		{
+			"executable" "ImagineEarth.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
 	}
 	"steamcontrollertemplateindex" "2"
 	"steamdecktouchscreen" "5"
@@ -356,18 +366,49 @@
 			}
 		}
 	}
+	"280723"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2589663314326101022"
+				"size" "1191043869"
+				"download" "956147600"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "1D3A77001D1CCAA1F27A5C0B27AB154C"
+				"size" "617080404865FA6D8E544BD0EF509CAB"
+				"download" "5FCE26B099DE4C5F6A20C33B45AF3F4A"
+			}
+			"preview"
+			{
+				"gid" "15FD7E71D1B9E0C7230BB20D38BCD8F8"
+				"size" "90C10BD243FF0FDB6CE10A9B3B2B0ED0"
+				"download" "F879977B68AAC881DB02991655D4E552"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "14002138"
-			"timeupdated" "1712695972"
+			"buildid" "14074033"
+			"timeupdated" "1713296563"
 		}
 		"beta"
 		{
-			"buildid" "14002138"
+			"buildid" "14074033"
 			"pwdrequired" "1"
-			"timeupdated" "1712695472"
+			"timeupdated" "1713296205"
 		}
 		"oldengine"
 		{
@@ -377,9 +418,9 @@
 		}
 		"preview"
 		{
-			"buildid" "14002138"
+			"buildid" "14074033"
 			"pwdrequired" "1"
-			"timeupdated" "1712695948"
+			"timeupdated" "1713296538"
 		}
 	}
 }
@@ -410,6 +451,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23092601"
-"_sha" "f63f0b397f48e716585563c75dc32fe85351dde9"
-"_size" "7799"
+"_change_number" "23462672"
+"_sha" "57958d5aab9eb542afbca9611f04a5942484b71d"
+"_size" "8570"
