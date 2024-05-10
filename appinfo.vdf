@@ -10,6 +10,70 @@
 	"osarch" "64"
 	"osextended" ""
 	"releasestate" "released"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "2881650_eula_0"
+			"name" "Content Warning EULA"
+			"url" "https://store.steampowered.com//eula/2881650_eula_0"
+			"version" "2"
+		}
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1712361600"
+		"tested_build_id" "13937767"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"small_capsule"
 	{
@@ -99,27 +163,27 @@
 	{
 		"0" "3843"
 		"1" "1667"
-		"2" "3839"
-		"3" "1721"
+		"2" "3859"
+		"3" "3839"
 		"4" "3834"
-		"5" "3859"
-		"6" "1720"
-		"7" "16689"
-		"8" "4166"
-		"9" "4106"
-		"10" "1685"
-		"11" "3942"
-		"12" "3978"
-		"13" "8369"
-		"14" "5125"
-		"15" "21"
-		"16" "5716"
-		"17" "10808"
-		"18" "4191"
-		"19" "1759"
+		"5" "1721"
+		"6" "1685"
+		"7" "1720"
+		"8" "3978"
+		"9" "4136"
+		"10" "4166"
+		"11" "16689"
+		"12" "4191"
+		"13" "21"
+		"14" "10808"
+		"15" "4106"
+		"16" "8369"
+		"17" "3942"
+		"18" "5716"
+		"19" "5125"
 	}
-	"review_score" "9"
-	"review_percentage" "96"
+	"review_score" "8"
+	"review_percentage" "94"
 }
 "extended"
 {
@@ -143,6 +207,16 @@
 			}
 		}
 	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"3218706028"
+		{
+			"controller_type" "controller_neptune"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
 }
 "depots"
 {
@@ -157,18 +231,30 @@
 		{
 			"public"
 			{
-				"gid" "3035453275016512980"
-				"size" "1012889762"
-				"download" "329866080"
+				"gid" "1092472010925646131"
+				"size" "1184779678"
+				"download" "431967568"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"localization"
+			{
+				"gid" "F0BAE60E07B93B4D668E049B7CC3E266"
+				"size" "AECE2EBE72B92FD8EAA88CFABC7A90C0"
+				"download" "473AA12CF620DF0DFDA05CD008E071BD"
+			}
+			"cw-test"
+			{
+				"gid" "CF916D738F5BC84E14F4AC863F280E33"
+				"size" "CCDF960D3E19A8B0F06C753756408319"
+				"download" "C74E36FF8EE349AD30AFFF753F2ACEEE"
+			}
 			"landfall"
 			{
-				"gid" "B32688411537227D4222CB8236C5B347"
-				"size" "06E44E720E1B4A16D45A5F0F0DD85A0A"
-				"download" "2E34F4BF3B13D326E0FFE6BD32477211"
+				"gid" "262ECEBB618D4B95F9F274A331F4354B"
+				"size" "94E2A586CEE78EA9FCDB02AFD03B2F8D"
+				"download" "BAD2B6D3023CED68DED795DD2E1ABD00"
 			}
 		}
 	}
@@ -177,18 +263,70 @@
 	{
 		"public"
 		{
-			"buildid" "13937767"
-			"timeupdated" "1712159229"
+			"buildid" "14290302"
+			"timeupdated" "1715086768"
+		}
+		"localization"
+		{
+			"buildid" "14000615"
+			"pwdrequired" "1"
+			"timeupdated" "1712684429"
+		}
+		"cw-test"
+		{
+			"buildid" "14247716"
+			"pwdrequired" "1"
+			"timeupdated" "1714677526"
 		}
 		"landfall"
 		{
-			"buildid" "13938152"
+			"buildid" "14290302"
 			"pwdrequired" "1"
-			"timeupdated" "1712160433"
+			"timeupdated" "1715086721"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "10"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Landfall Games/Content Warning/Saves/{64BitSteamID}"
+			"pattern" "*.bin"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Landfall Games/Content Warning/Saves"
+			"pattern" "*.bin"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#status_mainmenu" "In main menu"
+				"#status_playingwithrandoms" "In random lobby %players%/%max_players%"
+				"#status_playingwithfriends" "in friend lobby %players%/%max_players%"
+				"#status_athouse" "At the house - Day %day%, %views%/%quota% views"
+				"#status_infactory" "In the old world - Day %day%, %views%/%quota% views"
+				"#status_inship" "In the old world - Day %day%, %views%/%quota% views"
+			}
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "23016591"
-"_sha" "eaf2fba1f41c35f1e7249ed60db4d9052e740e19"
-"_size" "3126"
+"_change_number" "23483438"
+"_sha" "bd7b49a286f90dd078524f20e82c3ec90879e5ab"
+"_size" "6364"
