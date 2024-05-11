@@ -1,0 +1,120 @@
+"appid" "2857200"
+"common"
+{
+	"name" "Abiotic Factor Dedicated Server"
+	"type" "Tool"
+	"parent" "427410"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"icon" "c043a24f5ba61aeb0a78163b9aee78a930eef1c5"
+	"clienttga" "4b04fd75bb378c09ebd20774c41bc0733d3e4075"
+	"clienticon" "8946b7b06708118a53ec49336aa25819ae08f747"
+	"releasestate" "released"
+	"gameid" "2857200"
+}
+"config"
+{
+	"installdir" "Abiotic Factor Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "AbioticFactorServer.exe"
+			"arguments" "-log -newconsole"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2857201"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "308306229164330437"
+				"size" "2088881527"
+				"download" "410836592"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"stagingdev"
+			{
+				"gid" "85977E77F5B1977A8A0091453F2E89BB"
+				"size" "7427BD09C473979D1B40DF98AA9E2DFB"
+				"download" "32C184212664492F721D8125AEA5E47D"
+			}
+			"trbeta"
+			{
+				"gid" "CC3CE063586B8B47040D3E4DE969BDD1"
+				"size" "C2DBBABB7BF2F133D1F913D488DBCDBC"
+				"download" "80EE5C066EB083A40D55D09EA56F61BB"
+			}
+			"beta"
+			{
+				"gid" "A123421C7D80A7BC8505C400298FE534"
+				"size" "528139FF596D705F22FAC9C2F68860B5"
+				"download" "F642E8B2976951226A68D2F681EBD79B"
+			}
+			"staginglive"
+			{
+				"gid" "1EBC19AED258E4B6D015EF7BC372F740"
+				"size" "B20E73B49AF6C363460B9D327AE9CEF7"
+				"download" "207EDBE4B0A06B147DE87A85CB14ACAC"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14325785"
+			"timeupdated" "1715337999"
+		}
+		"stagingdev"
+		{
+			"buildid" "14030073"
+			"pwdrequired" "1"
+			"timeupdated" "1712893270"
+		}
+		"trbeta"
+		{
+			"buildid" "13918606"
+			"pwdrequired" "1"
+			"timeupdated" "1712029117"
+		}
+		"beta"
+		{
+			"buildid" "14332684"
+			"pwdrequired" "1"
+			"timeupdated" "1715384169"
+		}
+		"staginglive"
+		{
+			"buildid" "14325785"
+			"pwdrequired" "1"
+			"timeupdated" "1715336797"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23495714"
+"_sha" "9b4f4fddc382cd68d5ae9adc5a5f7199709452b0"
+"_size" "2226"
