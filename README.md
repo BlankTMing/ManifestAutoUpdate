@@ -1,12 +1,14 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-05-12 00:01:12
+## 更新时间：2024-05-12 08:30:00
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1483870 | Draw & Guess - 你画我猜| Game |
-| 1222210 | 超逼真的攻城模拟器| Game |
-| 486860 | MMORPG Tycoon 2| Game |
-| 2205850 | 矮人军团自走棋| Game |
-| 2340500 |  创造三国志| Game |
-| 1058770 | 我来自江湖| Game |
-| 2600600 | 网吧进化论| Game |
+| 2446180 | Backdoors| Game |
+| 1346070 | Sign of Silence| Game |
+| 2158730 | Hand Simulator: Rendezvous| Game |
+| 981990 | Don't Shoot Rabbit| Game |
+| 799600 | Cosmoteer: 星舰设计师| Game |
+| 2292060 | 法术圆盘| Game |
+| 1492070 | Sker Ritual| Game |
+| 993090 | Lossless Scaling| Application |
+| 1606180 | 下一站江湖Ⅱ| Game |
