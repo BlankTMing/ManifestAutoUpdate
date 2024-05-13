@@ -1,0 +1,426 @@
+"appid" "1292040"
+"common"
+{
+	"name" "STRIDE"
+	"type" "Game"
+	"releasestate" "released"
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"icon" "c78c597ab28d7152e28871c7c3aa884d2b84bdf5"
+	"logo" "0c0f9074905d94f5e5d4dba5a15292626a69d3a4"
+	"logo_small" "0c0f9074905d94f5e5d4dba5a15292626a69d3a4_thumb"
+	"clienttga" "691c8861e7f1f9fa30574a7555719910e2402aea"
+	"clienticon" "e8c8b0b581b91a2f59810966207b0fa540bf41fc"
+	"openvr_action_manifest_path" "Stride\\Config\\SteamVRBindings\\steamvr_manifest.json"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1644278400"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "48.4793252088766"
+			"height_pct" "63.67926193791045"
+		}
+	}
+	"store_asset_mtime" "1679300728"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Joy Way"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Joy Way"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "29"
+		"3" "28"
+		"4" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_52" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1654887591"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1292040"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "21978"
+		"1" "19"
+		"2" "701"
+		"3" "3839"
+		"4" "1734"
+		"5" "21"
+		"6" "1625"
+		"7" "8666"
+		"8" "1774"
+		"9" "1663"
+		"10" "4182"
+		"11" "599"
+		"12" "4036"
+		"13" "4667"
+		"14" "4166"
+		"15" "3859"
+		"16" "5030"
+		"17" "4295"
+		"18" "128"
+		"19" "3968"
+	}
+	"review_score" "8"
+	"review_percentage" "81"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Joy Way"
+	"publisher" "Joy Way"
+	"homepage" "https://stride.joyway.games/"
+}
+"config"
+{
+	"installdir" "STRIDE VR"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "StrideClient.exe"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Oculus SDK"
+			}
+			"description" "Oculus SDK"
+		}
+		"1"
+		{
+			"executable" "StrideClient.exe"
+			"arguments" "-hmd=SteamVR"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Forced SteamVR"
+			}
+			"description" "Forced SteamVR"
+		}
+	}
+	"uselaunchcommandline" "1"
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1292041"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1889680490463723198"
+				"size" "6695283381"
+				"download" "6020870464"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devtest"
+			{
+				"gid" "AD5D9BEB5AD1FF5D730EDBB0A3ABA227"
+				"size" "934F01477252277EDB6F63EA1AB82265"
+				"download" "439504EEE807301D4BD8CC23046B02DF"
+			}
+			"enteringgame"
+			{
+				"gid" "8DCA9E27ADD002728864956D480C2E8E"
+				"size" "C452E63C935F5EAF95CA4DDD58DE2035"
+				"download" "82C9E5375A2E538CB56CF0009C470A25"
+			}
+			"nofckupbranch"
+			{
+				"gid" "F3D439152BDD2730CA3740FA57B89E86"
+				"size" "37988F61D33401373767EE62269AF2F1"
+				"download" "DABD8CDA206FE394EE8B9B934EAADEFE"
+			}
+			"playtest"
+			{
+				"gid" "64DC3650D7021830923B246CDF9BA9DB"
+				"size" "7BCDCA9C2B2CD251E5B42ED172CA3960"
+				"download" "27EDA146862E04653D570AEFEEB3953E"
+			}
+			"prereleasetest"
+			{
+				"gid" "36C994AB89AC70646F4CB1FCE07D156E"
+				"size" "7C38E7FEE60EC9A9ABA4300DC4F6D611"
+				"download" "7D792902B0D11FE6DD3DD8846F8727A2"
+			}
+			"sfxiterations"
+			{
+				"gid" "DABCEBCFE90ED4B9838F0E919B894D1A"
+				"size" "2160DCAD350853F8E3C0CFD4166178C7"
+				"download" "21E84F9C361C1BBE148F7C3E80A75C87"
+			}
+			"smoothstand"
+			{
+				"gid" "6842DE8EA815EDBBAE6356A9E7BD3A09"
+				"size" "04FE33993267BE2CB7D6A5571F7A5C16"
+				"download" "3115ADA5F9D48DD2D8C6EFCBF38AE0F3"
+			}
+			"stridenet-test"
+			{
+				"gid" "2E0E0FD764199F7A1254BD0B1A3E83D4"
+				"size" "00D861D8CF6B22B82D2595D20D651BE2"
+				"download" "B9E4A3B8FA6244B15CCC04E96A2464AB"
+			}
+			"test"
+			{
+				"gid" "3B82DF5D1067330852CBCAC222B2F1BE"
+				"size" "1A387E82E8CFD0F6563C26DC9120D8DE"
+				"download" "C46331CA1018F12D4E9F8F0934D02D25"
+			}
+		}
+	}
+	"1292042"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"language" ""
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12849636"
+			"timeupdated" "1701441557"
+		}
+		"devtest"
+		{
+			"buildid" "12849636"
+			"pwdrequired" "1"
+			"timeupdated" "1701432102"
+		}
+		"enteringgame"
+		{
+			"buildid" "8934335"
+			"pwdrequired" "1"
+			"timeupdated" "1655215101"
+		}
+		"nofckupbranch"
+		{
+			"buildid" "8293509"
+			"pwdrequired" "1"
+			"timeupdated" "1646139582"
+		}
+		"playtest"
+		{
+			"buildid" "8896641"
+			"pwdrequired" "1"
+			"timeupdated" "1654701347"
+		}
+		"prereleasetest"
+		{
+			"buildid" "7954389"
+			"pwdrequired" "1"
+			"timeupdated" "1646135162"
+		}
+		"sfxiterations"
+		{
+			"buildid" "8852064"
+			"pwdrequired" "1"
+			"timeupdated" "1654095597"
+		}
+		"smoothstand"
+		{
+			"buildid" "8853129"
+			"pwdrequired" "1"
+			"timeupdated" "1654105116"
+		}
+		"stridenet-test"
+		{
+			"buildid" "9792927"
+			"pwdrequired" "1"
+			"timeupdated" "1666686534"
+		}
+		"test"
+		{
+			"buildid" "8913483"
+			"pwdrequired" "1"
+			"timeupdated" "1654882318"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "4"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Stride/Saved/SaveGames"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23232728"
+"_sha" "d76215a08ef3d76f2efcab33c464b82ecbd778b2"
+"_size" "7714"
