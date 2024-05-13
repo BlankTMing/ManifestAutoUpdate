@@ -38,29 +38,46 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1645574400"
-		"tested_build_id" "7242083"
+		"category" "3"
+		"test_timestamp" "1714780800"
+		"tested_build_id" "14208277"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
 		}
 		"configuration"
 		{
-			"supported_input" "simultaneous_gamepad_mouse"
+			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "1"
+			"primary_player_is_controller_slot_0" "0"
 			"non_deck_display_glyphs" "0"
 			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-7.0-1"
+			"recommended_runtime" "proton-9.0-1RC"
 			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Vigil: The Longest Night"
@@ -303,9 +320,9 @@
 		{
 			"public"
 			{
-				"gid" "2810318149563292791"
-				"size" "3734910119"
-				"download" "2637136320"
+				"gid" "1847323019174411554"
+				"size" "3080711901"
+				"download" "2509841040"
 			}
 			"controllertest"
 			{
@@ -364,12 +381,6 @@
 				"size" "A90BFF816045DB40A5EC8C0F451675FA"
 				"download" "43452B292CEC4DBE333C5C42393F083A"
 			}
-			"internal_beta"
-			{
-				"gid" "6337365B87010C31428A0C7A1641C19F"
-				"size" "9969E5052941F3D9EA47736EB0C36962"
-				"download" "5634356BFE870886D7BC760A5C784114"
-			}
 			"maptest"
 			{
 				"gid" "22EA7FA89C1EF79873009E15AEE4C03A"
@@ -382,12 +393,6 @@
 				"size" "DE774E331D7F04067248770A8A7DF30A"
 				"download" "67BC81D2D01B50C2C5EEA540247D03B0"
 			}
-			"open_beta"
-			{
-				"gid" "02ACD354114CC5C11FA7C6795D5A5C1A"
-				"size" "395607DF7A984D87C31860BC6D583561"
-				"download" "350F02578E026964D4865DC04A5F3BCA"
-			}
 			"test"
 			{
 				"gid" "5530E059D7367B68752590A6F77886B3"
@@ -399,6 +404,18 @@
 				"gid" "1E715CF853597D3EF91CFC9BC4B8640A"
 				"size" "C3A88704AE422B1906225573EC691C1C"
 				"download" "9FE3CED804529544D0974DECCC70E5A1"
+			}
+			"internal_beta"
+			{
+				"gid" "3DCFC7D57ECB21A0C31D0076AAA7281E"
+				"size" "82C4E6BE58A37CDD743188A2793E77DD"
+				"download" "5FEA43DF7C43B082C693257949234884"
+			}
+			"open_beta"
+			{
+				"gid" "93E7E52169E701158A3E4BB0CBF49436"
+				"size" "A558EA9EAA7E356EAF2502E24DE7A665"
+				"download" "580AC2DD33376CDCE93F7A0A73CDA854"
 			}
 		}
 	}
@@ -462,12 +479,6 @@
 				"size" "AEE466AFB0C02C134E2C23916AFAF0DD"
 				"download" "32A3B39DF28CA69E1C635A936C89792F"
 			}
-			"internal_beta"
-			{
-				"gid" "BE33AD51CB5402BFCA915D8D0199ADAD"
-				"size" "A0B1717DB8DB120524D3DC23CD745B69"
-				"download" "BCE1751D5F8FF36A0A4E2879F21D89CC"
-			}
 			"maptest"
 			{
 				"gid" "D42D0167E028A5FCBDBD7A4796C3441F"
@@ -480,12 +491,6 @@
 				"size" "5F2610D4123A0917379DD86C254FCF79"
 				"download" "9FA9D08D4A4D68B6090851D9F311BC78"
 			}
-			"open_beta"
-			{
-				"gid" "9DE0641FC211BBE0192759A15E9C1D9E"
-				"size" "4822550228C14FDAFCED6D6C8AE66070"
-				"download" "0AA39A675CF312EADF4DAD9438637651"
-			}
 			"test"
 			{
 				"gid" "ED26162BD034F30DDB987FC04D8F5DB1"
@@ -497,6 +502,18 @@
 				"gid" "4CA5B598EA5C9EF840373FDA570E7A45"
 				"size" "A3FDE6E529F60E0B4639705894B6B000"
 				"download" "F82114FED3BAF3D701CE45FE92BCF138"
+			}
+			"internal_beta"
+			{
+				"gid" "BE33AD51CB5402BFCA915D8D0199ADAD"
+				"size" "A0B1717DB8DB120524D3DC23CD745B69"
+				"download" "BCE1751D5F8FF36A0A4E2879F21D89CC"
+			}
+			"open_beta"
+			{
+				"gid" "9DE0641FC211BBE0192759A15E9C1D9E"
+				"size" "4822550228C14FDAFCED6D6C8AE66070"
+				"download" "0AA39A675CF312EADF4DAD9438637651"
 			}
 		}
 	}
@@ -560,12 +577,6 @@
 				"size" "B0142741D80CA401BDB3A79920B57AD3"
 				"download" "E53EED40120346D0A23A5FD63396A269"
 			}
-			"internal_beta"
-			{
-				"gid" "FF2EEC5021342ACFCA73A8946741A652"
-				"size" "874935E9B77781A5605C91201ACE8EEA"
-				"download" "52DEFF66F29818CCE1B1019C3615BF8C"
-			}
 			"maptest"
 			{
 				"gid" "92D29883DDE084D3002B6CC7D162CE95"
@@ -578,12 +589,6 @@
 				"size" "92DE15A07E78D5A1D391578C420D6175"
 				"download" "4DFBDC99315B815D4B2B84B17F398791"
 			}
-			"open_beta"
-			{
-				"gid" "CEEF7478E87CFEA529642AD9901FC727"
-				"size" "C4555DB5FF1F0423FD52872D7F84B71C"
-				"download" "6CCC87347046D97816530B52A407DB28"
-			}
 			"test"
 			{
 				"gid" "A9390614EFF4E916E65C2873E2FEB8B5"
@@ -595,6 +600,18 @@
 				"gid" "EFC10071044029340D388E2B5F6528C4"
 				"size" "4F25E459F1F21EFAE46426912CAF111C"
 				"download" "262871819DF5C52B2C87B0C58D4240D9"
+			}
+			"internal_beta"
+			{
+				"gid" "FF2EEC5021342ACFCA73A8946741A652"
+				"size" "874935E9B77781A5605C91201ACE8EEA"
+				"download" "52DEFF66F29818CCE1B1019C3615BF8C"
+			}
+			"open_beta"
+			{
+				"gid" "CEEF7478E87CFEA529642AD9901FC727"
+				"size" "C4555DB5FF1F0423FD52872D7F84B71C"
+				"download" "6CCC87347046D97816530B52A407DB28"
 			}
 		}
 	}
@@ -658,12 +675,6 @@
 				"size" "B0142741D80CA401BDB3A79920B57AD3"
 				"download" "E53EED40120346D0A23A5FD63396A269"
 			}
-			"internal_beta"
-			{
-				"gid" "BBF8832E4821B10B06A4A1C651810F24"
-				"size" "874935E9B77781A5605C91201ACE8EEA"
-				"download" "52DEFF66F29818CCE1B1019C3615BF8C"
-			}
 			"maptest"
 			{
 				"gid" "65F8AC0C65465124F23C142528F3E224"
@@ -675,12 +686,6 @@
 				"gid" "89FCFE99CD9138F448220D8713AA7BD7"
 				"size" "92DE15A07E78D5A1D391578C420D6175"
 				"download" "4DFBDC99315B815D4B2B84B17F398791"
-			}
-			"open_beta"
-			{
-				"gid" "2BBBC1BAD40A407019EC97720752CF01"
-				"size" "C4555DB5FF1F0423FD52872D7F84B71C"
-				"download" "6CCC87347046D97816530B52A407DB28"
 			}
 			"test"
 			{
@@ -694,6 +699,18 @@
 				"size" "4F25E459F1F21EFAE46426912CAF111C"
 				"download" "262871819DF5C52B2C87B0C58D4240D9"
 			}
+			"internal_beta"
+			{
+				"gid" "BBF8832E4821B10B06A4A1C651810F24"
+				"size" "874935E9B77781A5605C91201ACE8EEA"
+				"download" "52DEFF66F29818CCE1B1019C3615BF8C"
+			}
+			"open_beta"
+			{
+				"gid" "2BBBC1BAD40A407019EC97720752CF01"
+				"size" "C4555DB5FF1F0423FD52872D7F84B71C"
+				"download" "6CCC87347046D97816530B52A407DB28"
+			}
 		}
 	}
 	"720563"
@@ -706,24 +723,30 @@
 		{
 			"public"
 			{
-				"gid" "8305804757898066712"
-				"size" "3161779850"
-				"download" "2592728544"
+				"gid" "156741920058084521"
+				"size" "3091500631"
+				"download" "2521462960"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"open_beta"
-			{
-				"gid" "D6A4F786C904275BB37573D6F1BC5C28"
-				"size" "8D4FEDAE2D642910BAECA48ABA6048A3"
-				"download" "32F8F6ACA29DBB810F889F24E5AA3FA9"
-			}
 			"test"
 			{
 				"gid" "48E40DC653A0C8C5F30F5FEB2B5358F1"
 				"size" "CD99E56528B0A284D43180EDC7A834D4"
 				"download" "4D312789AE7B7E4C6A8D17936FA259E7"
+			}
+			"internal_beta"
+			{
+				"gid" "44224EC5C7F3EEF5D1FE98058D82B5EF"
+				"size" "422274F5C8B9847EDC9AB975025EC8B1"
+				"download" "C09E8026D512B2DF7FF30C33063616DC"
+			}
+			"open_beta"
+			{
+				"gid" "6ECA95E01075D9004269B8A430922A7E"
+				"size" "E376FFA2506BE1001EA79724003ECC2C"
+				"download" "A9A85635B786A2326CDFD3A555A873F0"
 			}
 		}
 	}
@@ -731,8 +754,8 @@
 	{
 		"public"
 		{
-			"buildid" "13974009"
-			"timeupdated" "1712641873"
+			"buildid" "14286806"
+			"timeupdated" "1715573823"
 		}
 		"chapter_1"
 		{
@@ -782,12 +805,6 @@
 			"pwdrequired" "1"
 			"timeupdated" "1581956192"
 		}
-		"internal_beta"
-		{
-			"buildid" "13678568"
-			"pwdrequired" "1"
-			"timeupdated" "1709884753"
-		}
 		"lastversion"
 		{
 			"buildid" "5810666"
@@ -806,12 +823,6 @@
 			"pwdrequired" "1"
 			"timeupdated" "1612371305"
 		}
-		"open_beta"
-		{
-			"buildid" "13974009"
-			"pwdrequired" "1"
-			"timeupdated" "1712420367"
-		}
 		"test"
 		{
 			"buildid" "13907125"
@@ -823,6 +834,18 @@
 			"buildid" "5917210"
 			"pwdrequired" "1"
 			"timeupdated" "1607008380"
+		}
+		"internal_beta"
+		{
+			"buildid" "14200416"
+			"pwdrequired" "1"
+			"timeupdated" "1714307168"
+		}
+		"open_beta"
+		{
+			"buildid" "14286806"
+			"pwdrequired" "1"
+			"timeupdated" "1715066138"
 		}
 	}
 }
@@ -878,6 +901,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23081808"
-"_sha" "91ef081104449a149961b735e84963e1f5318af4"
-"_size" "19879"
+"_change_number" "23511428"
+"_sha" "677e89dbd384761be81c74b1055ad7538dd8adf1"
+"_size" "20476"
