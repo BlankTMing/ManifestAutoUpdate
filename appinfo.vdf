@@ -29,9 +29,6 @@
 		"1" "2"
 		"2" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_sex" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "1"
@@ -59,8 +56,8 @@
 			"requires_h264" "0"
 		}
 	}
-	"nokeyboardmouse" "1"
-	"controller_support" "partial"
+	"controllertagwizard" "1"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -121,7 +118,9 @@
 		"category_22" "1"
 		"category_29" "1"
 		"category_23" "1"
-		"category_18" "1"
+		"category_28" "1"
+		"category_60" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -185,14 +184,14 @@
 		"9" "17894"
 		"10" "198913"
 		"11" "3993"
-		"12" "1697"
-		"13" "4191"
+		"12" "4191"
+		"13" "1697"
 		"14" "7782"
 		"15" "1756"
 		"16" "4085"
-		"17" "12095"
-		"18" "1695"
-		"19" "3955"
+		"17" "3955"
+		"18" "12095"
+		"19" "1695"
 	}
 	"review_score" "6"
 	"review_percentage" "75"
@@ -240,6 +239,7 @@
 }
 "depots"
 {
+	"baselanguages" "english,german,french,italian,spanish,schinese,tchinese,japanese"
 	"228983"
 	{
 		"config"
@@ -286,9 +286,9 @@
 		{
 			"public"
 			{
-				"gid" "8052165459371865411"
-				"size" "3997792111"
-				"download" "1441847360"
+				"gid" "6376128770185422544"
+				"size" "4430298820"
+				"download" "1452837248"
 			}
 		}
 		"encryptedmanifests"
@@ -299,27 +299,26 @@
 				"size" "0ACB5A9986CCCA77F59489E81B3F9DE5"
 				"download" "698AE24A437162A3D1930774E0E9702C"
 			}
-			"beta2"
-			{
-				"gid" "4786E3A80EBDCA7D88F9F15BFC9C3116"
-				"size" "481BBF34934E767647720D6AFC7ECC70"
-				"download" "0DB02A22D0BF696C30844D29F74AD307"
-			}
 			"debug"
 			{
 				"gid" "B738AB07089B01A833462D5CF6F132A1"
 				"size" "488EB2790CF5993A71248A05749BA73D"
 				"download" "9DA08EC3B0B860752C572548B828099C"
 			}
+			"beta2"
+			{
+				"gid" "667E42B2BD43B51B6E382935AB123CC2"
+				"size" "151CF55273DA7F0BD0FC95E351BE56A0"
+				"download" "CF33DACEE70D6138930CF077A733238E"
+			}
 		}
 	}
-	"baselanguages" "english,german,french,italian,spanish,schinese,tchinese,japanese"
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "7018523"
-			"timeupdated" "1626284390"
+			"buildid" "14299494"
+			"timeupdated" "1715623235"
 		}
 		"beta"
 		{
@@ -327,17 +326,17 @@
 			"pwdrequired" "1"
 			"timeupdated" "1652219054"
 		}
-		"beta2"
-		{
-			"buildid" "12171433"
-			"pwdrequired" "1"
-			"timeupdated" "1694543078"
-		}
 		"debug"
 		{
 			"buildid" "7894762"
 			"pwdrequired" "1"
 			"timeupdated" "1639658096"
+		}
+		"beta2"
+		{
+			"buildid" "14354602"
+			"pwdrequired" "1"
+			"timeupdated" "1715636576"
 		}
 	}
 }
@@ -360,6 +359,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21746486"
-"_sha" "b16b7b4e36a6435bc21094b59c2f028b7ad317b3"
-"_size" "6459"
+"_change_number" "23524333"
+"_sha" "807f05f9487c16db2798ba0c61d227106a5cf044"
+"_size" "6411"
