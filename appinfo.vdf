@@ -261,6 +261,10 @@
 			"executable" "DYSMANTLE.exe"
 			"arguments" "--features MODS,STAGE_EDITOR,SHADEGROWN_DEVELOPMENT_ENVIRONMENT"
 			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
 			"description_loc"
 			{
 				"english" "DYSMANTLE with Mods"
@@ -323,6 +327,21 @@
 			}
 			"description" "DYSMANTLE (OpenGL)"
 		}
+		"7"
+		{
+			"executable" "DYSMANTLE.app"
+			"arguments" "--features MODS,STAGE_EDITOR,SHADEGROWN_DEVELOPMENT_ENVIRONMENT"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "DYSMANTLE with Mods"
+			}
+			"description" "DYSMANTLE with Mods"
+		}
 	}
 	"steamcontrollertemplateindex" "4"
 	"steamcontrollertouchtemplateindex" "8"
@@ -330,6 +349,8 @@
 }
 "depots"
 {
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,turkish,brazilian"
+	"workshopdepot" "846770"
 	"228989"
 	{
 		"config"
@@ -339,7 +360,6 @@
 		"depotfromapp" "228980"
 		"sharedinstall" "1"
 	}
-	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,turkish,brazilian"
 	"846771"
 	{
 		"config"
@@ -350,21 +370,21 @@
 		{
 			"public"
 			{
-				"gid" "7184685764777063312"
-				"size" "1992230215"
-				"download" "1443811008"
+				"gid" "3193534750663569652"
+				"size" "1992224583"
+				"download" "1443796896"
 			}
 			"beta"
 			{
-				"gid" "7184685764777063312"
-				"size" "1992230215"
-				"download" "1443811008"
+				"gid" "3193534750663569652"
+				"size" "1992224583"
+				"download" "1443796896"
 			}
 			"pre_beta"
 			{
-				"gid" "7184685764777063312"
-				"size" "1992230215"
-				"download" "1443811008"
+				"gid" "3193534750663569652"
+				"size" "1992224583"
+				"download" "1443796896"
 			}
 			"previous_default"
 			{
@@ -397,9 +417,9 @@
 			}
 			"pre_beta"
 			{
-				"gid" "5295505590547084511"
-				"size" "1569465219"
-				"download" "1157211072"
+				"gid" "5749508344128433245"
+				"size" "1569347698"
+				"download" "1157204400"
 			}
 			"previous_default"
 			{
@@ -409,33 +429,24 @@
 			}
 		}
 	}
-	"846773"
-	{
-		"config"
-		{
-			"oslist" "linux"
-			"osarch" "64"
-		}
-	}
-	"workshopdepot" "846770"
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "14264532"
-			"timeupdated" "1714827570"
+			"buildid" "14358649"
+			"timeupdated" "1715837870"
 		}
 		"beta"
 		{
-			"buildid" "14264532"
+			"buildid" "14358649"
 			"description" "Test builds, backup saves before trying!"
-			"timeupdated" "1714818267"
+			"timeupdated" "1715669982"
 		}
 		"pre_beta"
 		{
-			"buildid" "14264532"
+			"buildid" "14385998"
 			"description" "Experimental builds, try at your own risk!"
-			"timeupdated" "1714818247"
+			"timeupdated" "1715845131"
 		}
 		"previous_default"
 		{
@@ -480,6 +491,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23413805"
-"_sha" "af4bac7a2953e719c54d0d30034894e722435f84"
-"_size" "8887"
+"_change_number" "23562400"
+"_sha" "29f34259b5a8babcdc01c6843b6148ff45075134"
+"_size" "9172"
