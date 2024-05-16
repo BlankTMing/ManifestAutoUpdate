@@ -39,50 +39,31 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1653436800"
-		"tested_build_id" "8646979"
+		"category" "1"
+		"test_timestamp" "1710979200"
+		"tested_build_id" "13488927"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-			}
-			"1"
-			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
-			}
-			"2"
-			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
-			}
-			"3"
-			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
-			}
-			"4"
-			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
 			}
 		}
 		"configuration"
 		{
 			"supported_input" "gamepad"
-			"requires_manual_keyboard_invoke" "1"
+			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "0"
+			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
-			"requires_internet_for_singleplayer" "0"
+			"requires_internet_for_singleplayer" "1"
 			"recommended_runtime" "proton-stable"
-			"requires_h264" "0"
+			"requires_h264" "1"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 			"proton_compat_config" "nomfdxgiman,"
 		}
 	}
@@ -228,7 +209,6 @@
 		"14" "493"
 		"15" "4726"
 		"16" "6650"
-		"17" "9130"
 	}
 	"review_score" "8"
 	"review_percentage" "88"
@@ -238,7 +218,7 @@
 	"anti_cheat_support_url" ""
 	"developer" "NEOWIZ"
 	"publisher" "NEOWIZ"
-	"listofdlc" "1080550,1117550,1214810,1238760,1271670,1271671,1281330,1300210,1300211,1316550,1356220,1356221,1356222,1386610,1386611,1386612,1386616,1472190,1472191,1472192,1516850,1568680,1616010,1664550,1710370,1710371,1782170,1823440,1823441,1843020,1918760,1918761,1958170,1958171,1958173,1965710,2125660,2125661,2164540,2271910,2271911,2307470,2307471,2391270,2391271,2522600,2522610,2530380,2677420,2677430,2681820,2829200"
+	"listofdlc" "1080550,1117550,1214810,1238760,1271670,1271671,1281330,1300210,1300211,1316550,1356220,1356221,1356222,1386610,1386611,1386612,1386616,1472190,1472191,1472192,1516850,1568680,1616010,1664550,1710370,1710371,1782170,1823440,1823441,1843020,1918760,1918761,1958170,1958171,1958173,1965710,2125660,2125661,2164540,2271910,2271911,2307470,2307471,2391270,2391271,2522600,2522610,2530380,2677420,2677430,2681820,2829200,2947560,2947570"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -285,18 +265,18 @@
 		{
 			"public"
 			{
-				"gid" "7301888604795532597"
-				"size" "66168001139"
-				"download" "65299911504"
+				"gid" "8590700794088392580"
+				"size" "66578368061"
+				"download" "65699039776"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"test"
 			{
-				"gid" "65BA7814EB4758EF9F110213382DE7F3"
-				"size" "48766005A41401E562ED20ED5B25E96E"
-				"download" "0A6EC3B1009D696574EEBCB2C49C582C"
+				"gid" "25C15F7AAB207C5CAC4F7FFBC2E9F180"
+				"size" "515ADE46659401E066C607F8095D9DC2"
+				"download" "D3CFE26278FD635DD28BE54586477E25"
 			}
 		}
 	}
@@ -312,18 +292,18 @@
 		{
 			"public"
 			{
-				"gid" "7308878660051318478"
-				"size" "21925143445"
-				"download" "21004117904"
+				"gid" "3572439842890999166"
+				"size" "21947708930"
+				"download" "21123437552"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"test"
 			{
-				"gid" "85974E51E9A5FE32E3B18E171C5571DE"
-				"size" "0FEE03CD21F0A1EFBF7A6E7E18BF52D0"
-				"download" "7147A16E11A0B21B3D8BA106BBAB51AC"
+				"gid" "7A04A69F87F208E25DA93C7758C43BD1"
+				"size" "3725D71D03A33FD48D7E891AC8E8592E"
+				"download" "D237CE164DCCF4B8B7B36A0F5646E8A7"
 			}
 		}
 	}
@@ -331,14 +311,30 @@
 	{
 		"public"
 		{
-			"buildid" "13725051"
-			"timeupdated" "1710392606"
+			"buildid" "14362094"
+			"timeupdated" "1715826758"
 		}
 		"test"
 		{
-			"buildid" "13725051"
+			"buildid" "14362094"
 			"pwdrequired" "1"
-			"timeupdated" "1710380768"
+			"timeupdated" "1715690129"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "101"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Neowiz/DJMAX RESPECT V/{64BitSteamID}"
+			"pattern" "*.dat"
 		}
 	}
 }
@@ -358,6 +354,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22839917"
-"_sha" "e4d4272dcb772dcf4db97caa5418e541cf4c30cf"
-"_size" "6809"
+"_change_number" "23559635"
+"_sha" "07cef04e66952d53aa2b06373b7c91045413cb84"
+"_size" "6592"
