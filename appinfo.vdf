@@ -18,8 +18,66 @@
 	"languages"
 	{
 		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
 		"schinese" "1"
 		"tchinese" "1"
+		"russian" "1"
+		"japanese" "1"
+		"portuguese" "1"
+		"polish" "1"
+		"hungarian" "1"
+		"czech" "1"
+		"turkish" "1"
+		"brazilian" "1"
+		"latam" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1713916800"
+		"tested_build_id" "13879464"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "1"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
 	}
 	"controllertagwizard" "1"
 	"controller_support" "partial"
@@ -179,20 +237,20 @@
 	"store_tags"
 	{
 		"0" "9551"
-		"1" "4136"
-		"2" "10397"
-		"3" "5900"
-		"4" "12095"
+		"1" "12095"
+		"2" "4136"
+		"3" "10397"
+		"4" "5900"
 		"5" "1667"
 		"6" "9130"
 		"7" "3834"
 		"8" "1664"
 		"9" "9204"
 		"10" "3839"
-		"11" "21"
+		"11" "1663"
 		"12" "4191"
-		"13" "1710"
-		"14" "1663"
+		"13" "21"
+		"14" "1710"
 		"15" "597"
 		"16" "4175"
 		"17" "19"
@@ -381,8 +439,6 @@
 }
 "depots"
 {
-	"hasdepotsindlc" "1"
-	"baselanguages" "english"
 	"228988"
 	{
 		"config"
@@ -419,15 +475,35 @@
 		"depotfromapp" "228980"
 		"sharedinstall" "1"
 	}
+	"229030"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"hasdepotsindlc" "1"
+	"baselanguages" "english"
 	"2781371"
 	{
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "1116491337318295653"
-				"size" "2572540353"
-				"download" "2277490096"
+				"gid" "8638179903561654327"
+				"size" "2496772859"
+				"download" "2127735888"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devtest"
+			{
+				"gid" "314A23F8ED31C77D7ACF2F316AB920E1"
+				"size" "F1149C99822488EA7A182B55DC7B73CF"
+				"download" "CCA853F404FF39EDF71671206139FFC9"
 			}
 		}
 	}
@@ -436,8 +512,14 @@
 	{
 		"public"
 		{
-			"buildid" "13879464"
-			"timeupdated" "1711610923"
+			"buildid" "14389090"
+			"timeupdated" "1715862150"
+		}
+		"devtest"
+		{
+			"buildid" "13885564"
+			"pwdrequired" "1"
+			"timeupdated" "1711648967"
 		}
 	}
 }
@@ -456,6 +538,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22941886"
-"_sha" "82dc28b788ed220904a0602d2ea01d0835356023"
-"_size" "7876"
+"_change_number" "23566283"
+"_sha" "2a2b80970691c57a1ae141c16910f9dd40b9d4af"
+"_size" "9663"
