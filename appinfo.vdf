@@ -27,17 +27,33 @@
 		"schinese" "夜族崛起"
 		"tchinese" "夜族崛起"
 	}
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"japanese" "1"
+		"portuguese" "1"
+		"polish" "1"
+		"brazilian" "1"
+	}
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1655510400"
-		"tested_build_id" "8901618"
+		"test_timestamp" "1715731200"
+		"tested_build_id" "14317860"
 		"tests"
 		{
 			"0"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
 			}
 			"1"
 			{
@@ -52,27 +68,28 @@
 			"3"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"4"
 			{
-				"display" "1"
-				"token" "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
 		}
 		"configuration"
 		{
 			"supported_input" "gamepad"
-			"requires_manual_keyboard_invoke" "0"
+			"requires_manual_keyboard_invoke" "1"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "1"
+			"non_deck_display_glyphs" "0"
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
-			"requires_internet_for_singleplayer" "1"
-			"recommended_runtime" "proton-stable"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 			"proton_compat_config" "nomfdxgiman,"
 		}
 	}
@@ -227,9 +244,9 @@
 	{
 		"0" "1662"
 		"1" "1695"
-		"2" "7332"
-		"3" "3859"
-		"4" "4018"
+		"2" "4018"
+		"3" "7332"
+		"4" "3859"
 		"5" "1702"
 		"6" "3843"
 		"7" "1775"
@@ -283,9 +300,9 @@
 		{
 			"public"
 			{
-				"gid" "758942697904236984"
-				"size" "8860073871"
-				"download" "4307815776"
+				"gid" "8549524208869906936"
+				"size" "8860263321"
+				"download" "4307860096"
 			}
 			"0.5.43954_hotfix13"
 			{
@@ -319,9 +336,9 @@
 			}
 			"public-test"
 			{
-				"gid" "758942697904236984"
-				"size" "8860073871"
-				"download" "4307815776"
+				"gid" "8549524208869906936"
+				"size" "8860263321"
+				"download" "4307860096"
 			}
 		}
 		"encryptedmanifests"
@@ -370,9 +387,9 @@
 			}
 			"internal"
 			{
-				"gid" "7372B59AA99802FCEC13FCE672FCA364"
-				"size" "CA15613201A02DE0F1418E5B06E89803"
-				"download" "06756D1F859AAEB08FD429AB78EEA895"
+				"gid" "7DCD7734296172A344B1A7A2D638610D"
+				"size" "CE207007E329DBBE1753088E0A06C3DC"
+				"download" "6EBA34354A6E2613498BA0E77BB5D936"
 			}
 			"internal2"
 			{
@@ -430,8 +447,8 @@
 	{
 		"public"
 		{
-			"buildid" "14375376"
-			"timeupdated" "1715779387"
+			"buildid" "14399681"
+			"timeupdated" "1715933362"
 		}
 		"0.5.43954_hotfix13"
 		{
@@ -501,9 +518,9 @@
 		}
 		"internal"
 		{
-			"buildid" "14375376"
+			"buildid" "14399109"
 			"pwdrequired" "1"
-			"timeupdated" "1715775727"
+			"timeupdated" "1715926519"
 		}
 		"internal2"
 		{
@@ -543,9 +560,9 @@
 		}
 		"public-test"
 		{
-			"buildid" "14375376"
+			"buildid" "14399681"
 			"description" "Public test branch for V Rising client. Use at your own risk. Always backup your saves."
-			"timeupdated" "1715779168"
+			"timeupdated" "1715932811"
 		}
 		"qa01"
 		{
@@ -1225,6 +1242,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23550288"
-"_sha" "cce63596fe9874483ed9db75cd43f05b9ec79992"
-"_size" "40001"
+"_change_number" "23585263"
+"_sha" "d49a7f25f5d6cb2da4d12e611c839a61648843b0"
+"_size" "40276"
