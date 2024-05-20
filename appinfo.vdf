@@ -44,6 +44,8 @@
 			"requires_h264" "0"
 		}
 	}
+	"controllertagwizard" "1"
+	"controller_support" "partial"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -65,7 +67,7 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1713146597"
+	"store_asset_mtime" "1716071213"
 	"associations"
 	{
 		"0"
@@ -99,6 +101,7 @@
 		"category_23" "1"
 		"category_47" "1"
 		"category_48" "1"
+		"category_18" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -256,7 +259,7 @@
 		}
 		"3"
 		{
-			"executable" "\\LF\\Binaries\\Win64\\LF-Win64-Shipping.exe"
+			"executable" "StartGame (No Anti Cheat).bat"
 			"config"
 			{
 				"oslist" "windows"
@@ -264,9 +267,9 @@
 			}
 			"description_loc"
 			{
-				"english" "Play Night of the Dead (No Anti-Cheat, Only play single-player)"
+				"english" "Play Night of the Dead (Non_EasyAntiCheat, Non_Official)"
 			}
-			"description" "Play Night of the Dead (No Anti-Cheat, Only play single-player)"
+			"description" "Play Night of the Dead (Non_EasyAntiCheat, Non_Official)"
 		}
 	}
 	"steamcontrollertemplateindex" "6"
@@ -303,9 +306,9 @@
 		{
 			"public"
 			{
-				"gid" "7765352092407571823"
-				"size" "33544754202"
-				"download" "12202227536"
+				"gid" "2606394475740415505"
+				"size" "33897048843"
+				"download" "12319661520"
 			}
 			"1.2.4"
 			{
@@ -337,33 +340,15 @@
 				"size" "52373702579"
 				"download" "13256334848"
 			}
+			"3.3.2"
+			{
+				"gid" "7765352092407571823"
+				"size" "33544754202"
+				"download" "12202227536"
+			}
 		}
 		"encryptedmanifests"
 		{
-			"alpha_development"
-			{
-				"gid" "A8F1EBB28ACC47540C1ACA0E3AA91AF8"
-				"size" "57CD972866BC0D0F98645EC0DDAA705C"
-				"download" "5960C4ACA82B8F9D5D31A6B3EE171A28"
-			}
-			"alpha_shipping"
-			{
-				"gid" "94D99387687685582476C6B412223D09"
-				"size" "A384AA910CC37AE41D4F91B2B8162250"
-				"download" "51ED5B45A17A5F9AB7EF167C522C5025"
-			}
-			"pre-alpha"
-			{
-				"gid" "108FA5C894FFAC3576CA2F151FD7740C"
-				"size" "FFA93AAB97D085F747872D8D2FDBD1A0"
-				"download" "FA98567E64057F0905AA33049F046174"
-			}
-			"pre-alpha_development"
-			{
-				"gid" "B5BAD70A230C59D730767832685D8685"
-				"size" "DD92A48E60507C72851B33C5FEE7482D"
-				"download" "1949ED0CC7C6B172BFEF21956CE5276F"
-			}
 			"pre-alpha_intel_development"
 			{
 				"gid" "B535551A4A878D96204F2A877E5F8A82"
@@ -376,23 +361,47 @@
 				"size" "4D22B69C5F22CBCE2136734127CF72CB"
 				"download" "EFC746659389E5A2D1466BA90EEB91AE"
 			}
+			"alpha_development"
+			{
+				"gid" "9EC9F7FBE310E088A7B6E8888EE2E467"
+				"size" "E9E4C667747DFD17FEC2BD5DCD96BDD6"
+				"download" "ED1D47B84DDFC0F2E11EAAD65C855BE9"
+			}
+			"alpha_shipping"
+			{
+				"gid" "D46AEF3AE42343642494E2DAE42E2334"
+				"size" "60A24162C328FE6CC45E43630C0ECBB4"
+				"download" "7F3CE10BC3C6ABDD87C839EF79E259E3"
+			}
+			"pre-alpha"
+			{
+				"gid" "43F49F8935D79504AFAE3DF0A07F4C23"
+				"size" "27589A8955EF48E1E0974B17C2EA79FE"
+				"download" "FDD9A397B1465A033198C009D8803774"
+			}
+			"pre-alpha_development"
+			{
+				"gid" "B9E1340B7058CB73FF3037076C6DFD61"
+				"size" "B43A9523E1F5EF75A3798C38309736A1"
+				"download" "2C9F9924CA7F9FDAEA8E45806222A36A"
+			}
 			"pre-alpha_shipping"
 			{
-				"gid" "98340263B15600C996FA0FBE1A916270"
-				"size" "1EC230A960FFEB7217C134425CBAE024"
-				"download" "28A338F4B321EBF2915325BB073916BF"
+				"gid" "C20B70FB85219C9236EDC4D2B57B6B3F"
+				"size" "6E32483F96955025C6357712D1A710B3"
+				"download" "752AC4797AC8C437E5948F5D1F8288E1"
 			}
 			"pre-alpha_test_development"
 			{
-				"gid" "E07A11911E944511C0F69BEA79628B34"
-				"size" "4914C0D26F5AFC76E1526D66BF065530"
-				"download" "490768717DF499C5786793C4E1A6F84F"
+				"gid" "F9DF942CC2E62C176EA9986BDF2591DC"
+				"size" "46053367E20102329005CC5C79E335AC"
+				"download" "AEFAD2755B7405AA1E39E0419FFB49E1"
 			}
 			"pre-alpha_test_shipping"
 			{
-				"gid" "A0D2DCA4B6E7239C425CA35CBD482B75"
-				"size" "71F84A967D0CB39E329152F793AEA516"
-				"download" "914268FAE9CCA331925B5F457973BC50"
+				"gid" "CA70F4968A09F78110463BF0BDA50833"
+				"size" "C551C8B346FDB3499F8C9834DDE200FB"
+				"download" "183E3F6175B424FC2AB9A8FE76E55111"
 			}
 		}
 	}
@@ -421,8 +430,8 @@
 	{
 		"public"
 		{
-			"buildid" "14105807"
-			"timeupdated" "1713509222"
+			"buildid" "14425341"
+			"timeupdated" "1716193775"
 		}
 		"1.2.4"
 		{
@@ -454,30 +463,6 @@
 			"description" "Stable version of 2.4.x"
 			"timeupdated" "1701164521"
 		}
-		"alpha_development"
-		{
-			"buildid" "14053090"
-			"pwdrequired" "1"
-			"timeupdated" "1713159071"
-		}
-		"alpha_shipping"
-		{
-			"buildid" "14105807"
-			"pwdrequired" "1"
-			"timeupdated" "1713508306"
-		}
-		"pre-alpha"
-		{
-			"buildid" "12797767"
-			"pwdrequired" "1"
-			"timeupdated" "1700927110"
-		}
-		"pre-alpha_development"
-		{
-			"buildid" "14024934"
-			"pwdrequired" "1"
-			"timeupdated" "1712853116"
-		}
 		"pre-alpha_intel_development"
 		{
 			"buildid" "9793876"
@@ -490,23 +475,53 @@
 			"pwdrequired" "1"
 			"timeupdated" "1691132326"
 		}
+		"3.3.2"
+		{
+			"buildid" "14105807"
+			"description" "Stable version of 3.3.x"
+			"timeupdated" "1716167603"
+		}
+		"alpha_development"
+		{
+			"buildid" "14424192"
+			"pwdrequired" "1"
+			"timeupdated" "1716181561"
+		}
+		"alpha_shipping"
+		{
+			"buildid" "14425341"
+			"pwdrequired" "1"
+			"timeupdated" "1716191878"
+		}
+		"pre-alpha"
+		{
+			"buildid" "14383571"
+			"pwdrequired" "1"
+			"timeupdated" "1715825378"
+		}
+		"pre-alpha_development"
+		{
+			"buildid" "14376830"
+			"pwdrequired" "1"
+			"timeupdated" "1715782949"
+		}
 		"pre-alpha_shipping"
 		{
-			"buildid" "14025450"
+			"buildid" "14388187"
 			"pwdrequired" "1"
-			"timeupdated" "1712855927"
+			"timeupdated" "1715857089"
 		}
 		"pre-alpha_test_development"
 		{
-			"buildid" "12412598"
+			"buildid" "14400272"
 			"pwdrequired" "1"
-			"timeupdated" "1697020913"
+			"timeupdated" "1715934156"
 		}
 		"pre-alpha_test_shipping"
 		{
-			"buildid" "12809257"
+			"buildid" "14398506"
 			"pwdrequired" "1"
-			"timeupdated" "1701105125"
+			"timeupdated" "1715921181"
 		}
 	}
 }
@@ -558,6 +573,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23218167"
-"_sha" "bffa01a570714c7bd737c083f6e1485db5dda3ca"
-"_size" "10630"
+"_change_number" "23610844"
+"_sha" "ad7b6c6ea7bcccbcf8bb83a91becef67824b69f0"
+"_size" "10926"
