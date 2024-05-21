@@ -1,0 +1,242 @@
+"appid" "739800"
+"common"
+{
+	"name" "Verzaken!"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"logo" "430f384d210d959ba2c3aef9b74efef85d80888d"
+	"logo_small" "430f384d210d959ba2c3aef9b74efef85d80888d_thumb"
+	"icon" "5587778fe604798f363da68effc0d2014fcb37ea"
+	"clienticon" "c65170221535894824078ba2994500713e788f2c"
+	"clienttga" "2c911b40353df17add31cc7c3b82375658b68b47"
+	"releasestate" "released"
+	"controllervr"
+	{
+		"steamvr" "1"
+	}
+	"playareavr"
+	{
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"openvrsupport" "1"
+	"metacritic_name" "Verzaken!"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1508542272"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "interFusion Games LLC"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "interFusion Games LLC"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "4"
+		"3" "23"
+		"4" "3"
+		"5" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1509967138"
+	"community_hub_visible" "1"
+	"gameid" "739800"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "597"
+		"3" "19"
+		"4" "122"
+		"5" "599"
+	}
+	"review_score" "5"
+	"review_percentage" "53"
+}
+"extended"
+{
+	"vrheadsetstreaming" "0"
+	"developer" "interFusion Games LLC"
+	"publisher" "interFusion Games LLC"
+	"homepage" "http://interfusiongames.com/verzaken"
+}
+"config"
+{
+	"installdir" "Verzaken"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "VR\\VerzakenVRFinal(a).exe"
+			"arguments" "-vrforce -force-d3d11"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "steamvr"
+			}
+		}
+		"1"
+		{
+			"executable" "Pancake\\verzaken.exe"
+			"arguments" "-vrskip"
+			"description" "Pancake Version"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "VR\\VerzakenVRFinal(a).exe"
+			"arguments" "-show-screen-selector\t"
+			"description" "Verzaken! VR Config"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "steamvr"
+			}
+		}
+	}
+	"steamconfigurator3rdpartynative" "15"
+}
+"depots"
+{
+	"baselanguages" "english,german,spanish,schinese,russian"
+	"739802"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+	}
+	"739801"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4717558872001145314"
+				"size" "711746820"
+				"download" "213242416"
+			}
+			"steamvr"
+			{
+				"gid" "4717558872001145314"
+				"size" "711746820"
+				"download" "213242416"
+			}
+		}
+	}
+	"739803"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7634602438508470671"
+				"size" "898067087"
+				"download" "254845232"
+			}
+			"steamvr"
+			{
+				"gid" "7634602438508470671"
+				"size" "898067087"
+				"download" "254845232"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2966310"
+			"timeupdated" "1532236582"
+		}
+		"steamvr"
+		{
+			"buildid" "2966310"
+			"description" "SteamVR / Vive Version"
+			"timeupdated" "1532235714"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "10"
+}
+"_missing_token" "False"
+"_change_number" "23591175"
+"_sha" "3f25045d011bebe5505397da26cda2ea5592a1f7"
+"_size" "3922"
