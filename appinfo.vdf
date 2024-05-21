@@ -1,0 +1,303 @@
+"appid" "1356310"
+"common"
+{
+	"name" "A Total War Saga: Troy – Assembly Kit"
+	"type" "Tool"
+	"parent" "1099410"
+	"clienticon" "4073fc72f7d6714d1487e74277e0cdda33a2e4a1"
+	"clienttga" "f6db08231a6dbf535f90b63bb4e7ab23f7bbc44e"
+	"icon" "2ddd2c6262f5e4293bf2cbf3850302d265617e9a"
+	"logo" "e03d8fa20b7a96a018af06a433c0a9604428a713"
+	"logo_small" "e03d8fa20b7a96a018af06a433c0a9604428a713_thumb"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" ""
+	"releasestate" "released"
+	"controller_support" "full"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "CREATIVE ASSEMBLY"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Feral Interactive (Mac)"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "SEGA"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Total War"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_28" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1630591500"
+	"gameid" "1356310"
+	"exfgls" "3"
+}
+"extended"
+{
+	"developer" "CREATIVE ASSEMBLY"
+	"publisher" "SEGA"
+	"homepage" "https://www.totalwar.com"
+	"isfreeapp" "1"
+}
+"config"
+{
+	"installdir" "Total War Saga Troy"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "assembly_kit\\binaries\\BOB.modder.x64.exe"
+			"workingdir" "assembly_kit\\binaries"
+			"description" "Exporter: BOB"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "assembly_kit\\dave\\DaVE.retail.x64.exe"
+			"workingdir" "assembly_kit\\dave"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Database Editor: Dave"
+			}
+			"description" "Database Editor: Dave"
+		}
+		"2"
+		{
+			"executable" "assembly_kit\\binaries\\Tweak.modder.x64.exe"
+			"arguments" "/standalone TerrainMetadataEditor"
+			"workingdir" "assembly_kit\\binaries"
+			"description" "Battle Map Editor: Terry"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "assembly_kit\\binaries\\Tweak.modder.x64.exe"
+			"arguments" "/standalone VariantEditor"
+			"workingdir" "assembly_kit\\binaries"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Variant Editor"
+			}
+			"description" "Variant Editor"
+		}
+		"4"
+		{
+			"executable" "assembly_kit\\binaries\\browse.bat"
+			"arguments" "http://wiki.totalwar.com/w/Total_War_WARHAMMER_Assembly_Kit_Manual"
+			"workingdir" "assembly_kit\\binaries"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Show Assembly Kit Manual"
+			}
+			"description" "Show Assembly Kit Manual"
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1356311"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5071291187150276291"
+				"size" "2340553844"
+				"download" "1574975488"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beach"
+			{
+				"gid" "ED6A50AF5FE88CDDA6343CBAD38348F1"
+				"size" "8E31EF0F1D17EF06A746E9BF8D2F18EF"
+				"download" "1533B63A88F2CACD49753A5CE409C674"
+			}
+			"nightly"
+			{
+				"gid" "329309908960D8379FBAD55D82B523D8"
+				"size" "768AC244EFDFE7EAA8098A37B4AB48E1"
+				"download" "178E32BA067F9AAABBA34E6BDAAD6F17"
+			}
+			"nightly_rc"
+			{
+				"gid" "37695FBD391005DA4DF330CF552B0891"
+				"size" "A6A4DBD806930760EAFB82B60F7D46C4"
+				"download" "6FA82CB0249FFFEBF1309985B0456EAC"
+			}
+			"press1"
+			{
+				"gid" "731408685D2DD094707ADB472506EF49"
+				"size" "D08BCA7BA36001016FBB5505C36A1256"
+				"download" "29A5F0B289D236A74FD3603FF3F9E780"
+			}
+			"staroto"
+			{
+				"gid" "6C92BBE24B68AF054EB58CB7A7FA58B4"
+				"size" "E200E7428178E586567A9C6833B84095"
+				"download" "0FB392F381387CE11FF61B5D038C4E8C"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10283535"
+			"timeupdated" "1674557966"
+		}
+		"beach"
+		{
+			"buildid" "7219144"
+			"pwdrequired" "1"
+			"timeupdated" "1629445393"
+		}
+		"nightly"
+		{
+			"buildid" "8005015"
+			"pwdrequired" "1"
+			"timeupdated" "1641944999"
+		}
+		"nightly_rc"
+		{
+			"buildid" "10283535"
+			"pwdrequired" "1"
+			"timeupdated" "1673280002"
+		}
+		"press1"
+		{
+			"buildid" "7729935"
+			"pwdrequired" "1"
+			"timeupdated" "1637165498"
+		}
+		"staroto"
+		{
+			"buildid" "7575163"
+			"pwdrequired" "1"
+			"timeupdated" "1634827576"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "22534048"
+"_sha" "e1db200cfe8b8c252e0baf1410c478f2b4764c28"
+"_size" "5534"
