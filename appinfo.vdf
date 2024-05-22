@@ -32,32 +32,27 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1697587200"
-		"tested_build_id" "12437706"
+		"category" "3"
+		"test_timestamp" "1716336000"
+		"tested_build_id" "14433488"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-			}
-			"1"
-			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
-			}
-			"2"
-			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
-			"3"
+			"1"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
-			"4"
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
@@ -66,16 +61,17 @@
 		"configuration"
 		{
 			"supported_input" "gamepad"
-			"requires_manual_keyboard_invoke" "1"
+			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
 			"non_deck_display_glyphs" "0"
-			"small_text" "1"
+			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-8.0-4"
+			"recommended_runtime" "proton-9.0-1RC"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Wizard with a Gun"
@@ -274,9 +270,9 @@
 		{
 			"public"
 			{
-				"gid" "3690902826944035325"
-				"size" "1634852108"
-				"download" "1366593344"
+				"gid" "1025847294135055574"
+				"size" "1598327837"
+				"download" "1365177136"
 			}
 		}
 		"encryptedmanifests"
@@ -343,9 +339,9 @@
 			}
 			"alpha"
 			{
-				"gid" "BA0DEAF828FE34564E7C2E8E8BFB0FB9"
-				"size" "E5F432C714E4A8D04340BD761D3ABDFC"
-				"download" "D315F0931265D3F5DCCD9C7DE70381EE"
+				"gid" "8E7895AFA9B3B02D6F23409AB3E8C77F"
+				"size" "76C640AE1C4A682E152FBD43250A89A4"
+				"download" "DA5C9E1783EE5E9252BDCAEF252414EA"
 			}
 			"lionbridge"
 			{
@@ -393,8 +389,8 @@
 	{
 		"public"
 		{
-			"buildid" "14433488"
-			"timeupdated" "1716243570"
+			"buildid" "14446580"
+			"timeupdated" "1716323943"
 		}
 		"contentcreators"
 		{
@@ -458,9 +454,9 @@
 		}
 		"alpha"
 		{
-			"buildid" "14433455"
+			"buildid" "14436716"
 			"pwdrequired" "1"
-			"timeupdated" "1716243262"
+			"timeupdated" "1716324422"
 		}
 		"lionbridge"
 		{
@@ -502,6 +498,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23618887"
-"_sha" "6736d2367d0956ecb76c929ce5bc274172ab9512"
-"_size" "10100"
+"_change_number" "23633587"
+"_sha" "dc518beafe5d42a1673dab84ceece45e3fe732ac"
+"_size" "9991"
