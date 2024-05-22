@@ -1,19 +1,17 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-05-22 08:27:19
+## 更新时间：2024-05-22 16:08:40
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1274570 | DEVOUR| Game |
-| 1551360 | 极限竞速：地平线 5| Game |
-| 570 | Dota 2| game |
-| 2399830 | 方舟: 生存飞升| Game |
+| 578080 | PUBG: BATTLEGROUNDS| Game |
 | 292030 | 巫师 3：狂猎| Game |
-| 223850 | 3DMark| Application |
-| 1286580 | 同舟共济| Game |
-| 616720 | Live2DViewerEX| Application |
-| 24010 | Train Simulator Classic 2024| Game |
-| 2669360 | 神之天平外传：幻雾之洞窟| DLC |
-| 1839950 | 终结者: 黑暗命运 - 反抗| Game |
-| 1150530 | 荒野枪巫| Game |
-| 2487060 | Anonymous Hacker Simulator| Game |
-| 2202100 | Infection Free Zone - Map Editor| Tool |
+| 2602680 | 绝世好武功Mod工具| Tool |
+| 454650 | DRAGON BALL XENOVERSE 2| Game |
+| 550320 | art of rally| Game |
+| 2292060 | 法术圆盘| Game |
+| 576770 | 低魔时代| Game |
+| 1455910 | 领地：种田与征战| Game |
+| 1718570 | 神之天平（ASTLIBRA Revision）| Game |
+| 1658150 | 月光石岛| Game |
+| 1058770 | 我来自江湖| Game |
+| 1254120 | 神佑释放| Game |
