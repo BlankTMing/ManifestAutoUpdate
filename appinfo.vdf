@@ -1,0 +1,155 @@
+"appid" "468220"
+"common"
+{
+	"name" "The Culling: Day 1 Reference"
+	"section_type" "ownersonly"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"logo" "4f5cd599bfb1d228b946c39507b39537a78a4e10"
+	"logo_small" "4f5cd599bfb1d228b946c39507b39537a78a4e10_thumb"
+	"icon" "68314798715c44705e5b69c9fd1199a60222effe"
+	"clienttga" "68c3095dd99b9165ed456d6bbc97e8f92c80845b"
+	"clienticon" "35718688eb35709cb00790da1cc8e0ff2599920c"
+	"associations"
+	{
+	}
+	"community_hub_visible" "1"
+	"gameid" "468220"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+	}
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "The Culling Test"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Victory\\Binaries\\Win64\\Victory.exe"
+			"description" "Play The Culling (Test Server)"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Victory/Binaries/Linux/Victory"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"468221"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6503235816668403650"
+				"size" "4513423970"
+				"download" "2964256304"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"teststaging"
+			{
+				"gid" "1E0122FF20F1D5D93D7968FDC4CC95AB"
+				"size" "0001D42FADB8C60BC281ED87AD62B624"
+				"download" "DBD5F4FD14B81F7C317E43FD928A42F2"
+			}
+		}
+	}
+	"468222"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1073164462519254613"
+				"size" "5923618242"
+				"download" "3327158160"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"teststaging"
+			{
+				"gid" "A8B8DD169CEC472EEBAFF558676BC308"
+				"size" "EB0D77B9FA60A68DD35D029417D935E1"
+				"download" "59F04A7255A1C696558221EACCB3510C"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2979406"
+			"timeupdated" "1532617696"
+		}
+		"teststaging"
+		{
+			"buildid" "2979406"
+			"pwdrequired" "1"
+			"timeupdated" "1532609948"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "256000"
+	"maxnumfiles" "30"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Victory/Saved/SaveGames"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Victory/Saved/Config"
+			"pattern" "*.ini"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "18903802"
+"_sha" "ce1b46ce2a45917bf9c097e0db2efdfa9d4e0950"
+"_size" "2586"
