@@ -1,0 +1,170 @@
+"appid" "490500"
+"common"
+{
+	"name" "Zero G Arena dedicated server"
+	"type" "Tool"
+	"parent" "467820"
+	"oslist" "windows,linux"
+	"logo" "f600730d42ce3f289310b9b2b33320b9bc2b5beb"
+	"logo_small" "f600730d42ce3f289310b9b2b33320b9bc2b5beb_thumb"
+	"icon" "4fa77aaeb4ecc0fc45b87005350f4d207554d215"
+	"clienticon" "dcd0145912f997b26847940a44c41bd05803b30c"
+	"clienttga" "63984710cac48f55ce31b3eaec3f0f3d85d3d572"
+	"releasestate" "released"
+	"osarch" ""
+	"associations"
+	{
+	}
+	"gameid" "490500"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Zero G Arena dedicated server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Sta\\Binaries\\Win64\\StaServer.exe"
+			"arguments" "-Pipe -log"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Sta/Binaries/Linux/StaServer"
+			"arguments" "-Pipe -log"
+			"type" "server"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1923798258558304932"
+				"size" "44194776"
+				"download" "13804528"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4884950798805348056"
+				"size" "73781292"
+				"download" "20270768"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"490501"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5998913100435106840"
+				"size" "4355748882"
+				"download" "1149580272"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "4DF24B89134CD1C47B25D1249983CBE3"
+				"size" "2144D7A416CB8125ACB2306F9A0D8474"
+				"download" "2F0D3C11EBBA6ED48B2E68C69AE21DC5"
+			}
+		}
+	}
+	"490502"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2439059037127135346"
+				"size" "6497413088"
+				"download" "1045922016"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "ED2FA7909F200D70772B29793504B9BA"
+				"size" "78C5C21C5F5CA64B94A1F2B7F0149D1C"
+				"download" "3AE5A96DAB7FB1310CDAD376F54B3B8A"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3612103"
+			"timeupdated" "1551633058"
+		}
+		"test"
+		{
+			"buildid" "2925358"
+			"pwdrequired" "1"
+			"timeupdated" "1530899122"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20307700"
+"_sha" "6100d2a2b2c3b474c2e25777bf94b016c10bc2c1"
+"_size" "2687"
