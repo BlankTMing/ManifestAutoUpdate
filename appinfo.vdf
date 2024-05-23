@@ -47,29 +47,56 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1644969600"
-		"tested_build_id" "7321374"
+		"category" "2"
+		"test_timestamp" "1715212800"
+		"tested_build_id" "14188787"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_UnsupportedAntiCheatConfiguration"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
 		{
 			"supported_input" "gamepad"
-			"requires_manual_keyboard_invoke" "0"
+			"requires_manual_keyboard_invoke" "1"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "0"
-			"small_text" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-1RC"
 			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Hell Let Loose"
@@ -195,8 +222,8 @@
 	{
 		"0" "1774"
 		"1" "4175"
-		"2" "1663"
-		"3" "4150"
+		"2" "4150"
+		"3" "1663"
 		"4" "3859"
 		"5" "1678"
 		"6" "19"
@@ -207,8 +234,8 @@
 		"11" "3839"
 		"12" "128"
 		"13" "4345"
-		"14" "9"
-		"15" "3987"
+		"14" "3987"
+		"15" "9"
 		"16" "1775"
 		"17" "5611"
 		"18" "4667"
@@ -219,6 +246,16 @@
 }
 "extended"
 {
+	"additional_dependencies"
+	{
+		"0"
+		{
+			"src_os" "windows"
+			"dest_os" "linux"
+			"appid" "1826330"
+			"comment" "EAC runtime"
+		}
+	}
 	"anti_cheat_support_url" "https://www.easy.ac/r/steam/gamebans/\?steamAppId=686810"
 	"gamedir" "hlldir"
 	"serverbrowsername" "Hell Let Loose"
@@ -466,9 +503,9 @@
 		{
 			"public"
 			{
-				"gid" "4355107616595778213"
-				"size" "47690696221"
-				"download" "20995160496"
+				"gid" "1028374999673888447"
+				"size" "47670709767"
+				"download" "20985218464"
 			}
 		}
 		"encryptedmanifests"
@@ -479,12 +516,6 @@
 				"size" "FF21733DC18BF3AEE64A4A702E203910"
 				"download" "03310A23D4B5633737F7E0DFEA729A70"
 			}
-			"gsp_testing"
-			{
-				"gid" "7AF50BAA91CDE3A67B835E3D7BB15FCD"
-				"size" "06E6A5C7FDD3CA317C19641361A431C0"
-				"download" "A9605462511F223AB6FF6F7FF0AB8519"
-			}
 			"internal_team17"
 			{
 				"gid" "EEC406C41B1EE2A952A3309B15698F06"
@@ -493,45 +524,51 @@
 			}
 			"dev_team"
 			{
-				"gid" "D615D59678C4C2BD2ABE778C7873DE29"
-				"size" "A93A10CE2D889A0002CFA984E1D93C89"
-				"download" "EE9CD11F123A0640411594CBF405B44F"
+				"gid" "F0E33E22BEB67319B263F7262B10375F"
+				"size" "88B2D879736B03081BB113F491B37E61"
+				"download" "1246F165278B7EF1AC56EB5F50E781EE"
+			}
+			"gsp_testing"
+			{
+				"gid" "9A68F2582C5918CEA5001647F523F470"
+				"size" "35226D40FD0FCA23961C90E5EB154E6E"
+				"download" "4F6029EEC3947D4C4E17D0EC66F39EBA"
 			}
 			"hll_main_build"
 			{
-				"gid" "A079AC24F8A951B0665D0D29996BFE1E"
-				"size" "F4C76430FB21D03EFEBFBC7ABF0581A8"
-				"download" "AE74320372DCE1DCC6A37445EAFF29E2"
+				"gid" "3E78057DC6AFAE8EB0CC8350B020B016"
+				"size" "D196C169A68068925BD27F10C27AAE2C"
+				"download" "AC5C4AF9986478F305EE79F8BAB87348"
 			}
 			"hll_release_update15_build"
 			{
-				"gid" "129F2DFB3FB9EAC4E607CC803201195A"
-				"size" "2DC4668011FEFDA606038855B0B196BB"
-				"download" "4F63103C865B4ED76ABCD71EB6873E37"
+				"gid" "93B8D32B9BB6AD3906B625C4F32BDA9B"
+				"size" "00FFDD01FD404D8DCA6B6B3DDBEFC43B"
+				"download" "A82AA8F039EB24784EC6B725E6CC2A8A"
 			}
 			"hll_wip_1_build"
 			{
-				"gid" "1D31FAA51A72D0C259E94E552F784E33"
-				"size" "ADE75C9A9954066400BB2E857754FABE"
-				"download" "91FF3649FAE1E3F29F3BB68C1BF392FA"
+				"gid" "74EDD9149BE2342D52E299F0F54A72B3"
+				"size" "7C003FAA7787BC9CF8CB26FB3515589E"
+				"download" "01E1E26CD2218472F6D3A9B4D1E773C7"
 			}
 			"oss_testing"
 			{
-				"gid" "0390F3692CCC9F04BF1C9CAE3FD327F1"
-				"size" "96A79BA6BE215D0EFE79D6E16331FE9A"
-				"download" "9381A93729233F542C2E6E46188793A0"
+				"gid" "66842EBD159503A3DE8D3EBE0035EC1A"
+				"size" "3AB54E87D8B9CD30BDB79EA013D87089"
+				"download" "C21B8BF2BCC8E3D2F856D865460F1116"
 			}
 			"production_hll_release_update15_build"
 			{
-				"gid" "C4E837DB609BF89340750024894EC83D"
-				"size" "9CE4BB980E800DCB550BBD9E0F461EDB"
-				"download" "0C70A13E867FA0CE786366D962A07B6B"
+				"gid" "94E53D0967D233C379C01B807C91B677"
+				"size" "3B52AD5454BE4F33E508959497E573C8"
+				"download" "26290FDEC558686775F7218A65A229A8"
 			}
 			"qa_testing"
 			{
-				"gid" "A90253FCCB5555B6AB065E9F3B02CC93"
-				"size" "D7E8A48CED7553F5730B0273EF8C2866"
-				"download" "A3C7E351582CC3DD4CE11EAA498B2F50"
+				"gid" "9B4E3B4B3E904329498299D39A410BEA"
+				"size" "DD88B8255570157354E49F6A7DD483A0"
+				"download" "8D871650D8F0992AF775E0461F3EE166"
 			}
 			"wc_playtest"
 			{
@@ -546,20 +583,14 @@
 	{
 		"public"
 		{
-			"buildid" "14188787"
-			"timeupdated" "1714557623"
+			"buildid" "14401819"
+			"timeupdated" "1716458378"
 		}
 		"cert"
 		{
 			"buildid" "13419960"
 			"pwdrequired" "1"
 			"timeupdated" "1707753579"
-		}
-		"gsp_testing"
-		{
-			"buildid" "13656232"
-			"pwdrequired" "1"
-			"timeupdated" "1709803778"
 		}
 		"internal_team17"
 		{
@@ -569,45 +600,51 @@
 		}
 		"dev_team"
 		{
-			"buildid" "14227479"
+			"buildid" "14448267"
 			"pwdrequired" "1"
-			"timeupdated" "1714544925"
+			"timeupdated" "1716359610"
+		}
+		"gsp_testing"
+		{
+			"buildid" "14085947"
+			"pwdrequired" "1"
+			"timeupdated" "1715338136"
 		}
 		"hll_main_build"
 		{
-			"buildid" "14226158"
+			"buildid" "14469034"
 			"pwdrequired" "1"
-			"timeupdated" "1714511083"
+			"timeupdated" "1716470633"
 		}
 		"hll_release_update15_build"
 		{
-			"buildid" "14188930"
+			"buildid" "14402010"
 			"pwdrequired" "1"
-			"timeupdated" "1714153190"
+			"timeupdated" "1715942914"
 		}
 		"hll_wip_1_build"
 		{
-			"buildid" "14227479"
+			"buildid" "14461026"
 			"pwdrequired" "1"
-			"timeupdated" "1714520170"
+			"timeupdated" "1716417452"
 		}
 		"oss_testing"
 		{
-			"buildid" "14227324"
+			"buildid" "14461571"
 			"pwdrequired" "1"
-			"timeupdated" "1714519098"
+			"timeupdated" "1716421394"
 		}
 		"production_hll_release_update15_build"
 		{
-			"buildid" "14188787"
+			"buildid" "14401819"
 			"pwdrequired" "1"
-			"timeupdated" "1714152364"
+			"timeupdated" "1715942111"
 		}
 		"qa_testing"
 		{
-			"buildid" "13340932"
+			"buildid" "14086120"
 			"pwdrequired" "1"
-			"timeupdated" "1714493765"
+			"timeupdated" "1716383695"
 		}
 		"wc_playtest"
 		{
@@ -948,6 +985,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23372235"
-"_sha" "cf043a1c2d00d5a245eebc80c1449a2ee8f7b43f"
-"_size" "24900"
+"_change_number" "23661349"
+"_sha" "ef679fa381c2dc449887a56488a06b18b33d1c89"
+"_size" "25750"
