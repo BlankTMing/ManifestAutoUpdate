@@ -34,28 +34,30 @@
 	"steam_deck_compatibility"
 	{
 		"category" "1"
-		"test_timestamp" "1644969600"
-		"tested_build_id" "8117803"
+		"test_timestamp" "1715212800"
+		"tested_build_id" "14208265"
 		"tests"
 		{
 			"0"
 			{
 				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_UnsupportedAntiCheatConfiguration"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
 			}
 		}
 		"configuration"
 		{
-			"supported_input" "other"
-			"requires_manual_keyboard_invoke" "0"
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "0"
-			"small_text" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-7.0-1"
+			"recommended_runtime" "proton-9.0-1RC"
 			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Will To Live Online"
@@ -251,18 +253,18 @@
 		{
 			"public"
 			{
-				"gid" "3485445460546369468"
-				"size" "28677899346"
-				"download" "26227459584"
+				"gid" "6959584873269422693"
+				"size" "29261840260"
+				"download" "26688203808"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"beta"
 			{
-				"gid" "46D7E922627AB81B3BF645A41D95D47B"
-				"size" "566D97DE4BDC4485B98A7AC6317AE85A"
-				"download" "BD5C683CC71DF651278E540E0AF1746B"
+				"gid" "A39B0829C96907F152AAFB5CDD22D435"
+				"size" "2A817C708870732B3A48305149D0369D"
+				"download" "96917972604B13FCC2C1CAB92F29C751"
 			}
 		}
 	}
@@ -270,14 +272,14 @@
 	{
 		"public"
 		{
-			"buildid" "14208265"
-			"timeupdated" "1714458094"
+			"buildid" "14473874"
+			"timeupdated" "1716533561"
 		}
 		"beta"
 		{
-			"buildid" "14226139"
+			"buildid" "14473874"
 			"pwdrequired" "1"
-			"timeupdated" "1714510939"
+			"timeupdated" "1716497786"
 		}
 	}
 }
@@ -300,6 +302,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23366179"
-"_sha" "999ce47f3017c8eaa36597bf9e08ec087586c106"
-"_size" "5127"
+"_change_number" "23673836"
+"_sha" "b3b3d4efd41e79d5ad94ab7697caef79c5f5738a"
+"_size" "5192"
