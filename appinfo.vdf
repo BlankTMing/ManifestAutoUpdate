@@ -7,9 +7,9 @@
 	"clienticon" "e3e6087b56c235fc896861575669519a424d2bd3"
 	"clienttga" "fa450cce8e5e5d52d8c591587771cb2b9cdd89be"
 	"releasestate" "released"
-	"oslist" "windows"
+	"oslist" "windows,macos"
 	"osarch" "64"
-	"osextended" ""
+	"osextended" "macos64,macosapplesilicon,macosnotarized"
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -59,6 +59,7 @@
 		"category_22" "1"
 		"category_23" "1"
 		"category_28" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -74,8 +75,8 @@
 	"store_tags"
 	{
 		"0" "4026"
-		"1" "3877"
-		"2" "1721"
+		"1" "1721"
+		"2" "3877"
 		"3" "3968"
 		"4" "4036"
 		"5" "4136"
@@ -91,8 +92,8 @@
 		"15" "30358"
 		"16" "4975"
 		"17" "5379"
-		"18" "3871"
-		"19" "14906"
+		"18" "14906"
+		"19" "3871"
 	}
 	"review_score" "8"
 	"review_percentage" "88"
@@ -110,6 +111,26 @@
 		"0"
 		{
 			"executable" "A Difficult Game About Climbing.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "A Difficult Game About Climbing.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "A Difficult Game About Climbing.exe"
+			"config"
+			{
+				"oslist" "linux"
+			}
 		}
 	}
 	"steamcontrollertemplateindex" "4"
@@ -120,19 +141,45 @@
 {
 	"2497921"
 	{
+		"config"
+		{
+			"oslist" "windows,linux"
+		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "3575310816359795600"
-				"size" "350591955"
-				"download" "155445536"
+				"gid" "3602653590586917705"
+				"size" "350644435"
+				"download" "155466592"
 			}
 			"beta"
 			{
-				"gid" "3575310816359795600"
-				"size" "350591955"
-				"download" "155445536"
+				"gid" "3602653590586917705"
+				"size" "350644435"
+				"download" "155466592"
+			}
+		}
+	}
+	"2497922"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5560557655703196914"
+				"size" "376459398"
+				"download" "162912848"
+			}
+			"beta"
+			{
+				"gid" "5560557655703196914"
+				"size" "376459398"
+				"download" "162912848"
 			}
 		}
 	}
@@ -140,14 +187,14 @@
 	{
 		"public"
 		{
-			"buildid" "14030179"
-			"timeupdated" "1713201563"
+			"buildid" "14384593"
+			"timeupdated" "1715891237"
 		}
 		"beta"
 		{
-			"buildid" "14030179"
+			"buildid" "14384593"
 			"description" "beta"
-			"timeupdated" "1712894605"
+			"timeupdated" "1715837539"
 		}
 	}
 }
@@ -162,10 +209,34 @@
 			"root" "WinAppDataLocalLow"
 			"path" "Pontypants/A Difficult Game About Climbing"
 			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "Pontypants/A Difficult Game About Climbing"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"2"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Pontypants/A Difficult Game About Climbing"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "23162940"
-"_sha" "c887b16a3438fb7c56d50d31d6f7271f8354e91c"
-"_size" "2801"
+"_change_number" "23707006"
+"_sha" "0b021db140ec918e043b10067ca2ed7625ff5302"
+"_size" "3913"
