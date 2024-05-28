@@ -160,8 +160,8 @@
 	"store_tags"
 	{
 		"0" "1695"
-		"1" "3810"
-		"2" "1702"
+		"1" "1702"
+		"2" "3810"
 		"3" "1662"
 		"4" "599"
 		"5" "87918"
@@ -181,7 +181,7 @@
 		"19" "22602"
 	}
 	"review_score" "6"
-	"review_percentage" "74"
+	"review_percentage" "76"
 }
 "extended"
 {
@@ -202,12 +202,32 @@
 			"executable" "Pathless Woods.exe"
 			"arguments" "steam_call"
 			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
 			"description_loc"
 			{
-				"english" "Pathless Woods(DirectX 11) Better Performance"
-				"schinese" "无径之林（DirectX 11）性能更佳"
+				"english" "New version, incompatible with old version"
+				"schinese" "新版本，与旧版本不兼容"
 			}
-			"description" "Pathless Woods(DirectX 11) Better Performance"
+			"description" "New version, incompatible with old version"
+		}
+		"2"
+		{
+			"executable" "Old/Pathless Woods.exe"
+			"arguments" "steam_call"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "0.5118 Old Version"
+				"schinese" "0.5118旧版本"
+			}
+			"description" "0.5118 Old Version"
 		}
 	}
 }
@@ -219,21 +239,21 @@
 		{
 			"public"
 			{
-				"gid" "5026032378764942877"
-				"size" "1229660874"
-				"download" "796417024"
-			}
-			"stable"
-			{
-				"gid" "6873580341226417304"
-				"size" "1260993141"
-				"download" "810583040"
+				"gid" "3754083716044006236"
+				"size" "3236209485"
+				"download" "1690973808"
 			}
 			"opentest"
 			{
-				"gid" "5026032378764942877"
-				"size" "1229660874"
-				"download" "796417024"
+				"gid" "3754083716044006236"
+				"size" "3236209485"
+				"download" "1690973808"
+			}
+			"stable"
+			{
+				"gid" "2684913242864405057"
+				"size" "1228892686"
+				"download" "795545568"
 			}
 		}
 		"encryptedmanifests"
@@ -243,12 +263,6 @@
 				"gid" "E0BF0F258CD2142FC93C9C7F04D9573C"
 				"size" "114F4C22917F5725CB4E676EEB5615F5"
 				"download" "70AD8CCB7646ACE79B7355DA216EFCCC"
-			}
-			"developer"
-			{
-				"gid" "5D9B4B2EB545759DD2BE7D350DC7E8EC"
-				"size" "735DF9AD9038FD21110F1C156509F2C6"
-				"download" "07C2256B1BC7891467F0758152669433"
 			}
 			"exhibition"
 			{
@@ -274,12 +288,6 @@
 				"size" "2125166A7E391B4D5ED00E5C7387A348"
 				"download" "83474B8A0EF7838FE0BE59CCA8071539"
 			}
-			"qatest"
-			{
-				"gid" "2AE41EFF42A1716F29FBBA6BE26D2CA7"
-				"size" "B42209D03608DAC7EB9A080C7447FBA7"
-				"download" "6D8613C6C73A1F4A3278A6C9152E3EA9"
-			}
 			"review"
 			{
 				"gid" "4B14D9C4D220904DEF36C11AB13F3630"
@@ -291,6 +299,18 @@
 				"gid" "DE987082F60AF7762177A8CB42142D4F"
 				"size" "D121485375498BB335BDE01D150A1DE8"
 				"download" "0AE8C474C7A7F6AFCDA7E0EA8542A6E2"
+			}
+			"developer"
+			{
+				"gid" "DF1CA35796E3D45649462899A2DD389E"
+				"size" "9D39BFE2C3C0F4E54BAFCEFE3F2ABB9E"
+				"download" "2144300F28397FE28C6CC9EF8F070F84"
+			}
+			"qatest"
+			{
+				"gid" "EBD280456D8D03DEF678CDCEEB2CBECA"
+				"size" "468DF315A5F90485B79C1EEF41E1903E"
+				"download" "0A4CBE1194DE2166BDEFD276C1A6BC27"
 			}
 		}
 	}
@@ -309,20 +329,14 @@
 		}
 		"public"
 		{
-			"buildid" "14201256"
-			"timeupdated" "1714356094"
+			"buildid" "14509922"
+			"timeupdated" "1716829472"
 		}
 		"demo_test"
 		{
 			"buildid" "8697036"
 			"pwdrequired" "1"
 			"timeupdated" "1652334813"
-		}
-		"developer"
-		{
-			"buildid" "10598211"
-			"pwdrequired" "1"
-			"timeupdated" "1676948922"
 		}
 		"exhibition"
 		{
@@ -342,23 +356,11 @@
 			"pwdrequired" "1"
 			"timeupdated" "1687340640"
 		}
-		"qatest"
-		{
-			"buildid" "14111392"
-			"pwdrequired" "1"
-			"timeupdated" "1713613755"
-		}
 		"review"
 		{
 			"buildid" "8697036"
 			"pwdrequired" "1"
 			"timeupdated" "1652762996"
-		}
-		"stable"
-		{
-			"buildid" "14023843"
-			"description" "0.5074版本"
-			"timeupdated" "1713089651"
 		}
 		"steamdecktest"
 		{
@@ -366,11 +368,29 @@
 			"pwdrequired" "1"
 			"timeupdated" "1711093591"
 		}
+		"developer"
+		{
+			"buildid" "14279384"
+			"pwdrequired" "1"
+			"timeupdated" "1715009116"
+		}
 		"opentest"
 		{
-			"buildid" "14201256"
+			"buildid" "14509922"
 			"description" "玩家公开测试"
-			"timeupdated" "1714318343"
+			"timeupdated" "1716829438"
+		}
+		"qatest"
+		{
+			"buildid" "14509922"
+			"pwdrequired" "1"
+			"timeupdated" "1716829080"
+		}
+		"stable"
+		{
+			"buildid" "14174493"
+			"description" "0.5086版本"
+			"timeupdated" "1714399867"
 		}
 	}
 	"baselanguages" "english,schinese,tchinese,japanese"
@@ -448,6 +468,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23337729"
-"_sha" "09f6120360cf2c1eb80df508d6db3fd1cae6e043"
-"_size" "9084"
+"_change_number" "23711531"
+"_sha" "868bc1e4a4917e04c584a3880779984c82309194"
+"_size" "9431"
