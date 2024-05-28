@@ -36,6 +36,50 @@
 	"oslist" "windows"
 	"osarch" "64"
 	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1715299200"
+		"tested_build_id" "14276216"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -177,7 +221,7 @@
 		"10" "12095"
 	}
 	"review_score" "6"
-	"review_percentage" "77"
+	"review_percentage" "76"
 }
 "extended"
 {
@@ -206,18 +250,18 @@
 		{
 			"public"
 			{
-				"gid" "268439317164282093"
-				"size" "5371993993"
-				"download" "2822540720"
+				"gid" "75404248088012298"
+				"size" "5374066140"
+				"download" "2823994624"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"test"
 			{
-				"gid" "6E5FDFDF176D8E5861164296184A56BC"
-				"size" "523002444009F0B2A49670AEC64988A7"
-				"download" "D5572CAAAD37B7465C05477FBB36F04C"
+				"gid" "11DC5FF5DFE4763AD1015A486B2FEB3C"
+				"size" "8428E3801309DABFD00D9C7462C3305E"
+				"download" "9704AFDE4CC6B5068E83433EDEA8080D"
 			}
 		}
 	}
@@ -226,14 +270,14 @@
 	{
 		"public"
 		{
-			"buildid" "14276216"
-			"timeupdated" "1714987774"
+			"buildid" "14385994"
+			"timeupdated" "1715849830"
 		}
 		"test"
 		{
-			"buildid" "14276216"
+			"buildid" "14385994"
 			"pwdrequired" "1"
-			"timeupdated" "1714987026"
+			"timeupdated" "1715845196"
 		}
 	}
 }
@@ -256,6 +300,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23427177"
-"_sha" "17bc17bee5e7dc708cb4d91b423b851c61c2c67c"
-"_size" "4513"
+"_change_number" "23675339"
+"_sha" "57242a8ba68c7c2c68a2a00fbc6e83ec4e297c42"
+"_size" "5621"
