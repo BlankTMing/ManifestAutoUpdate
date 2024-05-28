@@ -27,21 +27,51 @@
 		"russian" "1"
 		"polish" "1"
 	}
+	"eulas"
+	{
+		"0"
+		{
+			"id" "1684350_eula_0"
+			"name" "The Thaumaturge EULA"
+			"url" "https://store.steampowered.com//eula/1684350_eula_0"
+			"version" "2"
+		}
+	}
 	"content_descriptors"
 	{
 		"0" "5"
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1711584000"
-		"tested_build_id" "13811375"
+		"category" "3"
+		"test_timestamp" "1714780800"
+		"tested_build_id" "14203309"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
@@ -51,7 +81,7 @@
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
-			"small_text" "1"
+			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
 			"recommended_runtime" "proton-9.0-1RC"
@@ -65,10 +95,12 @@
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
+		"polish" "capsule_231x87_polish.jpg"
 	}
 	"header_image"
 	{
 		"english" "header.jpg"
+		"polish" "header_polish.jpg"
 	}
 	"library_assets"
 	{
@@ -83,7 +115,7 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1711620100"
+	"store_asset_mtime" "1716829181"
 	"associations"
 	{
 		"0"
@@ -150,6 +182,7 @@
 		{
 			"supported" "true"
 			"subtitles" "true"
+			"full_audio" "true"
 		}
 		"russian"
 		{
@@ -186,11 +219,11 @@
 		"15" "3834"
 		"16" "1684"
 		"17" "4604"
-		"18" "4166"
-		"19" "916648"
+		"18" "916648"
+		"19" "4166"
 	}
 	"review_score" "8"
-	"review_percentage" "81"
+	"review_percentage" "82"
 }
 "extended"
 {
@@ -260,9 +293,9 @@
 		{
 			"public"
 			{
-				"gid" "6338239033160134113"
-				"size" "22961913814"
-				"download" "21484673728"
+				"gid" "3827349087397519461"
+				"size" "24364424844"
+				"download" "22429446208"
 			}
 		}
 		"encryptedmanifests"
@@ -273,29 +306,11 @@
 				"size" "4D2866E91D82D10BFFDA566E38C32E3D"
 				"download" "106B1F2F9BD01D5EFD14FF57CCF97FEC"
 			}
-			"fqa_test"
-			{
-				"gid" "93C751F5617B7FE562F8518A1D3A31A4"
-				"size" "126C67D42F52E720CF115DBD8D5881BD"
-				"download" "411E79F78DE919385A017B435B2774BB"
-			}
-			"ft_daily"
-			{
-				"gid" "93F03DC695BA583834395D93A8F801D4"
-				"size" "A078A1E831BCE67B16B60F227EF45BC3"
-				"download" "10AA765329A0309F467B4F75B86C42EE"
-			}
 			"lqa_test"
 			{
-				"gid" "08800E6CBEC05685B64F1E6E504AEF3F"
-				"size" "F2EF3C9644B62E259F092D3325046D12"
-				"download" "5EB5508816AF1B4D32F0266DE87682BE"
-			}
-			"marketing"
-			{
-				"gid" "A16ED07929B0455D60201E162EF4612E"
-				"size" "E21B09FA2025424E8CE8FD92B9B40D88"
-				"download" "FCC1DFDE26A4C41D2893D52E44B2F617"
+				"gid" "739296267CCC563A87A95C351C424B0F"
+				"size" "0CF7D09D807E79EEE6D3B4F05B0E7201"
+				"download" "5CF8D8AB822F70829F060EEB54FD4607"
 			}
 			"marketing_press_release"
 			{
@@ -327,11 +342,29 @@
 				"size" "46A8BA922FCE69593EE2CD4A3BF1AA3A"
 				"download" "312F851C8E71E0C95941F1F950062A41"
 			}
+			"fqa_test"
+			{
+				"gid" "D10D17D48854765F7156FBA05DAE37FF"
+				"size" "59A3BC936172E525A146491B5FCAFB52"
+				"download" "BDEDCEDCF711BF05FA120CC063C6C9EF"
+			}
+			"ft_daily"
+			{
+				"gid" "1DBE94EF7FEC0D3C3E2D642A2886CE08"
+				"size" "71AE3B34AF70ECA328FE8C7B8AB4F6CC"
+				"download" "13DB1CDC9A8BD7EE5B1C6B7574B56772"
+			}
+			"marketing"
+			{
+				"gid" "5572D532D0D84020698CA297F6DDDC56"
+				"size" "0AD5404659AACFE86FD70BDD1DE9E8DC"
+				"download" "3D4A45A25644429FF0087FB761226AB8"
+			}
 			"steam_deck_review"
 			{
-				"gid" "8D5CCEC4D40807D13CD4F4EFA72EDDE3"
-				"size" "AB889BDD55F4D332C3A1AA2047F20EC4"
-				"download" "179CC85DB58C03AF3F0844B4364CEC0C"
+				"gid" "B7DFEB65A93CD4AF4ED13533CE9AB16E"
+				"size" "30932B575B358C455D5BDCA6AE229153"
+				"download" "C09412F0BDECFEAA08843950951517D9"
 			}
 		}
 	}
@@ -354,29 +387,11 @@
 		}
 		"encryptedmanifests"
 		{
-			"fqa_test"
-			{
-				"gid" "2AF6473FF0FA594C036C4378AFF8A474"
-				"size" "4FC141E71C4BB6E4C239EA103D1E6A79"
-				"download" "B9F4076AEDF4B1A709385B7D8C731606"
-			}
-			"ft_daily"
-			{
-				"gid" "9EE3A9DCE013C44414C83A23796ADD2E"
-				"size" "B5B3B989852B6E3F7E3DD2A0BE25534C"
-				"download" "DDA4C9D7E85F38C2461338C8FD1D0216"
-			}
 			"lqa_test"
 			{
 				"gid" "3433D23830F582C28D1F2CE9E31F0D4F"
 				"size" "05D80FCF0BC68348D9B79343E59E5277"
 				"download" "C5756738028872EA284813ECBB7D0790"
-			}
-			"marketing"
-			{
-				"gid" "33813FC789FC3E2895B18117F3E01EAC"
-				"size" "38C6D4EE37901AC2F9822477F637BA90"
-				"download" "33677B0DF23AF23BA47CF184D4B43037"
 			}
 			"marketing_press_release"
 			{
@@ -408,6 +423,24 @@
 				"size" "03D3C74C2D220143D221FC08499F68BF"
 				"download" "50A78B049CAFA849DD82964EB9CE19DB"
 			}
+			"fqa_test"
+			{
+				"gid" "2AF6473FF0FA594C036C4378AFF8A474"
+				"size" "4FC141E71C4BB6E4C239EA103D1E6A79"
+				"download" "B9F4076AEDF4B1A709385B7D8C731606"
+			}
+			"ft_daily"
+			{
+				"gid" "9EE3A9DCE013C44414C83A23796ADD2E"
+				"size" "B5B3B989852B6E3F7E3DD2A0BE25534C"
+				"download" "DDA4C9D7E85F38C2461338C8FD1D0216"
+			}
+			"marketing"
+			{
+				"gid" "33813FC789FC3E2895B18117F3E01EAC"
+				"size" "38C6D4EE37901AC2F9822477F637BA90"
+				"download" "33677B0DF23AF23BA47CF184D4B43037"
+			}
 			"steam_deck_review"
 			{
 				"gid" "FF9EF43D60774286CD5BDFD3E3E872C2"
@@ -420,8 +453,8 @@
 	{
 		"public"
 		{
-			"buildid" "13882199"
-			"timeupdated" "1711722518"
+			"buildid" "14475006"
+			"timeupdated" "1716828739"
 		}
 		"external_1"
 		{
@@ -429,29 +462,11 @@
 			"pwdrequired" "1"
 			"timeupdated" "1706524480"
 		}
-		"fqa_test"
-		{
-			"buildid" "13935460"
-			"pwdrequired" "1"
-			"timeupdated" "1712145849"
-		}
-		"ft_daily"
-		{
-			"buildid" "13961742"
-			"pwdrequired" "1"
-			"timeupdated" "1712324995"
-		}
 		"lqa_test"
 		{
-			"buildid" "13963405"
+			"buildid" "14009594"
 			"pwdrequired" "1"
-			"timeupdated" "1712325007"
-		}
-		"marketing"
-		{
-			"buildid" "13596010"
-			"pwdrequired" "1"
-			"timeupdated" "1709202655"
+			"timeupdated" "1712754058"
 		}
 		"marketing_press_release"
 		{
@@ -481,13 +496,31 @@
 		{
 			"buildid" "13922364"
 			"pwdrequired" "1"
-			"timeupdated" "1712058259"
+			"timeupdated" "1712931407"
+		}
+		"fqa_test"
+		{
+			"buildid" "14475006"
+			"pwdrequired" "1"
+			"timeupdated" "1716792900"
+		}
+		"ft_daily"
+		{
+			"buildid" "14474556"
+			"pwdrequired" "1"
+			"timeupdated" "1716792881"
+		}
+		"marketing"
+		{
+			"buildid" "14152204"
+			"pwdrequired" "1"
+			"timeupdated" "1713956428"
 		}
 		"steam_deck_review"
 		{
-			"buildid" "13811375"
+			"buildid" "14203309"
 			"pwdrequired" "1"
-			"timeupdated" "1711116843"
+			"timeupdated" "1714389766"
 		}
 	}
 }
@@ -506,6 +539,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23045105"
-"_sha" "118321e35072fd7f3bc87dde7e0fa35306d6f64b"
-"_size" "10200"
+"_change_number" "23712157"
+"_sha" "932aba502517c0f67b56f542de490dc09482fbee"
+"_size" "10965"
