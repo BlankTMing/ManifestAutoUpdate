@@ -36,15 +36,13 @@
 	{
 		"0"
 		{
-			"id" "1426210_eula_0"
+			"id" "1426210_eula_1"
 			"name" "It Takes Two EULA"
-			"url" "https://store.steampowered.com//eula/1426210_eula_0"
-			"version" "3"
+			"url" "https://store.steampowered.com//eula/1426210_eula_1"
 		}
 	}
 	"clienticns" "801cd5e86833d2a1e7f62e7daf0107a9eb6c6176"
 	"linuxclienticon" "801cd5e86833d2a1e7f62e7daf0107a9eb6c6176"
-	"exfgls" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "2"
@@ -104,6 +102,7 @@
 		}
 	}
 	"metacritic_name" "It Takes Two"
+	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
 	{
@@ -175,6 +174,9 @@
 		"category_29" "1"
 		"category_45" "1"
 		"category_46" "1"
+		"category_55" "1"
+		"category_57" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -270,11 +272,11 @@
 		"15" "19"
 		"16" "3834"
 		"17" "4166"
-		"18" "7208"
-		"19" "8093"
+		"18" "8093"
+		"19" "7208"
 	}
-	"review_score" "9"
-	"review_percentage" "95"
+	"review_score" "8"
+	"review_percentage" "94"
 	"mastersubs_granting_app" "1289670"
 }
 "extended"
@@ -293,10 +295,13 @@
 	{
 		"0"
 		{
-			"executable" "link2ea://launchgame/1426210\?platform=steam&theme=it2"
-			"type" "none"
+			"executable" "Nuts/Binaries/Win64/ItTakesTwo.exe"
+			"workingdir" "Nuts/Binaries/Win64"
 		}
 	}
+	"steamcontrollertemplateindex" "2"
+	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "65532"
 }
 "depots"
 {
@@ -329,9 +334,9 @@
 		{
 			"public"
 			{
-				"gid" "3374707419180799751"
-				"size" "48085532995"
-				"download" "47355790640"
+				"gid" "3401192366988229428"
+				"size" "48100208430"
+				"download" "47189159104"
 			}
 		}
 		"encryptedmanifests"
@@ -372,11 +377,23 @@
 				"size" "6720A076DA7AEDB85E6FD44DA1F46D8F"
 				"download" "BC4B1D5D36A44116FF04A42892BDB050"
 			}
+			"native_test"
+			{
+				"gid" "ECED58AEDD97715D2F2885850E68AEAF"
+				"size" "639F500F2B4A6FEE32B869A38D72B834"
+				"download" "ACC8FBFAFAD3D7B3D3CE7552075DDC20"
+			}
+			"new_wrapped"
+			{
+				"gid" "250C75E22FAE11ECBC62583FC825EB20"
+				"size" "174CEBC5A6296B781137976064083CE1"
+				"download" "0D1C38B40BC3C11D0A1425B49BCCCEB4"
+			}
 			"valve_review"
 			{
-				"gid" "C366967773A40500306F9FB38FE7EA43"
-				"size" "9245A0A448B25DBF89F2DA07E06DAF31"
-				"download" "B72DABE03CAD26728122E18F0AF44141"
+				"gid" "F3A65AC151BF73F804052446B0D3F7F6"
+				"size" "7ECE230D004791314480510E6B8DE0A2"
+				"download" "72BC193FEF9A09A8D037A7DF5B92B652"
 			}
 		}
 	}
@@ -433,11 +450,23 @@
 				"size" "814890B979AB4828B1C21D1D9A7511CE"
 				"download" "451C7FF2FE149B3EA9392FE17A4CBE36"
 			}
+			"native_test"
+			{
+				"gid" "2C8C6FFD770A61448B8EF3159070D131"
+				"size" "E7772CC4413173ABF03CB9A555C9F43E"
+				"download" "39D48410A44021D1CA5E2700405FA612"
+			}
+			"new_wrapped"
+			{
+				"gid" "0B4E169432480C9EE72AA798502DA795"
+				"size" "3F3C761C6EEE0CE4EDA333F8BCD02543"
+				"download" "2B4E164B5B51CE2281E50B8E976C5360"
+			}
 			"valve_review"
 			{
-				"gid" "E80600EECFC14CB63B7E330937811138"
-				"size" "E83EB139BA3B2A610E0DDEC77E4D8BF9"
-				"download" "C66FE0C3798FBE4200EDE4CA2E134811"
+				"gid" "BD89085B1074CE25643CF72D116D7DC4"
+				"size" "52B83CC0A779E859F752E10735308041"
+				"download" "D7196483EA4A92020B3D084C1A01D67D"
 			}
 		}
 	}
@@ -494,11 +523,23 @@
 				"size" "814890B979AB4828B1C21D1D9A7511CE"
 				"download" "451C7FF2FE149B3EA9392FE17A4CBE36"
 			}
+			"native_test"
+			{
+				"gid" "ED1E7015C7163BC00E12160DB7BE9064"
+				"size" "653B1F3D008FDEED8C1CC12AF036FA87"
+				"download" "EE6D4AA7A64F8B7E6471427AD0835BA5"
+			}
+			"new_wrapped"
+			{
+				"gid" "817BD45DDB3391BA1F37BEC0D8A704E5"
+				"size" "A213522A01E34E97511002F57B6D7791"
+				"download" "C42FB29133C87C34B9620D53B4248E4B"
+			}
 			"valve_review"
 			{
-				"gid" "A16B5F18BA458941FDE2C4A8CF4EBFC8"
-				"size" "E83EB139BA3B2A610E0DDEC77E4D8BF9"
-				"download" "C66FE0C3798FBE4200EDE4CA2E134811"
+				"gid" "6EBA1D8E4144C4F14E4A6B8983CFCEFB"
+				"size" "E40811313A12E30EF3FB60E14264BD77"
+				"download" "B81AD85F2E2E8EFADAB013891ABB86FB"
 			}
 		}
 	}
@@ -555,11 +596,23 @@
 				"size" "814890B979AB4828B1C21D1D9A7511CE"
 				"download" "451C7FF2FE149B3EA9392FE17A4CBE36"
 			}
+			"native_test"
+			{
+				"gid" "A8FC85804B4478AB8A0A19CDACCCDBB0"
+				"size" "34943EB3C48A6491E60E2351667D7E2B"
+				"download" "BCBCD158483239D7E7BE540F65ADD4A5"
+			}
+			"new_wrapped"
+			{
+				"gid" "3355509CCCF059A130A7D03038281B7B"
+				"size" "A1D45A7D55091F05840E91FF5E699D15"
+				"download" "290D0093503D7D536EEF2E3CCFB1CFE3"
+			}
 			"valve_review"
 			{
-				"gid" "E09E1642E773707573F6D756BEDD8B4C"
-				"size" "E83EB139BA3B2A610E0DDEC77E4D8BF9"
-				"download" "C66FE0C3798FBE4200EDE4CA2E134811"
+				"gid" "2C01A0855FEF6353672034EAE7939E22"
+				"size" "BDB2BDD93E0FB006A5E67695AB7D7714"
+				"download" "AB34696CB6F76384F38CD1F9B04ABEB3"
 			}
 		}
 	}
@@ -616,11 +669,23 @@
 				"size" "814890B979AB4828B1C21D1D9A7511CE"
 				"download" "451C7FF2FE149B3EA9392FE17A4CBE36"
 			}
+			"native_test"
+			{
+				"gid" "FAF45D93A216FD47B27BEF22EFF842A8"
+				"size" "1D79F1B5DB19F1FEC07BE7AF1C2EAF11"
+				"download" "E1125C8115CD5575A3D6701BFFC0426C"
+			}
+			"new_wrapped"
+			{
+				"gid" "83B819203D31B9EF90647E6891C56BD0"
+				"size" "BB2CD0570C17DE9CAC888420D853363D"
+				"download" "739BAF51FC7664336C0BAA053D7227D9"
+			}
 			"valve_review"
 			{
-				"gid" "78AC2E7CD66513905A643BF49463B25E"
-				"size" "E83EB139BA3B2A610E0DDEC77E4D8BF9"
-				"download" "C66FE0C3798FBE4200EDE4CA2E134811"
+				"gid" "EE75A6C51D626CAE82BF3D7960A43DB5"
+				"size" "4082FADB485CFA75CBF8931E0026AB09"
+				"download" "42ACBAD852EF874FC572EFF1CD902625"
 			}
 		}
 	}
@@ -677,11 +742,23 @@
 				"size" "814890B979AB4828B1C21D1D9A7511CE"
 				"download" "451C7FF2FE149B3EA9392FE17A4CBE36"
 			}
+			"native_test"
+			{
+				"gid" "7514CF4F6DEBEAD0670D392859B7C93C"
+				"size" "7B3639726C4656F875EA9F005AF904D5"
+				"download" "3428029CE071E6FDCAA513964C5912CA"
+			}
+			"new_wrapped"
+			{
+				"gid" "394601CE2D43B1886A44BD609D6CE48C"
+				"size" "41E54D5356306A9E9624447AEC795482"
+				"download" "F7D3DD5508440EB025B4B148004CAA75"
+			}
 			"valve_review"
 			{
-				"gid" "E39B38255B7E6552FA19F5A2ED1BA537"
-				"size" "E83EB139BA3B2A610E0DDEC77E4D8BF9"
-				"download" "C66FE0C3798FBE4200EDE4CA2E134811"
+				"gid" "138B272958CE9313A528EE48F0AEE37F"
+				"size" "14EBDBA7766483A10C06C5FCEA8159A8"
+				"download" "AE9E16D21D71ADFB3E7AA7D6587E659C"
 			}
 		}
 	}
@@ -738,11 +815,23 @@
 				"size" "814890B979AB4828B1C21D1D9A7511CE"
 				"download" "451C7FF2FE149B3EA9392FE17A4CBE36"
 			}
+			"native_test"
+			{
+				"gid" "A07EFF2A970C39DC7E727D05687EB125"
+				"size" "48A69A2149CAF438AF4C9D896EE9ECD0"
+				"download" "CA4A7486BBECA939800EB273D74538F0"
+			}
+			"new_wrapped"
+			{
+				"gid" "459C2EE45D8BA26D59DB7739228ECDF3"
+				"size" "C15A958BE000FD5F21262BDE094F2404"
+				"download" "06DF32932D3143051A150A2A58D4B0EF"
+			}
 			"valve_review"
 			{
-				"gid" "A6C49E2CAF4C10EAEC6A47837529B42A"
-				"size" "E83EB139BA3B2A610E0DDEC77E4D8BF9"
-				"download" "C66FE0C3798FBE4200EDE4CA2E134811"
+				"gid" "67B0C8FE850CE0ADA63E25EC978D6562"
+				"size" "670947A9C9C96DEEA834F2254F23EC35"
+				"download" "44EEDD0C0A7640F2F70EF4460E8F223D"
 			}
 		}
 	}
@@ -799,11 +888,23 @@
 				"size" "814890B979AB4828B1C21D1D9A7511CE"
 				"download" "451C7FF2FE149B3EA9392FE17A4CBE36"
 			}
+			"native_test"
+			{
+				"gid" "8CBC2CD0A4128A093681EB53A4CBDE4F"
+				"size" "FD7E0020121A55EEC167EA8338C35EE6"
+				"download" "E6AB5B261AE92DBF7C3268084649CB1A"
+			}
+			"new_wrapped"
+			{
+				"gid" "BB4002F1D50338448BDDACA90432F85C"
+				"size" "1F005A622833CA1E1C95A1337D32C4BF"
+				"download" "100283D2F5E965284C7CB758C21D4861"
+			}
 			"valve_review"
 			{
-				"gid" "63C09E3A4AAD5376512C0B99396CE947"
-				"size" "E83EB139BA3B2A610E0DDEC77E4D8BF9"
-				"download" "C66FE0C3798FBE4200EDE4CA2E134811"
+				"gid" "84E436520E1DA64CA7369194B2EE3160"
+				"size" "7AF26D04C08666517A0AA9633016D9E9"
+				"download" "8E1BC4CB4B374E4606535FB2E9D71AE8"
 			}
 		}
 	}
@@ -860,11 +961,23 @@
 				"size" "814890B979AB4828B1C21D1D9A7511CE"
 				"download" "451C7FF2FE149B3EA9392FE17A4CBE36"
 			}
+			"native_test"
+			{
+				"gid" "1701DF20ACD1187A8DF25EA8096BE8E6"
+				"size" "E7D6BDCE5897D0E3E4585B451F554E37"
+				"download" "D6C23740546B1F3545C826DD73255800"
+			}
+			"new_wrapped"
+			{
+				"gid" "9B51DC5C9C5BAEB3D1C0376F9B815393"
+				"size" "92210F399C1BD54E8AE598F04DCE2949"
+				"download" "FF537AED46086F554EC66B18AF2342DF"
+			}
 			"valve_review"
 			{
-				"gid" "6FF0720DB2CB14A44401E4D397438130"
-				"size" "E83EB139BA3B2A610E0DDEC77E4D8BF9"
-				"download" "C66FE0C3798FBE4200EDE4CA2E134811"
+				"gid" "164544BA7B6C87BB12101BD5F4AEB996"
+				"size" "CF69F0966AB13DC9456DE8054CDAB3B9"
+				"download" "C6E9FD8FCD9A005ED4ACD0AAB0A03F29"
 			}
 		}
 	}
@@ -921,11 +1034,23 @@
 				"size" "814890B979AB4828B1C21D1D9A7511CE"
 				"download" "451C7FF2FE149B3EA9392FE17A4CBE36"
 			}
+			"native_test"
+			{
+				"gid" "93DDAF5E98050673A24933FD5A34DFF8"
+				"size" "3E43DC7442AB3CBFF87597A0A173D54E"
+				"download" "6CD37888F1E4AFBD35A494DF304D6848"
+			}
+			"new_wrapped"
+			{
+				"gid" "68133DE97F68447F96B43587D03AA273"
+				"size" "8954A4384BDD9A40BCDBAD3CD3E3463A"
+				"download" "7D5427EAC0C246DB2CD34AEE8E7F848E"
+			}
 			"valve_review"
 			{
-				"gid" "6CDB56C067104092D22DB7BA053229FC"
-				"size" "E83EB139BA3B2A610E0DDEC77E4D8BF9"
-				"download" "C66FE0C3798FBE4200EDE4CA2E134811"
+				"gid" "511BD7389B6B434275695FD31118CD72"
+				"size" "E042F09322890A7D3060FC1D1F790275"
+				"download" "64E045A939EA4C91EDD9DC393E30DD9B"
 			}
 		}
 	}
@@ -982,11 +1107,23 @@
 				"size" "814890B979AB4828B1C21D1D9A7511CE"
 				"download" "451C7FF2FE149B3EA9392FE17A4CBE36"
 			}
+			"native_test"
+			{
+				"gid" "02D7777003E45A406680769001743280"
+				"size" "3159ED175938288343B737649EAF57C4"
+				"download" "131E80A49A4F2EF26F1A3CDF79C5DDA2"
+			}
+			"new_wrapped"
+			{
+				"gid" "B7212FBFCC3D516A162151C1565BD598"
+				"size" "CD5A33559079E5718D4AB9EAC401F18A"
+				"download" "83819B463489142961C188F0571A75BA"
+			}
 			"valve_review"
 			{
-				"gid" "34791866B15A28A30221CE9B2D29F1A2"
-				"size" "E83EB139BA3B2A610E0DDEC77E4D8BF9"
-				"download" "C66FE0C3798FBE4200EDE4CA2E134811"
+				"gid" "7DF4C9EB73DE4B8DEBAB834986E7170C"
+				"size" "CD24341D260B232903B85BDF6E868636"
+				"download" "13BDA8C13CAF03231556D1687704522C"
 			}
 		}
 	}
@@ -1043,11 +1180,23 @@
 				"size" "814890B979AB4828B1C21D1D9A7511CE"
 				"download" "451C7FF2FE149B3EA9392FE17A4CBE36"
 			}
+			"native_test"
+			{
+				"gid" "765F44B578640EC65475C32205E5927F"
+				"size" "58DC5124289B62F76F1D0DBA4848052B"
+				"download" "12A1F9F70481A69A03973C4334F22E0E"
+			}
+			"new_wrapped"
+			{
+				"gid" "565FF972A36FD171BABFA5AE6AD06C8D"
+				"size" "2799ADE24648D65F1375DFB010D4B48D"
+				"download" "807BB8E412B0736616BAE8D00D7A6690"
+			}
 			"valve_review"
 			{
-				"gid" "2E9088892D8C62D6299A11C40064FB1E"
-				"size" "E83EB139BA3B2A610E0DDEC77E4D8BF9"
-				"download" "C66FE0C3798FBE4200EDE4CA2E134811"
+				"gid" "1AF741075C0B823AA7E259F2CD4A1132"
+				"size" "A1717718B477BA1E1AC2A2054246B55F"
+				"download" "103BAFC8CFD968B82F3711F04B9EC463"
 			}
 		}
 	}
@@ -1104,11 +1253,23 @@
 				"size" "814890B979AB4828B1C21D1D9A7511CE"
 				"download" "451C7FF2FE149B3EA9392FE17A4CBE36"
 			}
+			"native_test"
+			{
+				"gid" "F0AB350B7CF09B091A7A896DF702EF84"
+				"size" "8107A7671B5A94A3000DF7203F852D8A"
+				"download" "AD942A1961CD9124094C18F8BFE1E4D0"
+			}
+			"new_wrapped"
+			{
+				"gid" "5F63F9B0B9D6B2C16D152B08DD518E90"
+				"size" "3CE75092A67BA0A2E6D49B9E5CE0B42B"
+				"download" "738AA89AD9CF9703B1C5F7BD417F833E"
+			}
 			"valve_review"
 			{
-				"gid" "E099A398CDACFBC35BEECC7E70D23C2C"
-				"size" "E83EB139BA3B2A610E0DDEC77E4D8BF9"
-				"download" "C66FE0C3798FBE4200EDE4CA2E134811"
+				"gid" "514BD444E87D96F4C98CB32FE16F54C1"
+				"size" "2408536FF7A3EEE7515372BEEB33D171"
+				"download" "2D88305C8E0EBCE69E313ACD8AE10CAC"
 			}
 		}
 	}
@@ -1116,8 +1277,8 @@
 	{
 		"public"
 		{
-			"buildid" "10350944"
-			"timeupdated" "1674648335"
+			"buildid" "14256138"
+			"timeupdated" "1716998680"
 		}
 		"debug"
 		{
@@ -1155,20 +1316,30 @@
 			"pwdrequired" "1"
 			"timeupdated" "1613572317"
 		}
+		"native_test"
+		{
+			"buildid" "14256138"
+			"pwdrequired" "1"
+			"timeupdated" "1714743995"
+		}
+		"new_wrapped"
+		{
+			"buildid" "14256243"
+			"pwdrequired" "1"
+			"timeupdated" "1714744528"
+		}
 		"valve_review"
 		{
-			"buildid" "6249297"
+			"buildid" "14256138"
 			"pwdrequired" "1"
-			"timeupdated" "1614722709"
+			"timeupdated" "1715089502"
 		}
 	}
 }
 "ufs"
 {
-	"quota" "100000000000"
+	"quota" "10000000000"
 	"maxnumfiles" "10000"
-	"hidecloudui" "1"
-	"ignoreexternalfiles" "1"
 	"savefiles"
 	{
 		"0"
@@ -1185,7 +1356,601 @@
 		}
 	}
 }
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#mainmenu" "Main Menu"
+				"#onlinelobby" "Online Lobby"
+				"#ingamechapter" "Chapter: {#%currentchapter%}"
+				"#ingamechapter_cody" "Playing as Cody: {#%currentchapter%}"
+				"#ingamechapter_may" "Playing as May: {#%currentchapter%}"
+				"#chapter_unknown" "In-Game"
+				"#chapter_intro" "Intro"
+				"#chapter_wakeupcall" "Wake-up Call"
+				"#chapter_bitingthedust" "Biting the Dust"
+				"#chapter_thedepths" "The Depths"
+				"#chapter_wiredup" "Wired Up"
+				"#chapter_freshair" "Fresh Air"
+				"#chapter_captured" "Captured"
+				"#chapter_deeplyrooted" "Deeply Rooted"
+				"#chapter_extermination" "Extermination"
+				"#chapter_getaway" "Getaway"
+				"#chapter_pillowfort" "Pillow Fort"
+				"#chapter_spacedout" "Spaced Out"
+				"#chapter_hopscotch" "Hopscotch"
+				"#chapter_trainstation" "Train Station"
+				"#chapter_dinoland" "Dino Land"
+				"#chapter_piratesahoy" "Pirates Ahoy"
+				"#chapter_thegreatestshow" "The Greatest Show"
+				"#chapter_onceuponatime" "Once Upon a Time"
+				"#chapter_dungeoncrawler" "Dungeon Crawler"
+				"#chapter_thequeen" "The Queen"
+				"#chapter_gatesoftime" "Gates of Time"
+				"#chapter_clockworks" "Clockworks"
+				"#chapter_ablastfromthepast" "A Blast from the Past"
+				"#chapter_warmingup" "Warming Up"
+				"#chapter_wintervillage" "Winter Vilalge"
+				"#chapter_beneaththeice" "Beneath the Ice"
+				"#chapter_slipperyslopes" "Slippery Slopes"
+				"#chapter_greenfingers" "Green Fingers"
+				"#chapter_weedwhacking" "Weed Whacking"
+				"#chapter_trespassing" "Trespassing"
+				"#chapter_frogpond" "Frog Pond"
+				"#chapter_affliction" "Affliction"
+				"#chapter_settingthestage" "Setting the Stage"
+				"#chapter_rehearsal" "Rehearsal"
+				"#chapter_symphony" "Symphony"
+				"#chapter_turnup" "Turn Up"
+				"#chapter_agrandfinale" "A Grand Finale"
+			}
+		}
+		"brazilian"
+		{
+			"tokens"
+			{
+				"#mainmenu" "Menu principal"
+				"#onlinelobby" "Lobby online"
+				"#ingamechapter" "Capítulo: {#%currentchapter%}"
+				"#ingamechapter_cody" "Jogando como Cody: {#%currentchapter%}"
+				"#ingamechapter_may" "Jogando como May: {#%currentchapter%}"
+				"#chapter_unknown" "No jogo"
+				"#chapter_intro" "Introdução"
+				"#chapter_wakeupcall" "Despertar"
+				"#chapter_bitingthedust" "Batendo as botas"
+				"#chapter_thedepths" "As profundezas"
+				"#chapter_wiredup" "Ligados"
+				"#chapter_freshair" "Ar fresco"
+				"#chapter_captured" "Capturados"
+				"#chapter_deeplyrooted" "Raízes profundas"
+				"#chapter_extermination" "Extermínio"
+				"#chapter_getaway" "A fuga"
+				"#chapter_pillowfort" "Cabaninha de almofadas"
+				"#chapter_spacedout" "Perdidos no espaço"
+				"#chapter_hopscotch" "Amarelinha"
+				"#chapter_trainstation" "Estação de trem"
+				"#chapter_dinoland" "Dinolândia"
+				"#chapter_piratesahoy" "Os piratas"
+				"#chapter_thegreatestshow" "O grande espetáculo"
+				"#chapter_onceuponatime" "Era uma vez"
+				"#chapter_dungeoncrawler" "Prisioneiros da magia"
+				"#chapter_thequeen" "A Rainha"
+				"#chapter_gatesoftime" "Portões do tempo"
+				"#chapter_clockworks" "Engrenagens"
+				"#chapter_ablastfromthepast" "Um estouro do passado"
+				"#chapter_warmingup" "Aquecendo"
+				"#chapter_wintervillage" "Aldeia de inverno"
+				"#chapter_beneaththeice" "Sob o gelo"
+				"#chapter_slipperyslopes" "Escorregadios"
+				"#chapter_greenfingers" "Dedos verdes"
+				"#chapter_weedwhacking" "Capinagem"
+				"#chapter_trespassing" "Invasão"
+				"#chapter_frogpond" "Lagoa dos sapos"
+				"#chapter_affliction" "Sofrimento"
+				"#chapter_settingthestage" "Preparando o palco"
+				"#chapter_rehearsal" "Ensaio"
+				"#chapter_symphony" "Sinfonia"
+				"#chapter_turnup" "A virada"
+				"#chapter_agrandfinale" "O grande final"
+			}
+		}
+		"french"
+		{
+			"tokens"
+			{
+				"#mainmenu" "Menu principal"
+				"#onlinelobby" "Salon en ligne"
+				"#ingamechapter" "Chapitre : {#%currentchapter%}"
+				"#ingamechapter_cody" "Jouer en tant que Cody : {#%currentchapter%}"
+				"#ingamechapter_may" "Jouer en tant que May : {#%currentchapter%}"
+				"#chapter_unknown" "En jeu"
+				"#chapter_intro" "Introduction"
+				"#chapter_wakeupcall" "Électrochoc"
+				"#chapter_bitingthedust" "Mordre la poussière"
+				"#chapter_thedepths" "Les profondeurs"
+				"#chapter_wiredup" "Électrisés"
+				"#chapter_freshair" "De l\'air !"
+				"#chapter_captured" "Emprisonnés"
+				"#chapter_deeplyrooted" "Racines profondes"
+				"#chapter_extermination" "Extermination"
+				"#chapter_getaway" "Évasion explosive"
+				"#chapter_pillowfort" "Le château d\'oreillers"
+				"#chapter_spacedout" "Dans l\'espace"
+				"#chapter_hopscotch" "La marelle"
+				"#chapter_trainstation" "La gare"
+				"#chapter_dinoland" "Dino Land"
+				"#chapter_piratesahoy" "À l\'abordage !"
+				"#chapter_thegreatestshow" "Le grand chapiteau"
+				"#chapter_onceuponatime" "Il était une fois"
+				"#chapter_dungeoncrawler" "Donjons et donjons"
+				"#chapter_thequeen" "La reine"
+				"#chapter_gatesoftime" "Les portes du temps"
+				"#chapter_clockworks" "Engrenages"
+				"#chapter_ablastfromthepast" "Piqûre de rappel"
+				"#chapter_warmingup" "Échauffement"
+				"#chapter_wintervillage" "La station de ski"
+				"#chapter_beneaththeice" "Sous la glace"
+				"#chapter_slipperyslopes" "À fond la glisse"
+				"#chapter_greenfingers" "La main verte"
+				"#chapter_weedwhacking" "Désherbage"
+				"#chapter_trespassing" "Défense d\'entrer"
+				"#chapter_frogpond" "L\'étang aux grenouilles"
+				"#chapter_affliction" "Affliction"
+				"#chapter_settingthestage" "Préparatifs"
+				"#chapter_rehearsal" "La répétition"
+				"#chapter_symphony" "Symphonie"
+				"#chapter_turnup" "Surprise"
+				"#chapter_agrandfinale" "Bouquet final"
+			}
+		}
+		"german"
+		{
+			"tokens"
+			{
+				"#mainmenu" "Hauptmenü"
+				"#onlinelobby" "Online-Lobby"
+				"#ingamechapter" "Kapitel: {#%currentchapter%}"
+				"#ingamechapter_cody" "Spielt als Cody: {#%currentchapter%}"
+				"#ingamechapter_may" "Spielt als May: {#%currentchapter%}"
+				"#chapter_unknown" "Im Spiel"
+				"#chapter_intro" "Intro"
+				"#chapter_wakeupcall" "Weckruf"
+				"#chapter_bitingthedust" "Staub aufwirbeln"
+				"#chapter_thedepths" "Die Tiefen"
+				"#chapter_wiredup" "Verkabelt"
+				"#chapter_freshair" "Frischluft"
+				"#chapter_captured" "Gefangen"
+				"#chapter_deeplyrooted" "Tief verwurzelt"
+				"#chapter_extermination" "Vernichtung"
+				"#chapter_getaway" "Die große Flucht"
+				"#chapter_pillowfort" "Kissenburg"
+				"#chapter_spacedout" "Abgespaced"
+				"#chapter_hopscotch" "Hüpfspiel"
+				"#chapter_trainstation" "Bahnhof"
+				"#chapter_dinoland" "Dinoland"
+				"#chapter_piratesahoy" "Piraten ahoi!"
+				"#chapter_thegreatestshow" "Die größte Show"
+				"#chapter_onceuponatime" "Es war einmal"
+				"#chapter_dungeoncrawler" "Dungeon Crawler"
+				"#chapter_thequeen" "Die Königin"
+				"#chapter_gatesoftime" "Die Tore der Zeit"
+				"#chapter_clockworks" "Uhrwerke"
+				"#chapter_ablastfromthepast" "Hauch der Vergangenheit"
+				"#chapter_warmingup" "Aufwärmrunde"
+				"#chapter_wintervillage" "Winterdorf"
+				"#chapter_beneaththeice" "Unter dem Eis"
+				"#chapter_slipperyslopes" "Achtung Abhang"
+				"#chapter_greenfingers" "Grüne Daumen"
+				"#chapter_weedwhacking" "Unkrauthacker"
+				"#chapter_trespassing" "Hausfriedensbruch"
+				"#chapter_frogpond" "Froschteich"
+				"#chapter_affliction" "Infektion"
+				"#chapter_settingthestage" "Bühnentechniker"
+				"#chapter_rehearsal" "Probe"
+				"#chapter_symphony" "Symphonie"
+				"#chapter_turnup" "Aufgedreht"
+				"#chapter_agrandfinale" "Das große Finale"
+			}
+		}
+		"italian"
+		{
+			"tokens"
+			{
+				"#mainmenu" "Menu principale"
+				"#onlinelobby" "Lobby online"
+				"#ingamechapter" "Capitolo: {#%currentchapter%}"
+				"#ingamechapter_cody" "Utilizzando Cody: {#%currentchapter%}"
+				"#ingamechapter_may" "Utilizzando May: {#%currentchapter%}"
+				"#chapter_unknown" "In gioco"
+				"#chapter_intro" "Introduzione"
+				"#chapter_wakeupcall" "Campanello d\'allarme"
+				"#chapter_bitingthedust" "Mangiare la polvere"
+				"#chapter_thedepths" "Gli abissi"
+				"#chapter_wiredup" "Elettrizzati"
+				"#chapter_freshair" "Aria fresca"
+				"#chapter_captured" "In trappola"
+				"#chapter_deeplyrooted" "Radici profonde"
+				"#chapter_extermination" "Insetticidio"
+				"#chapter_getaway" "La fuga"
+				"#chapter_pillowfort" "Fortino di cuscini"
+				"#chapter_spacedout" "In orbita"
+				"#chapter_hopscotch" "Un gioco da ragazzi"
+				"#chapter_trainstation" "Stazione"
+				"#chapter_dinoland" "Terra dei dinosauri"
+				"#chapter_piratesahoy" "Pirati a dritta"
+				"#chapter_thegreatestshow" "Il grande spettacolo"
+				"#chapter_onceuponatime" "C\'era una volta"
+				"#chapter_dungeoncrawler" "Creature del sottosuolo"
+				"#chapter_thequeen" "La regina"
+				"#chapter_gatesoftime" "I cancelli del tempo"
+				"#chapter_clockworks" "Ingranaggi"
+				"#chapter_ablastfromthepast" "Un tuffo nel passato"
+				"#chapter_warmingup" "Riscaldamento"
+				"#chapter_wintervillage" "Villaggio invernale"
+				"#chapter_beneaththeice" "Sotto il ghiaccio"
+				"#chapter_slipperyslopes" "Piste scivolose"
+				"#chapter_greenfingers" "Pollice verde"
+				"#chapter_weedwhacking" "Disinfestazione"
+				"#chapter_trespassing" "Intrusi"
+				"#chapter_frogpond" "Stagno delle rane"
+				"#chapter_affliction" "Spine"
+				"#chapter_settingthestage" "Preparazione del palco"
+				"#chapter_rehearsal" "Prove"
+				"#chapter_symphony" "Sinfonia"
+				"#chapter_turnup" "Tutto esaurito"
+				"#chapter_agrandfinale" "Gran finale"
+			}
+		}
+		"japanese"
+		{
+			"tokens"
+			{
+				"#mainmenu" "メインメニュー"
+				"#onlinelobby" "オンラインロビー"
+				"#ingamechapter" "チャプター：{#%currentchapter%}"
+				"#ingamechapter_cody" "コーディとしてプレイ：{#%currentchapter%}"
+				"#ingamechapter_may" "メイとしてプレイ：{#%currentchapter%}"
+				"#chapter_unknown" "ゲーム内"
+				"#chapter_intro" "イントロ"
+				"#chapter_wakeupcall" "目覚め"
+				"#chapter_bitingthedust" "壊れもの"
+				"#chapter_thedepths" "深み"
+				"#chapter_wiredup" "線をつないで"
+				"#chapter_freshair" "新鮮な空気"
+				"#chapter_captured" "捕らわれの身"
+				"#chapter_deeplyrooted" "根深いもの"
+				"#chapter_extermination" "害虫駆除"
+				"#chapter_getaway" "逃走劇"
+				"#chapter_pillowfort" "枕の砦"
+				"#chapter_spacedout" "宇宙へ"
+				"#chapter_hopscotch" "けんけん遊び"
+				"#chapter_trainstation" "鉄道駅"
+				"#chapter_dinoland" "恐竜ランド"
+				"#chapter_piratesahoy" "海賊の流儀"
+				"#chapter_thegreatestshow" "史上最高のショー"
+				"#chapter_onceuponatime" "むかしむかし"
+				"#chapter_dungeoncrawler" "ダンジョン探検"
+				"#chapter_thequeen" "女王"
+				"#chapter_gatesoftime" "時のゲート"
+				"#chapter_clockworks" "時計仕掛け"
+				"#chapter_ablastfromthepast" "時を直して"
+				"#chapter_warmingup" "ウォームアップ"
+				"#chapter_wintervillage" "冬の町"
+				"#chapter_beneaththeice" "氷の下"
+				"#chapter_slipperyslopes" "氷の丘"
+				"#chapter_greenfingers" "園芸の才"
+				"#chapter_weedwhacking" "雑草退治"
+				"#chapter_trespassing" "招かれざるもの"
+				"#chapter_frogpond" "カエルの池"
+				"#chapter_affliction" "悩みの種"
+				"#chapter_settingthestage" "ステージ設営"
+				"#chapter_rehearsal" "リハーサル"
+				"#chapter_symphony" "シンフォニー"
+				"#chapter_turnup" "気分上々"
+				"#chapter_agrandfinale" "グランドフィナーレ"
+			}
+		}
+		"polish"
+		{
+			"tokens"
+			{
+				"#mainmenu" "Menu główne"
+				"#onlinelobby" "Lobby online"
+				"#ingamechapter" "Rozdział: {#%currentchapter%}"
+				"#ingamechapter_cody" "Gra jako Cody: {#%currentchapter%}"
+				"#ingamechapter_may" "Gra jako May: {#%currentchapter%}"
+				"#chapter_unknown" "W grze"
+				"#chapter_intro" "Wprowadzenie"
+				"#chapter_wakeupcall" "Pobudka"
+				"#chapter_bitingthedust" "Gryzienie gleby"
+				"#chapter_thedepths" "Głębiny"
+				"#chapter_wiredup" "Okablowani"
+				"#chapter_freshair" "Świeże powietrze"
+				"#chapter_captured" "Pojmanie"
+				"#chapter_deeplyrooted" "Głębokie korzenie"
+				"#chapter_extermination" "Eksterminacja"
+				"#chapter_getaway" "Ucieczka"
+				"#chapter_pillowfort" "Fort z poduszek"
+				"#chapter_spacedout" "W obłokach"
+				"#chapter_hopscotch" "Gra w klasy"
+				"#chapter_trainstation" "Stacja kolejowa"
+				"#chapter_dinoland" "Kraina dinozaurów"
+				"#chapter_piratesahoy" "Piraci!"
+				"#chapter_thegreatestshow" "Najwspanialsze przedstawienie"
+				"#chapter_onceuponatime" "Dawno, dawno temu…"
+				"#chapter_dungeoncrawler" "Podróże po lochach"
+				"#chapter_thequeen" "Królowa"
+				"#chapter_gatesoftime" "Bramy czasu"
+				"#chapter_clockworks" "Mechanizmy zegarowe"
+				"#chapter_ablastfromthepast" "Powiew przeszłości"
+				"#chapter_warmingup" "Rozgrzewka"
+				"#chapter_wintervillage" "Zimowa wioska"
+				"#chapter_beneaththeice" "Pod lodem"
+				"#chapter_slipperyslopes" "Równia pochyła"
+				"#chapter_greenfingers" "Zielone kciuki"
+				"#chapter_weedwhacking" "Plewienie chwastów"
+				"#chapter_trespassing" "Wtargnięcie"
+				"#chapter_frogpond" "Żabi staw"
+				"#chapter_affliction" "Nieszczęście"
+				"#chapter_settingthestage" "Przygotowanie sceny"
+				"#chapter_rehearsal" "Próba"
+				"#chapter_symphony" "Symfonia"
+				"#chapter_turnup" "Podkręcenie"
+				"#chapter_agrandfinale" "Wielki finał"
+			}
+		}
+		"russian"
+		{
+			"tokens"
+			{
+				"#mainmenu" "Главное меню"
+				"#onlinelobby" "Онлайн лобби"
+				"#ingamechapter" "Глава: {#%currentchapter%}"
+				"#ingamechapter_cody" "Играет за Коди: {#%currentchapter%}"
+				"#ingamechapter_may" "Играет за Мэй: {#%currentchapter%}"
+				"#chapter_unknown" "В игре"
+				"#chapter_intro" "Вступление"
+				"#chapter_wakeupcall" "Пробуждение"
+				"#chapter_bitingthedust" "Пыльное дело"
+				"#chapter_thedepths" "Подполье"
+				"#chapter_wiredup" "Под напряжением"
+				"#chapter_freshair" "Свежий воздух"
+				"#chapter_captured" "В плену"
+				"#chapter_deeplyrooted" "Пустив корни"
+				"#chapter_extermination" "Ликвидация"
+				"#chapter_getaway" "Побег"
+				"#chapter_pillowfort" "Крепость из подушек"
+				"#chapter_spacedout" "На млечном пути"
+				"#chapter_hopscotch" "Классики"
+				"#chapter_trainstation" "Железнодорожная станция"
+				"#chapter_dinoland" "Динозаврия"
+				"#chapter_piratesahoy" "Пираты на палубе"
+				"#chapter_thegreatestshow" "Главное представление"
+				"#chapter_onceuponatime" "В далёком царстве"
+				"#chapter_dungeoncrawler" "Обитатели подземелий"
+				"#chapter_thequeen" "Королева"
+				"#chapter_gatesoftime" "Врата времени"
+				"#chapter_clockworks" "Часовые механизмы"
+				"#chapter_ablastfromthepast" "Отголоски прошлого"
+				"#chapter_warmingup" "Лёд тронулся"
+				"#chapter_wintervillage" "Зимняя деревня"
+				"#chapter_beneaththeice" "Под покровом льда"
+				"#chapter_slipperyslopes" "Скользкие склоны"
+				"#chapter_greenfingers" "Умелый огородник"
+				"#chapter_weedwhacking" "Прополка сорняков"
+				"#chapter_trespassing" "На чужой территории"
+				"#chapter_frogpond" "Лягушачий пруд"
+				"#chapter_affliction" "Долой инфекцию"
+				"#chapter_settingthestage" "Подготовка сцены"
+				"#chapter_rehearsal" "Репетиция"
+				"#chapter_symphony" "Симфония"
+				"#chapter_turnup" "Все на танцпол"
+				"#chapter_agrandfinale" "Большой финал"
+			}
+		}
+		"spanish"
+		{
+			"tokens"
+			{
+				"#mainmenu" "Menú principal"
+				"#onlinelobby" "Sala en línea"
+				"#ingamechapter" "Capítulo: {#%currentchapter%}"
+				"#ingamechapter_cody" "Jugando como Cody: {#%currentchapter%}"
+				"#ingamechapter_may" "Jugando como May: {#%currentchapter%}"
+				"#chapter_unknown" "En el juego"
+				"#chapter_intro" "Introducción"
+				"#chapter_wakeupcall" "Llamada de atención"
+				"#chapter_bitingthedust" "Mordiendo el polvo"
+				"#chapter_thedepths" "Las profundidades"
+				"#chapter_wiredup" "Enchufados"
+				"#chapter_freshair" "Aire fresco"
+				"#chapter_captured" "Capturados"
+				"#chapter_deeplyrooted" "Raíces profundas"
+				"#chapter_extermination" "Exterminio"
+				"#chapter_getaway" "Huida"
+				"#chapter_pillowfort" "Fuerte de cojines"
+				"#chapter_spacedout" "En órbita"
+				"#chapter_hopscotch" "Rayuela"
+				"#chapter_trainstation" "Estación de tren"
+				"#chapter_dinoland" "Dinolandia"
+				"#chapter_piratesahoy" "Piratas a la vista"
+				"#chapter_thegreatestshow" "El mayor espectáculo"
+				"#chapter_onceuponatime" "Érase una vez"
+				"#chapter_dungeoncrawler" "Explorando mazmorras"
+				"#chapter_thequeen" "La Reina"
+				"#chapter_gatesoftime" "Puertas del tiempo"
+				"#chapter_clockworks" "Relojería"
+				"#chapter_ablastfromthepast" "Retorno al pasado"
+				"#chapter_warmingup" "Calentamiento"
+				"#chapter_wintervillage" "Pueblo invernal"
+				"#chapter_beneaththeice" "Bajo el hielo"
+				"#chapter_slipperyslopes" "Laderas escurridizas"
+				"#chapter_greenfingers" "Jardinería"
+				"#chapter_weedwhacking" "Adiós malas hierbas"
+				"#chapter_trespassing" "Intrusión"
+				"#chapter_frogpond" "Estanque de ranas"
+				"#chapter_affliction" "Aflicción"
+				"#chapter_settingthestage" "Preparando el escenario"
+				"#chapter_rehearsal" "Ensayo"
+				"#chapter_symphony" "Sinfonía"
+				"#chapter_turnup" "Subiendo el volumen"
+				"#chapter_agrandfinale" "Gran final"
+			}
+		}
+		"schinese"
+		{
+			"tokens"
+			{
+				"#mainmenu" "主菜单"
+				"#onlinelobby" "在线大厅"
+				"#ingamechapter" "章节：{#%currentchapter%}"
+				"#ingamechapter_cody" "扮演科迪：{#%currentchapter%}"
+				"#ingamechapter_may" "扮演小梅：{#%currentchapter%}"
+				"#chapter_unknown" "游戏中"
+				"#chapter_intro" "序章"
+				"#chapter_wakeupcall" "当头一棒"
+				"#chapter_bitingthedust" "奄奄一息"
+				"#chapter_thedepths" "万丈深渊"
+				"#chapter_wiredup" "接通电源"
+				"#chapter_freshair" "新鲜空气"
+				"#chapter_captured" "捕获俘虏"
+				"#chapter_deeplyrooted" "根深蒂固"
+				"#chapter_extermination" "赶尽杀绝"
+				"#chapter_getaway" "远离尘嚣"
+				"#chapter_pillowfort" "枕头堡垒"
+				"#chapter_spacedout" "太空之旅"
+				"#chapter_hopscotch" "跳房子"
+				"#chapter_trainstation" "火车站"
+				"#chapter_dinoland" "恐龙乐园"
+				"#chapter_piratesahoy" "海盗的问候"
+				"#chapter_thegreatestshow" "绝世表演"
+				"#chapter_onceuponatime" "很久很久以前"
+				"#chapter_dungeoncrawler" "地牢探险家"
+				"#chapter_thequeen" "女王"
+				"#chapter_gatesoftime" "时间之门"
+				"#chapter_clockworks" "钟表发条"
+				"#chapter_ablastfromthepast" "陈年往事"
+				"#chapter_warmingup" "热身运动"
+				"#chapter_wintervillage" "冬日小镇"
+				"#chapter_beneaththeice" "冰下世界"
+				"#chapter_slipperyslopes" "滑溜斜坡"
+				"#chapter_greenfingers" "园艺大师"
+				"#chapter_weedwhacking" "斩草除根"
+				"#chapter_trespassing" "擅闯禁地"
+				"#chapter_frogpond" "青蛙池塘"
+				"#chapter_affliction" "苦痛折磨"
+				"#chapter_settingthestage" "布置舞台"
+				"#chapter_rehearsal" "演练彩排"
+				"#chapter_symphony" "交响乐章"
+				"#chapter_turnup" "闪亮登场"
+				"#chapter_agrandfinale" "大结局"
+			}
+		}
+		"tchinese"
+		{
+			"tokens"
+			{
+				"#mainmenu" "主選單"
+				"#onlinelobby" "線上大廳"
+				"#ingamechapter" "章節：{#%currentchapter%}"
+				"#ingamechapter_cody" "扮演科迪：{#%currentchapter%}"
+				"#ingamechapter_may" "扮演小梅：{#%currentchapter%}"
+				"#chapter_unknown" "遊戲中"
+				"#chapter_intro" "序章"
+				"#chapter_wakeupcall" "當頭棒喝"
+				"#chapter_bitingthedust" "吸食灰塵"
+				"#chapter_thedepths" "深淵"
+				"#chapter_wiredup" "接通電源"
+				"#chapter_freshair" "新鮮空氣"
+				"#chapter_captured" "捕獲俘虜"
+				"#chapter_deeplyrooted" "根深蒂固"
+				"#chapter_extermination" "趕盡殺絕"
+				"#chapter_getaway" "遠離塵囂"
+				"#chapter_pillowfort" "枕頭城堡"
+				"#chapter_spacedout" "飛出外太空"
+				"#chapter_hopscotch" "跳房子"
+				"#chapter_trainstation" "火車站"
+				"#chapter_dinoland" "恐龍樂園"
+				"#chapter_piratesahoy" "海盜天地"
+				"#chapter_thegreatestshow" "絕世表演"
+				"#chapter_onceuponatime" "很久從前"
+				"#chapter_dungeoncrawler" "地牢探險家"
+				"#chapter_thequeen" "皇后"
+				"#chapter_gatesoftime" "時間之門"
+				"#chapter_clockworks" "時鐘機關"
+				"#chapter_ablastfromthepast" "喚醒回憶"
+				"#chapter_warmingup" "熱身運動"
+				"#chapter_wintervillage" "冬季小鎮"
+				"#chapter_beneaththeice" "冰層之下"
+				"#chapter_slipperyslopes" "滑溜斜坡"
+				"#chapter_greenfingers" "園藝高手"
+				"#chapter_weedwhacking" "斬草除根"
+				"#chapter_trespassing" "擅闖禁地"
+				"#chapter_frogpond" "青蛙池塘"
+				"#chapter_affliction" "苦痛折磨"
+				"#chapter_settingthestage" "舞台佈置"
+				"#chapter_rehearsal" "演練彩排"
+				"#chapter_symphony" "交響樂曲"
+				"#chapter_turnup" "現身到場"
+				"#chapter_agrandfinale" "大結局"
+			}
+		}
+		"koreana"
+		{
+			"tokens"
+			{
+				"#mainmenu" "메인 메뉴"
+				"#onlinelobby" "온라인 로비"
+				"#ingamechapter" "챕터: {#%currentchapter%}"
+				"#ingamechapter_cody" "코디로 플레이: {#%currentchapter%}"
+				"#ingamechapter_may" "메이로 플레이: {#%currentchapter%}"
+				"#chapter_unknown" "플레이 중"
+				"#chapter_intro" "인트로"
+				"#chapter_wakeupcall" "모험의 시작"
+				"#chapter_bitingthedust" "먼지투성이"
+				"#chapter_thedepths" "저 깊숙이"
+				"#chapter_wiredup" "전선 연결"
+				"#chapter_freshair" "상쾌한 공기"
+				"#chapter_captured" "포로"
+				"#chapter_deeplyrooted" "깊게 뿌리내린 나무"
+				"#chapter_extermination" "박멸"
+				"#chapter_getaway" "탈출"
+				"#chapter_pillowfort" "베개 요새"
+				"#chapter_spacedout" "우주로"
+				"#chapter_hopscotch" "땅따먹기"
+				"#chapter_trainstation" "기차역"
+				"#chapter_dinoland" "공룡 랜드"
+				"#chapter_piratesahoy" "해적이다!"
+				"#chapter_thegreatestshow" "가장 위대한 쇼"
+				"#chapter_onceuponatime" "옛날 옛적에"
+				"#chapter_dungeoncrawler" "던전 탐험가"
+				"#chapter_thequeen" "여왕"
+				"#chapter_gatesoftime" "시간의 문"
+				"#chapter_clockworks" "시계 태엽"
+				"#chapter_ablastfromthepast" "과거의 폭풍"
+				"#chapter_warmingup" "워밍업"
+				"#chapter_wintervillage" "겨울 마을"
+				"#chapter_beneaththeice" "얼음 밑에서"
+				"#chapter_slipperyslopes" "미끄러운 언덕"
+				"#chapter_greenfingers" "원예가"
+				"#chapter_weedwhacking" "잡초 제거"
+				"#chapter_trespassing" "무단 침입"
+				"#chapter_frogpond" "개구리 연못"
+				"#chapter_affliction" "시련"
+				"#chapter_settingthestage" "무대 준비"
+				"#chapter_rehearsal" "리허설"
+				"#chapter_symphony" "교향곡"
+				"#chapter_turnup" "턴 업"
+				"#chapter_agrandfinale" "그랜드 피날레"
+			}
+		}
+	}
+}
 "_missing_token" "False"
-"_change_number" "21714726"
-"_sha" "cb293f6bef14cb664d51adb3dd5b0c687fbf89bd"
-"_size" "26611"
+"_change_number" "23743347"
+"_sha" "eadc410102261b7957474c373e3d4d15e398e249"
+"_size" "56059"
