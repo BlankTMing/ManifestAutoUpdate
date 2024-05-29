@@ -1,25 +1,19 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-05-29 08:45:06
+## 更新时间：2024-05-29 16:13:09
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 578080 | PUBG: BATTLEGROUNDS| Game |
 | 2239150 | Thronefall| Game |
-| 985830 | SUCCUBUS| Game |
-| 623990 | Tom Clancy's Rainbow Six Siege - Test Server| Game |
-| 570 | Dota 2| game |
-| 824270 | KovaaK's| Game |
-| 1222670 | The Sims™ 4| Game |
-| 768200 | 小小世界: 原野求生| Game |
-| 808040 | Smalland: Survive the Wilds - Dedicated Server| Tool |
-| 591460 | 恐龙乐园| Game |
-| 763890 | 漫野奇谭| Game |
-| 960090 | Bloons TD 6| Game |
-| 245170 | Skullgirls 2nd Encore| Game |
-| 1718570 | 神之天平（ASTLIBRA Revision）| Game |
-| 2553050 | 房屋中介模拟| Game |
-| 1190970 | 房产达人 2| Game |
-| 1733670 | Astria Ascending - The Art Of Astria Ascending| DLC |
-| 1601740 | 死亡教堂| Game |
-| 1079800 | Pistol Whip| Game |
-| 700030 | Life is Feudal: MMO| Game |
+| 2273170 | 盖娅迷航| Game |
+| 700580 | Rust - Staging Branch| Game |
+| 1599340 | Lost Ark| Game |
+| 2093910 | 时行者：黑暗世界| Game |
+| 1455910 | 领地：种田与征战| Game |
+| 1020790 | NARUTO X BORUTO 火影忍者 终极风暴羁绊| Game |
+| 2669360 | 神之天平外传：幻雾之洞窟| DLC |
+| 1101120 | 枪 匠 模拟器| Game |
+| 1121780 | 星位继承者| Game |
+| 770810 | 可口的披萨，美味的披萨| Game |
+| 1272080 | PAYDAY3 (收获日3)  | Game |
+| 625340 | XERA: Survival| Game |
+| 485450 | Ninja Stealth| Game |
