@@ -12,15 +12,20 @@
 		"schinese" "满庭芳：宋上繁华"
 		"sc_schinese" "满庭芳：宋上繁华"
 	}
-	"oslist" "windows"
+	"oslist" "windows,macos"
 	"osarch" "64"
-	"osextended" ""
+	"osextended" "macos64,macosapplesilicon,macosnotarized"
 	"releasestatesteamchina" "prerelease"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+	}
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1684972800"
-		"tested_build_id" "11075980"
+		"test_timestamp" "1712188800"
+		"tested_build_id" "13855024"
 		"tests"
 		{
 			"0"
@@ -51,7 +56,7 @@
 		}
 		"configuration"
 		{
-			"supported_input" "other"
+			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "1"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
@@ -59,11 +64,14 @@
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-8.0-1"
+			"recommended_runtime" "proton-9.0-1RC"
 			"requires_h264" "1"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
+	"controllertagwizard" "1"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -88,7 +96,7 @@
 			"height_pct" "67.36199647361997"
 		}
 	}
-	"store_asset_mtime" "1707276785"
+	"store_asset_mtime" "1717034647"
 	"associations"
 	{
 		"0"
@@ -114,12 +122,15 @@
 		"1" "23"
 		"2" "28"
 		"3" "2"
-		"4" "70"
 	}
 	"category"
 	{
 		"category_2" "1"
 		"category_23" "1"
+		"category_28" "1"
+		"category_55" "1"
+		"category_57" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -134,15 +145,16 @@
 			"subtitles" "true"
 		}
 	}
-	"steam_release_date" "1682060430"
+	"steam_release_date" "1717034721"
+	"community_visible_stats" "1"
 	"workshop_visible" "1"
 	"community_hub_visible" "1"
 	"gameid" "1956800"
 	"store_tags"
 	{
 		"0" "599"
-		"1" "9"
-		"2" "4328"
+		"1" "4328"
+		"2" "9"
 		"3" "3987"
 		"4" "8945"
 		"5" "597"
@@ -150,8 +162,8 @@
 		"7" "17305"
 		"8" "4559"
 		"9" "1643"
-		"10" "3813"
-		"11" "22602"
+		"10" "22602"
+		"11" "3813"
 		"12" "7332"
 		"13" "6426"
 		"14" "12472"
@@ -162,7 +174,7 @@
 		"19" "4202"
 	}
 	"review_score" "8"
-	"review_percentage" "83"
+	"review_percentage" "82"
 }
 "extended"
 {
@@ -178,6 +190,18 @@
 		"0"
 		{
 			"executable" "Song.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Song.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
 		}
 	}
 	"steam_china_only"
@@ -187,57 +211,6 @@
 }
 "depots"
 {
-	"1956801"
-	{
-		"manifests"
-		{
-			"public"
-			{
-				"gid" "4744782004494635003"
-				"size" "982524042"
-				"download" "807512560"
-			}
-			"great-voyage"
-			{
-				"gid" "7988369199881021582"
-				"size" "982840649"
-				"download" "807397312"
-			}
-			"version-0.5.3"
-			{
-				"gid" "2764188030832692437"
-				"size" "917822725"
-				"download" "750284064"
-			}
-		}
-		"encryptedmanifests"
-		{
-			"devtesting"
-			{
-				"gid" "21182643DD5A3DEA25E006DE518AF3F5"
-				"size" "8A41928D5446AAD07E8AE7DACF8AB6F5"
-				"download" "151B027050CB24720F5D3E2264F665B8"
-			}
-			"pre-default"
-			{
-				"gid" "68E8A1C2A7249B07895FFD5118C8938C"
-				"size" "274F9E114B1DBFFBED1B3F253AAB1FB8"
-				"download" "44720F68D3605B20A448CE18E045A30A"
-			}
-			"win11testing"
-			{
-				"gid" "FF2E552D00706C0953FAFDC0DFA8A8A7"
-				"size" "A72E45931798D78A73454AB93904B514"
-				"download" "CD97F9F5BFA4926961FFFFCCA12726AE"
-			}
-			"workshoptesting"
-			{
-				"gid" "7C7A48DE961FC0943865CB8A3F4DF703"
-				"size" "52491028D3C5495E05915D691E0113EF"
-				"download" "D6839B0E7B09FF2E3FA8AD18AD78B9D7"
-			}
-		}
-	}
 	"branches"
 	{
 		"steam_china_only"
@@ -262,26 +235,11 @@
 		"win11testing"
 		{
 			"sc_schinese" "win11testing"
-			"buildid" "11101493"
-			"pwdrequired" "1"
-			"timeupdated" "1682616051"
 		}
 		"public"
 		{
-			"buildid" "13721656"
-			"timeupdated" "1710298622"
-		}
-		"devtesting"
-		{
-			"buildid" "12252991"
-			"pwdrequired" "1"
-			"timeupdated" "1695355762"
-		}
-		"great-voyage"
-		{
-			"buildid" "13319612"
-			"description" "great-voyage"
-			"timeupdated" "1706668967"
+			"buildid" "14480764"
+			"timeupdated" "1717034606"
 		}
 		"version-0.5.3"
 		{
@@ -289,14 +247,88 @@
 			"description" "Old version"
 			"timeupdated" "1706686495"
 		}
+		"indieark-test"
+		{
+			"buildid" "14480764"
+			"pwdrequired" "1"
+			"timeupdated" "1716544248"
+		}
 		"workshoptesting"
 		{
-			"buildid" "13666958"
+			"buildid" "14359642"
 			"pwdrequired" "1"
-			"timeupdated" "1709805258"
+			"timeupdated" "1715676672"
 		}
 	}
 	"workshopdepot" "1956800"
+	"1956801"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3029832334739741885"
+				"size" "1216214176"
+				"download" "964751024"
+			}
+			"version-0.5.3"
+			{
+				"gid" "2764188030832692437"
+				"size" "917822725"
+				"download" "750284064"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"indieark-test"
+			{
+				"gid" "2A0A544D8769316683527D16D0A7EA5B"
+				"size" "018AE7F97BE4C8D2EB96DFAA6237B14C"
+				"download" "B12135BF9038700AED1372E6F703C12F"
+			}
+			"pre-default"
+			{
+				"gid" "68E8A1C2A7249B07895FFD5118C8938C"
+				"size" "274F9E114B1DBFFBED1B3F253AAB1FB8"
+				"download" "44720F68D3605B20A448CE18E045A30A"
+			}
+			"workshoptesting"
+			{
+				"gid" "1D18293617DA56FEA471631AF028AB5F"
+				"size" "CE0348489CE803D430027CD2D211FE07"
+				"download" "54EC73C5C05E02649DA403E7B3FAA9E3"
+			}
+		}
+	}
+	"1956802"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1317395330403052391"
+				"size" "1202143294"
+				"download" "953414912"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"indieark-test"
+			{
+				"gid" "915E409ABFFE78B4E3C67EB4DA20ABED"
+				"size" "1DDCFD44653001FC0B819BEEB3A6751D"
+				"download" "7A36A71E2BF8E553DF89762359360511"
+			}
+		}
+	}
 }
 "ufs"
 {
@@ -314,6 +346,6 @@
 	"sync_while_suspended" "1"
 }
 "_missing_token" "False"
-"_change_number" "22738648"
-"_sha" "8d8d3a4bde214341eed1ecc9704b909b7fbbf605"
-"_size" "6139"
+"_change_number" "23750881"
+"_sha" "e0660e45d7653b19ad363fde71efda2e6fbe8bc5"
+"_size" "6554"
