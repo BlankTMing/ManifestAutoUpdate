@@ -1,7 +1,7 @@
 "appid" "1016800"
 "common"
 {
-	"name" "Chernobylite Enhanced Edition"
+	"name" "Chernobylite Complete Edition"
 	"type" "Game"
 	"oslist" "windows"
 	"osarch" "64"
@@ -30,34 +30,37 @@
 		"0" "2"
 		"1" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
-		"category" "3"
-		"test_timestamp" "1643846400"
-		"tested_build_id" "7371291"
+		"category" "2"
+		"test_timestamp" "1710806400"
+		"tested_build_id" "9787971"
 		"tests"
 		{
 			"0"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
 			}
 			"1"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
 			}
 			"2"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"3"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
@@ -65,12 +68,15 @@
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "0"
+			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
-			"small_text" "0"
+			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "1"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Chernobylite"
@@ -88,6 +94,7 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -95,7 +102,7 @@
 			"height_pct" "87.0398520213786"
 		}
 	}
-	"store_asset_mtime" "1686130459"
+	"store_asset_mtime" "1717175480"
 	"associations"
 	{
 		"0"
@@ -107,6 +114,11 @@
 		{
 			"type" "publisher"
 			"name" "The Farm 51"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Chernobylite"
 		}
 	}
 	"primary_genre" "1"
@@ -128,6 +140,7 @@
 		"category_28" "1"
 		"category_29" "1"
 		"category_43" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -217,17 +230,17 @@
 		"2" "1667"
 		"3" "122"
 		"4" "4166"
-		"5" "21"
-		"6" "4182"
+		"5" "4182"
+		"6" "21"
 		"7" "3834"
-		"8" "3978"
-		"9" "3839"
+		"8" "3839"
+		"9" "3978"
 		"10" "7332"
 		"11" "599"
 		"12" "3942"
 		"13" "1687"
-		"14" "4106"
-		"15" "1702"
+		"14" "1702"
+		"15" "4106"
 		"16" "4175"
 		"17" "10808"
 		"18" "6869"
@@ -243,7 +256,7 @@
 	"developer" "The Farm 51"
 	"publisher" "The Farm 51"
 	"homepage" "https://www.chernobylgame.com/"
-	"listofdlc" "1640500,1701200,1797280,1845330,1903090,1935250,1958580,2094140,2184830"
+	"listofdlc" "1640500,1701200,1797280,1845330,1903090,1935250,1958580,2094140,2184830,3017050"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -301,9 +314,9 @@
 		{
 			"public"
 			{
-				"gid" "5580781684753890256"
-				"size" "38749063133"
-				"download" "37151652544"
+				"gid" "5429549254812931297"
+				"size" "40236885211"
+				"download" "38614339936"
 			}
 		}
 		"encryptedmanifests"
@@ -349,12 +362,6 @@
 				"gid" "87C9C71A3BE67FFEC2ACF4D64D32ED90"
 				"size" "DE746E044C023DF21ABED3396C638837"
 				"download" "674B7450D2F34AC85B6E307AB0048E9D"
-			}
-			"daily_build"
-			{
-				"gid" "98FD38541CC9F505D78C6F4EF8BAB663"
-				"size" "AA4A8C48E8A7A3EBFB8E38C465359E04"
-				"download" "F5EEA2602CAF796489D8BBD50AEF684F"
 			}
 			"dlc_test"
 			{
@@ -428,17 +435,23 @@
 				"size" "A6A082B2167D70660844FDA3DA657A0B"
 				"download" "76F8598C7568BE1827C9D0E79D3C584A"
 			}
+			"daily_build"
+			{
+				"gid" "07C2AF72093B12CE63F6F95A1F381B8D"
+				"size" "AE3BDF7534B2C2A15D5F448AD09A3F86"
+				"download" "3D87843CA9F3441A4B1B62D0C85DA6C0"
+			}
 			"test"
 			{
-				"gid" "8372BC75DA2530BBBC3790E28EE44721"
-				"size" "2267F39232970C17B33C6575F8A6E2ED"
-				"download" "82FF1A05A57BD73279FDDA425935A37C"
+				"gid" "5EE85D0559EB5764ECFC6B072EAD0173"
+				"size" "052D4F0CD41E98082FB23FD726C2825C"
+				"download" "9BBFDF8B0B974A9A796CE90180067C94"
 			}
 			"test_r"
 			{
-				"gid" "9E210877889373188AE6C16DA530E810"
-				"size" "EC68AB5DF829F205053B1B413F5B9425"
-				"download" "5E996BE7B145768E32AA24E9936ACC74"
+				"gid" "FE5BA39B1AF769AC9E4C798E92737C67"
+				"size" "865AEFC6E31A71E32DC193CC5080311A"
+				"download" "C563BF3B3B859095FE261A69DDB4625E"
 			}
 		}
 	}
@@ -450,8 +463,8 @@
 	{
 		"public"
 		{
-			"buildid" "9787971"
-			"timeupdated" "1666684746"
+			"buildid" "14523207"
+			"timeupdated" "1717172588"
 		}
 		"aig_ms"
 		{
@@ -494,12 +507,6 @@
 			"buildid" "9777959"
 			"pwdrequired" "1"
 			"timeupdated" "1666461636"
-		}
-		"daily_build"
-		{
-			"buildid" "13080654"
-			"pwdrequired" "1"
-			"timeupdated" "1704245209"
 		}
 		"dlc_test"
 		{
@@ -573,17 +580,23 @@
 			"pwdrequired" "1"
 			"timeupdated" "1666009693"
 		}
+		"daily_build"
+		{
+			"buildid" "14567423"
+			"pwdrequired" "1"
+			"timeupdated" "1717201428"
+		}
 		"test"
 		{
-			"buildid" "13080852"
+			"buildid" "14554391"
 			"pwdrequired" "1"
-			"timeupdated" "1704247535"
+			"timeupdated" "1717117384"
 		}
 		"test_r"
 		{
-			"buildid" "9787971"
+			"buildid" "14523207"
 			"pwdrequired" "1"
-			"timeupdated" "1666631718"
+			"timeupdated" "1716921227"
 		}
 	}
 }
@@ -602,6 +615,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21739793"
-"_sha" "c58b145f327f24b948f699311c9afa1362865a2a"
-"_size" "12262"
+"_change_number" "23782433"
+"_sha" "064cab260163820256729060ad28234d715eb5a5"
+"_size" "12560"
