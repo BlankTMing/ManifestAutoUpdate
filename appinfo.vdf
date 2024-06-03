@@ -17,6 +17,64 @@
 	"osarch" "64"
 	"osextended" ""
 	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"japanese" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1716854400"
+		"tested_build_id" "14420370"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"small_capsule"
 	{
@@ -127,6 +185,7 @@
 		}
 	}
 	"steam_release_date" "1715911105"
+	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "2738380"
 	"store_tags"
@@ -139,8 +198,8 @@
 		"5" "10235"
 		"6" "122"
 		"7" "3968"
-		"8" "597"
-		"9" "4695"
+		"8" "4695"
+		"9" "597"
 		"10" "3839"
 		"11" "5673"
 		"12" "6276"
@@ -153,7 +212,7 @@
 		"19" "3834"
 	}
 	"review_score" "8"
-	"review_percentage" "87"
+	"review_percentage" "84"
 }
 "extended"
 {
@@ -189,9 +248,9 @@
 		{
 			"public"
 			{
-				"gid" "4105118833615617898"
-				"size" "2095986385"
-				"download" "1485269536"
+				"gid" "5656627006569442107"
+				"size" "2320273826"
+				"download" "1638687408"
 			}
 		}
 	}
@@ -199,12 +258,31 @@
 	{
 		"public"
 		{
-			"buildid" "14420370"
-			"timeupdated" "1716134875"
+			"buildid" "14576384"
+			"timeupdated" "1717330812"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "50000000"
+	"maxnumfiles" "20"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "SmartPlayGames/Internet Cafe _ Supermarket Simulator 2024"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "23625584"
-"_sha" "d5c01cb28df65878253a0bf2b62420e23d9b301d"
-"_size" "3392"
+"_change_number" "23793131"
+"_sha" "5ece5396719d101abb545f2ac8b1370f95ae5bd2"
+"_size" "5083"
