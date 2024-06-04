@@ -218,9 +218,9 @@
 		"5" "1697"
 		"6" "4191"
 		"7" "4182"
-		"8" "1673"
-		"9" "4166"
-		"10" "6691"
+		"8" "6691"
+		"9" "1673"
+		"10" "4166"
 		"11" "3942"
 		"12" "3993"
 	}
@@ -300,6 +300,132 @@
 			}
 			"description" "DirectX® 12 (experimental)"
 		}
+		"5"
+		{
+			"executable" "O2.exe"
+			"arguments" "-DX12"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+				"betakey" "dev_development"
+			}
+			"description_loc"
+			{
+				"english" "DirectX® 12 (SteamOS)"
+			}
+			"description" "DirectX® 12 (SteamOS)"
+		}
+		"6"
+		{
+			"executable" "O2.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "linux"
+				"betakey" "dev_development"
+			}
+			"description_loc"
+			{
+				"english" "DirectX® 11 (SteamOS)"
+			}
+			"description" "DirectX® 11 (SteamOS)"
+		}
+		"7"
+		{
+			"executable" "O2.exe"
+			"arguments" "-DX12"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+				"betakey" "stabilization_shipping"
+			}
+			"description_loc"
+			{
+				"english" "DirectX® 12 (SteamOS)"
+			}
+			"description" "DirectX® 12 (SteamOS)"
+		}
+		"8"
+		{
+			"executable" "O2.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "linux"
+				"betakey" "stabilization_shipping"
+			}
+			"description_loc"
+			{
+				"english" "DirectX® 11 (SteamOS)"
+			}
+			"description" "DirectX® 11 (SteamOS)"
+		}
+		"9"
+		{
+			"executable" "O2.exe"
+			"arguments" "-DX12"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "dev_shipping"
+			}
+			"description_loc"
+			{
+				"english" "DirectX® 12 (Windows)"
+			}
+			"description" "DirectX® 12 (Windows)"
+		}
+		"10"
+		{
+			"executable" "O2.exe"
+			"arguments" "-DX11"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "dev_shipping"
+			}
+			"description_loc"
+			{
+				"english" "DirectX® 11 (Windows)"
+			}
+			"description" "DirectX® 11 (Windows)"
+		}
+		"11"
+		{
+			"executable" "O2.exe"
+			"arguments" "-DX12"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "patch5.0_submission"
+			}
+			"description_loc"
+			{
+				"english" "DirectX® 12"
+			}
+			"description" "DirectX® 12"
+		}
+		"12"
+		{
+			"executable" "O2.exe"
+			"arguments" "-DX11"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "patch5.0_submission"
+			}
+			"description_loc"
+			{
+				"english" "DirectX® 11"
+			}
+			"description" "DirectX® 11"
+		}
 	}
 }
 "depots"
@@ -329,9 +455,9 @@
 		{
 			"public"
 			{
-				"gid" "3434891515266396935"
-				"size" "39938678566"
-				"download" "37330971216"
+				"gid" "1589016661454658152"
+				"size" "37635175721"
+				"download" "35150213088"
 			}
 		}
 		"encryptedmanifests"
@@ -347,30 +473,6 @@
 				"gid" "D8731C6F06B744C82C2B72DF8E78AEB5"
 				"size" "B38485120C5017FBC40E6E2921A999A2"
 				"download" "30601D2759CE067B040DC76A27B12D9C"
-			}
-			"custom_build"
-			{
-				"gid" "2D1A3ED1D300C6335D94D96037432E01"
-				"size" "B08EFD37883E3A85B7829B50BD09BBB4"
-				"download" "D5936E4E712DDDAE119BD72B665ACEAD"
-			}
-			"dev_development"
-			{
-				"gid" "4F2313A40A3E2D117BB2D57CB513A522"
-				"size" "150C17AF1ECD8490FA1AEF248F5D04FC"
-				"download" "D50FE467E3EE33A492C0460BC25A7C0F"
-			}
-			"dev_shipping"
-			{
-				"gid" "E634E277CFDCEAC53F5A42FFE3C3F4BF"
-				"size" "0331EAA920F4B4A0E9EA35F82A391EB8"
-				"download" "3550316CCEB1EBD92BD077BD4419C6B6"
-			}
-			"dev_test"
-			{
-				"gid" "BB9A4DB4E40B53A4698F109494D8408D"
-				"size" "D97029861D743CAEEEF27B55EF70E780"
-				"download" "448453E9F44A8A7D804D2D51AE5DB6C6"
 			}
 			"evaluation"
 			{
@@ -420,29 +522,11 @@
 				"size" "6873A5777C8EFA86D76B0E02A27024F6"
 				"download" "26A0D605CD0E12A396F47ECFAF4E7589"
 			}
-			"stabilization_development"
-			{
-				"gid" "E6C451B3756AE998559BBD14C197AB4A"
-				"size" "A1A9D34E67FFC6E6204E6E753C974575"
-				"download" "59BEE3C8EF34B3AD512219F9E88224D0"
-			}
-			"stabilization_shipping"
-			{
-				"gid" "B3E07C6E5DC50028BA5254CB18846389"
-				"size" "6F6694FE99D4F7F694EE8FE680A523FB"
-				"download" "9427796BE26A0B451315F8671B9AEBD3"
-			}
 			"stabilization_submission"
 			{
 				"gid" "F9E8D22B929120679823D2138E6E7B63"
 				"size" "28EEB352B0FCB7AE97DA4F051EABB316"
 				"download" "1FDD998F6F891278982B0BF7FC3690CD"
-			}
-			"stabilization_test"
-			{
-				"gid" "1A51E3468C645610B83BEEA1835FFDBD"
-				"size" "4FA9F762529F937D3DAD105872B95867"
-				"download" "9AAA9EAB760B18C5A1CC1C1B491A31E2"
 			}
 			"stabilization_test_dx12"
 			{
@@ -462,14 +546,68 @@
 				"size" "3B978144AB64B1EA9F344B944495F4C0"
 				"download" "3562F853658FFC18618C727AE4EF86AA"
 			}
+			"custom_build"
+			{
+				"gid" "2E8F13BEA509A276830DC5A67EA90EDD"
+				"size" "D3FD77504A2C7E6EACBA6D7E712FC76E"
+				"download" "2935AC304DFFC9B46D19BD8E3AE33991"
+			}
+			"dev_development"
+			{
+				"gid" "B403551334F6D165E7CF09BA07114526"
+				"size" "22C5A33B1B5280E4945CD7535CDE44E4"
+				"download" "427CA70D097F033A218CB07D1C62563B"
+			}
+			"dev_shipping"
+			{
+				"gid" "574447401FD51523633DCADB71614C8F"
+				"size" "F2BD8B62A54EB7D18765D373334113CC"
+				"download" "D988EF5188CF1F6E0B5AACECC1E26659"
+			}
+			"dev_submission"
+			{
+				"gid" "F61D6098D32E7FE1F9F3022D83C403E3"
+				"size" "71B21E989B0511DC6835240D1ACE12AE"
+				"download" "9BB8B038FF92AA8FB0314E71CC0AF0E5"
+			}
+			"dev_test"
+			{
+				"gid" "CE3F705EBD1E8CF80DDFCA8548250765"
+				"size" "97993B6A9754BEE4E45803A06EEFED31"
+				"download" "4A21B4EEB3C6BDA72272548C61D41DA8"
+			}
+			"patch5.0_submission"
+			{
+				"gid" "4BA73E207C5889CB7A9069C41F212FD6"
+				"size" "5F162B47685545DB0F26B4B94E06EECE"
+				"download" "9AD92C45D7D4B515229CCDA0A4F0EE05"
+			}
+			"stabilization_development"
+			{
+				"gid" "FFD8E77E08E946F3804E99F88EDCFCD9"
+				"size" "85EA4AAC9286508BA0221A8435A53D90"
+				"download" "21954DDFAD7D5084BACE2868FC297511"
+			}
+			"stabilization_shipping"
+			{
+				"gid" "06B6CCF211BB66DCF6F172E9D1AC8623"
+				"size" "AC028D0E3D3A4C9702107C8239F1AEC6"
+				"download" "F015D7860E9B088E557C51CE7419D36F"
+			}
+			"stabilization_test"
+			{
+				"gid" "BAFB2DD9347D3075F7CBC101C23378AC"
+				"size" "5D527233CE62DA9EEE946AFBCD76ACD6"
+				"download" "38FF226893CBC07AC3E2C2746EB715E1"
+			}
 		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "14097798"
-			"timeupdated" "1713792825"
+			"buildid" "14534830"
+			"timeupdated" "1717506403"
 		}
 		"baseline"
 		{
@@ -482,30 +620,6 @@
 			"buildid" "13587174"
 			"pwdrequired" "1"
 			"timeupdated" "1709119310"
-		}
-		"custom_build"
-		{
-			"buildid" "13947228"
-			"pwdrequired" "1"
-			"timeupdated" "1712306846"
-		}
-		"dev_development"
-		{
-			"buildid" "14134172"
-			"pwdrequired" "1"
-			"timeupdated" "1713798727"
-		}
-		"dev_shipping"
-		{
-			"buildid" "14098563"
-			"pwdrequired" "1"
-			"timeupdated" "1713456069"
-		}
-		"dev_test"
-		{
-			"buildid" "14128500"
-			"pwdrequired" "1"
-			"timeupdated" "1713754564"
 		}
 		"evaluation"
 		{
@@ -555,29 +669,11 @@
 			"pwdrequired" "1"
 			"timeupdated" "1707747886"
 		}
-		"stabilization_development"
-		{
-			"buildid" "14134942"
-			"pwdrequired" "1"
-			"timeupdated" "1713803019"
-		}
-		"stabilization_shipping"
-		{
-			"buildid" "13704376"
-			"pwdrequired" "1"
-			"timeupdated" "1710174376"
-		}
 		"stabilization_submission"
 		{
 			"buildid" "14097798"
 			"pwdrequired" "1"
 			"timeupdated" "1713451724"
-		}
-		"stabilization_test"
-		{
-			"buildid" "14134627"
-			"pwdrequired" "1"
-			"timeupdated" "1713801184"
 		}
 		"stabilization_test_dx12"
 		{
@@ -596,6 +692,60 @@
 			"buildid" "13743249"
 			"pwdrequired" "1"
 			"timeupdated" "1710442929"
+		}
+		"custom_build"
+		{
+			"buildid" "13690409"
+			"pwdrequired" "1"
+			"timeupdated" "1713971358"
+		}
+		"dev_development"
+		{
+			"buildid" "14535380"
+			"pwdrequired" "1"
+			"timeupdated" "1716996924"
+		}
+		"dev_shipping"
+		{
+			"buildid" "14532780"
+			"pwdrequired" "1"
+			"timeupdated" "1716984186"
+		}
+		"dev_submission"
+		{
+			"buildid" "14534830"
+			"pwdrequired" "1"
+			"timeupdated" "1716994272"
+		}
+		"dev_test"
+		{
+			"buildid" "14476936"
+			"pwdrequired" "1"
+			"timeupdated" "1716519148"
+		}
+		"patch5.0_submission"
+		{
+			"buildid" "14534830"
+			"pwdrequired" "1"
+			"timeupdated" "1717071303"
+		}
+		"stabilization_development"
+		{
+			"buildid" "14448497"
+			"pwdrequired" "1"
+			"timeupdated" "1716411603"
+		}
+		"stabilization_shipping"
+		{
+			"buildid" "14385751"
+			"pwdrequired" "1"
+			"timeupdated" "1715848643"
+		}
+		"stabilization_test"
+		{
+			"buildid" "14454987"
+			"pwdrequired" "1"
+			"timeupdated" "1716381864"
 		}
 	}
 }
@@ -632,6 +782,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23253537"
-"_sha" "091eee7f2034a6e043674fa47c81dcc2096ecd93"
-"_size" "12731"
+"_change_number" "23821066"
+"_sha" "a0afea6b673a2791555beec2e7d542c8074a0cba"
+"_size" "15596"
