@@ -1,7 +1,7 @@
 "appid" "2593370"
 "common"
 {
-	"name" "饿殍：明末千里行"
+	"name" "The Hungry Lamb: Traveling in the Late Ming Dynasty"
 	"type" "Game"
 	"icon" "54a7574438ba0458909b1879bfca1c1992b839a4"
 	"clienticon" "3d5a85be42bb0a40f9f5141e746cf1fb8a666f69"
@@ -12,6 +12,7 @@
 		"japanese" "飢えた子羊"
 		"tchinese" "餓殍：明末千里行"
 		"english" "The Hungry Lamb: Traveling in the Late Ming Dynasty"
+		"schinese" "饿殍：明末千里行"
 	}
 	"oslist" "windows"
 	"osarch" ""
@@ -26,6 +27,55 @@
 	"content_descriptors"
 	{
 		"0" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1716595200"
+		"tested_build_id" "14463460"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
 	}
 	"controllertagwizard" "1"
 	"controller_support" "partial"
@@ -132,13 +182,13 @@
 		"7" "9551"
 		"8" "4342"
 		"9" "4726"
-		"10" "24003"
-		"11" "3920"
+		"10" "3920"
+		"11" "24003"
 		"12" "122"
 		"13" "4947"
 		"14" "1721"
-		"15" "4182"
-		"16" "5984"
+		"15" "5984"
+		"16" "4182"
 		"17" "597"
 		"18" "5716"
 		"19" "4172"
@@ -176,9 +226,9 @@
 		{
 			"public"
 			{
-				"gid" "517161777708170793"
-				"size" "2027463143"
-				"download" "695033648"
+				"gid" "812293318095605579"
+				"size" "2028526103"
+				"download" "695115808"
 			}
 		}
 		"encryptedmanifests"
@@ -191,12 +241,19 @@
 			}
 		}
 	}
+	"2593372"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "14463460"
-			"timeupdated" "1716437001"
+			"buildid" "14609582"
+			"timeupdated" "1717580114"
 		}
 		"test1"
 		{
@@ -226,6 +283,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23654480"
-"_sha" "c5ab6769b57b51d5b300de4915f894bdc71c3154"
-"_size" "3987"
+"_change_number" "23835856"
+"_sha" "72cefc8f3ec20885f23a70cb751b20a2e4dad4d2"
+"_size" "5359"
