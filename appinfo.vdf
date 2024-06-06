@@ -6,7 +6,7 @@
 	"oslist" "windows,macos,linux"
 	"clienttga" "aa86f8957ea05ba019679d9de41bc7114af5920a"
 	"clienticon" "6b39b7b3537b7ebfe81df39cb15bd15cdb0ca84c"
-	"icon" "6a7c723fc1a0a6f403a4c1f1d02499a25ebe9ca0"
+	"icon" "d91123eff47d633bd273dd1acd24bf93845a81f6"
 	"linuxclienticon" "2d2ff0dcf6713d3084397a1a6718cd601f9e1b76"
 	"clienticns" "218c727cc9f14824b2f786ac1a86ffff9a6ab3c4"
 	"logo" "ede94d04cab019b97cddf107b4393175a42a1f9e"
@@ -129,6 +129,7 @@
 		"category_1" "1"
 		"category_9" "1"
 		"category_38" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -191,25 +192,25 @@
 	"store_tags"
 	{
 		"0" "1654"
-		"1" "5350"
-		"2" "14720"
-		"3" "8122"
-		"4" "16689"
-		"5" "12472"
-		"6" "1643"
-		"7" "599"
-		"8" "3810"
+		"1" "8122"
+		"2" "5350"
+		"3" "12472"
+		"4" "1643"
+		"5" "599"
+		"6" "3810"
+		"7" "16689"
+		"8" "4695"
 		"9" "1669"
-		"10" "9"
-		"11" "597"
-		"12" "4328"
-		"13" "4252"
-		"14" "3843"
-		"15" "8945"
+		"10" "3859"
+		"11" "4004"
+		"12" "4182"
+		"13" "9"
+		"14" "4328"
+		"15" "1685"
 		"16" "4726"
-		"17" "4695"
-		"18" "3859"
-		"19" "4305"
+		"17" "4791"
+		"18" "4845"
+		"19" "4191"
 	}
 	"review_score" "8"
 	"review_percentage" "94"
@@ -246,16 +247,6 @@
 				"oslist" "macos"
 			}
 		}
-		"2"
-		{
-			"executable" "Parkitect.x86"
-			"type" "default"
-			"config"
-			{
-				"oslist" "linux"
-				"osarch" "32"
-			}
-		}
 		"3"
 		{
 			"executable" "Parkitect.x86_64"
@@ -270,12 +261,17 @@
 		{
 			"executable" "Parkitect.x86_64"
 			"arguments" "-force-glcore"
-			"description" "with OpenGL"
 			"type" "option1"
 			"config"
 			{
 				"oslist" "linux"
+				"osarch" "64"
 			}
+			"description_loc"
+			{
+				"english" "with OpenGL"
+			}
+			"description" "with OpenGL"
 		}
 	}
 	"steamcontrollertemplateindex" "1"
@@ -298,9 +294,9 @@
 		{
 			"public"
 			{
-				"gid" "7156552862052800774"
-				"size" "1221822713"
-				"download" "700136848"
+				"gid" "3701659509652788103"
+				"size" "1222872161"
+				"download" "701198192"
 			}
 			"alpha_01"
 			{
@@ -383,12 +379,6 @@
 				"size" "FDF5640F0C92F8C7676DFDD51C04C392"
 				"download" "CCD300FA173DDF66A394C674E6662F21"
 			}
-			"testing_demo"
-			{
-				"gid" "804449AFD9A6B32853F97EA2C21BFAFC"
-				"size" "DD943D6E29DB285DAFD6742090E4D704"
-				"download" "33EFAC64275F0EC1A33E10A55B22E65A"
-			}
 			"testing_expansion"
 			{
 				"gid" "F64C9B196DC659CE46E13EFE84B8B9D3"
@@ -403,9 +393,15 @@
 			}
 			"testing"
 			{
-				"gid" "F2D19D2AF77CB4DE6BB4F80D76E2E446"
-				"size" "01B9A1F09B175BFD788676E02C15B8A9"
-				"download" "53CC8CF2546ADD8E9F95CF9C8B4F2779"
+				"gid" "4E0763B101377F2BAC44895964F0290C"
+				"size" "4A461D28CA09E57BCA5CCEBAB38AE35E"
+				"download" "A36DC6DB265B8D28C08F170C17728565"
+			}
+			"testing_demo"
+			{
+				"gid" "0D379A7BBC86305F6F234C8D733B312E"
+				"size" "779E4A3BB08F9478B3EF5F2FF63D4FCD"
+				"download" "F91C3C65E251DB616625831D14749D95"
 			}
 		}
 	}
@@ -421,9 +417,9 @@
 		{
 			"public"
 			{
-				"gid" "3484543255390343320"
-				"size" "1247373287"
-				"download" "706769808"
+				"gid" "8047097756012184790"
+				"size" "1248422735"
+				"download" "707830048"
 			}
 			"alpha_01"
 			{
@@ -506,12 +502,6 @@
 				"size" "6FB65B84CE9BB19AB0E32708B1D8FCF1"
 				"download" "50820FA994F6383BB3453FE9E9649B31"
 			}
-			"testing_demo"
-			{
-				"gid" "EE2EBDCDE401B30D9DE93940D181613E"
-				"size" "DB0E6EB08C9FABFBF1D658B1DC9E568B"
-				"download" "3B95321BE90DBD6F333CB6FC7B12A79A"
-			}
 			"testing_expansion"
 			{
 				"gid" "938C9715A8B6AB5C45AE3407A46884D4"
@@ -526,9 +516,15 @@
 			}
 			"testing"
 			{
-				"gid" "1707B64BB8EE5C0DAF9E3B11AC39008F"
-				"size" "8ED0A856ECDC1C5944F866C4CF7BDF54"
-				"download" "186E539A64C58EDE8FB9EA8AA34C5094"
+				"gid" "2B528C4F942AD8C8FCBD47379A2F5207"
+				"size" "8A7DA6F53AD5449F7986E0C890D81C03"
+				"download" "BB18B1A09769A62C35CD521CD5D01AE0"
+			}
+			"testing_demo"
+			{
+				"gid" "FC3215C4AF95C15D36B4FF010C7556EB"
+				"size" "A1E28266ADE0F0B0EF1506F72D513481"
+				"download" "FA6B81C2F7FBCBA1025005BDD23906C6"
 			}
 		}
 	}
@@ -543,9 +539,9 @@
 		{
 			"public"
 			{
-				"gid" "4095308235200712760"
-				"size" "1237187483"
-				"download" "705211632"
+				"gid" "5539413452156673896"
+				"size" "1238238781"
+				"download" "706275392"
 			}
 			"alpha_01"
 			{
@@ -609,9 +605,9 @@
 			}
 			"apple_silicon"
 			{
-				"gid" "8900602062314484790"
-				"size" "1225302617"
-				"download" "701630416"
+				"gid" "6738111536778632671"
+				"size" "1226353915"
+				"download" "702694368"
 			}
 		}
 		"encryptedmanifests"
@@ -628,12 +624,6 @@
 				"size" "3F17A627E0A03776FCE7C8FA69348750"
 				"download" "D360FD0D84F00774A55C9CF9892DC8B8"
 			}
-			"testing_demo"
-			{
-				"gid" "06CBE8AFB57DA5AA49E84D27EAD99995"
-				"size" "1A31B9A196E50832016CD95B909E9DC2"
-				"download" "DE76DC3C9BEC5D454EB91BD5D0851CCB"
-			}
 			"testing_expansion"
 			{
 				"gid" "7B1CE35E934642349DE75517BE64C006"
@@ -648,9 +638,15 @@
 			}
 			"testing"
 			{
-				"gid" "39A82139E283FABF61E62A1BEC3CFA5C"
-				"size" "91A4531BA723C8078F5BD17383607BAD"
-				"download" "D280849F599A991D6B08DF94CA4A6097"
+				"gid" "5782BB382BD2DC4C5394542DA93A7C33"
+				"size" "DBA70A723B1417C52814A43B1C5BA25E"
+				"download" "52BC55194F25729D543ED449DCAC7CD3"
+			}
+			"testing_demo"
+			{
+				"gid" "C71343315F5C60F390FD8BF48F500F4E"
+				"size" "D987165300791D0E4C4D00A5DE98FC3F"
+				"download" "453336D01F766F9D164FCAA0820937A1"
 			}
 		}
 	}
@@ -665,9 +661,9 @@
 		{
 			"public"
 			{
-				"gid" "8613439202349159723"
-				"size" "1305839146"
-				"download" "719372320"
+				"gid" "6635020116152994248"
+				"size" "1306888594"
+				"download" "720428448"
 			}
 			"alpha_01"
 			{
@@ -750,12 +746,6 @@
 				"size" "B13B8915C1F925FAEE229D5AE157DFB5"
 				"download" "BA6C231F4EA0BBD5A86B8C3162295CC3"
 			}
-			"testing_demo"
-			{
-				"gid" "7715B868E1B024CAACB2B8A744D10BA2"
-				"size" "A15992D411ACDBE4F5D66B1D5A5BCF7E"
-				"download" "C49C43E3F98F4AB69BA69254EB5D8BC1"
-			}
 			"testing_expansion"
 			{
 				"gid" "2FFC3061AD3154DF0C3DAC7E7FEAD893"
@@ -770,9 +760,15 @@
 			}
 			"testing"
 			{
-				"gid" "B2D1FB16D1914290307500E8A7EE8292"
-				"size" "E2BA5CC6541A8718F32294CB1ADADF1F"
-				"download" "17148B29AD765571CBE1E2D13DE6961A"
+				"gid" "47F66363E2AA564B5067C2F814914954"
+				"size" "AC7E8915AC9F48E3D9A4E09420666852"
+				"download" "D4041F7C55CBE69E3B8DF0D0F59C39C7"
+			}
+			"testing_demo"
+			{
+				"gid" "A34E820A57C1DB6F2A08FAF032757AF9"
+				"size" "64E6B5AAE42F00AF84ECC5CC335F9FAF"
+				"download" "8F9F91ABC1EF6E7B6B0AED6BC0D4749A"
 			}
 		}
 	}
@@ -789,9 +785,9 @@
 		{
 			"public"
 			{
-				"gid" "3820539126073900776"
+				"gid" "528362935881070126"
 				"size" "23408336"
-				"download" "7647536"
+				"download" "7647648"
 			}
 			"experimental"
 			{
@@ -832,12 +828,6 @@
 				"size" "D3D78D83266CE37D93FF25D6A5FC46B6"
 				"download" "66A7547C8C6D00368F2D129ACBDCECB0"
 			}
-			"testing_demo"
-			{
-				"gid" "DBDB876692D1E77716879FE5552C5075"
-				"size" "B37CC296A9F733A6C363999957734657"
-				"download" "721358469E42D76E3AB6FF5DB2C33B8B"
-			}
 			"testing_expansion"
 			{
 				"gid" "0914B03723C0AF2EA10D1AF0AE7DA0BD"
@@ -852,9 +842,15 @@
 			}
 			"testing"
 			{
-				"gid" "57E6D50522792569C2860558DF6452A0"
+				"gid" "D3C0A7168F917215BFDDF0C992352257"
 				"size" "F843617D127BF6F81402B1311697C57F"
-				"download" "583006A3A57CC0D82C07FF226BEC0495"
+				"download" "8D6D2822825F4F3FA3D8A7BAABDD4D70"
+			}
+			"testing_demo"
+			{
+				"gid" "987BBE311B4B6AB76877305EC2F2A4B4"
+				"size" "B37CC296A9F733A6C363999957734657"
+				"download" "09F13E069185363F9301C96C894FDF2B"
 			}
 		}
 	}
@@ -871,7 +867,7 @@
 		{
 			"public"
 			{
-				"gid" "2938839541301687669"
+				"gid" "3280333881532185151"
 				"size" "23408336"
 				"download" "7647632"
 			}
@@ -914,12 +910,6 @@
 				"size" "D3D78D83266CE37D93FF25D6A5FC46B6"
 				"download" "2585C4E2B9F8DB709E0EF6206F65062F"
 			}
-			"testing_demo"
-			{
-				"gid" "2547F0C2BEDE1FF63D8D0B3279CFE325"
-				"size" "B37CC296A9F733A6C363999957734657"
-				"download" "886F145D5A76465199BF646731E09B5A"
-			}
 			"testing_expansion"
 			{
 				"gid" "C2A1D299B4707D162A8FBE2C6C76F8C9"
@@ -934,9 +924,15 @@
 			}
 			"testing"
 			{
-				"gid" "E75B9EEA0ADB16A967BF7EAA3775256D"
+				"gid" "CB1F23D0B25F282835FC444D3E30DAB2"
 				"size" "F843617D127BF6F81402B1311697C57F"
 				"download" "597321730B1B66432376A644FE9A91B6"
+			}
+			"testing_demo"
+			{
+				"gid" "BBFEBCDB61A7573A782D423358BFE5BD"
+				"size" "B37CC296A9F733A6C363999957734657"
+				"download" "F94D2994262234B9B3E9B4DF733392CD"
 			}
 		}
 	}
@@ -952,9 +948,9 @@
 		{
 			"public"
 			{
-				"gid" "7141522333902976270"
+				"gid" "8218706344030734712"
 				"size" "25403872"
-				"download" "8452816"
+				"download" "8452528"
 			}
 			"experimental"
 			{
@@ -976,9 +972,9 @@
 			}
 			"apple_silicon"
 			{
-				"gid" "7141522333902976270"
+				"gid" "8218706344030734712"
 				"size" "25403872"
-				"download" "8452816"
+				"download" "8452528"
 			}
 		}
 		"encryptedmanifests"
@@ -995,12 +991,6 @@
 				"size" "07E7DA73FEACCA970E4DC31091B66222"
 				"download" "D257AFE21AE508E1C86F42C77B284D3D"
 			}
-			"testing_demo"
-			{
-				"gid" "3FAF009BC9D531335C0E1D46296B5EDB"
-				"size" "8A238306FEDDE756FEA091EE168B6B06"
-				"download" "66E3695D60AEABFEA74F703E6593D7F7"
-			}
 			"testing_expansion"
 			{
 				"gid" "8318AFC3A312BDA34394FCE2C70A2F72"
@@ -1015,9 +1005,15 @@
 			}
 			"testing"
 			{
-				"gid" "CD6FC2D886E6B3CACF9F87A39C3BF498"
+				"gid" "011068B67C793383E99B6270A4455DB7"
 				"size" "C60A9C8C074E15CDFE9B0678076E4E60"
-				"download" "2A56ECAA1238BBC46FF9417960E4BE91"
+				"download" "1FF83BB99F6FF214F677B9278C97C367"
+			}
+			"testing_demo"
+			{
+				"gid" "4A5640392366E238DDE68A3DEC908294"
+				"size" "8A238306FEDDE756FEA091EE168B6B06"
+				"download" "FC4560F5D27187A5B3F9D927FEC4AD4E"
 			}
 		}
 	}
@@ -1033,9 +1029,9 @@
 		{
 			"public"
 			{
-				"gid" "3139694724042142031"
+				"gid" "4008772676383212697"
 				"size" "28471648"
-				"download" "10207744"
+				"download" "10207680"
 			}
 			"experimental"
 			{
@@ -1076,12 +1072,6 @@
 				"size" "B808420F7497281C98AFD45D3E940EED"
 				"download" "CF66F9DEA073A2A7A35D5E33D547CD10"
 			}
-			"testing_demo"
-			{
-				"gid" "496A0BB5F2C678FD7DF9BF5772A8E2D3"
-				"size" "E195CB63E591E4E1C81F42E15CBB4E1B"
-				"download" "9B75C97D6BDF8861C0C54A3DBD0B9712"
-			}
 			"testing_expansion"
 			{
 				"gid" "B1658E584BC0EB69AA27F3D4A97EEB61"
@@ -1096,9 +1086,15 @@
 			}
 			"testing"
 			{
-				"gid" "9B5722B3117F143B5167E86414F6DBA1"
+				"gid" "2BC67115769B2FB8BAF87917D27EFA8D"
 				"size" "F18B7D6D32141D68F7209857B291716C"
-				"download" "494C9382ADF730F07F9829DDB99986C5"
+				"download" "425F72344DE4A0C431915EC567A3530A"
+			}
+			"testing_demo"
+			{
+				"gid" "8077D5483097F067A2BB1F217993C0BE"
+				"size" "E195CB63E591E4E1C81F42E15CBB4E1B"
+				"download" "9B75C97D6BDF8861C0C54A3DBD0B9712"
 			}
 		}
 	}
@@ -1115,9 +1111,9 @@
 		{
 			"public"
 			{
-				"gid" "6073102327994475909"
+				"gid" "8509767054664800225"
 				"size" "17552832"
-				"download" "10054144"
+				"download" "10053952"
 			}
 			"experimental"
 			{
@@ -1152,12 +1148,6 @@
 				"size" "65098B614F687E106D1CDFCFC513E6D3"
 				"download" "5907783D16E51B44671F17FA33F7B5AA"
 			}
-			"testing_demo"
-			{
-				"gid" "93939112FDBFBF64198100AB1D47C4BA"
-				"size" "25E4DBBEA7BCBF280E9706FE20371176"
-				"download" "8892176C51A1512F72A6EAF04DCAA7EC"
-			}
 			"testing_private"
 			{
 				"gid" "A56BDCE26AB1819D53250CA3391C49DA"
@@ -1166,9 +1156,15 @@
 			}
 			"testing"
 			{
-				"gid" "0C54ACA3F656300C6D4890229706B6FE"
+				"gid" "8A276A693202009F646855FD0E888EF8"
 				"size" "767CE407ABE80ABA32D5A626EA71E0EE"
-				"download" "A9CC575B441F87FBE57CAA548F11AA0A"
+				"download" "62E326E1CFBDD2C8EEE2A02E941C7345"
+			}
+			"testing_demo"
+			{
+				"gid" "7BB2AA1D1B14BE2E9206B1E847685DE9"
+				"size" "25E4DBBEA7BCBF280E9706FE20371176"
+				"download" "6BF1FB77CEA31783086DEAD37053313C"
 			}
 		}
 	}
@@ -1185,9 +1181,9 @@
 		{
 			"public"
 			{
-				"gid" "4655036100854258858"
+				"gid" "4710666893360449144"
 				"size" "17552832"
-				"download" "10053616"
+				"download" "10053424"
 			}
 			"experimental"
 			{
@@ -1222,12 +1218,6 @@
 				"size" "65098B614F687E106D1CDFCFC513E6D3"
 				"download" "5907783D16E51B44671F17FA33F7B5AA"
 			}
-			"testing_demo"
-			{
-				"gid" "CBB7733AF18A0A6141DEB307B7CE7662"
-				"size" "25E4DBBEA7BCBF280E9706FE20371176"
-				"download" "09E1167809FF5D736F220EC047CFAAE0"
-			}
 			"testing_private"
 			{
 				"gid" "6442CB78CC5D5F0CDDC4DF88C9980998"
@@ -1236,9 +1226,15 @@
 			}
 			"testing"
 			{
-				"gid" "937D46B76B680CF19D20CA43D0AAFE41"
+				"gid" "DBA9477637D92FC393B3D808F20F26FE"
 				"size" "767CE407ABE80ABA32D5A626EA71E0EE"
-				"download" "F8572159BAA73AA51C319B82D403BDF3"
+				"download" "AABFEB495564C02F77CADF1DB151F9FC"
+			}
+			"testing_demo"
+			{
+				"gid" "C62557E7E6A5316359CD02331E165A4C"
+				"size" "25E4DBBEA7BCBF280E9706FE20371176"
+				"download" "1AD2D0ABAB1808682AB76ED141104E0A"
 			}
 		}
 	}
@@ -1254,7 +1250,7 @@
 		{
 			"public"
 			{
-				"gid" "3409926596115807465"
+				"gid" "6519950139248569732"
 				"size" "19773968"
 				"download" "10959568"
 			}
@@ -1278,7 +1274,7 @@
 			}
 			"apple_silicon"
 			{
-				"gid" "3409926596115807465"
+				"gid" "6519950139248569732"
 				"size" "19773968"
 				"download" "10959568"
 			}
@@ -1291,12 +1287,6 @@
 				"size" "34C8E2A3E0D77E8438BC25AD5F52B7EC"
 				"download" "7575EB296AA217AE4C987A45839107ED"
 			}
-			"testing_demo"
-			{
-				"gid" "1A5F13B2FECCA5DE08204B25DF959CA4"
-				"size" "406D2E469997F5556460E52597B1455C"
-				"download" "7D47F350AC70F5066007019F3AAA79D9"
-			}
 			"testing_private"
 			{
 				"gid" "68C22995A1FF4ECD187440A619803665"
@@ -1305,9 +1295,15 @@
 			}
 			"testing"
 			{
-				"gid" "127C0189901519249407AE94ABA9D319"
+				"gid" "304C2D8557C941B0A6F6B4D28ECA5604"
 				"size" "EDB900FCE6B9922FEBE7BCDED1252D82"
 				"download" "2CD7697B85EA46FA19F93B04F40AC545"
+			}
+			"testing_demo"
+			{
+				"gid" "3055C7F46E8432B3D4557E5BE3B2EEA4"
+				"size" "406D2E469997F5556460E52597B1455C"
+				"download" "6505E13888A50449B50527DCDDCD4CE7"
 			}
 		}
 	}
@@ -1323,9 +1319,9 @@
 		{
 			"public"
 			{
-				"gid" "7612072273417081733"
+				"gid" "1778071086138684346"
 				"size" "22730640"
-				"download" "12480928"
+				"download" "12480800"
 			}
 			"experimental"
 			{
@@ -1360,12 +1356,6 @@
 				"size" "4A5669954C50D8B08D1D9AE0E15E3184"
 				"download" "DD1B8D1E549D2EC276293E7E48935F85"
 			}
-			"testing_demo"
-			{
-				"gid" "1AC35F29E50A02143AA322A4AEC5C6E2"
-				"size" "4604B7AF8E1A394DE82D6A9C9334FF0E"
-				"download" "6FEDD33429ADAD2FDE499B230D7894ED"
-			}
 			"testing_private"
 			{
 				"gid" "B951A6CD2F97CF9509C32EE500B67A84"
@@ -1374,9 +1364,15 @@
 			}
 			"testing"
 			{
-				"gid" "18EE68F1FC9596759B38A56D630E0EC7"
+				"gid" "95F8FE2093CC831242B4A5031CCADC32"
 				"size" "E7C84FE93A660D071F6A11A2A59D3A87"
-				"download" "4C2053AA2B7EE625A28F7E8C2847EBF0"
+				"download" "05FD474074445EA59FF6B669597C5704"
+			}
+			"testing_demo"
+			{
+				"gid" "2DB0187419BBADBDF71685F99F931B45"
+				"size" "4604B7AF8E1A394DE82D6A9C9334FF0E"
+				"download" "982596AD880D6E6DD4B657013050642A"
 			}
 		}
 	}
@@ -1384,8 +1380,8 @@
 	{
 		"public"
 		{
-			"buildid" "14290343"
-			"timeupdated" "1715087907"
+			"buildid" "14612846"
+			"timeupdated" "1717662623"
 		}
 		"alpha_01"
 		{
@@ -1453,12 +1449,6 @@
 			"pwdrequired" "1"
 			"timeupdated" "1574775186"
 		}
-		"testing_demo"
-		{
-			"buildid" "14143702"
-			"pwdrequired" "1"
-			"timeupdated" "1713865405"
-		}
 		"testing_expansion"
 		{
 			"buildid" "4407980"
@@ -1473,15 +1463,21 @@
 		}
 		"apple_silicon"
 		{
-			"buildid" "14290518"
+			"buildid" "14623199"
 			"description" "Experimental Apple Silicon test version"
-			"timeupdated" "1715087858"
+			"timeupdated" "1717662319"
 		}
 		"testing"
 		{
-			"buildid" "14290343"
+			"buildid" "14612846"
 			"pwdrequired" "1"
-			"timeupdated" "1715087879"
+			"timeupdated" "1717662302"
+		}
+		"testing_demo"
+		{
+			"buildid" "14439238"
+			"pwdrequired" "1"
+			"timeupdated" "1716281387"
 		}
 	}
 }
@@ -1513,6 +1509,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23444134"
-"_sha" "57aaaa2beb70379c447ab08fa89ea21d9016a8af"
-"_size" "31496"
+"_change_number" "23852064"
+"_sha" "dc7a9e99cad1c20b4e92818e8eb768dc5a5be057"
+"_size" "31460"
