@@ -1,11 +1,11 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-06-09 16:07:17
+## 更新时间：2024-06-09 20:20:16
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 730 | Counter-Strike 2| Game |
-| 1070260 | 小生活| Game |
-| 2669360 | 神之天平外传：幻雾之洞窟| DLC |
-| 1121780 | 星位继承者| Game |
-| 2450100 | 西游幸存者| Game |
-| 573410 | AI War 2| Game |
+| 1366800 | Crosshair X| Application |
+| 1145350 | Hades II| Game |
+| 2215430 | Ghost of Tsushima导演剪辑版| Game |
+| 397220 | State of Decay: Year-One Survival Edition Soundtrack| Music |
+| 1249770 | State of Decay 2 Soundtrack| Music |
+| 1274660 | State of Decay: Original Game Soundtrack| Music |
