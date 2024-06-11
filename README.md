@@ -1,28 +1,21 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-06-11 00:07:48
+## 更新时间：2024-06-11 08:28:18
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 440900 | Conan Exiles| Game |
-| 931180 | Conan Exiles - Public Beta Client| Game |
+| 624822 | Counter-Strike: Global Offensive Steam China Edition| Config |
 | 730 | Counter-Strike 2| Game |
-| 892970 | Valheim: 英灵神殿| Game |
-| 394360 | Hearts of Iron IV| Game |
-| 2201940 | 船舶墓地模拟器2| Game |
-| 269210 | Hero Siege| Game |
-| 949480 | BROK the InvestiGator 鳄鱼侦探布罗格| Game |
-| 896660 | Valheim Dedicated Server| Tool |
-| 700580 | Rust - Staging Branch| Game |
-| 1000360 | Hellish Quart| Game |
-| 1169040 | 奈斯启示录 Necesse| Game |
-| 553850 | HELLDIVERS™ 2| Game |
-| 1169370 | Necesse Dedicated Server| Tool |
-| 1489970 | Highrise City| Game |
-| 2195250 | EA SPORTS FC™ 24| Game |
-| 1302240 | Labyrinthine| Game |
-| 2669360 | 神之天平外传：幻雾之洞窟| DLC |
-| 1644500 | 规划大师（Masterplan Tycoon)| Game |
-| 1304930 | The Outlast Trials| Game |
-| 1150090 | 学习工厂 (Learning Factory)| Game |
-| 1121780 | 星位继承者| Game |
-| 1272080 | PAYDAY3 (收获日3)  | Game |
+| 740 | Counter-Strike Global Offensive - Dedicated Server| Tool |
+| 270150 | RUNNING WITH RIFLES| Game |
+| 1652250 | 传说与战术自走棋| Game |
+| 1664220 | TRAIL OUT| Game |
+| 1436990 | Feign| Game |
+| 753640 | Outer Wilds| Game |
+| 469600 | 军团战争2 / Legion TD 2| Game |
+| 799600 | Cosmoteer: 星舰设计师| Game |
+| 1614550 | Astro Colony| Game |
+| 2662210 | Astro Colony Dedicated Server| Tool |
+| 2934900 | Astro Colony Dedicated Server Linux| Tool |
+| 1718570 | 神之天平（ASTLIBRA Revision）| Game |
+| 2440510 | Forza Motorsport 极限竞速| Game |
+| 1733670 | Astria Ascending - The Art Of Astria Ascending| DLC |
