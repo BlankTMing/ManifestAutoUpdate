@@ -1,20 +1,24 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-06-13 08:28:25
+## 更新时间：2024-06-13 16:01:03
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 740 | Counter-Strike Global Offensive - Dedicated Server| Tool |
-| 641320 | Cooking Simulator| Game |
-| 500 | Left 4 Dead| game |
-| 2139020 | What the Fog| Game |
-| 393380 | Squad| Game |
-| 513 | Left 4 Dead Authoring Tools| Tool |
-| 2430930 | ARK: Survival Ascended Dedicated Server| Tool |
-| 403240 | Squad Dedicated Server| Tool |
+| 730 | Counter-Strike 2| Game |
+| 236850 | Europa Universalis IV| Game |
+| 570 | Dota 2| game |
 | 700580 | Rust - Staging Branch| Game |
-| 1938090 | 使命召唤®| Game |
-| 245170 | Skullgirls 2nd Encore| Game |
-| 1718570 | 神之天平（ASTLIBRA Revision）| Game |
-| 1121780 | 星位继承者| Game |
+| 1277400 | Monster Hunter Stories 2: Wings of Ruin| Game |
+| 1649730 | 修仙立志传| Game |
+| 410900 | Forts| Game |
+| 1994370 | 我的幻想乡| Game |
+| 2669360 | 神之天平外传：幻雾之洞窟| DLC |
+| 2056210 | 孤星猎人| Game |
+| 1190970 | 房产达人 2| Game |
+| 1733670 | Astria Ascending - The Art Of Astria Ascending| DLC |
 | 1432860 | Sun Haven| Game |
-| 1541840 | 古剑奇谭网络版 海外版| Game |
+| 2676840 | 尘埃终须落定| Game |
+| 2530420 | 命定奇谭| Game |
+| 2073620 | Arena Breakout: Infinite| Game |
+| 1254120 | 神佑释放| Game |
+| 2593370 | 饿殍：明末千里行| Game |
+| 2165390 | 神灵石之劫 Tales of Spark| Game |
