@@ -1,12 +1,15 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-06-17 08:30:11
+## 更新时间：2024-06-17 16:01:05
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 740 | Counter-Strike Global Offensive - Dedicated Server| Tool |
-| 2055050 |   铁骑少女| Game |
-| 835960 | 塔罗斯的法则2| Game |
-| 529240 | Creature Clicker - Capture, Train, Ascend!| Game |
-| 1718570 | 神之天平（ASTLIBRA Revision）| Game |
-| 1121780 | 星位继承者| Game |
-| 1068820 | OVR Toolkit| Application |
+| 730 | Counter-Strike 2| Game |
+| 1859370 | 幸福公寓物语DX (Dream House Days DX)| Game |
+| 1658870 | New Home: Medieval Village| Game |
+| 1455910 | 领地：种田与征战| Game |
+| 2669360 | 神之天平外传：幻雾之洞窟| DLC |
+| 2340500 |  创造三国志| Game |
+| 2244130 | Ratopia| Game |
+| 1733670 | Astria Ascending - The Art Of Astria Ascending| DLC |
+| 2530420 | 命定奇谭| Game |
+| 2165390 | 神灵石之劫 Tales of Spark| Game |
