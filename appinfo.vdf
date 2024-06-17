@@ -1,0 +1,1063 @@
+"appid" "647960"
+"common"
+{
+	"name" "Rusted Warfare - RTS"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "9566c99fc8999bf0180cce353c8d0d6d006b7486"
+	"logo_small" "9566c99fc8999bf0180cce353c8d0d6d006b7486_thumb"
+	"icon" "d354109ad7689cc6d0bdeb492ea0af558b1ef71c"
+	"clienticon" "766831ec4cb185568b939130c0eab77e7cd6eaca"
+	"clienttga" "3d1f3b86688d2e1e869d75f5f104bb1c68ff4a66"
+	"releasestate" "released"
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1693267200"
+		"tested_build_id" "9902063"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_CrossPlatformCloudSavesNotSupported"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Rusted Warfare - RTS"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "37.37931326953256"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1569131392"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Corroding Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Corroding Games"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_36" "1"
+		"category_38" "1"
+		"category_27" "1"
+		"category_23" "1"
+		"category_30" "1"
+		"category_49" "1"
+		"category_9" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1500072725"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "647960"
+	"store_tags"
+	{
+		"0" "1676"
+		"1" "9"
+		"2" "7332"
+		"3" "1669"
+		"4" "3859"
+		"5" "492"
+		"6" "3871"
+		"7" "3810"
+		"8" "4182"
+		"9" "4161"
+		"10" "3964"
+		"11" "1685"
+		"12" "7107"
+		"13" "4004"
+		"14" "5752"
+		"15" "4821"
+		"16" "19"
+		"17" "1678"
+		"18" "5348"
+		"19" "1645"
+	}
+	"review_score" "9"
+	"review_percentage" "97"
+}
+"extended"
+{
+	"developer" "Corroding Games"
+	"publisher" "Corroding Games"
+	"homepage" "http://corrodinggames.com"
+}
+"config"
+{
+	"installdir" "Rusted Warfare"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Rusted Warfare.exe"
+			"arguments" "-steam"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "rustedWarfareLinux.sh"
+			"arguments" "-steam"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "rustedWarfareMac.sh"
+			"arguments" "-steam"
+			"description" "With alternative launcher"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+				"betakey" "testing"
+			}
+		}
+		"3"
+		{
+			"executable" "jvm-mac/Contents/Home/bin/Rusted Warfare"
+			"arguments" "-Xdock:name=\"Rusted Warfare\" -Xdock:icon=\"res/drawable/icon_window.png\" -Dfile.encoding=UTF-8 -Djava.library.path=. -cp \"game-lib.jar:libs/*\" com.corrodinggames.rts.java.Main -steam -log lastrun.log"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"4"
+		{
+			"executable" "Rusted Warfare - 64.exe"
+			"arguments" "-steam"
+			"description" "Rusted Warfare (64bit)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "64bit-test"
+			}
+		}
+		"5"
+		{
+			"executable" "Rusted Warfare - 64.exe"
+			"arguments" "-steam"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev-beta-old"
+			}
+			"description_loc"
+			{
+				"english" "Rusted Warfare (64bit)"
+			}
+			"description" "Rusted Warfare (64bit)"
+		}
+		"6"
+		{
+			"executable" "Rusted Warfare - 64.exe"
+			"arguments" "-steam"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev-beta-old"
+			}
+			"description_loc"
+			{
+				"english" "Rusted Warfare (64bit)"
+			}
+			"description" "Rusted Warfare (64bit)"
+		}
+		"7"
+		{
+			"executable" "Rusted Warfare - 64.exe"
+			"arguments" "-steam"
+			"description" "Rusted Warfare (64bit)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "647960"
+	"647961"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9090535937117498741"
+				"size" "109471338"
+				"download" "74100624"
+			}
+			"beta"
+			{
+				"gid" "9090535937117498741"
+				"size" "109471338"
+				"download" "74100624"
+			}
+			"old-1.09"
+			{
+				"gid" "8099493011628005531"
+				"size" "104991101"
+				"download" "69747904"
+			}
+			"old-1.10"
+			{
+				"gid" "1817591460803661457"
+				"size" "105262359"
+				"download" "69901504"
+			}
+			"old-1.11"
+			{
+				"gid" "4853642708384857877"
+				"size" "105374156"
+				"download" "70099344"
+			}
+			"old-1.12"
+			{
+				"gid" "7967816435810434777"
+				"size" "103050846"
+				"download" "67813968"
+			}
+			"old-1.13"
+			{
+				"gid" "5851008348455399493"
+				"size" "106435617"
+				"download" "71329904"
+			}
+			"old-1.13.2"
+			{
+				"gid" "2911378321683365973"
+				"size" "106753922"
+				"download" "71511024"
+			}
+			"old-1.13.3"
+			{
+				"gid" "3659625833630284058"
+				"size" "107229202"
+				"download" "71863216"
+			}
+			"old-1.14"
+			{
+				"gid" "6171879653801898124"
+				"size" "108369195"
+				"download" "73271456"
+			}
+			"old-stable"
+			{
+				"gid" "2603194275859003996"
+				"size" "104930754"
+				"download" "69689456"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha"
+			{
+				"gid" "035048F42F5C84480489D8CF5EE47FE7"
+				"size" "E922A94AD2A9EA4A7A8ED4089F68BDFC"
+				"download" "9BD336403083181C0F85F087A8F704D9"
+			}
+			"beta-incomplete"
+			{
+				"gid" "B8233A5AE7388048EAD727FE566D459D"
+				"size" "1924DCFE2327121BB71CEE78B59B79F8"
+				"download" "62FC51E1F932BAEE627D080B0534BB07"
+			}
+			"dev-beta"
+			{
+				"gid" "35EA8398F0FB9B6C7FFE7C8F874F42E5"
+				"size" "33604081F881A27586C13FB6102C1975"
+				"download" "2111065896C7B50F0314F286E899AF44"
+			}
+			"dev-beta-old"
+			{
+				"gid" "2B45FD1D4166E397FB27FD6D7CAF6039"
+				"size" "CD63C5B35D24591598B1FC7DD5CE2C6B"
+				"download" "35BA6854294E120493F328FDDA3FBBBB"
+			}
+			"next"
+			{
+				"gid" "1F78491ADE7B50ECD1DD2170A21D93D1"
+				"size" "37CDEB9F3B60BC08D0BCA5543E7E6277"
+				"download" "E54B72F4701C7A2DF1E0377D97E35E3A"
+			}
+			"old-1.15p4"
+			{
+				"gid" "875EE8FB0FE3F8EF9DE9CF4C0C34AA19"
+				"size" "DE169DA8EEEA0E5996FA2BAC2117E20F"
+				"download" "EF34A6769E1260D4D92E6FDFEF98CDD9"
+			}
+			"old-1.15p8"
+			{
+				"gid" "5480DAC63C541DC2931F830A3A7910E4"
+				"size" "99B6467DD862C7DCD2DBB11725A966B2"
+				"download" "1ED0532CAF6287E598E65A849C1B3D0E"
+			}
+			"old-beta"
+			{
+				"gid" "3F84EF3189A8CDED13551FB2B859EC46"
+				"size" "E2C2C94A229B742C9E53B37463463B18"
+				"download" "54D26D7DBAF1E49FB65EC8F45C4D889A"
+			}
+			"testing"
+			{
+				"gid" "7909520B425C82AAEC1119E5EA7416A0"
+				"size" "443DF85F8A6294F01F2112386D0BD9D1"
+				"download" "03B657C92C1A07A6A63ADBD320CBCCC4"
+			}
+			"unstable-old"
+			{
+				"gid" "6BCA6FAF215BCC1D3139D5C45763AE3E"
+				"size" "BCAA07DD8DB4B9F8E832D3D2D9E4188F"
+				"download" "9078642038403C773ED2E3E36F8DFF40"
+			}
+		}
+	}
+	"647962"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "554968099528209028"
+				"size" "181902689"
+				"download" "49857472"
+			}
+			"beta"
+			{
+				"gid" "554968099528209028"
+				"size" "181902689"
+				"download" "49857472"
+			}
+			"old-1.09"
+			{
+				"gid" "1407357636978595383"
+				"size" "171199468"
+				"download" "46507744"
+			}
+			"old-1.10"
+			{
+				"gid" "1407357636978595383"
+				"size" "171199468"
+				"download" "46507744"
+			}
+			"old-1.11"
+			{
+				"gid" "5680705045443933597"
+				"size" "176263789"
+				"download" "48536800"
+			}
+			"old-1.12"
+			{
+				"gid" "4585824677822591297"
+				"size" "176264128"
+				"download" "48537184"
+			}
+			"old-1.13"
+			{
+				"gid" "4190635393377490252"
+				"size" "176616889"
+				"download" "48673952"
+			}
+			"old-1.13.2"
+			{
+				"gid" "4190635393377490252"
+				"size" "176616889"
+				"download" "48673952"
+			}
+			"old-1.13.3"
+			{
+				"gid" "4190635393377490252"
+				"size" "176616889"
+				"download" "48673952"
+			}
+			"old-1.14"
+			{
+				"gid" "554968099528209028"
+				"size" "181902689"
+				"download" "49857472"
+			}
+			"old-stable"
+			{
+				"gid" "1407357636978595383"
+				"size" "171199468"
+				"download" "46507744"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha"
+			{
+				"gid" "50AB1C6CF449208E4061B39BB577784E"
+				"size" "611A0EFD27DCD99D6B26CC6EE85C71C6"
+				"download" "E7F60E705A6E38A80E7D9EFCCA893064"
+			}
+			"beta-incomplete"
+			{
+				"gid" "EDB475566686AA165685BB52BF70888A"
+				"size" "0A3D1069DF5B98FB0703DE0CAA5EB7FD"
+				"download" "222CC3CBAD3B83AF20B00C55BEB0A590"
+			}
+			"dev-beta"
+			{
+				"gid" "FE5DE12182E0C6C6A78BE6CC1651BC87"
+				"size" "762A4DA3F9FCD5284EB83CF9927D3B23"
+				"download" "77F784C6DF6DCFD82242A57E8243A8F7"
+			}
+			"dev-beta-old"
+			{
+				"gid" "84CB896923E13CF4558325FF65574D77"
+				"size" "2DEBEE41DC3C46230F04ECEFE1FD1330"
+				"download" "17A4FF35D0A7E480DC5155F373396222"
+			}
+			"next"
+			{
+				"gid" "05E28BC5F63A0B2A19F7A217981738AC"
+				"size" "A507DEA0B20FC44A289E16641607E4C6"
+				"download" "34389997A295D45E6C19C0D1E225CDC9"
+			}
+			"old-1.15p4"
+			{
+				"gid" "39DE40DFEA5CD6AEB8019DF2EA8F15F3"
+				"size" "BBBD0B7B5DFBB4833CC6E63D5A907DC8"
+				"download" "0BF8CDB0B1D5142EC0A8FFDC851AF7BB"
+			}
+			"old-1.15p8"
+			{
+				"gid" "BE53AADCAD3469A64E7373239808349C"
+				"size" "FD7F665AC05A925E8FAFA0E44AA6A752"
+				"download" "93BE7C1C457A5A7F3D57B45326F2B0AF"
+			}
+			"old-beta"
+			{
+				"gid" "5D8D36C97FC682A38A15536C1310C689"
+				"size" "916B7740E7A1E0B4F7C686516AE3C5D3"
+				"download" "66722EDAB3EA3CE8BFBD77C1205BB1AE"
+			}
+			"testing"
+			{
+				"gid" "AB9DCC57F1E03B8A8BB02DD5497A2EA8"
+				"size" "48EA867C58F5D598A6EA43B659A63920"
+				"download" "47B3F0E447CEFE332A533610374030A6"
+			}
+			"unstable-old"
+			{
+				"gid" "1E1012FE44E62B6852454DDED82779F0"
+				"size" "086042ACE5FD8373B544764C62D9F87F"
+				"download" "547F3DCA3916F71FA768DB40CB5D37AB"
+			}
+		}
+	}
+	"647963"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "223921525878913700"
+				"size" "212240564"
+				"download" "58041568"
+			}
+			"beta"
+			{
+				"gid" "223921525878913700"
+				"size" "212240564"
+				"download" "58041568"
+			}
+			"old-1.09"
+			{
+				"gid" "6582136765459573428"
+				"size" "212234424"
+				"download" "58040720"
+			}
+			"old-1.10"
+			{
+				"gid" "6582136765459573428"
+				"size" "212234424"
+				"download" "58040720"
+			}
+			"old-1.11"
+			{
+				"gid" "155164626163393140"
+				"size" "212239800"
+				"download" "58041536"
+			}
+			"old-1.12"
+			{
+				"gid" "155164626163393140"
+				"size" "212239800"
+				"download" "58041536"
+			}
+			"old-1.13"
+			{
+				"gid" "6066033173034463458"
+				"size" "212240352"
+				"download" "58041520"
+			}
+			"old-1.13.2"
+			{
+				"gid" "3845578337122967310"
+				"size" "212240371"
+				"download" "58041536"
+			}
+			"old-1.13.3"
+			{
+				"gid" "3845578337122967310"
+				"size" "212240371"
+				"download" "58041536"
+			}
+			"old-1.14"
+			{
+				"gid" "3845578337122967310"
+				"size" "212240371"
+				"download" "58041536"
+			}
+			"old-stable"
+			{
+				"gid" "6582136765459573428"
+				"size" "212234424"
+				"download" "58040720"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha"
+			{
+				"gid" "C64E12571EE89E706705952AFA685753"
+				"size" "2070A07104B2B44B23565F9391BD923A"
+				"download" "4BF12A5D0AD113D98018E2CFDC1755A9"
+			}
+			"beta-incomplete"
+			{
+				"gid" "14EF7E997CF76E26B776D4E794D491C5"
+				"size" "043BB00AF7AF8073D7ABBF9AFE3E3AEC"
+				"download" "0A723875003F91A444D9E235BA5B95B1"
+			}
+			"dev-beta"
+			{
+				"gid" "83CF8B43E15AB0F780958FB437788031"
+				"size" "29F1A22587E66CD39CD15E46F7F4B8CD"
+				"download" "018AC5B6C9EF585AF7D9DC6640458FAB"
+			}
+			"dev-beta-old"
+			{
+				"gid" "B085CBDC16D935868760B694F6B0CFD3"
+				"size" "7737A5AC220D2D823300FD31BDA3B014"
+				"download" "40BAABCFB6AC422B24E3AAF709FCD4F6"
+			}
+			"next"
+			{
+				"gid" "BCB8439B3AC1B4F4B652F1D6DC8C1B10"
+				"size" "38C21C84CEB9BF6DFB918654A1085EFA"
+				"download" "012B2E1264081B2650D665CC225AEE89"
+			}
+			"old-1.15p4"
+			{
+				"gid" "08C6E0C0E08A59473CDC5152A8469327"
+				"size" "804DE4694F034D12434E11B3DE85A827"
+				"download" "6564BBB2F58317913250F66776E14108"
+			}
+			"old-1.15p8"
+			{
+				"gid" "483DB432C7584231B269D14776781DDD"
+				"size" "856C18C58359793BE96B67A89976C52D"
+				"download" "5FE50513079CC024C2B510E35286BB08"
+			}
+			"old-beta"
+			{
+				"gid" "D876FCE719B7CB22278965F15661A1BE"
+				"size" "4F7AE436AF20750FE2C432BCD9A31426"
+				"download" "D992B228FD8A424F894ED910892F07C1"
+			}
+			"testing"
+			{
+				"gid" "8212E3B4E0B29B292DF073D13C101D0F"
+				"size" "C98E46CA81B85A7D8E48AC4B2729739B"
+				"download" "585E696BF1024E991AB4314320F97748"
+			}
+			"unstable-old"
+			{
+				"gid" "9F24C02B6703CF7AD4E05C108AC22A16"
+				"size" "42D14CD00A89BA77ACDA11679E2037C2"
+				"download" "1198A05E07BAB9BB1B05A15750A2E1EB"
+			}
+		}
+	}
+	"647964"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "30949111929637511"
+				"size" "172626928"
+				"download" "45571840"
+			}
+			"beta"
+			{
+				"gid" "30949111929637511"
+				"size" "172626928"
+				"download" "45571840"
+			}
+			"old-1.09"
+			{
+				"gid" "7854487927251150607"
+				"size" "172625181"
+				"download" "45571136"
+			}
+			"old-1.10"
+			{
+				"gid" "6775307569901008756"
+				"size" "172625181"
+				"download" "45571136"
+			}
+			"old-1.11"
+			{
+				"gid" "6463560487210280414"
+				"size" "172626277"
+				"download" "45571616"
+			}
+			"old-1.12"
+			{
+				"gid" "6463560487210280414"
+				"size" "172626277"
+				"download" "45571616"
+			}
+			"old-1.13"
+			{
+				"gid" "2674627422864115094"
+				"size" "172626925"
+				"download" "45571840"
+			}
+			"old-1.13.2"
+			{
+				"gid" "585378265501620248"
+				"size" "172626924"
+				"download" "45571840"
+			}
+			"old-1.13.3"
+			{
+				"gid" "585378265501620248"
+				"size" "172626924"
+				"download" "45571840"
+			}
+			"old-1.14"
+			{
+				"gid" "585378265501620248"
+				"size" "172626924"
+				"download" "45571840"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha"
+			{
+				"gid" "30310C84FED0927B7F17215B59A30B20"
+				"size" "4CF7981667A76A822133359200C96D7B"
+				"download" "66D36A16E550A83219EEBC7A5F468B23"
+			}
+			"beta-incomplete"
+			{
+				"gid" "8FB7CE0FD98CDC4830EFDEDB06607541"
+				"size" "A2500AEA71BA2375A170141DA7D96F8B"
+				"download" "FB4A46027D118780F8DC92FE77C48230"
+			}
+			"dev-beta"
+			{
+				"gid" "886B8E53BF40F0FC14776D4C4A15E810"
+				"size" "F3FD397DD95EB41101E73ECBA45F98E0"
+				"download" "5888ADA32F25B1ABFDCE97FEF9E9F36B"
+			}
+			"dev-beta-old"
+			{
+				"gid" "2A8CA513DD57DD1D1809D001F6B23903"
+				"size" "E5F76432E3A8AB31C8D8CFB6FDD9A199"
+				"download" "A04250DBCE06171C4BFF57029D69F6BB"
+			}
+			"next"
+			{
+				"gid" "D211017A8392727CFD54DF725307DCA8"
+				"size" "3AB4043F7D9469A3241AB54D7B5A9D63"
+				"download" "70599C130AB46A51536DC8DCD370D9EA"
+			}
+			"old-1.15p4"
+			{
+				"gid" "228372E46A284C64A82B0938887A5218"
+				"size" "20F13FC53C5B90962167026EA556F922"
+				"download" "FD27A9E09523266242CBF6C5C2912F5B"
+			}
+			"old-1.15p8"
+			{
+				"gid" "79DD30F18AE8CC3C282C42216164037B"
+				"size" "A239F8FCD9B16E28EEFF32B8383C5BD2"
+				"download" "F08D88A9818A82D10A0C202FE692856F"
+			}
+			"old-beta"
+			{
+				"gid" "3BCE738319586993BE08B201AA80651C"
+				"size" "0880002384A62E278D697B6338128B5C"
+				"download" "865A36530DC6291C105D6237251C82D3"
+			}
+			"testing"
+			{
+				"gid" "E121CDCF82347B289BCD3F5F872A31D2"
+				"size" "EA4A966EB8C43DC29C920DEF4C2F4F31"
+				"download" "42BBB108B695FEFAFA713ED4397CB048"
+			}
+			"unstable-old"
+			{
+				"gid" "E49D9DE2B444FDDF6242830B3C29BAF2"
+				"size" "E08589DE0D0E14AAD713DC8EDB48BB3A"
+				"download" "0CDDA1E331C32770C981A5078E790D8E"
+			}
+		}
+	}
+	"647965"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1402340403582820355"
+				"size" "239258920"
+				"download" "56445152"
+			}
+			"beta"
+			{
+				"gid" "1402340403582820355"
+				"size" "239258920"
+				"download" "56445152"
+			}
+			"old-1.12"
+			{
+				"gid" "81436618507003774"
+				"size" "239258408"
+				"download" "56444768"
+			}
+			"old-1.14"
+			{
+				"gid" "81436618507003774"
+				"size" "239258408"
+				"download" "56444768"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha"
+			{
+				"gid" "A8CFAEF9E8203EE72F982DAF47EC3112"
+				"size" "3DCCDFC17B20D46E39D57909DD57E375"
+				"download" "96B073E9C788691504AE23A34BCD23B7"
+			}
+			"beta-incomplete"
+			{
+				"gid" "11ACA4E7654997779C38D3ACA6F3EEFE"
+				"size" "6931D6242C8FEE81304C1CB9D45450FB"
+				"download" "1A16C9CA0880310715764D0D3CDCC5EC"
+			}
+			"dev-beta"
+			{
+				"gid" "444D491BF0C4B1BA63EE3AC5CCED8155"
+				"size" "CFA125644FDA9149C8456CD16975D68C"
+				"download" "A1B2FBB168EEA708B3FFD2AFE5DAC625"
+			}
+			"dev-beta-old"
+			{
+				"gid" "0E758A62EE2644A983B3378547A1D382"
+				"size" "E5B5F50CD4CC4D7163BE0E0756146ABF"
+				"download" "311FE302058CB07F001ADC14B063046E"
+			}
+			"next"
+			{
+				"gid" "E8E3EADAC9D17831C3C79B1517E3EEBE"
+				"size" "2EFB7D774CB8EA721043E6D70905F910"
+				"download" "DFA42D3C5810134E50836B5E6779D49C"
+			}
+			"old-1.15p4"
+			{
+				"gid" "05A844127723C6E905CAB9FEFCFEB6B7"
+				"size" "E123262CB4CEAB4E26459D8C851552B9"
+				"download" "20AC0603301DCC849B1109D333ADB1FE"
+			}
+			"old-1.15p8"
+			{
+				"gid" "EE09BB658BC3B3A08110E7F2FA7EBC76"
+				"size" "0A29A2A0D8055AAEEA4924217BB98783"
+				"download" "4ACE0035A0073B9EDC6E35BF5F47796F"
+			}
+			"old-beta"
+			{
+				"gid" "4863A5259ACA7663C1D784F2A682D6DA"
+				"size" "3787DE0C3B25A289C42897889D3EA6B9"
+				"download" "6AFB81483977EF21DC639AEF82E9CCED"
+			}
+			"testing"
+			{
+				"gid" "E8AB9F1129A94B8A5EAE6C8D5E7841FE"
+				"size" "68C533E6428775BC529F31040E43D915"
+				"download" "051D9A683DA8B026B9E965810B7EC4C7"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9902063"
+			"timeupdated" "1668228476"
+		}
+		"alpha"
+		{
+			"buildid" "9902063"
+			"pwdrequired" "1"
+			"timeupdated" "1668059382"
+		}
+		"beta"
+		{
+			"buildid" "9902063"
+			"description" "Current beta. (v1.15p11+)"
+			"timeupdated" "1668059487"
+		}
+		"beta-incomplete"
+		{
+			"buildid" "9400644"
+			"pwdrequired" "1"
+			"timeupdated" "1661609687"
+		}
+		"dev-beta"
+		{
+			"buildid" "9902063"
+			"pwdrequired" "1"
+			"timeupdated" "1668059413"
+		}
+		"dev-beta-old"
+		{
+			"buildid" "9836888"
+			"pwdrequired" "1"
+			"timeupdated" "1668059370"
+		}
+		"next"
+		{
+			"buildid" "9902063"
+			"pwdrequired" "1"
+			"timeupdated" "1668059433"
+		}
+		"old-1.09"
+		{
+			"buildid" "1993820"
+			"description" "Old stable version 1.09"
+			"timeupdated" "1502368314"
+		}
+		"old-1.10"
+		{
+			"buildid" "2034428"
+			"timeupdated" "1505687911"
+		}
+		"old-1.11"
+		{
+			"buildid" "2141878"
+			"timeupdated" "1526957381"
+		}
+		"old-1.12"
+		{
+			"buildid" "9828189"
+			"description" "Old stable version 1.12"
+			"timeupdated" "1667050684"
+		}
+		"old-1.13"
+		{
+			"buildid" "3358554"
+			"timeupdated" "1551575891"
+		}
+		"old-1.13.2"
+		{
+			"buildid" "3607385"
+			"timeupdated" "1567833404"
+		}
+		"old-1.13.3"
+		{
+			"buildid" "4168310"
+			"description" "Old stable version 1.13.3"
+			"timeupdated" "1605579548"
+		}
+		"old-1.14"
+		{
+			"buildid" "5843456"
+			"description" "Old stable version 1.14"
+			"timeupdated" "1668228436"
+		}
+		"old-1.15p4"
+		{
+			"buildid" "7083865"
+			"pwdrequired" "1"
+			"timeupdated" "1647405214"
+		}
+		"old-1.15p8"
+		{
+			"buildid" "8361440"
+			"pwdrequired" "1"
+			"timeupdated" "1661328961"
+		}
+		"old-beta"
+		{
+			"buildid" "5747516"
+			"pwdrequired" "1"
+			"timeupdated" "1605404011"
+		}
+		"old-stable"
+		{
+			"buildid" "1964438"
+			"timeupdated" "1500420001"
+		}
+		"testing"
+		{
+			"buildid" "9902063"
+			"pwdrequired" "1"
+			"timeupdated" "1668006836"
+		}
+		"unstable-old"
+		{
+			"buildid" "4156190"
+			"pwdrequired" "1"
+			"timeupdated" "1567745258"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "2000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "saves"
+			"pattern" "*"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23694904"
+"_sha" "9bab733f3bdb5d8a115549ba39ba4d06a281b078"
+"_size" "22536"
