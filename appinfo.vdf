@@ -55,15 +55,40 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1644969600"
-		"tested_build_id" "7558510"
+		"category" "2"
+		"test_timestamp" "1716508800"
+		"tested_build_id" "12831468"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_UnsupportedAntiCheatConfiguration"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
@@ -71,13 +96,15 @@
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "1"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "0"
+			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
-			"small_text" "0"
+			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-1RC"
 			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Insurgency: Sandstorm"
@@ -285,8 +312,8 @@
 		"10" "1685"
 		"11" "4345"
 		"12" "4667"
-		"13" "4166"
-		"14" "4026"
+		"13" "4026"
+		"14" "4166"
 		"15" "599"
 		"16" "1695"
 		"17" "128"
@@ -304,7 +331,7 @@
 	"developer" "New World Interactive"
 	"publisher" "Focus Entertainment"
 	"homepage" "https://www.focus-home.com/games/insurgency-sandstorm"
-	"listofdlc" "996220,1308180,1308181,1308182,1308183,1409140,1409141,1409142,1409143,1481110,1481111,1481112,1481113,1575020,1590710,1590711,1590712,1590713,1711180,1711181,1711182,1711183,1759140,1760280,1763080,1763081,1763082,1763083,1836470,2062370,2062371,2062372,2062373,2062374,2062375,2062376,2062377,2432520,2432521,2432522,2432523"
+	"listofdlc" "996220,1308180,1308181,1308182,1308183,1409140,1409141,1409142,1409143,1481110,1481111,1481112,1481113,1575020,1590710,1590711,1590712,1590713,1711180,1711181,1711182,1711183,1759140,1760280,1763080,1763081,1763082,1763083,1836470,2062370,2062371,2062372,2062373,2062374,2062375,2062376,2062377,2432520,2432521,2432522,2432523,2606030,2606040,2606050,2606060"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -407,9 +434,9 @@
 		{
 			"public"
 			{
-				"gid" "1995655377848812199"
-				"size" "26745219920"
-				"download" "23212978128"
+				"gid" "1169580707599172979"
+				"size" "28945045801"
+				"download" "25075844320"
 			}
 		}
 		"encryptedmanifests"
@@ -420,29 +447,11 @@
 				"size" "1B995483CA9A73E1C977082F2C64FEB7"
 				"download" "EF946D0CBFCE81BF0574B3240B5D4705"
 			}
-			"ss_evaluation_1"
-			{
-				"gid" "431BCF3EEF3A8EE9D7C230E875596DF5"
-				"size" "8CBF14D95CED7640C1D9CF2FF4235D5F"
-				"download" "B4A06F34AAF76906FA6A965747083061"
-			}
-			"ss_external_1"
-			{
-				"gid" "C7A4C7F7C3AB2218E6D1F6E7EE8500AC"
-				"size" "6E737CDE9A7FB7DFC345DECE12AA2BEC"
-				"download" "9353997B0ACB0AB9194FFDE0CB66429D"
-			}
 			"ss_external_2"
 			{
 				"gid" "BBC505796934B76E3CE03C03E1B616B4"
 				"size" "82FA9B3150DC82640A1579DFE956D0A0"
 				"download" "237FFD19FB2C832C425DAA1EC0333C56"
-			}
-			"ss_main_2"
-			{
-				"gid" "E3B787F6018DC63957069540F0DEE33A"
-				"size" "3FA156DD88531A62FB632E6F487BDE37"
-				"download" "A42D2EE1B0A2752A7B0D8AE455EBA01C"
 			}
 			"streams"
 			{
@@ -474,17 +483,35 @@
 				"size" "32F5941CD8054A80D2F329B11DE97405"
 				"download" "3D3FE8CF199A108120A663BCFB7126E4"
 			}
+			"ss_evaluation_1"
+			{
+				"gid" "70444A95146C7E45DC939ABA55143841"
+				"size" "FFC78426954340D399ED0F536FAFA22F"
+				"download" "01256F8A2FBDA1B1CB751B9DA4A5903D"
+			}
+			"ss_external_1"
+			{
+				"gid" "0E60BEAEEE46C79919D9D2DC09580D05"
+				"size" "6723F02BDDB6836124F97883F3A75495"
+				"download" "CC0AD3AFC89DA253BC2913D8B8719E7A"
+			}
 			"ss_external_3"
 			{
-				"gid" "EAC73D8C1499E5E8F8C77CB30C3A34FB"
-				"size" "69BA99EADA405F236B69E93D27E9B21E"
-				"download" "27D1244E3F87BF8A87E4E45B6D9E0D1B"
+				"gid" "4FEB3FF5A726EA4775ADE58BA495694D"
+				"size" "8AD3364385CCF7278B2D84F02F8AD05F"
+				"download" "4DDA6968DD80BA8BBC67AC979D504688"
 			}
 			"ss_main_1"
 			{
 				"gid" "776BC5451A30B8C23D236637383F6675"
 				"size" "81B285C39D0ABCE9F56C5AEF797A8A35"
 				"download" "3D3E33812CB20289047039D1C5B3FE6F"
+			}
+			"ss_main_2"
+			{
+				"gid" "ACFCAD55077781B7E5C595735A3569CB"
+				"size" "141E3DDCDDACC85644364F1010CDA629"
+				"download" "5504D4ECE0ED39EB7B5F926D081D2949"
 			}
 		}
 	}
@@ -513,29 +540,11 @@
 				"size" "C23EED500B40EEA74D4FF28AB526DFB1"
 				"download" "C23EED500B40EEA74D4FF28AB526DFB1"
 			}
-			"ss_evaluation_1"
-			{
-				"gid" "99C9550B8E9DA950F9F2341BAFC69D13"
-				"size" "55FF0B01155AD84B159B46E4C67652B4"
-				"download" "55FF0B01155AD84B159B46E4C67652B4"
-			}
-			"ss_external_1"
-			{
-				"gid" "C013B77578D78A44AD8D0A488CF59C87"
-				"size" "F61134EAB5E6BCCE17D99935F7CE622F"
-				"download" "F61134EAB5E6BCCE17D99935F7CE622F"
-			}
 			"ss_external_2"
 			{
 				"gid" "81689D58CEDAFBA56240B879EC3840CA"
 				"size" "9ED4225F8DF7BE80D845DC75AC7DE90B"
 				"download" "9ED4225F8DF7BE80D845DC75AC7DE90B"
-			}
-			"ss_main_2"
-			{
-				"gid" "FA1A8F95F3FA1CEB10858FF0CEC408F6"
-				"size" "2B7C4CEC393C8E176C7B419AF74F9168"
-				"download" "2B7C4CEC393C8E176C7B419AF74F9168"
 			}
 			"streams"
 			{
@@ -567,6 +576,18 @@
 				"size" "82624BB266185110DA8041423A30B1CA"
 				"download" "82624BB266185110DA8041423A30B1CA"
 			}
+			"ss_evaluation_1"
+			{
+				"gid" "99C9550B8E9DA950F9F2341BAFC69D13"
+				"size" "55FF0B01155AD84B159B46E4C67652B4"
+				"download" "55FF0B01155AD84B159B46E4C67652B4"
+			}
+			"ss_external_1"
+			{
+				"gid" "C013B77578D78A44AD8D0A488CF59C87"
+				"size" "F61134EAB5E6BCCE17D99935F7CE622F"
+				"download" "F61134EAB5E6BCCE17D99935F7CE622F"
+			}
 			"ss_external_3"
 			{
 				"gid" "E293D2171DF0527A2CE28C8F0986C6AF"
@@ -578,6 +599,12 @@
 				"gid" "984306652C070A11D175FAC45B12B9F1"
 				"size" "366E89F23AD859BE1F2EA2692FAA1B62"
 				"download" "366E89F23AD859BE1F2EA2692FAA1B62"
+			}
+			"ss_main_2"
+			{
+				"gid" "FA1A8F95F3FA1CEB10858FF0CEC408F6"
+				"size" "2B7C4CEC393C8E176C7B419AF74F9168"
+				"download" "2B7C4CEC393C8E176C7B419AF74F9168"
 			}
 		}
 	}
@@ -753,36 +780,18 @@
 		{
 			"public"
 			{
-				"gid" "1836275767787197352"
-				"size" "6137837751"
-				"download" "5161505312"
+				"gid" "8847708326865706317"
+				"size" "6889307502"
+				"download" "5812261680"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"ss_evaluation_1"
-			{
-				"gid" "E532BBF966ECB6100950709B39E3DE6B"
-				"size" "F219787AA996A932E5A7E265872DF2DA"
-				"download" "2C14EB919A42FFEE94D9C4C9858F2A25"
-			}
-			"ss_external_1"
-			{
-				"gid" "D701F6AA8E45B74E5DB60470A05C7C1E"
-				"size" "5DDB126D20509BCEAF04A9E7479B722B"
-				"download" "A9D53ACB3F9F2D89065A00BAA3534357"
-			}
 			"ss_external_2"
 			{
 				"gid" "5A59AE26717D6997316B8D8CB99D428F"
 				"size" "68D20579BFEB81C4254A682CB4F0BEF2"
 				"download" "637018258896E48C8C59A4E023B30834"
-			}
-			"ss_main_2"
-			{
-				"gid" "DCB9D571B3E94233218EB151D9187D6E"
-				"size" "2190988F699167F32D6482AC953CE468"
-				"download" "B2A36BBDBE58AF5763726C1FD9BF70E2"
 			}
 			"streams"
 			{
@@ -814,11 +823,23 @@
 				"size" "A81ECD42B40D85E4BB75564711D0EB26"
 				"download" "73B894FAB66DE88D87F0F2C1B4CC2812"
 			}
+			"ss_evaluation_1"
+			{
+				"gid" "47640128A9629C556F34FDC75B16A05A"
+				"size" "179003F080396272FD74A5A6249EAFE0"
+				"download" "6C84C6AC69D6E2A6EF9A9C8DC4246728"
+			}
+			"ss_external_1"
+			{
+				"gid" "742D12E856840390F36C56172C43A8D1"
+				"size" "26B007A86854256290FB0FFD24EDA2BC"
+				"download" "C889E1B3BBD68DA679F51E974F8EA3D9"
+			}
 			"ss_external_3"
 			{
-				"gid" "9C0262FBE16B0264B947E075B6EDF8E0"
-				"size" "404DF0BCFB0049DA82BB55A6E1CDB702"
-				"download" "E20344345FC295B2D18D96EC26EEF08C"
+				"gid" "E950169C5B6A9388717BC43C843C05A5"
+				"size" "05EF81C4AC04FBFCA5390030FA6F04CA"
+				"download" "53FAAA9FD55A2C56F3900D53088B6CEC"
 			}
 			"ss_main_1"
 			{
@@ -826,14 +847,20 @@
 				"size" "F87775DCB5A3E17FCB81F8D3A650DFD6"
 				"download" "561FC958C80D0F5DC019C9337D1DDBE0"
 			}
+			"ss_main_2"
+			{
+				"gid" "8CC38F2DC6BB807AA1991A19DA5D3E4D"
+				"size" "7FE76BEA5B350A70FEDAC6B65775DB9B"
+				"download" "F51250D3D083B0F084C4274167BB20C1"
+			}
 		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "14331776"
-			"timeupdated" "1716393462"
+			"buildid" "14463188"
+			"timeupdated" "1718726549"
 		}
 		"recording"
 		{
@@ -841,29 +868,11 @@
 			"pwdrequired" "1"
 			"timeupdated" "1543964714"
 		}
-		"ss_evaluation_1"
-		{
-			"buildid" "9857368"
-			"pwdrequired" "1"
-			"timeupdated" "1668123293"
-		}
-		"ss_external_1"
-		{
-			"buildid" "13310175"
-			"pwdrequired" "1"
-			"timeupdated" "1706600950"
-		}
 		"ss_external_2"
 		{
 			"buildid" "12831379"
 			"pwdrequired" "1"
 			"timeupdated" "1701284004"
-		}
-		"ss_main_2"
-		{
-			"buildid" "11769851"
-			"pwdrequired" "1"
-			"timeupdated" "1690358484"
 		}
 		"streams"
 		{
@@ -895,17 +904,35 @@
 			"pwdrequired" "1"
 			"timeupdated" "1674662214"
 		}
+		"ss_evaluation_1"
+		{
+			"buildid" "14463188"
+			"pwdrequired" "1"
+			"timeupdated" "1717756910"
+		}
+		"ss_external_1"
+		{
+			"buildid" "14463188"
+			"pwdrequired" "1"
+			"timeupdated" "1717658540"
+		}
 		"ss_external_3"
 		{
-			"buildid" "14451063"
+			"buildid" "14536590"
 			"pwdrequired" "1"
-			"timeupdated" "1716359660"
+			"timeupdated" "1717003098"
 		}
 		"ss_main_1"
 		{
 			"buildid" "14331606"
 			"pwdrequired" "1"
 			"timeupdated" "1715375476"
+		}
+		"ss_main_2"
+		{
+			"buildid" "14750935"
+			"pwdrequired" "1"
+			"timeupdated" "1718690886"
 		}
 	}
 }
@@ -1033,6 +1060,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23646361"
-"_sha" "0f77a7355f5988c957b46644f3a573d4197bc35e"
-"_size" "21986"
+"_change_number" "24020272"
+"_sha" "4b1e620abda3bd576f973e933d5e02eba141d93c"
+"_size" "22709"
