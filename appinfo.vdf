@@ -41,15 +41,30 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1697846400"
-		"tested_build_id" "11669853"
+		"category" "2"
+		"test_timestamp" "1706227200"
+		"tested_build_id" "12285129"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
 		}
 		"configuration"
@@ -57,7 +72,7 @@
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "1"
+			"primary_player_is_controller_slot_0" "0"
 			"non_deck_display_glyphs" "1"
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
@@ -65,6 +80,7 @@
 			"recommended_runtime" "proton-stable"
 			"requires_h264" "1"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Hot Lava"
@@ -85,6 +101,7 @@
 		"library_capsule" "en,zh-cn"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "CenterCenter"
@@ -129,6 +146,7 @@
 		"category_22" "1"
 		"category_28" "1"
 		"category_49" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -294,30 +312,30 @@
 		{
 			"public"
 			{
-				"gid" "389167875603726351"
-				"size" "10567390787"
-				"download" "5023083072"
+				"gid" "1960585563031408044"
+				"size" "10918660022"
+				"download" "5229398160"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"beta"
 			{
-				"gid" "3367389D205A4C1FA0A742792333B876"
-				"size" "89CD8E984388278DA104C7580274F8AD"
-				"download" "5C8EA27141E62FC0FFE4CAC8C46E84D7"
+				"gid" "71D94084A9AF5D59DAD95EF42B3260FD"
+				"size" "248F984146633F4AC3D5E856B076CC75"
+				"download" "6AD7D93B6D1371BD873EFFE067AB93D3"
 			}
 			"lastknowngood"
 			{
-				"gid" "6C5B6690F482FF0E5509F5A1CC2CFCD0"
-				"size" "2C8116F8E96FB80424E33C4A1B6F0CAB"
-				"download" "83BF656AB9BC6E1637FB49004303E07B"
+				"gid" "EDF115DFDCC6FED617726E2AFBFD5578"
+				"size" "DECBD854CBEBAF55F36F6D9B68D64D08"
+				"download" "88161E86F78B07A91D423206590AFB79"
 			}
 			"nightly"
 			{
-				"gid" "9F0C428753332C333D4DF14EC147E0DC"
-				"size" "11DCB0003CC54B1148B4753BEF8ECC6C"
-				"download" "4B9C103A01C51B129C3095549AFF1465"
+				"gid" "2C78CE7B9C95907925C64D83DBBCD5F0"
+				"size" "1B6A1834DC11D68EAA0BD9358D114D99"
+				"download" "370D6161BC8F1E8B869669C6F3D586BD"
 			}
 		}
 	}
@@ -325,26 +343,26 @@
 	{
 		"public"
 		{
-			"buildid" "12285129"
-			"timeupdated" "1696352242"
+			"buildid" "14649435"
+			"timeupdated" "1718903491"
 		}
 		"beta"
 		{
-			"buildid" "12285129"
+			"buildid" "14649435"
 			"pwdrequired" "1"
-			"timeupdated" "1695726846"
+			"timeupdated" "1717844609"
 		}
 		"lastknowngood"
 		{
-			"buildid" "11669853"
+			"buildid" "12285129"
 			"pwdrequired" "1"
-			"timeupdated" "1696352164"
+			"timeupdated" "1718903457"
 		}
 		"nightly"
 		{
-			"buildid" "12999845"
+			"buildid" "14753488"
 			"pwdrequired" "1"
-			"timeupdated" "1702985758"
+			"timeupdated" "1718706965"
 		}
 	}
 }
@@ -364,6 +382,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21597939"
-"_sha" "04edfb007d5fa64e987950fcb901c908dc4f0027"
-"_size" "6707"
+"_change_number" "24053741"
+"_sha" "38c25b4d22a056a34698f86ff7bf3a05caa5bddb"
+"_size" "7153"
