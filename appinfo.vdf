@@ -1,15 +1,54 @@
 "appid" "2663530"
 "common"
 {
-	"name" "Pools"
+	"name" "POOLS"
 	"type" "Game"
 	"clienticon" "60c8bbdf8667b63e54bbefaab00e49137dee4e88"
 	"clienttga" "c68bee1464476db353a1782ce35367a33569acc7"
 	"icon" "9413185fa778fa7758f130b5589f22b9d34c2019"
 	"releasestate" "released"
-	"oslist" "windows"
+	"oslist" "windows,macos,linux"
 	"osarch" ""
-	"osextended" ""
+	"osextended" "macos64,macosapplesilicon,macosnotarized"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1715817600"
+		"tested_build_id" "14211629"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -45,6 +84,11 @@
 		{
 			"type" "publisher"
 			"name" "Tensori"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "UNIKAT Label"
 		}
 	}
 	"primary_genre" "25"
@@ -713,7 +757,7 @@
 		"19" "8369"
 	}
 	"review_score" "8"
-	"review_percentage" "93"
+	"review_percentage" "94"
 }
 "extended"
 {
@@ -730,11 +774,32 @@
 		{
 			"executable" "POOLS.exe"
 			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "POOLS.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "POOLS.x86_64"
+			"config"
+			{
+				"oslist" "linux"
+			}
 		}
 	}
 }
 "depots"
 {
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,finnish,hungarian,czech,turkish,arabic,brazilian,greek,ukrainian,latam,indonesian"
 	"2663531"
 	{
 		"config"
@@ -745,34 +810,83 @@
 		{
 			"public"
 			{
-				"gid" "8984270764704374837"
-				"size" "1988929589"
-				"download" "913393408"
+				"gid" "3410095994343535477"
+				"size" "2016619545"
+				"download" "907984000"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"internal"
 			{
-				"gid" "2826500850FC07F05690220EFAB57F05"
-				"size" "E7FCB58CE921D9F9FA825B35ACBAA31D"
-				"download" "C107A67D53E4B615C3453E33013ED549"
+				"gid" "C28A551B8D9E5B2AA7B4D495F186070A"
+				"size" "F2AF97C0422C01551A75C6A4B2E8CA2B"
+				"download" "956551070E93869E2B3A5470BF9A0260"
 			}
 		}
 	}
-	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,finnish,hungarian,czech,turkish,arabic,brazilian,ukrainian,latam,indonesian"
+	"2663533"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6552084072648259899"
+				"size" "2015850379"
+				"download" "896730240"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "A3EC9D06A9F9E52CD6B71BC296E515BB"
+				"size" "A223C865EF1B932B65189B058D893CF4"
+				"download" "B450EF5C70964E6E44882D9B1D0E262E"
+			}
+		}
+	}
+	"2663532"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3590174018601143663"
+				"size" "2167247950"
+				"download" "914348336"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "6B008D9E0DECDFEA2493DE9D6311847D"
+				"size" "251CF074394D2AC824C7593E04AD4321"
+				"download" "18F22FF6378A06354DDC34C96F9360D9"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "14211629"
-			"timeupdated" "1714411878"
+			"buildid" "14736392"
+			"timeupdated" "1718573713"
 		}
 		"internal"
 		{
-			"buildid" "14220351"
+			"buildid" "14722423"
 			"pwdrequired" "1"
-			"timeupdated" "1714476587"
+			"timeupdated" "1718389392"
 		}
 	}
 }
@@ -817,6 +931,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23491001"
-"_sha" "90fda8b4a60c1bb06b163b47616cf19971972991"
-"_size" "13324"
+"_change_number" "24059091"
+"_sha" "4a7e12950989da7c72ba2cd6f039e2758f9d7bd8"
+"_size" "15495"
