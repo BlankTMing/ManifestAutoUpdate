@@ -1,0 +1,733 @@
+"appid" "1205550"
+"common"
+{
+	"name" "New World Public Test Realm"
+	"section_type" "ownersonly"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"polish" "1"
+		"brazilian" "1"
+		"latam" "1"
+	}
+	"clienttga" "b4cecb811bfdbbb5da76d0b1ea0b5f9efc449558"
+	"clienticon" "35cb0c4a41ddd6ab7098e8c1137faa421919006d"
+	"icon" "082cb546221edf8c9e68d0abda0421ce3c55ee71"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "1205550_eula_0"
+			"name" "New World Public Test Realm EULA"
+			"url" "https://store.steampowered.com//eula/1205550_eula_0"
+			"version" "3"
+		}
+	}
+	"logo" "fc470c27442c6c1cecef38d2df50e57fbb0f8f42"
+	"logo_small" "fc470c27442c6c1cecef38d2df50e57fbb0f8f42_thumb"
+	"exfgls" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1651104000"
+		"tested_build_id" "8601548"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "55.134189031505244"
+			"height_pct" "57.599145096176684"
+		}
+	}
+	"store_asset_mtime" "1674060687"
+	"associations"
+	{
+	}
+	"community_visible_stats" "1"
+	"gameid" "1205550"
+	"store_tags"
+	{
+	}
+}
+"extended"
+{
+	"anti_cheat_support_url" ""
+	"homepage" "https://www.newworld.com"
+}
+"config"
+{
+	"installdir" "New World Public Test Realm"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "NewWorldLauncher.exe"
+			"arguments" "-Cluster iad-prod"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "New World Public Test Realm"
+			}
+			"description" "New World Public Test Realm"
+		}
+		"2"
+		{
+			"executable" "bin65\\NewWorld.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "1210580"
+			}
+			"description_loc"
+			{
+				"english" "GM Client "
+			}
+			"description" "GM Client "
+		}
+		"3"
+		{
+			"executable" "bin.debug\\NewWorld.exe"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "1258720"
+			}
+			"description_loc"
+			{
+				"english" "Release Client for Debugging"
+			}
+			"description" "Release Client for Debugging"
+		}
+		"5"
+		{
+			"executable" "NewWorldLauncher.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "alpha"
+			}
+			"description_loc"
+			{
+				"english" "New World PTR - QA Release Testing"
+			}
+			"description" "New World PTR - QA Release Testing"
+		}
+		"9"
+		{
+			"executable" "NewWorldLauncher.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "scale-test"
+			}
+			"description_loc"
+			{
+				"english" "New World PTR - Scale Test"
+			}
+			"description" "New World PTR - Scale Test"
+		}
+		"10"
+		{
+			"executable" "NewWorldLauncher.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "default-test"
+			}
+			"description_loc"
+			{
+				"english" "New World PTR - Default-Test"
+			}
+			"description" "New World PTR - Default-Test"
+		}
+		"11"
+		{
+			"executable" "Bin64\\NewWorld.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "graphics"
+			}
+			"description_loc"
+			{
+				"english" "New World PTR - Graphics (Release)"
+			}
+			"description" "New World PTR - Graphics (Release)"
+		}
+	}
+}
+"depots"
+{
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1205551"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2599863629740315734"
+				"size" "82787970548"
+				"download" "73672588608"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bug-bounty"
+			{
+				"gid" "637F66BF021F54F914A50681643679E3"
+				"size" "2A14C0358BBDA1071C3D285E0ABE18AD"
+				"download" "7E998C0C9D42F689280F5EA67322D6CF"
+			}
+			"default-test"
+			{
+				"gid" "75A30182EE56323A3ECF9AB79CEE1F7B"
+				"size" "D50AF59AB4219C2D100B2531509FFF8D"
+				"download" "B6A2112D8C69AE97408B20FE2BDD29D3"
+			}
+			"scale-test"
+			{
+				"gid" "F92025B6F0797C6B140CFAE393FDDE03"
+				"size" "E9FF1EA31939295BC00FCCA4474925A8"
+				"download" "AEEB1FB93D47DAD7141B8FADBE689675"
+			}
+			"beta-gm"
+			{
+				"gid" "B6FBD02F881CC860183B0B6EEAD5FB2C"
+				"size" "EED7C032E8CE82B5A687D991CF908211"
+				"download" "23C391BC8F5C7DD3C6B4C95A2F96E0EC"
+			}
+			"graphics"
+			{
+				"gid" "67CB1A796B215742D273A45327579951"
+				"size" "A12A31E01252ED33EE84FD961A9B9459"
+				"download" "AEEEF5485BA99902260A1A868C9CF4CD"
+			}
+		}
+	}
+	"1210580"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"dlcappid" "1210580"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5391665789206368920"
+				"size" "207961256"
+				"download" "55495712"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bug-bounty"
+			{
+				"gid" "1C8966DB25727FE4ACA5E4A3D4AA81AA"
+				"size" "358615DAD287D72350D464C5A359C9C6"
+				"download" "56C196F2AA41556C1706DD916E2A958A"
+			}
+			"default-test"
+			{
+				"gid" "84B5DA334E4FB25DDEBE883B56F6755D"
+				"size" "F105C1749118E5EF468299C5FCC931E5"
+				"download" "AA8A98D26D142CD579323CEE33202CC5"
+			}
+			"scale-test"
+			{
+				"gid" "54174365220D7315014722CB93EB9D94"
+				"size" "5450F1CAF2C3426E26D0EB2235FE76DA"
+				"download" "E76BD2D73B9D5CA2807669B9638266D9"
+			}
+			"beta-gm"
+			{
+				"gid" "788D0D9451C52F6DDE45DB6285F61AD1"
+				"size" "BD0062D92F2F1CF9FDF2636CB864D40D"
+				"download" "DE939FA9B0094AF3038465409FED9C94"
+			}
+			"graphics"
+			{
+				"gid" "768D609E0F4CC0AB4C55CF881083D41C"
+				"size" "9C7F9E93E0791949673EF8B0917F5376"
+				"download" "1CA6761B73679ED55BDFEFDC66D49B59"
+			}
+		}
+	}
+	"1205552"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "135389969197714374"
+				"size" "39"
+				"download" "96"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bug-bounty"
+			{
+				"gid" "95667C00D4C5F5676FD36D1F7698CC18"
+				"size" "D0D0F7B7698E18A42CCAF9F1E7F40E15"
+				"download" "04282CB82967EEA36847CE4758E908A2"
+			}
+			"default-test"
+			{
+				"gid" "1783F9FCB8D5BA6A36F637A574D5553C"
+				"size" "1F42E3716C3E4E3C3282B641D517FB65"
+				"download" "04A0A9B81224A9CFE4C4CEA5E57B6A42"
+			}
+			"scale-test"
+			{
+				"gid" "98837D76C37746BEDE075E3F98EDB0CB"
+				"size" "000E6C1354F724E8C626D784A7B07D11"
+				"download" "BDE5241F168C9E33914D2C727B6629FB"
+			}
+			"beta-gm"
+			{
+				"gid" "F7CD3BDD05429F71791873FA6EB98ECB"
+				"size" "91F189C7627F1407CA89BC7803F26104"
+				"download" "C3A0D8AF965E44AC15CC3CF029329A9E"
+			}
+			"graphics"
+			{
+				"gid" "EF420495D024D6E9EB613503227685BF"
+				"size" "649D19CA136C8455E4A2CCF6B7474D40"
+				"download" "59981E01CD8CECFEEA5BF89EAAB2A947"
+			}
+		}
+	}
+	"1258720"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"dlcappid" "1258720"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3048995655699392825"
+				"size" "465174143"
+				"download" "114616000"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bug-bounty"
+			{
+				"gid" "A625510816A2785150E59EBAEDFF2179"
+				"size" "5CD767D64F76BF226BE1E7D88D3B3D14"
+				"download" "A4BC89576B013DF97082D0D419EEF8E9"
+			}
+			"default-test"
+			{
+				"gid" "AC576464157E7BC1723AC2999CF9E5A2"
+				"size" "75141C9C7730C7FD7C53E67CFF611A58"
+				"download" "BD28FB2D83F90563F2B33BFA779C798B"
+			}
+			"scale-test"
+			{
+				"gid" "E8EE9A894B950952E77EE6DF15D39395"
+				"size" "AEE67C9C9A1A831914036479FC71CE2F"
+				"download" "DEF5314852F781C4B9C1CFCBABF40FC1"
+			}
+			"beta-gm"
+			{
+				"gid" "CA81DB58604F1A5D3EA02F4A4C2CA9A3"
+				"size" "7432B1B158F531CE34CFA47C5DAFDD2B"
+				"download" "8EEE5CEAD91A6AC6613ED03A5B14B0DD"
+			}
+			"graphics"
+			{
+				"gid" "225672BF51C17AB13414EB754ACCD6D9"
+				"size" "4D822593C0A68F895AF4B50F25C4F73F"
+				"download" "5E419454474A4FD4F2F3759C77BFF563"
+			}
+		}
+	}
+	"1210581"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"beta-gm"
+			{
+				"gid" "B60B0679176A5BB3738AE6D78C4736D1"
+				"size" "3A7646B1C3496CD1E7BF989D26B40FDD"
+				"download" "17462FB690F6BF033C5C33313402DD22"
+			}
+			"graphics"
+			{
+				"gid" "985BD7F6A5F5735F90A89B048F99E139"
+				"size" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+				"download" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+			}
+		}
+	}
+	"1210582"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"beta-gm"
+			{
+				"gid" "098C1ACE35D0641C5C4FCD1A9396E758"
+				"size" "6677F29F6D31C93EE05B8F9DEF954A00"
+				"download" "F4D279C305052890E801A67F2D6C70FB"
+			}
+			"graphics"
+			{
+				"gid" "0B6B619F42DC105520C360FCEF6309ED"
+				"size" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+				"download" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+			}
+		}
+	}
+	"1210583"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"beta-gm"
+			{
+				"gid" "55EA647072CF8DA89114E060E091A126"
+				"size" "D52A70E12DCAD429147147643F7D8AF0"
+				"download" "FD381674E9BF9DEFCA263B6ABAADE5A5"
+			}
+			"graphics"
+			{
+				"gid" "B461D26D3E18F82D678FC2696C4C3754"
+				"size" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+				"download" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+			}
+		}
+	}
+	"1210584"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"beta-gm"
+			{
+				"gid" "8DC75833C077A5C3B11C64113F04E6EA"
+				"size" "F5D500A122315A063371C1365F1567C9"
+				"download" "5510CF025947CC03DEF5B43872AC28F8"
+			}
+			"graphics"
+			{
+				"gid" "5463A4BEBEF3A1995194FCA6A0164941"
+				"size" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+				"download" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+			}
+		}
+	}
+	"1210585"
+	{
+		"config"
+		{
+			"language" "brazilian"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"beta-gm"
+			{
+				"gid" "727F5A9C7CF8CB7A39AEC27F9565A029"
+				"size" "697E3E75042245B5A099B0917DAAFA69"
+				"download" "24F6A680DEE41B9F2A3352D1C982CBE6"
+			}
+			"graphics"
+			{
+				"gid" "1F45669F9DF5B87D3DC16D12E43602B7"
+				"size" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+				"download" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+			}
+		}
+	}
+	"1210586"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"beta-gm"
+			{
+				"gid" "A5DF9B4BB1B98CC8813B391E4B2E54EB"
+				"size" "3A7646B1C3496CD1E7BF989D26B40FDD"
+				"download" "17462FB690F6BF033C5C33313402DD22"
+			}
+			"graphics"
+			{
+				"gid" "0E171D31B855743A0D9081367DB00727"
+				"size" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+				"download" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+			}
+		}
+	}
+	"1210587"
+	{
+		"config"
+		{
+			"language" "polish"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"beta-gm"
+			{
+				"gid" "44BDE09B93ED69F175FE2007E416A936"
+				"size" "3A7646B1C3496CD1E7BF989D26B40FDD"
+				"download" "17462FB690F6BF033C5C33313402DD22"
+			}
+			"graphics"
+			{
+				"gid" "D7ED181C1A3CD5C91650C5D056CAFCA1"
+				"size" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+				"download" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+			}
+		}
+	}
+	"1210588"
+	{
+		"config"
+		{
+			"language" "latam"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"beta-gm"
+			{
+				"gid" "67E7E374FFAF930228405F00940AB0E3"
+				"size" "F5D500A122315A063371C1365F1567C9"
+				"download" "5510CF025947CC03DEF5B43872AC28F8"
+			}
+			"graphics"
+			{
+				"gid" "189272133E2B658FF0416839CA31C666"
+				"size" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+				"download" "B1BE6081D34B2F04EE2EADBC1DEF32F0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13547262"
+			"timeupdated" "1708717981"
+		}
+		"bug-bounty"
+		{
+			"buildid" "13467832"
+			"pwdrequired" "1"
+			"timeupdated" "1708039866"
+		}
+		"default-test"
+		{
+			"buildid" "13158717"
+			"pwdrequired" "1"
+			"timeupdated" "1705076783"
+		}
+		"scale-test"
+		{
+			"buildid" "12146262"
+			"pwdrequired" "1"
+			"timeupdated" "1694212037"
+		}
+		"beta-gm"
+		{
+			"buildid" "14799793"
+			"pwdrequired" "1"
+			"timeupdated" "1719007558"
+		}
+		"graphics"
+		{
+			"buildid" "14564223"
+			"pwdrequired" "1"
+			"timeupdated" "1717177742"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "24072787"
+"_sha" "4b67faad8c23e5740ccd6fe33295ebe1f3d23874"
+"_size" "14491"
