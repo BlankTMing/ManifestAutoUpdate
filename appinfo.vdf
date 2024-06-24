@@ -211,8 +211,8 @@
 	{
 		"0" "1695"
 		"1" "1199779"
-		"2" "4166"
-		"3" "1708"
+		"2" "1708"
+		"3" "4166"
 		"4" "3859"
 		"5" "1663"
 		"6" "1759"
@@ -249,7 +249,7 @@
 	"developer" "Crytek"
 	"publisher" "Crytek"
 	"homepage" "https://www.huntshowdown.com/"
-	"listofdlc" "1143840,1166470,1166471,1166472,1180490,1180491,1191490,1225140,1228530,1255000,1255001,1304600,1304601,1374340,1397380,1397381,1530430,1576410,1586080,1610550,1643020,1674570,1674580,1720670,1761570,1784870,1784880,1852470,1852480,1887100,1906330,1966460,2014790,2081520,2100450,2133640,2160020,2160330,2200640,2272500,2272530,2304380,2304500,2407940,2407941,2430650,2531020,2581740,2585200,2643040,2643050,2719560"
+	"listofdlc" "1143840,1166470,1166471,1166472,1180490,1180491,1191490,1225140,1228530,1255000,1255001,1304600,1304601,1374340,1397380,1397381,1530430,1576410,1586080,1610550,1643020,1674570,1674580,1720670,1761570,1784870,1784880,1852470,1852480,1887100,1906330,1966460,2014790,2081520,2100450,2133640,2160020,2160330,2200640,2272500,2272530,2304380,2304500,2407940,2407941,2430650,2531020,2581740,2585200,2643040,2643050,2719560,2839560"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -278,7 +278,7 @@
 			{
 				"oslist" "windows"
 				"osarch" "64"
-				"betakey" "qa_testroom latest"
+				"betakey" "qa_testroom latest qa_testroom2"
 			}
 			"description_loc"
 			{
@@ -295,7 +295,7 @@
 			{
 				"oslist" "windows"
 				"osarch" "64"
-				"betakey" "qa_testroom latest"
+				"betakey" "qa_testroom latest qa_testroom2"
 			}
 			"description_loc"
 			{
@@ -312,7 +312,7 @@
 			{
 				"oslist" "windows"
 				"osarch" "64"
-				"betakey" "qa_testroom latest"
+				"betakey" "qa_testroom latest qa_testroom2"
 			}
 			"description_loc"
 			{
@@ -329,7 +329,7 @@
 			{
 				"oslist" "windows"
 				"osarch" "64"
-				"betakey" "qa_testroom latest"
+				"betakey" "qa_testroom latest qa_testroom2"
 			}
 			"description_loc"
 			{
@@ -341,14 +341,18 @@
 		{
 			"executable" "hunt.exe"
 			"arguments" "+online_account_client_settings stage_external"
-			"description" "test server"
 			"type" "option1"
 			"config"
 			{
 				"oslist" "windows"
 				"osarch" "64"
-				"betakey" "qa_testroom latest"
+				"betakey" "qa_testroom latest qa_testroom2"
 			}
+			"description_loc"
+			{
+				"english" "test server"
+			}
+			"description" "test server"
 		}
 		"9"
 		{
@@ -366,6 +370,23 @@
 				"english" "Lightweight Profiler"
 			}
 			"description" "Lightweight Profiler"
+		}
+		"10"
+		{
+			"executable" "hunt.exe"
+			"arguments" "+online_account_client_settings bla -online_server cs1-lv-lw-eu.huntshowdown.com -online_server_port 11000"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "qa_testroom"
+			}
+			"description_loc"
+			{
+				"english" "pb_test"
+			}
+			"description" "pb_test"
 		}
 	}
 	"steamcontrollertouchtemplateindex" "1"
@@ -428,9 +449,9 @@
 		{
 			"public"
 			{
-				"gid" "667073855661666362"
-				"size" "675111754"
-				"download" "426147936"
+				"gid" "1217507687525335544"
+				"size" "675109368"
+				"download" "426153632"
 			}
 		}
 		"encryptedmanifests"
@@ -479,9 +500,9 @@
 			}
 			"latest"
 			{
-				"gid" "3DAAC7E9CCB1B0D0EE1F008582149264"
-				"size" "9DAC241B521F24C44DBDF45C765C1C02"
-				"download" "4E4EC6C79368A10B99CBED6F8DBB21E2"
+				"gid" "AD77B8BAF498350AB460C57DEDEBE568"
+				"size" "E0D35EEE3D956AA467FA58247A63B000"
+				"download" "489FBABFFEDE352F925DAB176FAF0BFF"
 			}
 			"lightweight"
 			{
@@ -491,9 +512,15 @@
 			}
 			"qa_testroom"
 			{
-				"gid" "456FE1FAAD7F0AC9227EDDE20A3BB931"
-				"size" "CDC2A8ED43EA49EC41A638022CD85660"
-				"download" "D8D6B921C53E3C074184B2D970C3C36E"
+				"gid" "64948FDC2A74FA9CB5DA5B7F7D63CC7B"
+				"size" "0C78CD23AF73E96D3FBB6A0C08CA6CF7"
+				"download" "95A0A987D8171BD5D813C664AC174CD6"
+			}
+			"qa_testroom2"
+			{
+				"gid" "03B52D7857F80D7D09B13D7EC1193B93"
+				"size" "9796D702F12E5053F6AC04F8F801F093"
+				"download" "091A4BD2EE34E5062DAC4E0D7CF06284"
 			}
 		}
 	}
@@ -508,9 +535,9 @@
 		{
 			"public"
 			{
-				"gid" "4679630787697848017"
-				"size" "57462805978"
-				"download" "57917998688"
+				"gid" "229980901306247554"
+				"size" "57954973278"
+				"download" "58417091184"
 			}
 		}
 		"encryptedmanifests"
@@ -559,9 +586,9 @@
 			}
 			"latest"
 			{
-				"gid" "6C0C5E72B28B8F7305A554E0CF94DC5A"
-				"size" "28D4E133806BC4B0C230800902D5D8E9"
-				"download" "F95313E8A834DD704F093C03651093F1"
+				"gid" "557CACD45CDE8C3BC9903E1E2F345B9A"
+				"size" "DC5E114EFB1CB4A731DD666EBCF9A45A"
+				"download" "57FF5A00D0ACB9336C15710BBD2C7EA9"
 			}
 			"lightweight"
 			{
@@ -571,9 +598,15 @@
 			}
 			"qa_testroom"
 			{
-				"gid" "9CB94369A950A92D3DC8AB9E06BAEB8C"
-				"size" "6A4804D8357EB871BBEEC03104C00C6A"
-				"download" "0FB8F680772C8D12069B2EDFB6D83076"
+				"gid" "0CD81370520967CAC6340FC5172F2B71"
+				"size" "09B1C41B5F0F563BB695C4B9D2E1BBC6"
+				"download" "9B416BF120C742F1372184581F201A58"
+			}
+			"qa_testroom2"
+			{
+				"gid" "C724BB1FC1D6E77BD8521B661F1215C0"
+				"size" "C962A52EB9CED1053AD8DB1B5B19EE61"
+				"download" "853441B8E8B1F08EE547F66D0365C644"
 			}
 		}
 	}
@@ -588,9 +621,9 @@
 		{
 			"public"
 			{
-				"gid" "8231045624291967437"
-				"size" "183399482"
-				"download" "184377792"
+				"gid" "3956880368859619542"
+				"size" "183695041"
+				"download" "184717888"
 			}
 		}
 		"encryptedmanifests"
@@ -651,9 +684,15 @@
 			}
 			"qa_testroom"
 			{
-				"gid" "F09C2B729D92A1712BE0A0BCFB0D458A"
-				"size" "E407D8ECB2FF9491965F9B07F5D47FD3"
-				"download" "74C3C4509F8D04A1EAB062A1CBE65E25"
+				"gid" "154D7F94E69478B01A282C2568C4F2FA"
+				"size" "AA95E768DC944EF35D0AFA84CEE66559"
+				"download" "D0BCFBFA378AE72B392E2BC24F691BCF"
+			}
+			"qa_testroom2"
+			{
+				"gid" "E3BB75F87FD59501183643C37AADBEA6"
+				"size" "5D595837D9187D99E02AF7A7A7F7D843"
+				"download" "8F6F04C00FDE7398F31179015BAEC4FF"
 			}
 		}
 	}
@@ -735,6 +774,12 @@
 				"size" "E5A8B4FDABF2F7088680BF606FB595A5"
 				"download" "E5A8B4FDABF2F7088680BF606FB595A5"
 			}
+			"qa_testroom2"
+			{
+				"gid" "5ED6D960277428700F0F91438E12AC5F"
+				"size" "25B24E84646B3B6BD5F6451ACF6CAB52"
+				"download" "25B24E84646B3B6BD5F6451ACF6CAB52"
+			}
 		}
 	}
 	"baselanguages" "english,german,french,italian,spanish,schinese,russian,japanese,portuguese,polish,turkish"
@@ -743,8 +788,8 @@
 	{
 		"public"
 		{
-			"buildid" "14398140"
-			"timeupdated" "1716799097"
+			"buildid" "14614716"
+			"timeupdated" "1719217360"
 		}
 		"baseline"
 		{
@@ -790,9 +835,9 @@
 		}
 		"latest"
 		{
-			"buildid" "14478000"
+			"buildid" "14750567"
 			"pwdrequired" "1"
-			"timeupdated" "1716527765"
+			"timeupdated" "1718687961"
 		}
 		"lightweight"
 		{
@@ -802,13 +847,19 @@
 		}
 		"qa_testroom"
 		{
-			"buildid" "14398140"
+			"buildid" "14614716"
 			"pwdrequired" "1"
-			"timeupdated" "1716568808"
+			"timeupdated" "1719216905"
+		}
+		"qa_testroom2"
+		{
+			"buildid" "14614716"
+			"pwdrequired" "1"
+			"timeupdated" "1718271203"
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "23704522"
-"_sha" "d061c7d0e74c59261824b97f4bbb656bddb40f2b"
-"_size" "17760"
+"_change_number" "24091037"
+"_sha" "f453a1338e075fb2806f92b2822a112daf6faa6e"
+"_size" "19102"
