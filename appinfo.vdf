@@ -32,30 +32,35 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1714608000"
-		"tested_build_id" "14040436"
+		"category" "3"
+		"test_timestamp" "1717113600"
+		"tested_build_id" "14466329"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"1"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"2"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
 			}
 			"3"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
@@ -63,9 +68,9 @@
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "0"
+			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
-			"small_text" "1"
+			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
 			"recommended_runtime" "proton-9.0-1RC"
@@ -126,7 +131,7 @@
 			"name" "Falconeer Chronicles"
 		}
 	}
-	"primary_genre" "28"
+	"primary_genre" "4"
 	"genres"
 	{
 		"0" "4"
@@ -214,16 +219,16 @@
 		"3" "4094"
 		"4" "7481"
 		"5" "3810"
-		"6" "7332"
-		"7" "1643"
+		"6" "1643"
+		"7" "7332"
 		"8" "597"
 		"9" "4046"
 		"10" "1777"
 		"11" "1695"
 		"12" "4191"
-		"13" "4994"
+		"13" "3854"
 		"14" "4166"
-		"15" "3854"
+		"15" "4994"
 		"16" "4364"
 		"17" "5125"
 		"18" "4604"
@@ -270,30 +275,36 @@
 		{
 			"public"
 			{
-				"gid" "5929161829207699975"
-				"size" "1338057774"
-				"download" "873058944"
+				"gid" "8202797277626580033"
+				"size" "1371170921"
+				"download" "881194208"
 			}
 			"beta"
 			{
-				"gid" "5238313142429954464"
-				"size" "1359586133"
-				"download" "877927472"
+				"gid" "8202797277626580033"
+				"size" "1371170921"
+				"download" "881194208"
 			}
 			"debug"
 			{
-				"gid" "1453714056235283225"
-				"size" "1326063962"
-				"download" "862634304"
+				"gid" "5084812482174266950"
+				"size" "1369563625"
+				"download" "880094912"
+			}
+			"hold"
+			{
+				"gid" "8202797277626580033"
+				"size" "1371170921"
+				"download" "881194208"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"development"
 			{
-				"gid" "ECD68473F7A087FBA6850440EAE0BA7B"
-				"size" "A7DF5330435DB78541D6338EF80843E3"
-				"download" "2507D2F1622E18B6E961F3200CDC6DD0"
+				"gid" "3CA46D01F6AE492C879E93F3F6680562"
+				"size" "9FB3EED5BBF85FF7D1FAD689D1034CFF"
+				"download" "907108433AB16B7270C2BA4067DF857F"
 			}
 		}
 	}
@@ -301,26 +312,32 @@
 	{
 		"public"
 		{
-			"buildid" "14373507"
-			"timeupdated" "1715765884"
+			"buildid" "14648040"
+			"timeupdated" "1719225175"
 		}
 		"beta"
 		{
-			"buildid" "14367410"
+			"buildid" "14648040"
 			"description" "Beta patch"
-			"timeupdated" "1715721648"
+			"timeupdated" "1717827584"
 		}
 		"debug"
 		{
-			"buildid" "14067649"
+			"buildid" "14535381"
 			"description" "for troubleshooting hardware issues"
-			"timeupdated" "1714065316"
+			"timeupdated" "1717010563"
 		}
 		"development"
 		{
-			"buildid" "14373507"
+			"buildid" "14818271"
 			"pwdrequired" "1"
-			"timeupdated" "1715765138"
+			"timeupdated" "1719235168"
+		}
+		"hold"
+		{
+			"buildid" "14648040"
+			"description" "To hold upcoming updates"
+			"timeupdated" "1718979072"
 		}
 	}
 }
@@ -339,6 +356,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23547251"
-"_sha" "e00a0ebc9e1a8be57fd3ae0a3643e0c3428d8e32"
-"_size" "6233"
+"_change_number" "24094693"
+"_sha" "65e50ee731bd6721ce29e2c4c3f7ae36400dc4b1"
+"_size" "6596"
