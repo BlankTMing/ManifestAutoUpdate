@@ -19,6 +19,60 @@
 	{
 		"schinese" "杯杯倒满 Feed The Cups"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1714176000"
+		"tested_build_id" "13590067"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -44,7 +98,7 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1709711819"
+	"store_asset_mtime" "1715999670"
 	"associations"
 	{
 		"0"
@@ -112,22 +166,24 @@
 		"4" "3843"
 		"5" "3871"
 		"6" "12472"
-		"7" "1685"
-		"8" "3859"
-		"9" "9204"
-		"10" "4182"
-		"11" "3841"
-		"12" "7368"
-		"13" "3959"
-		"14" "4136"
-		"15" "42804"
-		"16" "19"
-		"17" "4195"
-		"18" "4562"
-		"19" "1716"
+		"7" "3859"
+		"8" "1685"
+		"9" "4182"
+		"10" "3841"
+		"11" "9204"
+		"12" "3959"
+		"13" "7368"
+		"14" "42804"
+		"15" "19"
+		"16" "4136"
+		"17" "35079"
+		"18" "4195"
+		"19" "4562"
 	}
-	"review_score" "8"
-	"review_percentage" "93"
+	"review_score" "4"
+	"review_percentage" "24"
+	"review_score_bombs" "8"
+	"review_percentage_bombs" "89"
 }
 "extended"
 {
@@ -164,36 +220,24 @@
 		{
 			"public"
 			{
-				"gid" "4619197056505768964"
-				"size" "288131256"
-				"download" "172007152"
-			}
-			"0.4.3.8"
-			{
-				"gid" "2569524325216992712"
-				"size" "287799992"
-				"download" "171912880"
-			}
-			"0.4.3.9"
-			{
-				"gid" "4619197056505768964"
-				"size" "288131256"
-				"download" "172007152"
+				"gid" "9123841258243165512"
+				"size" "293514040"
+				"download" "174724592"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"0.5test"
+			{
+				"gid" "41E97F59EE93CFBCEB1BE90E4AAECFAF"
+				"size" "37D400D57ECD7D29D832F8967FBFAFCF"
+				"download" "465B26DFDF5280A55CC7D75E3F2013EA"
+			}
 			"finaltest"
 			{
-				"gid" "86358CAAA0DCF217985E318DB19986EE"
-				"size" "40743616EFF8F59423F402852200A9C4"
-				"download" "EE18F1EE6CD732B3A2AA853B8A712646"
-			}
-			"test"
-			{
-				"gid" "814CB8A7C6845CA4CC7A2E869241F0C8"
-				"size" "F8BA52FBF00A919046BADBEEEFE76C68"
-				"download" "B4EC77CF6B594E39FF07814974EC2578"
+				"gid" "DB8370D286617076A4E5B8FC3D6B886F"
+				"size" "073DEF33B80EA57C12FA660046FD10EB"
+				"download" "164D7B268C394DC02E331A1D54BDE958"
 			}
 		}
 	}
@@ -201,32 +245,20 @@
 	{
 		"public"
 		{
-			"buildid" "13932175"
-			"timeupdated" "1712126787"
+			"buildid" "14827438"
+			"timeupdated" "1719297157"
 		}
-		"0.4.3.8"
+		"0.5test"
 		{
-			"buildid" "13853779"
-			"description" "0.4.3.8 Debug"
-			"timeupdated" "1711437758"
-		}
-		"0.4.3.9"
-		{
-			"buildid" "13932175"
-			"description" "尝试修复联机问题"
-			"timeupdated" "1712126469"
+			"buildid" "14827438"
+			"pwdrequired" "1"
+			"timeupdated" "1719297179"
 		}
 		"finaltest"
 		{
-			"buildid" "13932175"
+			"buildid" "14827438"
 			"pwdrequired" "1"
-			"timeupdated" "1712126495"
-		}
-		"test"
-		{
-			"buildid" "13786527"
-			"pwdrequired" "1"
-			"timeupdated" "1711088058"
+			"timeupdated" "1719294636"
 		}
 	}
 }
@@ -314,6 +346,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23009147"
-"_sha" "3a6fc3f220a0396cd4ca5b7d01b37708ed5a00ce"
-"_size" "6121"
+"_change_number" "24104824"
+"_sha" "da31ccd441a52a6847b101026b042555855643e4"
+"_size" "7064"
