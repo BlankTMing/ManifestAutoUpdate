@@ -1,20 +1,24 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-06-25 08:28:23
+## 更新时间：2024-06-25 16:09:41
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1483870 | Draw & Guess - 你画我猜| Game |
-| 305620 | The Long Dark| Game |
+| 2055050 |   铁骑少女| Game |
+| 952040 | 同步音律喵赛克| Game |
 | 570 | Dota 2| game |
-| 620 | Portal 2| game |
-| 393380 | Squad| Game |
 | 1268750 | Starship Troopers: Extermination| Game |
-| 403240 | Squad Dedicated Server| Tool |
-| 375530 | Football, Tactics & Glory| Game |
-| 1293080 | Football, Tactics & Glory: Football Stars| DLC |
-| 1650120 | Football, Tactics & Glory: Manager's Journey| DLC |
-| 1043260 | 角斗士公会经理| Game |
-| 1718570 | 神之天平（ASTLIBRA Revision）| Game |
-| 1121780 | 星位继承者| Game |
-| 2234150 | BACKROOMS: APPREHENSION| Game |
+| 1948980 | 大侠立志传：碧血丹心| Game |
+| 1554220 | Paleon| Game |
+| 704270 | Generation Zero®| Game |
+| 2567870 | Chained Together| Game |
+| 935070 | Sakura MMO| Game |
+| 2292060 | 法术圆盘| Game |
+| 2669360 | 神之天平外传：幻雾之洞窟| DLC |
+| 1967630 | 求生岛：不老泉传说| Game |
+| 280720 | Imagine Earth| Game |
+| 2244130 | Ratopia| Game |
+| 1733670 | Astria Ascending - The Art Of Astria Ascending| DLC |
+| 915600 | 孤岛诡影 Them and Us| Game |
+| 2336220 | 杯杯倒满 Feed The Cups| Game |
+| 2786680 | 美女，请别影响我学习| Game |
 | 1606180 | 下一站江湖Ⅱ| Game |
