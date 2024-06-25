@@ -1,0 +1,260 @@
+"appid" "457450"
+"common"
+{
+	"name" "Defend Your Crypt"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"icon" "1656c7789f5c47771fd331f59f0c4ac4d1e8d5b6"
+	"logo" "91d7956e806ea6a67b9cfb748c284fcb76631dbd"
+	"logo_small" "91d7956e806ea6a67b9cfb748c284fcb76631dbd_thumb"
+	"clienticon" "b97b98f514f2515df73639207193b639eff72615"
+	"clienttga" "94a4052554035b4639a9397c0efa34ab6f85be9a"
+	"clienticns" "57d7cd448dd3fe895f604924aa71c43eb222c357"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"italian" "1"
+		"spanish" "1"
+		"russian" "1"
+		"japanese" "1"
+		"czech" "1"
+		"ukrainian" "1"
+	}
+	"metacritic_name" "Defend your Crypt"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1469115929"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Ratalaika Games S.L."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Ratalaika Games S.L."
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"ukrainian"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1469084400"
+	"steam_release_date" "1469119967"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "457450"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "492"
+		"2" "3964"
+	}
+	"review_score" "7"
+	"review_percentage" "83"
+}
+"extended"
+{
+	"developer" "Ratalaika Games S.L."
+	"publisher" "Ratalaika Games S.L."
+	"homepage" "http://www.ratalaikagames.com/"
+	"listofdlc" "470200"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Defend your Crypt"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DefendYourCrypt.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "DefendYourCrypt.app\\Contents\\MacOS\\DefendYourCrypt"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "DefendYourCrypt_light.exe"
+			"description" "Lightning mode [BETA & OpenGL]"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "DefendYourCrypt_Lightning.app\\Contents\\MacOS\\DefendYourCrypt"
+			"description" "Lightning mode [BETA]"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"457451"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5377422587149899127"
+				"size" "21490507"
+				"download" "14059184"
+			}
+		}
+	}
+	"457452"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6448216881590084525"
+				"size" "29235640"
+				"download" "11553280"
+			}
+		}
+	}
+	"470200"
+	{
+		"dlcappid" "0"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8018449452700289215"
+				"size" "11028190"
+				"download" "10895392"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1242773"
+			"timeupdated" "1469381274"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "700"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinSavedGames"
+			"path" "DefendYourCrypt"
+			"pattern" "*.dat"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23591175"
+"_sha" "5b405a92e7861cc77b52c03a9a9925e1b01a8ea8"
+"_size" "4030"
