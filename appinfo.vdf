@@ -46,8 +46,8 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1705622400"
-		"tested_build_id" "13146942"
+		"test_timestamp" "1716940800"
+		"tested_build_id" "14092662"
 		"tests"
 		{
 			"0"
@@ -78,7 +78,7 @@
 			"5"
 			{
 				"display" "1"
-				"token" "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
@@ -86,12 +86,12 @@
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "1"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "0"
+			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "1"
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
-			"requires_internet_for_singleplayer" "1"
-			"recommended_runtime" "proton-8.0RC"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-experimental"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
 			"hdr_support" "0"
@@ -110,6 +110,7 @@
 		"english" "header.jpg"
 		"schinese" "header_schinese.jpg"
 		"tchinese" "header_tchinese.jpg"
+		"japanese" "header_japanese.jpg"
 	}
 	"library_assets"
 	{
@@ -124,7 +125,7 @@
 			"height_pct" "96.24501290776814"
 		}
 	}
-	"store_asset_mtime" "1707904284"
+	"store_asset_mtime" "1719473420"
 	"associations"
 	{
 		"0"
@@ -228,10 +229,10 @@
 	"gameid" "1623730"
 	"store_tags"
 	{
-		"0" "3859"
-		"1" "1695"
-		"2" "916648"
-		"3" "1662"
+		"0" "1695"
+		"1" "3859"
+		"2" "1662"
+		"3" "916648"
 		"4" "1100689"
 		"5" "1702"
 		"6" "1685"
@@ -313,18 +314,24 @@
 		{
 			"public"
 			{
-				"gid" "2874546306810319156"
-				"size" "20857424076"
-				"download" "16853309120"
+				"gid" "2089882663493737389"
+				"size" "24656906598"
+				"download" "20137957904"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"experimental"
 			{
-				"gid" "F89F051EFE8220F55E4D7A7C5F0EDC37"
-				"size" "0B792042C225482244F7B23F8E4BC432"
-				"download" "78D4D2E73396753ADACAEDE2982759F0"
+				"gid" "744E2D2D79FEF256BE8738A11E6FC75C"
+				"size" "48C07A44AD4CF6E830AE3E3F5B0D735C"
+				"download" "425CCE76ACFCFF1B41116408CFC27AAD"
+			}
+			"v0.3_trial"
+			{
+				"gid" "5C5E76284A8581DC733EACBC2B19348D"
+				"size" "F6F4D8865AB12E9542FCDDB4D8275431"
+				"download" "C3F9B9330A37D7DE437E301B231F41B0"
 			}
 			"microsoft"
 			{
@@ -340,21 +347,21 @@
 			}
 			"main_development"
 			{
-				"gid" "1FBAF27B767F32180484C322EF5A807A"
-				"size" "3BB6A6BF72BD64C7BCF34B77B16FB9A8"
-				"download" "3B10E635D5D5BE0681F3C5947812F475"
+				"gid" "601F2D1EF2247C348A83FF9E5CD84189"
+				"size" "B551529B82F28323D9DC3D4928B0E15F"
+				"download" "AAD99EAAB264771670AACF4A11A484FF"
 			}
 			"main_shipping"
 			{
-				"gid" "A81068529C7DC7114BBE5B3385CDFF84"
-				"size" "856784F0320D4A0DCEAD6809B7851AE9"
-				"download" "D3FC32D422E87FF96A029F185124A38C"
+				"gid" "B1A94992DD7B0BAB15A73400CEB3C86B"
+				"size" "BE3742550AFF820E130C1CAD32B47978"
+				"download" "9D4DEFAC95FFA87F1C6776490421DB0C"
 			}
 			"master_development"
 			{
-				"gid" "53074A74B13212EC88020332A695798A"
-				"size" "0D50E1D985557245D30CA7CB9AA4AD48"
-				"download" "0AA9CFA0599106FF547F594C9916EA18"
+				"gid" "BAB08A07D56B4CBBDE83FA101400F2BE"
+				"size" "94151B630700205D42AB5FFDA5ADDB19"
+				"download" "5807EB60FACC8CEABC7E94F3B056C775"
 			}
 			"master_shipping"
 			{
@@ -376,33 +383,33 @@
 			}
 			"network2_development"
 			{
-				"gid" "225174C39190FF9C14E08B823C0B90A0"
-				"size" "C056628DC54155A5C986A83CB34510ED"
-				"download" "8F8245D3955B850606F2B6E747D8E6B8"
+				"gid" "BD7498550BBD988F8394DD33372540A3"
+				"size" "E2AE87A564A919AAD46230B9D0E87B98"
+				"download" "2A41EBBB63E2D9F05F641340566D2450"
 			}
 			"private_development"
 			{
-				"gid" "F6AEF733C12D15CBA252A533C0F0B0AC"
-				"size" "017487E3953B375000B6F78DFBD17537"
-				"download" "53A3EBC21C14BC422EED82268760AC4C"
+				"gid" "5FEBF362ED1EBB22B608CF79F18949E5"
+				"size" "3ED8C2282CECECF76DA24E80782840CF"
+				"download" "BF5A3F4040CD28F65F8F325370F2042E"
 			}
 			"private_shipping"
 			{
-				"gid" "C626E02510ECA1BB386DF5A9082832D3"
-				"size" "F2E0332E99D1FBE330CD9553ED93A0EF"
-				"download" "3A61BD04CA412FDC34F33D968BDA67FE"
+				"gid" "0D74DAFF5B635E6164FCEF80F33FE7BC"
+				"size" "3F54E2D43226676B90909E7F9FB56597"
+				"download" "A6E2BE661588B1BF68E96289BACB2400"
 			}
 			"qa_development"
 			{
-				"gid" "9B30C8B6C7950A2C310DBAD9E7918141"
-				"size" "FFADEC79D331D8725D03279EA083CB01"
-				"download" "F61766A6EB2879EB07B5ABE637C1983C"
+				"gid" "8D8237D34F3DA4329943BFD2A2DB643C"
+				"size" "BCD043D45308BA07920D928169A589E3"
+				"download" "E3A992A21492CF4D8B58FAC5D043FDF0"
 			}
 			"qa_shipping"
 			{
-				"gid" "8E672A766359B03A94602A917F75C667"
-				"size" "C761E2A6138DBFC88023EBF92E86EE20"
-				"download" "CA2BD327816FBF5F1D1C3584D288E671"
+				"gid" "EB4F99678383E97AA474B225155DE3CA"
+				"size" "7B47C64023819DDB313FB668F2FEF9F8"
+				"download" "E0A9EAE3C8D104D2BFE12AEA5FA11EE4"
 			}
 			"v0.1.5"
 			{
@@ -423,14 +430,20 @@
 	{
 		"public"
 		{
-			"buildid" "14326303"
-			"timeupdated" "1715659007"
+			"buildid" "14833284"
+			"timeupdated" "1719456956"
 		}
 		"experimental"
 		{
-			"buildid" "14130960"
+			"buildid" "14805545"
 			"pwdrequired" "1"
-			"timeupdated" "1713852567"
+			"timeupdated" "1719219695"
+		}
+		"v0.3_trial"
+		{
+			"buildid" "14834089"
+			"pwdrequired" "1"
+			"timeupdated" "1719379365"
 		}
 		"microsoft"
 		{
@@ -446,21 +459,21 @@
 		}
 		"main_development"
 		{
-			"buildid" "14358541"
+			"buildid" "14850502"
 			"pwdrequired" "1"
-			"timeupdated" "1715669012"
+			"timeupdated" "1719436998"
 		}
 		"main_shipping"
 		{
-			"buildid" "14358563"
+			"buildid" "14850281"
 			"pwdrequired" "1"
-			"timeupdated" "1715669163"
+			"timeupdated" "1719435466"
 		}
 		"master_development"
 		{
-			"buildid" "13146842"
+			"buildid" "13197643"
 			"pwdrequired" "1"
-			"timeupdated" "1704979701"
+			"timeupdated" "1716799699"
 		}
 		"master_shipping"
 		{
@@ -482,33 +495,33 @@
 		}
 		"network2_development"
 		{
-			"buildid" "14020907"
+			"buildid" "14830293"
 			"pwdrequired" "1"
-			"timeupdated" "1712829820"
+			"timeupdated" "1719312823"
 		}
 		"private_development"
 		{
-			"buildid" "14326076"
+			"buildid" "14833935"
 			"pwdrequired" "1"
-			"timeupdated" "1715338813"
+			"timeupdated" "1719332063"
 		}
 		"private_shipping"
 		{
-			"buildid" "14326303"
+			"buildid" "14833284"
 			"pwdrequired" "1"
-			"timeupdated" "1715340298"
+			"timeupdated" "1719328439"
 		}
 		"qa_development"
 		{
-			"buildid" "14092757"
+			"buildid" "14834786"
 			"pwdrequired" "1"
-			"timeupdated" "1713758428"
+			"timeupdated" "1719337295"
 		}
 		"qa_shipping"
 		{
-			"buildid" "14092662"
+			"buildid" "14834089"
 			"pwdrequired" "1"
-			"timeupdated" "1713758396"
+			"timeupdated" "1719332974"
 		}
 		"v0.1.5"
 		{
@@ -544,6 +557,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23528888"
-"_sha" "24c22e01d47927f7b6e38784387e7541ba9e1d25"
-"_size" "11241"
+"_change_number" "24139140"
+"_sha" "11398c9c30ac37ce521d1e6a3789c58d4d867fa1"
+"_size" "11560"
