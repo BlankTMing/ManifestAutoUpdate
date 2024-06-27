@@ -244,9 +244,9 @@
 		{
 			"public"
 			{
-				"gid" "4445138538661115784"
-				"size" "6580719175"
-				"download" "1177206928"
+				"gid" "8930036266181905889"
+				"size" "6596905755"
+				"download" "1179477136"
 			}
 		}
 		"encryptedmanifests"
@@ -271,15 +271,15 @@
 			}
 			"development-test"
 			{
-				"gid" "0DF16343EA5E5178BF605C2128DD8986"
-				"size" "54D600C052EB6625CB5B9C2B97C9B199"
-				"download" "B563938512F0C2701714A5795CD827D2"
+				"gid" "1A734B4F7BA2F44A65BEBA1A6C0182C7"
+				"size" "613BD6BAFF26CE9CFB06B9F524DBA7E2"
+				"download" "34E10CBB6636F7F58A5FE4E952317B31"
 			}
 			"pre_release"
 			{
-				"gid" "EB1A29112A13C34C97BEC73968FFE086"
-				"size" "865C06C27E422DC345F60BDBFE49A3B6"
-				"download" "236616F95259475BA5BE39F7EEE3F7D5"
+				"gid" "BB774D1287B3AE95CE3BC0AC3C01A813"
+				"size" "2ADC78F804E593260DA10AC4B141FD92"
+				"download" "BFCC59CDCB3815F55F7723A7E3C50B8F"
 			}
 			"test"
 			{
@@ -289,9 +289,9 @@
 			}
 			"visualeditor_test"
 			{
-				"gid" "3A1A56BE855A7B0E5A3D40CD9F5CDE69"
-				"size" "AC1ED3513AB0CCD9EEFB05076E6D4989"
-				"download" "B181E438E3B188736E263008664812E2"
+				"gid" "EBFD2EE307E70D9305AE8816EA7F7208"
+				"size" "91836E7136AE38DBE6764B6A91BCAD30"
+				"download" "FB2ABDFA675059DEA0232FDE5F06BC4F"
 			}
 		}
 	}
@@ -305,9 +305,9 @@
 		{
 			"public"
 			{
-				"gid" "1193950783842110728"
-				"size" "6600525496"
-				"download" "1183212656"
+				"gid" "3806254841348607104"
+				"size" "6616311213"
+				"download" "1185482064"
 			}
 		}
 		"encryptedmanifests"
@@ -326,9 +326,9 @@
 			}
 			"pre_release"
 			{
-				"gid" "7140C22BA2012D0EF8381016EA47ECB1"
-				"size" "3F4945839845D6CF1BE430DA236191EB"
-				"download" "657DBF6EDDD16ED7EA1212506CB1CC7A"
+				"gid" "1548582A85EAD8010A12585742DB63A7"
+				"size" "8C552C482394FDDCE6C4B132BD3B6A82"
+				"download" "3687AFA70AC529C02FB4BA728749B2E5"
 			}
 			"test"
 			{
@@ -348,8 +348,8 @@
 	{
 		"public"
 		{
-			"buildid" "14778412"
-			"timeupdated" "1718871034"
+			"buildid" "14856369"
+			"timeupdated" "1719480503"
 		}
 		"demo"
 		{
@@ -368,18 +368,19 @@
 			"buildid" "13920092"
 			"pwdrequired" "1"
 			"timeupdated" "1712043528"
+			"sc_schinese" "展会专用"
 		}
 		"development-test"
 		{
-			"buildid" "14583025"
+			"buildid" "14813132"
 			"pwdrequired" "1"
-			"timeupdated" "1717406685"
+			"timeupdated" "1719195340"
 		}
 		"pre_release"
 		{
-			"buildid" "14778412"
+			"buildid" "14856369"
 			"pwdrequired" "1"
-			"timeupdated" "1718871002"
+			"timeupdated" "1719480182"
 		}
 		"test"
 		{
@@ -389,9 +390,9 @@
 		}
 		"visualeditor_test"
 		{
-			"buildid" "14778395"
+			"buildid" "14856202"
 			"pwdrequired" "1"
-			"timeupdated" "1718870883"
+			"timeupdated" "1719479153"
 			"sc_schinese" "编辑器测试"
 		}
 		"steam_china_only"
@@ -402,8 +403,41 @@
 }
 "ufs"
 {
-	"quota" "100000000000"
-	"maxnumfiles" "1000"
+	"quota" "10000000000"
+	"maxnumfiles" "10000"
+	"rootoverrides"
+	{
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "MeowNature/Depersonalization-Release/{64BitSteamID}"
+					"replace" "com.mfzr.Depersonalization/{64BitSteamID}"
+				}
+			}
+		}
+		"2"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "MeowNature/Depersonalization-Release/{64BitSteamID}"
+					"replace" ".config/unity3d/MeowNature/Depersonalization-Release/{64BitSteamID}"
+				}
+			}
+		}
+	}
 	"savefiles"
 	{
 		"0"
@@ -411,26 +445,11 @@
 			"root" "WinAppDataLocalLow"
 			"path" "MeowNature/Depersonalization-Release/{64BitSteamID}"
 			"pattern" "*"
-			"platforms"
-			{
-				"1" "Windows"
-			}
-			"recursive" "1"
-		}
-		"1"
-		{
-			"root" "MacAppSupport"
-			"path" "MeowNature/Depersonalization-Release/{64BitSteamID}"
-			"pattern" "*"
-			"platforms"
-			{
-				"1" "MacOS"
-			}
 			"recursive" "1"
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "24045844"
-"_sha" "1b14397e10e83a8cde6c12c9fbbdf57d0615355c"
-"_size" "8779"
+"_change_number" "24140685"
+"_sha" "806186a6886cea45fb92e3db22201eb8c92bf313"
+"_size" "9232"
