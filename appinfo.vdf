@@ -1,0 +1,574 @@
+"appid" "705050"
+"common"
+{
+	"name" "Apocalypse: The Game"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"controllervr"
+	{
+		"kbm" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+	}
+	"clienttga" "553fe40a02925de2fe4e6cf3840f6770794e7ecc"
+	"clienticns" "7dc4d61cad89dec838a01b771babd3363ce09546"
+	"linuxclienticon" "7dc4d61cad89dec838a01b771babd3363ce09546"
+	"clienticon" "b99372bad3da325a431523f5186b79d1ae9868b1"
+	"icon" "54540cb5b38a61d9a93700fbd403123ca6215237"
+	"logo" "1932fc7c8aade00d1174b10c1388a6b2d548fa18"
+	"logo_small" "1932fc7c8aade00d1174b10c1388a6b2d548fa18_thumb"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "705050_eula_0"
+			"name" "Apocalypse: The Game EULA"
+			"url" "http://store.steampowered.com//eula/705050_eula_0"
+		}
+	}
+	"osextended" ""
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50.290169025154285"
+			"height_pct" "93.54072666824982"
+		}
+	}
+	"store_asset_mtime" "1587262063"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Harley Game Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Harley Phoenix"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1539904800"
+	"community_hub_visible" "1"
+	"gameid" "705050"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "4667"
+		"3" "1662"
+	}
+	"review_score" "4"
+	"review_percentage" "30"
+}
+"extended"
+{
+	"vrheadsetstreaming" "0"
+	"developer" "Harley Game Studios"
+	"publisher" "Harley Phoenix"
+	"homepage" "https://www.harleyphoenix.co.uk/"
+	"listofdlc" "720460"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Apocalypse"
+	"steamcontrollertemplateindex" "6"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Bin\\Apocalypse_64.exe"
+			"arguments" "-force-d3d11 -show-screen-selector"
+			"workingdir" "Bin\\"
+			"description" "Apocalypse: Legacy Edition (1.7)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "Bin\\Apocalypse_64.exe"
+			"arguments" "-force-d3d11 -show-screen-selector"
+			"workingdir" "Bin\\"
+			"description" "Apocalypse: Legacy Edition (Beta)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "extended-launch-options"
+			}
+		}
+		"6"
+		{
+			"executable" "Bin\\Apocalypse_32.app"
+			"arguments" " -show-screen-selector"
+			"workingdir" "Bin\\"
+			"description" "32 Bit Mode (Legacy)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+				"betakey" "extended-launch-options-off"
+			}
+		}
+		"7"
+		{
+			"executable" "Bin\\Apocalypse_64.app"
+			"arguments" "-show-screen-selector"
+			"workingdir" "Bin\\"
+			"description" "64 Bit Mode (Legacy)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+				"betakey" "extended-launch-options-off"
+			}
+		}
+		"8"
+		{
+			"executable" "Bin\\Apocalypse_Linux_32.x86"
+			"arguments" "-show-screen-selector"
+			"workingdir" "Bin\\"
+			"description" "32 Bit Mode (Legacy)"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"betakey" "extended-launch-options-off"
+			}
+		}
+		"9"
+		{
+			"executable" "Bin\\Apocalypse_Linux_64.x86_64"
+			"arguments" "-show-screen-selector"
+			"workingdir" "Bin\\"
+			"description" "64 Bit Mode (Legacy)"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"betakey" "extended-launch-options-off"
+			}
+		}
+		"12"
+		{
+			"executable" "Bin\\Apocalypse_32.exe"
+			"arguments" "-force-d3d12 -show-screen-selector"
+			"workingdir" "Bin\\"
+			"description" "Directx 12 Mode (Legacy)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+				"betakey" "extended-launch-options-off"
+			}
+		}
+		"13"
+		{
+			"executable" "Bin\\Apocalypse_64.exe"
+			"arguments" "-force-d3d12 -show-screen-selector"
+			"workingdir" "Bin\\"
+			"description" "Directx 12 Mode (Legacy)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "extended-launch-options-off"
+			}
+		}
+		"14"
+		{
+			"executable" "Bin\\Apocalypse_32.exe"
+			"arguments" "-force-vulken -show-screen-selector"
+			"workingdir" "Bin\\"
+			"description" "Vulkan API Mode (Legacy)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+				"betakey" "extended-launch-options-off"
+			}
+		}
+		"15"
+		{
+			"executable" "Bin\\Apocalypse_64.exe"
+			"arguments" "-force-vulken -show-screen-selector"
+			"workingdir" "Bin\\"
+			"description" "Vulkan API Mode (Legacy)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "extended-launch-options-off"
+			}
+		}
+		"16"
+		{
+			"executable" "Virtual Reality\\Apocalypse_64.exe"
+			"arguments" "-force-d3d11"
+			"workingdir" "Virtual Reality\\"
+			"description" "in OSVR Mode (Legacy)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "extended-launch-options-off"
+				"ownsdlc" "720460"
+			}
+		}
+		"17"
+		{
+			"executable" "Bin\\Apocalypse_Linux_32.x86"
+			"arguments" "-force-vulken -show-screen-selector"
+			"workingdir" "Bin\\"
+			"description" "Vulken Mode (Legacy)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+				"betakey" "extended-launch-options-off"
+			}
+		}
+		"18"
+		{
+			"executable" "Bin\\Apocalypse_Linux_64.x86_64"
+			"arguments" "-force-vulken -show-screen-selector"
+			"workingdir" "Bin\\"
+			"description" "Vulken Mode (Legacy)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+				"betakey" "extended-launch-options-off"
+			}
+		}
+		"19"
+		{
+			"executable" "Preview\\ApocalypseRedux.exe"
+			"workingdir" "Preview\\"
+			"description" "Apocalypse: The Game"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "extended-launch-options-off"
+			}
+		}
+	}
+	"steamconfigurator3rdpartynative" "7"
+}
+"depots"
+{
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229033"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"workshopdepot" "705050"
+	"baselanguages" "english"
+	"hasdepotsindlc" "0"
+	"705051"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2168063607816956284"
+				"size" "7087732928"
+				"download" "2826538848"
+			}
+			"extended-launch-options"
+			{
+				"gid" "2168063607816956284"
+				"size" "7087732928"
+				"download" "2826538848"
+			}
+		}
+	}
+	"705052"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5543756832259094998"
+				"size" "5655519892"
+				"download" "2154649584"
+			}
+			"extended-launch-options"
+			{
+				"gid" "5543756832259094998"
+				"size" "5655519892"
+				"download" "2154649584"
+			}
+		}
+	}
+	"705053"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6385371293058815214"
+				"size" "5333118447"
+				"download" "2090521136"
+			}
+			"extended-launch-options"
+			{
+				"gid" "6385371293058815214"
+				"size" "5333118447"
+				"download" "2090521136"
+			}
+		}
+	}
+	"705054"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1153316681529346166"
+				"size" "5596032027"
+				"download" "2167900496"
+			}
+			"extended-launch-options"
+			{
+				"gid" "1153316681529346166"
+				"size" "5596032027"
+				"download" "2167900496"
+			}
+		}
+	}
+	"720460"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"dlcappid" "720460"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5250104769092527613"
+				"size" "5467203876"
+				"download" "2068602976"
+			}
+			"extended-launch-options"
+			{
+				"gid" "5250104769092527613"
+				"size" "5467203876"
+				"download" "2068602976"
+			}
+		}
+	}
+	"705055"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5366014515313136767"
+				"size" "5520645925"
+				"download" "2112213024"
+			}
+			"extended-launch-options"
+			{
+				"gid" "5366014515313136767"
+				"size" "5520645925"
+				"download" "2112213024"
+			}
+		}
+	}
+	"705056"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5007659038185158170"
+				"size" "5522209240"
+				"download" "2124844400"
+			}
+			"extended-launch-options"
+			{
+				"gid" "5007659038185158170"
+				"size" "5522209240"
+				"download" "2124844400"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3124685"
+			"timeupdated" "1586741666"
+		}
+		"extended-launch-options"
+		{
+			"buildid" "3124685"
+			"description" "commercial"
+			"timeupdated" "1537273747"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "3000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Harley Game Studios/The Apocalypse/"
+			"pattern" "*.ap"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Harley Game Studios/The Apocalypse/"
+			"pattern" "*.ap"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "Auto Save (Temp)"
+			"pattern" "*.ap"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23591175"
+"_sha" "76e3c5b353b700d18c16ed02a1ef20f0a09379a5"
+"_size" "10519"
