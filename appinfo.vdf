@@ -68,6 +68,8 @@
 			"gamescope_frame_limiter_not_supported" "0"
 		}
 	}
+	"controllertagwizard" "1"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -92,7 +94,7 @@
 			"height_pct" "61.37069449692177"
 		}
 	}
-	"store_asset_mtime" "1709211335"
+	"store_asset_mtime" "1719505516"
 	"associations"
 	{
 		"0"
@@ -124,6 +126,11 @@
 		"category_23" "1"
 		"category_45" "1"
 		"category_46" "1"
+		"category_28" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -170,6 +177,12 @@
 			"subtitles" "true"
 			"full_audio" "true"
 		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1694613624"
 	"community_visible_stats" "1"
@@ -179,9 +192,9 @@
 	{
 		"0" "32322"
 		"1" "1773"
-		"2" "19"
-		"3" "9"
-		"4" "1645"
+		"2" "1645"
+		"3" "19"
+		"4" "9"
 		"5" "1666"
 		"6" "1091588"
 		"7" "3871"
@@ -199,7 +212,7 @@
 		"19" "597"
 	}
 	"review_score" "8"
-	"review_percentage" "87"
+	"review_percentage" "86"
 }
 "extended"
 {
@@ -219,10 +232,10 @@
 			"executable" "Heretics Fork.exe"
 		}
 	}
-	"steamcontrollertemplateindex" "6"
+	"steamcontrollertemplateindex" "4"
 	"steamcontrollertouchtemplateindex" "8"
 	"steamdecktouchscreen" "1"
-	"steamconfigurator3rdpartynative" "3"
+	"steamconfigurator3rdpartynative" "65535"
 }
 "depots"
 {
@@ -234,15 +247,9 @@
 		{
 			"public"
 			{
-				"gid" "7935678575084446698"
-				"size" "1427583696"
-				"download" "1388538336"
-			}
-			"beta"
-			{
-				"gid" "8035639360258201051"
-				"size" "1253071614"
-				"download" "1221539408"
+				"gid" "1545176711748613918"
+				"size" "1472320867"
+				"download" "1435736416"
 			}
 			"demo"
 			{
@@ -250,20 +257,26 @@
 				"size" "171558204"
 				"download" "151872144"
 			}
+			"beta"
+			{
+				"gid" "1545176711748613918"
+				"size" "1472320867"
+				"download" "1435736416"
+			}
 		}
 		"encryptedmanifests"
 		{
-			"alpha"
-			{
-				"gid" "60CA67D5F41560F7A8FC3A28988DDD84"
-				"size" "EF49550D77A5F06D72E0B6EC27761404"
-				"download" "4D5A615E297308D0767C1FAAD8EE1A55"
-			}
 			"devmode"
 			{
 				"gid" "250608D90DAC37ADF1873652064ABFF1"
 				"size" "D757AAA1F47CD22C32B44DA5F8D2D496"
 				"download" "36936101550CDF64FC57DCE650118B8D"
+			}
+			"alpha"
+			{
+				"gid" "5E908F8E4C99D5CEC8A4AC5ED8EBB0DC"
+				"size" "3629DCE863202D0D26A38F0E6F33FE44"
+				"download" "76A9F0BA536D2FF5E24CF1B945E07C61"
 			}
 		}
 	}
@@ -271,20 +284,8 @@
 	{
 		"public"
 		{
-			"buildid" "13507691"
-			"timeupdated" "1708434690"
-		}
-		"alpha"
-		{
-			"buildid" "13747471"
-			"pwdrequired" "1"
-			"timeupdated" "1710473039"
-		}
-		"beta"
-		{
-			"buildid" "13747471"
-			"description" "Open Beta"
-			"timeupdated" "1710500328"
+			"buildid" "14860479"
+			"timeupdated" "1719507480"
 		}
 		"demo"
 		{
@@ -297,6 +298,18 @@
 			"buildid" "12169356"
 			"pwdrequired" "1"
 			"timeupdated" "1694526299"
+		}
+		"alpha"
+		{
+			"buildid" "14855798"
+			"pwdrequired" "1"
+			"timeupdated" "1719476964"
+		}
+		"beta"
+		{
+			"buildid" "14860479"
+			"description" "Open Beta"
+			"timeupdated" "1719501073"
 		}
 	}
 }
@@ -333,6 +346,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22779188"
-"_sha" "b8912e7ef3f6a7b18c5588886990171309de072e"
-"_size" "6167"
+"_change_number" "24151330"
+"_sha" "a32c17e64ed46883333dceff4b9dee0330111000"
+"_size" "6438"
