@@ -1,73 +1,55 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-06-28 00:01:07
+## 更新时间：2024-06-28 08:28:38
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1029780 | Going Medieval| Game |
-| 632470 | Disco Elysium| Game |
-| 244850 | Space Engineers| Game |
-| 602960 | Barotrauma 潜渊症| Game |
-| 774171 | Muse Dash| Game |
-| 261550 | Mount & Blade II: Bannerlord| Game |
-| 730 | Counter-Strike 2| Game |
-| 1868140 | 潜水员戴夫 DAVE THE DIVER| Game |
+| 624822 | Counter-Strike: Global Offensive Steam China Edition| Config |
+| 1272320 | Diplomacy is Not an Option| Game |
+| 1159830 | Scene Investigators| Game |
 | 252490 | Rust| Game |
-| 2322560 | 完蛋！我被美女包围了！| Game |
-| 204100 | Max Payne 3| Game |
-| 2201940 | 船舶墓地模拟器2| Game |
-| 1817190 | Marvel's Spider-Man: Miles Morales| Game |
-| 1863440 | Mount & Blade II: Dedicated Server| Tool |
-| 1393600 | Mount & Blade II: Bannerlord - Modding Kit| Tool |
-| 1702010 | 战国王朝| Game |
-| 1477070 | 人格解体| Game |
-| 2144740 | 幽灵行者 2（Ghostrunner 2）| Game |
-| 2430930 | ARK: Survival Ascended Dedicated Server| Tool |
-| 767500 | Once in Yaissor 2| Game |
-| 700580 | Rust - Staging Branch| Game |
-| 1129580 | 中世纪王朝| Game |
-| 1621690 | Core Keeper| Game |
-| 1151340 | Fallout 76| Game |
-| 529340 | Victoria 3| Game |
-| 1218210 | Coromon| Game |
-| 1963720 | Core Keeper Dedicated Server| Tool |
-| 979110 | Space Haven| Game |
+| 740 | Counter-Strike Global Offensive - Dedicated Server| Tool |
+| 322330 | 饥荒联机版| Game |
+| 730 | Counter-Strike 2| Game |
+| 2399830 | 方舟: 生存飞升| Game |
+| 270150 | RUNNING WITH RIFLES| Game |
+| 538030 | 异种航员2 Xenonauts 2| Game |
+| 2068280 | Nordic Ashes| Game |
+| 1970580 | 背包英雄 Backpack Hero| Game |
+| 736220 | Squad 44| Game |
+| 343050 | Don't Starve Together Dedicated Server| Tool |
+| 469600 | 军团战争2 / Legion TD 2| Game |
+| 1723260 | 真探| Game |
+| 951440 | Volcanoids| Game |
+| 846110 | The friends of Ringo Ishikawa| Game |
+| 375530 | Football, Tactics & Glory| Game |
+| 500 | Left 4 Dead| game |
+| 1676840 | 为了吾王II / For The King II| Game |
+| 1698830 | Volcanoids Mod SDK| Tool |
+| 1293080 | Football, Tactics & Glory: Football Stars| DLC |
 | 534380 | 消逝的光芒2: 重装上阵版| Game |
-| 1817070 | Marvel’s Spider-Man Remastered| Game |
-| 2066020 | 灵魂石幸存者| Game |
-| 1594940 | 林中小女巫| Game |
-| 700820 | TFM: The First Men| Game |
-| 596970 | Sunless Skies| Game |
-| 1266630 | 懒人修仙传2| Game |
-| 1659040 | HITMAN World of Assassination| Game |
-| 1142710 | Total War: WARHAMMER III| Game |
-| 867210 | 征服之歌| Game |
-| 2071280 | Ravenswatch 鸦卫奇旅| Game |
-| 1994370 | 我的幻想乡| Game |
-| 731040 | 无敌号| Game |
-| 253230 | A Hat in Time| Game |
-| 1492070 | Sker Ritual| Game |
-| 1895880 | 瑞奇与叮当 时空跳转| Game |
-| 2303350 | 小小贴纸铺| Game |
-| 1190970 | 房产达人 2| Game |
-| 2719290 | 夜袭者 Night Raider| Game |
-| 1641960 | 永恒天空| Game |
-| 2670630 | Supermarket Simulator| Game |
-| 2420110 | 《地平线 西之绝境™》完整版| Game |
+| 2181610 | 异端尖叉| Game |
+| 1650120 | Football, Tactics & Glory: Manager's Journey| DLC |
+| 666150 | Prehistoric Kingdom| Game |
+| 2004080 | Furnish Master| Game |
+| 1536470 | 一名卫兵走进了一间酒馆| Game |
+| 332570 | Amazing Frog?| Game |
+| 1644940 | Loddlenaut| Game |
+| 1733670 | Astria Ascending - The Art Of Astria Ascending| DLC |
 | 400750 | Call to Arms - Gates of Hell: Ostfront| Game |
-| 1121780 | 星位继承者| Game |
-| 1432860 | Sun Haven| Game |
-| 2273430 | 苍翼：混沌效应| Game |
-| 226700 | Infestation: Survivor Stories 2020| Game |
-| 1260320 | 猛兽派对| Game |
-| 1772830 | Rusted Moss| Game |
-| 1658150 | 月光石岛| Game |
-| 2351560 | 清零计划2：天启派对| Game |
-| 1116080 | 所谓侠客| Game |
-| 1273100 | Builders of Greece| Game |
-| 2313330 | 泰拉科技世界| Game |
-| 1812450 | 颂钟长鸣| Game |
-| 2533070 | TerraTech Worlds Dedicated Server| Tool |
-| 1272080 | PAYDAY3 (收获日3)  | Game |
-| 2186680 | Warhammer 40,000: Rogue Trader| Game |
-| 1254120 | 神佑释放| Game |
-| 700030 | Life is Feudal: MMO| Game |
+| 915600 | 孤岛诡影 Them and Us| Game |
+| 1252680 | SENTRY| Game |
+| 266370 | Calibre 10 Racing Series| Game |
+| 384570 | ZanZarah: The Hidden Portal| Game |
+| 446790 | Diluvion| Game |
+| 351860 | Cultures - Northland| Game |
+| 255480 | NBA 2K14| Game |
+| 582660 | Black Desert| Game |
+| 870200 | Juno: New Origins| Game |
+| 351870 | Cultures - 8th Wonder of the World| Game |
+| 489520 | 随从大师| Game |
+| 359350 | Defunct| Game |
+| 611180 | Super Street: The Game| Game |
+| 843350 | Osiris: New Dawn (Experimental Branch)| Game |
+| 1085660 | 命运2| Game |
+| 700470 | Selenophobia| Game |
+| 403240 | Squad Dedicated Server| Tool |
