@@ -1,8 +1,6 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-07-01 09:54:18
+## 更新时间：2024-07-01 12:35:43
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1649730 | 修仙立志传| Game |
-| 2539350 | 文字规则怪谈| Game |
-| 1121780 | 星位继承者| Game |
+| 1733670 | Astria Ascending - The Art Of Astria Ascending| DLC |
