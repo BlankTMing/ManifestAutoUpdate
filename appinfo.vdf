@@ -48,7 +48,7 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1715212800"
+		"test_timestamp" "1718841600"
 		"tested_build_id" "14188787"
 		"tests"
 		{
@@ -94,7 +94,7 @@
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
 			"recommended_runtime" "proton-9.0-1RC"
-			"requires_h264" "0"
+			"requires_h264" "1"
 			"gamescope_frame_limiter_not_supported" "0"
 			"hdr_support" "0"
 		}
@@ -226,8 +226,8 @@
 		"3" "1663"
 		"4" "3859"
 		"5" "1678"
-		"6" "19"
-		"7" "4182"
+		"6" "4182"
+		"7" "19"
 		"8" "4168"
 		"9" "1708"
 		"10" "599"
@@ -235,8 +235,8 @@
 		"12" "128"
 		"13" "4345"
 		"14" "3987"
-		"15" "9"
-		"16" "1775"
+		"15" "1775"
+		"16" "9"
 		"17" "5611"
 		"18" "4667"
 		"19" "492"
@@ -262,7 +262,7 @@
 	"developer" "Team17"
 	"publisher" "Team17"
 	"homepage" "https://www.hellletloose.com/"
-	"listofdlc" "1091850,1091851,1205050,1313020,1647950,1647960,1647961,1647962,1647963,1647964,1647965,1647966,1647967,1647968,1656970,1656971,1656972,1656973,1656974,1793010,1793011,1793012,1793013,2175550,2331690,2331691,2401900,2401901,2623000,2677820,2709180,2805150,2805160,2819760,2885540"
+	"listofdlc" "1091850,1091851,1205050,1313020,1647950,1647960,1647961,1647962,1647963,1647964,1647965,1647966,1647967,1647968,1656970,1656971,1656972,1656973,1656974,1793010,1793011,1793012,1793013,2175550,2331690,2331691,2401900,2401901,2475320,2623000,2677820,2709180,2805150,2805160,2819760,2885540,3012950"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -432,7 +432,7 @@
 			{
 				"oslist" "windows"
 				"osarch" "64"
-				"betakey" "hll_release_update15"
+				"betakey" "hll_release_update15_1_build"
 			}
 			"description_loc"
 			{
@@ -449,7 +449,7 @@
 			{
 				"oslist" "windows"
 				"osarch" "64"
-				"betakey" "hll_release_update15"
+				"betakey" "hll_release_update15_1_build"
 			}
 			"description_loc"
 			{
@@ -473,6 +473,74 @@
 				"english" "Development (no EAC)"
 			}
 			"description" "Development (no EAC)"
+		}
+		"40"
+		{
+			"executable" "HLL\\Binaries\\Win64\\HLL.exe"
+			"arguments" "-noEAC"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev_team2"
+			}
+			"description_loc"
+			{
+				"english" "Development (no EAC)"
+			}
+			"description" "Development (no EAC)"
+		}
+		"41"
+		{
+			"executable" "HLL\\Binaries\\Win64\\HLL-Win64-Test.exe"
+			"arguments" "-noEAC"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev_team2"
+			}
+			"description_loc"
+			{
+				"english" "Test (no EAC)"
+			}
+			"description" "Test (no EAC)"
+		}
+		"42"
+		{
+			"executable" "HLL\\Binaries\\Win64\\HLL.exe"
+			"arguments" "-noEAC"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev_team3"
+			}
+			"description_loc"
+			{
+				"english" "Development (no EAC)"
+			}
+			"description" "Development (no EAC)"
+		}
+		"43"
+		{
+			"executable" "HLL\\Binaries\\Win64\\HLL-Win64-Test.exe"
+			"arguments" "-noEAC"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev_team3"
+			}
+			"description_loc"
+			{
+				"english" "Test (no EAC)"
+			}
+			"description" "Test (no EAC)"
 		}
 	}
 	"uselaunchcommandline" "1"
@@ -503,9 +571,9 @@
 		{
 			"public"
 			{
-				"gid" "1028374999673888447"
-				"size" "47670709767"
-				"download" "20985218464"
+				"gid" "7512180241872165093"
+				"size" "49849666024"
+				"download" "21843010032"
 			}
 		}
 		"encryptedmanifests"
@@ -524,57 +592,63 @@
 			}
 			"dev_team"
 			{
-				"gid" "F0E33E22BEB67319B263F7262B10375F"
-				"size" "88B2D879736B03081BB113F491B37E61"
-				"download" "1246F165278B7EF1AC56EB5F50E781EE"
+				"gid" "BC3E2913B6C5D7A4956FA1060E2BFE7B"
+				"size" "A0E2869ACB5FAB13D0D1B494B1945600"
+				"download" "2F77BF057956F66EE974E8509C3E587B"
+			}
+			"dev_team2"
+			{
+				"gid" "DC2DCFD06A442DEFEDD4C2E6FFE5075C"
+				"size" "D189D3C21F7DA6F02556F38D635CAC48"
+				"download" "AE1ADE44F1E49EE6F28F463ADDD86446"
+			}
+			"dev_team3"
+			{
+				"gid" "4786C32F8B98BE93B8B233AAC06F7647"
+				"size" "75B7A94E788B9B2AC17DC79B98EB2044"
+				"download" "6C4D1CD36C59BD3952CD7AF8A870608B"
 			}
 			"gsp_testing"
 			{
-				"gid" "9A68F2582C5918CEA5001647F523F470"
-				"size" "35226D40FD0FCA23961C90E5EB154E6E"
-				"download" "4F6029EEC3947D4C4E17D0EC66F39EBA"
+				"gid" "4588D1B3D0C9944C919BC22C8379162E"
+				"size" "2A25385FAE7DBF3E22C8BE123230357C"
+				"download" "2661C1D05DBE60D4114FA6B74F6F8C19"
 			}
 			"hll_main_build"
 			{
-				"gid" "3E78057DC6AFAE8EB0CC8350B020B016"
-				"size" "D196C169A68068925BD27F10C27AAE2C"
-				"download" "AC5C4AF9986478F305EE79F8BAB87348"
+				"gid" "CB45241DDC1B0EB40C7D6BA8FE987CE5"
+				"size" "FD6789A8D50B5E6809E591FB4F9D5D9A"
+				"download" "D40EE553C82DC08C6E1414AE82BAE553"
 			}
-			"hll_release_update15_build"
+			"hll_release_update15_1_build"
 			{
-				"gid" "93B8D32B9BB6AD3906B625C4F32BDA9B"
-				"size" "00FFDD01FD404D8DCA6B6B3DDBEFC43B"
-				"download" "A82AA8F039EB24784EC6B725E6CC2A8A"
+				"gid" "4CDF95F4A8FD99682955E9D50DFA97D6"
+				"size" "B33B8FC4F24BE7A7B05D223393EC4615"
+				"download" "D31B4AAF2938142407F55721AC5B05E6"
 			}
 			"hll_wip_1_build"
 			{
-				"gid" "74EDD9149BE2342D52E299F0F54A72B3"
-				"size" "7C003FAA7787BC9CF8CB26FB3515589E"
-				"download" "01E1E26CD2218472F6D3A9B4D1E773C7"
+				"gid" "83EB6575022BD1ADC15C6378FCF32726"
+				"size" "E9ABBEBB4321F7992EA71228217D833F"
+				"download" "0AF6CFA3BE0E7EB5C67D58478299F70C"
 			}
-			"oss_testing"
+			"prod_hll_release_u15_1_build"
 			{
-				"gid" "66842EBD159503A3DE8D3EBE0035EC1A"
-				"size" "3AB54E87D8B9CD30BDB79EA013D87089"
-				"download" "C21B8BF2BCC8E3D2F856D865460F1116"
-			}
-			"production_hll_release_update15_build"
-			{
-				"gid" "94E53D0967D233C379C01B807C91B677"
-				"size" "3B52AD5454BE4F33E508959497E573C8"
-				"download" "26290FDEC558686775F7218A65A229A8"
+				"gid" "ABB93012FDE1E9DF67C6F5AD61C40F61"
+				"size" "DF64484C8C88B4DFCFC19CC89B68E154"
+				"download" "C83E2894FAF5ED80B42A6BFADE01E8D8"
 			}
 			"qa_testing"
 			{
-				"gid" "9B4E3B4B3E904329498299D39A410BEA"
-				"size" "DD88B8255570157354E49F6A7DD483A0"
-				"download" "8D871650D8F0992AF775E0461F3EE166"
+				"gid" "929EAC1AE9E1BA95001FDB5D6F0F6C67"
+				"size" "6D70C4A3D4E6F06F1D49D9517509CF3E"
+				"download" "AE6F591B1CA4007001B8AFE8414DD603"
 			}
 			"wc_playtest"
 			{
-				"gid" "B00FDD852570457D4CFD9A64928E63D1"
-				"size" "A8D7B3C85F145ABF09969097727AB659"
-				"download" "043B506D0E08239073332987728F9273"
+				"gid" "58143EA0E294D43D2864CDD5B55B5987"
+				"size" "264DA9D9BD48680B74CD2AE85E771655"
+				"download" "5335B655339BB3117FA194BF03F5F385"
 			}
 		}
 	}
@@ -583,8 +657,8 @@
 	{
 		"public"
 		{
-			"buildid" "14401819"
-			"timeupdated" "1716458378"
+			"buildid" "14849477"
+			"timeupdated" "1720087179"
 		}
 		"cert"
 		{
@@ -600,57 +674,63 @@
 		}
 		"dev_team"
 		{
-			"buildid" "14448267"
+			"buildid" "14924363"
 			"pwdrequired" "1"
-			"timeupdated" "1716359610"
+			"timeupdated" "1720085679"
+		}
+		"dev_team2"
+		{
+			"buildid" "14923768"
+			"pwdrequired" "1"
+			"timeupdated" "1720085979"
+		}
+		"dev_team3"
+		{
+			"buildid" "14923591"
+			"pwdrequired" "1"
+			"timeupdated" "1720039499"
 		}
 		"gsp_testing"
 		{
-			"buildid" "14085947"
+			"buildid" "14849477"
 			"pwdrequired" "1"
-			"timeupdated" "1715338136"
+			"timeupdated" "1719824346"
 		}
 		"hll_main_build"
 		{
-			"buildid" "14469034"
+			"buildid" "14923768"
 			"pwdrequired" "1"
-			"timeupdated" "1716470633"
+			"timeupdated" "1720040895"
 		}
-		"hll_release_update15_build"
+		"hll_release_update15_1_build"
 		{
-			"buildid" "14402010"
+			"buildid" "14849477"
 			"pwdrequired" "1"
-			"timeupdated" "1715942914"
+			"timeupdated" "1719430581"
 		}
 		"hll_wip_1_build"
 		{
-			"buildid" "14461026"
+			"buildid" "14924363"
 			"pwdrequired" "1"
-			"timeupdated" "1716417452"
+			"timeupdated" "1720045712"
 		}
-		"oss_testing"
+		"prod_hll_release_u15_1_build"
 		{
-			"buildid" "14461571"
+			"buildid" "14849333"
 			"pwdrequired" "1"
-			"timeupdated" "1716421394"
-		}
-		"production_hll_release_update15_build"
-		{
-			"buildid" "14401819"
-			"pwdrequired" "1"
-			"timeupdated" "1715942111"
+			"timeupdated" "1719429566"
 		}
 		"qa_testing"
 		{
-			"buildid" "14086120"
+			"buildid" "14842095"
 			"pwdrequired" "1"
-			"timeupdated" "1716383695"
+			"timeupdated" "1720098488"
 		}
 		"wc_playtest"
 		{
-			"buildid" "14086120"
+			"buildid" "14401819"
 			"pwdrequired" "1"
-			"timeupdated" "1714137402"
+			"timeupdated" "1717174729"
 		}
 	}
 }
@@ -985,6 +1065,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23661349"
-"_sha" "ef679fa381c2dc449887a56488a06b18b33d1c89"
-"_size" "25750"
+"_change_number" "24237146"
+"_sha" "5667b73465f0b10eddba96f9475f255b9d9f373e"
+"_size" "27355"
