@@ -1,0 +1,215 @@
+"appid" "463300"
+"common"
+{
+	"name" "Supraball Dedicated Server"
+	"section_type" "ownersonly"
+	"type" "Tool"
+	"oslist" "windows"
+	"releasestate" "released"
+	"associations"
+	{
+	}
+	"gameid" "463300"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Supraball Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Binaries/Win32/udk.com"
+			"arguments" "server db-stadium\?maxplayers=10\?timelimit=15\?bmatchmaking=false"
+			"description" "Starts a training server on db-stadium"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"1"
+		{
+			"executable" "Binaries/Win64/udk.com"
+			"arguments" "server db-stadium\?maxplayers=10\?timelimit=15\?bmatchmaking=false"
+			"description" "Starts a training server on db-stadium"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7747775778018907449"
+				"size" "46727128"
+				"download" "14307024"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7138471031118904166"
+				"size" "78382436"
+				"download" "21254752"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"321401"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9011757822611619073"
+				"size" "1195265678"
+				"download" "742297840"
+			}
+			"beta"
+			{
+				"gid" "9011757822611619073"
+				"size" "1195265678"
+				"download" "742297840"
+			}
+			"gameplay-test"
+			{
+				"gid" "3584075891478469510"
+				"size" "1153581674"
+				"download" "710892608"
+			}
+			"server"
+			{
+				"gid" "7206835189749626088"
+				"size" "763254397"
+				"download" "429933632"
+			}
+			"ue4"
+			{
+				"gid" "5841079007171390421"
+				"size" "968012082"
+				"download" "317262352"
+			}
+		}
+		"depotfromapp" "321400"
+	}
+	"463301"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3636511801604319021"
+				"size" "977442323"
+				"download" "646231184"
+			}
+			"beta"
+			{
+				"gid" "3636511801604319021"
+				"size" "977442323"
+				"download" "646231184"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3526546"
+			"timeupdated" "1549141529"
+		}
+		"beta"
+		{
+			"buildid" "3526546"
+			"timeupdated" "1549133453"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23760255"
+"_sha" "caadbea4a5dae7c5baca7bda06644238e0c847c2"
+"_size" "3239"
