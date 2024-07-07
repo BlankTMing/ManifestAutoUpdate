@@ -172,7 +172,7 @@
 		"19" "19"
 	}
 	"review_score" "5"
-	"review_percentage" "51"
+	"review_percentage" "52"
 }
 "extended"
 {
@@ -188,7 +188,8 @@
 		"0"
 		{
 			"executable" "ocbt.exe"
-			"type" "default"
+			"arguments" "-DX11"
+			"type" "option1"
 			"config"
 			{
 				"oslist" "windows"
@@ -196,9 +197,25 @@
 			}
 			"description_loc"
 			{
-				"english" "Exbyte Studios Game"
+				"english" "Launch DirectX11"
 			}
-			"description" "Exbyte Studios Game"
+			"description" "Launch DirectX11"
+		}
+		"1"
+		{
+			"executable" "ocbt.exe"
+			"arguments" "-DX12"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Launch DirectX12"
+			}
+			"description" "Launch DirectX12"
 		}
 	}
 	"uselaunchcommandline" "1"
@@ -235,9 +252,9 @@
 		{
 			"public"
 			{
-				"gid" "6780740760629638345"
-				"size" "21305096897"
-				"download" "20006573472"
+				"gid" "7414064991923459585"
+				"size" "21145773826"
+				"download" "19858100832"
 			}
 			"old.version"
 			{
@@ -248,17 +265,17 @@
 		}
 		"encryptedmanifests"
 		{
-			"developer-branch"
-			{
-				"gid" "B29D5512C3FF3F31E0B14D686A73C843"
-				"size" "12058BD11C2F50FEDC7107066FB42FAE"
-				"download" "E05794B8FB9D9772DB5EA7D97968F82F"
-			}
 			"early-acess"
 			{
 				"gid" "A0289403E9048091C5772CECCE1343BE"
 				"size" "91CA6C0AB81B438E7114BFBF82D5B750"
 				"download" "09D43CEF9848E519B9A7526311C1AE99"
+			}
+			"developer-branch"
+			{
+				"gid" "1FC45FC14B364AF6C7D522C0094E6D3B"
+				"size" "5595DB51A8EAC7A40268D6CA7DCDF2B6"
+				"download" "AC884058F7F9994925D7455E3B75F3F1"
 			}
 		}
 	}
@@ -267,14 +284,8 @@
 	{
 		"public"
 		{
-			"buildid" "13936230"
-			"timeupdated" "1712151004"
-		}
-		"developer-branch"
-		{
-			"buildid" "13936230"
-			"pwdrequired" "1"
-			"timeupdated" "1712150170"
+			"buildid" "14952880"
+			"timeupdated" "1720292624"
 		}
 		"early-acess"
 		{
@@ -288,6 +299,12 @@
 			"description" "old.version"
 			"timeupdated" "1711915038"
 		}
+		"developer-branch"
+		{
+			"buildid" "14952880"
+			"pwdrequired" "1"
+			"timeupdated" "1720285545"
+		}
 	}
 }
 "ufs"
@@ -296,6 +313,6 @@
 	"maxnumfiles" "0"
 }
 "_missing_token" "False"
-"_change_number" "23066020"
-"_sha" "35d7f28d2c2ccec8a8f9c10a838419ca7941598e"
-"_size" "5183"
+"_change_number" "24262475"
+"_sha" "659372dee72a22f9aa4b62f67d06fdd540420725"
+"_size" "5472"
