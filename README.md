@@ -1,14 +1,11 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-07-07 00:00:57
+## 更新时间：2024-07-07 08:32:12
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 252490 | Rust| Game |
-| 730 | Counter-Strike 2| Game |
-| 1840620 | Trialtime Reborn| Game |
-| 736190 | 中国式家长| Game |
-| 754500 | Plutocracy| Game |
-| 700580 | Rust - Staging Branch| Game |
-| 486860 | MMORPG Tycoon 2| Game |
-| 1455910 | 领地：种田与征战| Game |
-| 770810 | 可口的披萨，美味的披萨| Game |
+| 711450 | Orb The Ball| Game |
+| 740 | Counter-Strike Global Offensive - Dedicated Server| Tool |
+| 1966720 | Lethal Company| Game |
+| 1810310 | Hidden Ghost Town| Game |
+| 2500750 | Only Climb: Better Together| Game |
+| 573410 | AI War 2| Game |
