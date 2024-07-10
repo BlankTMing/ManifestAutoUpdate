@@ -21,6 +21,7 @@
 	{
 		"english" "1"
 		"schinese" "1"
+		"tchinese" "1"
 		"japanese" "1"
 	}
 	"content_descriptors"
@@ -96,7 +97,7 @@
 			"height_pct" "43.92068392305866"
 		}
 	}
-	"store_asset_mtime" "1709189490"
+	"store_asset_mtime" "1715223522"
 	"associations"
 	{
 		"0"
@@ -150,6 +151,11 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1698979556"
 	"community_visible_stats" "1"
@@ -166,11 +172,11 @@
 		"6" "6971"
 		"7" "17305"
 		"8" "6378"
-		"9" "5716"
-		"10" "4182"
+		"9" "4182"
+		"10" "5716"
 		"11" "8369"
-		"12" "5984"
-		"13" "492"
+		"12" "492"
+		"13" "5984"
 		"14" "599"
 		"15" "9"
 		"16" "4474"
@@ -224,54 +230,60 @@
 		{
 			"public"
 			{
-				"gid" "5870285546523321621"
-				"size" "2382086035"
-				"download" "593928688"
+				"gid" "435342484860218843"
+				"size" "2654974222"
+				"download" "655908112"
 			}
 			"opentest"
 			{
-				"gid" "5685954417176877960"
-				"size" "2382054483"
-				"download" "593933072"
+				"gid" "6487028523649327210"
+				"size" "2654974242"
+				"download" "655888320"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"alpha"
-			{
-				"gid" "ED381DE10692377A2DF903A75FC0E815"
-				"size" "2EBD662436726BF87655F2B257B06627"
-				"download" "7B704A73DAD264F8E9AF3B32CADD3867"
-			}
-			"bug-alpha"
-			{
-				"gid" "8C90A7DD335FFBC12887939EDF489672"
-				"size" "1FA6E6209F4269FD24E4C041EEB161D8"
-				"download" "4E59076283061A9D863A9A787413A21C"
-			}
 			"develop"
 			{
 				"gid" "549F29F0710C84B2CAC4E6672C5806FD"
 				"size" "BB5C32B6B8B92056423F7EA8ABC07939"
 				"download" "B9752D058D48010C51233ADAE9B12675"
 			}
+			"alpha"
+			{
+				"gid" "0DFC6C0F629359484EE48C78D63268B0"
+				"size" "E704C51D7DB6A3DC192F728489D3465E"
+				"download" "966FAC00C8432219932B265F15AEA654"
+			}
+			"bug-alpha"
+			{
+				"gid" "64C1D8C32D1A89901EE55C7E748702A1"
+				"size" "D7D090A0093513E93D111C1F7954561B"
+				"download" "9862085AED784F75CB1427D31DC84E05"
+			}
+			"bug-qa"
+			{
+				"gid" "809A492940EBBA0C403FA08758FACB6A"
+				"size" "1B6C1E280AE9F23B26272A4C4294F55D"
+				"download" "1223F361170C6BDDF808A09B5F754A3E"
+			}
 			"lqa-language"
 			{
-				"gid" "B382D88DA0D1D90E4AB0A0E7F8395E5C"
-				"size" "A5BC760FA08B6982B06FA4F314840B4A"
-				"download" "59861363D25EA10800D8A9286D2245E0"
+				"gid" "626B580481538937B1EDAABCD76657A3"
+				"size" "8E2E70A098693F799B3F5883628DEB30"
+				"download" "E402AB5CE8A58F4258255F6627795128"
 			}
 			"metalhead-dev"
 			{
-				"gid" "88FF3513C2E956E314DC98F1C9E08846"
-				"size" "C38A56BC9F09D525FD4F9ED68058DF8D"
-				"download" "6B1F8BDD83889734A75948C77A26BE72"
+				"gid" "418BD97FA0E7CAA5B1543D3AC749DBF1"
+				"size" "F81F2DFE1EB4F8DA502C4533EBD25FFB"
+				"download" "D6E97F807B59D637E112B8A9FBD5AE9C"
 			}
 			"metalhead-rc"
 			{
-				"gid" "46A87951C73BC10CE4F2C2FB7D2C18AA"
-				"size" "19A77595F623913DF479C7E5758B6987"
-				"download" "493E462C5FF80F5CAC801566A42FC68D"
+				"gid" "C215CD0ACD059448BEC9FE287B2DDF8B"
+				"size" "F87C8F01E87C0907D6001631FC74A8C7"
+				"download" "EB9148733E27A6FC0E658174797540F2"
 			}
 		}
 	}
@@ -279,20 +291,8 @@
 	{
 		"public"
 		{
-			"buildid" "13665081"
-			"timeupdated" "1709880554"
-		}
-		"alpha"
-		{
-			"buildid" "13378719"
-			"pwdrequired" "1"
-			"timeupdated" "1707209481"
-		}
-		"bug-alpha"
-		{
-			"buildid" "13665081"
-			"pwdrequired" "1"
-			"timeupdated" "1709865452"
+			"buildid" "14963171"
+			"timeupdated" "1720599956"
 		}
 		"develop"
 		{
@@ -300,29 +300,47 @@
 			"pwdrequired" "1"
 			"timeupdated" "1709091965"
 		}
+		"alpha"
+		{
+			"buildid" "13610968"
+			"pwdrequired" "1"
+			"timeupdated" "1717121354"
+		}
+		"bug-alpha"
+		{
+			"buildid" "14963205"
+			"pwdrequired" "1"
+			"timeupdated" "1720433833"
+		}
+		"bug-qa"
+		{
+			"buildid" "14963171"
+			"pwdrequired" "1"
+			"timeupdated" "1720433843"
+		}
 		"lqa-language"
 		{
-			"buildid" "13586177"
+			"buildid" "14962225"
 			"pwdrequired" "1"
-			"timeupdated" "1709173022"
+			"timeupdated" "1720429092"
 		}
 		"metalhead-dev"
 		{
-			"buildid" "13381220"
+			"buildid" "14963205"
 			"pwdrequired" "1"
-			"timeupdated" "1707225438"
+			"timeupdated" "1720598377"
 		}
 		"metalhead-rc"
 		{
-			"buildid" "13665081"
+			"buildid" "14963171"
 			"pwdrequired" "1"
-			"timeupdated" "1709785763"
+			"timeupdated" "1720598340"
 		}
 		"opentest"
 		{
-			"buildid" "13611141"
+			"buildid" "14963205"
 			"description" "玩家测试分支"
-			"timeupdated" "1709290894"
+			"timeupdated" "1720599930"
 		}
 	}
 }
@@ -349,6 +367,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22682925"
-"_sha" "8d82ec24a787a24837d1624ca4901653106d2899"
-"_size" "6753"
+"_change_number" "24304363"
+"_sha" "60445fe7d38079222085ccdceeb13be2aaa4436d"
+"_size" "7118"
