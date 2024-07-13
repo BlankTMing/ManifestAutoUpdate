@@ -273,7 +273,7 @@
 		"19" "5350"
 	}
 	"review_score" "8"
-	"review_percentage" "91"
+	"review_percentage" "90"
 }
 "extended"
 {
@@ -595,6 +595,39 @@
 			}
 			"description" "Play Phoenix (Test) and clean files"
 		}
+		"21"
+		{
+			"executable" "Phoenix-Win64-Test.exe"
+			"arguments" "-SaveToUserDir -UserDir=\"Hogwarts Legacy\""
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "branch_development"
+			}
+			"description_loc"
+			{
+				"english" "Play Phoenix (Test)"
+			}
+			"description" "Play Phoenix (Test)"
+		}
+		"22"
+		{
+			"executable" "Phoenix-Win64-Test.exe"
+			"arguments" "-cleanpsocache -cleanuserdata -SaveToUserDir -UserDir=\"Hogwarts Legacy\""
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "branch_development"
+			}
+			"description_loc"
+			{
+				"english" "Play Phoenix (Test) and clean files"
+			}
+			"description" "Play Phoenix (Test) and clean files"
+		}
 	}
 	"steamconfigurator3rdpartynative" "8"
 	"steamcontrollertemplateindex" "4"
@@ -640,9 +673,9 @@
 		{
 			"public"
 			{
-				"gid" "4145077264440176258"
-				"size" "73892230239"
-				"download" "70489348304"
+				"gid" "2079568548454530274"
+				"size" "73863915617"
+				"download" "70451289584"
 			}
 		}
 		"encryptedmanifests"
@@ -652,12 +685,6 @@
 				"gid" "E245D9377E7D9D8483A626D99DBD20A2"
 				"size" "37F9A77DC5D1E4EEA87769203813DB1F"
 				"download" "CC5249BCF0F70B38E6AAD477C49AC504"
-			}
-			"milestone"
-			{
-				"gid" "B977D2CC80065520E4C4A8CDF86A3A08"
-				"size" "54133057BAD66F4EA67610EF123E99FC"
-				"download" "8534927A0535E8BFC9B64B910DF69A9B"
 			}
 			"playtest"
 			{
@@ -673,27 +700,33 @@
 			}
 			"beta"
 			{
-				"gid" "0955B3AC214D850D24C0FA6ACBEA9304"
-				"size" "0663E3A79FBB31C518ECBEA9BC174501"
-				"download" "EC177BA10B8F1CC66931DAC8CB1F2740"
+				"gid" "335299E06A979F3404BF489E12806498"
+				"size" "0054F9B9EAC0849A00B91B00BFA1F1EC"
+				"download" "520C2FB19EBF36755ACF104350027D25"
+			}
+			"branch_development"
+			{
+				"gid" "1DC83561795925CBE248DE2A72B68E39"
+				"size" "9E52F6DEE5895F8B22BEA7064989D8DE"
+				"download" "8573E98D9517212386E1B33627E80F68"
 			}
 			"development"
 			{
-				"gid" "00FB90DBEA80045B5931BFE055D236AD"
-				"size" "D025FB51CC62FF93A5BF6D05DE96A667"
-				"download" "2BD2428392B6B1A660868BB2C96E1A2D"
-			}
-			"fall24_development"
-			{
-				"gid" "21485707005FBD157AC919121F08C559"
-				"size" "320763F103FF0C1B03EB090092EFC6C4"
-				"download" "F8E0436AB8A730DA8D12288EF2706F8D"
+				"gid" "5013A00E7DA739CF76D2F8BF703B863A"
+				"size" "44DF25A0F4B085BBF3D597731AA56EC5"
+				"download" "59F7A32FA32788A66F3C511FED0B1046"
 			}
 			"main_development"
 			{
-				"gid" "C78041735C6B4686E6F6E8E5A795C1BE"
-				"size" "2C239E3DE12C98B127B9AA4074B72EFE"
-				"download" "D60818A9AB4F72645893B98B57B6495B"
+				"gid" "2DB79BE500ABD255246CE675325686D3"
+				"size" "A0915E2A8671256B6AF12462871A3697"
+				"download" "611724EB9E7A380DD7A8A40EE630D550"
+			}
+			"milestone"
+			{
+				"gid" "3F8C48944F4344804DF20D3E4B8006B1"
+				"size" "A2687D5E1B13A8198C043EE4CE2F3846"
+				"download" "9C207CE5614799682B55B818CA69719D"
 			}
 			"release"
 			{
@@ -709,15 +742,9 @@
 			}
 			"steamdeck_beta"
 			{
-				"gid" "9B4D5F29C31613E4617BD4354141436A"
-				"size" "2957E0467691EF10BF8394B62F7C2B19"
-				"download" "00BE94F431EE0FF59D9A01394F2EC11B"
-			}
-			"switch_development"
-			{
-				"gid" "C7BF7B37D8A84FECBF0A780FA88B317D"
-				"size" "16651392216FDC90F967ECFB1BB8A2D7"
-				"download" "7F8E4E734C4B9D2392CC56FDEC34E0A3"
+				"gid" "DC538D5F1D12C70BBD05AABCEDCCCA67"
+				"size" "371B6F7E73C4509822D2BB4DA8B0F2CB"
+				"download" "602A2519E60CB6AEA637F0ED8ED5B8C9"
 			}
 		}
 	}
@@ -748,9 +775,9 @@
 		{
 			"public"
 			{
-				"gid" "1055689403241869607"
-				"size" "2387444909"
-				"download" "2290786016"
+				"gid" "8531422653198090772"
+				"size" "2387444893"
+				"download" "2290799168"
 			}
 		}
 		"encryptedmanifests"
@@ -760,12 +787,6 @@
 				"gid" "4807C14DD39CAC7355CDFA45C182B888"
 				"size" "B13BD1014406BF106846D1823EAA4D50"
 				"download" "B59F965E3D10D650733B8E267182D2B0"
-			}
-			"milestone"
-			{
-				"gid" "C789A049C7B5EE9D4DC0381310140D23"
-				"size" "B8A904C662DE17711CD0E26E43E6F8A2"
-				"download" "BC28217E4AAEE80B1E14267996C611FA"
 			}
 			"playtest"
 			{
@@ -781,27 +802,33 @@
 			}
 			"beta"
 			{
-				"gid" "E18AA19DB8901D06CA73D662E1BD71AF"
-				"size" "06EAAFD77AB3D27BF519C2EC420DAE53"
-				"download" "BA31728E1E3A84251B063FB3BDA7AC43"
+				"gid" "A0EE860BD82C21F0208B908C64E1099A"
+				"size" "2D40071936F274480080C4B2ED29D7D0"
+				"download" "06BE00D0F066E9AA2ACA7F8E5764C9A9"
+			}
+			"branch_development"
+			{
+				"gid" "8D2680AE7989F513EABD95F4B016FC04"
+				"size" "CE932B54BBB26E6030B653CA6BE38B4F"
+				"download" "4EE2EEB973BC8477814A9FDB457003D6"
 			}
 			"development"
 			{
-				"gid" "66FC1D0EFC8DD81F8649BFF514242090"
-				"size" "576FA04A809F3B865796015F2024D221"
-				"download" "CFC9E7DC75E896F8AEB9644898D8EE47"
-			}
-			"fall24_development"
-			{
-				"gid" "A117A192BD694B4063D4C84AEDC0DD80"
-				"size" "C286296472C13D6D830EC6261485C4FF"
-				"download" "75D94B262874743F085C0D090D2B77BB"
+				"gid" "D3C122CFA63E351ECC00492029A6C7B9"
+				"size" "D1FA65AD7F530C20F9167E40B30CA5B6"
+				"download" "29E7675C00C9C560518EDAE091F48D79"
 			}
 			"main_development"
 			{
-				"gid" "409880FBE988A404C2F17F026DDFFBC1"
+				"gid" "40CE072859AF9B5AB460973B000617BC"
 				"size" "F74DE8F2F8585C1785B381122E3FE851"
-				"download" "37FD1F29A45BD74BF029F058D8C073C6"
+				"download" "7AC1B86C481E4F7502FB460B8690CD2E"
+			}
+			"milestone"
+			{
+				"gid" "061CCA5FD48C7BC3BB847FEC27C37663"
+				"size" "F09EB19C30DD504426BCE7BCD3B83F4B"
+				"download" "A3046ED63FDD9A7A610904BFED876357"
 			}
 			"release"
 			{
@@ -817,15 +844,9 @@
 			}
 			"steamdeck_beta"
 			{
-				"gid" "9877186897647C80957642E29CCE08F4"
-				"size" "4541144720B0CFBF098CBBFF246FEA40"
-				"download" "895916A1D222C267C5D8EBF7762B7E26"
-			}
-			"switch_development"
-			{
-				"gid" "B9CADF7894D4EE386951E347B03DC57E"
-				"size" "F9694C2EC2F2752C27A983F4D10A98A9"
-				"download" "9345078AE2452E3F4CFFF74508006E00"
+				"gid" "BAF20FEF627B8F21667D90185DED46E1"
+				"size" "9AAF68D00498A4919D8AB364A9F041B3"
+				"download" "B66C84683E9B96B0FB450E05E552FDB1"
 			}
 		}
 	}
@@ -839,9 +860,9 @@
 		{
 			"public"
 			{
-				"gid" "2510022716956554051"
-				"size" "2604043370"
-				"download" "2494543728"
+				"gid" "89772845445825722"
+				"size" "2604043674"
+				"download" "2494553696"
 			}
 		}
 		"encryptedmanifests"
@@ -851,12 +872,6 @@
 				"gid" "1B06886AA3837357D71C64D731883A96"
 				"size" "7AD71176B7362546D4C8F0AB77DFD665"
 				"download" "4698967FE8A4D115896997DE19780DC6"
-			}
-			"milestone"
-			{
-				"gid" "924FE4715BF379EC607151A133B3C2A7"
-				"size" "AD8756B7997EC22069AD5B36BDCFAF92"
-				"download" "F5F2D18337125226A72AB9A0FF55C59A"
 			}
 			"playtest"
 			{
@@ -872,27 +887,33 @@
 			}
 			"beta"
 			{
-				"gid" "46D52C580120D9D427F0C6B3A62F9017"
-				"size" "0E742EFD8EE97F94E7CA9A9EE9240C61"
-				"download" "AFE8F8042F3E5F18447DBD86E42A769E"
+				"gid" "AA0B303DE87479DB08FDEDACE14CD9AB"
+				"size" "2AB78BEF521AEA99F7604EDD9FC8B829"
+				"download" "4754E6085483101E6F1C46A2DA2C3781"
+			}
+			"branch_development"
+			{
+				"gid" "9A0E2F8346229F89D0FDDC3E5D7038E5"
+				"size" "B5D2BF384B41EB2113BB341F974E268A"
+				"download" "8CD6907155E92E9FF750047A1C7D3468"
 			}
 			"development"
 			{
-				"gid" "35A5F40AA84296152A2B56A768AC53AB"
-				"size" "228A1DD3021613871D5C0CC014522F0D"
-				"download" "341D7388B5E40D718B338F6F7DF71874"
-			}
-			"fall24_development"
-			{
-				"gid" "3CBE4FE1A6A6C1D4FF63829628C023D3"
-				"size" "44DF7CE3454324A66979DF51171CB3DC"
-				"download" "FDB055C3E063538F82BD9B56F10B54A6"
+				"gid" "B848C0A297E374CCA949202A10CBE900"
+				"size" "68FE427B4CB0BB851D4013D105BC5D7E"
+				"download" "79FFD98D52D1B56BFC0670E5E83AC202"
 			}
 			"main_development"
 			{
 				"gid" "24C9D2DE000F2B7119FD2D8167294745"
 				"size" "E3493DC285FF717F9E8CB5BC1328ADA7"
 				"download" "EE1AF2EF3F2AB1E9672E088AAEDCEC00"
+			}
+			"milestone"
+			{
+				"gid" "8156D27D4354980D6721B4C58217E327"
+				"size" "54FC9863B4CD5FED3EBC1564D38AC090"
+				"download" "F2EE17B9FF323784FE0B679D27308FF4"
 			}
 			"release"
 			{
@@ -908,15 +929,9 @@
 			}
 			"steamdeck_beta"
 			{
-				"gid" "CE18FA5432B9520417FE6EC6273757C0"
-				"size" "79149F53D9E13496E1F698C0187C0D89"
-				"download" "D3338FB005AE960494A6010BB18C9B0F"
-			}
-			"switch_development"
-			{
-				"gid" "A6E6B88C72C4A4BEA7732AA8926ABACB"
-				"size" "C659B4AAD23934233B4AD2C1E1D52D7C"
-				"download" "379AE6C093BED6F33CCC1E4124AD0A6C"
+				"gid" "932B84505861F6A801F161AEB4A4F8F9"
+				"size" "69A3D8CB1A56DD63E04371742B1BE26D"
+				"download" "3F1B95EF5D79B0E79E406CB6DC364662"
 			}
 		}
 	}
@@ -930,9 +945,9 @@
 		{
 			"public"
 			{
-				"gid" "6771786275718031616"
-				"size" "2596061730"
-				"download" "2485159520"
+				"gid" "8800687371274275755"
+				"size" "2596061826"
+				"download" "2485159632"
 			}
 		}
 		"encryptedmanifests"
@@ -942,12 +957,6 @@
 				"gid" "D022945BE8763F41B759F965EA99EEFD"
 				"size" "7F83A3685E0AA0C92AB6D7A89C9A6490"
 				"download" "F19A6FA4D3A48523C47F024E899E1AD2"
-			}
-			"milestone"
-			{
-				"gid" "7C3A3B855F19A5690AA8FCDD55C9418F"
-				"size" "DCC7B5A158FE2CF32105C1A50F31A81F"
-				"download" "8BC9D9B933B83F698D036144FA0BFA8E"
 			}
 			"playtest"
 			{
@@ -963,27 +972,33 @@
 			}
 			"beta"
 			{
-				"gid" "A9B16BD7F3D7BD031975B89F781A32A0"
-				"size" "995686E9004B569E39F416330B1F3D68"
-				"download" "2C7ED8F9D2A6136DFF9EC239B80B4F83"
+				"gid" "25886AB09BC78F31CBAB4AEF65C17DDE"
+				"size" "190A4835C4E07961EAF1AE91D3E82F90"
+				"download" "4CFCFF73702D790600B9D2AD344F5F5D"
+			}
+			"branch_development"
+			{
+				"gid" "A5156EF0CD63BEF40A26062E28B27702"
+				"size" "81D8561BBE0CBCE6AAB12F3414E9C356"
+				"download" "CAA17397109EA7E2893CABC68BE43CB9"
 			}
 			"development"
 			{
-				"gid" "7C886561021FBDC2EEAEC4EC318427F5"
-				"size" "7EB35B9208F6C4F3B01EC83DDAF1DE6E"
-				"download" "958F2AE37E04CBDE32C4AD3DF78101D2"
-			}
-			"fall24_development"
-			{
-				"gid" "51F67C87AB98707888BE6C94ACE705B8"
-				"size" "46A2ADA44C0181489A5355969653F177"
-				"download" "2F5DF72CD14B585DAED287E3331CE23A"
+				"gid" "B11560B4EE6826C29EF396A5ED5758E7"
+				"size" "7A9AED967F3C3AC2485F47DAF237689B"
+				"download" "48A6812B9AAECCDACFD9688C907C22ED"
 			}
 			"main_development"
 			{
 				"gid" "06F2AFEE8D06C2B32938A6E945ABC6E5"
 				"size" "B68F71C708389C1B62CC2A8FB8EB504A"
 				"download" "7D869C6C7567B23369348E31FA56D3A2"
+			}
+			"milestone"
+			{
+				"gid" "CA7B1F4647AA77499AE651F2201F08B6"
+				"size" "C0C4A31ED64AABB620C6E323C0816C68"
+				"download" "4C257D2629E5E75C9080D150987FE3E3"
 			}
 			"release"
 			{
@@ -999,15 +1014,9 @@
 			}
 			"steamdeck_beta"
 			{
-				"gid" "6194A5B5DB27D13B912420291A519532"
-				"size" "A6422AAF1388734196833E9A568D6AC2"
-				"download" "330F2E070BEC0E5225D1F2F7E284E346"
-			}
-			"switch_development"
-			{
-				"gid" "165391BA49BAB4F51B88B32D59874D6E"
-				"size" "A05DD1DE1FB58788F79A96DD5ED678C7"
-				"download" "10E124663FAB34385B9D4DBAE668AFD0"
+				"gid" "066080C0241D4AE94B5359FED1ADBB14"
+				"size" "A5AF55E66FD06150FC9EAC56E4C7B6EB"
+				"download" "CDFCA96ADFA4B9C2749CD83E46B9F7DD"
 			}
 		}
 	}
@@ -1021,9 +1030,9 @@
 		{
 			"public"
 			{
-				"gid" "5251016625235541465"
+				"gid" "8874137397801291722"
 				"size" "2696435109"
-				"download" "2587235776"
+				"download" "2587234064"
 			}
 		}
 		"encryptedmanifests"
@@ -1033,12 +1042,6 @@
 				"gid" "F378749DFAB7FADFD618FC79519FD58B"
 				"size" "C448821AE7E6C3B0C1E0D61053AA9FB5"
 				"download" "C6CF47AEB4AD474B3EBA6A31F67E7068"
-			}
-			"milestone"
-			{
-				"gid" "B96BED8B713B2F2AA4C84932D1230A38"
-				"size" "059821C0D44E925282930477EDBF7142"
-				"download" "CA1082F613BFF424FBAE02C22F15EE83"
 			}
 			"playtest"
 			{
@@ -1054,27 +1057,33 @@
 			}
 			"beta"
 			{
-				"gid" "E67CE8EF1725FAF88EC20F2454D7B908"
-				"size" "655E29A268C934EEB8A6E364F8721EC2"
-				"download" "A19C769F2E0E7DAC02A9FFA18D6024D3"
+				"gid" "E8EB0EF746961E7FCB5B33F89EB7974A"
+				"size" "1675825FE4922D827FECB6D09AF89401"
+				"download" "1368F8A7A73BF9C68D084C439BBE14BF"
+			}
+			"branch_development"
+			{
+				"gid" "6175798FB997EF6B988E445AA462F613"
+				"size" "290C2B26D114B03A44FE257040B1C545"
+				"download" "ADBB3E9896DC205E25C5CCC24AD16FA6"
 			}
 			"development"
 			{
-				"gid" "9811DD21F3B3D3C0AD1DB64BA2D96CAF"
-				"size" "21CBDE860EB622D3E358B37C1A13FCE5"
-				"download" "BD3CCCD3577C720DB7480EFEB1022C41"
-			}
-			"fall24_development"
-			{
-				"gid" "C3DF282FF1C994B5C3F9BDB4C241256F"
-				"size" "B2FA1F2CC273280ECDC7E2EB25FF7E0A"
-				"download" "CFC5B3ACD6B2444ECB43E3A7C460176C"
+				"gid" "403305C608704C6C6112DE4D162279ED"
+				"size" "6CBEFB97EE9AA057B6F346EF8B1FFC74"
+				"download" "669DBA9F9A2B8D24018601E8B65AB777"
 			}
 			"main_development"
 			{
 				"gid" "0A4C559144F5B98888A3C05DAE99D949"
 				"size" "03C400CC892E39D07CB475A881524620"
 				"download" "09E9C2EAFC30AC10A6CCA9CD29EF4042"
+			}
+			"milestone"
+			{
+				"gid" "248F79F1B4E63956EB815A99529E8D09"
+				"size" "6B23F33C0ECE991C5F58597C2F24B051"
+				"download" "28A16910A99CFE3E14B9832F500B2662"
 			}
 			"release"
 			{
@@ -1090,15 +1099,9 @@
 			}
 			"steamdeck_beta"
 			{
-				"gid" "346E82A7AFD415D8E0B6B549B7EA7BBE"
-				"size" "2525937395C9F1471ACD9C6DFF1372D7"
-				"download" "91E02113F301CC1E3A75E7936D015068"
-			}
-			"switch_development"
-			{
-				"gid" "B99AC655261E1AAA8E533AC3AA68CD8A"
-				"size" "69466BB24618C1E0A471B6E93E9E46C3"
-				"download" "E815AEF02A5EEC7ABC07DFFBE9DDB129"
+				"gid" "187B946DED4448CB2D3043C1627776E6"
+				"size" "F58FD2F71DD0CD8AA5712FC1318EBFC0"
+				"download" "9A6B8FDBCB612D76BFC0469552924D84"
 			}
 		}
 	}
@@ -1112,9 +1115,9 @@
 		{
 			"public"
 			{
-				"gid" "6428487112327014187"
+				"gid" "5523403087932183471"
 				"size" "2703373410"
-				"download" "2591833680"
+				"download" "2591832624"
 			}
 		}
 		"encryptedmanifests"
@@ -1124,12 +1127,6 @@
 				"gid" "1909EBCF8C0DC283BA43B67A1940121F"
 				"size" "0004702F24424B1839FC180378475A98"
 				"download" "687C8E795E288709EB7B360FA203DE6F"
-			}
-			"milestone"
-			{
-				"gid" "7323D20FA1908F65F22492E443ABC705"
-				"size" "C7DBDA56E8E0B1EA356EEB3A53A15ADE"
-				"download" "2D94DEA1E5B125C2AEB86698B0F53DD7"
 			}
 			"playtest"
 			{
@@ -1145,27 +1142,33 @@
 			}
 			"beta"
 			{
-				"gid" "93100A094E7AB1F4004BD9BB00631744"
-				"size" "737722A49952BD2600CB862529E6AF99"
-				"download" "A8A421811D1F82E1CE1D38786D9FDA5F"
+				"gid" "7E817670B7B275C2ACF6C13C604DB858"
+				"size" "4540741E65E4E9E1C3B83A08856DC5A9"
+				"download" "1FBDC77BDED76206431E6E509D5F5263"
+			}
+			"branch_development"
+			{
+				"gid" "561BA86D19228EB2D5940839FBF5AF1A"
+				"size" "AA61AD674373CC9C296BB2AEDADA10BE"
+				"download" "BE502012F65B8B30A26ACA9CE554F1DE"
 			}
 			"development"
 			{
-				"gid" "0024B20DDCF541C254293F249A06DECA"
+				"gid" "C613A1A195CC5454CE705771EAC6EB15"
 				"size" "3BBDD1EF84B69A8DD1C9B8766626292E"
-				"download" "382D926CBB22A99B56E2FBDE565FF15D"
-			}
-			"fall24_development"
-			{
-				"gid" "36DBF22A7BA13C39A282A2A82E744DF1"
-				"size" "1B82C4716CFB5D978AD3A6571825E607"
-				"download" "D812EB66438C18ADBC785B4CA6B588D7"
+				"download" "3C84CC48A44F014CBD63E8164E2C9EB5"
 			}
 			"main_development"
 			{
 				"gid" "04C0B445FA1198F046F11C218158C947"
 				"size" "6CFCDD42246B732DA28683CCAF3BC457"
 				"download" "1A44EE492701B5346AD603205B4E0B9D"
+			}
+			"milestone"
+			{
+				"gid" "6C0B3779FEFFF5105949F94E32596770"
+				"size" "391AE39B01065B7CED0717DAE2960A0B"
+				"download" "3EC152CE5D57EF9074CD7263F074F67C"
 			}
 			"release"
 			{
@@ -1181,15 +1184,9 @@
 			}
 			"steamdeck_beta"
 			{
-				"gid" "222C5F16BC2E808596BD0553503DC80E"
-				"size" "53BCDC7CB8D03D7D0B4695D49469E13C"
-				"download" "6C4CC0C8E7844AB793B0160E4B48291F"
-			}
-			"switch_development"
-			{
-				"gid" "33EC6316654C6F99767BFD64F87BDB1F"
-				"size" "6C8F4FC6E82EBDF8EBB76974CA0F324C"
-				"download" "27C8E8F211576B65690070ADEAFF2619"
+				"gid" "73B9EDECD2412564BD07EFD3E2C9AB5B"
+				"size" "B7AD8DFE3FE240DBFA2B42310AEF7F50"
+				"download" "BFDFA845347E07E34435C3EBE6B89216"
 			}
 		}
 	}
@@ -1203,9 +1200,9 @@
 		{
 			"public"
 			{
-				"gid" "9021238378849711420"
-				"size" "2685734095"
-				"download" "2571918800"
+				"gid" "890184530098470474"
+				"size" "2685733999"
+				"download" "2571918544"
 			}
 		}
 		"encryptedmanifests"
@@ -1215,12 +1212,6 @@
 				"gid" "9C2724066DFDA9157337930C929DCFEA"
 				"size" "FDEE1F3106768DC28A2A25B30D17E524"
 				"download" "A648225906A721A6346A1BEC15A92539"
-			}
-			"milestone"
-			{
-				"gid" "61A4CB688B56A314714C44CA751B7B96"
-				"size" "A031134132E9E4CBC37D0D226B733DA8"
-				"download" "4FDD354C20D748C3DB974AAB6F959533"
 			}
 			"playtest"
 			{
@@ -1236,27 +1227,33 @@
 			}
 			"beta"
 			{
-				"gid" "79B36B86E3B88D7E4F22CAC88097C8DF"
-				"size" "C87DA2BA4856DC02DD66CEFFDCEA17B8"
-				"download" "E18533F64FF516A7CD0FEADDD3B55883"
+				"gid" "183FBBA14C764FB1F4CA94E3BA0C1639"
+				"size" "BA3CA8F5E625262E7A667CF67E1FB7D2"
+				"download" "AFE59D2EDBE262DB58FC1F748E877B8E"
+			}
+			"branch_development"
+			{
+				"gid" "D46FC88CEB4FFB6B25036EB5F13FA683"
+				"size" "F75CEBA55B5D72E799C51EFDA30AC1A6"
+				"download" "EEF5783B191340DDD64B9CE5361561C5"
 			}
 			"development"
 			{
-				"gid" "72F79B65F3E3667545E7633DF559B9BA"
-				"size" "1F1DF2B6257AA573FE8B9DEA4A993DF1"
-				"download" "ED67FE6000B7ACA10DA757CFFFC1A70D"
-			}
-			"fall24_development"
-			{
-				"gid" "F40BED27DB6B855B196E22CD295446AE"
-				"size" "B46254507525953E7EFCD21D67C47E25"
-				"download" "F2ED310CAFA1D4B223AA5C574641774B"
+				"gid" "A86A57B9B9D2D5C56CA1E6B8EE3061A2"
+				"size" "9936C870CE19EC3BA63A56BB1A33C499"
+				"download" "F510AD95C9D1011ACBE671EB075C29F5"
 			}
 			"main_development"
 			{
 				"gid" "9B715D9B5AD6B94C2277F43AE8889093"
 				"size" "630653C00D7F6C1FCB75FBC270B9877A"
 				"download" "AD5D0CBF21930774831104150E1F7471"
+			}
+			"milestone"
+			{
+				"gid" "6F5D87E9A6E58A9C3C1FC3DB96E4EF75"
+				"size" "B42DD47422A10D52B552565B3D1496D3"
+				"download" "84D7C1C73CA58AB61BAD973C4B2F4A8D"
 			}
 			"release"
 			{
@@ -1272,15 +1269,9 @@
 			}
 			"steamdeck_beta"
 			{
-				"gid" "080994A8821C186B30436879CCCCC6BA"
-				"size" "E27E4E8FBE64CCCCD0F1E089B8C31408"
-				"download" "E70EB1818D3F20CD7BA6920AE58990D6"
-			}
-			"switch_development"
-			{
-				"gid" "FE1636F56C097D4DDF18B7EEA44C0931"
-				"size" "60F53BCE93F849B76C79A768253BE131"
-				"download" "DA1545E99DBEA6D628507CCE73E1051C"
+				"gid" "3410DCAE428C91960054AE4C9C3BF3B8"
+				"size" "40988F1F30C39574885D349F3D670564"
+				"download" "F3EDA62AFCF9679F5427E58D41AC353B"
 			}
 		}
 	}
@@ -1294,9 +1285,9 @@
 		{
 			"public"
 			{
-				"gid" "7192188125403977252"
-				"size" "2615339761"
-				"download" "2505518000"
+				"gid" "8184017849805092980"
+				"size" "2615339809"
+				"download" "2505518112"
 			}
 		}
 		"encryptedmanifests"
@@ -1306,12 +1297,6 @@
 				"gid" "CA9AB3147A3079397190EE2651CD3D80"
 				"size" "1FCCB1D68D202E5CDC2AE439FC6A8C97"
 				"download" "ADC149BC8E2D0C1892D3DC27B7048999"
-			}
-			"milestone"
-			{
-				"gid" "1D33A710C0E686F1F2188C89577AB88A"
-				"size" "ADCE3294A4CDF0B18362BE5FE5A9E7AF"
-				"download" "A1F9192A077B3CF1FF032A43741FDB7F"
 			}
 			"playtest"
 			{
@@ -1327,27 +1312,33 @@
 			}
 			"beta"
 			{
-				"gid" "F89CFDF8DA07A98CA9F6F2925F208E70"
-				"size" "F918E4CB4C16AB9964BA28635220760F"
-				"download" "E24D1D04B075ED260B302016F91E2265"
+				"gid" "18F11A54BF44DD0301E3EF29DBAC6740"
+				"size" "18494E1469DBBC9A50FC80020B5093CA"
+				"download" "66E0D7FB304F463ACE33B8C241EE40C8"
+			}
+			"branch_development"
+			{
+				"gid" "06D39ED5763E77292F10B12B98BE832E"
+				"size" "7E308F2BD7BB4E7FA10993FC416890C3"
+				"download" "2B7D2087A1E7EEDA509F0F0DA1BC1B88"
 			}
 			"development"
 			{
-				"gid" "7103EFBDC47626E8DF3CFD78AD289411"
-				"size" "72C4C9573B6DE7A6FBF37D751BA634CF"
-				"download" "13600C8CAAA8FC06E590F6F046AD9222"
-			}
-			"fall24_development"
-			{
-				"gid" "C84BC96EDF01DAE4714042501AEAE196"
-				"size" "4AAB802E86FAF6BA49FB670066C23B73"
-				"download" "5DEB67624679D041F5D1887824481736"
+				"gid" "080DF4DD26080A85A0479396F02A3DFB"
+				"size" "EFE47A5E63CD9FECCB2052A3CD73CC44"
+				"download" "D2F68C8F383ACA831FD085F09E30F944"
 			}
 			"main_development"
 			{
 				"gid" "0D5177D2129627463C15B871AD16751C"
 				"size" "68F0FCD7F57F7D679832031BF641CBB9"
 				"download" "E4AF01BCC12DEF39653E35ED411CF93E"
+			}
+			"milestone"
+			{
+				"gid" "69CA4142468D1D356A58EEBC462F3B19"
+				"size" "C31EBB16A71766919FE4E57265BA81B4"
+				"download" "073F26295195A8A25BEC3B762B8FF1D6"
 			}
 			"release"
 			{
@@ -1363,15 +1354,9 @@
 			}
 			"steamdeck_beta"
 			{
-				"gid" "B57DF15A2612FBB9F05C9A81634CB916"
-				"size" "0F6771CF9354EA7970B239BCC7A7B112"
-				"download" "EAA07D179097392E2FD15742C0901107"
-			}
-			"switch_development"
-			{
-				"gid" "DF99C06E56844CFA2CB3F0DB717D4757"
-				"size" "8D4B793F35C7147071EAA0DAB30ECA53"
-				"download" "98D746EF4CA1FCB8907F579EEE0475B7"
+				"gid" "1AC8D2E0D88DDFB08D1B554EE2B159F5"
+				"size" "ECADB1DAA6E8B57E063E0AB78914DDAF"
+				"download" "970FB0B4FF4313F6DE4979F396CF865C"
 			}
 		}
 	}
@@ -1385,9 +1370,9 @@
 		{
 			"public"
 			{
-				"gid" "2412787065143368687"
-				"size" "2572015425"
-				"download" "2461934416"
+				"gid" "6673026734034950114"
+				"size" "2572015009"
+				"download" "2461936240"
 			}
 		}
 		"encryptedmanifests"
@@ -1397,12 +1382,6 @@
 				"gid" "9C280A8ED0C74CAEDCD57FDAC9C2B615"
 				"size" "6717EBA2C189065B6BEB5DA2587F866F"
 				"download" "7804DAD385DD74C75638D17475C4C118"
-			}
-			"milestone"
-			{
-				"gid" "701AFC13C5AE3315B490FCD07F8BA5F1"
-				"size" "55E636115C77DAD0D23484F18B9B737A"
-				"download" "F91AA60FF7A1C57F9A1F58B0EC21D3C2"
 			}
 			"playtest"
 			{
@@ -1418,27 +1397,33 @@
 			}
 			"beta"
 			{
-				"gid" "4A4D3C35185EED533939F2CDB99ED64E"
-				"size" "3E3273646000D3388813C754E12E8682"
-				"download" "08A55D7E2E4E59DB0E77889F5361999D"
+				"gid" "D4E37D5C5EFE5BF87B163AD02540281B"
+				"size" "10BF85C2B1D4297EFDB9E59C43130B32"
+				"download" "2458F3878EB5F816B0E8BC4F5428EB87"
+			}
+			"branch_development"
+			{
+				"gid" "1E9626D4B9D3DACBEC9DDB38805510FE"
+				"size" "300404B6A229E7578000969E6049363C"
+				"download" "15FFFC745BDC993061D72AABF0DD9289"
 			}
 			"development"
 			{
-				"gid" "B4F9AA3BD839D2422A26BB0E27048D4A"
-				"size" "F9F4B4050B8134BDD48EC7A4CD3C5713"
-				"download" "8F14E7A5204D6C667F8AB7E84BB90FCE"
-			}
-			"fall24_development"
-			{
-				"gid" "8CE346E089DF3DD19BEE4E0B04AA0D46"
-				"size" "C19BB50DED0A2E4C0F9A20B701AE2AAC"
-				"download" "5A769A4FD382629B5E871C6EC66B3513"
+				"gid" "B2A59D66E8ABF55B5B2928B86A2FC2D3"
+				"size" "1408B913E6B2BC1B71D5B37AF59CFCC9"
+				"download" "43E054F454DE0533C710509C38A3F99A"
 			}
 			"main_development"
 			{
 				"gid" "60321A4F1C2F8FAC20123BD5AF534A07"
 				"size" "98F67E6EAE83A2A8A1CB8ED8105FB8AB"
 				"download" "8CBBE434A447393A68BBE21B501CF615"
+			}
+			"milestone"
+			{
+				"gid" "24A11B25137E74DAD95003BDA8E6BA83"
+				"size" "DB60ED3DA5C182B52920356D24BB6F65"
+				"download" "A32C703A360FB68E22715A0543A35445"
 			}
 			"release"
 			{
@@ -1454,15 +1439,9 @@
 			}
 			"steamdeck_beta"
 			{
-				"gid" "8A81D6583947DF5525ECB36E7668E895"
-				"size" "5850F1206A063E2082223650A88E26B0"
-				"download" "820BAC3F92C419F0F2207BCD459E73FC"
-			}
-			"switch_development"
-			{
-				"gid" "6D6A6A55C43DC4BA20429AC90116398B"
-				"size" "18787BF936EFF1A952AEB4769BD00A25"
-				"download" "50FBBE8266EAD1518DFCE0E9FB61B286"
+				"gid" "5C9BB32C5A385E13F8A5C4A4FD4DEFD3"
+				"size" "7E4A966C6D5CBDCF343930E2A292E839"
+				"download" "EE527CF98C3138F4641A262E8A3BF1DA"
 			}
 		}
 	}
@@ -1471,20 +1450,14 @@
 	{
 		"public"
 		{
-			"buildid" "14413787"
-			"timeupdated" "1717606847"
+			"buildid" "14804570"
+			"timeupdated" "1720810537"
 		}
 		"alpha"
 		{
 			"buildid" "7688194"
 			"pwdrequired" "1"
 			"timeupdated" "1636756392"
-		}
-		"milestone"
-		{
-			"buildid" "9831041"
-			"pwdrequired" "1"
-			"timeupdated" "1667232142"
 		}
 		"playtest"
 		{
@@ -1500,27 +1473,33 @@
 		}
 		"beta"
 		{
-			"buildid" "14578405"
+			"buildid" "15019798"
 			"pwdrequired" "1"
-			"timeupdated" "1717359117"
+			"timeupdated" "1720828718"
+		}
+		"branch_development"
+		{
+			"buildid" "15019472"
+			"pwdrequired" "1"
+			"timeupdated" "1720825320"
 		}
 		"development"
 		{
-			"buildid" "14546147"
+			"buildid" "14909849"
 			"pwdrequired" "1"
-			"timeupdated" "1717066229"
-		}
-		"fall24_development"
-		{
-			"buildid" "14546147"
-			"pwdrequired" "1"
-			"timeupdated" "1717380196"
+			"timeupdated" "1719944784"
 		}
 		"main_development"
 		{
-			"buildid" "14578885"
+			"buildid" "14824796"
 			"pwdrequired" "1"
-			"timeupdated" "1717365160"
+			"timeupdated" "1719272953"
+		}
+		"milestone"
+		{
+			"buildid" "14909849"
+			"pwdrequired" "1"
+			"timeupdated" "1719951331"
 		}
 		"release"
 		{
@@ -1536,15 +1515,9 @@
 		}
 		"steamdeck_beta"
 		{
-			"buildid" "11333397"
+			"buildid" "14413787"
 			"pwdrequired" "1"
-			"timeupdated" "1685193029"
-		}
-		"switch_development"
-		{
-			"buildid" "10724925"
-			"pwdrequired" "1"
-			"timeupdated" "1680017341"
+			"timeupdated" "1717770010"
 		}
 	}
 }
@@ -1582,6 +1555,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23842328"
-"_sha" "cbf367946227d436eeb7fd8da8fdfd5987876b74"
-"_size" "36555"
+"_change_number" "24346277"
+"_sha" "96ce07201dbd4ad1eff517e380edc37fe999be7b"
+"_size" "35554"
