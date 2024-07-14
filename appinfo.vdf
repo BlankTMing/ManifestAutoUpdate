@@ -17,32 +17,27 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1715299200"
-		"tested_build_id" "14164547"
+		"category" "3"
+		"test_timestamp" "1720483200"
+		"tested_build_id" "14885450"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
-			}
-			"1"
-			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-			}
-			"2"
-			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
-			}
-			"3"
-			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
-			"4"
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
@@ -51,14 +46,14 @@
 		"configuration"
 		{
 			"supported_input" "gamepad"
-			"requires_manual_keyboard_invoke" "1"
+			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "1"
-			"small_text" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-9.0-1RC"
+			"recommended_runtime" "proton-9.0-2RC"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
 			"hdr_support" "0"
@@ -97,12 +92,12 @@
 		"1"
 		{
 			"type" "publisher"
-			"name" "Freedom Games"
+			"name" "indie.io"
 		}
 		"2"
 		{
 			"type" "franchise"
-			"name" "Freedom Games"
+			"name" "indie.io"
 		}
 	}
 	"primary_genre" "4"
@@ -144,8 +139,8 @@
 		"0" "597"
 		"1" "87918"
 		"2" "10235"
-		"3" "1702"
-		"4" "97376"
+		"3" "97376"
+		"4" "1702"
 		"5" "599"
 		"6" "5350"
 		"7" "6426"
@@ -168,7 +163,7 @@
 "extended"
 {
 	"developer" "Unwound Games"
-	"publisher" "Freedom Games"
+	"publisher" "indie.io"
 }
 "config"
 {
@@ -201,9 +196,9 @@
 		{
 			"public"
 			{
-				"gid" "2896958959443337898"
-				"size" "3227584874"
-				"download" "597555824"
+				"gid" "260326245968825395"
+				"size" "3236171410"
+				"download" "595850848"
 			}
 			"demo"
 			{
@@ -222,15 +217,15 @@
 			}
 			"milestones"
 			{
-				"gid" "B11DB5E306B0BAFA33816334CAEDB996"
-				"size" "49A6E30F426A1A889F9C90FA2720FCE3"
-				"download" "031EAB23101ACC3D1E705C287F055C51"
+				"gid" "1A7B8AC4E6102AD879E5CE71476BB7FC"
+				"size" "D24B834642ABB1D06F4A2CC741CAD6F8"
+				"download" "D24C1DB93A5867541458AD6E5CCB16A2"
 			}
 			"mods"
 			{
-				"gid" "3AD5F1D0B62542CBD45BE340F45D6781"
-				"size" "BA4F62719BA7965BF94809DC0B4F8C87"
-				"download" "B4BCCC16AC115747F244AB6E84FAC0D0"
+				"gid" "F7E79CA395977B1E40626D51E7E38B09"
+				"size" "98948E62A7F3892FFCCDE1E26DF65477"
+				"download" "E6A0E0FD5D38BB00D5FE187BC9F68BF4"
 			}
 		}
 	}
@@ -282,8 +277,8 @@
 	{
 		"public"
 		{
-			"buildid" "14367640"
-			"timeupdated" "1715727771"
+			"buildid" "15019559"
+			"timeupdated" "1720833537"
 		}
 		"demo"
 		{
@@ -299,15 +294,15 @@
 		}
 		"milestones"
 		{
-			"buildid" "14367242"
+			"buildid" "15019559"
 			"pwdrequired" "1"
-			"timeupdated" "1715721305"
+			"timeupdated" "1720833195"
 		}
 		"mods"
 		{
-			"buildid" "14489416"
+			"buildid" "15019559"
 			"pwdrequired" "1"
-			"timeupdated" "1716596322"
+			"timeupdated" "1720833376"
 		}
 	}
 }
@@ -343,6 +338,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23686414"
-"_sha" "69b4611686bf31339195e03a6ecf6e5e2e095ae5"
-"_size" "6509"
+"_change_number" "24346869"
+"_sha" "bf1938ae61725d6f53fabb0291e1982de5bb4437"
+"_size" "6354"
