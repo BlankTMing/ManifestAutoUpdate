@@ -19,6 +19,55 @@
 		"italian" "Oddsparks: Un\'avventura nell\'automazione"
 		"spanish" "Oddsparks: Una aventura automatizada"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1719964800"
+		"tested_build_id" "14184553"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -115,26 +164,26 @@
 	"gameid" "1817800"
 	"store_tags"
 	{
-		"0" "4791"
-		"1" "4726"
-		"2" "255534"
-		"3" "3843"
-		"4" "3859"
-		"5" "7332"
+		"0" "5125"
+		"1" "255534"
+		"2" "7332"
+		"3" "4726"
+		"4" "3843"
+		"5" "8945"
 		"6" "1702"
-		"7" "220585"
-		"8" "8945"
-		"9" "3834"
-		"10" "21"
-		"11" "1695"
-		"12" "3810"
-		"13" "5125"
-		"14" "9"
-		"15" "1643"
-		"16" "1684"
-		"17" "12472"
-		"18" "4328"
-		"19" "599"
+		"7" "3810"
+		"8" "3859"
+		"9" "1695"
+		"10" "3834"
+		"11" "21"
+		"12" "4191"
+		"13" "1684"
+		"14" "4328"
+		"15" "12472"
+		"16" "1643"
+		"17" "9"
+		"18" "4747"
+		"19" "220585"
 	}
 	"review_score" "8"
 	"review_percentage" "89"
@@ -168,8 +217,7 @@
 }
 "depots"
 {
-	"baselanguages" "english"
-	"228988"
+	"228989"
 	{
 		"config"
 		{
@@ -196,78 +244,49 @@
 		"depotfromapp" "228980"
 		"sharedinstall" "1"
 	}
+	"baselanguages" "english"
 	"1817801"
 	{
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "1604547208375247877"
-				"size" "3355042458"
-				"download" "1301314608"
-			}
-			"beta"
-			{
-				"gid" "873095167346835125"
-				"size" "3355542975"
-				"download" "1300990592"
+				"gid" "4904662263188447419"
+				"size" "3413706919"
+				"download" "1237395504"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"demo"
+			"update"
 			{
-				"gid" "2100C425073384C74F1188A67948511A"
-				"size" "3CC382166DC57A668E2FA06A583253C7"
-				"download" "CB607E820183349E034D9FC9D7EF213A"
+				"gid" "B51EBABCBAFE970813F2ABA255396163"
+				"size" "BC06ABD9A7DFACC2C1B0655B39873616"
+				"download" "746F6EB0F62AB74C51B1DC630140B560"
 			}
 			"development"
 			{
-				"gid" "ECFFEDFBEBD3EE414A299CA8AE0747D0"
-				"size" "3B0E0C52909D32A097E8BD63CB898ED1"
-				"download" "032449B8C1A7D1C27160005E6FC5DB55"
+				"gid" "FC1F0149C1FEE85FB68958828A88E5A0"
+				"size" "605B5F6D4142A9891D0E93EDEA814AEC"
+				"download" "F866B7C55AEFC4E311DB364ECD60FB40"
 			}
 			"eostest"
 			{
-				"gid" "A461A4A5469E26D558ACC361AB269E70"
-				"size" "FE38EF0975E9E6B516EB6AF1DCF2A491"
-				"download" "FC3B261A6B3D0E91320984F95FCDA293"
-			}
-			"milestone5"
-			{
-				"gid" "7691937925FDAEA3113B46C0183464F2"
-				"size" "C637FD4E6EF8148E5854D4C1DE8946AE"
-				"download" "697C71AD2D69AE99C0F09629CA532306"
-			}
-			"milestone5.2"
-			{
-				"gid" "7B22189A8DD74A5C838CCDBFBE36AB69"
-				"size" "98B2817E3FF3321FC84DA3894CB1ACD6"
-				"download" "817A1735342E7B4613A23287CBCBFA7E"
-			}
-			"milestone5.2release"
-			{
-				"gid" "95EA921A02E3BC49A1A58BB78D447CAE"
-				"size" "6531EBF27283413533DB74CD099E6B28"
-				"download" "E93F6F00EE155D523D3748294494D70A"
-			}
-			"monthly"
-			{
-				"gid" "CBBAA82975DC77B770DC4E0767D133E3"
-				"size" "B0C7566ADB02360C8BEDFAA038860B59"
-				"download" "FC9240EFA6E83EB3D9CAF625FA8D83DB"
+				"gid" "403E341C1436F624373EF03D60B33A54"
+				"size" "BD436C4679659C947309FB19360AFC3B"
+				"download" "77A7594658541077E029A035A68EF173"
 			}
 			"nightly"
 			{
-				"gid" "907979B85F590F598ABA82A5CEA6E122"
-				"size" "11FAD222B8E99E768B9742540F6C30AA"
-				"download" "8543DC89E3CEA76F2319160D7359DFB3"
+				"gid" "909934D4FEBC3C94B6DAFD2A7C7D42FD"
+				"size" "E7A9651749AC5068F5ECE9E7C8A10551"
+				"download" "0B1A9EDDFF5BCBF6D792ECB46EDE48D0"
 			}
 			"release_test"
 			{
-				"gid" "D0C2A0230CACB96FA8D1F2410BF67841"
-				"size" "59A367E29192AA249E1DDBEFDB5CCFD3"
-				"download" "AD8FF2BA23910262C96C471B05AADBA4"
+				"gid" "7237DDDE26D6DD71DAACC17CDAF8B78E"
+				"size" "96C2FB547C5B67D0AAE4DCC9F37FA4D8"
+				"download" "F2E2EB8EC8F9D895464C28517A1C5BC5"
 			}
 			"stable"
 			{
@@ -283,51 +302,39 @@
 			}
 			"testinghg"
 			{
-				"gid" "C184323D3EA9A88105135172257D73DA"
-				"size" "6D3A44C293CD444D67F2544042C60FAC"
-				"download" "78B3CDD157CBE827FA3FA477926875D3"
+				"gid" "34A0DCA887F95220D740D5C31C661198"
+				"size" "AB2308CBC086ADE8B4FF165EA407E9D8"
+				"download" "B217D3A376A484CACC6C7CBAF0CD6608"
 			}
 			"testinghg_release"
 			{
-				"gid" "E07757D2A7DE690EDD06B28DBC005763"
-				"size" "33D0862D82954AA036C0F886C1F88DAA"
-				"download" "9620451D66309A3BBE30992539EB14D0"
+				"gid" "A707858F7B1DC51F0B8A5BAA6BEB1725"
+				"size" "5AD581A0AE4768238DEF5F86EC50F5DD"
+				"download" "951E5DBA46972C90E65A57945A4ED166"
 			}
 			"testinghg2"
 			{
-				"gid" "F1F87A5C2B456F791FD5F6A86B490249"
-				"size" "57E35194D09C385EC295ED783ABB57D7"
-				"download" "D215672673DA272C75252512C20B9F5C"
+				"gid" "754B24819271D8661ECD12C5BF9515C5"
+				"size" "8181BF948DFDE83ED0A2784EAABB80FB"
+				"download" "04F749998138738D898FA56521D4EE60"
 			}
 			"testingmmt"
 			{
-				"gid" "346B8198B6C8DBAAA7A131A827E92343"
-				"size" "7B388ED51F804A88440F5FE5C83163EF"
-				"download" "E4CD0D9E24509F44C4C8D26E7ADED4FD"
+				"gid" "DC4A859D5F4A418137C8923CCAE1A393"
+				"size" "A5A788CC1ED3F437EFF04BA66FE9C004"
+				"download" "DEE0B3A20B75099B90D581CB5945480F"
 			}
 			"ue5test"
 			{
-				"gid" "AB6BF9851BF11E2DC5D598934337A7D3"
-				"size" "BEB76C6D0A958B5BB1D3C6E5342F545E"
-				"download" "A1DC077475A9E21127260A7A1938E081"
-			}
-			"verticalslice"
-			{
-				"gid" "4398BE7135B5F76042AFC8873DD84F82"
-				"size" "A9656463A53DB855425B25EF2816FD38"
-				"download" "B44689C250222B206A057B056888DF26"
-			}
-			"weekly"
-			{
-				"gid" "C038F98FED47F61108E632E889BA3CA8"
-				"size" "A585DA0B9663D8212AE710CEC6FBFBCD"
-				"download" "BADC092DA7019B330D1CF58B268BCBCC"
+				"gid" "3971BBED314262994609A9B9A6470B0A"
+				"size" "66EFE38D77E8B630D70907882DB1E2BF"
+				"download" "3B1BFAB45F879489DD24826D3867407E"
 			}
 			"default_development"
 			{
-				"gid" "6C4C33ECFCB0F2E1386D522209098DFA"
-				"size" "8C4C7B1FEF09877821E9843D47ED6047"
-				"download" "7EA5B0F32C079590702BA744CFD7D0D6"
+				"gid" "65E5CEB76815F4D33AEC612DFAB9D3C8"
+				"size" "B372304481D75318CEC6D542E73A5F32"
+				"download" "54D6FA25C8219CE715D7150D3EC415E8"
 			}
 		}
 	}
@@ -335,68 +342,38 @@
 	{
 		"public"
 		{
-			"buildid" "14386826"
-			"timeupdated" "1715870124"
+			"buildid" "15000196"
+			"timeupdated" "1720706617"
 		}
-		"beta"
+		"update"
 		{
-			"buildid" "14471036"
-			"description" "branch for public beta testing"
-			"timeupdated" "1716561680"
-		}
-		"demo"
-		{
-			"buildid" "12481091"
+			"buildid" "15030303"
 			"pwdrequired" "1"
-			"timeupdated" "1697709527"
+			"timeupdated" "1720993994"
 		}
 		"development"
 		{
-			"buildid" "14512197"
+			"buildid" "15030303"
 			"pwdrequired" "1"
-			"timeupdated" "1716845795"
+			"timeupdated" "1720987299"
 		}
 		"eostest"
 		{
-			"buildid" "14196512"
+			"buildid" "14932544"
 			"pwdrequired" "1"
-			"timeupdated" "1714241534"
-		}
-		"milestone5"
-		{
-			"buildid" "13616456"
-			"pwdrequired" "1"
-			"timeupdated" "1709725467"
-		}
-		"milestone5.2"
-		{
-			"buildid" "14125808"
-			"pwdrequired" "1"
-			"timeupdated" "1713718711"
-		}
-		"milestone5.2release"
-		{
-			"buildid" "14125830"
-			"pwdrequired" "1"
-			"timeupdated" "1713719074"
-		}
-		"monthly"
-		{
-			"buildid" "12245975"
-			"pwdrequired" "1"
-			"timeupdated" "1695307751"
+			"timeupdated" "1720103018"
 		}
 		"nightly"
 		{
-			"buildid" "14509799"
+			"buildid" "15016771"
 			"pwdrequired" "1"
-			"timeupdated" "1716828468"
+			"timeupdated" "1720805237"
 		}
 		"release_test"
 		{
-			"buildid" "14509936"
+			"buildid" "15016437"
 			"pwdrequired" "1"
-			"timeupdated" "1716829136"
+			"timeupdated" "1720803170"
 		}
 		"stable"
 		{
@@ -412,51 +389,39 @@
 		}
 		"testinghg"
 		{
-			"buildid" "14508999"
+			"buildid" "15000496"
 			"pwdrequired" "1"
-			"timeupdated" "1716823418"
+			"timeupdated" "1720697043"
 		}
 		"testinghg_release"
 		{
-			"buildid" "14508924"
+			"buildid" "15000196"
 			"pwdrequired" "1"
-			"timeupdated" "1716822910"
+			"timeupdated" "1720695258"
 		}
 		"testinghg2"
 		{
-			"buildid" "14213990"
+			"buildid" "14693647"
 			"pwdrequired" "1"
-			"timeupdated" "1715941515"
+			"timeupdated" "1718205578"
 		}
 		"testingmmt"
 		{
-			"buildid" "14378080"
+			"buildid" "14892111"
 			"pwdrequired" "1"
-			"timeupdated" "1715788923"
+			"timeupdated" "1719821510"
 		}
 		"ue5test"
 		{
-			"buildid" "13989212"
+			"buildid" "14932213"
 			"pwdrequired" "1"
-			"timeupdated" "1712602418"
-		}
-		"verticalslice"
-		{
-			"buildid" "10128877"
-			"pwdrequired" "1"
-			"timeupdated" "1670850447"
-		}
-		"weekly"
-		{
-			"buildid" "14483792"
-			"pwdrequired" "1"
-			"timeupdated" "1716560024"
+			"timeupdated" "1720100985"
 		}
 		"default_development"
 		{
-			"buildid" "14387065"
+			"buildid" "15000496"
 			"pwdrequired" "1"
-			"timeupdated" "1715870144"
+			"timeupdated" "1720706666"
 		}
 	}
 }
@@ -481,6 +446,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23713931"
-"_sha" "611f96c166ca7c3258305105cfd1f8ee7e2017a1"
-"_size" "9681"
+"_change_number" "24359966"
+"_sha" "32b1b22b5dd915916589e88b74632fb1988628ec"
+"_size" "8942"
