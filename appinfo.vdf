@@ -1,7 +1,7 @@
 "appid" "1601970"
 "common"
 {
-	"name" "Tunguska: The Visitation"
+	"name" "Tunguska: The Visitation - Enhanced Edition"
 	"type" "Game"
 	"releasestate" "released"
 	"logo" "9cb918d37d64abbda99fc431b2c094a6a95d3a71"
@@ -24,10 +24,10 @@
 	}
 	"name_localized"
 	{
-		"schinese" "通古斯：禁区实录"
-		"russian" "Тунгуска: Посещение"
-		"tchinese" "通古斯：禁區實錄"
-		"ukrainian" "Тунгуска: Відвідування"
+		"schinese" "通古斯：禁区实录 - 增强版"
+		"russian" "Тунгуска: Посещение - Расширенное издание"
+		"tchinese" "通古斯：禁區實錄 - 增強版"
+		"ukrainian" "Тунгуска: Відвідування - Розширене видання"
 	}
 	"content_descriptors"
 	{
@@ -99,7 +99,7 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1713542519"
+	"store_asset_mtime" "1720766546"
 	"associations"
 	{
 		"0"
@@ -170,23 +170,23 @@
 	{
 		"0" "3835"
 		"1" "1662"
-		"2" "1687"
+		"2" "4791"
 		"3" "122"
-		"4" "4791"
+		"4" "1687"
 		"5" "4106"
 		"6" "1702"
 		"7" "3978"
 		"8" "4166"
 		"9" "1742"
-		"10" "5179"
-		"11" "21"
+		"10" "21"
+		"11" "5179"
 		"12" "15172"
 		"13" "1695"
 		"14" "4598"
-		"15" "1774"
-		"16" "4637"
-		"17" "19"
-		"18" "4747"
+		"15" "4637"
+		"16" "1774"
+		"17" "4747"
+		"18" "19"
 		"19" "4182"
 	}
 	"review_score" "8"
@@ -196,7 +196,7 @@
 {
 	"developer" "Rotorist Workshop"
 	"publisher" "Rotorist Workshop"
-	"listofdlc" "1836780,2181860,2194620,2426340,2509350,2692830"
+	"listofdlc" "1836780,2181860,2194620,2426340,2509350,2692830,3077300"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -251,9 +251,24 @@
 		{
 			"public"
 			{
-				"gid" "7105019028635307754"
-				"size" "4605871517"
-				"download" "2093887088"
+				"gid" "814339827101375283"
+				"size" "4939725032"
+				"download" "2314188960"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"2019-4beta"
+			{
+				"gid" "0C309829BFD24E5749C1E8FF7658BF86"
+				"size" "213C7375B8DE5225C8E9DD7DD0173E6D"
+				"download" "A8C268401F0DA0DB1366EE953A96E8D5"
+			}
+			"beta"
+			{
+				"gid" "E8287C2039E9B8DEEA72F369EEF71E8E"
+				"size" "84194D0D577F348BD34382874B0994C6"
+				"download" "25E84B53D0041BC54C51D9A4CD890492"
 			}
 		}
 	}
@@ -270,8 +285,20 @@
 	{
 		"public"
 		{
-			"buildid" "14169066"
-			"timeupdated" "1714027491"
+			"buildid" "15027448"
+			"timeupdated" "1720944197"
+		}
+		"2019-4beta"
+		{
+			"buildid" "14750921"
+			"pwdrequired" "1"
+			"timeupdated" "1718690814"
+		}
+		"beta"
+		{
+			"buildid" "14673873"
+			"pwdrequired" "1"
+			"timeupdated" "1718088643"
 		}
 	}
 }
@@ -286,44 +313,76 @@
 			"root" "WinAppDataLocalLow"
 			"path" "RotoristWorkshop/Tunguska/"
 			"pattern" "SaveGame.dat"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 		"1"
 		{
 			"root" "WinAppDataLocalLow"
 			"path" "RotoristWorkshop/Tunguska/"
 			"pattern" "OldSaves.dat"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 		"2"
 		{
 			"root" "WinAppDataLocalLow"
 			"path" "RotoristWorkshop/Tunguska/"
 			"pattern" "AutoSave.dat"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 		"3"
 		{
 			"root" "WinAppDataLocalLow"
 			"path" "RotoristWorkshop/Tunguska/"
 			"pattern" "SurvivalSave.dat"
-			"platforms"
-			{
-				"1" "Windows"
-			}
+		}
+		"4"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "RotoristWorkshop/Tunguska/"
+			"pattern" "SurvivalSave2.dat"
+		}
+		"5"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "RotoristWorkshop/Tunguska/"
+			"pattern" "SaveGame.json"
+		}
+		"6"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "RotoristWorkshop/Tunguska/"
+			"pattern" "OldSaves.json"
+		}
+		"7"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "RotoristWorkshop/Tunguska/"
+			"pattern" "AutoSave.json"
+		}
+		"8"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "RotoristWorkshop/Tunguska/"
+			"pattern" "SurvivalSave.json"
+		}
+		"9"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "RotoristWorkshop/Tunguska/"
+			"pattern" "SurvivalSave2.json"
 		}
 	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "WinAppDataLocalLow"
+			"addpath" ""
+		}
+	}
+	"sync_while_suspended" "1"
 }
 "_missing_token" "False"
-"_change_number" "23294035"
-"_sha" "e5e0861ae3fc087b34b9ed0b3883fc61834a4b1c"
-"_size" "5833"
+"_change_number" "24358923"
+"_sha" "df072776bb66e1ae4b09052aa0c759f6d75606ca"
+"_size" "7302"
