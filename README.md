@@ -1,12 +1,15 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-07-17 16:13:14
+## 更新时间：2024-07-17 23:15:07
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 636750 | Oxygen Not Included Uploader| Tool |
-| 1480030 | A Way To Be Dead| Game |
-| 448320 | GIBZ| Game |
-| 1578220 | 毛茸茸的先生: 火辣肌肉| Game |
-| 1062520 | Dinkum| Game |
-| 616720 | Live2DViewerEX| Application |
-| 1085660 | 命运2| Game |
+| 1775740 | KSTG| Game |
+| 1482610 | Critical Damage| Game |
+| 1610730 | Fallen from the sky| Game |
+| 1662830 | Salt and Sails| Game |
+| 1673220 | Meteor Genocide| Game |
+| 1680900 | Escape from Nowhere| Game |
+| 1705500 | Jelly| Game |
+| 1711160 | Jigsaw With Animals| Game |
+| 1719890 | Mummy, mummy, mummy!| Game |
+| 1750000 | Sweet Match 3| Game |
