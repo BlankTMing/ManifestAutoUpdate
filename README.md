@@ -1,20 +1,18 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-07-18 08:43:55
+## 更新时间：2024-07-18 16:13:03
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1483870 | Draw & Guess - 你画我猜| Game |
-| 393380 | Squad| Game |
-| 403240 | Squad Dedicated Server| Tool |
-| 570 | Dota 2| game |
-| 2399830 | 方舟: 生存飞升| Game |
-| 2430930 | ARK: Survival Ascended Dedicated Server| Tool |
-| 1203220 | 永劫无间| Game |
+| 991170 | 废品大亨| Game |
+| 730 | Counter-Strike 2| Game |
+| 1735700 | 动物迷城| Game |
+| 2273430 | 苍翼：混沌效应| Game |
 | 860890 | Factory Town| Game |
-| 1667700 | 几何竞技场2| Game |
-| 1176470 | 地球不屈 Terra Invicta| Game |
-| 1676840 | 为了吾王II / For The King II| Game |
+| 1266630 | 懒人修仙传2| Game |
+| 956680 | M.A.S.S. Builder| Game |
+| 1455910 | 领地：种田与征战| Game |
+| 1458140 | 超自然车旅 Pacific Drive| Game |
+| 1482380 | Maniac| Game |
+| 1876880 | 大荒先民| Game |
 | 1432860 | Sun Haven| Game |
-| 1330560 | Hairdresser Simulator| Game |
-| 1179580 | 卡库远古封印| Game |
-| 264200 | One Finger Death Punch| Game |
+| 582660 | Black Desert| Game |
