@@ -201,6 +201,33 @@
 			}
 			"description" "EA版入口"
 		}
+		"3"
+		{
+			"executable" "The Scroll of Taiwu.exe"
+			"arguments" "--test-branch --enable-gm"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "alpha"
+			}
+			"description_loc"
+			{
+				"english" "With GM"
+			}
+			"description" "With GM"
+		}
+		"4"
+		{
+			"executable" "The Scroll of Taiwu.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "alpha2"
+			}
+		}
 	}
 	"steamcontrollertemplateindex" "6"
 	"steamcontrollertouchtemplateindex" "1"
@@ -238,15 +265,9 @@
 		{
 			"public"
 			{
-				"gid" "6822939051390136509"
-				"size" "3579631975"
-				"download" "2844704128"
-			}
-			"event-test"
-			{
-				"gid" "125039812255710905"
-				"size" "4225807223"
-				"download" "3347826512"
+				"gid" "4968737721305880296"
+				"size" "3447591038"
+				"download" "2758713744"
 			}
 			"frame-test"
 			{
@@ -260,26 +281,44 @@
 				"size" "1019675928"
 				"download" "267130736"
 			}
+			"event-test"
+			{
+				"gid" "6470934786091352529"
+				"size" "3579632923"
+				"download" "2844706928"
+			}
 			"test"
 			{
-				"gid" "5213446646684698"
-				"size" "3579632447"
-				"download" "2844704128"
+				"gid" "4968737721305880296"
+				"size" "3447591038"
+				"download" "2758713744"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"alpha"
 			{
-				"gid" "A0B9EB0993AB339FA85065B2F283E786"
-				"size" "0780DF1F30723200D96047E3F9DA2B93"
-				"download" "C23622D49612797D1C5D5E4DAB94C574"
+				"gid" "47789A5409A3B839885616039515D8EB"
+				"size" "59AF3F6EF33FF390977F49A3308E9E19"
+				"download" "465A274BF30F2D0E029C8C4C1B4F1E95"
+			}
+			"alpha1"
+			{
+				"gid" "B2D969768C3F31B234FEE709F00AA676"
+				"size" "5EF64E683BE422D08CEB6AD50F1FF5F4"
+				"download" "2DF126446A7BF4A3BCCD855627ECCBFC"
+			}
+			"alpha2"
+			{
+				"gid" "2DAAB7BDDE638BD4B26835048CDB9EE1"
+				"size" "8669EAEE4BD7DF00EA3B52F7D32EB1E0"
+				"download" "F4A90558ED6EC639E4B361120A5EE6F7"
 			}
 			"longterm-test"
 			{
-				"gid" "27BB43C796773E8FDADAD98D9DC6B051"
-				"size" "B7949770D313BCE5297955A9870FC3E2"
-				"download" "2837AB64C1A8FE70155A72C7F713AB3E"
+				"gid" "A4E0A83083EDC0E4EBD217FA0F04A60C"
+				"size" "54436F712AB6088C399567F6E3297FAE"
+				"download" "E31254BB264D9D9231904B6B6098A9FE"
 			}
 		}
 	}
@@ -294,12 +333,6 @@
 				"size" "1208029130"
 				"download" "1087279040"
 			}
-			"event-test"
-			{
-				"gid" "2089095199798162434"
-				"size" "1208029130"
-				"download" "1087279040"
-			}
 			"frame-test"
 			{
 				"gid" "2089095199798162434"
@@ -307,6 +340,12 @@
 				"download" "1087279040"
 			}
 			"taiwu"
+			{
+				"gid" "2089095199798162434"
+				"size" "1208029130"
+				"download" "1087279040"
+			}
+			"event-test"
 			{
 				"gid" "2089095199798162434"
 				"size" "1208029130"
@@ -326,6 +365,18 @@
 				"gid" "3030723567BEE0437223FB5507AF7B0B"
 				"size" "5A6CE509F1782190A5A460C0C8C22322"
 				"download" "6642FCC23EAD0CE7285F7E2538781CFF"
+			}
+			"alpha1"
+			{
+				"gid" "687D38430C392103D5712F78705D7AF6"
+				"size" "08F307D5500765B4651A0F3054A42D12"
+				"download" "70EF2BA2FE63824488DDD50338346891"
+			}
+			"alpha2"
+			{
+				"gid" "8AF2C47BE34F8701CBE9E95E433E5656"
+				"size" "7A7BF28F78E792179BF8551B34941B5A"
+				"download" "723BD4165F419B701EEBFB64CFBCBF10"
 			}
 			"longterm-test"
 			{
@@ -350,14 +401,8 @@
 	{
 		"public"
 		{
-			"buildid" "14425688"
-			"timeupdated" "1716196834"
-		}
-		"event-test"
-		{
-			"buildid" "13572039"
-			"description" "事件编辑器分支"
-			"timeupdated" "1709026161"
+			"buildid" "15087970"
+			"timeupdated" "1721395417"
 		}
 		"frame-test"
 		{
@@ -373,21 +418,39 @@
 		}
 		"alpha"
 		{
-			"buildid" "14425087"
+			"buildid" "15087970"
 			"pwdrequired" "1"
-			"timeupdated" "1716196582"
+			"timeupdated" "1721387081"
+		}
+		"alpha1"
+		{
+			"buildid" "14479707"
+			"pwdrequired" "1"
+			"timeupdated" "1716539866"
+		}
+		"alpha2"
+		{
+			"buildid" "15087254"
+			"pwdrequired" "1"
+			"timeupdated" "1721383032"
+		}
+		"event-test"
+		{
+			"buildid" "14450587"
+			"description" "事件编辑器分支"
+			"timeupdated" "1716366760"
 		}
 		"longterm-test"
 		{
-			"buildid" "14425087"
+			"buildid" "15087970"
 			"pwdrequired" "1"
-			"timeupdated" "1716196802"
+			"timeupdated" "1721395308"
 		}
 		"test"
 		{
-			"buildid" "14425087"
+			"buildid" "15087970"
 			"description" "测试分支"
-			"timeupdated" "1716196812"
+			"timeupdated" "1721395395"
 		}
 	}
 }
@@ -399,6 +462,6 @@
 	"ignoreexternalfiles" "1"
 }
 "_missing_token" "False"
-"_change_number" "23609848"
-"_sha" "4db309994da694341f04718149fbf42785198344"
-"_size" "7764"
+"_change_number" "24432575"
+"_sha" "08e5815cfada44d59119bbe9dc022d0b404d63da"
+"_size" "9131"
