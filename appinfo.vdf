@@ -86,6 +86,7 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "zh-cn,en"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -124,6 +125,7 @@
 		"category_45" "1"
 		"category_46" "1"
 		"category_29" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -186,7 +188,7 @@
 	"developer" "Klei Entertainment"
 	"publisher" "Klei Entertainment"
 	"homepage" "https://www.kleientertainment.com/games/oxygen-not-included"
-	"listofdlc" "1452490"
+	"listofdlc" "1452490,2952300"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -288,23 +290,22 @@
 		{
 			"oslist" "windows"
 			"osarch" "64"
-			"language" ""
 		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "7145278350323749908"
-				"size" "2701943179"
-				"download" "795969008"
-			}
-			"public_previous_update"
-			{
-				"gid" "6687692379280172568"
-				"size" "2614871193"
-				"download" "784495888"
+				"gid" "4525924959817545181"
+				"size" "2779075375"
+				"download" "819155888"
 			}
 			"public_testing"
+			{
+				"gid" "4525924959817545181"
+				"size" "2779075375"
+				"download" "819155888"
+			}
+			"public_previous_update"
 			{
 				"gid" "7145278350323749908"
 				"size" "2701943179"
@@ -313,6 +314,42 @@
 		}
 		"encryptedmanifests"
 		{
+			"development"
+			{
+				"gid" "F468E5448963826133E32878C56BEA06"
+				"size" "516CD5F12B6ABDC05E5CBE478054E910"
+				"download" "E44A59F23FFE98C90DECB43786A47EAA"
+			}
+			"demo"
+			{
+				"gid" "102810013E675E7FD40DC13A1AAF6AD0"
+				"size" "0712BE0C3A214227DAAD856421DC4339"
+				"download" "5EC9597656956E51857AFD36E901C502"
+			}
+			"preview"
+			{
+				"gid" "39577F20060884333677B92BE79999FC"
+				"size" "E33C605253EB2DDAE59886336BFF6068"
+				"download" "F410870B2B1406895ADC9D7FA7DD2439"
+			}
+			"release"
+			{
+				"gid" "A13012ACE81DB033852580EC8A3A7412"
+				"size" "702697F4DCBEE6C5AE48F388B582FF90"
+				"download" "A755C406F56003205FDC6A0CD781FFAF"
+			}
+			"rhymeswithplay"
+			{
+				"gid" "F3127F4F604B12FE28315DB585FEFAE5"
+				"size" "E36F1FF444B95AC31F26B18D908DB681"
+				"download" "BE31C6AC447C65EFD26646DA2D5A9C2E"
+			}
+			"staging"
+			{
+				"gid" "5D24BDF95B903995AAADB4CA23312C31"
+				"size" "1666381C3B675DF8F53F22EF2C644639"
+				"download" "1DF4EB1E9151018C2352D8D2DD09C194"
+			}
 			"31_the_big_merge_update"
 			{
 				"gid" "A729463783F12913359F5B33E208985D"
@@ -349,17 +386,11 @@
 				"size" "BAB31018125FA83679F78E8A86D5009E"
 				"download" "0DBBFBECD00CE5E9EF244748738DE00F"
 			}
-			"demo"
+			"51_february_2024_qol_udpate"
 			{
-				"gid" "12B87A0AB3E332BE8B4C7C0CA77A00FF"
-				"size" "F029658EDE870FDD9BF526DF608879A9"
-				"download" "DF64FF83E206F5C23BC9CE91820610E7"
-			}
-			"development"
-			{
-				"gid" "C5227F359E37D6FD04CD28F4A1EE0FAD"
-				"size" "D340E943303F9D0517E052A7ABA6507D"
-				"download" "72EE8AA25B05A49D7863AD92B3F12847"
+				"gid" "031C599E5FB763B3065F832EBEB2EE40"
+				"size" "062F90DB9B1A42D9D57CD73151ECCE1F"
+				"download" "029E08EF4039C617765AF2132C47CC15"
 			}
 			"development_alt"
 			{
@@ -367,41 +398,23 @@
 				"size" "00593DFAF4CC07FCA247CA6AF2BD37AB"
 				"download" "341B40AF9BFA7E315F4F92566F6AC6BE"
 			}
+			"development_alt2"
+			{
+				"gid" "BB2C81B45841BED6E2EC356A26E2E711"
+				"size" "04841D4F33F891D224523CDB8B317E66"
+				"download" "90E41998040124CD5D5EEB042E216295"
+			}
 			"early_loc"
 			{
-				"gid" "EB857B12928C1A1F4E92C6F2E5CB4C9D"
-				"size" "C930151857A6D27AB9799132320FFF51"
-				"download" "7D7B9B7E05811C9A3F1E450ADE1F2FF4"
-			}
-			"preview"
-			{
-				"gid" "FA84C12059FFAF33D56846A0DC8BB950"
-				"size" "105B172A96A7AE064C3DFFA6662E8115"
-				"download" "DD3E17A4146C6CF3198C562E0EFD0F82"
+				"gid" "8C70F87F53AAEC12796A15E6EF925DB1"
+				"size" "C44CCF9A4DAD5462CF4468306687DFD5"
+				"download" "243B557B1EBD2252DC3D5A2F5F33C409"
 			}
 			"public_pre_mergedown"
 			{
 				"gid" "09C730543A8F4D3EF1E36A1E96CE85EE"
 				"size" "3662ACF6DF471F5C9AF8EBD97DA6CEF2"
 				"download" "D3C58B260576C23925DDBD6BFDD68AC9"
-			}
-			"release"
-			{
-				"gid" "5B42A2084E1E63556FB91A843A7B917C"
-				"size" "6209E42988472DD404468238069C5546"
-				"download" "472C8A141C0D470A959F7B7A26BA33C2"
-			}
-			"rhymeswithplay"
-			{
-				"gid" "E8A795163F408827E36BA50AC3CF2021"
-				"size" "DB3F6960FEAAF9629D2038BAA3C17521"
-				"download" "08B4014AD56405CEB5BE3E09559EE23D"
-			}
-			"staging"
-			{
-				"gid" "5D24BDF95B903995AAADB4CA23312C31"
-				"size" "1666381C3B675DF8F53F22EF2C644639"
-				"download" "1DF4EB1E9151018C2352D8D2DD09C194"
 			}
 			"troubleshooting"
 			{
@@ -423,23 +436,22 @@
 		{
 			"oslist" "macos"
 			"osarch" "64"
-			"language" ""
 		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "1392757055114131781"
-				"size" "2691223213"
-				"download" "793641888"
-			}
-			"public_previous_update"
-			{
-				"gid" "485125744258113002"
-				"size" "2604160936"
-				"download" "782082960"
+				"gid" "3772753262968515567"
+				"size" "2768361187"
+				"download" "816848416"
 			}
 			"public_testing"
+			{
+				"gid" "3772753262968515567"
+				"size" "2768361187"
+				"download" "816848416"
+			}
+			"public_previous_update"
 			{
 				"gid" "1392757055114131781"
 				"size" "2691223213"
@@ -448,6 +460,42 @@
 		}
 		"encryptedmanifests"
 		{
+			"development"
+			{
+				"gid" "8B24321934EE816FCD20A8D45454FC3D"
+				"size" "87CDAC195DDB957F14ABF5BB67528794"
+				"download" "1753878928700510CC18B1FA6EC7FCB8"
+			}
+			"demo"
+			{
+				"gid" "C30329DCB42E093DFDF0A1356FFF3B10"
+				"size" "1234828A22567679175329D13A558B57"
+				"download" "CA9EA447625801D84137537CB22BEA62"
+			}
+			"preview"
+			{
+				"gid" "3CEACC5D5371E6CA7359DF93F944115F"
+				"size" "AD56B58F61D12D6B32914518F139F771"
+				"download" "CE5E04612AC99D7735F07B0827FCF3EE"
+			}
+			"release"
+			{
+				"gid" "635695549BD94CED668DF98B837A2441"
+				"size" "1865261F1A385F85BE5331B654353A56"
+				"download" "506B2E6F821443F126BF2FA22DA23D95"
+			}
+			"rhymeswithplay"
+			{
+				"gid" "CE7AB30A00542DD41E21E9D2E277616F"
+				"size" "C7430E4AD6FAE2D48109FB0428A3B074"
+				"download" "2744C7A645822527382D6D6EC25A1F3A"
+			}
+			"staging"
+			{
+				"gid" "9C4001530DB1C51B0F3BB92117D1E956"
+				"size" "EE35B3932D608B9EFFA230E44F43E5D6"
+				"download" "96317507A5CBE5988814024054BBF13D"
+			}
 			"31_the_big_merge_update"
 			{
 				"gid" "15E8CC47C995B2B89A7C9FA96A5A2AC8"
@@ -484,17 +532,11 @@
 				"size" "60F0FB19141A8C9A3BAD485754070A48"
 				"download" "363D0C2FBBD1AA6BE840D7A248DEFEC5"
 			}
-			"demo"
+			"51_february_2024_qol_udpate"
 			{
-				"gid" "AD7E5ABD44DA20C9173320D049B043E3"
-				"size" "8FFFC3856E73856618D0FBD4789489E7"
-				"download" "08C6B63798E5513BFC37AAD806AB10D5"
-			}
-			"development"
-			{
-				"gid" "F393D6D0A081256F23FABFC4E40DEB11"
-				"size" "25AF157F0AFF4259519D35F88639C3D0"
-				"download" "2BC9A1B6E4810B18C27CD8528974577D"
+				"gid" "471CF7E2EAC54E5B02D120CBB782A6ED"
+				"size" "39FF035991BC3138A1926CEC8A8A67CD"
+				"download" "A1C71C4906BD83875C7F15B38891B42C"
 			}
 			"development_alt"
 			{
@@ -502,41 +544,23 @@
 				"size" "4EE358EF26F3F5639C5CE9EB34DFDEA6"
 				"download" "CD7401466676890E3EB2C9F78E41A010"
 			}
+			"development_alt2"
+			{
+				"gid" "13DEE1E326315DE79FBF6C7E482E889D"
+				"size" "909B2B738D5F8942C676EFFB921B3C1C"
+				"download" "4FD44BA909C69AF1FBD8C1C12E017D5D"
+			}
 			"early_loc"
 			{
-				"gid" "144DD0958CDFC9C1DDB433914A74A79B"
-				"size" "CF0A1F37BCE0BF5404C0AB6890000066"
-				"download" "7F3884416E8B055938C7D030119AF2E1"
-			}
-			"preview"
-			{
-				"gid" "EF704984ADA656E71C43B70550797F65"
-				"size" "D56547F5F77991B84261D909367BE6FF"
-				"download" "094F520E9182D45C682E1A6829527B18"
+				"gid" "7DC3F6AD6A0F5315864AA61744AEE71D"
+				"size" "860A0F2CF6F6AF8BDE7803D8E46BCE4A"
+				"download" "65C36E179A10763A14A58AEA8B749961"
 			}
 			"public_pre_mergedown"
 			{
 				"gid" "0331242E06B3D5AD97D57121B560D25D"
 				"size" "CD53F82427E16C14DEFE0364E4ECA797"
 				"download" "9F3DD34F26F05B002FA453A4C3C5E451"
-			}
-			"release"
-			{
-				"gid" "8B7D44A2D75EBECCD96C528D31AF895F"
-				"size" "67934E7806C7B48996832477209CEFAB"
-				"download" "B510F0ACD8B4F9EF4EB926594E12F582"
-			}
-			"rhymeswithplay"
-			{
-				"gid" "C0C855BB63C9EB5779759E7623AA9F90"
-				"size" "09808F5A20CCE40B9A4E0AD3311D31C5"
-				"download" "EFCF4C0D3E87CB1F6B71D91497C21520"
-			}
-			"staging"
-			{
-				"gid" "9C4001530DB1C51B0F3BB92117D1E956"
-				"size" "EE35B3932D608B9EFFA230E44F43E5D6"
-				"download" "96317507A5CBE5988814024054BBF13D"
 			}
 			"troubleshooting"
 			{
@@ -558,23 +582,22 @@
 		{
 			"oslist" "linux"
 			"osarch" "64"
-			"language" ""
 		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "6335277774634548698"
-				"size" "2742593695"
-				"download" "796589664"
-			}
-			"public_previous_update"
-			{
-				"gid" "3042826200386934622"
-				"size" "2655530413"
-				"download" "785068320"
+				"gid" "7005451437879439318"
+				"size" "2819718691"
+				"download" "819777088"
 			}
 			"public_testing"
+			{
+				"gid" "7005451437879439318"
+				"size" "2819718691"
+				"download" "819777088"
+			}
+			"public_previous_update"
 			{
 				"gid" "6335277774634548698"
 				"size" "2742593695"
@@ -583,6 +606,42 @@
 		}
 		"encryptedmanifests"
 		{
+			"development"
+			{
+				"gid" "B00883C933B3127979C79072BFC5A401"
+				"size" "0418EACD1D406BE1F0D30E4D2ECE7D4A"
+				"download" "13E98F7573D3D4C0A9A17683D30FA19F"
+			}
+			"demo"
+			{
+				"gid" "4A631E32F7513E7CBA90FB3CB6A7B718"
+				"size" "68BECDD5174AE8CB65E0DEF46206E5F0"
+				"download" "60F3B28475DAB8B3D6C62FD5B3873252"
+			}
+			"preview"
+			{
+				"gid" "E8D130D24113270CD521835378D2285F"
+				"size" "6DF9C6E033DFE8072E609D3A36C46916"
+				"download" "1867E0A00A049163BD914419411CADD0"
+			}
+			"release"
+			{
+				"gid" "EC5991B989572E42A0075642039CDAAA"
+				"size" "A201E90A3BBDA8EA6FAE0E3DBF14FBE3"
+				"download" "08B29567ECA311D11E9A7BE6740F14CC"
+			}
+			"rhymeswithplay"
+			{
+				"gid" "4170341E61EC5F8AC42AEF983E59E6D0"
+				"size" "E3BB56BE1EED99F0C8CBD015C6D173CD"
+				"download" "A98559E5D397531F65536D6907361052"
+			}
+			"staging"
+			{
+				"gid" "DAEC5A3B7BC85706DB89FA3DC3CC4CB7"
+				"size" "C6864800ADAA56010D58C0D6414F49E3"
+				"download" "31D0251D7ABCD4784B15D3F2D0586340"
+			}
 			"31_the_big_merge_update"
 			{
 				"gid" "0F6458D73A4AC169E4C059F01653B3F8"
@@ -619,17 +678,11 @@
 				"size" "6F8738D74E648FD38C11BDFC9C08A4BA"
 				"download" "16EB6E2399F0F8109548F5F7B7BE561D"
 			}
-			"demo"
+			"51_february_2024_qol_udpate"
 			{
-				"gid" "545BA0551220D068F6D2C04495038E49"
-				"size" "DDC177BC74822B04BE97DC25F2C7977F"
-				"download" "A45A6AB8426048019674C896A0CC3CD6"
-			}
-			"development"
-			{
-				"gid" "8821C5B5C915296B5CD8F2C567A39402"
-				"size" "7B97672BFDE48D5E10C0617635611A11"
-				"download" "250D7E4C0C9A14C2BE838AA59FCA131D"
+				"gid" "644EA78E3EF0275894B376BDF3A65127"
+				"size" "58E1FE29D196726F75E2D5907087D675"
+				"download" "34598E615E8F518C8E1A4B5256B555A6"
 			}
 			"development_alt"
 			{
@@ -637,41 +690,23 @@
 				"size" "D7B81391BE65FDDDA71E05C5BFC228B6"
 				"download" "979884670CC781B484F0F6D61C1756E3"
 			}
+			"development_alt2"
+			{
+				"gid" "99BA9A596B78E01788D0A1F43273599F"
+				"size" "551FFF3D71AAE0763A0BACA817C2E541"
+				"download" "5DB69D96161EEB58742C834EC75F43D3"
+			}
 			"early_loc"
 			{
-				"gid" "447B0ADEB6B2AD887A3F1A67CD607A86"
-				"size" "FE107E5944B37088FDBF3C95720C4CB5"
-				"download" "FFBAE891F644F08BB6BA9EF59D5C0C95"
-			}
-			"preview"
-			{
-				"gid" "D632DE1AA3F5149561410547E40E7EC4"
-				"size" "D2D78C24E03EC5057ED8ABD1272F756E"
-				"download" "2ECADFC5B17CDE6B7720920597245369"
+				"gid" "F41BBF726E83CE30BBECC4DDE0D831B2"
+				"size" "82A4E162815AF287F8DAC167F41082F7"
+				"download" "AFB98E633F4D81A47479DAA18B54357C"
 			}
 			"public_pre_mergedown"
 			{
 				"gid" "ED82AFC0882CCA9C7182FC1312CABB1D"
 				"size" "FE7231F493F5F1DF7C76EC820BDF99A2"
 				"download" "85FFAA7F8E993861101D7401E7A41424"
-			}
-			"release"
-			{
-				"gid" "4DAD6B2518BEA8BD00FC2D8699D92555"
-				"size" "DC589A5567AE876C461EC2A11AA7BE0F"
-				"download" "E5949E5AC22FD55805BA160CEEC99857"
-			}
-			"rhymeswithplay"
-			{
-				"gid" "17075B727C15F8F57AB476DF5882097E"
-				"size" "BEC7AEF492D85554788E6595AB1F6A7C"
-				"download" "5B1E6A975F5540940959A701037E8B36"
-			}
-			"staging"
-			{
-				"gid" "DAEC5A3B7BC85706DB89FA3DC3CC4CB7"
-				"size" "C6864800ADAA56010D58C0D6414F49E3"
-				"download" "31D0251D7ABCD4784B15D3F2D0586340"
 			}
 			"troubleshooting"
 			{
@@ -694,23 +729,22 @@
 		{
 			"oslist" "windows"
 			"osarch" "64"
-			"language" ""
 		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "4811460977824769636"
-				"size" "308644706"
-				"download" "287975680"
-			}
-			"public_previous_update"
-			{
-				"gid" "7526112106824751708"
-				"size" "308697711"
-				"download" "288029680"
+				"gid" "8030913471659325187"
+				"size" "306848422"
+				"download" "285977952"
 			}
 			"public_testing"
+			{
+				"gid" "8030913471659325187"
+				"size" "306848422"
+				"download" "285977952"
+			}
+			"public_previous_update"
 			{
 				"gid" "4811460977824769636"
 				"size" "308644706"
@@ -719,6 +753,42 @@
 		}
 		"encryptedmanifests"
 		{
+			"development"
+			{
+				"gid" "F12809BF0A067C1FA787516C0A13E010"
+				"size" "B35C8ED285E77AC5EC840B61355D0E8F"
+				"download" "D79F52001767031C80F065AD45ED4922"
+			}
+			"demo"
+			{
+				"gid" "C2BE0F822508B7417B86F98ED521AF35"
+				"size" "B7B83131BCD20389D4DA3C7F8137A949"
+				"download" "FD9C46FB6EECC769DFAAABD641A86DE7"
+			}
+			"preview"
+			{
+				"gid" "65DD2333A156533ACCEA9553DC903F87"
+				"size" "D188A80C70718817D2F0F7F344B637A5"
+				"download" "BA8D4D8BF9BF83C8C0B320179DF00244"
+			}
+			"release"
+			{
+				"gid" "2ECA49C3C47A4D3E15400F36593952F6"
+				"size" "896956460FF11480C4D40BF7C1023187"
+				"download" "4D6D10D1CA025DFAC09BCF9DBF1AF29D"
+			}
+			"rhymeswithplay"
+			{
+				"gid" "7B02B85C29DC69EC642F830104B14870"
+				"size" "6CC37B4044C2C08A9F0A8D183305D082"
+				"download" "648E7FA6EC056E59007FB7AD5E6E871A"
+			}
+			"staging"
+			{
+				"gid" "7F34DC864D5FAC9B20664BC372A31F10"
+				"size" "36D3EEB650292858FCB22E0823A6F8E6"
+				"download" "1B567B8926260C1B82F963F2DAFC7D10"
+			}
 			"31_the_big_merge_update"
 			{
 				"gid" "BB40E916FF65703A4C19DA238E630CC6"
@@ -755,17 +825,11 @@
 				"size" "B3712677FFDBF0586DD33E03E21E8E0B"
 				"download" "7DC36B3FABF876DA27D0BE71E45399A6"
 			}
-			"demo"
+			"51_february_2024_qol_udpate"
 			{
-				"gid" "7BEFF357BE14605812016D41BBD01AEE"
-				"size" "65A9B0FF38BBC043D49116C7F8C90109"
-				"download" "25045DDF81C448353BB3961DEF1DC7CC"
-			}
-			"development"
-			{
-				"gid" "4E1A769CACE46CFECF8CE3F80CE13950"
-				"size" "8060E5C4C648F78523C74131EAC4DD6C"
-				"download" "D75D4F8F1AC47CE20F87CC0DE08D7ED4"
+				"gid" "BBFF2CF0A5FE3254DE3FA4AF7543CDF4"
+				"size" "EC1D4CF56D989934FF1987F5A323AD00"
+				"download" "01EC3594E7AA3504007A910C81204456"
 			}
 			"development_alt"
 			{
@@ -773,35 +837,23 @@
 				"size" "E662779F10CCCAEE4B8742720AEB1593"
 				"download" "0E9978B830B5CA658819A93FB18DEA26"
 			}
+			"development_alt2"
+			{
+				"gid" "C2D4B3506AA05E8CF7AB7C1AC68DB93E"
+				"size" "A22455BB85B54D1FCEF948A2C7CDCB1D"
+				"download" "4DD4E5E8624FC4AA0F3EE196243506B4"
+			}
 			"early_loc"
 			{
-				"gid" "D06CEC01B4D941CDAFBED349305E76A5"
-				"size" "04FDCCDBF14B5C6BD633B9A6E94ADB68"
-				"download" "91FFEBE258B2C8342B6A6CD97D1285BC"
-			}
-			"preview"
-			{
-				"gid" "A46BAC46A7054E12C55C415FC705DAC3"
-				"size" "243763A748BE1636F304503C23C3BB00"
-				"download" "30EB17F611AD5A26C4E8E8A78A1EFBF5"
+				"gid" "BF34185F9D035432E6A23AA730920A98"
+				"size" "4D66C66D1890E8FA30701CFB27192E5C"
+				"download" "7B0FEC27329BEB7351EE10D50695EE04"
 			}
 			"public_pre_mergedown"
 			{
 				"gid" "52D48B43D2FD721064B868BACB25C4ED"
 				"size" "1E30A179347533E0640135C00FDC0664"
 				"download" "B4A654F26DDB3685950951F8652436A8"
-			}
-			"release"
-			{
-				"gid" "6BAA6AE9E5C3C849E956831B62121D0D"
-				"size" "D9F26C281BD29A2E803B9C13AF8FDD6C"
-				"download" "72CAE15F0FF9D88FD558084DF978EAA5"
-			}
-			"staging"
-			{
-				"gid" "7F34DC864D5FAC9B20664BC372A31F10"
-				"size" "36D3EEB650292858FCB22E0823A6F8E6"
-				"download" "1B567B8926260C1B82F963F2DAFC7D10"
 			}
 			"troubleshooting"
 			{
@@ -824,23 +876,22 @@
 		{
 			"oslist" "macos"
 			"osarch" "64"
-			"language" ""
 		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "8511704833509439980"
-				"size" "308650494"
-				"download" "287980880"
-			}
-			"public_previous_update"
-			{
-				"gid" "6923108525765333373"
-				"size" "308702933"
-				"download" "288034256"
+				"gid" "1540110740244369730"
+				"size" "306842469"
+				"download" "285972272"
 			}
 			"public_testing"
+			{
+				"gid" "1540110740244369730"
+				"size" "306842469"
+				"download" "285972272"
+			}
+			"public_previous_update"
 			{
 				"gid" "8511704833509439980"
 				"size" "308650494"
@@ -849,6 +900,42 @@
 		}
 		"encryptedmanifests"
 		{
+			"development"
+			{
+				"gid" "9BA772D5D2688A9E6A48F972B1784CF6"
+				"size" "C53B392FD6DCF2C5136C409EED903082"
+				"download" "810AE7C008C68EED81FDF311DBCF58B7"
+			}
+			"demo"
+			{
+				"gid" "18F18515118DD30BA09D52729EF2AA0A"
+				"size" "4945EFE05FC9DE1EB24D8E11EC12F27E"
+				"download" "1F20E1D26720788EC178232593C0510B"
+			}
+			"preview"
+			{
+				"gid" "FC32A4D21C2AC46E8B30B1C2E446B552"
+				"size" "5DE96A9ED40F96DC442B42A24E9FA97B"
+				"download" "AD5127B0239C81A3D3B2D38FD9E4EF5C"
+			}
+			"release"
+			{
+				"gid" "BD0971004FC098766C238D15AF193CD3"
+				"size" "A4435FB6BAF77DECF697D13B92773CFF"
+				"download" "C5D3F0E7A253B257ABEEF6BBAAE447C3"
+			}
+			"rhymeswithplay"
+			{
+				"gid" "A39056A333D6777B567C2C59B9F70EBA"
+				"size" "1F9FD1D2EE378CFE57D9C3956F4B030B"
+				"download" "E1483791A0527178F8AA8DA832B8CAFA"
+			}
+			"staging"
+			{
+				"gid" "303D9B2210F54DB98185B94096A9C1F1"
+				"size" "93C4A7CD273571C068AF4792B801035F"
+				"download" "A34954B4D5DFFA4DF391DE9FAA4A4EF1"
+			}
 			"31_the_big_merge_update"
 			{
 				"gid" "B91849EE4D12847B529C92C31C216998"
@@ -885,17 +972,11 @@
 				"size" "745E325FB70FB17D61D4BD6AFE1FB65A"
 				"download" "468496108B5AA713244E01E47681556C"
 			}
-			"demo"
+			"51_february_2024_qol_udpate"
 			{
-				"gid" "7ACC0C69C34ECBD5C53C5EF2F416B776"
-				"size" "DCC6FB4C8256AA5F52BC533A6F09401E"
-				"download" "E941EB13D89621559D4309943BD2080C"
-			}
-			"development"
-			{
-				"gid" "4EEA400938BD13253E1C337758ECE1EE"
-				"size" "00053B49C0698140C80B6E72884B31DB"
-				"download" "BD62B6428B41CDA26869F0C7D5310271"
+				"gid" "EBD2F36030607E67D44698D432FEF62A"
+				"size" "2B30291711807B5B42D82FFA522F92FF"
+				"download" "AC4BC912478CFBC13CEC8283D83734E1"
 			}
 			"development_alt"
 			{
@@ -903,35 +984,23 @@
 				"size" "4977295CD03C9AC90BC5640B2F8C5FE7"
 				"download" "A42BFA863ABD8671434498DA3315731B"
 			}
+			"development_alt2"
+			{
+				"gid" "2993DABEA0DA3E4116D357C9AA4B78AB"
+				"size" "49C1ECB867F9295283EC987B92F18193"
+				"download" "AB895D61A38BD13ABF40BF224E7D3504"
+			}
 			"early_loc"
 			{
-				"gid" "24CC18728204C20086ADCF9003EE47E4"
-				"size" "1ED224C95011F93CC023B7FE8842DF1F"
-				"download" "E5637B6F6ECBCD89105400985CBD8D53"
-			}
-			"preview"
-			{
-				"gid" "4204D7F65C0B0A212103EFD009C0D439"
-				"size" "6E837F04A3D32025604BA55A1592D52C"
-				"download" "0D65FE6E6FEBE9295D4730825A1CCF52"
+				"gid" "26E8640324E03F5B51CDB11E2EDCFCAB"
+				"size" "A3AE60CB9EE38951374273DF1C63A6E4"
+				"download" "31FFE2E17E277BC4094762CB5FC359F8"
 			}
 			"public_pre_mergedown"
 			{
 				"gid" "B99161D3AF1E8B79904CC325CBB52C81"
 				"size" "9F2935ABB047F73DB177CCD3AC9496C5"
 				"download" "ABD4F4821D9B3870508226E61FC3F83F"
-			}
-			"release"
-			{
-				"gid" "AD40AF38D10F53BEB4ECC1527EC9D136"
-				"size" "E955D24A8D6C71C44BDFDED8F8ACCBC1"
-				"download" "7A5863484D676A8F1C751BA6F48F4981"
-			}
-			"staging"
-			{
-				"gid" "303D9B2210F54DB98185B94096A9C1F1"
-				"size" "93C4A7CD273571C068AF4792B801035F"
-				"download" "A34954B4D5DFFA4DF391DE9FAA4A4EF1"
 			}
 			"troubleshooting"
 			{
@@ -954,23 +1023,22 @@
 		{
 			"oslist" "linux"
 			"osarch" "64"
-			"language" ""
 		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "622833939204027640"
-				"size" "308641918"
-				"download" "287972480"
-			}
-			"public_previous_update"
-			{
-				"gid" "5753826023249929744"
-				"size" "308694475"
-				"download" "288026016"
+				"gid" "4039782297397909985"
+				"size" "306837403"
+				"download" "285967072"
 			}
 			"public_testing"
+			{
+				"gid" "4039782297397909985"
+				"size" "306837403"
+				"download" "285967072"
+			}
+			"public_previous_update"
 			{
 				"gid" "622833939204027640"
 				"size" "308641918"
@@ -979,6 +1047,42 @@
 		}
 		"encryptedmanifests"
 		{
+			"development"
+			{
+				"gid" "656BD0DF4800F3D8B810AA3E034D616F"
+				"size" "BEDD95E61BF705D60BFDA29345C687C7"
+				"download" "2EB6A4E25FE1862D61ED1778CB7D96B1"
+			}
+			"demo"
+			{
+				"gid" "FC2FB4F8C89728EA110B0FC66C6EDAC6"
+				"size" "F321FA69B23091052C29BAC0444BE973"
+				"download" "A9B511F002AFB60F4DC2A22974487C78"
+			}
+			"preview"
+			{
+				"gid" "AB98FA78C3A7C31AE1B86989F0A99073"
+				"size" "E218D9FBA9D2D1A1773BCDBDA38E8DB6"
+				"download" "E9E7A58020EFE1502A2E3CC99BECCCF6"
+			}
+			"release"
+			{
+				"gid" "D5E6AFA6565AA57C4BC064CE6E7D4832"
+				"size" "A91B4584E613D6BFF210DE0B7AE2F056"
+				"download" "2225673FFE8243BC6E4770C031C3F8C0"
+			}
+			"rhymeswithplay"
+			{
+				"gid" "5D708C5CD243C77835C5A3474D21854C"
+				"size" "2D98BF36B16F49751BE4C5BB82F73D12"
+				"download" "E6273D6A7B509619CB7D3026A7379DF9"
+			}
+			"staging"
+			{
+				"gid" "1A529493F2D3CF964227B0D9EC241B3B"
+				"size" "7451EF00848F1A26700B143949499043"
+				"download" "24F38D2CF7F2956FB68BF8A90D72F3C0"
+			}
 			"31_the_big_merge_update"
 			{
 				"gid" "6DBBCF840EEEF4581FD13B26D9AB082C"
@@ -1015,17 +1119,11 @@
 				"size" "3C27C98FAB475724A9CC44B6D31DFB1F"
 				"download" "8E2A360047475CA5558EFB8CC5DC8DAB"
 			}
-			"demo"
+			"51_february_2024_qol_udpate"
 			{
-				"gid" "3761FA025D2BD331DFF1B8E850460925"
-				"size" "AC40CB804DF5838127C910823049DA85"
-				"download" "D88FB5CEC7FED0350232542FABE58A60"
-			}
-			"development"
-			{
-				"gid" "B52F4BE04E0A130E2AF48FD92546F9CB"
-				"size" "03452BEBAF84573DFF461BE73DDC7745"
-				"download" "38F6D83F09A99383C9950B2BB83CFA43"
+				"gid" "C0746376C3B1E11E934CF137B366B34E"
+				"size" "196BCB982198D74F81CD091CE0237B99"
+				"download" "978D61535B361FBF27D006CBE53624A0"
 			}
 			"development_alt"
 			{
@@ -1033,35 +1131,23 @@
 				"size" "EC63BC37545C16BB8F16E620A6060CC7"
 				"download" "0975BDF1437E315D64C93A6C5476E4D5"
 			}
+			"development_alt2"
+			{
+				"gid" "A8B584B1BC6CF9A52AD486F0A25CF9D3"
+				"size" "A5DAEAA4400A1E639C19B8B4EE7261C0"
+				"download" "DCBE84580FE3900891BBA822FE6F1344"
+			}
 			"early_loc"
 			{
-				"gid" "3DF745E3C773E5A7AFE0015A2F92469F"
-				"size" "658754F2B2CC543CBCF0D35A53AE4957"
-				"download" "0A4E70AF076EA791A1BEF7F85282D3B4"
-			}
-			"preview"
-			{
-				"gid" "C900D83817DBBD2A7AAB19EB69ECFFF7"
-				"size" "D37E937A86452966ABFC7FC129D5F527"
-				"download" "616D30508EB421DED0E52C3CB72F7F22"
+				"gid" "3A74BCA5C3AAD361DA573E45330B3E03"
+				"size" "45232DD6C5B3A8B6B601133FFA9A1919"
+				"download" "69B6B9C9D12CCD7CE295D0591C249DF7"
 			}
 			"public_pre_mergedown"
 			{
 				"gid" "E3A10FD292A9B58735B195ABB50CB082"
 				"size" "2E98DE765B6AA61DC5C253D1402996C7"
 				"download" "7F3B1F6A94BB430EF2A4431494B96F20"
-			}
-			"release"
-			{
-				"gid" "2C9B7948413C00DF20C988D3D522B401"
-				"size" "62FCC3475BBDDE171C1FEC41C0250A0F"
-				"download" "35D974AFC7732AACBDE5B8A2CC77D2EB"
-			}
-			"staging"
-			{
-				"gid" "1A529493F2D3CF964227B0D9EC241B3B"
-				"size" "7451EF00848F1A26700B143949499043"
-				"download" "24F38D2CF7F2956FB68BF8A90D72F3C0"
 			}
 			"troubleshooting"
 			{
@@ -1077,12 +1163,243 @@
 			}
 		}
 	}
+	"2952301"
+	{
+		"dlcappid" "2952300"
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4287287509562295506"
+				"size" "72057586"
+				"download" "69923792"
+			}
+			"public_testing"
+			{
+				"gid" "4287287509562295506"
+				"size" "72057586"
+				"download" "69923792"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "B47141F1F008058F552D6EB42A241ACE"
+				"size" "337980871B2A41CBF16997288923417C"
+				"download" "4AD4E76DB4AA8B0B6B10A60D6E8DB60E"
+			}
+			"demo"
+			{
+				"gid" "DDE5055899CF28042A90371C47DFA407"
+				"size" "7A7127F7D8A85A1977CB847274859933"
+				"download" "3FD460DC903F44614D1AA42EE6A746AC"
+			}
+			"preview"
+			{
+				"gid" "2099823D88512FF9D0A2F880FD0CE401"
+				"size" "D10644C3FEF0BAA85D10DB856A28CE2F"
+				"download" "36C8ECC9972D63F5141D98CEA177A1D5"
+			}
+			"release"
+			{
+				"gid" "94B61015B1CDC1A027106BD436F7ED64"
+				"size" "F8187DCA435626A2B4C2DF0E8E442A1F"
+				"download" "8A630A8475DC12D2ACF66D36C01FCA2D"
+			}
+			"rhymeswithplay"
+			{
+				"gid" "68359B3BBF4F7D59F4C3A19433A6A629"
+				"size" "5E672A94A1794E70C04E5524EC3E1674"
+				"download" "48EE0CA564842B155451C0DA88D533D6"
+			}
+			"early_loc"
+			{
+				"gid" "CEDDAEE5536374FAD2A61AA1CCBA6687"
+				"size" "AA4E49D09F45072E96A530AD8E7EB859"
+				"download" "386E5B24CB0EFD7A62F06235FDFDA6A6"
+			}
+		}
+	}
+	"2952302"
+	{
+		"dlcappid" "2952300"
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7248447056735690090"
+				"size" "72059588"
+				"download" "69926336"
+			}
+			"public_testing"
+			{
+				"gid" "7248447056735690090"
+				"size" "72059588"
+				"download" "69926336"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "6C1BDC303E95E2EB6670337B32623C97"
+				"size" "922CCFAEB5EA775F7AE652E3DAD0F550"
+				"download" "07283966F9C4899A857C2D6107F4ECEA"
+			}
+			"demo"
+			{
+				"gid" "6180C11B952E20BB6EF8FE879555A841"
+				"size" "F48CD24A0CFA24EBF580449F211B90B2"
+				"download" "6BC093A1B7F25FCF96FC30159DD58055"
+			}
+			"preview"
+			{
+				"gid" "70F775D1F3E24976C6B365A7935B0D1A"
+				"size" "378A730F35711681F6F5123165B3D747"
+				"download" "9B4AD8184F1D85094A8B48777CFB96A4"
+			}
+			"release"
+			{
+				"gid" "DA61B5D7386C1731115CFE0FDE8FDC84"
+				"size" "E0DA29CE70E081FB327D5A7CC3411F13"
+				"download" "4EFE5037611614EEA9580B1040CEE5FF"
+			}
+			"rhymeswithplay"
+			{
+				"gid" "F13145942DBE36D96AB0B9AEFC1DCF61"
+				"size" "5E672A94A1794E70C04E5524EC3E1674"
+				"download" "23E386F9191061A233A5C110A56E57CB"
+			}
+			"early_loc"
+			{
+				"gid" "A86E247E06C988B539E4845AF6337148"
+				"size" "CFD30283E68F53F27D771DDCD4BBAF9C"
+				"download" "82E2C1C5AF729015B7A1F39AF94131E9"
+			}
+		}
+	}
+	"2952303"
+	{
+		"dlcappid" "2952300"
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8275751406737340374"
+				"size" "72057586"
+				"download" "69923728"
+			}
+			"public_testing"
+			{
+				"gid" "8275751406737340374"
+				"size" "72057586"
+				"download" "69923728"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "A3CD0DACC3DE2411C81612EFFFB7EE5E"
+				"size" "337980871B2A41CBF16997288923417C"
+				"download" "33E3247FC518DD92887C74F32B389329"
+			}
+			"demo"
+			{
+				"gid" "0DCA22B1E26C1EC5F0985BD0913084E2"
+				"size" "A022B907B477A0B69C4C2F84A33F4871"
+				"download" "83283228F1F0DA8F4DA681F04722460E"
+			}
+			"preview"
+			{
+				"gid" "5182878DCD1B3B3CB43A037DE015C0FC"
+				"size" "D10644C3FEF0BAA85D10DB856A28CE2F"
+				"download" "72E9B69AC4933C2E4A071DF7409D1788"
+			}
+			"release"
+			{
+				"gid" "859CE525DF9896D4C232116157AA9E19"
+				"size" "F8187DCA435626A2B4C2DF0E8E442A1F"
+				"download" "7AC45AA69564879DEFC702AD145E5B55"
+			}
+			"rhymeswithplay"
+			{
+				"gid" "2835576EC4EA02EC34D86BBFFC3D9E4D"
+				"size" "5E672A94A1794E70C04E5524EC3E1674"
+				"download" "4EC20E4E6F6027E19F39D6D96D41900E"
+			}
+			"early_loc"
+			{
+				"gid" "776343E0D5A90FADC4DA36100E3D8901"
+				"size" "AA4E49D09F45072E96A530AD8E7EB859"
+				"download" "5AD99972DD77737EF0EC9A24E1C33EF3"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13861223"
-			"timeupdated" "1711487742"
+			"buildid" "15069012"
+			"timeupdated" "1721321997"
+		}
+		"development"
+		{
+			"buildid" "15082614"
+			"pwdrequired" "1"
+			"timeupdated" "1721348950"
+		}
+		"demo"
+		{
+			"buildid" "15082375"
+			"pwdrequired" "1"
+			"timeupdated" "1721347164"
+		}
+		"public_testing"
+		{
+			"buildid" "15069012"
+			"description" "No Testing (same as None)"
+			"timeupdated" "1721322881"
+		}
+		"preview"
+		{
+			"buildid" "15066597"
+			"pwdrequired" "1"
+			"timeupdated" "1721245505"
+		}
+		"release"
+		{
+			"buildid" "15069012"
+			"pwdrequired" "1"
+			"timeupdated" "1721261764"
+		}
+		"rhymeswithplay"
+		{
+			"buildid" "14617348"
+			"pwdrequired" "1"
+			"timeupdated" "1717617589"
+		}
+		"staging"
+		{
+			"buildid" "10842597"
+			"pwdrequired" "1"
+			"timeupdated" "1679608587"
 		}
 		"31_the_big_merge_update"
 		{
@@ -1120,17 +1437,11 @@
 			"pwdrequired" "1"
 			"timeupdated" "1707767824"
 		}
-		"demo"
+		"51_february_2024_qol_udpate"
 		{
-			"buildid" "13854938"
+			"buildid" "13861223"
 			"pwdrequired" "1"
-			"timeupdated" "1711446092"
-		}
-		"development"
-		{
-			"buildid" "13854697"
-			"pwdrequired" "1"
-			"timeupdated" "1711444704"
+			"timeupdated" "1718908740"
 		}
 		"development_alt"
 		{
@@ -1138,53 +1449,29 @@
 			"pwdrequired" "1"
 			"timeupdated" "1657739224"
 		}
+		"development_alt2"
+		{
+			"buildid" "15039464"
+			"pwdrequired" "1"
+			"timeupdated" "1721069047"
+		}
 		"early_loc"
 		{
-			"buildid" "13436626"
+			"buildid" "15004377"
 			"pwdrequired" "1"
-			"timeupdated" "1707773777"
+			"timeupdated" "1720722448"
 		}
-		"preview"
+		"public_previous_update"
 		{
-			"buildid" "13580099"
-			"pwdrequired" "1"
-			"timeupdated" "1709064503"
+			"buildid" "13861223"
+			"description" "U51-600112 February 2024 Quality of Life  Update (March 26, 2024)"
+			"timeupdated" "1721321761"
 		}
 		"public_pre_mergedown"
 		{
 			"buildid" "6942369"
 			"pwdrequired" "1"
 			"timeupdated" "1653508192"
-		}
-		"public_previous_update"
-		{
-			"buildid" "13005770"
-			"description" "U50-587362 Packed Snacks Update (December 19, 2023)"
-			"timeupdated" "1709228897"
-		}
-		"public_testing"
-		{
-			"buildid" "13861223"
-			"description" "No testing (same as none)"
-			"timeupdated" "1711487700"
-		}
-		"release"
-		{
-			"buildid" "13861223"
-			"pwdrequired" "1"
-			"timeupdated" "1711479891"
-		}
-		"rhymeswithplay"
-		{
-			"buildid" "2513966"
-			"pwdrequired" "1"
-			"timeupdated" "1518225129"
-		}
-		"staging"
-		{
-			"buildid" "10842597"
-			"pwdrequired" "1"
-			"timeupdated" "1679608587"
 		}
 		"troubleshooting"
 		{
@@ -1249,6 +1536,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22920470"
-"_sha" "54709de46485484bd54f06868d086ef8d113c414"
-"_size" "30598"
+"_change_number" "24424212"
+"_sha" "fd75cf0835f4d3e6d707e02570eedb90d39541c3"
+"_size" "37927"
