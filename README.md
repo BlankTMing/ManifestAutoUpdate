@@ -1,34 +1,20 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-07-22 08:46:54
+## 更新时间：2024-07-22 16:14:24
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 740 | Counter-Strike Global Offensive - Dedicated Server| Tool |
-| 899770 | Last Epoch| Game |
-| 1614550 | Astro Colony| Game |
-| 2662210 | Astro Colony Dedicated Server| Tool |
-| 543240 | Root Letter| Game |
-| 486850 | Card of spirits| Game |
-| 605190 | Getaway Island| Game |
-| 1101260 | FURRY GIRL PUZZLE| Game |
-| 1077410 | Hentai Sweet Girls| Game |
-| 1359650 | The Last of Waifus| Game |
-| 1626640 | Gamer Girls [18+]: eSports SEX| Game |
-| 461360 | Thorne - Son of Slaves (Ep.2)| Game |
-| 618750 | Choose Wisely| Game |
-| 373770 | LiEat| Game |
-| 588920 | BADASS| Game |
-| 267900 | Guilty Gear Isuka| Game |
-| 1262060 | 戰鬥公羊| Game |
-| 1035930 | Nyasha| Game |
-| 332400 | Girlfriend Rescue| Game |
+| 730 | Counter-Strike 2| Game |
+| 1384160 | GUILTY GEAR -STRIVE-| Game |
+| 965680 | Boomerang Fu| Game |
+| 1003890 | Blacksad: Under the Skin| Game |
+| 1967630 | 求生岛：不老泉传说| Game |
+| 574200 | EARTH DEFENSE FORCE 4.1  WINGDIVER THE SHOOTER| Game |
+| 1656240 | My Sexy Waitress| Game |
+| 1111030 | Hentai Bad Girls| Game |
+| 521590 | Subterra| Game |
+| 376300 | GUILTY GEAR Xrd -SIGN-| Game |
+| 1360810 | 职场浮生记| Game |
 | 332410 | Moonchild| Game |
-| 536420 | Shining Plume| Game |
-| 607040 | Grimoire Chronicles| Game |
-| 569970 | Chosen 2| Game |
-| 1116210 | Our world has not decayed| Game |
-| 687850 | Head Goal: Soccer Online| Game |
-| 541230 | Alien Shooter TD| Game |
-| 1446850 | Hentai Furry 2| Game |
-| 434920 | Last Heroes 2| Game |
-| 458420 | Last Heroes 3| Game |
+| 392940 | Epic Quest of the 4 Crystals| Game |
+| 962970 | My 1/6 Lover| Game |
+| 370710 | Last Heroes| Game |
