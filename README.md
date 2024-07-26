@@ -1,27 +1,26 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-07-26 00:12:41
+## 更新时间：2024-07-26 08:44:25
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 359550 | Tom Clancy's Rainbow Six Siege| Game |
+| 386940 | 超级鸡马| Game |
+| 440 | Team Fortress 2| game |
+| 740 | Counter-Strike Global Offensive - Dedicated Server| Tool |
+| 457140 | 缺氧| Game |
 | 730 | Counter-Strike 2| Game |
-| 1161590 | 拳击俱乐部2：快进未来| Game |
-| 1637320 | Dome Keeper 穹顶守护者| Game |
-| 534380 | 消逝的光芒2: 重装上阵版| Game |
+| 990080 | 霍格沃茨之遗| Game |
+| 570 | Dota 2| game |
 | 768200 | 小小世界: 原野求生| Game |
-| 1166290 | 死亡与税赋| Game |
 | 808040 | Smalland: Survive the Wilds - Dedicated Server| Tool |
-| 2273430 | 苍翼：混沌效应| Game |
-| 1139980 | 旅者之憩 Travellers Rest| Game |
-| 304390 | For Honor| Game |
-| 832360 | Hotel Magnate| Game |
-| 314650 | SpaceEngine| Game |
-| 1172620 | Sea of Thieves| Game |
-| 1952370 | 湮灭线| Game |
-| 1260320 | 猛兽派对| Game |
-| 1394960 | Winter Survival - 冬日幸存者| Game |
-| 1541840 | 古剑奇谭网络版 海外版| Game |
-| 1465460 | Infection Free Zone (无感染区)| Game |
-| 582660 | Black Desert| Game |
-| 1036640 | RPG Developer Bakin| Application |
+| 1222670 | The Sims™ 4| Game |
+| 899770 | Last Epoch| Game |
+| 1857090 | 诺兰德 Norland| Game |
+| 1599340 | Lost Ark| Game |
+| 251570 | 7 Days to Die| Game |
+| 294420 | 7 Days to Die Dedicated Server| Tool |
+| 2234150 | BACKROOMS: APPREHENSION| Game |
+| 1273100 | Builders of Greece| Game |
 | 489520 | 随从大师| Game |
+| 2445690 | 失落城堡2| Game |
+| 2849080 | 王国保卫战 5：联盟| Game |
+| 1416920 | 中国式网游| Game |
