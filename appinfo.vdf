@@ -16,15 +16,35 @@
 	"osextended" ""
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1715040000"
-		"tested_build_id" "14216024"
+		"category" "2"
+		"test_timestamp" "1716595200"
+		"tested_build_id" "14409337"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
 		}
 		"configuration"
@@ -33,7 +53,7 @@
 			"requires_manual_keyboard_invoke" "1"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "1"
+			"non_deck_display_glyphs" "0"
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
@@ -135,21 +155,21 @@
 		"0" "3843"
 		"1" "1720"
 		"2" "6730"
-		"3" "1646"
-		"4" "4106"
+		"3" "42804"
+		"4" "1646"
 		"5" "1685"
-		"6" "42804"
-		"7" "3834"
-		"8" "3959"
+		"6" "4106"
+		"7" "3959"
+		"8" "3834"
 		"9" "3859"
 		"10" "122"
 		"11" "19"
 		"12" "4182"
-		"13" "21"
-		"14" "4158"
+		"13" "4158"
+		"14" "21"
 		"15" "4711"
-		"16" "4172"
-		"17" "4231"
+		"16" "4231"
+		"17" "4172"
 		"18" "3871"
 		"19" "1684"
 	}
@@ -195,18 +215,42 @@
 		{
 			"public"
 			{
-				"gid" "9040465376016085774"
-				"size" "723481602"
-				"download" "695834576"
+				"gid" "2559221694985180734"
+				"size" "742985477"
+				"download" "711506784"
+			}
+			"publicbeta"
+			{
+				"gid" "2260774104967713405"
+				"size" "742986318"
+				"download" "711500048"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"nightly"
+			{
+				"gid" "70E9DBFF14B4139D0AE6C33A3ECC5C33"
+				"size" "6DC06A7CF6D72A0A8EB8F381734C3005"
+				"download" "C6FAF9762FBC2713AB9596209CE14835"
+			}
+			"staging"
+			{
+				"gid" "7121F758000492A47807F6884F3CFE44"
+				"size" "72CCCEFF376B67D4967D11E848100717"
+				"download" "D4B7344387453C2DD9657A4D4778D1DB"
+			}
 			"continuous"
 			{
 				"gid" "381763C03556781E1B974DEDFACE66D0"
 				"size" "5FB66421127A3304E03712D0205E44AC"
 				"download" "2FDD54C9082A8655462AE48A2AFD5DCD"
+			}
+			"experimental"
+			{
+				"gid" "78AC5362F51F01914E40DD36025A5A4E"
+				"size" "B2A2050622D22164B0490AB05BCAA83B"
+				"download" "D7C58F329A14CFCD4900579C9D1F4590"
 			}
 			"friendsandfamily"
 			{
@@ -225,6 +269,24 @@
 				"gid" "397A3D4A2E20CA7DBD916579F2BFC246"
 				"size" "7ECDCE244906EA6DA798AA10C0051B1C"
 				"download" "09BA8A724D672A6FF43930A537C8797E"
+			}
+			"lastknowngood"
+			{
+				"gid" "B3F3C3F94F16959C551965D44F3FDB16"
+				"size" "C449C0BB37FB5B8DAED0ACAB2E35F2A6"
+				"download" "DE66DF6FD915E62EF9A87E15DA9C177F"
+			}
+			"loc_staging"
+			{
+				"gid" "B48D530F3F016EC4B408445579E5D554"
+				"size" "386CD0178988201B32E4F287A784C4B6"
+				"download" "9AC7BABA3C3E4BE2C254D61AE0C0FFB8"
+			}
+			"release"
+			{
+				"gid" "E9482F75E8A71F40F7EB6A3F824CD60E"
+				"size" "55FD3958A471C077CB87B845C0BAE24F"
+				"download" "C9067475E31958AEC61C45BEFEA99684"
 			}
 			"vertslice1"
 			{
@@ -256,50 +318,44 @@
 				"size" "806FF4043A64C0E51824816C812B66D3"
 				"download" "001D2C59362B114D60094847E84023A5"
 			}
-			"experimental"
-			{
-				"gid" "78AC5362F51F01914E40DD36025A5A4E"
-				"size" "B2A2050622D22164B0490AB05BCAA83B"
-				"download" "D7C58F329A14CFCD4900579C9D1F4590"
-			}
-			"lastknowngood"
-			{
-				"gid" "429E85DF12FFC71A720DDAADF4A48DE8"
-				"size" "B666ACDF7BFB2F673EC26980DCC57B52"
-				"download" "3D37630AFE89782931BF12050944D9AD"
-			}
-			"nightly"
-			{
-				"gid" "E02C609CDF4CCDDAABCFEDC113E6EA7C"
-				"size" "FDFBCFFAFBAF23154AEB799F06B7840A"
-				"download" "6F55D33363F6BE994DB80ACE89191A9C"
-			}
-			"release"
-			{
-				"gid" "04D646D66A23A005B096E0C7FFAE0461"
-				"size" "022CA767EBB25BFD0F5CFE14FEE4D670"
-				"download" "4BF2B3FD25391A89D72C9F7A78E4F564"
-			}
-			"staging"
-			{
-				"gid" "43D828816527962A651295E84D9460B3"
-				"size" "1E062B18E01EAFC9F57E1AE84AC9BCBB"
-				"download" "C6BE0C7BD5B075FBD725038D4E76B0E3"
-			}
 		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "14409337"
-			"timeupdated" "1715991252"
+			"buildid" "15191820"
+			"timeupdated" "1722295884"
+		}
+		"publicbeta"
+		{
+			"buildid" "15118740"
+			"description" "Public-facing beta tests for upcoming update"
+			"timeupdated" "1721766935"
+		}
+		"nightly"
+		{
+			"buildid" "15196683"
+			"pwdrequired" "1"
+			"timeupdated" "1722328362"
+		}
+		"staging"
+		{
+			"buildid" "15118740"
+			"pwdrequired" "1"
+			"timeupdated" "1721696854"
 		}
 		"continuous"
 		{
 			"buildid" "14150757"
 			"pwdrequired" "1"
 			"timeupdated" "1713904554"
+		}
+		"experimental"
+		{
+			"buildid" "14296794"
+			"pwdrequired" "1"
+			"timeupdated" "1715127962"
 		}
 		"friendsandfamily"
 		{
@@ -318,6 +374,24 @@
 			"buildid" "14005655"
 			"pwdrequired" "1"
 			"timeupdated" "1712726587"
+		}
+		"lastknowngood"
+		{
+			"buildid" "15055998"
+			"pwdrequired" "1"
+			"timeupdated" "1721262698"
+		}
+		"loc_staging"
+		{
+			"buildid" "15042317"
+			"pwdrequired" "1"
+			"timeupdated" "1721169322"
+		}
+		"release"
+		{
+			"buildid" "15191820"
+			"pwdrequired" "1"
+			"timeupdated" "1722291531"
 		}
 		"vertslice1"
 		{
@@ -348,36 +422,6 @@
 			"buildid" "13480158"
 			"pwdrequired" "1"
 			"timeupdated" "1708120654"
-		}
-		"experimental"
-		{
-			"buildid" "14296794"
-			"pwdrequired" "1"
-			"timeupdated" "1715127962"
-		}
-		"lastknowngood"
-		{
-			"buildid" "14394745"
-			"pwdrequired" "1"
-			"timeupdated" "1715990538"
-		}
-		"nightly"
-		{
-			"buildid" "14400407"
-			"pwdrequired" "1"
-			"timeupdated" "1715934817"
-		}
-		"release"
-		{
-			"buildid" "14409337"
-			"pwdrequired" "1"
-			"timeupdated" "1715990587"
-		}
-		"staging"
-		{
-			"buildid" "14407551"
-			"pwdrequired" "1"
-			"timeupdated" "1715974630"
 		}
 	}
 }
@@ -413,9 +457,22 @@
 			"pattern" "*"
 			"recursive" "1"
 		}
+		"4"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Klei/Rotwood_preview/steam-{64BitSteamID}"
+			"pattern" "*.lua"
+		}
+		"5"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Klei/Rotwood_preview/steam-{64BitSteamID}/saves/cloud"
+			"pattern" "*"
+			"recursive" "1"
+		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "23590965"
-"_sha" "926e8a3b8035a1f70ee6e3f642d058d68488a336"
-"_size" "8503"
+"_change_number" "24568883"
+"_sha" "998bdc2dc8c12aad34cb4052bf89b955e4f12f48"
+"_size" "9837"
