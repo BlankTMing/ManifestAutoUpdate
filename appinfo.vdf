@@ -273,9 +273,9 @@
 		{
 			"public"
 			{
-				"gid" "4947412695769994775"
-				"size" "3062571652"
-				"download" "764731328"
+				"gid" "8130238236749591631"
+				"size" "3124842680"
+				"download" "765526160"
 			}
 		}
 		"encryptedmanifests"
@@ -318,9 +318,9 @@
 		{
 			"public"
 			{
-				"gid" "3851101910109519852"
-				"size" "3064426333"
-				"download" "765526912"
+				"gid" "4041626754605063096"
+				"size" "3126697345"
+				"download" "766322000"
 			}
 		}
 		"encryptedmanifests"
@@ -363,9 +363,9 @@
 		{
 			"public"
 			{
-				"gid" "1717852679475330273"
-				"size" "3073125043"
-				"download" "766270032"
+				"gid" "4341399912746379049"
+				"size" "3135396031"
+				"download" "767043680"
 			}
 		}
 		"encryptedmanifests"
@@ -438,8 +438,8 @@
 	{
 		"public"
 		{
-			"buildid" "15148552"
-			"timeupdated" "1721900836"
+			"buildid" "15200507"
+			"timeupdated" "1722348771"
 		}
 		"chinesetest"
 		{
@@ -470,7 +470,7 @@
 "ufs"
 {
 	"quota" "1000000"
-	"maxnumfiles" "10"
+	"maxnumfiles" "100"
 	"savefiles"
 	{
 		"0"
@@ -478,34 +478,73 @@
 			"root" "WinAppDataLocalLow"
 			"path" "Placeholder Gameworks/Death and Taxes/Saves"
 			"pattern" "*.RIP"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 		"1"
 		{
 			"root" "LinuxHome"
 			"path" "Placeholder Gameworks/Death and Taxes/Saves"
 			"pattern" "*.RIP"
-			"platforms"
-			{
-				"1" "Linux"
-			}
 		}
 		"2"
 		{
 			"root" "MacAppSupport"
 			"path" "Placeholder Gameworks/Death and Taxes/Saves"
 			"pattern" "*.RIP"
-			"platforms"
-			{
-				"1" "MacOS"
-			}
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ""
+		}
+		"2"
+		{
+			"root" "MacAppSupport"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ""
+		}
+		"3"
+		{
+			"root" "MacAppSupport"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinAppDataLocalLow"
+			"addpath" ""
+		}
+		"4"
+		{
+			"root" "LinuxHome"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinAppDataLocalLow"
+			"addpath" ""
+		}
+		"5"
+		{
+			"root" "LinuxHome"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "24505769"
-"_sha" "6cc8566d50d9d013665831aed25f401133cdea58"
-"_size" "9840"
+"_change_number" "24573529"
+"_sha" "5b2bf8149cf5d7d7e1af6e2def13278600afa718"
+"_size" "10551"
