@@ -1,0 +1,372 @@
+"appid" "232950"
+"common"
+{
+	"name" "Bridge Project"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "eda58c51b4ec86f3b5daf9932a978f9302c14bf6"
+	"logo_small" "eda58c51b4ec86f3b5daf9932a978f9302c14bf6_thumb"
+	"icon" "114c61c78b72fb32c7525c70cdf6823b4ee101d3"
+	"clienttga" "314f8d32f284628fdd06f34d3d83d66759c7d86c"
+	"clienticon" "36a203f70d2e921e80f4e9f2c1bfb6730e832841"
+	"oslist" "windows,macos"
+	"clienticns" "2618529bf1e892fb7255a929a390f7f3b7d1cd15"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1655424000"
+		"tested_build_id" "372509"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Bridge Project"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "74.03733955659277"
+			"height_pct" "66.71811921158871"
+		}
+	}
+	"store_asset_mtime" "1562765338"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Halycon Media GmbH &amp; Co. KG"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "THQ Nordic"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_17" "1"
+		"category_30" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+		}
+		"italian"
+		{
+			"supported" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+		}
+		"russian"
+		{
+			"supported" "1"
+		}
+		"portuguese"
+		{
+			"supported" "1"
+		}
+		"polish"
+		{
+			"supported" "1"
+		}
+	}
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "232950"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "1643"
+		"2" "3968"
+		"3" "1664"
+		"4" "4182"
+	}
+	"review_score" "5"
+	"review_percentage" "46"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" "Halycon Media GmbH &amp; Co. KG"
+	"gamedir" "ValveTestApp232950"
+	"homepage" "http://www.bridgeproject-game.com"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateComingSoonNoPreload"
+	"validoslist" "windows,macos"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "THQ Nordic"
+	"gamemanualurl" "https://store.steampowered.com/manual/232950/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "BridgeProject"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bridge.exe"
+			"description" "Start the game"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "bridgeproject.app"
+			"description" "Start game (Mac)"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" "english,german,french,italian,spanish,russian,portuguese,polish,brazilian"
+	"markdlcdepots" "1"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"232954"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8023858929821230220"
+				"size" "1398671168"
+				"download" "0"
+			}
+			"beta_bridge"
+			{
+				"gid" "8023858929821230220"
+				"size" "1398671168"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bridgeproject_test"
+			{
+				"gid" "CC503F3DC61CBD44270F30A6C2075139"
+				"size" "7F0E8063C3FF756407C9BC1CD4E323A5"
+				"download" "0A0C057BC647DD556D88E27B9D7F48CC"
+			}
+		}
+	}
+	"232951"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7302655242693195370"
+				"size" "1398427584"
+				"download" "0"
+			}
+			"beta_bridge"
+			{
+				"gid" "7302655242693195370"
+				"size" "1398427584"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bridgeproject_test"
+			{
+				"gid" "C17637FBBA3545773066ECDFEBAC681D"
+				"size" "77653043C8BAACF7B74A480DE157815F"
+				"download" "0A0C057BC647DD556D88E27B9D7F48CC"
+			}
+		}
+	}
+	"232952"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5030705341791908759"
+				"size" "1309827065"
+				"download" "1569896725642"
+			}
+			"beta_bridge"
+			{
+				"gid" "7963539966627550841"
+				"size" "1414596983"
+				"download" "2557666101931"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"bridgeproject_test"
+			{
+				"gid" "66B92410457728C5BCBB1527F9BF8C1C"
+				"size" "E49482D329B7AABA17F3F0B64C549561"
+				"download" "59DED9A07FA2AAA326D215E3D967CE85"
+			}
+		}
+	}
+	"232953"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6847338792248629973"
+				"size" "1402976564"
+				"download" "0"
+			}
+			"beta_bridge"
+			{
+				"gid" "6847338792248629973"
+				"size" "1402976564"
+				"download" "0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "372509"
+		}
+		"beta_bridge"
+		{
+			"buildid" "349753"
+			"description" "Beta test Bridge project"
+		}
+		"bridgeproject_test"
+		{
+			"buildid" "370379"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "900000000"
+	"maxnumfiles" "150"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "SavesDir"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "24548213"
+"_sha" "7ba2d4ac06ab4e3ab9af251a24aa719d4846f46c"
+"_size" "6636"
