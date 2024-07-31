@@ -1,0 +1,150 @@
+"appid" "285030"
+"common"
+{
+	"name" "Actua Soccer 3"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"logo" "d862f9c2fa14bdfcd2bac01a1038fc5adc2a2fa6"
+	"logo_small" "d862f9c2fa14bdfcd2bac01a1038fc5adc2a2fa6_thumb"
+	"clienticon" "02827e7cad38c221aa2584e8b6888d13d90a4ef0"
+	"clienttga" "970067e7a7b7ffaef9b3e81a6eb4633802fea8f8"
+	"icon" "35c621dde347b6adc11ec496bb00e850923872aa"
+	"metacritic_name" "Actua Soccer 3"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1396975525"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Gremlin Interactive"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "KISS ltd"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Funbox Media Ltd"
+		}
+	}
+	"primary_genre" "18"
+	"genres"
+	{
+		"0" "4"
+		"1" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "912758400"
+	"steam_release_date" "1399061640"
+	"community_hub_visible" "1"
+	"gameid" "285030"
+	"store_tags"
+	{
+		"0" "701"
+		"1" "597"
+		"2" "1254552"
+		"3" "1254546"
+		"4" "1693"
+	}
+	"review_score" "5"
+	"review_percentage" "50"
+}
+"extended"
+{
+	"developer" "Gremlin Interactive"
+	"publisher" "KISS ltd"
+	"homepage" "http://kiss-ltd.co.uk/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Actua Soccer 3"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SOCCER3.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptsignature" "6a45c458283b102dda437d935664919f9acb3b4055d39e893bafe1a8cb0caf4235ba65f19af4d8925e1f7ae1b8c80abe9971a78b81598a473e8fc26b9fece327abdf1d4b7d65390a3b437e7d0caf99623f9a4a7b274e4e39b5993c27b3f248731d68c00512d1b7f7aff323bc5f2b9748c174479100c3be2e73df0e79d293e5aa"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\gremlin interactive\\actua soccer 3\\1.0"
+		{
+			"string"
+			{
+				"base data path" "%INSTALLDIR%"
+				"base media path" "%INSTALLDIR%"
+				"base path" "%INSTALLDIR%"
+				"game data" "%INSTALLDIR%"
+				"save game path" "%INSTALLDIR%\\SaveGame\\"
+				"save match path" "%INSTALLDIR%\\SaveMatch\\"
+				"waiting room path" "%INSTALLDIR%\\WaitingR\\"
+			}
+		}
+		"hkey_current_user\\software\\microsoft\\windows nt\\currentversion\\appcompatflags\\layers"
+		{
+			"string"
+			{
+				"%installdir%\\soccer3.exe" "WIN98"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"285031"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3501376178532843934"
+				"size" "599281458"
+				"download" "0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "248274"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20818959"
+"_sha" "8ed2e4e2dfe51cef75a4d33d61524372b30d4813"
+"_size" "2854"
