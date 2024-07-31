@@ -1,0 +1,222 @@
+"appid" "214570"
+"common"
+{
+	"name" "Ether Vapor Remaster"
+	"type" "Game"
+	"logo" "f59ae312eed309d38e0b307a723f5d4218925a85"
+	"logo_small" "f59ae312eed309d38e0b307a723f5d4218925a85_thumb"
+	"clienticon" "2c01a59ca3887f02cc7d339c2d7fba0301aac6fd"
+	"clienttga" "71a0c2d20f560da7a790dd90278e4dad201ca213"
+	"icon" "2df6075948fc64ac7c65b8c4370f82ddf6a32a00"
+	"oslist" "windows"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1668470400"
+		"tested_build_id" "427648"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"metacritic_name" "Ether Vapor Remaster"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1597353459"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Edelweiss"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "PLAYISM"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "PLAYISM"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"japanese"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"steam_release_date" "1348789080"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "214570"
+	"store_tags"
+	{
+		"0" "4255"
+		"1" "19"
+		"2" "4085"
+		"3" "1774"
+		"4" "4885"
+		"5" "492"
+		"6" "1773"
+		"7" "3942"
+		"8" "4182"
+		"9" "4821"
+	}
+	"review_score" "6"
+	"review_percentage" "76"
+}
+"extended"
+{
+	"developer" "Edelweiss"
+	"gamedir" "Ether Vapor Remaster"
+	"homepage" ""
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "PLAYISM"
+	"gamemanualurl" "https://store.steampowered.com/manual/214570/"
+	"listofdlc" "331250"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Ether Vapor Remaster"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "EtherVaporRemaster.exe"
+			"type" "default"
+		}
+	}
+	"installscriptsignature" "78f32bf661953084075f957eb803b2c2ef522846f865499bc2e6604d4f4359b988c669d1d0f04e8d033b07a24ce6a8ef4ae21b4cb351315ef37bb020f721c5727b8e38a9839d077bba7e92f0c1a4c78df2a154b08eb0e64e135c1b137a118ff2588b00e5ca1e840fe9915910638a64634ed63e47527a03f74d437cc9fd4301ed"
+	"installscriptoverride" "1"
+	"steamcontrollertemplateindex" "4"
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\redists\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"214571"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3362637188786393778"
+				"size" "59004825"
+				"download" "41617712"
+			}
+		}
+	}
+	"331250"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1613499170224131887"
+				"size" "188711159"
+				"download" "189245024"
+			}
+		}
+		"dlcappid" "331250"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "427648"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "EtherVapor\\data\\"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "24256299"
+"_sha" "0c09dee55d9a203b213117b67b46e7f4f2e749b6"
+"_size" "4125"
