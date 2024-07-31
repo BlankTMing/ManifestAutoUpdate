@@ -1,0 +1,277 @@
+"appid" "36700"
+"common"
+{
+	"name" "The Scourge Project: Episode 1 and 2"
+	"logo" "814dcca67566b3a95b33caacb6316d0042fc89d6"
+	"logo_small" "814dcca67566b3a95b33caacb6316d0042fc89d6_thumb"
+	"icon" "37ba575ee072dc1d1f24c86c562827e1d40e59f6"
+	"clienttga" "45860d715e77b9a015210c328ef125d876a26ee2"
+	"clienticon" "50162e68dc104a4e895e9c4d7e7bb15adfdf8057"
+	"metacritic_url" ""
+	"eulas"
+	{
+		"0"
+		{
+			"id" "36700_eula_1"
+			"name" "The Scourge Project: Episode 1 and 2 EULA"
+			"url" "http://store.steampowered.com//eula/36700_eula_1"
+		}
+	}
+	"type" "game"
+	"metacritic_name" "The Scourge Project: Episodes 1 and 2"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1366835375"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Tragnarion Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "BITBOX S.L."
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1270832100"
+	"metacritic_score" "44"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/the-scourge-project-episodes-1-and-2\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "36700"
+	"review_score" "5"
+	"review_percentage" "69"
+}
+"extended"
+{
+	"developer" "Tragnarion Studios"
+	"gamedir" "The Scourge Project Ep 1 - 2"
+	"gamemanualurl" "http://store.steampowered.com/manual/36700/"
+	"homepage" "http://www.thescourgeproject.com"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"launcheula" "http://storefront.steampowered.com/eula_testapp36700"
+	"nodefaultenglishcontent" "1"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "36701"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "BITBOX S.L."
+}
+"config"
+{
+	"installscriptsignature" "4172617e8d3087cc4b748e87184e8718a535957a022410fb4a28ab7e4e51112e3c92eee8b60144704ae0ca7c8018ef8c30b9f4ac2618cf27200d57e235d3413601d02be9c1467bf8754f84ce86bf4717b6ec3f1a3e4653b1b39e12435fcd0435aee631eaa9cee081211d1a0d7a54135ee31b5a10e408c5d63b3a33d49c55b9da"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "The Scourge Project Ep 1 - 2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "\\Binaries\\Win32\\ScourgeGame.exe"
+			"arguments" "-seekfreeloading -fullscreen -installed"
+		}
+	}
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\36700"
+			"process 1" "%INSTALLDIR%\\Binaries\\redist\\dxredist\\DXSETUP.exe"
+			"nocleanup" "1"
+		}
+		"vcredist"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\36700"
+			"process 1" "%INSTALLDIR%\\Binaries\\redist\\vcredist\\vcredist_x86.exe"
+			"command 1" "/q:a"
+			"nocleanup" "1"
+		}
+		"vcredist_2005"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\36700"
+			"process 1" "%INSTALLDIR%\\Binaries\\redist\\vcredist\\vcredist_x86_2005.exe"
+			"command 1" "/q:a"
+			"nocleanup" "1"
+		}
+		"physx version"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\AGEIA Technologies"
+			"process 1" "%INSTALLDIR%\\Binaries\\redist\\physx\\PhysX_8.10.29_SystemSoftware.exe"
+			"nocleanup" "1"
+			"command 1" "/quiet"
+			"minimumhasrunvalue" "81029"
+		}
+	}
+}
+"depots"
+{
+	"36701"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2773283203161611580"
+				"size" "6875161172"
+				"download" "0"
+			}
+		}
+	}
+	"36702"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4292890103185834185"
+				"size" "479860"
+				"download" "0"
+			}
+		}
+	}
+	"36703"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9214713373369746923"
+				"size" "479860"
+				"download" "0"
+			}
+		}
+	}
+	"36704"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7768110806621509105"
+				"size" "479860"
+				"download" "0"
+			}
+		}
+	}
+	"36705"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7688888693901793250"
+				"size" "479860"
+				"download" "0"
+			}
+		}
+	}
+	"36706"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4400556709739977595"
+				"size" "479860"
+				"download" "0"
+			}
+		}
+	}
+	"36707"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2573090331849676459"
+				"size" "390487842"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"baselanguages" ""
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11399"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "19661327"
+"_sha" "4baa21f39fec6184871c275808f688809bb95568"
+"_size" "5155"
