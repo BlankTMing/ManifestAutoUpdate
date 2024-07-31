@@ -4,7 +4,7 @@
 	"name" "Infinitode 2"
 	"type" "Game"
 	"releasestate" "released"
-	"oslist" "windows"
+	"oslist" "windows,linux"
 	"osarch" "64"
 	"osextended" ""
 	"clienticon" "3279fe359e456c326fda8602fbf97a1d1de3938e"
@@ -102,9 +102,9 @@
 	"primary_genre" "2"
 	"genres"
 	{
-		"0" "37"
-		"1" "23"
-		"2" "2"
+		"0" "23"
+		"1" "2"
+		"2" "37"
 	}
 	"category"
 	{
@@ -189,13 +189,18 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
+		"indonesian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
 	"original_release_date" "1619766000"
 	"steam_release_date" "1620328560"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "937310"
-	"exfgls" "1"
+	"exfgls" "3"
 	"store_tags"
 	{
 		"0" "1645"
@@ -214,10 +219,10 @@
 		"13" "1708"
 		"14" "4115"
 		"15" "1702"
-		"16" "5154"
-		"17" "5981"
-		"18" "4094"
-		"19" "4791"
+		"16" "5981"
+		"17" "4094"
+		"18" "4791"
+		"19" "5154"
 	}
 	"review_score" "8"
 	"review_percentage" "92"
@@ -244,6 +249,15 @@
 				"oslist" "windows"
 			}
 		}
+		"1"
+		{
+			"executable" "infinitode-2"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
 	}
 }
 "depots"
@@ -260,15 +274,38 @@
 		{
 			"public"
 			{
-				"gid" "9110186286730593012"
-				"size" "378828111"
-				"download" "208253472"
+				"gid" "153414649022839764"
+				"size" "406973996"
+				"download" "232398752"
 			}
 			"beta"
 			{
-				"gid" "9110186286730593012"
-				"size" "378828111"
-				"download" "208253472"
+				"gid" "153414649022839764"
+				"size" "406973996"
+				"download" "232398752"
+			}
+		}
+	}
+	"937312"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3115111419004875571"
+				"size" "422817490"
+				"download" "238351520"
+			}
+			"beta"
+			{
+				"gid" "3115111419004875571"
+				"size" "422817490"
+				"download" "238351520"
 			}
 		}
 	}
@@ -276,18 +313,42 @@
 	{
 		"public"
 		{
-			"buildid" "11668713"
-			"timeupdated" "1689070311"
+			"buildid" "15203334"
+			"timeupdated" "1722370954"
 		}
 		"beta"
 		{
-			"buildid" "11668713"
+			"buildid" "15203334"
 			"description" "Open beta testing"
-			"timeupdated" "1689020120"
+			"timeupdated" "1722364689"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "50"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "saves"
+			"pattern" "*.sav"
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "saves_beta"
+			"pattern" "*.sav"
+			"recursive" "1"
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "20791329"
-"_sha" "d0fb925f2c0fbf2dc353d1bdd1f0d6561db35965"
-"_size" "5230"
+"_change_number" "24578293"
+"_sha" "72446470d4cfee98946b107695ee3689e9609bc5"
+"_size" "6106"
