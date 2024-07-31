@@ -1,0 +1,280 @@
+"appid" "206690"
+"common"
+{
+	"name" "iBomber Defense Pacific"
+	"type" "Game"
+	"clienticon" "813d89fcff390e2ce4487e0fe85cec3e11f1e174"
+	"clienttga" "f4a987810bd31b543f3fe267d990e3d28c513e8c"
+	"icon" "c5f5cdbd2164185a4ad08ecc0bf13a9451c591ac"
+	"clienticns" "eeab69a088e07d851b4f9cdbf658d7a0e7f11a71"
+	"logo" "511f33409d7eaffd91366f646f22226b1c601885"
+	"logo_small" "511f33409d7eaffd91366f646f22226b1c601885_thumb"
+	"oslist" "windows,macos,linux"
+	"linuxclienticon" "e5d796d59c248d10de7624104cfc6f5ebb4a0304"
+	"metacritic_name" "iBomber Defense Pacific"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+	}
+	"store_asset_mtime" "1682413422"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Cobra Mobile"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Cobra Mobile"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"steam_release_date" "1330624800"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "206690"
+	"store_tags"
+	{
+		"0" "1645"
+		"1" "9"
+		"2" "597"
+		"3" "492"
+		"4" "4150"
+		"5" "3871"
+	}
+	"review_score" "8"
+	"review_percentage" "82"
+}
+"extended"
+{
+	"developer" "Cobra Mobile"
+	"gamedir" "ibomber defense pacific"
+	"homepage" "https://www.cobramobile.com/"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"installscript_macos" "iBomber Defense Pacific.app/installscript_osx.vdf"
+	"installscript_osx" "iBomber Defense Pacific.app/installscript_osx.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "206691"
+	"primarycache_macos" "206692"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "windows,macos,linux"
+	"publisher" "Cobra Mobile"
+}
+"config"
+{
+	"installscriptsignature" "87ce00a3eb23266de7073a66ead27521277662431d5320be88ab1c55a0922fbf5ff5d2ec8cb31312a8fca107bc3e3b3a6ecd619130babf5e38f6eea76e82df958b04c4067ac7d70129811e1e26d51522a8b565b1ad304c09e5ac77712dc2b70ae6fe9efe388b2c222f06b87c14931f7c55112a718aaf0c6d7e8751173d6c0b60"
+	"installscriptoverride" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "iBomberDefensePacific.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "iBomber Defense Pacific.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "iBomberDefensePacific"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "ibomber defense pacific"
+}
+"install"
+{
+	"run process"
+	{
+		"openal"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\206690"
+			"process 1" "%INSTALLDIR%\\redist\\oalinst.exe"
+			"command 1" "/s"
+			"nocleanup" "1"
+		}
+		"vcredist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\206690"
+			"process 1" "%INSTALLDIR%\\redist\\vcredist_x86.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+			"ignoreexitcode" "1"
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229020"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"206692"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1753601648640002669"
+				"size" "152403129"
+				"download" "122278176"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "5D0101DE8EE035CF74BA01FEA9437ED8"
+				"size" "D37A802927D18DD0B4C827E5A13DB4FE"
+				"download" "983390A316930F8A79C2FDDE67539CAE"
+			}
+		}
+	}
+	"206691"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5292737655295090146"
+				"size" "146367583"
+				"download" "118136720"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "C86939E189DAE2A212A308D3015128B8"
+				"size" "2186634FD9863D54F88A19DFA8FABA05"
+				"download" "87263372414A702E4C0B746A860678DF"
+			}
+		}
+	}
+	"206693"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6037575719226579979"
+				"size" "146881184"
+				"download" "117844272"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "544F2695C9EEE8F3788FE37987E41166"
+				"size" "248755142C480276D798229629DA0C76"
+				"download" "5FBD54B5B18DC695B59F43C1616B0928"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "814691"
+		}
+		"testing"
+		{
+			"buildid" "814691"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+	"hidecloudui" "0"
+}
+"_missing_token" "False"
+"_change_number" "24483107"
+"_sha" "9550ab1695857773a8a9bea0e51f57b9f6fdb408"
+"_size" "5151"
