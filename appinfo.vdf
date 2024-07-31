@@ -1,0 +1,412 @@
+"appid" "57600"
+"common"
+{
+	"name" "Tropico 3: Absolute Power"
+	"clienticon" "76fb680385521196832eace27941fc781bf67352"
+	"clienttga" "551483e45f03fc958cc4e10a55c4262e3509eab2"
+	"icon" "ac98363870a4c1cbd18372843144dfaf7dfffbf7"
+	"logo" "c8e565a740d2e2c8a1a07548c875131eae72a1a7"
+	"logo_small" "c8e565a740d2e2c8a1a07548c875131eae72a1a7_thumb"
+	"metacritic_url" "pc/tropico3"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"type" "game"
+	"metacritic_name" "Tropico 3: Absolute Power"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1668001958"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Haemimont Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Kalypso Media Digital"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Tropico"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "28"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1274115600"
+	"metacritic_score" "79"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/tropico-3-absolute-power\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "57600"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "9"
+		"2" "4328"
+		"3" "4695"
+		"4" "1756"
+		"5" "4182"
+		"6" "1719"
+		"7" "3810"
+		"8" "5179"
+	}
+	"review_score" "8"
+	"review_percentage" "92"
+}
+"extended"
+{
+	"dependantonapp" "23490"
+	"developer" "Haemimont Games"
+	"gamedir" "Tropico 3 Absolute Power"
+	"homepage" "http://www.worldoftropico.com"
+	"icon" ""
+	"installscript" "23490_install.vdf"
+	"languages" "english,german,french,italian,spanish"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp57600\\SteamKey"
+	"mustownapptopurchase" "23490"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "57607"
+	"serverbrowsername" ""
+	"showcdkeyonlaunch" "1"
+	"state" "eStateAvailable"
+	"supportscdkeycopytoclipboard" "1"
+	"developer_url" "http://www.haemimontgames.com"
+	"publisher" "Kalypso Media Digital"
+}
+"config"
+{
+	"installscriptsignature" "343f4e3c3ab9a22de7121d1d6c2f5c79db3a655d04218e376ca46a8c60e50a1c1b024086ce4b035c2a35fe553de06e25f9b812bd7e06fae5c13be24c25cd1edf4f92fc0afe0e226879fbd3bc4116a87761dcebef6324d53edd7fc79990f9188176a0d61041bbd0409843c739c985e2cdbc80b1dab7e712b25244ba38bd490a46"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Tropico3.exe"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Tropico 3"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\haemimont games\\tropico3"
+		{
+			"string"
+			{
+				"appname" "Tropico 3"
+				"path" "%INSTALLDIR%\\"
+				"version" "2.00 "
+				"english"
+				{
+					"language" "English"
+				}
+				"french"
+				{
+					"language" "French"
+				}
+				"german"
+				{
+					"language" "German"
+				}
+				"italian"
+				{
+					"language" "Italian"
+				}
+				"spanish"
+				{
+					"language" "Spanish"
+				}
+				"polish"
+				{
+					"language" "Polish"
+				}
+			}
+		}
+	}
+	"delete files"
+	{
+		"batch1"
+		{
+			"file1" "%INSTALLDIR%\\Packs\\Patches\\binassets.hpk"
+			"file2" "%INSTALLDIR%\\Packs\\Patches\\Boot\\Data.hpk"
+			"file3" "%INSTALLDIR%\\Packs\\Patches\\Preload\\fallback.hpk"
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\23490"
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"vcredist"
+		{
+			"process 1" "%INSTALLDIR%\\redist\\vcredist_x86.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" "english,german,french,italian,spanish"
+	"57601"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3115696727426092368"
+				"size" "1232792450"
+				"download" "1005984976"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"original"
+			{
+				"gid" "445AB4DCFE1A96F78621C7B7D7E97D85"
+				"size" "28E7BCF8E41F0E594477922C01A8F51E"
+				"download" "E9AF061E6646CB9A437589D11A1C9A0E"
+			}
+			"test"
+			{
+				"gid" "BCA9CD1AB5553EA77D0911E5966C7C58"
+				"size" "0AC851D1F1735566830C85788F359341"
+				"download" "76BB7884970D2750496094F51ABBF52A"
+			}
+		}
+	}
+	"57602"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5602480216554029719"
+				"size" "61134123"
+				"download" "60710944"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"original"
+			{
+				"gid" "B04581A31769C8C218B73DDA0ECF0C93"
+				"size" "9A37FDC037EB8BD9548F0EC0E6E9092F"
+				"download" "E9AF061E6646CB9A437589D11A1C9A0E"
+			}
+			"test"
+			{
+				"gid" "C94CCF7B929AC0A68F3C94CC13DD873E"
+				"size" "7D1A2211A8DD75BA033157EC2D1A2388"
+				"download" "F8968F46B1B061B2BB29527CA642D500"
+			}
+		}
+	}
+	"57603"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5923739443445057022"
+				"size" "74655317"
+				"download" "74183168"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"original"
+			{
+				"gid" "8F8F652CDACA17EF7C1A32FF832DFCAF"
+				"size" "229AEBA848DBB796EE1D621120A79F48"
+				"download" "E9AF061E6646CB9A437589D11A1C9A0E"
+			}
+			"test"
+			{
+				"gid" "106D71B0F09E02A9C9C1AD505ABD8640"
+				"size" "AFB355BE86A6086955E5D516957F99FF"
+				"download" "68A9C06A9A4F70B53EB7A913C6F42997"
+			}
+		}
+	}
+	"57604"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "925892572849345385"
+				"size" "64844074"
+				"download" "64354736"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"original"
+			{
+				"gid" "D531EC237D166EBE44F307D78846B85F"
+				"size" "1BD8C4A3585100FDB0693172FF0049BA"
+				"download" "E9AF061E6646CB9A437589D11A1C9A0E"
+			}
+			"test"
+			{
+				"gid" "D14DBD3A2F6C75474202EB8DAE2F3C7D"
+				"size" "9B72D05894DA7EE6D3E81217DFAA5411"
+				"download" "AF3D7607638AE9BB55B689582960F6EA"
+			}
+		}
+	}
+	"57605"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4378164625718087513"
+				"size" "61718505"
+				"download" "61190176"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"original"
+			{
+				"gid" "D831E8B087D348C4CFE3D99366C2F3CA"
+				"size" "D6524121907D0609E05D54AC590A748F"
+				"download" "E9AF061E6646CB9A437589D11A1C9A0E"
+			}
+			"test"
+			{
+				"gid" "55343518120213B320029ED224381BAF"
+				"size" "2374A5A652AD9C14F083A30FD8C14DF9"
+				"download" "C791A3D9E04F0719FC54C7F58E3A76DF"
+			}
+		}
+	}
+	"57606"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5412865065434037742"
+				"size" "64251290"
+				"download" "63793744"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"original"
+			{
+				"gid" "1F7CF9841727DDFD27755FFABF16B8AA"
+				"size" "8BAEE4CCE3C207CADF55BDF891F73917"
+				"download" "E9AF061E6646CB9A437589D11A1C9A0E"
+			}
+			"test"
+			{
+				"gid" "743FD8F53F79E1B243A054890EA9F1B7"
+				"size" "12B05F10E24C37073AD49E61E82756E8"
+				"download" "134C12719CFE2324706FCD94791341C0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5886748"
+			"timeupdated" "1606752609"
+		}
+		"original"
+		{
+			"buildid" "15049"
+			"pwdrequired" "1"
+			"timeupdated" "1605543755"
+		}
+		"test"
+		{
+			"buildid" "5886748"
+			"pwdrequired" "1"
+			"timeupdated" "1606404712"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "24483107"
+"_sha" "951caa99c0535c1d6244cfef2b265546ff07ef83"
+"_size" "7941"
