@@ -1,0 +1,117 @@
+"appid" "242460"
+"common"
+{
+	"name" "Football Manager 2014 Editor"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "63ca33a757ec53b06d48859e9731a492fd4fef9b"
+	"logo_small" "63ca33a757ec53b06d48859e9731a492fd4fef9b_thumb"
+	"clienticon" "6fe26eab0c562fb025bff3d31cefc3e70e47c3e3"
+	"clienttga" "1d8f50102ace2fd7be18ff9ec61fb575f66e86ed"
+	"icon" "78d2488c99a1d91ca049edd47d4b8b2fe583ec26"
+	"clienticns" "13fa9bdac0eff097d5805ef8ea8e90be4b8d7137"
+	"linuxclienticon" "98a8acff7bad20d53175ea09b1591975b074db72"
+	"community_hub_visible" "1"
+	"gameid" "242460"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" ""
+	"gamedir" "ValveTestApp242460"
+	"homepage" ""
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateComingSoonNoPreload"
+	"visibleonlywhensubscribed" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Football Manager 2014 Editor"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "editor.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Editor.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "editor"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"242461"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8011846427672785510"
+				"size" "253329100"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ext-test"
+			{
+				"gid" "89D18301DFE764243274B68D50F0285A"
+				"size" "0C6B8E50E0B73025521C83FBB0E83E89"
+				"download" "0DA665581ACA9B62FCC3FFC423955B28"
+			}
+			"int-test"
+			{
+				"gid" "FA5180AC0D26FDDD2B7553EBDAB07A22"
+				"size" "152E84526BFF652459ECA3C3E8889417"
+				"download" "DF1C21433C09E7AD7D2FC9FCCBF9BF33"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "230482"
+		}
+		"ext-test"
+		{
+			"buildid" "230482"
+			"pwdrequired" "1"
+		}
+		"int-test"
+		{
+			"buildid" "230482"
+			"pwdrequired" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "24483107"
+"_sha" "3c0f795c2be7e137726fe4299c26f535c58f565f"
+"_size" "2146"
