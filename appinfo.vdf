@@ -1,0 +1,403 @@
+"appid" "12710"
+"common"
+{
+	"name" "Overlord: Raising Hell"
+	"clienticon" "23da96aa24742b41bfa3fd4ee90ee26a1e6ebb79"
+	"clienttga" "b3e25ef83aed1acc3b30c6b36e786942db1034ca"
+	"icon" "adbaa95c9f6fd9f10faf78ddd7477160d4946424"
+	"logo" "887f6ba923cf64b7b7a4153bcea1352fde6e47fa"
+	"logo_small" "887f6ba923cf64b7b7a4153bcea1352fde6e47fa_thumb"
+	"sortas" "Overlord 1: Raising Hell"
+	"oslist" "windows"
+	"linuxclienticon" "79ea29ac8561bf1405d136ad6bc9abbbdb3bab60"
+	"osarch" ""
+	"osextended" ""
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1656633600"
+		"tested_build_id" "1172640"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Overlord&amp;trade;: Raising Hell"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+	}
+	"store_asset_mtime" "1627919848"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Triumph Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Codemasters"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Electronic Arts"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Codemasters"
+		}
+		"4"
+		{
+			"type" "franchise"
+			"name" "Overlord"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1203062400"
+	"steam_release_date" "1204239600"
+	"community_hub_visible" "1"
+	"gameid" "12710"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "19"
+		"2" "11333"
+		"3" "4604"
+		"4" "1697"
+		"5" "1684"
+		"6" "4182"
+		"7" "21"
+		"8" "1719"
+		"9" "4136"
+		"10" "9"
+		"11" "5923"
+		"12" "4231"
+		"13" "1664"
+		"14" "4106"
+		"15" "1676"
+		"16" "4166"
+		"17" "1742"
+		"18" "1646"
+		"19" "1695"
+	}
+	"review_score" "8"
+	"review_percentage" "93"
+	"mastersubs_granting_app" "1289670"
+}
+"extended"
+{
+	"dependantonapp" "11450"
+	"developer" "Triumph Studios"
+	"gamedir" "Overlord Raising Hell"
+	"homepage" "http://www.codemasters.com/overlord"
+	"icon" ""
+	"installscript" "12710_install.vdf"
+	"mustownapptopurchase" "11450"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "12711"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"developer_url" "http://www.triumphstudios.com"
+	"publisher" "Codemasters"
+	"gamemanualurl" "https://store.steampowered.com/manual/12710/"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Overlord.exe"
+			"description" "Launch Overlord: Raising Hell"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Config.exe"
+			"description" "Configure Overlord: Raising Hell"
+			"type" "config"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "Overlord.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"4"
+		{
+			"executable" "./overlord"
+			"description" "Launch Overlord: Raising Hell"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"5"
+		{
+			"executable" "./overlord-config"
+			"description" "Configure Overlord: Raising Hell"
+			"type" "config"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Overlord"
+	"steamcontrollertemplateindex" "4"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"12711"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3486086512899874273"
+				"size" "1275315723"
+				"download" "0"
+			}
+		}
+	}
+	"11457"
+	{
+		"config"
+		{
+			"oslist" "linux,macos"
+		}
+		"depotfromapp" "11450"
+		"sharedinstall" "2"
+	}
+	"11458"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"depotfromapp" "11450"
+		"sharedinstall" "2"
+	}
+	"11459"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"depotfromapp" "11450"
+		"sharedinstall" "2"
+	}
+	"11453"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"depotfromapp" "11450"
+		"sharedinstall" "2"
+	}
+	"11454"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"depotfromapp" "11450"
+		"sharedinstall" "2"
+	}
+	"11455"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"depotfromapp" "11450"
+		"sharedinstall" "2"
+	}
+	"11456"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"depotfromapp" "11450"
+		"sharedinstall" "2"
+	}
+	"12716"
+	{
+		"config"
+		{
+			"oslist" "linux,macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1362436411550314034"
+				"size" "1152496915"
+				"download" "640806912"
+			}
+		}
+	}
+	"12712"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1030495273754571296"
+				"size" "184517447"
+				"download" "0"
+			}
+		}
+	}
+	"12713"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1789289085662238648"
+				"size" "176301423"
+				"download" "0"
+			}
+		}
+	}
+	"12714"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5138227250907348127"
+				"size" "185635723"
+				"download" "0"
+			}
+		}
+	}
+	"12715"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "494655482978057959"
+				"size" "178111658"
+				"download" "0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1172640"
+			"timeupdated" "1469542863"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23591175"
+"_sha" "beee80194cbf4285ed07fe5749c586161e78d4c3"
+"_size" "6469"
