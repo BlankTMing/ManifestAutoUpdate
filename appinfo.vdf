@@ -1,0 +1,419 @@
+"appid" "24670"
+"common"
+{
+	"name" "Trainz Simulator 12"
+	"clienticon" "d0e964e657f431236764332a4a2502a2c33077d9"
+	"clienttga" "de981d198e6b09a38fadfe077aa88a053559dd94"
+	"icon" "bb5c2f6a56fd21e08146075a19a340f3f49af797"
+	"logo" "9f7bb47982769d26133a2e8bf296ba12341fc7fd"
+	"logo_small" "9f7bb47982769d26133a2e8bf296ba12341fc7fd_thumb"
+	"type" "game"
+	"metacritic_name" "Trainz&amp;trade; Simulator 12"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1384992693"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "N3V Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "N3V Games"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_15" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "24670"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "1616"
+		"2" "3859"
+		"3" "4182"
+		"4" "4175"
+		"5" "3810"
+	}
+	"review_score" "6"
+	"review_percentage" "73"
+}
+"extended"
+{
+	"developer" "N3V Games"
+	"dlcavailableonstore" "1"
+	"dlcpurchasefromingame" "0"
+	"gamedir" "TS2012"
+	"homepage" "http://www.trainzportal.com/product_ts12.php"
+	"icon" ""
+	"installscript" "ts2012installscript.vdf"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp24670\\SteamKey"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "24671"
+	"serverbrowsername" ""
+	"showcdkeyonlaunch" "1"
+	"state" "eStateAvailable"
+	"supportscdkeycopytoclipboard" "1"
+	"publisher" "N3V Games"
+	"listofdlc" "24634,24635,24673,24674,24675,24676,24677,24678,24679,238991,317690,318050,318960"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "trainz.exe"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "TS2012"
+	"installscriptsignature" "95dcdf8109eea6a8a9561288f8edceaf1900c5598adc319d12efb417b093c6196c9c2a930e4d150b37aa65262f2a28633fca242ffb2ad734799e7d81d250503afa8dd7646433cfa8c828e49807b890ca4cbf052015d380042b921dcacd1f945bae4cbd77f4b07794ddb7300c20904230f0e42af3941abf4f6863361c9c04e800"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"set_key"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\24670"
+			"process 1" "%INSTALLDIR%\\bin\\trainzutil.exe"
+			"command 1" "registerkey %CDKEY%"
+		}
+		"sp1_edr"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\24670\\SP1EDR"
+			"process 1" "%INSTALLDIR%\\bin\\trainzutil.exe"
+			"command 1" "flagrepairdatabase extended"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"24671"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8873390518926957208"
+				"size" "568701629"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dlcsp1"
+			{
+				"gid" "B8C72803D989FA8C9E3E0A32F30FF260"
+				"size" "2BDF389822D1A5CDC78BCBF04427FC77"
+				"download" "6973770139AE925C8FD304367CB8E4CC"
+			}
+			"qabeta"
+			{
+				"gid" "1CA2D36C7E62A4F658C8C68628F51CA5"
+				"size" "CF4ED04DA568AE43CA8B11A30D3C4794"
+				"download" "736D119C436B3326E94C3D4645489BD5"
+			}
+			"releasebeta"
+			{
+				"gid" "8A6535CA6323A32AA5F54BC79A0FEB94"
+				"size" "8AF9E442624E562AAA0AAAFABF33A752"
+				"download" "8FBFC78052D6AC252A258318165EC1DE"
+			}
+			"sp1beta"
+			{
+				"gid" "3DF1B2678D56B1B040B45FBA7F26277A"
+				"size" "C03DDCB40DB019454CF15DBA4B50A8AF"
+				"download" "D4D345F5DF228AE7BFF6FA93B7866B2A"
+			}
+		}
+	}
+	"24672"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2978639341477847333"
+				"size" "9512035230"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dlcsp1"
+			{
+				"gid" "A828B735DC37CBE8FDCC20AD00D12037"
+				"size" "9192B889AF645A235ECB45D1AE97C385"
+				"download" "6973770139AE925C8FD304367CB8E4CC"
+			}
+			"qabeta"
+			{
+				"gid" "47159DBEB7ED57B62003F7C89846A3FA"
+				"size" "18C893B94669F3D703510616561EF022"
+				"download" "736D119C436B3326E94C3D4645489BD5"
+			}
+			"releasebeta"
+			{
+				"gid" "410C12A116C7D0476D915AF2AFE9A702"
+				"size" "00358F39EB1798A0C3E396CB1A72AC4C"
+				"download" "8FBFC78052D6AC252A258318165EC1DE"
+			}
+			"sp1beta"
+			{
+				"gid" "E09C3F76A79990D70F45998351AB8349"
+				"size" "A87D2616241A026305C70D225AE59D1B"
+				"download" "D4D345F5DF228AE7BFF6FA93B7866B2A"
+			}
+		}
+	}
+	"24673"
+	{
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"dlcsp1"
+			{
+				"gid" "48824A040C965E0A15F94720DB4A6FB4"
+				"size" "FC14C1F4748C21445FC32DC03BB236A4"
+				"download" "6973770139AE925C8FD304367CB8E4CC"
+			}
+		}
+		"dlcappid" "24673"
+	}
+	"24674"
+	{
+		"optional" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8435551541410273781"
+				"size" "144467695"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dlcsp1"
+			{
+				"gid" "9B3211F4862EA40C4F4B77F616EE9F5A"
+				"size" "3F7833FF1319C210A5E9548D22DD8561"
+				"download" "6973770139AE925C8FD304367CB8E4CC"
+			}
+			"qabeta"
+			{
+				"gid" "9C1440B653982054364241DA3200EA8F"
+				"size" "67D9A3CDB7A48E17C46EFB83C411EBBE"
+				"download" "736D119C436B3326E94C3D4645489BD5"
+			}
+			"releasebeta"
+			{
+				"gid" "D23CA36E0F1B64414EB424AB7C09FDFE"
+				"size" "A5EDC74E09F09E345EBB32BD819AD59B"
+				"download" "8FBFC78052D6AC252A258318165EC1DE"
+			}
+			"sp1beta"
+			{
+				"gid" "5FB1EF88AB3BC089E1BF958EB7E18597"
+				"size" "BA6E5E2DB7AB917EDC79AF3ED3AE66F0"
+				"download" "D4D345F5DF228AE7BFF6FA93B7866B2A"
+			}
+		}
+		"dlcappid" "24674"
+	}
+	"24675"
+	{
+		"optional" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "932898334001685521"
+				"size" "162999218"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dlcsp1"
+			{
+				"gid" "15215C3325FD856DA823345D62818BAC"
+				"size" "2BE70D8DF7A19E14328624CE12A50E19"
+				"download" "6973770139AE925C8FD304367CB8E4CC"
+			}
+			"qabeta"
+			{
+				"gid" "CBDF8561861AF7965B490988C1BBA125"
+				"size" "82A73EDBBFFC0ED142EF5EFF8919073F"
+				"download" "736D119C436B3326E94C3D4645489BD5"
+			}
+			"releasebeta"
+			{
+				"gid" "91AB2D5B6BB2061A438A03815C8265DA"
+				"size" "0C621A435CF0F93019B22A02FCF6A2D0"
+				"download" "8FBFC78052D6AC252A258318165EC1DE"
+			}
+			"sp1beta"
+			{
+				"gid" "839E36884EDE56F2C9D290F01F5645EB"
+				"size" "214AA765BB3E09576FC04C95D2BF8AD5"
+				"download" "D4D345F5DF228AE7BFF6FA93B7866B2A"
+			}
+		}
+		"dlcappid" "24675"
+	}
+	"24676"
+	{
+		"optional" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5460752732181915523"
+				"size" "91885679"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dlcsp1"
+			{
+				"gid" "B81C62AA086A74F099541C6B5E24E840"
+				"size" "ACCC0F99F0AC52A8C7F0B3B307DADDC4"
+				"download" "6973770139AE925C8FD304367CB8E4CC"
+			}
+			"qabeta"
+			{
+				"gid" "5FE1B598C8EC4D71682700D709B56E8B"
+				"size" "CA197266579906FA30600E9301249765"
+				"download" "736D119C436B3326E94C3D4645489BD5"
+			}
+			"releasebeta"
+			{
+				"gid" "E99F5214BBABBC5674EDCFB853FD7307"
+				"size" "59F3064353DAA972C4B323660D4D20D8"
+				"download" "8FBFC78052D6AC252A258318165EC1DE"
+			}
+			"sp1beta"
+			{
+				"gid" "DD392231EF74B7DA9A9756168E386B16"
+				"size" "A82C0F8A53205CBF4C88E1461FE7BA1D"
+				"download" "D4D345F5DF228AE7BFF6FA93B7866B2A"
+			}
+		}
+		"dlcappid" "24676"
+	}
+	"24677"
+	{
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"dlcsp1"
+			{
+				"gid" "6B88553E190D774214DBEABD22557A24"
+				"size" "EFCDDBA178ED3737BF223AB748951DA5"
+				"download" "6973770139AE925C8FD304367CB8E4CC"
+			}
+		}
+		"dlcappid" "24677"
+	}
+	"24678"
+	{
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"dlcsp1"
+			{
+				"gid" "134E34ED111D563F3DAB863237126298"
+				"size" "3A88320B2E62218B8A1C0034D45DB17C"
+				"download" "6973770139AE925C8FD304367CB8E4CC"
+			}
+		}
+		"dlcappid" "24678"
+	}
+	"238991"
+	{
+		"dlcappid" "238991"
+	}
+	"24679"
+	{
+		"dlcappid" "24679"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "135896"
+		}
+		"dlcsp1"
+		{
+			"buildid" "65120"
+			"pwdrequired" "1"
+		}
+		"qabeta"
+		{
+			"buildid" "255036"
+			"pwdrequired" "1"
+		}
+		"releasebeta"
+		{
+			"buildid" "135896"
+			"pwdrequired" "1"
+		}
+		"sp1beta"
+		{
+			"buildid" "240558"
+			"pwdrequired" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "24483107"
+"_sha" "c4ef2f1f0bb01b3b15f924e465f1cb15f12ecb08"
+"_size" "8751"
