@@ -1,0 +1,289 @@
+"appid" "208600"
+"common"
+{
+	"name" "Lunar Flight"
+	"type" "Game"
+	"logo" "bb6feab174f02a232210921311686dcc3cdb7f2c"
+	"logo_small" "bb6feab174f02a232210921311686dcc3cdb7f2c_thumb"
+	"icon" "3764c06c8921fd3fe796ce6fae0c45253c1919fd"
+	"controllervr"
+	{
+		"xinput" "1"
+		"kbm" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+	}
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1659052800"
+		"tested_build_id" "249777"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Lunar Flight"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1383196665"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Shovsoft"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Shovsoft"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_15" "1"
+		"category_18" "1"
+		"category_1" "1"
+		"category_29" "1"
+		"category_27" "1"
+		"category_31" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1326614400"
+	"steam_release_date" "1334077200"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "208600"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "21978"
+		"2" "1755"
+		"3" "492"
+		"4" "15045"
+		"5" "3968"
+		"6" "4175"
+		"7" "3859"
+		"8" "4182"
+		"9" "4026"
+	}
+	"review_score" "8"
+	"review_percentage" "80"
+}
+"extended"
+{
+	"developer" "Shovsoft"
+	"gamedir" "LunarFlight"
+	"homepage" "http://www.shovsoft.com/lunarflight/"
+	"icon" ""
+	"installscript" "InstallScript.vdf"
+	"installscript_macos" "LunarFlight.app/installscript_osx.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "208601"
+	"primarycache_macos" "208602"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "windows,macos"
+	"vrheadsetstreaming" "1"
+	"publisher" "Shovsoft"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "LunarFlight.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "LunarFlight.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "LunarFlight.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "vr_beta"
+			}
+		}
+		"3"
+		{
+			"executable" "LunarFlight.exe"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "vr_beta"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Lunar Flight"
+}
+"depots"
+{
+	"208602"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7400917779519651313"
+				"size" "1469943871"
+				"download" "0"
+			}
+			"lfae"
+			{
+				"gid" "7400917779519651313"
+				"size" "1469943871"
+				"download" "0"
+			}
+			"vr_beta"
+			{
+				"gid" "7400917779519651313"
+				"size" "1469943871"
+				"download" "0"
+			}
+		}
+	}
+	"208601"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5311198478352408848"
+				"size" "1511914365"
+				"download" "0"
+			}
+			"lfae"
+			{
+				"gid" "3691847998695386980"
+				"size" "3360051521"
+				"download" "910534608"
+			}
+			"vr_beta"
+			{
+				"gid" "5805191723081119252"
+				"size" "3674525178"
+				"download" "961423920"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "249777"
+		}
+		"lfae"
+		{
+			"buildid" "4030904"
+			"description" "Anniversary Edition"
+			"timeupdated" "1563715154"
+		}
+		"vr_beta"
+		{
+			"buildid" "1471382"
+			"timeupdated" "1479730569"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "0"
+	"maxnumfiles" "0"
+	"hidecloudui" "0"
+}
+"_missing_token" "False"
+"_change_number" "24087419"
+"_sha" "5ac4528f26a69faffe93492353713e380fe37755"
+"_size" "5044"
