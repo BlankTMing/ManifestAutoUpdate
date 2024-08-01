@@ -20,6 +20,10 @@
 			"version" "2"
 		}
 	}
+	"name_localized"
+	{
+		"schinese" "前方高能"
+	}
 	"steam_deck_compatibility"
 	{
 		"category" "2"
@@ -78,17 +82,19 @@
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
 	}
 	"header_image"
 	{
 		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
 	}
 	"library_assets"
 	{
-		"library_capsule" "en"
+		"library_capsule" "en,zh-cn"
 		"library_hero" "en"
-		"library_logo" "en"
-		"library_header" "en"
+		"library_logo" "en,zh-cn"
+		"library_header" "en,zh-cn"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -96,38 +102,38 @@
 			"height_pct" "57.692306947425955"
 		}
 	}
-	"store_asset_mtime" "1712062090"
+	"store_asset_mtime" "1720090985"
 	"associations"
 	{
 		"0"
 		{
 			"type" "developer"
-			"name" "Skog"
+			"name" "thePetHen"
 		}
 		"1"
 		{
 			"type" "developer"
-			"name" "Zorro"
+			"name" "Skog"
 		}
 		"2"
 		{
 			"type" "developer"
-			"name" "Wilnyl"
+			"name" "Zorro"
 		}
 		"3"
 		{
 			"type" "developer"
-			"name" "Philip"
+			"name" "Wilnyl"
 		}
 		"4"
 		{
 			"type" "developer"
-			"name" "thePetHen"
+			"name" "Philip"
 		}
 		"5"
 		{
 			"type" "publisher"
-			"name" "Landfall Publishing"
+			"name" "Landfall "
 		}
 		"6"
 		{
@@ -147,11 +153,58 @@
 		"category_1" "1"
 		"category_9" "1"
 		"category_38" "1"
+		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
 	{
 		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+		"ukrainian"
 		{
 			"supported" "true"
 		}
@@ -166,16 +219,16 @@
 		"2" "3859"
 		"3" "3839"
 		"4" "3834"
-		"5" "1721"
-		"6" "1685"
-		"7" "1720"
+		"5" "4136"
+		"6" "1721"
+		"7" "1685"
 		"8" "3978"
-		"9" "4136"
-		"10" "4166"
-		"11" "16689"
-		"12" "4191"
-		"13" "21"
-		"14" "10808"
+		"9" "4166"
+		"10" "1720"
+		"11" "4191"
+		"12" "21"
+		"13" "10808"
+		"14" "16689"
 		"15" "4106"
 		"16" "8369"
 		"17" "3942"
@@ -187,8 +240,8 @@
 }
 "extended"
 {
-	"developer" "Skog"
-	"publisher" "Landfall Publishing"
+	"developer" "thePetHen"
+	"publisher" "Landfall "
 	"homepage" "http://landfall.se"
 }
 "config"
@@ -231,9 +284,9 @@
 		{
 			"public"
 			{
-				"gid" "1092472010925646131"
-				"size" "1184779678"
-				"download" "431967568"
+				"gid" "2508971302178691375"
+				"size" "1081354071"
+				"download" "398665488"
 			}
 		}
 		"encryptedmanifests"
@@ -244,6 +297,12 @@
 				"size" "AECE2EBE72B92FD8EAA88CFABC7A90C0"
 				"download" "473AA12CF620DF0DFDA05CD008E071BD"
 			}
+			"cw-cw"
+			{
+				"gid" "947C3D8BA19A67F21F1A9C5B845B8750"
+				"size" "69F899EEEFDE0116CC6E4F9CACB08459"
+				"download" "9CAEA90E8F91493F569165598B4433E7"
+			}
 			"cw-test"
 			{
 				"gid" "CF916D738F5BC84E14F4AC863F280E33"
@@ -252,9 +311,9 @@
 			}
 			"landfall"
 			{
-				"gid" "262ECEBB618D4B95F9F274A331F4354B"
-				"size" "94E2A586CEE78EA9FCDB02AFD03B2F8D"
-				"download" "BAD2B6D3023CED68DED795DD2E1ABD00"
+				"gid" "4948E5651BDD759D969EC9C8BD16E98A"
+				"size" "BD57E972C39C61517D3F74A70098AB16"
+				"download" "9E0E12AF6E5FF89C7163F4E257162730"
 			}
 		}
 	}
@@ -263,14 +322,20 @@
 	{
 		"public"
 		{
-			"buildid" "14290302"
-			"timeupdated" "1715086768"
+			"buildid" "15187686"
+			"timeupdated" "1722265237"
 		}
 		"localization"
 		{
 			"buildid" "14000615"
 			"pwdrequired" "1"
 			"timeupdated" "1712684429"
+		}
+		"cw-cw"
+		{
+			"buildid" "14782027"
+			"pwdrequired" "1"
+			"timeupdated" "1718890720"
 		}
 		"cw-test"
 		{
@@ -280,9 +345,9 @@
 		}
 		"landfall"
 		{
-			"buildid" "14290302"
+			"buildid" "15187686"
 			"pwdrequired" "1"
-			"timeupdated" "1715086721"
+			"timeupdated" "1722265076"
 		}
 	}
 }
@@ -290,21 +355,19 @@
 {
 	"quota" "100000"
 	"maxnumfiles" "10"
-	"hidecloudui" "1"
-	"ignoreexternalfiles" "1"
 	"savefiles"
 	{
-		"0"
-		{
-			"root" "WinAppDataLocalLow"
-			"path" "Landfall Games/Content Warning/Saves/{64BitSteamID}"
-			"pattern" "*.bin"
-		}
 		"1"
 		{
 			"root" "WinAppDataLocalLow"
 			"path" "Landfall Games/Content Warning/Saves"
 			"pattern" "*.bin"
+		}
+		"2"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Landfall Games/Content Warning/Saves"
+			"pattern" "*.m"
 		}
 	}
 }
@@ -327,6 +390,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23483438"
-"_sha" "bd7b49a286f90dd078524f20e82c3ec90879e5ab"
-"_size" "6364"
+"_change_number" "24557476"
+"_sha" "d3b738178f1f961bdce75b8a8e06416eecbb1be8"
+"_size" "7300"
