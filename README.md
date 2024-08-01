@@ -1,23 +1,28 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-08-01 08:50:46
+## 更新时间：2024-08-01 16:13:16
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1483870 | Draw & Guess - 你画我猜| Game |
-| 2322560 | 完蛋！我被美女包围了！| Game |
-| 2881650 | 前方高能| Game |
-| 2402990 | Not In My Cave| Game |
 | 570 | Dota 2| game |
-| 204360 | Castle Crashers| Game |
-| 1857090 | 诺兰德 Norland| Game |
-| 880940 | Pummel Party| Game |
-| 1071140 | ORX 城堡之巅| Game |
-| 410890 | Higurashi When They Cry Hou - Ch.2 Watanagashi| Game |
-| 937310 | Infinitode 2| Game |
-| 960090 | Bloons TD 6| Game |
-| 1264790 | Destiny of the World| Game |
-| 1830970 | 将熄之焰 The Last Flame| Game |
-| 1876070 | Windsor - Strategy| Game |
-| 1541840 | 古剑奇谭网络版 海外版| Game |
-| 3060960 | 皇帝与社稷 - 支持者包| DLC |
-| 2445690 | 失落城堡2| Game |
+| 2273430 | 苍翼：混沌效应| Game |
+| 453090 | Parkitect| Game |
+| 1059980 | 吾王保卫战 Just King| Game |
+| 213670 | South Park™: The Stick of Truth™| Game |
+| 2056210 | 孤星猎人| Game |
+| 2244130 | Ratopia| Game |
+| 1475430 | 天师| Game |
+| 1350840 | 牧野之歌| Game |
+| 287290 | Resident Evil Revelations 2| Game |
+| 844850 | Tower Hunter: Erza's Trial| Game |
+| 2690330 | Vampire Survivors: Emergency Meeting| DLC |
+| 1511670 | Enter The Backrooms| Game |
+| 2322440 | METAL SLUG ATTACK RELOADED| Game |
+| 221260 | 小小炼狱| Game |
+| 703270 | Run, my little pixel| Game |
+| 1893330 | Zadel Princess| Game |
+| 2308990 | Sea of Thieves Audiobook| Music |
+| 2309050 | Sea of Thieves - Wallpapers| DLC |
+| 1465360 | SnowRunner| Game |
+| 1777390 | AI诺娃-机娘育成方程式2| Game |
+| 1036640 | RPG Developer Bakin| Application |
+| 582660 | Black Desert| Game |
