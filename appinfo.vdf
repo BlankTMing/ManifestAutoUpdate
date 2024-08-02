@@ -31,6 +31,7 @@
 		"latam" "1"
 	}
 	"controllertagwizard" "1"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -56,7 +57,7 @@
 			"height_pct" "32.142009023984784"
 		}
 	}
-	"store_asset_mtime" "1718007608"
+	"store_asset_mtime" "1722257729"
 	"associations"
 	{
 		"0"
@@ -92,6 +93,11 @@
 		"category_23" "1"
 		"category_45" "1"
 		"category_46" "1"
+		"category_28" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -154,26 +160,26 @@
 	"gameid" "2195410"
 	"store_tags"
 	{
-		"0" "3859"
-		"1" "1742"
-		"2" "4182"
-		"3" "1084988"
-		"4" "5851"
-		"5" "1775"
-		"6" "9"
-		"7" "1741"
-		"8" "7208"
-		"9" "1684"
-		"10" "6815"
-		"11" "3854"
+		"0" "4166"
+		"1" "4182"
+		"2" "3859"
+		"3" "4252"
+		"4" "1084988"
+		"5" "4145"
+		"6" "3834"
+		"7" "1775"
+		"8" "5851"
+		"9" "9"
+		"10" "1741"
+		"11" "14139"
 		"12" "6730"
-		"13" "7948"
-		"14" "7702"
-		"15" "4975"
-		"16" "14139"
-		"17" "21725"
-		"18" "4057"
-		"19" "1708"
+		"13" "4191"
+		"14" "1708"
+		"15" "1684"
+		"16" "17305"
+		"17" "6815"
+		"18" "3854"
+		"19" "7948"
 	}
 	"review_score" "6"
 	"review_percentage" "78"
@@ -197,17 +203,9 @@
 		}
 	}
 	"uselaunchcommandline" "1"
-	"steamcontrollertemplateindex" "1"
-	"steamcontrollerconfigdetails"
-	{
-		"3260934785"
-		{
-			"controller_type" "controller_neptune"
-			"enabled_branches" "default,develop,ko_lqa,release-candidate,jp_lqa"
-			"use_action_block" "false"
-		}
-	}
 	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "65524"
+	"steamcontrollertemplateindex" "4"
 }
 "depots"
 {
@@ -217,59 +215,71 @@
 		{
 			"public"
 			{
-				"gid" "6649112918949770319"
-				"size" "4345925061"
-				"download" "3271436160"
+				"gid" "3941638808368632364"
+				"size" "4411198109"
+				"download" "3280104384"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"develop"
 			{
-				"gid" "D2012BBDD4A77943F3E0B699A25065E5"
-				"size" "CAEF6AFF2809F0BA2FD86FA48DD13B4B"
-				"download" "9186B49A2BB680EE1C7ADFF581CE7D0F"
+				"gid" "9E9009D82120C25F8D6FB8B2AF75C4B1"
+				"size" "2E6466FD4B7DB574518B29E32D5CD440"
+				"download" "DBD3ACB055F999D65989A30176A52611"
 			}
-			"ko_lqa"
+			"private_beta"
 			{
-				"gid" "45749D34FE170A780EE11341DCCED9D5"
-				"size" "D56FB30FD2F266CB8445937F9EB90E44"
-				"download" "3F2C1A4BF6A2F9A79A4CBB473FD8F254"
+				"gid" "6327EFA87E9E112C4898B40162367B4E"
+				"size" "71EEACC4B519C14DE36C73E81E5A116D"
+				"download" "C8BDA184BF8487FE0A312649EDD79F61"
+			}
+			"steamdeck"
+			{
+				"gid" "52D91DF67B7F0FA44DDDCA3979529D12"
+				"size" "9B94289105633AD096CB380089154FED"
+				"download" "DE4858A425DDD2C3DFE67D8B051BC844"
 			}
 			"release-candidate"
 			{
-				"gid" "385A2F33BCF9D7A9999A72F018B7E40E"
-				"size" "03B27F23A5AD780EB63D9DCC14E21984"
-				"download" "7EE83E1FA6C69EB7BE74493835ADB64E"
+				"gid" "CBD641D7A46144342F52233A1065DFF4"
+				"size" "8769BC41B18F8D3A2B5E6009A3FE7901"
+				"download" "C5D424CB851302EB102DAF8D1A3F0D6E"
 			}
 		}
 	}
-	"baselanguages" "english,german,french,spanish,schinese,russian,japanese,polish,brazilian"
+	"baselanguages" "english,german,french,koreana,spanish,schinese,russian,japanese,polish,brazilian"
 	"hasdepotsindlc" "1"
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "14903405"
-			"timeupdated" "1719922795"
+			"buildid" "15230013"
+			"timeupdated" "1722534998"
 		}
 		"develop"
 		{
-			"buildid" "14857128"
+			"buildid" "15228169"
 			"pwdrequired" "1"
-			"timeupdated" "1719484192"
+			"timeupdated" "1722523615"
 		}
-		"ko_lqa"
+		"private_beta"
 		{
-			"buildid" "14558983"
+			"buildid" "14929480"
 			"pwdrequired" "1"
-			"timeupdated" "1717149681"
+			"timeupdated" "1720085460"
+		}
+		"steamdeck"
+		{
+			"buildid" "15216617"
+			"pwdrequired" "1"
+			"timeupdated" "1722451227"
 		}
 		"release-candidate"
 		{
-			"buildid" "14903405"
+			"buildid" "15230013"
 			"pwdrequired" "1"
-			"timeupdated" "1719906164"
+			"timeupdated" "1722534484"
 		}
 	}
 }
@@ -289,6 +299,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "24207707"
-"_sha" "178fbf5157560fc1358bdc696e5cf2749238a5b7"
-"_size" "5347"
+"_change_number" "24610670"
+"_sha" "0ce5988690457597407c3a6b82670c03caedbb36"
+"_size" "5617"
