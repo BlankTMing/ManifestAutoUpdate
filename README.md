@@ -1,20 +1,21 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-08-02 08:45:08
+## 更新时间：2024-08-02 16:12:48
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 322330 | 饥荒联机版| Game |
-| 343050 | Don't Starve Together Dedicated Server| Tool |
-| 252490 | Rust| Game |
-| 1203220 | 永劫无间| Game |
+| 2055050 |   铁骑少女| Game |
+| 2322560 | 完蛋！我被美女包围了！| Game |
+| 1307550 | Craftopia / 创世理想乡| Game |
 | 570 | Dota 2| game |
-| 1135230 | Ember Knights| Game |
-| 283640 | Salt and Sanctuary| Game |
-| 2015270 | 熔炉密林| Game |
-| 1676840 | 为了吾王II / For The King II| Game |
-| 799600 | Cosmoteer: 星舰设计师| Game |
-| 1430760 | Aquarist - 建造水族馆，繁殖鱼类，拓展你的业务!| Game |
-| 1290000 | 冲就完事模拟器| Game |
-| 2334730 | Death Must Die| Game |
-| 1835240 | Spiritfall| Game |
-| 2195410 | 寂静之歌| Game |
+| 1149460 | 翼星求生 ICARUS| Game |
+| 611790 | House Party| Game |
+| 880940 | Pummel Party| Game |
+| 1059980 | 吾王保卫战 Just King| Game |
+| 1670340 | Craftopia Dedicated Server| Tool |
+| 838350 | 太吾绘卷 The Scroll Of Taiwu| Game |
+| 2244130 | Ratopia| Game |
+| 1260320 | 猛兽派对| Game |
+| 595140 | Immortal Redneck| Game |
+| 1380910 | Stardeus| Game |
+| 2716930 | 皇帝与社稷| Game |
+| 3060960 | 皇帝与社稷 - 支持者包| DLC |
