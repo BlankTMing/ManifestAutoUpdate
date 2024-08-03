@@ -1,18 +1,25 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-08-03 00:12:25
+## 更新时间：2024-08-03 08:44:18
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 2322560 | 完蛋！我被美女包围了！| Game |
-| 613100 | 房产达人| Game |
-| 1637320 | Dome Keeper 穹顶守护者| Game |
-| 1158160 | Coral Island| Game |
+| 440 | Team Fortress 2| game |
+| 4000 | Garry's Mod| game |
+| 1245560 | Roots of Pacha| Game |
+| 252490 | Rust| Game |
+| 570 | Dota 2| game |
+| 700580 | Rust - Staging Branch| Game |
+| 611790 | House Party| Game |
+| 1857090 | 诺兰德 Norland| Game |
 | 494840 | UBOAT| Game |
-| 1295920 | The Mortuary Assistant| Game |
-| 451340 | Gold Mining Simulator| Game |
-| 1290000 | 冲就完事模拟器| Game |
-| 1831250 | WasteLand Express 废土快递| Game |
-| 761830 | 末日准备狂| Game |
-| 1380910 | Stardeus| Game |
+| 2292060 | 法术圆盘| Game |
+| 1614550 | Astro Colony| Game |
+| 2662210 | Astro Colony Dedicated Server| Tool |
+| 2934900 | Astro Colony Dedicated Server Linux| Tool |
+| 1520840 | 韩老师的课后辅导| Game |
+| 993090 | Lossless Scaling| Application |
 | 1269020 | No Plan B| Game |
-| 1859910 | 活侠传| Game |
+| 1823950 | Laysara: Summit Kingdom| Game |
+| 595140 | Immortal Redneck| Game |
+| 1380910 | Stardeus| Game |
+| 1144200 | Ready or Not| Game |
