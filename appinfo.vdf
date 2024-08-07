@@ -23,36 +23,31 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1706140800"
-		"tested_build_id" "13205891"
+		"test_timestamp" "1720569600"
+		"tested_build_id" "13489403"
 		"tests"
 		{
 			"0"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
 			}
 			"1"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
 			}
 			"2"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"3"
-			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
-			}
-			"4"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
-			"5"
+			"4"
 			{
 				"display" "1"
 				"token" "#SteamDeckVerified_TestResult_CrossPlatformCloudSavesNotSupported"
@@ -61,14 +56,14 @@
 		"configuration"
 		{
 			"supported_input" "gamepad"
-			"requires_manual_keyboard_invoke" "1"
+			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
 			"non_deck_display_glyphs" "1"
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-2RC"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
 			"hdr_support" "0"
@@ -97,18 +92,13 @@
 			"height_pct" "87.8419458526358"
 		}
 	}
-	"store_asset_mtime" "1705478101"
+	"store_asset_mtime" "1723008128"
 	"associations"
 	{
 		"0"
 		{
 			"type" "developer"
-			"name" "Huard Ouadi"
-		}
-		"1"
-		{
-			"type" "publisher"
-			"name" " iolaCorp Studio"
+			"name" "Ouadi Huard"
 		}
 	}
 	"primary_genre" "70"
@@ -128,6 +118,7 @@
 		"category_25" "1"
 		"category_30" "1"
 		"category_18" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -159,6 +150,10 @@
 		{
 			"supported" "true"
 		}
+		"indonesian"
+		{
+			"supported" "true"
+		}
 	}
 	"steam_release_date" "1663599011"
 	"community_visible_stats" "1"
@@ -168,33 +163,32 @@
 	"store_tags"
 	{
 		"0" "42804"
-		"1" "1716"
-		"2" "6426"
-		"3" "122"
-		"4" "4885"
-		"5" "3959"
-		"6" "3964"
-		"7" "4604"
-		"8" "19"
-		"9" "1669"
-		"10" "9"
-		"11" "4758"
+		"1" "4885"
+		"2" "3959"
+		"3" "1773"
+		"4" "4758"
+		"5" "6426"
+		"6" "6730"
+		"7" "19"
+		"8" "1716"
+		"9" "4975"
+		"10" "3871"
+		"11" "9"
 		"12" "4791"
 		"13" "4191"
-		"14" "3993"
+		"14" "5125"
 		"15" "7481"
-		"16" "1684"
+		"16" "122"
 		"17" "597"
-		"18" "4057"
-		"19" "4182"
+		"18" "3964"
+		"19" "1684"
 	}
 	"review_score" "8"
 	"review_percentage" "92"
 }
 "extended"
 {
-	"developer" "Huard Ouadi"
-	"publisher" " iolaCorp Studio"
+	"developer" "Ouadi Huard"
 	"listofdlc" "2388080,2388081"
 	"dlcavailableonstore" "1"
 }
@@ -222,6 +216,7 @@
 		"1"
 		{
 			"executable" "Rogue Genesia.x86_64"
+			"arguments" "-force-gfx-jobs off"
 			"type" "default"
 			"config"
 			{
@@ -237,6 +232,7 @@
 		"2"
 		{
 			"executable" "Vanilla/Rogue Genesia.exe"
+			"arguments" "-force-gfx-jobs off"
 			"type" "option1"
 			"config"
 			{
@@ -251,6 +247,7 @@
 		"3"
 		{
 			"executable" "Modded/Rogue Genesia.exe"
+			"arguments" "-force-gfx-jobs off"
 			"type" "option1"
 			"config"
 			{
@@ -281,7 +278,7 @@
 }
 "depots"
 {
-	"baselanguages" "english,german,french,koreana,schinese,japanese,turkish,brazilian"
+	"baselanguages" "english,german,french,koreana,schinese,russian,japanese,danish,turkish,brazilian,indonesian"
 	"2067921"
 	{
 		"config"
@@ -293,21 +290,15 @@
 		{
 			"public"
 			{
+				"gid" "7642198930446403929"
+				"size" "2552989741"
+				"download" "491637936"
+			}
+			"rg0.9"
+			{
 				"gid" "4005646111758751981"
 				"size" "1650911603"
 				"download" "336674256"
-			}
-			"rg0.6"
-			{
-				"gid" "8849458293282878496"
-				"size" "312624599"
-				"download" "98435568"
-			}
-			"rg0.7"
-			{
-				"gid" "4091850965422763658"
-				"size" "356563460"
-				"download" "109331936"
 			}
 			"rg0.8"
 			{
@@ -315,20 +306,26 @@
 				"size" "744368183"
 				"download" "133383568"
 			}
+			"rg0.7"
+			{
+				"gid" "4091850965422763658"
+				"size" "356563460"
+				"download" "109331936"
+			}
+			"rg0.6"
+			{
+				"gid" "8849458293282878496"
+				"size" "312624599"
+				"download" "98435568"
+			}
 		}
 		"encryptedmanifests"
 		{
 			"indevbeta"
 			{
-				"gid" "71FF22A661B174EB106B05322CC90EBC"
-				"size" "3E95BEC40D522EFADC7976B109C8BF4F"
-				"download" "493E51FCFCA0C46951526D44334BDD8D"
-			}
-			"rg0.10_beta"
-			{
-				"gid" "A7FE1794DFF2C15C4225B13E85ED83C8"
-				"size" "FCD07C7BC722AF20FAA33CB0C36AB3F5"
-				"download" "95EAA8FE7688380B5ADCB0359EAC7CB1"
+				"gid" "225A01AECED230C6A2E7141DD7727734"
+				"size" "45280A4E19F2A8BAF80E60B7621A152A"
+				"download" "8EE76CB49DD815E7F9A5EADEC517707E"
 			}
 		}
 	}
@@ -343,15 +340,15 @@
 		{
 			"public"
 			{
+				"gid" "5822809752265674415"
+				"size" "1225965584"
+				"download" "424911856"
+			}
+			"rg0.9"
+			{
 				"gid" "985230311967510435"
 				"size" "770779161"
 				"download" "273024880"
-			}
-			"rg0.7"
-			{
-				"gid" "5396456951922253266"
-				"size" "409991214"
-				"download" "117842416"
 			}
 			"rg0.8"
 			{
@@ -359,20 +356,20 @@
 				"size" "455413831"
 				"download" "129249216"
 			}
+			"rg0.7"
+			{
+				"gid" "5396456951922253266"
+				"size" "409991214"
+				"download" "117842416"
+			}
 		}
 		"encryptedmanifests"
 		{
 			"indevbeta"
 			{
-				"gid" "A135DAD7BAED9127DE6CC178466DC19C"
-				"size" "A8075610B83F977CC856B834917A748A"
-				"download" "C7734D3848AAC8780043438E01414F26"
-			}
-			"rg0.10_beta"
-			{
-				"gid" "F3F3F5C33A5963F468A5B98BCDAC90B9"
-				"size" "4FA7333032B2FB5F234D18AB910FFC33"
-				"download" "635642F5DCAFD679073492D711C84856"
+				"gid" "02D68ADF6EAF87E555395744511E022F"
+				"size" "11DC7B0176FE6AF9C4D5BB536590DBC5"
+				"download" "338DDA743020FBCC8D66D5F55A157A74"
 			}
 		}
 	}
@@ -390,26 +387,26 @@
 	{
 		"public"
 		{
+			"buildid" "15286900"
+			"timeupdated" "1723017399"
+		}
+		"rg0.9"
+		{
 			"buildid" "13489403"
-			"timeupdated" "1708247007"
+			"description" "(OLD) Version 0.9"
+			"timeupdated" "1722561132"
 		}
 		"indevbeta"
 		{
-			"buildid" "13626669"
+			"buildid" "15286900"
 			"pwdrequired" "1"
-			"timeupdated" "1709483945"
+			"timeupdated" "1723015457"
 		}
-		"rg0.10_beta"
+		"rg0.8"
 		{
-			"buildid" "13626669"
-			"pwdrequired" "1"
-			"timeupdated" "1709483954"
-		}
-		"rg0.6"
-		{
-			"buildid" "9611151"
-			"description" "(OLD) Version 0.6"
-			"timeupdated" "1668430850"
+			"buildid" "11356759"
+			"description" "(OLD) Version 0.8"
+			"timeupdated" "1693318185"
 		}
 		"rg0.7"
 		{
@@ -417,11 +414,11 @@
 			"description" "(OLD) Version 0.7"
 			"timeupdated" "1678105530"
 		}
-		"rg0.8"
+		"rg0.6"
 		{
-			"buildid" "11356759"
-			"description" "(OLD) Version 0.8"
-			"timeupdated" "1693318185"
+			"buildid" "9611151"
+			"description" "(OLD) Version 0.6"
+			"timeupdated" "1668430850"
 		}
 	}
 }
@@ -575,6 +572,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22771945"
-"_sha" "a357fdaf67e109c890306aad0622fb28b787bb7b"
-"_size" "12675"
+"_change_number" "24681363"
+"_sha" "cc3e657cd66f0e89017c02cd4eba13a2235e77a8"
+"_size" "12533"
