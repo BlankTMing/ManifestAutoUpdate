@@ -1,0 +1,316 @@
+"appid" "1645820"
+"common"
+{
+	"name" "SurrounDead"
+	"type" "Game"
+	"releasestate" "released"
+	"clienttga" "195f032f50f540080f58cff921400b4e32a0bc31"
+	"logo" "cd473fab147bf30a9e98c086134e9862a6616a45"
+	"logo_small" "cd473fab147bf30a9e98c086134e9862a6616a45_thumb"
+	"icon" "51a09232eed1243103f8d746b2f1b685322463f1"
+	"clienticon" "6d5c0ae9250bcdb68149afbc0b99d36010acf2b5"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1661817600"
+		"tested_build_id" "9343160"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "23.239464709519154"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1716844844"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "PlaySurrounDead"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "PlaySurrounDead"
+		}
+	}
+	"primary_genre" "70"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "3"
+		"4" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1656086579"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1645820"
+	"store_tags"
+	{
+		"0" "1659"
+		"1" "1662"
+		"2" "1695"
+		"3" "3835"
+		"4" "122"
+		"5" "4182"
+		"6" "1774"
+		"7" "3834"
+		"8" "1697"
+		"9" "4236"
+		"10" "492"
+		"11" "493"
+		"12" "3839"
+		"13" "21"
+		"14" "19"
+		"15" "6730"
+		"16" "7332"
+		"17" "3814"
+		"18" "1100689"
+		"19" "1685"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"gamedir" "SurrounDead"
+	"serverbrowsername" "SurrounDead"
+	"developer" "PlaySurrounDead"
+	"publisher" "PlaySurrounDead"
+}
+"config"
+{
+	"installdir" "SurrounDead"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SurrounDead.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "SurrounDead.exe"
+			"arguments" "-force -d3d11"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "SurrounDead DirectX 11 [Experimental]"
+			}
+			"description" "SurrounDead DirectX 11 [Experimental]"
+		}
+		"2"
+		{
+			"executable" "SurrounDead.exe"
+			"arguments" "-force -vulkan"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "SurrounDead Vulkan [Experimental]"
+			}
+			"description" "SurrounDead Vulkan [Experimental]"
+		}
+	}
+	"steamdecktouchscreen" "1"
+	"steamcontrollertemplateindex" "6"
+	"steamconfigurator3rdpartynative" "65527"
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1645821"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3882527595850526539"
+				"size" "1423963258"
+				"download" "1240503072"
+			}
+			"experimental"
+			{
+				"gid" "8293053644577621307"
+				"size" "1378167996"
+				"download" "1213560832"
+			}
+			"previous"
+			{
+				"gid" "1144564117648773848"
+				"size" "1340902373"
+				"download" "1188060288"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private"
+			{
+				"gid" "EB7F6AF8B99365B12B02B01E82A4DE1D"
+				"size" "42F7E968804F0E3D4F511241772717FC"
+				"download" "615C7DC6DADFC2A0147688EBE782EA89"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14993253"
+			"timeupdated" "1720641733"
+		}
+		"experimental"
+		{
+			"buildid" "13593357"
+			"description" "Testing"
+			"timeupdated" "1709158272"
+		}
+		"previous"
+		{
+			"buildid" "13190587"
+			"description" "Previous update"
+			"timeupdated" "1706915611"
+		}
+		"private"
+		{
+			"buildid" "15067129"
+			"pwdrequired" "1"
+			"timeupdated" "1721248781"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "50000000"
+	"maxnumfiles" "150"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "SurrounDead/Saved/SaveGames"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "24648539"
+"_sha" "11d0a87d614ca63baa4f8b7958b24cd94566fa24"
+"_size" "5727"
