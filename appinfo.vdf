@@ -71,6 +71,7 @@
 	{
 		"category_22" "1"
 		"category_2" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -148,14 +149,25 @@
 	{
 		"0"
 		{
-			"executable" "realpolitiks.exe"
+			"executable" "launcher-x64.exe"
 			"type" "default"
 			"config"
 			{
 				"oslist" "windows"
+				"osarch" "64"
 			}
 		}
 		"1"
+		{
+			"executable" "launcher-ia32.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"2"
 		{
 			"executable" "realpolitiks.x86"
 			"type" "default"
@@ -165,7 +177,7 @@
 				"osarch" "32"
 			}
 		}
-		"2"
+		"3"
 		{
 			"executable" "realpolitiks.app/Contents/MacOS/realpolitiks"
 			"type" "default"
@@ -174,7 +186,7 @@
 				"oslist" "macos"
 			}
 		}
-		"3"
+		"4"
 		{
 			"executable" "realpolitiks.x86_64"
 			"type" "default"
@@ -199,9 +211,9 @@
 		{
 			"public"
 			{
-				"gid" "6388972225758875111"
-				"size" "512436114"
-				"download" "233777616"
+				"gid" "6766327673187499090"
+				"size" "647842143"
+				"download" "370977408"
 			}
 			"133build"
 			{
@@ -235,6 +247,12 @@
 				"gid" "143BF4AEACAB15531D8CB71C83227B7F"
 				"size" "EB4F8B9F7D75E0A04E2FB56D994C68FF"
 				"download" "218380F1CAFE0367FD8960BE6D974F25"
+			}
+			"launcher"
+			{
+				"gid" "99020E8A6B31A4A673F4BD5C7359FB4D"
+				"size" "84ADC9EB29A74859BF84F5B965B6524E"
+				"download" "C9D14D9DDF6B90B309D765D68B7C546C"
 			}
 		}
 	}
@@ -285,6 +303,12 @@
 				"size" "CF72F89C34CEAA64FAD69F975E98C1B8"
 				"download" "AA7AEB06FA50BDE207B2A3DA5D01B2CC"
 			}
+			"launcher"
+			{
+				"gid" "67BDD21DBA70CA40D10251D952F8B4E6"
+				"size" "6A95FCE78011936286C737301B294F0E"
+				"download" "E24FCC237762A9266D9E2606FE25DA72"
+			}
 		}
 	}
 	"553263"
@@ -334,6 +358,12 @@
 				"size" "151EFC80768DD50034A0CEE462128766"
 				"download" "EE4E6EA430E3E46DB8550DBF0FFDEFA9"
 			}
+			"launcher"
+			{
+				"gid" "DBEEB0B9FDA232FD0FFC68865503A414"
+				"size" "F4CC454A4B1BBF6CBE9CDEA3F8A15B7F"
+				"download" "F2A299D9C30EDF62D3709942B7917C3C"
+			}
 		}
 	}
 	"553264"
@@ -344,8 +374,8 @@
 	{
 		"public"
 		{
-			"buildid" "2968299"
-			"timeupdated" "1533571210"
+			"buildid" "15306305"
+			"timeupdated" "1723130473"
 		}
 		"133build"
 		{
@@ -373,6 +403,12 @@
 			"buildid" "1683594"
 			"description" "Beta patch with \'Separatism\' mechanics"
 			"timeupdated" "1489168302"
+		}
+		"launcher"
+		{
+			"buildid" "15303391"
+			"pwdrequired" "1"
+			"timeupdated" "1723115424"
 		}
 	}
 }
@@ -415,6 +451,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21618009"
-"_sha" "527f678fac9847fe5d043c6a094239fb5050f0f3"
-"_size" "7023"
+"_change_number" "24704856"
+"_sha" "b31576d5afafdf70b13f0675c5aa8fcd1ad8605b"
+"_size" "7840"
