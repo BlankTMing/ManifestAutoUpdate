@@ -213,8 +213,8 @@
 		"2" "3920"
 		"3" "3959"
 		"4" "1643"
-		"5" "1716"
-		"6" "3841"
+		"5" "3841"
+		"6" "1716"
 		"7" "4726"
 		"8" "5125"
 		"9" "4136"
@@ -222,9 +222,9 @@
 		"11" "597"
 		"12" "7481"
 		"13" "4840"
-		"14" "42804"
-		"15" "9"
-		"16" "3843"
+		"14" "9"
+		"15" "3843"
+		"16" "42804"
 		"17" "4791"
 		"18" "4182"
 		"19" "19"
@@ -253,12 +253,28 @@
 			}
 			"description" "Launch"
 		}
+		"2"
+		{
+			"executable" "PlateUp Crossplay\\PlateUp.exe"
+			"arguments" "-appid 1599600"
+			"type" "option2"
+			"config"
+			{
+				"betakey" "playtest, CrossplayBeta"
+			}
+			"description_loc"
+			{
+				"english" "PlateUp! without Mods (Allows for Crossplay with other PC releases)"
+			}
+			"description" "PlateUp! without Mods (Allows for Crossplay with other PC releases)"
+		}
 	}
 	"uselaunchcommandline" "1"
 }
 "depots"
 {
 	"baselanguages" "english"
+	"workshopdepot" "1599600"
 	"1599601"
 	{
 		"config"
@@ -269,15 +285,15 @@
 		{
 			"public"
 			{
-				"gid" "7036331510903808114"
-				"size" "1140951619"
-				"download" "379703728"
+				"gid" "1632627911688552703"
+				"size" "1394023528"
+				"download" "401543904"
 			}
-			"savedebug"
+			"crossplaybeta"
 			{
-				"gid" "2218041590431141658"
-				"size" "1061984412"
-				"download" "359809824"
+				"gid" "7763703274295193109"
+				"size" "2435094351"
+				"download" "603590048"
 			}
 		}
 		"encryptedmanifests"
@@ -293,12 +309,6 @@
 				"gid" "FE64F23927880259A04CE8DB878D918A"
 				"size" "90B55476BAA2E495B2E587AF276718C5"
 				"download" "6B2E75D19C1D8663F0762C1F090E3DC1"
-			}
-			"creator"
-			{
-				"gid" "43BAEF55436E3DF76776A04C3F72E953"
-				"size" "01FE95C1A077011901FD8C38CEA3D4A8"
-				"download" "7435086D22D30A64E94326CA45EF3CE5"
 			}
 			"development"
 			{
@@ -318,27 +328,51 @@
 				"size" "4EC9FEDE0FFE8596F4476172A0EF69E6"
 				"download" "7DEC42894D7187042A87C966E83FD73B"
 			}
-			"playtest"
-			{
-				"gid" "A6FFC1C3F158C098D68B266F7D26E904"
-				"size" "C3D6DD4A315C83D8E212B70D2025A2D3"
-				"download" "8A2C7742C1AB0AFFCEF25B3529BC00B3"
-			}
 			"secret"
 			{
 				"gid" "BEFDC25DD1BAB568E31EE4E264832F61"
 				"size" "C52474E52F801694CDB3725A0219C8A1"
 				"download" "CEEF42E455759C9D8D98807745A51DF8"
 			}
+			"creator"
+			{
+				"gid" "D9C2204FDF90B37816E52000D348769C"
+				"size" "18CB877C1B0ADA47E7CA03B11EC0304D"
+				"download" "645C7B59D8E484859CEF733DDB4DF5FB"
+			}
+			"crossplaystaging"
+			{
+				"gid" "EDAD780B5CE81D52C7E6C1C6946D612B"
+				"size" "BAA8B6FFD513CE5B424E22B0AD0E575B"
+				"download" "774FAC0D8D893DF5AB06015CA31F9369"
+			}
+			"playtest"
+			{
+				"gid" "08C0EB62359E837C482595FF519A47E2"
+				"size" "60106ED8717BD247BE55DA77D28AB698"
+				"download" "75A335D8EE5F09D9D5B15C7DAAC0EFB8"
+			}
+			"playtest2"
+			{
+				"gid" "27CA493CEC6326CFDA4B006EBE154086"
+				"size" "E4DB3CF138CAB419F9418889C9C96C5C"
+				"download" "698342BE178D46F2E97A05837F16560E"
+			}
 		}
 	}
-	"workshopdepot" "1599600"
+	"1599602"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13435686"
-			"timeupdated" "1707760859"
+			"buildid" "15299039"
+			"timeupdated" "1723107587"
 		}
 		"ch_pr"
 		{
@@ -351,12 +385,6 @@
 			"buildid" "9251549"
 			"pwdrequired" "1"
 			"timeupdated" "1659606643"
-		}
-		"creator"
-		{
-			"buildid" "13408894"
-			"pwdrequired" "1"
-			"timeupdated" "1707496910"
 		}
 		"development"
 		{
@@ -376,23 +404,41 @@
 			"pwdrequired" "1"
 			"timeupdated" "1686754875"
 		}
-		"playtest"
-		{
-			"buildid" "13435686"
-			"pwdrequired" "1"
-			"timeupdated" "1707760639"
-		}
-		"savedebug"
-		{
-			"buildid" "10542649"
-			"description" "Additional save debug logging"
-			"timeupdated" "1678721385"
-		}
 		"secret"
 		{
 			"buildid" "12841040"
 			"pwdrequired" "1"
 			"timeupdated" "1701361864"
+		}
+		"creator"
+		{
+			"buildid" "15299039"
+			"pwdrequired" "1"
+			"timeupdated" "1723088340"
+		}
+		"crossplaybeta"
+		{
+			"buildid" "14546948"
+			"description" "branch dedicated for crossplay"
+			"timeupdated" "1717077636"
+		}
+		"crossplaystaging"
+		{
+			"buildid" "15299069"
+			"pwdrequired" "1"
+			"timeupdated" "1723088573"
+		}
+		"playtest"
+		{
+			"buildid" "14546948"
+			"pwdrequired" "1"
+			"timeupdated" "1717071237"
+		}
+		"playtest2"
+		{
+			"buildid" "15299039"
+			"pwdrequired" "1"
+			"timeupdated" "1723088362"
 		}
 	}
 }
@@ -452,6 +498,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22671642"
-"_sha" "331c7b43b31f6a49e91361fdc569289f9e78dc0a"
-"_size" "8867"
+"_change_number" "24699257"
+"_sha" "0aaba7ead7d4d000799099c780240cb41c93230e"
+"_size" "9918"
