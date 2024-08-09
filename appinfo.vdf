@@ -268,9 +268,9 @@
 		{
 			"public"
 			{
-				"gid" "5082624058207658791"
-				"size" "8655309054"
-				"download" "814868720"
+				"gid" "7684533356900378735"
+				"size" "8653770443"
+				"download" "814904176"
 			}
 			"patch1.0.2"
 			{
@@ -325,15 +325,15 @@
 			}
 			"internal"
 			{
-				"gid" "FE81DE9C91EF5CC02EADCE2166ECE197"
-				"size" "98CB3B2977E1761AFDABA2B2CDAB1EAA"
-				"download" "8AD44BF70B3E0BA050BB43067E329241"
+				"gid" "91D9597B933E4CBB3F39ACF92C21F1B5"
+				"size" "1D1A1E9DE80D108D8DF24E5C3ED161F8"
+				"download" "5BD5815E2E09776DEF51E6FED8D7FCA9"
 			}
 			"publicbetaenvironment"
 			{
-				"gid" "866B23C9AAA5620A057E58E2E67C28A3"
-				"size" "A3D8F4E3B8581BACE6D9805309F4C886"
-				"download" "18BB6B188ABFDAC3A05EB0C944D557E6"
+				"gid" "3E82F1C5945A0C81DF40AECA1637CF6E"
+				"size" "7DDF200E9FBB16FB333DF6E5B606C146"
+				"download" "24294DDDDDADF182386A8029ED6C1160"
 			}
 		}
 	}
@@ -368,9 +368,9 @@
 		{
 			"public"
 			{
-				"gid" "866854163326339428"
-				"size" "8655277471"
-				"download" "815478240"
+				"gid" "2022065631536622282"
+				"size" "8653644067"
+				"download" "815465920"
 			}
 			"patch1.0.2"
 			{
@@ -419,15 +419,15 @@
 			}
 			"internal"
 			{
-				"gid" "31ABC4CD035D2FE5DD6EB400E8F4B430"
-				"size" "0E5C05D94448C1E05A4DAF72F46E83BC"
-				"download" "29E28E13E009E5246E85A5B04512FE75"
+				"gid" "EF82A0719356DF73258A3500D7ACC2E8"
+				"size" "0D799C955C5118B4D46E8BEC90D679BC"
+				"download" "057E9A71BB4517A5099102660CB4C0D7"
 			}
 			"publicbetaenvironment"
 			{
-				"gid" "BCD118696FDC4039658BF6AC6A979434"
-				"size" "F658B70B51532089F5ECDCAC892403B6"
-				"download" "9A01E6BCB4CA0C999AA7072FC9AFCA73"
+				"gid" "1C36DA3E28E8641EF67D23A2347061A1"
+				"size" "2639497D253B6CF1153BCFFFAE7F287A"
+				"download" "BC12E6D00836F373B5D9C9ADB3AD3745"
 			}
 		}
 	}
@@ -448,8 +448,8 @@
 	{
 		"public"
 		{
-			"buildid" "15282619"
-			"timeupdated" "1722992420"
+			"buildid" "15313474"
+			"timeupdated" "1723177362"
 		}
 		"mtest"
 		{
@@ -489,9 +489,9 @@
 		}
 		"internal"
 		{
-			"buildid" "15282619"
+			"buildid" "15311139"
 			"pwdrequired" "1"
-			"timeupdated" "1722983608"
+			"timeupdated" "1723158643"
 		}
 		"patch1.3stable"
 		{
@@ -507,9 +507,9 @@
 		}
 		"publicbetaenvironment"
 		{
-			"buildid" "15282635"
+			"buildid" "15313474"
 			"pwdrequired" "1"
-			"timeupdated" "1722983701"
+			"timeupdated" "1723176335"
 		}
 	}
 }
@@ -524,10 +524,6 @@
 			"root" "WinAppDataLocalLow"
 			"path" "Pixel Sprout Studios/Sun Haven/Saves/"
 			"pattern" "*.save"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 	}
 	"rootoverrides"
@@ -538,7 +534,14 @@
 			"os" "MacOS"
 			"oscompare" "="
 			"useinstead" "MacAppSupport"
-			"addpath" "Pixel Sprout Studios/Sun Haven/Saves/"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Pixel Sprout Studios/Sun Haven/Saves/"
+					"replace" "Pixel Sprout Studios/Sun Haven/Saves/"
+				}
+			}
 		}
 		"1"
 		{
@@ -546,11 +549,18 @@
 			"os" "Linux"
 			"oscompare" "="
 			"useinstead" "LinuxHome"
-			"addpath" ".config/unity3d/Pixel Sprout Studios/Sun Haven/Saves/"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Pixel Sprout Studios/Sun Haven/Saves/"
+					"replace" ".config/unity3d/Pixel Sprout Studios/Sun Haven/Saves/"
+				}
+			}
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "24677219"
-"_sha" "f9eb9366e7c9ea74c47fb6e27c65419a4c703ae0"
-"_size" "10933"
+"_change_number" "24713737"
+"_sha" "a3bf6a2635dbd729904b8bd92aa2c564ae935a33"
+"_size" "11110"
