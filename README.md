@@ -1,18 +1,25 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-08-09 16:13:47
+## 更新时间：2024-08-10 00:12:15
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 740 | Counter-Strike Global Offensive - Dedicated Server| Tool |
-| 2055050 |   铁骑少女| Game |
-| 730 | Counter-Strike 2| Game |
+| 1696440 | 绝世好武功| Game |
 | 1477070 | 人格解体| Game |
-| 1149460 | 翼星求生 ICARUS| Game |
-| 2273430 | 苍翼：混沌效应| Game |
-| 1489970 | Highrise City| Game |
-| 1342260 | SAMURAI SHODOWN| Game |
-| 2244130 | Ratopia| Game |
-| 1475430 | 天师| Game |
+| 261550 | Mount & Blade II: Bannerlord| Game |
+| 4000 | Garry's Mod| game |
+| 2068280 | Nordic Ashes| Game |
+| 2338770 | NBA 2K24| Game |
+| 1393600 | Mount & Blade II: Bannerlord - Modding Kit| Tool |
+| 1863440 | Mount & Blade II: Dedicated Server| Tool |
+| 2067920 | 罗格：救世传说| Game |
+| 700580 | Rust - Staging Branch| Game |
+| 2602680 | 绝世好武功Mod工具| Tool |
+| 1831250 | WasteLand Express 废土快递| Game |
+| 1455910 | 领地：种田与征战| Game |
+| 681280 | Descenders| Game |
 | 1432860 | Sun Haven| Game |
-| 1350840 | 牧野之歌| Game |
 | 2000950 | Call of Duty®: Modern Warfare®| Game |
+| 1859910 | 活侠传| Game |
+| 2716930 | 皇帝与社稷| Game |
+| 1614440 | 波与月夜之青莲| Game |
+| 3060960 | 皇帝与社稷 - 支持者包| DLC |
