@@ -1,14 +1,15 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-08-10 08:45:40
+## 更新时间：2024-08-10 16:12:27
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 730 | Counter-Strike 2| Game |
+| 740 | Counter-Strike Global Offensive - Dedicated Server| Tool |
 | 1477070 | 人格解体| Game |
-| 1836200 | Fallout 76 Public Test Server| Beta |
-| 707030 | POSTAL 4: No Regerts| Game |
-| 1857090 | 诺兰德 Norland| Game |
-| 1071140 | ORX 城堡之巅| Game |
-| 1494560 | 末日电涌 Rogue Voltage| Game |
+| 1149460 | 翼星求生 ICARUS| Game |
+| 570 | Dota 2| game |
+| 2067920 | 罗格：救世传说| Game |
+| 2989950 | The Bathhouse \| 地獄銭湯 Restored Ver.| Game |
+| 1755830 | Astrea: Six-Sided Oracles| Game |
 | 2000950 | Call of Duty®: Modern Warfare®| Game |
-| 625340 | XERA: Survival| Game |
+| 1380910 | Stardeus| Game |
+| 1859910 | 活侠传| Game |
