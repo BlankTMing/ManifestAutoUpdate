@@ -348,6 +348,22 @@
 			}
 			"description" "without memory optimizations"
 		}
+		"9"
+		{
+			"executable" "jre/bin/javaw.exe"
+			"arguments" "-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -Xms512m -Xmx4G -jar Necesse.jar"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "buildtest"
+			}
+			"description_loc"
+			{
+				"english" "Necesse - Only use if first option does not work"
+			}
+			"description" "Necesse - Only use if first option does not work"
+		}
 	}
 	"uselaunchcommandline" "1"
 	"steamcontrollerconfigdetails"
@@ -553,9 +569,9 @@
 		{
 			"public"
 			{
-				"gid" "5691078067567362787"
-				"size" "420389652"
-				"download" "287060736"
+				"gid" "8332642337065479722"
+				"size" "420227457"
+				"download" "286808256"
 			}
 			"v0.21.23"
 			{
@@ -670,9 +686,9 @@
 			}
 			"buildtest"
 			{
-				"gid" "2983F1DF3CB9B25388DD8F38B7E1859E"
-				"size" "016F58A279CEC4CC35D45065E3FC95AD"
-				"download" "658E8D507AF1371338C949DB96E193CA"
+				"gid" "7A19460BE8942F32F14622B7F900CCF9"
+				"size" "122741FE1DE4579BE4D387519906AAE6"
+				"download" "DF61FD3A44DD8FF4F7EF66B4F8D96B3C"
 			}
 			"buildtest2"
 			{
@@ -692,9 +708,9 @@
 		{
 			"public"
 			{
-				"gid" "4962790488224248402"
-				"size" "425957039"
-				"download" "297312128"
+				"gid" "4452079714665773720"
+				"size" "425707924"
+				"download" "293024176"
 			}
 			"v0.21.23"
 			{
@@ -809,9 +825,9 @@
 			}
 			"buildtest"
 			{
-				"gid" "E41C8171561D54CC5C4D639D7766165E"
-				"size" "0EB83E1150DF38D6FFB513EAAEBAF1D4"
-				"download" "693958584B78E57431E75E1D8F26ECAB"
+				"gid" "35F03C3C871885AF01E98EB96B3D3220"
+				"size" "87C2B37FD4B70EB321D70E79560DF582"
+				"download" "A331E2ED81A85EDFD6AA7F64224FF437"
 			}
 			"buildtest2"
 			{
@@ -831,9 +847,9 @@
 		{
 			"public"
 			{
-				"gid" "6819425837980863095"
-				"size" "430669455"
-				"download" "298860336"
+				"gid" "5899577098694989365"
+				"size" "430420340"
+				"download" "294572384"
 			}
 			"v0.21.23"
 			{
@@ -948,9 +964,9 @@
 			}
 			"buildtest"
 			{
-				"gid" "59E05C37108C099ED5726475B7248EDC"
-				"size" "F8B6CB99E865BEAC08511DE8510F6797"
-				"download" "FB744CA33ED80ABCBCE24E47F9710FF3"
+				"gid" "9BF54758F26B0EDA125448B3116A3314"
+				"size" "85BFB3C8479E52B7FF197DC14077AF8A"
+				"download" "E9494845751DA045D68D313D839B39D1"
 			}
 			"buildtest2"
 			{
@@ -965,8 +981,8 @@
 	{
 		"public"
 		{
-			"buildid" "15331006"
-			"timeupdated" "1723329142"
+			"buildid" "15333695"
+			"timeupdated" "1723376540"
 		}
 		"expo"
 		{
@@ -1060,9 +1076,9 @@
 		}
 		"buildtest"
 		{
-			"buildid" "15331006"
+			"buildid" "15333695"
 			"pwdrequired" "1"
-			"timeupdated" "1723328660"
+			"timeupdated" "1723375217"
 		}
 		"buildtest2"
 		{
@@ -1866,6 +1882,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "24735431"
-"_sha" "471be579a2a18b97371801727fbdb62ea48137b5"
-"_size" "50713"
+"_change_number" "24740036"
+"_sha" "5bdcb568375beeb026681a592837bb50056cddd3"
+"_size" "51234"
