@@ -1,15 +1,10 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-08-11 00:11:56
+## 更新时间：2024-08-11 08:51:12
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 730 | Counter-Strike 2| Game |
-| 1477070 | 人格解体| Game |
-| 2989950 | The Bathhouse \| 地獄銭湯 Restored Ver.| Game |
-| 1156340 | 《新星漂移》原声音轨| Music |
-| 410900 | Forts| Game |
-| 1971870 | 真人快打 1 | Game |
-| 403240 | Squad Dedicated Server| Tool |
-| 1018830 | 元素塔防2| Game |
+| 740 | Counter-Strike Global Offensive - Dedicated Server| Tool |
+| 2067920 | 罗格：救世传说| Game |
+| 1169040 | 奈斯启示录 Necesse| Game |
+| 1169370 | Necesse Dedicated Server| Tool |
 | 2000950 | Call of Duty®: Modern Warfare®| Game |
-| 1058200 | Pixel Puzzles Traditional Jigsaws| Game |
