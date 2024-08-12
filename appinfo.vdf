@@ -15,7 +15,9 @@
 	"languages"
 	{
 		"english" "1"
+		"german" "1"
 		"french" "1"
+		"koreana" "1"
 		"spanish" "1"
 		"schinese" "1"
 		"tchinese" "1"
@@ -31,34 +33,34 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1665014400"
-		"tested_build_id" "9605041"
+		"test_timestamp" "1711411200"
+		"tested_build_id" "13023991"
 		"tests"
 		{
 			"0"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
 			}
 			"1"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
 			}
 			"2"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"3"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
 			"4"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
@@ -66,14 +68,15 @@
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "0"
-			"small_text" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-1RC"
 			"requires_h264" "0"
-			"gamescope_frame_limiter_not_supported" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Nova Drift"
@@ -98,7 +101,7 @@
 			"height_pct" "64.66397530277845"
 		}
 	}
-	"store_asset_mtime" "1703171138"
+	"store_asset_mtime" "1723277038"
 	"associations"
 	{
 		"0"
@@ -133,6 +136,7 @@
 		"category_23" "1"
 		"category_45" "1"
 		"category_46" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -176,6 +180,10 @@
 		{
 			"supported" "true"
 		}
+		"german"
+		{
+			"supported" "true"
+		}
 	}
 	"steam_release_date" "1553686231"
 	"community_visible_stats" "1"
@@ -184,21 +192,21 @@
 	"store_tags"
 	{
 		"0" "42804"
-		"1" "492"
-		"2" "1755"
+		"1" "1755"
+		"2" "492"
 		"3" "3959"
-		"4" "1773"
-		"5" "19"
-		"6" "4885"
-		"7" "1774"
+		"4" "4885"
+		"5" "1773"
+		"6" "1774"
+		"7" "19"
 		"8" "4255"
 		"9" "4711"
-		"10" "493"
-		"11" "3871"
+		"10" "3871"
+		"11" "493"
 		"12" "5547"
-		"13" "1756"
+		"13" "4182"
 		"14" "1716"
-		"15" "4182"
+		"15" "1756"
 		"16" "4004"
 		"17" "4231"
 		"18" "4305"
@@ -250,15 +258,9 @@
 		{
 			"public"
 			{
-				"gid" "6194519221510636067"
-				"size" "516140862"
-				"download" "413941664"
-			}
-			"beta"
-			{
-				"gid" "6194519221510636067"
-				"size" "516140862"
-				"download" "413941664"
+				"gid" "5459929024215259520"
+				"size" "827156928"
+				"download" "362536656"
 			}
 			"legacy_syzygy"
 			{
@@ -272,6 +274,12 @@
 				"size" "217493390"
 				"download" "165879664"
 			}
+			"beta"
+			{
+				"gid" "5459929024215259520"
+				"size" "827156928"
+				"download" "362536656"
+			}
 		}
 	}
 	"858212"
@@ -284,15 +292,9 @@
 		{
 			"public"
 			{
-				"gid" "5107464210301914619"
-				"size" "574144833"
-				"download" "425525200"
-			}
-			"beta"
-			{
-				"gid" "5107464210301914619"
-				"size" "574144833"
-				"download" "425525200"
+				"gid" "4684198225049974341"
+				"size" "882079154"
+				"download" "375571984"
 			}
 			"legacy_syzygy"
 			{
@@ -306,20 +308,20 @@
 				"size" "403054859"
 				"download" "319492480"
 			}
+			"beta"
+			{
+				"gid" "4684198225049974341"
+				"size" "882079154"
+				"download" "375571984"
+			}
 		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13023991"
-			"timeupdated" "1703192867"
-		}
-		"beta"
-		{
-			"buildid" "13023991"
-			"description" "Open beta testing"
-			"timeupdated" "1703192616"
+			"buildid" "15295144"
+			"timeupdated" "1723420919"
 		}
 		"legacy_syzygy"
 		{
@@ -331,6 +333,12 @@
 		{
 			"buildid" "8179462"
 			"timeupdated" "1644493857"
+		}
+		"beta"
+		{
+			"buildid" "15295144"
+			"description" "Open beta testing"
+			"timeupdated" "1723061008"
 		}
 	}
 }
@@ -363,6 +371,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21705068"
-"_sha" "ab373f4a17a52293553fcd8d08918e93654a8074"
-"_size" "6212"
+"_change_number" "24742945"
+"_sha" "b43385f2578c73459ffbeb073dfa1deff265895f"
+"_size" "6366"
