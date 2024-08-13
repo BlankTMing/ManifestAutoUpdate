@@ -1,26 +1,25 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-08-13 00:12:37
+## 更新时间：2024-08-13 08:28:51
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 730 | Counter-Strike 2| Game |
-| 1313140 | 咩咩启示录| Game |
-| 538030 | 异种航员2 Xenonauts 2| Game |
-| 1477070 | 人格解体| Game |
-| 2067920 | 罗格：救世传说| Game |
-| 495420 | State of Decay 2| Game |
-| 758990 | Ancient Warfare 3| Game |
-| 269770 | Secrets of Grindea| Game |
-| 494840 | UBOAT| Game |
-| 507490 | Ashes of the Singularity: Escalation| Game |
-| 1455910 | 领地：种田与征战| Game |
-| 204880 | Sins of a Solar Empire: Rebellion| Game |
-| 1264790 | Destiny of the World| Game |
-| 1169040 | 奈斯启示录 Necesse| Game |
-| 2244130 | Ratopia| Game |
-| 1268590 | Millennia| Game |
-| 2202100 | Infection Free Zone - Map Editor| Tool |
-| 1005950 | 大老爷 GrandLordAuto| Game |
-| 2716930 | 皇帝与社稷| Game |
-| 3060960 | 皇帝与社稷 - 支持者包| DLC |
-| 2483290 | Hentai Bella| Game |
+| 6870 | Battlestations: Midway| game |
+| 7010 | Project: Snowblind| game |
+| 8170 | Battlestations: Pacific| game |
+| 34600 | Order of War| game |
+| 35070 | Flora's Fruit Farm| game |
+| 211780 | Conflict Desert Storm| Game |
+| 224300 | Legacy of Kain: Defiance| Game |
+| 224920 | Legacy of Kain: Soul Reaver| Game |
+| 224940 | Legacy of Kain: Soul Reaver 2| Game |
+| 242940 | Anachronox| Game |
+| 243020 | Pandemonium| Game |
+| 242960 | Blood Omen 2: Legacy of Kain| Game |
+| 242980 | Daikatana| Game |
+| 245010 | Deathtrap Dungeon| Game |
+| 243000 | Omikron - The Nomad Soul| Game |
+| 239160 | Thief| Game |
+| 28000 | Kane & Lynch 2: Dog Days| game |
+| 421740 | Goetia| Game |
+| 427820 | Hitman GO: Definitive Edition| Game |
+| 499520 | The Turing Test| Game |
