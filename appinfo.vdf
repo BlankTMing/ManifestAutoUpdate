@@ -1,0 +1,413 @@
+"appid" "2012510"
+"common"
+{
+	"name" "Stormgate"
+	"type" "Game"
+	"releasestate" "released"
+	"icon" "db80edd7f038001b846601eba43ae4ced22b5865"
+	"clienticon" "4f07825235033b481a2b130546c4c6c1caabfb70"
+	"clienttga" "c0726cdfe350cf4291fec86a25cd570e0323a7d6"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"eulas"
+	{
+		"0"
+		{
+			"id" "2012510_eula_0"
+			"name" "Stormgate EULA"
+			"url" "https://store.steampowered.com//eula/2012510_eula_0"
+			"version" "10"
+		}
+		"1"
+		{
+			"id" "2012510_eula_1"
+			"name" "Stormgate EULA"
+			"url" "https://store.steampowered.com//eula/2012510_eula_1"
+			"version" "22"
+		}
+	}
+	"name_localized"
+	{
+		"koreana" "스톰게이트"
+		"schinese" "风暴之门 Stormgate"
+		"tchinese" "風暴之門 Stormgate"
+	}
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "49.37147460323498"
+			"height_pct" "55.32882399219823"
+		}
+	}
+	"store_asset_mtime" "1723532815"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Frost Giant Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Frost Giant Studios"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "1"
+		"1" "2"
+		"2" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_35" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1722358800"
+	"community_hub_visible" "1"
+	"gameid" "2012510"
+	"store_tags"
+	{
+		"0" "113"
+		"1" "1676"
+		"2" "9"
+		"3" "1723"
+		"4" "3843"
+		"5" "19"
+		"6" "4821"
+		"7" "1685"
+		"8" "3859"
+		"9" "493"
+		"10" "4182"
+		"11" "3813"
+		"12" "7332"
+		"13" "1775"
+		"14" "4684"
+		"15" "8945"
+		"16" "5055"
+		"17" "6730"
+		"18" "4191"
+		"19" "5851"
+	}
+	"review_score" "5"
+	"review_percentage" "64"
+}
+"extended"
+{
+	"developer" "Frost Giant Studios"
+	"publisher" "Frost Giant Studios"
+	"homepage" "http://playstormgate.com/"
+	"listofdlc" "2804060,2804070,2804080"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Stormgate"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "start_protected_game.exe"
+			"arguments" "-env ptr"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Stormgate - Recommended"
+			}
+			"description" "Stormgate - Recommended"
+		}
+		"2"
+		{
+			"executable" "start_protected_game.exe"
+			"arguments" "-env ptr -dx12"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Stormgate - DX12 Preview"
+			}
+			"description" "Stormgate - DX12 Preview"
+		}
+		"4"
+		{
+			"executable" "start_protected_game.exe"
+			"arguments" "-env ptr -localrollback 0 -dx11"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Stormgate - Rollback Disabled (Low Spec PCs)"
+			}
+			"description" "Stormgate - Rollback Disabled (Low Spec PCs)"
+		}
+		"5"
+		{
+			"executable" "start_protected_game.exe"
+			"arguments" "-env stage -dx11"
+			"type" "option1"
+			"config"
+			{
+				"betakey" "staging_cinnamon"
+			}
+			"description_loc"
+			{
+				"english" "Stormgate - Stage + DX11"
+			}
+			"description" "Stormgate - Stage + DX11"
+		}
+		"6"
+		{
+			"executable" "start_protected_game.exe"
+			"arguments" "-env stage -dx12"
+			"type" "option1"
+			"config"
+			{
+				"betakey" "staging_cinnamon"
+			}
+			"description_loc"
+			{
+				"english" "Stormgate - Stage + DX12"
+			}
+			"description" "Stormgate - Stage + DX12"
+		}
+		"7"
+		{
+			"executable" "start_protected_game.exe"
+			"arguments" "-env stage -localrollback 0 -dx11"
+			"type" "option1"
+			"config"
+			{
+				"betakey" "staging_cinnamon"
+			}
+			"description_loc"
+			{
+				"english" "Stormgate - Stage + Rollback Disabled"
+			}
+			"description" "Stormgate - Stage + Rollback Disabled"
+		}
+		"8"
+		{
+			"executable" "start_protected_game.exe"
+			"type" "option1"
+			"config"
+			{
+				"betakey" "staging_cinnamon"
+			}
+			"description_loc"
+			{
+				"english" "Stormgate - Custom launch arguments"
+			}
+			"description" "Stormgate - Custom launch arguments"
+		}
+		"9"
+		{
+			"executable" "start_protected_game.exe"
+			"arguments" "-env stage"
+			"type" "option1"
+			"config"
+			{
+				"betakey" "localization_testing"
+			}
+			"description_loc"
+			{
+				"english" "Stormgate - Localization Testing"
+			}
+			"description" "Stormgate - Localization Testing"
+		}
+	}
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2012511"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4112811633949072021"
+				"size" "8807039713"
+				"download" "7511931248"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"localization_testing"
+			{
+				"gid" "FCE1DE5E41D02E22EB574C521B491405"
+				"size" "4D7AAF9FD35620EC97EB0D16E8620BBF"
+				"download" "D082B46B5EAA2F6610423538D51523E7"
+			}
+			"prod_automated"
+			{
+				"gid" "408EB829FA910409ABFD02381CC4BF3C"
+				"size" "AB5BCD0D398413160086EE70115123B3"
+				"download" "2E94D1C039A9B643A6049D794279E60E"
+			}
+			"staging_cinnamon"
+			{
+				"gid" "5F300009AAD730AF50F137227AB3ACB3"
+				"size" "8D29365C20180826EBC61E87759C2710"
+				"download" "A57900993158352FEFB1E09AFD9CBACF"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15281865"
+			"timeupdated" "1723137323"
+		}
+		"localization_testing"
+		{
+			"buildid" "15281865"
+			"pwdrequired" "1"
+			"timeupdated" "1722981649"
+		}
+		"prod_automated"
+		{
+			"buildid" "11141946"
+			"pwdrequired" "1"
+			"timeupdated" "1683074374"
+		}
+		"staging_cinnamon"
+		{
+			"buildid" "15281865"
+			"pwdrequired" "1"
+			"timeupdated" "1722978561"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#statusingame" "%in_game_status_message%"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "24769149"
+"_sha" "74d598dee54044f84051e1b0c5e4789f909368ee"
+"_size" "7447"
