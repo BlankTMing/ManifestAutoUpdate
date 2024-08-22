@@ -1,0 +1,256 @@
+"appid" "26000"
+"common"
+{
+	"name" "The Maw"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"tchinese" "1"
+		"japanese" "1"
+	}
+	"metacritic_url" "pc/maw"
+	"logo" "1209ecfa85ad86fe92e67cdf885764032d85893c"
+	"logo_small" "1209ecfa85ad86fe92e67cdf885764032d85893c_thumb"
+	"clienttga" "f6675be1baa505af6f9e665b0ec669f3315f4ccb"
+	"icon" "b76fd1a5f674825f0fa6a0e7b8be077347dbed16"
+	"clienticon" "e2f45528befec5acf5126a7f6f0cbb2399cce4ab"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1651881600"
+		"tested_build_id" "65692"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "The Maw"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1667851464"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Twisted Pixel Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Twisted Pixel Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"korean"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+	}
+	"metacritic_score" "75"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/the-maw\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "26000"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "19"
+		"2" "1625"
+		"3" "4726"
+		"4" "21"
+		"5" "5395"
+		"6" "1664"
+		"7" "1719"
+		"8" "597"
+		"9" "1673"
+	}
+	"review_score" "8"
+	"review_percentage" "84"
+}
+"extended"
+{
+	"developer" "Twisted Pixel Games"
+	"gamedir" "The Maw"
+	"homepage" "http://www.WhatIsTheMaw.com"
+	"icon" ""
+	"installscript" "InstallScript.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "26001"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"developer_url" "http://www.TwistedPixelGames.com"
+	"publisher" "Twisted Pixel Games"
+	"gamemanualurl" "https://store.steampowered.com/manual/26000/"
+	"listofdlc" "26005,26006,26007"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TheMaw.exe"
+		}
+		"1"
+		{
+			"executable" "TheMaw.exe"
+			"arguments" "-rundlc"
+			"description" "Launch DLC"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "26005"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "The Maw"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"26001"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5601393156901184788"
+				"size" "241449619"
+				"download" "0"
+			}
+		}
+	}
+	"26007"
+	{
+		"optional" "1"
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8827413067289229274"
+				"size" "214816"
+				"download" "0"
+			}
+		}
+		"dlcappid" "26007"
+	}
+	"26006"
+	{
+		"optional" "1"
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2578630341297185474"
+				"size" "272496"
+				"download" "0"
+			}
+		}
+		"dlcappid" "26006"
+	}
+	"26005"
+	{
+		"optional" "1"
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2533307441487811428"
+				"size" "273616"
+				"download" "0"
+			}
+		}
+		"dlcappid" "26005"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "65692"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23678129"
+"_sha" "a78a40dcacca6a694893c2aad58492fda1386e57"
+"_size" "4374"
