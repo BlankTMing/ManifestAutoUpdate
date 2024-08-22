@@ -76,12 +76,14 @@
 		"schinese" "capsule_231x87_schinese.jpg"
 		"english" "capsule_231x87.jpg"
 		"japanese" "capsule_231x87_japanese.jpg"
+		"tchinese" "a0c34bbc4d8358dd4675876a238c30f1fbf35748/capsule_231x87_tchinese.jpg"
 	}
 	"header_image"
 	{
 		"schinese" "header_schinese.jpg"
 		"english" "header.jpg"
 		"japanese" "header_japanese.jpg"
+		"tchinese" "header_tchinese.jpg"
 	}
 	"library_assets"
 	{
@@ -96,7 +98,7 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1722850446"
+	"store_asset_mtime" "1724311818"
 	"associations"
 	{
 		"0"
@@ -231,6 +233,15 @@
 }
 "depots"
 {
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
 	"baselanguages" "english,schinese,japanese"
 	"hasdepotsindlc" "1"
 	"2273431"
@@ -244,9 +255,9 @@
 		{
 			"public"
 			{
-				"gid" "3800208048006739193"
-				"size" "8756879352"
-				"download" "7551416560"
+				"gid" "3393792422799765095"
+				"size" "8756904134"
+				"download" "7551439504"
 			}
 			"bbee-ea"
 			{
@@ -277,15 +288,21 @@
 			}
 			"innertest"
 			{
-				"gid" "29EC8B177DB90F1FDE3FC51F68DC1B0A"
-				"size" "91B0C8DC71DA52C11AB58251CE5FCF5E"
-				"download" "E89B43ABF7A2A7793F1B7EBEC97426DA"
+				"gid" "C3391707DC455D19244C4FBACBD762D8"
+				"size" "F71D42F5510183476B4326EF8BBFCC0B"
+				"download" "00BED11F5EF2EED95E79CDC1C743BC7A"
 			}
 			"steam_china_only"
 			{
 				"gid" "CF221B032486CF89A597FD914EFE70ED"
 				"size" "28E491E03E4A0EDF53396C6A723D303A"
 				"download" "A02AF02248CD1DA19A2AFACAB471EFA1"
+			}
+			"tc_test_only"
+			{
+				"gid" "96FB169001EF430B6975929C34042997"
+				"size" "933E2C33E274ADDBEE2660DB2924C85A"
+				"download" "FD2AFCFB5A9EAC2D5CCFF8FAEAA2CF3D"
 			}
 		}
 	}
@@ -300,9 +317,9 @@
 		{
 			"public"
 			{
-				"gid" "1716044087695342465"
-				"size" "9167565236"
-				"download" "7604374352"
+				"gid" "7301177787786844143"
+				"size" "9167598532"
+				"download" "7604414976"
 			}
 			"bbee-ea"
 			{
@@ -333,15 +350,21 @@
 			}
 			"innertest"
 			{
-				"gid" "6F74382BC28BF49576DAD7E2FB2FE61F"
-				"size" "42E24657EAFEDCDE64A319394C890925"
-				"download" "6EEBD40926DD70AF9A6196A18DD6C4E8"
+				"gid" "A56FC51F34C42A27807FECA6A330255A"
+				"size" "8AFA97FB81F451985BFBC3E700D522B7"
+				"download" "4874542E6288242DDA9506378E840411"
 			}
 			"steam_china_only"
 			{
 				"gid" "80F9C4A81F80813DFDA97BE369682987"
 				"size" "F1C3AD038E94796BA364D6F94F5FE2C3"
 				"download" "7E5081DD117CD9B3E26189CB54867332"
+			}
+			"tc_test_only"
+			{
+				"gid" "10ED4BA6E6842424E35C44C5AF25539F"
+				"size" "82D41B415279733FEE2D265B53308D6E"
+				"download" "37276125418C03269651857F63303639"
 			}
 		}
 	}
@@ -377,14 +400,20 @@
 				"size" "DC6F50DDB9D46C46D06FDC07DE797F8E"
 				"download" "B725678117A94EC11D85167B7D8FEA21"
 			}
+			"tc_test_only"
+			{
+				"gid" "EE71697C986DB688E912CF55DD1F32DD"
+				"size" "C1E3B070572C25ACF9669C1B4AD9DA6D"
+				"download" "3F9E75911BB10EECDCEFBDF5A852777A"
+			}
 		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "15380427"
-			"timeupdated" "1723717629"
+			"buildid" "15456249"
+			"timeupdated" "1724307515"
 		}
 		"bbee"
 		{
@@ -413,9 +442,9 @@
 		}
 		"innertest"
 		{
-			"buildid" "15379265"
+			"buildid" "15456249"
 			"pwdrequired" "1"
-			"timeupdated" "1723711025"
+			"timeupdated" "1724306365"
 		}
 		"steam_china_only"
 		{
@@ -423,6 +452,12 @@
 			"pwdrequired" "1"
 			"timeupdated" "1721705413"
 			"sc_schinese" "仅中国"
+		}
+		"tc_test_only"
+		{
+			"buildid" "15456624"
+			"pwdrequired" "1"
+			"timeupdated" "1724309527"
 		}
 	}
 }
@@ -467,6 +502,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "24798317"
-"_sha" "a5fbceb7348d84d79a4ba32135a4ce454a6badc6"
-"_size" "9531"
+"_change_number" "24892712"
+"_sha" "f9ccb69ce844df67a2243f2e064db0d518fd6180"
+"_size" "10414"
