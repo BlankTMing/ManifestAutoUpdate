@@ -6,21 +6,24 @@
 	"icon" "3e5e70b1e0c4869dc3276b10b830f6ce9d341cf9"
 	"logo" "9c9d555b77699d263dfe25769284943f4b4eef3b"
 	"logo_small" "40df0550264d43162a1f1205f03a7e0f29082fda"
-	"name" "DOOM (1993)"
+	"name" "DOOM + DOOM II"
 	"oslist" "windows"
-	"osarch" ""
+	"osarch" "64"
 	"osextended" ""
 	"eulas"
 	{
 		"0"
 		{
-			"id" "2280_eula_0"
-			"name" "The Ultimate DOOM EULA"
-			"url" "https://store.steampowered.com//eula/2280_eula_0"
-			"version" "1"
+			"id" "2280_eula_1"
+			"name" "DOOM + DOOM II EULA"
+			"url" "https://store.steampowered.com//eula/2280_eula_1"
 		}
 	}
-	"type" "game"
+	"type" "Game"
+	"content_descriptors"
+	{
+		"0" "5"
+	}
 	"steam_deck_compatibility"
 	{
 		"category" "1"
@@ -48,7 +51,6 @@
 			"requires_h264" "0"
 		}
 	}
-	"metacritic_name" "Ultimate Doom"
 	"controller_support" "full"
 	"small_capsule"
 	{
@@ -63,6 +65,7 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -70,7 +73,7 @@
 			"height_pct" "63.7855787143439"
 		}
 	}
-	"store_asset_mtime" "1660855740"
+	"store_asset_mtime" "1722874152"
 	"associations"
 	{
 		"0"
@@ -80,10 +83,15 @@
 		}
 		"1"
 		{
-			"type" "publisher"
-			"name" "id Software"
+			"type" "developer"
+			"name" "Nightdive Studios"
 		}
 		"2"
+		{
+			"type" "publisher"
+			"name" "Bethesda"
+		}
+		"3"
 		{
 			"type" "franchise"
 			"name" "DOOM"
@@ -106,6 +114,8 @@
 		"category_49" "1"
 		"category_9" "1"
 		"category_28" "1"
+		"category_45" "1"
+		"category_46" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -133,6 +143,7 @@
 	}
 	"original_release_date" "799225200"
 	"steam_release_date" "1186183800"
+	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "2280"
 	"store_tags"
@@ -147,13 +158,13 @@
 		"7" "9541"
 		"8" "1774"
 		"9" "3839"
-		"10" "4182"
-		"11" "4345"
+		"10" "4345"
+		"11" "4182"
 		"12" "1669"
 		"13" "1734"
-		"14" "3942"
-		"15" "4667"
-		"16" "1023537"
+		"14" "1023537"
+		"15" "3942"
+		"16" "4667"
 		"17" "4975"
 		"18" "3859"
 		"19" "4026"
@@ -173,7 +184,7 @@
 	"serverbrowsername" ""
 	"state" "eStateAvailable"
 	"developer_url" "http://www.idsoftware.com/"
-	"publisher" "id Software"
+	"publisher" "Bethesda"
 }
 "config"
 {
@@ -192,23 +203,28 @@
 		}
 		"1"
 		{
-			"executable" "base\\dosbox.exe"
-			"arguments" "-conf base\\ultimatem.conf -fullscreen -exit"
+			"executable" "dosbox\\launcher.exe"
+			"description_loc"
+			{
+				"english" "Launch DOS version"
+			}
 			"description" "Launch DOS version"
-			"type" "none"
-		}
-		"2"
-		{
-			"executable" "base\\dosbox.exe"
-			"arguments" "-conf base\\ultimate.conf -fullscreen -exit"
-			"description" "Launch DOS version with classic controls"
-			"type" "none"
 		}
 	}
+	"uselaunchcommandline" "1"
 }
 "depots"
 {
 	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228989"
 	{
 		"config"
 		{
@@ -224,6 +240,12 @@
 		{
 			"public"
 			{
+				"gid" "8989950521863560594"
+				"size" "1150096684"
+				"download" "888886976"
+			}
+			"previous-re-rerelease"
+			{
 				"gid" "4486750217790005770"
 				"size" "455495300"
 				"download" "299902224"
@@ -233,9 +255,15 @@
 		{
 			"beta"
 			{
-				"gid" "C9486E4AE9737590AD4AA57FBCE3A552"
-				"size" "876CCC97B8C9F14180C7EC2286415CB8"
-				"download" "EEF582939AC9A02EC658D78F5B1EF7CF"
+				"gid" "489B19D3E0FDB518A31CBEAC77A5D6D2"
+				"size" "590348C989C36A75223D429E46FB9A34"
+				"download" "75517B876033F5BD3C0002469AC1C9B4"
+			}
+			"betaer"
+			{
+				"gid" "11EF603EDD10E501A180AE8F391F08FB"
+				"size" "6FF03A21563E4FDC7DF9BF3D490D004E"
+				"download" "50747DB27C60A11F411726B9217BF073"
 			}
 		}
 	}
@@ -245,14 +273,26 @@
 	{
 		"public"
 		{
-			"buildid" "5619887"
-			"timeupdated" "1601992631"
+			"buildid" "15413480"
+			"timeupdated" "1724346011"
 		}
 		"beta"
 		{
-			"buildid" "5619887"
+			"buildid" "15413480"
 			"pwdrequired" "1"
-			"timeupdated" "1601519444"
+			"timeupdated" "1724079374"
+		}
+		"betaer"
+		{
+			"buildid" "15413480"
+			"pwdrequired" "1"
+			"timeupdated" "1724079483"
+		}
+		"previous-re-rerelease"
+		{
+			"buildid" "5619887"
+			"description" "2019 version of DOOM (1993)"
+			"timeupdated" "1723143965"
 		}
 	}
 }
@@ -278,9 +318,15 @@
 			"path" "id Software/DOOM Classic"
 			"pattern" "*.dat"
 		}
+		"3"
+		{
+			"root" "WinSavedGames"
+			"path" "Nightdive Studios\\DOOM\\saves"
+			"pattern" "*.sav"
+		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "22890648"
-"_sha" "8096bdd7cebf6ec855e1225f2b458f442ac877c2"
-"_size" "5107"
+"_change_number" "24900485"
+"_sha" "b9982b5ec81f0f5cfc381b5534abfc0b2d66d5d0"
+"_size" "5870"
