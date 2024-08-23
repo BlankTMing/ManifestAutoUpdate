@@ -7,9 +7,9 @@
 	"clienttga" "7889f9241a51417954cbde488313e491165a7a07"
 	"clienticon" "8a4d50636158defdd18ba4d4ee32594617510a39"
 	"releasestate" "released"
-	"oslist" "windows"
+	"oslist" "windows,macos"
 	"osarch" "64"
-	"osextended" ""
+	"osextended" "macos64,macosapplesilicon"
 	"languages"
 	{
 		"english" "1"
@@ -88,7 +88,7 @@
 	"controller_support" "partial"
 	"small_capsule"
 	{
-		"english" "capsule_231x87.jpg"
+		"english" "f83163509c0a0fb20cb88ff313451465072fec50/capsule_231x87.jpg"
 	}
 	"header_image"
 	{
@@ -99,6 +99,7 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "BottomCenter"
@@ -106,7 +107,7 @@
 			"height_pct" "64.5849132274555"
 		}
 	}
-	"store_asset_mtime" "1708037152"
+	"store_asset_mtime" "1723660246"
 	"associations"
 	{
 		"0"
@@ -141,6 +142,7 @@
 		"category_46" "1"
 		"category_23" "1"
 		"category_18" "1"
+		"category_30" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -211,11 +213,22 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1683560824"
 	"metacritic_score" "81"
 	"metacritic_fullurl" "https://www.metacritic.com/game/pc/darkest-dungeon-ii\?ftag=MCD-06-10aaa1f"
 	"community_visible_stats" "1"
+	"workshop_visible" "1"
 	"community_hub_visible" "1"
 	"gameid" "1940340"
 	"store_tags"
@@ -227,10 +240,10 @@
 		"4" "7432"
 		"5" "4182"
 		"6" "1759"
-		"7" "4474"
-		"8" "1716"
-		"9" "1742"
-		"10" "1677"
+		"7" "1716"
+		"8" "4474"
+		"9" "1677"
+		"10" "1742"
 		"11" "10695"
 		"12" "6815"
 		"13" "3871"
@@ -260,6 +273,10 @@
 		"0"
 		{
 			"executable" "Darkest Dungeon II.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
 		}
 		"2"
 		{
@@ -267,6 +284,7 @@
 			"arguments" "-allowEditorPrefs"
 			"config"
 			{
+				"oslist" "windows"
 				"betakey" "staging"
 			}
 			"description_loc"
@@ -281,6 +299,7 @@
 			"arguments" "-allowEditorPrefs"
 			"config"
 			{
+				"oslist" "windows"
 				"betakey" "private_test"
 			}
 			"description_loc"
@@ -288,6 +307,14 @@
 				"english" "Allow Editor Prefs"
 			}
 			"description" "Allow Editor Prefs"
+		}
+		"5"
+		{
+			"executable" "Darkest Dungeon II.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
 		}
 	}
 	"steamcontrollertemplateindex" "1"
@@ -311,48 +338,53 @@
 }
 "depots"
 {
+	"workshopdepot" "1940340"
 	"1940341"
 	{
+		"config"
+		{
+			"oslist" "windows"
+		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "8558706792718839464"
-				"size" "4140996850"
-				"download" "3546675328"
+				"gid" "1392939871115694097"
+				"size" "4877945206"
+				"download" "4044628928"
 			}
 			"coming_in_hot"
 			{
-				"gid" "8558706792718839464"
-				"size" "4140996850"
-				"download" "3546675328"
+				"gid" "1392939871115694097"
+				"size" "4877945206"
+				"download" "4044628928"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"tilegen"
+			"honeycrisp"
 			{
-				"gid" "9CDC6A9D72B9E6EEF57325E332DA4FA4"
-				"size" "018460BCC393CD17CFE370E6D31A4310"
-				"download" "7B0F0AC145DCE5324FA858DAB060C252"
+				"gid" "555E1EE8C657D2EB6BCD3CFED3B5E223"
+				"size" "68C1F6A4E2D025360B1BD624150F3849"
+				"download" "E536D9B02D427B374DC85A834BD86758"
 			}
 			"private_test"
 			{
-				"gid" "9F8C8E056C387427EBB4E431C58BBBE0"
-				"size" "BA4846E3F8DCF6BC04BA227EA58FB07B"
-				"download" "E97CEBEA9176631081D090B059E46339"
+				"gid" "49AFD212E049D44C26E6171A34785E15"
+				"size" "BF17682D386680D6140E7438ABC0D430"
+				"download" "E3583E8B25429442FA5992C2FE0B2925"
 			}
 			"daily"
 			{
-				"gid" "C5CDD1C4A211F5D784E9DA28472DAE08"
-				"size" "B5D3F99F1EF7B471D119ADBD00AE5D13"
-				"download" "052D0C2795BF18AB866FDB6073486588"
+				"gid" "45461C4AA4B1B28EFAF61F83C632940E"
+				"size" "E5CC9C41A5D7A2444594C229FA1B2878"
+				"download" "01D07BD2BEFC77DE0C1C30F27F99F8F4"
 			}
 			"staging"
 			{
-				"gid" "C848874D6B464C3838F54CEC105A84B0"
-				"size" "09B931B34FD8439BCF678F4D3A0864FB"
-				"download" "554F24834D0F0BE117F04CCE7CE3D71C"
+				"gid" "3EC0AC8A2A331DA853358B170A763B4D"
+				"size" "60CE6981CFB46CC96F574235177A7A54"
+				"download" "67828A67F9B3F72E6CDE5A51D97EE089"
 			}
 		}
 	}
@@ -368,82 +400,182 @@
 		{
 			"public"
 			{
-				"gid" "4786830412850210043"
-				"size" "245430683"
-				"download" "167804688"
+				"gid" "6270933869443811135"
+				"size" "304250702"
+				"download" "207496768"
 			}
 			"coming_in_hot"
 			{
-				"gid" "4786830412850210043"
-				"size" "245430683"
-				"download" "167804688"
+				"gid" "6270933869443811135"
+				"size" "304250702"
+				"download" "207496768"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"tilegen"
+			"honeycrisp"
 			{
-				"gid" "A36D3647A6F730345CA6FA9D85B43C76"
-				"size" "14B78DC5B59DA55D6F593213B4544B61"
-				"download" "E3029E9AD0A3FF9685C73912C71DB8EA"
+				"gid" "0E603FFB31C69CB4342B7B7993784C34"
+				"size" "6A2413845951C66A851B274087577364"
+				"download" "7F1CBCF90D9E0DAC26F85FBCEFCC9BA1"
 			}
 			"private_test"
 			{
-				"gid" "E8A05B8A7B42F385EA3AC8A76CF3C2DA"
-				"size" "4B50591A9EDEEDF417F98FFBF2E64FB8"
-				"download" "264BF5A400F2E5B06B6DA589C8D32845"
+				"gid" "A0CE4FFBC5BA11CCC7EA107B59EF8D1A"
+				"size" "CAED214F5976CDE82123235D4876CE4C"
+				"download" "5C11D5A6C8B881201278E476FE12097C"
 			}
 			"daily"
 			{
-				"gid" "2C8536C412D00C474F30C605272ABBE0"
-				"size" "69181C6D80B4041374EE1E25EE6BD0F3"
-				"download" "5DFDB2EFFE4F4998F489A9780629D66F"
+				"gid" "28044596ECC21B9420B34C882AECEDE1"
+				"size" "FA40B03CAD4EC001A8F4382E66C06E2C"
+				"download" "4EB1298F80271DC6FADBC73C59B25D9F"
 			}
 			"staging"
 			{
-				"gid" "51A7D2F50DA2073F459896BAC51F53D4"
-				"size" "BBA6EB15E80E64B6FA93DC14E5B889CB"
-				"download" "24A5500A5927804D4531BC6C22CE3307"
+				"gid" "4CB6829CB84575E0C39566C71962888B"
+				"size" "8A1589C3EECC9C17E4A145768CAEEA2B"
+				"download" "B4CF37E00971BEAE34C19F9E78F3597C"
 			}
 		}
 	}
-	"workshopdepot" "1940340"
+	"1940342"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8518402787901102844"
+				"size" "5348241107"
+				"download" "4350492800"
+			}
+			"coming_in_hot"
+			{
+				"gid" "8518402787901102844"
+				"size" "5348241107"
+				"download" "4350492800"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"honeycrisp"
+			{
+				"gid" "7FCB50B07034EE22FFD28DA37E892430"
+				"size" "4C4281F86744DE02698A6392CBB66B0D"
+				"download" "4D605CAF8B109191CE28C3FC81114201"
+			}
+			"private_test"
+			{
+				"gid" "FA1695208E1B7005C85913503C750A91"
+				"size" "B06D6FEF091A46F6611F589BF1953C36"
+				"download" "0C98506637C4684033CB7F18F0A3AA0E"
+			}
+			"daily"
+			{
+				"gid" "7ACF41589F03CF24C3934E5E8A820D5F"
+				"size" "5AEBB8E97FD340985BEEB7A91A21ADFD"
+				"download" "6E199550B40F2C2DEC2ED9FB26AA7CD4"
+			}
+			"staging"
+			{
+				"gid" "3CC27BFF2BC0E472364F168F2D27252E"
+				"size" "82403DADF6DA49E2E99861D6151C6F8E"
+				"download" "E0659473BE864C283580548DB5AD240C"
+			}
+		}
+	}
+	"2598511"
+	{
+		"dlcappid" "2598510"
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3322752945217938379"
+				"size" "304637265"
+				"download" "207829408"
+			}
+			"coming_in_hot"
+			{
+				"gid" "3322752945217938379"
+				"size" "304637265"
+				"download" "207829408"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"honeycrisp"
+			{
+				"gid" "38B638848619949B46F3E316B72AC2B0"
+				"size" "5E1F107ACC7CADC2C7F72CAEA4229EB5"
+				"download" "F2F9CD9CD723139C93B8ECC6780EA458"
+			}
+			"private_test"
+			{
+				"gid" "805604E5A32315DE920FFD2398A4BA09"
+				"size" "9B2E1144D5CE090852183A160F60074B"
+				"download" "3492E0B5355343F9F7D9DC24EAE62A8A"
+			}
+			"daily"
+			{
+				"gid" "E43D3F11CE0B621250636727867C3330"
+				"size" "B6FAB0272A3CDBC4CF92CC341638A388"
+				"download" "25A8AF0727F5507AEF3ED13E44A68B86"
+			}
+			"staging"
+			{
+				"gid" "DB7D9EB6703735186653E44A763C371D"
+				"size" "E04BCDDCD322AACBF5E762CCDC222849"
+				"download" "7F97F693165D2016FFE552F7F3BB6C41"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "14510365"
-			"timeupdated" "1717518445"
+			"buildid" "15465224"
+			"timeupdated" "1724367316"
 		}
 		"coming_in_hot"
 		{
-			"buildid" "14510365"
+			"buildid" "15465224"
 			"description" "Experimental builds"
-			"timeupdated" "1716848894"
+			"timeupdated" "1724365867"
 		}
-		"tilegen"
+		"honeycrisp"
 		{
-			"buildid" "14540388"
+			"buildid" "15399661"
 			"pwdrequired" "1"
-			"timeupdated" "1717029311"
+			"timeupdated" "1723840411"
 		}
 		"private_test"
 		{
-			"buildid" "14457212"
+			"buildid" "15465224"
 			"pwdrequired" "1"
-			"timeupdated" "1716398291"
+			"timeupdated" "1724365858"
 		}
 		"daily"
 		{
-			"buildid" "14602896"
+			"buildid" "15463793"
 			"pwdrequired" "1"
-			"timeupdated" "1717529133"
+			"timeupdated" "1724354759"
 		}
 		"staging"
 		{
-			"buildid" "14540388"
+			"buildid" "15465224"
 			"pwdrequired" "1"
-			"timeupdated" "1717027618"
+			"timeupdated" "1724365605"
 		}
 	}
 }
@@ -458,11 +590,18 @@
 			"root" "WinAppDataLocalLow"
 			"path" "RedHook/Darkest Dungeon II/SaveFiles/{64BitSteamID}/"
 			"pattern" "*.json"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
 		}
 	}
 }
@@ -1646,9 +1785,93 @@
 				"#status_inn" "{#confession_%confession%} 영웅 %hero_count%명으로 {#inn_%inn%}에서 휴식"
 			}
 		}
+		"tchinese"
+		{
+			"tokens"
+			{
+				"#confession_0" "序章："
+				"#confession_1" "I："
+				"#confession_2" "II："
+				"#confession_3" "III："
+				"#confession_4" "IV："
+				"#confession_5" "V："
+				"#biome_forest" "殘墟"
+				"#biome_farm" "腐宴"
+				"#biome_city" "燔城"
+				"#biome_cave" "暗渠"
+				"#biome_coast" "歿港"
+				"#biome_valley" "新生谷"
+				"#biome_valleyintro" "新生谷"
+				"#biome_mountain" "邪靈山"
+				"#faction_gaunt" "活死人"
+				"#faction_swine" "豬妖"
+				"#faction_gentry" "食疫客"
+				"#faction_fanatic" "狂熱信徒"
+				"#faction_cultist" "邪教徒"
+				"#faction_pillager" "強寇"
+				"#faction_animal" "生物"
+				"#faction_cadaver" "失落軍團"
+				"#faction_coastal" "漁民"
+				"#faction_military" "軍隊"
+				"#faction_beasts" "野獸"
+				"#faction_lair_boss" "巢穴頭目"
+				"#faction_mini_boss" "遊蕩頭目"
+				"#faction_cultist_boss" "邪教頭目"
+				"#faction_monsters" "怪物"
+				"#inn_default" "火炬與王冠"
+				"#inn_valley_intro" "火炬與王冠"
+				"#inn_valley" "火炬與王冠"
+				"#inn_goodquirk" "慟哭之井"
+				"#inn_badquirk" "跛騾客棧"
+				"#inn_quirkcentral" "修女的祕密"
+				"#inn_superheal" "屠夫盛宴"
+				"#inn_stressheal" "河流之歌"
+				"#inn_trinketshop" "遊牧馬車"
+				"#inn_scupgradeshop" "長路驛站"
+				"#inn_supplyshop" "慷慨磨坊主"
+				"#inn_antipillager" "鏽劍驛站"
+				"#inn_antigaunt" "蹣跚屍體"
+				"#inn_anticultist" "邪靈山之影"
+				"#inn_scoutbuff" "高峰客棧"
+				"#inn_helpscouted" "好奇駑馬"
+				"#inn_mysteryscouted" "蹣跚怪祭壇"
+				"#inn_fightscouted" "琴與匕首"
+				"#inn_stressfulrest" "誘人聖杯"
+				"#inn_freestuff" "眨眼飛賊"
+				"#inn_thegoodplace" "咆哮火爐"
+				"#inn_thebadplace" "老婦坩堝"
+				"#inn_threeroads" "油豬旅館"
+				"#inn_upgradecity" "老公會大廳"
+				"#inn_critcity" "交鋒客棧"
+				"#inn_behealedchild" "聖手仁心"
+				"#inn_circus" "屠夫馬戲團"
+				"#hero_flagellant" "達米安"
+				"#hero_grave_robber" "奧黛麗"
+				"#hero_hellion" "布迪卡"
+				"#hero_highwayman" "迪斯馬斯"
+				"#hero_jester" "薩門蒂"
+				"#hero_leper" "鮑德溫"
+				"#hero_man_at_arms" "巴里斯坦"
+				"#hero_occultist" "阿爾哈茲萊德"
+				"#hero_plague_doctor" "帕拉塞爾蘇斯"
+				"#hero_runaway" "邦妮"
+				"#hero_vestal" "朱尼亞"
+				"#hero_crusader" "雷諾"
+				"#hero_duelist" "薩哈爾"
+				"#status_main_menu" "主選單"
+				"#status_altar_of_hope" "重建希望祭壇"
+				"#status_confession" "選擇告解"
+				"#status_crossroads" "{#confession_%confession%}在十字路口組建隊伍"
+				"#status_driving" "{#confession_%confession%}與%hero_count%名英雄穿過{#biome_%biome%}"
+				"#status_hero_shrine" "{#confession_%confession%}{#hero_%hero_name%}正在面對自己的失敗"
+				"#status_combat" "{#confession_%confession%}與%hero_count%名英雄在{#biome_%biome%}與{#faction_%faction%}交戰"
+				"#status_act_final_boss" "{#confession_%confession%}與%hero_count%名英雄在邪靈山面對湮滅"
+				"#status_inn" "{#confession_%confession%}與%hero_count%名英雄在{#inn_%inn%}休息"
+			}
+		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "23826976"
-"_sha" "0104dbe0e64a128968f50b6ccc3ab605972243ae"
-"_size" "60378"
+"_change_number" "24904329"
+"_sha" "748f672ad56bdc635192136e33fb3fe917fb280f"
+"_size" "66577"
