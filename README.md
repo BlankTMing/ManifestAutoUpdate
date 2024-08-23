@@ -1,34 +1,34 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-08-23 00:12:32
+## 更新时间：2024-08-23 08:46:04
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1313140 | 咩咩启示录| Game |
-| 1477070 | 人格解体| Game |
-| 632470 | Disco Elysium| Game |
-| 1593030 | 伊始之地| Game |
-| 1857090 | 诺兰德 Norland| Game |
-| 466560 | Northgard| Game |
-| 683320 | GRIS| Game |
-| 1489630 | Carrier Command 2| Game |
-| 784150 | 工人与资源：苏维埃共和国 Workers & Resources: Soviet Republic| Game |
-| 2004080 | Furnish Master| Game |
-| 692890 | Roboquest| Game |
-| 1605220 | Dune: Spice Wars| Game |
-| 1621690 | Core Keeper| Game |
-| 1963720 | Core Keeper Dedicated Server| Tool |
-| 1172620 | Sea of Thieves| Game |
-| 298740 | Space Engineers Dedicated Server| Tool |
-| 1702010 | 战国王朝| Game |
-| 431730 | Aseprite| Application |
-| 1024020 | DayZ Experimental| Game |
+| 730 | Counter-Strike 2| Game |
+| 1652250 | 传说与战术自走棋| Game |
+| 700580 | Rust - Staging Branch| Game |
+| 758990 | Ancient Warfare 3| Game |
+| 986250 | GRIS Soundtrack| Music |
+| 576770 | 低魔时代| Game |
+| 1466860 | Age of Empires IV: Anniversary Edition| Game |
+| 1830970 | 将熄之焰 The Last Flame| Game |
 | 1042420 | DayZ Experimental Server| Tool |
-| 1475430 | 天师| Game |
 | 1269020 | No Plan B| Game |
-| 285900 | Gang Beasts| Game |
-| 1465460 | Infection Free Zone (无感染区)| Game |
-| 2909700 | DayZ Experimental Tools| Tool |
-| 582660 | Black Desert| Game |
-| 1005950 | 大老爷 GrandLordAuto| Game |
-| 2933080 | 《法外枭雄：滚石城》Crime Boss: Rockay City| Game |
-| 98200 | Frozen Synapse| game |
+| 2202100 | Infection Free Zone - Map Editor| Tool |
+| 2012510 | 风暴之门 Stormgate| Game |
+| 1940340 | Darkest Dungeon® II| Game |
+| 1245620 | 艾尔登法环| Game |
+| 2280 | DOOM + DOOM II| Game |
+| 2200 | Quake III Arena| game |
+| 2350 | Quake III: Team Arena| game |
+| 282440 | Quake Live| Game |
+| 22490 | Fallout: New Vegas PCR| game |
+| 342260 | Nevermind| Game |
+| 323040 | Laserlife| Game |
+| 13530 | Prince of Persia: The Two Thrones| game |
+| 13600 | Prince of Persia: The Sands of Time| game |
+| 19980 | Prince of Persia| game |
+| 2585270 | Kamla| Game |
+| 2058130 | Fortitude invasion| Game |
+| 246090 | Spacebase DF-9| Game |
+| 1995050 | SPLAIT RAGE| Game |
+| 1622910 | Still Wakes the Deep| Game |
