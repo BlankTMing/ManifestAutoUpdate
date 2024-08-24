@@ -3,50 +3,62 @@
 {
 	"clienticon" "09e1ba7b9e7b11bf9281b6d74398ef72f2d9eaa1"
 	"clienttga" "c3c9f7de2bdf95613dfb8b49947fe16f7e4d3a5c"
-	"icon" "77952c10a36b0c53396311b5f04ac67998c192f9"
+	"icon" "0e4abf32430e26b53ee0acd5d0396e1b2ec352f1"
 	"logo" "00e8c539149cfaf690476ef7d55f7c4a26da6b3f"
 	"logo_small" "88ffabfbc8462cd2d4ddb50fcb108e2608f3e8f6"
 	"metacritic_url" "pc/flatout2"
 	"name" "FlatOut 2"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
 	"type" "game"
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1645142400"
-		"tested_build_id" "242397"
+		"category" "3"
+		"test_timestamp" "1721433600"
+		"tested_build_id" "15008640"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"1"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"2"
 			{
-				"display" "1"
-				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
 		}
 		"configuration"
 		{
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
-			"requires_non_controller_launcher_nav" "1"
-			"primary_player_is_controller_slot_0" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
 			"non_deck_display_glyphs" "0"
 			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-7.0-1"
+			"recommended_runtime" "proton-9.0-2RC"
 			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "FlatOut 2"
+	"controllertagwizard" "1"
+	"controller_support" "partial"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -60,14 +72,15 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "CenterCenter"
-			"width_pct" "55.034324942791756"
-			"height_pct" "84.57611018760392"
+			"width_pct" "100"
+			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1570209874"
+	"store_asset_mtime" "1721469392"
 	"associations"
 	{
 		"0"
@@ -76,6 +89,16 @@
 			"name" "Bugbear Entertainment"
 		}
 		"1"
+		{
+			"type" "developer"
+			"name" "ZOOM Platform Media"
+		}
+		"2"
+		{
+			"type" "developer"
+			"name" "Jordan Freeman Group"
+		}
+		"3"
 		{
 			"type" "publisher"
 			"name" "Strategy First"
@@ -89,38 +112,71 @@
 	"category"
 	{
 		"category_2" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_47" "1"
+		"category_29" "1"
+		"category_51" "1"
+		"category_30" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
 		"english"
 		{
 			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
 		}
 		"french"
 		{
 			"supported" "true"
+			"subtitles" "true"
 		}
 		"german"
 		{
 			"supported" "true"
+			"subtitles" "true"
 		}
 		"italian"
 		{
 			"supported" "true"
+			"subtitles" "true"
 		}
 		"spanish"
 		{
 			"supported" "true"
+			"subtitles" "true"
 		}
-		"dutch"
+		"czech"
 		{
 			"supported" "true"
+			"subtitles" "true"
+		}
+		"hungarian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
 		}
 	}
 	"original_release_date" "1154415600"
 	"steam_release_date" "1166744700"
 	"metacritic_score" "76"
 	"metacritic_fullurl" "https://www.metacritic.com/game/pc/flatout-2\?ftag=MCD-06-10aaa1f"
+	"workshop_visible" "1"
 	"community_hub_visible" "1"
 	"gameid" "2990"
 	"store_tags"
@@ -131,20 +187,20 @@
 		"3" "5363"
 		"4" "1100687"
 		"5" "11104"
-		"6" "1756"
-		"7" "1693"
-		"8" "19"
-		"9" "4182"
-		"10" "1621"
-		"11" "1644"
-		"12" "1773"
-		"13" "3968"
-		"14" "599"
-		"15" "7368"
-		"16" "4166"
-		"17" "4136"
-		"18" "1719"
-		"19" "597"
+		"6" "19"
+		"7" "4182"
+		"8" "1644"
+		"9" "1773"
+		"10" "3968"
+		"11" "7368"
+		"12" "4136"
+		"13" "597"
+		"14" "4191"
+		"15" "1697"
+		"16" "5727"
+		"17" "1746"
+		"18" "7328"
+		"19" "1254552"
 	}
 	"review_score" "9"
 	"review_percentage" "96"
@@ -161,24 +217,69 @@
 	"primarycache" "2991"
 	"serverbrowsername" ""
 	"state" "eStateAvailable"
+	"deckresolutionoverride" "Native"
 	"publisher" "Strategy First"
 	"gamemanualurl" "https://store.steampowered.com/manual/2990/"
 }
 "config"
 {
 	"contenttype" "3"
-	"installdir" "FlatOut2"
+	"installdir" "FlatOut 2"
 	"launch"
 	{
 		"0"
 		{
 			"executable" "FlatOut2.exe"
+			"type" "default"
+		}
+		"1"
+		{
+			"executable" "FlatOut2.exe"
+			"arguments" "-setup"
+			"type" "config"
+			"description_loc"
+			{
+				"english" "Configuration Tool"
+				"german" "Konfigurationswerkzeug"
+				"french" "Outil de configuration"
+				"italian" "Strumento di configurazione"
+				"spanish" "Herramienta de configuración"
+				"russian" "Инструмент конфигурации"
+				"polish" "Narzędzie konfiguracji"
+				"hungarian" "Konfigurációs eszköz"
+				"czech" "Nástroj pro konfiguraci"
+			}
+			"description" "Configuration Tool"
+		}
+		"2"
+		{
+			"executable" "mods/FlatOut 2 Mod Manager.exe"
+			"workingdir" "mods"
+			"type" "editor"
+			"description_loc"
+			{
+				"english" "Mod Manager"
+			}
+			"description" "Mod Manager"
 		}
 	}
-	"steamcontrollertemplateindex" "4"
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"3286763822"
+		{
+			"controller_type" "controller_neptune"
+			"enabled_branches" "default,zoomplatform"
+			"use_action_block" "false"
+		}
+	}
+	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "65535"
 }
 "depots"
 {
+	"overridescddb" "1"
+	"workshopdepot" "2990"
 	"2993"
 	{
 		"systemdefined" "1"
@@ -186,9 +287,24 @@
 		{
 			"public"
 			{
+				"gid" "1990837709028246050"
+				"size" "626165"
+				"download" "384672"
+			}
+			"build_242397"
+			{
 				"gid" "1650021100497518999"
 				"size" "1206130296"
 				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "9DA98F8FF99DF4B7FA11FE4B9DBA3AB4"
+				"size" "56232C892681824BFF008EB840078514"
+				"download" "C1B0C10D71FC1700E760C967340ABA2B"
 			}
 		}
 	}
@@ -199,9 +315,24 @@
 		{
 			"public"
 			{
+				"gid" "5810720063061745441"
+				"size" "1426232"
+				"download" "1088560"
+			}
+			"build_242397"
+			{
 				"gid" "4235496083726948083"
 				"size" "1858625498"
 				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "EC92C95E9342781652D9876D77DCDC00"
+				"size" "8C496E1AB1AAF4A780401E96C79DB947"
+				"download" "1DB9167F314DD0C88E7B539314EA6AD1"
 			}
 		}
 	}
@@ -212,22 +343,308 @@
 		{
 			"public"
 			{
+				"gid" "5221034575090584079"
+				"size" "2520348203"
+				"download" "2152402944"
+			}
+			"build_242397"
+			{
 				"gid" "4661784275626961325"
 				"size" "7394706"
 				"download" "0"
 			}
 		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "C63D800BFAC79605BC9A27E778C6ECFD"
+				"size" "B83D65283B52DBC52745B6AF1292606C"
+				"download" "F0AC680A132C96D7C106367B83F500F2"
+			}
+		}
 	}
-	"overridescddb" "1"
+	"2994"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "433074373741372609"
+				"size" "1794520"
+				"download" "1689488"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "817455467541C03E57D6CD2B7BC1C9A9"
+				"size" "AFE163C3468BBA68968D5BAA2BECC95C"
+				"download" "23D132B8BA095CBC8A1EEE8BD900D198"
+			}
+		}
+	}
+	"2995"
+	{
+		"config"
+		{
+			"steamdeck" "1"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1781225139335806946"
+				"size" "22544384"
+				"download" "1100544"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"zoomplatform"
+			{
+				"gid" "48B0228FE9A24556F64720D646D50AC8"
+				"size" "FE159EBD5C1A948F0057EE76870EDC20"
+				"download" "789EFC0D8E4C5929D9E34DDB804D3303"
+			}
+		}
+	}
+	"baselanguages" "english,german,french,italian,spanish,polish,hungarian,czech"
 	"branches"
 	{
 		"public"
 		{
+			"buildid" "15138779"
+			"timeupdated" "1721834430"
+		}
+		"build_242397"
+		{
 			"buildid" "242397"
+			"description" "Build 242397 - 2014"
+			"timeupdated" "1721469632"
+		}
+		"zoomplatform"
+		{
+			"buildid" "15138779"
+			"pwdrequired" "1"
+			"timeupdated" "1721834348"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "5000000000"
+	"maxnumfiles" "500"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Savegame"
+			"pattern" "player*.sav"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#modecareer" "Career Mode"
+				"#modetimeattack" "Time Attack"
+				"#modesinglerace" "Single Race"
+				"#modeinstantaction" "Instant Action"
+				"#modecrashtestdummy" "Crash Test"
+				"#modeonlinemultiplayer" "Online Multiplayer"
+				"#modepartymode" "Party Mode"
+				"#modedeveloper" "Developer Mode"
+				"#modetournament" "Tournament"
+				"#modesplitscreen" "Split Screen"
+				"#sessiontypemenu" "Main Menu"
+				"#sessiontyperace" "In Event"
+				"#rulesrace" "Race"
+				"#rulesstunt" "Stunt"
+				"#rulesderby" "Derby"
+				"#ruleshunterprey" "Hunter, Prey"
+				"#rulesarcadeadventure" "Arcade Adventure"
+				"#rulespongrace" "Pong Race"
+				"#rulestimeattack" "Time Attack"
+				"#rulesdefault" " "
+				"#modewithrule" "{#Mode%modetype%} ({#Rules%rulestype%})"
+				"#modewithoutrule" "{#Mode%modetype%}"
+			}
+		}
+		"french"
+		{
+			"tokens"
+			{
+				"#modecareer" "Carriere"
+				"#modesinglerace" "Course Unique"
+				"#modeinstantaction" "Action Instantanee"
+				"#modeonlinemultiplayer" "Multijoueur"
+				"#modepartymode" "Mode Equipe"
+				"#modetournament" "Tournoi"
+				"#modesplitscreen" "Ecran Partage"
+				"#sessiontyperace" "Evenement"
+				"#rulesrace" "Course"
+				"#rulesstunt" "Cascade"
+				"#rulesderby" "Derby"
+				"#ruleshunterprey" "Chat"
+				"#rulespongrace" "Course Pong"
+				"#sessiontypemenu" "Menu Principal"
+			}
+		}
+		"german"
+		{
+			"tokens"
+			{
+				"#modecareer" "Karriere"
+				"#modesinglerace" "Einzelrennen"
+				"#modeinstantaction" "Sofort-Action"
+				"#modeonlinemultiplayer" "Mehrspieler"
+				"#modepartymode" "Party-Modus"
+				"#modetournament" "Turnier"
+				"#modesplitscreen" "Geteilter Bildschirm"
+				"#sessiontyperace" "Event"
+				"#rulesrace" "Rennen"
+				"#rulesstunt" "Stunt"
+				"#rulesderby" "Derby"
+				"#ruleshunterprey" "Fangen"
+				"#rulespongrace" "Pingpong-Rennen"
+				"#sessiontypemenu" "Hauptmenü"
+			}
+		}
+		"italian"
+		{
+			"tokens"
+			{
+				"#modecareer" "Carriera"
+				"#modesinglerace" "Gara Singola"
+				"#modeinstantaction" "Azione Immediata"
+				"#modeonlinemultiplayer" "Multigiocatore"
+				"#modepartymode" "Modalità Party"
+				"#modetournament" "Torneo"
+				"#modesplitscreen" "Schermo Diviso"
+				"#sessiontyperace" "Evento"
+				"#rulesrace" "Gara"
+				"#rulesstunt" "Acrobazia"
+				"#rulesderby" "Derby"
+				"#ruleshunterprey" "Inseguimento"
+				"#rulespongrace" "Gara Ping Pong"
+				"#sessiontypemenu" "Menu Principale"
+			}
+		}
+		"spanish"
+		{
+			"tokens"
+			{
+				"#modecareer" "Carrera Profesional"
+				"#modesinglerace" "Carrera Única"
+				"#modeinstantaction" "Acción Instantánea"
+				"#modeonlinemultiplayer" "Multijugador"
+				"#modepartymode" "Modo Fiesta"
+				"#modetournament" "Torneo"
+				"#modesplitscreen" "Pantalla Dividida"
+				"#sessiontyperace" "Evento"
+				"#rulesrace" "Carrera"
+				"#rulesstunt" "Acrobacia"
+				"#rulesderby" "Derby"
+				"#ruleshunterprey" "Tocado"
+				"#rulespongrace" "Carreras Pong"
+				"#sessiontypemenu" "Menú Principal"
+			}
+		}
+		"polish"
+		{
+			"tokens"
+			{
+				"#modecareer" "Kariera"
+				"#modesinglerace" "Pojedynczy Wyscig"
+				"#modeinstantaction" "Szybki Wyscig"
+				"#modeonlinemultiplayer" "Gra Wieloosobowa"
+				"#modepartymode" "Tryb Imprezowy"
+				"#modetournament" "Turniej"
+				"#modesplitscreen" "Podzielony Ekran"
+				"#sessiontypemenu" "Menu Główne"
+				"#sessiontyperace" "Impreza"
+				"#rulesrace" "Wyscig"
+				"#rulesstunt" "Wyczyny"
+				"#rulesderby" "Derby"
+				"#ruleshunterprey" "Berek"
+				"#rulespongrace" "Wyscig Pong"
+			}
+		}
+		"czech"
+		{
+			"tokens"
+			{
+				"#modecareer" "Šampionát"
+				"#modesinglerace" "Samostatný Závod"
+				"#modeinstantaction" "Okamžitá Jízda"
+				"#modeonlinemultiplayer" "Sítová Hra"
+				"#modepartymode" "Týmový Režim"
+				"#modetournament" "Turnaj"
+				"#modesplitscreen" "Rozdelená Obrazovka"
+				"#sessiontypemenu" "Hlavní Menu"
+				"#sessiontyperace" "Disciplína"
+				"#rulesrace" "Závod"
+				"#rulesstunt" "Akrobacie"
+				"#rulesderby" "Derby"
+				"#ruleshunterprey" "Hra \"Na Babu\""
+				"#rulespongrace" "Jízda Tam A Zpet"
+			}
+		}
+		"hungarian"
+		{
+			"tokens"
+			{
+				"#modecareer" "Karrier"
+				"#modesinglerace" "Futam"
+				"#modeinstantaction" "Gyors Menet"
+				"#modeonlinemultiplayer" "Többjátékos"
+				"#modepartymode" "Parti Mód"
+				"#modetournament" "Bajnokság"
+				"#modesplitscreen" "Osztott Képernyo"
+				"#sessiontypemenu" "Fomenü"
+				"#sessiontyperace" "Kaszkadőrmutatvány"
+				"#rulesrace" "Futam"
+				"#rulesstunt" "Kaszkador"
+				"#rulesderby" "Derbi"
+				"#ruleshunterprey" "Fogócska"
+				"#rulespongrace" "Pong Verseny"
+			}
+		}
+		"russian"
+		{
+			"tokens"
+			{
+				"#modecareer" "Режим карьеры"
+				"#modesinglerace" "Одиночная гонка"
+				"#modeinstantaction" "Быстрое действие"
+				"#modeonlinemultiplayer" "Онлайн-мультиплеер"
+				"#modepartymode" "Режим вечеринки"
+				"#modetournament" "Турнир"
+				"#modesplitscreen" "Разделенный экран"
+				"#sessiontypemenu" "В меню"
+				"#sessiontyperace" "Выполняет событие"
+				"#rulesrace" "Гонка"
+				"#rulesstunt" "Трюк"
+				"#rulesderby" "Дерби"
+				"#ruleshunterprey" "Охота за добычей"
+				"#rulespongrace" "Догони меня"
+			}
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "21509475"
-"_sha" "f2f14f8f42a6b442eb236a34143864545f219093"
-"_size" "4164"
+"_change_number" "24493882"
+"_sha" "3f5e005b3f0adc1662feb8983043fcec9a489437"
+"_size" "14372"
