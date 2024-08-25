@@ -1,0 +1,951 @@
+"appid" "739590"
+"common"
+{
+	"name" "Eco Server"
+	"type" "Tool"
+	"parent" "382310"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"icon" "a96eb4bd8b20008867c38bbc400d79003c32d6cf"
+	"clienttga" "e7706578b278f71bd60921630f8c53daa1c96d26"
+	"logo" "dfc81262b1d51398f005d9497407571530adca3a"
+	"logo_small" "dfc81262b1d51398f005d9497407571530adca3a_thumb"
+	"clienticon" "3d05e5e79485472dd30737faaf4bae29ed03ee02"
+	"clienticns" "e30d3ffc068d12f435266a828807297925a9f9a9"
+	"linuxclienticon" "20a8e877a3769f2df5b6c40919135e6b6b90d6ec"
+	"releasestate" "released"
+	"osextended" "macos64"
+	"associations"
+	{
+	}
+	"gameid" "739590"
+	"exfgls" "9"
+}
+"config"
+{
+	"installdir" "Eco Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "EcoServer.exe"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "EcoServer"
+			"type" "server"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "EcoServer"
+			"type" "server"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "EcoServerInTerminal.sh"
+			"description" "Launch with Gnome terminal"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"4"
+		{
+			"executable" "install.sh"
+			"description" "Install prerequisites"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7747775778018907449"
+				"size" "46727128"
+				"download" "14307024"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7138471031118904166"
+				"size" "78382436"
+				"download" "21254752"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"739592"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8977006133212689721"
+				"size" "251986910"
+				"download" "82329088"
+			}
+			"10.0.4"
+			{
+				"gid" "8977006133212689721"
+				"size" "251986910"
+				"download" "82329088"
+			}
+			"10.1.5"
+			{
+				"gid" "8977006133212689721"
+				"size" "251986910"
+				"download" "82329088"
+			}
+			"9.0.5"
+			{
+				"gid" "4592678150570765112"
+				"size" "164692807"
+				"download" "52570720"
+			}
+			"9.1.9"
+			{
+				"gid" "4344118176219458267"
+				"size" "165855712"
+				"download" "53227456"
+			}
+			"9.2.4"
+			{
+				"gid" "6309012539595730501"
+				"size" "165734079"
+				"download" "52404080"
+			}
+			"9.3.6"
+			{
+				"gid" "518581662417895919"
+				"size" "229099208"
+				"download" "75849584"
+			}
+			"9.4.6"
+			{
+				"gid" "9168306260092998127"
+				"size" "228341808"
+				"download" "76175216"
+			}
+			"9.5.4"
+			{
+				"gid" "545454165042455901"
+				"size" "238614086"
+				"download" "77154960"
+			}
+			"9.6.6"
+			{
+				"gid" "8977006133212689721"
+				"size" "251986910"
+				"download" "82329088"
+			}
+			"9.7.13"
+			{
+				"gid" "8977006133212689721"
+				"size" "251986910"
+				"download" "82329088"
+			}
+			"10.2.4"
+			{
+				"gid" "8977006133212689721"
+				"size" "251986910"
+				"download" "82329088"
+			}
+			"11.0.0"
+			{
+				"gid" "8977006133212689721"
+				"size" "251986910"
+				"download" "82329088"
+			}
+			"11.0.1"
+			{
+				"gid" "8977006133212689721"
+				"size" "251986910"
+				"download" "82329088"
+			}
+			"11.0.2"
+			{
+				"gid" "8977006133212689721"
+				"size" "251986910"
+				"download" "82329088"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"steam_china_only"
+			{
+				"gid" "139B9C1D31A340576B5500203A12E2DE"
+				"size" "A49477A2B07D0042971AC85C61C5ED27"
+				"download" "D16C68F726E32590E0D21DBD2D8B211F"
+			}
+			"develop"
+			{
+				"gid" "CB1BE7A37FB352438A734464304EF3AC"
+				"size" "8463C63906A7BE71F6436D6FA744CDDB"
+				"download" "6C4F3FED3A7899BC3E1064450D615831"
+			}
+			"playtest"
+			{
+				"gid" "CE1DF5A662B61177CAD2B9F5DCBF3B84"
+				"size" "7FEF55EFA187BE83BDC61E1235F8D110"
+				"download" "E7F4A237B598E60D72777A451B35D8B3"
+			}
+			"release"
+			{
+				"gid" "1324BFD5540D131642D5F4D2742F5848"
+				"size" "AF6F46894BAC9CC45F3A2F037AEC7FD2"
+				"download" "9DAAE3E025399A4A3CC1B02E4B9E7EF3"
+			}
+			"staging"
+			{
+				"gid" "5F37822BD955282A5D5A02140D6D7AF5"
+				"size" "9424B5A734A56BBCB1C523D6A6330862"
+				"download" "ED8DF8FFE38CAE870EB3A35622403545"
+			}
+		}
+	}
+	"739593"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8821133096671870658"
+				"size" "372695879"
+				"download" "114770112"
+			}
+			"10.0.4"
+			{
+				"gid" "504798761921971432"
+				"size" "283165846"
+				"download" "97131664"
+			}
+			"10.1.5"
+			{
+				"gid" "7503794860075686801"
+				"size" "280082899"
+				"download" "93901040"
+			}
+			"9.0.5"
+			{
+				"gid" "8359194633715880378"
+				"size" "297807736"
+				"download" "82343680"
+			}
+			"9.1.9"
+			{
+				"gid" "1724643282618753215"
+				"size" "299382577"
+				"download" "81833552"
+			}
+			"9.2.4"
+			{
+				"gid" "370221925952905091"
+				"size" "300066663"
+				"download" "81249152"
+			}
+			"9.3.6"
+			{
+				"gid" "6065004814633521313"
+				"size" "435387533"
+				"download" "130703680"
+			}
+			"9.4.6"
+			{
+				"gid" "4066821611000694902"
+				"size" "431612036"
+				"download" "129219376"
+			}
+			"9.5.4"
+			{
+				"gid" "7365597052614257670"
+				"size" "453533213"
+				"download" "133300384"
+			}
+			"9.6.6"
+			{
+				"gid" "8640319249610756812"
+				"size" "264169870"
+				"download" "88184288"
+			}
+			"9.7.13"
+			{
+				"gid" "2580807145582234614"
+				"size" "274857027"
+				"download" "89828928"
+			}
+			"10.2.4"
+			{
+				"gid" "8423203796164323032"
+				"size" "284180489"
+				"download" "97677872"
+			}
+			"11.0.0"
+			{
+				"gid" "5519200288562547461"
+				"size" "374583833"
+				"download" "116642272"
+			}
+			"11.0.1"
+			{
+				"gid" "1852284379046802641"
+				"size" "375199579"
+				"download" "117226608"
+			}
+			"11.0.2"
+			{
+				"gid" "8821133096671870658"
+				"size" "372695879"
+				"download" "114770112"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"steam_china_only"
+			{
+				"gid" "DF3DB0F09C3371F67726793E99C148A4"
+				"size" "36B8ADA14EDB787A27F13D3AC9195D9F"
+				"download" "BB03D54EC398B9219EBD07BE60455E7C"
+			}
+			"develop"
+			{
+				"gid" "A13A173622FEE1714390B66B4BFD2BA0"
+				"size" "BD21B82508DB43401D088080694A5B8C"
+				"download" "08E0156924AFE5699C96898AB49F3715"
+			}
+			"playtest"
+			{
+				"gid" "659CF801E15A22B27155AC853368CDE7"
+				"size" "2CD82B4B7FE366AF2E467A6454B49A33"
+				"download" "CE1D23D78312BECEF9BBEB53DF25CB00"
+			}
+			"release"
+			{
+				"gid" "021ECCDCD0A3BC752998015D86A7D24A"
+				"size" "2DA96DCCC42CFD2D549C4B70F3577287"
+				"download" "7DD3A48278249D0F5FD3B3484B5A1DAE"
+			}
+			"staging"
+			{
+				"gid" "89C031CF403FCEB52DC2CBBE113F9DB5"
+				"size" "1308A9A0FD805A2428D9ABA35734935C"
+				"download" "252A86F73CCBAABC70235A0D398374A6"
+			}
+		}
+	}
+	"739594"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4437225261235094914"
+				"size" "252376731"
+				"download" "84636176"
+			}
+			"10.0.4"
+			{
+				"gid" "932994824184775726"
+				"size" "187100444"
+				"download" "67710176"
+			}
+			"10.1.5"
+			{
+				"gid" "7501621300669207632"
+				"size" "184021403"
+				"download" "64483408"
+			}
+			"9.0.5"
+			{
+				"gid" "7584827524516635739"
+				"size" "119098161"
+				"download" "40810784"
+			}
+			"9.1.9"
+			{
+				"gid" "8785959644116383163"
+				"size" "120261322"
+				"download" "41526528"
+			}
+			"9.2.4"
+			{
+				"gid" "1915692210432550124"
+				"size" "120097849"
+				"download" "40640944"
+			}
+			"9.3.6"
+			{
+				"gid" "2901510331223771111"
+				"size" "161858839"
+				"download" "55890480"
+			}
+			"9.4.6"
+			{
+				"gid" "6659488493412601151"
+				"size" "156531461"
+				"download" "55852864"
+			}
+			"9.5.4"
+			{
+				"gid" "3228579494327916109"
+				"size" "166782108"
+				"download" "56766608"
+			}
+			"9.6.6"
+			{
+				"gid" "2221434522503445473"
+				"size" "173586367"
+				"download" "60148016"
+			}
+			"9.7.13"
+			{
+				"gid" "7095580999435255038"
+				"size" "179565694"
+				"download" "61793328"
+			}
+			"10.2.4"
+			{
+				"gid" "8426009834859860022"
+				"size" "188114385"
+				"download" "68265392"
+			}
+			"11.0.0"
+			{
+				"gid" "2481597811404717069"
+				"size" "254266733"
+				"download" "86507504"
+			}
+			"11.0.1"
+			{
+				"gid" "8255372459636970492"
+				"size" "254880431"
+				"download" "87092240"
+			}
+			"11.0.2"
+			{
+				"gid" "4437225261235094914"
+				"size" "252376731"
+				"download" "84636176"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"steam_china_only"
+			{
+				"gid" "A5BC450DB9DA6AF646A4BF6EB1857FAE"
+				"size" "3080FF1B59263A464EBE83B3B03DCD44"
+				"download" "3940E4C8E0EE95D72FD64781CCDB22C7"
+			}
+			"develop"
+			{
+				"gid" "FCB2A7F8A1AFE158845C212EBD24BA73"
+				"size" "CB6828DD51AE17877C91B75C451BE00A"
+				"download" "C97DA6A7CB16CF6D2F7D48867340546E"
+			}
+			"playtest"
+			{
+				"gid" "E8B49F90CF262DD33B65147D98346B7A"
+				"size" "69995704BC594FAB80D95AD99DE129BD"
+				"download" "DFFBEB5F5EB8F6EEEB0026269EDC9235"
+			}
+			"release"
+			{
+				"gid" "6A8CCA067804C13DBD2C7687BF8365AA"
+				"size" "C2D1744134CC60110B45472C0CCFEEE8"
+				"download" "3B001F6AA414003D556B202A677DDFCA"
+			}
+			"staging"
+			{
+				"gid" "65BEC2FF3DFD98AB5C82AED3A12ACECD"
+				"size" "FF8B782F31433CA6DFD48B585A19B588"
+				"download" "1149BFBEFF88AC8C87DEBA2013F16F57"
+			}
+		}
+	}
+	"739595"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2332725531188187669"
+				"size" "289991790"
+				"download" "84838368"
+			}
+			"10.0.4"
+			{
+				"gid" "827536728812516099"
+				"size" "187609685"
+				"download" "67931456"
+			}
+			"10.1.5"
+			{
+				"gid" "8729962625455420206"
+				"size" "184530644"
+				"download" "64705120"
+			}
+			"9.0.5"
+			{
+				"gid" "2786998166237741229"
+				"size" "123688422"
+				"download" "41181104"
+			}
+			"9.1.9"
+			{
+				"gid" "8327252791317929079"
+				"size" "124852991"
+				"download" "41750464"
+			}
+			"9.2.4"
+			{
+				"gid" "1804993831731563145"
+				"size" "124612094"
+				"download" "40953056"
+			}
+			"9.3.6"
+			{
+				"gid" "1577425883359369915"
+				"size" "166444059"
+				"download" "56188304"
+			}
+			"9.4.6"
+			{
+				"gid" "2012619016073585381"
+				"size" "155601436"
+				"download" "55380704"
+			}
+			"9.5.4"
+			{
+				"gid" "7379275483246726084"
+				"size" "165849459"
+				"download" "56426272"
+			}
+			"9.6.6"
+			{
+				"gid" "3396240447823325503"
+				"size" "173560500"
+				"download" "60231040"
+			}
+			"9.7.13"
+			{
+				"gid" "8219186255245898674"
+				"size" "180083229"
+				"download" "61970224"
+			}
+			"10.2.4"
+			{
+				"gid" "8405890773971105964"
+				"size" "188623626"
+				"download" "68484736"
+			}
+			"11.0.0"
+			{
+				"gid" "2280672776446403184"
+				"size" "291881792"
+				"download" "86710608"
+			}
+			"11.0.1"
+			{
+				"gid" "7266842044510990507"
+				"size" "292495490"
+				"download" "87297472"
+			}
+			"11.0.2"
+			{
+				"gid" "2332725531188187669"
+				"size" "289991790"
+				"download" "84838368"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"steam_china_only"
+			{
+				"gid" "E925B072F2BFF86571E2429694B07C05"
+				"size" "F29B973EEFA99C82FA90CDC2655E929F"
+				"download" "B48F9D00FF66DB5D807C2CD50D6CCF4B"
+			}
+			"develop"
+			{
+				"gid" "CC958BC2668EB033707FCB01517A777A"
+				"size" "21002EC939394FA1641F619AE020F7F8"
+				"download" "CEE0FD66C8E4B7109386ACF60137FFD1"
+			}
+			"playtest"
+			{
+				"gid" "5ABBAFCD81081CF73196AD9BC28A132B"
+				"size" "9B4B50758A5E87F5ECF3AE5A7DABA061"
+				"download" "726EA65ABF556F637A900BF29A5BB6AD"
+			}
+			"release"
+			{
+				"gid" "09B665752C0C45E7B77FD46B08A5E4F5"
+				"size" "9DD92BFFF4A398449B827ADF5F8F3666"
+				"download" "E765F79BE113CF30E7C54E75E5C73109"
+			}
+			"staging"
+			{
+				"gid" "5BE0C36EC2086BBD5F93157B18C3B86C"
+				"size" "1B73A20CCDF7E133E1609D21D29549CF"
+				"download" "99F375423E3EA85B29FE81BF903A7860"
+			}
+		}
+	}
+	"739591"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+			"10.0.4"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+			"10.1.5"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+			"9.0.5"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+			"9.1.9"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+			"9.2.4"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+			"9.3.6"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+			"9.4.6"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+			"9.5.4"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+			"9.6.6"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+			"9.7.13"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+			"10.2.4"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+			"11.0.0"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+			"11.0.1"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+			"11.0.2"
+			{
+				"gid" "8717820652300658035"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"steam_china_only"
+			{
+				"gid" "BED7929D2124638DDD1039B1F9E02B81"
+				"size" "69464D7B662F330C12AC894BBEA14D00"
+				"download" "69464D7B662F330C12AC894BBEA14D00"
+			}
+			"develop"
+			{
+				"gid" "C132E61D5B69F031EFE4F28ACF9B6175"
+				"size" "E7C70D404FC481E404BB26366D85BB2C"
+				"download" "E7C70D404FC481E404BB26366D85BB2C"
+			}
+			"playtest"
+			{
+				"gid" "36766570D9442AD9978BE2F7A88672F6"
+				"size" "720E81F7D64EBE0D0E7760D94A525779"
+				"download" "720E81F7D64EBE0D0E7760D94A525779"
+			}
+			"release"
+			{
+				"gid" "C041CB7ECB233959836F1ED6F0C9519C"
+				"size" "43DB1D86582606FD2C27D709DC3AEFCB"
+				"download" "43DB1D86582606FD2C27D709DC3AEFCB"
+			}
+			"staging"
+			{
+				"gid" "8CAB26D79006BA19DDFCDE5B078F05B3"
+				"size" "40B63409F4D639E356A83A45E39D22F6"
+				"download" "40B63409F4D639E356A83A45E39D22F6"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15465471"
+			"timeupdated" "1724368375"
+		}
+		"10.0.4"
+		{
+			"buildid" "13082430"
+			"description" "Beta 10.0.4"
+			"timeupdated" "1704271220"
+		}
+		"10.1.5"
+		{
+			"buildid" "13727780"
+			"description" "Beta 10.1.5"
+			"timeupdated" "1710340975"
+		}
+		"9.0.5"
+		{
+			"buildid" "5671295"
+			"description" "Beta 9.0.5"
+			"timeupdated" "1658455842"
+		}
+		"9.1.9"
+		{
+			"buildid" "6005319"
+			"description" "Beta 9.1.9"
+			"timeupdated" "1608694818"
+		}
+		"9.2.4"
+		{
+			"buildid" "6185966"
+			"description" "Beta 9.2.4"
+			"timeupdated" "1612407730"
+		}
+		"9.3.6"
+		{
+			"buildid" "7001011"
+			"description" "Beta 9.3.6"
+			"timeupdated" "1625773009"
+		}
+		"9.4.6"
+		{
+			"buildid" "8134674"
+			"description" "Beta 9.4.6"
+			"timeupdated" "1643841190"
+		}
+		"9.5.4"
+		{
+			"buildid" "9029030"
+			"description" "Beta 9.5.4"
+			"timeupdated" "1656507257"
+		}
+		"9.6.6"
+		{
+			"buildid" "9907154"
+			"description" "Beta 9.6.6"
+			"timeupdated" "1668063160"
+		}
+		"9.7.13"
+		{
+			"buildid" "11262478"
+			"description" "Beta 9.7.13"
+			"timeupdated" "1684410642"
+		}
+		"steam_china_only"
+		{
+			"buildid" "10527109"
+			"pwdrequired" "1"
+			"timeupdated" "1676059257"
+		}
+		"10.2.4"
+		{
+			"buildid" "14388780"
+			"description" "Beta 10.2.4"
+			"timeupdated" "1715860371"
+		}
+		"11.0.0"
+		{
+			"buildid" "15380476"
+			"description" "Beta 11.0.0"
+			"timeupdated" "1723728080"
+		}
+		"11.0.1"
+		{
+			"buildid" "15424370"
+			"description" "Beta 11.0.1"
+			"timeupdated" "1724097170"
+		}
+		"11.0.2"
+		{
+			"buildid" "15465471"
+			"description" "Beta 11.0.2"
+			"timeupdated" "1724368288"
+		}
+		"develop"
+		{
+			"buildid" "15236539"
+			"pwdrequired" "1"
+			"timeupdated" "1722583666"
+		}
+		"playtest"
+		{
+			"buildid" "15479605"
+			"pwdrequired" "1"
+			"timeupdated" "1724478612"
+		}
+		"release"
+		{
+			"buildid" "15479101"
+			"pwdrequired" "1"
+			"timeupdated" "1724471047"
+		}
+		"staging"
+		{
+			"buildid" "15456310"
+			"pwdrequired" "1"
+			"timeupdated" "1724307047"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "24922440"
+"_sha" "65d92885cc8cc095b0785ed58d74311ff2f9f1ba"
+"_size" "17879"
