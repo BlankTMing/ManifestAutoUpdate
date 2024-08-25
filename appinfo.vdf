@@ -1,0 +1,351 @@
+"appid" "1511780"
+"common"
+{
+	"name" "Last Call BBS"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"osextended" "macos64"
+	"clienticon" "6c130a3dc3e73da87af1997d01d83bc2d3258105"
+	"clienttga" "72f5c10d8b0f0b83fa955d188ccae57725865e92"
+	"icon" "8f98008984ed8c81e46a55de0dcfe6180921aea6"
+	"linuxclienticon" "f162c8f05ee29fcb69804c80b342b9a51783720d"
+	"clienticns" "2687a2bdd411eb7aabdef9483953509eea59b659"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1661817600"
+		"tested_build_id" "9167374"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "65.93051767888332"
+			"height_pct" "93.75"
+		}
+	}
+	"store_asset_mtime" "1650937350"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Zachtronics"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Zachtronics"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_45" "1"
+		"category_46" "1"
+		"category_2" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_37" "1"
+		"category_24" "1"
+		"category_22" "1"
+		"category_44" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1659547273"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1511780"
+	"store_tags"
+	{
+		"0" "1664"
+		"1" "4004"
+		"2" "255534"
+		"3" "6691"
+		"4" "13070"
+		"5" "3810"
+		"6" "6129"
+		"7" "3964"
+		"8" "1643"
+		"9" "4821"
+		"10" "1775"
+		"11" "1666"
+		"12" "1773"
+		"13" "599"
+		"14" "3871"
+		"15" "597"
+		"16" "3916"
+		"17" "3859"
+		"18" "4182"
+		"19" "7368"
+	}
+	"review_score" "8"
+	"review_percentage" "92"
+}
+"extended"
+{
+	"absolutemousecoordinates" "0"
+	"remoteplaytogethertestingbranches" "default"
+	"developer" "Zachtronics"
+	"publisher" "Zachtronics"
+	"homepage" "https://www.zachtronics.com/last-call-bbs/"
+}
+"config"
+{
+	"installdir" "Last Call BBS"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Last Call BBS.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Last Call BBS.app/Contents/MacOS/LastCallBBS"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "LastCallBBS"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"229004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1511781"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4870073482484514372"
+				"size" "165081732"
+				"download" "93162528"
+			}
+		}
+	}
+	"1511782"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6117100549356502879"
+				"size" "193706393"
+				"download" "101230960"
+			}
+		}
+	}
+	"1511783"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3079848163967794329"
+				"size" "220588560"
+				"download" "108615168"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13591680"
+			"timeupdated" "1709146296"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "{64BitSteamID}"
+			"pattern" "save.dat"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "{64BitSteamID}/20th Century Food Court"
+			"pattern" "*.solution"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "{64BitSteamID}/Steed Force Hobby Studio"
+			"pattern" "*.model"
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "{64BitSteamID}/Steed Force Hobby Studio"
+			"pattern" "*.paint"
+		}
+		"4"
+		{
+			"root" "gameinstall"
+			"path" "{64BitSteamID}/servers"
+			"pattern" "*.js"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinMyDocuments"
+			"addpath" "My Games/Last Call BBS"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" "Last Call BBS"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxXdgDataHome"
+			"addpath" "Last Call BBS"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#milwaukee" "20th Century Food Court"
+				"#tokyo" "Dungeons & Diagrams"
+				"#hikone" "Sawayama Solitaire"
+				"#nagoya" "Kabufuda Solitaire"
+				"#burbank" "JUiCEbox Arcade - HACK*MATCH"
+				"#sydney" "Steed Force Hobby Studio"
+				"#toronto" "X\'BPGH: The Forbidden Path"
+				"#volgograd" "ChipWizard™ Professional"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "23591175"
+"_sha" "85036628ebab3b566c74f1dd7791a1233a2e7c78"
+"_size" "6212"
