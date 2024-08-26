@@ -27,7 +27,6 @@
 	{
 		"0" "5"
 	}
-	"has_adult_content" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "2"
@@ -88,14 +87,15 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
-			"width_pct" "49.36756891545635"
-			"height_pct" "50"
+			"width_pct" "100"
+			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1686658426"
+	"store_asset_mtime" "1724673703"
 	"associations"
 	{
 		"0"
@@ -111,12 +111,12 @@
 		"2"
 		{
 			"type" "franchise"
-			"name" "Movie Games S.A."
+			"name" "DDS Series"
 		}
 		"3"
 		{
 			"type" "franchise"
-			"name" "Drug Dealer Simulator"
+			"name" "Movie Games S.A."
 		}
 	}
 	"primary_genre" "28"
@@ -132,6 +132,7 @@
 		"category_2" "1"
 		"category_45" "1"
 		"category_46" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -202,7 +203,7 @@
 			"subtitles" "true"
 		}
 	}
-	"steam_release_date" "1587049219"
+	"steam_release_date" "1587049200"
 	"metacritic_score" "59"
 	"metacritic_fullurl" "https://www.metacritic.com/game/pc/drug-dealer-simulator\?ftag=MCD-06-10aaa1f"
 	"community_visible_stats" "1"
@@ -220,8 +221,8 @@
 		"7" "1702"
 		"8" "21"
 		"9" "4202"
-		"10" "3839"
-		"11" "12472"
+		"10" "12472"
+		"11" "3839"
 		"12" "4175"
 		"13" "6276"
 		"14" "3810"
@@ -255,6 +256,20 @@
 				"oslist" "windows"
 			}
 		}
+		"1"
+		{
+			"executable" "cmd.exe"
+			"arguments" "/c \"(set OPENSSL_ia32cap=:~0x20000000) && (DrugDealerSimulator.exe)\""
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Use this option if your game crashes on launch"
+			}
+			"description" "Use this option if your game crashes on launch"
+		}
 	}
 }
 "depots"
@@ -287,6 +302,12 @@
 		{
 			"public"
 			{
+				"gid" "1378790936329016028"
+				"size" "11413613825"
+				"download" "11251526864"
+			}
+			"original_visuals"
+			{
 				"gid" "7970087280892618920"
 				"size" "11254044876"
 				"download" "11072739888"
@@ -300,23 +321,11 @@
 				"size" "044DA09273D568E16FBC1E0662BB512E"
 				"download" "E7F9D52D0BF79C88910903AC2B2A83FE"
 			}
-			"ndatesting"
-			{
-				"gid" "C542AFB85F2835882B66BA3FA4C2E473"
-				"size" "89914107A9CF2D0EBBFB289258EE3B33"
-				"download" "5D50C1CA6281C986D07F23212E8E3BDA"
-			}
 			"press"
 			{
 				"gid" "492D754D97711872BDB96EA4D4C0CE73"
 				"size" "546803A9DA976C598E854898CC5124A9"
 				"download" "37717C325CF648F992ED6CA4CEF8EF54"
-			}
-			"testy_qa"
-			{
-				"gid" "47FEF5D9514E489C5F08057D055D6AEE"
-				"size" "167E1BCFDEE4C2ACADEE8C0E583D0694"
-				"download" "9ED2A754CABDE465F59CB46F845580C8"
 			}
 			"unstable"
 			{
@@ -324,14 +333,26 @@
 				"size" "658436284F547371B0E7C40C96AAEF86"
 				"download" "DB9718C6082BB40C3D936BEADC367763"
 			}
+			"ndatesting"
+			{
+				"gid" "76E426F4F4880D60DEA012F4522CFDB1"
+				"size" "FEFDF72777873C6BF1F58F29B9669193"
+				"download" "3D192BC386DCA5087FABEA824CE33400"
+			}
+			"testy_qa"
+			{
+				"gid" "1DB2702DEFDC8EA55AD17C9BB7E1FC8F"
+				"size" "6937147E8FA4190D9285A69F75210C1E"
+				"download" "790AA3467F12EBC617C1101539132D6C"
+			}
 		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "10071427"
-			"timeupdated" "1670080939"
+			"buildid" "15431254"
+			"timeupdated" "1724673262"
 		}
 		"bifor"
 		{
@@ -339,23 +360,11 @@
 			"pwdrequired" "1"
 			"timeupdated" "1669831030"
 		}
-		"ndatesting"
-		{
-			"buildid" "10071427"
-			"pwdrequired" "1"
-			"timeupdated" "1670080960"
-		}
 		"press"
 		{
 			"buildid" "10047548"
 			"pwdrequired" "1"
 			"timeupdated" "1669831020"
-		}
-		"testy_qa"
-		{
-			"buildid" "10071427"
-			"pwdrequired" "1"
-			"timeupdated" "1670070141"
 		}
 		"unstable"
 		{
@@ -363,9 +372,55 @@
 			"pwdrequired" "1"
 			"timeupdated" "1670080948"
 		}
+		"ndatesting"
+		{
+			"buildid" "15431254"
+			"pwdrequired" "1"
+			"timeupdated" "1724240661"
+		}
+		"original_visuals"
+		{
+			"buildid" "10071427"
+			"description" "Build before Visual Update"
+			"timeupdated" "1724660042"
+		}
+		"testy_qa"
+		{
+			"buildid" "15431254"
+			"pwdrequired" "1"
+			"timeupdated" "1724141977"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "DrugDealerSimulator\\Saved\\Serialized"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "DrugDealerSimulator\\Saved\\SaveGames"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "21300979"
-"_sha" "72aa783c0869d80b122849d1ec3f29cda9e8e2b4"
-"_size" "6709"
+"_change_number" "24941578"
+"_sha" "b28d22b38cb66b7893fe1a9fcb29038cb831fb5b"
+"_size" "7747"
