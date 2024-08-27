@@ -4,7 +4,7 @@
 	"name" "Valheim Dedicated Server"
 	"type" "Tool"
 	"parent" "892970"
-	"oslist" "windows,linux"
+	"oslist" "windows,macos,linux"
 	"osarch" ""
 	"icon" "1aab0586723c8578c7990ced7d443568649d0df2"
 	"logo" "233d73a1c963515ee4a9b59507bc093d85a4e2dc"
@@ -12,6 +12,7 @@
 	"clienticon" "c55a6b50b170ac6ed56cf90521273c30dccb5f12"
 	"clienttga" "35e067b9efc8d03a9f1cdfb087fac4b970a48daf"
 	"releasestate" "released"
+	"osextended" "macos64,macosapplesilicon,macosnotarized"
 	"associations"
 	{
 	}
@@ -38,6 +39,15 @@
 			"config"
 			{
 				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "start_server.command"
+			"type" "server"
+			"config"
+			{
+				"oslist" "macos"
 			}
 		}
 	}
@@ -105,9 +115,9 @@
 		{
 			"public"
 			{
-				"gid" "8938435916388546204"
-				"size" "2272746553"
-				"download" "1210366208"
+				"gid" "954348737509367672"
+				"size" "2294204864"
+				"download" "1213432384"
 			}
 			"default_preml"
 			{
@@ -117,9 +127,9 @@
 			}
 			"default_old"
 			{
-				"gid" "7668775271116952209"
-				"size" "2272627456"
-				"download" "1210319440"
+				"gid" "8938435916388546204"
+				"size" "2272746553"
+				"download" "1210366208"
 			}
 			"default_preal"
 			{
@@ -144,21 +154,21 @@
 			}
 			"internal-test"
 			{
-				"gid" "BCEC205D2A4AFA33DB07475CD3F048CF"
-				"size" "7B790F34502E1022FF2707DB0D7E6468"
-				"download" "D4AF5C66FD1ECF671B8856357EE5AC35"
+				"gid" "E35542CAD52097C66F6FC8B5EB485BCB"
+				"size" "35C38914EE6EC49207BEB74C32134856"
+				"download" "C99BB7072BFC39867EFF1E92B72B5683"
 			}
 			"public-test"
 			{
-				"gid" "89965BE9F0A5CB5B5669613961157ACA"
-				"size" "F27E6C20B1B21CB5A7C12599E9686A30"
-				"download" "D456D48CD76CD19ABBDDFA426D95CD18"
+				"gid" "394DEA702AA11099F5F3B6D0E68026CA"
+				"size" "5C514AC8CEA0FEAD8C4FA4B2FBAE9404"
+				"download" "C4E1505F92BC7667EAEDBF82E4302F1E"
 			}
 			"unstable"
 			{
-				"gid" "E94C7545414AB553E7B107551DAAEA24"
-				"size" "4BF8C6F3D1A869993FBF78218D57AFC1"
-				"download" "056848BDFD0AC04039DDA8D8499586D9"
+				"gid" "B9D5B60449506BB56247725038AF4868"
+				"size" "3D2256DE33B8C2AA4C276235AABC725A"
+				"download" "2BDCEA13352F1780EAA4BDB777ABA5BB"
 			}
 		}
 	}
@@ -172,9 +182,9 @@
 		{
 			"public"
 			{
-				"gid" "4208534463239227275"
-				"size" "2190682646"
-				"download" "1193483568"
+				"gid" "319235645320864593"
+				"size" "2212125349"
+				"download" "1197018624"
 			}
 			"default_preml"
 			{
@@ -184,9 +194,9 @@
 			}
 			"default_old"
 			{
-				"gid" "6561033608576718650"
-				"size" "2190567038"
-				"download" "1193438560"
+				"gid" "4208534463239227275"
+				"size" "2190682646"
+				"download" "1193483568"
 			}
 			"default_preal"
 			{
@@ -211,21 +221,21 @@
 			}
 			"internal-test"
 			{
-				"gid" "07903FFFECE5446F69A05570DE7A1E66"
-				"size" "66BA0FDC72A29FA125F00E17B1A02436"
-				"download" "874EB17203B579E056CBE5D1AC722C6E"
+				"gid" "1526F60CB4D1B01094C1B000E50EE117"
+				"size" "7A1671B4B89F505029246D2980E58335"
+				"download" "3AD6F6A8105F5804647821FE4C661A32"
 			}
 			"public-test"
 			{
-				"gid" "2DF2A3B62DB6B9D6A4ABB9D3A1BD29BD"
-				"size" "0DA486DE46CEDD3D9A66E3CECA7A9ABC"
-				"download" "C953F1BCCC6900244AC1D6DBEE300838"
+				"gid" "FAF8C83DA1C845C2C802DD9846E1C6AB"
+				"size" "04432AB97949F898A92276FB176C21C9"
+				"download" "6A56FCA4A16A4BA3058DE338867781DF"
 			}
 			"unstable"
 			{
-				"gid" "D4F25AEF27937AC00E3C51EA263EBB47"
-				"size" "0980630D02F995909948306CB43E2DF2"
-				"download" "6E403EEDDE4FA98828183D10164B225D"
+				"gid" "25138BC15C2722B8AD17EEA3DCEF00F2"
+				"size" "A882FC8839C34E9AD91AD7EEFA9E5613"
+				"download" "70169D35F57E3A3E62E03285CC1C4F50"
 			}
 		}
 	}
@@ -239,15 +249,15 @@
 		{
 			"public"
 			{
-				"gid" "3478600937060953308"
-				"size" "2245999479"
-				"download" "1195886224"
+				"gid" "69551564597960129"
+				"size" "2267451742"
+				"download" "1198993168"
 			}
 			"default_old"
 			{
-				"gid" "7552164767442332796"
-				"size" "2245997295"
-				"download" "1195886624"
+				"gid" "3478600937060953308"
+				"size" "2245999479"
+				"download" "1195886224"
 			}
 		}
 		"encryptedmanifests"
@@ -260,21 +270,21 @@
 			}
 			"internal-test"
 			{
-				"gid" "C6595892C4ED5F7630DCEA213B652C46"
-				"size" "27A251C132AC49B8639F79A0FE8ADE40"
-				"download" "C242AAEA35BCAB389382930F774B94A5"
+				"gid" "69556B2AB85DE2B9DA6A2D00C5D3A568"
+				"size" "7868BB56A14BD0CD211932BD303F742E"
+				"download" "51F975A9DCD41D9CE03405573ABD62DE"
 			}
 			"public-test"
 			{
-				"gid" "FA53C39F8638D216BDB4C8898AC4ECD2"
-				"size" "886B20BA07859E9BBB0F97E9A823C9AB"
-				"download" "0E401BA7F793100BB2C0FC753B2E1277"
+				"gid" "28E4195D44E7D2F51F9C345B90EBDDAF"
+				"size" "1420D758F3ABBF017F05FED036E1296F"
+				"download" "470DB692C08702709249FB7AE6AC2B8D"
 			}
 			"unstable"
 			{
-				"gid" "33B1A0C2B10A683ADC658EC4F873EF22"
-				"size" "CB2A03B53839183044183799E5EB9EF2"
-				"download" "1F955D32D4E7AEA94ECC6A53584D57DD"
+				"gid" "052AEA6A22DB914D4781796ED3982CEA"
+				"size" "9B8F67ADB85669F1CC4522385FF4EE18"
+				"download" "D6262EF8536BDB0C82043FAC79F17F53"
 			}
 		}
 	}
@@ -282,8 +292,8 @@
 	{
 		"public"
 		{
-			"buildid" "14842237"
-			"timeupdated" "1719819734"
+			"buildid" "15416908"
+			"timeupdated" "1724740247"
 		}
 		"default_preml"
 		{
@@ -299,9 +309,9 @@
 		}
 		"default_old"
 		{
-			"buildid" "14674300"
+			"buildid" "14842237"
 			"description" "Previous stable"
-			"timeupdated" "1719819607"
+			"timeupdated" "1724740169"
 		}
 		"default_preal"
 		{
@@ -317,25 +327,25 @@
 		}
 		"internal-test"
 		{
-			"buildid" "14767419"
+			"buildid" "15444068"
 			"pwdrequired" "1"
-			"timeupdated" "1718797074"
+			"timeupdated" "1724222825"
 		}
 		"public-test"
 		{
-			"buildid" "14676075"
+			"buildid" "15416908"
 			"pwdrequired" "1"
-			"timeupdated" "1718697781"
+			"timeupdated" "1724136035"
 		}
 		"unstable"
 		{
-			"buildid" "14892754"
+			"buildid" "15416908"
 			"pwdrequired" "1"
-			"timeupdated" "1719832214"
+			"timeupdated" "1724058591"
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "24191335"
-"_sha" "f6d9372a63cf361b6218f2b671b2ac4273da31a1"
-"_size" "6607"
+"_change_number" "24953413"
+"_sha" "e773780c9570cffdaef30147fe4f60db67fa6ab8"
+"_size" "6795"
