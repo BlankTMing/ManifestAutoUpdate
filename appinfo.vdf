@@ -1,0 +1,521 @@
+"appid" "80360"
+"common"
+{
+	"name" "Blackwell Deception"
+	"type" "Game"
+	"logo" "b0f86e0c07747849d380430cb8381e4c0edd75ca"
+	"logo_small" "b0f86e0c07747849d380430cb8381e4c0edd75ca_thumb"
+	"icon" "d4e07855c49b1fd6eae67d04d9ac111d18a945a8"
+	"clienttga" "c24bf3f1f410169c66bf6065bdd7e5233bfbca89"
+	"clienticon" "158ede08ea00bf3e05e9d87f2ba73a2955a36db1"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"osextended" "macos64,macosnotarized"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1657238400"
+		"tested_build_id" "8942292"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Blackwell Deception"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "84.07234539089848"
+			"height_pct" "77.35692234623605"
+		}
+	}
+	"store_asset_mtime" "1666990261"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Wadjet Eye Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Wadjet Eye Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_13" "1"
+		"category_23" "1"
+		"category_14" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1326477600"
+	"metacritic_score" "73"
+	"metacritic_fullurl" "http://www.metacritic.com/game/pc/blackwell-deception"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "80360"
+	"store_tags"
+	{
+		"0" "1698"
+		"1" "21"
+		"2" "492"
+		"3" "7208"
+		"4" "10808"
+		"5" "5716"
+		"6" "5613"
+		"7" "6052"
+		"8" "3964"
+		"9" "4182"
+		"10" "1742"
+		"11" "3871"
+		"12" "4166"
+		"13" "1697"
+	}
+	"review_score" "9"
+	"review_percentage" "95"
+}
+"extended"
+{
+	"developer" "Wadjet Eye Games"
+	"gamedir" "Blackwell Deception"
+	"homepage" "http://www.wadjeteyegames.com"
+	"icon" ""
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "80361"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Wadjet Eye Games"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Deception.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "winsetup.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Configure"
+			}
+			"description" "Configure"
+		}
+		"2"
+		{
+			"executable" "./Start.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Launch [64bit]"
+			}
+			"description" "Launch [64bit]"
+		}
+		"3"
+		{
+			"executable" "./Start.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+			"description_loc"
+			{
+				"english" "Launch [32bit]"
+			}
+			"description" "Launch [32bit]"
+		}
+		"4"
+		{
+			"executable" "./Start.sh"
+			"arguments" "--windowed"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "windowed"
+			}
+			"description" "windowed"
+		}
+		"5"
+		{
+			"executable" "Deception.app/Contents/MacOS/AGS"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "Launch"
+			}
+			"description" "Launch"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Blackwell Deception"
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"2204781040"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"2815714655"
+		{
+			"controller_type" "controller_neptune"
+			"enabled_branches" "default,beta,original,pre-test"
+			"use_action_block" "false"
+		}
+	}
+	"steamdecktouchscreen" "1"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"80361"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "955280747739901374"
+				"size" "533600713"
+				"download" "334067648"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "B71AE3DBA73F58B45469FDAED71A0E7B"
+				"size" "B01357695340D10D193C90778E57C9B5"
+				"download" "4AAA4D29170B19870BC03733AFCCC538"
+			}
+			"oldversion"
+			{
+				"gid" "D84D3651F516F071D7A496BF0DBE6A63"
+				"size" "3DC4B4D4F5D7947974AAB5B077115922"
+				"download" "7F914999CE22E6F1470D01A732EBC88C"
+			}
+			"original"
+			{
+				"gid" "D0642A4DA0D4896DF863EAD5C82BF281"
+				"size" "CBD077E5DA1AEF77AEC42A2C490A03F4"
+				"download" "84CCCE6368F2CBDA83CE691793CE0D7A"
+			}
+			"origports"
+			{
+				"gid" "57668406747F0C3158C51C3AA0618813"
+				"size" "E469BD63CC7F089525048777F45FAE7E"
+				"download" "A3AA4D862DC97D7FC3771A14AF9720BA"
+			}
+			"pre-test"
+			{
+				"gid" "523E9DD29A7299A82AD681915F61B360"
+				"size" "4B24331C3289FC75D93AC68A0FADF4E6"
+				"download" "749F371CE533BA554310E9E6FCC730EA"
+			}
+		}
+	}
+	"80362"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "151577547850321392"
+				"size" "600367640"
+				"download" "342377472"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"oldversion"
+			{
+				"gid" "1FE28A2AA9182AFA0D8E7116B6AE220F"
+				"size" "9B3EBB8F1BEB3720868D688BA27A6D56"
+				"download" "55735FB36300F4B8C1B0198C7A700994"
+			}
+			"origports"
+			{
+				"gid" "7DFFD100FEE8087FAD4DDEAC28F2D19A"
+				"size" "58EA07B6927B450E3DA2A8F8A1F06497"
+				"download" "AF29AE5A0EB67798A519BBB4B44B94E1"
+			}
+			"pre-test"
+			{
+				"gid" "1CBCD6258AE483D0B00BF36E3BE5EA7A"
+				"size" "01ACAF656176C6628AAF969B0EAA1C75"
+				"download" "DFD0FD3911E2E99EBE6722DE92A9CDA1"
+			}
+		}
+	}
+	"80363"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9201760966064557653"
+				"size" "535346274"
+				"download" "326598320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"oldversion"
+			{
+				"gid" "A34B33407CAFAA1BCA65734205A38E12"
+				"size" "3FBCAF3228F9C04E803C3B7D3F1E8191"
+				"download" "4E8620B58AB387185AA8834C457596FB"
+			}
+			"origports"
+			{
+				"gid" "1362477BB4B2CD07EB96F4FF11DA2547"
+				"size" "F73046C94D51F4D6E97AE4F123EE5864"
+				"download" "BC095121D45C23C1B53E044CE1B7C063"
+			}
+			"pre-test"
+			{
+				"gid" "B304FCF96DE6C5DF5EAE9219F002EFF7"
+				"size" "2311DB824EAACB1CD7675615A66BB294"
+				"download" "B58ED2FD3B3B6ABD4EE95ACFD6D9C15B"
+			}
+		}
+	}
+	"2058290"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"steamdeck" "1"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8060744027327196540"
+				"size" "601333976"
+				"download" "342560656"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"oldversion"
+			{
+				"gid" "5EE7AB5C5F92FCDAE74885952FF7E5ED"
+				"size" "FCF8636A571B5138061DA722ED9EB9CE"
+				"download" "58F3110E54F040C42F61EC5E70CBF8DB"
+			}
+			"origports"
+			{
+				"gid" "DD1EAF9E77DFC80717DBA779A1CE780E"
+				"size" "8E0E884D67210F1345DA121D2AD45984"
+				"download" "F2B6EC6025DB04FCAC55FD985A0DA6E6"
+			}
+			"pre-test"
+			{
+				"gid" "A41E79F73D7C07D1169B3E2D1AB71100"
+				"size" "37356C1091C2E1EF611942BAB9B5E8CD"
+				"download" "115A30EC92AB873E9B3380D6834800D9"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13942186"
+			"timeupdated" "1712183996"
+		}
+		"beta"
+		{
+			"buildid" "6319059"
+			"pwdrequired" "1"
+			"timeupdated" "1614713216"
+		}
+		"oldversion"
+		{
+			"buildid" "8942292"
+			"pwdrequired" "1"
+			"timeupdated" "1689754344"
+		}
+		"original"
+		{
+			"buildid" "136281"
+			"pwdrequired" "1"
+			"timeupdated" "1614713427"
+		}
+		"origports"
+		{
+			"buildid" "12851613"
+			"pwdrequired" "1"
+			"timeupdated" "1701444937"
+		}
+		"pre-test"
+		{
+			"buildid" "13942186"
+			"pwdrequired" "1"
+			"timeupdated" "1712183959"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinSavedGames"
+			"path" "Blackwell Deception"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinSavedGames"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Blackwell Deception"
+					"replace" "Blackwell Deception"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinSavedGames"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Blackwell Deception"
+					"replace" ".local/share/ags/Blackwell Deception"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "24483107"
+"_sha" "3a5af51ea1b53e2ce95c5fc3e9d64bfb7cbdf8bb"
+"_size" "10001"
