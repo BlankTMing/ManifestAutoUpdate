@@ -21,6 +21,50 @@
 	{
 		"0" "5"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1722556800"
+		"tested_build_id" "15184722"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-2RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"metacritic_name" "Dead Age 2"
 	"controllertagwizard" "1"
 	"controller_support" "full"
@@ -42,6 +86,44 @@
 			"pinned_position" "CenterCenter"
 			"width_pct" "100"
 			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "100"
+				"height_pct" "100"
+			}
 		}
 	}
 	"store_asset_mtime" "1722265800"
@@ -154,8 +236,8 @@
 		"4" "9"
 		"5" "492"
 		"6" "597"
-		"7" "1662"
-		"8" "1677"
+		"7" "1677"
+		"8" "1662"
 		"9" "3835"
 		"10" "4004"
 		"11" "4325"
@@ -263,9 +345,9 @@
 		{
 			"public"
 			{
-				"gid" "6212864468479065430"
-				"size" "6498713014"
-				"download" "5673151904"
+				"gid" "3844054939571024844"
+				"size" "6505548540"
+				"download" "5665598016"
 			}
 			"pre_090"
 			{
@@ -284,9 +366,9 @@
 			}
 			"internal"
 			{
-				"gid" "194D82F3E37AD604DEEE1E6793794467"
-				"size" "608EADDBC78BCB17C5C23F161D0ED629"
-				"download" "3B8781650317DC81D76F831FA80C9BB2"
+				"gid" "C468377C6E908492C7D9B886AC3A41D5"
+				"size" "66533042CF9077D3F6A8EA4D2D17F935"
+				"download" "2597B2657AEB601D8A7B900A91C75071"
 			}
 		}
 	}
@@ -333,8 +415,8 @@
 	{
 		"public"
 		{
-			"buildid" "15184722"
-			"timeupdated" "1722247593"
+			"buildid" "15523371"
+			"timeupdated" "1724878280"
 		}
 		"pre_090"
 		{
@@ -350,9 +432,9 @@
 		}
 		"internal"
 		{
-			"buildid" "15094858"
+			"buildid" "15523062"
 			"pwdrequired" "1"
-			"timeupdated" "1721429780"
+			"timeupdated" "1724875944"
 		}
 	}
 }
@@ -476,6 +558,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "24557634"
-"_sha" "163dd63fbde09fd06f54fcf8d3d81ddb8899bb30"
-"_size" "8270"
+"_change_number" "24982469"
+"_sha" "4e6cda255c66b25a814e49e07806f72889b67819"
+"_size" "9910"
