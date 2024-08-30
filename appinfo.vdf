@@ -15,25 +15,25 @@
 	"aicontenttype" "1"
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1668124800"
-		"tested_build_id" "9771171"
+		"category" "3"
+		"test_timestamp" "1724889600"
+		"tested_build_id" "15420406"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"1"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"2"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
 			}
 			"3"
 			{
@@ -43,17 +43,18 @@
 		}
 		"configuration"
 		{
-			"supported_input" "other"
+			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "1"
-			"small_text" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-7.0-5"
+			"recommended_runtime" "proton-stable"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Holdfast: Nations At War"
@@ -77,6 +78,48 @@
 			"pinned_position" "BottomLeft"
 			"width_pct" "46.456370141843514"
 			"height_pct" "67.70833333333331"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "46.456370141843514"
+				"height_pct" "67.70833333333331"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
 		}
 	}
 	"store_asset_mtime" "1714159351"
@@ -221,12 +264,12 @@
 		"5" "128"
 		"6" "19"
 		"7" "599"
-		"8" "1669"
-		"9" "1663"
+		"8" "1663"
+		"9" "1669"
 		"10" "4684"
 		"11" "6910"
-		"12" "1774"
-		"13" "5711"
+		"12" "5711"
+		"13" "1774"
 		"14" "1708"
 		"15" "3814"
 		"16" "3839"
@@ -235,7 +278,7 @@
 		"19" "5382"
 	}
 	"review_score" "8"
-	"review_percentage" "90"
+	"review_percentage" "89"
 }
 "extended"
 {
@@ -277,24 +320,36 @@
 		{
 			"public"
 			{
-				"gid" "7337186655605932127"
-				"size" "20010949340"
-				"download" "7297590800"
+				"gid" "4513212208468881092"
+				"size" "20019597188"
+				"download" "7298521712"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"closed-beta"
+			{
+				"gid" "F50F128ABA94DEF1A41C024F7526776B"
+				"size" "94735025F559B88CEA395B991F6ED9DF"
+				"download" "A9F64C9DC4F0A72FE66E4285A49295EB"
+			}
 			"development"
 			{
-				"gid" "64744EECD2329E2D375BC9E823CBE947"
-				"size" "DDAF7A947CDC26AF6F1B350FC4B675EB"
-				"download" "EB382FDC335475E56CE1D25E0F2A7E38"
+				"gid" "E5972587E1D78DA774853D8F4D7BC110"
+				"size" "D5443034598266F45F32137B208A97C1"
+				"download" "27500E1501044F5D9A0CE0B4D39F104D"
 			}
 			"staging"
 			{
-				"gid" "8F71ECAEDE575C751556FDFB86B0136F"
-				"size" "3D3F049BE93B54D50EBD9778BBC72F75"
-				"download" "727FFE6566E6CF0F7E957DF473F84890"
+				"gid" "D21FD9D2A5092CBF99575B9889C89CDA"
+				"size" "9532BEA652184526328870A35EDE633D"
+				"download" "BF190DE84412B2C476E1EA23961C7B1D"
+			}
+			"steamdeck"
+			{
+				"gid" "97E53460A1EE69420AB27BE9819070AD"
+				"size" "90F3ED4EF4CE763AE4C65B41A5AA5773"
+				"download" "21771D9FD89CAB10E3777490063094C5"
 			}
 		}
 	}
@@ -302,20 +357,32 @@
 	{
 		"public"
 		{
-			"buildid" "14895429"
-			"timeupdated" "1719844161"
+			"buildid" "15420406"
+			"timeupdated" "1725022842"
+		}
+		"closed-beta"
+		{
+			"buildid" "15474038"
+			"pwdrequired" "1"
+			"timeupdated" "1724518385"
 		}
 		"development"
 		{
-			"buildid" "14908585"
+			"buildid" "15546235"
 			"pwdrequired" "1"
-			"timeupdated" "1719935628"
+			"timeupdated" "1725030103"
 		}
 		"staging"
 		{
-			"buildid" "14895429"
+			"buildid" "15532952"
 			"pwdrequired" "1"
-			"timeupdated" "1719842172"
+			"timeupdated" "1724942221"
+		}
+		"steamdeck"
+		{
+			"buildid" "15420406"
+			"pwdrequired" "1"
+			"timeupdated" "1724075035"
 		}
 	}
 }
@@ -336,11 +403,12 @@
 			{
 				"#status_playing" "Playing on %server%"
 				"#status_atmainmenu" "Browsing Main Menu"
+				"#status_queued" "Queueing for %server%"
 			}
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "24209405"
-"_sha" "6c0215a1797b29ccff83d0f48c01d3dff0e88958"
-"_size" "6051"
+"_change_number" "25013486"
+"_sha" "26f55835b060346f6c2b2f6b2f9072273eb7f355"
+"_size" "7305"
