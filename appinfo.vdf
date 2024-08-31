@@ -104,7 +104,61 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1707756550"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+				"tchinese" "library_600x900_tchinese.jpg"
+				"koreana" "library_600x900_koreana.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+				"tchinese" "library_600x900_tchinese_2x.jpg"
+				"koreana" "library_600x900_koreana_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"koreana" "logo_koreana.png"
+				"schinese" "logo_schinese.png"
+				"tchinese" "logo_tchinese.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "73.61634980389326"
+				"height_pct" "100"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"koreana" "logo_koreana_2x.png"
+				"schinese" "logo_schinese_2x.png"
+				"tchinese" "logo_tchinese_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1723038856"
 	"associations"
 	{
 		"0"
@@ -220,8 +274,8 @@
 		"9" "4136"
 		"10" "7332"
 		"11" "597"
-		"12" "7481"
-		"13" "4840"
+		"12" "4840"
+		"13" "7481"
 		"14" "9"
 		"15" "3843"
 		"16" "42804"
@@ -253,21 +307,6 @@
 			}
 			"description" "Launch"
 		}
-		"2"
-		{
-			"executable" "PlateUp Crossplay\\PlateUp.exe"
-			"arguments" "-appid 1599600"
-			"type" "option2"
-			"config"
-			{
-				"betakey" "playtest, CrossplayBeta"
-			}
-			"description_loc"
-			{
-				"english" "PlateUp! without Mods (Allows for Crossplay with other PC releases)"
-			}
-			"description" "PlateUp! without Mods (Allows for Crossplay with other PC releases)"
-		}
 	}
 	"uselaunchcommandline" "1"
 }
@@ -285,15 +324,21 @@
 		{
 			"public"
 			{
-				"gid" "1632627911688552703"
-				"size" "1394023528"
-				"download" "401543904"
+				"gid" "8147677094850035528"
+				"size" "1394441653"
+				"download" "401869184"
+			}
+			"crash-fix-test"
+			{
+				"gid" "3754009520993631004"
+				"size" "1394071616"
+				"download" "401544576"
 			}
 			"crossplaybeta"
 			{
-				"gid" "7763703274295193109"
-				"size" "2435094351"
-				"download" "603590048"
+				"gid" "7290000306281547937"
+				"size" "1394440029"
+				"download" "401869600"
 			}
 		}
 		"encryptedmanifests"
@@ -336,15 +381,15 @@
 			}
 			"creator"
 			{
-				"gid" "D9C2204FDF90B37816E52000D348769C"
-				"size" "18CB877C1B0ADA47E7CA03B11EC0304D"
-				"download" "645C7B59D8E484859CEF733DDB4DF5FB"
+				"gid" "1466323502A7DB72D4021991A4A9CFA8"
+				"size" "FE31C5D5087E9A314C5B0A8558E66D3B"
+				"download" "16E7D860E992B1D95C8CEF867797E93E"
 			}
 			"crossplaystaging"
 			{
-				"gid" "EDAD780B5CE81D52C7E6C1C6946D612B"
-				"size" "BAA8B6FFD513CE5B424E22B0AD0E575B"
-				"download" "774FAC0D8D893DF5AB06015CA31F9369"
+				"gid" "21D133CD00527E5197443EDF096D8C40"
+				"size" "BB144C13D8FDF90395F2C2FCF43D57EA"
+				"download" "713FA36F87C22A159D53BFBB787FABB9"
 			}
 			"playtest"
 			{
@@ -354,9 +399,9 @@
 			}
 			"playtest2"
 			{
-				"gid" "27CA493CEC6326CFDA4B006EBE154086"
-				"size" "E4DB3CF138CAB419F9418889C9C96C5C"
-				"download" "698342BE178D46F2E97A05837F16560E"
+				"gid" "348B822116E59AB4C1D53BA789701B0A"
+				"size" "E1B8D423E3142EB082797FA851D715DE"
+				"download" "EFC22438BE76F01B39A67619E67691D5"
 			}
 		}
 	}
@@ -371,8 +416,8 @@
 	{
 		"public"
 		{
-			"buildid" "15299039"
-			"timeupdated" "1723107587"
+			"buildid" "15548843"
+			"timeupdated" "1725049987"
 		}
 		"ch_pr"
 		{
@@ -410,23 +455,29 @@
 			"pwdrequired" "1"
 			"timeupdated" "1701361864"
 		}
+		"crash-fix-test"
+		{
+			"buildid" "15335463"
+			"description" "Test for Environment crash"
+			"timeupdated" "1723404695"
+		}
 		"creator"
 		{
-			"buildid" "15299039"
+			"buildid" "15548843"
 			"pwdrequired" "1"
-			"timeupdated" "1723088340"
+			"timeupdated" "1725050086"
 		}
 		"crossplaybeta"
 		{
-			"buildid" "14546948"
+			"buildid" "15549020"
 			"description" "branch dedicated for crossplay"
-			"timeupdated" "1717077636"
+			"timeupdated" "1725050065"
 		}
 		"crossplaystaging"
 		{
-			"buildid" "15299069"
+			"buildid" "15549020"
 			"pwdrequired" "1"
-			"timeupdated" "1723088573"
+			"timeupdated" "1725049770"
 		}
 		"playtest"
 		{
@@ -436,9 +487,9 @@
 		}
 		"playtest2"
 		{
-			"buildid" "15299039"
+			"buildid" "15548843"
 			"pwdrequired" "1"
-			"timeupdated" "1723088362"
+			"timeupdated" "1725048594"
 		}
 	}
 }
@@ -498,6 +549,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "24699257"
-"_sha" "0aaba7ead7d4d000799099c780240cb41c93230e"
-"_size" "9918"
+"_change_number" "25017814"
+"_sha" "e88627b508d4de28516f6e347056c6edb43a2fc6"
+"_size" "10906"
