@@ -85,6 +85,44 @@
 			"height_pct" "59.374321549562"
 		}
 	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50"
+				"height_pct" "59.374321549562"
+			}
+		}
+	}
 	"store_asset_mtime" "1620332778"
 	"associations"
 	{
@@ -169,14 +207,14 @@
 		"2" "3859"
 		"3" "7178"
 		"4" "597"
-		"5" "492"
-		"6" "3841"
+		"5" "3841"
+		"6" "492"
 		"7" "5350"
 		"8" "4136"
 		"9" "1719"
-		"10" "1770"
-		"11" "1685"
-		"12" "6815"
+		"10" "1685"
+		"11" "6815"
+		"12" "1770"
 		"13" "3871"
 		"14" "10437"
 		"15" "4840"
@@ -185,8 +223,8 @@
 		"18" "9"
 		"19" "12095"
 	}
-	"review_score" "8"
-	"review_percentage" "81"
+	"review_score" "6"
+	"review_percentage" "74"
 }
 "extended"
 {
@@ -205,22 +243,30 @@
 		"0"
 		{
 			"executable" "Drawful 2.exe"
-			"description" "Launch"
-			"type" "none"
+			"type" "option2"
 			"config"
 			{
 				"oslist" "windows"
 			}
+			"description_loc"
+			{
+				"english" "Standalone"
+			}
+			"description" "Standalone"
 		}
 		"1"
 		{
 			"executable" "Drawful 2.app"
-			"description" "Launch"
-			"type" "none"
+			"type" "option2"
 			"config"
 			{
 				"oslist" "macos"
 			}
+			"description_loc"
+			{
+				"english" "Standalone"
+			}
+			"description" "Standalone"
 		}
 		"2"
 		{
@@ -232,6 +278,34 @@
 				"oslist" "linux"
 				"osarch" "64"
 			}
+		}
+		"3"
+		{
+			"executable" "mpLauncher.sh"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "in the Jackbox Games Megapicker"
+			}
+			"description" "in the Jackbox Games Megapicker"
+		}
+		"4"
+		{
+			"executable" "mpLauncher.bat"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "in the Jackbox Games Megapicker"
+			}
+			"description" "in the Jackbox Games Megapicker"
 		}
 	}
 	"steamcontrollertouchtemplateindex" "1"
@@ -245,6 +319,7 @@
 			"use_action_block" "false"
 		}
 	}
+	"uselaunchcommandline" "1"
 }
 "depots"
 {
@@ -270,7 +345,7 @@
 	{
 		"config"
 		{
-			"oslist" "windows"
+			"oslist" "windows,linux"
 		}
 		"manifests"
 		{
@@ -307,12 +382,6 @@
 				"size" "37A606561D32E741E15B8B11D8D9A8B3"
 				"download" "37A606561D32E741E15B8B11D8D9A8B3"
 			}
-			"latest"
-			{
-				"gid" "5111FBA82E93A3111BF221172D41D449"
-				"size" "0122B4F64EE14494928CFB6A1D7DE1C4"
-				"download" "0122B4F64EE14494928CFB6A1D7DE1C4"
-			}
 			"preinternational"
 			{
 				"gid" "EFC196F0E5D84B40D691058569ACA8CA"
@@ -324,6 +393,12 @@
 				"gid" "C5BCF0728CAC84E232C3076C9C603100"
 				"size" "289C5F2E4537876A61964A7B576CD6A2"
 				"download" "D12C4802AF4133114172F6F3446A568C"
+			}
+			"latest"
+			{
+				"gid" "5111FBA82E93A3111BF221172D41D449"
+				"size" "0122B4F64EE14494928CFB6A1D7DE1C4"
+				"download" "0122B4F64EE14494928CFB6A1D7DE1C4"
 			}
 			"test"
 			{
@@ -374,12 +449,6 @@
 				"size" "FA414B7DC72E47EB799467820704E13D"
 				"download" "B5A59F11A14DDEAB8D2DA01B33FF0BBC"
 			}
-			"latest"
-			{
-				"gid" "B832347F2D90381F3F26E853E4BF517F"
-				"size" "907ED08FBB1698978AD6D5166520E617"
-				"download" "E1B8665C669CE23F9F18265B8630A3DD"
-			}
 			"preinternational"
 			{
 				"gid" "B10E28D256944BDC806C596BA781FA7E"
@@ -391,6 +460,12 @@
 				"gid" "7737A99E5EF2657604BD4E3F1AEC1DAD"
 				"size" "DD02C1AC2A434F44752B94B8FCA3501A"
 				"download" "09AB79E59E401E7E1BDB56A65A79D164"
+			}
+			"latest"
+			{
+				"gid" "B832347F2D90381F3F26E853E4BF517F"
+				"size" "907ED08FBB1698978AD6D5166520E617"
+				"download" "E1B8665C669CE23F9F18265B8630A3DD"
 			}
 			"test"
 			{
@@ -411,9 +486,9 @@
 		{
 			"public"
 			{
-				"gid" "5346072835545227253"
-				"size" "22459281"
-				"download" "12303616"
+				"gid" "1429822399686098255"
+				"size" "46849233"
+				"download" "13660112"
 			}
 			"linux-beta"
 			{
@@ -442,12 +517,6 @@
 				"size" "CD505C5C9D09B49DFCFADCDD35EF2D6A"
 				"download" "D2BB6B0ACE54776B5C0DA838F93DEFBC"
 			}
-			"latest"
-			{
-				"gid" "2E596E5745942C79104C9EC485FE83FF"
-				"size" "F44B00741930143CB982D0FC9E16BA3D"
-				"download" "88F422DE0359461754A542CB86F5FCAA"
-			}
 			"preinternational"
 			{
 				"gid" "8ABD18965A0E17629DB927EA9ADF0A17"
@@ -460,11 +529,17 @@
 				"size" "35060F804EC51CE8E1141C88C38B8F01"
 				"download" "A322D5180AF586200414EA419D98BEF0"
 			}
+			"latest"
+			{
+				"gid" "CC07501A6D35F3E40DD18DFA25FFB8BA"
+				"size" "35439799B6C08EBE06A0B86E938727DF"
+				"download" "1967F0673665123A427B3F30F8222093"
+			}
 			"test"
 			{
-				"gid" "E19CB3BF72E22393E256A5D696F32A59"
-				"size" "3BB2842F5FA0C7BC63CF54C432195E70"
-				"download" "08E7237A7D98028D8D663603ACDECC05"
+				"gid" "86357897EAB053F49453E6CD0DE4DC2B"
+				"size" "0F686BFC90B66C0A71BAA1EE3E1011DF"
+				"download" "5D806F05FD88A460B115A1137C0B187B"
 			}
 		}
 	}
@@ -510,17 +585,17 @@
 				"size" "6CA1C479A5EE1003B135CC463E0C0E7E"
 				"download" "CC0C245E1A2D51DEAE02E7B5359B84EF"
 			}
-			"latest"
-			{
-				"gid" "5A5628CA7BE7DAAC191EDE5E3E69F663"
-				"size" "DB5EE6593C2AF67C4178DE15A9B2CED5"
-				"download" "47107E1E6E0A6152BF2880D87FB12D8F"
-			}
 			"preinternational"
 			{
 				"gid" "33CD9D909905BE4165692A871D8639B8"
 				"size" "56D8AE4E5819842717ABF1F556BE7763"
 				"download" "51AA87DE18BFE06002439EBDBB679EFA"
+			}
+			"latest"
+			{
+				"gid" "5A5628CA7BE7DAAC191EDE5E3E69F663"
+				"size" "DB5EE6593C2AF67C4178DE15A9B2CED5"
+				"download" "47107E1E6E0A6152BF2880D87FB12D8F"
 			}
 			"test"
 			{
@@ -572,17 +647,17 @@
 				"size" "07B40A64B228BBEAF1EFFFD84463D80F"
 				"download" "2C9E48E0EDC5730E5E5AAF01449942A7"
 			}
-			"latest"
-			{
-				"gid" "9E21426E6414FF8DAB73EB523BBE19FF"
-				"size" "2164B32F2D3B1FE638475B83485363B8"
-				"download" "43D3A2AE288695975A54E920B76A7A86"
-			}
 			"preinternational"
 			{
 				"gid" "5E7AD8A57638EEB881CF7DDF36EF79A3"
 				"size" "C8135E8631E32782CA7B9B12C1D07E9B"
 				"download" "25D4456CD09C77FB3F5C8934D75AEF15"
+			}
+			"latest"
+			{
+				"gid" "9E21426E6414FF8DAB73EB523BBE19FF"
+				"size" "2164B32F2D3B1FE638475B83485363B8"
+				"download" "43D3A2AE288695975A54E920B76A7A86"
 			}
 			"test"
 			{
@@ -627,17 +702,17 @@
 				"size" "7A50F3CC8AFC80AD6562680B46FBAC11"
 				"download" "66B74F42002309282D8EA963723C6BA4"
 			}
-			"latest"
-			{
-				"gid" "71AE07D8C8701AC6B16675B885D59956"
-				"size" "9011A7BAD03AE14EE01FC0B2980074BA"
-				"download" "BE9F86F039497A6278DE46C11DDC1463"
-			}
 			"preinternational"
 			{
 				"gid" "A0455E1ECBBA98A47422C6028FFDAF8C"
 				"size" "EDD8BC8873B5F50483F72D5D24270CB1"
 				"download" "43E6D43459F436D97E5B06D4C5EA96AE"
+			}
+			"latest"
+			{
+				"gid" "71AE07D8C8701AC6B16675B885D59956"
+				"size" "9011A7BAD03AE14EE01FC0B2980074BA"
+				"download" "BE9F86F039497A6278DE46C11DDC1463"
 			}
 			"test"
 			{
@@ -647,12 +722,39 @@
 			}
 		}
 	}
+	"442079"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5074406060751027427"
+				"size" "1202"
+				"download" "688"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"latest"
+			{
+				"gid" "73BA6CF6754C830BF6112389C8E84DC2"
+				"size" "7F5F08863070FD6662726FE8BCC19947"
+				"download" "CA7024C9B6D2263E8C2085386D9F3C0D"
+			}
+			"test"
+			{
+				"gid" "30F1C5C454298DC18B89AFA739ECF5B7"
+				"size" "0E45C5DCC9ACCAD1BF24AD02A1260BC6"
+				"download" "76850A6E39F82389AE92217F8E88874E"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "7666402"
-			"timeupdated" "1636147860"
+			"buildid" "15292444"
+			"timeupdated" "1723045482"
 		}
 		"beta"
 		{
@@ -672,12 +774,6 @@
 			"pwdrequired" "1"
 			"timeupdated" "1656468769"
 		}
-		"latest"
-		{
-			"buildid" "7666360"
-			"pwdrequired" "1"
-			"timeupdated" "1636147271"
-		}
 		"linux-beta"
 		{
 			"buildid" "8810796"
@@ -696,11 +792,17 @@
 			"pwdrequired" "1"
 			"timeupdated" "1603228986"
 		}
+		"latest"
+		{
+			"buildid" "15310686"
+			"pwdrequired" "1"
+			"timeupdated" "1723155381"
+		}
 		"test"
 		{
-			"buildid" "6630164"
+			"buildid" "15246751"
 			"pwdrequired" "1"
-			"timeupdated" "1619809025"
+			"timeupdated" "1723154116"
 		}
 	}
 }
@@ -727,6 +829,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22646213"
-"_sha" "81bfca2bb07beb7e66b7e44149b6278e4e5c6329"
-"_size" "15030"
+"_change_number" "24981165"
+"_sha" "d84f0e9d68dd5dafc10caeb5b706a94ec2e39517"
+"_size" "16793"
