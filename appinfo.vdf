@@ -15,8 +15,10 @@
 		"english" "Love Is All Around-Love In The Room"
 		"koreana" "젠장! 미녀들한테 포위당했어!-방의 심장 박동"
 		"vietnamese" "Thôi Xong! Tui Bị Người Đẹp Bao Vây Rồi!-Nhịp Tim Trong Phòng"
-		"japanese" "トキメキ！コイしたいライフ！-部屋の鼓動"
+		"japanese" "しまった！美人に囲まれた！-部屋の鼓動"
+		"sc_schinese" "完蛋！我被美女包围了！-房间里的心跳"
 	}
+	"releasestatesteamchina" "released"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -29,7 +31,7 @@
 		"schinese" "header_schinese.jpg"
 		"tchinese" "header_tchinese.jpg"
 	}
-	"store_asset_mtime" "1720157525"
+	"store_asset_mtime" "1722487272"
 	"associations"
 	{
 		"0"
@@ -58,6 +60,7 @@
 		"category_1" "1"
 		"category_23" "1"
 		"category_22" "1"
+		"category_13" "1"
 	}
 	"supported_languages"
 	{
@@ -89,7 +92,7 @@
 			"subtitles" "true"
 		}
 	}
-	"steam_release_date" "1707098365"
+	"steam_release_date" "1707098340"
 	"gameid" "2670930"
 	"exfgls" "9"
 	"store_tags"
@@ -102,14 +105,14 @@
 		"5" "9551"
 		"6" "18594"
 		"7" "3839"
-		"8" "4182"
-		"9" "6971"
+		"8" "6971"
+		"9" "4182"
 		"10" "6426"
 		"11" "4947"
 		"12" "5984"
-		"13" "3799"
-		"14" "4486"
-		"15" "7208"
+		"13" "4486"
+		"14" "7208"
+		"15" "3799"
 		"16" "1742"
 		"17" "5608"
 		"18" "1654"
@@ -127,10 +130,22 @@
 	"homepage" "https://love.xiaoyouneirong.com/"
 	"dlcavailableonstore" "1"
 }
+"config"
+{
+	"steam_china_only"
+	{
+		"steam_china_enable_duration_control" "0"
+		"steam_china_duration_control_show_interstitial" "0"
+	}
+}
 "depots"
 {
 	"2670931"
 	{
+		"config"
+		{
+			"realm" "steamglobal"
+		}
 		"manifests"
 		{
 			"public"
@@ -148,6 +163,44 @@
 				"size" "6A8033608210E5CFC5BBD8ABA0772F25"
 				"download" "35CB583D24A449BF66AB7737F989F9A4"
 			}
+			"steam_china_only"
+			{
+				"gid" "03BA1F4B54E37EF556AFF2390E8C4CF4"
+				"size" "5DAFE42FAE9D34BCB97F21DF15B2F868"
+				"download" "707BF4968DA4905DB168D09A626B7F2E"
+			}
+		}
+		"dlcappid" "2670930"
+	}
+	"2670932"
+	{
+		"config"
+		{
+			"realm" "steamchina"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6346746536273598413"
+				"size" "10617172163"
+				"download" "10312224304"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "B6AB53F7AB516128A0314061CF776485"
+				"size" "80C612800C43ECA1729347E9B8DF79BC"
+				"download" "B24D36FAC3A136913706B551351F8A19"
+			}
+			"steam_china_only"
+			{
+				"gid" "09C98475F022121F6AE235E255B1C0D9"
+				"size" "0139A33C8772B9A820ED8ADC77882E2A"
+				"download" "177FBA64D854049ED500A34331709421"
+			}
 		}
 		"dlcappid" "2670930"
 	}
@@ -155,18 +208,25 @@
 	{
 		"public"
 		{
-			"buildid" "14842380"
-			"timeupdated" "1719479016"
+			"buildid" "15122298"
+			"timeupdated" "1721724406"
 		}
 		"development"
 		{
-			"buildid" "14842380"
+			"buildid" "15122298"
 			"pwdrequired" "1"
-			"timeupdated" "1719392721"
+			"timeupdated" "1721724337"
+		}
+		"steam_china_only"
+		{
+			"sc_schinese" "仅中国"
+			"buildid" "15122298"
+			"pwdrequired" "1"
+			"timeupdated" "1722392009"
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "24245894"
-"_sha" "6d5029ed21e511aa15d117442c0d94a609cb2bdd"
-"_size" "3160"
+"_change_number" "24965705"
+"_sha" "3016e353759272280f30a1ab2eb90b7c56399ca8"
+"_size" "4442"
