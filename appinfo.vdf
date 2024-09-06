@@ -44,8 +44,6 @@
 		"0" "1"
 		"1" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_sex" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "3"
@@ -118,7 +116,53 @@
 			"height_pct" "88.98123961054381"
 		}
 	}
-	"store_asset_mtime" "1666698709"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"japanese" "library_600x900_japanese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"japanese" "library_600x900_japanese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"japanese" "logo_japanese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"japanese" "logo_japanese_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "83.55935917277745"
+				"height_pct" "88.98123961054381"
+			}
+		}
+	}
+	"store_asset_mtime" "1722428135"
 	"associations"
 	{
 		"0"
@@ -149,6 +193,7 @@
 		"category_2" "1"
 		"category_28" "1"
 		"category_29" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -210,12 +255,12 @@
 	{
 		"0" "4434"
 		"1" "1742"
-		"2" "4085"
+		"2" "1756"
 		"3" "4325"
-		"4" "1756"
+		"4" "4085"
 		"5" "122"
-		"6" "10695"
-		"7" "4182"
+		"6" "4182"
+		"7" "10695"
 		"8" "9551"
 		"9" "6971"
 		"10" "1741"
@@ -230,7 +275,7 @@
 		"19" "4667"
 	}
 	"review_score" "9"
-	"review_percentage" "97"
+	"review_percentage" "96"
 }
 "extended"
 {
@@ -259,7 +304,7 @@
 			{
 				"oslist" "windows"
 				"osarch" "64"
-				"betakey" "develop segalocaltest daily qualityassurance beta sugar qa_spice"
+				"betakey" "develop segalocaltest daily qualityassurance beta sugar qa_spice saalt"
 			}
 			"description_loc"
 			{
@@ -274,7 +319,7 @@
 			{
 				"oslist" "windows"
 				"osarch" "64"
-				"betakey" "develop segalocaltest daily qualityassurance beta sugar qa_spice"
+				"betakey" "develop segalocaltest daily qualityassurance beta sugar qa_spice saalt"
 			}
 			"description_loc"
 			{
@@ -312,9 +357,9 @@
 		{
 			"public"
 			{
-				"gid" "218869177988678872"
-				"size" "41515603510"
-				"download" "35663470016"
+				"gid" "179949564195054526"
+				"size" "41514607670"
+				"download" "35662637744"
 			}
 		}
 		"encryptedmanifests"
@@ -325,29 +370,35 @@
 				"size" "72A1E9B7127E54F2E409B579A8BCA975"
 				"download" "CC6847E4F9C0548540F3916E57D7E72D"
 			}
-			"qa_final"
-			{
-				"gid" "AA36749C439E10DE9359F15564F8C468"
-				"size" "52C1C274B63369C7E697204C8BCAF150"
-				"download" "1B5BEF947143B5F89F7FFB3C9484A8FC"
-			}
 			"qa_spice"
 			{
 				"gid" "618BE7A59F8F7B913EAA33B40C8559D7"
 				"size" "1440485F65A633497DE359980149AF01"
 				"download" "BDF6471B6A033661063DC00B2D62A213"
 			}
-			"release_candidate"
+			"saalt"
 			{
-				"gid" "41663CC3D24D7A8EDA94E817193AE69C"
-				"size" "80D72DC9831189FC5FA4962E25F76574"
-				"download" "74D810F4ECD43CB6B0C089CBDC79672B"
+				"gid" "3C133759D904B7F2774E0DA54C8866ED"
+				"size" "FFDCA9D8BD36CDEEDB49988617581E49"
+				"download" "6FDBDC3F562AB584FA5C03592F667130"
 			}
 			"shichimi"
 			{
 				"gid" "CA8569E1EAF13D047D84427BED66BFD4"
 				"size" "08A4ED210B430F03D4BFD91473AA4A40"
 				"download" "B02CD4A65BDF6C1F76F36EF2C50ECB84"
+			}
+			"qa_final"
+			{
+				"gid" "A848F8BDD66DE0F05961742B2396E320"
+				"size" "8511DD10B0F138EAF5CDF38A0258506A"
+				"download" "C51A30A7EC001D2F474B2611A81A033F"
+			}
+			"release_candidate"
+			{
+				"gid" "7593C13E2170060A83F46BA36B97885F"
+				"size" "9F204871F7CFA9DDE0AEF5EC4755E56E"
+				"download" "29D30D0B4F5C8335D4AAF234598E4229"
 			}
 		}
 	}
@@ -374,29 +425,35 @@
 				"size" "8E03CFEFEB7747E277D5FA3B12EE71E8"
 				"download" "D51D8FA32E949169729C65FC05AB7583"
 			}
-			"qa_final"
-			{
-				"gid" "72551F37E4A190D9F496FD5D8D0CB9BA"
-				"size" "B4C13FE6210A35676B4902CEF518C40B"
-				"download" "C58D0F3110286B676EBE66D91B31234F"
-			}
 			"qa_spice"
 			{
 				"gid" "18F13A08E0AE92D7F7602C5DA130A91F"
 				"size" "F70DD88B0D8983CA5551641BD32287C5"
 				"download" "9CE7D42095162EE1F00087633C3532E5"
 			}
-			"release_candidate"
+			"saalt"
 			{
-				"gid" "FCA0C1DF3B0AEFCA6B3BCB8BFA2277D6"
-				"size" "A871F03CA4A0C9D42770F4C12BC24EC6"
-				"download" "98F1DDC52447D9AF73FCCE4FD4BE5A32"
+				"gid" "B66F841A97F3AF975C2C92E1CD98B378"
+				"size" "E683CC75EBA159D922B3D1E28E9643B1"
+				"download" "64D3348310786489B2066CFA86286FD8"
 			}
 			"shichimi"
 			{
 				"gid" "35D01DBF1953C168444BBC8275AD6727"
 				"size" "6E307A1957F7D51A3A08147AC857969F"
 				"download" "CB5B5C792DE7A25314463B48B6C9D698"
+			}
+			"qa_final"
+			{
+				"gid" "72551F37E4A190D9F496FD5D8D0CB9BA"
+				"size" "B4C13FE6210A35676B4902CEF518C40B"
+				"download" "C58D0F3110286B676EBE66D91B31234F"
+			}
+			"release_candidate"
+			{
+				"gid" "FCA0C1DF3B0AEFCA6B3BCB8BFA2277D6"
+				"size" "A871F03CA4A0C9D42770F4C12BC24EC6"
+				"download" "98F1DDC52447D9AF73FCCE4FD4BE5A32"
 			}
 		}
 	}
@@ -423,29 +480,35 @@
 				"size" "CC16C751B0AB2791DC39B53DDD5E62CA"
 				"download" "38A289A02008A1D85304424644BA0F1E"
 			}
-			"qa_final"
-			{
-				"gid" "3354A8F68C621FD20BD01FFFF54DD2E1"
-				"size" "5BAFC8A113F7E4098809CB7D632F8EC0"
-				"download" "A535B375C3C11C4BF17D4D56E5411D2B"
-			}
 			"qa_spice"
 			{
 				"gid" "830819A82BE87E8507AB1C3FE7B8A28F"
 				"size" "ECEF89229B6418E03EBC91024421F9F2"
 				"download" "3DEB1626D2FCFB6B772307F0EFE464E3"
 			}
-			"release_candidate"
+			"saalt"
 			{
-				"gid" "1088208CCD8416993EEB6A02BF0D7E8D"
-				"size" "4F245A1879122D09CB6BCC0922E8F582"
-				"download" "E0A8C8E8DC531AB6449DB4130A9715B5"
+				"gid" "7D3E31752EDB906001A19DABB5CA6976"
+				"size" "79296ADD2F769527089A9F5DE44252A1"
+				"download" "30CAE3ECE9A4415F0BBEF408CC1C6972"
 			}
 			"shichimi"
 			{
 				"gid" "E45DA5D419CA54A8AF6BC73E1ED7542E"
 				"size" "CC733F32C0AD7397E9A132685FE57F20"
 				"download" "AA4476A3C1FE121873874F32035F2979"
+			}
+			"qa_final"
+			{
+				"gid" "3354A8F68C621FD20BD01FFFF54DD2E1"
+				"size" "5BAFC8A113F7E4098809CB7D632F8EC0"
+				"download" "A535B375C3C11C4BF17D4D56E5411D2B"
+			}
+			"release_candidate"
+			{
+				"gid" "1088208CCD8416993EEB6A02BF0D7E8D"
+				"size" "4F245A1879122D09CB6BCC0922E8F582"
+				"download" "E0A8C8E8DC531AB6449DB4130A9715B5"
 			}
 		}
 	}
@@ -472,29 +535,35 @@
 				"size" "8B93D9E548CBD1099CD6581C88AD7B14"
 				"download" "EE90CC7C78F2418F625A44C4BFD79579"
 			}
-			"qa_final"
-			{
-				"gid" "C2A3FFD2C24133981839BF2C456FCFAE"
-				"size" "A7CD4FC5A0AC51E0072F33F1631EB0E4"
-				"download" "B771F596651CFA62F6A6026B274CE27F"
-			}
 			"qa_spice"
 			{
 				"gid" "8452FF7386705485E7FF788F9CE8FBF7"
 				"size" "B12C4875BA2FEDB4DECCC4C5EF657614"
 				"download" "7F39CEB4CA48C9BAE86B6737F0E15C79"
 			}
-			"release_candidate"
+			"saalt"
 			{
-				"gid" "B0DF2452741166112A49592DA02D3120"
-				"size" "0A8BEBABD91C5E8D2EC043CA7660420F"
-				"download" "8C26EDD139601197571504B62B02CEEE"
+				"gid" "CBF3CB9592822F60A8B7EEDC795C32F7"
+				"size" "AD72E3223ECC780C2E6F909097FA6CC1"
+				"download" "DDBA85C796E0563BE685DFEFCE1ADD48"
 			}
 			"shichimi"
 			{
 				"gid" "251F40F83B284F8A3AC13537B0CD2BD1"
 				"size" "4DAA5E67B533FB0D47BEC9327DE85E1F"
 				"download" "57768E6683FBB5A3EB528CFB87CF3F58"
+			}
+			"qa_final"
+			{
+				"gid" "C2A3FFD2C24133981839BF2C456FCFAE"
+				"size" "A7CD4FC5A0AC51E0072F33F1631EB0E4"
+				"download" "B771F596651CFA62F6A6026B274CE27F"
+			}
+			"release_candidate"
+			{
+				"gid" "B0DF2452741166112A49592DA02D3120"
+				"size" "0A8BEBABD91C5E8D2EC043CA7660420F"
+				"download" "8C26EDD139601197571504B62B02CEEE"
 			}
 		}
 	}
@@ -521,29 +590,35 @@
 				"size" "F44D56CA3656ACD88B386C9F88C08679"
 				"download" "1A8748DE1715269D121627F1124CD5C5"
 			}
-			"qa_final"
-			{
-				"gid" "3C6C433C903DE4AD562FBA7093FC04E8"
-				"size" "461C4F815616A5538A287175E8396308"
-				"download" "9A3DC86ADD4307E306BA36C8E5662919"
-			}
 			"qa_spice"
 			{
 				"gid" "39E1AB11F8011C5FC95F6892C7B410D3"
 				"size" "70F757584B0E27E40800C5CEA1CED257"
 				"download" "3EC62895844CF49176E8175352B4DCF5"
 			}
-			"release_candidate"
+			"saalt"
 			{
-				"gid" "E06DFF09054B8FC1B765E3B697A801A8"
-				"size" "94E6B8713EC788C79382E717FB5E152E"
-				"download" "F271AE2A56B7DE090685E7064E578969"
+				"gid" "F73A207B8ED98585E58AC3571D61267A"
+				"size" "91035C101F3233B2DB237C6A6FDB2C11"
+				"download" "F84637901515DA1781A1AC838E2D71ED"
 			}
 			"shichimi"
 			{
 				"gid" "E9C58F705F85E9E74DD56A0FAC81B5A2"
 				"size" "90A4F54C8A16552372BA82E85CE3E82A"
 				"download" "E7C4C170B399ECD5A449919297EA3B7F"
+			}
+			"qa_final"
+			{
+				"gid" "3C6C433C903DE4AD562FBA7093FC04E8"
+				"size" "461C4F815616A5538A287175E8396308"
+				"download" "9A3DC86ADD4307E306BA36C8E5662919"
+			}
+			"release_candidate"
+			{
+				"gid" "E06DFF09054B8FC1B765E3B697A801A8"
+				"size" "94E6B8713EC788C79382E717FB5E152E"
+				"download" "F271AE2A56B7DE090685E7064E578969"
 			}
 		}
 	}
@@ -570,29 +645,35 @@
 				"size" "270C7C878F543B03AD13E9B633240081"
 				"download" "4779764F6D19AFA8FA76834CEAE633B4"
 			}
-			"qa_final"
-			{
-				"gid" "CDF4DC06D2AB13DAF8173A375CE7EF05"
-				"size" "182E0979042D030D4B603E6F184FCFAA"
-				"download" "6DAF9144F018E0B101FB513F11EB108E"
-			}
 			"qa_spice"
 			{
 				"gid" "ED41C5619F6271E015E16F1F0B776523"
 				"size" "A1C9099D7666093FD05FD13C7F70F29E"
 				"download" "11031EBDF324054450CFE78C4DB25F47"
 			}
-			"release_candidate"
+			"saalt"
 			{
-				"gid" "1ED0DB99F944351E89D82A1A4B116563"
-				"size" "45CA05AA57C61E2B722E0AB15ADC90FC"
-				"download" "3290E7A60CAA313A260411BC7DF6F647"
+				"gid" "C229D047F0045EDF0E18ADFFA8D6597F"
+				"size" "6616C07327DA35C05F8B10B9F22CB66C"
+				"download" "B6A99360DCE1C8EBD771D7B51B60C740"
 			}
 			"shichimi"
 			{
 				"gid" "C62DE96CE55A9DD0BD76C98C0C16FE3C"
 				"size" "A46DE0E1861B3CD0FA74209B3F037CEA"
 				"download" "971DB08E60F0D8AC4AD38D68FD1DE4DB"
+			}
+			"qa_final"
+			{
+				"gid" "CDF4DC06D2AB13DAF8173A375CE7EF05"
+				"size" "182E0979042D030D4B603E6F184FCFAA"
+				"download" "6DAF9144F018E0B101FB513F11EB108E"
+			}
+			"release_candidate"
+			{
+				"gid" "1ED0DB99F944351E89D82A1A4B116563"
+				"size" "45CA05AA57C61E2B722E0AB15ADC90FC"
+				"download" "3290E7A60CAA313A260411BC7DF6F647"
 			}
 		}
 	}
@@ -619,29 +700,35 @@
 				"size" "D516A2982CCE39B0076F7EBDC38E0E36"
 				"download" "7935D62DAE547B0F98FEE663D8942AA9"
 			}
-			"qa_final"
-			{
-				"gid" "685880573D7045DEEBABB5C432854CF0"
-				"size" "95B23DF29774E8EE752511A27291DD67"
-				"download" "479DA0D9244FAEDE4F4BEAD12F241716"
-			}
 			"qa_spice"
 			{
 				"gid" "1B4827D5FB9895DFA644D6987B398659"
 				"size" "5D49BD1C6F797898DF9AB7DED8571AAE"
 				"download" "2A96D3ACF6B845A43D36E73C0CD3328B"
 			}
-			"release_candidate"
+			"saalt"
 			{
-				"gid" "EAA02B390C8822837430B7526E731871"
-				"size" "4B83D46CCA808641213EEA4390A8C3CC"
-				"download" "4A7EADA732A6BFB72F1FDC85CC75826E"
+				"gid" "787A8394FB6182C4130B37EF48D64F96"
+				"size" "AB52D5637C4B76A04050F1267F3AF878"
+				"download" "2457EF51E6243071738B6EC959D67B69"
 			}
 			"shichimi"
 			{
 				"gid" "23EA32EC6959D1919776377FFD27D7CA"
 				"size" "C8AC6668E8DB2C09B1E29818AF905185"
 				"download" "99DF1753921570A939B71C8CF119BE39"
+			}
+			"qa_final"
+			{
+				"gid" "685880573D7045DEEBABB5C432854CF0"
+				"size" "95B23DF29774E8EE752511A27291DD67"
+				"download" "479DA0D9244FAEDE4F4BEAD12F241716"
+			}
+			"release_candidate"
+			{
+				"gid" "EAA02B390C8822837430B7526E731871"
+				"size" "4B83D46CCA808641213EEA4390A8C3CC"
+				"download" "4A7EADA732A6BFB72F1FDC85CC75826E"
 			}
 		}
 	}
@@ -668,29 +755,35 @@
 				"size" "2F703FE3DF50D76EE54411AEDF4CACBE"
 				"download" "9CB111D8E1055360869F54F332C617F7"
 			}
-			"qa_final"
-			{
-				"gid" "9BB3F95AB2474B12E53C3BD0EBDEF900"
-				"size" "3C7CC12A9D1777C9525A165F21ECF832"
-				"download" "F842F407EC5BDED3C935CA20B04DC8DB"
-			}
 			"qa_spice"
 			{
 				"gid" "23E0987DA838848C18D8AD28390C605D"
 				"size" "5330CB0B55D3E24AF757EDE14297C1BD"
 				"download" "0B8753C0F1A7DECDF61A6FD5B292E57A"
 			}
-			"release_candidate"
+			"saalt"
 			{
-				"gid" "4A54665E2D869190D0B83F07AF99AFAE"
-				"size" "A3CA173940AF8630B98A9DB2CF4ECBBC"
-				"download" "1A60F2ADCA8A12326CC3968CFD78D7A6"
+				"gid" "C33AF07E71AE83EBE543B1E5469B3B6E"
+				"size" "D854336AAE098EE0ED1EDA1B2A414FBB"
+				"download" "39771B62B7D98ED852249B140F6CA5E8"
 			}
 			"shichimi"
 			{
 				"gid" "BA9BBFD98C97B2AA2F99028FC5CE7E57"
 				"size" "3D306A2F99A7D2723C9EE450DE2B0344"
 				"download" "819AE9ECE31D746EB060D64763BA40AE"
+			}
+			"qa_final"
+			{
+				"gid" "9BB3F95AB2474B12E53C3BD0EBDEF900"
+				"size" "3C7CC12A9D1777C9525A165F21ECF832"
+				"download" "F842F407EC5BDED3C935CA20B04DC8DB"
+			}
+			"release_candidate"
+			{
+				"gid" "4A54665E2D869190D0B83F07AF99AFAE"
+				"size" "A3CA173940AF8630B98A9DB2CF4ECBBC"
+				"download" "1A60F2ADCA8A12326CC3968CFD78D7A6"
 			}
 		}
 	}
@@ -717,29 +810,35 @@
 				"size" "448EC520235E10C477897727CAAFE893"
 				"download" "98ABDA15AFEBC58BCFEF44E76AF7A674"
 			}
-			"qa_final"
-			{
-				"gid" "151B737ADB5C581966051C1093B94E90"
-				"size" "6E4EFD625761139515671A5A3CA249CF"
-				"download" "0B8E989F82C9297D1D7EAF8098165565"
-			}
 			"qa_spice"
 			{
 				"gid" "0B2AB7C912F39B24C59AD99A7C653380"
 				"size" "AD18B655CD7CB7E0B7623590ED2BFEE8"
 				"download" "6AFAB333EE75F569E011E6BCC571E024"
 			}
-			"release_candidate"
+			"saalt"
 			{
-				"gid" "D7517AD2410F3FCC2BFB0BECC864078C"
-				"size" "C788E1740BA9B9339AE382B8DD66B4BF"
-				"download" "A033C972A1A2F8D7C218D3693AB45990"
+				"gid" "417D0D13E0D2CB47DDB66D0BDAD3F66F"
+				"size" "FE3F2C299D7082F9798236C0842167BC"
+				"download" "37EAA1046094B3898DDF70AB6C5690D8"
 			}
 			"shichimi"
 			{
 				"gid" "1BF7D6DE7ECCA9D6A59BAE94DD5B9011"
 				"size" "53080676E2E231AE8B97B05B93237AA7"
 				"download" "9B18A07B2003062B6390DA106FEBC0AD"
+			}
+			"qa_final"
+			{
+				"gid" "151B737ADB5C581966051C1093B94E90"
+				"size" "6E4EFD625761139515671A5A3CA249CF"
+				"download" "0B8E989F82C9297D1D7EAF8098165565"
+			}
+			"release_candidate"
+			{
+				"gid" "D7517AD2410F3FCC2BFB0BECC864078C"
+				"size" "C788E1740BA9B9339AE382B8DD66B4BF"
+				"download" "A033C972A1A2F8D7C218D3693AB45990"
 			}
 		}
 	}
@@ -766,29 +865,35 @@
 				"size" "E2AE58A35B52EE6C6BC65765F9C5D66A"
 				"download" "CDFC1D621EA528FB4589863603B3EEC1"
 			}
-			"qa_final"
-			{
-				"gid" "9E7F1CD82D80449D2FBEB0AD6925D030"
-				"size" "20ABAB94DE6EC914A061C20A679B9277"
-				"download" "ECA388E0E13F84F55E3488F324799951"
-			}
 			"qa_spice"
 			{
 				"gid" "CBF1215AA5F3BD3069BF1DA1B186D8F9"
 				"size" "0E4712E97FBA9CB042594375D0551CD2"
 				"download" "DC43296605C90367666916339BD95A59"
 			}
-			"release_candidate"
+			"saalt"
 			{
-				"gid" "50C40C177DEDCEF7118EB008C712402D"
-				"size" "37C64339DE1B5F9740ABF3958C2736F4"
-				"download" "37CF4A1355E33782A42237783F92F595"
+				"gid" "B16636021327BD9AA799339B77EB4DB8"
+				"size" "5927939D0EB9CCB454586CC14976DF57"
+				"download" "EF78A629791B16AC5C930C9D339806ED"
 			}
 			"shichimi"
 			{
 				"gid" "2E47A7B2FD6108E9B40D684BBFDB3E1D"
 				"size" "C528E34C332195CFC54492F25EA6692C"
 				"download" "3AACB772765595DC32D35819115AF6FE"
+			}
+			"qa_final"
+			{
+				"gid" "9E7F1CD82D80449D2FBEB0AD6925D030"
+				"size" "20ABAB94DE6EC914A061C20A679B9277"
+				"download" "ECA388E0E13F84F55E3488F324799951"
+			}
+			"release_candidate"
+			{
+				"gid" "50C40C177DEDCEF7118EB008C712402D"
+				"size" "37C64339DE1B5F9740ABF3958C2736F4"
+				"download" "37CF4A1355E33782A42237783F92F595"
 			}
 		}
 	}
@@ -805,14 +910,20 @@
 				"size" "61C58B032ECCE55BA59809EBA554ECB0"
 				"download" "99058636BF343FC712B17749B9F1903A"
 			}
+			"saalt"
+			{
+				"gid" "A311C35905E73416F00420D75F44AD5B"
+				"size" "6A3E5CA2922436ADD4A4656C2D2B4EEB"
+				"download" "7561BA7900F2D70468748307A4413599"
+			}
 		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "10510749"
-			"timeupdated" "1677715211"
+			"buildid" "15515071"
+			"timeupdated" "1725581356"
 		}
 		"papper"
 		{
@@ -820,29 +931,35 @@
 			"pwdrequired" "1"
 			"timeupdated" "1675222548"
 		}
-		"qa_final"
-		{
-			"buildid" "10127315"
-			"pwdrequired" "1"
-			"timeupdated" "1671432574"
-		}
 		"qa_spice"
 		{
 			"buildid" "9099231"
 			"pwdrequired" "1"
 			"timeupdated" "1657584933"
 		}
-		"release_candidate"
+		"saalt"
 		{
-			"buildid" "10510749"
+			"buildid" "10127261"
 			"pwdrequired" "1"
-			"timeupdated" "1675907285"
+			"timeupdated" "1713904994"
 		}
 		"shichimi"
 		{
 			"buildid" "10510749"
 			"pwdrequired" "1"
 			"timeupdated" "1675907422"
+		}
+		"qa_final"
+		{
+			"buildid" "15501429"
+			"pwdrequired" "1"
+			"timeupdated" "1724737377"
+		}
+		"release_candidate"
+		{
+			"buildid" "15515071"
+			"pwdrequired" "1"
+			"timeupdated" "1724828276"
 		}
 	}
 }
@@ -866,6 +983,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21750728"
-"_sha" "9a34b3c5dc6dc5990174ff1b5777271772ab2885"
-"_size" "18112"
+"_change_number" "25100233"
+"_sha" "268d3be3a7dbcbe6077a281523465bf59cf2bee0"
+"_size" "20871"
