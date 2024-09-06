@@ -37,32 +37,27 @@
 	"releasestatesteamchina" "released"
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1704499200"
-		"tested_build_id" "13047015"
+		"category" "3"
+		"test_timestamp" "1720483200"
+		"tested_build_id" "14702485"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"1"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"2"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
-			}
-			"3"
-			{
-				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
 			}
-			"4"
+			"3"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
@@ -71,14 +66,14 @@
 		"configuration"
 		{
 			"supported_input" "gamepad"
-			"requires_manual_keyboard_invoke" "1"
+			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
 			"non_deck_display_glyphs" "0"
 			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-2RC"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
 			"hdr_support" "0"
@@ -107,7 +102,55 @@
 			"height_pct" "63.52410353835191"
 		}
 	}
-	"store_asset_mtime" "1716909168"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+				"schinese" "library_hero_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+				"schinese" "library_hero_schinese_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "38.61022347314176"
+				"height_pct" "63.52410353835191"
+			}
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1721271327"
 	"associations"
 	{
 		"0"
@@ -244,8 +287,8 @@
 		"0" "10235"
 		"1" "1643"
 		"2" "87918"
-		"3" "3810"
-		"4" "3859"
+		"3" "3859"
+		"4" "3810"
 		"5" "1702"
 		"6" "122"
 		"7" "9551"
@@ -457,12 +500,6 @@
 				"size" "A59C411446EF3364DECAE6DE0CA23D4C"
 				"download" "61B6221ACDC36173FC0ED2D5BBE7F6FE"
 			}
-			"focus"
-			{
-				"gid" "2D3929FCAB92E7DBC47EC5EBC0A239D3"
-				"size" "B90CBDC2A78B5D286F81E9BC89AD78DE"
-				"download" "77AE4140796769CDA0F3FA8D726613D4"
-			}
 			"internal_test"
 			{
 				"gid" "EFA7402FDA22830AF620697E70650F81"
@@ -481,17 +518,23 @@
 				"size" "629B3C8D9E890F1355792B599B748F8F"
 				"download" "96BD1FE2309A72DFC61E9A7930C06BA2"
 			}
-			"super_secret_testing"
+			"dmm6"
 			{
-				"gid" "D02DE39DDACD0BBB9CD4177DC1400DA6"
-				"size" "D937A3C8975BFF18F1E943606116F15E"
-				"download" "A632C8077AF4A565D7D77E985A59746B"
+				"gid" "F332627EDAD664F9B77B51FBFA0CF41D"
+				"size" "B898E9E017793A477B7E43E067BEF9E9"
+				"download" "110A323467CF9A5A79390DB0D71DC4B3"
+			}
+			"focus"
+			{
+				"gid" "2D3929FCAB92E7DBC47EC5EBC0A239D3"
+				"size" "B90CBDC2A78B5D286F81E9BC89AD78DE"
+				"download" "77AE4140796769CDA0F3FA8D726613D4"
 			}
 			"media"
 			{
-				"gid" "FF8E15EB2A87CF76225539283CA01AD8"
-				"size" "3B34A9DFAD2FC7EA087ACBF0E4E519F3"
-				"download" "B57EE60F6CACE0E25D34CEFBFB2ECAB2"
+				"gid" "C740C99D9CC9A6EF2729E4A759A9FB8F"
+				"size" "43AB2387D55CC5E3D7EFEF0E8DA1C9D7"
+				"download" "F3243C67F288C856FB082FF27634BEB4"
 			}
 			"multi_test_zy_new"
 			{
@@ -501,15 +544,27 @@
 			}
 			"private_test"
 			{
-				"gid" "9B915C2723C535D91EB7EB010545EFE7"
-				"size" "25050949ECACA254FC43955B94522F88"
-				"download" "E21C96C54272D5E0D65F62AED135B717"
+				"gid" "EDD898685D72FA3CA526B5AD6DB397E2"
+				"size" "88B91271690287E2330E70156C64C47E"
+				"download" "8663CA3AC66B56E4AE0D4C574F64BE89"
 			}
 			"private_test_release"
 			{
-				"gid" "8367D840076B1D7D8784EC7823B0DD2E"
-				"size" "4B97554D75EB64A91DDB1AA7ABA4BD6E"
-				"download" "BBEE833C707AAEB7C3305BBEFC6C4A53"
+				"gid" "1E031C684BF578C4F9CBD0A1B88C6362"
+				"size" "03236B9209E0D4F75C1F958139F12ADE"
+				"download" "914D8E865507F32DF20C66F7752D5850"
+			}
+			"super_secret_testing"
+			{
+				"gid" "2F25DA7014E05B55664308552DE63F2D"
+				"size" "9DADC4FC796B14298C196B82C57B81E6"
+				"download" "917EB5104A5B64C3847DD31AD3151ACB"
+			}
+			"supersecrettesting2"
+			{
+				"gid" "599B9F4E69A803E1185EAD6755B2F9AF"
+				"size" "AE39170C453432E5FAF3596B8144436E"
+				"download" "3111BFB6583296AD24567F4D47FE304B"
 			}
 		}
 	}
@@ -545,9 +600,9 @@
 		{
 			"public"
 			{
-				"gid" "3808250832268979959"
-				"size" "29288264409"
-				"download" "12429609008"
+				"gid" "4933847802932195051"
+				"size" "29295706940"
+				"download" "12433699344"
 			}
 			"ks_demo"
 			{
@@ -600,18 +655,6 @@
 				"size" "7545C28C7D7986C9AD5A0541BC899CEA"
 				"download" "827A600292B184318B10676731D2EE9A"
 			}
-			"dmm6"
-			{
-				"gid" "604BC6024A62E0D491F1084273ED01E5"
-				"size" "2DA3168DBB3A743509FB1F4C44BF41C9"
-				"download" "1696162327C17F8D8CC2F64BCB1F60A9"
-			}
-			"focus"
-			{
-				"gid" "B15EB836BB5F5DD68D26B2F4B3178B0C"
-				"size" "71D549AD9CFE1012A94ABF98DCEC221C"
-				"download" "FD8B96A4D04737436EBA2DFBB98AA327"
-			}
 			"internal_test"
 			{
 				"gid" "E89980A2CA1284227FD325E40E8E5ED0"
@@ -642,17 +685,23 @@
 				"size" "CBCC7BC279A6F6BE6B4FD83E3BFAB726"
 				"download" "E55166CDB911F0A4C81E0058E09E6E03"
 			}
-			"super_secret_testing"
+			"dmm6"
 			{
-				"gid" "812B5C1A22FACB6E6F32724D849587C3"
-				"size" "F8A5380AC6544ABD8020700A76FE7490"
-				"download" "534ABFC2583AE8E58C3E7A2A18F8FF4E"
+				"gid" "8991FD723521098F7BDA6B50F0765576"
+				"size" "00CA71C33F8BA823EC7702D4D0D74C70"
+				"download" "057E698F88E66C041A66B55708FA80C7"
+			}
+			"focus"
+			{
+				"gid" "7E2F39CE0D6A1DF1367EA5BB636F2AF6"
+				"size" "110A8A3886F5403C93F2249DCA263E91"
+				"download" "70E59DDB8D7F19BDAF011CE2620A0133"
 			}
 			"media"
 			{
-				"gid" "0392BB5A61BC99E22FEBF168009E8650"
-				"size" "26B6232771A7FE7DFE00B17A7BE83593"
-				"download" "15460A73B6EE074F04B9B94D5246A456"
+				"gid" "D67EFAE31DFD37D5556A5199EB4B6A38"
+				"size" "7C117A991D63B11F7FE7A16C261B36D5"
+				"download" "AED60A57954E7961AC1179E3AE857694"
 			}
 			"multi_test_zy_new"
 			{
@@ -662,15 +711,27 @@
 			}
 			"private_test"
 			{
-				"gid" "D8E91B1D53B71FEFBA07B91636A5A292"
-				"size" "A1580D147875350D11B775AE49F97C33"
-				"download" "9D0631A58405C0A7F4D47F601922302C"
+				"gid" "1F4DAB348D0F80FA8846646C19F0C268"
+				"size" "0F1B60E17E92400A43DEACF4AC9BA458"
+				"download" "E4C395726E591FD1A2DB39EC3C1392A6"
 			}
 			"private_test_release"
 			{
-				"gid" "363FC6B616790D444994FD471D0562EE"
-				"size" "7DAC431A4313427F4CB7112DACE0E82B"
-				"download" "3C0BD39AF4C35E1ED7DA2DC099639367"
+				"gid" "E86ACEE4D5CDB6502AC2C5EDC4C64B90"
+				"size" "708FC8C988C4143D66796842771B6D09"
+				"download" "6944B549A9FDD8048584FD20A714312E"
+			}
+			"super_secret_testing"
+			{
+				"gid" "812B5C1A22FACB6E6F32724D849587C3"
+				"size" "F8A5380AC6544ABD8020700A76FE7490"
+				"download" "534ABFC2583AE8E58C3E7A2A18F8FF4E"
+			}
+			"supersecrettesting2"
+			{
+				"gid" "DD5A4DE130A7F522E1B2E598AB2CCB8F"
+				"size" "850ED4DF0FFE4EFB963CDDE7CC02CA17"
+				"download" "4EEFEFC112AE5E192E6F92B9AE17D4CC"
 			}
 		}
 	}
@@ -694,6 +755,12 @@
 				"size" "CCFFBB2543017705A0D710E16A692999"
 				"download" "0AE89D58E3FBE9EB1557305DB36F75C2"
 			}
+			"supersecrettesting2"
+			{
+				"gid" "8225F09C2DB90D5CCBBC145D2BE1B40C"
+				"size" "1A1760F5F446DF6EDFC3FA61CFD610C7"
+				"download" "92593B01B068E448901FE04B4EE93509"
+			}
 		}
 	}
 	"hasdepotsindlc" "1"
@@ -701,8 +768,8 @@
 	{
 		"public"
 		{
-			"buildid" "14702485"
-			"timeupdated" "1718266305"
+			"buildid" "15611817"
+			"timeupdated" "1725600040"
 		}
 		"beta"
 		{
@@ -740,18 +807,6 @@
 			"pwdrequired" "1"
 			"timeupdated" "1624620646"
 		}
-		"dmm6"
-		{
-			"buildid" "9460245"
-			"pwdrequired" "1"
-			"timeupdated" "1662544256"
-		}
-		"focus"
-		{
-			"buildid" "14004664"
-			"pwdrequired" "1"
-			"timeupdated" "1712716227"
-		}
 		"internal_test"
 		{
 			"buildid" "12479981"
@@ -779,10 +834,10 @@
 		}
 		"multi_beta_zy"
 		{
+			"sc_schinese" "多人体验服测试分支"
 			"buildid" "13539524"
 			"pwdrequired" "1"
 			"timeupdated" "1708665561"
-			"sc_schinese" "多人体验服测试分支"
 		}
 		"newdemotest"
 		{
@@ -796,40 +851,54 @@
 			"pwdrequired" "1"
 			"timeupdated" "1657622949"
 		}
-		"super_secret_testing"
+		"dmm6"
 		{
-			"buildid" "12769673"
+			"buildid" "14854927"
 			"pwdrequired" "1"
-			"timeupdated" "1700648091"
+			"timeupdated" "1719471186"
+		}
+		"focus"
+		{
+			"buildid" "14854929"
+			"pwdrequired" "1"
+			"timeupdated" "1719471200"
 		}
 		"media"
 		{
-			"buildid" "14180555"
+			"buildid" "15379098"
 			"pwdrequired" "1"
-			"timeupdated" "1714099228"
+			"timeupdated" "1723710355"
 		}
 		"multi_test_zy_new"
 		{
+			"sc_schinese" "多人项目专用测试分支"
 			"buildid" "14700941"
 			"pwdrequired" "1"
 			"timeupdated" "1718255538"
-			"sc_schinese" "多人项目专用测试分支"
 		}
 		"private_test"
 		{
-			"buildid" "14594686"
+			"buildid" "15604793"
 			"pwdrequired" "1"
-			"timeupdated" "1717485601"
+			"timeupdated" "1725548349"
 		}
 		"private_test_release"
 		{
-			"buildid" "14595178"
+			"buildid" "15611108"
 			"pwdrequired" "1"
-			"timeupdated" "1717488410"
+			"timeupdated" "1725593157"
 		}
-		"steam_china_only"
+		"super_secret_testing"
 		{
-			"sc_schinese" "仅中国"
+			"buildid" "15272227"
+			"pwdrequired" "1"
+			"timeupdated" "1722920466"
+		}
+		"supersecrettesting2"
+		{
+			"buildid" "15573738"
+			"pwdrequired" "1"
+			"timeupdated" "1725340452"
 		}
 	}
 }
@@ -881,6 +950,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23952296"
-"_sha" "54fb96c46336457deaf38a4dbb28aa6a07370d5c"
-"_size" "18315"
+"_change_number" "25103113"
+"_sha" "2e491f597d2ac56c3c2c3980eedcedba9fde1ed4"
+"_size" "19857"
