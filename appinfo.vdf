@@ -1,0 +1,327 @@
+"appid" "1477830"
+"common"
+{
+	"name" "HudSight - crosshair overlay"
+	"type" "Application"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"logo" "f62c29b867074ce6d1a6406025efb83047e0abe7"
+	"logo_small" "f62c29b867074ce6d1a6406025efb83047e0abe7_thumb"
+	"icon" "00e8a31d29638c165317b0630c7d0068e14026aa"
+	"clienttga" "d8ceca13679757581367f54313dd97e048888170"
+	"clienticon" "950a9c8e38189c07bdaf29cedb0d03e46cbe0aff"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+	}
+	"name_localized"
+	{
+		"russian" "HudSight - оверлей прицела"
+		"schinese" "HudSight - 十字线覆盖"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1669852800"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_Software"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "76.8378063010502"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "76.8378063010502"
+				"height_pct" "100"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1703215866"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Eduard Kozadaev"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Eduard Kozadaev"
+		}
+	}
+	"primary_genre" "57"
+	"genres"
+	{
+		"0" "1"
+		"1" "54"
+		"2" "56"
+		"3" "57"
+		"4" "58"
+	}
+	"category"
+	{
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1609870632"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1477830"
+	"exfgls" "6"
+	"store_tags"
+	{
+		"0" "87"
+		"1" "784"
+		"2" "19"
+		"3" "1445"
+		"4" "1036"
+		"5" "1663"
+		"6" "8013"
+		"7" "1774"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "Eduard Kozadaev"
+	"publisher" "Eduard Kozadaev"
+	"homepage" "https://hudsight.com"
+}
+"config"
+{
+	"installdir" "HudSight"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "HudSightApp64.exe"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Start HudSight 2"
+			}
+			"description" "Start HudSight 2"
+		}
+		"2"
+		{
+			"executable" "v1/SteamInterface.exe"
+			"workingdir" "v1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Start old HudSight v1"
+			}
+			"description" "Start old HudSight v1"
+		}
+		"3"
+		{
+			"executable" "SteamInterface.exe"
+			"config"
+			{
+				"betakey" "previous_build"
+			}
+			"description_loc"
+			{
+				"english" "Old HudSight v1"
+			}
+			"description" "Old HudSight v1"
+		}
+	}
+}
+"depots"
+{
+	"1477831"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7607605799500642344"
+				"size" "25496621"
+				"download" "19623904"
+			}
+			"beta"
+			{
+				"gid" "5690836652021717645"
+				"size" "25480435"
+				"download" "19577088"
+			}
+			"oldsign"
+			{
+				"gid" "5690836652021717645"
+				"size" "25480435"
+				"download" "19577088"
+			}
+			"previous_build"
+			{
+				"gid" "2852067976944914398"
+				"size" "10033207"
+				"download" "7809760"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"version2"
+			{
+				"gid" "0AB32C2F45F9D2FB1707D821F53D78FA"
+				"size" "D1AFECA35496799AEE249A60096A6BC9"
+				"download" "B5E028C73A6D4ABF1A818C12B6E5BC2B"
+			}
+		}
+	}
+	"workshopdepot" "1477830"
+	"baselanguages" "english,schinese,russian"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15531495"
+			"timeupdated" "1725452277"
+		}
+		"beta"
+		{
+			"buildid" "13401729"
+			"description" "Beta branch"
+			"timeupdated" "1710507123"
+		}
+		"oldsign"
+		{
+			"buildid" "13401729"
+			"description" "V2.6910 - Old digital code signature"
+			"timeupdated" "1725451974"
+		}
+		"previous_build"
+		{
+			"buildid" "6674320"
+			"description" "V1.5330"
+			"timeupdated" "1630411357"
+		}
+		"version2"
+		{
+			"buildid" "15531495"
+			"pwdrequired" "1"
+			"timeupdated" "1724934296"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "17000000"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "25078048"
+"_sha" "4d76e7a6d3f3009111b9bab9ac4c085bf5733269"
+"_size" "5743"
