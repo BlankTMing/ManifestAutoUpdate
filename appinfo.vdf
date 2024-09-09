@@ -6,7 +6,7 @@
 	"icon" "0fccfb5eb2acb934db1fe95a4e578f25ccbd71ec"
 	"clienticon" "28e9820314cb73ee94250fe51afed163c2de6de9"
 	"clienttga" "f81923e5b5a1f43d4b10bf5e2892a6024933f2f6"
-	"releasestate" "prerelease"
+	"releasestate" "released"
 	"oslist" "windows"
 	"osarch" "64"
 	"osextended" ""
@@ -40,11 +40,16 @@
 			"version" "1"
 		}
 	}
+	"name_localized"
+	{
+		"schinese" "Warhammer 40,000: 星际战士2"
+	}
 	"content_descriptors"
 	{
 		"0" "2"
 		"1" "5"
 	}
+	"metacritic_name" "Warhammer 40,000: Space Marine II"
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -119,7 +124,7 @@
 			}
 		}
 	}
-	"store_asset_mtime" "1725553061"
+	"store_asset_mtime" "1725898649"
 	"associations"
 	{
 		"0"
@@ -161,6 +166,7 @@
 		"category_23" "1"
 		"category_28" "1"
 		"category_29" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -257,9 +263,12 @@
 			"subtitles" "true"
 		}
 	}
+	"steam_release_date" "1725898194"
+	"metacritic_score" "83"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/warhammer-40000-space-marine-ii\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "2183900"
-	"exfgls" "8"
 	"store_tags"
 	{
 		"0" "12286"
@@ -267,30 +276,32 @@
 		"2" "21"
 		"3" "3814"
 		"4" "4106"
-		"5" "6730"
-		"6" "3859"
+		"5" "3859"
+		"6" "6730"
 		"7" "1697"
 		"8" "4684"
-		"9" "5094"
+		"9" "1685"
 		"10" "4191"
-		"11" "1685"
+		"11" "5094"
 		"12" "3942"
 		"13" "1684"
 		"14" "1755"
-		"15" "4175"
-		"16" "1678"
+		"15" "1678"
+		"16" "4175"
 		"17" "4182"
 		"18" "4295"
 		"19" "4145"
 	}
-	"review_score" "5"
-	"review_percentage" "56"
+	"review_score" "8"
+	"review_percentage" "80"
 }
 "extended"
 {
 	"developer" "Saber Interactive"
 	"publisher" "Focus Entertainment"
 	"homepage" "https://www.focus-entmt.com/games/warhammer-40000-space-marine-2"
+	"listofdlc" "2486150,2792140,2792150,2792280"
+	"dlcavailableonstore" "1"
 }
 "config"
 {
@@ -302,11 +313,10 @@
 			"executable" "Warhammer 40000 Space Marine 2.exe"
 			"arguments" "--cwd client_pc\\root\\bin\\pc"
 			"workingdir" "client_pc\\root\\bin\\pc"
-			"type" "option1"
+			"type" "default"
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "fe_v_build_review, review, gw_external_review"
 			}
 			"description_loc"
 			{
@@ -659,6 +669,7 @@
 }
 "depots"
 {
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,czech,turkish,brazilian,ukrainian,latam"
 	"228989"
 	{
 		"config"
@@ -674,9 +685,9 @@
 		{
 			"public"
 			{
-				"gid" "6829793464794649323"
-				"size" "69359202893"
-				"download" "55803536640"
+				"gid" "3527881834391453566"
+				"size" "69361363769"
+				"download" "55804119872"
 			}
 		}
 		"encryptedmanifests"
@@ -692,6 +703,12 @@
 				"gid" "DDC1D2B1112F42DAEFDC9E32DE7832D2"
 				"size" "13EA45E5F7BF1958F2DF5BEE23C2C994"
 				"download" "B61D4A56E23E8632A57DA24AF580AF37"
+			}
+			"eos_fix"
+			{
+				"gid" "D2D60EDDE26ADB54D3627F859B761C2E"
+				"size" "9B75A2F2FE654D8300C159220D42CDBF"
+				"download" "4BDD8967D070B69ADAB4F7B98B3D6EBF"
 			}
 			"fe_crossplay"
 			{
@@ -741,12 +758,6 @@
 				"size" "19C3061A2556E4933BAA923B9A991BD8"
 				"download" "53DB7199C50BF218CD431D8B3353044D"
 			}
-			"gw_streaming"
-			{
-				"gid" "F2949A907199A451618FFAA7E2DB1FD2"
-				"size" "EC832F3D17E8C36754F7CD2CC7571265"
-				"download" "5ABC7BEA36631CC5546E84AE1D172C90"
-			}
 			"ms_builds"
 			{
 				"gid" "1EB610AF7375F35CEF0916C1C56CBF47"
@@ -755,9 +766,9 @@
 			}
 			"patch_3x_steamfeats"
 			{
-				"gid" "A490C62D94D35A87F82EFF63BA41A052"
-				"size" "F5CFB8CC5339C1D0DA1E12B66C9C5B6F"
-				"download" "3E16E1CE0E057121A04F39682DCE9256"
+				"gid" "4B6630E1159E80FAC23F5FB99C99742F"
+				"size" "32EDB9B224418C119D032DE53F47CBF4"
+				"download" "AFD001F29C0A743297CD844DCDCE9838"
 			}
 			"pvp_stable"
 			{
@@ -773,33 +784,33 @@
 			}
 			"steam_features"
 			{
-				"gid" "E36CBA4492B02A5C0A70D6222DC1CFF5"
-				"size" "24E20DA46AFDECBFD2F91925A894F4C3"
-				"download" "19805A28684E001AF7D9E7132AF48AFB"
+				"gid" "E1E33EFB73BB2646941CECE9C5221D6A"
+				"size" "381590B41E2F88F994A71A70BC9959C7"
+				"download" "FC2D1677B31E0C30FD0044160BB90950"
 			}
 			"test_backend"
 			{
-				"gid" "0B9ADB197FBD3C4C76DC2A53FAFB326B"
-				"size" "612E1BBEA110C1B88F921816CDF92701"
-				"download" "29421E4B7EC654AE23AF5F0DD1B5C90D"
+				"gid" "A8A5ED39BC18A088C37700BEB9347C5C"
+				"size" "6A7624B842EBF158A1ADA1B37B9B6F87"
+				"download" "23DFC2145730847D0224E8FE66F4223D"
 			}
 			"test_bender"
 			{
-				"gid" "D1F3A77C568882D31BA24CE369DFF390"
-				"size" "7E8CA68EA39EE18793CE725681BD2FD4"
-				"download" "F7D3CCFCC1F741760C402208E004134A"
+				"gid" "2AFC9F573D9052BA3041FDE84E828285"
+				"size" "78D90A7AD7A057B7F2BCE76F7062059C"
+				"download" "348F14BB98BF96E7912DFA923EEE0C70"
 			}
 			"test_fcs"
 			{
-				"gid" "792A4D82876CD8CCD41EA841D9394032"
-				"size" "C3135CD92DB313CAFC761105BEE015BB"
-				"download" "C7E1037B1DA6E926AAD0F50A5ECFBEB5"
+				"gid" "E5D75B58263950F4989597A1FA9BD9C5"
+				"size" "965FC7F7C1911F3A5EA6703FFCAD66C7"
+				"download" "8D3F4D7BB482E1EEBAB86E57664B08F6"
 			}
 			"test_fcs_alt"
 			{
-				"gid" "A6C01E82293E6224775502965F0DDC2B"
-				"size" "7882E80A9C11D1012D23800C3E4144DA"
-				"download" "3743AFC67157075D9B0E147D8205507D"
+				"gid" "5F27B2B1FD0FE7C5C6E5B4DA41CF8482"
+				"size" "A8DF60E5940139F2614CD42BFF88F3BF"
+				"download" "1DE6DA869D92A3A51FF4BB57C7992E7A"
 			}
 			"test_perf"
 			{
@@ -809,25 +820,28 @@
 			}
 			"test_prod_steamfeats"
 			{
-				"gid" "7562428425FCCA21768FB33B10E0E94A"
-				"size" "4D5A1290C6374C7617D6D51FD4840392"
-				"download" "99F3F185C5E7859088717304A24413E8"
+				"gid" "D56CC0F9E2764B66FEF5306C1CC8D521"
+				"size" "E5E671EC4729FFC2D0BD3351F994AF75"
+				"download" "8720C89703E658741003734D7EAFD0A5"
 			}
 			"test_pros_true_retail"
 			{
-				"gid" "2074A93AD79D5FFFA0B5658B00D16294"
-				"size" "9A21921E7E10CC65C5A543643F94D920"
-				"download" "B4DD160E4A23EEF0A47952372ECFAF12"
+				"gid" "7F99AD1E93509EAD473ED03871EFC6C2"
+				"size" "392C5D35347ACF574A2D6C83CD613A2C"
+				"download" "2E5E676390F456B780D63DEE4FA1B137"
 			}
 		}
 	}
-	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,czech,turkish,brazilian,ukrainian,latam"
+	"3202690"
+	{
+		"dlcappid" "3202690"
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "15521170"
-			"timeupdated" "1725370041"
+			"buildid" "15625400"
+			"timeupdated" "1725877396"
 		}
 		"natour"
 		{
@@ -840,6 +854,12 @@
 			"buildid" "15589635"
 			"pwdrequired" "1"
 			"timeupdated" "1725449768"
+		}
+		"eos_fix"
+		{
+			"buildid" "15613818"
+			"pwdrequired" "1"
+			"timeupdated" "1725613127"
 		}
 		"fe_crossplay"
 		{
@@ -889,12 +909,6 @@
 			"pwdrequired" "1"
 			"timeupdated" "1724321713"
 		}
-		"gw_streaming"
-		{
-			"buildid" "15505752"
-			"pwdrequired" "1"
-			"timeupdated" "1725009099"
-		}
 		"ms_builds"
 		{
 			"buildid" "15562381"
@@ -903,9 +917,9 @@
 		}
 		"patch_3x_steamfeats"
 		{
-			"buildid" "15599552"
+			"buildid" "15635968"
 			"pwdrequired" "1"
-			"timeupdated" "1725519382"
+			"timeupdated" "1725870004"
 		}
 		"pvp_stable"
 		{
@@ -921,33 +935,33 @@
 		}
 		"steam_features"
 		{
-			"buildid" "15600140"
+			"buildid" "15635847"
 			"pwdrequired" "1"
-			"timeupdated" "1725522698"
+			"timeupdated" "1725869389"
 		}
 		"test_backend"
 		{
-			"buildid" "15603910"
+			"buildid" "15625400"
 			"pwdrequired" "1"
-			"timeupdated" "1725548429"
+			"timeupdated" "1725711707"
 		}
 		"test_bender"
 		{
-			"buildid" "15521170"
+			"buildid" "15640795"
 			"pwdrequired" "1"
-			"timeupdated" "1724863679"
+			"timeupdated" "1725899916"
 		}
 		"test_fcs"
 		{
-			"buildid" "15603117"
+			"buildid" "15624872"
 			"pwdrequired" "1"
-			"timeupdated" "1725539426"
+			"timeupdated" "1725703184"
 		}
 		"test_fcs_alt"
 		{
-			"buildid" "15600140"
+			"buildid" "15624728"
 			"pwdrequired" "1"
-			"timeupdated" "1725539850"
+			"timeupdated" "1725700624"
 		}
 		"test_perf"
 		{
@@ -957,15 +971,15 @@
 		}
 		"test_prod_steamfeats"
 		{
-			"buildid" "15598970"
+			"buildid" "15637231"
 			"pwdrequired" "1"
-			"timeupdated" "1725514979"
+			"timeupdated" "1725878200"
 		}
 		"test_pros_true_retail"
 		{
-			"buildid" "15521170"
+			"buildid" "15640106"
 			"pwdrequired" "1"
-			"timeupdated" "1724926036"
+			"timeupdated" "1725895482"
 		}
 	}
 }
@@ -1024,6 +1038,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "25096639"
-"_sha" "39b3c8298201dfeee0a6a24a97e28f8ce5b29056"
-"_size" "24378"
+"_change_number" "25143312"
+"_sha" "4568280422de4446d25525cbab1745507acfffba"
+"_size" "24774"
