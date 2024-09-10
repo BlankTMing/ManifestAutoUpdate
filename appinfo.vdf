@@ -24,29 +24,30 @@
 	"steam_deck_compatibility"
 	{
 		"category" "1"
-		"test_timestamp" "1687392000"
-		"tested_build_id" "11187054"
+		"test_timestamp" "1718236800"
+		"tested_build_id" "12806523"
 		"tests"
 		{
 			"0"
 			{
 				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				"token" "#SteamDeckVerified_TestResult_UnsupportedAntiCheatConfiguration"
 			}
 		}
 		"configuration"
 		{
 			"supported_input" "other"
-			"requires_manual_keyboard_invoke" "0"
-			"requires_non_controller_launcher_nav" "0"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "1"
 			"primary_player_is_controller_slot_0" "0"
 			"non_deck_display_glyphs" "0"
-			"small_text" "0"
-			"requires_internet_for_setup" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "1"
 			"requires_internet_for_singleplayer" "0"
 			"recommended_runtime" "proton-experimental"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"controllertagwizard" "1"
@@ -69,6 +70,48 @@
 			"pinned_position" "BottomLeft"
 			"width_pct" "25.264451402215272"
 			"height_pct" "51.04163841041638"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "25.264451402215272"
+				"height_pct" "51.04163841041638"
+			}
 		}
 	}
 	"store_asset_mtime" "1694711581"
@@ -192,8 +235,8 @@
 		"4" "3859"
 		"5" "1775"
 		"6" "123332"
-		"7" "1697"
-		"8" "28444"
+		"7" "28444"
+		"8" "1697"
 		"9" "7309"
 		"10" "19568"
 		"11" "252854"
@@ -263,9 +306,9 @@
 		{
 			"public"
 			{
-				"gid" "9005490871212861564"
-				"size" "27534795601"
-				"download" "26262311552"
+				"gid" "7853142519851056448"
+				"size" "27769084278"
+				"download" "26489111680"
 			}
 		}
 		"encryptedmanifests"
@@ -278,21 +321,21 @@
 			}
 			"qc01_prod"
 			{
-				"gid" "A287D5AE9142E5355A9854B6109C42BA"
-				"size" "FCF1C0EA7177A7CCCDED891CCB4B9C68"
-				"download" "BC02B4FAE0F6100C8824855CBFED3EE0"
+				"gid" "71C93855A10B0547F13F3133DEEF1FD0"
+				"size" "5E3C9EC9DAF7E4079881140ED1BE24C1"
+				"download" "4680EEB6502912633D38DF111F4CC6B7"
 			}
 			"qc02_prod"
 			{
-				"gid" "CB6017CAE4322FFF3D88930FA1965866"
-				"size" "8E4F30F91AC734E5D053621A907F6F2E"
-				"download" "A071F22FB74665625C76297456B40E2C"
+				"gid" "B5596317A3D79FE29243BE1210F44B78"
+				"size" "489B48193FA217B9657F873CDB6C314A"
+				"download" "4EF88BF4F8C599D2E45A0848A7849D4D"
 			}
 			"restricted_prod"
 			{
-				"gid" "E79FEFD27AE9826F524C98DF9FF3928D"
-				"size" "57625164FE765BD833487D4EDE0212A3"
-				"download" "7859E4813E16669C0BF7119E0817C015"
+				"gid" "B898D33861E0CB92C7DA2A1E5A128A65"
+				"size" "7CF468C2D3D6F63017EA8E38A41C5867"
+				"download" "C9C3F6C171611E83018D85E2FA4B274A"
 			}
 		}
 	}
@@ -302,9 +345,9 @@
 		{
 			"public"
 			{
-				"gid" "7351362109164650274"
-				"size" "234646152"
-				"download" "236320448"
+				"gid" "2813210786162669848"
+				"size" "232810480"
+				"download" "234531248"
 			}
 		}
 		"depotfromapp" "1716750"
@@ -313,8 +356,8 @@
 	{
 		"public"
 		{
-			"buildid" "14518644"
-			"timeupdated" "1718697738"
+			"buildid" "15437165"
+			"timeupdated" "1725955909"
 		}
 		"rbs_prod"
 		{
@@ -324,25 +367,25 @@
 		}
 		"qc01_prod"
 		{
-			"buildid" "14427634"
+			"buildid" "15437298"
 			"pwdrequired" "1"
-			"timeupdated" "1716205475"
+			"timeupdated" "1724173209"
 		}
 		"qc02_prod"
 		{
-			"buildid" "14518796"
+			"buildid" "15418918"
 			"pwdrequired" "1"
-			"timeupdated" "1716897276"
+			"timeupdated" "1724066581"
 		}
 		"restricted_prod"
 		{
-			"buildid" "14518644"
+			"buildid" "15437165"
 			"pwdrequired" "1"
-			"timeupdated" "1716896473"
+			"timeupdated" "1724172387"
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "24013468"
-"_sha" "c3a9d95741db2618f7f7869a0649fdefdd19f504"
-"_size" "6484"
+"_change_number" "25153076"
+"_sha" "048de3825113243d7e45e9e96188c37d50207181"
+"_size" "7144"
