@@ -1,33 +1,25 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-10 08:32:47
+## 更新时间：2024-09-10 16:09:50
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 570 | Dota 2| game |
-| 730 | Counter-Strike 2| Game |
-| 538030 | 异种航员2 Xenonauts 2| Game |
-| 1652250 | 传说与战术自走棋| Game |
-| 263060 | Blockstorm| Game |
-| 473640 | Wyatt Derp| Game |
-| 390290 | Bulb Boy| Game |
-| 294040 | Loot Hero DX| Game |
-| 32360 | The Secret of Monkey Island: Special Edition| game |
-| 32460 | Monkey Island 2: Special Edition| game |
-| 730820 | The Curse of Monkey Island| Game |
-| 730830 | Escape from Monkey Island™| Game |
-| 1771180 | No Fair Play| Game |
-| 1743230 | Time of the Clones| Game |
-| 1975450 | Aery - Vikings| Game |
-| 1298140 | Fobia - St. Dinfna Hotel| Game |
-| 2200780 | My dream setup| Game |
-| 2670630 | Supermarket Simulator| Game |
-| 2242760 | The Escape: Together| Game |
-| 2141730 | Backrooms: Escape Together| Game |
-| 1938090 | 使命召唤®| Game |
-| 2440510 | Forza Motorsport 极限竞速| Game |
-| 1830970 | 将熄之焰 The Last Flame| Game |
-| 1790370 | 叛逆AI模拟器| Game |
+| 236850 | Europa Universalis IV| Game |
+| 740 | Counter-Strike Global Offensive - Dedicated Server| Tool |
+| 2055050 |   铁骑少女| Game |
+| 1551360 | 极限竞速：地平线 5| Game |
+| 815370 | Green Hell| Game |
+| 986130 | Shadows of Doubt - 凶影疑云| Game |
+| 641320 | Cooking Simulator| Game |
+| 646910 | The Crew 2| Game |
+| 1230530 | 尘封大陆| Game |
+| 270880 | American Truck Simulator| Game |
+| 2290180 | Riders Republic| Game |
+| 2430930 | ARK: Survival Ascended Dedicated Server| Tool |
+| 1783280 | 鬼怪传说| Game |
+| 1519090 | Welcome to ParadiZe| Game |
+| 1876880 | 大荒先民| Game |
 | 290100 | 堡垒：猎鹰战纪| Game |
-| 361420 | ASTRONEER| Game |
-| 728470 | ASTRONEER Dedicated Server| Tool |
-| 202170 | Sleeping Dogs™| Game |
+| 666140 | 波西亚时光| Game |
+| 2477340 | 远征：泥泞奔驰游戏| Game |
+| 1477830 | HudSight - 十字线覆盖| Application |
+| 1517290 | 《战地风云™ 2042》| Game |
