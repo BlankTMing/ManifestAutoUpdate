@@ -11,6 +11,26 @@
 	"logo" "e1ea012cc760443f3458c21549b254da1cc71f64"
 	"logo_small" "e1ea012cc760443f3458c21549b254da1cc71f64_thumb"
 	"releasestate" "released"
+	"name_localized"
+	{
+		"schinese" "幸福工厂"
+		"tchinese" "滿意工廠"
+	}
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"japanese" "1"
+		"polish" "1"
+		"brazilian" "1"
+	}
 	"steam_deck_compatibility"
 	{
 		"category" "2"
@@ -61,7 +81,7 @@
 	"metacritic_name" "Satisfactory"
 	"small_capsule"
 	{
-		"english" "capsule_231x87.jpg"
+		"english" "fe7cbb345c177f83f829a61f0e0ab951b42c7ab1/capsule_231x87.jpg"
 	}
 	"header_image"
 	{
@@ -72,14 +92,68 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "UpperCenter"
-			"width_pct" "91.83197199533254"
-			"height_pct" "57.06483020660177"
+			"width_pct" "67.09451575262543"
+			"height_pct" "77.96247922108762"
 		}
 	}
-	"store_asset_mtime" "1701857317"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "UpperCenter"
+				"width_pct" "67.09451575262543"
+				"height_pct" "77.96247922108762"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1725976928"
 	"associations"
 	{
 		"0"
@@ -105,7 +179,6 @@
 		"1" "23"
 		"2" "28"
 		"3" "2"
-		"4" "70"
 	}
 	"category"
 	{
@@ -118,6 +191,8 @@
 		"category_45" "1"
 		"category_46" "1"
 		"category_42" "1"
+		"category_22" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -142,36 +217,6 @@
 			"subtitles" "true"
 		}
 		"spanish"
-		{
-			"supported" "true"
-			"subtitles" "true"
-		}
-		"arabic"
-		{
-			"supported" "true"
-			"subtitles" "true"
-		}
-		"czech"
-		{
-			"supported" "true"
-			"subtitles" "true"
-		}
-		"dutch"
-		{
-			"supported" "true"
-			"subtitles" "true"
-		}
-		"finnish"
-		{
-			"supported" "true"
-			"subtitles" "true"
-		}
-		"greek"
-		{
-			"supported" "true"
-			"subtitles" "true"
-		}
-		"hungarian"
 		{
 			"supported" "true"
 			"subtitles" "true"
@@ -211,23 +256,9 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
-		"turkish"
-		{
-			"supported" "true"
-			"subtitles" "true"
-		}
-		"ukrainian"
-		{
-			"supported" "true"
-			"subtitles" "true"
-		}
-		"vietnamese"
-		{
-			"supported" "true"
-			"subtitles" "true"
-		}
 	}
-	"steam_release_date" "1591635600"
+	"steam_release_date" "1725980375"
+	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "526870"
 	"store_tags"
@@ -244,23 +275,24 @@
 		"9" "3834"
 		"10" "21"
 		"11" "1100689"
-		"12" "493"
-		"13" "599"
-		"14" "1662"
-		"15" "9"
-		"16" "3839"
+		"12" "599"
+		"13" "1662"
+		"14" "493"
+		"15" "3839"
+		"16" "9"
 		"17" "3942"
 		"18" "4182"
 		"19" "492"
 	}
 	"review_score" "9"
-	"review_percentage" "97"
+	"review_percentage" "96"
 }
 "extended"
 {
 	"developer" "Coffee Stain Studios"
 	"publisher" "Coffee Stain Publishing"
 	"homepage" "https://www.coffeestainstudios.com/"
+	"listofdlc" "3170070"
 }
 "config"
 {
@@ -270,7 +302,7 @@
 	{
 		"0"
 		{
-			"executable" "FactoryGame.exe"
+			"executable" "FactoryGameSteam.exe"
 			"arguments" "-NO_EOS_OVERLAY"
 			"type" "default"
 			"config"
@@ -281,7 +313,7 @@
 		}
 		"1"
 		{
-			"executable" "FactoryGame.sh"
+			"executable" "FactoryGameSteam.sh"
 			"arguments" "-NO_EOS_OVERLAY"
 			"type" "default"
 			"config"
@@ -293,19 +325,18 @@
 		"2"
 		{
 			"executable" "FactoryGameSteam.exe"
-			"arguments" "-NO_EOS_OVERLAY"
-			"type" "default"
+			"type" "option1"
 			"config"
 			{
 				"oslist" "windows"
 				"osarch" "64"
-				"betakey" "nightly internal6"
+				"betakey" "nightly staging patching media internal internal2 internal3 internal4 internal5 internal6 internal7 internal8 patchnotes-cheats"
 			}
 			"description_loc"
 			{
-				"english" "Nightly"
+				"english" "1.0 version"
 			}
-			"description" "Nightly"
+			"description" "1.0 version"
 		}
 		"3"
 		{
@@ -316,13 +347,29 @@
 			{
 				"oslist" "linux"
 				"osarch" "64"
-				"betakey" "nightly internal6"
+				"betakey" "nightly staging patching media internal internal2 internal3 internal4 internal5 internal6 internal7 internal8 patchnotes-cheats"
 			}
 			"description_loc"
 			{
-				"english" "Nightly"
+				"english" "1.0 version"
 			}
-			"description" "Nightly"
+			"description" "1.0 version"
+		}
+		"4"
+		{
+			"executable" "FactoryCookedEditor.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "internal-tools"
+			}
+			"description_loc"
+			{
+				"english" "Internal Tools"
+			}
+			"description" "Internal Tools"
 		}
 	}
 	"uselaunchcommandline" "1"
@@ -359,19 +406,25 @@
 		{
 			"public"
 			{
-				"gid" "3783838377491884235"
-				"size" "26385993838"
-				"download" "8344538352"
+				"gid" "1319124167024463904"
+				"size" "27096795352"
+				"download" "12202788912"
 			}
 			"experimental"
 			{
-				"gid" "3783838377491884235"
-				"size" "26385993838"
-				"download" "8344538352"
+				"gid" "1319124167024463904"
+				"size" "27096795352"
+				"download" "12202788912"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"crashfix-tickfactoryactors"
+			{
+				"gid" "158D1545672F9C54AE871088887B9EE0"
+				"size" "FC8C54C0DE287404CA23FA5B9D5BA182"
+				"download" "FC0C8782190E5A821A794C39547983DA"
+			}
 			"default-cheats"
 			{
 				"gid" "41B4653AC2D148A057E6E80FF0025E70"
@@ -390,65 +443,11 @@
 				"size" "68134F3A2CFF45CC94B45E69A1B292BA"
 				"download" "34024B61BA7163515091F27E70F0E5E7"
 			}
-			"internal"
-			{
-				"gid" "FBA357312E0E8395AB957EA7D1FE53F6"
-				"size" "C9BBF05B1068BD9E2586193A854E974D"
-				"download" "F9CC7D8F7C212728A43EDCEFDA9F5737"
-			}
-			"internal2"
-			{
-				"gid" "59C55091C1663B288BB648ADB29E950D"
-				"size" "9B8599F405841A10903E071F73FD8FA6"
-				"download" "66CA55448D3B7FFDF8DBE5B6E06B8BAD"
-			}
-			"internal3"
-			{
-				"gid" "F72B3B900C1004B43A1CE7431820FC10"
-				"size" "DAF64D64F47FBC66F098A65581EC233E"
-				"download" "6391D6F7012AB3142739153A0AFE839C"
-			}
-			"internal4"
-			{
-				"gid" "0880CECCA2A1395F24A0C952B8D633C1"
-				"size" "CCBFC25FA77DE0DA78A71E29687E9675"
-				"download" "907A7F43C005B265062053C503D394CB"
-			}
 			"internal5"
 			{
-				"gid" "9B4E34B2551E9C9AC872B5A4E972A0B3"
-				"size" "A9C068CCA70960B613BA56D91D0D5EB0"
-				"download" "A9FA801263448311B9EF135FEB3C6C2B"
-			}
-			"internal6"
-			{
-				"gid" "73F1D3D622D96C33A2DC6185CA19F4CB"
-				"size" "7109D360CA60810D127E53272E025378"
-				"download" "614C01C86762CE1948EA5BF5EFFA399B"
-			}
-			"internal7"
-			{
-				"gid" "A2A75AD10956BDC2311D1BB01024D336"
-				"size" "4092B3E15FD25239CDF23EF6809C4F13"
-				"download" "5A9600FE5EDB5A4B51247DB9C4A326DF"
-			}
-			"internal8"
-			{
-				"gid" "1205072B62CE701C223F4F872715D0A9"
-				"size" "892829F3A8D8A841AA1FF1C46572103E"
-				"download" "F06643161F8837809865BB5A3660132A"
-			}
-			"nightly"
-			{
-				"gid" "08DC39227D40581F8D306C5FA12068D9"
-				"size" "A1378EAAF30D2E7C851E5D0018BD5B8F"
-				"download" "6E22C5EC2AB695691E91AE4DBA133A65"
-			}
-			"patching"
-			{
-				"gid" "CA3D86354855BFF5A0DD07B9628B9E3D"
-				"size" "2EEF4BB5C3BA23EC9E4ED03BD634825B"
-				"download" "85BEFEF685C9BF7D8C95D4967531E849"
+				"gid" "C71D5BEFF60DB925621FCE63D434A4F1"
+				"size" "399A98E47C5B37857CB868E071BAF82C"
+				"download" "8345B8BFC0723827F91982946BE96049"
 			}
 			"qa-cheats"
 			{
@@ -456,11 +455,83 @@
 				"size" "391751045885301FFE9850534B9FE586"
 				"download" "09048831434B7EEA072ADB85232F1CAE"
 			}
+			"internal"
+			{
+				"gid" "E513FA70ED7178EC9B443FA0C8C00FBE"
+				"size" "2BB88D14FBB302A9BA2E16BD87EA692C"
+				"download" "868F50844D7B938D7F211A4EE1CF72E9"
+			}
+			"internal-tools"
+			{
+				"gid" "DED3832A5525549049C6E72E6917C9A1"
+				"size" "E586638DEE5E44B2E587401620298678"
+				"download" "2E3EE6B6D6859CF2CE8461C40FFF1386"
+			}
+			"internal2"
+			{
+				"gid" "2026BFCC3180361DAF922CAAD7187E92"
+				"size" "B6C52CEA5F5F088E2C9345419DEA87CA"
+				"download" "B5621D84925F7A31063BBDFC392FAFBD"
+			}
+			"internal3"
+			{
+				"gid" "0FF9575CEA215735BB7448869F2356A1"
+				"size" "6A671E4417F0B7C9AD663D327DA6D467"
+				"download" "1D2FCB0A34C66F42A928EE2CB56A622D"
+			}
+			"internal4"
+			{
+				"gid" "0E9504807F1850DEE24290B46065D7D7"
+				"size" "E67A27E8900D5C9A2391EEF9122A9EFD"
+				"download" "30340CCA6ED8BEB8CD6AF2BE92D94A8B"
+			}
+			"internal6"
+			{
+				"gid" "5A974E17A61FF1A1CBC1FB537A4F00AD"
+				"size" "D5A92B044126C13366B5165983E06A94"
+				"download" "9A67021CEE1C1968266CDCD8C8677BB3"
+			}
+			"internal7"
+			{
+				"gid" "7B7DEE99F7EA5E1B6A67778BDA16329A"
+				"size" "3188C5983E90DE18ABB5676A470B8041"
+				"download" "1CC3BCC399B4393F5898D1A1E2EE5C7A"
+			}
+			"internal8"
+			{
+				"gid" "29A99BA9A7253D7D3EFC6B57D1A2BFB5"
+				"size" "52373300E2E306AAC5179BEE0AAFF5C4"
+				"download" "03323341585F03BD8B36FA68810459AB"
+			}
+			"media"
+			{
+				"gid" "912E7864173B77E8B657FB78281F4CF2"
+				"size" "397C3F6E0A007223639EA104F696A30D"
+				"download" "4FFFFE6A244D8E5E98E929D35791EC1C"
+			}
+			"nightly"
+			{
+				"gid" "7B0DC54120434751EAD041EB349A3262"
+				"size" "6BE5F08DFCFD9B79E70BD79FF616EE11"
+				"download" "A94F507C98B591DF85901B3EF4ADFA23"
+			}
+			"patching"
+			{
+				"gid" "AD11751C7CDA1B35434000CD705FE3BA"
+				"size" "383A3FB1B6CE5F0367808AAC46F54B63"
+				"download" "3B9994D863774DD61B0D884AADE603FC"
+			}
+			"patchnotes-cheats"
+			{
+				"gid" "8E514D7EB5F36D2AE0B98F4190F27F10"
+				"size" "6E319AE21D2A608F59423FB092716875"
+				"download" "AF00B888F16E9D20D7F1D28F588F48C2"
+			}
 			"staging"
 			{
-				"gid" "A630ECC1EAD0B55E4B9D90365C1024BE"
-				"size" "AD52E3D364D94C1935C41F84FB1CB243"
-				"download" "4D9C0806B0038C3D03F7E02C69A09265"
+				"gid" "F233B55B6FDBB10157225F3737090C83"
+				"size" "DEEF9AECDE1B5A574306ED2B328C9AB8"
+				"download" "BDB288A6758BA5D84263517B4536F990"
 			}
 		}
 	}
@@ -475,19 +546,25 @@
 		{
 			"public"
 			{
-				"gid" "6115619736125052645"
-				"size" "17051892364"
-				"download" "6501328672"
+				"gid" "2859559253078883016"
+				"size" "14765302658"
+				"download" "9595315152"
 			}
 			"experimental"
 			{
-				"gid" "6115619736125052645"
-				"size" "17051892364"
-				"download" "6501328672"
+				"gid" "2859559253078883016"
+				"size" "14765302658"
+				"download" "9595315152"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"crashfix-tickfactoryactors"
+			{
+				"gid" "0F0231177D4940F3F38F10C0AB485451"
+				"size" "58E006602CA74EE0F3120AE30209D8B7"
+				"download" "221B9CD8F0F569CBF72E191983A132A7"
+			}
 			"default-cheats"
 			{
 				"gid" "7AFC5A3DF2A457BD0F79B9042842F9D4"
@@ -506,65 +583,11 @@
 				"size" "384219CAB6CDA0E2D8A6562C0CB9D2D0"
 				"download" "66D06ED8DAFEAE08DFDC8672E4D5465F"
 			}
-			"internal"
-			{
-				"gid" "6939E13A8CC2F8310EA7778951A63F8E"
-				"size" "86F7AEEFB0ADDAC3D14EE352F6E296BD"
-				"download" "FC087145CE946619CA39B447F413DB64"
-			}
-			"internal2"
-			{
-				"gid" "3221AAA658D869F948DEEC41CE2E8710"
-				"size" "3ACDEC9F84CFBCEED94F1F3AE65AF7F3"
-				"download" "014E85196279DB83CEE30D5122489665"
-			}
-			"internal3"
-			{
-				"gid" "03C6B77F255705211D370EFA6F9B5970"
-				"size" "7FE6E540C4A7650148BAC6C7F8CBECB6"
-				"download" "50234F07967179DD7FF27838A82B42DC"
-			}
-			"internal4"
-			{
-				"gid" "C5424604D4A6984F34E91E2E1C9BE2B9"
-				"size" "6CF6309024C0D73144A1E1ABAB3905CA"
-				"download" "D58F9F60153A8C23E22D84785E44C307"
-			}
 			"internal5"
 			{
 				"gid" "766A7883418A6E8EA71D3DFF13FA04B5"
 				"size" "4C6B80632B89CD2911F2ABDDD7084BFA"
 				"download" "C0A81238AFD9414745BB729A059362FB"
-			}
-			"internal6"
-			{
-				"gid" "A22C323CFE257F7136FCBCB341849A00"
-				"size" "532D6F1FD6AF80CEA4848848A8117FBC"
-				"download" "EA7FB6DF37D36979FBECC12BD4D92C57"
-			}
-			"internal7"
-			{
-				"gid" "AC4753C7621C1FFB84E57BE7A63E24F3"
-				"size" "D9058991608FE5087FDB6D3F9A9F4AE7"
-				"download" "84C50834C74ED25EC4ABDBAFD27BC197"
-			}
-			"internal8"
-			{
-				"gid" "029A488709CA2E3C99A50AF00C7FA5F0"
-				"size" "511356C035E064909FFB8F8C04E0E27E"
-				"download" "EED6EBD65E0C9903841DB3C14897CC6E"
-			}
-			"nightly"
-			{
-				"gid" "48A4EDE28E454CE751EEDF8491597B70"
-				"size" "1D9ECF1D81B36A5CD667048D044227AB"
-				"download" "6A46AC15E057147896DCFBAE118909B2"
-			}
-			"patching"
-			{
-				"gid" "71C06A3A37CA5CC7E5034F9162D23A83"
-				"size" "F55D9FF227F12E7F2ABB31C6B6C163CD"
-				"download" "62E06080AE760701B696811C6FDBACD4"
 			}
 			"qa-cheats"
 			{
@@ -572,11 +595,83 @@
 				"size" "19B6C5C53AC0B2FE086B5918C289F6BF"
 				"download" "DC763E545D6D32AE48E5C7BE39A55B16"
 			}
+			"internal"
+			{
+				"gid" "231BE54E9A96634EA11F4432279BE0BF"
+				"size" "CD80B1BEACFA090E72996194E2343C0C"
+				"download" "4FA01D8D449401F91818880F3FFD44FF"
+			}
+			"internal-tools"
+			{
+				"gid" "DB9F3BC1BE6E5917009375D6E477C989"
+				"size" "D890D3A1CDE3A7297A3F7DB5A57CB9F2"
+				"download" "ED36A19C750A01CB4E724340A0CB8D71"
+			}
+			"internal2"
+			{
+				"gid" "09135CAEEB6A63DD927C759E960AADD5"
+				"size" "1413DCB64D74F6344D60AB544C7BC767"
+				"download" "EFD3D511EB2CE3696F1480FBD8F484A4"
+			}
+			"internal3"
+			{
+				"gid" "5CC581A2FCF5B6FA2BF7ED67484BFA36"
+				"size" "3FA98C617BF553B628E3008917060283"
+				"download" "B47F20C2D76D96C3ACD142E4FCB07882"
+			}
+			"internal4"
+			{
+				"gid" "5DB3560DDBA14D34B1B91BC89C5EAF3D"
+				"size" "EFF2618A0DE71B80486FFF85D441E804"
+				"download" "27D46ACF6FAAC9073CB31CB130B0629A"
+			}
+			"internal6"
+			{
+				"gid" "6DB4C93E6AA504C2B578BA104E835F6F"
+				"size" "5DF6F767900B9A15C0C3BDC50DB65A9A"
+				"download" "96279BE5F07A4C90DCF6F0CAC6C81CDA"
+			}
+			"internal7"
+			{
+				"gid" "214A21B55B7CABF5C0886DC58B7BC9CC"
+				"size" "7A6276DC311F94480B3EA56F78874995"
+				"download" "51C9A0D0637172271453849C6B5114E4"
+			}
+			"internal8"
+			{
+				"gid" "AE20D25BDC9879D964FF3D69CEB13B06"
+				"size" "8288D73361F3A4B7958D02AF22A2F030"
+				"download" "CFE212FA5C07352232882BBDFD20C8B1"
+			}
+			"media"
+			{
+				"gid" "8EE7F4357627975C080C3629A8D6B95A"
+				"size" "84F2BB4FC9F70FD51A56EF5532B379A3"
+				"download" "97FA1A7CCE6D9A0284F35E2D2AC7756E"
+			}
+			"nightly"
+			{
+				"gid" "E5C9FBC60E045ABA63B7B19D6487458A"
+				"size" "67358BD49F672450B70C3DA84A6675DB"
+				"download" "B748E5B145C569C4BC08425E32B0E26B"
+			}
+			"patching"
+			{
+				"gid" "0527079E4DA4DE9A9EA4CA3C836195C1"
+				"size" "3846B0B1D3292CC4B9EA72939AD72774"
+				"download" "CF27A3ADF37D70DB589EC07B0500536D"
+			}
+			"patchnotes-cheats"
+			{
+				"gid" "E5A4D0734A9BD3D614790DB750F845E6"
+				"size" "1354784BC2092806D539799D8283E1BC"
+				"download" "B6B123C396AADF16F0114D5AE8BA32E2"
+			}
 			"staging"
 			{
-				"gid" "B61D1C0144C98B705D543F5D8C6FD13B"
-				"size" "911D865DA33F699DB64674550A7AFBAE"
-				"download" "6055A311AAD9E6F702508DCC22EA5F0E"
+				"gid" "A84FB01921981D1A5E1C750566CF4B73"
+				"size" "832D32075E32B2BD3CA5EC07569BB8E4"
+				"download" "C595D07BB701CA21E4EFE57D968E2878"
 			}
 		}
 	}
@@ -584,8 +679,14 @@
 	{
 		"public"
 		{
-			"buildid" "12929917"
-			"timeupdated" "1702398512"
+			"buildid" "15636841"
+			"timeupdated" "1725980622"
+		}
+		"crashfix-tickfactoryactors"
+		{
+			"buildid" "13372124"
+			"pwdrequired" "1"
+			"timeupdated" "1707221106"
 		}
 		"default-cheats"
 		{
@@ -599,76 +700,17 @@
 			"pwdrequired" "1"
 			"timeupdated" "1699274263"
 		}
-		"experimental"
-		{
-			"buildid" "12929917"
-			"timeupdated" "1702398497"
-		}
 		"experimental-cheats"
 		{
 			"buildid" "10593109"
 			"pwdrequired" "1"
 			"timeupdated" "1677495080"
 		}
-		"internal"
-		{
-			"buildid" "12216404"
-			"pwdrequired" "1"
-			"timeupdated" "1695046858"
-		}
-		"internal2"
-		{
-			"buildid" "12941777"
-			"pwdrequired" "1"
-			"timeupdated" "1702396674"
-		}
-		"internal3"
-		{
-			"buildid" "12734424"
-			"pwdrequired" "1"
-			"timeupdated" "1700249178"
-		}
-		"internal4"
-		{
-			"buildid" "12930823"
-			"pwdrequired" "1"
-			"timeupdated" "1702309492"
-		}
 		"internal5"
 		{
-			"buildid" "12964316"
+			"buildid" "13588582"
 			"pwdrequired" "1"
-			"timeupdated" "1702574760"
-		}
-		"internal6"
-		{
-			"buildid" "13079559"
-			"pwdrequired" "1"
-			"timeupdated" "1704231721"
-		}
-		"internal7"
-		{
-			"buildid" "12970406"
-			"pwdrequired" "1"
-			"timeupdated" "1702631856"
-		}
-		"internal8"
-		{
-			"buildid" "12878372"
-			"pwdrequired" "1"
-			"timeupdated" "1701773358"
-		}
-		"nightly"
-		{
-			"buildid" "13080405"
-			"pwdrequired" "1"
-			"timeupdated" "1704242123"
-		}
-		"patching"
-		{
-			"buildid" "12929917"
-			"pwdrequired" "1"
-			"timeupdated" "1702302960"
+			"timeupdated" "1709126676"
 		}
 		"qa-cheats"
 		{
@@ -676,11 +718,88 @@
 			"pwdrequired" "1"
 			"timeupdated" "1689114588"
 		}
+		"experimental"
+		{
+			"buildid" "15636841"
+			"timeupdated" "1725980762"
+		}
+		"internal"
+		{
+			"buildid" "15356889"
+			"pwdrequired" "1"
+			"timeupdated" "1723562582"
+		}
+		"internal-tools"
+		{
+			"buildid" "15651629"
+			"pwdrequired" "1"
+			"timeupdated" "1725974276"
+		}
+		"internal2"
+		{
+			"buildid" "14965626"
+			"pwdrequired" "1"
+			"timeupdated" "1720448495"
+		}
+		"internal3"
+		{
+			"buildid" "15518956"
+			"pwdrequired" "1"
+			"timeupdated" "1724851591"
+		}
+		"internal4"
+		{
+			"buildid" "15421962"
+			"pwdrequired" "1"
+			"timeupdated" "1724082472"
+		}
+		"internal6"
+		{
+			"buildid" "15644988"
+			"pwdrequired" "1"
+			"timeupdated" "1725929487"
+		}
+		"internal7"
+		{
+			"buildid" "15473288"
+			"pwdrequired" "1"
+			"timeupdated" "1724423128"
+		}
+		"internal8"
+		{
+			"buildid" "15491385"
+			"pwdrequired" "1"
+			"timeupdated" "1724663419"
+		}
+		"media"
+		{
+			"buildid" "15570274"
+			"pwdrequired" "1"
+			"timeupdated" "1725309523"
+		}
+		"nightly"
+		{
+			"buildid" "15644378"
+			"pwdrequired" "1"
+			"timeupdated" "1725924740"
+		}
+		"patching"
+		{
+			"buildid" "15459922"
+			"pwdrequired" "1"
+			"timeupdated" "1724330030"
+		}
+		"patchnotes-cheats"
+		{
+			"buildid" "15291338"
+			"pwdrequired" "1"
+			"timeupdated" "1723039622"
+		}
 		"staging"
 		{
-			"buildid" "12933216"
+			"buildid" "15636841"
 			"pwdrequired" "1"
-			"timeupdated" "1702328356"
+			"timeupdated" "1725875587"
 		}
 	}
 }
@@ -746,6 +865,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21739143"
-"_sha" "88d0609796ec86060404b2de5471952c2f65867f"
-"_size" "16241"
+"_change_number" "25159752"
+"_sha" "776aa9ab056d0cf7f65018aacfde6885841fc17a"
+"_size" "19271"
