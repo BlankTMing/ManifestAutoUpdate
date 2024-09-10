@@ -1,0 +1,298 @@
+"appid" "1105620"
+"common"
+{
+	"name" "Exertus"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "43f468c61b2e568f50e25d88f577ee367baf68f8"
+	"logo_small" "43f468c61b2e568f50e25d88f577ee367baf68f8_thumb"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"clienttga" "244fa2607d7bfb6822664c8f2c991b3b1369ef40"
+	"clienticon" "38dc73cd0c5ea26f3db8f2187dba2b08221a0946"
+	"icon" "128d794d1a7e3c746046ca164d7af61bce85c5de"
+	"linuxclienticon" "d16b13eeb79b6a03613dd2b24498a6ffec278f0b"
+	"metacritic_name" "Exertus"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "100"
+				"height_pct" "100"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1586603253"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Loneminded"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Loneminded"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_15" "1"
+		"category_25" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"swedish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1566815034"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1105620"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "3877"
+		"2" "1663"
+		"3" "4036"
+		"4" "5395"
+		"5" "597"
+		"6" "12057"
+		"7" "4026"
+		"8" "3839"
+		"9" "1625"
+		"10" "4191"
+		"11" "1654"
+		"12" "4094"
+		"13" "4305"
+		"14" "4400"
+		"15" "5350"
+		"16" "4166"
+		"17" "3968"
+		"18" "21"
+		"19" "5411"
+	}
+	"review_score" "8"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"developer" "Loneminded"
+	"publisher" "Loneminded"
+}
+"config"
+{
+	"installdir" "Exertus"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "loneminded2.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "loneminded2\\Binaries\\Linux\\loneminded2-Linux-Shipping"
+			"arguments" "-opengl4"
+			"description" "Exertus (OpenGL)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "loneminded2\\Binaries\\Linux\\loneminded2-Linux-Shipping"
+			"description" "Exertus (Vulkan)"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1105621"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4122520841629121461"
+				"size" "817408246"
+				"download" "246519904"
+			}
+		}
+	}
+	"1105622"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9129699912496273423"
+				"size" "972409928"
+				"download" "286977968"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4156760"
+			"timeupdated" "1567286187"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#statusmainmenu" "In Main Menu"
+				"#statustutorial" "In Tutorial"
+				"#statusspeedrun" "Speedrun: %level%"
+				"#statuscasual" "Casual: %collection%"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "24981165"
+"_sha" "c385bf8b667ccc0a6096bbb701d35472513b46bf"
+"_size" "4643"
