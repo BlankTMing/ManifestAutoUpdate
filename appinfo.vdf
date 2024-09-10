@@ -10,6 +10,35 @@
 	"oslist" "windows"
 	"osarch" "64"
 	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1721692800"
+		"tested_build_id" "14809290"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-2RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "partial"
 	"small_capsule"
@@ -31,6 +60,55 @@
 			"pinned_position" "BottomLeft"
 			"width_pct" "33.19719953325556"
 			"height_pct" "48.48017098076469"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "33.19719953325556"
+				"height_pct" "48.48017098076469"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
 		}
 	}
 	"store_asset_mtime" "1715094150"
@@ -78,33 +156,34 @@
 	}
 	"steam_release_date" "1718811832"
 	"community_visible_stats" "1"
+	"workshop_visible" "1"
 	"community_hub_visible" "1"
 	"gameid" "2567870"
 	"store_tags"
 	{
 		"0" "21"
-		"1" "597"
-		"2" "1625"
-		"3" "599"
-		"4" "1685"
+		"1" "1685"
+		"2" "597"
+		"3" "1625"
+		"4" "599"
 		"5" "5537"
 		"6" "4106"
-		"7" "3834"
-		"8" "5395"
-		"9" "1697"
+		"7" "5395"
+		"8" "1697"
+		"9" "3834"
 		"10" "4136"
-		"11" "5716"
-		"12" "3835"
-		"13" "5608"
-		"14" "1710"
-		"15" "3843"
-		"16" "3968"
-		"17" "6426"
-		"18" "7481"
-		"19" "1695"
+		"11" "3843"
+		"12" "5716"
+		"13" "3835"
+		"14" "5608"
+		"15" "3968"
+		"16" "1710"
+		"17" "3859"
+		"18" "6426"
+		"19" "7481"
 	}
 	"review_score" "8"
-	"review_percentage" "90"
+	"review_percentage" "88"
 }
 "extended"
 {
@@ -223,24 +302,24 @@
 		{
 			"public"
 			{
-				"gid" "8384878949016683834"
-				"size" "4168181145"
-				"download" "3983216032"
+				"gid" "7529910261403264956"
+				"size" "7821679435"
+				"download" "7552896400"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"developer"
 			{
-				"gid" "7FB1B5415844964966F0F54DFB6D3D97"
-				"size" "D312B10FF6DE96635D131221EAA960D4"
-				"download" "60C10D92C0B6E19A0A16EF0E7E14DBD1"
+				"gid" "2F937B607C36D21B6A4513A9D13AB665"
+				"size" "BC04A6C81A2AD0E7AB38D8B1E7A9912E"
+				"download" "9DEB0E0B2DD94FACC90FC1FBD79EC271"
 			}
-			"devmode"
+			"workshop_beta"
 			{
-				"gid" "C5C07DEB231BA27D1348FB8D033EB82C"
-				"size" "E756867A4721467C4B8A6AEA17307F3F"
-				"download" "1657C029B41AA36893B85DD6AD3BC95C"
+				"gid" "460EC9355E97B91A7E073D09C30126D5"
+				"size" "0DF096AE55E546B4FF85E7D50C4C79F7"
+				"download" "8CF2B5E1AB7535AFDC931E002354A871"
 			}
 		}
 	}
@@ -249,27 +328,27 @@
 	{
 		"public"
 		{
-			"buildid" "14990098"
-			"timeupdated" "1720621815"
+			"buildid" "15651183"
+			"timeupdated" "1725975031"
 		}
 		"developer"
 		{
-			"buildid" "14990098"
+			"buildid" "15651183"
 			"pwdrequired" "1"
-			"timeupdated" "1720621073"
+			"timeupdated" "1725971876"
 		}
-		"devmode"
+		"workshop_beta"
 		{
-			"buildid" "14990098"
+			"buildid" "15651183"
 			"pwdrequired" "1"
-			"timeupdated" "1720622036"
+			"timeupdated" "1725974968"
 		}
 	}
 }
 "ufs"
 {
 	"quota" "10000000000"
-	"maxnumfiles" "5"
+	"maxnumfiles" "10000"
 	"savefiles"
 	{
 		"0"
@@ -282,9 +361,20 @@
 				"1" "Windows"
 			}
 		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "ChainedTogether/CustomLevels/"
+			"pattern" "*.Level"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "24307078"
-"_sha" "b16cca2fce251d44f9e44747b5ac732e66da4817"
-"_size" "5079"
+"_change_number" "25157843"
+"_sha" "06c4fa1713cc02b6e37334aa9f9e05e54927cb19"
+"_size" "6761"
