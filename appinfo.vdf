@@ -4,13 +4,13 @@
 	"name" "CaseCracker"
 	"type" "Game"
 	"releasestate" "released"
-	"oslist" "windows"
+	"oslist" "windows,macos"
 	"osarch" ""
-	"osextended" ""
+	"osextended" "macos64,macosapplesilicon"
 	"logo" "2938fd327b0e529f3afb40e739e59d7dcdb3a254"
 	"logo_small" "2938fd327b0e529f3afb40e739e59d7dcdb3a254_thumb"
 	"icon" "a13bceca42d05221ca0cedaba66711830ee45b2e"
-	"clienticns" "948b91b24651c1677e42cceab937d74570f8fc95"
+	"clienticns" "b70657bbef2dee70e231168fdb1728bf927cf045"
 	"linuxclienticon" "857bdb6f70c2b1a8a573114016bd66e483208a0d"
 	"clienticon" "cdb1c6bcc32998755ed12d04420156e2aa5904c7"
 	"clienttga" "9b436a455e0c577629352508a0ea0a1251b7843c"
@@ -96,6 +96,54 @@
 			"pinned_position" "BottomLeft"
 			"width_pct" "20.498715007791375"
 			"height_pct" "37.14216691871784"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+				"schinese" "library_hero_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+				"schinese" "library_hero_schinese_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "20.498715007791375"
+				"height_pct" "37.14216691871784"
+			}
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+			}
 		}
 	}
 	"store_asset_mtime" "1685523668"
@@ -189,90 +237,87 @@
 	{
 		"0"
 		{
-			"executable" "TruthDetective.exe"
+			"executable" "CaseCracker.exe"
 			"type" "default"
 			"config"
 			{
 				"oslist" "windows"
 			}
 		}
+		"1"
+		{
+			"executable" "CaseCracker.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
 	}
 }
 "depots"
 {
-	"baselanguages" "schinese"
+	"baselanguages" "english,schinese"
 	"hasdepotsindlc" "1"
 	"1723261"
 	{
 		"config"
 		{
-			"language" "schinese"
 			"oslist" "windows"
 		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "3530421271878318418"
-				"size" "447882229"
-				"download" "138026144"
+				"gid" "6192404486101971059"
+				"size" "559806319"
+				"download" "155036656"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"beta"
 			{
-				"gid" "0062D9D15068202C0C6FE3069A8F3A61"
-				"size" "A9407E89832262BCC1F5BF3D43388C42"
-				"download" "2BA9965B7C2ACEFCCF4E5BE18FA31ACA"
+				"gid" "9E4DC6E704452551BE33D70FB8E0E535"
+				"size" "6C6BFFD87CCCF36097A85667203E5B2D"
+				"download" "B433AAC58651F326C97D49E56BDEA32F"
 			}
 			"test"
 			{
-				"gid" "B132A645BE03A172B1DE8DCBE4D417EF"
-				"size" "6BBEBC770817F5382246F0B163FC058A"
-				"download" "35B5B82F67670D842559ECC1E499358E"
+				"gid" "3BF5BEBFA6CAFD874E531E672E196483"
+				"size" "1170366ED534B24BAA0191236DB99A71"
+				"download" "4404ADD2CAF943DB7F55CCF48D516F9D"
 			}
 		}
 	}
-	"1723262"
+	"1723263"
 	{
 		"config"
 		{
 			"oslist" "macos"
-			"lowviolence" "1"
-		}
-	}
-	"2155000"
-	{
-		"dlcappid" "2155000"
-		"config"
-		{
-			"language" "schinese"
-			"oslist" "windows"
-			"optionaldlc" "2155000"
 		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "2427470259165977422"
-				"size" "422238761"
-				"download" "130713184"
+				"gid" "1135777701713010454"
+				"size" "560226552"
+				"download" "142530816"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"beta"
 			{
-				"gid" "87E3A5DC6D465196ED3E93028324C88D"
-				"size" "2E96AA7097CDF39011B8976F4E92F467"
-				"download" "26F5D3C59ED75EDA6ABBDBB319676865"
+				"gid" "9D14E39006CFA8ECB22450FAAD73C060"
+				"size" "AC4B5B769236C0A0AC36CA86E8371F19"
+				"download" "877E6A5E65AD8E10EC5348FC12ABC9EF"
 			}
 			"test"
 			{
-				"gid" "164C1A471DB3279DBD7544328847C1A7"
-				"size" "BE367C6F5F3B403827D3047203811207"
-				"download" "B957FFA048BB69248F2F6642EACBE2C2"
+				"gid" "A5FE15D611E57239F3B7A69A13C37180"
+				"size" "E0103ACF507188C2736CBF60D2C04DCE"
+				"download" "2D8732AAD124F74104E1BA8826392A34"
 			}
 		}
 	}
@@ -280,28 +325,27 @@
 	{
 		"public"
 		{
-			"buildid" "14831033"
-			"timeupdated" "1719506201"
+			"buildid" "15430868"
+			"timeupdated" "1724140116"
 		}
 		"beta"
 		{
-			"buildid" "14831033"
+			"buildid" "15430868"
 			"pwdrequired" "1"
-			"timeupdated" "1719506178"
+			"timeupdated" "1724140152"
 		}
 		"test"
 		{
-			"buildid" "14831033"
+			"buildid" "15430868"
 			"pwdrequired" "1"
-			"timeupdated" "1719317277"
+			"timeupdated" "1724140139"
 		}
 	}
-	"appmanagesdlc" "1"
 }
 "ufs"
 {
-	"quota" "500000"
-	"maxnumfiles" "50"
+	"quota" "5000000"
+	"maxnumfiles" "500"
 	"savefiles"
 	{
 		"0"
@@ -309,10 +353,6 @@
 			"root" "WinAppDataLocalLow"
 			"path" "BlackRobe/CaseCracker/Save"
 			"pattern" "*.sav"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 	}
 	"rootoverrides"
@@ -323,11 +363,18 @@
 			"os" "MacOS"
 			"oscompare" "="
 			"useinstead" "MacAppSupport"
-			"addpath" "unity.BlackRobe.真探"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "BlackRobe/CaseCracker/Save"
+					"replace" "BlackRobe/CaseCracker/Save"
+				}
+			}
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "24147717"
-"_sha" "6c4a2edd1695c8d42d807a62d11d4e2864d78998"
-"_size" "6074"
+"_change_number" "24981165"
+"_sha" "cfb077a84ac36eed0ec46a03f7f5cc35c9eb807b"
+"_size" "6966"
