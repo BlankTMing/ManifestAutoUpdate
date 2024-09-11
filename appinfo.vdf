@@ -1,0 +1,194 @@
+"appid" "218040"
+"common"
+{
+	"name" "Democracy 2"
+	"type" "Game"
+	"logo" "e55ab1b4db7d33ef9274652f358c7ce79b502024"
+	"logo_small" "e55ab1b4db7d33ef9274652f358c7ce79b502024_thumb"
+	"icon" "d4f00b0d93ea2e66a0636ae3453b26135124de67"
+	"clienttga" "069c7bdb93215533804b5e0c2d65cb3e541da283"
+	"oslist" "windows,macos"
+	"metacritic_name" "Democracy 2"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1350345907"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Positech Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Positech Games"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"original_release_date" "1196496000"
+	"community_hub_visible" "1"
+	"gameid" "218040"
+	"store_tags"
+	{
+		"0" "26921"
+		"1" "599"
+		"2" "9"
+		"3" "492"
+		"4" "4754"
+		"5" "1677"
+	}
+	"review_score" "5"
+	"review_percentage" "53"
+}
+"extended"
+{
+	"developer" "Positech Games"
+	"gamedir" "ValveTestApp218040"
+	"homepage" "www.positech.co.uk/democracy2"
+	"icon" ""
+	"installscript_macos" "Democracy2.app/installscript_osx.vdf"
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"validoslist" "windows,macos"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Positech Games"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Democracy 2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Democracy2.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Democracy2.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"installscriptsignature" "6551963a180c01d09e2167fa6ce0506a4e5b21a4fb43f310a426ea7c739a4cda70a1358b7d0bf93debbab5c42b9ed390cbf7a3e3d5b7f0c05ff96f7867f0882f3851f173cf93e27fe0617506e1a4f5b38e942fdb76f435c57f1b3685d0cdf8acbd86247eca1846cc5bd07b3cc71b9138cefeb5e31592c3a397a9f1f0b283797c"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\directx\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\218040"
+		}
+	}
+}
+"depots"
+{
+	"218041"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "177848914275517683"
+				"size" "84134135"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "2BA613DCFB2B6F122AB370CF1F924F81"
+				"size" "72C9218F8325F75E4979342E67628287"
+				"download" "73B6F638243C8B929FE22FC9B3B19179"
+			}
+		}
+	}
+	"218042"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9207181247825263563"
+				"size" "68066922"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "A8E40F55B98FE4A4CFF81851FC8D6083"
+				"size" "BFA0E68D38E84D4315F34F97076CBC1D"
+				"download" "73B6F638243C8B929FE22FC9B3B19179"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "20597"
+		}
+		"beta"
+		{
+			"buildid" "20529"
+			"pwdrequired" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "24483107"
+"_sha" "c935204d6b6623ddaf6ad2e52a33a7c9537f49af"
+"_size" "3448"
