@@ -1,14 +1,14 @@
 "appid" "2421410"
 "common"
 {
-	"name" "Cyber Manhunt 2: New World"
+	"name" "Cyber Manhunt 2: New World - The Hacking Simulator"
 	"type" "Game"
 	"icon" "aae6ec5fb5c3efc390f797fed323053cf04dd2e2"
-	"clienttga" "9582580866ac0f42020b7d0356925c54dd03ad22"
-	"clienticon" "5bac1d72000b9fcf62aeb16556a46889212a40bd"
+	"clienttga" "935f14059b1d1b8bfda1cbfd67ac4e467ae1802a"
+	"clienticon" "32734d5b0461b647facd43f1d0311afdfc1ecfb0"
 	"name_localized"
 	{
-		"english" "Cyber Manhunt 2: New World"
+		"english" "Cyber Manhunt 2: New World - The Hacking Simulator"
 		"schinese" "全网公敌2 新世界"
 		"tchinese" "全網公敵2 新世界"
 	}
@@ -23,6 +23,55 @@
 		"tchinese" "1"
 	}
 	"exfgls" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1717545600"
+		"tested_build_id" "14404863"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"small_capsule"
 	{
@@ -49,7 +98,66 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1715242102"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"tchinese" "library_600x900_tchinese.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"tchinese" "library_600x900_tchinese_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+				"tchinese" "logo_tchinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+				"tchinese" "logo_tchinese_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "100"
+				"height_pct" "100"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"schinese" "library_header_schinese.jpg"
+				"tchinese" "library_header_tchinese.jpg"
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1726026635"
 	"associations"
 	{
 		"0"
@@ -131,7 +239,7 @@
 		"19" "493"
 	}
 	"review_score" "8"
-	"review_percentage" "91"
+	"review_percentage" "92"
 }
 "extended"
 {
@@ -174,9 +282,9 @@
 		{
 			"public"
 			{
-				"gid" "1545568945070740079"
-				"size" "2029048870"
-				"download" "1651084864"
+				"gid" "4272783829758904090"
+				"size" "2483591148"
+				"download" "2032905552"
 			}
 		}
 		"encryptedmanifests"
@@ -201,15 +309,15 @@
 			}
 			"alubatest"
 			{
-				"gid" "EEE7F90AEE9E108ECC24E4619D03FB91"
-				"size" "DEFC85C7323B715D23157BF3F91482B5"
-				"download" "FCEA56358E4AE4E5B980FE3D67F07574"
+				"gid" "45E4A1780E8DD09022DF2A403F800941"
+				"size" "A33B3865736C65F01E17C445AE017036"
+				"download" "D8B8E20280DE886B3D4F693DB696D6B5"
 			}
 			"eatest"
 			{
-				"gid" "9D820F1527CF2F6744E805818F60D321"
-				"size" "94450F550E42C0E30E368DC8BEFC4BB0"
-				"download" "84ECEE5E1719A2D65A15375A13B15EF3"
+				"gid" "17D79F2F2DEACE62F8686216B3B4E791"
+				"size" "21E8A73CDB0D08242EAEE1DCCED5BFDE"
+				"download" "6BF0BD511F04BA40502E2816980FC4AF"
 			}
 			"kol123"
 			{
@@ -219,9 +327,9 @@
 			}
 			"translate"
 			{
-				"gid" "155A26395D80B4CDC6C5E9139D4A32EF"
-				"size" "665AC9BD0065F930430A8A4FF4CF1469"
-				"download" "FB194747A7ABC4F8268CECCF08423187"
+				"gid" "89F0849271F5EF599816459C45E0EC4C"
+				"size" "14028FA6106C727EF26FD3E88DB3A0C9"
+				"download" "D76615656098B56EF7DD9DCAB8DB5455"
 			}
 		}
 	}
@@ -236,9 +344,9 @@
 		{
 			"public"
 			{
-				"gid" "1201249489539431685"
-				"size" "2134598772"
-				"download" "1676750768"
+				"gid" "8425195655066209869"
+				"size" "2589478842"
+				"download" "2056223824"
 			}
 		}
 		"encryptedmanifests"
@@ -263,15 +371,15 @@
 			}
 			"alubatest"
 			{
-				"gid" "CC6842143D18A8505FD7C77542D29FF5"
-				"size" "5D5CD9B756A3130F6ED8835F00367337"
-				"download" "FBC400FA89A9D0BF3D195816024F053C"
+				"gid" "97544CE9807954002777C091B14E8B5E"
+				"size" "622981110A789B4888DFE5B9785E9FB8"
+				"download" "C58240B4FF274CF8AA82B59FBB6E93D0"
 			}
 			"eatest"
 			{
-				"gid" "C86EE93566562CDD08CFAED9616616E7"
-				"size" "1ED3C707B3B0BF72542F85CAA4250527"
-				"download" "7CD13193CD46AFF7FEE6F5666C6603CA"
+				"gid" "153AB3B103E51023E5C51C4D638C3C9F"
+				"size" "8B298258F38CA70B7B8B7A4C51137092"
+				"download" "5A5ABC166EB3575B4D86D63BA33A7BAB"
 			}
 			"kol123"
 			{
@@ -281,9 +389,9 @@
 			}
 			"translate"
 			{
-				"gid" "2DEC62579EBD3BA42CD55F3D74DE24BB"
-				"size" "D2594DC0AF6C0F1897FC1376F23E9611"
-				"download" "D2F50F1E1A2B372A9D760CE617BE14A4"
+				"gid" "B4B431BAF94AB2633EAEE5111072299D"
+				"size" "7D96A2A85F4B99ADD440A3B209093E80"
+				"download" "1946CB1DE29B0EC38682B7895A4C3ADF"
 			}
 		}
 	}
@@ -291,8 +399,8 @@
 	{
 		"public"
 		{
-			"buildid" "14404863"
-			"timeupdated" "1716108830"
+			"buildid" "15288663"
+			"timeupdated" "1723109017"
 		}
 		"chapter3"
 		{
@@ -314,15 +422,15 @@
 		}
 		"alubatest"
 		{
-			"buildid" "14404863"
+			"buildid" "15288663"
 			"pwdrequired" "1"
-			"timeupdated" "1715957790"
+			"timeupdated" "1723024936"
 		}
 		"eatest"
 		{
-			"buildid" "14404863"
+			"buildid" "15288663"
 			"pwdrequired" "1"
-			"timeupdated" "1716027474"
+			"timeupdated" "1723025458"
 		}
 		"kol123"
 		{
@@ -332,9 +440,9 @@
 		}
 		"translate"
 		{
-			"buildid" "14404863"
+			"buildid" "15288663"
 			"pwdrequired" "1"
-			"timeupdated" "1716027490"
+			"timeupdated" "1723025469"
 		}
 	}
 }
@@ -369,6 +477,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23636509"
-"_sha" "655c436fce99bad818418fef827262d3b7641d19"
-"_size" "7091"
+"_change_number" "25167729"
+"_sha" "dfbcb6b8c91757a7da24f5213c40632d46865537"
+"_size" "9509"
