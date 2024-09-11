@@ -1,7 +1,7 @@
 "appid" "2494450"
 "common"
 {
-	"name" "平寇志 The Last Soldier of the Ming Dynasty"
+	"name" "The Last Soldier of the Ming Dynasty"
 	"type" "Game"
 	"releasestate" "released"
 	"name_localized"
@@ -9,6 +9,7 @@
 		"schinese" "平寇志"
 		"english" "The Last Soldier of the Ming Dynasty"
 		"tchinese" "平寇志"
+		"japanese" "平寇志"
 	}
 	"icon" "cdcb1b9ccc5941da010a9fd01e074f7c1844453b"
 	"clienticon" "f49162f6417374e53d44857ac987342a928d4c5c"
@@ -49,7 +50,56 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1713789532"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "65.80186853708364"
+				"height_pct" "100"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1721383104"
 	"associations"
 	{
 		"0"
@@ -126,13 +176,15 @@
 		"15" "492"
 	}
 	"review_score" "8"
-	"review_percentage" "83"
+	"review_percentage" "82"
 }
 "extended"
 {
 	"developer" "Circuit_Art"
 	"publisher" "2P Games"
 	"homepage" "https://space.bilibili.com/1660826460"
+	"listofdlc" "3090520,3173800"
+	"dlcavailableonstore" "1"
 }
 "config"
 {
@@ -155,6 +207,8 @@
 }
 "depots"
 {
+	"baselanguages" "english,schinese"
+	"hasdepotsindlc" "1"
 	"228983"
 	{
 		"config"
@@ -233,9 +287,9 @@
 		{
 			"public"
 			{
-				"gid" "3054380107243606381"
-				"size" "20291907423"
-				"download" "7010719680"
+				"gid" "2912359820230241249"
+				"size" "12541124192"
+				"download" "12154488880"
 			}
 			"vanilla"
 			{
@@ -254,25 +308,33 @@
 			}
 			"test"
 			{
-				"gid" "AD5DB34F55FC36BA2CC3FFE1035B75A6"
-				"size" "064F3DBDF425312B02AC304D7F46CF21"
-				"download" "063DB116453526CB6A69B5F9180F27A2"
+				"gid" "20CECA31EF1D29790264F3A6C32FD312"
+				"size" "6BC9017DFFE56F774A25A8B3E4DE8C64"
+				"download" "15B2FD2EB47C032CE73F4F329781A27E"
 			}
 			"test2"
 			{
-				"gid" "A349E8A3E6EF80B61CBF0A93D025F208"
-				"size" "D7EEA5F3C27C1224306C8561F84623EF"
-				"download" "302DC3637EFC88EF30F039FF4E87A6BA"
+				"gid" "BE2643169D7FAB8FDC236894E15221B2"
+				"size" "F5F3BF2820A11431C1697815C6BFA26C"
+				"download" "0DB1EC69E92E34F6EAE2C67E957C68FD"
 			}
 		}
 	}
-	"baselanguages" "english,schinese"
+	"3090521"
+	{
+		"dlcappid" "3090520"
+		"config"
+		{
+			"language" "schinese"
+			"oslist" "windows"
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "14200006"
-			"timeupdated" "1714300552"
+			"buildid" "15660850"
+			"timeupdated" "1726041298"
 		}
 		"alpha"
 		{
@@ -280,23 +342,23 @@
 			"pwdrequired" "1"
 			"timeupdated" "1699010833"
 		}
-		"test"
-		{
-			"buildid" "13143504"
-			"pwdrequired" "1"
-			"timeupdated" "1704952452"
-		}
-		"test2"
-		{
-			"buildid" "14130924"
-			"pwdrequired" "1"
-			"timeupdated" "1713779801"
-		}
 		"vanilla"
 		{
 			"buildid" "13143504"
 			"description" "OG Last Soldier"
 			"timeupdated" "1713509470"
+		}
+		"test"
+		{
+			"buildid" "15660850"
+			"pwdrequired" "1"
+			"timeupdated" "1726041518"
+		}
+		"test2"
+		{
+			"buildid" "14942465"
+			"pwdrequired" "1"
+			"timeupdated" "1720186292"
 		}
 	}
 }
@@ -319,6 +381,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "23332733"
-"_sha" "c5e8ee77eb906e0d878a579bc42c64c3992f180d"
-"_size" "5232"
+"_change_number" "25170298"
+"_sha" "90e4f104c5df30cdc046331ae97fd122bbcc0a3c"
+"_size" "6157"
