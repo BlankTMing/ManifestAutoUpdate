@@ -1,0 +1,319 @@
+"appid" "9180"
+"common"
+{
+	"icon" "6d040ab4b45315de54bf4326054eabc1f122ddee"
+	"logo" "6c439e4a1682eb3b3500d85f6a0d3fb5ae008288"
+	"logo_small" "86dae27578aab3c3ec4e366fb63bd583500e05c7"
+	"name" "Commander Keen Complete Pack"
+	"clienticon" "ce934efcacdf6541f38d4687f3104dd621dc5f70"
+	"clienttga" "f64aebb98f36d2d0fd737cf1b5723139710fcadc"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1682726400"
+		"tested_build_id" "251969"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "63.41890315052508"
+			"height_pct" "81.53645214913323"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "63.41890315052508"
+				"height_pct" "81.53645214913323"
+			}
+		}
+	}
+	"store_asset_mtime" "1686163255"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "id Software"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "id Software"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "661161600"
+	"steam_release_date" "1186183800"
+	"community_hub_visible" "1"
+	"gameid" "9180"
+	"store_tags"
+	{
+		"0" "1625"
+		"1" "1693"
+		"2" "6691"
+		"3" "3871"
+		"4" "19"
+		"5" "4004"
+		"6" "3916"
+		"7" "4182"
+		"8" "3942"
+		"9" "5350"
+		"10" "3798"
+		"11" "21"
+		"12" "14720"
+		"13" "3964"
+	}
+	"review_score" "8"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"developer" "id Software"
+	"gamedir" "Commander Keen"
+	"homepage" "http://www.idsoftware.com/games/vintage/commanderkeen/"
+	"icon" "steam/games/icon_Command Keen"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "9181"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"developer_url" "http://www.idsoftware.com/"
+	"publisher" "id Software"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Commander Keen"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "base1\\dosbox.exe"
+			"arguments" "base1\\keen1.exe -conf base1\\keen1.conf -fullscreen -exit"
+		}
+		"1"
+		{
+			"description" "Launch Commander Keen The Earth Explodes"
+			"executable" "base2\\dosbox.exe"
+			"arguments" "base2\\keen2.exe -conf base2\\keen2.conf -fullscreen -exit"
+		}
+		"2"
+		{
+			"description" "Launch Commander Keen Keen Must Die"
+			"executable" "base3\\dosbox.exe"
+			"arguments" "base3\\keen3.exe -conf base3\\keen3.conf -fullscreen -exit"
+		}
+		"3"
+		{
+			"description" "Launch Commander Keen Secret of the Oracle"
+			"executable" "base4\\dosbox.exe"
+			"arguments" "base4\\keen4e.exe -conf base4\\keen4.conf -fullscreen -exit"
+		}
+		"4"
+		{
+			"description" "Launch Commander Keen The Armaggeddon Machine"
+			"executable" "base5\\dosbox.exe"
+			"arguments" "base5\\keen5e.exe -conf base5\\keen5.conf -fullscreen -exit"
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+}
+"depots"
+{
+	"9181"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1878581011464955806"
+				"size" "26458434"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "251969"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "500000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "base1"
+			"pattern" "SAVED*.CK1"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "base2"
+			"pattern" "SAVED*.CK2"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "base3"
+			"pattern" "SAVED*.CK3"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+		"4"
+		{
+			"root" "gameinstall"
+			"path" "base4"
+			"pattern" "SAVEGAM*.CK4"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+		"5"
+		{
+			"root" "gameinstall"
+			"path" "base5"
+			"pattern" "SAVEGAM*.CK5"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "24981165"
+"_sha" "f6c284b25b6293d3446014cbb3cdff2b0bc7b93e"
+"_size" "5995"
