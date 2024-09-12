@@ -22,8 +22,8 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1647648000"
-		"tested_build_id" "536903"
+		"test_timestamp" "1715731200"
+		"tested_build_id" "13373337"
 		"tests"
 		{
 			"0"
@@ -33,38 +33,59 @@
 			}
 			"1"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
 			}
 			"2"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
 			}
 			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"4"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_GameOrLauncherDoesntExitCleanly"
+			}
+			"5"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
 			}
-			"4"
+			"6"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"7"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_FirstTimeSetupRequiresActiveInternetConnection"
+			}
+			"8"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
 			}
 		}
 		"configuration"
 		{
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "1"
-			"requires_non_controller_launcher_nav" "0"
+			"requires_non_controller_launcher_nav" "1"
 			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "0"
+			"non_deck_display_glyphs" "1"
 			"small_text" "0"
-			"requires_internet_for_setup" "0"
-			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"requires_internet_for_setup" "1"
+			"requires_internet_for_singleplayer" "1"
+			"recommended_runtime" "proton-experimental"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Assassin\'s Creed Rogue"
@@ -87,6 +108,40 @@
 			"pinned_position" "BottomLeft"
 			"width_pct" "28"
 			"height_pct" "37"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "28"
+				"height_pct" "37"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
 		}
 	}
 	"store_asset_mtime" "1421674087"
@@ -125,6 +180,7 @@
 		"category_18" "1"
 		"category_45" "1"
 		"category_46" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -225,7 +281,7 @@
 		"19" "7250"
 	}
 	"review_score" "8"
-	"review_percentage" "84"
+	"review_percentage" "85"
 }
 "extended"
 {
@@ -478,9 +534,9 @@
 		{
 			"public"
 			{
-				"gid" "7351362109164650274"
-				"size" "234646152"
-				"download" "236320448"
+				"gid" "2813210786162669848"
+				"size" "232810480"
+				"download" "234531248"
 			}
 		}
 		"depotfromapp" "1716750"
@@ -526,6 +582,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22215533"
-"_sha" "34c80b8cf5a0df9c43c3e8c21577c46aa3fc0cb5"
-"_size" "10195"
+"_change_number" "24981165"
+"_sha" "5f4d4b771b63a4d7180fd3d98540fef22e012766"
+"_size" "11251"
