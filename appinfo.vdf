@@ -27,32 +27,27 @@
 	"osextended" ""
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1691798400"
-		"tested_build_id" "11866082"
+		"category" "3"
+		"test_timestamp" "1721952000"
+		"tested_build_id" "15072181"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
-			}
-			"1"
-			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-			}
-			"2"
-			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
-			}
-			"3"
-			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
-			"4"
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
@@ -61,16 +56,17 @@
 		"configuration"
 		{
 			"supported_input" "other"
-			"requires_manual_keyboard_invoke" "1"
+			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "1"
-			"small_text" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-experimental"
+			"recommended_runtime" "proton-stable"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"controllertagwizard" "1"
@@ -96,6 +92,62 @@
 			"pinned_position" "BottomLeft"
 			"width_pct" "34.694885044943405"
 			"height_pct" "73.44628156415736"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"schinese" "library_600x900_schinese.jpg"
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"schinese" "library_600x900_schinese_2x.jpg"
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+				"schinese" "library_hero_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+				"schinese" "library_hero_schinese_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image2x"
+			{
+				"schinese" "logo_schinese_2x.png"
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "34.694885044943405"
+				"height_pct" "73.44628156415736"
+			}
+			"image"
+			{
+				"schinese" "logo_schinese.png"
+				"english" "logo.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+				"schinese" "library_header_schinese.jpg"
+			}
 		}
 	}
 	"store_asset_mtime" "1719483416"
@@ -298,9 +350,9 @@
 		{
 			"public"
 			{
-				"gid" "1873615987369652247"
-				"size" "2100601165"
-				"download" "582576112"
+				"gid" "37069425734567422"
+				"size" "2102489562"
+				"download" "582807728"
 			}
 		}
 		"encryptedmanifests"
@@ -311,17 +363,17 @@
 				"size" "6284A5941B35B3A92BA76E276EF3DA59"
 				"download" "43E19ED566672D2FDBB4D42FF52CCE2D"
 			}
+			"mod_club_test"
+			{
+				"gid" "FD93CEB4D40D8D3FCAD49AE8C55E2BC7"
+				"size" "72817F5145726393582B3B69114B0F71"
+				"download" "68AF5954A157E4D3A094448B482BD84F"
+			}
 			"programmer_test"
 			{
-				"gid" "1F410FF8B937CC2D02934CBC8FD6ADA8"
-				"size" "3B33532800FB45E6A128FD96E4D48158"
-				"download" "7DF7C9929B8DEF04EFEFD44CB19CC48F"
-			}
-			"steam_deck_test"
-			{
-				"gid" "F2F5BE78839B7E74F1839F2793B08261"
-				"size" "23782222866090C0DA87BADB6D488BD1"
-				"download" "F3099FE1FE0B340A4A7FEE7FA17E87B5"
+				"gid" "CF985EF8BCD270BEB6A7D165CAC149B0"
+				"size" "15377972AFCB79A00475C34D071495E2"
+				"download" "119BA7517E3E18C6B0DB9AEB0AC61BB0"
 			}
 		}
 	}
@@ -337,68 +389,27 @@
 	{
 		"public"
 		{
-			"buildid" "15183926"
-			"timeupdated" "1722244683"
+			"buildid" "15645636"
+			"timeupdated" "1726110445"
 		}
 		"2023_12_13_test"
 		{
+			"sc_schinese" "学院实验班"
 			"buildid" "13365866"
 			"pwdrequired" "1"
 			"timeupdated" "1707115023"
-			"sc_schinese" "学院实验班"
+		}
+		"mod_club_test"
+		{
+			"buildid" "15470735"
+			"pwdrequired" "1"
+			"timeupdated" "1724653622"
 		}
 		"programmer_test"
 		{
-			"buildid" "15183926"
+			"buildid" "15645636"
 			"pwdrequired" "1"
-			"timeupdated" "1722242625"
-		}
-		"steam_deck_test"
-		{
-			"buildid" "15072181"
-			"pwdrequired" "1"
-			"timeupdated" "1721367697"
-			"sc_schinese" "test"
-		}
-		"steam_china_only"
-		{
-			"sc_schinese" "仅中国"
-		}
-		"principal-version"
-		{
-			"sc_schinese" "内部先行版"
-		}
-		"mediareview"
-		{
-			"sc_schinese" "媒体测试分支"
-		}
-		"build-test"
-		{
-			"sc_schinese" "构建测试"
-		}
-		"ru__test"
-		{
-			"sc_schinese" "俄语测试"
-		}
-		"i18n_test_1020"
-		{
-			"sc_schinese" "多语言测试"
-		}
-		"jp_i18n_test"
-		{
-			"sc_schinese" "日语测试"
-		}
-		"2023_11_privatetest"
-		{
-			"sc_schinese" "社团测试"
-		}
-		"build-test2"
-		{
-			"sc_schinese" "构建测试2"
-		}
-		"modtest"
-		{
-			"sc_schinese" "Mod功能测试"
+			"timeupdated" "1725934337"
 		}
 	}
 }
@@ -451,6 +462,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "24552968"
-"_sha" "f0e1e6f8ef72dd45517214fee3f6cc4a5872218d"
-"_size" "8321"
+"_change_number" "25184921"
+"_sha" "cf423185f5e3a176e0c9641f2e415ea1293db541"
+"_size" "8561"
