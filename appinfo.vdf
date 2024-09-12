@@ -15,6 +15,15 @@
 	"name_localized"
 	{
 		"english" "The World of Kungfu: Dragon and Eagle"
+		"sc_schinese" "大江湖之苍龙与白鸟"
+		"schinese" "大江湖之苍龙与白鸟"
+	}
+	"releasestatesteamchina" "prerelease"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"tchinese" "1"
 	}
 	"steam_deck_compatibility"
 	{
@@ -64,6 +73,8 @@
 			"gamescope_frame_limiter_not_supported" "0"
 		}
 	}
+	"controllertagwizard" "1"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -86,7 +97,50 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1695625523"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+				"schinese" "library_hero_schinese.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "61.16279069767438"
+				"height_pct" "100"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1726146911"
 	"associations"
 	{
 		"0"
@@ -112,10 +166,27 @@
 	{
 		"category_2" "1"
 		"category_23" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
 		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
 		{
 			"supported" "true"
 			"subtitles" "true"
@@ -149,7 +220,7 @@
 		"19" "493"
 	}
 	"review_score" "5"
-	"review_percentage" "59"
+	"review_percentage" "62"
 }
 "extended"
 {
@@ -173,6 +244,14 @@
 			}
 		}
 	}
+	"steam_china_only"
+	{
+		"steam_china_enable_duration_control" "0"
+	}
+	"steamcontrollertemplateindex" "4"
+	"steamcontrollertouchtemplateindex" "8"
+	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "65535"
 }
 "depots"
 {
@@ -186,6 +265,18 @@
 		"manifests"
 		{
 			"public"
+			{
+				"gid" "3220074430543088314"
+				"size" "1697261425"
+				"download" "1020889136"
+			}
+			"demo"
+			{
+				"gid" "3057991785736936788"
+				"size" "610493094"
+				"download" "413785184"
+			}
+			"old_ea_version"
 			{
 				"gid" "5890083684420205210"
 				"size" "1008023806"
@@ -212,14 +303,38 @@
 				"size" "D4C2D7EEF0EC9807603A97C3B2803FB3"
 				"download" "FCB784A899DAB1F62A8BF3895AFE93A7"
 			}
+			"demogo"
+			{
+				"gid" "5861799B8EF3EB0708316FB1A56C855F"
+				"size" "339006AB1DE35163D843883A2145921A"
+				"download" "361F3B810561B19EE22C54397D90D678"
+			}
+			"beta_4_biliup"
+			{
+				"gid" "E7699967E834CE0DB9F925A8223CC1C1"
+				"size" "46AE39253BB4AFACC79F7D98EFE2E8E9"
+				"download" "75F69D98AAC118E2184AAF71E0808204"
+			}
+			"beta_4_users"
+			{
+				"gid" "194F8065B7CEFD08A1653D1298729F93"
+				"size" "43CEE113FF77321ABC02DE28A5F44B78"
+				"download" "C1DE3DC0EEEE317191AADE70B3B182EE"
+			}
+			"devtest.2407"
+			{
+				"gid" "D668E486154AF1F06268377C06E74980"
+				"size" "49A96854DA56A4894F12B66E793B0C76"
+				"download" "B706BE53621673224A5FD7C36EA08C49"
+			}
 		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "9843813"
-			"timeupdated" "1667301673"
+			"buildid" "15674478"
+			"timeupdated" "1726135516"
 		}
 		"alpharole"
 		{
@@ -239,12 +354,52 @@
 			"pwdrequired" "1"
 			"timeupdated" "1675414044"
 		}
+		"demo"
+		{
+			"buildid" "13761527"
+			"description" "demo version"
+			"timeupdated" "1710588904"
+		}
+		"demogo"
+		{
+			"buildid" "13761527"
+			"pwdrequired" "1"
+			"timeupdated" "1710586083"
+		}
+		"beta_4_biliup"
+		{
+			"sc_schinese" "Beta for biliup"
+			"buildid" "15625103"
+			"pwdrequired" "1"
+			"timeupdated" "1725707207"
+		}
+		"beta_4_users"
+		{
+			"sc_schinese" "Beta for steam users"
+			"buildid" "15625103"
+			"pwdrequired" "1"
+			"timeupdated" "1725707197"
+		}
+		"devtest.2407"
+		{
+			"sc_schinese" "DEV Test"
+			"buildid" "15674478"
+			"pwdrequired" "1"
+			"timeupdated" "1726129694"
+		}
+		"old_ea_version"
+		{
+			"sc_schinese" "旧EA分支版本"
+			"buildid" "9843813"
+			"description" "旧EA分支版本"
+			"timeupdated" "1726111298"
+		}
 	}
 }
 "ufs"
 {
-	"quota" "320000000"
-	"maxnumfiles" "20"
+	"quota" "367001600"
+	"maxnumfiles" "100"
 	"savefiles"
 	{
 		"1"
@@ -257,9 +412,19 @@
 				"1" "Windows"
 			}
 		}
+		"2"
+		{
+			"root" "WinMyDocuments"
+			"path" "TheWorldOfKongFu_Stable"
+			"pattern" "*.dat"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "20418391"
-"_sha" "a7a10ab180db3782f562cad777d1e8963655cf0a"
-"_size" "5001"
+"_change_number" "25192496"
+"_sha" "4e27bc0408fe7cff87a8957179872e1a1759cf63"
+"_size" "8485"
