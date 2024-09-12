@@ -108,7 +108,60 @@
 			"height_pct" "76.38888888888889"
 		}
 	}
-	"store_asset_mtime" "1720218098"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "32.06842950753142"
+				"height_pct" "76.38888888888889"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1726155940"
 	"associations"
 	{
 		"0"
@@ -254,7 +307,38 @@
 			{
 				"oslist" "windows"
 				"osarch" "64"
+				"betakey" "default"
 			}
+		}
+		"1"
+		{
+			"executable" "NWXClient.exe"
+			"arguments" "-projectName flx-ptr -featureSet flighting"
+			"type" "default"
+			"config"
+			{
+				"betakey" "realmsrebuiltptr"
+			}
+			"description_loc"
+			{
+				"english" "PTR Build"
+			}
+			"description" "PTR Build"
+		}
+		"2"
+		{
+			"executable" "NWXClient.exe"
+			"arguments" "-projectName flx-live -featureSet flighting"
+			"type" "default"
+			"config"
+			{
+				"betakey" "live"
+			}
+			"description_loc"
+			{
+				"english" "Pending Build"
+			}
+			"description" "Pending Build"
 		}
 	}
 	"steamcontrollertemplateindex" "4"
@@ -289,18 +373,24 @@
 		{
 			"public"
 			{
-				"gid" "2852391349712274035"
-				"size" "53789636247"
-				"download" "52323112912"
+				"gid" "4079692168174280508"
+				"size" "60222441396"
+				"download" "59155607536"
+			}
+			"nightingale-0.3.2"
+			{
+				"gid" "2657529975709839503"
+				"size" "53789597174"
+				"download" "52323012096"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"live"
 			{
-				"gid" "CF32DFCCD704621E472AE8A3EA30F14F"
-				"size" "4F8ED069B5FDCA6C496F633BE01EFE51"
-				"download" "1F695ADABA57A0587598ECED5C4BAF7F"
+				"gid" "11BB50026B31D1D0812E9E1A34F4FC95"
+				"size" "02A9220703ADF00C1F69D46380BEEB0F"
+				"download" "B810C92EC5F1875E58C2BD94DB051606"
 			}
 		}
 	}
@@ -308,14 +398,20 @@
 	{
 		"public"
 		{
-			"buildid" "15094270"
-			"timeupdated" "1723565382"
+			"buildid" "15669966"
+			"timeupdated" "1726154657"
 		}
 		"live"
 		{
-			"buildid" "15094270"
+			"buildid" "15669966"
 			"pwdrequired" "1"
-			"timeupdated" "1721425338"
+			"timeupdated" "1726095124"
+		}
+		"nightingale-0.3.2"
+		{
+			"buildid" "14837574"
+			"description" "Use this branch to access the pre-0.5 (Realms Rebuilt) version of Nightingale including characters and estates exported via our website."
+			"timeupdated" "1724963313"
 		}
 	}
 }
@@ -335,6 +431,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "24769367"
-"_sha" "2e332113d5c9bf7ccd505ab69f17d7a393bdb1a8"
-"_size" "6106"
+"_change_number" "25194901"
+"_sha" "0baa08021ee0d5c3507acfdd8abde9a6f576d735"
+"_size" "7863"
