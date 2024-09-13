@@ -1,0 +1,244 @@
+"appid" "204580"
+"common"
+{
+	"name" "Rotastic"
+	"type" "Game"
+	"clienticon" "d7ee5b3a1e05cb3e85af93708f92d89d79a6ba33"
+	"clienttga" "4ddb6710a697d89c366383c3105a4c25d5c3b281"
+	"icon" "60e4be2cadf1b5917c10a64e646c0c5b40f1bede"
+	"logo" "36c2fbfdff7e1935f342ed0937a6763db505ef0c"
+	"logo_small" "36c2fbfdff7e1935f342ed0937a6763db505ef0c_thumb"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"tchinese" "1"
+		"japanese" "1"
+	}
+	"eulas"
+	{
+		"0"
+		{
+			"id" "204580_eula_0"
+			"name" "Rotastic EULA"
+			"url" "URL204580_eula_0"
+		}
+	}
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"metacritic_name" "Rotastic"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "61.54862172742771"
+			"height_pct" "60.77239500939967"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "61.54862172742771"
+				"height_pct" "60.77239500939967"
+			}
+		}
+	}
+	"store_asset_mtime" "1563293705"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Dancing Dots"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Focus Entertainment"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_28" "1"
+		"category_43" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1349974800"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "204580"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "19"
+		"2" "7368"
+	}
+	"review_score" "7"
+	"review_percentage" "85"
+}
+"extended"
+{
+	"developer" "Dancing Dots"
+	"gamedir" "Rotastic"
+	"gamemanualurl" "http://store.steampowered.com/manual/204580/"
+	"homepage" "http://www.rotastic.com/"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Focus Entertainment"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Rotastic.exe"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Rotastic"
+	"installscriptsignature" "9b7e80708688f7ec198715f87c2047fd5d47066a14b23eed0621c8210ffb78d9632a419efcf777d1855b19ac6f456cc40055d60dd9abea140f1628e980741d67b4a264b841a399ff9c749cfa514aef3e96ff6508fea897d85cf516af9b93416149d852ed6b581226f2d25b55d657a98da3beeab8c32e4ee79973c3963bdddfc7"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\Support\\DX9\\DXSETUP.exe "
+			"command 1" "/silent"
+			"description" "DirectX Installation"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"204581"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "668504543963378126"
+				"size" "990547009"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "18162"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1024000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Focus/Rotastic"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "24981165"
+"_sha" "2213675e7ebd38a596096daa341c5d7be1abcd71"
+"_size" "4120"
