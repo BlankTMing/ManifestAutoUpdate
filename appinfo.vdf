@@ -15,8 +15,6 @@
 		"0" "2"
 		"1" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "2"
@@ -91,7 +89,56 @@
 			"height_pct" "92.65840058182573"
 		}
 	}
-	"store_asset_mtime" "1704996125"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomCenter"
+				"width_pct" "40.67811212196301"
+				"height_pct" "92.65840058182573"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1721995026"
 	"associations"
 	{
 		"0"
@@ -122,6 +169,9 @@
 	"category"
 	{
 		"category_2" "1"
+		"category_23" "1"
+		"category_30" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -182,33 +232,34 @@
 		}
 	}
 	"steam_release_date" "1696262346"
+	"workshop_visible" "1"
 	"community_hub_visible" "1"
 	"gameid" "2059170"
 	"store_tags"
 	{
 		"0" "1199779"
-		"1" "1677"
+		"1" "599"
 		"2" "122"
-		"3" "1741"
-		"4" "4325"
-		"5" "9"
-		"6" "1695"
-		"7" "599"
-		"8" "1708"
-		"9" "4182"
-		"10" "14139"
-		"11" "1716"
-		"12" "3942"
-		"13" "5125"
-		"14" "1759"
-		"15" "4026"
-		"16" "4747"
-		"17" "4604"
-		"18" "1742"
-		"19" "3959"
+		"3" "1716"
+		"4" "1677"
+		"5" "1708"
+		"6" "4325"
+		"7" "9"
+		"8" "1741"
+		"9" "14139"
+		"10" "1695"
+		"11" "1755"
+		"12" "4182"
+		"13" "3834"
+		"14" "3942"
+		"15" "5125"
+		"16" "4026"
+		"17" "1759"
+		"18" "4747"
+		"19" "1742"
 	}
 	"review_score" "6"
-	"review_percentage" "78"
+	"review_percentage" "79"
 }
 "extended"
 {
@@ -243,33 +294,70 @@
 		{
 			"public"
 			{
-				"gid" "243152303972448752"
-				"size" "916704492"
-				"download" "462282304"
+				"gid" "8463862063354833067"
+				"size" "1361730727"
+				"download" "711556368"
+			}
+			"beta"
+			{
+				"gid" "3171856299113724612"
+				"size" "1339998441"
+				"download" "698731008"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"prod_with_console"
+			{
+				"gid" "AFEEA2F572063E3B48D955528B9A840A"
+				"size" "7885FF478E9DB5110559ED343BEC9425"
+				"download" "FA47EE83413564D4431B4269407B2E24"
+			}
 			"test"
 			{
-				"gid" "846D5A93EB90BB7AE053E7E1ECB116C1"
-				"size" "5BA1BED88A265E14A2C4DC743EB7F457"
-				"download" "D8FF77AAD359809AD943B918F6E58ECA"
+				"gid" "A4B2BDF0A94ECF4C0D5B1B4A07D91BF9"
+				"size" "6690DBA831B759FAA9FCA385160FDC8A"
+				"download" "625F6F9D3D8C0BDA004E32A19D0729C1"
+			}
+			"test_ci"
+			{
+				"gid" "FC1E94B08923471F92DED7667770486E"
+				"size" "E7E4FCD318EBC5D2E3BBB3B57C46FDF1"
+				"download" "471288C25D58FF02654319883AC1911E"
 			}
 		}
 	}
+	"workshopdepot" "2059170"
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13199948"
-			"timeupdated" "1705525975"
+			"buildid" "15329438"
+			"timeupdated" "1723309007"
+		}
+		"beta"
+		{
+			"buildid" "13985193"
+			"description" "0.6 Beta"
+			"timeupdated" "1712576646"
+		}
+		"prod_with_console"
+		{
+			"buildid" "14880420"
+			"pwdrequired" "1"
+			"timeupdated" "1719652357"
 		}
 		"test"
 		{
-			"buildid" "13199948"
+			"buildid" "15666625"
 			"pwdrequired" "1"
-			"timeupdated" "1705525678"
+			"timeupdated" "1726071696"
+		}
+		"test_ci"
+		{
+			"buildid" "14264867"
+			"pwdrequired" "1"
+			"timeupdated" "1714822977"
 		}
 	}
 }
@@ -291,7 +379,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "21937977"
-"_sha" "fad77bbaef3517eab0f11c06a8c8de640d54a8c8"
-"_size" "5096"
