@@ -71,8 +71,8 @@
 	}
 	"small_capsule"
 	{
-		"english" "capsule_231x87.jpg"
-		"schinese" "capsule_231x87_schinese.jpg"
+		"english" "99b80bf28f89fae4c0486291575c241fd642d0c6/capsule_231x87.jpg"
+		"schinese" "c3f172302be11117be5bdb711b4d536f0bdd8426/capsule_231x87_schinese.jpg"
 	}
 	"header_image"
 	{
@@ -82,17 +82,17 @@
 	"library_assets"
 	{
 		"library_capsule" "en,zh-cn"
-		"library_hero" "en,zh-cn"
+		"library_hero" "en"
 		"library_logo" "en,zh-cn"
 		"library_header" "en,zh-cn"
 		"logo_position"
 		{
-			"pinned_position" "CenterCenter"
-			"width_pct" "37.6884916914012"
-			"height_pct" "44.54731173510456"
+			"pinned_position" "BottomLeft"
+			"width_pct" "41.29314285419189"
+			"height_pct" "23.295781573697866"
 		}
 	}
-	"store_asset_mtime" "1706983684"
+	"store_asset_mtime" "1723634309"
 	"associations"
 	{
 		"0"
@@ -106,13 +106,12 @@
 			"name" "Craft Theory"
 		}
 	}
-	"primary_genre" "23"
+	"primary_genre" "2"
 	"genres"
 	{
-		"0" "23"
-		"1" "28"
-		"2" "2"
-		"3" "70"
+		"0" "28"
+		"1" "2"
+		"2" "70"
 	}
 	"category"
 	{
@@ -125,6 +124,7 @@
 		"category_22" "1"
 		"category_30" "1"
 		"category_23" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -144,14 +144,24 @@
 	"gameid" "1739650"
 	"store_tags"
 	{
-		"0" "3810"
-		"1" "3968"
-		"2" "1755"
-		"3" "1708"
-		"4" "599"
-		"5" "3859"
-		"6" "3942"
-		"7" "492"
+		"0" "1643"
+		"1" "4291"
+		"2" "3959"
+		"3" "3810"
+		"4" "3968"
+		"5" "4885"
+		"6" "15045"
+		"7" "6730"
+		"8" "1755"
+		"9" "4191"
+		"10" "1775"
+		"11" "492"
+		"12" "16598"
+		"13" "3859"
+		"14" "4182"
+		"15" "599"
+		"16" "1708"
+		"17" "3942"
 	}
 	"review_score" "5"
 	"review_percentage" "59"
@@ -178,7 +188,7 @@
 }
 "depots"
 {
-	"baselanguages" "english"
+	"baselanguages" ""
 	"workshopdepot" "1739650"
 	"hasdepotsindlc" "0"
 	"1739652"
@@ -192,18 +202,15 @@
 		{
 			"public"
 			{
-				"gid" "1485429776604081345"
-				"size" "5108238458"
-				"download" "1154575088"
+				"gid" "163434534626101933"
+				"size" "7659678734"
+				"download" "1481766304"
 			}
-		}
-		"encryptedmanifests"
-		{
 			"beta"
 			{
-				"gid" "A166D6E44ED0F98DFE6F60E2F8600DC0"
-				"size" "98EC869F71E3D5F1826983FDBFEC7483"
-				"download" "EA7DF694D305FAA6ED9B043A8B973A28"
+				"gid" "163434534626101933"
+				"size" "7659678734"
+				"download" "1481766304"
 			}
 		}
 	}
@@ -211,14 +218,14 @@
 	{
 		"public"
 		{
-			"buildid" "13761515"
-			"timeupdated" "1710585944"
+			"buildid" "15415815"
+			"timeupdated" "1724047785"
 		}
 		"beta"
 		{
-			"buildid" "13508917"
-			"pwdrequired" "1"
-			"timeupdated" "1708440331"
+			"buildid" "15415815"
+			"description" "Public beta test branch"
+			"timeupdated" "1724047733"
 		}
 	}
 }
@@ -238,7 +245,7 @@
 		"1"
 		{
 			"root" "gameinstall"
-			"path" "Dimensions_Data/Adventure Saves/{64BitSteamID}"
+			"path" "Dimensions_Data/Campaign Saves/{64BitSteamID}"
 			"pattern" "*.save"
 			"recursive" "1"
 		}
@@ -247,10 +254,14 @@
 			"root" "gameinstall"
 			"path" "Dimensions_Data/Design Saves/{64BitSteamID}"
 			"pattern" "*.design"
+			"recursive" "1"
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "Dimensions_Data/Game Settings/{64BitSteamID}"
+			"pattern" "*.txt"
+			"recursive" "1"
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "22791981"
-"_sha" "616b171aa810481aa9984e8c2364663b52b25747"
-"_size" "4807"
