@@ -1,0 +1,461 @@
+"appid" "211070"
+"common"
+{
+	"name" "Check vs. Mate"
+	"type" "Game"
+	"clienticon" "b10758d898b5931a93150eed118eaa0e71ca5fe0"
+	"clienttga" "4da06986db79ebc24b2102e177eb96f258233559"
+	"icon" "d92c3df0ee7ac6cace3500936e08ec54d4b6e0d3"
+	"clienticns" "6e588b1b1f8ef88d13bdce6090b9aa00ac0abe14"
+	"logo" "b0c28c676fd783d30c9e558c6f7ad9064008090c"
+	"logo_small" "b0c28c676fd783d30c9e558c6f7ad9064008090c_thumb"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"metacritic_name" "Check vs Mate"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "52.046035805626616"
+			"height_pct" "72.2222222222222"
+		}
+	}
+	"store_asset_mtime" "1667486730"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Targem Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Topware Interactive"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_18" "1"
+		"category_37" "1"
+		"category_49" "1"
+		"category_44" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+		}
+	}
+	"metacritic_score" "69"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/check-vs-mate\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "211070"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "597"
+		"2" "19"
+		"3" "4184"
+	}
+	"review_score" "5"
+	"review_percentage" "65"
+}
+"extended"
+{
+	"developer" "Targem Games"
+	"gamedir" "Check vs Mate"
+	"homepage" "http://www.battlevschess.com/"
+	"icon" ""
+	"installscript" "cvsm_install.vdf"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp211070\\SteamKey"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "211071"
+	"serverbrowsername" ""
+	"showcdkeyonlaunch" "1"
+	"state" "eStateAvailable"
+	"supportscdkeycopytoclipboard" "1"
+	"validoslist" "windows,macos"
+	"publisher" "Topware Interactive"
+	"gamemanualurl" "https://store.steampowered.com/manual/211070/"
+	"listofdlc" "339620,339630,510150"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "checkvsmate.exe"
+			"arguments" "-dlc00 data\\dlc\\dark_desert\\ -dlc01 data\\dlc\\floating_island\\ %1 %2 %3 %4 %5 %6 %7 %8 %9"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "CheckVsMate.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "RunGame"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "ddc.cmd"
+			"description" "Explore Premium Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "510150"
+			}
+		}
+		"4"
+		{
+			"executable" "ddc"
+			"description" "Explore Premium Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+				"ownsdlc" "510150"
+			}
+		}
+		"5"
+		{
+			"executable" "ddc_xdg"
+			"description" "Explore Premium Content"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"ownsdlc" "510150"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Check vs Mate"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"211071"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7052503410565896590"
+				"size" "728062626"
+				"download" "538966208"
+			}
+		}
+	}
+	"211072"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3349996100716808371"
+				"size" "692586076"
+				"download" "416976544"
+			}
+		}
+	}
+	"211073"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "235887647071389891"
+				"size" "71684"
+				"download" "0"
+			}
+		}
+	}
+	"211074"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "894839776457322762"
+				"size" "99469"
+				"download" "0"
+			}
+		}
+	}
+	"211075"
+	{
+		"config"
+		{
+			"language" "spanish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1693236022782075957"
+				"size" "89847"
+				"download" "0"
+			}
+		}
+	}
+	"339630"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"dlcappid" "339630"
+	}
+	"339620"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"dlcappid" "339620"
+	}
+	"339631"
+	{
+		"dlcappid" "339630"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6965083881677057412"
+				"size" "53232600"
+				"download" "34761952"
+			}
+		}
+	}
+	"339621"
+	{
+		"dlcappid" "339620"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5079836904649936020"
+				"size" "45037128"
+				"download" "31608304"
+			}
+		}
+	}
+	"211076"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3397217888818486282"
+				"size" "1367084718"
+				"download" "726857088"
+			}
+		}
+	}
+	"211077"
+	{
+		"dlcappid" "339620"
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9073441379890347147"
+				"size" "45037128"
+				"download" "31608304"
+			}
+		}
+	}
+	"211078"
+	{
+		"dlcappid" "339630"
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8185473725728869454"
+				"size" "53232600"
+				"download" "34761952"
+			}
+		}
+	}
+	"211079"
+	{
+		"dlcappid" "510150"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1364196084618360318"
+				"size" "207149082"
+				"download" "178138800"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3537277"
+			"timeupdated" "1549470335"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "My Games/check vs mate/"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinMyDocuments"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "My Games/check vs mate/"
+					"replace" "My Games/check vs mate/"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinMyDocuments"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "My Games/check vs mate/"
+					"replace" "My Games/check vs mate/"
+				}
+			}
+		}
+		"2"
+		{
+			"root" "WinMyDocuments"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "My Games/check vs mate/"
+					"replace" "check vs mate/"
+				}
+			}
+		}
+	}
+}
