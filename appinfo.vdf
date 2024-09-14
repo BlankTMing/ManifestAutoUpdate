@@ -1,0 +1,628 @@
+"appid" "205610"
+"common"
+{
+	"name" "Port Royale 3"
+	"type" "Game"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"japanese" "1"
+	}
+	"logo" "6bf14953faf1660288acca93843906aba8aa5e7d"
+	"logo_small" "6bf14953faf1660288acca93843906aba8aa5e7d_thumb"
+	"clienticon" "434194264852686bef4f7afcca20294636eb5681"
+	"clienttga" "c726e7a67d3dbaeb530daff4bfe5651a6678a8b8"
+	"icon" "0a276df791e7b5881c78ba6b54250f90a4ad31f9"
+	"metacritic_name" "Port Royale 3"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1644396083"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Gaming Minds Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Kalypso Media Digital"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Port Royale"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "1"
+		"1" "28"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1336150800"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "205610"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "4202"
+		"2" "599"
+		"3" "1681"
+		"4" "4695"
+		"5" "12472"
+		"6" "6910"
+		"7" "19"
+		"8" "3987"
+		"9" "1695"
+		"10" "4994"
+		"11" "13577"
+		"12" "4182"
+		"13" "21"
+		"14" "4328"
+	}
+	"review_score" "6"
+	"review_percentage" "73"
+}
+"extended"
+{
+	"developer" "Gaming Minds Studios"
+	"gamedir" "Port Royale 3"
+	"homepage" ""
+	"icon" ""
+	"installscript" "205610_install.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "205611"
+	"serverbrowsername" ""
+	"showcdkeyonlaunch" "1"
+	"state" "eStateAvailable"
+	"publisher" "Kalypso Media Digital"
+	"gamemanualurl" "https://store.steampowered.com/manual/205610/"
+	"listofdlc" "215970,215971,215972,215973,215974"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installscriptsignature" "5a0e75d0effd13f0f5b70fe8fb2d38496cd2ea65ed7b543f30b6c9948596657bb55f6e9de77a2ab5d1ee68fbb9d89885504c0e8f3f5799fd1014ce129e44d4dfc7bd9a6b0afdd7b4d168811b0989cc7462074ae7797e16d2d8205c139cdcff327fc4134501425fa99e21d49ff7b44259d218b1b8e871b4fa27550fabbdd70174"
+	"installscriptoverride" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "PortRoyale3.exe"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Port Royale 3"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_current_user\\software\\kalypso media\\port royale 3"
+		{
+			"string"
+			{
+				"path" "%INSTALLDIR%"
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\205610"
+			"process 1" "%INSTALLDIR%\\DirectXRedist\\DXSETUP.exe"
+			"command 1" "/silent"
+			"ignoreexitcode" "1"
+		}
+		"dotnetfx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\205610"
+			"process 1" "%INSTALLDIR%\\dotnetfx3.exe"
+			"command 1" "/q /norestart"
+			"ignoreexitcode" "1"
+		}
+		"dotnetfx35"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\205610"
+			"process 1" "%INSTALLDIR%\\dotnetfx35.exe"
+			"command 1" "/q /norestart"
+			"ignoreexitcode" "1"
+		}
+		"vcredist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\205610"
+			"process 1" "%INSTALLDIR%\\vcredist_x86.exe"
+			"command 1" "/q /norestart"
+			"ignoreexitcode" "1"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" "english"
+	"hasdepotsindlc" "0"
+	"205612"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7914637285045534105"
+				"size" "2441906364"
+				"download" "1431161616"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"baseline"
+			{
+				"gid" "5CF9E55AFDDA906748E545CFEC83226D"
+				"size" "DAFBE2418EF7B9931C4BA980C38BDC1B"
+				"download" "5708D1D9E6A07E8F9E8C086350812BFD"
+			}
+			"beta"
+			{
+				"gid" "D79EE8F9CB796DF7EFEA478A1524D3C7"
+				"size" "8E3A4FACCA81928AE0A07980F9F2885D"
+				"download" "E0BBB2FC7EB70F0E1E13BAFA66D38212"
+			}
+			"external"
+			{
+				"gid" "A026513EE733076D4909FC4F38CC79B9"
+				"size" "90FD15D5ABDBAA14A3C785F8935787D8"
+				"download" "2874E7D4A078D2485109FCF0AEBD3518"
+			}
+			"internal"
+			{
+				"gid" "6260E58D5E83D656B722C5AC24957881"
+				"size" "56C7F8B981AB9ED1FA6890101B74BE43"
+				"download" "E5772767CC39A35A54F77E5080B59F3B"
+			}
+			"jp_test"
+			{
+				"gid" "CB934D7A2868B7D0C0842870F2CD1E6B"
+				"size" "7503D938DD81AD21C9C90F9A9795A2BF"
+				"download" "59ED45C1F09BF68472A448E624461D0C"
+			}
+		}
+	}
+	"205611"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3252123628758744460"
+				"size" "280119186"
+				"download" "275987280"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"baseline"
+			{
+				"gid" "779FFCE8A46BF1B75D2C2C174083AB29"
+				"size" "7B15FEDC5FA83862A1783C3D49B5C296"
+				"download" "5708D1D9E6A07E8F9E8C086350812BFD"
+			}
+			"beta"
+			{
+				"gid" "1998E1A675DE0763F85B9FB10EAE0E9A"
+				"size" "5FF322BD12790484E6F736A5C921C135"
+				"download" "E0BBB2FC7EB70F0E1E13BAFA66D38212"
+			}
+			"external"
+			{
+				"gid" "E84A9B7AE441EA0A42B7B330D87AC161"
+				"size" "689FBB9F012E3CC7A00CCCC5811FDBE6"
+				"download" "2874E7D4A078D2485109FCF0AEBD3518"
+			}
+			"internal"
+			{
+				"gid" "7BD7FA7AC54BDEA834A739575BB7A047"
+				"size" "D4A46FE58857268E5403EA710CCD4060"
+				"download" "E5515706EB0988B2BAE83CAAE8C74874"
+			}
+			"jp_test"
+			{
+				"gid" "20566A9945A40995922953C9B0ABF74E"
+				"size" "9FB2DBFD88DACECBD8D158C8DD09A7D7"
+				"download" "5EECEB887A75CB88F627F49FC3456748"
+			}
+		}
+	}
+	"205613"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5154117208515558574"
+				"size" "2827257808"
+				"download" "2790174880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"baseline"
+			{
+				"gid" "6990A1158F922BD0A9363C538D20F651"
+				"size" "A9221E12CAFE264D28034157F455E0A5"
+				"download" "5708D1D9E6A07E8F9E8C086350812BFD"
+			}
+			"beta"
+			{
+				"gid" "992C5D09E5C71DA47B7826E46955537E"
+				"size" "C14793C1425A9CF894A1FB40A4549A48"
+				"download" "E0BBB2FC7EB70F0E1E13BAFA66D38212"
+			}
+			"external"
+			{
+				"gid" "23E4F86EC355CCEE7BFF427A29E6131F"
+				"size" "715113787221D3F5F5285C1F67E4FE38"
+				"download" "2874E7D4A078D2485109FCF0AEBD3518"
+			}
+			"internal"
+			{
+				"gid" "B1BB229BDCF752857E9AF482A26790C5"
+				"size" "EEDD381D8C5B9D3763F295EA6F7DB8FD"
+				"download" "4F183DEAFD433071358772A20779FAE0"
+			}
+			"jp_test"
+			{
+				"gid" "89F01EDBCCD0FA4CC26D530495771083"
+				"size" "E36DD305004769C946B816850FFD73BF"
+				"download" "AEC183E0285DC843B11EAEDDE9D222C5"
+			}
+		}
+	}
+	"205614"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2598267753271468498"
+				"size" "2862156372"
+				"download" "2824562272"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"baseline"
+			{
+				"gid" "FFE8C5223564FFA700BF402B45A83338"
+				"size" "F79B322C1BE4922BA8AD347E4495361C"
+				"download" "5708D1D9E6A07E8F9E8C086350812BFD"
+			}
+			"beta"
+			{
+				"gid" "9DA7F8295E6A49D3E785E961EE5B7542"
+				"size" "E13D5B2981E4E85A63D304A40A3AAB6D"
+				"download" "E0BBB2FC7EB70F0E1E13BAFA66D38212"
+			}
+			"external"
+			{
+				"gid" "29367CF7AE5558C7647D713B6E813D29"
+				"size" "C4B0545B15AAAE5B799E11C2399B468C"
+				"download" "2874E7D4A078D2485109FCF0AEBD3518"
+			}
+			"internal"
+			{
+				"gid" "8DF57229E6EA9230A55FA584FA3A10DD"
+				"size" "7712143B451DAAEC501E3019EC72FD10"
+				"download" "1EF55A88194DC47598DE3ED34C19C0C8"
+			}
+			"jp_test"
+			{
+				"gid" "90FA673FC98BB87BE2FD52B13E15398D"
+				"size" "A8C9B572D9C1F7A54AE005E46B9FE7F3"
+				"download" "51B36830B7006AB73A88805BADFD7AD1"
+			}
+		}
+	}
+	"205615"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5414828940792408436"
+				"size" "2906632912"
+				"download" "2862094880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"baseline"
+			{
+				"gid" "A0F5523BEA7DF4B6DCB0FC71D304022A"
+				"size" "8EDC8AF864C9687EC8D56C579A5C23D7"
+				"download" "5708D1D9E6A07E8F9E8C086350812BFD"
+			}
+			"beta"
+			{
+				"gid" "4D6ADF1EF4DBA9096F30312C180EC4E4"
+				"size" "BEC6D118A1CFA86DE8C282EC44195E69"
+				"download" "E0BBB2FC7EB70F0E1E13BAFA66D38212"
+			}
+			"external"
+			{
+				"gid" "4FA6E77231E32012EEADDC7BD9487545"
+				"size" "6A68705578566216C5370581E70D2FEE"
+				"download" "2874E7D4A078D2485109FCF0AEBD3518"
+			}
+			"internal"
+			{
+				"gid" "8DA179C878487879CAC10E9CED37C1C3"
+				"size" "760CC5DBD9B73B9E281D9EE6637E08BA"
+				"download" "7FB739DFC6215C2A73BF3CCFDE1F796F"
+			}
+			"jp_test"
+			{
+				"gid" "90EC0FFF6A797B136CE4F63841734160"
+				"size" "BDD2221E440B1AE31D515E014E5F1DAA"
+				"download" "B4D91E6C6D66313B2FF3425CD6240EBE"
+			}
+		}
+	}
+	"205616"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2173125789028261673"
+				"size" "2906884416"
+				"download" "2863382384"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"baseline"
+			{
+				"gid" "841C327EC77074CAACB3798BA31812B9"
+				"size" "E9878D8540677291089BD24C665DC4B4"
+				"download" "5708D1D9E6A07E8F9E8C086350812BFD"
+			}
+			"beta"
+			{
+				"gid" "0ADA06A8B69128112BB5042775B908FB"
+				"size" "3EEA8F458E0B1AC538ADAB84C859AC2E"
+				"download" "E0BBB2FC7EB70F0E1E13BAFA66D38212"
+			}
+			"external"
+			{
+				"gid" "A28CFCC362EBEB37C5B941FAAB865EE1"
+				"size" "0F0F084261979ACF27CA504F6D1AA122"
+				"download" "2874E7D4A078D2485109FCF0AEBD3518"
+			}
+			"internal"
+			{
+				"gid" "7A24592DC6FD84D62DB92B9BDCD24CD1"
+				"size" "58E5FC5B1CB48432837DCF292C8F657A"
+				"download" "1AD2B14E5C4C1E2D5704119329A4A1B9"
+			}
+			"jp_test"
+			{
+				"gid" "B84D12E0B69BC454BB2299F3698A3682"
+				"size" "DE50DEEFE2BD9DE5DEF86292B53E8362"
+				"download" "70CE8340CA6760C1D0653E03806FE3F8"
+			}
+		}
+	}
+	"205617"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9058467169396468036"
+				"size" "2906894400"
+				"download" "2863383088"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"baseline"
+			{
+				"gid" "60967EE328793E077B346E540DB34864"
+				"size" "E80090470D098D66D1F7C6EE5A6E93F8"
+				"download" "5708D1D9E6A07E8F9E8C086350812BFD"
+			}
+			"beta"
+			{
+				"gid" "5C33781B07BBB3AB01E6DB52B54D6583"
+				"size" "24A81AAD6232ACF676789C47C1CB1CC4"
+				"download" "E0BBB2FC7EB70F0E1E13BAFA66D38212"
+			}
+			"external"
+			{
+				"gid" "1EA399714FDE809BFB7F47776348F076"
+				"size" "69F8F59C6C9DC3ED284BC232C10185B3"
+				"download" "2874E7D4A078D2485109FCF0AEBD3518"
+			}
+			"internal"
+			{
+				"gid" "8DEAE0FC4AEDCB54FC9AAD8B24553967"
+				"size" "54458957DCD39A1A09510E84E2B8FF69"
+				"download" "F94C0B6A93960C9939D444C9184FE8AB"
+			}
+			"jp_test"
+			{
+				"gid" "F810C1A7DAB7E488C16159BE495D738D"
+				"size" "874838820304968C2702A90F1C51A28E"
+				"download" "D7F9B952EB56220CFC2B4AB0CAD3D174"
+			}
+		}
+	}
+	"205618"
+	{
+		"config"
+		{
+			"language" "japanese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4139614710031696175"
+				"size" "2831786016"
+				"download" "2781193328"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "FF3C09C4653EF5288A4E836AF68E528B"
+				"size" "9A1ABDDA8216732A013C1CE097AD4782"
+				"download" "CC718DE01CE24FE64836FD9BAD37DA5F"
+			}
+			"jp_test"
+			{
+				"gid" "3346CCCB68D68630CED49264544318E9"
+				"size" "875813BE1ED73DF42B3397FC6AE69D7D"
+				"download" "EB804E6BC21AC5C62F167C54017B4F13"
+			}
+		}
+	}
+	"215972"
+	{
+		"dlcappid" "215972"
+	}
+	"215970"
+	{
+		"dlcappid" "215970"
+	}
+	"215971"
+	{
+		"dlcappid" "215971"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "628934"
+			"timeupdated" "1644410245"
+		}
+		"baseline"
+		{
+			"buildid" "30534"
+			"pwdrequired" "1"
+			"timeupdated" "1542725045"
+		}
+		"beta"
+		{
+			"buildid" "30534"
+			"pwdrequired" "1"
+		}
+		"external"
+		{
+			"buildid" "30534"
+			"pwdrequired" "1"
+		}
+		"internal"
+		{
+			"buildid" "628934"
+			"pwdrequired" "1"
+		}
+		"jp_test"
+		{
+			"buildid" "628934"
+			"pwdrequired" "1"
+			"timeupdated" "1641194179"
+		}
+	}
+}
