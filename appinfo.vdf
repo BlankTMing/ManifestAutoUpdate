@@ -77,6 +77,7 @@
 			"gamescope_frame_limiter_not_supported" "0"
 		}
 	}
+	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
 	{
@@ -102,7 +103,53 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1702069079"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+				"tchinese" "library_600x900_tchinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+				"tchinese" "library_600x900_tchinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+				"tchinese" "logo_tchinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+				"tchinese" "logo_tchinese_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "76.22504537205081"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1719344552"
 	"associations"
 	{
 		"0"
@@ -113,7 +160,7 @@
 		"1"
 		{
 			"type" "publisher"
-			"name" "Modus Games"
+			"name" "Maximum Entertainment"
 		}
 		"2"
 		{
@@ -123,7 +170,7 @@
 		"3"
 		{
 			"type" "franchise"
-			"name" "Modus Games"
+			"name" "Maximum Entertainment"
 		}
 		"4"
 		{
@@ -149,6 +196,11 @@
 		"category_28" "1"
 		"category_22" "1"
 		"category_23" "1"
+		"category_55" "1"
+		"category_57" "1"
+		"category_58" "1"
+		"category_38" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -216,11 +268,11 @@
 	"store_tags"
 	{
 		"0" "4158"
-		"1" "3841"
-		"2" "3798"
+		"1" "3798"
+		"2" "3841"
 		"3" "42804"
-		"4" "3871"
-		"5" "3964"
+		"4" "3964"
+		"5" "3871"
 		"6" "4004"
 		"7" "7368"
 		"8" "19"
@@ -237,14 +289,14 @@
 		"19" "597"
 	}
 	"review_score" "8"
-	"review_percentage" "83"
+	"review_percentage" "85"
 }
 "extended"
 {
 	"absolutemousecoordinates" "0"
 	"remoteplaytogethertestingbranches" "default"
 	"developer" "Secret Base"
-	"publisher" "Modus Games"
+	"publisher" "Maximum Entertainment"
 	"homepage" "https://doubledragongaiden.com/"
 }
 "config"
@@ -295,9 +347,9 @@
 		{
 			"public"
 			{
-				"gid" "5935278033530432298"
-				"size" "2544143490"
-				"download" "610229264"
+				"gid" "2193240751515884465"
+				"size" "2881446790"
+				"download" "592622592"
 			}
 		}
 		"encryptedmanifests"
@@ -308,17 +360,17 @@
 				"size" "C9D4B142167F5D27017FC08975C40861"
 				"download" "3B547A512999F75D89A1E9647717C9A8"
 			}
+			"ddg_survival_test"
+			{
+				"gid" "FC60FEBF981BFC34BCE7839A20E384B9"
+				"size" "C668C69B103111B950B209D844AEE31E"
+				"download" "0C48EAC7969E3576A9C46E3052467C7B"
+			}
 			"ddg_upgradeplus_beta"
 			{
 				"gid" "75FDF5B3CABAF25B7752C27367D06CF0"
 				"size" "049E22937066C73B4376A4A713ECABCE"
 				"download" "8B8107876CB7A513160C818F3701B68A"
-			}
-			"network_test"
-			{
-				"gid" "16E58CAAC4751DB068A46AFBB3FD48A6"
-				"size" "667022C229786C180B163E76C3EDE9F8"
-				"download" "8ACBDA334590BFB6F997C8FC4B19C6BC"
 			}
 			"oldbranch"
 			{
@@ -338,6 +390,24 @@
 				"size" "57B87ECF7FA93AC008F9158EE3C2B258"
 				"download" "F0D136210ABD25C727E63DCB09A81A72"
 			}
+			"ddg_network_allowrelays"
+			{
+				"gid" "177FD11B66F5F1276C6DEA55708D71E2"
+				"size" "1462840CD320972D051AC333B7F40A4E"
+				"download" "53B9DF3B9CA135EA14DE232A5F6E1D51"
+			}
+			"network_test"
+			{
+				"gid" "21736CB39C2353DBEA91BD3920FD4BD8"
+				"size" "16EB9FE867DDC93801A7AA025E3E2F1C"
+				"download" "207ECD5E5D6271A2B29F7F1FFE3F60BF"
+			}
+			"network_test_debug"
+			{
+				"gid" "F21D7F9A081C847286D9C7460ACAABA6"
+				"size" "B368129B3E1EFCB853CFA27FD52A7E55"
+				"download" "E524206949CFD749E361EF4A4776ED0C"
+			}
 		}
 	}
 	"1967262"
@@ -351,9 +421,9 @@
 		{
 			"public"
 			{
-				"gid" "1796774383496014807"
-				"size" "1886704779"
-				"download" "604039760"
+				"gid" "5646744136091012739"
+				"size" "2461107245"
+				"download" "271909136"
 			}
 		}
 		"encryptedmanifests"
@@ -364,17 +434,17 @@
 				"size" "13C09C040248232B29DB9A0C86E5F428"
 				"download" "F430101CDB470D7A7996A794985AEFA2"
 			}
+			"ddg_survival_test"
+			{
+				"gid" "3A03E18707B9A66E1D43637B95B4799A"
+				"size" "4756EA3F203A84B0567263AB7D9F8ABA"
+				"download" "ECDA23D4D5E186AAA14C2460CC81A0F9"
+			}
 			"ddg_upgradeplus_beta"
 			{
 				"gid" "2A6DD6D4FA93865B27F020844959F0D1"
 				"size" "02A8547DA7E52025BC42BE8056757036"
 				"download" "D4CA354AC41838F2158895A892E16753"
-			}
-			"network_test"
-			{
-				"gid" "94A0852FBABA942BFC32A2A17C4AF711"
-				"size" "4D7C87808F53CEF381D0471EF788F71C"
-				"download" "71FA67C60E552CE571BD8C7789CF2831"
 			}
 			"oldbranch"
 			{
@@ -394,6 +464,24 @@
 				"size" "FA518C8301DABEB1B42B91F1095EFC2B"
 				"download" "881A375D8507816AF12799D970864118"
 			}
+			"ddg_network_allowrelays"
+			{
+				"gid" "A1021443F274CD577DC8B0F08AEFA963"
+				"size" "CD21FC64CF51E7EEE5F0853F574B20A0"
+				"download" "563F27A6F1BBAC89CF0408F4552342EA"
+			}
+			"network_test"
+			{
+				"gid" "CBA341D00AFD62F2E75EE50C222277B2"
+				"size" "888A6721C2E8C0E1B76E4E0F5D34C114"
+				"download" "6379C9FF264F05269C79B65245D52899"
+			}
+			"network_test_debug"
+			{
+				"gid" "F5C6AAFAF9FE23092A9DBB0AF7F224AB"
+				"size" "C152D369A4333B51F2A61EFFAE656C2A"
+				"download" "5503DA84C297C38958308EE61D940CD1"
+			}
 		}
 	}
 	"1967263"
@@ -407,9 +495,9 @@
 		{
 			"public"
 			{
-				"gid" "9217302951965229520"
-				"size" "3166198504"
-				"download" "423056608"
+				"gid" "7021520997237507369"
+				"size" "2423616880"
+				"download" "254757440"
 			}
 		}
 		"encryptedmanifests"
@@ -420,17 +508,17 @@
 				"size" "E7745F31802346011B9E3AD043E3C520"
 				"download" "FCFC6907DA7AE83B5DBD589D3AE6A1EC"
 			}
+			"ddg_survival_test"
+			{
+				"gid" "5F1C8E989C8988FCF4A674A29AD91352"
+				"size" "0BE6801A6C32ADC30A256FF0774027CC"
+				"download" "0768CA648C318545179FF0FB200E8FBE"
+			}
 			"ddg_upgradeplus_beta"
 			{
 				"gid" "FB6A12DA2C5878FF12727B0BE77EC97B"
 				"size" "7BF141AF2D07B86DDB3CBCD21EEA2384"
 				"download" "90AEE887BA9128268DFB2667C3E8EE77"
-			}
-			"network_test"
-			{
-				"gid" "6EAA7DFC3B2DC2E40CB8183BAF63FCAB"
-				"size" "3584468C935FE6DF56131C3AD3C099DF"
-				"download" "F46AED16DBDE7F9CF50DE02EA020B851"
 			}
 			"oldbranch"
 			{
@@ -450,14 +538,32 @@
 				"size" "5BCBF3BA7183AA8A0CC4E011A1B3C2F9"
 				"download" "F337F963D2DAEB338749DBC366B8172D"
 			}
+			"ddg_network_allowrelays"
+			{
+				"gid" "541B79BFD5F757F5158DAC3F6DE3F869"
+				"size" "40F1589D4B05654B5436A88EA3868758"
+				"download" "70F1529E1027C6948BD8030A82719B49"
+			}
+			"network_test"
+			{
+				"gid" "C3A6DEBC246ABC85D75064E9BFBB7E14"
+				"size" "5519756D0E6664577E7A12F90985DC53"
+				"download" "45B581869BF67B0D61C576DCA7D9AB67"
+			}
+			"network_test_debug"
+			{
+				"gid" "E1E1B01A8EC5B079244416733DA08662"
+				"size" "03EEEF0A25A5457DA60107E30ACD3A95"
+				"download" "03B797BE1D27C0B4A3BC6D4C08118197"
+			}
 		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "12168177"
-			"timeupdated" "1695312001"
+			"buildid" "14716072"
+			"timeupdated" "1718985598"
 		}
 		"beta"
 		{
@@ -465,17 +571,17 @@
 			"pwdrequired" "1"
 			"timeupdated" "1694517922"
 		}
+		"ddg_survival_test"
+		{
+			"buildid" "14005121"
+			"pwdrequired" "1"
+			"timeupdated" "1712720348"
+		}
 		"ddg_upgradeplus_beta"
 		{
 			"buildid" "12213435"
 			"pwdrequired" "1"
 			"timeupdated" "1695020975"
-		}
-		"network_test"
-		{
-			"buildid" "13082707"
-			"pwdrequired" "1"
-			"timeupdated" "1704274235"
 		}
 		"oldbranch"
 		{
@@ -494,6 +600,24 @@
 			"buildid" "11772837"
 			"pwdrequired" "1"
 			"timeupdated" "1690218985"
+		}
+		"ddg_network_allowrelays"
+		{
+			"buildid" "14347848"
+			"pwdrequired" "1"
+			"timeupdated" "1715595302"
+		}
+		"network_test"
+		{
+			"buildid" "15380326"
+			"pwdrequired" "1"
+			"timeupdated" "1723717046"
+		}
+		"network_test_debug"
+		{
+			"buildid" "14450818"
+			"pwdrequired" "1"
+			"timeupdated" "1716358010"
 		}
 	}
 }
@@ -545,7 +669,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "21742881"
-"_sha" "1d45efbbec5b77003b595a223d0e304b62aab6dc"
-"_size" "10910"
