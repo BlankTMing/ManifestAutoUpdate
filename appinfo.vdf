@@ -1,0 +1,232 @@
+"appid" "18300"
+"common"
+{
+	"name" "Spectraball"
+	"logo" "4820e1b6a4dac4c13f1c01dd6402fc4f1a9bf76c"
+	"logo_small" "4820e1b6a4dac4c13f1c01dd6402fc4f1a9bf76c_thumb"
+	"icon" "6385a0e9210de2dcc9ee6c8404bb2037abe32f52"
+	"metacritic_url" "spectraball"
+	"clienttga" "59abc5235413827e7cd0a9ed83d8f3f9a7ccd23d"
+	"clienticon" "faa8ac8400c98a19f157b679fc70c938bb62cb15"
+	"oslist" "windows,macos,linux"
+	"type" "Game"
+	"metacritic_name" "Spectraball"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1362350354"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Shorebound Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Shorebound Studios"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "34"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_12" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1224486000"
+	"steam_release_date" "1224529200"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "18300"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "492"
+		"2" "1664"
+		"3" "1625"
+		"4" "5395"
+	}
+	"review_score" "6"
+	"review_percentage" "76"
+}
+"extended"
+{
+	"developer" "Shorebound Studios"
+	"gamedir" "Spectraball"
+	"homepage" "http://shoreboundstudios.com/spectraball/"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "18301"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "windows,linux"
+	"publisher" "Shorebound Studios"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Spectraball"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Spectraball.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Spectraball"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "Spectraball.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"18301"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2490965323243823968"
+				"size" "648200328"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "A3B2F336E686DBD465BE38C0179CA4DF"
+				"size" "7C210D3F35E5F6D72B389FB122E02E37"
+				"download" "AC2F839B47F02A9B627BBCBB58C540CF"
+			}
+		}
+	}
+	"18302"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3941904040761063365"
+				"size" "669620424"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "55D0E74C4CBEDA2BB8E9E87E0835A14D"
+				"size" "DC9E3309815847ED94141AE632C8133A"
+				"download" "AC2F839B47F02A9B627BBCBB58C540CF"
+			}
+		}
+	}
+	"18303"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3144135049641174720"
+				"size" "712230190"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "616A7E7509CB4505436CCC32F9350C9C"
+				"size" "A6C46996E0412080A5E553CD9558CFA5"
+				"download" "AC2F839B47F02A9B627BBCBB58C540CF"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "119461"
+		}
+		"beta"
+		{
+			"buildid" "137932"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10485760"
+	"maxnumfiles" "25"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+}
