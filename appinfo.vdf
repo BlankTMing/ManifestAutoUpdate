@@ -1,0 +1,297 @@
+"appid" "1303990"
+"common"
+{
+	"name" "Mini Motor Racing X"
+	"type" "Game"
+	"releasestate" "released"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+		"xinput" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"logo" "14ef2be2002003acba5682c5e576b544bf8d48f8"
+	"logo_small" "14ef2be2002003acba5682c5e576b544bf8d48f8_thumb"
+	"icon" "46f8908f6769abf8f3455f28418234cab328936c"
+	"clienticon" "ddeadb8f532dd2720adc2a45136dc9c2099d21b7"
+	"clienttga" "da6ccc7d6db54e8eacc7252bae9eb2468fa30bdd"
+	"openvr_action_manifest_path" "MMRX_Data\\StreamingAssets\\SteamVR\\actions.json"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1660780800"
+		"tested_build_id" "8095613"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "85.35589264877478"
+			"height_pct" "83.81459201809906"
+		}
+	}
+	"store_asset_mtime" "1592187146"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "The Binary Mill"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Nextgen Reality Pty Ltd."
+		}
+	}
+	"primary_genre" "9"
+	"genres"
+	{
+		"0" "23"
+		"1" "9"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_37" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_39" "1"
+		"category_24" "1"
+		"category_27" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_25" "1"
+		"category_44" "1"
+		"category_28" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1592954657"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1303990"
+	"store_tags"
+	{
+		"0" "699"
+		"1" "492"
+		"2" "4791"
+		"3" "21978"
+		"4" "1773"
+		"5" "3839"
+		"6" "4102"
+		"7" "3841"
+		"8" "3843"
+		"9" "5350"
+		"10" "19"
+		"11" "597"
+		"12" "1756"
+		"13" "4711"
+		"14" "7178"
+		"15" "10816"
+	}
+	"review_score" "8"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "The Binary Mill"
+	"publisher" "Nextgen Reality Pty Ltd."
+	"homepage" "https://www.thebinarymill.com/"
+}
+"config"
+{
+	"installdir" "Mini Motor Racing X"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "MMRX.exe"
+			"arguments" "-vrmode openvr"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "MMRX.exe"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "MMRX.exe"
+			"arguments" "-vrmode none"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamconfigurator3rdpartynative" "65533"
+	"steamcontrollerconfigdetails"
+	{
+		"2119671557"
+		{
+			"controller_type" "controller_xboxone"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"1303991"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8689347415707819952"
+				"size" "4665022523"
+				"download" "2094737920"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "55C05750C245C8E768ABA0386832F6F7"
+				"size" "A38E0C5C493A3C1152C98655E4AE1549"
+				"download" "C9D37E970887D1A4211167E5D43BF0C0"
+			}
+			"experimental"
+			{
+				"gid" "4D17553DE7D78DCD201EE4582E7674E4"
+				"size" "62B7E1B8DDC7C147886B9CA7200B203B"
+				"download" "DC978B1F1960E2712244830ED184486B"
+			}
+			"multitest"
+			{
+				"gid" "7CDFF92F0C4C3FBC02ADF2B9DCE404CE"
+				"size" "1700A69445D42A99EA4AD7CD1D1FA244"
+				"download" "3124B743D36C91174459E9B2DC0B3088"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "6356625"
+			"timeupdated" "1615359227"
+		}
+		"beta"
+		{
+			"buildid" "5019628"
+			"pwdrequired" "1"
+			"timeupdated" "1589355250"
+		}
+		"experimental"
+		{
+			"buildid" "6356625"
+			"pwdrequired" "1"
+			"timeupdated" "1615342925"
+		}
+		"multitest"
+		{
+			"buildid" "5024176"
+			"pwdrequired" "1"
+			"timeupdated" "1589416115"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "10"
+}
