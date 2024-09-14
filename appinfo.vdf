@@ -1,0 +1,237 @@
+"appid" "209520"
+"common"
+{
+	"name" "Mini Motor Racing EVO"
+	"type" "Game"
+	"logo" "8c8cb451d34bbcefb499ab94cd895f9ab23b465b"
+	"logo_small" "8c8cb451d34bbcefb499ab94cd895f9ab23b465b_thumb"
+	"icon" "cda17be683045815f0ea71ae20b2a5a448249429"
+	"clienttga" "bbe7eb3dd853cef57a235588f1b70a09bf3984f8"
+	"linuxclienticon" "1cf1589f484daa63f34d2a2e48ee7ac2f1cc1083"
+	"clienticon" "2a3223bee37feb1ce7739ea52dbca33d66917da6"
+	"clienticns" "6d73830932abf1e40c323804bc936e0bdf16adae"
+	"oslist" "windows"
+	"releasestate" "released"
+	"osarch" ""
+	"app_retired_publisher_request" "1"
+	"metacritic_name" "Mini Motor Racing"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "52.114467941967476"
+			"height_pct" "68.72311934351833"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "UpperCenter"
+				"width_pct" "52.114467941967476"
+				"height_pct" "68.72311934351833"
+			}
+		}
+	}
+	"store_asset_mtime" "1575851683"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "The Binary Mill"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "The Binary Mill"
+		}
+	}
+	"primary_genre" "9"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "9"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_15" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "209520"
+	"store_tags"
+	{
+		"0" "699"
+		"1" "492"
+		"2" "597"
+		"3" "1773"
+		"4" "4791"
+	}
+	"review_score" "5"
+	"review_percentage" "64"
+}
+"extended"
+{
+	"developer" "The Binary Mill"
+	"gamedir" "ValveTestApp209520"
+	"homepage" "http://www.thebinarymill.com"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "The Binary Mill"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Mini Motor Racing"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Mini Motor Evo.exe"
+			"description" "Launch MMR"
+			"workingdir" "/"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Mini Motor Racing Evo.app/Contents/MacOS/Mini Motor"
+			"description" "Launch MMR"
+			"workingdir" "Mini Motor Racing Evo.app/Contents/MacOS/"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"209521"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2036950962954190803"
+				"size" "1944118455"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "2504990966176442736"
+				"size" "1914736498"
+				"download" "0"
+			}
+		}
+	}
+	"209522"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"local"
+			{
+				"gid" "8810683593666635800"
+				"size" "1945195452"
+				"download" "0"
+			}
+		}
+	}
+	"markdlcdepots" "0"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "76425"
+		}
+		"local"
+		{
+			"buildid" "68935"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "/Mini Motor Evo_Data"
+			"pattern" "PlayerProgress.sav"
+		}
+	}
+}
