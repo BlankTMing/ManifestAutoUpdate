@@ -54,9 +54,6 @@
 		"1" "2"
 		"2" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_sex" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "2"
@@ -131,7 +128,41 @@
 			"height_pct" "28.819276115174688"
 		}
 	}
-	"store_asset_mtime" "1589900849"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomCenter"
+				"width_pct" "38.31244584700363"
+				"height_pct" "28.819276115174688"
+			}
+		}
+	}
+	"store_asset_mtime" "1724178885"
 	"associations"
 	{
 		"0"
@@ -163,6 +194,7 @@
 		"category_28" "1"
 		"category_23" "1"
 		"category_42" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -252,20 +284,20 @@
 	{
 		"0" "1695"
 		"1" "19"
-		"2" "1742"
-		"3" "6378"
+		"2" "6378"
+		"3" "1742"
 		"4" "4182"
 		"5" "21"
 		"6" "12095"
-		"7" "5708"
-		"8" "3814"
-		"9" "3859"
+		"7" "3814"
+		"8" "3859"
+		"9" "5708"
 		"10" "4667"
 		"11" "1697"
 		"12" "1693"
 		"13" "4166"
-		"14" "1774"
-		"15" "5611"
+		"14" "5611"
+		"15" "1774"
 		"16" "6052"
 		"17" "4345"
 		"18" "1756"
@@ -393,10 +425,12 @@
 		"13"
 		{
 			"executable" "mafiadefinitiveedition.exe"
-			"type" "none"
+			"type" "default"
 			"config"
 			{
-				"betakey" "previewcode2"
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "previewcode2,newtest"
 			}
 		}
 		"14"
@@ -421,12 +455,16 @@
 		{
 			"executable" "launcher.exe"
 			"arguments" "/steam /cloudSave"
-			"description" "Play Mafia: Definitive Edition Launcher"
-			"type" "none"
+			"type" "option1"
 			"config"
 			{
-				"betakey" "post_release_update"
+				"betakey" "post_release_update,newtest"
 			}
+			"description_loc"
+			{
+				"english" "Mafia: Definitive Edition Launcher"
+			}
+			"description" "Mafia: Definitive Edition Launcher"
 		}
 		"17"
 		{
@@ -564,12 +602,6 @@
 				"size" "F6CFB3DBE0C846ED5B58170549B5999E"
 				"download" "326CE944C374FDC09423F8CCFA1B194C"
 			}
-			"newtest"
-			{
-				"gid" "C119FF97914863758324997521B33257"
-				"size" "9A48CCEB3D53B3450F626FE7BCAF1242"
-				"download" "0C7F3600205A122493CA5802BCE31466"
-			}
 			"nightly"
 			{
 				"gid" "7E6F0C34F68A1D744B005DD3FE25AC95"
@@ -599,6 +631,12 @@
 				"gid" "2B25B58961D2500F14675BDD08C9F1CC"
 				"size" "9AD11440CE87AD076D29C77178A3289F"
 				"download" "A8FE465DADE23ACDFA7CCE543368F54B"
+			}
+			"newtest"
+			{
+				"gid" "5C7536C4763B580C5D8ADCEE6008E5D0"
+				"size" "822E896DD0257E5CCD2FF1F47DC469C3"
+				"download" "A0B7C535CD6B28DA2DDB2045B8DDA4C9"
 			}
 		}
 	}
@@ -644,17 +682,17 @@
 				"size" "5B70E831DBF8F201BF045EA4652E2F2C"
 				"download" "F928A71E25A87FF1E069967E131A50BB"
 			}
-			"newtest"
-			{
-				"gid" "FF50F1FF0221163A42E76081EE44FE67"
-				"size" "3153FB0C52BA0F32F45B138BD14AA5D6"
-				"download" "B6472331A6A27D33347580C6453D6FA1"
-			}
 			"nightly"
 			{
 				"gid" "8AFF8833327DF8867269E4D8BFDC3916"
 				"size" "9D3D6962C66D73BAD975A8925F1A2058"
 				"download" "5390DF3B305C40DC906B1579C02AF0AD"
+			}
+			"newtest"
+			{
+				"gid" "FF50F1FF0221163A42E76081EE44FE67"
+				"size" "3153FB0C52BA0F32F45B138BD14AA5D6"
+				"download" "B6472331A6A27D33347580C6453D6FA1"
 			}
 		}
 	}
@@ -671,25 +709,13 @@
 		{
 			"public"
 			{
-				"gid" "1898676659422131805"
-				"size" "134354670"
-				"download" "131114960"
+				"gid" "1298223493515886904"
+				"size" "139408274"
+				"download" "135668816"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"2kqa_a"
-			{
-				"gid" "C3308368AEBBA25C800537331265966D"
-				"size" "B6BEAB17615F474BFE39246A55DCE8D7"
-				"download" "ED3B30C633E2B592BC476C0864426788"
-			}
-			"2kqa_b"
-			{
-				"gid" "275296C97C06B6BC62E2170E9028D58E"
-				"size" "0A9E1FED8188E696CE510B0D67997149"
-				"download" "D1B04BF44EC6EA1728DFEE1A9D3CCD9F"
-			}
 			"autoupdater"
 			{
 				"gid" "4E3E3F1638E281108D8D37D424AA3B57"
@@ -702,23 +728,35 @@
 				"size" "AAADF7F96AF1069F8836A1331E7A01F5"
 				"download" "582456C4FCBEE3E1A9E86D979BE601F5"
 			}
-			"dev2klauncherintegration"
-			{
-				"gid" "96297BCC9263A5BEB7A7C7D1573400B2"
-				"size" "F7653DEEFA0BB9F17B38B6185D20351D"
-				"download" "9624E2611A823F86714E98E26DCAD881"
-			}
 			"integration"
 			{
 				"gid" "7BD9D20CE86454BAF67C52EFFD0DE219"
 				"size" "24D9E93D742F4CE62CF1C6E5ABCB1A42"
 				"download" "FB76340812E5365A297D21601F46B9ED"
 			}
+			"2kqa_a"
+			{
+				"gid" "48948F6A5F65059D957C3A77A1374428"
+				"size" "835F6FDDBE4912046B33C9CCD6DAC833"
+				"download" "68AA401F66E10FF500CF563F38BC42A8"
+			}
+			"2kqa_b"
+			{
+				"gid" "67F3C2AB191108E2FAE2DED9F06F420C"
+				"size" "3F9AC951D0166DA056A7DF05A7D12E3C"
+				"download" "F33D7CF145E545ED7AC02757F1904313"
+			}
+			"dev2klauncherintegration"
+			{
+				"gid" "ECEB05B364DF41C2E8EDD816C40E5E95"
+				"size" "CA90A8926D6C897A1DA11B0201BB6275"
+				"download" "943801E533D8CE239FA1632E39CAAE79"
+			}
 			"newtest"
 			{
-				"gid" "945367BA4A79AC6BDEFA0225E0553DB1"
-				"size" "D9D5A5D7304E5AD7D05CC4CF6A995FD7"
-				"download" "C77FF26A497F40E02464CF6BFFAD6F4A"
+				"gid" "4B984FD6AE875653B048F10B654F281D"
+				"size" "A7193DF6B4CE5109F6E9DE818FDD9C5A"
+				"download" "A7193DF6B4CE5109F6E9DE818FDD9C5A"
 			}
 		}
 		"depotfromapp" "1523210"
@@ -778,12 +816,6 @@
 			"pwdrequired" "1"
 			"timeupdated" "1597402406"
 		}
-		"newtest"
-		{
-			"buildid" "5774875"
-			"pwdrequired" "1"
-			"timeupdated" "1614706488"
-		}
 		"nightly"
 		{
 			"buildid" "6375549"
@@ -814,17 +846,11 @@
 			"pwdrequired" "1"
 			"timeupdated" "1592311363"
 		}
-		"2kqa_a"
+		"newtest"
 		{
-			"buildid" "10553417"
+			"buildid" "7368608"
 			"pwdrequired" "1"
-			"timeupdated" "1676488623"
-		}
-		"2kqa_b"
-		{
-			"buildid" "10553417"
-			"pwdrequired" "1"
-			"timeupdated" "1676488638"
+			"timeupdated" "1725644521"
 		}
 		"autoupdater"
 		{
@@ -838,17 +864,29 @@
 			"pwdrequired" "1"
 			"timeupdated" "1638567025"
 		}
-		"dev2klauncherintegration"
-		{
-			"buildid" "10553417"
-			"pwdrequired" "1"
-			"timeupdated" "1676423168"
-		}
 		"integration"
 		{
 			"buildid" "8189487"
 			"pwdrequired" "1"
 			"timeupdated" "1644614282"
+		}
+		"2kqa_a"
+		{
+			"buildid" "14980618"
+			"pwdrequired" "1"
+			"timeupdated" "1720729682"
+		}
+		"2kqa_b"
+		{
+			"buildid" "14980618"
+			"pwdrequired" "1"
+			"timeupdated" "1720729700"
+		}
+		"dev2klauncherintegration"
+		{
+			"buildid" "14645959"
+			"pwdrequired" "1"
+			"timeupdated" "1719352092"
 		}
 	}
 }
@@ -874,7 +912,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "21714759"
-"_sha" "bbce88781b3f6521f7204ea67d2714c83dc8ba4f"
-"_size" "17834"
