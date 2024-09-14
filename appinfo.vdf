@@ -5,9 +5,9 @@
 	"type" "Game"
 	"logo" "f182df22fb59974b8664f3b7e51c4509fd037420"
 	"logo_small" "f182df22fb59974b8664f3b7e51c4509fd037420_thumb"
-	"icon" "db7852d5f754707424bf28ff0024611c1043baf5"
-	"clienticon" "f9f95645377b8e5e1cad8381d9d2895df5263082"
-	"clienttga" "286be0a363f0d6542c9217a68f1b4d5fc86bbc73"
+	"icon" "b1bd941ab814b023493c595fb8d17bcfdea35fa8"
+	"clienticon" "c59124b1df6a0b23cb409c1c91be5223333cdda1"
+	"clienttga" "cabecf80fc09bd3fee8e1f5a0daed77ccf9b173c"
 	"releasestate" "released"
 	"oslist" "windows"
 	"osarch" ""
@@ -31,66 +31,71 @@
 	"clienticns" "78c7d854d8eabaf7a6372cff1a94169f9189c3e3"
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1692144000"
-		"tested_build_id" "11887582"
+		"category" "3"
+		"test_timestamp" "1723766400"
+		"tested_build_id" "15355394"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"1"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"2"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
 			}
 			"3"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
 		}
 		"configuration"
 		{
-			"supported_input" "other"
+			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "1"
-			"small_text" "1"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
 			"recommended_runtime" "proton-stable"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
+	"controllertagwizard" "1"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
 		"schinese" "capsule_231x87_schinese.jpg"
-		"japanese" "capsule_231x87_japanese.jpg"
-		"koreana" "capsule_231x87_koreana.jpg"
 	}
 	"header_image"
 	{
 		"english" "header.jpg"
 		"schinese" "header_schinese.jpg"
-		"japanese" "header_japanese.jpg"
-		"koreana" "header_koreana.jpg"
 	}
 	"library_assets"
 	{
-		"library_capsule" "en,zh-cn,ja,ko"
-		"library_hero" "en,zh-cn,ja,ko"
+		"library_capsule" "en,zh-cn"
+		"library_hero" "en"
 		"library_logo" "zh-cn,en"
+		"library_header" "en,zh-cn"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -98,7 +103,7 @@
 			"height_pct" "71.87530078508858"
 		}
 	}
-	"store_asset_mtime" "1703279007"
+	"store_asset_mtime" "1722968182"
 	"associations"
 	{
 		"0"
@@ -120,9 +125,9 @@
 	"primary_genre" "28"
 	"genres"
 	{
-		"0" "25"
-		"1" "28"
-		"2" "2"
+		"0" "23"
+		"1" "3"
+		"2" "28"
 		"3" "70"
 	}
 	"category"
@@ -133,6 +138,15 @@
 		"category_46" "1"
 		"category_23" "1"
 		"category_29" "1"
+		"category_28" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
+		"category_43" "1"
+		"category_41" "1"
+		"category_42" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -188,29 +202,29 @@
 	"gameid" "1658040"
 	"store_tags"
 	{
-		"0" "4191"
-		"1" "1100689"
-		"2" "1662"
-		"3" "7332"
-		"4" "3834"
-		"5" "1643"
-		"6" "1702"
-		"7" "3942"
-		"8" "15564"
-		"9" "10235"
-		"10" "4305"
-		"11" "4747"
-		"12" "4136"
-		"13" "3920"
-		"14" "1654"
-		"15" "597"
-		"16" "599"
-		"17" "4295"
-		"18" "5350"
-		"19" "21"
+		"0" "122"
+		"1" "3810"
+		"2" "22602"
+		"3" "1695"
+		"4" "97376"
+		"5" "492"
+		"6" "21"
+		"7" "3835"
+		"8" "1662"
+		"9" "1100689"
+		"10" "1643"
+		"11" "1702"
+		"12" "3834"
+		"13" "7332"
+		"14" "599"
+		"15" "1654"
+		"16" "87918"
+		"17" "10235"
+		"18" "4182"
+		"19" "4191"
 	}
 	"review_score" "8"
-	"review_percentage" "89"
+	"review_percentage" "88"
 }
 "extended"
 {
@@ -244,9 +258,9 @@
 		{
 			"public"
 			{
-				"gid" "2821452306784378622"
-				"size" "1171375280"
-				"download" "871213792"
+				"gid" "2755557780946283665"
+				"size" "1584309590"
+				"download" "1157527296"
 			}
 			"fmod-logs-on"
 			{
@@ -254,38 +268,32 @@
 				"size" "1114086912"
 				"download" "826302816"
 			}
-			"vulkan-directx12"
-			{
-				"gid" "3053899272154073995"
-				"size" "1127101190"
-				"download" "834887520"
-			}
 		}
 		"encryptedmanifests"
 		{
+			"video_production"
+			{
+				"gid" "EC64CC7C8435CF12F358FCABCB38DF21"
+				"size" "66E6383E7DA17388A855D2CCD49DB106"
+				"download" "2AE77E21BB936D65F07C369FFD514426"
+			}
 			"dev_branch"
 			{
-				"gid" "E6427E73D5E4362180DC6E73DA157A77"
-				"size" "50B6FA6779461347AE3D75BC054874A4"
-				"download" "9E6CDB3407DE765718C2E2EB6D450C17"
+				"gid" "34BF765F0477A79E799669C07EE3C979"
+				"size" "690017AF86CE7CF281677431CAFAFCE0"
+				"download" "AF9245B19A70052AD1274452B0B0D68D"
 			}
 			"previous_build"
 			{
-				"gid" "2387365D009B85B9157FAF589708DCE7"
-				"size" "C8E606526771141FA284A703AA58472A"
-				"download" "2D22D07A358238F9786F5EFFDF37E6E4"
+				"gid" "B672D27EE78335AF9BDD195146614D65"
+				"size" "9D066D70648BC61337E6ADFF8C5E2C89"
+				"download" "5BD5E967F96461CA54D919B6620AB1EC"
 			}
 			"release_candidate"
 			{
-				"gid" "B4B81885EE87D8CB6E540EE4EB75FCD7"
-				"size" "36CEB63D0FC3BD410954E8964A8B7535"
-				"download" "63E052829011ADAF96EA490C88E9DE8B"
-			}
-			"video_production"
-			{
-				"gid" "C9F55C6AFB292015D59B423FBBAF5463"
-				"size" "E19709A1241D94234C766C8CAB98008F"
-				"download" "9C930AFD3F437979E4D1E47B627EDDA1"
+				"gid" "DDBAC9A43B0777BD53CE2157D473D462"
+				"size" "C5527E74B6EBF2282BEAF6F82FED3F63"
+				"download" "D1309AF8B21B6E1521CD85E91013B966"
 			}
 		}
 	}
@@ -306,15 +314,15 @@
 				"size" "24366510"
 				"download" "22143072"
 			}
-			"vulkan-directx12"
-			{
-				"gid" "4568089673975267389"
-				"size" "24366510"
-				"download" "22143072"
-			}
 		}
 		"encryptedmanifests"
 		{
+			"video_production"
+			{
+				"gid" "E751F5B07641CE34D5DA59E753119C54"
+				"size" "85F332499242A3ED296F03DF50D8B535"
+				"download" "F11CC75F77E7B5202BF60CD7506F1191"
+			}
 			"dev_branch"
 			{
 				"gid" "135C3D7E20B1ADDE5B691B3044240D2F"
@@ -339,14 +347,8 @@
 	{
 		"public"
 		{
-			"buildid" "13057574"
-			"timeupdated" "1703787970"
-		}
-		"dev_branch"
-		{
-			"buildid" "13057620"
-			"pwdrequired" "1"
-			"timeupdated" "1703775004"
+			"buildid" "15355394"
+			"timeupdated" "1723654972"
 		}
 		"fmod-logs-on"
 		{
@@ -354,29 +356,29 @@
 			"description" "Same as default build with turned on audio logs from fmod for debug usage"
 			"timeupdated" "1698915701"
 		}
+		"video_production"
+		{
+			"buildid" "13498442"
+			"pwdrequired" "1"
+			"timeupdated" "1708356973"
+		}
+		"dev_branch"
+		{
+			"buildid" "15355630"
+			"pwdrequired" "1"
+			"timeupdated" "1723557759"
+		}
 		"previous_build"
 		{
-			"buildid" "13023104"
+			"buildid" "15307482"
 			"pwdrequired" "1"
-			"timeupdated" "1703787898"
+			"timeupdated" "1723655000"
 		}
 		"release_candidate"
 		{
-			"buildid" "13057574"
+			"buildid" "15355394"
 			"pwdrequired" "1"
-			"timeupdated" "1703774290"
-		}
-		"video_production"
-		{
-			"buildid" "11705987"
-			"pwdrequired" "1"
-			"timeupdated" "1689600572"
-		}
-		"vulkan-directx12"
-		{
-			"buildid" "12524638"
-			"description" "default branch plus vulkan and directx12 support"
-			"timeupdated" "1698176468"
+			"timeupdated" "1723554492"
 		}
 	}
 }
@@ -395,7 +397,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "21728074"
-"_sha" "98e50b3ef90b0185b8e3c59c358b8a302ae6a0d1"
-"_size" "7835"
