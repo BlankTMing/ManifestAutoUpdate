@@ -1,124 +1,179 @@
-"appinfo"
+"appid" "2490990"
+"common"
 {
-	"appid" "2490990"
-	"common"
+	"name" "Visions of Mana"
+	"type" "Game"
+	"releasestate" "released"
+	"clienticon" "1ce98ea662440ba65cdf832256e311744e11f513"
+	"clienttga" "5ff48f414a4ac8500a2d11fecef767e6a9c42561"
+	"languages"
 	{
-		"name" "Visions of Mana"
-		"type" "Game"
-		"releasestate" "released"
-		"clienticon" "1ce98ea662440ba65cdf832256e311744e11f513"
-		"clienttga" "5ff48f414a4ac8500a2d11fecef767e6a9c42561"
-		"languages"
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"japanese" "1"
+	}
+	"icon" "a9f559e56baccf5be71370b3f5f37e63266bfc94"
+	"name_localized"
+	{
+		"english" "Visions of Mana"
+		"japanese" "聖剣伝説 VISIONS of MANA"
+		"schinese" "圣剑传说 Visions of Mana"
+		"tchinese" "聖劍傳說 Visions of Mana"
+		"koreana" "성검전설 Visions of Mana"
+	}
+	"eulas"
+	{
+		"0"
 		{
-			"english" "1"
-			"german" "1"
-			"french" "1"
-			"koreana" "1"
-			"spanish" "1"
-			"schinese" "1"
-			"tchinese" "1"
-			"japanese" "1"
+			"id" "2490990_eula_0"
+			"name" "Visions of Mana EULA"
+			"url" "https://store.steampowered.com//eula/2490990_eula_0"
+			"version" "2"
 		}
-		"icon" "a9f559e56baccf5be71370b3f5f37e63266bfc94"
-		"name_localized"
-		{
-			"english" "Visions of Mana"
-			"japanese" "聖剣伝説 VISIONS of MANA"
-			"schinese" "圣剑传说 Visions of Mana"
-			"tchinese" "聖劍傳說 Visions of Mana"
-			"koreana" "성검전설 Visions of Mana"
-		}
-		"eulas"
+	}
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1724803200"
+		"tested_build_id" "15389934"
+		"tests"
 		{
 			"0"
 			{
-				"id" "2490990_eula_0"
-				"name" "Visions of Mana EULA"
-				"url" "https://store.steampowered.com//eula/2490990_eula_0"
-				"version" "2"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
 			}
-		}
-		"oslist" "windows"
-		"osarch" "64"
-		"osextended" ""
-		"steam_deck_compatibility"
-		{
-			"category" "2"
-			"test_timestamp" "1724803200"
-			"tested_build_id" "15389934"
-			"tests"
+			"1"
 			{
-				"0"
-				{
-					"display" "3"
-					"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
-				}
-				"1"
-				{
-					"display" "4"
-					"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
-				}
-				"2"
-				{
-					"display" "4"
-					"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
-				}
-				"3"
-				{
-					"display" "4"
-					"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
-				}
-				"4"
-				{
-					"display" "1"
-					"token" "#SteamDeckVerified_TestResult_FirstTimeSetupRequiresActiveInternetConnection"
-				}
-				"5"
-				{
-					"display" "1"
-					"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
-				}
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
-			"configuration"
+			"2"
 			{
-				"supported_input" "gamepad"
-				"requires_manual_keyboard_invoke" "0"
-				"requires_non_controller_launcher_nav" "0"
-				"primary_player_is_controller_slot_0" "1"
-				"non_deck_display_glyphs" "0"
-				"small_text" "1"
-				"requires_internet_for_setup" "1"
-				"requires_internet_for_singleplayer" "0"
-				"recommended_runtime" "proton-stable"
-				"requires_h264" "0"
-				"gamescope_frame_limiter_not_supported" "0"
-				"hdr_support" "0"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_FirstTimeSetupRequiresActiveInternetConnection"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
-		"controllertagwizard" "1"
-		"controller_support" "partial"
-		"small_capsule"
+		"configuration"
 		{
-			"english" "capsule_231x87.jpg"
-			"japanese" "capsule_231x87_japanese.jpg"
-			"koreana" "capsule_231x87_koreana.jpg"
-			"schinese" "capsule_231x87_schinese.jpg"
-			"tchinese" "capsule_231x87_tchinese.jpg"
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "1"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
-		"header_image"
+	}
+	"controllertagwizard" "1"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"japanese" "capsule_231x87_japanese.jpg"
+		"koreana" "capsule_231x87_koreana.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+		"tchinese" "capsule_231x87_tchinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"japanese" "header_japanese.jpg"
+		"koreana" "header_koreana.jpg"
+		"schinese" "header_schinese.jpg"
+		"tchinese" "header_tchinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,ja,ko,zh-cn,zh-tw"
+		"library_hero" "en"
+		"library_logo" "en,ja,ko,zh-cn,zh-tw"
+		"library_header" "en,ja,ko,zh-cn,zh-tw"
+		"logo_position"
 		{
-			"english" "header.jpg"
-			"japanese" "header_japanese.jpg"
-			"koreana" "header_koreana.jpg"
-			"schinese" "header_schinese.jpg"
-			"tchinese" "header_tchinese.jpg"
+			"pinned_position" "BottomLeft"
+			"width_pct" "61.7495158166559"
+			"height_pct" "104.51388888888889"
 		}
-		"library_assets"
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
 		{
-			"library_capsule" "en,ja,ko,zh-cn,zh-tw"
-			"library_hero" "en"
-			"library_logo" "en,ja,ko,zh-cn,zh-tw"
-			"library_header" "en,ja,ko,zh-cn,zh-tw"
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"japanese" "library_600x900_japanese.jpg"
+				"koreana" "library_600x900_koreana.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+				"tchinese" "library_600x900_tchinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"japanese" "library_600x900_japanese_2x.jpg"
+				"koreana" "library_600x900_koreana_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+				"tchinese" "library_600x900_tchinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"japanese" "logo_japanese.png"
+				"koreana" "logo_koreana.png"
+				"schinese" "logo_schinese.png"
+				"tchinese" "logo_tchinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"japanese" "logo_japanese_2x.png"
+				"koreana" "logo_koreana_2x.png"
+				"schinese" "logo_schinese_2x.png"
+				"tchinese" "logo_tchinese_2x.png"
+			}
 			"logo_position"
 			{
 				"pinned_position" "BottomLeft"
@@ -126,391 +181,337 @@
 				"height_pct" "104.51388888888889"
 			}
 		}
-		"library_assets_full"
+		"library_header"
 		{
-			"library_capsule"
+			"image"
 			{
-				"image"
-				{
-					"english" "library_600x900.jpg"
-					"japanese" "library_600x900_japanese.jpg"
-					"koreana" "library_600x900_koreana.jpg"
-					"schinese" "library_600x900_schinese.jpg"
-					"tchinese" "library_600x900_tchinese.jpg"
-				}
-				"image2x"
-				{
-					"english" "library_600x900_2x.jpg"
-					"japanese" "library_600x900_japanese_2x.jpg"
-					"koreana" "library_600x900_koreana_2x.jpg"
-					"schinese" "library_600x900_schinese_2x.jpg"
-					"tchinese" "library_600x900_tchinese_2x.jpg"
-				}
-			}
-			"library_hero"
-			{
-				"image"
-				{
-					"english" "library_hero.jpg"
-				}
-				"image2x"
-				{
-					"english" "library_hero_2x.jpg"
-				}
-			}
-			"library_logo"
-			{
-				"image"
-				{
-					"english" "logo.png"
-					"japanese" "logo_japanese.png"
-					"koreana" "logo_koreana.png"
-					"schinese" "logo_schinese.png"
-					"tchinese" "logo_tchinese.png"
-				}
-				"image2x"
-				{
-					"english" "logo_2x.png"
-					"japanese" "logo_japanese_2x.png"
-					"koreana" "logo_koreana_2x.png"
-					"schinese" "logo_schinese_2x.png"
-					"tchinese" "logo_tchinese_2x.png"
-				}
-				"logo_position"
-				{
-					"pinned_position" "BottomLeft"
-					"width_pct" "61.7495158166559"
-					"height_pct" "104.51388888888889"
-				}
-			}
-			"library_header"
-			{
-				"image"
-				{
-					"english" "library_header.jpg"
-					"japanese" "library_header_japanese.jpg"
-					"koreana" "library_header_koreana.jpg"
-					"schinese" "library_header_schinese.jpg"
-					"tchinese" "library_header_tchinese.jpg"
-				}
-			}
-		}
-		"store_asset_mtime" "1724987143"
-		"associations"
-		{
-			"0"
-			{
-				"type" "developer"
-				"name" "Square Enix"
-			}
-			"1"
-			{
-				"type" "publisher"
-				"name" "Square Enix"
-			}
-			"2"
-			{
-				"type" "franchise"
-				"name" "Mana Series"
-			}
-		}
-		"primary_genre" "1"
-		"genres"
-		{
-			"0" "1"
-			"1" "3"
-		}
-		"category"
-		{
-			"category_2" "1"
-			"category_22" "1"
-			"category_18" "1"
-			"category_55" "1"
-			"category_57" "1"
-			"category_29" "1"
-			"category_23" "1"
-			"category_45" "1"
-			"category_46" "1"
-			"category_62" "1"
-		}
-		"supported_languages"
-		{
-			"english"
-			{
-				"supported" "true"
-				"full_audio" "true"
-				"subtitles" "true"
-			}
-			"french"
-			{
-				"supported" "true"
-				"subtitles" "true"
-			}
-			"german"
-			{
-				"supported" "true"
-				"subtitles" "true"
-			}
-			"spanish"
-			{
-				"supported" "true"
-				"subtitles" "true"
-			}
-			"japanese"
-			{
-				"supported" "true"
-				"full_audio" "true"
-				"subtitles" "true"
-			}
-			"koreana"
-			{
-				"supported" "true"
-				"subtitles" "true"
-			}
-			"schinese"
-			{
-				"supported" "true"
-				"subtitles" "true"
-			}
-			"tchinese"
-			{
-				"supported" "true"
-				"subtitles" "true"
-			}
-		}
-		"steam_release_date" "1724947920"
-		"community_visible_stats" "1"
-		"community_hub_visible" "1"
-		"gameid" "2490990"
-		"store_tags"
-		{
-			"0" "122"
-			"1" "10695"
-			"2" "4434"
-			"3" "4231"
-			"4" "4191"
-			"5" "19"
-			"6" "4726"
-			"7" "3854"
-			"8" "1742"
-			"9" "4305"
-			"10" "1684"
-			"11" "4085"
-			"12" "4057"
-			"13" "4155"
-			"14" "4166"
-			"15" "21"
-			"16" "4182"
-			"17" "3916"
-			"18" "1695"
-		}
-		"review_score" "8"
-		"review_percentage" "92"
-	}
-	"extended"
-	{
-		"developer" "Square Enix"
-		"publisher" "Square Enix"
-		"listofdlc" "2726770,2875460,2875830,2877050,2941570,3035480"
-		"dlcavailableonstore" "1"
-	}
-	"config"
-	{
-		"installdir" "VisionsofMana"
-		"launch"
-		{
-			"5"
-			{
-				"executable" "VisionsofMana.exe"
-				"type" "default"
-				"config"
-				{
-					"osarch" "64"
-				}
+				"english" "library_header.jpg"
+				"japanese" "library_header_japanese.jpg"
+				"koreana" "library_header_koreana.jpg"
+				"schinese" "library_header_schinese.jpg"
+				"tchinese" "library_header_tchinese.jpg"
 			}
 		}
 	}
-	"depots"
+	"store_asset_mtime" "1725266069"
+	"associations"
 	{
-		"hasdepotsindlc" "1"
-		"228988"
+		"0"
 		{
+			"type" "developer"
+			"name" "Square Enix"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Square Enix"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Mana Series"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_18" "1"
+		"category_55" "1"
+		"category_57" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1724947920"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2490990"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "4434"
+		"2" "10695"
+		"3" "4231"
+		"4" "4191"
+		"5" "4726"
+		"6" "19"
+		"7" "3854"
+		"8" "1742"
+		"9" "4305"
+		"10" "1684"
+		"11" "4085"
+		"12" "4057"
+		"13" "4155"
+		"14" "4166"
+		"15" "21"
+		"16" "4182"
+		"17" "3916"
+		"18" "1695"
+	}
+	"review_score" "8"
+	"review_percentage" "82"
+}
+"extended"
+{
+	"developer" "Square Enix"
+	"publisher" "Square Enix"
+	"listofdlc" "2726770,2875460,2875830,2877050,2941570,3035480"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "VisionsofMana"
+	"launch"
+	{
+		"5"
+		{
+			"executable" "VisionsofMana.exe"
+			"type" "default"
 			"config"
 			{
-				"oslist" "windows"
-			}
-			"depotfromapp" "228980"
-			"sharedinstall" "1"
-		}
-		"228990"
-		{
-			"config"
-			{
-				"oslist" "windows"
-			}
-			"depotfromapp" "228980"
-			"sharedinstall" "1"
-		}
-		"2490991"
-		{
-			"manifests"
-			{
-				"public"
-				{
-					"gid" "74418857973028901"
-					"size" "40282344101"
-					"download" "34053326336"
-				}
-			}
-			"encryptedmanifests"
-			{
-				"denuvo"
-				{
-					"gid" "135FB8DE7BFF74266C7FFB51931797D4"
-					"size" "F9729B249297265A1370E617E0AC2424"
-					"download" "178CC0987A570D221D64F71BED077597"
-				}
-				"for_review"
-				{
-					"gid" "5884429B2061F55421BC2BBEDBB68C3A"
-					"size" "9A85938A56C15B5E23D468A5BE497955"
-					"download" "828ACBCBCC665A91F4129B46418DA406"
-				}
-				"denuvo_test"
-				{
-					"gid" "9B459D7742FBCDE1CA4A05C0734BE360"
-					"size" "BB7ABF873DDA0A2C6B5F94165BCCB313"
-					"download" "8110E150FE38995B39BB8E629AA03D86"
-				}
-				"development"
-				{
-					"gid" "4EB84E0D2E52F3578E2AC047063A7475"
-					"size" "A73E68F845BB3C233E49561F0F462EB9"
-					"download" "9E45ECAB69F9DE0F06DCD2FB23E56613"
-				}
-				"dev_check_dev"
-				{
-					"gid" "2B10624A1A2F599341DE0E7F6A1B4F7C"
-					"size" "538BFE39AC487212AF99CF216D5B1C86"
-					"download" "353ACB1D1BA6717D0DC097E0E9D547A0"
-				}
-				"dev_check_ship"
-				{
-					"gid" "C1D67321907F0C4DACE3DE78A92090FE"
-					"size" "6A4F4C547BEB74BF1F1C95A14C0AFDB4"
-					"download" "9D54982BB7252EACC9A2841A5CC55ACE"
-				}
-				"dev_check_ship_denuvo"
-				{
-					"gid" "3E34D3072669E766186A0C32A97AED3A"
-					"size" "916816563FD949656D37AAD3C710D725"
-					"download" "6EE94049978F4E3EFF61A6E851FCA24B"
-				}
-				"qa_test"
-				{
-					"gid" "10A63020A9284C4389D17AB40F6E7462"
-					"size" "8378E1D0E1F65722BEAA6A4AC83338FF"
-					"download" "0ECCA2C7DCD38B9D7ECA3F832FB8B27A"
-				}
-				"qa_test_shipping"
-				{
-					"gid" "3F34688EF339D12786E1CA402F1258F7"
-					"size" "B42DE1BF5608B769185382E284276BCA"
-					"download" "28F2CBC49DC8BF5821EC805B2A4EF61F"
-				}
-				"qa_test_shipping_denuvo"
-				{
-					"gid" "D34463F4359AC57852275A8A3D9AA81A"
-					"size" "0D13250922DFD4C8F5CB0B5BFE17526B"
-					"download" "90B2E05C941945D336A524DC1A985E3F"
-				}
-			}
-		}
-		"2726771"
-		{
-			"dlcappid" "2726770"
-		}
-		"branches"
-		{
-			"public"
-			{
-				"buildid" "15389934"
-				"timeupdated" "1723829564"
-			}
-			"denuvo"
-			{
-				"buildid" "15389934"
-				"pwdrequired" "1"
-				"timeupdated" "1724140251"
-			}
-			"for_review"
-			{
-				"buildid" "15181933"
-				"pwdrequired" "1"
-				"timeupdated" "1722225704"
-			}
-			"denuvo_test"
-			{
-				"buildid" "14688311"
-				"pwdrequired" "1"
-				"timeupdated" "1718179644"
-			}
-			"development"
-			{
-				"buildid" "15539654"
-				"pwdrequired" "1"
-				"timeupdated" "1724989561"
-			}
-			"dev_check_dev"
-			{
-				"buildid" "15428758"
-				"pwdrequired" "1"
-				"timeupdated" "1724121514"
-			}
-			"dev_check_ship"
-			{
-				"buildid" "15539654"
-				"pwdrequired" "1"
-				"timeupdated" "1724990812"
-			}
-			"dev_check_ship_denuvo"
-			{
-				"buildid" "15540849"
-				"pwdrequired" "1"
-				"timeupdated" "1724999906"
-			}
-			"qa_test"
-			{
-				"buildid" "15428758"
-				"pwdrequired" "1"
-				"timeupdated" "1724132307"
-			}
-			"qa_test_shipping"
-			{
-				"buildid" "15389993"
-				"pwdrequired" "1"
-				"timeupdated" "1723784657"
-			}
-			"qa_test_shipping_denuvo"
-			{
-				"buildid" "15389934"
-				"pwdrequired" "1"
-				"timeupdated" "1723784670"
-			}
-		}
-	}
-	"ufs"
-	{
-		"quota" "100000000"
-		"maxnumfiles" "15"
-		"savefiles"
-		{
-			"0"
-			{
-				"root" "WinMyDocuments"
-				"path" "My Games/VisionsofMana/Steam/{64BitSteamID}/Saved/SaveGames/"
-				"pattern" "*.sav"
+				"osarch" "64"
 			}
 		}
 	}
 }
+"depots"
+{
+	"hasdepotsindlc" "1"
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2490991"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2442201424328191737"
+				"size" "40234480848"
+				"download" "34022275632"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"denuvo"
+			{
+				"gid" "135FB8DE7BFF74266C7FFB51931797D4"
+				"size" "F9729B249297265A1370E617E0AC2424"
+				"download" "178CC0987A570D221D64F71BED077597"
+			}
+			"for_review"
+			{
+				"gid" "5884429B2061F55421BC2BBEDBB68C3A"
+				"size" "9A85938A56C15B5E23D468A5BE497955"
+				"download" "828ACBCBCC665A91F4129B46418DA406"
+			}
+			"denuvo_test"
+			{
+				"gid" "9B459D7742FBCDE1CA4A05C0734BE360"
+				"size" "BB7ABF873DDA0A2C6B5F94165BCCB313"
+				"download" "8110E150FE38995B39BB8E629AA03D86"
+			}
+			"development"
+			{
+				"gid" "85269CA3BDE6F15B55B19494153A24F8"
+				"size" "4C55EBDEEB0BFBA741DE2F2D4E06E174"
+				"download" "8CC544047F924153B8B6ABC1C1C40268"
+			}
+			"dev_check_dev"
+			{
+				"gid" "E1CBB835AE91C87A8FE56361FF07FE74"
+				"size" "CE4A5D693271F4DFE387CF36D91C1D8B"
+				"download" "F3EF93120DDE9A6E9ADAE91E9B96A25E"
+			}
+			"dev_check_ship"
+			{
+				"gid" "3A07711AC900A257626005308F7CD40F"
+				"size" "864E63E489E366F9A040256C6B5B7E36"
+				"download" "ED19FD3D4AEF13304048758E35FBFB95"
+			}
+			"dev_check_ship_denuvo"
+			{
+				"gid" "8547BEA1697145722BF257D08975F001"
+				"size" "4199E7C36EB7ADA347951739341CA3CE"
+				"download" "0D3EA640A3CC77D02B1E6E15E4B43012"
+			}
+			"qa_test"
+			{
+				"gid" "F70253E24C6BDC8114A7D5C71A0ABC07"
+				"size" "B7BE2CB48C8711B7EF5D33203877C6A0"
+				"download" "066A625D4C87B6B6CAEB4E083CD54663"
+			}
+			"qa_test_shipping"
+			{
+				"gid" "DF0B9E44DC7729681B6A843C20917C88"
+				"size" "B5B6216C9BCE322291A9D74BA99CE916"
+				"download" "950C9FB2EA85701544CFC3C53A207A99"
+			}
+			"qa_test_shipping_denuvo"
+			{
+				"gid" "BF602A45939DEF808B19AEA2F30833FE"
+				"size" "397A51558C94D9E551794E9EC9CCC706"
+				"download" "11118B812C0D06335710BD43588F5F03"
+			}
+		}
+	}
+	"2726771"
+	{
+		"dlcappid" "2726770"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15634561"
+			"timeupdated" "1726218351"
+		}
+		"denuvo"
+		{
+			"buildid" "15389934"
+			"pwdrequired" "1"
+			"timeupdated" "1724140251"
+		}
+		"for_review"
+		{
+			"buildid" "15181933"
+			"pwdrequired" "1"
+			"timeupdated" "1722225704"
+		}
+		"denuvo_test"
+		{
+			"buildid" "14688311"
+			"pwdrequired" "1"
+			"timeupdated" "1718179644"
+		}
+		"development"
+		{
+			"buildid" "15651133"
+			"pwdrequired" "1"
+			"timeupdated" "1725971511"
+		}
+		"dev_check_dev"
+		{
+			"buildid" "15633949"
+			"pwdrequired" "1"
+			"timeupdated" "1725850551"
+		}
+		"dev_check_ship"
+		{
+			"buildid" "15634602"
+			"pwdrequired" "1"
+			"timeupdated" "1725858532"
+		}
+		"dev_check_ship_denuvo"
+		{
+			"buildid" "15634561"
+			"pwdrequired" "1"
+			"timeupdated" "1725858084"
+		}
+		"qa_test"
+		{
+			"buildid" "15628973"
+			"pwdrequired" "1"
+			"timeupdated" "1725775907"
+		}
+		"qa_test_shipping"
+		{
+			"buildid" "15634602"
+			"pwdrequired" "1"
+			"timeupdated" "1725859178"
+		}
+		"qa_test_shipping_denuvo"
+		{
+			"buildid" "15634561"
+			"pwdrequired" "1"
+			"timeupdated" "1725859196"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "15"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "My Games/VisionsofMana/Steam/{64BitSteamID}/Saved/SaveGames/"
+			"pattern" "*.sav"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "25207256"
+"_sha" "4334250e8eef9d975de006f0a171ec1a0c211f5f"
+"_size" "10524"
