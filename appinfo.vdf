@@ -54,9 +54,6 @@
 		"1" "2"
 		"2" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_sex" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "2"
@@ -130,6 +127,44 @@
 			"height_pct" "55.86043448547469"
 		}
 	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "30.29566557952444"
+				"height_pct" "55.86043448547469"
+			}
+		}
+	}
 	"store_asset_mtime" "1589932954"
 	"associations"
 	{
@@ -165,6 +200,7 @@
 		"category_2" "1"
 		"category_22" "1"
 		"category_28" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -247,22 +283,22 @@
 	{
 		"0" "19"
 		"1" "21"
-		"2" "6378"
-		"3" "1695"
-		"4" "1742"
+		"2" "1695"
+		"3" "1742"
+		"4" "6378"
 		"5" "12095"
-		"6" "6650"
-		"7" "4667"
-		"8" "1697"
-		"9" "4345"
+		"6" "4667"
+		"7" "6650"
+		"8" "4182"
+		"9" "1697"
 		"10" "3814"
-		"11" "4182"
+		"11" "4345"
 		"12" "6052"
 		"13" "1774"
 		"14" "4166"
 		"15" "1756"
-		"16" "1693"
-		"17" "5611"
+		"16" "5611"
+		"17" "1693"
 		"18" "4106"
 		"19" "5708"
 	}
@@ -284,25 +320,29 @@
 		{
 			"executable" "pc\\Mafia2Launcher\\Launcher.exe"
 			"workingdir" "pc\\Mafia2Launcher"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "old,newtest"
+			}
+			"description_loc"
+			{
+				"english" "Mafia II Definitive Edition Launcher"
+			}
+			"description" "Mafia II Definitive Edition Launcher"
+		}
+		"1"
+		{
+			"executable" "pc/Mafia II Definitive Edition.exe"
+			"workingdir" "pc"
 			"type" "default"
 			"config"
 			{
 				"oslist" "windows"
 				"osarch" "64"
-				"betakey" "old"
-			}
-		}
-		"1"
-		{
-			"executable" "pc/Mafia2_Release.exe"
-			"workingdir" "pc"
-			"description" "Release Configuration"
-			"type" "option1"
-			"config"
-			{
-				"oslist" "windows"
-				"osarch" "64"
-				"betakey" "capture_tools"
+				"betakey" "capture_tools,newtest"
 			}
 		}
 		"2"
@@ -477,25 +517,13 @@
 		{
 			"public"
 			{
-				"gid" "1898676659422131805"
-				"size" "134354670"
-				"download" "131114960"
+				"gid" "1298223493515886904"
+				"size" "139408274"
+				"download" "135668816"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"2kqa_a"
-			{
-				"gid" "C3308368AEBBA25C800537331265966D"
-				"size" "B6BEAB17615F474BFE39246A55DCE8D7"
-				"download" "ED3B30C633E2B592BC476C0864426788"
-			}
-			"2kqa_b"
-			{
-				"gid" "275296C97C06B6BC62E2170E9028D58E"
-				"size" "0A9E1FED8188E696CE510B0D67997149"
-				"download" "D1B04BF44EC6EA1728DFEE1A9D3CCD9F"
-			}
 			"autoupdater"
 			{
 				"gid" "4E3E3F1638E281108D8D37D424AA3B57"
@@ -508,23 +536,35 @@
 				"size" "AAADF7F96AF1069F8836A1331E7A01F5"
 				"download" "582456C4FCBEE3E1A9E86D979BE601F5"
 			}
-			"dev2klauncherintegration"
-			{
-				"gid" "96297BCC9263A5BEB7A7C7D1573400B2"
-				"size" "F7653DEEFA0BB9F17B38B6185D20351D"
-				"download" "9624E2611A823F86714E98E26DCAD881"
-			}
 			"integration"
 			{
 				"gid" "7BD9D20CE86454BAF67C52EFFD0DE219"
 				"size" "24D9E93D742F4CE62CF1C6E5ABCB1A42"
 				"download" "FB76340812E5365A297D21601F46B9ED"
 			}
+			"2kqa_a"
+			{
+				"gid" "48948F6A5F65059D957C3A77A1374428"
+				"size" "835F6FDDBE4912046B33C9CCD6DAC833"
+				"download" "68AA401F66E10FF500CF563F38BC42A8"
+			}
+			"2kqa_b"
+			{
+				"gid" "67F3C2AB191108E2FAE2DED9F06F420C"
+				"size" "3F9AC951D0166DA056A7DF05A7D12E3C"
+				"download" "F33D7CF145E545ED7AC02757F1904313"
+			}
+			"dev2klauncherintegration"
+			{
+				"gid" "ECEB05B364DF41C2E8EDD816C40E5E95"
+				"size" "CA90A8926D6C897A1DA11B0201BB6275"
+				"download" "943801E533D8CE239FA1632E39CAAE79"
+			}
 			"newtest"
 			{
-				"gid" "363CEE61D9A4E7F31C84FF8296C2E1CB"
-				"size" "69D482CDFD08D0F8856E56FB83E324DD"
-				"download" "90DD3DB47C532BA7CCD6C319B34BF029"
+				"gid" "C721BDBFD1584469A60EC4DB9AFEA606"
+				"size" "A5039B46CB3D667228C66F3EEFFB0ACE"
+				"download" "A5039B46CB3D667228C66F3EEFFB0ACE"
 			}
 		}
 		"depotfromapp" "1523210"
@@ -662,18 +702,6 @@
 			"pwdrequired" "1"
 			"timeupdated" "1561557960"
 		}
-		"2kqa_a"
-		{
-			"buildid" "10553417"
-			"pwdrequired" "1"
-			"timeupdated" "1676488623"
-		}
-		"2kqa_b"
-		{
-			"buildid" "10553417"
-			"pwdrequired" "1"
-			"timeupdated" "1676488638"
-		}
 		"autoupdater"
 		{
 			"buildid" "6530247"
@@ -686,21 +714,29 @@
 			"pwdrequired" "1"
 			"timeupdated" "1638567025"
 		}
-		"dev2klauncherintegration"
-		{
-			"buildid" "10553417"
-			"pwdrequired" "1"
-			"timeupdated" "1676423168"
-		}
 		"integration"
 		{
 			"buildid" "8189487"
 			"pwdrequired" "1"
 			"timeupdated" "1644614282"
 		}
+		"2kqa_a"
+		{
+			"buildid" "14980618"
+			"pwdrequired" "1"
+			"timeupdated" "1720729682"
+		}
+		"2kqa_b"
+		{
+			"buildid" "14980618"
+			"pwdrequired" "1"
+			"timeupdated" "1720729700"
+		}
+		"dev2klauncherintegration"
+		{
+			"buildid" "14645959"
+			"pwdrequired" "1"
+			"timeupdated" "1719352092"
+		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "21293770"
-"_sha" "60f5975b8455ce8ed45f6c850a63c56d8b20921e"
-"_size" "14733"
