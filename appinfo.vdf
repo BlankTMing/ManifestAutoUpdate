@@ -12,13 +12,21 @@
 	"icon" "3e2696712f763be6471ae6747285f6b4b0f79ab6"
 	"logo" "c191ec5b3bc85e16c984920a8f7434b73b2dd8c2"
 	"logo_small" "c191ec5b3bc85e16c984920a8f7434b73b2dd8c2_thumb"
+	"name_localized"
+	{
+		"schinese" "维京之城"
+		"tchinese" "維京之城"
+	}
+	"languages"
+	{
+		"english" "1"
+		"tchinese" "1"
+	}
 	"content_descriptors"
 	{
 		"0" "2"
 		"1" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "2"
@@ -71,16 +79,21 @@
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+		"tchinese" "capsule_231x87_tchinese.jpg"
 	}
 	"header_image"
 	{
 		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+		"tchinese" "header_tchinese.jpg"
 	}
 	"library_assets"
 	{
-		"library_capsule" "en"
-		"library_hero" "en"
-		"library_logo" "en"
+		"library_capsule" "en,zh-cn,zh-tw"
+		"library_hero" "en,zh-cn,zh-tw"
+		"library_logo" "en,zh-cn,zh-tw"
+		"library_header" "en,zh-cn,zh-tw"
 		"logo_position"
 		{
 			"pinned_position" "BottomCenter"
@@ -88,7 +101,70 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1701714900"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+				"tchinese" "library_600x900_tchinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+				"tchinese" "library_600x900_tchinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+				"schinese" "library_hero_schinese.jpg"
+				"tchinese" "library_hero_tchinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+				"schinese" "library_hero_schinese_2x.jpg"
+				"tchinese" "library_hero_tchinese_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomCenter"
+				"width_pct" "100"
+				"height_pct" "100"
+			}
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+				"tchinese" "logo_tchinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+				"tchinese" "logo_tchinese_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+				"schinese" "library_header_schinese.jpg"
+				"tchinese" "library_header_tchinese.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1709773069"
 	"associations"
 	{
 		"0"
@@ -107,6 +183,11 @@
 			"name" "Hyperstrange"
 		}
 		"3"
+		{
+			"type" "publisher"
+			"name" "Gamersky Games"
+		}
+		"4"
 		{
 			"type" "franchise"
 			"name" "Untold Tales"
@@ -129,6 +210,7 @@
 		"category_38" "1"
 		"category_45" "1"
 		"category_46" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -176,6 +258,11 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1655391654"
 	"metacritic_score" "67"
@@ -194,17 +281,17 @@
 		"6" "4364"
 		"7" "3813"
 		"8" "4994"
-		"9" "4191"
-		"10" "12472"
-		"11" "4252"
+		"9" "12472"
+		"10" "4191"
+		"11" "4182"
 		"12" "11634"
-		"13" "4182"
+		"13" "4252"
 		"14" "1684"
 		"15" "3993"
 		"16" "4667"
 		"17" "4345"
 		"18" "3834"
-		"19" "3987"
+		"19" "220585"
 	}
 	"review_score" "6"
 	"review_percentage" "70"
@@ -239,19 +326,19 @@
 		{
 			"public"
 			{
-				"gid" "7433999333297150622"
-				"size" "11188634212"
-				"download" "3612850288"
+				"gid" "344146627948829188"
+				"size" "11292913113"
+				"download" "3644694064"
+			}
+			"beta"
+			{
+				"gid" "344146627948829188"
+				"size" "11292913113"
+				"download" "3644694064"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"beta"
-			{
-				"gid" "A5B4F66B677D6F1B8534F0CA16490C80"
-				"size" "D1E77951E533BDA8830A249ED1E6A05D"
-				"download" "C6F7D7855DBBAFB642EF017E0ACBF36C"
-			}
 			"debug"
 			{
 				"gid" "CC984C71FA63013973A332918248D0F2"
@@ -260,33 +347,33 @@
 			}
 			"laststable"
 			{
-				"gid" "B38062F2AB788B49DF1C16B5ADEF2434"
-				"size" "3321BA0CD757DE5AB07E99D7A8D33423"
-				"download" "461E0F7DDD88EFB109D4A685E54D3585"
+				"gid" "712925C8574B16B0A7B44D44C952130C"
+				"size" "159929B18FEBF86F3D6BA40CE4D53FCE"
+				"download" "EECD272D19ECB51D5BD602528D246AC9"
 			}
 			"press"
 			{
-				"gid" "F6AE45BBB29B6217F934DD2C467D9691"
-				"size" "426DA37F897ABA83C00EBD6BEF35A870"
-				"download" "15ADB1E38851E4D17470093A0BEB0A0F"
+				"gid" "58BB1DE373515F95B4A3A8258809DD0A"
+				"size" "6D405B5DD6934624095408B8491F1AFB"
+				"download" "3821D22691BFEA53FD3DCC6DC314F4D9"
 			}
 			"publicbeta"
 			{
-				"gid" "A76C30ECC77B47150AAD64BA935BE4CA"
-				"size" "833B5E5EB2FF88A087F5D043DCE72234"
-				"download" "4A4CFDD2A939C1820157854F85450F37"
+				"gid" "D80703B4E127AF3C72A1EAB3254C7A52"
+				"size" "E1B25CA0FF631D3257FBC800846CBBD5"
+				"download" "E100073E5D6CA9FBF916EDE70FC91515"
 			}
 			"shipping"
 			{
-				"gid" "E0145F8F44E5EC24250FA24BED4D51A2"
-				"size" "B8821BB2FCC45D2302D945ACE0F0EF51"
-				"download" "373A9666777DF9D4AB60065FFB9264B7"
+				"gid" "B3D2D55A35F367CFB7CBC82C987C7CA1"
+				"size" "01039D469042D690002620FF470593F5"
+				"download" "174FD3F873F97E40667ABC4C4BE4414C"
 			}
 			"testing"
 			{
-				"gid" "94D70CBEB8068C007EA02DA7FE33F0DF"
-				"size" "FA4762301EF12ACFF89780D31341C8D0"
-				"download" "7377990EDB6F3AA63CA3C4191B1F12EB"
+				"gid" "6C4EE1CC927424DDB16E784CE5AA78D0"
+				"size" "B61ADA4C691D86EAD35DECD13387B69F"
+				"download" "2CFA899118C345C89584C4A146461A1F"
 			}
 		}
 	}
@@ -294,14 +381,8 @@
 	{
 		"public"
 		{
-			"buildid" "12044921"
-			"timeupdated" "1693295208"
-		}
-		"beta"
-		{
-			"buildid" "10648282"
-			"pwdrequired" "1"
-			"timeupdated" "1677521577"
+			"buildid" "13854371"
+			"timeupdated" "1714034805"
 		}
 		"debug"
 		{
@@ -309,35 +390,41 @@
 			"pwdrequired" "1"
 			"timeupdated" "1684234867"
 		}
+		"beta"
+		{
+			"buildid" "13854371"
+			"description" "Beta build"
+			"timeupdated" "1719000050"
+		}
 		"laststable"
 		{
-			"buildid" "10648282"
+			"buildid" "13854371"
 			"pwdrequired" "1"
-			"timeupdated" "1681734277"
+			"timeupdated" "1719000087"
 		}
 		"press"
 		{
-			"buildid" "10648282"
+			"buildid" "13854371"
 			"pwdrequired" "1"
-			"timeupdated" "1677521585"
+			"timeupdated" "1719000065"
 		}
 		"publicbeta"
 		{
-			"buildid" "10648282"
+			"buildid" "13854371"
 			"pwdrequired" "1"
-			"timeupdated" "1681734402"
+			"timeupdated" "1719000073"
 		}
 		"shipping"
 		{
-			"buildid" "12044921"
+			"buildid" "13854371"
 			"pwdrequired" "1"
-			"timeupdated" "1693228679"
+			"timeupdated" "1725293002"
 		}
 		"testing"
 		{
-			"buildid" "12683963"
+			"buildid" "15605174"
 			"pwdrequired" "1"
-			"timeupdated" "1699815907"
+			"timeupdated" "1725550427"
 		}
 	}
 }
@@ -359,7 +446,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "21738842"
-"_sha" "ba0baa43fe90f03bfffeeacb41f8d7976b325661"
-"_size" "6867"
