@@ -1,0 +1,213 @@
+"appid" "214610"
+"common"
+{
+	"name" "Cherry Tree High Comedy Club"
+	"type" "Game"
+	"logo" "ef3c5c011222b788ea9586f99facd2a7173ee1f2"
+	"logo_small" "ef3c5c011222b788ea9586f99facd2a7173ee1f2_thumb"
+	"clienttga" "9540d6568b7d612c477d792ed3c7c448ebb75c68"
+	"clienticon" "e8cf3831e05743377fb70f107325bb4eff75cb4f"
+	"icon" "dd394c890351b494b14bb3fde401e298083dad6b"
+	"oslist" "windows"
+	"app_retired_publisher_request" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1686873600"
+		"tested_build_id" "448703"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-2"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Cherry Tree High Comedy Club"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1597352395"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "773"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Nyu Media"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Nyu Media"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"steam_release_date" "1352397600"
+	"community_hub_visible" "1"
+	"gameid" "214610"
+	"store_tags"
+	{
+		"0" "3799"
+		"1" "4085"
+		"2" "492"
+		"3" "21"
+		"4" "1719"
+		"5" "7208"
+		"6" "122"
+		"7" "4182"
+		"8" "4726"
+		"9" "599"
+		"10" "5577"
+		"11" "9551"
+	}
+	"review_score" "8"
+	"review_percentage" "84"
+}
+"extended"
+{
+	"developer" "773"
+	"gamedir" "Cherry Tree High Comedy Club"
+	"homepage" "http://www.cherrytreehigh.com"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Nyu Media"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Cherry Tree High Comedy Club"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CTHCC.exe"
+			"type" "default"
+		}
+		"1"
+		{
+			"executable" "Game.exe"
+			"description" "Westernized Localization"
+			"type" "option1"
+		}
+	}
+	"installscriptsignature" "78f32bf661953084075f957eb803b2c2ef522846f865499bc2e6604d4f4359b988c669d1d0f04e8d033b07a24ce6a8ef4ae21b4cb351315ef37bb020f721c5727b8e38a9839d077bba7e92f0c1a4c78df2a154b08eb0e64e135c1b137a118ff2588b00e5ca1e840fe9915910638a64634ed63e47527a03f74d437cc9fd4301ed"
+	"installscriptoverride" "1"
+	"steamcontrollertemplateindex" "4"
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\redists\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"214611"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6829272465036260522"
+				"size" "161393272"
+				"download" "114656272"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "448703"
+		}
+	}
+}
