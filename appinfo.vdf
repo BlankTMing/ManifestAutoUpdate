@@ -1,0 +1,215 @@
+"appid" "416250"
+"common"
+{
+	"name" "Tales [PC]"
+	"type" "Game"
+	"oslist" "windows"
+	"logo" "8e275db5faa040b97e7e2d51a1f8b923fcbdd798"
+	"logo_small" "8e275db5faa040b97e7e2d51a1f8b923fcbdd798_thumb"
+	"icon" "a3faaa13143f070c142f293ebc25466f0024e09d"
+	"clienticon" "47f7c06c31d470636039b532491318a9f55c1a87"
+	"clienttga" "877f428a18c6b3d17cb6cac1641c0ed415b81f96"
+	"releasestate" "released"
+	"metacritic_name" "Tales"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+	}
+	"store_asset_mtime" "1572654979"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Ape Marina"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Screen 7"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1479156411"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "416250"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "1698"
+		"3" "1664"
+		"4" "4182"
+		"5" "1684"
+		"6" "3871"
+		"7" "3964"
+		"8" "3987"
+		"9" "5350"
+		"10" "6276"
+	}
+	"review_score" "6"
+	"review_percentage" "76"
+}
+"extended"
+{
+	"developer" "Ape Marina"
+	"publisher" "Screen 7"
+	"homepage" "http://www.screen7.co.uk/#!/tales"
+	"gamemanualurl" "https://store.steampowered.com/manual/416250/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Tales"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Tales.exe"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Tales.exe"
+			"arguments" "--setup"
+			"description" "Setup"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"416251"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1879254159057845227"
+				"size" "845242282"
+				"download" "720547296"
+			}
+			"merlin"
+			{
+				"gid" "3651585039975557697"
+				"size" "844661060"
+				"download" "720302736"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"previous"
+			{
+				"gid" "0C621ED27690AA406D1FAF7FC564B0E7"
+				"size" "27D283F25D398FD483C821DA08B194C7"
+				"download" "825EBCE4DF43678685EC25E97DF9B365"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2570597"
+			"timeupdated" "1519994929"
+		}
+		"merlin"
+		{
+			"buildid" "2196520"
+			"description" "Version 1.0.2c"
+			"timeupdated" "1519994468"
+		}
+		"previous"
+		{
+			"buildid" "1978016"
+			"pwdrequired" "1"
+			"timeupdated" "1507953654"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinSavedGames"
+			"path" "Tales STEAM"
+			"pattern" "agssave.*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
