@@ -10,7 +10,11 @@
 		"german" "1"
 		"french" "1"
 		"italian" "1"
+		"koreana" "1"
 		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"japanese" "1"
 		"brazilian" "1"
 		"latam" "1"
 	}
@@ -50,6 +54,8 @@
 			"hdr_support" "0"
 		}
 	}
+	"controllertagwizard" "1"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -63,11 +69,61 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
 			"width_pct" "50.11606313341416"
 			"height_pct" "50"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50.11606313341416"
+				"height_pct" "50"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.png"
+			}
 		}
 	}
 	"store_asset_mtime" "1701892196"
@@ -99,7 +155,11 @@
 	{
 		"category_2" "1"
 		"category_22" "1"
-		"category_54" "1"
+		"category_28" "1"
+		"category_55" "1"
+		"category_57" "1"
+		"category_53" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -139,12 +199,31 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1702562391"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "2287520"
-	"onlyvrsupport" "1"
 	"store_tags"
 	{
 		"0" "21978"
@@ -164,9 +243,9 @@
 		"14" "5350"
 		"15" "3854"
 		"16" "19"
-		"17" "597"
-		"18" "9"
-		"19" "1663"
+		"17" "9"
+		"18" "597"
+		"19" "4136"
 	}
 	"review_score" "8"
 	"review_percentage" "94"
@@ -186,6 +265,12 @@
 		{
 			"executable" "HW2.exe"
 			"type" "vr"
+		}
+		"2"
+		{
+			"executable" "HW2.exe"
+			"arguments" "-nohmd"
+			"type" "default"
 		}
 	}
 }
@@ -215,36 +300,18 @@
 		{
 			"public"
 			{
-				"gid" "2790921953005658007"
-				"size" "8002750281"
-				"download" "7692803952"
+				"gid" "8878398217533462780"
+				"size" "11002491667"
+				"download" "10659581840"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"thumper_dev_development"
-			{
-				"gid" "599DFD4E5A1306586026A2D40FF0B278"
-				"size" "EEE37B521FE58979D9CCEFF694EEDEA9"
-				"download" "455085A6597BAA990AFC4930716108FE"
-			}
 			"thumper_dev_shipping"
 			{
 				"gid" "3916970E17B311E3D5676B7F4E63D5C4"
 				"size" "9F3A4F12FB480FB70204CF16470A55FB"
 				"download" "55913B6C94687D5D35EF7F648B0B5CF4"
-			}
-			"thumper_flatmode_development"
-			{
-				"gid" "535EA35ED765B050E3AC76053ADA5BD0"
-				"size" "8A1B08639B570696394792EEB15E75C5"
-				"download" "6C2EFBB3C6F49A71D1569952F963090B"
-			}
-			"thumper_flatmode_shipping"
-			{
-				"gid" "AF6F9E97B8037E9694322851F0509B29"
-				"size" "2CF907764E8DA06A387CE25D8EF2CCA7"
-				"download" "8CD870CFA7B8D9705E62D044A9B56D8C"
 			}
 			"thumper_localization"
 			{
@@ -318,12 +385,6 @@
 				"size" "F4DFFBA26B8086493BCAF4E74254D94A"
 				"download" "DD846E55710E1E6A6B38DBE519F502FB"
 			}
-			"thumper_pod_e"
-			{
-				"gid" "EF3429654401668E5052D47021499913"
-				"size" "5E3268F714B84A1E4B7CA6F315ECC6DC"
-				"download" "944EC5859A883388FD62134AB98E059A"
-			}
 			"thumper_pod_f"
 			{
 				"gid" "57217E00BF39261A2F3C442437A67588"
@@ -342,11 +403,47 @@
 				"size" "F34D36BC9C2C366557CC7122626EEEE0"
 				"download" "9DD2CA01E79C1DB0F3EE0776486A0B40"
 			}
+			"thumper_crash_test"
+			{
+				"gid" "EA4B7F025E9E8BADA626A2B3B8D7B7A7"
+				"size" "A178C64B57855048A30056900F8B2B0B"
+				"download" "C72C3AD034DF4D0D4134FB42C4ACF652"
+			}
+			"thumper_dev_development"
+			{
+				"gid" "78CACEE3ADAA8103989E29A8A23BA0CF"
+				"size" "88183BFC026B6F7C233066C04F8369E2"
+				"download" "DB6258A8F6073C89EDA73CBAF249FB85"
+			}
+			"thumper_flatmode_development"
+			{
+				"gid" "3CEAC48E7A5DECED170E5A2F4D877E7E"
+				"size" "5DCAB78B52AFB24EF8BE43AA594959DB"
+				"download" "D6FB87D869D18DF407FCECCF28290A50"
+			}
+			"thumper_flatmode_shipping"
+			{
+				"gid" "8C558DC0629FBA7880A574D1B9E2A813"
+				"size" "1D0229EFC47DD176186D920AD0F8E266"
+				"download" "16DF18BE67673B0F39E8B5AB475C107A"
+			}
+			"thumper_flatmoderelease_shipping"
+			{
+				"gid" "655F1BCB4322D9406F2E946B8121FF6B"
+				"size" "6DF7E37721A602772EC4D1BE9C347408"
+				"download" "BC9F1345F8C11CEF06C2F85D2CBC7A5C"
+			}
+			"thumper_pod_e"
+			{
+				"gid" "9FA21D8BA833AFFA210A299F132867CF"
+				"size" "B7B4DDDFA07733087A8AA753F0A5B3CA"
+				"download" "757A6EC15F4390C989BFAB30E42E62E9"
+			}
 			"thumper_stewie_test"
 			{
-				"gid" "94340F619BB87652757D469CB0CED28C"
-				"size" "DFBD9C7B8698397D16E52496AE4E4893"
-				"download" "503454A2D2AC29AE95BD08E642C4F866"
+				"gid" "B6C31BF1D6746307422D81DA5401932D"
+				"size" "730C132BFD3BA0AFDA143A4F5CAA15D5"
+				"download" "1ED36378A5D243FA7436038F9322023F"
 			}
 		}
 	}
@@ -358,23 +455,11 @@
 		}
 		"encryptedmanifests"
 		{
-			"thumper_dev_development"
-			{
-				"gid" "11BC68BC1D0F2C3A81F9D449FA65F728"
-				"size" "68CDFFCE881A66C4C614FE81A375BFD4"
-				"download" "D1D4D9D1C57914FD4594E2BEFD8CE271"
-			}
 			"thumper_dev_shipping"
 			{
 				"gid" "C59827561885E314B9C24BDC8E7CC8EF"
 				"size" "8BA1ED3BA0684CFC55CC5FC95DD1036C"
 				"download" "C60B354E4D5E2499160CDA782BFD87CC"
-			}
-			"thumper_flatmode_development"
-			{
-				"gid" "B8F9E659B82491885073F770ADA29FC8"
-				"size" "EED8F0BF75F29FBCD7765FA8CAAD1084"
-				"download" "275F1489A5629FE3D36B190D7FC91205"
 			}
 			"thumper_localization"
 			{
@@ -430,12 +515,6 @@
 				"size" "F77B1DF35D2E58671F7CB9F0EBA6B224"
 				"download" "B4D83FA15E54E2A2555B926A3E9EA9B8"
 			}
-			"thumper_pod_e"
-			{
-				"gid" "77AAFE2EEFB30B3106A2E29721CB1936"
-				"size" "015E92F2FD4B876365DB6F3E3163B17E"
-				"download" "382F81D6A05BDA444AD1231ABAEF84A7"
-			}
 			"thumper_pod_f"
 			{
 				"gid" "63D965A36717C4E7CEA8629194EBFF12"
@@ -447,6 +526,24 @@
 				"gid" "6A8F88F1309CE739CDED287CA95636FA"
 				"size" "70E9ECA72A9CD79829A3A04A4F566A14"
 				"download" "9442F71F797BB53B46A719A58057E7EC"
+			}
+			"thumper_dev_development"
+			{
+				"gid" "5711BA9A94ECF32D140896C881579B7C"
+				"size" "68CDFFCE881A66C4C614FE81A375BFD4"
+				"download" "56D99E181FB7AFB5CE6761C72FB2E461"
+			}
+			"thumper_flatmode_development"
+			{
+				"gid" "B8F9E659B82491885073F770ADA29FC8"
+				"size" "EED8F0BF75F29FBCD7765FA8CAAD1084"
+				"download" "275F1489A5629FE3D36B190D7FC91205"
+			}
+			"thumper_pod_e"
+			{
+				"gid" "3F71239B9DC149FF048BAD7A5F4781B0"
+				"size" "02666FE030BD3DFCD5D595F6DC5F268A"
+				"download" "C56A18F1CA42FB16849DBCBF5F9C5061"
 			}
 			"thumper_stewie_test"
 			{
@@ -461,32 +558,14 @@
 	{
 		"public"
 		{
-			"buildid" "12976674"
-			"timeupdated" "1703013782"
-		}
-		"thumper_dev_development"
-		{
-			"buildid" "13904319"
-			"pwdrequired" "1"
-			"timeupdated" "1711835281"
+			"buildid" "15323560"
+			"timeupdated" "1725984038"
 		}
 		"thumper_dev_shipping"
 		{
 			"buildid" "13904013"
 			"pwdrequired" "1"
 			"timeupdated" "1711829650"
-		}
-		"thumper_flatmode_development"
-		{
-			"buildid" "14114608"
-			"pwdrequired" "1"
-			"timeupdated" "1713560586"
-		}
-		"thumper_flatmode_shipping"
-		{
-			"buildid" "14150270"
-			"pwdrequired" "1"
-			"timeupdated" "1713906818"
 		}
 		"thumper_localization"
 		{
@@ -560,12 +639,6 @@
 			"pwdrequired" "1"
 			"timeupdated" "1701890900"
 		}
-		"thumper_pod_e"
-		{
-			"buildid" "12976292"
-			"pwdrequired" "1"
-			"timeupdated" "1702674656"
-		}
 		"thumper_pod_f"
 		{
 			"buildid" "12914930"
@@ -584,15 +657,47 @@
 			"pwdrequired" "1"
 			"timeupdated" "1702579915"
 		}
+		"thumper_crash_test"
+		{
+			"buildid" "15192222"
+			"pwdrequired" "1"
+			"timeupdated" "1722300442"
+		}
+		"thumper_dev_development"
+		{
+			"buildid" "14415092"
+			"pwdrequired" "1"
+			"timeupdated" "1716056056"
+		}
+		"thumper_flatmode_development"
+		{
+			"buildid" "15265813"
+			"pwdrequired" "1"
+			"timeupdated" "1722872990"
+		}
+		"thumper_flatmode_shipping"
+		{
+			"buildid" "15135725"
+			"pwdrequired" "1"
+			"timeupdated" "1721816401"
+		}
+		"thumper_flatmoderelease_shipping"
+		{
+			"buildid" "15323560"
+			"pwdrequired" "1"
+			"timeupdated" "1723237400"
+		}
+		"thumper_pod_e"
+		{
+			"buildid" "15426878"
+			"pwdrequired" "1"
+			"timeupdated" "1724107786"
+		}
 		"thumper_stewie_test"
 		{
-			"buildid" "12836157"
+			"buildid" "15205823"
 			"pwdrequired" "1"
-			"timeupdated" "1701327385"
+			"timeupdated" "1722382783"
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "23272946"
-"_sha" "b611e1c6306678068f45223784c681aaf24d4729"
-"_size" "13336"
