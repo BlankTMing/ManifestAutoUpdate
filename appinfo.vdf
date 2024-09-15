@@ -1,0 +1,229 @@
+"appid" "588710"
+"common"
+{
+	"name" "Neighboring Islands"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+	}
+	"logo" "bfd86c8635c1450c9891aa95c23775f5e556a7dc"
+	"logo_small" "bfd86c8635c1450c9891aa95c23775f5e556a7dc_thumb"
+	"icon" "43d68377b979a01ae960c59a01881c5f2c0aa177"
+	"clienticon" "52918cc308e3100259c8f31a7decc59fa6562d7f"
+	"clienttga" "bf2c7f322bbbf21b4743be30adac9958c51e3278"
+	"clienticns" "f10a6e39537e1d22e220626b55b7a01db2740fb0"
+	"linuxclienticon" "345c0dec6969c49161ee1b0b7b43e950c5792080"
+	"eulas"
+	{
+	}
+	"metacritic_name" "Neighbouring Islands"
+	"small_capsule"
+	{
+		"russian" "capsule_231x87_russian.jpg"
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"russian" "header_russian.jpg"
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1497886896"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Angry games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "ЛД: Новости визуальных новелл"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1493618093"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "588710"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "11014"
+		"3" "6426"
+		"4" "597"
+		"5" "3799"
+		"6" "1681"
+	}
+	"review_score" "6"
+	"review_percentage" "78"
+}
+"extended"
+{
+	"developer" "Angry games"
+	"publisher" "ЛД: Новости визуальных новелл"
+	"homepage" "https://vk.com/badnovells"
+}
+"config"
+{
+	"installdir" "Neighboring Islands"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Neighbouring islands.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Neighbouring islands.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "Neighbouring islands.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,russian"
+	"hasdepotsindlc" "1"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"588712"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2230736828022664995"
+				"size" "738306132"
+				"download" "655209968"
+			}
+		}
+	}
+	"588711"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "142075327753429542"
+				"size" "744951780"
+				"download" "658185280"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2824749"
+			"timeupdated" "1527833369"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10240000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "RenPy/pirates-201715061015"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "LinuxHome"
+			"path" ".renpy/pirates-201715061015"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "MacHome"
+			"path" "Library/RenPy/pirates-201715061015"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "game/saves "
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+}
