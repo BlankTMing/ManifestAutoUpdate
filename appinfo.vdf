@@ -1,0 +1,355 @@
+"appid" "217690"
+"common"
+{
+	"name" "Anna - Extended Edition"
+	"type" "Game"
+	"clienticon" "1bda92c11f0f9b238fb4e0d448e9188998d0adca"
+	"clienttga" "cc9dc94080965803e5c3dbe44e6b38cc558ecd59"
+	"icon" "3be85aeaf67e979786a6d11668d564a8e57a41a0"
+	"logo" "c7d2d87065728b276fabc69db36ec6f409c5d112"
+	"logo_small" "c7d2d87065728b276fabc69db36ec6f409c5d112_thumb"
+	"oslist" "windows,macos,linux"
+	"metacritic_name" "Anna: Extended Edition"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "30.34482758620689"
+			"height_pct" "58.6364703121333"
+		}
+	}
+	"store_asset_mtime" "1572884673"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Dreampainters"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Kalypso Media Digital"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+		}
+		"italian"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+		}
+		"russian"
+		{
+			"supported" "1"
+		}
+		"turkish"
+		{
+			"supported" "1"
+		}
+		"polish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1365786000"
+	"metacritic_score" "75"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/anna-extended-edition\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "217690"
+	"store_tags"
+	{
+		"0" "1667"
+		"1" "21"
+		"2" "492"
+		"3" "4166"
+		"4" "1664"
+		"5" "1721"
+		"6" "3839"
+		"7" "4182"
+		"8" "1742"
+		"9" "1756"
+		"10" "769306"
+	}
+	"review_score" "5"
+	"review_percentage" "61"
+}
+"extended"
+{
+	"developer" "Dreampainters"
+	"gamedir" "Anna"
+	"homepage" ""
+	"icon" ""
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp217690\\SteamKey"
+	"noservers" "0"
+	"showcdkeyonlaunch" "1"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"supportscdkeycopytoclipboard" "1"
+	"thirdpartycdkey" "1"
+	"validoslist" "windows,macos"
+	"visibleonlywhensubscribed" "1"
+	"legacykeylinkedexternally" "1"
+	"publisher" "Kalypso Media Digital"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Anna"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Anna.exe"
+			"description" "Normal launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Anna.app"
+			"description" "Normal launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Anna"
+			"description" "Normal launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"installscriptsignature" "0016de552a26ac7b80e72b7022a2c97b1a33cdba92c761b9ed3605b1c48fc3508feee2133db3b6316df356558282a87c2d703549945587f9680e4e51aab0a724a5f4c66e540489b923b18bce1a2f299e75de4bd4792d40df2c0966deaf5250e7c279fb2de22e9899b6294292c52fd58d41db62efe87b39594b763cc5b556698b"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"vcredist"
+		{
+			"process 1" "%INSTALLDIR%\\redist\\vcredist_x86\\vcredist_x86.exe"
+			"command 1" "/q /norestart"
+			"description" "Microsoft VC Redist Package 2010"
+			"nocleanup" "1"
+		}
+		"vcredistee"
+		{
+			"process 1" "%INSTALLDIR%\\redist\\vcredist_ee\\vcredist_x86.exe"
+			"command 1" "/q"
+			"description" "Microsoft VC Redist Package 2005"
+			"nocleanup" "1"
+		}
+		"dotnetfx"
+		{
+			"process 1" "%INSTALLDIR%\\redist\\dotNetFx\\DotNetFx35Client.exe"
+			"command 1" "/passive /norestart"
+			"description" "Dot Net framework"
+			"nocleanup" "1"
+		}
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\redist\\directx\\DXSETUP.exe"
+			"command 1" "/silent"
+			"description" "DirectX"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"217691"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1781899394333237934"
+				"size" "3036108260"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "B904A43B0836D47BC74BEAFF9419F3F1"
+				"size" "A189D5DED623B783E304D2532DBD04F0"
+				"download" "499756C3846F6DA975FABE9F9BC3C00B"
+			}
+			"testingee"
+			{
+				"gid" "C38FC1D8AFEDD9186922AF9BEA341E3F"
+				"size" "AEE5244904295C03E7F521BA7AD01F9A"
+				"download" "7F639E6B4C4AF720726F449BF77F5128"
+			}
+		}
+	}
+	"217692"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4934725062723119677"
+				"size" "2713553326"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "BB30C3D527C3971746CB36CF566F87E5"
+				"size" "51C7010FDE69A4237E7F6CB2A9764A26"
+				"download" "499756C3846F6DA975FABE9F9BC3C00B"
+			}
+			"testingee"
+			{
+				"gid" "C61329FAE18A45D67E638D0EA8B828BB"
+				"size" "5DCFB94802DF41162D3F117241F674C9"
+				"download" "7F639E6B4C4AF720726F449BF77F5128"
+			}
+		}
+	}
+	"217693"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3596503191780811166"
+				"size" "1833981959"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "13880513E591169E5F4DF17BD2468767"
+				"size" "EC58D57E3AA72B9461CF161E5C3E6353"
+				"download" "499756C3846F6DA975FABE9F9BC3C00B"
+			}
+			"testingee"
+			{
+				"gid" "D9075D1B3454D29EF054D74B17CB9AAD"
+				"size" "9AE764D327D8B8C43E843E1E7543FC22"
+				"download" "7F639E6B4C4AF720726F449BF77F5128"
+			}
+		}
+	}
+	"217694"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "116265389922035379"
+				"size" "160858019"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testingee"
+			{
+				"gid" "D7FF4C3DAC2FD2C35FE57F1665CE1A67"
+				"size" "91180B64980B0E601E05B321747BE350"
+				"download" "7F639E6B4C4AF720726F449BF77F5128"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "121935"
+		}
+		"testing"
+		{
+			"buildid" "52692"
+			"pwdrequired" "1"
+		}
+		"testingee"
+		{
+			"buildid" "127562"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "500000000"
+	"maxnumfiles" "1000"
+}
