@@ -6,9 +6,9 @@
 	"oslist" "windows"
 	"osarch" "64"
 	"osextended" ""
-	"clienttga" "50fb2bdcdeb0da785092052b41cb643027de5bb2"
-	"clienticon" "9915bdc988af68377c37591247dd13c25a778db7"
-	"icon" "42a0678ab152bfaea4d6b7d66223aac7afe51bd6"
+	"clienttga" "f70cfd0d244ea4ad5be4826eca14821c2dd79462"
+	"clienticon" "7602d6a71891ed309f4aaa90bbad9d31f9b54e1e"
+	"icon" "435172a2df3695389d00ea2c78d820c9e748f01e"
 	"logo" "03b7156d5d3a4eb8b4b7cdab25dbfc65b6636e18"
 	"logo_small" "03b7156d5d3a4eb8b4b7cdab25dbfc65b6636e18_thumb"
 	"releasestate" "released"
@@ -76,7 +76,60 @@
 			"height_pct" "56.59722222222223"
 		}
 	}
-	"store_asset_mtime" "1711874315"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "25.431623366300983"
+				"height_pct" "56.59722222222223"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1725953947"
 	"associations"
 	{
 		"0"
@@ -106,7 +159,6 @@
 		"0" "1"
 		"1" "28"
 		"2" "2"
-		"3" "70"
 	}
 	"category"
 	{
@@ -130,13 +182,18 @@
 		{
 			"supported" "true"
 			"full_audio" "true"
+			"subtitles" "true"
 		}
 		"french"
 		{
 			"full_audio" "true"
 		}
+		"bangla"
+		{
+			"full_audio" "true"
+		}
 	}
-	"steam_release_date" "1597249500"
+	"steam_release_date" "1725897719"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "1359090"
@@ -145,26 +202,26 @@
 		"0" "1708"
 		"1" "1774"
 		"2" "1663"
-		"3" "3859"
-		"4" "4175"
+		"3" "4175"
+		"4" "3859"
 		"5" "19"
-		"6" "3839"
-		"7" "4168"
+		"6" "4168"
+		"7" "3839"
 		"8" "3843"
 		"9" "1775"
 		"10" "5711"
 		"11" "9"
 		"12" "9204"
 		"13" "599"
-		"14" "1687"
-		"15" "3993"
-		"16" "4191"
-		"17" "6730"
+		"14" "3993"
+		"15" "1687"
+		"16" "6730"
+		"17" "4191"
 		"18" "4667"
 		"19" "493"
 	}
-	"review_score" "8"
-	"review_percentage" "80"
+	"review_score" "6"
+	"review_percentage" "79"
 }
 "extended"
 {
@@ -173,7 +230,7 @@
 	"publisher" "Attrito"
 	"homepage" "https://m7productions.gg/games/zero-hour"
 	"gamemanualurl" "https://store.steampowered.com/manual/1359090/"
-	"listofdlc" "2616600,2726290,2726300,2744030,2751840"
+	"listofdlc" "2616600,2726290,2726300,2744030,2751840,3179440"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -307,9 +364,9 @@
 		{
 			"public"
 			{
-				"gid" "6372877589624264672"
-				"size" "33689386621"
-				"download" "13508287696"
+				"gid" "3804654675907077713"
+				"size" "36581788235"
+				"download" "14572524752"
 			}
 		}
 		"encryptedmanifests"
@@ -322,27 +379,39 @@
 			}
 			"act_brnch"
 			{
-				"gid" "4C828A03414D7DE80C343AC680F540E3"
-				"size" "FF5F0AF9C9811C8BA265148C4D59AFC9"
-				"download" "775CB2EA6F0C17C524E9C4D6B60D2413"
+				"gid" "F1F6AFDC05FA573D6ECCBAD535F4AEA5"
+				"size" "545CBE2692BAFEA6D202FF7840A0532E"
+				"download" "056F293BC2716911C772C598708286D5"
+			}
+			"crnch_tester_prvt"
+			{
+				"gid" "BBB14738D02CE7DB7586ED504A8BB3EA"
+				"size" "F788C89E80DC580FCBC2000216EFE051"
+				"download" "AEB87545D50D6501567BA29CBF9EEF40"
 			}
 			"exclusiv_tester"
 			{
-				"gid" "17B372F91F07FAAD75C0442F42E7C1ED"
-				"size" "2DC135AB166B69C0F011EC08276F0C8D"
-				"download" "2A5AC032A9ECFB399AF78FB6E2DFE309"
+				"gid" "3AC7B3FC44E4F1F0C0158973EB56BAF6"
+				"size" "9F5596E74DF77AC36E8F062CFB16EAA6"
+				"download" "C95EE7187E82E94D146B60FAB7D6426C"
 			}
 			"exclusiv_testernew"
 			{
-				"gid" "88754303BB3734F85FF898A244C66FB1"
-				"size" "BE60F951E84D14980317433B5DB32387"
-				"download" "9C475DECDDEFFA536F48BFF847B95109"
+				"gid" "1B6CBCF6E050AEF4E1C11DE828E8612B"
+				"size" "788624162A2771F72CEAC5B31A20CE4E"
+				"download" "01ED47FBF351F7FD448FBB1D9EBD2225"
+			}
+			"pre-access"
+			{
+				"gid" "AABF09671EB4228483242A36CDA0B3BF"
+				"size" "885A1F142FA290437EEC0CBEFE351A10"
+				"download" "2BD0E82E69EFD53467BB33617C2B19F0"
 			}
 			"zhint"
 			{
-				"gid" "1B07457F42377DDDBBE373C9BF7449D3"
-				"size" "D44580D374134A3A5F89AD6F3078F3E2"
-				"download" "746E46A39673E550D4A4FDF6FE693955"
+				"gid" "DAB4AB394476BFE5F845925F37B28BFA"
+				"size" "33BEF3AAC9FB736C1507ACF7864F8A13"
+				"download" "556A89084E3B2C5ADB64E2B00A845E71"
 			}
 		}
 	}
@@ -350,8 +419,8 @@
 	{
 		"public"
 		{
-			"buildid" "14188330"
-			"timeupdated" "1714151323"
+			"buildid" "15668293"
+			"timeupdated" "1726087126"
 		}
 		"exbranch"
 		{
@@ -361,27 +430,39 @@
 		}
 		"act_brnch"
 		{
-			"buildid" "14188330"
+			"buildid" "15703101"
 			"pwdrequired" "1"
-			"timeupdated" "1714151284"
+			"timeupdated" "1726340102"
+		}
+		"crnch_tester_prvt"
+		{
+			"buildid" "15703101"
+			"pwdrequired" "1"
+			"timeupdated" "1726340110"
 		}
 		"exclusiv_tester"
 		{
-			"buildid" "14188330"
+			"buildid" "15703101"
 			"pwdrequired" "1"
-			"timeupdated" "1714150341"
+			"timeupdated" "1726340120"
 		}
 		"exclusiv_testernew"
 		{
-			"buildid" "14188330"
+			"buildid" "15703101"
 			"pwdrequired" "1"
-			"timeupdated" "1714150351"
+			"timeupdated" "1726340128"
+		}
+		"pre-access"
+		{
+			"buildid" "15703101"
+			"pwdrequired" "1"
+			"timeupdated" "1726340137"
 		}
 		"zhint"
 		{
-			"buildid" "14188330"
+			"buildid" "15703101"
 			"pwdrequired" "1"
-			"timeupdated" "1714150330"
+			"timeupdated" "1726340072"
 		}
 	}
 }
@@ -404,7 +485,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "23318652"
-"_sha" "26f149e0e3936d1c9d29b099a81cafe62f30cbd5"
-"_size" "7228"
