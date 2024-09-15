@@ -1,0 +1,221 @@
+"appid" "306700"
+"common"
+{
+	"name" "Iron Fisticle"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"icon" "55e6b37a8adc5a3c85e930b36c262f6c659f58bd"
+	"clienticon" "8ba95fdc8f8edeb7fae3d1370b48234560149e72"
+	"clienttga" "82354c67ef86b67f75c7aec85b9b3d456e07efc6"
+	"logo" "690ef7a28690a1a6bb0cc3eb0e1d71b13a20a4fa"
+	"logo_small" "690ef7a28690a1a6bb0cc3eb0e1d71b13a20a4fa_thumb"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1674604800"
+		"tested_build_id" "528463"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-5"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"metacritic_name" "Iron Fisticle"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "25.759534583063996"
+			"height_pct" "76.38888888888889"
+		}
+	}
+	"store_asset_mtime" "1612519264"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Confused Pelican"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Curve Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Curve Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_24" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_29" "1"
+		"category_28" "1"
+		"category_1" "1"
+		"category_44" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1410886758"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "306700"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "3841"
+		"3" "3871"
+		"4" "4758"
+		"5" "4255"
+		"6" "4637"
+		"7" "4791"
+		"8" "5547"
+		"9" "3964"
+		"10" "1659"
+		"11" "4004"
+		"12" "1773"
+		"13" "7368"
+	}
+	"review_score" "8"
+	"review_percentage" "84"
+}
+"extended"
+{
+	"gamedir" ""
+	"developer" "Confused Pelican"
+	"publisher" "Curve Games"
+	"homepage" "http://www.ironfisticle.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Iron Fisticle"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "IronFisticle.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"306701"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8296173468495416431"
+				"size" "79769808"
+				"download" "58491920"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"davetest"
+			{
+				"gid" "B6B16B24F8CF5C5C154A0987FD32EA16"
+				"size" "AB5A4886FD198D3DD169DE13A7DBB0C9"
+				"download" "3E22D2271012334E98B9C7E90E8CE0CF"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "528463"
+		}
+		"davetest"
+		{
+			"buildid" "537039"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000"
+	"maxnumfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinSavedGames"
+			"path" "Confused Pelican Games/"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
