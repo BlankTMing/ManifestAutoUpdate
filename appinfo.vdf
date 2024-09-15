@@ -1,0 +1,357 @@
+"appid" "724470"
+"common"
+{
+	"name" "Lazy Galaxy"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "a1136de72086bfbf80e5f726eed1d1a519d684b0"
+	"logo_small" "a1136de72086bfbf80e5f726eed1d1a519d684b0_thumb"
+	"icon" "80b774db725a6f717db367f7de742add37d05310"
+	"clienticon" "c35b3f13fccad578af0788f09eba951d85f110c6"
+	"clienttga" "4e713b0d1c33b25dbe73cb361edab2ee14dfa592"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"languages"
+	{
+		"english" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1645228800"
+		"tested_build_id" "3051607"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Lazy Galaxy"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1572432104"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Coldwild Games"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Vladimir Slav"
+		}
+		"2"
+		{
+			"type" "developer"
+			"name" "Elena Nazarenko"
+		}
+		"3"
+		{
+			"type" "publisher"
+			"name" "Coldwild Games"
+		}
+		"4"
+		{
+			"type" "franchise"
+			"name" "Lazy Galaxy"
+		}
+		"5"
+		{
+			"type" "franchise"
+			"name" "Coldwild Games"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_30" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1521702000"
+	"steam_release_date" "1521735257"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "724470"
+	"store_tags"
+	{
+		"0" "615955"
+		"1" "492"
+		"2" "9"
+		"3" "379975"
+		"4" "597"
+		"5" "1755"
+		"6" "3964"
+		"7" "4182"
+		"8" "3871"
+		"9" "1676"
+		"10" "3813"
+		"11" "3942"
+		"12" "493"
+		"13" "1719"
+		"14" "1756"
+		"15" "5794"
+		"16" "4328"
+	}
+	"review_score" "6"
+	"review_percentage" "79"
+}
+"extended"
+{
+	"developer" "Coldwild Games"
+	"publisher" "Coldwild Games"
+	"homepage" "https://www.facebook.com/ColdwildGames/"
+}
+"config"
+{
+	"installdir" "LazyGalaxy"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Lazy_Galaxy_Windows.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "LazyGalaxy.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "x86/LazyGalaxy.x86"
+			"workingdir" "x86"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "x64/LazyGalaxy.x86_64"
+			"workingdir" "x64"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"724471"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3301633854263845838"
+				"size" "132290407"
+				"download" "41518416"
+			}
+		}
+	}
+	"724472"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3313268039842791162"
+				"size" "147263106"
+				"download" "45682096"
+			}
+		}
+	}
+	"724473"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6068209916577317519"
+				"size" "290650166"
+				"download" "58450112"
+			}
+		}
+	}
+	"workshopdepot" "724470"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3051607"
+			"timeupdated" "1534866869"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "200"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "ColdwildGames/LazyGalaxy"
+			"pattern" "*.sav"
+		}
+		"2"
+		{
+			"root" "LinuxXdgDataHome"
+			"path" "unity3d/ColdwildGames/LazyGalaxy"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+		"3"
+		{
+			"root" "LinuxXdgConfigHome"
+			"path" "unity3d/ColdwildGames/LazyGalaxy"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "ColdwildGames/LazyGalaxy"
+					"replace" "ColdwildGames/LazyGalaxy"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxXdgDataHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "ColdwildGames/LazyGalaxy"
+					"replace" "unity3d/ColdwildGames/LazyGalaxy"
+				}
+			}
+		}
+	}
+}
