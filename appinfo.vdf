@@ -1,0 +1,246 @@
+"appid" "1125480"
+"common"
+{
+	"name" "初恋日记"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"logo" "3d65158c5ba859a78109190c1671584ee04eff5f"
+	"logo_small" "3d65158c5ba859a78109190c1671584ee04eff5f_thumb"
+	"icon" "05835314c3e611e951faecccd50a066467ba7d72"
+	"clienttga" "3bf760556a5395a95cc57332733520c4c9b39f11"
+	"clienticon" "59f0a3a61b7c2ae897e2bdf7ee235b569ae9df51"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+	}
+	"releasestate" "released"
+	"name_localized"
+	{
+		"english" "School Years"
+	}
+	"metacritic_name" "初恋日记"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "36.416382252559714"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1644652379"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "YEARS"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "电钮组"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "电钮组"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "3"
+		"3" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_30" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1570258800"
+	"steam_release_date" "1570255272"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "1125480"
+	"store_tags"
+	{
+		"0" "3799"
+		"1" "492"
+		"2" "1742"
+		"3" "12095"
+		"4" "6650"
+		"5" "599"
+		"6" "4085"
+		"7" "122"
+		"8" "5984"
+		"9" "1721"
+		"10" "5613"
+		"11" "4947"
+		"12" "1664"
+		"13" "4182"
+		"14" "1667"
+		"15" "3871"
+		"16" "597"
+		"17" "4434"
+		"18" "51306"
+		"19" "1663"
+	}
+	"review_score" "8"
+	"review_percentage" "83"
+}
+"extended"
+{
+	"developer" "YEARS"
+	"publisher" "电钮组"
+	"listofdlc" "1288150,1900770"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "LoveDiary"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "Diary.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,schinese"
+	"hasdepotsindlc" "1"
+	"1125481"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1726754241013966525"
+				"size" "9343196173"
+				"download" "5712622688"
+			}
+			"test"
+			{
+				"gid" "1001490154481935580"
+				"size" "9343207483"
+				"download" "5712620416"
+			}
+		}
+	}
+	"workshopdepot" "1125480"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8786781"
+			"timeupdated" "1653201731"
+		}
+		"test"
+		{
+			"buildid" "8187016"
+			"description" "test branch"
+			"timeupdated" "1644587145"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "30000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "YEARS/School Years/Save/"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "YEARS/School Years/Save/"
+					"replace" "unity.YEARS.School Years/Save/"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "YEARS/School Years/Save/"
+					"replace" ".config/unity3d/YEARS/School Years/Save/"
+				}
+			}
+		}
+	}
+	"appidredirect" "1125480"
+}
