@@ -1,0 +1,328 @@
+"appid" "503150"
+"common"
+{
+	"name" "Frantic Freighter"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "e8a994afd2944b5d46783c8c719d0c010b173386"
+	"logo_small" "e8a994afd2944b5d46783c8c719d0c010b173386_thumb"
+	"icon" "1a7fa34bb20c590590fdb1099d6315a88ed92ce0"
+	"clienticon" "e7814db3185a520d70a47743719a2ef5a2e907d2"
+	"clienttga" "53b702d70b6e27edaa635aa0797a86a7d1313fb2"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "1"
+		}
+	}
+	"releasestate" "released"
+	"openvrsupport" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1698364800"
+		"tested_build_id" "1821088"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Frantic Freighter"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1469636751"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Phr00t\'s Software"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Phr00t\'s Software"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1472489793"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "503150"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "597"
+		"2" "599"
+		"3" "21978"
+		"4" "1755"
+		"5" "1759"
+		"6" "3839"
+		"7" "3942"
+		"8" "4202"
+		"9" "4295"
+		"10" "4161"
+		"11" "16598"
+	}
+	"review_score" "7"
+	"review_percentage" "84"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Phr00t\'s Software"
+	"publisher" "Phr00t\'s Software"
+	"homepage" "http://www.phr00t.com/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Frantic Freighter"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ff.exe"
+			"arguments" "-show-screen-selector -vrmode none"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "ff.app"
+			"arguments" "-show-screen-selector"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "ff.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "ff.x86"
+			"arguments" "-show-screen-selector"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"4"
+		{
+			"executable" "ff.x86_64"
+			"arguments" "-show-screen-selector"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"5"
+		{
+			"executable" "ff.exe"
+			"arguments" "-vrmode none osvr"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "OSVR Mode"
+			}
+			"description" "OSVR Mode"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"503151"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3973468341107584249"
+				"size" "281567663"
+				"download" "86980976"
+			}
+			"beta"
+			{
+				"gid" "3973468341107584249"
+				"size" "281567663"
+				"download" "86980976"
+			}
+		}
+	}
+	"503152"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "400879903037882684"
+				"size" "274810839"
+				"download" "85167168"
+			}
+			"beta"
+			{
+				"gid" "400879903037882684"
+				"size" "274810839"
+				"download" "85167168"
+			}
+		}
+	}
+	"503153"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6974526823927171702"
+				"size" "303964078"
+				"download" "93734976"
+			}
+			"beta"
+			{
+				"gid" "6974526823927171702"
+				"size" "303964078"
+				"download" "93734976"
+			}
+		}
+	}
+	"503154"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6959469110277834665"
+				"size" "292218833"
+				"download" "89526784"
+			}
+			"beta"
+			{
+				"gid" "6959469110277834665"
+				"size" "292218833"
+				"download" "89526784"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1821088"
+			"timeupdated" "1494794427"
+		}
+		"beta"
+		{
+			"buildid" "1821088"
+			"timeupdated" "1494775901"
+		}
+	}
+}
