@@ -1,0 +1,204 @@
+"appid" "581740"
+"common"
+{
+	"name" "HUNGER"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"icon" "5502e25ca03a316105e141b9efadaebeceb231dc"
+	"logo" "604c965b6cbf78c80605c339fc3532ca820144cb"
+	"logo_small" "604c965b6cbf78c80605c339fc3532ca820144cb_thumb"
+	"clienttga" "9fe78fbdf3b6c96f5c738622d8eb34343a159ac1"
+	"clienticon" "48c0b80d0d9cdadcb05ab95c63ecabe8a9e759db"
+	"linuxclienticon" "3eecb0198504a87aa292a123723a02e81b3ad139"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "581740_eula_0"
+			"name" "HUNGER EULA"
+			"url" "http://store.steampowered.com//eula/581740_eula_0"
+		}
+	}
+	"market_presence" "1"
+	"metacritic_name" "HUNGER"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1545491764"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Black Smerch"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Black Smerch"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "2"
+		"3" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_25" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_30" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1498084431"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "581740"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "9"
+		"2" "492"
+		"3" "493"
+		"4" "3871"
+	}
+	"review_score" "3"
+	"review_percentage" "13"
+}
+"extended"
+{
+	"gamedir" "HUNGER"
+	"developer" "Black Smerch"
+	"publisher" "Black Smerch"
+}
+"config"
+{
+	"installdir" "HUNGER"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "hungergame.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"581741"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8192195710708901727"
+				"size" "145134153"
+				"download" "125429056"
+			}
+		}
+	}
+	"workshopdepot" "581740"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5248566"
+			"timeupdated" "1593791157"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "100"
+	"appidredirect" "581740"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "SavesDir"
+			"pattern" "*.sav"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "*"
+			"pattern" "SaveItem.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "WinAppDataLocal"
+			"path" "*"
+			"pattern" "levelcomplete.ini"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"3"
+		{
+			"root" "WinAppDataLocal"
+			"path" "SavesDir"
+			"pattern" "Settings.ini"
+			"recursive" "1"
+		}
+	}
+}
