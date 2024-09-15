@@ -1,0 +1,263 @@
+"appid" "335450"
+"common"
+{
+	"name" "Curse of the Assassin"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "2c048156e778aa26916d363aa8915593df08a02e"
+	"logo_small" "2c048156e778aa26916d363aa8915593df08a02e_thumb"
+	"clienticon" "f3c0211cc36bf5b73b0aa732129395f3fefac82e"
+	"clienttga" "c2aa5d273e92efd000ec08edd94d193184e6d2af"
+	"icon" "eec1c93356138cce9433fb2ffa9841d387b680a4"
+	"clienticns" "bd822e56e3e7d95a09dc45183f3cbba8e6bda3be"
+	"linuxclienticon" "7323a55b64c85013abda26ff266c8ec5831fae56"
+	"releasestate" "released"
+	"metacritic_name" "Curse of the Assassin"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+	}
+	"store_asset_mtime" "1716124426"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Tin Man Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Tin Man Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Gamebook Adventures"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1431483921"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "335450"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "122"
+		"2" "492"
+		"3" "4486"
+	}
+	"review_score" "7"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "Tin Man Games"
+	"publisher" "Tin Man Games"
+	"homepage" "https://tinmangames.com.au/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Curse of the Assassin"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Gamebook Adventures Curse of the Assassin.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Gamebook Adventures Curse of the Assassin.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "Gamebook Adventures Curse of the Assassin.x86"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "Gamebook Adventures Curse of the Assassin.x86_64"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"335451"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3829033815167873882"
+				"size" "200725156"
+				"download" "73821504"
+			}
+			"beta"
+			{
+				"gid" "3829033815167873882"
+				"size" "200725156"
+				"download" "73821504"
+			}
+		}
+	}
+	"335452"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "475391958296515641"
+				"size" "180218520"
+				"download" "62658560"
+			}
+			"beta"
+			{
+				"gid" "475391958296515641"
+				"size" "180218520"
+				"download" "62658560"
+			}
+		}
+	}
+	"335453"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4330509803742700134"
+				"size" "170355588"
+				"download" "60056800"
+			}
+			"beta"
+			{
+				"gid" "4330509803742700134"
+				"size" "170355588"
+				"download" "60056800"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "792052"
+		}
+		"beta"
+		{
+			"buildid" "792052"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "500000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Documents"
+			"pattern" "sav*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "Documents"
+			"pattern" "sav*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "Gamebook Adventures Curse of the Assassin.app/Documents"
+			"pattern" "sav*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+}
