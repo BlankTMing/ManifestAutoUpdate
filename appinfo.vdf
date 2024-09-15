@@ -1,0 +1,223 @@
+"appid" "438660"
+"common"
+{
+	"name" "Jerry Rice & Nitus\' Dog Football"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"logo" "57218996d2e1bb3da5024057caf6252779b6c476"
+	"logo_small" "57218996d2e1bb3da5024057caf6252779b6c476_thumb"
+	"icon" "aaacb27e5f5e270ae611b85ea4a8b4bcbd177c74"
+	"clienticon" "fbe03007905c22b7395baa8130f00d08257f79f4"
+	"clienttga" "f633940c18d9613928781a836bcbdb354b3ddc0d"
+	"metacritic_name" "Jerry Rice &amp;amp; Nitus\' Dog Football"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "9.145777038215343"
+			"height_pct" "16.698202459791872"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "9.145777038215343"
+				"height_pct" "16.698202459791872"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1642039370"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "JUDOBABY INC."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "JUDOBABY INC."
+		}
+	}
+	"primary_genre" "18"
+	"genres"
+	{
+		"0" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"original_release_date" "1313478000"
+	"steam_release_date" "1455212135"
+	"community_hub_visible" "1"
+	"gameid" "438660"
+	"store_tags"
+	{
+		"0" "701"
+		"1" "10397"
+		"2" "1638"
+		"3" "5350"
+		"4" "1254552"
+	}
+	"review_score" "8"
+	"review_percentage" "81"
+}
+"extended"
+{
+	"developer" "JUDOBABY INC."
+	"publisher" "JUDOBABY INC."
+	"homepage" "http://www.PetSportsLeague.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Jerry Rice Nitus Dog Football"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bin\\Dog Football.exe"
+			"workingdir" "bin"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptsignature" "254bb0949a546c72789cad73bddb6edabfb3e4f58eeb956ab73f224f5dcc66acd24d2115bd44b47911a4bd5917ab147987a73c493f84e026d18377fe0ea00db6af0d5b2394e07e6509fe6a5a94298ae28e5ce5689a2756d79d5355bbb9c62bbad7144dca7887e158d6320c90eb71e411b189af12c1eac726074eef9790983b84"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_current_user\\software\\judobaby\\jerry rice & nitus\' dog football"
+		{
+			"dword"
+			{
+				"fullscreen" "1"
+			}
+		}
+		"hkey_local_machine\\software\\judobaby\\jerry rice & nitus\' dog football"
+		{
+			"string"
+			{
+				"installpath" "%INSTALLDIR%"
+			}
+		}
+	}
+	"firewall"
+	{
+		"jerry rice nitus dog football" "%INSTALLDIR%\\bin\\Dog Football.exe"
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"438661"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5688392597522227716"
+				"size" "679372886"
+				"download" "362932272"
+			}
+		}
+	}
+	"438662"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "426859182494035529"
+				"size" "6678831"
+				"download" "2317136"
+			}
+		}
+	}
+	"baselanguages" "english"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "948213"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "40"
+}
