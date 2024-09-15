@@ -1,0 +1,244 @@
+"appid" "545670"
+"common"
+{
+	"name" "Parallyzed"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "873f3b41d8ad9072d1400ae194b4d29f95db9e4c"
+	"logo_small" "873f3b41d8ad9072d1400ae194b4d29f95db9e4c_thumb"
+	"icon" "fa680439fc8185a8f1d6cc3b424d1cc508edbfdb"
+	"clienttga" "83150f406836850412409ed60824f593572ab877"
+	"linuxclienticon" "c62d67d49476de5d345410ad6e2b144c2113c058"
+	"clienticon" "88551b59c0ce1e9f74086f0988270d52ffa35b16"
+	"clienticns" "a8ba2be05719b3435afe6bf611d68fa098917fbf"
+	"metacritic_name" "Parallyzed"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1493295566"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Koreez"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Double Coconut"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "WhisperGames"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"arabic"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1492627429"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "545670"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "492"
+		"2" "21"
+		"3" "4342"
+		"4" "5537"
+		"5" "8666"
+		"6" "1625"
+	}
+	"review_score" "8"
+	"review_percentage" "82"
+}
+"extended"
+{
+	"developer" "Koreez"
+	"publisher" "Double Coconut"
+	"homepage" "http://doublecoconut.com/parallyzed"
+}
+"config"
+{
+	"installdir" "Parallyzed"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Parallyzed.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "parallyzed.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"545671"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6698353046611367650"
+				"size" "290731308"
+				"download" "63368336"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "EBC1758894BED75ED63654B57076B2C9"
+				"size" "6CBEFA0E715E56792B8D65637C57F5A5"
+				"download" "8B73E558F5214EF623963ED5F8F62597"
+			}
+		}
+	}
+	"545672"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4134614850772369552"
+				"size" "302637874"
+				"download" "66507088"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "0FA310925760B7ED2386FFF9D06659F4"
+				"size" "4CC21BDDC7E8E28D5A76CAC7035F3E25"
+				"download" "B4BF9E1DF5B1317AE57DCA9F00F52252"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1911588"
+			"timeupdated" "1502179885"
+		}
+		"test"
+		{
+			"buildid" "1911588"
+			"pwdrequired" "1"
+			"timeupdated" "1498208000"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "0"
+	"maxnumfiles" "0"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "SavesDir"
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" ""
+		}
+	}
+}
