@@ -20,6 +20,55 @@
 		"english" "1"
 		"russian" "1"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1720137600"
+		"tested_build_id" "14612903"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-2RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -40,12 +89,12 @@
 		"library_header" "en"
 		"logo_position"
 		{
-			"pinned_position" "CenterCenter"
-			"width_pct" "48.670819193847564"
-			"height_pct" "100"
+			"pinned_position" "BottomLeft"
+			"width_pct" "50.95981610227502"
+			"height_pct" "68.70209306314156"
 		}
 	}
-	"store_asset_mtime" "1717407586"
+	"store_asset_mtime" "1718543503"
 	"associations"
 	{
 		"0"
@@ -59,7 +108,7 @@
 			"name" "Creepy Brothers"
 		}
 	}
-	"primary_genre" "23"
+	"primary_genre" "25"
 	"genres"
 	{
 		"0" "25"
@@ -151,28 +200,28 @@
 	"store_tags"
 	{
 		"0" "21"
-		"1" "19"
-		"2" "1698"
+		"1" "4166"
+		"2" "4342"
 		"3" "1664"
-		"4" "4106"
-		"5" "3798"
-		"6" "5537"
-		"7" "3871"
-		"8" "4195"
-		"9" "6815"
-		"10" "4166"
-		"11" "4342"
-		"12" "3854"
-		"13" "1721"
-		"14" "5716"
-		"15" "492"
-		"16" "4182"
-		"17" "769306"
-		"18" "1684"
-		"19" "9"
+		"4" "492"
+		"5" "3871"
+		"6" "4106"
+		"7" "5716"
+		"8" "3798"
+		"9" "5094"
+		"10" "4195"
+		"11" "6815"
+		"12" "4726"
+		"13" "3854"
+		"14" "1698"
+		"15" "769306"
+		"16" "7250"
+		"17" "3834"
+		"18" "4182"
+		"19" "19"
 	}
 	"review_score" "8"
-	"review_percentage" "95"
+	"review_percentage" "94"
 }
 "extended"
 {
@@ -204,9 +253,9 @@
 		{
 			"public"
 			{
-				"gid" "5469661352206739407"
-				"size" "3045706491"
-				"download" "331886688"
+				"gid" "4199415668022241591"
+				"size" "3055169023"
+				"download" "332249424"
 			}
 		}
 	}
@@ -214,8 +263,8 @@
 	{
 		"public"
 		{
-			"buildid" "14612903"
-			"timeupdated" "1717593786"
+			"buildid" "14934761"
+			"timeupdated" "1720117463"
 		}
 	}
 }
@@ -224,7 +273,3 @@
 	"quota" "1000000"
 	"maxnumfiles" "100"
 }
-"_missing_token" "False"
-"_change_number" "23839010"
-"_sha" "73fe10c2dc4a0d3a62aca61135216e157abe9393"
-"_size" "3704"
