@@ -1,0 +1,240 @@
+"appid" "373290"
+"common"
+{
+	"name" "Stones of Sorrow"
+	"type" "Game"
+	"clienticon" "537afaf0c3c42777b2f12f86921b6df699653072"
+	"clienttga" "1998aabe74b9ab054d4db09ad2c05241343c2691"
+	"icon" "8190a28ec314fd7302aa4e8e390f127cc101927e"
+	"logo" "7c440cb5564824d4d5d44f16ef10c0323bafaff8"
+	"logo_small" "7c440cb5564824d4d5d44f16ef10c0323bafaff8_thumb"
+	"oslist" "windows,macos,linux"
+	"linuxclienticon" "094335730f220bd028e5b10b60a8a524cec75444"
+	"clienticns" "09993eab23d332d87b213a62aa0b6420f89d20cf"
+	"releasestate" "released"
+	"metacritic_name" "Stones of Sorrow"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1668504756"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Cult Software"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Cult Software"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_24" "1"
+		"category_29" "1"
+		"category_25" "1"
+		"category_1" "1"
+		"category_44" "1"
+		"category_9" "1"
+		"category_39" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1432656011"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "373290"
+	"store_tags"
+	{
+		"0" "42804"
+		"1" "4840"
+		"2" "5228"
+		"3" "1720"
+		"4" "3959"
+		"5" "3841"
+		"6" "5125"
+		"7" "1667"
+		"8" "4345"
+		"9" "4342"
+		"10" "4166"
+		"11" "4026"
+		"12" "122"
+		"13" "19"
+		"14" "4711"
+		"15" "1716"
+		"16" "1662"
+		"17" "4667"
+		"18" "7481"
+		"19" "3871"
+	}
+	"review_score" "5"
+	"review_percentage" "55"
+}
+"extended"
+{
+	"developer" "Cult Software"
+	"publisher" "Cult Software"
+	"listofdlc" "374160"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Stones of Sorrow"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "StonesofSorrow.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "StonesofSorrow.x86"
+			"description" "Launch 32-bit"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"2"
+		{
+			"executable" "StonesofSorrow.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "StonesofSorrow.x86_64"
+			"description" "Launch 64-bit"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"373291"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4520460287499353300"
+				"size" "641157184"
+				"download" "210999008"
+			}
+		}
+	}
+	"373292"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5946906546560224635"
+				"size" "669956269"
+				"download" "219455600"
+			}
+		}
+	}
+	"373293"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8617385634680962677"
+				"size" "763352660"
+				"download" "211455360"
+			}
+		}
+	}
+	"374160"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3199332192910254459"
+				"size" "80376915"
+				"download" "70115344"
+			}
+		}
+		"dlcappid" "374160"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1212443"
+			"timeupdated" "1467713232"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "25000"
+	"maxnumfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" " \'.\'"
+			"pattern" "savegame.dat"
+		}
+	}
+}
