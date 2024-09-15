@@ -1,0 +1,250 @@
+"appid" "398480"
+"common"
+{
+	"name" "Louie Cooks"
+	"type" "Game"
+	"oslist" "windows,linux"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+	}
+	"logo" "300ae5e12bd97ff66403b2e77cb9305ef4310a06"
+	"logo_small" "300ae5e12bd97ff66403b2e77cb9305ef4310a06_thumb"
+	"clienttga" "36f260eb00809b0228d2118f992df01612a9f7e5"
+	"icon" "dbd3ff8a2e2e3b5b1f6f8154493dbfdb79099a5b"
+	"clienticon" "175f8dbcb58bda56cb9bec30fd87531ecbbb7605"
+	"linuxclienticon" "ca62a07e0b7ced5fe88be85bf4aa6f2ab0bdb7dc"
+	"releasestate" "released"
+	"othervrsupport" "1"
+	"metacritic_name" "Louie Cooks"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1572386260"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "starlit studios"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "http://starlit-studio.com/"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "starlit studios"
+		}
+		"3"
+		{
+			"type" "publisher"
+			"name" "http://starlit-studio.com/"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_31" "1"
+		"category_28" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1447176065"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "398480"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "597"
+	}
+	"review_score" "5"
+	"review_percentage" "62"
+}
+"extended"
+{
+	"developer" "starlit studios"
+	"publisher" "starlit studios"
+	"homepage" "http://louiecooks.com/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Louie Cooks"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "LouieCooks.exe"
+			"description" "Default"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "LouieCooks.x86"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "LouieCooks.exe"
+			"arguments" "-vrmode oculus"
+			"description" "VR-Mode"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"vrsupport" "other"
+}
+"depots"
+{
+	"baselanguages" "english,german"
+	"398481"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8068152012538084547"
+				"size" "169425827"
+				"download" "54276080"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"betatest"
+			{
+				"gid" "222D4B890F7FCD153C035A8C2034C8E6"
+				"size" "B6AD800004231FA6D47870232E014A52"
+				"download" "ACF8173389224C874A73EE5DEA8529AD"
+			}
+		}
+	}
+	"398482"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7379890441266856332"
+				"size" "166995834"
+				"download" "55792096"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"betatest"
+			{
+				"gid" "1AFCC4FFA27D3DD86A11409D443C8EE9"
+				"size" "19199CF24CDB3B0953FE9A6152CD47E8"
+				"download" "7E3C051E6E3CE847A7B7A3A1FE3FEE46"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "865694"
+		}
+		"betatest"
+		{
+			"buildid" "1048387"
+			"pwdrequired" "1"
+			"timeupdated" "1459339618"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "25000"
+	"maxnumfiles" "2"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "starlit\\Louie Cooks"
+			"pattern" "*.ml"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "LinuxHome"
+			"path" "/.config/unity3d/starlit/Louie Cooks"
+			"pattern" "*.ml"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
