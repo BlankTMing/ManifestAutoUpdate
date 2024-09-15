@@ -1,0 +1,200 @@
+"appid" "356880"
+"common"
+{
+	"name" "Eron"
+	"type" "Game"
+	"oslist" "windows,linux"
+	"linuxclienticon" "21e1c5ad49f2ba736868d0de90ee794eb2893026"
+	"eulas"
+	{
+	}
+	"clienticon" "2d28c794a6083f2c0cb839894a85b2e79a72eabd"
+	"clienttga" "d99c51c3cd559ddbb919dc01e7518d4031f1cdd1"
+	"icon" "8a595fc06c07cae94aad9166b0bf9bb4ad98892d"
+	"logo" "a4fcd5c980689e34ac20abb75f4e54ecbeff1220"
+	"logo_small" "a4fcd5c980689e34ac20abb75f4e54ecbeff1220_thumb"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1651795200"
+		"tested_build_id" "648662"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Eron"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1426453805"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "David Mulder"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SA Industry"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "SA Industry"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1426575600"
+	"steam_release_date" "1426607461"
+	"community_hub_visible" "1"
+	"gameid" "356880"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "1625"
+		"2" "3964"
+		"3" "3871"
+	}
+	"review_score" "5"
+	"review_percentage" "60"
+}
+"extended"
+{
+	"gamedir" ""
+	"developer" "David Mulder"
+	"publisher" "SA Industry"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Eron"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "eron.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "eron.x86"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"356881"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "500141860976461881"
+				"size" "100412057"
+				"download" "14942336"
+			}
+		}
+	}
+	"356882"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7053886175267239829"
+				"size" "107543409"
+				"download" "16967312"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "648662"
+		}
+	}
+}
