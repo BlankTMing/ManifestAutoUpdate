@@ -1,0 +1,584 @@
+"appid" "296710"
+"common"
+{
+	"name" "Monstrum "
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"clienttga" "0d8fd5878029e1e21fa830706d918b6925754edc"
+	"clienticon" "bffa1bdae0b07c4f703758f29a368a3bbcc5c9de"
+	"icon" "76b297603afd400703606320c97faa90b0c2d03f"
+	"logo" "43c616cbe0ae3ee702446bd98c4486a8b6b54b74"
+	"logo_small" "43c616cbe0ae3ee702446bd98c4486a8b6b54b74_thumb"
+	"clienticns" "48d5b6fc3032cadae6f6de643f5c245e0291147a"
+	"linuxclienticon" "4fbf292c191da7569941559da0c403d9ac1f0eab"
+	"controllervr"
+	{
+		"xinput" "1"
+		"kbm" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+	}
+	"osarch" ""
+	"osextended" "macos64"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1650931200"
+		"tested_build_id" "1822431"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"metacritic_name" "Monstrum"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1667201679"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Team Junkfish"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Junkfish Limited"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_31" "1"
+		"category_43" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1432143919"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "296710"
+	"store_tags"
+	{
+		"0" "1667"
+		"1" "42804"
+		"2" "3978"
+		"3" "492"
+		"4" "3839"
+		"5" "1716"
+		"6" "1662"
+		"7" "4182"
+		"8" "4166"
+		"9" "3959"
+		"10" "5125"
+		"11" "1759"
+		"12" "4026"
+		"13" "1687"
+		"14" "21978"
+		"15" "19"
+		"16" "1721"
+		"17" "4342"
+		"18" "9"
+		"19" "4711"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "Team Junkfish"
+	"publisher" "Junkfish Limited"
+	"homepage" "http://teamjunkfish.com/games/monstrum"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Monstrum"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Monstrum.exe"
+			"arguments" "-force-d3d9"
+			"description" "Play Monstrum (DirectX 9)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Monstrum.x86_64"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "Monstrum.x86"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "Monstrum.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"4"
+		{
+			"executable" "Monstrum.exe"
+			"description" "Play Monstrum (DirectX 11)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"5"
+		{
+			"executable" "Monstrum.exe"
+			"arguments" "-oculus"
+			"description" "Monstrum"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"6"
+		{
+			"executable" "Monstrum10thGen.exe"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Play Monstrum with Intel 10th gen CPU or newer"
+			}
+			"description" "Play Monstrum with Intel 10th gen CPU or newer"
+		}
+	}
+	"vrsupport" "other"
+}
+"depots"
+{
+	"296711"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "237939772853277760"
+				"size" "2467675618"
+				"download" "1532500496"
+			}
+			"public_beta"
+			{
+				"gid" "184516213096285586"
+				"size" "2356171686"
+				"download" "1525878304"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "D838DE3F3C8049882933374906BDC86F"
+				"size" "123128744703D59E1CAAB8FF69BD4704"
+				"download" "E7C5E07C57F61D30BC73AD4F1D741205"
+			}
+			"linuxtest"
+			{
+				"gid" "325D0FA35B9799BA86099ECE309543AB"
+				"size" "039FD7338E740C41586112024CA9137A"
+				"download" "D6C5507914F4BBAB4C927371DE8F6E31"
+			}
+		}
+	}
+	"296713"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3189670606552251610"
+				"size" "40989163"
+				"download" "12822048"
+			}
+			"public_beta"
+			{
+				"gid" "3293953202267539989"
+				"size" "26564711"
+				"download" "8744304"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "64762E2392AEBF8B878CDDA83B2F0304"
+				"size" "6B5862B0EE3D67687DCC1318A0E5A559"
+				"download" "6913933A37B06BDB05C7992BADF1C2A9"
+			}
+			"linuxtest"
+			{
+				"gid" "FD9F7E6956961E265FF3CBA906446639"
+				"size" "0AB7B7775D345A1D5BD396C0CE183DFB"
+				"download" "A550CD5984A948A15726FD49BF6BC0C2"
+			}
+		}
+	}
+	"296712"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5049492059290989358"
+				"size" "2475859761"
+				"download" "1530622000"
+			}
+			"public_beta"
+			{
+				"gid" "7776688779729195066"
+				"size" "2348319459"
+				"download" "1464423136"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "37AB1724C35ADFD9ACF3861ADBFAEF26"
+				"size" "FDE26391890A71550CEDD5498B81BFC0"
+				"download" "FC9C38EBDB04DDE8398192E4753AAAD6"
+			}
+			"linuxtest"
+			{
+				"gid" "D6F988B368E2ACFAC139F7CCF5587185"
+				"size" "05903EBED0C4D66B2286E4015916FBB5"
+				"download" "14721E5416E84D5EBF1D87BC7A91CD2A"
+			}
+		}
+	}
+	"296714"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "32388390624231925"
+				"size" "31817313"
+				"download" "9934240"
+			}
+			"public_beta"
+			{
+				"gid" "640767155903582915"
+				"size" "20892744"
+				"download" "6707632"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "23E59ECDCD64B169450D24B08FEF3AEE"
+				"size" "FED81D03F59850FF30B2784085DE88F1"
+				"download" "DE45132C17AF70D5B4D58F165B07B69A"
+			}
+			"linuxtest"
+			{
+				"gid" "68DDCFA2D0503094413F565E72AAF88A"
+				"size" "2FDE34442183209C5187547FB22A2EB0"
+				"download" "8EE4CB5E079A60C74FD30FFE2AA14C3E"
+			}
+		}
+	}
+	"296715"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7814629142274607405"
+				"size" "31207434"
+				"download" "10144496"
+			}
+			"public_beta"
+			{
+				"gid" "91384754837194732"
+				"size" "23931279"
+				"download" "7393376"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "D7E358B52D7662F80BBDA3A13E9FFE6E"
+				"size" "72D4FDA5DB2CD9F9BB8D4CBEC2BFC9BF"
+				"download" "866D7C0E83E2C7F18A94C64381134B1E"
+			}
+			"linuxtest"
+			{
+				"gid" "FCB353D2176F326F088D98551D9A4E9F"
+				"size" "FB80E1F9793DF7F0AD3D97FE98303F71"
+				"download" "F0CD2E74F8C7F2C7E229169E4903E7C5"
+			}
+		}
+	}
+	"296716"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4755688639957170170"
+				"size" "2531110464"
+				"download" "1537659536"
+			}
+			"public_beta"
+			{
+				"gid" "8851074681911668406"
+				"size" "2383286916"
+				"download" "1475483584"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "71D61C76E05EA3DDA3F481B7A854F5C3"
+				"size" "213AF054715A56A5C827C95222A8F306"
+				"download" "250E4B748AA84427EB1249382F6837B7"
+			}
+			"linuxtest"
+			{
+				"gid" "32413CBBF0E17B53AF5CF926265A3592"
+				"size" "2638FE37B0D1549B284B62A0CEE77886"
+				"download" "415529B90642CD7F1C749E18FEC8958F"
+			}
+		}
+	}
+	"296717"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6315378119985087363"
+				"size" "34598891"
+				"download" "11146448"
+			}
+			"public_beta"
+			{
+				"gid" "1122148850556861126"
+				"size" "22501527"
+				"download" "7631856"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "AB0356500F79E17191159F055E2BECBC"
+				"size" "F32678E46A2FCDC2011BB1EF910952C2"
+				"download" "8A930010164BFE619FB743BDBF7B9E27"
+			}
+			"linuxtest"
+			{
+				"gid" "8B1C80BFF5E290E67A685CEB8305468B"
+				"size" "216F5B8AEA94BAE71C97096C54208D71"
+				"download" "27B129031BD2625D5987FA5E464EB030"
+			}
+		}
+	}
+	"385870"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2494510497893558719"
+				"size" "393178864"
+				"download" "394965552"
+			}
+			"public_beta"
+			{
+				"gid" "2494510497893558719"
+				"size" "393178864"
+				"download" "394965552"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "7E7105C8BF00B5CD15E5AE783F37DBFB"
+				"size" "65E4D80E635D079AEAD09406B5201AAA"
+				"download" "D856FA18DE04D25E270F7BF33BBBE61B"
+			}
+			"linuxtest"
+			{
+				"gid" "B1DDC5D7034363D10329D90006521DE3"
+				"size" "EEA02760CE894651FEA718B844E68655"
+				"download" "EB63B36664FFB71004DBE923807A115A"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12235013"
+			"timeupdated" "1695207533"
+		}
+		"developer"
+		{
+			"buildid" "12235013"
+			"pwdrequired" "1"
+			"timeupdated" "1695205635"
+		}
+		"linuxtest"
+		{
+			"buildid" "687875"
+			"pwdrequired" "1"
+		}
+		"public_beta"
+		{
+			"buildid" "804977"
+			"description" "Public beta testing branch."
+		}
+	}
+}
