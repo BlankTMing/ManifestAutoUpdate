@@ -1,0 +1,217 @@
+"appid" "391340"
+"common"
+{
+	"name" "Ferrum\'s Secrets: where is grandpa\?"
+	"type" "Game"
+	"oslist" "windows"
+	"languages"
+	{
+		"english" "1"
+		"polish" "1"
+	}
+	"logo" "34f7a8c7a0e51c4048a4696095d4f88561b4404d"
+	"logo_small" "34f7a8c7a0e51c4048a4696095d4f88561b4404d_thumb"
+	"icon" "bc765e66fb6aa72dca728a8307db7bbc10df0daf"
+	"clienticon" "5066af4e45462a8f4faa87c52fc5a424d34a4d81"
+	"clienttga" "1d0f6c11b7d92776eee15f77f6e1b4e91d7e1f05"
+	"releasestate" "released"
+	"metacritic_name" "Ferrum\'s Secrets: Where Is Grandpa\?"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1572343601"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "EJRGames"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "EJRGames"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_13" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1439582980"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "391340"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "597"
+		"2" "492"
+		"3" "1738"
+	}
+	"review_score" "5"
+	"review_percentage" "41"
+}
+"extended"
+{
+	"developer" "EJRGames"
+	"publisher" "EJRGames"
+	"homepage" "http://ejr.com.pl/page/ferrum.php"
+	"listofdlc" "399870"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "FerrumSecrets"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "FerrumSecrets.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "FerrumLinux.x86"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"2"
+		{
+			"executable" "FerrumLinux.x86_64"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,polish"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"391341"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4539833996748766942"
+				"size" "994688893"
+				"download" "433082128"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "EEE716D2A9BD112DB76B7D10C66A5072"
+				"size" "9BA3F3658775784A7E90155FDD256F23"
+				"download" "313AA17DA42C717E238AD16DF9C16FC6"
+			}
+		}
+	}
+	"391342"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+	}
+	"391343"
+	{
+		"dlcappid" "399870"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7703662880392228818"
+				"size" "26140"
+				"download" "9264"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "174B3109AFDC3CBAD86A1B849DBB4313"
+				"size" "D9E857FC8A80B9A95CE6EAB9D4F897B5"
+				"download" "3FDBC9CD234D672506F7748779A72CC3"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "810682"
+		}
+		"beta"
+		{
+			"buildid" "810682"
+			"pwdrequired" "1"
+		}
+	}
+}
