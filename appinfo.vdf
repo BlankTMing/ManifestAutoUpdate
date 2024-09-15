@@ -6,9 +6,9 @@
 	"releasestate" "released"
 	"logo" "a3bcb9875cfc8072ebb085d5ee0a998bf9173d81"
 	"logo_small" "a3bcb9875cfc8072ebb085d5ee0a998bf9173d81_thumb"
-	"icon" "ac017cef8fdb1de8f71aecfc3be46e5147932742"
-	"clienttga" "894f213e5e7b04ad374dbcffb457e9d188db76c6"
-	"clienticon" "37c6b1f7b8d958449b876fe10d407723d5527036"
+	"icon" "c29ba3768038d20f84c98d50925189a495c66704"
+	"clienttga" "9a1788878e4ea4db61596077f9344c6a37a2f44c"
+	"clienticon" "743d02c30cef7979a8f8c068bdbf11af4169f9ed"
 	"oslist" "windows"
 	"osarch" "64"
 	"osextended" ""
@@ -101,7 +101,53 @@
 			"height_pct" "57.177155741799034"
 		}
 	}
-	"store_asset_mtime" "1693242640"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "48.72432717776919"
+				"height_pct" "57.177155741799034"
+			}
+		}
+	}
+	"store_asset_mtime" "1723543588"
 	"associations"
 	{
 		"0"
@@ -112,12 +158,7 @@
 		"1"
 		{
 			"type" "publisher"
-			"name" "bilibili"
-		}
-		"2"
-		{
-			"type" "franchise"
-			"name" "bilibili"
+			"name" "Wildfire Game（无锡野火数字科技有限公司）"
 		}
 	}
 	"primary_genre" "1"
@@ -134,6 +175,7 @@
 		"category_22" "1"
 		"category_23" "1"
 		"category_29" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -202,7 +244,7 @@
 "extended"
 {
 	"developer" "Wildfire Game（无锡野火数字科技有限公司）"
-	"publisher" "bilibili"
+	"publisher" "Wildfire Game（无锡野火数字科技有限公司）"
 	"homepage" "https://game.bilibili.com/zhanyaoxing/#p1"
 	"listofdlc" "1764630"
 	"dlcavailableonstore" "1"
@@ -240,56 +282,6 @@
 {
 	"baselanguages" "english,schinese"
 	"hasdepotsindlc" "1"
-	"branches"
-	{
-		"steam_china_only"
-		{
-			"sc_schinese" "仅中国"
-			"buildid" "8797814"
-			"pwdrequired" "1"
-			"timeupdated" "1653381733"
-		}
-		"steam_china_dev"
-		{
-			"sc_schinese" "蒸汽平台测试"
-			"buildid" "8797814"
-			"pwdrequired" "1"
-			"timeupdated" "1653381723"
-		}
-		"sc_dev"
-		{
-			"sc_schinese" "蒸汽平台开发者分支"
-		}
-		"public"
-		{
-			"buildid" "13060244"
-			"timeupdated" "1704178546"
-		}
-		"bilibili"
-		{
-			"buildid" "13060244"
-			"pwdrequired" "1"
-			"timeupdated" "1703819897"
-		}
-		"demo"
-		{
-			"buildid" "5026143"
-			"pwdrequired" "1"
-			"timeupdated" "1589450727"
-		}
-		"russian"
-		{
-			"buildid" "9451098"
-			"pwdrequired" "1"
-			"timeupdated" "1662363584"
-		}
-		"turkish"
-		{
-			"buildid" "8603700"
-			"pwdrequired" "1"
-			"timeupdated" "1650616455"
-		}
-	}
 	"1120811"
 	{
 		"config"
@@ -300,19 +292,13 @@
 		{
 			"public"
 			{
-				"gid" "7262311497230907109"
-				"size" "7229373457"
-				"download" "4312301696"
+				"gid" "1066702762847366501"
+				"size" "7379344135"
+				"download" "4437068256"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"bilibili"
-			{
-				"gid" "854CD14A28E4EDB22EAEB8266E62D8AB"
-				"size" "5A0BE41777184ED119E0E0B8D03C563C"
-				"download" "289967C941049D6D6E0DD891E0CC4A11"
-			}
 			"demo"
 			{
 				"gid" "BC96D66D54081938B2EC36992137892D"
@@ -331,17 +317,17 @@
 				"size" "9163C89B3C06BBB26A174D451D4DFE3E"
 				"download" "B22E2FDFC8C2AEFB2A337BEF30E51375"
 			}
-			"steam_china_only"
-			{
-				"gid" "0EB955C72023DE48466BF8112858A4DE"
-				"size" "7C0C47CDC64D73F0E82AD1ED0A665620"
-				"download" "E51733BB3C14EB3ACBF88B4DF9466FAD"
-			}
 			"turkish"
 			{
 				"gid" "5A2F9819401DB1933A11CD50F2ABD56E"
 				"size" "CFBB0AC70403C7E3F3327072004D5941"
 				"download" "B36AB7AA96AF36E079CC296B729272CA"
+			}
+			"steam_china_only"
+			{
+				"gid" "01E047B82E40014FA1D8B85358430698"
+				"size" "7E0DECF38FE979E6EDB09ECC9AB6C026"
+				"download" "3CD1DA63D22DDB6C29A7C22CE97705D9"
 			}
 		}
 	}
@@ -363,12 +349,6 @@
 		}
 		"encryptedmanifests"
 		{
-			"bilibili"
-			{
-				"gid" "8C00C5E4F5EB11402B4440018AD41DDC"
-				"size" "9933435BEB1E3ED757ACB29E7F34FB96"
-				"download" "00A8327A1520221CEEB71E95E4051FB8"
-			}
 			"russian"
 			{
 				"gid" "F7EDC9C89F3CAF3CE59616AD49975EC3"
@@ -383,10 +363,50 @@
 			}
 			"steam_china_only"
 			{
-				"gid" "9BF3E24895FDBB5FFEA16C96E73CCC6A"
-				"size" "99177EAB15443BC7D31DB225804A56BA"
-				"download" "B932D6657CFBE0269C07F9A7D2998CF8"
+				"gid" "B5134A1F33DE24C0D963CADC7AA8598A"
+				"size" "DA4E39CE712C3992CE68A4D7C02C1663"
+				"download" "FA4E91FF91538DE07FBFAA2FA5ABE870"
 			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15685726"
+			"timeupdated" "1726197511"
+		}
+		"demo"
+		{
+			"buildid" "5026143"
+			"pwdrequired" "1"
+			"timeupdated" "1589450727"
+		}
+		"russian"
+		{
+			"buildid" "9451098"
+			"pwdrequired" "1"
+			"timeupdated" "1662363584"
+		}
+		"steam_china_dev"
+		{
+			"sc_schinese" "蒸汽平台测试"
+			"buildid" "8797814"
+			"pwdrequired" "1"
+			"timeupdated" "1653381723"
+		}
+		"turkish"
+		{
+			"buildid" "8603700"
+			"pwdrequired" "1"
+			"timeupdated" "1650616455"
+		}
+		"steam_china_only"
+		{
+			"sc_schinese" "仅中国"
+			"buildid" "15685726"
+			"pwdrequired" "1"
+			"timeupdated" "1726197527"
 		}
 	}
 }
@@ -409,7 +429,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "21730766"
-"_sha" "9fc7d05b0dbf8e9df6c0a2c5abfbbe8d35245488"
-"_size" "8155"
