@@ -1,0 +1,248 @@
+"appid" "363460"
+"common"
+{
+	"name" "Spermination"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "7f9c64cefad20179c2cd340d31d9f509a0dc0f38"
+	"logo_small" "7f9c64cefad20179c2cd340d31d9f509a0dc0f38_thumb"
+	"icon" "eedb7497592daed28dbabebf836c4043cf20d7d7"
+	"clienticon" "cd9ff65b6daf9e4517be9733716423ec3ca84673"
+	"clienttga" "eca89415c14cacfc609691d4060c6a2c1776ab99"
+	"controllervr"
+	{
+		"kbm" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+	}
+	"osvrsupport" "1"
+	"openvrsupport" "1"
+	"metacritic_name" "Spermination"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1433958067"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Phr00t\'s Software"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Phr00t\'s Software"
+		}
+	}
+	"primary_genre" "9"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "9"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_31" "1"
+		"category_18" "1"
+		"category_29" "1"
+		"category_22" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1430327520"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "363460"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "699"
+		"3" "1719"
+		"4" "599"
+		"5" "10397"
+		"6" "3839"
+		"7" "4182"
+		"8" "12095"
+		"9" "21"
+		"10" "1663"
+		"11" "4166"
+	}
+	"review_score" "8"
+	"review_percentage" "85"
+}
+"extended"
+{
+	"developer" "Phr00t\'s Software"
+	"publisher" "Phr00t\'s Software"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Spermination"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Spermination-novr.bat"
+			"description" "Launch Windows"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "launchme.sh"
+			"description" "Launch Mac"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Spermination.sh"
+			"description" "Launch Linux"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "Spermination.bat"
+			"description" "Launch VR"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "Spermination-osvr.bat"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Launch with OSVR API"
+			}
+			"description" "Launch with OSVR API"
+		}
+	}
+}
+"depots"
+{
+	"363461"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "231726674174750736"
+				"size" "357880035"
+				"download" "117684000"
+			}
+			"beta"
+			{
+				"gid" "231726674174750736"
+				"size" "357880035"
+				"download" "117684000"
+			}
+		}
+	}
+	"363462"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5486472075038147375"
+				"size" "106631194"
+				"download" "51382672"
+			}
+			"beta"
+			{
+				"gid" "5486472075038147375"
+				"size" "106631194"
+				"download" "51382672"
+			}
+		}
+	}
+	"363463"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4983538901884744946"
+				"size" "330022995"
+				"download" "116970816"
+			}
+			"beta"
+			{
+				"gid" "4983538901884744946"
+				"size" "330022995"
+				"download" "116970816"
+			}
+		}
+	}
+	"baselanguages" "english,italian"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9059967"
+			"timeupdated" "1656975581"
+		}
+		"beta"
+		{
+			"buildid" "9059967"
+			"timeupdated" "1656975573"
+		}
+	}
+}
