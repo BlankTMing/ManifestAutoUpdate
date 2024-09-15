@@ -7,9 +7,53 @@
 	"clienttga" "fd2ed0e3ebee05f835ae749a91210fc7d50e7d91"
 	"clienticon" "1d8b31f94364d583df3894925432bb06a8ab9e26"
 	"releasestate" "released"
-	"oslist" "windows"
-	"osarch" ""
-	"osextended" ""
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64,macosapplesilicon"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1725667200"
+		"tested_build_id" "15590226"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-3RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -33,7 +77,56 @@
 			"height_pct" "46.82354745507797"
 		}
 	}
-	"store_asset_mtime" "1714402058"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "44.813087249081484"
+				"height_pct" "46.82354745507797"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1726128911"
 	"associations"
 	{
 		"0"
@@ -64,6 +157,7 @@
 		"category_23" "1"
 		"category_57" "1"
 		"category_58" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -142,17 +236,17 @@
 	{
 		"0" "12472"
 		"1" "3920"
-		"2" "3959"
-		"3" "9"
-		"4" "16689"
-		"5" "599"
-		"6" "1643"
-		"7" "5350"
-		"8" "4182"
+		"2" "9"
+		"3" "16689"
+		"4" "599"
+		"5" "3959"
+		"6" "97376"
+		"7" "1643"
+		"8" "5350"
 		"9" "7481"
-		"10" "4726"
-		"11" "4094"
-		"12" "97376"
+		"10" "4182"
+		"11" "4726"
+		"12" "4094"
 		"13" "7332"
 		"14" "597"
 		"15" "4695"
@@ -162,7 +256,7 @@
 		"19" "19"
 	}
 	"review_score" "8"
-	"review_percentage" "90"
+	"review_percentage" "92"
 }
 "extended"
 {
@@ -183,6 +277,14 @@
 				"oslist" "windows"
 			}
 		}
+		"1"
+		{
+			"executable" "CoffeeCaravan.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
 	}
 }
 "depots"
@@ -190,13 +292,51 @@
 	"baselanguages" "english,german,french,italian,spanish,schinese,japanese,polish,czech,turkish,brazilian"
 	"2649081"
 	{
+		"config"
+		{
+			"oslist" "windows,linux"
+		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "1348617308693625624"
-				"size" "294054540"
-				"download" "121642960"
+				"gid" "5451565349068997102"
+				"size" "294865338"
+				"download" "121844800"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal-test"
+			{
+				"gid" "463FCF5063BDCBB50DA38760B6481BAE"
+				"size" "CC48492091DB499CEB51B7E468EA9BD5"
+				"download" "C32347CAAFBD3CEE631D0F449AE63EF1"
+			}
+		}
+	}
+	"2649082"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5552840026983112558"
+				"size" "388187066"
+				"download" "141865024"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal-test"
+			{
+				"gid" "5FBCE35006F1A69231D713A9E1473FCC"
+				"size" "28436D2EFC4A18EA55D877B9FAF26444"
+				"download" "85775CC0FB46782B7C352B9B2004E763"
 			}
 		}
 	}
@@ -204,8 +344,14 @@
 	{
 		"public"
 		{
-			"buildid" "14535138"
-			"timeupdated" "1716995769"
+			"buildid" "15649487"
+			"timeupdated" "1725973232"
+		}
+		"internal-test"
+		{
+			"buildid" "15649487"
+			"pwdrequired" "1"
+			"timeupdated" "1725962347"
 		}
 	}
 }
@@ -234,7 +380,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "23778052"
-"_sha" "cd21424b173dca03112748e2646f3667b4ea5a1e"
-"_size" "3881"
