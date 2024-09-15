@@ -1,0 +1,192 @@
+"appid" "486230"
+"common"
+{
+	"name" "Con Amore"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "dc2d57c2e90824eecd64df1426feef1f6baf8970"
+	"logo_small" "dc2d57c2e90824eecd64df1426feef1f6baf8970_thumb"
+	"icon" "35203272df66c4f8eecc7cd3ecac41a79fdfce56"
+	"clienticon" "0c09e5a978c08c0b121e390c44bf90d7833d4f43"
+	"clienttga" "2ef73c92bbd6e01fb6586cddd6473366d06a2f35"
+	"linuxclienticon" "d0293ee1675781737dc56442b4f4d6b9722b338e"
+	"metacritic_name" "Con Amore"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1467202107"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Team Taju"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Wronghut"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"finnish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1448697600"
+	"steam_release_date" "1469435085"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "486230"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "597"
+		"2" "599"
+		"3" "3799"
+		"4" "7208"
+	}
+	"review_score" "6"
+	"review_percentage" "71"
+}
+"extended"
+{
+	"developer" "Team Taju"
+	"publisher" "Wronghut"
+	"homepage" "http://conamoregame.blogspot.fi"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Con Amore"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Con Amore.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Con Amore.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "Con Amore.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "6"
+}
+"depots"
+{
+	"486231"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4894100379675029016"
+				"size" "187095898"
+				"download" "120845328"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1230729"
+			"timeupdated" "1468667536"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "500"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "RenPy/Con Amore"
+			"pattern" "*.save"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "RenPy/Con Amore"
+					"replace" "/Library/RenPy/Con Amore"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "RenPy/Con Amore"
+					"replace" ".renpy/Con Amore"
+				}
+			}
+		}
+	}
+}
