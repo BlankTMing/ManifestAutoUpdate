@@ -1,11 +1,13 @@
 "appid" "691450"
 "common"
 {
-	"name" "Misao: Definitive Edition"
+	"name" "Misao - 2024 HD Remaster"
 	"type" "Game"
 	"languages"
 	{
 		"english" "1"
+		"schinese" "1"
+		"tchinese" "1"
 		"japanese" "1"
 	}
 	"clienticon" "d6f2d3c02f2d452335b2429823e605f6a40078b0"
@@ -16,20 +18,28 @@
 	"oslist" "windows"
 	"osarch" ""
 	"releasestate" "released"
-	"metacritic_name" "Misao"
+	"controllertagwizard" "1"
+	"controller_support" "full"
 	"small_capsule"
 	{
+		"japanese" "capsule_231x87_japanese.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+		"tchinese" "capsule_231x87_tchinese.jpg"
 		"english" "capsule_231x87.jpg"
 	}
 	"header_image"
 	{
+		"japanese" "header_japanese.jpg"
+		"schinese" "header_schinese.jpg"
+		"tchinese" "header_tchinese.jpg"
 		"english" "header.jpg"
 	}
 	"library_assets"
 	{
-		"library_capsule" "en"
-		"library_hero" "en"
+		"library_capsule" "en,ja,zh-cn,zh-tw"
+		"library_hero" "en,ja,zh-cn,zh-tw"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -37,7 +47,68 @@
 			"height_pct" "83.05628116836856"
 		}
 	}
-	"store_asset_mtime" "1671165983"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"japanese" "library_600x900_japanese.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+				"tchinese" "library_600x900_tchinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"japanese" "library_600x900_japanese_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+				"tchinese" "library_600x900_tchinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+				"japanese" "library_hero_japanese.jpg"
+				"schinese" "library_hero_schinese.jpg"
+				"tchinese" "library_hero_tchinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+				"japanese" "library_hero_japanese_2x.jpg"
+				"schinese" "library_hero_schinese_2x.jpg"
+				"tchinese" "library_hero_tchinese_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "65.63593932322054"
+				"height_pct" "83.05628116836856"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1722401283"
 	"associations"
 	{
 		"0"
@@ -61,7 +132,7 @@
 			"name" "PLAYISM"
 		}
 	}
-	"primary_genre" "23"
+	"primary_genre" "25"
 	"genres"
 	{
 		"0" "25"
@@ -74,6 +145,7 @@
 		"category_22" "1"
 		"category_29" "1"
 		"category_23" "1"
+		"category_28" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -84,6 +156,16 @@
 			"subtitles" "true"
 		}
 		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
 		{
 			"supported" "true"
 			"subtitles" "true"
@@ -99,8 +181,8 @@
 		"1" "492"
 		"2" "5577"
 		"3" "4085"
-		"4" "21"
-		"5" "3964"
+		"4" "3964"
+		"5" "21"
 		"6" "1721"
 		"7" "3871"
 		"8" "597"
@@ -117,12 +199,13 @@
 		"19" "3834"
 	}
 	"review_score" "9"
-	"review_percentage" "96"
+	"review_percentage" "95"
 }
 "extended"
 {
 	"developer" "sen"
 	"publisher" "PLAYISM"
+	"homepage" "https://playism.com/game/misao-2024/"
 }
 "config"
 {
@@ -131,14 +214,54 @@
 	{
 		"0"
 		{
-			"executable" "Game.exe"
-			"type" "default"
+			"executable" "Misao - 2024 HD Remaster/GamePro.exe"
 			"config"
 			{
 				"oslist" "windows"
 			}
+			"description_loc"
+			{
+				"english" "Ver.2024 (HD Remaster)"
+				"schinese" "2024年版（HD Remaster）"
+				"tchinese" "2024年版（HD Remaster）"
+				"japanese" "2024年版（HD Remaster）"
+			}
+			"description" "Ver.2024 (HD Remaster)"
 		}
 		"1"
+		{
+			"executable" "Misao - 2024 HD Remaster/Config.exe"
+			"type" "config"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Config (HD Remaster)"
+				"schinese" "游戏设定（HD Remaster）"
+				"tchinese" "遊戲設定（HD Remaster）"
+				"japanese" "ゲーム設定（HD Remaster）"
+			}
+			"description" "Config (HD Remaster)"
+		}
+		"2"
+		{
+			"executable" "Game.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Ver.2017 (Definitive Edition)"
+				"schinese" "2017年版（Definitive Edition）"
+				"tchinese" "2017年版（Definitive Edition）"
+				"japanese" "2017年版（Definitive Edition）"
+			}
+			"description" "Ver.2017 (Definitive Edition)"
+		}
+		"3"
 		{
 			"executable" "Config.exe"
 			"type" "config"
@@ -146,20 +269,29 @@
 			{
 				"oslist" "windows"
 			}
+			"description_loc"
+			{
+				"english" "Config (Definitive Edition)"
+				"schinese" "游戏设定（Definitive Edition）"
+				"tchinese" "遊戲設定（Definitive Edition）"
+				"japanese" "ゲーム設定（Definitive Edition）"
+			}
+			"description" "Config (Definitive Edition)"
 		}
 	}
 }
 "depots"
 {
+	"baselanguages" "english,schinese,tchinese,japanese"
 	"691451"
 	{
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "3640303661877668914"
-				"size" "254376"
-				"download" "108000"
+				"gid" "7010615906698960786"
+				"size" "176129182"
+				"download" "136346240"
 			}
 		}
 		"encryptedmanifests"
@@ -169,6 +301,12 @@
 				"gid" "E9ABD82B93ED38613AEC1D93F3569937"
 				"size" "1328FF79398DBB9EE9E4510EA7D87424"
 				"download" "1147396E182A0764054B9D8AD1AFAC8F"
+			}
+			"beta"
+			{
+				"gid" "EC29972970AAFAB99EAD6118639C4E82"
+				"size" "8D49EE2E6383CD47035C1C8947ADAC4D"
+				"download" "9174FE58847619046C6CE260911267B8"
 			}
 		}
 	}
@@ -183,9 +321,9 @@
 		{
 			"public"
 			{
-				"gid" "9004542357452281406"
-				"size" "67174760"
-				"download" "51027152"
+				"gid" "4439886642238202109"
+				"size" "174520253"
+				"download" "134734896"
 			}
 		}
 		"encryptedmanifests"
@@ -195,6 +333,12 @@
 				"gid" "C6F15D03C02DBD0139FF8F32FC84290D"
 				"size" "DABDAC2ED75EA24289052068C963CFE0"
 				"download" "8F2769079BF484CB95E44ADA99B6914C"
+			}
+			"beta"
+			{
+				"gid" "831EAF499F1FB2CCC96660386C02966A"
+				"size" "F306376EB41D0D22FD030622BB60C43E"
+				"download" "3506FDB723B78E196F5F06031D484CEC"
 			}
 		}
 	}
@@ -209,9 +353,9 @@
 		{
 			"public"
 			{
-				"gid" "3638580272683455116"
-				"size" "67380586"
-				"download" "51227328"
+				"gid" "1221495751992484028"
+				"size" "176129182"
+				"download" "136346960"
 			}
 		}
 		"encryptedmanifests"
@@ -222,21 +366,84 @@
 				"size" "FE44E0A67093E6527A0B3D4A6EA09F11"
 				"download" "B12BC8CE48BACB5B6C7111826DF41796"
 			}
+			"beta"
+			{
+				"gid" "B1C29AAD0177B8EE56606AD0AF2954A7"
+				"size" "8D49EE2E6383CD47035C1C8947ADAC4D"
+				"download" "10C8E667299398DA343F8AFDFE37E782"
+			}
 		}
 	}
-	"baselanguages" "english,japanese"
+	"691454"
+	{
+		"config"
+		{
+			"language" "schinese"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7030644558660195184"
+				"size" "176404679"
+				"download" "124033968"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "43BC159E1E025AF493560367EC064E25"
+				"size" "F0C255C8B1EF3D364D59A72006ADB28A"
+				"download" "EB37ACB4026C181D1285CA6C85972B5F"
+			}
+		}
+	}
+	"691455"
+	{
+		"config"
+		{
+			"language" "tchinese"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "781980695133635526"
+				"size" "176408737"
+				"download" "124038784"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "FFA13085117D2297ECD01A1FE8BA482B"
+				"size" "035A52BE0504C606C843305BB9F23B71"
+				"download" "9D5B7897517E8169369A31F346E1A96B"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "10432381"
-			"timeupdated" "1675166112"
+			"buildid" "15378588"
+			"timeupdated" "1723707833"
 		}
 		"predefault"
 		{
 			"buildid" "10432381"
 			"pwdrequired" "1"
 			"timeupdated" "1675066906"
+		}
+		"beta"
+		{
+			"buildid" "15378588"
+			"pwdrequired" "1"
+			"timeupdated" "1723707732"
 		}
 	}
 }
@@ -256,9 +463,15 @@
 				"1" "Windows"
 			}
 		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "Misao - 2024 HD Remaster/Save"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "23145030"
-"_sha" "a229818f69f2ee05218cd63ab4bebd9797b28061"
-"_size" "4181"
