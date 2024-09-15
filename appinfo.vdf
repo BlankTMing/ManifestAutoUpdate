@@ -1,0 +1,228 @@
+"appid" "332380"
+"common"
+{
+	"name" "Asguaard"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "aad6d6faf2cae8a6b304cd89a5dc27a96a869c34"
+	"logo_small" "aad6d6faf2cae8a6b304cd89a5dc27a96a869c34_thumb"
+	"icon" "553147f6bc333cd83f060b3e0f63e1ce3e1a943e"
+	"clienttga" "5364bb2ccafcaf2537b8a5dfb8911f38510c6124"
+	"clienticon" "06b1d1c6a04a0eea8cdbaf1de290d6462b8517b2"
+	"oslist" "windows"
+	"metacritic_name" "Asguaard"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1428963035"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Aldorlea Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Aldorlea Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Aldorlea Games"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+		"3" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1428700267"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "332380"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "492"
+		"2" "21"
+		"3" "3965"
+		"4" "3834"
+		"5" "5577"
+		"6" "597"
+		"7" "4434"
+		"8" "4182"
+		"9" "1677"
+		"10" "1684"
+		"11" "7208"
+		"12" "1742"
+		"13" "4747"
+		"14" "4711"
+		"15" "1756"
+		"16" "9"
+		"17" "3871"
+		"18" "1695"
+		"19" "6869"
+	}
+	"review_score" "8"
+	"review_percentage" "81"
+}
+"extended"
+{
+	"developer" "Aldorlea Games"
+	"publisher" "Aldorlea Games"
+	"homepage" "https://www.aldorlea.org/asguaard.php"
+	"listofdlc" "362950,372280"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Asguaard"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Asguaard.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Guide\\Asguaard-Official-Guide.pdf"
+			"description" "View Walkthrough"
+			"config"
+			{
+				"ownsdlc" "362950"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228982"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"332381"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4493628143251045366"
+				"size" "135018243"
+				"download" "122701824"
+			}
+		}
+	}
+	"362950"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8110161184075240845"
+				"size" "47788528"
+				"download" "42054784"
+			}
+		}
+		"dlcappid" "362950"
+	}
+	"372280"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "485036585600988875"
+				"size" "59448809"
+				"download" "53818032"
+			}
+		}
+		"dlcappid" "372280"
+	}
+	"485940"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1335209013018597156"
+				"size" "352"
+				"download" "304"
+			}
+		}
+		"dlcappid" "485940"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1470188"
+			"timeupdated" "1479655903"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10485760"
+	"maxnumfiles" "250"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Asguaard_Saves"
+			"pattern" "*.rxdata"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Asguaard_Saves"
+			"pattern" "*.ini"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
