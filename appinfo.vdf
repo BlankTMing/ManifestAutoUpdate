@@ -37,6 +37,35 @@
 			"version" "1"
 		}
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1720656000"
+		"tested_build_id" "14594306"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"small_capsule"
 	{
@@ -59,7 +88,56 @@
 			"height_pct" "77.77702427777024"
 		}
 	}
-	"store_asset_mtime" "1717503105"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "36.641080025586646"
+				"height_pct" "77.77702427777024"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1724306892"
 	"associations"
 	{
 		"0"
@@ -146,11 +224,6 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
-		"portuguese"
-		{
-			"supported" "true"
-			"subtitles" "true"
-		}
 		"brazilian"
 		{
 			"supported" "true"
@@ -169,20 +242,20 @@
 		"3" "3810"
 		"4" "1643"
 		"5" "1695"
-		"6" "1697"
-		"7" "7332"
-		"8" "1702"
-		"9" "3834"
-		"10" "4106"
-		"11" "599"
-		"12" "122"
+		"6" "7332"
+		"7" "1702"
+		"8" "1697"
+		"9" "4106"
+		"10" "3834"
+		"11" "122"
+		"12" "599"
 		"13" "4182"
 		"14" "21"
 		"15" "128"
 		"16" "4191"
 		"17" "9564"
 		"18" "4175"
-		"19" "492"
+		"19" "1645"
 	}
 	"review_score" "6"
 	"review_percentage" "78"
@@ -243,6 +316,21 @@
 			}
 			"description" "(SafeMode)"
 		}
+		"3"
+		{
+			"executable" "WS.exe"
+			"arguments" "-GSuninstall"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "(Uninstall Game security services)"
+			}
+			"description" "(Uninstall Game security services)"
+		}
 	}
 }
 "depots"
@@ -289,34 +377,47 @@
 		{
 			"public"
 			{
-				"gid" "4054639623025486324"
-				"size" "10418635158"
-				"download" "10237822272"
+				"gid" "2305682997357547025"
+				"size" "11252161648"
+				"download" "11074192128"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"pioneer"
 			{
-				"gid" "19DAE582DEB6913EBEDAC223C865DAD1"
-				"size" "58E74EFC93BE83ACFF3D9698EA840DDB"
-				"download" "CFE1ED8969A6CE931AF0809908889BF7"
+				"gid" "CB906812B08CD721EF91E0E66CF8294D"
+				"size" "51711314F24DB2386DCC95A60E8C990F"
+				"download" "42D5356ED248797C40418509719A4086"
+			}
+			"test"
+			{
+				"gid" "E6CA3E5326E162AAEAD3C1EDF055A448"
+				"size" "D54AFA7703B4BD789EC5B0939D54533E"
+				"download" "B42C3F3E483A28ECECD6622F66ED895D"
 			}
 		}
 	}
 	"baselanguages" "english,german,french,koreana,spanish,schinese,tchinese,russian,japanese,portuguese"
+	"workshopdepot" "2646460"
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "14792612"
-			"timeupdated" "1718963868"
+			"buildid" "15673213"
+			"timeupdated" "1726124550"
 		}
 		"pioneer"
 		{
-			"buildid" "14777015"
+			"buildid" "15047022"
 			"pwdrequired" "1"
-			"timeupdated" "1718863538"
+			"timeupdated" "1721307802"
+		}
+		"test"
+		{
+			"buildid" "15645861"
+			"pwdrequired" "1"
+			"timeupdated" "1725936395"
 		}
 	}
 }
@@ -340,7 +441,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "24068124"
-"_sha" "d9d23fb4c14a28639621076ff55350bb3e693b4f"
-"_size" "5675"
