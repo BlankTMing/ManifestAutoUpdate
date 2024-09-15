@@ -1,0 +1,204 @@
+"appid" "645690"
+"common"
+{
+	"name" "Fantasia of the Wind - 风之幻想曲"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "162e8370fa9347274006b8e6e46565a12a3c53d5"
+	"logo_small" "162e8370fa9347274006b8e6e46565a12a3c53d5_thumb"
+	"icon" "3f1f592bf75f3f54bdf05278d5a8b98687a9af3d"
+	"clienttga" "364d11ca1aff1d64a43d328d46e8cb381c9a27db"
+	"clienticon" "b4fd2dcb44ef89595e71176a80733b46d1947b55"
+	"linuxclienticon" "e41291182072f79b1428cca938522bb049f3f621"
+	"clienticns" "a23bd626284d1337ddb3e57ecc25434e634ea4dc"
+	"osextended" "macos64"
+	"metacritic_name" "Fantasia of the Wind - 风之幻想曲"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "79.03634826711749"
+			"height_pct" "86.11111111111111"
+		}
+	}
+	"store_asset_mtime" "1564742589"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Fantasia Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Fantasia Studio"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "幻想曲"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_22" "1"
+		"category_23" "1"
+		"category_2" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1508990603"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "645690"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "5577"
+		"2" "122"
+		"3" "492"
+		"4" "7208"
+		"5" "1664"
+		"6" "1684"
+		"7" "4085"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"developer" "Fantasia Studio"
+	"publisher" "Fantasia Studio"
+	"homepage" "http://weibo.com/u/1287114400"
+	"listofdlc" "755260"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Fantasia of the Wind"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "FantasiaOfWind.exe"
+			"arguments" " --in-process-gpu"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "FantasiaOfWind.app/Contents/MacOS/nwjs"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"hasdepotsindlc" "1"
+	"645691"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8310206456731972290"
+				"size" "829497624"
+				"download" "656404064"
+			}
+		}
+	}
+	"645692"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4782808083504180147"
+				"size" "864005321"
+				"download" "687903712"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2499319"
+			"timeupdated" "1517919838"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "www/save"
+			"pattern" "*.rpgsave"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "Fantasia of the Wind/Default/save"
+			"pattern" "*.rpgsave"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+}
