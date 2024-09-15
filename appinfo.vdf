@@ -29,8 +29,11 @@
 			"url" "https://store.steampowered.com//eula/667970_eula_0"
 		}
 	}
-	"openvrsupport" "1"
 	"osextended" ""
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"openxrsupport" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "1"
@@ -77,6 +80,48 @@
 			"pinned_position" "BottomLeft"
 			"width_pct" "51.98366394399067"
 			"height_pct" "92.17525528378057"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "51.98366394399067"
+				"height_pct" "92.17525528378057"
+			}
 		}
 	}
 	"store_asset_mtime" "1641494299"
@@ -158,11 +203,11 @@
 		"10" "3968"
 		"11" "4994"
 		"12" "7926"
-		"13" "4182"
-		"14" "4835"
-		"15" "3859"
-		"16" "8122"
-		"17" "3839"
+		"13" "3859"
+		"14" "4182"
+		"15" "4835"
+		"16" "3839"
+		"17" "8122"
 		"18" "4295"
 		"19" "3810"
 	}
@@ -172,6 +217,7 @@
 "extended"
 {
 	"vrheadsetstreaming" "1"
+	"gamedir" "VTOL VR"
 	"developer" "Boundless Dynamics, LLC"
 	"publisher" "Boundless Dynamics, LLC"
 	"homepage" "http://vtolvr.bdynamicsstudio.com"
@@ -186,12 +232,38 @@
 		"0"
 		{
 			"executable" "VTOLVR.exe"
-			"description" "(Recommended)"
 			"type" "vr"
 			"config"
 			{
 				"oslist" "windows"
 			}
+			"description_loc"
+			{
+				"english" "VTOL VR"
+			}
+			"description" "VTOL VR"
+		}
+		"1"
+		{
+			"executable" "VTOLVR.exe"
+			"arguments" "oculus"
+			"type" "othervr"
+			"description_loc"
+			{
+				"english" "VTOL VR"
+			}
+			"description" "VTOL VR"
+		}
+		"2"
+		{
+			"executable" "VTOLVR.exe"
+			"arguments" "openxr"
+			"type" "openxr"
+			"description_loc"
+			{
+				"english" "VTOL VR"
+			}
+			"description" "VTOL VR"
 		}
 	}
 }
@@ -210,39 +282,21 @@
 		{
 			"public"
 			{
-				"gid" "5891885984786191523"
-				"size" "3459834599"
-				"download" "804606096"
+				"gid" "2285230262709032604"
+				"size" "3478566101"
+				"download" "810903808"
 			}
-			"1.7.3f4"
+			"public_testing"
 			{
-				"gid" "5218280625557894949"
-				"size" "3054061274"
-				"download" "768479712"
+				"gid" "1635343964934040528"
+				"size" "3478904177"
+				"download" "810934400"
 			}
-			"previous_version"
+			"v1.9.6"
 			{
-				"gid" "5218280625557894949"
-				"size" "3054061274"
-				"download" "768479712"
-			}
-			"v1.0.1f1"
-			{
-				"gid" "5752561049735887873"
-				"size" "2138417129"
-				"download" "666228272"
-			}
-			"v1.0.3f1"
-			{
-				"gid" "681090025046016175"
-				"size" "2138410357"
-				"download" "666234496"
-			}
-			"v1.1.1f1"
-			{
-				"gid" "4728244253237785164"
-				"size" "2140553318"
-				"download" "666583728"
+				"gid" "9074396703847468923"
+				"size" "3459835111"
+				"download" "804638768"
 			}
 			"v1.2.1f5"
 			{
@@ -250,23 +304,11 @@
 				"size" "2154164473"
 				"download" "667850496"
 			}
-			"v1.3.5f2"
-			{
-				"gid" "7720446913417806036"
-				"size" "2585659136"
-				"download" "710770880"
-			}
 			"v1.4.14f1"
 			{
 				"gid" "5213621905911616666"
 				"size" "2608335804"
 				"download" "716563632"
-			}
-			"v1.5.5f1"
-			{
-				"gid" "7192498041986444284"
-				"size" "2618671474"
-				"download" "719143248"
 			}
 			"v1.5.7f1"
 			{
@@ -280,38 +322,38 @@
 				"size" "3019590124"
 				"download" "765266848"
 			}
+			"1.7.3f4"
+			{
+				"gid" "5218280625557894949"
+				"size" "3054061274"
+				"download" "768479712"
+			}
 			"v1.8.7f1"
 			{
 				"gid" "6002016101160367610"
 				"size" "3472855662"
 				"download" "827055216"
 			}
-			"public_testing"
-			{
-				"gid" "5891885984786191523"
-				"size" "3459834599"
-				"download" "804606096"
-			}
 		}
 		"encryptedmanifests"
 		{
+			"ah94devtest"
+			{
+				"gid" "D57E476CF9B302966E8109F07CDBA1C0"
+				"size" "5A66557558B9B0BF96FFCE979C66D277"
+				"download" "71C0EF8B50375E5C96D7C7AF99D9D96C"
+			}
 			"devtesting"
 			{
 				"gid" "77D63AA0D280B06EF6CFCC185D15DA03"
 				"size" "B2D6BE4D0EC57B7A3E0BDEEE9DD2237A"
 				"download" "3990F8F8E360F22F59FCEDD156C399D5"
 			}
-			"ah94devtest"
-			{
-				"gid" "A2FEC04B8361F62EE4604858CD1D3A40"
-				"size" "80AD67C8005FE8CF1B9D4B81B780E6D1"
-				"download" "48BF4CFA7EB2BAF338079C743ADB1B90"
-			}
 			"test_pilot"
 			{
-				"gid" "55CD67FA41DC289E10175BB1A5694823"
-				"size" "DB91B2AC7B881568156C7F1B75810016"
-				"download" "2CD22E96742F3F7BD07C73AB053423CF"
+				"gid" "3955D7588AF93C3E46CBC75823667A3A"
+				"size" "591D72EC80451C4C26C8E12CD9CC3835"
+				"download" "439B2F44DC30AF01BD524CFD5FC98621"
 			}
 		}
 	}
@@ -327,14 +369,26 @@
 	{
 		"public"
 		{
-			"buildid" "14245398"
-			"timeupdated" "1714663228"
+			"buildid" "15494726"
+			"timeupdated" "1724686220"
 		}
-		"1.7.3f4"
+		"public_testing"
 		{
-			"buildid" "12181504"
+			"buildid" "15679041"
+			"description" "Public unstable build testing"
+			"timeupdated" "1726153693"
+		}
+		"v1.9.6"
+		{
+			"buildid" "14657368"
 			"description" "old version"
-			"timeupdated" "1703207066"
+			"timeupdated" "1721938270"
+		}
+		"ah94devtest"
+		{
+			"buildid" "15105448"
+			"pwdrequired" "1"
+			"timeupdated" "1721585136"
 		}
 		"devtesting"
 		{
@@ -342,29 +396,11 @@
 			"pwdrequired" "1"
 			"timeupdated" "1692905067"
 		}
-		"previous_version"
+		"test_pilot"
 		{
-			"buildid" "12181504"
-			"description" "v1.4.3f11 - Most recent previous version."
-			"timeupdated" "1703684077"
-		}
-		"v1.0.1f1"
-		{
-			"buildid" "5413329"
-			"description" "old version"
-			"timeupdated" "1599244500"
-		}
-		"v1.0.3f1"
-		{
-			"buildid" "5508809"
-			"description" "old version"
-			"timeupdated" "1605029790"
-		}
-		"v1.1.1f1"
-		{
-			"buildid" "5934214"
-			"description" "old version"
-			"timeupdated" "1617288206"
+			"buildid" "14627885"
+			"pwdrequired" "1"
+			"timeupdated" "1717688291"
 		}
 		"v1.2.1f5"
 		{
@@ -372,23 +408,11 @@
 			"description" "old version"
 			"timeupdated" "1641487684"
 		}
-		"v1.3.5f2"
-		{
-			"buildid" "8090586"
-			"description" "old version"
-			"timeupdated" "1648833362"
-		}
 		"v1.4.14f1"
 		{
 			"buildid" "9434968"
 			"description" "old version"
 			"timeupdated" "1671292438"
-		}
-		"v1.5.5f1"
-		{
-			"buildid" "10244619"
-			"description" "pre-patch"
-			"timeupdated" "1673715304"
 		}
 		"v1.5.7f1"
 		{
@@ -402,29 +426,17 @@
 			"description" "old version"
 			"timeupdated" "1692907390"
 		}
+		"1.7.3f4"
+		{
+			"buildid" "12181504"
+			"description" "old version"
+			"timeupdated" "1703207066"
+		}
 		"v1.8.7f1"
 		{
 			"buildid" "13286382"
 			"description" "old version"
 			"timeupdated" "1711503084"
-		}
-		"ah94devtest"
-		{
-			"buildid" "14190014"
-			"pwdrequired" "1"
-			"timeupdated" "1714161396"
-		}
-		"public_testing"
-		{
-			"buildid" "14245398"
-			"description" "Public unstable build testing"
-			"timeupdated" "1714663191"
-		}
-		"test_pilot"
-		{
-			"buildid" "14408798"
-			"pwdrequired" "1"
-			"timeupdated" "1715983710"
 		}
 	}
 }
@@ -435,7 +447,3 @@
 	"hidecloudui" "1"
 	"ignoreexternalfiles" "1"
 }
-"_missing_token" "False"
-"_change_number" "23591175"
-"_sha" "929f15d1f46efc9329b1ea0f53251a4c5faf74c1"
-"_size" "8219"
