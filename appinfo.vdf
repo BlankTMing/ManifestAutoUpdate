@@ -1,0 +1,182 @@
+"appid" "576800"
+"common"
+{
+	"name" "Final Bravely"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"logo" "3a4fdcbf64feabc9a1230d7dfa80aaab7e8bb42d"
+	"logo_small" "3a4fdcbf64feabc9a1230d7dfa80aaab7e8bb42d_thumb"
+	"icon" "be01efb2d66e153425fb20c95093e6e483c5e436"
+	"clienttga" "9453cb5871bec6846f16f329285a888091c487b2"
+	"clienticon" "633f29187e7b37e4dedf4ad7f8afd69bd69f149c"
+	"metacritic_name" "Final Bravely"
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1528458766"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Windam"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Windam"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_29" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
+		"category_59" "1"
+		"category_60" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1483603200"
+	"steam_release_date" "1483617900"
+	"community_hub_visible" "1"
+	"gameid" "576800"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "21"
+		"2" "122"
+		"3" "492"
+		"4" "5577"
+		"5" "1684"
+		"6" "3871"
+		"7" "4182"
+		"8" "4106"
+	}
+	"review_score" "6"
+	"review_percentage" "78"
+}
+"extended"
+{
+	"developer" "Windam"
+	"publisher" "Windam"
+}
+"config"
+{
+	"installdir" "Final Bravely"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Game_boxed.exe"
+			"arguments" "--in-process-gpu"
+			"description" "Version Française"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "game_boxedEN.exe"
+			"arguments" "--in-process-gpu"
+			"description" "English Version"
+			"type" "none"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" ""
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"576801"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3433867679731096855"
+				"size" "3145692272"
+				"download" "1436449504"
+			}
+		}
+	}
+	"576802"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+	}
+	"hasdepotsindlc" "0"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "7430164"
+			"timeupdated" "1632736558"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "5000"
+	"maxnumfiles" "20"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "SavesDir"
+			"pattern" "*.sav"
+		}
+	}
+}
