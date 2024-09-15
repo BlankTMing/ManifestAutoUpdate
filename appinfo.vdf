@@ -20,32 +20,27 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1658793600"
-		"tested_build_id" "6310817"
+		"category" "3"
+		"test_timestamp" "1721779200"
+		"tested_build_id" "15076074"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"1"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"2"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
-			}
-			"3"
-			{
-				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
 			}
-			"4"
+			"3"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
@@ -55,19 +50,21 @@
 		{
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
-			"requires_non_controller_launcher_nav" "1"
+			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "1"
+			"non_deck_display_glyphs" "0"
 			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
 			"recommended_runtime" "proton-stable"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "DISTRAINT"
-	"controller_support" "partial"
+	"controllertagwizard" "1"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -112,9 +109,11 @@
 	"category"
 	{
 		"category_2" "1"
-		"category_18" "1"
 		"category_29" "1"
 		"category_22" "1"
+		"category_28" "1"
+		"category_23" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -247,6 +246,12 @@
 		{
 			"public"
 			{
+				"gid" "6653096916410069501"
+				"size" "128502217"
+				"download" "81912048"
+			}
+			"legacy"
+			{
 				"gid" "4533988995038068698"
 				"size" "146742900"
 				"download" "135652608"
@@ -256,9 +261,9 @@
 		{
 			"betatesting"
 			{
-				"gid" "3DBA4CC0B716584603B4C4ECB0E2DC00"
-				"size" "B9D12F21736CCFD79078A5BF4E40CB5C"
-				"download" "3D72E33BF2853E6F84934D5A3B939941"
+				"gid" "C214A304FDE8E606CF43FFFE8373AFB7"
+				"size" "A3B72737B55A8055BE73A7FFDB0B3490"
+				"download" "43B69427ADBCA11685A188C89950AE73"
 			}
 		}
 	}
@@ -266,18 +271,38 @@
 	{
 		"public"
 		{
-			"buildid" "6310817"
-			"timeupdated" "1614793273"
+			"buildid" "15076074"
+			"timeupdated" "1721458936"
 		}
 		"betatesting"
 		{
-			"buildid" "6310817"
+			"buildid" "15076074"
 			"pwdrequired" "1"
-			"timeupdated" "1614601714"
+			"timeupdated" "1721307753"
+		}
+		"legacy"
+		{
+			"buildid" "6310817"
+			"description" "This branch includes the legacy edition, but it won\'t be updated."
+			"timeupdated" "1721630448"
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "22367196"
-"_sha" "c9fe43fe3ee8e268bd529a8d2622a4b81875f280"
-"_size" "5100"
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "distraint"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
