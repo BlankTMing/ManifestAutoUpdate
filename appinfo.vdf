@@ -1,0 +1,255 @@
+"appid" "340220"
+"common"
+{
+	"name" "Shadows of War"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "58b78ea49c3d29d4ea52d807daf5d2e6d30f0f04"
+	"logo_small" "58b78ea49c3d29d4ea52d807daf5d2e6d30f0f04_thumb"
+	"icon" "e201bbc5ebcbfbadc1adb05e5934d22aec3156cf"
+	"clienttga" "06ad69be199d168952e2a210dbe1745e5bc20e28"
+	"clienticon" "5a181da4a788671e3439763b2b7011598f337c9a"
+	"linuxclienticon" "e293cc71147104a6d9dc82c7ab589e8476368ec0"
+	"clienticns" "58f44c9a72d92fa7ad8c1d2b7bad6e1612252d68"
+	"releasestate" "released"
+	"metacritic_name" "Shadows of War"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "65.33599467731204"
+			"height_pct" "35.763888888888886"
+		}
+	}
+	"store_asset_mtime" "1573567718"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "TRI.G"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "TRI.G"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1411110000"
+	"steam_release_date" "1420214400"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "340220"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "492"
+	}
+	"review_score" "4"
+	"review_percentage" "33"
+}
+"extended"
+{
+	"gamedir" ""
+	"developer" "TRI.G"
+	"publisher" "TRI.G"
+	"homepage" "http://www.tri-g.de/shadows-of-war.html"
+	"listofdlc" "387040"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Shadows of War"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "nw.exe"
+			"arguments" "--ignore-gpu-blacklist"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "nw"
+			"arguments" "--ignore-gpu-blacklist"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "nw.exe"
+			"arguments" "--in-process-GPU --ignore-gpu-blacklist"
+			"description" "Launch with Steam Overlay"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "nw"
+			"arguments" "--in-process-GPU --ignore-gpu-blacklist"
+			"description" "Launch with Steam Overlay"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"4"
+		{
+			"executable" "nw.app"
+			"arguments" "--ignore-gpu-blacklist"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "6"
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"340221"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5973103255318531192"
+				"size" "153826874"
+				"download" "84909456"
+			}
+		}
+	}
+	"340223"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7870156715686834823"
+				"size" "203653007"
+				"download" "92729056"
+			}
+		}
+	}
+	"340222"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3861977691760504672"
+				"size" "146520825"
+				"download" "91501632"
+			}
+		}
+	}
+	"387040"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8815314166664475957"
+				"size" "39137624"
+				"download" "33641968"
+			}
+		}
+		"dlcappid" "387040"
+	}
+	"baselanguages" ""
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1905590"
+			"timeupdated" "1498042577"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "50000000"
+	"maxnumfiles" "128"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "/ShadowsofWar"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
