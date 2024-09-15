@@ -28,6 +28,50 @@
 			"version" "2"
 		}
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1718236800"
+		"tested_build_id" "14622211"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"3"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-2RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -49,6 +93,55 @@
 			"pinned_position" "BottomLeft"
 			"width_pct" "50"
 			"height_pct" "50"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50"
+				"height_pct" "50"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
 		}
 	}
 	"store_asset_mtime" "1717113319"
@@ -76,6 +169,7 @@
 	{
 		"category_2" "1"
 		"category_28" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -88,13 +182,14 @@
 			"supported" "true"
 		}
 	}
+	"steam_release_date" "1717145874"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "2903560"
 	"store_tags"
 	{
-		"0" "21"
-		"1" "1721"
+		"0" "1721"
+		"1" "21"
 		"2" "599"
 		"3" "5900"
 		"4" "1664"
@@ -105,9 +200,9 @@
 		"9" "3839"
 		"10" "4175"
 		"11" "4145"
-		"12" "1687"
-		"13" "4342"
-		"14" "1667"
+		"12" "4342"
+		"13" "1667"
+		"14" "1687"
 		"15" "5716"
 		"16" "5673"
 		"17" "4136"
@@ -115,12 +210,13 @@
 		"19" "4166"
 	}
 	"review_score" "8"
-	"review_percentage" "85"
+	"review_percentage" "86"
 }
 "extended"
 {
 	"developer" "KOTAKE CREATE"
 	"publisher" "KOTAKE CREATE"
+	"homepage" "https://www.kotakecreate.com/"
 }
 "config"
 {
@@ -159,18 +255,18 @@
 		{
 			"public"
 			{
-				"gid" "6725407030161895020"
-				"size" "1596381923"
-				"download" "1411964112"
+				"gid" "6327376918439428316"
+				"size" "1595411256"
+				"download" "1411102128"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"!!!!!!debug!!!!!!!"
 			{
-				"gid" "D5DDE408636388273613D1413746E773"
-				"size" "16FD2F91E3DB61E0C5E75E30013ABF03"
-				"download" "986B8BFE91B83D0A7F808F7968B9D3A3"
+				"gid" "B6D46C172A91606CD5B61BF83FAD6BFF"
+				"size" "5BE3587D63D3B29CC2E55E62C1A1CD16"
+				"download" "F45E41454E36CB54116690FE47CC8DEC"
 			}
 		}
 	}
@@ -178,18 +274,14 @@
 	{
 		"public"
 		{
-			"buildid" "14600595"
-			"timeupdated" "1717517558"
+			"buildid" "14726686"
+			"timeupdated" "1718428583"
 		}
 		"!!!!!!debug!!!!!!!"
 		{
-			"buildid" "14600595"
+			"buildid" "14726686"
 			"pwdrequired" "1"
-			"timeupdated" "1717516415"
+			"timeupdated" "1718428503"
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "23824118"
-"_sha" "5fce988c4789395334c550d0a2b531c7da074214"
-"_size" "2976"
