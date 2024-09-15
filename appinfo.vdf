@@ -44,6 +44,35 @@
 		"1" "2"
 		"2" "5"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1721865600"
+		"tested_build_id" "14640645"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-2RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -67,7 +96,7 @@
 			"height_pct" "46.96876875772641"
 		}
 	}
-	"store_asset_mtime" "1716301429"
+	"store_asset_mtime" "1718357175"
 	"associations"
 	{
 		"0"
@@ -257,10 +286,10 @@
 		"0" "4106"
 		"1" "1721"
 		"2" "1742"
-		"3" "4145"
-		"4" "7208"
-		"5" "4342"
-		"6" "16094"
+		"3" "7208"
+		"4" "4145"
+		"5" "16094"
+		"6" "4342"
 		"7" "19"
 		"8" "21"
 		"9" "4166"
@@ -270,13 +299,13 @@
 		"13" "5186"
 		"14" "4604"
 		"15" "4608"
-		"16" "11634"
-		"17" "4175"
-		"18" "5900"
+		"16" "5900"
+		"17" "11634"
+		"18" "4175"
 		"19" "3993"
 	}
 	"review_score" "8"
-	"review_percentage" "88"
+	"review_percentage" "87"
 }
 "extended"
 {
@@ -325,9 +354,9 @@
 		{
 			"public"
 			{
-				"gid" "719177991237601829"
-				"size" "53089715941"
-				"download" "46943382208"
+				"gid" "8763532073516055148"
+				"size" "53092554658"
+				"download" "46944434096"
 			}
 		}
 		"encryptedmanifests"
@@ -400,9 +429,15 @@
 			}
 			"ninja_misctest"
 			{
-				"gid" "E730032FAB8E54A948E64AE0BD515EED"
-				"size" "5E924F464A47D86774A1576E69F21DDA"
-				"download" "BB59FFE55AB5E0021636E2E168014E59"
+				"gid" "16323FE8E93F17905D774D63CC5F749A"
+				"size" "4CF0634FA4D56ADC47E4A561F93623A2"
+				"download" "B09DC577CA5785CCA392F22BB855B458"
+			}
+			"ninja_temptest"
+			{
+				"gid" "45F16EE70D9AE4EDB9B9175CDD476728"
+				"size" "9259EA14135DF599E93D7CC39F9EFC2F"
+				"download" "6AA83B9D255D1F4672E902CB1F804410"
 			}
 			"nvidia_performancetuning"
 			{
@@ -418,27 +453,27 @@
 			}
 			"qa_lionbridge"
 			{
-				"gid" "4173EC64EEEE143413AF251797B6A30C"
-				"size" "998FD6E3AB19C7BF9EE4B6FAD1ADBF94"
-				"download" "51FD4CCF63ABE3BF3D33A62C04DF426A"
+				"gid" "9CE92825E472AAE40B28EF868FEC05EA"
+				"size" "D8F0017051F02108E1416F98172CF94C"
+				"download" "D62F621FF3AE4D8F3A47D19F2CEF96E9"
 			}
 			"qa_lionbridge_cert"
 			{
-				"gid" "FD691B6D72532BEC8E00614D6AD45CA6"
-				"size" "D15086B59E356373FAA18BA7B74246F8"
-				"download" "6F44B6BE593140CEEA655C6F1F5A0E35"
+				"gid" "15FD41ABEEA9C2F9AA8694007CF13E64"
+				"size" "E31BC7B8675536604930544862E6AB3A"
+				"download" "6046CE7563D13565A7E13E71C4663AD8"
 			}
 			"qa_lionbridge_misctest"
 			{
-				"gid" "1DF954700F620B34EAEA3A5E28CF6BBC"
-				"size" "69EE6094A2E0378315865FFBC35D2058"
-				"download" "41F490D4566B0393E821259761223B34"
+				"gid" "D06062782308EF3DC90E3F34B8731521"
+				"size" "67EE8AE3CC00A8E1649C86F83D5648D6"
+				"download" "9484011ECE852F959B6551AC39EBF57A"
 			}
 			"qa_lionbridge_shipping"
 			{
-				"gid" "F5A7A2CC40889E94F3C61788673909C1"
-				"size" "9E1A186404C193D2F6EA7FC55FA5E834"
-				"download" "0BF2A1832A4DCDCC8C6085B046F009F8"
+				"gid" "0A08896D566E93F356D7A197AB33A5DE"
+				"size" "AB2A36A6BF583302171639215A24E005"
+				"download" "5D9C96AF5A5C3C06F426D9D6E857D0EB"
 			}
 		}
 	}
@@ -446,8 +481,8 @@
 	{
 		"public"
 		{
-			"buildid" "14566579"
-			"timeupdated" "1717194464"
+			"buildid" "14640645"
+			"timeupdated" "1717779106"
 		}
 		"amd_shipping"
 		{
@@ -517,9 +552,15 @@
 		}
 		"ninja_misctest"
 		{
-			"buildid" "14500065"
+			"buildid" "14640645"
 			"pwdrequired" "1"
-			"timeupdated" "1716742127"
+			"timeupdated" "1717770038"
+		}
+		"ninja_temptest"
+		{
+			"buildid" "14583747"
+			"pwdrequired" "1"
+			"timeupdated" "1717410442"
 		}
 		"nvidia_performancetuning"
 		{
@@ -535,27 +576,27 @@
 		}
 		"qa_lionbridge"
 		{
-			"buildid" "14500747"
+			"buildid" "14671206"
 			"pwdrequired" "1"
-			"timeupdated" "1716751853"
+			"timeupdated" "1718066757"
 		}
 		"qa_lionbridge_cert"
 		{
-			"buildid" "14510998"
+			"buildid" "14640645"
 			"pwdrequired" "1"
-			"timeupdated" "1716836807"
+			"timeupdated" "1717769915"
 		}
 		"qa_lionbridge_misctest"
 		{
-			"buildid" "14500065"
+			"buildid" "14640645"
 			"pwdrequired" "1"
-			"timeupdated" "1716892321"
+			"timeupdated" "1717770003"
 		}
 		"qa_lionbridge_shipping"
 		{
-			"buildid" "14501025"
+			"buildid" "14671595"
 			"pwdrequired" "1"
-			"timeupdated" "1716755583"
+			"timeupdated" "1718070228"
 		}
 	}
 }
@@ -577,7 +618,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "23793795"
-"_sha" "205a478ff1c3516594b5457d1eed7bf7813448c2"
-"_size" "10918"
