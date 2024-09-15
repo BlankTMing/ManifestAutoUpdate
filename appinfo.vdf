@@ -1,0 +1,281 @@
+"appid" "368600"
+"common"
+{
+	"name" "Terra Nova: Strike Force Centauri"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "8f747eec6df162704537384dda311d631d9e2889"
+	"logo_small" "8f747eec6df162704537384dda311d631d9e2889_thumb"
+	"clienticon" "d6b9275343c49ce6dc1fb78cdc6407cde8e83e3b"
+	"clienttga" "cb0698bb9f8c421a4de1342dc8348d43af5273b2"
+	"icon" "52cd8509fe5f8150572ff37cd0bd002f368ed22e"
+	"linuxclienticon" "5796e0d397488a4825d7fc24b6e134c2de032481"
+	"clienticns" "b7d67ef9e46e3a3a52a7b6f84cca46c676ad25ef"
+	"releasestate" "released"
+	"metacritic_name" "Terra Nova: Strike Force Centauri"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "55.717619603267224"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1569374176"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Looking Glass Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Nightdive Studios"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"original_release_date" "826099200"
+	"steam_release_date" "1437672525"
+	"community_hub_visible" "1"
+	"gameid" "368600"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "19"
+		"2" "4821"
+		"3" "3942"
+		"4" "18594"
+		"5" "1693"
+		"6" "1663"
+		"7" "1708"
+		"8" "6691"
+	}
+	"review_score" "8"
+	"review_percentage" "95"
+}
+"extended"
+{
+	"developer" "Looking Glass Studios"
+	"publisher" "Nightdive Studios"
+	"homepage" "http://www.nightdivestudios.com/games/terra-nova-strike-force-centauri/\?utm_source=steampowered.com&amp;utm_medium=product&amp;utm_campaign=website%20-%20terra%20nova%20strike%20force"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Terra Nova Strike Force Centauri"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "dosbox_windows\\dosbox.exe"
+			"arguments" "-conf dosbox_terranova.conf -conf dosbox_terranova_launch_windows.conf -noconsole"
+			"description" "Launch"
+			"workingdir" "dosbox_windows\\"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "dosbox_windows\\daum\\dosbox.exe"
+			"arguments" "-conf dosbox_terranova.conf -conf dosbox_terranova_launch_windows.conf -noconsole"
+			"description" "Play Terra Nova in DOSBox Daum"
+			"workingdir" "dosbox_windows\\daum\\"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "dosbox_windows\\dosbox.exe"
+			"arguments" "-conf dosbox_terranova.conf -conf dosbox_terranova_config_windows.conf -noconsole"
+			"workingdir" "dosbox_windows\\"
+			"description" "Terra Nova - Configuration"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "dosbox_linux\\launch_terranova_game.sh"
+			"description" "Launch"
+			"workingdir" "dosbox_linux\\"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"4"
+		{
+			"executable" "dosbox_linux\\daum\\launch_terranova_game_daum.sh"
+			"description" "Play Terra Nova in DOSBox Daum"
+			"workingdir" "dosbox_linux\\daum\\"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"5"
+		{
+			"executable" "dosbox_linux\\launch_terranova_config.sh"
+			"workingdir" "dosbox_linux\\"
+			"description" "Terra Nova - Configuration"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"6"
+		{
+			"executable" "Terra Nova.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"368601"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5590898436481371946"
+				"size" "191088120"
+				"download" "185592304"
+			}
+		}
+	}
+	"368602"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3368494081239783745"
+				"size" "44657317"
+				"download" "24198688"
+			}
+		}
+	}
+	"368603"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7404950942661742607"
+				"size" "18200911"
+				"download" "7907728"
+			}
+		}
+	}
+	"368604"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4671028159941661568"
+				"size" "1179764337"
+				"download" "632714512"
+			}
+		}
+	}
+	"368605"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7682908752379110893"
+				"size" "1179764337"
+				"download" "632714512"
+			}
+		}
+	}
+	"368606"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8767965181649705779"
+				"size" "761675886"
+				"download" "570606128"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "776708"
+		}
+	}
+}
