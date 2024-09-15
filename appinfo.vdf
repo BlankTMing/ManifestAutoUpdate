@@ -1,0 +1,214 @@
+"appid" "290280"
+"common"
+{
+	"name" "Volt"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "ad003157e6ceffdf08c6e19636fd94322ed9c53e"
+	"logo_small" "ad003157e6ceffdf08c6e19636fd94322ed9c53e_thumb"
+	"icon" "42d878413df3143d023c1754f990bc6158a13408"
+	"clienttga" "321109c8d182bdd85e0c1b916e6495a120b66e2e"
+	"clienticon" "9cf77c8ea1b4376e1dd84d71ce2bce736d73f1a7"
+	"clienticns" "13f715f825e3f712081d5b99747d85d5eca7cbae"
+	"linuxclienticon" "e70208b83d9928f4918bfafbd0989a18015e3c7d"
+	"metacritic_name" "UntitledApp"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "51.702932828760645"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1648655374"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Quantized Bit"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Quantized Bit"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1397490900"
+	"community_hub_visible" "1"
+	"gameid" "290280"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "19"
+		"2" "1664"
+		"3" "1625"
+		"4" "3871"
+	}
+	"review_score" "5"
+	"review_percentage" "68"
+}
+"extended"
+{
+	"developer" "Quantized Bit"
+	"publisher" "Quantized Bit"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Volt"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Volt.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "volt.x86"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"2"
+		{
+			"executable" "volt.x86_64"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "volt.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"290281"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2880911474701519824"
+				"size" "109696768"
+				"download" "41562848"
+			}
+			"test"
+			{
+				"gid" "2880911474701519824"
+				"size" "109696768"
+				"download" "41562848"
+			}
+		}
+	}
+	"290282"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2745724246552835675"
+				"size" "137507236"
+				"download" "50061360"
+			}
+			"test"
+			{
+				"gid" "2745724246552835675"
+				"size" "137507236"
+				"download" "50061360"
+			}
+		}
+	}
+	"290283"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3679667636847219550"
+				"size" "138352223"
+				"download" "49682880"
+			}
+			"test"
+			{
+				"gid" "3679667636847219550"
+				"size" "138352223"
+				"download" "49682880"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "941786"
+		}
+		"test"
+		{
+			"buildid" "935993"
+		}
+	}
+}
