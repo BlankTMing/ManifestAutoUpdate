@@ -1,0 +1,205 @@
+"appid" "280560"
+"common"
+{
+	"name" "Danmaku Unlimited 2"
+	"type" "Game"
+	"releasestate" "released"
+	"clienticon" "33de526b3eb12a22b1bf9e4f0fcfe009b71f424a"
+	"clienttga" "7dc6a4837dc85ed87a7bd2ce0833b7b9080b4590"
+	"icon" "99c3aa7e37a30ee9cca1c94b5f051f553b60bfe2"
+	"oslist" "windows"
+	"logo" "961c382a3ce30d6f6dd808a0d49bfb8937bfeb85"
+	"logo_small" "961c382a3ce30d6f6dd808a0d49bfb8937bfeb85_thumb"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1652486400"
+		"tested_build_id" "218312"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"metacritic_name" "Danmaku Unlimited 2"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "55.8343057176196"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1576014174"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Doragon Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Doragon Entertainment"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1395161580"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "280560"
+	"store_tags"
+	{
+		"0" "4885"
+		"1" "4255"
+		"2" "492"
+		"3" "19"
+		"4" "1773"
+		"5" "1756"
+		"6" "1774"
+	}
+	"review_score" "8"
+	"review_percentage" "92"
+}
+"extended"
+{
+	"developer" "Doragon Entertainment"
+	"publisher" "Doragon Entertainment"
+	"homepage" "http://doragongames.com/danmaku2/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "DanmakuUnlimited2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DU2.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228984"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"280561"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7936561402904836728"
+				"size" "99123167"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "C200B5E8307EBFAC21B9C93BDD8BA981"
+				"size" "5CA297F576F1D72D72DB906A1D219B34"
+				"download" "B5FB80B5BFB78E7C14B8BE36DD713ADA"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "218312"
+		}
+		"beta"
+		{
+			"buildid" "218312"
+			"pwdrequired" "1"
+		}
+	}
+}
