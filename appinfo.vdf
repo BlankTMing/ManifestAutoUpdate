@@ -20,17 +20,21 @@
 	"name_localized"
 	{
 		"english" "Cluckmech Oasis"
+		"japanese" "メカニマル・オアシス"
+		"schinese" "鸡械绿洲"
 	}
 	"controllertagwizard" "1"
 	"small_capsule"
 	{
 		"schinese" "capsule_231x87_schinese.jpg"
 		"english" "capsule_231x87.jpg"
+		"japanese" "capsule_231x87_japanese.jpg"
 	}
 	"header_image"
 	{
 		"schinese" "header_schinese.jpg"
 		"english" "header.jpg"
+		"japanese" "header_japanese.jpg"
 	}
 	"library_assets"
 	{
@@ -45,7 +49,62 @@
 			"height_pct" "84.72222222222223"
 		}
 	}
-	"store_asset_mtime" "1715598560"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"schinese" "library_600x900_schinese.jpg"
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"schinese" "library_600x900_schinese_2x.jpg"
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"schinese" "logo_schinese.png"
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"schinese" "logo_schinese_2x.png"
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "46.660958904109584"
+				"height_pct" "84.72222222222223"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"sc_schinese" "library_header_sc_schinese.jpg"
+				"english" "library_header.jpg"
+				"schinese" "library_header_schinese.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1721098464"
 	"associations"
 	{
 		"0"
@@ -70,6 +129,7 @@
 	"category"
 	{
 		"category_2" "1"
+		"category_22" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -81,6 +141,12 @@
 			"subtitles" "true"
 		}
 		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"japanese"
 		{
 			"supported" "true"
 			"full_audio" "true"
@@ -115,7 +181,7 @@
 		"19" "4182"
 	}
 	"review_score" "8"
-	"review_percentage" "86"
+	"review_percentage" "87"
 }
 "extended"
 {
@@ -160,18 +226,24 @@
 		{
 			"public"
 			{
-				"gid" "989378827054115608"
-				"size" "1009664011"
-				"download" "184850480"
+				"gid" "6050845045238653810"
+				"size" "1137665681"
+				"download" "287747152"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"test"
 			{
-				"gid" "E8B7A64FEB4E150E28A200B83E856CE3"
-				"size" "E216BA5ADBA342B6108851002376F486"
-				"download" "99CC1436732F9C1BE32FD10CCDB1105B"
+				"gid" "CEE4C63C93D19967097C1E5D0010A0CA"
+				"size" "C7F9A8E1B25304B22D344FA9B3FCEEDE"
+				"download" "9B761906E6456B9A93BE19C62B6E2F1D"
+			}
+			"v1.2.0_test"
+			{
+				"gid" "C91EA3C6958FBBE17CDEABB706C10668"
+				"size" "8D0623B6033579E1F3900C7FC84C315E"
+				"download" "BFDAD2FEFB5F50DC87A8E5C89D24213B"
 			}
 		}
 	}
@@ -185,18 +257,24 @@
 		{
 			"public"
 			{
-				"gid" "5621701546054476010"
-				"size" "1033773205"
-				"download" "192151520"
+				"gid" "1298249409666067441"
+				"size" "1161779715"
+				"download" "295050752"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"test"
 			{
-				"gid" "999CC76E47F875C1E4C3E034B46DC4B3"
-				"size" "DC74BD1C5B9D2C4E70545D3859DD1019"
-				"download" "41F5A59BFA6A11AA2B2F240C5422DCF7"
+				"gid" "6ADA31E9484B6DAA5503665D6D978065"
+				"size" "E98DF108D38D291684BE863754517CDA"
+				"download" "BB407C4CE8FA049804383DF60BAF3C15"
+			}
+			"v1.2.0_test"
+			{
+				"gid" "82D70E8641B03FF65A7B1147A843C806"
+				"size" "CC88F20128FE58CD7B294888E8F0D3A8"
+				"download" "0FD73DEE36FF1286FB1EF2F2AEBEFE67"
 			}
 		}
 	}
@@ -204,14 +282,20 @@
 	{
 		"public"
 		{
-			"buildid" "14893769"
-			"timeupdated" "1719832666"
+			"buildid" "15673487"
+			"timeupdated" "1726132221"
 		}
 		"test"
 		{
-			"buildid" "14893769"
+			"buildid" "15673487"
 			"pwdrequired" "1"
-			"timeupdated" "1719831597"
+			"timeupdated" "1726123581"
+		}
+		"v1.2.0_test"
+		{
+			"buildid" "15699911"
+			"pwdrequired" "1"
+			"timeupdated" "1726299444"
 		}
 	}
 }
@@ -253,7 +337,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "24191405"
-"_sha" "1cfe603faf8e65f18dbc1f16c6743116c235f9e4"
-"_size" "4274"
