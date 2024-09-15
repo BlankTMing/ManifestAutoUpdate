@@ -18,8 +18,8 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1685750400"
-		"tested_build_id" "11020750"
+		"test_timestamp" "1724976000"
+		"tested_build_id" "15130423"
 		"tests"
 		{
 			"0"
@@ -29,20 +29,25 @@
 			}
 			"1"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
 			}
 			"2"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"3"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
 			{
 				"display" "1"
 				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
@@ -58,13 +63,14 @@
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-8.0-2"
+			"recommended_runtime" "proton-experimental"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"controllertagwizard" "1"
-	"controller_support" "partial"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -83,6 +89,40 @@
 			"pinned_position" "BottomLeft"
 			"width_pct" "28.99649941656942"
 			"height_pct" "54.025172168131085"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "28.99649941656942"
+				"height_pct" "54.025172168131085"
+			}
 		}
 	}
 	"store_asset_mtime" "1695505236"
@@ -106,7 +146,6 @@
 		"1" "25"
 		"2" "23"
 		"3" "3"
-		"4" "70"
 	}
 	"category"
 	{
@@ -117,7 +156,8 @@
 		"category_24" "1"
 		"category_22" "1"
 		"category_44" "1"
-		"category_18" "1"
+		"category_28" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -132,7 +172,7 @@
 			"subtitles" "true"
 		}
 	}
-	"steam_release_date" "1678460408"
+	"steam_release_date" "1721824082"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "2306080"
@@ -175,7 +215,7 @@
 		"0"
 		{
 			"executable" "Explorer.exe"
-			"type" "default"
+			"type" "option1"
 			"config"
 			{
 				"oslist" "windows"
@@ -184,6 +224,8 @@
 		}
 	}
 	"uselaunchcommandline" "1"
+	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "7"
 }
 "depots"
 {
@@ -218,18 +260,18 @@
 		{
 			"public"
 			{
-				"gid" "8476890516632288386"
-				"size" "704020863"
-				"download" "500996704"
+				"gid" "5887834951440602914"
+				"size" "847839867"
+				"download" "625186048"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"devs_tests"
 			{
-				"gid" "57C834F2B6FAC2E8B01291FAD828765E"
-				"size" "5B756E163843DCB976A45BA1F2FDFB87"
-				"download" "8F6418BE1A2CF0A9BFDEFFF4E64DC86E"
+				"gid" "822D074FE568B2341E6C18C4E43123C5"
+				"size" "8E806C4DE5CBC19F6E385A4AEFECCABB"
+				"download" "44273774258864B4EF1FF044C368FEC5"
 			}
 		}
 	}
@@ -237,18 +279,20 @@
 	{
 		"public"
 		{
-			"buildid" "12750968"
-			"timeupdated" "1700569468"
+			"buildid" "15130423"
+			"timeupdated" "1721824021"
 		}
 		"devs_tests"
 		{
-			"buildid" "12750968"
+			"buildid" "14626703"
 			"pwdrequired" "1"
-			"timeupdated" "1700492254"
+			"timeupdated" "1717682314"
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "23222421"
-"_sha" "7a9b7852dcfcae5cce348bfb730a887c0fbf9d81"
-"_size" "4526"
+"ufs"
+{
+	"quota" "1000"
+	"maxnumfiles" "100"
+	"sync_while_suspended" "1"
+}
