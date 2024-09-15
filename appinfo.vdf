@@ -1,0 +1,214 @@
+"appid" "816270"
+"common"
+{
+	"name" "Sounds of Verity"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "71c7d63e0fb29177e2b5af1d5b676d9411179e0e"
+	"logo_small" "71c7d63e0fb29177e2b5af1d5b676d9411179e0e_thumb"
+	"linuxclienticon" "78d5a7ba5d63af7ecde32057b76640dcce59c41a"
+	"clienticns" "329b04780bd3d022cc60d2c7c287c8a6c4b4c56f"
+	"clienticon" "30111b18b9903d24d1bd9ba2ee8cef57f6585d98"
+	"clienttga" "8e3987eaf61ac28f9e0b04cb1c6e87e3d15b2fb4"
+	"icon" "db7f1460b4cd4f794e46a9f911aa6326660fbd1b"
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+	}
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "5"
+	}
+	"metacritic_name" "Sounds of Verity"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1610331734"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Violet Feature"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Vorobushek"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Vorobushek"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1522159990"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "816270"
+	"store_tags"
+	{
+		"0" "7208"
+		"1" "3799"
+		"2" "492"
+		"3" "597"
+		"4" "4947"
+		"5" "31579"
+		"6" "6426"
+		"7" "4182"
+		"8" "12095"
+		"9" "1684"
+		"10" "4085"
+	}
+	"review_score" "6"
+	"review_percentage" "78"
+}
+"extended"
+{
+	"developer" "Violet Feature"
+	"publisher" "Vorobushek"
+}
+"config"
+{
+	"installdir" "Sounds of Verity"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SoundsOfVerity.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "SoundsOfVerity.sh"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "SoundsOfVerity.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"816271"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7236011936408237197"
+				"size" "142746234"
+				"download" "72284752"
+			}
+		}
+	}
+	"baselanguages" "english,russian"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2821936"
+			"timeupdated" "1527766034"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "1000"
+	"appidredirect" "816270"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "%USERPROFILE%/AppDate/Roaming/RenPy/SoundsOfVerity"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "MacHome"
+			"path" "/Library/RenPy/"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"2"
+		{
+			"root" "LinuxHome"
+			"path" "$HOME/.renpy/"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
