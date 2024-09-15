@@ -1,0 +1,236 @@
+"appid" "270510"
+"common"
+{
+	"name" "EPOCH"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"clienticon" "afde0e5ea4637d716249665bc0e90c200d20a5e6"
+	"clienttga" "7181df43c7a4fe1f4e55e373e84ec82948fa7974"
+	"icon" "0976ccd1fd70786df1ffa88a068be2f55c35a8b2"
+	"logo" "fbc564fc2dd0df0faf06169f25212e5239eef741"
+	"logo_small" "fbc564fc2dd0df0faf06169f25212e5239eef741_thumb"
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+	}
+	"metacritic_name" "EPOCH"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "51.86697782963827"
+			"height_pct" "87.61576822607458"
+		}
+	}
+	"store_asset_mtime" "1667256497"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Uppercut Games Pty Ltd"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Uppercut Games Pty Ltd"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_18" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1401985359"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "270510"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "5752"
+		"3" "56690"
+		"4" "1774"
+		"5" "3835"
+		"6" "1697"
+	}
+	"review_score" "8"
+	"review_percentage" "83"
+}
+"extended"
+{
+	"developer" "Uppercut Games Pty Ltd"
+	"publisher" "Uppercut Games Pty Ltd"
+	"homepage" "http://www.uppercut-games.com/EPOCH/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "EPOCH"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Binaries/Win64/UDK.exe"
+			"description" "Launch"
+			"workingdir" "Binaries/Win64/"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Binaries/Win32/UDK.exe"
+			"description" "Play EPOCH (32-bit)"
+			"workingdir" "Binaries/Win32/"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229002"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"270511"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2174061517810304675"
+				"size" "672157661"
+				"download" "1270885983912"
+			}
+			"beta"
+			{
+				"gid" "5661254757997179791"
+				"size" "672165405"
+				"download" "345758294704"
+			}
+			"local"
+			{
+				"gid" "2135484659783268120"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"baselanguages" "english,russian"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "324886"
+		}
+		"beta"
+		{
+			"buildid" "345851"
+			"description" "Latest and Greatest"
+		}
+		"local"
+		{
+			"buildid" "212889"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1572864"
+	"maxnumfiles" "20"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Binaries\\Win64\\EpochSave"
+			"pattern" "*.dat"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "Binaries\\Win32\\EpochSave"
+			"pattern" "*.dat"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "UDKGame\\EpochSave"
+			"pattern" "*.dat"
+		}
+	}
+}
