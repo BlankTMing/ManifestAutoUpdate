@@ -130,19 +130,16 @@
 		"category_2" "1"
 		"category_17" "1"
 		"category_30" "1"
-		"category_24" "1"
-		"category_44" "1"
 		"category_49" "1"
 		"category_36" "1"
-		"category_37" "1"
 		"category_38" "1"
-		"category_39" "1"
 		"category_25" "1"
 		"category_45" "1"
 		"category_46" "1"
 		"category_18" "1"
 		"category_13" "1"
 		"category_15" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -187,6 +184,21 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"ukrainian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1397488080"
 	"metacritic_score" "62"
@@ -201,8 +213,8 @@
 		"1" "3835"
 		"2" "1685"
 		"3" "1667"
-		"4" "1663"
-		"5" "8122"
+		"4" "8122"
+		"5" "1663"
 		"6" "1669"
 		"7" "6730"
 		"8" "3839"
@@ -234,6 +246,8 @@
 	"visibleonlywhensubscribed" "1"
 	"serverbrowsername" "Contagion"
 	"publisher" "Monochrome, Inc"
+	"listofdlc" "2733030"
+	"dlcavailableonstore" "1"
 }
 "config"
 {
@@ -247,16 +261,6 @@
 			"arguments" "-steam"
 			"description" "Play Contagion"
 			"type" "none"
-			"config"
-			{
-				"oslist" "windows"
-			}
-		}
-		"1"
-		{
-			"executable" "bin/ContagionSDK.exe"
-			"description" "Contagion SDK"
-			"type" "editor"
 			"config"
 			{
 				"oslist" "windows"
@@ -333,9 +337,9 @@
 		{
 			"public"
 			{
-				"gid" "4717319022634782758"
-				"size" "3147351835"
-				"download" "415945664"
+				"gid" "2158501781831058984"
+				"size" "210871343"
+				"download" "75208560"
 			}
 		}
 		"encryptedmanifests"
@@ -366,9 +370,9 @@
 			}
 			"quality_assurance"
 			{
-				"gid" "B46B5BEFD108CD854439F60DE3CE6E96"
-				"size" "70727DC3AEED946353CFD4406FCD1182"
-				"download" "A5C7CA0A27F0386BA13CD3F275837300"
+				"gid" "ECBD3E06E88C5216E798F4D26DEC154E"
+				"size" "664D1AFE8B70F7FB2E1D85FCA98A6E5D"
+				"download" "D49F6366777693E58603A2E424B8EADC"
 			}
 		}
 	}
@@ -378,9 +382,9 @@
 		{
 			"public"
 			{
-				"gid" "4765028849489794505"
-				"size" "12981910168"
-				"download" "4321326176"
+				"gid" "171430618565860390"
+				"size" "14060156971"
+				"download" "4570088352"
 			}
 		}
 		"encryptedmanifests"
@@ -393,9 +397,9 @@
 			}
 			"quality_assurance"
 			{
-				"gid" "A635661710FEC5500DCD0AC62C178F46"
-				"size" "5B3D41104C716BB629DE6FBFBDA16BDD"
-				"download" "1F67CF3DBD1FA93A38C8929A29C5AC9B"
+				"gid" "E9AC310E85CCE363C8C6CC28870AB29A"
+				"size" "A5A0E3C2322DC0EE1FDF8AD4058032E9"
+				"download" "E2A62647125C802FF668748DB11AAE62"
 			}
 		}
 	}
@@ -404,14 +408,20 @@
 		"dlcappid" "2733030"
 		"manifests"
 		{
+			"public"
+			{
+				"gid" "1485316531821900533"
+				"size" "6264952"
+				"download" "4129536"
+			}
 		}
 		"encryptedmanifests"
 		{
 			"quality_assurance"
 			{
-				"gid" "B42C3A78727858C1845AE158AAD72D1E"
-				"size" "C43982444D7457BF68CA60974801BBE2"
-				"download" "1E88876F4A760B6262DDA6627E2FC27B"
+				"gid" "C61D93611D952B2399B4BABB95A15528"
+				"size" "409F54A84F9345A8502565B44F6FFB6F"
+				"download" "73169DDE1A607F4803C1801D268AED3A"
 			}
 		}
 	}
@@ -419,8 +429,8 @@
 	{
 		"public"
 		{
-			"buildid" "11650921"
-			"timeupdated" "1688746204"
+			"buildid" "14675534"
+			"timeupdated" "1718204520"
 		}
 		"2013-build"
 		{
@@ -448,16 +458,16 @@
 		}
 		"quality_assurance"
 		{
-			"buildid" "13279024"
+			"buildid" "15189894"
 			"pwdrequired" "1"
-			"timeupdated" "1706251437"
+			"timeupdated" "1722278700"
 		}
 	}
 }
 "ufs"
 {
 	"quota" "1073741824"
-	"maxnumfiles" "129"
+	"maxnumfiles" "10000"
 }
 "localization"
 {
@@ -523,7 +533,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "22061858"
-"_sha" "74288c67dd1cea52d552d4d521e7710d27babdcc"
-"_size" "11648"
