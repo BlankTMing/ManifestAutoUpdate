@@ -1,0 +1,280 @@
+"appid" "549240"
+"common"
+{
+	"name" "Beans: The Coffee Shop Simulator"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "85c4e7e08707cac26725ed7b0cfc2fbe0972035c"
+	"logo_small" "85c4e7e08707cac26725ed7b0cfc2fbe0972035c_thumb"
+	"icon" "24b1ac2b1cd2898249bbbb13452d80a80f29a601"
+	"clienttga" "c87deeae293bdc5bc24cd766418d617a60ac6b9c"
+	"clienticon" "377d3f12385ff649c5e931667bc0d0aba03d92bf"
+	"clienticns" "282403c426b322888bb386f4bdfa338ab4c4f464"
+	"linuxclienticon" "8ab0070462c4a576938b90d504836a3b8fa0491a"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1659052800"
+		"tested_build_id" "8233213"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Beans: The Coffee Shop Simulator"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50.34883720930233"
+			"height_pct" "51.51982901923533"
+		}
+	}
+	"store_asset_mtime" "1646161675"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Whitethorn Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Whitethorn Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Whitethorn Games"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1498857491"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "549240"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "597"
+		"2" "492"
+		"3" "12472"
+		"4" "3871"
+		"5" "3964"
+		"6" "7208"
+		"7" "1719"
+		"8" "379975"
+		"9" "5923"
+		"10" "4004"
+		"11" "8945"
+		"12" "4182"
+		"13" "5350"
+		"14" "1742"
+		"15" "16689"
+		"16" "4726"
+		"17" "3920"
+		"18" "4845"
+		"19" "4695"
+	}
+	"review_score" "5"
+	"review_percentage" "68"
+}
+"extended"
+{
+	"developer" "Whitethorn Games"
+	"publisher" "Whitethorn Games"
+	"homepage" "http://www.coffeebeansgame.com"
+	"listofdlc" "648080"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "BeansTheCoffeeShopSimulator"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "win64/nw.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Launch"
+			}
+			"description" "Launch"
+		}
+		"1"
+		{
+			"executable" "win32/nw.exe"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"2"
+		{
+			"executable" "osx64/beansthecoffeeshopsimulator.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "linux64/nw"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"4"
+		{
+			"executable" "linux32/nw"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"hasdepotsindlc" "1"
+	"549241"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8802993860023840273"
+				"size" "1859527611"
+				"download" "618831312"
+			}
+		}
+	}
+	"549242"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2250973451434773500"
+				"size" "302173594"
+				"download" "162396176"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8233213"
+			"timeupdated" "1645222388"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "30000"
+	"maxnumfiles" "100"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "BeansTheCoffeeShopSimulator"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
