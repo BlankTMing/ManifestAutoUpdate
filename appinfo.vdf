@@ -1,0 +1,224 @@
+"appid" "215770"
+"common"
+{
+	"name" "Shad\'O"
+	"type" "Game"
+	"languages"
+	{
+		"english" "1"
+		"french" "1"
+	}
+	"clienticon" "902d8faad6af1c2e50fc8ad57718de5c01991e95"
+	"clienttga" "832075a6979710c8a6683b5e7c8ad1495ceba8e7"
+	"icon" "68597db6dece859baf51c1f8a737fae856d90b40"
+	"logo" "52e6bf9363e1a30be96e2f7de4ba75a90348f839"
+	"logo_small" "52e6bf9363e1a30be96e2f7de4ba75a90348f839_thumb"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1670889600"
+		"tested_build_id" "103710"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-5"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Shad\'O"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1457345723"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Okugi Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Okugi Sudio"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1346779920"
+	"metacritic_score" "68"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/shado\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "215770"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "1645"
+		"2" "9"
+		"3" "19"
+		"4" "4182"
+	}
+	"review_score" "5"
+	"review_percentage" "55"
+}
+"extended"
+{
+	"developer" "Okugi Studio"
+	"gamedir" "Shad\'O"
+	"homepage" "http://www.okugistudio.com/2011/09/upcoming-game-on-pc-mac/"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Okugi Sudio"
+	"gamemanualurl" "https://store.steampowered.com/manual/215770/"
+	"listofdlc" "215772"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "ShadO"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "shado.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptoverride" "1"
+	"installscriptsignature" "a7e8ccf68f0008b3455da29279dfc1a849bfb4dfb93656af1f3fa26a732cf0443e682f22372adf503fff9e1e61c9f84867893c54c07942143ac4b9f3a196f19973b39bd7a2168caf99e84ff72bce7dcbd13ddb4c042b1c113622f7fb7802728a74d553157a9e3d6b7d7e364b6f08b46ceb06dd7fad62dd2c726d458e68511cad"
+}
+"install"
+{
+	"run process"
+	{
+		"vc10"
+		{
+			"process 1" "%INSTALLDIR%\\Prerequisites\\vcredist_x86.exe"
+			"command 1" "/q /norestart"
+			"nocleanup" "1"
+		}
+		"appleapplicationsupport"
+		{
+			"process 1" "msiexec.exe"
+			"command 1" "/i \"%INSTALLDIR%\\Prerequisites\\AppleApplicationSupport.msi\" /quiet /norestart allusers=1"
+			"nocleanup" "1"
+		}
+		"quicktime"
+		{
+			"process 1" "msiexec.exe"
+			"command 1" "/i \"%INSTALLDIR%\\Prerequisites\\QuickTime.msi\" /quiet /norestart DESKTOP_SHORTCUTS=0 SCHEDULE_ASUW=0 ASUWISINSTALLED=0 REENABLEAUTORUN=0"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"215771"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6661912311425627949"
+				"size" "1270079511"
+				"download" "0"
+			}
+		}
+	}
+	"215772"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3034873424451967806"
+				"size" "313135583"
+				"download" "0"
+			}
+		}
+		"dlcappid" "215772"
+	}
+	"overridescddb" "1"
+	"hasdepotsindlc" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "103710"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000"
+	"maxnumfiles" "4"
+}
