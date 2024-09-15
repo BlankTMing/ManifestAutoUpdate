@@ -34,8 +34,6 @@
 		"0" "2"
 		"1" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "3"
@@ -85,6 +83,7 @@
 		}
 	}
 	"metacritic_name" "Trepang2"
+	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
 	{
@@ -108,7 +107,53 @@
 			"height_pct" "38.59542797963009"
 		}
 	}
-	"store_asset_mtime" "1687368917"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+				"schinese" "library_hero_schinese.jpg"
+			}
+			"image2x"
+			{
+				"schinese" "library_hero_schinese_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "100"
+				"height_pct" "38.59542797963009"
+			}
+		}
+	}
+	"store_asset_mtime" "1721899446"
 	"associations"
 	{
 		"0"
@@ -141,6 +186,9 @@
 		"category_22" "1"
 		"category_23" "1"
 		"category_28" "1"
+		"category_55" "1"
+		"category_57" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -196,44 +244,44 @@
 			"subtitles" "true"
 		}
 	}
-	"steam_release_date" "1687363202"
-	"metacritic_score" "78"
+	"steam_release_date" "1687363200"
+	"metacritic_score" "79"
 	"metacritic_fullurl" "https://www.metacritic.com/game/pc/trepang2\?ftag=MCD-06-10aaa1f"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "1164940"
 	"store_tags"
 	{
-		"0" "4345"
-		"1" "1663"
-		"2" "4667"
-		"3" "19"
+		"0" "4182"
+		"1" "1774"
+		"2" "4345"
+		"3" "1663"
 		"4" "1667"
-		"5" "5796"
-		"6" "3839"
-		"7" "4182"
-		"8" "1774"
+		"5" "4667"
+		"6" "19"
+		"7" "3839"
+		"8" "5796"
 		"9" "5228"
 		"10" "492"
 		"11" "1734"
 		"12" "1721"
-		"13" "1756"
+		"13" "1023537"
 		"14" "1687"
 		"15" "4166"
-		"16" "493"
+		"16" "3993"
 		"17" "3942"
 		"18" "4026"
-		"19" "12095"
+		"19" "5363"
 	}
 	"review_score" "8"
-	"review_percentage" "94"
+	"review_percentage" "93"
 }
 "extended"
 {
 	"developer" "Trepang Studios"
 	"publisher" "Team17"
 	"homepage" "http://www.trepang2.com"
-	"listofdlc" "2615910,2656880"
+	"listofdlc" "2615910,2615920,2656880"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -274,9 +322,9 @@
 		{
 			"public"
 			{
-				"gid" "3919241817497165807"
-				"size" "30648241583"
-				"download" "14376649280"
+				"gid" "2586365741953940983"
+				"size" "33376916501"
+				"download" "15395539056"
 			}
 		}
 		"encryptedmanifests"
@@ -305,11 +353,17 @@
 				"size" "0DD6502FEFF52E30023B0066CC394F21"
 				"download" "8BF168D7FBCB0F09DF2AE0C2897F20D3"
 			}
+			"bladekisser_press"
+			{
+				"gid" "167123C34D9C031F36765A2C18DD4D20"
+				"size" "E7640F37643484AB9B54E95C6816ABF9"
+				"download" "C3DA0BB4139E46A326ADC5FE42BD8AD2"
+			}
 			"qa_testing"
 			{
-				"gid" "C572A08C8FB53FDDA99196672AC1B4BE"
-				"size" "DC862B7CE696C0BF89AFB6FB945E5F4B"
-				"download" "CD8CE2E9DD19DB6424505951E31F5248"
+				"gid" "91E38075759814146EAC9ACC055C6FC2"
+				"size" "1EBCDB204D485CCE53E955BE0B4B07A5"
+				"download" "9E6F5828AEDCD8958045A59158485DDE"
 			}
 		}
 	}
@@ -344,8 +398,8 @@
 	{
 		"public"
 		{
-			"buildid" "12574001"
-			"timeupdated" "1698765714"
+			"buildid" "15205727"
+			"timeupdated" "1723446797"
 		}
 		"age_ratings"
 		{
@@ -377,12 +431,6 @@
 			"pwdrequired" "1"
 			"timeupdated" "1687250151"
 		}
-		"qa_testing"
-		{
-			"buildid" "13034877"
-			"pwdrequired" "1"
-			"timeupdated" "1703307032"
-		}
 		"testbeta5"
 		{
 			"buildid" "8603643"
@@ -394,6 +442,18 @@
 			"buildid" "8806608"
 			"pwdrequired" "1"
 			"timeupdated" "1654017379"
+		}
+		"bladekisser_press"
+		{
+			"buildid" "15046890"
+			"pwdrequired" "1"
+			"timeupdated" "1721397961"
+		}
+		"qa_testing"
+		{
+			"buildid" "15205727"
+			"pwdrequired" "1"
+			"timeupdated" "1722382025"
 		}
 	}
 }
@@ -434,7 +494,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "21654902"
-"_sha" "7d504554fcd0e2c29a56bf74eba682786352fe13"
-"_size" "8287"
