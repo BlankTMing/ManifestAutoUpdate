@@ -1,0 +1,575 @@
+"appid" "513320"
+"common"
+{
+	"name" "ALICE VR"
+	"type" "Game"
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"clienticon" "fa3ecb53748f99128fd813ced7c3315adbf747e8"
+	"clienttga" "d820990374c2b4bb7f8f421e04e7a459e9aa53f3"
+	"icon" "c185faaf4dbfa330d1138b4c111be89a8a9459ce"
+	"clienticns" "73bff928408c582b5a8d876d7f2b95ac842f0bb9"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"spanish" "1"
+		"russian" "1"
+		"polish" "1"
+	}
+	"controllervr"
+	{
+		"steamvr" "1"
+		"xinput" "1"
+		"kbm" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+	}
+	"logo" "f96b95801438b957109894b4c4fc0f376dd25aae"
+	"logo_small" "f96b95801438b957109894b4c4fc0f376dd25aae_thumb"
+	"releasestate" "released"
+	"linuxclienticon" "d715fd16b60b0221e3c431107513530b3353478e"
+	"osvrsupport" "1"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"metacritic_name" "ALICE VR"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1667917747"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Carbon Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Klabater"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Klabater"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1477565959"
+	"metacritic_score" "55"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/alice-vr\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "513320"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "21978"
+		"3" "3834"
+		"4" "5716"
+	}
+	"review_score" "4"
+	"review_percentage" "37"
+}
+"extended"
+{
+	"developer" "Carbon Studio"
+	"publisher" "Klabater"
+	"homepage" "http://alice-vr.com"
+	"gamemanualurl" "https://store.steampowered.com/manual/513320/"
+	"listofdlc" "530670,530671,544620,612870"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "ALICE VR"
+	"launch"
+	{
+		"3"
+		{
+			"executable" "ALICE.exe"
+			"arguments" "-target 1"
+			"description" "Default"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"4"
+		{
+			"executable" "ALICE.exe"
+			"arguments" "-target 2"
+			"description" "Oculus Rift"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"5"
+		{
+			"executable" "ALICE.exe"
+			"arguments" "-target 3"
+			"description" "HTC VIVE"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"6"
+		{
+			"executable" "ALICE.exe"
+			"arguments" "-target 4"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "OSVR HDK2"
+			}
+			"description" "OSVR HDK2"
+		}
+		"7"
+		{
+			"executable" "ALICE.exe"
+			"arguments" "-target 5"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "HDK2 OSVR"
+			}
+			"description" "HDK2 OSVR"
+		}
+		"8"
+		{
+			"executable" "ALICE.exe"
+			"arguments" "-target 6"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "OSVR HDK2 (reversed controls & HUD)"
+			}
+			"description" "OSVR HDK2 (reversed controls & HUD)"
+		}
+		"9"
+		{
+			"executable" "ALICE.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,spanish,schinese,tchinese,russian,polish"
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229033"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"513321"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1646150157609617544"
+				"size" "8970199370"
+				"download" "8855362208"
+			}
+			"legacy"
+			{
+				"gid" "2349281175264795041"
+				"size" "8172299838"
+				"download" "8096099104"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta_loc_branch"
+			{
+				"gid" "CA2C16FC2A1E2A66A01B61FB5292B250"
+				"size" "AB4D2E972DED0971E9603405E4B662A6"
+				"download" "37606A92772E0F14496EA4508EA2388C"
+			}
+			"dev_internal_branch"
+			{
+				"gid" "B18AA4434CE507E77C27160B1A205941"
+				"size" "555E3E2F7DAF60874C0C1126DD09536D"
+				"download" "861A8E412523CFBDB215EE2FA4E1942F"
+			}
+		}
+	}
+	"513322"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "79931574517506438"
+				"size" "0"
+				"download" "0"
+			}
+			"legacy"
+			{
+				"gid" "7134851437581236672"
+				"size" "3338749880"
+				"download" "3333885600"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta_loc_branch"
+			{
+				"gid" "1EE14AC03D99A0E0B435EB02BE1DEC7D"
+				"size" "171BA008F0FF3551DCBEEC578F11E7E4"
+				"download" "171BA008F0FF3551DCBEEC578F11E7E4"
+			}
+			"dev_internal_branch"
+			{
+				"gid" "2A07B82870DD7FF440DA7A3F27F5FAA6"
+				"size" "D608C79BBF4C1715B3E1D8415BF8BAAB"
+				"download" "D608C79BBF4C1715B3E1D8415BF8BAAB"
+			}
+		}
+	}
+	"530670"
+	{
+		"dlcappid" "530670"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2013020044397712650"
+				"size" "1095251290"
+				"download" "905571792"
+			}
+			"legacy"
+			{
+				"gid" "2013020044397712650"
+				"size" "1095251290"
+				"download" "905571792"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta_loc_branch"
+			{
+				"gid" "816B70F4D0954A6C42D6B549DD4C05D4"
+				"size" "BB3EDA3EA87F8E239D81D8F2A927AF61"
+				"download" "7BB2F1CB62301B06E8E9BF0BCAA949AD"
+			}
+			"dev_internal_branch"
+			{
+				"gid" "0B0D73AD91CBB063DB22D0D2EB37565F"
+				"size" "4ABBAD0EC681B232990AB02147038451"
+				"download" "D118A6D043A63F137A0830008CCD3BDA"
+			}
+		}
+	}
+	"530671"
+	{
+		"dlcappid" "530671"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4557314950196578938"
+				"size" "451436688"
+				"download" "358174688"
+			}
+			"legacy"
+			{
+				"gid" "4557314950196578938"
+				"size" "451436688"
+				"download" "358174688"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta_loc_branch"
+			{
+				"gid" "BD0766332F3084170C7F559FE7D31029"
+				"size" "DDEAF84A623DDC7D7DF09DB098454B8F"
+				"download" "C3E906807A0FAEDB2D7284A6A530A313"
+			}
+			"dev_internal_branch"
+			{
+				"gid" "62D01B8BD01902E14608F10394C65FA8"
+				"size" "C45D8A8402452C0644860406FACEEDE7"
+				"download" "8F14AF494F9D7D1993CF3BDB72AAB02B"
+			}
+		}
+	}
+	"544620"
+	{
+		"dlcappid" "544620"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4816681018804892247"
+				"size" "784324448"
+				"download" "789712128"
+			}
+			"legacy"
+			{
+				"gid" "4816681018804892247"
+				"size" "784324448"
+				"download" "789712128"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta_loc_branch"
+			{
+				"gid" "09BCA3CF9C8D9820425CD0436CEB24E1"
+				"size" "64E19041718A04C8E09E0EE33EB26FB6"
+				"download" "3105464CA36D31D5A806120BD2E534D7"
+			}
+			"dev_internal_branch"
+			{
+				"gid" "A05A702937B40778258F179DAEC9DBDB"
+				"size" "C483F075230BDAD2B281A50CD6B1B7B5"
+				"download" "EA70E34822C90F57271AD688641BBCAB"
+			}
+		}
+	}
+	"513323"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3271906696192113006"
+				"size" "9104771971"
+				"download" "8616159376"
+			}
+			"legacy"
+			{
+				"gid" "3271906696192113006"
+				"size" "9104771971"
+				"download" "8616159376"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta_loc_branch"
+			{
+				"gid" "0B699CCF5E83AD4F38B25CAD4D443350"
+				"size" "C7FA76BC070C2C859F8818A3B0B6E24F"
+				"download" "03FFE8A6C07A06C65C25C100B6FE368A"
+			}
+			"dev_internal_branch"
+			{
+				"gid" "716E52CAD2338B92923B43AB5F4A60FE"
+				"size" "FBEE31CFDA2A55CFFE497CEDF8005619"
+				"download" "69625779D83453CFC93EB37566609752"
+			}
+		}
+	}
+	"612870"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5467136075960186464"
+				"size" "637439407"
+				"download" "634614432"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta_loc_branch"
+			{
+				"gid" "41080F5A4EA8379B8FF77C5C3AD3BC2A"
+				"size" "7B89F415D408763F189BE2C9554934AA"
+				"download" "BB11489AF8E33A99E54E844F0D3FF71C"
+			}
+			"dev_internal_branch"
+			{
+				"gid" "7964079BF648E049791033CFC67F32C5"
+				"size" "8812CFD5684FDC2F878861C027DB10F5"
+				"download" "9161A3BE03DAB87379F84E0802B64E5A"
+			}
+		}
+		"dlcappid" "612870"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1801899"
+			"timeupdated" "1494256439"
+		}
+		"beta_loc_branch"
+		{
+			"buildid" "1801899"
+			"pwdrequired" "1"
+			"timeupdated" "1493975695"
+		}
+		"dev_internal_branch"
+		{
+			"buildid" "1801899"
+			"pwdrequired" "1"
+			"timeupdated" "1493975709"
+		}
+		"legacy"
+		{
+			"buildid" "1635807"
+			"description" "Alice VR patch 6 (W7 compatible)"
+			"timeupdated" "1493971641"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "210000000"
+	"maxnumfiles" "6"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "ALICE/Saved/SaveGames/"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
