@@ -1,0 +1,206 @@
+"appid" "497470"
+"common"
+{
+	"name" "D.N.Age"
+	"type" "Game"
+	"oslist" "windows"
+	"logo" "0a48de5536d1423b899513aa4c60cd34c313b77b"
+	"logo_small" "0a48de5536d1423b899513aa4c60cd34c313b77b_thumb"
+	"icon" "447df384fcfdf9ad0a743094b2b012c8cf1ddd39"
+	"clienticon" "7035ac5f4c0fd75cc2949adfec9e875363292930"
+	"clienttga" "71b4d1e30c9695945f8e720ab2bc51fceac1872d"
+	"languages"
+	{
+		"english" "1"
+		"japanese" "1"
+	}
+	"releasestate" "released"
+	"metacritic_name" "D.N.Age"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1476175019"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "REMIMORY"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "REMIMORY"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "3"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1469815107"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "497470"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "122"
+		"2" "492"
+		"3" "9"
+		"4" "4085"
+		"5" "4434"
+		"6" "21"
+		"7" "1684"
+		"8" "7208"
+		"9" "4182"
+		"10" "4726"
+		"11" "1708"
+		"12" "3871"
+		"13" "4166"
+		"14" "4711"
+		"15" "1734"
+		"16" "3834"
+		"17" "4305"
+		"18" "10397"
+		"19" "13782"
+	}
+	"review_score" "5"
+	"review_percentage" "50"
+}
+"extended"
+{
+	"developer" "REMIMORY"
+	"publisher" "REMIMORY"
+	"homepage" "http://remimory.com/press/sheet.php\?p=DNAge"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "D.N.Age"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "D.N.Age.exe"
+			"description" "D.N.Age"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "D.N.Age.exe"
+			"arguments" "cfg"
+			"type" "config"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"497471"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2525795119372444849"
+				"size" "80592672"
+				"download" "63660096"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1260980"
+			"timeupdated" "1470252436"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "150000000"
+	"maxnumfiles" "5"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "DB"
+			"pattern" "user.db"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "DB"
+			"pattern" "config.eca"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
