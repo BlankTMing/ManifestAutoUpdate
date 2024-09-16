@@ -22,31 +22,26 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1683676800"
-		"tested_build_id" "11069161"
+		"test_timestamp" "1723593600"
+		"tested_build_id" "15028736"
 		"tests"
 		{
 			"0"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
-			}
-			"1"
-			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-			}
-			"2"
-			{
-				"display" "3"
 				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
 			}
-			"3"
+			"1"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
-			"4"
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
@@ -54,20 +49,23 @@
 		}
 		"configuration"
 		{
-			"supported_input" "other"
-			"requires_manual_keyboard_invoke" "1"
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "1"
+			"non_deck_display_glyphs" "0"
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-8.0-1"
+			"recommended_runtime" "proton-stable"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Desktop Dungeons: Rewind"
+	"controllertagwizard" "1"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -83,6 +81,7 @@
 		"library_capsule" "en,zh-cn"
 		"library_hero" "en"
 		"library_logo" "en,zh-cn"
+		"library_header" "zh-cn,en"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -90,7 +89,61 @@
 			"height_pct" "84.375"
 		}
 	}
-	"store_asset_mtime" "1708354991"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "37.845303867403324"
+				"height_pct" "84.375"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"schinese" "library_header_schinese.jpg"
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1720684459"
 	"associations"
 	{
 		"0"
@@ -127,6 +180,12 @@
 		"category_22" "1"
 		"category_25" "1"
 		"category_23" "1"
+		"category_28" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -141,6 +200,16 @@
 			"subtitles" "true"
 		}
 		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"latam"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"spanish"
 		{
 			"supported" "true"
 			"subtitles" "true"
@@ -176,7 +245,7 @@
 		"19" "7948"
 	}
 	"review_score" "6"
-	"review_percentage" "78"
+	"review_percentage" "77"
 }
 "extended"
 {
@@ -200,6 +269,7 @@
 			}
 		}
 	}
+	"steamdecktouchscreen" "4"
 }
 "depots"
 {
@@ -209,24 +279,24 @@
 		{
 			"public"
 			{
-				"gid" "2642264702839481147"
-				"size" "729279279"
-				"download" "358766000"
+				"gid" "1465056999353713608"
+				"size" "675092541"
+				"download" "305059152"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"debug"
-			{
-				"gid" "FC885711F4C38034A4F16E3A8F73EBF2"
-				"size" "425E314D25A85BCB7B6A7F12478EE01D"
-				"download" "D8FC8E67B9471B1EED8B6ECEC99B93C6"
-			}
 			"loctest"
 			{
 				"gid" "638B0D4BBB75104A154363AE352105D8"
 				"size" "DBBD7483EC0B4C3234C6EE58473CF1F4"
 				"download" "76003F2727F81A9FEBA1D58490659601"
+			}
+			"debug"
+			{
+				"gid" "6270238D89F415BDF1191958AD06F1BC"
+				"size" "F2808FA87890D1C0BB8CB94CB4A36D4F"
+				"download" "B925E88E625437DF9D0EC2EF2F257ECA"
 			}
 		}
 	}
@@ -234,20 +304,20 @@
 	{
 		"public"
 		{
-			"buildid" "12515369"
-			"timeupdated" "1698230688"
-		}
-		"debug"
-		{
-			"buildid" "12393583"
-			"pwdrequired" "1"
-			"timeupdated" "1696858073"
+			"buildid" "15028736"
+			"timeupdated" "1720964111"
 		}
 		"loctest"
 		{
 			"buildid" "12425126"
 			"pwdrequired" "1"
 			"timeupdated" "1697124793"
+		}
+		"debug"
+		{
+			"buildid" "14925034"
+			"pwdrequired" "1"
+			"timeupdated" "1720051722"
 		}
 	}
 }
@@ -273,7 +343,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "22817955"
-"_sha" "eeb4b07a9dc78a10c110edad5dc3f9340cf5bd8a"
-"_size" "5191"
