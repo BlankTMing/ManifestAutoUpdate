@@ -1,0 +1,335 @@
+"appid" "238890"
+"common"
+{
+	"name" "Skyward Collapse"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "0eb1965202dbbeb82fed1152e1620f14518678bb"
+	"logo_small" "0eb1965202dbbeb82fed1152e1620f14518678bb_thumb"
+	"icon" "a03de1ec95a42e10836809767fb6fc2783ed5a42"
+	"clienttga" "e434d2e2b52285352aab345776475ecfaab57e0f"
+	"clienticon" "505505beb9435e8e02fa4909085939a3df309935"
+	"clienticns" "12200182c65c6a291aaf03fd9bb637082a3967bd"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1679097600"
+		"tested_build_id" "485696"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Skyward Collapse"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1451418123"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Arcen Games, LLC"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Arcen Games, LLC"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Arcen Strategy"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Arcen Tactics"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_27" "1"
+		"category_9" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_38" "1"
+		"category_48" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"metacritic_score" "64"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/skyward-collapse\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "238890"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "599"
+		"2" "492"
+		"3" "1677"
+		"4" "5300"
+		"5" "1684"
+		"6" "1741"
+		"7" "5125"
+		"8" "5851"
+		"9" "16094"
+		"10" "7569"
+		"11" "8945"
+		"12" "13782"
+		"13" "14139"
+		"14" "4325"
+		"15" "1678"
+		"16" "3987"
+		"17" "4328"
+		"18" "4182"
+		"19" "4057"
+	}
+	"review_score" "5"
+	"review_percentage" "45"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" "Arcen Games, LLC"
+	"gamedir" "ValveTestApp238890"
+	"homepage" "http://arcengames.com/skyward-collapse/"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateComingSoonNoPreload"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Arcen Games, LLC"
+	"listofdlc" "238900"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Skyward Collapse"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Collapse.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Collapse.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "CollapseLinux.x86"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "CollapseLinux.x86_64"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"238891"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2078215853714511949"
+				"size" "110955771"
+				"download" "109352304"
+			}
+			"v2_004_pre_osx_10_6_requirements"
+			{
+				"gid" "587596091724410440"
+				"size" "110955561"
+				"download" "0"
+			}
+		}
+	}
+	"238892"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6591420468418269710"
+				"size" "61672678"
+				"download" "18484464"
+			}
+			"v2_004_pre_osx_10_6_requirements"
+			{
+				"gid" "1560171339707625985"
+				"size" "40770329"
+				"download" "0"
+			}
+		}
+	}
+	"238893"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8610393519904778140"
+				"size" "131251353"
+				"download" "33591600"
+			}
+			"v2_004_pre_osx_10_6_requirements"
+			{
+				"gid" "4516503937146391774"
+				"size" "58103999"
+				"download" "0"
+			}
+		}
+	}
+	"238900"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1137331494273309277"
+				"size" "76026957"
+				"download" "75692704"
+			}
+			"v2_004_pre_osx_10_6_requirements"
+			{
+				"gid" "1137331494273309277"
+				"size" "76026957"
+				"download" "0"
+			}
+		}
+		"dlcappid" "238900"
+	}
+	"238894"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6676256108564368543"
+				"size" "116144950"
+				"download" "28825408"
+			}
+			"v2_004_pre_osx_10_6_requirements"
+			{
+				"gid" "6676256108564368543"
+				"size" "116144950"
+				"download" "28825408"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "485696"
+		}
+		"v2_004_pre_osx_10_6_requirements"
+		{
+			"buildid" "5146208"
+			"timeupdated" "1591802969"
+		}
+	}
+}
