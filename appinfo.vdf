@@ -13,46 +13,41 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1664236800"
-		"tested_build_id" "7447094"
+		"test_timestamp" "1718928000"
+		"tested_build_id" "14365438"
 		"tests"
 		{
 			"0"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
 			}
 			"1"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-			}
-			"2"
-			{
-				"display" "3"
 				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
 			}
-			"3"
+			"2"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
-			"4"
+			"3"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
-			"5"
+			"4"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
 			}
-			"6"
+			"5"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
-			"7"
+			"6"
 			{
 				"display" "1"
 				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
@@ -62,15 +57,16 @@
 		{
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "1"
-			"requires_non_controller_launcher_nav" "1"
+			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
 			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-7.0-4"
+			"recommended_runtime" "proton-experimental"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Fallout 3"
@@ -93,6 +89,48 @@
 			"pinned_position" "BottomLeft"
 			"width_pct" "52.80046674445741"
 			"height_pct" "55.69935882213251"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "52.80046674445741"
+				"height_pct" "55.69935882213251"
+			}
 		}
 	}
 	"store_asset_mtime" "1574460527"
@@ -162,11 +200,11 @@
 		"4" "3834"
 		"5" "3839"
 		"6" "3942"
-		"7" "21"
-		"8" "1669"
+		"7" "1669"
+		"8" "21"
 		"9" "19"
-		"10" "1663"
-		"11" "4166"
+		"10" "4166"
+		"11" "1663"
 		"12" "1774"
 		"13" "4747"
 		"14" "1697"
@@ -206,8 +244,7 @@
 	{
 		"0"
 		{
-			"executable" "FalloutLauncherSteam.exe"
-			"type" "none"
+			"executable" "Fallout3Launcher.exe"
 		}
 		"1"
 		{
@@ -216,6 +253,19 @@
 			"config"
 			{
 				"betakey" "beta"
+			}
+			"description_loc"
+			{
+				"english" "Test Branch"
+			}
+			"description" "Test Branch"
+		}
+		"2"
+		{
+			"executable" "Fallout3Launcher.exe"
+			"config"
+			{
+				"betakey" "vine"
 			}
 			"description_loc"
 			{
@@ -254,9 +304,9 @@
 		{
 			"public"
 			{
-				"gid" "7414504515121985658"
-				"size" "6192314920"
-				"download" "5737685728"
+				"gid" "2329076020665736242"
+				"size" "6192609672"
+				"download" "5737804208"
 			}
 		}
 		"encryptedmanifests"
@@ -290,6 +340,12 @@
 				"gid" "E575BEF8E4A6E4007BA2D00CE52A7E5A"
 				"size" "BC25BB06B596519747885B95ADA3DBD2"
 				"download" "0A0644AD6FE60B35E574C3EF8F3B6AB4"
+			}
+			"vine"
+			{
+				"gid" "6E9DDEC458F1A8301AC70ABEFF1257D5"
+				"size" "1FD770A51F1FBCD5BAC5CB31A37443E7"
+				"download" "82D786A9F3070401AEEB85F25B254957"
 			}
 		}
 	}
@@ -339,6 +395,12 @@
 				"size" "6A306156B789ECBB7C5387BCAF2CD653"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "EF7A93C8FFCC2E784F02838F949C651F"
+				"size" "F5D3953E2794CA3CF853203F5B324D1B"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22430"
@@ -386,6 +448,12 @@
 				"gid" "73378ACD4AF4DA9693D3174682E279DB"
 				"size" "3B0E699D7B5265B012B81E676889B289"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
+			}
+			"vine"
+			{
+				"gid" "2AFB348400D8C433D14432753111A521"
+				"size" "6FBE7F194B2B4D65892D676C6BC02CA2"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
 			}
 		}
 	}
@@ -435,6 +503,12 @@
 				"size" "245D9DC83B81199B608B3E1C916891C4"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "065C8A9661C96DDE1BAF793CAEDFDCCC"
+				"size" "F437EBAFB73B001B31B0C8D20471FDDD"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22410"
@@ -482,6 +556,12 @@
 				"gid" "D621DEDAA6AE98D547BF768BF8D78FE4"
 				"size" "4A12258E622972335B060BC54440D644"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
+			}
+			"vine"
+			{
+				"gid" "AE28923B8A642EFB0886AA4137B7F99F"
+				"size" "021EB95DBD3BD9AD2FB2756FAE6EDC3F"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
 			}
 		}
 	}
@@ -531,6 +611,12 @@
 				"size" "07CAA27C129101EB0AF3B4D10A64C61E"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "94D3A7509845A9D253073F6C5C6C8860"
+				"size" "349D853A1A0B4231CAFFFE4B5E387D79"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22305"
@@ -541,9 +627,9 @@
 		{
 			"public"
 			{
-				"gid" "7973439610337386165"
-				"size" "5031688683"
-				"download" "0"
+				"gid" "7317209574589268"
+				"size" "5016139433"
+				"download" "4624112784"
 			}
 		}
 		"encryptedmanifests"
@@ -577,6 +663,12 @@
 				"gid" "2D970DDF9E10ACFDE5A4DDCA9BED4DFB"
 				"size" "045DEF12229DE35F7E2A1F9DAC1F7D02"
 				"download" "4366719523B1DCA82CCC763DF286B649"
+			}
+			"vine"
+			{
+				"gid" "DBF153F72B2340A067462BE321701419"
+				"size" "21B305826B779921A693E9B35BFC4ABB"
+				"download" "13757D1B2F8BCD48F6338D1861193662"
 			}
 		}
 	}
@@ -625,6 +717,12 @@
 				"size" "2F02C579648E4E515C94633F1F3B4720"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "6C4C424106D0AF70E578AFD50C78B4ED"
+				"size" "DD304BD44B1B9B8B93E857FC2E5EDC8B"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22435"
@@ -671,6 +769,12 @@
 				"gid" "E8723A5DFEA7EBADB819F60BEBF829FB"
 				"size" "6DFC792937DDC307F19DFE72DC36F87C"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
+			}
+			"vine"
+			{
+				"gid" "1A70DA803C1FADFA15CB6EB7BDA3D997"
+				"size" "58EA9A489C3E85E0540EED28711432ED"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
 			}
 		}
 	}
@@ -719,6 +823,12 @@
 				"size" "668FBE0C3228F99082E00B80AF270414"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "9AC1D33692F9B95FED7B81E5E8413D48"
+				"size" "7DD4F96C6DFB5E66827DB85A53F48F5F"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22415"
@@ -765,6 +875,12 @@
 				"gid" "FDDAB5D79508D6DBED4BB6CBCD045B37"
 				"size" "FE91A1EAA1FCC726476CF9815E4F7430"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
+			}
+			"vine"
+			{
+				"gid" "DE9C6D4CB14B86AC2E71BE4DDC97934B"
+				"size" "3CAE6C021F659A838FADEDDD13750838"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
 			}
 		}
 	}
@@ -813,6 +929,12 @@
 				"size" "0449368843DE1526F598DB119B854AF0"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "466E58D32A54A8C7CCE50941F0681194"
+				"size" "C33AB9724A3535B6ED609387913FECFD"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22302"
@@ -825,9 +947,9 @@
 		{
 			"public"
 			{
-				"gid" "5886719235619483379"
-				"size" "6084604532"
-				"download" "5633566144"
+				"gid" "8612756459633379896"
+				"size" "6084900308"
+				"download" "5633685248"
 			}
 		}
 		"encryptedmanifests"
@@ -862,6 +984,12 @@
 				"size" "67AEE8BA2B452E47C492ED8886A15FB4"
 				"download" "162C0AC24602C562C6F1454EC73B4BD7"
 			}
+			"vine"
+			{
+				"gid" "8292B7D325C8CCD4D71C0D34CB19331A"
+				"size" "6E68862E07E3D7BFA3022079F052BDAB"
+				"download" "5D87187FE11782127844BE1698A0630E"
+			}
 		}
 	}
 	"22303"
@@ -874,9 +1002,9 @@
 		{
 			"public"
 			{
-				"gid" "6139947184109179839"
-				"size" "5949085097"
-				"download" "5498016336"
+				"gid" "2652129166773567697"
+				"size" "5949380873"
+				"download" "5498134800"
 			}
 		}
 		"encryptedmanifests"
@@ -911,6 +1039,12 @@
 				"size" "9C46565F2C668F0DF978661B18701A99"
 				"download" "2D5FA50E1FE587F8A8766533A7374224"
 			}
+			"vine"
+			{
+				"gid" "5B26DB04DA317632B7ADB46ED32BDD3C"
+				"size" "D0A51A683EEB7DCC723A05BED94C2CFE"
+				"download" "60705D67717AA5984AAD784C2E6500B7"
+			}
 		}
 	}
 	"22304"
@@ -923,9 +1057,9 @@
 		{
 			"public"
 			{
-				"gid" "823336459373745255"
-				"size" "6122909716"
-				"download" "5621663040"
+				"gid" "5280050595742785365"
+				"size" "6123205492"
+				"download" "5621781552"
 			}
 		}
 		"encryptedmanifests"
@@ -960,6 +1094,12 @@
 				"size" "32AC74AA4E4863961A98AFE514EEDC3D"
 				"download" "42B86165BBF284A1FCF44E1AE90CFBF4"
 			}
+			"vine"
+			{
+				"gid" "D59F28B4DB07B6E6F709CEFEE9E2B9F8"
+				"size" "227D94BF9BBA68D0FA43F2B92FF2C689"
+				"download" "21FC1C0ABBC5854C48AAC83B74C66687"
+			}
 		}
 	}
 	"22306"
@@ -972,9 +1112,9 @@
 		{
 			"public"
 			{
-				"gid" "8271847210407271642"
-				"size" "6074854579"
-				"download" "5616773552"
+				"gid" "8896170106365657868"
+				"size" "6075150355"
+				"download" "5616893088"
 			}
 		}
 		"encryptedmanifests"
@@ -1008,6 +1148,12 @@
 				"gid" "6D1E589A4AF57CA92094F768D649FA9F"
 				"size" "DAFDF193D0BC07C69EB6AABACCA2D035"
 				"download" "2C6ECC613826F2979E049AE89A715FBC"
+			}
+			"vine"
+			{
+				"gid" "2EA4BE2AEB0D742BF650199C038F1F62"
+				"size" "6B0D4ACC0E776D0BB6EE7F373E1F2508"
+				"download" "AFFEC2C8D3EB622081EFCC6710D1C007"
 			}
 		}
 	}
@@ -1058,6 +1204,12 @@
 				"size" "0449368843DE1526F598DB119B854AF0"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "243643D298733BAE3F34C4C829E540A2"
+				"size" "C33AB9724A3535B6ED609387913FECFD"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22402"
@@ -1106,6 +1258,12 @@
 				"gid" "E303B54F098BC363B9779BF2A5FCF3FC"
 				"size" "470310EB2FA7F436F3C00190E3F93D7D"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
+			}
+			"vine"
+			{
+				"gid" "634AC1ECDBEC8EA4F5E0F260540D0965"
+				"size" "737641EE9F826E2B676C8E406FE1DE05"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
 			}
 		}
 	}
@@ -1156,6 +1314,12 @@
 				"size" "2CC346F0539D8CFC700D40059667DD47"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "3361DC276020DAF7B962FCC6E074D38B"
+				"size" "B50A297FCDC1359B2F01FAFDC150C71A"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22404"
@@ -1204,6 +1368,12 @@
 				"gid" "DF433EE929DBFD028AF2C42625B640CB"
 				"size" "0E4D7EA4720CBB49D56C94093670E529"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
+			}
+			"vine"
+			{
+				"gid" "442AC4E69D11D6ECDAC9E0FD5E543209"
+				"size" "A265C2A10F24989C17862AB0CE721D84"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
 			}
 		}
 	}
@@ -1254,6 +1424,12 @@
 				"size" "FE91A1EAA1FCC726476CF9815E4F7430"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "4742E2256090681AD2B326D190C8C6E4"
+				"size" "3CAE6C021F659A838FADEDDD13750838"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22412"
@@ -1302,6 +1478,12 @@
 				"gid" "628FABC8A96C6CA9295A1BF8615E2218"
 				"size" "C4D9A92716C0B1DCB1959490FA64F973"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
+			}
+			"vine"
+			{
+				"gid" "F9F33147835B49735DE5270C099146B1"
+				"size" "56A0810BB9DD5B54D35A5315BF49FC33"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
 			}
 		}
 	}
@@ -1352,6 +1534,12 @@
 				"size" "4308E5FD98CE6082D0A98C98EDEBAD33"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "0B51C820DB90AB7B839676A57FC8D615"
+				"size" "E26C35E35DDFE5FDA14F46A0AE2428C8"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22414"
@@ -1400,6 +1588,12 @@
 				"gid" "4E57BD52874BAFDD22E6D19A4AA56B2A"
 				"size" "DBAE95C99170608D91055888FDFE3F77"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
+			}
+			"vine"
+			{
+				"gid" "2EBB45CF982127CB03783E22A108FF2A"
+				"size" "071DDC0A552DEBAE7B4CC3E492AD1B94"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
 			}
 		}
 	}
@@ -1450,6 +1644,12 @@
 				"size" "668FBE0C3228F99082E00B80AF270414"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "0AFC2BF0A094EA37C8ABD83E35885230"
+				"size" "7DD4F96C6DFB5E66827DB85A53F48F5F"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22422"
@@ -1498,6 +1698,12 @@
 				"gid" "716AA01CF702C080E3A09DA6409A684C"
 				"size" "BC5A9CE29086D317576A44025E8E540E"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
+			}
+			"vine"
+			{
+				"gid" "A5248DC9BD909F650394C18F9F08F1FE"
+				"size" "8B6BACCA33CB8F237868F62A86B04815"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
 			}
 		}
 	}
@@ -1548,6 +1754,12 @@
 				"size" "981C222096DC8AFBA3BF0BE0EBA43DDA"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "38D74843839C1298ED74AE3598AEFC24"
+				"size" "B0E041911C9C72D12B0464C98FC9FBE9"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22424"
@@ -1596,6 +1808,12 @@
 				"gid" "5750F8AAEA1B48652E4B41CCDF48CCCB"
 				"size" "A2D724261F24808B53C9E8E515593495"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
+			}
+			"vine"
+			{
+				"gid" "AB912C8EFCB61D12A5031A56879EA4B6"
+				"size" "0A22AA5F6A18091ACB226369848506D5"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
 			}
 		}
 	}
@@ -1646,6 +1864,12 @@
 				"size" "6DFC792937DDC307F19DFE72DC36F87C"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "5A1F3855E00EBFED11802515F0F158F7"
+				"size" "58EA9A489C3E85E0540EED28711432ED"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22432"
@@ -1694,6 +1918,12 @@
 				"gid" "FC5AAEC17A46505F4C766E2ED8E056CA"
 				"size" "D13F6EBA27282496AEB840F81500E9D3"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
+			}
+			"vine"
+			{
+				"gid" "B6B9B857C9627218D2CF439B80EFB65D"
+				"size" "2D06AD3DC8A187B6D94C677FD03FF862"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
 			}
 		}
 	}
@@ -1744,6 +1974,12 @@
 				"size" "DD7957C6A78D1F61F01C3096A014521E"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "A173DF1AC25EF456118F99B2A77D4E5E"
+				"size" "24FAC7445C7A095965882E2A6A8C897D"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22434"
@@ -1792,6 +2028,12 @@
 				"gid" "1838727D0FDD2FF4938519873330687F"
 				"size" "EEF12C48A822D9F68417D95EAAF1D2BC"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
+			}
+			"vine"
+			{
+				"gid" "7F94A6FADB9325398D83FD2547F78C65"
+				"size" "98024F79530582AE27EC7A2745093B9B"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
 			}
 		}
 	}
@@ -1842,6 +2084,12 @@
 				"size" "2F02C579648E4E515C94633F1F3B4720"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "33CF9E9C8E1FDA03A7B6FA871E81B605"
+				"size" "DD304BD44B1B9B8B93E857FC2E5EDC8B"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22442"
@@ -1890,6 +2138,12 @@
 				"gid" "B28D6547EDB6F49853D9712285CF53F6"
 				"size" "91183A0E119FEC0C40701C1F1B7D58B9"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
+			}
+			"vine"
+			{
+				"gid" "16F7B0424E8C7AB503C8F8C46309ED96"
+				"size" "2F6DF3ED56867BF50289F0CCF7B1B3FA"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
 			}
 		}
 	}
@@ -1940,6 +2194,12 @@
 				"size" "328CE36040A6E6A392B57CB4D4AF9F0F"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "DDF6AD2AE9BD6E05344675CB694E313F"
+				"size" "0C3509E048B7667C2F08F2D552A6A4F7"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"22444"
@@ -1989,6 +2249,12 @@
 				"size" "E975C59857C6A45B3EC8FC8C7F69A6BC"
 				"download" "E97BAE793A0061B85E09E7A25838B916"
 			}
+			"vine"
+			{
+				"gid" "1B2FD53C9E15D9179659BEA3858FE16E"
+				"size" "5130A5A63C6A8C19CC9D5182C995E2A2"
+				"download" "2594A20C55AEF71A8913D430DFE0A7FA"
+			}
 		}
 	}
 	"461150"
@@ -2034,6 +2300,12 @@
 				"size" "27CBA59B1DB4892D0DC5F85F5B476CD0"
 				"download" "B6537A1A45A6999293088D5DA4AD5DD1"
 			}
+			"vine"
+			{
+				"gid" "534F6B8FCE62E0490BD57A6714D8A162"
+				"size" "BC9F95ED6DCF3EFD16F19EC5F96169F8"
+				"download" "C734FFE870CBDD21DD07F59D9D7CA539"
+			}
 		}
 	}
 	"2792480"
@@ -2056,8 +2328,8 @@
 	{
 		"public"
 		{
-			"buildid" "7447094"
-			"timeupdated" "1634047239"
+			"buildid" "14365438"
+			"timeupdated" "1717513236"
 		}
 		"backcatalog"
 		{
@@ -2089,14 +2361,18 @@
 			"pwdrequired" "1"
 			"timeupdated" "1710267746"
 		}
+		"vine"
+		{
+			"buildid" "14365438"
+			"pwdrequired" "1"
+			"timeupdated" "1715707732"
+		}
 	}
 }
 "ufs"
 {
 	"quota" "1000000000"
 	"maxnumfiles" "1000"
-	"hidecloudui" "1"
-	"ignoreexternalfiles" "1"
 	"savefiles"
 	{
 		"1"
@@ -2108,12 +2384,8 @@
 		"2"
 		{
 			"root" "WinMyDocuments"
-			"path" "My Games\\Fallout3\\Saves"
-			"pattern" "falloutprefs.ini"
+			"path" "My Games\\Fallout3"
+			"pattern" "FalloutPrefs.ini"
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "22976757"
-"_sha" "66cb853693d37631ace898badf4cda93b8e1c8b9"
-"_size" "46744"
