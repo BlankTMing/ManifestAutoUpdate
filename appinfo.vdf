@@ -30,37 +30,32 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1645660800"
-		"tested_build_id" "6946140"
+		"category" "3"
+		"test_timestamp" "1720483200"
+		"tested_build_id" "14670086"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"1"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"2"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
 			}
 			"3"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
-			}
-			"4"
-			{
-				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
-			"5"
+			"4"
 			{
 				"display" "1"
 				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
@@ -69,15 +64,17 @@
 		"configuration"
 		{
 			"supported_input" "gamepad"
-			"requires_manual_keyboard_invoke" "1"
+			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
 			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-2RC"
 			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"nokeyboardmouse" "1"
@@ -103,7 +100,56 @@
 			"height_pct" "61.07332822283547"
 		}
 	}
-	"store_asset_mtime" "1707744377"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "85.40250061108998"
+				"height_pct" "61.07332822283547"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1721373874"
 	"associations"
 	{
 		"0"
@@ -133,6 +179,7 @@
 		"category_46" "1"
 		"category_22" "1"
 		"category_60" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -204,25 +251,25 @@
 	"store_tags"
 	{
 		"0" "701"
-		"1" "599"
-		"2" "1753"
+		"1" "1753"
+		"2" "599"
 		"3" "4182"
 		"4" "492"
 		"5" "19"
 		"6" "4175"
 		"7" "1697"
-		"8" "3834"
-		"9" "4026"
-		"10" "5350"
-		"11" "4136"
+		"8" "4026"
+		"9" "3834"
+		"10" "4136"
+		"11" "5350"
 		"12" "493"
 		"13" "3968"
 		"14" "4747"
 		"15" "96359"
 		"16" "9204"
 		"17" "4036"
-		"18" "9"
-		"19" "3859"
+		"18" "3859"
+		"19" "9"
 	}
 	"review_score" "8"
 	"review_percentage" "84"
@@ -232,7 +279,7 @@
 	"developer" "crea-ture Studios Inc."
 	"publisher" "Nacon"
 	"homepage" "https://session-skatesim.com/"
-	"listofdlc" "2075190,2075191,2313400,2590440,2727340,2732710"
+	"listofdlc" "2075190,2075191,2313400,2590440,2727340,2732710,2877960"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -294,25 +341,13 @@
 		{
 			"public"
 			{
-				"gid" "5140086673403892168"
-				"size" "16903564111"
-				"download" "5669579760"
+				"gid" "3094203266726451285"
+				"size" "17601921089"
+				"download" "5875302032"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"crea-ture_latest"
-			{
-				"gid" "2A4EC7EEE8A7292C22FE0270445AE649"
-				"size" "0AA340F73AC2447AC03A5FCCC932FD5A"
-				"download" "03B17560B1CEA59A00AF46B71110396A"
-			}
-			"internal_build"
-			{
-				"gid" "AA500C0B220B6A6080DF55D85195C9B7"
-				"size" "E4F6FA03F418E5BE3141CA4B11A5DC6B"
-				"download" "ADC1431CE25BF0612C01DE6563AEE33A"
-			}
 			"kickstarter_dev_build"
 			{
 				"gid" "B43C75432C3AF369B2DE60283660E13E"
@@ -379,26 +414,20 @@
 				"size" "A1821A1D52B301D3B7CDB8D229B4A88F"
 				"download" "C27968E87DEE4F40A0E3B5B125CA1524"
 			}
+			"dev_latest"
+			{
+				"gid" "F422D23FF8C9F5403A01E90A288086B1"
+				"size" "74E280874F3CC02275EE18B197FEE1C0"
+				"download" "2E1DFBA8E61DE243ED4989FF182E5A63"
+			}
 		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13660299"
-			"timeupdated" "1711634403"
-		}
-		"crea-ture_latest"
-		{
-			"buildid" "13660299"
-			"pwdrequired" "1"
-			"timeupdated" "1709748686"
-		}
-		"internal_build"
-		{
-			"buildid" "6853209"
-			"pwdrequired" "1"
-			"timeupdated" "1623693518"
+			"buildid" "14977728"
+			"timeupdated" "1721289581"
 		}
 		"kickstarter_dev_build"
 		{
@@ -466,9 +495,31 @@
 			"pwdrequired" "1"
 			"timeupdated" "1663750691"
 		}
+		"dev_latest"
+		{
+			"buildid" "15655132"
+			"pwdrequired" "1"
+			"timeupdated" "1725995439"
+		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "22946617"
-"_sha" "dfe3e4c7dcae045aead10d878a6a6dfbe34d69b5"
-"_size" "9381"
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "SessionGame/Saved/Replays"
+			"pattern" "*.rep"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "SessionGame/Saved/SaveGames"
+			"pattern" "*.sav"
+		}
+	}
+}
