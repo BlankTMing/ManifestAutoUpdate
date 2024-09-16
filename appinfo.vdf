@@ -6,14 +6,19 @@
 	"clienticon" "c094e603beb0b0581ef29389ae57f3586901101c"
 	"clienttga" "e282a83b657f68dc55b811abe24704b34be65b74"
 	"icon" "894dd2a5df27390cd9b8dfe63feb568d5e612d5a"
-	"oslist" "windows"
+	"oslist" "windows,macos"
 	"osarch" ""
-	"osextended" ""
+	"osextended" "macos64,macosapplesilicon"
 	"releasestate" "released"
 	"languages"
 	{
 		"english" "1"
+		"german" "1"
+		"koreana" "1"
+		"spanish" "1"
 		"schinese" "1"
+		"japanese" "1"
+		"brazilian" "1"
 	}
 	"steam_deck_compatibility"
 	{
@@ -81,7 +86,56 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1714409521"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "61.59363160181726"
+				"height_pct" "100"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1725899105"
 	"associations"
 	{
 		"0"
@@ -129,6 +183,31 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1714406364"
 	"community_visible_stats" "1"
@@ -142,15 +221,15 @@
 		"3" "97376"
 		"4" "1702"
 		"5" "599"
-		"6" "5350"
-		"7" "6426"
+		"6" "6426"
+		"7" "5350"
 		"8" "12472"
 		"9" "6815"
 		"10" "3920"
 		"11" "4195"
 		"12" "1742"
-		"13" "4305"
-		"14" "4726"
+		"13" "4726"
+		"14" "4305"
 		"15" "3834"
 		"16" "220585"
 		"17" "1695"
@@ -158,7 +237,7 @@
 		"19" "4182"
 	}
 	"review_score" "8"
-	"review_percentage" "90"
+	"review_percentage" "89"
 }
 "extended"
 {
@@ -179,6 +258,14 @@
 				"oslist" "windows"
 			}
 		}
+		"1"
+		{
+			"executable" "Echoes of the Plum Grove.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
 	}
 	"steamcontrollertemplateindex" "4"
 	"steamdecktouchscreen" "1"
@@ -196,15 +283,9 @@
 		{
 			"public"
 			{
-				"gid" "260326245968825395"
-				"size" "3236171410"
-				"download" "595850848"
-			}
-			"demo"
-			{
-				"gid" "1266874744427250411"
-				"size" "2925136420"
-				"download" "532907664"
+				"gid" "8280060590988555541"
+				"size" "2072731468"
+				"download" "352477904"
 			}
 		}
 		"encryptedmanifests"
@@ -215,17 +296,23 @@
 				"size" "F5758C5A702CBC07C6466A515298126A"
 				"download" "AAE22C79A524D08B6C75F085E9A40625"
 			}
+			"experimental"
+			{
+				"gid" "93176768A2314B1CC38810A8518F2A2E"
+				"size" "88D97BA4D29A4D10377026D713545AF9"
+				"download" "C79C7CF8991288D8DD7B716B62EDE879"
+			}
 			"milestones"
 			{
-				"gid" "1A7B8AC4E6102AD879E5CE71476BB7FC"
-				"size" "D24B834642ABB1D06F4A2CC741CAD6F8"
-				"download" "D24C1DB93A5867541458AD6E5CCB16A2"
+				"gid" "6325D65C2A73ECAAC0562D105681AF35"
+				"size" "37392F66C4802535EB3FA5AB7F1F11AA"
+				"download" "04CB775E4562C060A16F02B1F87F1468"
 			}
 			"mods"
 			{
-				"gid" "F7E79CA395977B1E40626D51E7E38B09"
-				"size" "98948E62A7F3892FFCCDE1E26DF65477"
-				"download" "E6A0E0FD5D38BB00D5FE187BC9F68BF4"
+				"gid" "F3ADADD127709CD8C7CEE2C94F6310FF"
+				"size" "BDA0E7900B10386F07D1973E6AE8D9BE"
+				"download" "D2A5D16FD928AD26AD3F563BCA0B2738"
 			}
 		}
 	}
@@ -244,12 +331,6 @@
 				"size" "3174771674"
 				"download" "573476384"
 			}
-			"demo"
-			{
-				"gid" "8014607324573519754"
-				"size" "2915454680"
-				"download" "529064000"
-			}
 		}
 		"encryptedmanifests"
 		{
@@ -258,6 +339,12 @@
 				"gid" "7DAA0B18A313C411CBAC7406FE2F7D8A"
 				"size" "C91DEF15875AAA0B88464A09B129D1AA"
 				"download" "EF3FF46E057F7CB278CD7B692338E746"
+			}
+			"experimental"
+			{
+				"gid" "EA266C46618BC7B32BCEA56C9952C704"
+				"size" "E6EBAAAA3997C484809DFF2214F57A89"
+				"download" "816F6BDC691CD26ADB8D2F5208EC9FA2"
 			}
 			"milestones"
 			{
@@ -273,18 +360,49 @@
 			}
 		}
 	}
+	"1536093"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8098465745359888285"
+				"size" "2098196437"
+				"download" "360952128"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"experimental"
+			{
+				"gid" "2A56991ABF1B8E4136B6757DE5ED6395"
+				"size" "B3A18B4BA545D44471EEE335527F32D5"
+				"download" "AA08AC9D97145B62D9AC73072D6A9F8F"
+			}
+			"milestones"
+			{
+				"gid" "2804AC94FFF37AAF8E8B9719CF1DCD3D"
+				"size" "5A1D205BB4D0B31FFB39F794FFE25D20"
+				"download" "50028CD53F49BE558650D89DEBC20024"
+			}
+			"mods"
+			{
+				"gid" "8B74D4A56933C5BC77161F3FBE8EF12C"
+				"size" "ECB7C988A3468C9D29EC98FD0B28C59C"
+				"download" "7643A5B49DC0A2EED8AD68FBFC3564C2"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "15019559"
-			"timeupdated" "1720833537"
-		}
-		"demo"
-		{
-			"buildid" "13268475"
-			"description" "Demo testing"
-			"timeupdated" "1706169974"
+			"buildid" "15658350"
+			"timeupdated" "1726023566"
 		}
 		"beta"
 		{
@@ -292,17 +410,23 @@
 			"pwdrequired" "1"
 			"timeupdated" "1714005506"
 		}
+		"experimental"
+		{
+			"buildid" "15658350"
+			"pwdrequired" "1"
+			"timeupdated" "1726019964"
+		}
 		"milestones"
 		{
-			"buildid" "15019559"
+			"buildid" "15615488"
 			"pwdrequired" "1"
-			"timeupdated" "1720833195"
+			"timeupdated" "1725621937"
 		}
 		"mods"
 		{
-			"buildid" "15019559"
+			"buildid" "15658350"
 			"pwdrequired" "1"
-			"timeupdated" "1720833376"
+			"timeupdated" "1726023539"
 		}
 	}
 }
@@ -335,9 +459,13 @@
 			"useinstead" "LinuxHome"
 			"addpath" ".config/unity3d/Unwound Games/Echoes of the Plum Grove/"
 		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" "com.Unwound-Games.Echoes-of-the-Plum-Grove/"
+		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "24346869"
-"_sha" "bf1938ae61725d6f53fabb0291e1982de5bb4437"
-"_size" "6354"
