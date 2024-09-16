@@ -1,0 +1,215 @@
+"appid" "279260"
+"common"
+{
+	"name" "Richard & Alice"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"logo" "05a4519db2d3253923c41cad24e97cd1c526c7ff"
+	"logo_small" "05a4519db2d3253923c41cad24e97cd1c526c7ff_thumb"
+	"icon" "42b83b9d737e84cfd4b947916b20786f97ce01ac"
+	"clienticon" "11dc0c9fa0be9e0ee210ad02588ff5f31de4cadf"
+	"clienttga" "e0258b5d8959f40b4138a0afb99daeea3375348e"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1693353600"
+		"tested_build_id" "288780"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"metacritic_name" "Richard &amp; Alice"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1397656444"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Owl Cave"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Owl Cave"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1401990900"
+	"metacritic_score" "70"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/richard-alice\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "279260"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "1698"
+		"3" "5716"
+		"4" "6378"
+		"5" "1742"
+		"6" "6052"
+		"7" "3835"
+		"8" "4182"
+		"9" "3964"
+		"10" "3871"
+		"11" "7208"
+	}
+	"review_score" "6"
+	"review_percentage" "73"
+}
+"extended"
+{
+	"developer" "Owl Cave"
+	"publisher" "Owl Cave"
+	"homepage" "http://owlcave.net/richard-alice/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "RichardAndAlice"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "richardandalice.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "richardandalice.exe"
+			"arguments" "--setup"
+			"description" "Setup"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "./RichardAndAlice"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigfileids" "625814440"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"279261"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "714648647766228713"
+				"size" "140431457"
+				"download" "0"
+			}
+		}
+	}
+	"279262"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2539112694295131045"
+				"size" "149967543"
+				"download" "0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "288780"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinSavedGames"
+			"path" "Richard & Alice"
+			"pattern" "*.*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
