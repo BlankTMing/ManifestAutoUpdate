@@ -1,0 +1,284 @@
+"appid" "251410"
+"common"
+{
+	"name" "Dark Matter"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+	}
+	"icon" "780c4fdd417bc9a33cd04ae96d3e07aabdc145b5"
+	"clienticon" "99beb8081595c714843bbc8f68d6fc27d891974f"
+	"clienttga" "b1da7d2f802cdb713d1e0835b82a60922e9eb67c"
+	"logo" "24f42a4a311edb1c85f33d93a0aeeffa09373abe"
+	"logo_small" "24f42a4a311edb1c85f33d93a0aeeffa09373abe_thumb"
+	"linuxclienticon" "0e9c9b87145edad3d088b487bf5eb2be8bd978ac"
+	"clienticns" "e0931bbc228530df1f14a6914a5266e4309ef1ad"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1675468800"
+		"tested_build_id" "136069"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Dark Matter"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1578330110"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "InterWave Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Iceberg Interactive"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1382027160"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "251410"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "3798"
+		"3" "3942"
+		"4" "1628"
+		"5" "4975"
+		"6" "7208"
+		"7" "1667"
+		"8" "3978"
+		"9" "1625"
+	}
+	"review_score" "5"
+	"review_percentage" "42"
+}
+"extended"
+{
+	"developer" "InterWave Studios"
+	"publisher" "Iceberg Interactive"
+	"homepage" "http://www.darkmatterthegame.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "dark matter iw"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "darkmatter.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "darkmatter.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "darkmatter.sh"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"251411"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "348517869443261381"
+				"size" "1102909091"
+				"download" "0"
+			}
+		}
+	}
+	"251412"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1493128741518762230"
+				"size" "1119550571"
+				"download" "0"
+			}
+		}
+	}
+	"251413"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6519888732572269157"
+				"size" "1126609570"
+				"download" "0"
+			}
+		}
+	}
+	"baselanguages" "english,german"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "136069"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "33554432"
+	"maxnumfiles" "500"
+}
