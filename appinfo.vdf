@@ -56,7 +56,7 @@
 		}
 	}
 	"controllertagwizard" "1"
-	"controller_support" "partial"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -77,7 +77,49 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1700614025"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomCenter"
+				"width_pct" "40.896751962845485"
+				"height_pct" "100"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1721618189"
 	"associations"
 	{
 		"0"
@@ -104,11 +146,12 @@
 		"category_2" "1"
 		"category_22" "1"
 		"category_23" "1"
-		"category_18" "1"
 		"category_55" "1"
 		"category_56" "1"
 		"category_57" "1"
 		"category_58" "1"
+		"category_28" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -142,6 +185,36 @@
 			"full_audio" "true"
 			"subtitles" "true"
 		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1637942357"
 	"community_visible_stats" "1"
@@ -150,28 +223,28 @@
 	"store_tags"
 	{
 		"0" "1100689"
-		"1" "7332"
-		"2" "3834"
-		"3" "1702"
-		"4" "1695"
-		"5" "1654"
-		"6" "3993"
-		"7" "4106"
-		"8" "30358"
-		"9" "1720"
-		"10" "87918"
-		"11" "4166"
-		"12" "1643"
-		"13" "4231"
-		"14" "4191"
-		"15" "19"
-		"16" "4252"
-		"17" "4236"
-		"18" "4791"
-		"19" "1662"
+		"1" "1720"
+		"2" "1662"
+		"3" "4520"
+		"4" "1643"
+		"5" "30358"
+		"6" "1695"
+		"7" "3810"
+		"8" "1702"
+		"9" "3834"
+		"10" "5716"
+		"11" "21"
+		"12" "493"
+		"13" "19"
+		"14" "3993"
+		"15" "4182"
+		"16" "6730"
+		"17" "7332"
+		"18" "5125"
+		"19" "4145"
 	}
 	"review_score" "8"
-	"review_percentage" "86"
+	"review_percentage" "85"
 }
 "extended"
 {
@@ -219,9 +292,9 @@
 		{
 			"public"
 			{
-				"gid" "2983335923501766366"
-				"size" "4097122582"
-				"download" "2245621424"
+				"gid" "8380373103934253106"
+				"size" "4076154875"
+				"download" "2147842416"
 			}
 			"legacybranch"
 			{
@@ -232,29 +305,35 @@
 		}
 		"encryptedmanifests"
 		{
-			"alphabranch"
+			"devbranch"
 			{
-				"gid" "E336EDF9FB92E6464DABBFC35FBCD440"
-				"size" "161A7C8112AA97C6696C7D6F17B9B2EE"
-				"download" "8D6E782EF37F078C70AB8D5D95E71D7E"
+				"gid" "3E2C694AED027B2F733AB2FBCE1FF2C0"
+				"size" "6C355C361DB284966476EAF66239C3F5"
+				"download" "211F8851D90EB52FF98E1AFB4170190C"
 			}
-			"betabranch"
+			"testbranch"
 			{
-				"gid" "92FF8BC0144C596442AFD77AD47DAA81"
-				"size" "F2138A09261ABE51553BF18A78D96EF7"
-				"download" "945C116BB71F2FD9B4EF0256099DB745"
+				"gid" "3DC9743828EDA841C0760AD79023BEDD"
+				"size" "DF2EB82F265604655C3FE2770A6FAC64"
+				"download" "8B9E8857ABF14A6984B9D9391E2F17A3"
 			}
 			"bugbranch"
 			{
-				"gid" "DECF6741AAFC6E164EF756202A89FAB1"
-				"size" "EA1BE65D8AE1EDA5F040AACDA1C30B0A"
-				"download" "EA1BE65D8AE1EDA5F040AACDA1C30B0A"
+				"gid" "3A2EBAEF5F78D8E507B7617A8AD00FC8"
+				"size" "6D9D6FE5C73501B2E964E65A68427054"
+				"download" "E4322ABABBEA761D96ED2C5F377E4DE8"
 			}
-			"devbranch"
+			"alphabranch"
 			{
-				"gid" "7B04B9C4B61E330C2ECAB73A415C3604"
-				"size" "26D8D67CE4EE87A2E188BA7440A85EBC"
-				"download" "FD0A9FC38282BA4A7F6D700646509553"
+				"gid" "34BEF073822A7C61D45439E2F238D931"
+				"size" "8B911D76752D1A1F07E6448D47F2BE8A"
+				"download" "9E632D61E53989C3E310F3A33DA9AE44"
+			}
+			"betabranch"
+			{
+				"gid" "4F2B30C76E9FC7A7FDA847A59EFF934A"
+				"size" "BBDD44FD16EA2BECFC0354687606BB0E"
+				"download" "D241E0F39264DD131416CDBAA2893F61"
 			}
 		}
 	}
@@ -270,9 +349,9 @@
 		{
 			"public"
 			{
-				"gid" "7538769202573223139"
-				"size" "4137955417"
-				"download" "2256718736"
+				"gid" "4088575811773993309"
+				"size" "4108068421"
+				"download" "2153768736"
 			}
 			"legacybranch"
 			{
@@ -283,17 +362,17 @@
 		}
 		"encryptedmanifests"
 		{
-			"alphabranch"
+			"devbranch"
 			{
-				"gid" "CF37B419D793BA5872685AC4DF59AAC5"
-				"size" "06389E248775B64560DB14A4F188C91B"
-				"download" "F134EDF4064441CBA8E9FCA5E7666724"
+				"gid" "32E440AD4DF5A56058695DD7EBA6742F"
+				"size" "98B7E042B45960DDEA271BD99A83ACDA"
+				"download" "938544273E04F5CE39F62F48E948B63E"
 			}
-			"betabranch"
+			"testbranch"
 			{
-				"gid" "CECBF796F48F6A4446417A333075EC72"
-				"size" "29C8CEC42B42E5DCDE88132709E9CA13"
-				"download" "5445BB9D91737325CECBE36B02C6CA2E"
+				"gid" "92C26DA3EB587F0FB3A7529FF9366F28"
+				"size" "18944BEED1A6F46FC66E5942C0689262"
+				"download" "472E7455ABB5211EE801B6D41ACD763D"
 			}
 			"bugbranch"
 			{
@@ -301,11 +380,17 @@
 				"size" "3BAC57D3D22C29A62FBB811221486FD8"
 				"download" "78E23F0809C93F9B04778B815CA163DF"
 			}
-			"devbranch"
+			"alphabranch"
 			{
-				"gid" "ED1ED168A96450684CFA4EEAE7829516"
-				"size" "B98084D25F460B1991DDE6946B36203B"
-				"download" "3D8010785EB6C1CE8ADE6192B5E35266"
+				"gid" "C9E95FB8D2EC0DE452FBABCA16529943"
+				"size" "E1CBE9D21742C4264B7DC9E56538DB30"
+				"download" "6364475C672C277309D1408B61E9473F"
+			}
+			"betabranch"
+			{
+				"gid" "8795898BA03FAB86ACB75833129CA7F2"
+				"size" "A5A435940972DD212CD56D6BA83E7F03"
+				"download" "C3D86755FE1C1C9381C1897B3DBAAB01"
 			}
 		}
 	}
@@ -313,38 +398,44 @@
 	{
 		"public"
 		{
-			"buildid" "13226696"
-			"timeupdated" "1705752120"
-		}
-		"alphabranch"
-		{
-			"buildid" "13226696"
-			"pwdrequired" "1"
-			"timeupdated" "1705751565"
-		}
-		"betabranch"
-		{
-			"buildid" "13226696"
-			"pwdrequired" "1"
-			"timeupdated" "1705751573"
-		}
-		"bugbranch"
-		{
-			"buildid" "12243534"
-			"pwdrequired" "1"
-			"timeupdated" "1695278134"
+			"buildid" "15695601"
+			"timeupdated" "1726258071"
 		}
 		"devbranch"
 		{
-			"buildid" "13226696"
+			"buildid" "15695601"
 			"pwdrequired" "1"
-			"timeupdated" "1705750166"
+			"timeupdated" "1726258033"
+		}
+		"testbranch"
+		{
+			"buildid" "15102639"
+			"pwdrequired" "1"
+			"timeupdated" "1721541205"
+		}
+		"bugbranch"
+		{
+			"buildid" "14184063"
+			"pwdrequired" "1"
+			"timeupdated" "1714126140"
 		}
 		"legacybranch"
 		{
 			"buildid" "8992030"
 			"description" "Old Legacy Version of Len\'s Island"
 			"timeupdated" "1671208971"
+		}
+		"alphabranch"
+		{
+			"buildid" "15695601"
+			"pwdrequired" "1"
+			"timeupdated" "1726258041"
+		}
+		"betabranch"
+		{
+			"buildid" "15695601"
+			"pwdrequired" "1"
+			"timeupdated" "1726258054"
 		}
 	}
 }
@@ -381,7 +472,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "21978740"
-"_sha" "fef4760e183026c3fc5ba4ea30601ba583f243a5"
-"_size" "7438"
