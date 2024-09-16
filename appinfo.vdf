@@ -1,0 +1,239 @@
+"appid" "246980"
+"common"
+{
+	"name" "InFlux"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "79b52e9f10e1364520255df52172fc914b7f56e4"
+	"logo_small" "79b52e9f10e1364520255df52172fc914b7f56e4_thumb"
+	"icon" "263e291e2440608924df1e8dcf2bd526f0b66637"
+	"clienttga" "e4589b04b8b42c20bb82bc7e5a6471f3cbb58394"
+	"clienticon" "75303f56f0990153be6cabd14258d6c945fa6ed8"
+	"clienticns" "6abf01deb868e7bda3c8e3802f8408f73580dfbb"
+	"oslist" "windows"
+	"metacritic_name" "InFlux"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "51.40023337222871"
+			"height_pct" "71.12324863452861"
+		}
+	}
+	"store_asset_mtime" "1568807360"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Impromptu Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Impromptu Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "InFlux"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1374562800"
+	"community_hub_visible" "1"
+	"gameid" "246980"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "492"
+		"2" "1664"
+		"3" "21"
+		"4" "1625"
+	}
+	"review_score" "5"
+	"review_percentage" "68"
+}
+"extended"
+{
+	"gamedir" ""
+	"developer" "Impromptu Games"
+	"publisher" "Impromptu Games"
+	"homepage" "http://www.influxgame.com"
+	"listofdlc" "278720"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "InFlux"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Binaries/Win32/UDK.exe"
+			"description" "Launch"
+			"workingdir" "Binaries"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "InFlux.app"
+			"description" "Launch"
+			"workingdir" "InFlux.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "3"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229000"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"246982"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5574135960212955721"
+				"size" "1211736888"
+				"download" "0"
+			}
+			"beta"
+			{
+				"gid" "5574135960212955721"
+				"size" "1211736888"
+				"download" "0"
+			}
+		}
+	}
+	"246981"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8241552407730058344"
+				"size" "1005361108"
+				"download" "0"
+			}
+			"beta"
+			{
+				"gid" "8241552407730058344"
+				"size" "1005361108"
+				"download" "0"
+			}
+		}
+	}
+	"278720"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4849907674748109322"
+				"size" "140809364"
+				"download" "0"
+			}
+		}
+		"dlcappid" "278720"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "289738"
+		}
+		"beta"
+		{
+			"buildid" "121800"
+		}
+		"local"
+		{
+			"buildid" "289680"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "2"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Binaries/Win32"
+			"pattern" "*.bin"
+		}
+	}
+}
