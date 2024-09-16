@@ -79,6 +79,7 @@
 			"gamescope_frame_limiter_not_supported" "0"
 		}
 	}
+	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
 	{
@@ -100,7 +101,45 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1718270072"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50.387847446670975"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1724317027"
 	"associations"
 	{
 		"0"
@@ -138,6 +177,10 @@
 		"category_45" "1"
 		"category_46" "1"
 		"category_28" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -236,8 +279,8 @@
 		"18" "5981"
 		"19" "7948"
 	}
-	"review_score" "6"
-	"review_percentage" "79"
+	"review_score" "8"
+	"review_percentage" "80"
 }
 "extended"
 {
@@ -274,9 +317,9 @@
 		{
 			"public"
 			{
-				"gid" "581181563933264172"
-				"size" "3277650552"
-				"download" "1199039552"
+				"gid" "5146488458375286686"
+				"size" "3277049110"
+				"download" "1199020224"
 			}
 		}
 		"encryptedmanifests"
@@ -337,33 +380,39 @@
 			}
 			"develop_debug_il2cpp"
 			{
-				"gid" "4510C67059621B19912B9EDC40537107"
-				"size" "830439D22FA2A63027DC272999C15373"
-				"download" "D22B126F2BE83495C9A302482754D1A0"
+				"gid" "16E8CC618B6EEDB231F1263EF0856E95"
+				"size" "A94826FF786FE6401919F9FE507C47A9"
+				"download" "94BDB854EEFDC4E7332B57A6AEA1AB66"
 			}
 			"develop_master_il2cpp"
 			{
-				"gid" "04F73D8D86A94E1B119B16F4EAAA94EB"
-				"size" "A56951285E4706F2CC9F6EDA0C121470"
-				"download" "5FF2D7BF5A0FE1CEB8050168EBB370ED"
+				"gid" "FF49C45C4BDABC6BD681C8739A23C33F"
+				"size" "19C08A4782BE4DA0E1335693298CFC01"
+				"download" "9A14D9CA8A3FF645761B3FE7D88EB9D0"
 			}
 			"develop_release_il2cpp"
 			{
-				"gid" "1F0B34326BE43613BDE4E113B4B66E69"
-				"size" "004CDC07D3E054007D89086749560088"
-				"download" "80655260BE9E3DE7ADB79FA510D2150B"
+				"gid" "2D5AF411A30B14EB5EB6335782DBC140"
+				"size" "E6452DDD4030583BFE1C2E0D477AFD1C"
+				"download" "7D328C9D8B015A64DACE6495E19F9068"
 			}
 			"external_qa"
 			{
-				"gid" "02BD7E9A658D9FF00448AA6209D48242"
-				"size" "A16FCBFE59276927F9B6430273E8A788"
-				"download" "6B82B6FD2594D05329731AAC13EDB58B"
+				"gid" "8ED9CD280AF39CB6543075362621BFF2"
+				"size" "BDDFF849F91E9987047925FABC492D39"
+				"download" "EBBAEFC77EAEE4DA2F3C65196E5D25F1"
+			}
+			"external_qa_developer"
+			{
+				"gid" "B41A7CCA669DB4E2CB15E1AD90866FC0"
+				"size" "CC912B635B4328A2C9DCD5C9FE4A34E0"
+				"download" "FFC3D4E960F6E8F1707A50B5F26414B1"
 			}
 			"external_qa_master_il2cpp"
 			{
-				"gid" "85757A6FB443E1EBD15E32B5F274B464"
-				"size" "06610344EA717472756697E31C1BB6C8"
-				"download" "AE686C5E162039443AB9DFF37E1D420D"
+				"gid" "848D2AB1140182C863B8930296C7685A"
+				"size" "81BDA5F9F668EB9BE9C7EE7990766737"
+				"download" "8D01A43930CB7466EE72213A2A5CD04E"
 			}
 			"release_candidate"
 			{
@@ -373,9 +422,9 @@
 			}
 			"release_candidate_2"
 			{
-				"gid" "6F8B8FCDAB1044322F630B2D11404F86"
-				"size" "CEA260A018BBFE8EB3AB135A02E9FAB4"
-				"download" "F18DBFDE3014B5CD502E1B6B2D5B2247"
+				"gid" "895F4584995424630FAA7299B51D8921"
+				"size" "3075C54D8CD2E3C44EF7AA21EED0EE12"
+				"download" "55A55077CE2BD69780078F10E552F65C"
 			}
 		}
 	}
@@ -383,8 +432,8 @@
 	{
 		"public"
 		{
-			"buildid" "14348523"
-			"timeupdated" "1718269720"
+			"buildid" "15459401"
+			"timeupdated" "1724327365"
 		}
 		"after_work"
 		{
@@ -442,33 +491,39 @@
 		}
 		"develop_debug_il2cpp"
 		{
-			"buildid" "14698491"
+			"buildid" "15361480"
 			"pwdrequired" "1"
-			"timeupdated" "1718234677"
+			"timeupdated" "1723591762"
 		}
 		"develop_master_il2cpp"
 		{
-			"buildid" "14698623"
+			"buildid" "15361632"
 			"pwdrequired" "1"
-			"timeupdated" "1718235672"
+			"timeupdated" "1723592935"
 		}
 		"develop_release_il2cpp"
 		{
-			"buildid" "14698574"
+			"buildid" "15361607"
 			"pwdrequired" "1"
-			"timeupdated" "1718235449"
+			"timeupdated" "1723592771"
 		}
 		"external_qa"
 		{
-			"buildid" "14507204"
+			"buildid" "15473918"
 			"pwdrequired" "1"
-			"timeupdated" "1716812895"
+			"timeupdated" "1724426839"
+		}
+		"external_qa_developer"
+		{
+			"buildid" "15474139"
+			"pwdrequired" "1"
+			"timeupdated" "1724428155"
 		}
 		"external_qa_master_il2cpp"
 		{
-			"buildid" "14507437"
+			"buildid" "15474152"
 			"pwdrequired" "1"
-			"timeupdated" "1716814154"
+			"timeupdated" "1724428227"
 		}
 		"release_candidate"
 		{
@@ -478,9 +533,9 @@
 		}
 		"release_candidate_2"
 		{
-			"buildid" "14348523"
+			"buildid" "15459401"
 			"pwdrequired" "1"
-			"timeupdated" "1715599364"
+			"timeupdated" "1724327143"
 		}
 	}
 }
@@ -489,7 +544,3 @@
 	"quota" "100000000000"
 	"maxnumfiles" "10000"
 }
-"_missing_token" "False"
-"_change_number" "23953151"
-"_sha" "e27d6ff35d22d81eeedeffb486ccf9625d496388"
-"_size" "9908"
