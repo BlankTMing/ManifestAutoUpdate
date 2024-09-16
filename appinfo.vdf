@@ -65,6 +65,55 @@
 			"height_pct" "75.4474665325205"
 		}
 	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "73.74301642244909"
+				"height_pct" "75.4474665325205"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
 	"store_asset_mtime" "1714057673"
 	"associations"
 	{
@@ -181,15 +230,15 @@
 		"4" "3859"
 		"5" "4182"
 		"6" "4175"
-		"7" "5350"
-		"8" "7481"
+		"7" "7481"
+		"8" "5350"
 		"9" "6730"
 		"10" "3841"
 		"11" "7368"
 		"12" "7948"
 	}
 	"review_score" "5"
-	"review_percentage" "68"
+	"review_percentage" "49"
 }
 "extended"
 {
@@ -198,7 +247,7 @@
 	"developer" "Hangar 13"
 	"publisher" "2K Games"
 	"homepage" "https://topspin.2k.com"
-	"listofdlc" "2820460,2820470,2820480,2820490,2820550,2820560,2820570"
+	"listofdlc" "2820460,2820470,2820480,2820490,2820500,2820510,2820550,2820560,2820570"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -330,7 +379,7 @@
 			"type" "option1"
 			"config"
 			{
-				"betakey" "public,default,masterqa,security,userteststaging,staging,usertest,seasonzeroqa"
+				"betakey" "public,default,masterqa,security,userteststaging,pre-release,usertest,seasonzeroqa,socialmasterqa,beta"
 			}
 			"description_loc"
 			{
@@ -357,9 +406,9 @@
 		{
 			"public"
 			{
-				"gid" "8263095404144058245"
-				"size" "29400381438"
-				"download" "25876314224"
+				"gid" "2850794292400670027"
+				"size" "30405410883"
+				"download" "26613689296"
 			}
 		}
 		"encryptedmanifests"
@@ -424,12 +473,6 @@
 				"size" "E955BAD5A39D16FBE3BBD8C42B56287E"
 				"download" "786A0FC5F8D19EE3B2582ACCB7E5355E"
 			}
-			"userteststaging"
-			{
-				"gid" "44DC8EA1EE08E1B9F82715EAD2128E1D"
-				"size" "1AD6078EB3210531845A0C228259A29B"
-				"download" "124A01E127610347C3B8839B6F5A39FE"
-			}
 			"vsbranch"
 			{
 				"gid" "AFE4DC0BDE29EC8B5E88AE885F3F5AB1"
@@ -442,47 +485,65 @@
 				"size" "F1009E40525B955D50786FD2CED173D2"
 				"download" "476C11567FE7C2B45EE9EB6C120663EF"
 			}
+			"beta"
+			{
+				"gid" "BB15C286EB05B92C66173779D37EB3C8"
+				"size" "70D97BB4699CB82E4DA1C9E0F417F9B0"
+				"download" "7F03ABD38F140AD9B7376078A64D5DD6"
+			}
 			"daily"
 			{
-				"gid" "25842565D084DC8E74197936006654C8"
-				"size" "53DE24B84572D385DD4EE787B41BC12D"
-				"download" "9F11C0EAD794BA9EDACE576311FF37D3"
+				"gid" "DD8246FB893058E3EB1E6E3394B00844"
+				"size" "64E82C7209027E61EBF1777E230289E5"
+				"download" "A96DA78521724C0A8B8B9D927D396C74"
 			}
 			"masterqa"
 			{
-				"gid" "0FC5ECFAD8C47DDD2CCC1B8AF6DCEAA4"
-				"size" "F5C82D7ACD8AFA1AF8F54B9FED7F4435"
-				"download" "5A9FD690424BA4E9798EFF199804BD90"
+				"gid" "C06770ACEB33F483DFE62A439DA30FB6"
+				"size" "CAA7C910B57A5673409D6D6E993F9BCD"
+				"download" "FF767D98BC4DCF5B1DCA5D8B7C44F38E"
+			}
+			"pre-release"
+			{
+				"gid" "CEB2CE46596B7E5C4E43CC86814D5DFB"
+				"size" "C855949A64DDC3DE1F8705D3D5F36068"
+				"download" "73DDFE532D80328A6A01D48A0562EEDC"
 			}
 			"qatest"
 			{
-				"gid" "94338A689126D52EEA28B969C476728E"
-				"size" "5EF43BAF07EFB1871D15452AD325B830"
-				"download" "7484C28B3CDD9ED4BEE7142BB941F662"
+				"gid" "FC6E265927CF59A9EB26D02435A85D89"
+				"size" "BFD786576C4773E4B8EAE961F3E30CCF"
+				"download" "C76DCF4DFFB365A6A56C755771F99010"
 			}
 			"security"
 			{
-				"gid" "A060B5C51B1487398525BCBAB2B7C12B"
-				"size" "DE7FE580E9736108FD1022EB66F844AD"
-				"download" "C06E622E7CA7B2DF790DE1F7B4DC6D30"
+				"gid" "6A254C264B3373907A009EBD4E3491D3"
+				"size" "FF81260B802A1EF8152997C6D715862B"
+				"download" "C8C06C225F55C10D6D62DD6FEBBE31B2"
+			}
+			"socialmasterqa"
+			{
+				"gid" "AEEC831AC615ACF88C2C4B2871B9E8D4"
+				"size" "E365EEFDD7DF0DE397D513A10E73322D"
+				"download" "56C34C9A5837F9CD430C750950B7B695"
 			}
 			"socialqa"
 			{
-				"gid" "1BC015444ABCF1D3800014DB42488068"
-				"size" "59DFC60642600F218B8E4FDEF757D8AC"
-				"download" "D50532D64D2094919EA07205FF1DC5C9"
-			}
-			"staging"
-			{
-				"gid" "242F6F22DFA50A47E76883B782DC6BC1"
-				"size" "7057687E2C6D302B7008E5BB81344CE9"
-				"download" "089F3F73C6E36D82DC90AB134D1D2566"
+				"gid" "6FDDFA3E2E1F0D7BD1D26FD017B53968"
+				"size" "856141727F427FC78400CFF95AFAD2CA"
+				"download" "AF844A24871F4E84A9206C54AEFC4975"
 			}
 			"stagingqa"
 			{
-				"gid" "88AB57153D1138B300828D59B40DA188"
-				"size" "0800F4D340AEE501314DAA99D3CA140B"
-				"download" "B799A813CFCA1C3762039B10058C4EA2"
+				"gid" "FB9FF54FD7AB7AD344C6551418492042"
+				"size" "5D51D83CA090CEC283414B15DDF7B55E"
+				"download" "D249FFE09CD638B66239B38EAF18C37F"
+			}
+			"userteststaging"
+			{
+				"gid" "43281D8CC45D0B4BA72F332B7DF06C19"
+				"size" "D9CA9CEECEA97CD5E5C92322A7B928C7"
+				"download" "BFDF3DA01B354F31614526F0456AF430"
 			}
 		}
 	}
@@ -490,8 +551,8 @@
 	{
 		"public"
 		{
-			"buildid" "14070291"
-			"timeupdated" "1713837206"
+			"buildid" "15593551"
+			"timeupdated" "1725962822"
 		}
 		"agerating"
 		{
@@ -553,12 +614,6 @@
 			"pwdrequired" "1"
 			"timeupdated" "1712241841"
 		}
-		"userteststaging"
-		{
-			"buildid" "13947829"
-			"pwdrequired" "1"
-			"timeupdated" "1712225967"
-		}
 		"vsbranch"
 		{
 			"buildid" "8812408"
@@ -571,51 +626,65 @@
 			"pwdrequired" "1"
 			"timeupdated" "1710418982"
 		}
+		"beta"
+		{
+			"buildid" "15381448"
+			"pwdrequired" "1"
+			"timeupdated" "1723723990"
+		}
 		"daily"
 		{
-			"buildid" "14181489"
+			"buildid" "15672290"
 			"pwdrequired" "1"
-			"timeupdated" "1714108209"
+			"timeupdated" "1726114106"
 		}
 		"masterqa"
 		{
-			"buildid" "14187677"
+			"buildid" "15691916"
 			"pwdrequired" "1"
-			"timeupdated" "1714146368"
+			"timeupdated" "1726236968"
+		}
+		"pre-release"
+		{
+			"buildid" "15593551"
+			"pwdrequired" "1"
+			"timeupdated" "1725879516"
 		}
 		"qatest"
 		{
-			"buildid" "14169362"
+			"buildid" "15672290"
 			"pwdrequired" "1"
-			"timeupdated" "1714037049"
+			"timeupdated" "1726132896"
 		}
 		"security"
 		{
-			"buildid" "14165813"
+			"buildid" "15670131"
 			"pwdrequired" "1"
-			"timeupdated" "1714000439"
+			"timeupdated" "1726096387"
+		}
+		"socialmasterqa"
+		{
+			"buildid" "15381448"
+			"pwdrequired" "1"
+			"timeupdated" "1723723929"
 		}
 		"socialqa"
 		{
-			"buildid" "14186458"
+			"buildid" "15373732"
 			"pwdrequired" "1"
-			"timeupdated" "1714139626"
-		}
-		"staging"
-		{
-			"buildid" "14134853"
-			"pwdrequired" "1"
-			"timeupdated" "1714140381"
+			"timeupdated" "1723669323"
 		}
 		"stagingqa"
 		{
-			"buildid" "14182500"
+			"buildid" "15691979"
 			"pwdrequired" "1"
-			"timeupdated" "1714116584"
+			"timeupdated" "1726237192"
+		}
+		"userteststaging"
+		{
+			"buildid" "14256244"
+			"pwdrequired" "1"
+			"timeupdated" "1714744555"
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "23322020"
-"_sha" "6a9321d374e2671d3a0d68bdaa8c335a6806095b"
-"_size" "12931"
