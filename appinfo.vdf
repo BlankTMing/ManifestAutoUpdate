@@ -37,30 +37,35 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1716854400"
+		"category" "3"
+		"test_timestamp" "1721865600"
 		"tested_build_id" "14462520"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"1"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"2"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
 			}
 			"3"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
@@ -68,9 +73,9 @@
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "0"
+			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
-			"small_text" "1"
+			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
 			"recommended_runtime" "proton-9.0-1RC"
@@ -102,7 +107,56 @@
 			"height_pct" "77.5835876657973"
 		}
 	}
-	"store_asset_mtime" "1713369775"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "61.26021003500585"
+				"height_pct" "77.5835876657973"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1722518070"
 	"associations"
 	{
 		"0"
@@ -213,8 +267,8 @@
 	"gameid" "1371980"
 	"store_tags"
 	{
-		"0" "122"
-		"1" "19"
+		"0" "19"
+		"1" "122"
 		"2" "29482"
 		"3" "4231"
 		"4" "3834"
@@ -222,9 +276,9 @@
 		"6" "5851"
 		"7" "4191"
 		"8" "4145"
-		"9" "4305"
-		"10" "9204"
-		"11" "4604"
+		"9" "4604"
+		"10" "4305"
+		"11" "9204"
 		"12" "4252"
 		"13" "4166"
 		"14" "5984"
@@ -235,7 +289,7 @@
 		"19" "7481"
 	}
 	"review_score" "6"
-	"review_percentage" "79"
+	"review_percentage" "77"
 }
 "extended"
 {
@@ -275,24 +329,48 @@
 		{
 			"public"
 			{
-				"gid" "8362486761805033392"
-				"size" "30438855494"
-				"download" "11083654352"
+				"gid" "2153780727521642948"
+				"size" "31067398071"
+				"download" "11191008624"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"compat_nvidia"
+			{
+				"gid" "683C2D4F888FEBDC6819CB491ADE120A"
+				"size" "F83339C25704D48F05112C4DA207CBD1"
+				"download" "6791E16D856405A378D41CF05659364F"
+			}
 			"debugging"
 			{
 				"gid" "D3F80E26E93AB265CF3E7413C1A38AF1"
 				"size" "C68C9E64AFFA4CBB91731EB420E711F8"
 				"download" "E4FDD8F15444BD3E79F8EFA73E1E2079"
 			}
+			"latest_live_release"
+			{
+				"gid" "614A238CC39FBB2D365E0C8DBF7F443B"
+				"size" "A495C3AF228C4BD93D0A7E2D581ABA9C"
+				"download" "6C5DFACBCD79D64CFC366CB6AFCD0B41"
+			}
+			"latest_preview_final"
+			{
+				"gid" "CE57A6E4D570067144BCB5C72BDB840D"
+				"size" "1E118F7127258AD4C28D2493B08FEFE8"
+				"download" "1065A478180324DEE3DCA3901666F347"
+			}
+			"latest_preview_release"
+			{
+				"gid" "FFB07203A059A55AC9FBED092D495577"
+				"size" "50A2BF3D74B05FF3DCECC90877AED51E"
+				"download" "F2D50F7E1238D0111FA226C681C28599"
+			}
 			"development"
 			{
-				"gid" "3D4F0FA1E56673A35A3F64CB355B9CCB"
-				"size" "6239E99B095F69BF9487F85008433D9E"
-				"download" "99CA24A2F26CE571D2BABCC91A8E4639"
+				"gid" "B5F3F077A42350ED1031BD945C79D94B"
+				"size" "F1B11DC5F859AFBF1E912E2AF9615B20"
+				"download" "7D0B3EB25AB54DD4AADEA30D84F02056"
 			}
 			"digital_foundry"
 			{
@@ -302,27 +380,27 @@
 			}
 			"latest_final"
 			{
-				"gid" "156E3FCBF50142F3216336A6F0B5B984"
-				"size" "89CF8A462156AE12406835604317F57C"
-				"download" "53E095B5A7EE7C5B480A53B2DA0114D6"
+				"gid" "AB6A6BC93E1BE27408394A6D681CA281"
+				"size" "186B67119FC31E015B07063268E335F1"
+				"download" "A1623F02ECD68CC58E08D59344C3603A"
 			}
 			"latest_release"
 			{
-				"gid" "3BCA8B2367F497246C5046EB86E1D884"
-				"size" "13FFD7EA5E33244794A9134E6B54FEA9"
-				"download" "BECB46D4DA4567C6237B068CB7CA4A7D"
+				"gid" "5D841C928484EFBA22315306083A069C"
+				"size" "AE4F8FE4465E5B499530771682CD026E"
+				"download" "B890D30151F6F1C3928AAF2E447D6446"
 			}
 			"latest_smoked"
 			{
-				"gid" "0B572D227BBA26DE34A4B5994912D33A"
-				"size" "87A4B7943FED10C6B995EB5BEFC51D40"
-				"download" "E19DAA0BEDE8C059F8B72EB0454721D5"
+				"gid" "2B5E89507D02ABC855DE8915B067284D"
+				"size" "02BBBDD6FA1737BACC9E1227AB3A9E8B"
+				"download" "B035B8E175151974EAB11FF01665AEFE"
 			}
 			"latest_stable"
 			{
-				"gid" "5CCF8B56438082A7EE09C6F554A6A733"
-				"size" "E304B13C04D993F4696B5434A201FF20"
-				"download" "62BE165CA0448DAC11E8B2D389837690"
+				"gid" "1ED146B7848871858A9B5AD95DF3D311"
+				"size" "8B3775D071F0070ACC8CF9E2DFCF2C2A"
+				"download" "1A0B4EDE28FAB7C6848D330546105D1E"
 			}
 			"pd_external"
 			{
@@ -350,9 +428,9 @@
 			}
 			"default_debug"
 			{
-				"gid" "3617F23B950E35E710D692D789A89096"
-				"size" "95BB2243709D32E0C02C28C3C02F9A8E"
-				"download" "9910C7C275C5C5FF28F641D18C4AAD3A"
+				"gid" "5112751BB0246C9CC54C641002EC1B14"
+				"size" "379EEED05BEF704A0BD6D3A912814C5A"
+				"download" "807B059D2588A9E08AB39DD362FACFDA"
 			}
 			"default_previous"
 			{
@@ -368,24 +446,48 @@
 		{
 			"public"
 			{
-				"gid" "6646623717922964545"
-				"size" "9180"
-				"download" "9200"
+				"gid" "8070228660872352263"
+				"size" "263983"
+				"download" "115152"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"compat_nvidia"
+			{
+				"gid" "A2F1B879F192705C761E49609088F6F8"
+				"size" "3851CD4FEB3B4BE1A3D1B55B6DFD64A1"
+				"download" "DE404EC8F81D936C3962677A2CFDE46E"
+			}
 			"debugging"
 			{
 				"gid" "EFDBD9FDC9C9799C6734D877DA6A378E"
 				"size" "9074C84C14742CBA687D9688759BB9EE"
 				"download" "93A9A7321EC4096A821A9CEE5A3914D3"
 			}
+			"latest_live_release"
+			{
+				"gid" "D7DCEF8209E6D103AA50D0E71BA3C6C3"
+				"size" "AA1B93057A3E02717FFE70B199F5B308"
+				"download" "150C2F33F3BE8CDC5FB8DBECEA8A5DC4"
+			}
+			"latest_preview_final"
+			{
+				"gid" "8F41450218F34A600AAB99327D42FEA6"
+				"size" "815972E94379B95A297BBAF854858B03"
+				"download" "10C0F7A2802B8E8CEE3CF9F9907B2B93"
+			}
+			"latest_preview_release"
+			{
+				"gid" "A43AB73AFD4728FF8D1642BCA100C154"
+				"size" "FEB087BF173E32B4BC1701A5BE46A9E5"
+				"download" "1C1857C910C848F5CCC40091822C83DF"
+			}
 			"development"
 			{
-				"gid" "46E6A88484E2447F87F5C67672E44C47"
-				"size" "C3388F62548B620DE1B0A3818FB2749E"
-				"download" "ED31CC5290732D987263371309A957FF"
+				"gid" "220C74916519C2F0893930C5B3676967"
+				"size" "4BBE407D8304573D215CBE066D3DE8EF"
+				"download" "98BADA96EB850A5E6634E4EB0BF00569"
 			}
 			"digital_foundry"
 			{
@@ -395,27 +497,27 @@
 			}
 			"latest_final"
 			{
-				"gid" "01C367F472572C0ABA64A84269018BE9"
-				"size" "2823D4AED69E4E0DD1B99BACD34D63B6"
-				"download" "2ACB218B10852C3ED7BAAD334CBB30AF"
+				"gid" "33273C35488AD67762E912483D70A9B7"
+				"size" "89709C13805406DA80BF7113005C906B"
+				"download" "303577EE84437A2440F0947C5729A3EC"
 			}
 			"latest_release"
 			{
-				"gid" "B977F70FD93B01A3F7A668443CB0671C"
-				"size" "DA8A4157A9B75F48227BAAF5E5B09B22"
-				"download" "8A95E2E2E113C88D385A118703BCDE30"
+				"gid" "7124613C1535B5DE2D79E752A5B1E4F6"
+				"size" "17F280DA0E53AE4F82077501D77616B3"
+				"download" "B7290B9FD17E5DD9DD8898314188F90A"
 			}
 			"latest_smoked"
 			{
-				"gid" "7B76C95503A037E67B11E18C7F8DB1C7"
-				"size" "2E30D0792F9BBE0E4D9B00294D800A65"
-				"download" "86092927A9F66EE8A85209220483A326"
+				"gid" "054F1A06B17C9509A53246FE2B8350FE"
+				"size" "2B0E570D13224D86462F810E692DE9FE"
+				"download" "192B37048D47CEBA1A32210AE626DA98"
 			}
 			"latest_stable"
 			{
-				"gid" "A3BE057FEA1D7E77728658DB233A4EFC"
-				"size" "1D5C44EB9EFB9C2D505651048424DD92"
-				"download" "592DC9D5BC01B965864ADC6321ADE658"
+				"gid" "3D557F197AF0C8CE52ECFDAA9E9B0D88"
+				"size" "50EB15999A960257639979721F9FCAA8"
+				"download" "47E1B0620C1082D8AAAA2C555F95AF91"
 			}
 			"pd_external"
 			{
@@ -443,9 +545,9 @@
 			}
 			"default_debug"
 			{
-				"gid" "E21E18940B47961F6C07E4D7A2726F04"
-				"size" "63BCEED37CEE575E0D7E0324E832099F"
-				"download" "EF6B5C97C3BC5E69E6176EAB6BDE9842"
+				"gid" "600202F38BCC30EC2CBC9FA9752960B9"
+				"size" "47AF89F725E35689EF158754DD17C33D"
+				"download" "564F3485BDD3C07CCDB094B25BAF320E"
 			}
 			"default_previous"
 			{
@@ -471,6 +573,30 @@
 		}
 		"encryptedmanifests"
 		{
+			"compat_nvidia"
+			{
+				"gid" "70D953969232F9853A708E5BEF47317B"
+				"size" "3629052771A31BC53E00DFE9B9066FC8"
+				"download" "3629052771A31BC53E00DFE9B9066FC8"
+			}
+			"latest_live_release"
+			{
+				"gid" "9C5068FB570DE09AC0D701AC09E1038F"
+				"size" "78B5977D9B2280B4D5BFB63C63C5BDC2"
+				"download" "78B5977D9B2280B4D5BFB63C63C5BDC2"
+			}
+			"latest_preview_final"
+			{
+				"gid" "5A7844B211D8BA58EC7B23295C7BF444"
+				"size" "69D9FB5C71AE2B9368A4991F823674C7"
+				"download" "69D9FB5C71AE2B9368A4991F823674C7"
+			}
+			"latest_preview_release"
+			{
+				"gid" "0838B9913B1CFE2C8F9EBDBB79A65AC0"
+				"size" "2A373ACA653E289C20B2FBD23BCBBC8F"
+				"download" "2A373ACA653E289C20B2FBD23BCBBC8F"
+			}
 			"digital_foundry"
 			{
 				"gid" "AA1ADF024A46BE48395BD8D3F79228C4"
@@ -532,8 +658,14 @@
 	{
 		"public"
 		{
-			"buildid" "14462520"
-			"timeupdated" "1716429742"
+			"buildid" "15231748"
+			"timeupdated" "1722546359"
+		}
+		"compat_nvidia"
+		{
+			"buildid" "14744941"
+			"pwdrequired" "1"
+			"timeupdated" "1719235321"
 		}
 		"debugging"
 		{
@@ -541,11 +673,29 @@
 			"pwdrequired" "1"
 			"timeupdated" "1716487439"
 		}
+		"latest_live_release"
+		{
+			"buildid" "15358637"
+			"pwdrequired" "1"
+			"timeupdated" "1723572106"
+		}
+		"latest_preview_final"
+		{
+			"buildid" "15712094"
+			"pwdrequired" "1"
+			"timeupdated" "1726471494"
+		}
+		"latest_preview_release"
+		{
+			"buildid" "15712835"
+			"pwdrequired" "1"
+			"timeupdated" "1726476581"
+		}
 		"development"
 		{
-			"buildid" "14513188"
+			"buildid" "15543672"
 			"pwdrequired" "1"
-			"timeupdated" "1716855876"
+			"timeupdated" "1725015796"
 		}
 		"digital_foundry"
 		{
@@ -555,27 +705,27 @@
 		}
 		"latest_final"
 		{
-			"buildid" "14513523"
+			"buildid" "15713008"
 			"pwdrequired" "1"
-			"timeupdated" "1716859505"
+			"timeupdated" "1726477835"
 		}
 		"latest_release"
 		{
-			"buildid" "14513948"
+			"buildid" "15713396"
 			"pwdrequired" "1"
-			"timeupdated" "1716863088"
+			"timeupdated" "1726480520"
 		}
 		"latest_smoked"
 		{
-			"buildid" "14246287"
+			"buildid" "14602674"
 			"pwdrequired" "1"
-			"timeupdated" "1714667690"
+			"timeupdated" "1717527945"
 		}
 		"latest_stable"
 		{
-			"buildid" "14149166"
+			"buildid" "15616073"
 			"pwdrequired" "1"
-			"timeupdated" "1713902308"
+			"timeupdated" "1725640437"
 		}
 		"pd_external"
 		{
@@ -603,9 +753,9 @@
 		}
 		"default_debug"
 		{
-			"buildid" "14461556"
+			"buildid" "15268857"
 			"pwdrequired" "1"
-			"timeupdated" "1716434372"
+			"timeupdated" "1722894128"
 		}
 		"default_previous"
 		{
@@ -618,7 +768,7 @@
 "ufs"
 {
 	"quota" "262144000"
-	"maxnumfiles" "200"
+	"maxnumfiles" "1000"
 	"savefiles"
 	{
 		"0"
@@ -630,7 +780,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "23716184"
-"_sha" "8066c271ea010a2e3dc4401914263b8d90d06a03"
-"_size" "13732"
