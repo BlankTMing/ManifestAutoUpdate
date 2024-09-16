@@ -1,0 +1,492 @@
+"appid" "293780"
+"common"
+{
+	"name" "Crawl"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"clienticon" "9979bc5db7a7d56a00e3286bfec21c9606690a0a"
+	"clienttga" "fc6914da4f61a156a7fc5dceb0ace9bf438c2052"
+	"icon" "139dfb62ede8539f33b354e0c6852f37c7e58aea"
+	"clienticns" "acc3617983cf9b236a91bc7521532c1465522c2b"
+	"linuxclienticon" "09ae24b8e376258470c41f2d1d7bb3a73511fb34"
+	"logo" "c9b40ceefe6914f7050482eca4fe3d1e498fdcf6"
+	"logo_small" "c9b40ceefe6914f7050482eca4fe3d1e498fdcf6_thumb"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1646956800"
+		"tested_build_id" "8121616"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-experimental"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Crawl"
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "46.13531002095763"
+			"height_pct" "73.8589738515528"
+		}
+	}
+	"store_asset_mtime" "1668050533"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Powerhoof"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Powerhoof"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_28" "1"
+		"category_2" "1"
+		"category_24" "1"
+		"category_23" "1"
+		"category_37" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_44" "1"
+		"category_43" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_55" "1"
+		"category_57" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1491897600"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "293780"
+	"store_tags"
+	{
+		"0" "3964"
+		"1" "1720"
+		"2" "7368"
+		"3" "42804"
+		"4" "4840"
+		"5" "492"
+		"6" "3841"
+		"7" "19"
+		"8" "3859"
+		"9" "1716"
+		"10" "122"
+		"11" "7432"
+		"12" "1756"
+		"13" "3871"
+		"14" "1684"
+		"15" "1685"
+		"16" "4345"
+		"17" "4182"
+		"18" "1667"
+		"19" "3959"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"developer" "Powerhoof"
+	"publisher" "Powerhoof"
+	"homepage" "http://www.crawlgame.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Crawl"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Crawl.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Crawl.x86"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"2"
+		{
+			"executable" "Crawl.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "Crawl.x86_64"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"1906388977"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"293784"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3491099889672045067"
+				"size" "270586202"
+				"download" "50790688"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "6BA01BC4454EA381E7873C4EACBDD57B"
+				"size" "CB2560EA9B1F5B0E07ECA13ED7E65B96"
+				"download" "5D827D5442B58DA8F4D3D94C23A0444A"
+			}
+			"test"
+			{
+				"gid" "AAD4F6B6B7C3E11876B35C15EEDEEB88"
+				"size" "AB05FB0F5B94A19AAD885FC4CCBA8F03"
+				"download" "8E99C11FC278200F5F109C6D482B66B1"
+			}
+		}
+	}
+	"293785"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2734595929965450240"
+				"size" "300334911"
+				"download" "61614352"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "89452CE32DE203F1CB33C83CEB110BE7"
+				"size" "8B34E257DBA37749167FB834FA4EB3D0"
+				"download" "D3EB95518186B7DAFBC6427758BB7D94"
+			}
+			"test"
+			{
+				"gid" "F65B54F67BEC1748FFA218A5B3422839"
+				"size" "3DBDBC16D5D8DFCEEC7AF102F879B30C"
+				"download" "59A382E91EE6BFC65B71E6DC360AE47F"
+			}
+		}
+	}
+	"293786"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4938308555957864366"
+				"size" "279786411"
+				"download" "52854976"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "C7F750811E24EAEADB6865BBBC99CEFE"
+				"size" "80B35A540BAE4A8324F32C26E8FD7864"
+				"download" "A0862D61D1A6382F2F7F35C05AB2E0B0"
+			}
+			"test"
+			{
+				"gid" "CD2A00304F26FBB4C5798A4A7C3CCCDC"
+				"size" "ADCA2162C75F9AED126420470A2A3C1A"
+				"download" "5998DBA184CCB81862C9E33BA839E2C3"
+			}
+		}
+	}
+	"293781"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9207527406397102173"
+				"size" "270587186"
+				"download" "50865168"
+			}
+			"giantrat"
+			{
+				"gid" "3330748605441652842"
+				"size" "208385532"
+				"download" "43851632"
+			}
+			"xinput"
+			{
+				"gid" "5186670087945576593"
+				"size" "270587186"
+				"download" "50866224"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "779B112176743F6ED1EDC41C9449FC08"
+				"size" "5F61785BD35FA89D1A940D77D8AEDBC8"
+				"download" "0A8BD039E435F769EC82016A8EBC9FE2"
+			}
+			"test"
+			{
+				"gid" "809F99D1626D7FFB5275407CB3D0D5C9"
+				"size" "0F680934F874089967D455A85A7C8AE8"
+				"download" "FF977E3B69CB12F5A5A22E5B2EC9D6AC"
+			}
+		}
+	}
+	"293782"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "385604914542949045"
+				"size" "300334911"
+				"download" "61657376"
+			}
+			"giantrat"
+			{
+				"gid" "170484716849887225"
+				"size" "246035676"
+				"download" "55060288"
+			}
+			"xinput"
+			{
+				"gid" "2724342308248620282"
+				"size" "280664203"
+				"download" "59429984"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "F2FE002B1F098C063DF3151E07EA199A"
+				"size" "66786A797545888CBB8193C0F32A408B"
+				"download" "4429C5C0BD9288A8DB3716ECE83C97DB"
+			}
+			"test"
+			{
+				"gid" "203B2B47F3325EACA87F83C892D14138"
+				"size" "C359823FD9BB4BEE971648A5488E43CC"
+				"download" "944BBDF26C204F6DD21C0E6E28B67A0F"
+			}
+		}
+	}
+	"293783"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5630203781324899773"
+				"size" "312908739"
+				"download" "62310432"
+			}
+			"giantrat"
+			{
+				"gid" "4139086144277235303"
+				"size" "217685371"
+				"download" "45357200"
+			}
+			"xinput"
+			{
+				"gid" "2406565605666704706"
+				"size" "254316353"
+				"download" "50630048"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "45638524DBDCC04E576315F6AEAD485A"
+				"size" "4C90C52DC413CF0ACD87B125FB5F81B2"
+				"download" "3BB6F033D4274B45F4E37777C360C36D"
+			}
+			"test"
+			{
+				"gid" "216C27D45AE8D3C1A0BEBBBA0C5322D7"
+				"size" "E25E538CE0E43D85A5DB360F9A91B3FC"
+				"download" "1BA882E5B87AEE7CC53634D656410AD9"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8121616"
+			"timeupdated" "1643677801"
+		}
+		"beta"
+		{
+			"buildid" "4382848"
+			"pwdrequired" "1"
+			"timeupdated" "1573612417"
+		}
+		"giantrat"
+		{
+			"buildid" "1283720"
+			"description" "v0.10.03 (Giant Rat) - For REALLY old computers"
+			"timeupdated" "1480460818"
+		}
+		"test"
+		{
+			"buildid" "10246063"
+			"pwdrequired" "1"
+			"timeupdated" "1672716368"
+		}
+		"xinput"
+		{
+			"buildid" "1768829"
+			"description" "XInput enabled for better support with some controllers"
+			"timeupdated" "1492647104"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "10"
+}
