@@ -15,15 +15,15 @@
 	"languages"
 	{
 		"english" "1"
+		"schinese" "1"
 		"russian" "1"
+		"japanese" "1"
 	}
 	"content_descriptors"
 	{
 		"0" "2"
 		"1" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "3"
@@ -81,7 +81,47 @@
 			"height_pct" "66.04975133421794"
 		}
 	}
-	"store_asset_mtime" "1680291063"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"russian" "library_600x900_russian.jpg"
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"russian" "library_600x900_russian_2x.jpg"
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "61.21788415720246"
+				"height_pct" "66.04975133421794"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1721774107"
 	"associations"
 	{
 		"0"
@@ -114,6 +154,7 @@
 		"category_2" "1"
 		"category_22" "1"
 		"category_29" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -128,6 +169,21 @@
 			"subtitles" "true"
 		}
 		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
 		{
 			"supported" "true"
 			"subtitles" "true"
@@ -147,10 +203,10 @@
 		"3" "11014"
 		"4" "4486"
 		"5" "3799"
-		"6" "492"
-		"7" "31275"
-		"8" "21"
-		"9" "4172"
+		"6" "31275"
+		"7" "492"
+		"8" "4172"
+		"9" "21"
 		"10" "599"
 		"11" "4182"
 		"12" "4166"
@@ -163,7 +219,7 @@
 		"19" "17389"
 	}
 	"review_score" "8"
-	"review_percentage" "91"
+	"review_percentage" "90"
 }
 "extended"
 {
@@ -222,9 +278,9 @@
 		{
 			"public"
 			{
-				"gid" "6975363528942595447"
-				"size" "2983534539"
-				"download" "949237040"
+				"gid" "2803419734892630510"
+				"size" "3227347360"
+				"download" "1063426880"
 			}
 		}
 		"encryptedmanifests"
@@ -235,17 +291,23 @@
 				"size" "3A29B1AD6B38F90630EA3C507006D4E8"
 				"download" "05481C407A5454E5040CFF3AD1F7B71E"
 			}
-			"testing"
-			{
-				"gid" "03EEA258F0D5052CDEF3D9EEF7E45217"
-				"size" "6E450B09EADF3A8F0F4E2DD9F1AEB5E2"
-				"download" "FF77D39D0FEE402D7427AC1212BA5F46"
-			}
 			"testinglauncher"
 			{
 				"gid" "08C404A85F97EF5D96A1249B4798821B"
 				"size" "227BBD7D40997126D1152EA27C3B6292"
 				"download" "34644693A26979258C603F2154EC827C"
+			}
+			"externaltesting"
+			{
+				"gid" "991FBA2EDD1AF510637BEDCD4D154997"
+				"size" "FC071B714B87EE5F374D5EF6C48705D4"
+				"download" "E1788C9480FAAF6E579D08C9B76FCC28"
+			}
+			"testing"
+			{
+				"gid" "99D95C605F79049D2AF2BBFDB3E0C616"
+				"size" "125457114B140BA6ECE3B03667C6E017"
+				"download" "D160BF5F32FA53DA2A3D4116F6C5FFB7"
 			}
 		}
 	}
@@ -263,17 +325,23 @@
 		}
 		"encryptedmanifests"
 		{
-			"testing"
-			{
-				"gid" "0D8188419EA454750CE9D07F49C503E5"
-				"size" "83B32F3CBB56EBCD4AB87050EF8B9B3F"
-				"download" "6853B68510E7AF8DCFAD81BA74F66B68"
-			}
 			"testinglauncher"
 			{
 				"gid" "36CB299135AECD1CB1C2D79D24AA6989"
 				"size" "F106317358E9C402B1AF6B7B85DBD20E"
 				"download" "D0F02EBBCC4C8AC50E41C411A5ADFB84"
+			}
+			"externaltesting"
+			{
+				"gid" "DA6FED1B16C31D88BCD3C18CEC460C4B"
+				"size" "D2EAAC8F16CE188B663095B83C3CBD91"
+				"download" "578C7674F0603FB05B479A099369AD2E"
+			}
+			"testing"
+			{
+				"gid" "0D8188419EA454750CE9D07F49C503E5"
+				"size" "83B32F3CBB56EBCD4AB87050EF8B9B3F"
+				"download" "6853B68510E7AF8DCFAD81BA74F66B68"
 			}
 		}
 	}
@@ -282,8 +350,8 @@
 	{
 		"public"
 		{
-			"buildid" "12484726"
-			"timeupdated" "1697736030"
+			"buildid" "15420240"
+			"timeupdated" "1724244151"
 		}
 		"demo"
 		{
@@ -291,17 +359,23 @@
 			"pwdrequired" "1"
 			"timeupdated" "1599817016"
 		}
-		"testing"
-		{
-			"buildid" "12484726"
-			"pwdrequired" "1"
-			"timeupdated" "1697734741"
-		}
 		"testinglauncher"
 		{
 			"buildid" "6389474"
 			"pwdrequired" "1"
 			"timeupdated" "1615906938"
+		}
+		"externaltesting"
+		{
+			"buildid" "15420240"
+			"pwdrequired" "1"
+			"timeupdated" "1724074061"
+		}
+		"testing"
+		{
+			"buildid" "14244198"
+			"pwdrequired" "1"
+			"timeupdated" "1714656122"
 		}
 	}
 }
@@ -326,7 +400,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "21539502"
-"_sha" "b48c68ff5db5d216884d32dc34b8c4ed9ad8684f"
-"_size" "6264"
