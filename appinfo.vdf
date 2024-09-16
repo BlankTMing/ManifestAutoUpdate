@@ -29,6 +29,11 @@
 		"tchinese" "通古斯：禁區實錄 - 增強版"
 		"ukrainian" "Тунгуска: Відвідування - Розширене видання"
 	}
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+	}
 	"content_descriptors"
 	{
 		"0" "5"
@@ -99,6 +104,51 @@
 			"height_pct" "100"
 		}
 	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "36.744186046511565"
+				"height_pct" "100"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
 	"store_asset_mtime" "1720766546"
 	"associations"
 	{
@@ -160,6 +210,10 @@
 		{
 			"supported" "true"
 		}
+		"german"
+		{
+			"supported" "true"
+		}
 	}
 	"steam_release_date" "1622822283"
 	"steam_deck_blog_url" "https://steamcommunity.com/app/1601970/discussions/0/4034725629424768485/"
@@ -177,8 +231,8 @@
 		"6" "1702"
 		"7" "3978"
 		"8" "4166"
-		"9" "1742"
-		"10" "21"
+		"9" "21"
+		"10" "1742"
 		"11" "5179"
 		"12" "15172"
 		"13" "1695"
@@ -190,7 +244,7 @@
 		"19" "4182"
 	}
 	"review_score" "8"
-	"review_percentage" "86"
+	"review_percentage" "88"
 }
 "extended"
 {
@@ -251,24 +305,24 @@
 		{
 			"public"
 			{
-				"gid" "814339827101375283"
-				"size" "4939725032"
-				"download" "2314188960"
+				"gid" "4286939476945267538"
+				"size" "4876743767"
+				"download" "2294801728"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"2019-4beta"
-			{
-				"gid" "0C309829BFD24E5749C1E8FF7658BF86"
-				"size" "213C7375B8DE5225C8E9DD7DD0173E6D"
-				"download" "A8C268401F0DA0DB1366EE953A96E8D5"
-			}
 			"beta"
 			{
 				"gid" "E8287C2039E9B8DEEA72F369EEF71E8E"
 				"size" "84194D0D577F348BD34382874B0994C6"
 				"download" "25E84B53D0041BC54C51D9A4CD890492"
+			}
+			"german-test"
+			{
+				"gid" "0241C3CA24CA149BBFDDC6FDE884EE12"
+				"size" "A43FCBC3A217ECF8721C0BE0A3DDB7D0"
+				"download" "B6CA186BFA425A985A9B79EEE2F1307A"
 			}
 		}
 	}
@@ -285,20 +339,20 @@
 	{
 		"public"
 		{
-			"buildid" "15027448"
-			"timeupdated" "1720944197"
-		}
-		"2019-4beta"
-		{
-			"buildid" "14750921"
-			"pwdrequired" "1"
-			"timeupdated" "1718690814"
+			"buildid" "15627723"
+			"timeupdated" "1725750081"
 		}
 		"beta"
 		{
 			"buildid" "14673873"
 			"pwdrequired" "1"
 			"timeupdated" "1718088643"
+		}
+		"german-test"
+		{
+			"buildid" "15384377"
+			"pwdrequired" "1"
+			"timeupdated" "1723740470"
 		}
 	}
 }
@@ -368,6 +422,12 @@
 			"path" "RotoristWorkshop/Tunguska/"
 			"pattern" "SurvivalSave2.json"
 		}
+		"10"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "RotoristWorkshop/Tunguska/OldSaves/"
+			"pattern" "*.json"
+		}
 	}
 	"rootoverrides"
 	{
@@ -382,7 +442,3 @@
 	}
 	"sync_while_suspended" "1"
 }
-"_missing_token" "False"
-"_change_number" "24358923"
-"_sha" "df072776bb66e1ae4b09052aa0c759f6d75606ca"
-"_size" "7302"
