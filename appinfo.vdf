@@ -70,14 +70,64 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
-			"pinned_position" "UpperCenter"
-			"width_pct" "30.70938215102973"
-			"height_pct" "30.412693225087054"
+			"pinned_position" "BottomLeft"
+			"width_pct" "10.931009116681963"
+			"height_pct" "24.510075566060877"
 		}
 	}
-	"store_asset_mtime" "1705604176"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "10.931009116681963"
+				"height_pct" "24.510075566060877"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1724059438"
 	"associations"
 	{
 		"0"
@@ -171,8 +221,8 @@
 		"0" "9"
 		"1" "1677"
 		"2" "3859"
-		"3" "4182"
-		"4" "1741"
+		"3" "1741"
+		"4" "4182"
 		"5" "1670"
 		"6" "14139"
 		"7" "4305"
@@ -180,8 +230,8 @@
 		"9" "1643"
 		"10" "1678"
 		"11" "5851"
-		"12" "6310"
-		"13" "1775"
+		"12" "1775"
+		"13" "6310"
 		"14" "599"
 		"15" "4726"
 		"16" "4695"
@@ -197,7 +247,7 @@
 	"developer" "Midjiwan AB"
 	"publisher" "Midjiwan AB"
 	"homepage" "https://www.polytopia.io"
-	"listofdlc" "982200,982201,1237430,1529660,2186650,2350830,2438450,2736400"
+	"listofdlc" "982200,982201,1237430,1529660,2186650,2350830,2438450,2736400,2943450"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -249,60 +299,18 @@
 		{
 			"public"
 			{
-				"gid" "1987412584784244319"
-				"size" "257269837"
-				"download" "101006000"
+				"gid" "3276597846343401455"
+				"size" "265463186"
+				"download" "108397984"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"alpha"
-			{
-				"gid" "3CDEA0B2FB85A4E9347CA8371716DD6B"
-				"size" "259EC373CD607768A3A9D6DD6BC4F566"
-				"download" "6504BEF6CC2C26E6422597B2535D5D61"
-			}
-			"beta"
-			{
-				"gid" "FC243C3A40FF11E7903A6AB2CA0659BA"
-				"size" "350A991EA761E50795A28FBF44146B47"
-				"download" "EB5F86DDD12F223BBA27240DF1E8BDF7"
-			}
-			"brenton"
-			{
-				"gid" "C6B14146551565CF89C9D78CD09EB619"
-				"size" "51AADCC97A0A567E3D249C7B83499882"
-				"download" "BF14EECD1D087F931E8C4841BBDA50CE"
-			}
 			"featuretest"
 			{
 				"gid" "885A6125A6A797B359B2F6A0F251D26E"
 				"size" "E3904DC3650D8EEE010A97C6318A8F78"
 				"download" "1C15F07B1E4B97D0A2426E482AFE622D"
-			}
-			"internal"
-			{
-				"gid" "7F4BDAFBA2FEEDE055530987574B0F2C"
-				"size" "3CDC1DCD6BD4494E6B7A4B73AC14FD69"
-				"download" "B12744CACEE1DA6EFAC9626423FCFEB9"
-			}
-			"nightly"
-			{
-				"gid" "5CFCFCC16234AE99D09171B91B6E0142"
-				"size" "407472597744E57D6A2C92FF0858E851"
-				"download" "C6F403FD8B2A956458AF23B69E6C6D3C"
-			}
-			"pending-alpha"
-			{
-				"gid" "E0DF14B396CEFD1B3DE640B3B3592730"
-				"size" "2D7038753A3AB20B3C0789014726BBFA"
-				"download" "81A5CBCFF984BBC5A1A1A2B6D3796C9D"
-			}
-			"pending-beta"
-			{
-				"gid" "58FD5990A6CB1E44A4D51398C3A281D3"
-				"size" "EFE8A5B485A236BC983DE5B078991530"
-				"download" "0CC9214EBD6E5C32AD25CCFE31745AB2"
 			}
 			"pending-release"
 			{
@@ -310,11 +318,47 @@
 				"size" "D7F7CE4B534E204B37400587F3881C97"
 				"download" "2F8919406FE3BF2F410971E117D7A550"
 			}
-			"skinpack4"
+			"alpha"
 			{
-				"gid" "E1DE20487D4B9BC72B6D1C4F723E55B1"
-				"size" "6DD88A75730CB5F2BC06AED5689560D1"
-				"download" "6588F0622FE411580FDA6B5C16E9C947"
+				"gid" "1DF7BFCFA95A18A9FD9F459D5A1E72E9"
+				"size" "94A7AB628C667203BC372487A8D8B199"
+				"download" "BF5E44482C63C82D3E063AAB96301F34"
+			}
+			"beta"
+			{
+				"gid" "8EFE72A343D075699991C63E617FBCE4"
+				"size" "F32741D041B1B12EDBFC25DAD464F0A5"
+				"download" "FCE7534590FB5553B775C37F4FE183F2"
+			}
+			"brenton"
+			{
+				"gid" "C6B14146551565CF89C9D78CD09EB619"
+				"size" "51AADCC97A0A567E3D249C7B83499882"
+				"download" "BF14EECD1D087F931E8C4841BBDA50CE"
+			}
+			"internal"
+			{
+				"gid" "26E6777114F64D7DE5EBF86EED7E989C"
+				"size" "32C041EC522FDE20906D67B370625619"
+				"download" "50DCD9C4FCBCC50E4CEBAF0AFE7CE498"
+			}
+			"nightly"
+			{
+				"gid" "88E0C729249036F96371242392E0493D"
+				"size" "3659165CC75FF369CF05D4C72F4BA212"
+				"download" "8AC602AA5BCC3C1B448A5F006A4FE3C9"
+			}
+			"pending-alpha"
+			{
+				"gid" "42577C07472D0838DB1ADAD4462AE4FC"
+				"size" "6B9821B69FFF36DCAE3A11500BF648F2"
+				"download" "B7ADDC900F68F3142845CDCB7FCBF5D6"
+			}
+			"pending-beta"
+			{
+				"gid" "9C4AD1B9BA67EBD154E6AEA941BF2234"
+				"size" "044A6AE6CA4E69AF517F865F8F0731DC"
+				"download" "61CE638B0348DE500BFB72FABA5FC22A"
 			}
 		}
 	}
@@ -328,60 +372,18 @@
 		{
 			"public"
 			{
-				"gid" "4354278619622108013"
-				"size" "164735657"
-				"download" "79779888"
+				"gid" "3360755333199538241"
+				"size" "173213365"
+				"download" "87113776"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"alpha"
-			{
-				"gid" "E12AAFC10286F2896E3622CCCA1E6431"
-				"size" "A3ECB48018E5F166917C6DAE297F6A36"
-				"download" "D00398695BC9BE658B3037C3B1876AB4"
-			}
-			"beta"
-			{
-				"gid" "64CC89965BA35B8AF62349AA33082D3C"
-				"size" "ABF9A78A8DD6D86BDD4BDF1897E4C501"
-				"download" "EB2DB62E32CD76FC830F75EC1BD009E8"
-			}
-			"brenton"
-			{
-				"gid" "10D03F5CBDEE9199EC46C9A9B2A6181B"
-				"size" "54F06C26145A4708E1CD5A3D96BB8BDB"
-				"download" "000E89E803E18868ACE27CE9CE44C73C"
-			}
 			"featuretest"
 			{
 				"gid" "ED0B5E794AE86E0E36A1CFBBC201E0C2"
 				"size" "952F738A7424C85A97DC673792D7AC24"
 				"download" "AFDF1EC741F9142FBEC03E016EEDD4EB"
-			}
-			"internal"
-			{
-				"gid" "87F8D4DEE33516FAE8F90FCB12126AB6"
-				"size" "0035A33664011B40319F73F8DFD54444"
-				"download" "303783F6F82A78A6B9EE915BD7BFE2ED"
-			}
-			"nightly"
-			{
-				"gid" "0F4B87AB33B2B124E64F11ADC278759F"
-				"size" "56A6D5374C206EDCC95A0FC79B9221FD"
-				"download" "297132DDBBCF2DA6F566E601A1AC5DA9"
-			}
-			"pending-alpha"
-			{
-				"gid" "7C022620CCA8C8310320A908B8E820DC"
-				"size" "91A31DD0883090A64C1030A26779E204"
-				"download" "8632E7EA2D0A92BEC7C26E9D1172CF6D"
-			}
-			"pending-beta"
-			{
-				"gid" "F9B60C1B1BB5BD317B7DA7C8FE940D44"
-				"size" "495FB0256E7713BF95F5387C897F1BD5"
-				"download" "C5BD100400AF89B5A7EE8BAB8C5F3C66"
 			}
 			"pending-release"
 			{
@@ -389,11 +391,47 @@
 				"size" "C4DDA30331ADB6489F0380047B627748"
 				"download" "5919974D9CDE541BC2F595B09BF13DDF"
 			}
-			"skinpack4"
+			"alpha"
 			{
-				"gid" "D655AD80DA484E4F55628DCEC385368F"
-				"size" "2C0E98AA36BA9674112D6E035DB03C5D"
-				"download" "53549F65E9CC8EB6ADF364D148C2A7D2"
+				"gid" "3140F45E4176DFA32F86001164799B26"
+				"size" "4D8BA6AA31F63E48C80C65B31EEB29DA"
+				"download" "10723855CCFFE5BEBCF166F00E4D1BBD"
+			}
+			"beta"
+			{
+				"gid" "C9E906423EEB8E7A430273DCF1182353"
+				"size" "1295C8108A7AAD23A8DCDBB7DDBE56DC"
+				"download" "4C5F570AC823DBE18386389FF6B75C43"
+			}
+			"brenton"
+			{
+				"gid" "E8C8129C46CF06C3B50431EDB8E6F740"
+				"size" "11FB4061EAF59F0D99D7014A4B7DB5D3"
+				"download" "6BBEAA290A88BA6F7ED75EF05104B9DA"
+			}
+			"internal"
+			{
+				"gid" "5E5F5ECA8D26FCE9AF80F9EA31E56B22"
+				"size" "5D8F3272E5D2ACE29945F7F356B719E2"
+				"download" "AF49A65268106F8DC2D0B701242C2F24"
+			}
+			"nightly"
+			{
+				"gid" "12F400064A06F4F3C421B5EF4EC41BB9"
+				"size" "AB43D93E8AE4745F639743F4FDD1BC00"
+				"download" "1B290FBEC88C1A49B88296A70B461683"
+			}
+			"pending-alpha"
+			{
+				"gid" "2EC8654F27122C3883C93A4C133177E0"
+				"size" "5152B70BF9CD9E6855A703215C93F246"
+				"download" "80FA00A0BD7C91912E013FB277238385"
+			}
+			"pending-beta"
+			{
+				"gid" "BC770F6449B89C72C5C4221CCE7E2A5E"
+				"size" "600BD976AABA61BA48FEAE314A43D031"
+				"download" "B88F2412D49BD36D9E39A3CF02D5CCA8"
 			}
 		}
 	}
@@ -407,60 +445,18 @@
 		{
 			"public"
 			{
-				"gid" "1069399138528186596"
-				"size" "131324087"
-				"download" "72285120"
+				"gid" "2923875532649521632"
+				"size" "208200781"
+				"download" "90332240"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"alpha"
-			{
-				"gid" "E5228DE56B4EBEF46AED256970546EF4"
-				"size" "E73C00FD36DDDABD26896BE7A6DD243A"
-				"download" "1DE88A09EAD756929327CEF45F721480"
-			}
-			"beta"
-			{
-				"gid" "DF03000601D82F1E5AB45C791DBAE968"
-				"size" "30957C15ABCA812209FD828620A3E507"
-				"download" "C5594F41772B5CE56E841C18A91E7E9E"
-			}
-			"brenton"
-			{
-				"gid" "15F9B484D91416ED1F0984C94CF569B2"
-				"size" "BA86CF6E467537F2654FD9984F2FE3A2"
-				"download" "4CD13A47B2A108A9EE75E56844B8BA77"
-			}
 			"featuretest"
 			{
 				"gid" "745C9CAD56215F351D6EAEA5C2C1F36E"
 				"size" "8A872B42B2F1BCE5E3DE1FC48ADA1123"
 				"download" "3CE701C5AFCDF82D925F042F3FC3C35B"
-			}
-			"internal"
-			{
-				"gid" "2DBBEBA7CEEEBBF50406A4AB51003AE9"
-				"size" "1005CE6EE26DDDCC8BF68A81E85D2CF9"
-				"download" "4E3231D36D59C2A2D3BF862C6F643C28"
-			}
-			"nightly"
-			{
-				"gid" "0F269AA10F254896975D2C30AF05DEB3"
-				"size" "7624539E3D2D49069FA478A508329DC3"
-				"download" "55184B78657554AE5C5B7A06D16FF341"
-			}
-			"pending-alpha"
-			{
-				"gid" "0F35CD196E6CC063AB816381C35245D3"
-				"size" "E892F91AC57D1EF8BAE69DC068572BC7"
-				"download" "911698EEF67EA41B7D7590C26853C632"
-			}
-			"pending-beta"
-			{
-				"gid" "B7F49D153FA1B4715E2E4A3132105D73"
-				"size" "ABBC1A081955A9999B8C0226491599B1"
-				"download" "63B19586AFB56AD213BA9178EA67B7B3"
 			}
 			"pending-release"
 			{
@@ -468,11 +464,47 @@
 				"size" "94DE043FC6DCD77DB7FFC1CA55B7CEA8"
 				"download" "A244BB107B01B51EED98A758D4C7D3C2"
 			}
-			"skinpack4"
+			"alpha"
 			{
-				"gid" "00F918F517439BFD867808407B3F8119"
-				"size" "1EB5798F7C2B7646DA6C93F118594E80"
-				"download" "56DF20AC97EC26D344DF50BA200A673B"
+				"gid" "C56EA5A2F672D048746D9002CC0A5654"
+				"size" "C432037B72FBE3427A9027B40647F802"
+				"download" "78DD459AF328B767475A59A956DB7837"
+			}
+			"beta"
+			{
+				"gid" "9264F687D1802DECA7B90D8A1A90B569"
+				"size" "ED2B60296547F655979F734FEA611775"
+				"download" "E9F8321B316AFF9DECE9644EE1AEF4A6"
+			}
+			"brenton"
+			{
+				"gid" "15F9B484D91416ED1F0984C94CF569B2"
+				"size" "BA86CF6E467537F2654FD9984F2FE3A2"
+				"download" "4CD13A47B2A108A9EE75E56844B8BA77"
+			}
+			"internal"
+			{
+				"gid" "C0606C7D961BE998854B6AEA775C1150"
+				"size" "519B411715F6C989FD796A932F7AF6B0"
+				"download" "A92017522C107BED46B8303CCCC3370A"
+			}
+			"nightly"
+			{
+				"gid" "7A9AB1F806481E1B0C087E718F687DDF"
+				"size" "2EF4DE722ABC2B614C91210B8ADB59B1"
+				"download" "D41F2C5570E5E1F92E3B83590283D924"
+			}
+			"pending-alpha"
+			{
+				"gid" "E78B51302B0A2254C3E8923D0FA1D5F2"
+				"size" "AE5FB99EC64017CFB69B101264E67D51"
+				"download" "ECD53EF5A55DE46DF0C5C4BFB4DF9305"
+			}
+			"pending-beta"
+			{
+				"gid" "2C2BA32A48D0836CCCC1E1EE59ADA9BB"
+				"size" "DC86E4BE490F53B704A6F19A92CD82BE"
+				"download" "88FDB9815297FB0C7181D470BFB88776"
 			}
 		}
 	}
@@ -496,26 +528,8 @@
 	{
 		"public"
 		{
-			"buildid" "13844626"
-			"timeupdated" "1713169215"
-		}
-		"alpha"
-		{
-			"buildid" "13218791"
-			"pwdrequired" "1"
-			"timeupdated" "1706011836"
-		}
-		"beta"
-		{
-			"buildid" "13844626"
-			"pwdrequired" "1"
-			"timeupdated" "1712089968"
-		}
-		"brenton"
-		{
-			"buildid" "13873625"
-			"pwdrequired" "1"
-			"timeupdated" "1711562854"
+			"buildid" "15469538"
+			"timeupdated" "1724863695"
 		}
 		"featuretest"
 		{
@@ -523,45 +537,53 @@
 			"pwdrequired" "1"
 			"timeupdated" "1694166785"
 		}
-		"internal"
-		{
-			"buildid" "12961284"
-			"pwdrequired" "1"
-			"timeupdated" "1702555732"
-		}
-		"nightly"
-		{
-			"buildid" "13844305"
-			"pwdrequired" "1"
-			"timeupdated" "1711374941"
-		}
-		"pending-alpha"
-		{
-			"buildid" "13810417"
-			"pwdrequired" "1"
-			"timeupdated" "1711026633"
-		}
-		"pending-beta"
-		{
-			"buildid" "14070343"
-			"pwdrequired" "1"
-			"timeupdated" "1713274030"
-		}
 		"pending-release"
 		{
 			"buildid" "12993100"
 			"pwdrequired" "1"
 			"timeupdated" "1702931570"
 		}
-		"skinpack4"
+		"alpha"
 		{
-			"buildid" "12902158"
+			"buildid" "15287976"
 			"pwdrequired" "1"
-			"timeupdated" "1701964551"
+			"timeupdated" "1723021083"
+		}
+		"beta"
+		{
+			"buildid" "15674883"
+			"pwdrequired" "1"
+			"timeupdated" "1726164931"
+		}
+		"brenton"
+		{
+			"buildid" "15612907"
+			"pwdrequired" "1"
+			"timeupdated" "1725608161"
+		}
+		"internal"
+		{
+			"buildid" "15674883"
+			"pwdrequired" "1"
+			"timeupdated" "1726131910"
+		}
+		"nightly"
+		{
+			"buildid" "15508932"
+			"pwdrequired" "1"
+			"timeupdated" "1724782274"
+		}
+		"pending-alpha"
+		{
+			"buildid" "15675324"
+			"pwdrequired" "1"
+			"timeupdated" "1726134643"
+		}
+		"pending-beta"
+		{
+			"buildid" "15712887"
+			"pwdrequired" "1"
+			"timeupdated" "1726476960"
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "23175626"
-"_sha" "949d780220741784d749fa7377e3d2970d1cc026"
-"_size" "11802"
