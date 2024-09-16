@@ -1,0 +1,348 @@
+"appid" "251870"
+"common"
+{
+	"name" "Go! Go! Nippon! ~My First Trip to Japan~"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "50ec6fcc1ce5b28d6c16d964bdda3597519b5eb6"
+	"logo_small" "50ec6fcc1ce5b28d6c16d964bdda3597519b5eb6_thumb"
+	"icon" "381e4ce3d30948efa3ed8d71c4735d03aeda750e"
+	"clienttga" "b235691628a6676a174297c834399a4a07a9463d"
+	"clienticon" "f8fc325947c8db93861f0e09e996377e980bdf20"
+	"linuxclienticon" "66c70deb656282ae1062a6a493dd3836cb35f80e"
+	"clienticns" "830d6f6e49f6e1f3ec242ba9f2c12e597cdb5db6"
+	"oslist" "windows"
+	"eulas"
+	{
+	}
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1651104000"
+		"tested_build_id" "1517868"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Go! Go! Nippon! ~My First Trip to Japan~"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1568836700"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "OVERDRIVE"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "MangaGamer"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "MangaGamer"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1317366000"
+	"steam_release_date" "1393004684"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "251870"
+	"store_tags"
+	{
+		"0" "4085"
+		"1" "3799"
+		"2" "21"
+		"3" "4726"
+		"4" "6650"
+		"5" "597"
+		"6" "9551"
+		"7" "4182"
+		"8" "4947"
+		"9" "1742"
+		"10" "3871"
+		"11" "5611"
+		"12" "12095"
+		"13" "9130"
+		"14" "4136"
+		"15" "6971"
+	}
+	"review_score" "8"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"showcdkeyonlaunch" "1"
+	"gamedir" ""
+	"developer" "OVERDRIVE"
+	"publisher" "MangaGamer"
+	"homepage" "https://www.mangagamer.com/detail.php\?goods_type=1&amp;product_code=55"
+	"listofdlc" "397030,534840"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "GoGoNippon"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "GoGoNippon\\BGI.exe"
+			"workingdir" "GoGoNippon"
+			"description" "Go Go Nippon! (original)"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "GoGoNippon2015\\ggn2015.exe"
+			"workingdir" "GoGoNippon"
+			"description" "Go Go Nippon! 2015"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "397030"
+			}
+		}
+		"2"
+		{
+			"executable" "GoGoNippon2016\\ggn2016.exe"
+			"description" "Go Go Nippon! 2016"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "534840"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"251871"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5993284922428924190"
+				"size" "281304731"
+				"download" "265881104"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dlctest"
+			{
+				"gid" "C978BA663BFF0074C199986839E1B9A1"
+				"size" "7FF96689FBF942006981B4028AFA473B"
+				"download" "A1E92DE49219A330DD061B092B544509"
+			}
+		}
+	}
+	"397030"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"dlcappid" "397030"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6406181565234059677"
+				"size" "1166527200"
+				"download" "419575504"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dlctest"
+			{
+				"gid" "616B5138BBFBBB58056CB3F9FE980A99"
+				"size" "07710B885E6A3C0523E2A4FB32CC588A"
+				"download" "9D4AA90A9ACD28522B117FFED8E69FF1"
+			}
+		}
+	}
+	"534840"
+	{
+		"dlcappid" "534840"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2560990693287073466"
+				"size" "915719135"
+				"download" "636960336"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dlctest"
+			{
+				"gid" "D13EF9293E48F1F24877788428F7C691"
+				"size" "4683B3B60AA6D4E202EBD6C48862E653"
+				"download" "0510131E21571549CBFB03FAD749005E"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1517868"
+			"timeupdated" "1481692422"
+		}
+		"dlctest"
+		{
+			"buildid" "1517868"
+			"pwdrequired" "1"
+			"timeupdated" "1481692436"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "5000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "GoGoNippon/UserData"
+			"pattern" "*.sud"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "GoGoNippon"
+			"pattern" "BGI.gdb"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "GoGoNippon2015/UserData/SaveData"
+			"pattern" "*.bin"
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "GoGoNippon2016/UserData/SaveData"
+			"pattern" "*.bin"
+		}
+	}
+}
