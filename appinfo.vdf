@@ -89,26 +89,26 @@
 	"metacritic_name" "Conqueror\'s Blade: Frontier"
 	"small_capsule"
 	{
-		"english" "capsule_231x87.jpg"
-		"japanese" "capsule_231x87_japanese.jpg"
-		"koreana" "capsule_231x87_koreana.jpg"
 		"tchinese" "capsule_231x87_tchinese.jpg"
 		"schinese" "capsule_231x87_schinese.jpg"
+		"koreana" "capsule_231x87_koreana.jpg"
+		"japanese" "capsule_231x87_japanese.jpg"
+		"english" "capsule_231x87.jpg"
 	}
 	"header_image"
 	{
-		"english" "header.jpg"
-		"japanese" "header_japanese.jpg"
-		"koreana" "header_koreana.jpg"
 		"schinese" "header_schinese.jpg"
 		"tchinese" "header_tchinese.jpg"
+		"japanese" "header_japanese.jpg"
+		"koreana" "header_koreana.jpg"
+		"english" "header.jpg"
 	}
 	"library_assets"
 	{
-		"library_capsule" "en,ja,ko,zh-cn,zh-tw"
+		"library_capsule" "zh-tw,ja,en,zh-cn,ko"
 		"library_hero" "en"
-		"library_logo" "en,ja,ko,zh-cn,zh-tw"
-		"library_header" "en,ja,zh-cn,ko,zh-tw"
+		"library_logo" "zh-tw,en,ko,ja,zh-cn"
+		"library_header" "zh-tw,en,ja,zh-cn,ko"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -116,7 +116,68 @@
 			"height_pct" "85.41666666666666"
 		}
 	}
-	"store_asset_mtime" "1711714115"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"tchinese" "library_600x900_tchinese.jpg"
+				"japanese" "library_600x900_japanese.jpg"
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+				"koreana" "library_600x900_koreana.jpg"
+			}
+			"image2x"
+			{
+				"tchinese" "library_600x900_tchinese_2x.jpg"
+				"japanese" "library_600x900_japanese_2x.jpg"
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+				"koreana" "library_600x900_koreana_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "18.09737774423084"
+				"height_pct" "85.41666666666666"
+			}
+			"image"
+			{
+				"tchinese" "logo_tchinese.png"
+				"english" "logo.png"
+				"koreana" "logo_koreana.png"
+				"japanese" "logo_japanese.png"
+				"schinese" "logo_schinese.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"tchinese" "library_header_tchinese.jpg"
+				"english" "library_header.jpg"
+				"japanese" "library_header_japanese.jpg"
+				"schinese" "library_header_schinese.jpg"
+				"koreana" "library_header_koreana.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1719303738"
 	"associations"
 	{
 		"0"
@@ -220,8 +281,8 @@
 		"3" "19"
 		"4" "9"
 		"5" "1754"
-		"6" "3810"
-		"7" "113"
+		"6" "113"
+		"7" "3810"
 		"8" "4747"
 		"9" "4598"
 		"10" "1678"
@@ -236,7 +297,7 @@
 		"19" "4231"
 	}
 	"review_score" "5"
-	"review_percentage" "69"
+	"review_percentage" "68"
 }
 "extended"
 {
@@ -244,7 +305,7 @@
 	"publisher" "Poros Interactive"
 	"homepage" "https://www.conquerorsblade.com/"
 	"isfreeapp" "1"
-	"listofdlc" "1747380,1777450,1809460,1809461,1809462,1809463,1835880,1835881,1872480,1872481,2654310,2654320,2654330,2654340"
+	"listofdlc" "1747380,1777450,1809460,1809461,1809462,1809463,1835880,1835881,1872480,1872481,2654310,2654320,2654330,2654340,3063160,3065510,3065520,3065530,3065540,3065550,3065560"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -255,7 +316,7 @@
 		"0"
 		{
 			"executable" "/game/x64/Ship/client/proven_ground_client.exe"
-			"arguments" "-steam"
+			"arguments" "-steam_poros"
 			"type" "default"
 			"config"
 			{
@@ -264,26 +325,40 @@
 		}
 		"1"
 		{
-			"executable" "/cb_launcher/CBLauncher.exe"
-			"workingdir" "cb_launcher/"
+			"executable" "/game/x64/Ship/client/proven_ground_client.exe"
 			"type" "option1"
 			"config"
 			{
 				"oslist" "windows"
-				"osarch" "64"
-				"betakey" "cbs_test"
+				"betakey" "cb_beta"
 			}
 			"description_loc"
 			{
-				"english" "GameLauncher"
+				"english" "cb_beta"
 			}
-			"description" "GameLauncher"
+			"description" "cb_beta"
+		}
+		"2"
+		{
+			"executable" "/game/x64/Ship/client/proven_ground_client.exe"
+			"arguments" "-steam_mailru"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "mg_steam_beta"
+			}
+			"description_loc"
+			{
+				"english" "mg_beta"
+			}
+			"description" "mg_beta"
 		}
 	}
 }
 "depots"
 {
-	"baselanguages" "english,koreana,spanish,schinese,tchinese,thai,japanese,arabic,brazilian,latam,vietnamese"
+	"baselanguages" "english,koreana,spanish,schinese,tchinese,thai,japanese,brazilian,latam,vietnamese"
 	"228986"
 	{
 		"config"
@@ -317,13 +392,19 @@
 		{
 			"public"
 			{
-				"gid" "1353187213493948385"
-				"size" "63169936000"
-				"download" "47456056688"
+				"gid" "1651146154055980949"
+				"size" "62230438531"
+				"download" "46995200944"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"cb_beta"
+			{
+				"gid" "505E45F49B8402F16F9372C93F768F40"
+				"size" "2E8E205237218675C94A82325792B00F"
+				"download" "C7BA65F9C0DA843A4326CE4F25074F83"
+			}
 			"cbs_test"
 			{
 				"gid" "7AC3BACDE4CCACDBCD64A9554C02B742"
@@ -362,12 +443,21 @@
 			}
 		}
 	}
+	"835574"
+	{
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "14400800"
-			"timeupdated" "1715937263"
+			"buildid" "15687001"
+			"timeupdated" "1726209184"
+		}
+		"cb_beta"
+		{
+			"buildid" "15712786"
+			"pwdrequired" "1"
+			"timeupdated" "1726476510"
 		}
 		"cbs_test"
 		{
@@ -377,7 +467,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "23580330"
-"_sha" "2b04d4e0f34e405c2479587c4a975cd25f5d326a"
-"_size" "7235"
