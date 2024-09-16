@@ -17,6 +17,51 @@
 		"schinese" "哥布林之石 / Goblin Stone"
 		"tchinese" "哥布林之石 / Goblin Stone"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1717632000"
+		"tested_build_id" "13770396"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"metacritic_name" "Goblin Stone"
 	"controllertagwizard" "1"
 	"small_capsule"
 	{
@@ -41,7 +86,58 @@
 			"height_pct" "101.13983792929443"
 		}
 	}
-	"store_asset_mtime" "1710405302"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+				"schinese" "library_hero_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+				"schinese" "library_hero_schinese_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "UpperCenter"
+				"width_pct" "36.398198554743296"
+				"height_pct" "101.13983792929443"
+			}
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+				"schinese" "library_header_schinese.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1715657750"
 	"associations"
 	{
 		"0"
@@ -91,34 +187,36 @@
 		}
 	}
 	"steam_release_date" "1710258757"
+	"metacritic_score" "72"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/goblin-stone\?ftag=MCD-06-10aaa1f"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "1521970"
 	"store_tags"
 	{
-		"0" "14139"
-		"1" "17305"
-		"2" "1720"
-		"3" "3959"
-		"4" "1759"
-		"5" "1741"
-		"6" "7332"
-		"7" "1716"
-		"8" "1677"
-		"9" "122"
-		"10" "32322"
+		"0" "4182"
+		"1" "7332"
+		"2" "4726"
+		"3" "1716"
+		"4" "1720"
+		"5" "220585"
+		"6" "5923"
+		"7" "4325"
+		"8" "3798"
+		"9" "1759"
+		"10" "5094"
 		"11" "1742"
-		"12" "4182"
-		"13" "9"
-		"14" "3871"
-		"15" "4474"
-		"16" "4166"
-		"17" "5094"
-		"18" "4325"
-		"19" "6815"
+		"12" "6426"
+		"13" "10695"
+		"14" "21"
+		"15" "6815"
+		"16" "4155"
+		"17" "4305"
+		"18" "1684"
+		"19" "12472"
 	}
 	"review_score" "5"
-	"review_percentage" "52"
+	"review_percentage" "54"
 }
 "extended"
 {
@@ -170,9 +268,9 @@
 		{
 			"public"
 			{
-				"gid" "1332404830145688166"
-				"size" "4087086106"
-				"download" "3219308032"
+				"gid" "603759753299246919"
+				"size" "4131882871"
+				"download" "3249078816"
 			}
 		}
 		"encryptedmanifests"
@@ -218,12 +316,6 @@
 				"gid" "A336A457E6710290C1C2704F58E73521"
 				"size" "515E0C0B321CE9A7B6D1A03455DF5B97"
 				"download" "140976A7868B57B93068EB49B4A08AEB"
-			}
-			"internal"
-			{
-				"gid" "9AC3960556F3CD1FB7573865DED59BC3"
-				"size" "F70C38DCEC12C6B484BA7D9F53146B12"
-				"download" "865772267EFB53556569C07A345CCF3D"
 			}
 			"orcchop-playtest"
 			{
@@ -285,11 +377,17 @@
 				"size" "2D321E798B75812E8D7241DD2BBA2625"
 				"download" "2699BDF5FA793E97768C7C5BA2C7B182"
 			}
+			"internal"
+			{
+				"gid" "B38FD62EC59F9592829DA1A8715565F4"
+				"size" "FEFF7383DE54A49F44D35BB32E504DAF"
+				"download" "C899A113B6F62A9E1DA5B883FCE1D499"
+			}
 			"submission-candidate"
 			{
-				"gid" "3690E3EA4DDDDC6D8EE13D166D7D9CD1"
-				"size" "431B77002E4DE739632DB7A2E4B16B0B"
-				"download" "EF08F929B302C650F160DD04BE7123FC"
+				"gid" "64DD71F472D4AFE8A533751AF5B0C8BC"
+				"size" "ACF184B5CB59689886BCD5DD9A4BE771"
+				"download" "BD5221BCF14F7BF4C1693C8E3AF02B10"
 			}
 		}
 	}
@@ -303,9 +401,9 @@
 		{
 			"public"
 			{
-				"gid" "3795814975166911732"
-				"size" "4114078934"
-				"download" "3225737760"
+				"gid" "880015298638295562"
+				"size" "4159143884"
+				"download" "3257026944"
 			}
 			"local"
 			{
@@ -357,12 +455,6 @@
 				"gid" "FE955228175CCE88F72B3E2D16F633A3"
 				"size" "C0C8C26F23BF0D88C8402D54A804A2D9"
 				"download" "416E089E441D81D8EC6245100FFF7E9A"
-			}
-			"internal"
-			{
-				"gid" "306FF80ED233641E3528D27D70A2A411"
-				"size" "1B31934A1F07A6760E0666B2E1626CA6"
-				"download" "60211AA095D812837EA53EBF432EE408"
 			}
 			"orcchop-playtest"
 			{
@@ -418,11 +510,17 @@
 				"size" "8930A17E33C34B94CE7A57DDB82180C9"
 				"download" "A08B96CCEE707E0B38AEC5338EDCE61C"
 			}
+			"internal"
+			{
+				"gid" "8ABFC895D375FB5028BB981648933811"
+				"size" "0704434B615C9CC0235B7493D78CB14C"
+				"download" "F2BC421BC7EDEE473F24BAB2A08C7EAA"
+			}
 			"submission-candidate"
 			{
-				"gid" "CD3A2131ADCFB906460DCD3817EFFD99"
-				"size" "D445CDD9815D35A9039BA3DAF89B9854"
-				"download" "A0D27138290832677045747FF7108CDD"
+				"gid" "C756703D4ED221FF06DE00E7896B678C"
+				"size" "897E3D49691F56B22AA1680D2FC25F39"
+				"download" "F2C97BFFE39E7F3D356401A303DA8525"
 			}
 		}
 	}
@@ -430,8 +528,8 @@
 	{
 		"public"
 		{
-			"buildid" "13853020"
-			"timeupdated" "1711431039"
+			"buildid" "14384644"
+			"timeupdated" "1715834396"
 		}
 		"alpha"
 		{
@@ -474,12 +572,6 @@
 			"buildid" "12502847"
 			"pwdrequired" "1"
 			"timeupdated" "1697938212"
-		}
-		"internal"
-		{
-			"buildid" "13850741"
-			"pwdrequired" "1"
-			"timeupdated" "1711411821"
 		}
 		"local"
 		{
@@ -548,11 +640,17 @@
 			"pwdrequired" "1"
 			"timeupdated" "1624632698"
 		}
+		"internal"
+		{
+			"buildid" "14355981"
+			"pwdrequired" "1"
+			"timeupdated" "1715647997"
+		}
 		"submission-candidate"
 		{
-			"buildid" "13910772"
+			"buildid" "14463086"
 			"pwdrequired" "1"
-			"timeupdated" "1711953089"
+			"timeupdated" "1716434126"
 		}
 	}
 }
@@ -588,7 +686,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "22982074"
-"_sha" "b6f9847097727fab6820ffbee2eb43b9723b4225"
-"_size" "13035"
