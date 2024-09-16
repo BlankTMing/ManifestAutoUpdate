@@ -25,6 +25,50 @@
 	{
 		"schinese" "离火长明"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1716336000"
+		"tested_build_id" "14393608"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"metacritic_name" "Nocturnal"
 	"controller_support" "full"
 	"small_capsule"
@@ -42,12 +86,54 @@
 		"library_logo" "en"
 		"logo_position"
 		{
-			"pinned_position" "CenterCenter"
-			"width_pct" "71.35355892648778"
-			"height_pct" "73.1773925433389"
+			"pinned_position" "BottomLeft"
+			"width_pct" "30.375677669211882"
+			"height_pct" "63.298503918309194"
 		}
 	}
-	"store_asset_mtime" "1700474449"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "30.375677669211882"
+				"height_pct" "63.298503918309194"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1719057519"
 	"associations"
 	{
 		"0"
@@ -78,6 +164,7 @@
 		"category_28" "1"
 		"category_22" "1"
 		"category_23" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -123,7 +210,7 @@
 		}
 	}
 	"steam_release_date" "1686147132"
-	"metacritic_score" "78"
+	"metacritic_score" "81"
 	"metacritic_fullurl" "https://www.metacritic.com/game/pc/nocturnal\?ftag=MCD-06-10aaa1f"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
@@ -152,12 +239,14 @@
 		"19" "1664"
 	}
 	"review_score" "8"
-	"review_percentage" "89"
+	"review_percentage" "91"
 }
 "extended"
 {
 	"developer" "Sunnyside Games"
 	"publisher" "Dear Villagers"
+	"listofdlc" "2827700"
+	"dlcavailableonstore" "1"
 }
 "config"
 {
@@ -176,6 +265,8 @@
 }
 "depots"
 {
+	"baselanguages" "english,german,french,spanish,schinese,tchinese,brazilian"
+	"hasdepotsindlc" "1"
 	"1634081"
 	{
 		"config"
@@ -186,9 +277,9 @@
 		{
 			"public"
 			{
-				"gid" "8561888449563805206"
-				"size" "1186793265"
-				"download" "863965008"
+				"gid" "5231862623235044736"
+				"size" "1177075327"
+				"download" "853965248"
 			}
 		}
 		"encryptedmanifests"
@@ -199,23 +290,17 @@
 				"size" "D8180D8F5F7BB343EA3893FD17215289"
 				"download" "68BCE4A42C922752D1596B8BC18718A9"
 			}
-			"development"
-			{
-				"gid" "4900A38D0D1C5CD504141D1B66446C1F"
-				"size" "455546872500474AFEEC3590BABEC31B"
-				"download" "A20DF718B1EFBA2E7246DF3D6403F234"
-			}
 			"external"
 			{
 				"gid" "BC1DC05045B903319134D0D4EF8F451F"
 				"size" "7E951C849B464A88692CFEF1FBE13B51"
 				"download" "10E8F0D5AF25347BA9D2D87EAF1F168D"
 			}
-			"internal"
+			"externalplaytest"
 			{
-				"gid" "A4E31A185544CCFB6136E51AE5AAB9F9"
-				"size" "F90AB37BD745EB91A8DA16E754025F56"
-				"download" "915D4A2A13B4E2DED0F86CB9046F1350"
+				"gid" "38E8AD6CC2AD43127212EB0B32DEDDB6"
+				"size" "0946FBDE6403C98496F8D8E8167A33E3"
+				"download" "BAF022F5AA7D28B3E94E4DFEF6F0BB5F"
 			}
 			"laststable"
 			{
@@ -231,9 +316,9 @@
 			}
 			"playtest"
 			{
-				"gid" "C48B13E9FE06FABF64E64753A80446A9"
-				"size" "F20D4EE9C5C1459E62969CD6D3A5C828"
-				"download" "9332699CB6580AE64589F254BD19E4A4"
+				"gid" "F2A5422EE628F5D610779EC521519463"
+				"size" "F5B22BC71F07085F265B2D997F1882BC"
+				"download" "CFF1D5E7809528B93C6BB9C0149E1759"
 			}
 			"preview"
 			{
@@ -247,15 +332,26 @@
 				"size" "9DDE927747C7B6668225D3628E55BEF3"
 				"download" "48E652B09AE1882195248048C26E4D11"
 			}
+			"development"
+			{
+				"gid" "A7E6AB44E507DCA43A13FAE007DA1D35"
+				"size" "9CC452D9310CDC5F2FDF0694F69A7DA4"
+				"download" "B372B6CC999890F5CC6C4C79CDD61EB7"
+			}
+			"internal"
+			{
+				"gid" "39BCA4137569A0769F5018929580810B"
+				"size" "0CE29472695D8ED6E868836435A41C0A"
+				"download" "13D36D96CFC4087E328F33985149249B"
+			}
 		}
 	}
-	"baselanguages" "english,german,french,spanish,schinese,tchinese,brazilian"
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "12354430"
-			"timeupdated" "1696487165"
+			"buildid" "14393608"
+			"timeupdated" "1715892544"
 		}
 		"demo"
 		{
@@ -263,23 +359,17 @@
 			"pwdrequired" "1"
 			"timeupdated" "1675538008"
 		}
-		"development"
-		{
-			"buildid" "12354430"
-			"pwdrequired" "1"
-			"timeupdated" "1696425927"
-		}
 		"external"
 		{
 			"buildid" "11398472"
 			"pwdrequired" "1"
 			"timeupdated" "1686031554"
 		}
-		"internal"
+		"externalplaytest"
 		{
 			"buildid" "12354430"
 			"pwdrequired" "1"
-			"timeupdated" "1696425956"
+			"timeupdated" "1705498647"
 		}
 		"laststable"
 		{
@@ -295,9 +385,9 @@
 		}
 		"playtest"
 		{
-			"buildid" "10172612"
+			"buildid" "12354430"
 			"pwdrequired" "1"
-			"timeupdated" "1671446514"
+			"timeupdated" "1705498639"
 		}
 		"preview"
 		{
@@ -310,6 +400,18 @@
 			"buildid" "11348829"
 			"pwdrequired" "1"
 			"timeupdated" "1685441537"
+		}
+		"development"
+		{
+			"buildid" "14393608"
+			"pwdrequired" "1"
+			"timeupdated" "1715886113"
+		}
+		"internal"
+		{
+			"buildid" "14378975"
+			"pwdrequired" "1"
+			"timeupdated" "1715800121"
 		}
 	}
 }
@@ -351,7 +453,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "21674024"
-"_sha" "c875099238df71911fdc2e3cb06726f079053ccb"
-"_size" "6470"
