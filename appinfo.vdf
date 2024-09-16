@@ -38,54 +38,71 @@
 			"id" "1818750_eula_0"
 			"name" "MultiVersus EULA"
 			"url" "https://store.steampowered.com//eula/1818750_eula_0"
+			"version" "2"
 		}
 	}
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1658793600"
-		"tested_build_id" "9117197"
+		"test_timestamp" "1718755200"
+		"tested_build_id" "14313789"
 		"tests"
 		{
 			"0"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
 			}
 			"1"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
 			}
 			"2"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
 			}
 			"3"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"4"
 			{
 				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"5"
+			{
+				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"6"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+			}
+			"7"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
 		{
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "1"
-			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "0"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
-			"small_text" "0"
+			"small_text" "1"
 			"requires_internet_for_setup" "0"
-			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
-			"requires_h264" "0"
+			"requires_internet_for_singleplayer" "1"
+			"recommended_runtime" "proton-experimental"
+			"requires_h264" "1"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "MultiVersus"
@@ -106,12 +123,61 @@
 		"library_header" "en"
 		"logo_position"
 		{
-			"pinned_position" "BottomCenter"
-			"width_pct" "42.40424414984048"
-			"height_pct" "60.26422070293003"
+			"pinned_position" "BottomLeft"
+			"width_pct" "30.484427233272882"
+			"height_pct" "100.53908365660378"
 		}
 	}
-	"store_asset_mtime" "1709860777"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "30.484427233272882"
+				"height_pct" "100.53908365660378"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1726258892"
 	"associations"
 	{
 		"0"
@@ -123,6 +189,11 @@
 		{
 			"type" "publisher"
 			"name" "Warner Bros. Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "WB Games"
 		}
 	}
 	"primary_genre" "37"
@@ -144,7 +215,6 @@
 		"category_35" "1"
 		"category_44" "1"
 		"category_27" "1"
-		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -205,13 +275,29 @@
 			"full_audio" "true"
 			"subtitles" "true"
 		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1658246400"
-	"metacritic_score" "78"
+	"metacritic_score" "75"
 	"metacritic_fullurl" "https://www.metacritic.com/game/pc/multiversus\?ftag=MCD-06-10aaa1f"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "1818750"
+	"exfgls" "3"
 	"store_tags"
 	{
 		"0" "3859"
@@ -219,30 +305,31 @@
 		"2" "1685"
 		"3" "19"
 		"4" "3878"
-		"5" "4158"
-		"6" "4562"
-		"7" "1684"
-		"8" "113"
+		"5" "113"
+		"6" "4158"
+		"7" "4562"
+		"8" "1684"
 		"9" "5379"
 		"10" "3871"
 		"11" "4305"
-		"12" "6815"
+		"12" "1671"
 		"13" "10397"
-		"14" "1671"
-		"15" "7743"
-		"16" "1751"
-		"17" "4136"
+		"14" "4136"
+		"15" "1751"
+		"16" "6815"
+		"17" "7743"
 		"18" "6691"
 		"19" "4747"
 	}
-	"review_score" "8"
-	"review_percentage" "85"
+	"review_score" "6"
+	"review_percentage" "77"
 }
 "extended"
 {
 	"developer" "Player First Games"
 	"publisher" "Warner Bros. Games"
 	"homepage" "https://www.multiversus.com/"
+	"isfreeapp" "1"
 	"listofdlc" "2015370,2015371,2015372"
 	"dlcavailableonstore" "1"
 }
@@ -255,7 +342,7 @@
 	{
 		"0"
 		{
-			"executable" "start_protected_game.exe"
+			"executable" "MultiVersus.exe"
 			"arguments" "-allowsteam"
 			"type" "default"
 			"config"
@@ -332,6 +419,142 @@
 			}
 			"description" "With New Front End"
 		}
+		"5"
+		{
+			"executable" "MultiVersus.exe"
+			"arguments" "-allowsteam"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "publishingqa"
+			}
+			"description_loc"
+			{
+				"english" "Without Easy Anti-Cheat"
+			}
+			"description" "Without Easy Anti-Cheat"
+		}
+		"6"
+		{
+			"executable" "MultiVersus.exe"
+			"arguments" "-allowsteam"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "publishingqa2"
+			}
+			"description_loc"
+			{
+				"english" "Without Easy Anti-Cheat"
+			}
+			"description" "Without Easy Anti-Cheat"
+		}
+		"7"
+		{
+			"executable" "MultiVersus.exe"
+			"arguments" "-allowsteam"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "publishingqa_shipping"
+			}
+			"description_loc"
+			{
+				"english" "Without Easy Anti-Cheat"
+			}
+			"description" "Without Easy Anti-Cheat"
+		}
+		"8"
+		{
+			"executable" "MultiVersus.exe"
+			"arguments" "-allowsteam"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "publishingqa2_shipping"
+			}
+			"description_loc"
+			{
+				"english" "Without Easy Anti-Cheat"
+			}
+			"description" "Without Easy Anti-Cheat"
+		}
+		"9"
+		{
+			"executable" "MultiVersus.exe"
+			"arguments" "-allowsteam"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "prodstaging"
+			}
+			"description_loc"
+			{
+				"english" "Without Easy Anti-Cheat"
+			}
+			"description" "Without Easy Anti-Cheat"
+		}
+		"10"
+		{
+			"executable" "MultiVersus.exe"
+			"arguments" "-allowsteam"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "prodstaging_shipping"
+			}
+			"description_loc"
+			{
+				"english" "Without Easy Anti-Cheat"
+			}
+			"description" "Without Easy Anti-Cheat"
+		}
+		"11"
+		{
+			"executable" "MultiVersus.exe"
+			"arguments" "-allowsteam"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "publishing"
+			}
+			"description_loc"
+			{
+				"english" "Without Easy Anti-Cheat"
+			}
+			"description" "Without Easy Anti-Cheat"
+		}
+		"12"
+		{
+			"executable" "MultiVersus.exe"
+			"arguments" "-allowsteam"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "predeploy"
+			}
+			"description_loc"
+			{
+				"english" "Without Easy Anti-Cheat"
+			}
+			"description" "Without Easy Anti-Cheat"
+		}
 	}
 	"steamdecktouchscreen" "1"
 }
@@ -361,60 +584,84 @@
 		{
 			"public"
 			{
-				"gid" "8780239795816477473"
-				"size" "7874987555"
-				"download" "7253914160"
+				"gid" "7455510762370023354"
+				"size" "13402440875"
+				"download" "12920333808"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"catt"
+			{
+				"gid" "E669F45DC137C0234AF5288383E635FB"
+				"size" "51D78C80E7E601FA55377DE977B67D49"
+				"download" "540DB03311222CA27F8C25A3993D2791"
+			}
+			"mock"
+			{
+				"gid" "726DA7642B947A96B1817504D4A36E79"
+				"size" "BC2B69F722CFE994A7752E25A891A510"
+				"download" "84EDCA9AFF1F870E941F778FEDDFE6B8"
+			}
+			"press2"
+			{
+				"gid" "F2357EB1768D08DB1756F91D2CA2EECF"
+				"size" "9C3EFA46EB1E2C4D60D9F0A905267609"
+				"download" "BE840F2AEEB72249E0ED9EC3A0B3920C"
+			}
+			"prodmirror"
+			{
+				"gid" "640F9956E232B8C3AFDE0171FD583B32"
+				"size" "06EBEBC8869BD6A971048D68DED27D7C"
+				"download" "389229D06F66F507A8475BD32C59764F"
+			}
 			"events"
 			{
-				"gid" "CCB160576CD0DA46AC589AB2C4BD7A7C"
-				"size" "1529FB4943DEEE588530DA11E9F9A306"
-				"download" "8437A703FE0EA3B487E7588B5EBB3081"
+				"gid" "782F8EC692BB2FE8CE631DA5C7B68145"
+				"size" "B74062D09B2E963EFBF2897008D57EFE"
+				"download" "93D6516C5C2929AEFF9AB37CF2817462"
 			}
 			"internaldev"
 			{
-				"gid" "406EC7A6D24CE9EACE9CB6238B9150D4"
-				"size" "1962B4FD382A9009C9E32E62119FFC81"
-				"download" "3FEEE3320086FD941B9A5EB7A5A035AF"
+				"gid" "F2B86C21E122486A4ACB1234775946AA"
+				"size" "FC96FC8FE8CDFDA8EBB79C15F1D1181B"
+				"download" "513A65B492AD35E03539B524E4475690"
 			}
 			"livestaging"
 			{
-				"gid" "9E841EB878C8CFCFE4EA2160EB356E28"
-				"size" "8591C0019160ED069CC021096429E127"
-				"download" "719385F4E66D5F4A8056F7C2346481C7"
+				"gid" "58E76BEDC986ED337BA653E0DEC3FE49"
+				"size" "F167790EB4635DAAFFAE7A5B9ED4A177"
+				"download" "87D7E91D1AF0E9B58049BA6683B184CB"
 			}
 			"livestaging_shipping"
 			{
-				"gid" "8EB64EB009C19ED915C9A4245A359C7B"
-				"size" "5BA4E3AA3AEE0E6457D720666DC76AD6"
-				"download" "49D26D1E6E93E6F23038970771B1B5B2"
+				"gid" "82084D52E78EFC8868AEF77988F227C9"
+				"size" "AB7E546F7DF90E20B2618961BFA2C798"
+				"download" "8B30A91CB582AA836FD0FD87E97D9C7B"
 			}
 			"predeploy"
 			{
-				"gid" "B8CB793B091BEF613B3E243C0EDC4C4C"
-				"size" "849206BA2D9E44FE2C5C9B75395F59F4"
-				"download" "CA4B4ECE313E6C12E984AC8CD03B4A65"
+				"gid" "ADDFB0428E04E2546AEB1146ABF771E5"
+				"size" "32DF3A0B1D212F3B60F360D4F95DC044"
+				"download" "D05E32895EB10179B8C080BA46410101"
 			}
 			"privatetest"
 			{
-				"gid" "92BD365E7273910F370D8912AC23B3DD"
-				"size" "D3F88029F6499E5CE9BF13305D4C22ED"
-				"download" "7E8F493D9BBB6AF42F1B62A0503BA5B7"
+				"gid" "85EAEBFB5E05C62C6F722CD48E93D6F4"
+				"size" "86167A4166DF7D8ED4BFCE137F03A9A5"
+				"download" "ED12618DA859A7F95DDA978428A27C4B"
 			}
 			"prodstaging"
 			{
-				"gid" "8C46A9A37D17C64535085EDE9180C635"
-				"size" "93E71D76D4E2CB4BE013FD0F15904D6C"
-				"download" "46CDF5D4155189187B382385F6289369"
+				"gid" "9C33DE8BCFDC1DA1F7455DD18C208A69"
+				"size" "5CD9449C494051E5B2F3DA591835285D"
+				"download" "69390ACF31DA5C4F2601B9AB834DD24F"
 			}
 			"prodstaging_shipping"
 			{
-				"gid" "6CAB54132EEBAF2C1799BE7D7E3DF611"
-				"size" "02FFDAE20E52ED34A5EDD3E3ED9C7EFE"
-				"download" "21B0EED694F3C3B7DEA5185D6C18018A"
+				"gid" "3213A51D7EA56DA120A07F13C47EA3C8"
+				"size" "46C6F77ABCF204D9EB7D79AFED8B1D47"
+				"download" "20388A648A2C68C83805A3297D881624"
 			}
 			"publicbetaenvironment"
 			{
@@ -424,63 +671,45 @@
 			}
 			"publishing"
 			{
-				"gid" "ED192C1013BC90555FD47B9166864C64"
-				"size" "BBB4A6E4342E2AD713DD5E75EB6FF530"
-				"download" "6CE7813264458EA9A9FE688B6236E442"
+				"gid" "2EAE84396BC4C8F1157B426146019897"
+				"size" "BB757F6D7B93C6F0B7F9347D341EA554"
+				"download" "98D9551C9C609A38E828FF702BF87C29"
 			}
 			"publishingqa"
 			{
-				"gid" "372319138D48ED3B1AADCE3E1CE376C9"
-				"size" "B529347930062799C0D348EC8A9DCDF0"
-				"download" "D2A7C76F2D9E4950199787CD936D3264"
+				"gid" "968E37AA2650DC1450807AB361B53B2C"
+				"size" "35CF705993E8506767F017DA42876698"
+				"download" "6E708B71F9A3A3E85A71F6CC8DA1D7CC"
 			}
 			"publishingqa_shipping"
 			{
-				"gid" "641FB8D3555457F2B0D70AD4843D45D2"
-				"size" "3DFF55B9D3B916812ACFCFA0B7F0D2F7"
-				"download" "046D20078770B44DDAE7D78123665AF9"
+				"gid" "995D6E95CE5D440E9CB4982CA3B7DCF0"
+				"size" "CDEFB1B2E180A2CC06DB725D0EF24075"
+				"download" "6A2BBC5CA230E65A5B3F96332DB9DA63"
 			}
 			"publishingqa2"
 			{
-				"gid" "CA1B2F88EF04CE4BEC261043F486DF1E"
-				"size" "C16EAA4D32ED5D81EB733013EAE3C1C0"
-				"download" "84FF2986D278A4E5EF20783BC185FBE0"
+				"gid" "7EC3A9C7D42D3AE4144E3F5BDA7E438E"
+				"size" "A2FFF7CB9C91BB4A839877C0AA741978"
+				"download" "A3B569D5219C9A3EA500FF05621B6B6A"
 			}
 			"publishingqa2_shipping"
 			{
-				"gid" "1BE6EFE10CA3FC9D4F2A7C7664B3CCA2"
-				"size" "4ACF52AD62FCF7FCA3A7B4416CCCEB30"
-				"download" "1889DECB53B08651A8B0DFD3A58F8424"
-			}
-			"qualityassurance"
-			{
-				"gid" "537ED3B9BA9FDE7EDC540CB2BC969A33"
-				"size" "35CBA82EDC539F555B9CE9A9E2FF1D53"
-				"download" "E84A6B72FAEC116159CDDE2213A3CD1B"
-			}
-			"qualityassurance_shipping"
-			{
-				"gid" "6FC6F5D69409FD19F69849BE0AA1C3E9"
-				"size" "A82F4A27ED574F90D6068DE433E71D68"
-				"download" "18211D537B67362A4BEF89EF96A7A0E6"
-			}
-			"qualityassurance2"
-			{
-				"gid" "99967099DEF413963B521DDDC2E7B049"
-				"size" "9D487C17C48880A30372A767862E437F"
-				"download" "A31069566A6A4DBD4E6A568C7F78BFCA"
-			}
-			"qualityassurance2_shipping"
-			{
-				"gid" "65CEAC4FADE80D598AB39C13D6F06233"
-				"size" "91CA27DCA8139DF79F2FAC36E92BFD6E"
-				"download" "80D2D0F926BF79F6A92BD4DE88D3D7D8"
+				"gid" "A7EEEF8BDD86F5FF121D1C9AC000BB4B"
+				"size" "481117054B08F28CE51493B0543BBA5B"
+				"download" "A673733866FC72771427D73ED5F16D57"
 			}
 			"urtesting"
 			{
-				"gid" "98C16A9339A6B43A604D656FB854B5EA"
-				"size" "2C72180E27A3B7046B2C5918C9A24D36"
-				"download" "F0453F98D38D5804D4B5CFE3F7CC731A"
+				"gid" "54BDFCF45C40B5FB7AD3FB4F05465A88"
+				"size" "A2239CE0309DB0C6C5D87CC0BB99C785"
+				"download" "FE221FAA897E2075DB9D33FEF821969A"
+			}
+			"ageratings"
+			{
+				"gid" "FEF0F26B929E4D0FB8CD784341BBE5D1"
+				"size" "B75FA597325011AC3422CEDD6CA73D8C"
+				"download" "BD0DDC134801F7B080F5ACAFB9AB3C91"
 			}
 		}
 	}
@@ -488,56 +717,80 @@
 	{
 		"public"
 		{
-			"buildid" "11517748"
-			"timeupdated" "1687795262"
+			"buildid" "15521837"
+			"timeupdated" "1724947246"
+		}
+		"catt"
+		{
+			"buildid" "14106527"
+			"pwdrequired" "1"
+			"timeupdated" "1713512898"
+		}
+		"mock"
+		{
+			"buildid" "14340282"
+			"pwdrequired" "1"
+			"timeupdated" "1715493111"
+		}
+		"press2"
+		{
+			"buildid" "14335172"
+			"pwdrequired" "1"
+			"timeupdated" "1715412918"
+		}
+		"prodmirror"
+		{
+			"buildid" "15534094"
+			"pwdrequired" "1"
+			"timeupdated" "1724948711"
 		}
 		"events"
 		{
-			"buildid" "9250294"
+			"buildid" "15577325"
 			"pwdrequired" "1"
-			"timeupdated" "1659594348"
+			"timeupdated" "1725389012"
 		}
 		"internaldev"
 		{
-			"buildid" "13880256"
+			"buildid" "15712769"
 			"pwdrequired" "1"
-			"timeupdated" "1711616540"
+			"timeupdated" "1726476221"
 		}
 		"livestaging"
 		{
-			"buildid" "9613300"
+			"buildid" "14829343"
 			"pwdrequired" "1"
-			"timeupdated" "1664410821"
+			"timeupdated" "1719369301"
 		}
 		"livestaging_shipping"
 		{
-			"buildid" "9612777"
+			"buildid" "14828832"
 			"pwdrequired" "1"
-			"timeupdated" "1664404729"
+			"timeupdated" "1719369318"
 		}
 		"predeploy"
 		{
-			"buildid" "11517748"
+			"buildid" "15521837"
 			"pwdrequired" "1"
-			"timeupdated" "1687285407"
+			"timeupdated" "1724867540"
 		}
 		"privatetest"
 		{
-			"buildid" "12956094"
+			"buildid" "15416274"
 			"pwdrequired" "1"
-			"timeupdated" "1702520347"
+			"timeupdated" "1724947060"
 		}
 		"prodstaging"
 		{
-			"buildid" "11354561"
+			"buildid" "15697020"
 			"pwdrequired" "1"
-			"timeupdated" "1685488441"
+			"timeupdated" "1726267703"
 		}
 		"prodstaging_shipping"
 		{
-			"buildid" "11353783"
+			"buildid" "15696570"
 			"pwdrequired" "1"
-			"timeupdated" "1685480482"
+			"timeupdated" "1726264557"
 		}
 		"publicbetaenvironment"
 		{
@@ -547,67 +800,45 @@
 		}
 		"publishing"
 		{
-			"buildid" "13879460"
+			"buildid" "14313789"
 			"pwdrequired" "1"
-			"timeupdated" "1711610732"
+			"timeupdated" "1715279242"
 		}
 		"publishingqa"
 		{
-			"buildid" "13839590"
+			"buildid" "15445364"
 			"pwdrequired" "1"
-			"timeupdated" "1711335095"
+			"timeupdated" "1724230503"
 		}
 		"publishingqa_shipping"
 		{
-			"buildid" "13839753"
+			"buildid" "15445802"
 			"pwdrequired" "1"
-			"timeupdated" "1711337206"
+			"timeupdated" "1724233174"
 		}
 		"publishingqa2"
 		{
-			"buildid" "13781549"
+			"buildid" "15515068"
 			"pwdrequired" "1"
-			"timeupdated" "1710820533"
+			"timeupdated" "1724828261"
 		}
 		"publishingqa2_shipping"
 		{
-			"buildid" "13781751"
+			"buildid" "15515457"
 			"pwdrequired" "1"
-			"timeupdated" "1710822602"
-		}
-		"qualityassurance"
-		{
-			"buildid" "9513450"
-			"pwdrequired" "1"
-			"timeupdated" "1663148901"
-		}
-		"qualityassurance_shipping"
-		{
-			"buildid" "9514206"
-			"pwdrequired" "1"
-			"timeupdated" "1663156384"
-		}
-		"qualityassurance2"
-		{
-			"buildid" "9609746"
-			"pwdrequired" "1"
-			"timeupdated" "1664377150"
-		}
-		"qualityassurance2_shipping"
-		{
-			"buildid" "9610774"
-			"pwdrequired" "1"
-			"timeupdated" "1664385461"
+			"timeupdated" "1724831014"
 		}
 		"urtesting"
 		{
-			"buildid" "13794721"
+			"buildid" "14114742"
 			"pwdrequired" "1"
-			"timeupdated" "1710918099"
+			"timeupdated" "1713562187"
+		}
+		"ageratings"
+		{
+			"buildid" "14313789"
+			"pwdrequired" "1"
+			"timeupdated" "1715294931"
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "22942894"
-"_sha" "be3496b25fc28b67bc47201ab788ef80051d6c38"
-"_size" "12706"
