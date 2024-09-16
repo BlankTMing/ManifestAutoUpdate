@@ -116,7 +116,9 @@
 		"category_2" "1"
 		"category_18" "1"
 		"category_22" "1"
-		"category_23" "1"
+		"category_51" "1"
+		"category_30" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -184,6 +186,7 @@
 	}
 	"steam_release_date" "1682088035"
 	"community_visible_stats" "1"
+	"workshop_visible" "1"
 	"community_hub_visible" "1"
 	"gameid" "1860510"
 	"store_tags"
@@ -194,28 +197,30 @@
 		"3" "1676"
 		"4" "4364"
 		"5" "3813"
-		"6" "9204"
-		"7" "3993"
-		"8" "4168"
+		"6" "4168"
+		"7" "9204"
+		"8" "3993"
 		"9" "4145"
-		"10" "4175"
-		"11" "1678"
+		"10" "1678"
+		"11" "4175"
 		"12" "12472"
 		"13" "4166"
 		"14" "26921"
 		"15" "8945"
 		"16" "6426"
-		"17" "4695"
-		"18" "9"
+		"17" "9"
+		"18" "4695"
 		"19" "1685"
 	}
 	"review_score" "6"
-	"review_percentage" "79"
+	"review_percentage" "76"
 }
 "extended"
 {
 	"developer" "Thunder Devs."
 	"publisher" "Thunder Devs."
+	"listofdlc" "2628270"
+	"dlcavailableonstore" "1"
 }
 "config"
 {
@@ -231,6 +236,22 @@
 				"oslist" "windows"
 				"osarch" "64"
 			}
+		}
+		"1"
+		{
+			"executable" "TotalConflictResistance/Binaries/Win64/TotalConflictResistance-Win64-Shipping.exe"
+			"arguments" "-d3d12"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Total Conflict - DirectX 12"
+			}
+			"description" "Total Conflict - DirectX 12"
 		}
 	}
 }
@@ -269,19 +290,19 @@
 		{
 			"public"
 			{
-				"gid" "6637107860386882257"
-				"size" "29319641443"
-				"download" "28466623440"
+				"gid" "444657278402767963"
+				"size" "26931709093"
+				"download" "26088891536"
+			}
+			"beta_test"
+			{
+				"gid" "7076682688083228769"
+				"size" "42426788757"
+				"download" "40912295584"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"beta_test"
-			{
-				"gid" "2DDC86BDB95A2A1FA2EF54D0A5EB781B"
-				"size" "36A329CF10BA6791CAEA6D85F0ECC713"
-				"download" "FB36ECAFA1ADF80F24429F2E47D27BC0"
-			}
 			"plugins_test"
 			{
 				"gid" "8C61043080B33204490D91B9B67ACD49"
@@ -295,20 +316,20 @@
 	{
 		"public"
 		{
-			"buildid" "13845077"
-			"timeupdated" "1711440682"
-		}
-		"beta_test"
-		{
-			"buildid" "13845077"
-			"pwdrequired" "1"
-			"timeupdated" "1711440661"
+			"buildid" "15498069"
+			"timeupdated" "1724708183"
 		}
 		"plugins_test"
 		{
 			"buildid" "12726404"
 			"pwdrequired" "1"
 			"timeupdated" "1700185579"
+		}
+		"beta_test"
+		{
+			"buildid" "15498056"
+			"description" "0.85 SDK"
+			"timeupdated" "1724707989"
 		}
 	}
 }
@@ -332,7 +353,3 @@
 	"hidecloudui" "1"
 	"ignoreexternalfiles" "1"
 }
-"_missing_token" "False"
-"_change_number" "22910085"
-"_sha" "2255583b4e9aa26c35cf31c483710b01efbd4c0e"
-"_size" "5807"
