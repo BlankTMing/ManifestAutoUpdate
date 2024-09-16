@@ -91,7 +91,7 @@
 	"controller_support" "partial"
 	"small_capsule"
 	{
-		"english" "capsule_231x87.jpg"
+		"english" "ef5df5c07a5ed5485519eedb93634e2bb86d62bb/capsule_231x87.jpg"
 	}
 	"header_image"
 	{
@@ -102,6 +102,7 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -109,7 +110,60 @@
 			"height_pct" "25"
 		}
 	}
-	"store_asset_mtime" "1689862610"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "33"
+				"height_pct" "25"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1725622392"
 	"associations"
 	{
 		"0"
@@ -231,49 +285,71 @@
 		{
 			"executable" "Game/x64/RRRE64.exe"
 			"workingdir" "Game/x64"
-			"description" "RaceRoom (64-bit)"
 			"type" "option1"
 			"config"
 			{
 				"oslist" "windows"
 				"osarch" "64"
 			}
-		}
-		"2"
-		{
-			"executable" "Game/RRRE.exe"
-			"workingdir" "Game"
-			"description" "RaceRoom (32-bit)"
-			"type" "option2"
-			"config"
+			"description_loc"
 			{
-				"oslist" "windows"
+				"english" "RaceRoom"
 			}
+			"description" "RaceRoom"
 		}
 		"3"
 		{
 			"executable" "Game/x64/RRRE64.exe"
 			"arguments" "-vr"
 			"workingdir" "Game/x64"
-			"description" "RaceRoom (64-bit)"
 			"type" "vr"
 			"config"
 			{
 				"oslist" "windows"
 				"osarch" "64"
 			}
+			"description_loc"
+			{
+				"english" "RaceRoom (VR)"
+			}
+			"description" "RaceRoom (VR)"
 		}
 		"4"
 		{
+			"executable" "Game/x64dxvk/RRRE64.exe"
+			"workingdir" "Game/x64dxvk"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "RaceRoom with DXVK"
+				"german" "RaceRoom mit DXVK"
+				"french" "RaceRoom avec DXVK"
+				"italian" "RaceRoom con DXVK"
+				"spanish" "RaceRoom con DXVK"
+				"swedish" "RaceRoom med DXVK"
+				"latam" "RaceRoom con DXVK"
+			}
+			"description" "RaceRoom with DXVK"
+		}
+		"5"
+		{
 			"executable" "Game/RRRE.exe"
-			"arguments" "-vr"
 			"workingdir" "Game"
-			"description" "RaceRoom (32-bit)"
-			"type" "vr"
+			"type" "option3"
 			"config"
 			{
 				"oslist" "windows"
 			}
+			"description_loc"
+			{
+				"english" "RaceRoom (32 bit)"
+			}
+			"description" "RaceRoom (32 bit)"
 		}
 	}
 }
@@ -303,72 +379,66 @@
 		{
 			"public"
 			{
-				"gid" "8839681807532282630"
-				"size" "64129722090"
-				"download" "57067095712"
+				"gid" "2301010109983346434"
+				"size" "68297388034"
+				"download" "60452186816"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"kws-external-ser"
 			{
-				"gid" "86398C2EED35044E6D66A8EB33F8309D"
-				"size" "5001D66CBF71ACE1907F203BBA59D307"
-				"download" "01B1CEC1A9E61228958CD9D102E78317"
+				"gid" "B41ACA7B3BFA94BAC84C16F577DF1DF4"
+				"size" "BFB607D6CAD5F61E99A08CAECB73E810"
+				"download" "2091B9474190658E9741126FDD5B3E4E"
 			}
 			"kws-external-sim"
 			{
-				"gid" "F964515AE58C17FA5497F3614AA68339"
-				"size" "1AC3872E117ED0BCA81D3A9E9C4437EA"
-				"download" "08BB3A155D9C34801F1B7FAB3454B894"
+				"gid" "EA31E1AA554E0A12B322663BB1F707DB"
+				"size" "E55AF71BF251ED36BE093901378A6D01"
+				"download" "CB939C84613FED23EF335ECACEEBEEFB"
 			}
 			"kws-internal-ser"
 			{
-				"gid" "B994871914A18CE6680CE47AC217DB46"
-				"size" "F275B3E2778176E023C91362765A9A97"
-				"download" "18277D85D4BC2A26076506788B6D039B"
+				"gid" "0459B58922152EDD6A6333BD873028F2"
+				"size" "1141C4758641CACDE4465EFA1061F7E8"
+				"download" "4488807B86A9B5FA5913F9D0E4C7F0F9"
 			}
 			"kws-internal-sim"
 			{
-				"gid" "137834396298E4E995D98007B08B352B"
-				"size" "B0AC617334984DBBD3C78433BE5E0740"
-				"download" "E75EF9B2E2972C37B88641A810FBA7C2"
+				"gid" "B7FB6B275242B0B463104289DBCCF6FE"
+				"size" "F6A3001DB2FB5F4B4FA52D6594FD4C10"
+				"download" "196D26111A866CEB96782EF0728B426D"
 			}
 			"kws-preview-ser"
 			{
-				"gid" "CB4456419731923F4051D92E70932D78"
-				"size" "56F6BBDF3C81FD19708923352E6000A9"
-				"download" "64A809D0DB06A2B04EE49E8D3F21829E"
+				"gid" "FA6F51823D15870BC63176CD2B242821"
+				"size" "F9658D279CDE98C55A0D54504A215B4C"
+				"download" "7E1D0F14618C765EA2E5403CE7385632"
 			}
 			"kws-preview-sim"
 			{
-				"gid" "BFD378C34425CF94603EA804A6773FAB"
-				"size" "74F6DC75B6E95732C619BAD88BC74EEF"
-				"download" "35548C0F214760B8DB29D50A4AEC6BC1"
+				"gid" "162E97518672D24C4634001324C16174"
+				"size" "51904F1AF0296F92375025C91883FE81"
+				"download" "BBC9B9E296621B05205B0A358EA3FF19"
 			}
 			"livepreview"
 			{
-				"gid" "D9C35F020C91E84E69F139A7CB00E804"
-				"size" "8B2FE26E1952580B8040AACD24B9FE2B"
-				"download" "1F2DA757483C96C30039B3133C2CCA8B"
-			}
-			"p.i.2024"
-			{
-				"gid" "37900CA7D8F836602195C1B938155E0B"
-				"size" "18230C36E06AF7502C2C5724987E4E57"
-				"download" "9A5BF63425C8F201A3EC1FD9A38DD31D"
+				"gid" "6F3603E095185DA483DF14A143111571"
+				"size" "9BA5333E0080685F80D550688486C594"
+				"download" "CAA01257BD9EDD53E9A30B826F2525A8"
 			}
 			"preview"
 			{
-				"gid" "59F313661291EE580652ADF701A99B0A"
-				"size" "135EC72675EBFD751C9A34E6071A9153"
-				"download" "E72057D94E09FD01CF1D4FC87C178B0D"
+				"gid" "95C06F1A1DF3F5314E818D3CB93B34F6"
+				"size" "88F373B80C7F358A9007168FFF1621D1"
+				"download" "60F2A8A9A847CF93A0B502D12F2684B1"
 			}
 			"staging"
 			{
-				"gid" "A3970E8A1AF3B250123339EF54AFA625"
-				"size" "E17F8EE95F3110CE4E13DD0E36177C04"
-				"download" "969CFD294EE56A67A5DA1CBCC1E3AC7E"
+				"gid" "24594734D7C41E0C73EFC388A2C172D9"
+				"size" "BE7BC411AE6C9D219FDD31617690CF2C"
+				"download" "488E504AFA9BE848243568B3711ED867"
 			}
 		}
 	}
@@ -377,68 +447,62 @@
 	{
 		"public"
 		{
-			"buildid" "13835720"
-			"timeupdated" "1711359279"
+			"buildid" "15637668"
+			"timeupdated" "1726131516"
 		}
 		"kws-external-ser"
 		{
-			"buildid" "11782688"
+			"buildid" "13710936"
 			"pwdrequired" "1"
-			"timeupdated" "1690901522"
+			"timeupdated" "1712146506"
 		}
 		"kws-external-sim"
 		{
-			"buildid" "11781219"
+			"buildid" "13711153"
 			"pwdrequired" "1"
-			"timeupdated" "1690901534"
+			"timeupdated" "1712146485"
 		}
 		"kws-internal-ser"
 		{
-			"buildid" "13771177"
+			"buildid" "15635093"
 			"pwdrequired" "1"
-			"timeupdated" "1710756189"
+			"timeupdated" "1725865279"
 		}
 		"kws-internal-sim"
 		{
-			"buildid" "13771829"
+			"buildid" "15637028"
 			"pwdrequired" "1"
-			"timeupdated" "1710756170"
+			"timeupdated" "1725876855"
 		}
 		"kws-preview-ser"
 		{
-			"buildid" "13710936"
+			"buildid" "15635093"
 			"pwdrequired" "1"
-			"timeupdated" "1710230375"
+			"timeupdated" "1725876422"
 		}
 		"kws-preview-sim"
 		{
-			"buildid" "13711153"
+			"buildid" "15637028"
 			"pwdrequired" "1"
-			"timeupdated" "1710234468"
+			"timeupdated" "1725876906"
 		}
 		"livepreview"
 		{
-			"buildid" "13835720"
+			"buildid" "15711776"
 			"pwdrequired" "1"
-			"timeupdated" "1711270662"
-		}
-		"p.i.2024"
-		{
-			"buildid" "13819804"
-			"pwdrequired" "1"
-			"timeupdated" "1711097867"
+			"timeupdated" "1726468362"
 		}
 		"preview"
 		{
-			"buildid" "13835720"
+			"buildid" "14585152"
 			"pwdrequired" "1"
-			"timeupdated" "1711359381"
+			"timeupdated" "1719302926"
 		}
 		"staging"
 		{
-			"buildid" "13835720"
+			"buildid" "15711776"
 			"pwdrequired" "1"
-			"timeupdated" "1711270373"
+			"timeupdated" "1726468279"
 		}
 	}
 }
@@ -447,7 +511,3 @@
 	"quota" "10000000"
 	"maxnumfiles" "1000"
 }
-"_missing_token" "False"
-"_change_number" "22895964"
-"_sha" "ac5864bf48060329bf45c9012e65da4a2e496ea6"
-"_size" "8874"
