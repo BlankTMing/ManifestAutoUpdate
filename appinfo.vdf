@@ -1,0 +1,573 @@
+"appid" "251150"
+"common"
+{
+	"name" "The Legend of Heroes: Trails in the Sky"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"clienticon" "9de931b511ea9360b824883d57276e9b76a2a460"
+	"clienttga" "02a01c9314eeffa4cab41a9fd7bb50b17b2ba5c1"
+	"icon" "1dff8800665a241285116d4a90a5d291bac10942"
+	"logo" "2712920255cf50e9c2d39c60ad49ce082eefed4e"
+	"logo_small" "2712920255cf50e9c2d39c60ad49ce082eefed4e_thumb"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1710806400"
+		"tested_build_id" "9572188"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"metacritic_name" "The Legend of Heroes: Trails in the Sky"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "35.064177362893815"
+			"height_pct" "65.95820470197103"
+		}
+	}
+	"store_asset_mtime" "1624574980"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Nihon Falcom"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "XSEED Games"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Marvelous USA, Inc."
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Trails in the Sky"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_29" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1406650740"
+	"metacritic_score" "85"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/the-legend-of-heroes-trails-in-the-sky\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "251150"
+	"store_tags"
+	{
+		"0" "4434"
+		"1" "1742"
+		"2" "122"
+		"3" "4085"
+		"4" "1756"
+		"5" "1677"
+		"6" "7208"
+		"7" "1684"
+		"8" "21"
+		"9" "4182"
+		"10" "1741"
+		"11" "1693"
+		"12" "21725"
+		"13" "4325"
+		"14" "9"
+		"15" "19"
+		"16" "4947"
+		"17" "17305"
+		"18" "5851"
+		"19" "1708"
+	}
+	"review_score" "8"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"developer" "Nihon Falcom"
+	"publisher" "XSEED Games"
+	"homepage" "http://www.trailsinthesky.com/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Trails in the Sky FC"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ed6_win_DX9.exe"
+			"type" "default"
+		}
+		"1"
+		{
+			"executable" "Config_DX9.exe"
+			"description_loc"
+			{
+				"english" "Launch Configuration Tool"
+				"german" "Konfigurationstool"
+				"french" "Lancer l’outil de configuration"
+				"koreana" "설정 도구 시작"
+				"spanish" "Iniciar herramienta de configuración"
+				"schinese" "启动配置工具"
+				"tchinese" "啟動設定工具"
+				"japanese" "設定ツールを起動"
+			}
+			"description" "Launch Configuration Tool"
+		}
+		"2"
+		{
+			"executable" "ed6_win.exe"
+			"description" "DirectX8 version"
+			"type" "option1"
+		}
+		"3"
+		{
+			"executable" "Config.exe"
+			"description" "DirectX8 Configuration Tool"
+			"type" "config"
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+	"steamconfigurator3rdpartynative" "65533"
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"251151"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1391787171712565713"
+				"size" "2650605880"
+				"download" "2278238592"
+			}
+			"2017-08-09"
+			{
+				"gid" "3570348663563786356"
+				"size" "2547725744"
+				"download" "2180345712"
+			}
+			"2017-08-17"
+			{
+				"gid" "5748730785807600706"
+				"size" "2547807676"
+				"download" "2180354848"
+			}
+			"2017-08-18"
+			{
+				"gid" "7523931747823468218"
+				"size" "2547808700"
+				"download" "2180355872"
+			}
+			"2017-08-19"
+			{
+				"gid" "3386829876890097608"
+				"size" "2547798972"
+				"download" "2180344080"
+			}
+			"2017-08-27"
+			{
+				"gid" "393775550215981184"
+				"size" "2547799484"
+				"download" "2180344272"
+			}
+			"2018-04-22"
+			{
+				"gid" "2976381916983701918"
+				"size" "2646250672"
+				"download" "2278093296"
+			}
+			"2019-03-24"
+			{
+				"gid" "3400417715703717380"
+				"size" "2646259376"
+				"download" "2278096656"
+			}
+			"2019-12-05"
+			{
+				"gid" "7191638974934243204"
+				"size" "2646259376"
+				"download" "2278096864"
+			}
+			"2021-07-12"
+			{
+				"gid" "2499340007634065582"
+				"size" "2646259376"
+				"download" "2278096512"
+			}
+			"2022-01-18"
+			{
+				"gid" "5927552069477252420"
+				"size" "2650555056"
+				"download" "2278208928"
+			}
+			"2022-02-18"
+			{
+				"gid" "4499251170782368872"
+				"size" "2650591544"
+				"download" "2278233312"
+			}
+			"2022-02-24"
+			{
+				"gid" "3526241702506584058"
+				"size" "2650605368"
+				"download" "2278238384"
+			}
+		}
+	}
+	"251152"
+	{
+		"config"
+		{
+			"language" "japanese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5460480027264240560"
+				"size" "762321417"
+				"download" "528129376"
+			}
+			"2017-08-09"
+			{
+				"gid" "5460480027264240560"
+				"size" "762321417"
+				"download" "528129376"
+			}
+			"2017-08-17"
+			{
+				"gid" "5460480027264240560"
+				"size" "762321417"
+				"download" "528129376"
+			}
+			"2017-08-18"
+			{
+				"gid" "5460480027264240560"
+				"size" "762321417"
+				"download" "528129376"
+			}
+			"2017-08-19"
+			{
+				"gid" "5460480027264240560"
+				"size" "762321417"
+				"download" "528129376"
+			}
+			"2017-08-27"
+			{
+				"gid" "5460480027264240560"
+				"size" "762321417"
+				"download" "528129376"
+			}
+			"2018-04-22"
+			{
+				"gid" "5460480027264240560"
+				"size" "762321417"
+				"download" "528129376"
+			}
+			"2019-03-24"
+			{
+				"gid" "5460480027264240560"
+				"size" "762321417"
+				"download" "528129376"
+			}
+			"2019-12-05"
+			{
+				"gid" "5460480027264240560"
+				"size" "762321417"
+				"download" "528129376"
+			}
+			"2021-07-12"
+			{
+				"gid" "5460480027264240560"
+				"size" "762321417"
+				"download" "528129376"
+			}
+			"2022-01-18"
+			{
+				"gid" "5460480027264240560"
+				"size" "762321417"
+				"download" "528129376"
+			}
+			"2022-02-18"
+			{
+				"gid" "5460480027264240560"
+				"size" "762321417"
+				"download" "528129376"
+			}
+			"2022-02-24"
+			{
+				"gid" "5460480027264240560"
+				"size" "762321417"
+				"download" "528129376"
+			}
+		}
+	}
+	"251153"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4092099559038292570"
+				"size" "66784938"
+				"download" "53862464"
+			}
+			"2017-08-09"
+			{
+				"gid" "4092099559038292570"
+				"size" "66784938"
+				"download" "53862464"
+			}
+			"2017-08-17"
+			{
+				"gid" "4092099559038292570"
+				"size" "66784938"
+				"download" "53862464"
+			}
+			"2017-08-18"
+			{
+				"gid" "4092099559038292570"
+				"size" "66784938"
+				"download" "53862464"
+			}
+			"2017-08-19"
+			{
+				"gid" "4092099559038292570"
+				"size" "66784938"
+				"download" "53862464"
+			}
+			"2017-08-27"
+			{
+				"gid" "4092099559038292570"
+				"size" "66784938"
+				"download" "53862464"
+			}
+			"2018-04-22"
+			{
+				"gid" "4092099559038292570"
+				"size" "66784938"
+				"download" "53862464"
+			}
+			"2019-03-24"
+			{
+				"gid" "4092099559038292570"
+				"size" "66784938"
+				"download" "53862464"
+			}
+			"2019-12-05"
+			{
+				"gid" "4092099559038292570"
+				"size" "66784938"
+				"download" "53862464"
+			}
+			"2021-07-12"
+			{
+				"gid" "4092099559038292570"
+				"size" "66784938"
+				"download" "53862464"
+			}
+			"2022-01-18"
+			{
+				"gid" "4092099559038292570"
+				"size" "66784938"
+				"download" "53862464"
+			}
+			"2022-02-18"
+			{
+				"gid" "4092099559038292570"
+				"size" "66784938"
+				"download" "53862464"
+			}
+			"2022-02-24"
+			{
+				"gid" "4092099559038292570"
+				"size" "66784938"
+				"download" "53862464"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9572188"
+			"timeupdated" "1663870872"
+		}
+		"2017-08-09"
+		{
+			"buildid" "2026373"
+			"description" "August 9th, 2017 version"
+			"timeupdated" "1575843940"
+		}
+		"2017-08-17"
+		{
+			"buildid" "2047132"
+			"description" "August 17th, 2017 version"
+			"timeupdated" "1575843976"
+		}
+		"2017-08-18"
+		{
+			"buildid" "2051828"
+			"description" "August 18th, 2017 version"
+			"timeupdated" "1575844038"
+		}
+		"2017-08-19"
+		{
+			"buildid" "2052673"
+			"description" "August 19th, 2017 version"
+			"timeupdated" "1575844062"
+		}
+		"2017-08-27"
+		{
+			"buildid" "2072441"
+			"description" "August 27th, 2017 version"
+			"timeupdated" "1575844100"
+		}
+		"2018-04-22"
+		{
+			"buildid" "2711141"
+			"description" "April 22nd, 2018 version"
+			"timeupdated" "1575844122"
+		}
+		"2019-03-24"
+		{
+			"buildid" "3675355"
+			"description" "March 24th, 2019 version"
+			"timeupdated" "1575844143"
+		}
+		"2019-12-05"
+		{
+			"buildid" "4464204"
+			"description" "December 5th, 2019 version"
+			"timeupdated" "1626124990"
+		}
+		"2021-07-12"
+		{
+			"buildid" "7018341"
+			"description" "July 12th, 2021 version"
+			"timeupdated" "1642537971"
+		}
+		"2022-01-18"
+		{
+			"buildid" "8042974"
+			"description" "January 18th, 2022 version"
+			"timeupdated" "1645226839"
+		}
+		"2022-02-18"
+		{
+			"buildid" "8233511"
+			"description" "February 18th, 2022 version"
+			"timeupdated" "1645708152"
+		}
+		"2022-02-24"
+		{
+			"buildid" "8269223"
+			"description" "February 24th, 2022 version"
+			"timeupdated" "1663870908"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+	"sync_while_suspended" "1"
+}
