@@ -1,0 +1,237 @@
+"appid" "780210"
+"common"
+{
+	"name" "Freeways"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "d192baf99723b028e5c46868a8fc89d86155a889"
+	"logo_small" "d192baf99723b028e5c46868a8fc89d86155a889_thumb"
+	"icon" "2fb30a31fa8fc4813f11f664212218261208903c"
+	"clienticon" "d76519266214846b2394d1b156d79e893625495a"
+	"clienttga" "ce98ebb5bfbd7e5005fb11b417e8641552a90693"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1645574400"
+		"tested_build_id" "2517194"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Freeways"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "95.39089848308052"
+			"height_pct" "96.35478508667774"
+		}
+	}
+	"store_asset_mtime" "1572993979"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Captain Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Captain Games"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1506841200"
+	"steam_release_date" "1517943450"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "780210"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "492"
+		"2" "1664"
+		"3" "10383"
+		"4" "3871"
+	}
+	"review_score" "8"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"developer" "Captain Games"
+	"publisher" "Captain Games"
+}
+"config"
+{
+	"installdir" "Freeways"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Freeways.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Freeways.app\\Contents\\MacOS\\Freeways"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"780211"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2004558385094533403"
+				"size" "18268372"
+				"download" "17267920"
+			}
+		}
+	}
+	"780212"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2885791177901682023"
+				"size" "24258296"
+				"download" "19237440"
+			}
+		}
+	}
+	"hasdepotsindlc" "0"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2517194"
+			"timeupdated" "1518394430"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "2000000"
+	"maxnumfiles" "200"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "save"
+			"pattern" "*.*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "CaptainGames/Freeways/save"
+			"pattern" "*.*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+}
