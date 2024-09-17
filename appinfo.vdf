@@ -1,0 +1,239 @@
+"appid" "1091720"
+"common"
+{
+	"name" "Ballade: with Memories / 叙事曲：难忘的回忆"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"clienttga" "b365e0a006d058b3a66542a50bd2addfd68cc101"
+	"clienticon" "5c4b2f5ae7a1f455c7fbee820eebced7b4a3e847"
+	"icon" "9f67546948570eabe102fcfb58a244f6a78f04c7"
+	"clienticns" "5c4b2f5ae7a1f455c7fbee820eebced7b4a3e847"
+	"logo" "8c8aa78270041dd71164a50bed341ad1da1ac08b"
+	"logo_small" "8c8aa78270041dd71164a50bed341ad1da1ac08b_thumb"
+	"osextended" "macos64"
+	"metacritic_name" "叙事曲：难忘的回忆 / Ballade: with Memories"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "30.344827586206904"
+			"height_pct" "57.885472893686945"
+		}
+	}
+	"store_asset_mtime" "1569890208"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "286studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "286studio"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Ballade"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1569913200"
+	"steam_release_date" "1571122886"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1091720"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "122"
+		"3" "4085"
+	}
+	"review_score" "7"
+	"review_percentage" "95"
+}
+"extended"
+{
+	"developer" "286studio"
+	"publisher" "286studio"
+	"listofdlc" "1092200"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Ballade with Memories"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Ballade1.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Ballade1.app/Contents/MacOS/Ballade1"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "6"
+}
+"depots"
+{
+	"baselanguages" "schinese"
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1091722"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2667941346687244221"
+				"size" "1256861197"
+				"download" "1122921616"
+			}
+		}
+	}
+	"1091721"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4260675150513215819"
+				"size" "1212490381"
+				"download" "1094798128"
+			}
+		}
+	}
+	"1092200"
+	{
+		"dlcappid" "1092200"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6983081724357483889"
+				"size" "118036795"
+				"download" "117381600"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5931507"
+			"timeupdated" "1607329712"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Ballade"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Ballade"
+					"replace" "Ballade"
+				}
+			}
+		}
+	}
+}
