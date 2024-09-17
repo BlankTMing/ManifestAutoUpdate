@@ -1,0 +1,296 @@
+"appid" "208610"
+"common"
+{
+	"name" "Skullgirls ∞Endless Beta∞"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"japanese" "1"
+		"portuguese" "1"
+	}
+	"releasestate" "released"
+	"clienticon" "a7aade931f7207989b1886a53a07002054135425"
+	"clienttga" "4307ac16e0b8769e1a63a81a080f84a564cdd2c5"
+	"icon" "7bf859db736b8825045b0cc79acc4bb7be8cd7b9"
+	"logo" "33974b81779c888b3b4d9c4b91d86ef0907b11f3"
+	"logo_small" "33974b81779c888b3b4d9c4b91d86ef0907b11f3_thumb"
+	"clienticns" "bbdbd63096aa2dc6a6d915b1592b9a9712303663"
+	"linuxclienticon" "ad7ee507a97bc25b308467066658e14e15772542"
+	"osarch" ""
+	"associations"
+	{
+	}
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "208610"
+}
+"extended"
+{
+	"developer" ""
+	"gamedir" "ValveTestApp208610"
+	"homepage" ""
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Skullgirls Beta"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Skullgirls.exe"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Skullgirls.app"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "SkullGirls.i686-pc-linux-gnu"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "SkullGirls.x86_64-pc-linux-gnu"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"preloadonly" "1"
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"228982"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"208611"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6901206973402124976"
+				"size" "4257815956"
+				"download" "1751541488"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"archive"
+			{
+				"gid" "FEC0977779344AE179EFB89E88BD8ECD"
+				"size" "06D226F72BB5190B6DE4D5632C788826"
+				"download" "B0322CD9364E7BB3E6741DAF9D9F57E5"
+			}
+			"nightly-new-maybe"
+			{
+				"gid" "940291D17B710504DAED0DFADACEA428"
+				"size" "6523FA7B189D0B86AE99E80F2767E26A"
+				"download" "64D5627323A39482A16851A3150499A1"
+			}
+			"publicbetaqa"
+			{
+				"gid" "1E7BD5BAE6B32CD8C6D39F311DA4801B"
+				"size" "C04F580DEAC63AC43F01AEB22A2BD507"
+				"download" "27443FC99D955593EA4E5456483376FE"
+			}
+			"test-osx-fix"
+			{
+				"gid" "6132D67AB2756FB094608213291DE6AD"
+				"size" "5C69B919642492F62E5135E75A305F05"
+				"download" "BE0E09127313BE664937E469162719FF"
+			}
+			"testdrive"
+			{
+				"gid" "F320FB3622A9D94301616224822F7FBF"
+				"size" "F78D1D31F99F435955303DB90EF3A3A5"
+				"download" "4637CAA7BB85018888C64C970845FC5C"
+			}
+		}
+	}
+	"208612"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4100479742366189306"
+				"size" "4280014656"
+				"download" "1616418992"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"archive"
+			{
+				"gid" "83474A4399046AF1D712A53B9A2C710F"
+				"size" "26D0EC415C59DB0968C45EC49DDE245F"
+				"download" "FDAE9095E9E676259AB152004B587F84"
+			}
+			"nightly-new-maybe"
+			{
+				"gid" "B6ADDAA08E0746019CD7FC9E17E5BD0D"
+				"size" "E1CB35E8B4E8A83C7B96757AF25CEF2D"
+				"download" "1BBA56F6BCCA12175A0328C0AC5B0DCE"
+			}
+			"test-osx-fix"
+			{
+				"gid" "9DCFA9057CB9028D3746508D1BA4C640"
+				"size" "0FA255C99464EE7CD911EE5323287D86"
+				"download" "B7D2D6B06228E1E907200082CDE6DC8C"
+			}
+			"testdrive"
+			{
+				"gid" "3653D2DFBC3F6C25C60691AF2081E193"
+				"size" "431C03CCDA05A0D193FE2F540F2AC08E"
+				"download" "5BACFAED565D6E43B9D93C99B6A7427C"
+			}
+		}
+	}
+	"208613"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6107198999049828364"
+				"size" "4264878273"
+				"download" "1613286304"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"archive"
+			{
+				"gid" "7952B15A2DC1E68E81E05BE99F517B97"
+				"size" "B67C86B91C29ED1B0EAE2049695415AD"
+				"download" "340B9BE81B27C945283173E403ACEA36"
+			}
+			"nightly-new-maybe"
+			{
+				"gid" "D10857EF8F49DCD0DF31DC11550D9D54"
+				"size" "35F7480BE0ACA37DDCDC4AD1AC19CA5B"
+				"download" "E73CC652D1A04B6900013C6022ABC574"
+			}
+			"test-osx-fix"
+			{
+				"gid" "F04321CB087F6DFA705D2701859E79E1"
+				"size" "4C2943DE89653A143A5E6F8C54EEA34B"
+				"download" "01770670EB63E25470CBC7A4319ED101"
+			}
+			"testdrive"
+			{
+				"gid" "6415E2DE6E42D730F356DB6DDB6D8C01"
+				"size" "1DB526DB3C670FBBB8FDFE42E8E87EE4"
+				"download" "DF05D4A7533F28B1DD03B1A04789F3D6"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1686383"
+			"timeupdated" "1489361702"
+		}
+		"archive"
+		{
+			"buildid" "1686383"
+			"pwdrequired" "1"
+			"timeupdated" "1589746360"
+		}
+		"nightly-new-maybe"
+		{
+			"buildid" "4899328"
+			"pwdrequired" "1"
+			"timeupdated" "1586932563"
+		}
+		"publicbetaqa"
+		{
+			"buildid" "4915558"
+			"pwdrequired" "1"
+			"timeupdated" "1587270916"
+		}
+		"test-osx-fix"
+		{
+			"buildid" "1610984"
+			"pwdrequired" "1"
+			"timeupdated" "1486273016"
+		}
+		"testdrive"
+		{
+			"buildid" "1611014"
+			"pwdrequired" "1"
+			"timeupdated" "1486275819"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "1"
+}
