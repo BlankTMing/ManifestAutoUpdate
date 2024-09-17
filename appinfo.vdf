@@ -1,0 +1,245 @@
+"appid" "2266910"
+"common"
+{
+	"name" "Chinese Expeditionary Force - Assault Team"
+	"type" "Game"
+	"icon" "edd3f9cab77ea4b90412ff19516493c5a8455b41"
+	"clienticon" "eca23cfbc14fe79c29d4879efe3dbf3c18549089"
+	"clienttga" "066204aa2bec532ccde84cb7ffbfb59221f9ec39"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64,macosnotarized"
+	"name_localized"
+	{
+		"schinese" "中国远征军 - 突击小队"
+		"tchinese" "中國遠征軍 - 突擊小隊"
+	}
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"tchinese" "1"
+	}
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+		"tchinese" "capsule_231x87_tchinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+		"tchinese" "header_tchinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn,zh-tw"
+		"library_hero" "en,zh-cn,zh-tw"
+		"library_logo" "en,zh-cn,zh-tw"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "39.770114942528735"
+			"height_pct" "71.40342642572166"
+		}
+	}
+	"store_asset_mtime" "1680851837"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "The Hard Game"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "The Hard Game"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1679972552"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2266910"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "1687"
+		"2" "3813"
+		"3" "5851"
+		"4" "4150"
+		"5" "1678"
+		"6" "4168"
+		"7" "3987"
+		"8" "4376"
+		"9" "19"
+		"10" "21"
+		"11" "3993"
+		"12" "1708"
+		"13" "4684"
+		"14" "1676"
+		"15" "6426"
+		"16" "4175"
+		"17" "4791"
+		"18" "1697"
+		"19" "4182"
+	}
+}
+"extended"
+{
+	"developer" "The Hard Game"
+	"publisher" "The Hard Game"
+}
+"config"
+{
+	"installdir" "Chinese Expeditionary Force - Assault Team"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "WarGame\\WarGame.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "CEF1942.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,schinese,tchinese"
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2266911"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4175487758767802598"
+				"size" "3928807225"
+				"download" "3845257648"
+			}
+		}
+	}
+	"2266912"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5648861020445273074"
+				"size" "4335116587"
+				"download" "4012218464"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11982006"
+			"timeupdated" "1692441007"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "WarGame/Saved/SaveGames"
+			"pattern" "*.sav"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "WarGame/Saved/SaveGames"
+			"pattern" "*.exr"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" "Epic/"
+		}
+	}
+}
