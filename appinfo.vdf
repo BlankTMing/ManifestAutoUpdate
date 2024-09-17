@@ -1,0 +1,413 @@
+"appid" "63000"
+"common"
+{
+	"name" "HOARD"
+	"icon" "8ee1c07fe6f7c5d432a498420286331589ce4617"
+	"logo" "5f25e8a8b1e498bdc33efdb4ea35a44b09ffe844"
+	"logo_small" "5f25e8a8b1e498bdc33efdb4ea35a44b09ffe844_thumb"
+	"clienticon" "73978bc30187e7be4dbb4f2df2f669f54b4a1330"
+	"clienttga" "0e56ebca5ecf5a5a8a30553898b0a1b4cac4e089"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+	}
+	"oslist" "windows,macos,linux"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1670371200"
+		"tested_build_id" "4597280"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1313531076"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Big Sandwich Games"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Stratecade LLC"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Stratecade LLC"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_15" "1"
+		"category_8" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_36" "1"
+		"category_38" "1"
+		"category_49" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1301900400"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "63000"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "9"
+		"2" "4046"
+		"3" "492"
+		"4" "19"
+		"5" "1684"
+		"6" "3859"
+		"7" "1773"
+		"8" "4182"
+		"9" "1685"
+	}
+	"review_score" "8"
+	"review_percentage" "81"
+}
+"extended"
+{
+	"cwdoverride" "win32"
+	"developer" "Big Sandwich Games"
+	"gamedir" "Hoard"
+	"homepage" "http://www.stratecade.com/"
+	"icon" ""
+	"installscriptosx" "HoardSteam.app/installscript_osx.vdf"
+	"installscript_macos" "HoardSteam.app/installscript_osx.vdf"
+	"languages" "english,french,german,spanish,italian"
+	"noservers" "1"
+	"order" "1"
+	"retailautostart" "1"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"suppressims" "1"
+	"validoslist" "windows,macos"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Stratecade LLC"
+	"listofdlc" "63003,63004,63005"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Hoard"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "win32/Reuben.exe"
+			"workingdir" "win32"
+			"arguments" "- Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "HoardSteam.app"
+			"workingdir" "win32"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "x86/Reuben.bin.x86"
+			"workingdir" "x86"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"baselanguages" "english,french,german,spanish,italian"
+	"63002"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6390640202799866373"
+				"size" "590923785"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "9401DD2299BDE8F6C8D6FC4E7C5C3C0D"
+				"size" "D7D77C45CCE8B4476346ABA60D955816"
+				"download" "F647805746D98AF9A8FC3EB5FB6FF6C2"
+			}
+			"brokebuildmountain"
+			{
+				"gid" "CE36485BC96351919663D4C1D5A81C25"
+				"size" "14999E9EA49DA054E59C05117CE8F07E"
+				"download" "2089964BE642AEBA2425B3FE9BF194C2"
+			}
+			"devtest"
+			{
+				"gid" "E1F1764505DB438BDC3A7E4607786972"
+				"size" "01164B54C53A27FF7C72479E332ADCFA"
+				"download" "E631ED2582BC7093E1EAA13AF93A72DB"
+			}
+			"fallback"
+			{
+				"gid" "A1D2799AA5963F3404A96825ED48F13F"
+				"size" "6913E2227F86012E6E188608F0C92C56"
+				"download" "3F76C5D374B328D50101A6B7B562AFA0"
+			}
+		}
+	}
+	"63001"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4982884460640924287"
+				"size" "278499985"
+				"download" "112460144"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "3D41FF6ED369A421E34FA46F4AB3FB40"
+				"size" "368B2226A2D91BA2385247CC568EAB03"
+				"download" "0B675E696FEB4CC4472CB33E5F5C842A"
+			}
+			"brokebuildmountain"
+			{
+				"gid" "540F31D1E27F2A4A91D651DB5AAC0F48"
+				"size" "DBE9225C936F270EA940FCCA316DB42E"
+				"download" "947846274C6A83F5DE7E0B2E61295B28"
+			}
+			"devtest"
+			{
+				"gid" "4AD5CBF40D94401DD1DBD20888E48B7D"
+				"size" "4A213624552E39069D049719713BA514"
+				"download" "6F6EA56AD6B42B06FE3D138E64579F9F"
+			}
+			"fallback"
+			{
+				"gid" "945882ED06EC92A7D4A80E0A74CEFAE0"
+				"size" "08F76E4858906159280EF6760FC6738D"
+				"download" "3F76C5D374B328D50101A6B7B562AFA0"
+			}
+		}
+	}
+	"63006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6827921613511116226"
+				"size" "265074165"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "4F70216E0B31D7F49315E1F7312C65A3"
+				"size" "1BEC68230FD92B10EF5A3C5EC1927DF1"
+				"download" "F647805746D98AF9A8FC3EB5FB6FF6C2"
+			}
+			"brokebuildmountain"
+			{
+				"gid" "A4F344F69BC259F6D52C6F02DDBA757F"
+				"size" "9A3BBB8FEC7851133A1FAEB2FAB75F79"
+				"download" "2089964BE642AEBA2425B3FE9BF194C2"
+			}
+			"devtest"
+			{
+				"gid" "297FB02A6356CF859BC1885979EEE6EB"
+				"size" "76655BF121C5753391ADC16BEAC624ED"
+				"download" "E631ED2582BC7093E1EAA13AF93A72DB"
+			}
+			"fallback"
+			{
+				"gid" "4DB63DF8B5ADA62362FF27226A948D20"
+				"size" "6422AB1C135895BFE04AC10914FD2DDD"
+				"download" "3F76C5D374B328D50101A6B7B562AFA0"
+			}
+		}
+	}
+	"markdlcdepots" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4597280"
+			"timeupdated" "1579718911"
+		}
+		"beta"
+		{
+			"buildid" "4597268"
+			"pwdrequired" "1"
+			"timeupdated" "1579718781"
+		}
+		"brokebuildmountain"
+		{
+			"buildid" "4582094"
+			"pwdrequired" "1"
+			"timeupdated" "1579290681"
+		}
+		"devtest"
+		{
+			"buildid" "4498736"
+			"pwdrequired" "1"
+			"timeupdated" "1576530279"
+		}
+		"fallback"
+		{
+			"buildid" "168356"
+			"pwdrequired" "1"
+			"timeupdated" "1576374464"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+	"hidecloudui" "0"
+}
