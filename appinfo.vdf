@@ -1,0 +1,231 @@
+"appid" "107310"
+"common"
+{
+	"name" "Cthulhu Saves the World "
+	"logo" "c21721fb881d5548bd9e9693d9c35d41f2565715"
+	"logo_small" "c21721fb881d5548bd9e9693d9c35d41f2565715_thumb"
+	"clienticon" "f0a27b139a036cf751fd279788332c760f847b15"
+	"clienttga" "e54edf490fa3e066a875b039216a0a71e52808f4"
+	"icon" "dd3f023ea459f8fedf927a5255523b7fc9ba6ad2"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1646179200"
+		"tested_build_id" "25888"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Cthulhu Saves the World"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1409862663"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Zeboyd Digital Entertainment LLC"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Zeboyd Digital Entertainment LLC"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Cthulhu Saves"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_29" "1"
+		"category_41" "1"
+		"category_42" "1"
+		"category_43" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1310576400"
+	"metacritic_score" "78"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/cthulhu-saves-the-world\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "107310"
+	"store_tags"
+	{
+		"0" "4434"
+		"1" "7432"
+		"2" "1719"
+		"3" "122"
+		"4" "492"
+		"5" "4004"
+		"6" "1677"
+		"7" "1684"
+		"8" "4136"
+		"9" "4182"
+		"10" "21"
+		"11" "3964"
+		"12" "4878"
+		"13" "3871"
+		"14" "1756"
+		"15" "5923"
+		"16" "3916"
+		"17" "19"
+		"18" "10397"
+	}
+	"review_score" "8"
+	"review_percentage" "91"
+}
+"extended"
+{
+	"developer" "Zeboyd Digital Entertainment LLC"
+	"gamedir" "Cthulhu Saves the World"
+	"homepage" "http://zeboyd.com/2010/06/11/cthulhu-saves-the-world-press-release/"
+	"icon" ""
+	"installscript" "CSTW2.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "107311"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Zeboyd Digital Entertainment LLC"
+}
+"config"
+{
+	"installscriptsignature" "1b4dfab05e8561f96a664f759254934fd4a607989507212b1f3acf625aa2a8bf13a9c782ee751c1f2a6560b1156db5773f710a302ef2419044972516e59f95e79ccbb9760477a45372278ff3f233e6b8d4717179a602e1a5558c98424046e6c8a850fe06c1dc0f9c573f6845e8c0a74e6e1a8348226e8067576afe12e59f567d"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Cthulhu Saves the World"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CSTW.exe"
+		}
+	}
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"2020397891"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"install"
+{
+	"run process"
+	{
+		"dotnet"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\107310"
+			"process 1" "%INSTALLDIR%\\dotNetFx40_Full_x86_x64"
+			"command 1" "/q /norestart"
+			"ignoreexitcode" "1"
+			"nocleanup" "1"
+		}
+		"xna"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\107310"
+			"process 1" "msiexec.exe"
+			"command 1" "/i \"%INSTALLDIR%\\xnafx40_redist.msi\" /passive"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"107311"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7680344447579650335"
+				"size" "213203219"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "25888"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10485760"
+	"maxnumfiles" "20"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "SavedGames/CSTW"
+			"pattern" "*.*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
