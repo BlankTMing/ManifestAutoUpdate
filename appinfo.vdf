@@ -1,0 +1,254 @@
+"appid" "1076280"
+"common"
+{
+	"name" "Showdown Bandit"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "6ddb7263fb2f203fac173b18ad279309b9a67621"
+	"logo_small" "6ddb7263fb2f203fac173b18ad279309b9a67621_thumb"
+	"icon" "07bd97df0dd2ad7bc9f8178eeb2cb057fadff8df"
+	"clienticon" "2c0f8662f73c6e9812804b7f113c449ea110a545"
+	"clienttga" "9458dcf9921b5883d7789c12f1e6beed78c00185"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"app_retired_publisher_request" "1"
+	"metacritic_name" "Showdown Bandit"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "59.31315483119906"
+			"height_pct" "78.87675136547139"
+		}
+	}
+	"store_asset_mtime" "1569863483"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Kindly Beast"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Kindly Beast"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1568753197"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1076280"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "19"
+		"3" "9"
+		"4" "1667"
+		"5" "1687"
+		"6" "3978"
+		"7" "4166"
+		"8" "4064"
+		"9" "4791"
+		"10" "1756"
+		"11" "4726"
+		"12" "4106"
+		"13" "29855"
+		"14" "1698"
+		"15" "4182"
+	}
+	"review_score" "5"
+	"review_percentage" "59"
+}
+"extended"
+{
+	"developer" "Kindly Beast"
+	"publisher" "Kindly Beast"
+	"homepage" "http://showdownbandit.com"
+	"listofdlc" "1131030"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Showdown Bandit"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Showdown Bandit.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1076281"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5206422670550523007"
+				"size" "1613064735"
+				"download" "610822800"
+			}
+			"soundtrack-ep1"
+			{
+				"gid" "5206422670550523007"
+				"size" "1613064735"
+				"download" "610822800"
+			}
+		}
+	}
+	"1076282"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7291047355469364889"
+				"size" "1606299007"
+				"download" "608712656"
+			}
+			"soundtrack-ep1"
+			{
+				"gid" "7291047355469364889"
+				"size" "1606299007"
+				"download" "608712656"
+			}
+		}
+	}
+	"1076283"
+	{
+		"dlcappid" "1131030"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "523704597355461224"
+				"size" "46389294"
+				"download" "45744624"
+			}
+			"soundtrack-ep1"
+			{
+				"gid" "460960975885633468"
+				"size" "46397452"
+				"download" "45746432"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4280859"
+			"timeupdated" "1570841521"
+		}
+		"soundtrack-ep1"
+		{
+			"buildid" "4228916"
+			"timeupdated" "1569432775"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "5"
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Showdown Bandit/"
+					"replace" "Kindly Beast/Showdown Bandit/"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinAppDataLocalLow"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Showdown Bandit/"
+					"replace" "Kindly Beast/"
+				}
+			}
+		}
+	}
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Showdown Bandit/"
+			"pattern" "*.dat"
+			"recursive" "1"
+		}
+	}
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+}
