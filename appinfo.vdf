@@ -1,0 +1,521 @@
+"appid" "351510"
+"common"
+{
+	"name" "Quiplash"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "e7afa3dff486fbdc8cdbc05f20f2d66f37400d49"
+	"logo_small" "e7afa3dff486fbdc8cdbc05f20f2d66f37400d49_thumb"
+	"icon" "5e089d7b28f730310523c1ce4139ccee230dbd55"
+	"clienticon" "c96841d2f0dc048e8efb7ddf46c31332731caae0"
+	"clienttga" "e5be8b814f4b9e7d63fa657c979b82a2a108eff9"
+	"clienticns" "3806e353fddfdf8b0276517c13931ef26e331ff7"
+	"releasestate" "released"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1647648000"
+		"tested_build_id" "7667381"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Quiplash"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "59.72151864399022"
+		}
+	}
+	"store_asset_mtime" "1667412379"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Jackbox Games, Inc."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Jackbox Games, Inc."
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_22" "1"
+		"category_23" "1"
+		"category_37" "1"
+		"category_41" "1"
+		"category_42" "1"
+		"category_28" "1"
+		"category_43" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_44" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1435663787"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "351510"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "3859"
+		"2" "1719"
+		"3" "492"
+		"4" "9"
+		"5" "1685"
+		"6" "7368"
+		"7" "5350"
+		"8" "7108"
+		"9" "7178"
+		"10" "4136"
+		"11" "1770"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"gamedir" ""
+	"developer" "Jackbox Games, Inc."
+	"publisher" "Jackbox Games, Inc."
+	"homepage" "http://www.jackboxgames.com"
+	"listofdlc" "359570"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Quiplash"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Quiplash.exe"
+			"arguments" "-jbg.config serverUrl=ecast.jackboxgames.com"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Quiplash.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Launcher.sh"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+	"steamcontrollertouchtemplateindex" "8"
+	"steamcontrollertemplateindex" "4"
+	"steamconfigurator3rdpartynative" "65535"
+	"uselaunchcommandline" "1"
+}
+"depots"
+{
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"351511"
+	{
+		"config"
+		{
+			"oslist" "windows,linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "303797384544699849"
+				"size" "107955759"
+				"download" "75592224"
+			}
+			"linux-beta"
+			{
+				"gid" "303797384544699849"
+				"size" "107955759"
+				"download" "75592224"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"latest"
+			{
+				"gid" "9C3E5CBDA689330D8A8E51AFD80ACD82"
+				"size" "A8FEB7FD636010844C169E72975686DE"
+				"download" "9393BA522893924E4DF74B9F18B2A1E2"
+			}
+			"test"
+			{
+				"gid" "F3E001A8DBD08507DFFE705320C9FAAF"
+				"size" "DFC17E1AC5964E20186F9AC83A137D61"
+				"download" "104C41F06EFF66E34650AD2E17A88C34"
+			}
+		}
+	}
+	"351512"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6727841938987254954"
+				"size" "122187327"
+				"download" "76053024"
+			}
+			"linux-beta"
+			{
+				"gid" "6727841938987254954"
+				"size" "122187327"
+				"download" "76053024"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"latest"
+			{
+				"gid" "A416A488B2AFF084D19F7E0AF9FABF9F"
+				"size" "B58EBD933A3825C95082A186DCE8CDCD"
+				"download" "D146A564011F3DEB331808A9A893A426"
+			}
+			"test"
+			{
+				"gid" "3A2A1814A245BAF02B40FAFF983B5997"
+				"size" "1F7CA36259818B398C64352D63BC3B29"
+				"download" "E161628F4893A88E59557E5BA1F34475"
+			}
+		}
+	}
+	"359570"
+	{
+		"dlcappid" "359570"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3791448555239228980"
+				"size" "3449462"
+				"download" "3329152"
+			}
+			"linux-beta"
+			{
+				"gid" "3791448555239228980"
+				"size" "3449462"
+				"download" "3329152"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"latest"
+			{
+				"gid" "44FA39A008F4CB4362AF8AA59A41BA3D"
+				"size" "CD0DD323347E2C8797145EBF0C1C25FF"
+				"download" "EE18A8B0CDC86EBE08EDC584E9F26B06"
+			}
+			"test"
+			{
+				"gid" "4EE514485A1FB1F54323406FEB2811C2"
+				"size" "478D210A9B7AC83600BC9E8BB102AFD3"
+				"download" "5928D64081D2BE64A5E68D9560FA9B04"
+			}
+		}
+	}
+	"371860"
+	{
+		"dlcappid" "371860"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "356686679486390573"
+				"size" "342254"
+				"download" "334752"
+			}
+			"linux-beta"
+			{
+				"gid" "356686679486390573"
+				"size" "342254"
+				"download" "334752"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"latest"
+			{
+				"gid" "F195C5349C1BCEAE63B7964B69F5BB12"
+				"size" "704B9C0E854C57ABF1E576B591E3CC8E"
+				"download" "053DB537987DABE4EE0F79F19925EDF9"
+			}
+			"test"
+			{
+				"gid" "4AFE02C67757DD9183638F852A28F2CF"
+				"size" "230F8440CB1A73C180818F14C103F35D"
+				"download" "030341E44E493EE110682295D885B756"
+			}
+		}
+	}
+	"351513"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8973703727337350299"
+				"size" "46325584"
+				"download" "13134480"
+			}
+			"linux-beta"
+			{
+				"gid" "5117489786348772495"
+				"size" "81051008"
+				"download" "68093392"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"latest"
+			{
+				"gid" "84A0FAD05812DA2828527CA5C0DF2176"
+				"size" "C679B9051C1013AA1A79F39795267663"
+				"download" "F65D0F266C184AE87BF10949992B95CC"
+			}
+			"test"
+			{
+				"gid" "CBC9211FA87CBE1B9DB46BC7AD7EA15A"
+				"size" "DD96D84FE1D8CA0DD31DBAFC627CD1FB"
+				"download" "7124D93F5F2AA1A082631653BB9BA3F4"
+			}
+		}
+	}
+	"351514"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3721364626756268765"
+				"size" "16637464"
+				"download" "9470880"
+			}
+			"linux-beta"
+			{
+				"gid" "3721364626756268765"
+				"size" "16637464"
+				"download" "9470880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"latest"
+			{
+				"gid" "6CBE12CF66B21C2A635E472A96F28A4E"
+				"size" "7B8DB5B7B95A9C03095AF384B835A2FB"
+				"download" "0C15F2BB7A170FE18EF120D8EBDAB96A"
+			}
+			"test"
+			{
+				"gid" "DEAF20F397E366F0DAFAD3EF4B48C2D8"
+				"size" "F49C3FAC67365D7D737DD7B58EADEC5A"
+				"download" "4CF240719D2546DE3DFFB247D0D98FAD"
+			}
+		}
+	}
+	"351515"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2290153183659963409"
+				"size" "20800264"
+				"download" "11119264"
+			}
+			"linux-beta"
+			{
+				"gid" "2290153183659963409"
+				"size" "20800264"
+				"download" "11119264"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"latest"
+			{
+				"gid" "CA7A9296799560F59ED00E134537951A"
+				"size" "44F618EA43F734D38158628B4CB8E82C"
+				"download" "48287506A82B68C186D0286C719EA300"
+			}
+			"test"
+			{
+				"gid" "1FA1BB4FBD175B37FA903DCCFCFB6B07"
+				"size" "774BF555BE3FB2DD78B2655794035E59"
+				"download" "DAEDC065F165F43D8052C61FC50FB2F0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15292788"
+			"timeupdated" "1723047104"
+		}
+		"linux-beta"
+		{
+			"buildid" "7667370"
+			"description" "Linux beta branch"
+			"timeupdated" "1636164279"
+		}
+		"latest"
+		{
+			"buildid" "15310818"
+			"pwdrequired" "1"
+			"timeupdated" "1723156188"
+		}
+		"test"
+		{
+			"buildid" "15246797"
+			"pwdrequired" "1"
+			"timeupdated" "1723154279"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "5000000"
+	"maxnumfiles" "1"
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#status" "{#Status_%gamestatus%}"
+				"#status_inmenus" "At the Menu"
+				"#status_inlobby" "In the Lobby"
+				"#status_ingame" "In Game"
+			}
+		}
+	}
+}
