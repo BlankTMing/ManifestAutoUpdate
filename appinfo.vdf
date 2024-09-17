@@ -1,0 +1,221 @@
+"appid" "108700"
+"common"
+{
+	"name" "Death Rally"
+	"logo" "4b7d97eb1b07402e811def710c5800990f3ed3a3"
+	"logo_small" "4b7d97eb1b07402e811def710c5800990f3ed3a3_thumb"
+	"icon" "d0e222802774e820d37ed81416c22c91d5f4bd1d"
+	"clienttga" "21941d904480c04148cb6eac97752e69f0911976"
+	"clienticon" "7093c3d8034bd978674a95d0580a4c8c5a9a1563"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1690416000"
+		"tested_build_id" "10780"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-2"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Death Rally"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1667485426"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Remedy Entertainment"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Mountain Sheep"
+		}
+		"2"
+		{
+			"type" "developer"
+			"name" "Cornfox &amp; Brothers"
+		}
+		"3"
+		{
+			"type" "publisher"
+			"name" "Remedy Entertainment"
+		}
+	}
+	"primary_genre" "9"
+	"genres"
+	{
+		"0" "1"
+		"1" "9"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "108700"
+	"store_tags"
+	{
+		"0" "699"
+		"1" "19"
+		"2" "5708"
+		"3" "1773"
+		"4" "4102"
+		"5" "4791"
+		"6" "11104"
+		"7" "3859"
+		"8" "4182"
+		"9" "5851"
+	}
+	"review_score" "6"
+	"review_percentage" "71"
+}
+"extended"
+{
+	"developer" "Remedy Entertainment"
+	"gamedir" "DeathRally"
+	"homepage" "http://www.remedygames.com"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "108701"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"publisher" "Remedy Entertainment"
+}
+"config"
+{
+	"installscriptsignature" "2339229a57367c12a8c37e0c506366b8d71574531b2760582cd7d364e60346992b58b3e7abebbe88975a1e8ef1f826f2ed7083905a4a3f497adc448efd10b0776a1012c08ccc3391e7ac60ff51f9cc21cc6e121e2375f6559510ff35a96fe0e9e4b1e8fe90ce2322f904ff61263839c519db0e220f7df32edca0e3b5565875c0"
+	"installscriptoverride" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DeathRally.exe"
+			"description" "Death Rally Executable"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "DeathRally"
+}
+"install"
+{
+	"run process"
+	{
+		"vcredistributable"
+		{
+			"process 1" "%INSTALLDIR%\\thirdparty\\Studio_Redistributable\\vcredist_x86.exe"
+			"command 1" "/q"
+			"description" "Microsoft Visual C++ Redistributable 2010 SP1"
+			"nocleanup" "1"
+		}
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\thirdparty\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"description" "Microsoft DirectX"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"108701"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6033375742333368986"
+				"size" "689750796"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"latest"
+			{
+				"gid" "AB70E42BD2D4E01BD526B3C577BF2E16"
+				"size" "202D76F0B0BDC9A6F0E0CDACA49AF70B"
+				"download" "FAEFB2D48C5EAF11014725415C713DF4"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10780"
+		}
+		"latest"
+		{
+			"buildid" "10780"
+			"pwdrequired" "1"
+		}
+	}
+}
