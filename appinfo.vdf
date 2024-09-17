@@ -1,0 +1,354 @@
+"appid" "640120"
+"common"
+{
+	"name" "Youropa"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"logo" "00a76c5bf36e6405fab41b9b37ee28b056f1e16c"
+	"logo_small" "00a76c5bf36e6405fab41b9b37ee28b056f1e16c_thumb"
+	"icon" "d38b20fc4cb843f2ae1a51fcdd561e0126bc504f"
+	"clienticon" "0e213ef65535909f465991e5611eb14c8e102910"
+	"clienttga" "e1bb43b60f6e66b3d13832e25e89545e6d49b283"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1671235200"
+		"tested_build_id" "10157598"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-6"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Youropa"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1666128770"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "frecle"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "frecle"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_15" "1"
+		"category_17" "1"
+		"category_30" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"danish"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"swedish"
+		{
+			"supported" "true"
+		}
+		"norwegian"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1530093590"
+	"metacritic_score" "80"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/youropa\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "640120"
+	"store_tags"
+	{
+		"0" "5537"
+		"1" "5395"
+		"2" "1628"
+		"3" "3834"
+		"4" "8122"
+		"5" "4747"
+		"6" "4036"
+		"7" "3955"
+		"8" "1625"
+		"9" "1643"
+		"10" "1644"
+		"11" "1697"
+		"12" "4106"
+		"13" "1710"
+		"14" "1654"
+		"15" "4305"
+		"16" "4400"
+		"17" "1664"
+		"18" "3968"
+		"19" "5350"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"developer" "frecle"
+	"publisher" "frecle"
+	"homepage" "http://www.frecle.net"
+}
+"config"
+{
+	"installdir" "Youropa"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "youropa_x64.exe"
+			"arguments" "-driver directx9"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Play Youropa - Use DirectX9"
+			}
+			"description" "Play Youropa - Use DirectX9"
+		}
+		"1"
+		{
+			"executable" "youropa_x64.exe"
+			"arguments" "-driver opengl"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Play Youropa - Use OpenGL"
+			}
+			"description" "Play Youropa - Use OpenGL"
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"640121"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2320220434994321239"
+				"size" "1040509593"
+				"download" "544409680"
+			}
+			"beta"
+			{
+				"gid" "2320220434994321239"
+				"size" "1040509593"
+				"download" "544409680"
+			}
+			"legacy"
+			{
+				"gid" "2107234301328993695"
+				"size" "1186018281"
+				"download" "565107744"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "34BB20F0644C12841B5ECE5714176100"
+				"size" "3097B30A43565A66B27F56942D5CA869"
+				"download" "2D74515CB764C19FF663987F2F26ED17"
+			}
+		}
+	}
+	"workshopdepot" "640120"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10157598"
+			"timeupdated" "1671395771"
+		}
+		"beta"
+		{
+			"buildid" "10157598"
+			"description" "Public Beta Test"
+			"timeupdated" "1671140274"
+		}
+		"internal"
+		{
+			"buildid" "10157598"
+			"pwdrequired" "1"
+			"timeupdated" "1671140280"
+		}
+		"legacy"
+		{
+			"buildid" "5946784"
+			"description" "Version 1"
+			"timeupdated" "1666130084"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "userdata"
+			"pattern" "*.*"
+			"recursive" "1"
+		}
+	}
+}
