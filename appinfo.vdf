@@ -1,0 +1,222 @@
+"appid" "72200"
+"common"
+{
+	"name" "Universe Sandbox Legacy"
+	"clienticon" "b3f53a0ef402f966ac12566a0f42f1cc5943d81c"
+	"clienttga" "1876d6f390104702027b2b3086b84c0125649ea7"
+	"icon" "7ccd8ffa244e23fa3aeb058207ab4a50777a1c69"
+	"logo" "e18118df8174e2e0538be9fc2e9f8fac9e8e5d8c"
+	"logo_small" "e18118df8174e2e0538be9fc2e9f8fac9e8e5d8c_thumb"
+	"oslist" "windows"
+	"app_retired_publisher_request" "1"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1645660800"
+		"tested_build_id" "16708"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Universe Sandbox"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1392085671"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Giant Army"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Giant Army"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_15" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1304108580"
+	"metacritic_score" "83"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/universe-sandbox\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "72200"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "3810"
+		"2" "1755"
+		"3" "3968"
+		"4" "5794"
+		"5" "1036"
+		"6" "492"
+		"7" "597"
+		"8" "4182"
+		"9" "5300"
+		"10" "3942"
+		"11" "113"
+		"12" "4166"
+		"13" "16598"
+		"14" "4136"
+		"15" "3834"
+		"16" "5363"
+		"17" "3965"
+		"18" "19"
+		"19" "21978"
+	}
+	"review_score" "8"
+	"review_percentage" "80"
+}
+"extended"
+{
+	"developer" "Giant Army"
+	"gamedir" "Universe Sandbox"
+	"homepage" "http://universesandbox.com/"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "72201"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Giant Army"
+}
+"config"
+{
+	"installscriptsignature" "80001c56954cb451937efa3badec84c023c41e888df1c104c5b3167fd1ce144a09025060a41e3acfa4e19970f2887e29de49bc6fd82b4a1586346dbd68bd6921e3b10638d8c2e4bff5d240625393a8cfe21484f593e414b8a713a208e34c18b5ca3af2c30b5cf4319371e1109888642ca5553912383aa4c27598adc4026ec820"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Universe Sandbox.exe"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Universe Sandbox"
+	"installscriptoverride" "1"
+	"steamcontrollertemplateindex" "6"
+}
+"install"
+{
+	"run process"
+	{
+		"vcredist2008sp1"
+		{
+			"process 1" "%INSTALLDIR%\\Prerequisites\\vcredist_x86_2008sp1.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\72200"
+		}
+		"vcredist2010sp1"
+		{
+			"process 1" "%INSTALLDIR%\\Prerequisites\\vcredist_x86_2010sp1.exe"
+			"command 1" "/passive /promptrestart /showfinalerror"
+			"nocleanup" "1"
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\72200"
+		}
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\Prerequisites\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\72200"
+		}
+		"install"
+		{
+			"process 1" "%INSTALLDIR%\\Prerequisites\\NetFx20SP2_x86.exe"
+			"command 1" "/q /norestart"
+			"nocleanup" "1"
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v2.0.50727"
+		}
+		"ubox"
+		{
+			"process 1" "%INSTALLDIR%\\Prerequisites\\SetupUBOXAssociation.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\72200"
+			"minimumhasrunvalue" "2"
+		}
+	}
+}
+"depots"
+{
+	"72201"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4304370622637990385"
+				"size" "105552087"
+				"download" "0"
+			}
+			"beta"
+			{
+				"gid" "4304370622637990385"
+				"size" "105552087"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "16708"
+		}
+		"beta"
+		{
+			"buildid" "16708"
+			"description" "Beta"
+		}
+	}
+}
