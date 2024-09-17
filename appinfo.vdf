@@ -1,0 +1,477 @@
+"appid" "877200"
+"common"
+{
+	"name" "Zero Caliber VR"
+	"type" "Game"
+	"logo" "8f0e04d19936c9a477fe34c92774a60ef364d9eb"
+	"logo_small" "8f0e04d19936c9a477fe34c92774a60ef364d9eb_thumb"
+	"icon" "569dcff2f3ff7ed7e30b9b58695f2b27b41576a8"
+	"clienticon" "dc43035779eb7f82c58c14e0e3f7c65ece63e6cf"
+	"clienttga" "a41da03c299a2078fbc3af44a363fb4ef1988108"
+	"releasestate" "released"
+	"controllervr"
+	{
+		"oculus" "1"
+		"steamvr" "1"
+	}
+	"playareavr"
+	{
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"oslist" "windows"
+	"osarch" "64"
+	"openvr_action_manifest_path" "ZeroCaliber\\Config\\SteamVRBindings\\steamvr_manifest.json"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"openxrsupport" "1"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1644278400"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Zero Caliber VR"
+	"small_capsule"
+	{
+		"english" "ee89e2cbaeaf1738020e7f63b0acae6183121ac6/capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "48.18449460255151"
+			"height_pct" "66.31944444444443"
+		}
+	}
+	"store_asset_mtime" "1723642590"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "XREAL Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "XREAL Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+		"3" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_1" "1"
+		"category_23" "1"
+		"category_52" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_27" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1690794360"
+	"community_hub_visible" "1"
+	"gameid" "877200"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "4168"
+		"1" "4182"
+		"2" "1685"
+		"3" "21978"
+		"4" "19"
+		"5" "1663"
+		"6" "1774"
+		"7" "599"
+		"8" "5765"
+		"9" "3839"
+		"10" "4747"
+		"11" "6730"
+		"12" "5611"
+		"13" "4667"
+		"14" "1678"
+		"15" "3843"
+		"16" "3859"
+		"17" "4175"
+		"18" "4345"
+		"19" "4508"
+	}
+	"review_score" "6"
+	"review_percentage" "77"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "XREAL Games"
+	"publisher" "XREAL Games"
+	"homepage" "https://www.xrealgames.com/"
+}
+"config"
+{
+	"installdir" "Zero Caliber VR"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ZeroCaliber.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "ZeroCaliber.exe"
+			"type" "openxr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" " ab-test-1-s"
+			}
+		}
+		"2"
+		{
+			"executable" "ZeroCaliber.exe"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" " ab-test-1-s"
+			}
+		}
+	}
+	"usemms" "1"
+	"uselaunchcommandline" "1"
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"877201"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8001691413658001485"
+				"size" "30266052670"
+				"download" "28957733280"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ab-main-d"
+			{
+				"gid" "BDE2DECD9F1E1AA138374C1A1FB4D24C"
+				"size" "E8AAB01825F5CFE0C50741FD9BC514FD"
+				"download" "7C7FC93A92DB00706C6B1BD76F138E4F"
+			}
+			"ab-main-s"
+			{
+				"gid" "3D022C2514714E8A8F1CAA108DDCD452"
+				"size" "F7295A96927C4ADB632352F0709DBCE7"
+				"download" "C432F0B78B29511D88E609706EC3A88F"
+			}
+			"ab-rc-d"
+			{
+				"gid" "6E2CF9B9FAE8560B2FE931160AC1DC45"
+				"size" "BD7E82BC9CD66A566545F83FFF97EA3A"
+				"download" "7ED73EB4572D78BC793D8FDB07CA3180"
+			}
+			"ab-rc-s"
+			{
+				"gid" "B12FADEB7ED5C2534571B3A723CC6814"
+				"size" "026C174A283947C6D9CE0878D79F678A"
+				"download" "A106010F4133378E43DEE752EB05893C"
+			}
+			"ab-test-1-d"
+			{
+				"gid" "3434103AC51E8AD3D95252B7E9F48431"
+				"size" "FBEF118780091C0BF329303C673C742F"
+				"download" "FEC5B3331D2E0F2AC5356C58506CEB68"
+			}
+			"ab-test-1-s"
+			{
+				"gid" "C629C9D8843CFB83984E814755A44184"
+				"size" "262CB5B9164B437E68C061BD07B7599A"
+				"download" "00B2749D323604CC233C3A986237C03D"
+			}
+			"ab-test-2-d"
+			{
+				"gid" "275C24F304338C48C0B024360DD57958"
+				"size" "F03186CFB83B4359D97A3DD5D2BCF19E"
+				"download" "EFC64CEBE89F1BC1D839D859AB055933"
+			}
+			"ab-test-2-s"
+			{
+				"gid" "CFB5489BCB8C80EE7B215EB1F641CF86"
+				"size" "CBF701B6D53E0740D2114C5BCAB01BC8"
+				"download" "894010C7FFAE29366D6B562D8A6005FC"
+			}
+			"ab-test-3-d"
+			{
+				"gid" "0350F34F018E8A4C87C30494DFE8CDC7"
+				"size" "4F4A03D37F77DDA80A4EBC593AAAF7AC"
+				"download" "E3EF9613009BF18DB05B4715D669A644"
+			}
+			"ab-test-d"
+			{
+				"gid" "2ABBF57BFB0A3117F1A3E055D6E769B1"
+				"size" "DCABEE3F82941E984A715181024DC790"
+				"download" "4209A3FDA21D5EF4B7E94F8AF0A5BCC0"
+			}
+			"ab-test-s"
+			{
+				"gid" "17282968B6C5B22AE594ECE047965BB6"
+				"size" "0402E876EB13A414DE1BD651104A199A"
+				"download" "00805EAE4020B0AA4462F24BB0F71C00"
+			}
+			"closed-ugc-testbuild"
+			{
+				"gid" "E7B580CF9884546BEAA4D676A3D31FE8"
+				"size" "59B73940E850B6EE593CC7FE97505FDD"
+				"download" "A1490CC619D30FF6362920E3C4DD540B"
+			}
+			"legacytest"
+			{
+				"gid" "F163776F086CF040D262AAE53CF8359A"
+				"size" "75918C3E21C7CD942A1B8BF0A6E72E53"
+				"download" "562C22094B8FC37FC214C61D77D36E28"
+			}
+			"modding"
+			{
+				"gid" "E40C1FACE039778CD146614842AB9E70"
+				"size" "0BC28230286994620A8365F8924FFC4B"
+				"download" "B83F796D96B35DE4EFF390536CFD8445"
+			}
+			"rc_01"
+			{
+				"gid" "7D1E39001CB4307BA61545B39593EFAE"
+				"size" "19453ABE44C2D1FBFAA46B3120A84F9B"
+				"download" "6D6932B1F8C96C54E89111C6FBD971DB"
+			}
+			"test"
+			{
+				"gid" "EB74517CA5464270873EB994636ECAF9"
+				"size" "CEF50625958A0F0139408BB24C5F1E9E"
+				"download" "0BD7AFECE8AD04C820CD388DA64E1C64"
+			}
+			"virtualdesktop-test"
+			{
+				"gid" "7ECB568A3723209030D3EBDEA8A4AF54"
+				"size" "0FD2E7D5DBC772D4263F68F07113C9C3"
+				"download" "98F540FCA609A2B31726F48E940112F2"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12472224"
+			"timeupdated" "1697733529"
+		}
+		"ab-main-d"
+		{
+			"buildid" "11292509"
+			"pwdrequired" "1"
+			"timeupdated" "1684799886"
+		}
+		"ab-main-s"
+		{
+			"buildid" "11292366"
+			"pwdrequired" "1"
+			"timeupdated" "1684798257"
+		}
+		"ab-rc-d"
+		{
+			"buildid" "12938112"
+			"pwdrequired" "1"
+			"timeupdated" "1702373557"
+		}
+		"ab-rc-s"
+		{
+			"buildid" "12937712"
+			"pwdrequired" "1"
+			"timeupdated" "1702370584"
+		}
+		"ab-test-1-d"
+		{
+			"buildid" "12394047"
+			"pwdrequired" "1"
+			"timeupdated" "1696860755"
+		}
+		"ab-test-1-s"
+		{
+			"buildid" "12393694"
+			"pwdrequired" "1"
+			"timeupdated" "1696858557"
+		}
+		"ab-test-2-d"
+		{
+			"buildid" "11793097"
+			"pwdrequired" "1"
+			"timeupdated" "1690383013"
+		}
+		"ab-test-2-s"
+		{
+			"buildid" "11511672"
+			"pwdrequired" "1"
+			"timeupdated" "1689753809"
+		}
+		"ab-test-3-d"
+		{
+			"buildid" "11515862"
+			"pwdrequired" "1"
+			"timeupdated" "1689753997"
+		}
+		"ab-test-d"
+		{
+			"buildid" "11721383"
+			"pwdrequired" "1"
+			"timeupdated" "1689612124"
+		}
+		"ab-test-s"
+		{
+			"buildid" "11722941"
+			"pwdrequired" "1"
+			"timeupdated" "1689626495"
+		}
+		"closed-ugc-testbuild"
+		{
+			"buildid" "10682563"
+			"pwdrequired" "1"
+			"timeupdated" "1678213846"
+		}
+		"legacytest"
+		{
+			"buildid" "7913201"
+			"pwdrequired" "1"
+			"timeupdated" "1671095268"
+		}
+		"modding"
+		{
+			"buildid" "10317385"
+			"pwdrequired" "1"
+			"timeupdated" "1673627851"
+		}
+		"rc_01"
+		{
+			"buildid" "11632146"
+			"pwdrequired" "1"
+			"timeupdated" "1688982585"
+		}
+		"test"
+		{
+			"buildid" "10131874"
+			"pwdrequired" "1"
+			"timeupdated" "1680078983"
+		}
+		"virtualdesktop-test"
+		{
+			"buildid" "11632146"
+			"pwdrequired" "1"
+			"timeupdated" "1689682276"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "30"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "ZeroCaliber/Saved/SaveGames"
+			"pattern" "*.sav"
+		}
+	}
+}
