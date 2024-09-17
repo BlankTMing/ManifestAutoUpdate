@@ -1,0 +1,197 @@
+"appid" "822540"
+"common"
+{
+	"name" "Escape From Tethys"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "115fdc4cceb9187e313a681e1905b2f52c7812ea"
+	"logo_small" "115fdc4cceb9187e313a681e1905b2f52c7812ea_thumb"
+	"icon" "b003cd59e84575d49c6558554f1a9152ecf33647"
+	"clienttga" "e984296b7d1cae37cec7a53a07ea074abecc05ec"
+	"clienticon" "29605fbf45ac1652f0ba6f821b0eca492efd6bc7"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" "macos64"
+	"metacritic_name" "Escape From Tethys"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1527919356"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Whimsical"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Whimsical"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1531445271"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "822540"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "1628"
+		"2" "1625"
+		"3" "3834"
+		"4" "4106"
+		"5" "3964"
+		"6" "3871"
+		"7" "492"
+		"8" "4004"
+	}
+	"review_score" "6"
+	"review_percentage" "70"
+}
+"extended"
+{
+	"developer" "Whimsical"
+	"publisher" "Whimsical"
+}
+"config"
+{
+	"installdir" "Escape From Tethys"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Escape From Tethys.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Contents/MacOS/EscapeFromTethysMac"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"822541"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2421926254121925043"
+				"size" "478199771"
+				"download" "79395632"
+			}
+			"macos"
+			{
+				"gid" "2750241404369758663"
+				"size" "478200275"
+				"download" "79387840"
+			}
+		}
+	}
+	"822542"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4354477449966644995"
+				"size" "494221884"
+				"download" "82580640"
+			}
+			"macos"
+			{
+				"gid" "659371009689756236"
+				"size" "494222388"
+				"download" "82576144"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5070287"
+			"timeupdated" "1590284721"
+		}
+		"macos"
+		{
+			"buildid" "5066345"
+			"timeupdated" "1590171401"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "EscapeFromTethys/Escape From Tethys"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "com.Whimsical.EscapeFromTethys"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+}
