@@ -1,0 +1,168 @@
+"appid" "596350"
+"common"
+{
+	"name" "Paladins - Public Test"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"logo" "fa03dc049462669246e8ea8b0fffe6445fddd712"
+	"logo_small" "fa03dc049462669246e8ea8b0fffe6445fddd712_thumb"
+	"icon" "0a073dec4ffe8398b74369289d0c987134e35986"
+	"clienttga" "b820fd97fe5fe932924d9e7f4c7011a8603a2219"
+	"clienticon" "e141d4a3d911477d41fcac6d0db934f0844af059"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "596350_eula_0"
+			"name" "Paladins - Public Test EULA"
+			"url" "http://store.steampowered.com//eula/596350_eula_0"
+		}
+	}
+	"osextended" ""
+	"associations"
+	{
+	}
+	"community_hub_visible" "1"
+	"gameid" "596350"
+}
+"extended"
+{
+	"listofdlc" "598210"
+}
+"config"
+{
+	"installdir" "paladins pts"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Binaries\\Win32\\PaladinsEAC.exe"
+			"arguments" "-pid=403 -steam -anon -eac_launcher_settings Settings.json -seekfreeloadingPCConsole -eac_dir \"..\\\\EasyAntiCheat\\\\\""
+			"workingdir" "Binaries"
+			"description" "Launch 32"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"1"
+		{
+			"executable" "HirezLauncherUI.app\\Contents\\MacOS\\Paladins.app"
+			"arguments" "-pid=403 -steam -anon -seekfreeloadingpcconsole"
+			"description" "Launch for Mac"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "PaladinsBootstrapper.exe"
+			"arguments" "-pid=403 -steam -anon -eac_launcher_settings Settings64.json -seekfreeloadingPCConsole -eac_dir \"..\\\\EasyAntiCheat\\\\\""
+			"workingdir" "Binaries"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Launch 64"
+			}
+			"description" "Launch 64"
+		}
+	}
+	"usemms" "1"
+}
+"depots"
+{
+	"596351"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7283628104495396958"
+				"size" "32952257585"
+				"download" "25383432224"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"creators_test"
+			{
+				"gid" "9A97C0280D5C3BBEDB27B31D11299EE2"
+				"size" "5D6412A36055232FFCA784FCF6E10E3D"
+				"download" "4E688D7E0BAC481D37C8BD9339625C62"
+			}
+			"pts_latest"
+			{
+				"gid" "1549284C6691DBBE32239D3A7A25B8E0"
+				"size" "F9162BC7C058B65CF39112E5CD6642FD"
+				"download" "B762202B8E10701F9B526E09BE8EC467"
+			}
+		}
+	}
+	"596352"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4466757385306055379"
+				"size" "21114675663"
+				"download" "15934330880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"creators_test"
+			{
+				"gid" "FE951DBCCB8F0F116CD930325894E404"
+				"size" "6F0FD5BEEF051BDCF4489EF8C8A452E7"
+				"download" "01E9B03824F84B8CA29EC39903F24461"
+			}
+			"pts_latest"
+			{
+				"gid" "E4777041DE74382577FDE060A54E3D13"
+				"size" "5AB520FE8C1129B031F09E4916BF0FF9"
+				"download" "FE848F32D2ACA0EFFAE2B3798ABFDAED"
+			}
+		}
+	}
+	"baselanguages" "english,german,french,spanish,russian,japanese,portuguese,polish,brazilian,latam"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15017175"
+			"timeupdated" "1720814957"
+		}
+		"creators_test"
+		{
+			"buildid" "15450346"
+			"pwdrequired" "1"
+			"timeupdated" "1724268785"
+		}
+		"pts_latest"
+		{
+			"buildid" "15655326"
+			"pwdrequired" "1"
+			"timeupdated" "1725996044"
+		}
+	}
+}
