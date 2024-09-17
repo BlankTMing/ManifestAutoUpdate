@@ -38,32 +38,37 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "3"
-		"test_timestamp" "1644969600"
+		"category" "2"
+		"test_timestamp" "1724457600"
 		"tested_build_id" "2715288"
 		"tests"
 		{
 			"0"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
 			}
 			"1"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DeviceCompatibilityWarningsShown"
 			}
 			"2"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"3"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
 			{
 				"display" "1"
 				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
@@ -76,11 +81,13 @@
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
-			"small_text" "0"
+			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-7.0-1"
+			"recommended_runtime" "proton-9.0-2RC"
 			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Call of Duty: Infinite Warfare"
@@ -103,6 +110,48 @@
 			"pinned_position" "BottomLeft"
 			"width_pct" "61.435239206534426"
 			"height_pct" "53.799572548088335"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "61.435239206534426"
+				"height_pct" "53.799572548088335"
+			}
 		}
 	}
 	"store_asset_mtime" "1571097805"
@@ -147,6 +196,7 @@
 		"category_49" "1"
 		"category_9" "1"
 		"category_43" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -230,8 +280,8 @@
 		"0" "19"
 		"1" "1663"
 		"2" "3859"
-		"3" "1659"
-		"4" "4295"
+		"3" "4295"
+		"4" "1659"
 		"5" "1755"
 		"6" "1774"
 		"7" "620519"
@@ -241,15 +291,15 @@
 		"11" "5752"
 		"12" "21"
 		"13" "1742"
-		"14" "4559"
-		"15" "4166"
+		"14" "4166"
+		"15" "4559"
 		"16" "1678"
 		"17" "1756"
 		"18" "1685"
 		"19" "3835"
 	}
 	"review_score" "5"
-	"review_percentage" "57"
+	"review_percentage" "59"
 }
 "extended"
 {
@@ -4726,7 +4776,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "20908336"
-"_sha" "11e011e12a28ab42f48f94b2374e2236aad5daf8"
-"_size" "96804"
