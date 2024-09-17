@@ -11,6 +11,50 @@
 	"clienttga" "08a980973004b61dcaad6ab3d43cc95423f6af12"
 	"oslist" "windows"
 	"osarch" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1708128000"
+		"tested_build_id" "13314132"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+			"hdr_support" "0"
+		}
+	}
 	"metacritic_name" "Blackout Z: Slaughterhouse Edition"
 	"small_capsule"
 	{
@@ -64,6 +108,8 @@
 		"category_22" "1"
 		"category_25" "1"
 		"category_23" "1"
+		"category_29" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -141,9 +187,9 @@
 		"4" "1659"
 		"5" "3871"
 		"6" "3964"
-		"7" "4182"
-		"8" "4255"
-		"9" "1667"
+		"7" "1667"
+		"8" "4182"
+		"9" "4255"
 		"10" "4345"
 		"11" "4758"
 		"12" "5154"
@@ -156,7 +202,7 @@
 		"19" "5363"
 	}
 	"review_score" "8"
-	"review_percentage" "83"
+	"review_percentage" "82"
 }
 "extended"
 {
@@ -174,12 +220,28 @@
 		"0"
 		{
 			"executable" "Blackout Z.exe"
-			"type" "none"
+			"type" "option1"
+			"description_loc"
+			{
+				"english" "Blackout Z"
+			}
+			"description" "Blackout Z"
+		}
+		"1"
+		{
+			"executable" "Gifts\\Burning Skies Neon\\Burning Skies Neon.exe"
+			"type" "option2"
+			"description_loc"
+			{
+				"english" "Burning Skies Neon"
+			}
+			"description" "Burning Skies Neon"
 		}
 	}
 }
 "depots"
 {
+	"baselanguages" "english"
 	"729661"
 	{
 		"config"
@@ -204,6 +266,7 @@
 	}
 	"738810"
 	{
+		"dlcappid" "738810"
 		"manifests"
 		{
 			"public"
@@ -219,20 +282,36 @@
 				"download" "100444656"
 			}
 		}
-		"dlcappid" "738810"
 	}
-	"baselanguages" "english"
+	"729662"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7173688065452409251"
+				"size" "225729822"
+				"download" "110959760"
+			}
+			"development"
+			{
+				"gid" "8177549010060902557"
+				"size" "225694014"
+				"download" "110977712"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13314132"
-			"timeupdated" "1706639509"
+			"buildid" "14225272"
+			"timeupdated" "1714505108"
 		}
 		"development"
 		{
-			"buildid" "13314132"
-			"timeupdated" "1706626606"
+			"buildid" "14316159"
+			"timeupdated" "1715264522"
 		}
 	}
 }
@@ -250,7 +329,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "22124451"
-"_sha" "5743c1f40e98d58fc6b074943db3c3d7b6a2ab62"
-"_size" "4175"
