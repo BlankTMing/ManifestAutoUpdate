@@ -1,0 +1,289 @@
+"appid" "216390"
+"common"
+{
+	"name" "Fallen Enchantress"
+	"type" "Game"
+	"logo" "9c72d94036c3ad7f00c41f7ae059e919a00ce95a"
+	"logo_small" "9c72d94036c3ad7f00c41f7ae059e919a00ce95a_thumb"
+	"clienticon" "64de80dc30c5d630132e0cdfad155a965994c4ee"
+	"clienttga" "1c11060e697c60dd28173257e3a334fe61f0fa30"
+	"icon" "f53d3975bec4356f38345691a39dca46d68107d3"
+	"oslist" "windows"
+	"osarch" ""
+	"metacritic_name" "Elemental: Fallen Enchantress"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "66.56942823803965"
+			"height_pct" "56.07931607694134"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "UpperCenter"
+				"width_pct" "66.56942823803965"
+				"height_pct" "56.07931607694134"
+			}
+		}
+	}
+	"store_asset_mtime" "1574273329"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Stardock Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Stardock Entertainment"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Elemental"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Fallen Enchantress"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "3"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"steam_release_date" "1351011600"
+	"metacritic_score" "78"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/elemental-fallen-enchantress\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "216390"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "122"
+		"2" "1677"
+		"3" "1684"
+		"4" "1670"
+		"5" "492"
+		"6" "4182"
+		"7" "1741"
+		"8" "7569"
+	}
+	"review_score" "5"
+	"review_percentage" "66"
+}
+"extended"
+{
+	"developer" "Stardock Entertainment"
+	"gamedir" "ValveTestApp216390"
+	"gamemanualurl" "http://store.steampowered.com/manual/216390/"
+	"homepage" "http://www.elementalgame.com/fallen-enchantress"
+	"icon" ""
+	"noservers" "0"
+	"showcdkeyinmenu" "1"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"hadthirdpartycdkey" "1"
+	"publisher" "Stardock Entertainment"
+	"listofdlc" "225700"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Elemental Fallen Enchantress"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "FallenEnchantress.exe"
+			"description" "Launch game"
+		}
+	}
+	"installscriptsignature" "21fd80766baa0ad9dff76629770096b0ab404bc55edbb55eda22df4217269e7962cc9ffc4c50dc775deda3456b9de28dbd411955648aee19c5f5b51ca9c214a2d24d17298aa627ef326b99c7b248508f7cb140bb2638662728dfd561a60a486c5f64fbb561f560f684346220de49c18298e8b369897e5f9e3792eb6279d1552e"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\stardock\\drengin.net\\elementalfe"
+		{
+			"string"
+			{
+				"exe" "Fallen Enchantress.exe"
+				"language" "English"
+				"path" "%INSTALLDIR%"
+				"type" "production"
+			}
+			"dword"
+			{
+				"digital" "2"
+				"english"
+				{
+					"installlanguage" "1033"
+				}
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\216390"
+			"process 1" "%INSTALLDIR%\\Redist\\DirectX\\dxsetup.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"vcredist2005"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\216390"
+			"process 1" "%INSTALLDIR%\\Redist\\vcredist_2005sp1_x86.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+		"vcredist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\216390"
+			"process 1" "%INSTALLDIR%\\Redist\\vcredist_2008sp1_x86.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+		"screencache2"
+		{
+			"process 1" "%INSTALLDIR%\\GDF_FallenEnchantress_Install.exe"
+			"command 1" "INSTALL"
+		}
+		"firewallinstall"
+		{
+		}
+	}
+}
+"depots"
+{
+	"216391"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8429353539046296910"
+				"size" "4343983419"
+				"download" "3615303008"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private"
+			{
+				"gid" "22B0403E0071EA06CF6D0EC19F9CD3B2"
+				"size" "0DC4AFAFA1514407AD1DD0F7117079C4"
+				"download" "439E7E8F8578F6E205E467E0C21820B2"
+			}
+		}
+	}
+	"225700"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2647866732162233961"
+				"size" "9209337"
+				"download" "613088"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private"
+			{
+				"gid" "C8CA4BFF5B1145BF71E37892B748D1D2"
+				"size" "04EB4191173372F36A25F0E9AED21E0C"
+				"download" "93B3D0A6D2B505F8CFC419398EE343DF"
+			}
+		}
+		"dlcappid" "225700"
+	}
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "872036"
+			"timeupdated" "1473449934"
+		}
+		"private"
+		{
+			"buildid" "872036"
+			"pwdrequired" "1"
+		}
+	}
+}
