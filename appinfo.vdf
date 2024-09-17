@@ -1,0 +1,287 @@
+"appid" "963930"
+"common"
+{
+	"name" "Contractors VR"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"clienttga" "674315c54c04fecfe0af9b93f53d22c50e179fb5"
+	"clienticns" "ca5e4cad234a6c568f6f3c9109b25ead83fd875f"
+	"linuxclienticon" "ca5e4cad234a6c568f6f3c9109b25ead83fd875f"
+	"clienticon" "79eb64f370295b528d5d013b3c3d85330b7dcd02"
+	"icon" "80c9b5af8340f325b307f20b9a3944250eff34f9"
+	"logo" "583db1fbed1ecaff491c309964a151cc4f34d57f"
+	"logo_small" "583db1fbed1ecaff491c309964a151cc4f34d57f_thumb"
+	"openvr_action_manifest_path" "Contractors_UE4_22\\Config\\SteamVRBindings\\steamvr_manifest.json"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1644364800"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Contractors"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "83.72470974839575"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1691064971"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Caveman Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Caveman Studio"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+		"3" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_36" "1"
+		"category_27" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_52" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1544774400"
+	"steam_release_date" "1544837211"
+	"community_hub_visible" "1"
+	"gameid" "963930"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "21978"
+		"1" "19"
+		"2" "4667"
+		"3" "1663"
+		"4" "492"
+		"5" "599"
+		"6" "3859"
+		"7" "4168"
+		"8" "1774"
+		"9" "3839"
+		"10" "5765"
+		"11" "493"
+		"12" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "84"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Caveman Studio"
+	"publisher" "Caveman Studio"
+	"homepage" "https://www.contractorsvr.com"
+}
+"config"
+{
+	"installdir" "ContractorsVR"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Contractors.exe"
+			"arguments" "-hmd=steamvr"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Contractors.exe"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,koreana,schinese"
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"963931"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5948295543979492807"
+				"size" "23000888730"
+				"download" "22564175344"
+			}
+		}
+	}
+	"963932"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+	}
+	"963933"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+	}
+	"963934"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11884381"
+			"timeupdated" "1691416097"
+		}
+	}
+}
