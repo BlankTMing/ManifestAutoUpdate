@@ -1,0 +1,239 @@
+"appid" "1910790"
+"common"
+{
+	"name" "Lunar Mirror"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"clienticon" "6a7d2bfcb188ad8bd3883ccd30fc4e40ff3206db"
+	"clienttga" "11293795cdcf963ab4bd0c95556fd2b40407ffcb"
+	"icon" "f8882d8b7ef8bb67e8762170c677f02e4925a563"
+	"logo" "a2b8844f87fd51d0ab89817bde354437dbaf54c1"
+	"logo_small" "a2b8844f87fd51d0ab89817bde354437dbaf54c1_thumb"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+	}
+	"name_localized"
+	{
+		"schinese" "月之镜"
+	}
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn"
+		"library_hero" "en"
+		"library_logo" "en,zh-cn"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "63.70004442112634"
+			"height_pct" "92.80983916745505"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "63.70004442112634"
+				"height_pct" "92.80983916745505"
+			}
+		}
+	}
+	"store_asset_mtime" "1674121418"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "DSGame"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "DSGame"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "3"
+		"2" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1674134549"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1910790"
+	"store_tags"
+	{
+		"0" "12095"
+		"1" "1667"
+		"2" "492"
+		"3" "5611"
+		"4" "6971"
+		"5" "21"
+		"6" "6650"
+		"7" "9130"
+		"8" "1742"
+		"9" "4064"
+		"10" "1664"
+		"11" "1721"
+		"12" "122"
+		"13" "3834"
+		"14" "4434"
+		"15" "1751"
+		"16" "5984"
+		"17" "5716"
+		"18" "4182"
+		"19" "493"
+	}
+	"review_score" "6"
+	"review_percentage" "79"
+}
+"extended"
+{
+	"developer" "DSGame"
+	"publisher" "DSGame"
+	"homepage" "https://bunnytut.com"
+	"listofdlc" "1924880"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Lunar Mirror"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "LunarMirror.exe"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,schinese"
+	"hasdepotsindlc" "1"
+	"1910791"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8858688061927104149"
+				"size" "4591074528"
+				"download" "3067756480"
+			}
+		}
+	}
+	"1924880"
+	{
+		"dlcappid" "1924880"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8899523352375393837"
+				"size" "546811672"
+				"download" "419905584"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10644202"
+			"timeupdated" "1682218710"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "DSGame/LunarMirror/SaveData"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "DSGame/LunarMirror/SaveData"
+			"pattern" "*.png"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
