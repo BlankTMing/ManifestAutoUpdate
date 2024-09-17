@@ -1,0 +1,461 @@
+"appid" "2348090"
+"common"
+{
+	"name" "Crop Rotation"
+	"type" "Game"
+	"releasestate" "released"
+	"icon" "d9216566913691780a90a65fff1de58dc51177df"
+	"clienttga" "fe740252bea9d49e648d5acc120c33699f7a35f0"
+	"clienticon" "b8d96dbfd5f5921030e0d9f1fe15ecd5de3f1c9a"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"osextended" "macos64"
+	"name_localized"
+	{
+		"schinese" "轮作法 Crop Rotation"
+		"tchinese" "輪作法 Crop Rotation"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1695427200"
+		"tested_build_id" "12232048"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "54.02280730432724"
+			"height_pct" "64.73551524006999"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "54.02280730432724"
+				"height_pct" "64.73551524006999"
+			}
+		}
+	}
+	"store_asset_mtime" "1692544380"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Sprouting Potato"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Sprouting Potato"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1694761349"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2348090"
+	"store_tags"
+	{
+		"0" "4182"
+		"1" "1666"
+		"2" "32322"
+		"3" "1084988"
+		"4" "492"
+		"5" "3964"
+		"6" "3871"
+		"7" "9"
+		"8" "1091588"
+	}
+	"review_score" "8"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"developer" "Sprouting Potato"
+	"publisher" "Sprouting Potato"
+}
+"config"
+{
+	"installdir" "Crop Rotation"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CropRotation.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "hl"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "run.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"3270070395"
+		{
+			"controller_type" "controller_neptune"
+			"enabled_branches" "default,beta,developer"
+			"use_action_block" "false"
+		}
+	}
+	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "15"
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2348092"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5034380451088031180"
+				"size" "105220105"
+				"download" "87706496"
+			}
+			"v1.0"
+			{
+				"gid" "3569543975590974363"
+				"size" "31661736"
+				"download" "18279808"
+			}
+			"v1.1"
+			{
+				"gid" "4388553543669535176"
+				"size" "51998236"
+				"download" "37959728"
+			}
+			"beta"
+			{
+				"gid" "5034380451088031180"
+				"size" "105220105"
+				"download" "87706496"
+			}
+			"test"
+			{
+				"gid" "3881687647827490363"
+				"size" "103385037"
+				"download" "87048096"
+			}
+			"v1.2"
+			{
+				"gid" "6708501836307388606"
+				"size" "102790623"
+				"download" "86940032"
+			}
+		}
+	}
+	"2348093"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5479381578795329041"
+				"size" "97346287"
+				"download" "86775712"
+			}
+			"v1.0"
+			{
+				"gid" "5195740108161113027"
+				"size" "25928213"
+				"download" "17753824"
+			}
+			"v1.1"
+			{
+				"gid" "5579327274315351835"
+				"size" "46004556"
+				"download" "37434176"
+			}
+			"beta"
+			{
+				"gid" "5479381578795329041"
+				"size" "97346287"
+				"download" "86775712"
+			}
+			"test"
+			{
+				"gid" "8209957871743452414"
+				"size" "96987163"
+				"download" "86682864"
+			}
+			"v1.2"
+			{
+				"gid" "6179407042629630968"
+				"size" "96558150"
+				"download" "86584320"
+			}
+		}
+	}
+	"2348094"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7553725548649605082"
+				"size" "94493462"
+				"download" "85736704"
+			}
+			"v1.0"
+			{
+				"gid" "5828985993305623031"
+				"size" "23266683"
+				"download" "16784576"
+			}
+			"v1.1"
+			{
+				"gid" "1750121268535663517"
+				"size" "43213452"
+				"download" "36424016"
+			}
+			"beta"
+			{
+				"gid" "7553725548649605082"
+				"size" "94493462"
+				"download" "85736704"
+			}
+			"test"
+			{
+				"gid" "8873044845252731098"
+				"size" "94216168"
+				"download" "85672688"
+			}
+			"v1.2"
+			{
+				"gid" "4221344794560079677"
+				"size" "93902191"
+				"download" "85591264"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15612441"
+			"timeupdated" "1726489102"
+		}
+		"v1.0"
+		{
+			"buildid" "12343684"
+			"description" "Archived version 1.0.12"
+			"timeupdated" "1698718626"
+		}
+		"v1.1"
+		{
+			"buildid" "12747455"
+			"description" "Archived version 1.1.7"
+			"timeupdated" "1701655368"
+		}
+		"beta"
+		{
+			"buildid" "15612441"
+			"description" "Beta branch for testing. Please back up your save"
+			"timeupdated" "1725604925"
+		}
+		"test"
+		{
+			"buildid" "14357429"
+			"description" "testing steam os"
+			"timeupdated" "1715659594"
+		}
+		"v1.2"
+		{
+			"buildid" "14251350"
+			"description" "Archived version 1.2.10"
+			"timeupdated" "1718681600"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "5000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "userdata"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+}
