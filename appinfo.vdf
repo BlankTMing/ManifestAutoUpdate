@@ -1,0 +1,400 @@
+"appid" "394760"
+"common"
+{
+	"name" "Dead Effect 2"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"logo" "d1bfcc4b93df7af917a5b9b62df42b374956bbd9"
+	"logo_small" "d1bfcc4b93df7af917a5b9b62df42b374956bbd9_thumb"
+	"icon" "bcb1ced086520cae38b61a81374ec4668dac9adf"
+	"clienttga" "af75b0b0af4e1be0561cf9bcee9f3f4c2040bbe0"
+	"linuxclienticon" "13e865e1f91744cccee5a2800eaca1436ef68430"
+	"clienticon" "d0db158c85fceda6476e0f64c9f0473073004ff2"
+	"releasestate" "released"
+	"clienticns" "12295d1a33f594e2673f8e600eca776b29925ade"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1647302400"
+		"tested_build_id" "376705"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Dead Effect 2"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1540490399"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "BadFly Interactive, a.s."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "App Holdings"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_9" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_28" "1"
+		"category_1" "1"
+		"category_43" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"hungarian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1462518000"
+	"steam_release_date" "1462556247"
+	"metacritic_score" "53"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/dead-effect-2\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "394760"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "1659"
+		"2" "1663"
+		"3" "1685"
+		"4" "1667"
+		"5" "492"
+		"6" "1662"
+		"7" "122"
+		"8" "3859"
+		"9" "1774"
+		"10" "4345"
+		"11" "3942"
+		"12" "4182"
+		"13" "3839"
+		"14" "1775"
+		"15" "4236"
+		"16" "1695"
+		"17" "3843"
+		"18" "493"
+		"19" "1756"
+	}
+	"review_score" "6"
+	"review_percentage" "72"
+}
+"extended"
+{
+	"developer" "BadFly Interactive, a.s."
+	"publisher" "App Holdings"
+	"homepage" "http://deadeffect2.com/"
+	"listofdlc" "1042730,1042731"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Dead Effect 2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DeadEffect2.exe"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "DeadEffect2.app"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "DeadEffect2.exe"
+			"arguments" "-force-d3d9"
+			"description" "Dead Effect 2 - DirectX 9 Exclusive Mode"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "DeadEffect2.exe"
+			"arguments" "-show-screen-selector"
+			"description" "Change resolution"
+			"type" "config"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "DeadEffect2.app"
+			"arguments" "-show-screen-selector"
+			"description" "Change resolution"
+			"type" "config"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"5"
+		{
+			"executable" "DeadEffect2.app"
+			"arguments" "-force-opengl"
+			"description" "DeadEffect2 - OpenGL compatibility mode"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"394761"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8106557795096402932"
+				"size" "15414244664"
+				"download" "7106973328"
+			}
+			"testing_external"
+			{
+				"gid" "8106557795096402932"
+				"size" "15414244664"
+				"download" "7106973328"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing_internal"
+			{
+				"gid" "A36591C5ABF38A418D8D6FEBF643F4BB"
+				"size" "E031F190EE08D2A2C8BEF449AD8BFD68"
+				"download" "3D1D3562BA3268E48D33BFAAE70C2E94"
+			}
+		}
+	}
+	"394762"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7962561033422018433"
+				"size" "15442385951"
+				"download" "7116390448"
+			}
+			"testing_external"
+			{
+				"gid" "7962561033422018433"
+				"size" "15442385951"
+				"download" "7116390448"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing_internal"
+			{
+				"gid" "29F4E7E61F99BCD271446C77C291E0F2"
+				"size" "DDE55A057836DCF262E9FBA40E6DF0F0"
+				"download" "116DE9D3B633DCC420BC2B20580D12C8"
+			}
+		}
+	}
+	"394769"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2017271910791196494"
+				"size" "316327831"
+				"download" "287918784"
+			}
+			"testing_external"
+			{
+				"gid" "2017271910791196494"
+				"size" "316327831"
+				"download" "287918784"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing_internal"
+			{
+				"gid" "7AD94FB1E99A145BDD783D7A897886DB"
+				"size" "EF4159852C52D8D354411D80EDF2482B"
+				"download" "CA961F6A5EA9F9CADC67AAC83B7965CD"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3767605"
+			"timeupdated" "1557156498"
+		}
+		"testing_external"
+		{
+			"buildid" "3767605"
+			"description" "External Testing"
+			"timeupdated" "1557156127"
+		}
+		"testing_internal"
+		{
+			"buildid" "3767605"
+			"pwdrequired" "1"
+			"timeupdated" "1556182561"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1048576"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "BadFly Interactive/Dead Effect 2/"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "Dead Effect 2/"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"2"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "BadFly Interactive/Dead Effect 2/"
+			"pattern" "*.data"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"3"
+		{
+			"root" "MacAppSupport"
+			"path" "Dead Effect 2/"
+			"pattern" "*.data"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+}
