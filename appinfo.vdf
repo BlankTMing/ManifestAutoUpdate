@@ -34,11 +34,6 @@
 	"clienticon" "a3741e7fa6e3050c2168760a37ab0d6c40850e70"
 	"clienttga" "6bb3f2db4cd7611736611bc728923a4fc641c132"
 	"releasestate" "released"
-	"content_descriptors"
-	{
-		"0" "2"
-		"1" "5"
-	}
 	"aicontenttype" "1"
 	"controllertagwizard" "1"
 	"controller_support" "partial"
@@ -63,21 +58,21 @@
 			"height_pct" "117.70833333333334"
 		}
 	}
-	"store_asset_mtime" "1710935886"
+	"store_asset_mtime" "1713308166"
 	"associations"
 	{
 		"0"
 		{
 			"type" "developer"
-			"name" "Snow  Flake"
+			"name" "Snow Flake"
 		}
 		"1"
 		{
 			"type" "publisher"
-			"name" "Snow  Flake"
+			"name" "Snow Flake"
 		}
 	}
-	"primary_genre" "1"
+	"primary_genre" "23"
 	"genres"
 	{
 		"0" "1"
@@ -92,6 +87,7 @@
 		"category_23" "1"
 		"category_15" "1"
 		"category_18" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -141,7 +137,7 @@
 			"subtitles" "true"
 		}
 	}
-	"steam_release_date" "1714460400"
+	"steam_release_date" "1711956058"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "2880960"
@@ -159,30 +155,30 @@
 		"9" "3839"
 		"10" "1697"
 		"11" "492"
-		"12" "4345"
-		"13" "4667"
-		"14" "1659"
-		"15" "4325"
-		"16" "5796"
-		"17" "3993"
-		"18" "4182"
+		"12" "1659"
+		"13" "4325"
+		"14" "5796"
+		"15" "3993"
+		"16" "4182"
 	}
 }
 "extended"
 {
 	"absolutemousecoordinates" "0"
 	"remoteplaytogethertestingbranches" "default"
-	"developer" "Snow  Flake"
-	"publisher" "Snow  Flake"
+	"developer" "Snow Flake"
+	"publisher" "Snow Flake"
+	"listofdlc" "2935970"
+	"dlcavailableonstore" "1"
 }
 "config"
 {
-	"installdir" "The Zombie Wave"
+	"installdir" "The Zombie Wave  DLC"
 	"launch"
 	{
 		"0"
 		{
-			"executable" "TheZombieWave/TheZombieWave.exe"
+			"executable" "TheZombieWave\\TheZombieWave.exe"
 			"type" "default"
 			"config"
 			{
@@ -190,11 +186,28 @@
 				"osarch" "64"
 			}
 		}
+		"1"
+		{
+			"executable" "DLC\\DLC.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "DLC"
+				"schinese" "DLC"
+			}
+			"description" "DLC"
+		}
 	}
 }
 "depots"
 {
 	"baselanguages" "schinese"
+	"hasdepotsindlc" "1"
 	"228989"
 	{
 		"config"
@@ -231,12 +244,30 @@
 			}
 		}
 	}
+	"2935970"
+	{
+		"dlcappid" "2935970"
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7304755734442250731"
+				"size" "972001203"
+				"download" "599057936"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13747905"
-			"timeupdated" "1710908884"
+			"buildid" "14093807"
+			"timeupdated" "1713430834"
 		}
 	}
 }
@@ -257,7 +288,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "22982432"
-"_sha" "3e0ea1ae818f171830bc8cc0bdce9789de035c23"
-"_size" "4324"
