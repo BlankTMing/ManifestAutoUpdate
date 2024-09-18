@@ -1,0 +1,262 @@
+"appid" "908520"
+"common"
+{
+	"name" "fpsVR"
+	"type" "Application"
+	"oslist" "windows"
+	"osarch" "64"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"kbm" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"clienticon" "4bcbda853bdfe2d76d36b8a9053cac4922b163e8"
+	"clienttga" "bb3cf3dfff9f4c7b026ec0088a4fc4090bb05fdc"
+	"icon" "da10a311deedfb4720cbc3c2e99d4bc3fc190a1a"
+	"logo" "faa947664a3a2b37532770149ceb0219d4963517"
+	"logo_small" "faa947664a3a2b37532770149ceb0219d4963517_thumb"
+	"releasestate" "released"
+	"exfgls" "0"
+	"openvroverlaysupport" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1657324800"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1658807075"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "SBSoftLab"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SBSoftLab"
+		}
+	}
+	"primary_genre" "57"
+	"genres"
+	{
+		"0" "23"
+		"1" "57"
+	}
+	"category"
+	{
+		"category_52" "1"
+		"category_31" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1536675720"
+	"community_hub_visible" "1"
+	"gameid" "908520"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "21978"
+		"2" "87"
+		"3" "8013"
+		"4" "5407"
+		"5" "603297"
+		"6" "1663"
+	}
+	"review_score" "9"
+	"review_percentage" "97"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "SBSoftLab"
+	"publisher" "SBSoftLab"
+}
+"config"
+{
+	"installdir" "fpsVR"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "fpsVR.exe"
+			"arguments" "x"
+			"type" "openvroverlay"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229005"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"908521"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7051126957351872866"
+				"size" "7017434"
+				"download" "2251680"
+			}
+			"very_old"
+			{
+				"gid" "6420304624275571592"
+				"size" "6894036"
+				"download" "2213200"
+			}
+			"beta"
+			{
+				"gid" "7051126957351872866"
+				"size" "7017434"
+				"download" "2251680"
+			}
+			"previous_"
+			{
+				"gid" "6677746182150205773"
+				"size" "6880527"
+				"download" "2218624"
+			}
+			"previous_2.1.8789"
+			{
+				"gid" "5566609185157498267"
+				"size" "6999522"
+				"download" "2242880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "C403D865713E2B89DCFF11BA6024C80C"
+				"size" "6BEFCABE0365ECF31D67C82A271ECDB9"
+				"download" "57608E313B2A29F165AAAA2F9CE5F742"
+			}
+		}
+	}
+	"baselanguages" "english,russian"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15520184"
+			"timeupdated" "1724862146"
+		}
+		"very_old"
+		{
+			"buildid" "6121895"
+			"description" "SteamVR 1.12-1.15"
+			"timeupdated" "1698430692"
+		}
+		"beta"
+		{
+			"buildid" "15520184"
+			"timeupdated" "1724860206"
+		}
+		"development"
+		{
+			"buildid" "15520184"
+			"pwdrequired" "1"
+			"timeupdated" "1724858029"
+		}
+		"previous_"
+		{
+			"buildid" "9490525"
+			"description" "SteamVR 1.16-1.9"
+			"timeupdated" "1698430978"
+		}
+		"previous_2.1.8789"
+		{
+			"buildid" "13262820"
+			"description" "SteamVR 2.0-2.6"
+			"timeupdated" "1722581312"
+		}
+	}
+}
