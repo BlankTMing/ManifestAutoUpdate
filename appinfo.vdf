@@ -15,6 +15,12 @@
 	"osarch" "64"
 	"osextended" ""
 	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"japanese" "1"
+	}
 	"steam_deck_compatibility"
 	{
 		"category" "2"
@@ -99,7 +105,66 @@
 			"height_pct" "52.65970078366183"
 		}
 	}
-	"store_asset_mtime" "1715742247"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"japanese" "library_600x900_japanese.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"japanese" "library_600x900_japanese_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"japanese" "logo_japanese.png"
+				"schinese" "logo_schinese.png"
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"japanese" "logo_japanese_2x.png"
+				"schinese" "logo_schinese_2x.png"
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomCenter"
+				"width_pct" "62.83547257876313"
+				"height_pct" "52.65970078366183"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"japanese" "library_header_japanese.jpg"
+				"schinese" "library_header_schinese.jpg"
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1726717818"
 	"associations"
 	{
 		"0"
@@ -132,6 +197,8 @@
 		"category_18" "1"
 		"category_49" "1"
 		"category_36" "1"
+		"category_22" "1"
+		"category_23" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -150,9 +217,11 @@
 		{
 			"supported" "true"
 			"subtitles" "true"
+			"full_audio" "true"
 		}
 	}
 	"steam_release_date" "1666478754"
+	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "2015620"
 	"store_tags"
@@ -163,9 +232,9 @@
 		"3" "3814"
 		"4" "19"
 		"5" "1775"
-		"6" "4085"
-		"7" "7208"
-		"8" "3859"
+		"6" "7208"
+		"7" "3859"
+		"8" "4085"
 		"9" "4182"
 		"10" "4726"
 		"11" "4191"
@@ -212,9 +281,15 @@
 		{
 			"public"
 			{
-				"gid" "4894462155448975432"
-				"size" "2009357529"
-				"download" "1540952912"
+				"gid" "8826516454800378518"
+				"size" "4421095472"
+				"download" "3785899328"
+			}
+			"networktest"
+			{
+				"gid" "6987984976701800483"
+				"size" "2339597881"
+				"download" "1805598384"
 			}
 		}
 		"encryptedmanifests"
@@ -227,9 +302,9 @@
 			}
 			"beta"
 			{
-				"gid" "B788D7E38BBA27D62D41B810E8B6D603"
-				"size" "E1159D56C0323F1342204BCFAEC5E03E"
-				"download" "418DF27729C35BCE0C4344EC9BC30F6E"
+				"gid" "3EF2383179D4FA6BC4440BAF325867F7"
+				"size" "004D1B786B6C1C854FE3677F4C0CB0F3"
+				"download" "31B153A183979E7EB88664387B232670"
 			}
 		}
 	}
@@ -237,8 +312,8 @@
 	{
 		"public"
 		{
-			"buildid" "14646168"
-			"timeupdated" "1718076050"
+			"buildid" "15737538"
+			"timeupdated" "1726714987"
 		}
 		"older"
 		{
@@ -248,13 +323,24 @@
 		}
 		"beta"
 		{
-			"buildid" "14646168"
+			"buildid" "15737538"
 			"pwdrequired" "1"
-			"timeupdated" "1717983849"
+			"timeupdated" "1726634845"
+		}
+		"networktest"
+		{
+			"buildid" "15391749"
+			"description" "Network mode test"
+			"timeupdated" "1723804283"
 		}
 	}
 }
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "10"
+}
 "_missing_token" "False"
-"_change_number" "23916649"
-"_sha" "a77a80673c504107fb303974726f7e30e928048c"
-"_size" "4939"
+"_change_number" "25290989"
+"_sha" "ce817a142b15dbed3d0fcb07c35c9a1b9be87cd8"
+"_size" "6582"
