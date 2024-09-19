@@ -1,14 +1,12 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-19 11:51:32
+## 更新时间：2024-09-19 12:14:56
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1930640 | Lost2| Game |
-| 3001960 | 夏色四叶草 -Soundtrack-| Music |
-| 2477950 | 文字密室逃脱| Game |
-| 2803810 | 重生！我在古代遇佳人| Game |
-| 2802140 | Hello World - 你好世界| Game |
-| 2093010 | Supernatural| Game |
-| 2396240 | SteamWorld Heist II| Game |
-| 741140 | Baldr Sky| Game |
-| 2183650 | ROCKMAN X DiVE Offline| Game |
+| 570 | Dota 2| game |
+| 1222670 | The Sims™ 4| Game |
+| 469600 | 军团战争2 / Legion TD 2| Game |
+| 1938090 | 使命召唤®| Game |
+| 2015620 | 幻想女武神| Game |
+| 1541840 | 古剑奇谭网络版 海外版| Game |
+| 2714970 | 后室录像带| Game |
