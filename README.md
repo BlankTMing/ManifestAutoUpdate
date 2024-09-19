@@ -1,12 +1,13 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-19 12:14:56
+## 更新时间：2024-09-19 16:40:57
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 570 | Dota 2| game |
-| 1222670 | The Sims™ 4| Game |
-| 469600 | 军团战争2 / Legion TD 2| Game |
+| 1888160 | 机战佣兵™VI 境界天火™| Game |
+| 1794680 | Vampire Survivors - 吸血鬼幸存者| Game |
+| 2230760 | Vampire Survivors - 吸血鬼幸存者：月咒遗脉| DLC |
+| 2313550 | Vampire Survivors: Tides of the Foscari| DLC |
+| 997010 | Police Simulator: Patrol Officers| Game |
 | 1938090 | 使命召唤®| Game |
-| 2015620 | 幻想女武神| Game |
-| 1541840 | 古剑奇谭网络版 海外版| Game |
-| 2714970 | 后室录像带| Game |
+| 2719290 | 夜袭者 Night Raider| Game |
+| 2719030 | 超级键盘侠| Game |
