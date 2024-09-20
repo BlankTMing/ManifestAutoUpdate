@@ -4,13 +4,12 @@
 	"name" "FPV LOGIC"
 	"type" "Game"
 	"releasestate" "released"
-	"oslist" "windows,macos"
+	"oslist" "windows"
 	"osarch" "64"
-	"osextended" "macosapplesilicon,macosnotarized"
+	"osextended" ""
 	"icon" "246c8ea10dd403c30bb15953b265c48c52489126"
 	"clienticon" "2b8ed70aad6a7ba1ee770082357ff04cf75d1f56"
 	"clienttga" "add8e6ddb73c49c0a7ea3ef96a0d7ad10a51d528"
-	"clienticns" "83fe1a3d4086b44589f7136293c6d23adac61a3a"
 	"nokeyboardmouse" "1"
 	"small_capsule"
 	{
@@ -74,7 +73,7 @@
 			}
 		}
 	}
-	"store_asset_mtime" "1725211688"
+	"store_asset_mtime" "1686640627"
 	"associations"
 	{
 		"0"
@@ -145,31 +144,6 @@
 	{
 		"0"
 		{
-			"executable" "FPVLOGIC.exe"
-			"type" "default"
-			"config"
-			{
-				"oslist" "windows"
-				"osarch" "64"
-			}
-			"description_loc"
-			{
-				"english" "V0.6 or latest"
-				"schinese" "v0.6或最新版本"
-			}
-			"description" "V0.6 or latest"
-		}
-		"1"
-		{
-			"executable" "FPVLOGIC-Mac-Shipping.app"
-			"type" "default"
-			"config"
-			{
-				"oslist" "macos"
-			}
-		}
-		"2"
-		{
 			"executable" "FPV LOGIC\\Windows\\FPVLOGIC.exe"
 			"type" "default"
 			"config"
@@ -177,12 +151,15 @@
 				"oslist" "windows"
 				"osarch" "64"
 			}
-			"description_loc"
+		}
+		"1"
+		{
+			"executable" "FPVLOGIC.app"
+			"type" "default"
+			"config"
 			{
-				"english" "Below v0.6"
-				"schinese" "版本低于v0.6"
+				"oslist" "macos"
 			}
-			"description" "Below v0.6"
 		}
 	}
 }
@@ -217,18 +194,18 @@
 		{
 			"public"
 			{
-				"gid" "9101152817125431445"
-				"size" "8608394684"
-				"download" "8142283824"
+				"gid" "1243591769050042595"
+				"size" "11108257107"
+				"download" "10770773312"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"dev_test"
 			{
-				"gid" "7D3D97F20E36E76D07334CFD3993E301"
-				"size" "37FDE5E0AECCD57F7A98E4C71AAAA73E"
-				"download" "8E94E6588A5F8777C5134DFA243602FB"
+				"gid" "EE5AFE940F81D46EF3D87B0B4050EE7D"
+				"size" "5BD209DBAD4FD7EE2414A01B0B9186C9"
+				"download" "42BBCE022C2E9C88E93C398E57A243F8"
 			}
 		}
 	}
@@ -241,20 +218,14 @@
 		}
 		"manifests"
 		{
-			"public"
-			{
-				"gid" "6339210311683383572"
-				"size" "8619048632"
-				"download" "8143637744"
-			}
 		}
 		"encryptedmanifests"
 		{
 			"dev_test"
 			{
-				"gid" "669558FEE7432F4E08089F7428FF3849"
-				"size" "C5E4D13104146719FDD07D56A0F54E0F"
-				"download" "86544F907FA0BA16E3C6810CCAEC0631"
+				"gid" "8F9DB8087FBD7228FAF27B3A0CB71102"
+				"size" "ECBAD8C6066D485DF9BBBE1AE8CD4FCB"
+				"download" "513312C9BAF2BC39782CFC6AC98F0B47"
 			}
 		}
 	}
@@ -262,14 +233,14 @@
 	{
 		"public"
 		{
-			"buildid" "15559917"
-			"timeupdated" "1725204227"
+			"buildid" "13268997"
+			"timeupdated" "1706174046"
 		}
 		"dev_test"
 		{
-			"buildid" "15559757"
+			"buildid" "15538219"
 			"pwdrequired" "1"
-			"timeupdated" "1725201286"
+			"timeupdated" "1724977873"
 		}
 	}
 }
@@ -291,7 +262,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "25032983"
-"_sha" "cc9da5932c89d0e9e40fc44f53d85d2bfc9d31ea"
-"_size" "4697"
