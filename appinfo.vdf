@@ -38,36 +38,31 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1646092800"
-		"tested_build_id" "6599348"
+		"test_timestamp" "1726617600"
+		"tested_build_id" "15504645"
 		"tests"
 		{
 			"0"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
 			}
 			"1"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
 			}
 			"2"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"3"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"4"
-			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
-			}
-			"5"
 			{
 				"display" "1"
 				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
@@ -77,14 +72,16 @@
 		{
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
-			"requires_non_controller_launcher_nav" "1"
+			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
-			"small_text" "0"
+			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-3RC"
 			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Atelier Ryza: Ever Darkness &amp; the Secret Hideout"
@@ -267,8 +264,7 @@
 	{
 		"0"
 		{
-			"executable" "Atelier_Ryza_Launcher.exe"
-			"type" "none"
+			"executable" "Atelier_Ryza.exe"
 		}
 	}
 	"steamcontrollertouchtemplateindex" "1"
@@ -706,3 +702,7 @@
 		}
 	}
 }
+"_missing_token" "False"
+"_change_number" "25309562"
+"_sha" "228eed1592ce77dbb8ddc1eb4ba120b6f06ad749"
+"_size" "16026"
