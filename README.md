@@ -1,11 +1,7 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-20 19:44:01
+## 更新时间：2024-09-20 19:57:28
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 2891040 | 变身夏日：与TS室友的同居生活| Game |
-| 1536080 | 仙剑奇侠传三外传·问情篇| Game |
-| 1585670 | 仙剑奇侠传二 原声音乐精选集| Music |
-| 2492780 | With Eyes Closed - Season 1| Game |
-| 1584620 | 仙剑奇侠传三 原声音乐精选集| Music |
-| 1584650 | 仙剑奇侠传三外传·问情篇 原声音乐精选集| Music |
+| 943980 | The logic of the miniature garden| Game |
+| 1025070 | 淑女同萌！-New Division-| Game |
