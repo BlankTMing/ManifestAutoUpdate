@@ -55,7 +55,56 @@
 			"height_pct" "55.32882399219823"
 		}
 	}
-	"store_asset_mtime" "1723574127"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "49.37147460323498"
+				"height_pct" "55.32882399219823"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1725505882"
 	"associations"
 	{
 		"0"
@@ -166,8 +215,8 @@
 		"9" "4182"
 		"10" "493"
 		"11" "3813"
-		"12" "7332"
-		"13" "1775"
+		"12" "1775"
+		"13" "7332"
 		"14" "4684"
 		"15" "8945"
 		"16" "5055"
@@ -176,7 +225,7 @@
 		"19" "5851"
 	}
 	"review_score" "5"
-	"review_percentage" "51"
+	"review_percentage" "50"
 }
 "extended"
 {
@@ -195,7 +244,7 @@
 		"0"
 		{
 			"executable" "start_protected_game.exe"
-			"arguments" "-env ptr"
+			"arguments" "-env ptr -login steam"
 			"type" "option1"
 			"config"
 			{
@@ -211,7 +260,7 @@
 		"2"
 		{
 			"executable" "start_protected_game.exe"
-			"arguments" "-env ptr -dx12"
+			"arguments" "-env ptr -dx12 -login steam"
 			"type" "option1"
 			"config"
 			{
@@ -227,7 +276,7 @@
 		"4"
 		{
 			"executable" "start_protected_game.exe"
-			"arguments" "-env ptr -localrollback 0 -dx11"
+			"arguments" "-env ptr -localrollback 0 -dx11 -login steam"
 			"type" "option1"
 			"config"
 			{
@@ -243,7 +292,7 @@
 		"5"
 		{
 			"executable" "start_protected_game.exe"
-			"arguments" "-env stage -dx11"
+			"arguments" "-env stage -dx11 -login steam"
 			"type" "option1"
 			"config"
 			{
@@ -258,7 +307,7 @@
 		"6"
 		{
 			"executable" "start_protected_game.exe"
-			"arguments" "-env stage -dx12"
+			"arguments" "-env stage -dx12 -login steam"
 			"type" "option1"
 			"config"
 			{
@@ -273,7 +322,7 @@
 		"7"
 		{
 			"executable" "start_protected_game.exe"
-			"arguments" "-env stage -localrollback 0 -dx11"
+			"arguments" "-env stage -localrollback 0 -dx11 -login steam"
 			"type" "option1"
 			"config"
 			{
@@ -302,7 +351,7 @@
 		"9"
 		{
 			"executable" "start_protected_game.exe"
-			"arguments" "-env stage"
+			"arguments" "-env stage -login steam"
 			"type" "option1"
 			"config"
 			{
@@ -313,6 +362,21 @@
 				"english" "Stormgate - Localization Testing"
 			}
 			"description" "Stormgate - Localization Testing"
+		}
+		"10"
+		{
+			"executable" "start_protected_game.exe"
+			"arguments" "-env stage -login steam"
+			"type" "option1"
+			"config"
+			{
+				"betakey" "dev_fetch_old_build"
+			}
+			"description_loc"
+			{
+				"english" "Stormgate - Stage + DX11"
+			}
+			"description" "Stormgate - Stage + DX11"
 		}
 	}
 }
@@ -342,18 +406,30 @@
 		{
 			"public"
 			{
-				"gid" "2217681898294875975"
-				"size" "8808156191"
-				"download" "7513450416"
+				"gid" "5706574441619242742"
+				"size" "9350958119"
+				"download" "7991797104"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"dev_fetch_old_build"
+			{
+				"gid" "DA96663D184DB4E075D2DCC061E82696"
+				"size" "4EBD81F6462D4D0E5F486F05DE29C423"
+				"download" "E71539240D9C6B2242F264AB1A32AF06"
+			}
+			"drag-scroll-test"
+			{
+				"gid" "B732885EB511B9773C9DD7DF9A3CC538"
+				"size" "CCE9E4782F79910CB0480CC83235F31A"
+				"download" "A58ACBF14675A717E5FD01B121EF633B"
+			}
 			"localization_testing"
 			{
-				"gid" "44657EDBC8BF0F2C5BC8AD5ED861C6DC"
-				"size" "62CD42FBDE3DFFEFB37DEA5E779DC4BA"
-				"download" "9AEA09B4B521D58F2A37A1518F74B09C"
+				"gid" "F661808B2CC9554FDB50724571D388A5"
+				"size" "D2AC31217E7EEECFE2FCDDFF4856ECB0"
+				"download" "06D4F1074EC0636FE411BAAC3A393848"
 			}
 			"prod_automated"
 			{
@@ -363,9 +439,9 @@
 			}
 			"staging_cinnamon"
 			{
-				"gid" "E9F3D63A524DD6A592871CF4268C1CD8"
-				"size" "866D228243C51F994ADE2D1369C4CAEA"
-				"download" "9FAD41C7F280FA3D65C1C1B2F3DB830C"
+				"gid" "343FEACE90469239C2FA10B1947257E3"
+				"size" "96BDCE625507A47C33ED71133F23D793"
+				"download" "C422E2CA1D282CD5654439A18DE86F6D"
 			}
 		}
 	}
@@ -373,14 +449,26 @@
 	{
 		"public"
 		{
-			"buildid" "15424553"
-			"timeupdated" "1724361166"
+			"buildid" "15731931"
+			"timeupdated" "1726770190"
+		}
+		"dev_fetch_old_build"
+		{
+			"buildid" "15719428"
+			"pwdrequired" "1"
+			"timeupdated" "1726520570"
+		}
+		"drag-scroll-test"
+		{
+			"buildid" "15765029"
+			"pwdrequired" "1"
+			"timeupdated" "1726799832"
 		}
 		"localization_testing"
 		{
-			"buildid" "15424553"
+			"buildid" "15671756"
 			"pwdrequired" "1"
-			"timeupdated" "1724361179"
+			"timeupdated" "1726110471"
 		}
 		"prod_automated"
 		{
@@ -390,9 +478,9 @@
 		}
 		"staging_cinnamon"
 		{
-			"buildid" "15424553"
+			"buildid" "15765029"
 			"pwdrequired" "1"
-			"timeupdated" "1724098560"
+			"timeupdated" "1726799449"
 		}
 	}
 }
@@ -409,7 +497,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "24903399"
-"_sha" "452a947f93a355163baca14e3c407cfa27213ecf"
-"_size" "7515"
