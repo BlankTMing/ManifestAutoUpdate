@@ -1,20 +1,15 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-21 00:43:19
+## 更新时间：2024-09-21 10:38:31
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1149620 | 加油站大亨| Game |
-| 574200 | EARTH DEFENSE FORCE 4.1  WINGDIVER THE SHOOTER| Game |
-| 703940 | Ball 2D: Soccer Online| Game |
-| 270880 | American Truck Simulator| Game |
-| 421800 | SCS Workshop Uploader| Tool |
-| 1061090 | Jump King| Game |
+| 322330 | 饥荒联机版| Game |
+| 343050 | Don't Starve Together Dedicated Server| Tool |
+| 570 | Dota 2| game |
+| 813540 | Scheming Through The Zombie Apocalypse: The Beginning| Game |
+| 611790 | House Party| Game |
+| 799600 | Cosmoteer: 星舰设计师| Game |
 | 2245910 | Jump King Worldsmith| Tool |
-| 2398030 | FPV LOGIC| Game |
-| 1364210 | City Bus Manager| Game |
-| 222750 | Wargame: AirLand Battle| Game |
-| 1172620 | Sea of Thieves| Game |
+| 1059980 | 吾王保卫战 Just King| Game |
+| 282800 | 100% Orange Juice| Game |
 | 1350840 | 牧野之歌| Game |
-| 1601580 | 冰汽时代2| Game |
-| 760550 | kakusankibou / 扩散希望| Game |
-| 1526480 | battle Tank| Game |
