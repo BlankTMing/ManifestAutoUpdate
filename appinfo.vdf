@@ -94,7 +94,48 @@
 			"height_pct" "83.92114660660344"
 		}
 	}
-	"store_asset_mtime" "1696406956"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"sc_schinese" "library_600x900_sc_schinese.jpg"
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+				"sc_schinese" "library_hero_sc_schinese.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"sc_schinese" "logo_sc_schinese.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "UpperCenter"
+				"width_pct" "72.58530672697833"
+				"height_pct" "83.92114660660344"
+			}
+			"image2x"
+			{
+				"sc_schinese" "logo_sc_schinese_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1726798689"
 	"associations"
 	{
 		"0"
@@ -214,14 +255,14 @@
 	{
 		"0" "4840"
 		"1" "42804"
-		"2" "3798"
-		"3" "4158"
+		"2" "4158"
+		"3" "3798"
 		"4" "1720"
 		"5" "3959"
 		"6" "1646"
 		"7" "3859"
-		"8" "1775"
-		"9" "1716"
+		"8" "1716"
+		"9" "1775"
 		"10" "6730"
 		"11" "4026"
 		"12" "4231"
@@ -298,89 +339,11 @@
 	{
 		"steam_china_enable_duration_control" "1"
 	}
+	"uselaunchcommandline" "1"
 }
 "depots"
 {
 	"baselanguages" "english,german,spanish,schinese,russian,japanese"
-	"branches"
-	{
-		"steam_china_only"
-		{
-			"sc_schinese" "仅中国"
-			"buildid" "6612315"
-			"pwdrequired" "1"
-			"timeupdated" "1619593212"
-		}
-		"testing_china"
-		{
-			"sc_schinese" "steam china test"
-			"buildid" "9055542"
-			"pwdrequired" "1"
-			"timeupdated" "1656918747"
-		}
-		"nd-development"
-		{
-			"sc_schinese" "For Neon Doctrine ONLY - development. Dev’s should work in here, freely :slight_smile: If any testing is needed developers should upload to a test build to the “test” branch. This branch is NOT for testing. Only Development."
-			"buildid" "13919886"
-			"pwdrequired" "1"
-			"timeupdated" "1712041828"
-		}
-		"default_backup"
-		{
-			"sc_schinese" "旧版本备份"
-			"buildid" "13388644"
-			"description" "Old Version Backup"
-			"timeupdated" "1707286529"
-		}
-		"default_backup_1"
-		{
-			"sc_schinese" "default分支内部备份"
-			"buildid" "13389019"
-			"pwdrequired" "1"
-			"timeupdated" "1707286194"
-		}
-		"public"
-		{
-			"buildid" "13919886"
-			"timeupdated" "1712818388"
-		}
-		"certification"
-		{
-			"buildid" "13234231"
-			"pwdrequired" "1"
-			"timeupdated" "1705891418"
-		}
-		"forshow"
-		{
-			"buildid" "3178574"
-			"pwdrequired" "1"
-			"timeupdated" "1538561309"
-		}
-		"game_manager"
-		{
-			"buildid" "7165376"
-			"pwdrequired" "1"
-			"timeupdated" "1628583481"
-		}
-		"lostcastle_p2p"
-		{
-			"buildid" "13388644"
-			"pwdrequired" "1"
-			"timeupdated" "1707282789"
-		}
-		"recover_record"
-		{
-			"buildid" "13853709"
-			"pwdrequired" "1"
-			"timeupdated" "1711437158"
-		}
-		"testing"
-		{
-			"buildid" "13919886"
-			"pwdrequired" "1"
-			"timeupdated" "1712041907"
-		}
-	}
 	"434651"
 	{
 		"config"
@@ -438,9 +401,9 @@
 			}
 			"nd-development"
 			{
-				"gid" "35051DB04D21DBB0BF52C10DE1A471A2"
-				"size" "42A775F5034B943B31EC07903A252D74"
-				"download" "709BCCC47722E0DEBF0AC22E1490A4B3"
+				"gid" "14BC2C4B3EDF1B7F71C910E89F221C55"
+				"size" "0A7CD64611F7539B5144707E11A34CC5"
+				"download" "25822A24AACCF20C59C26C722BBB0A77"
 			}
 			"recover_record"
 			{
@@ -465,6 +428,30 @@
 				"gid" "C0862840F90469B95B3752C19EEA7BF4"
 				"size" "54B2E6EC1CEDF6AE6FBD9E732A79D8B8"
 				"download" "9E239CE389CFE1FBE2B07DE6A4BEF3E7"
+			}
+			"ludeo-dev"
+			{
+				"gid" "98C0F87E26CB773F0370D66E0C4C11CF"
+				"size" "1A4D0ED4115D52F68302A6B768DC989D"
+				"download" "32D8DB53D81A63590B7473472961D1E2"
+			}
+			"ludeo-softlaunch"
+			{
+				"gid" "F97B13012BEEFCC0093E495FB4ECE00B"
+				"size" "288E6A9AB6A8E8996651F324B8C6FE85"
+				"download" "C169D98F1747340FD4AF7CDE7594FF10"
+			}
+			"ludeo-test"
+			{
+				"gid" "82D269D3D1023FFD559CF70DFE6F664C"
+				"size" "205A693855F961EDC20A25AAFE87C61E"
+				"download" "63CEB01A7B02EE2E7AC2A0268C89E247"
+			}
+			"ludeo-test-log"
+			{
+				"gid" "359257DD5CC679ABE520F67046428D65"
+				"size" "F36E9A046D51EE0B7872114DDA0B6892"
+				"download" "C85D075696AF351EC43CBCD86F1BCA66"
 			}
 		}
 	}
@@ -553,6 +540,30 @@
 				"size" "88968FC19673780FB279DEE04B8448E7"
 				"download" "0FBBD2112F7C869FF8730887754EFA90"
 			}
+			"ludeo-dev"
+			{
+				"gid" "27FF63E89FC6F0168751CF49C5643B0F"
+				"size" "A426B305E47461E42CF56D9F1CFC2EC2"
+				"download" "18AC4BCC55882EEB0509EBAA0C3746EF"
+			}
+			"ludeo-softlaunch"
+			{
+				"gid" "0CDDC8A1D459C7E74CE1A034EB45F776"
+				"size" "14ED42A192504467A59D683CF8C0609D"
+				"download" "27F373C0196896452331BE314EF19EB1"
+			}
+			"ludeo-test"
+			{
+				"gid" "E56C25D89D6AD677DB7DA3F5676C9495"
+				"size" "73A4870F61C8C437BECE65648F89F358"
+				"download" "5D97E515BBF4BDED494EA9C31A9F3E8E"
+			}
+			"ludeo-test-log"
+			{
+				"gid" "BEC316C2B87C75FFD379E457EB5D7737"
+				"size" "9FFBC49E693C9A5ED8955E7AF264ECB7"
+				"download" "4A6D29371B3B38E243642C7D96A64C7E"
+			}
 		}
 	}
 	"434653"
@@ -638,6 +649,30 @@
 				"gid" "2B1C61EB8670F0F3057BD883D905E98C"
 				"size" "283ACB4FA848938A3D005DAEF605A8B8"
 				"download" "D72981F38688A47A2081F38F69D9642A"
+			}
+			"ludeo-dev"
+			{
+				"gid" "F464168EC1F3CF62C7336C1891EA9CA1"
+				"size" "31FE557681F5DF040C7A02A5A2688483"
+				"download" "77FE708735DF6A119929430995E6D274"
+			}
+			"ludeo-softlaunch"
+			{
+				"gid" "4FE170E23BE4007CFC6446D46DC7102B"
+				"size" "7D63ED08F916FC58989E8098A238B692"
+				"download" "A1B6A2C57CF89BB02C555A6E80174EF1"
+			}
+			"ludeo-test"
+			{
+				"gid" "2CFB6A9461897C175B945462CEA5405C"
+				"size" "F83A1B7A895322EE3A96D2603831F1C3"
+				"download" "715B3D62AA226A1C6D23844FBE183EED"
+			}
+			"ludeo-test-log"
+			{
+				"gid" "89EB90496F23033BBB8E044E444FC073"
+				"size" "659168CC761A0C058C7F553A45C76F48"
+				"download" "A461F80132C1DEC5B2D26C4020CB7FAE"
 			}
 		}
 	}
@@ -725,6 +760,30 @@
 				"size" "C6AA9136B93EFCBED746962782A5F945"
 				"download" "4FEB3D317C24F943F4955FD4BF94A7AA"
 			}
+			"ludeo-dev"
+			{
+				"gid" "3625EB2B3783CBF219FCEEAF0AFAB813"
+				"size" "A426B305E47461E42CF56D9F1CFC2EC2"
+				"download" "C4C5E7C04CC493E69B38F7E6B7287844"
+			}
+			"ludeo-softlaunch"
+			{
+				"gid" "166F111AA30309B8631E846A20ABB485"
+				"size" "14ED42A192504467A59D683CF8C0609D"
+				"download" "EDFC042F2B3957CEAED3C566BAE4C86B"
+			}
+			"ludeo-test"
+			{
+				"gid" "B69CB2BC95F2025A4534667DECF77260"
+				"size" "73A4870F61C8C437BECE65648F89F358"
+				"download" "CED656D6E4D3533D1E9FD01803099FEA"
+			}
+			"ludeo-test-log"
+			{
+				"gid" "5EE3B14BB4EAE86B64273695F2AFD90E"
+				"size" "9FFBC49E693C9A5ED8955E7AF264ECB7"
+				"download" "C29F0612FB6F826E23D5830E18FDE460"
+			}
 		}
 	}
 	"434655"
@@ -811,6 +870,30 @@
 				"size" "F188977CB0CBD4B636F43833F2E3DE2E"
 				"download" "76135350B693E80D9E29F8826BCB584D"
 			}
+			"ludeo-dev"
+			{
+				"gid" "D3C19A347C34F912911A59C2C14DE354"
+				"size" "5AE76D2BA61AB3A376E4E42AA3123042"
+				"download" "866462FDE1566D58898A32E12FFDBD63"
+			}
+			"ludeo-softlaunch"
+			{
+				"gid" "A6EC22AB2914BF6F2D906CEAFE77CE86"
+				"size" "8291E6A373705BFA8AC067BA0390F3AE"
+				"download" "E66628320FF6C9D49CC829B626143E9D"
+			}
+			"ludeo-test"
+			{
+				"gid" "0C1F698F1F6E931BB257D272A7195385"
+				"size" "6B8684100BFA1FB82D40A79B3C13E3BA"
+				"download" "4911265E15ACEC45A2D8E1E588DFBC3D"
+			}
+			"ludeo-test-log"
+			{
+				"gid" "C75227D67E171A48773B2C7CE9ED4C34"
+				"size" "A937F54973AF42887604C27C9DCC5393"
+				"download" "42E2ECD75F1A3CC017A58EDC63344F99"
+			}
 		}
 	}
 	"434656"
@@ -865,6 +948,30 @@
 				"gid" "ECEBFC0F34C2EC6149E994AF24469FF4"
 				"size" "95381F20B2860AB892B8663A3FDDD410"
 				"download" "263E361A45FB333CF33A54418A82DCEC"
+			}
+			"ludeo-dev"
+			{
+				"gid" "0CE2F436774F3E5E7383C203977AAC8E"
+				"size" "5AE76D2BA61AB3A376E4E42AA3123042"
+				"download" "494430256D93703D5D7A3405B470ACF5"
+			}
+			"ludeo-softlaunch"
+			{
+				"gid" "18EC3C978C93F4D71580C5A3D1C83528"
+				"size" "8291E6A373705BFA8AC067BA0390F3AE"
+				"download" "93DB8CA84FF06E0A24B35F0B7D91B6D2"
+			}
+			"ludeo-test"
+			{
+				"gid" "D06688B2F2F59C2D837842107F60C58B"
+				"size" "6B8684100BFA1FB82D40A79B3C13E3BA"
+				"download" "B14396B5E5F2F50E83C7CCBC553482A3"
+			}
+			"ludeo-test-log"
+			{
+				"gid" "5F6C43551010361015FF341DBF115475"
+				"size" "A937F54973AF42887604C27C9DCC5393"
+				"download" "C97E57D26C5B11C1215B98E8C1A31910"
 			}
 		}
 	}
@@ -921,6 +1028,30 @@
 				"gid" "64DFDCBDE41C3BA989604509565A78FC"
 				"size" "95381F20B2860AB892B8663A3FDDD410"
 				"download" "263E361A45FB333CF33A54418A82DCEC"
+			}
+			"ludeo-dev"
+			{
+				"gid" "92A8DB91E054866AF8A15F859CDF6539"
+				"size" "5AE76D2BA61AB3A376E4E42AA3123042"
+				"download" "494430256D93703D5D7A3405B470ACF5"
+			}
+			"ludeo-softlaunch"
+			{
+				"gid" "21ABEFCAFFC0576B898C1CB6F18072E8"
+				"size" "8291E6A373705BFA8AC067BA0390F3AE"
+				"download" "93DB8CA84FF06E0A24B35F0B7D91B6D2"
+			}
+			"ludeo-test"
+			{
+				"gid" "4B02BA0142123E551C55D31B005987C9"
+				"size" "6B8684100BFA1FB82D40A79B3C13E3BA"
+				"download" "B14396B5E5F2F50E83C7CCBC553482A3"
+			}
+			"ludeo-test-log"
+			{
+				"gid" "841D250D1591D40FF480F106F7B44E2F"
+				"size" "A937F54973AF42887604C27C9DCC5393"
+				"download" "C97E57D26C5B11C1215B98E8C1A31910"
 			}
 		}
 	}
@@ -985,6 +1116,30 @@
 				"size" "2CB4FF8909123E7118AB8FCE5843B784"
 				"download" "33434E83D52B311F9A9334FE7FE4C29F"
 			}
+			"ludeo-dev"
+			{
+				"gid" "5DAAF03DB9DA1E38DCC56F49357C4C2B"
+				"size" "0BF456DBA67F7F2E001967B12CD270CF"
+				"download" "60BB68920B9A77E3C3C07804B5620EBC"
+			}
+			"ludeo-softlaunch"
+			{
+				"gid" "6AD74A0A08AC4547B349BFB1558DD745"
+				"size" "A3F2151B1B91E5C907C03729F36AFEF9"
+				"download" "2B44DFC77E3979B8096B1B6141C5D689"
+			}
+			"ludeo-test"
+			{
+				"gid" "CAB01160F90B5A6192307DAE255C24AF"
+				"size" "6A37BBB65175A70A8F7D3D19D533EE44"
+				"download" "E864B61F29DFE2F52EE0B6552C08871F"
+			}
+			"ludeo-test-log"
+			{
+				"gid" "06F923C787DE9694130E6B272F346C8A"
+				"size" "B9BBD0620E6CA1EE5A08F1EBB67371CA"
+				"download" "B13C63CAF58F6BF2A72BFF659C461B04"
+			}
 		}
 	}
 	"434659"
@@ -1048,6 +1203,30 @@
 				"size" "6A44E725482DCC1380293B9B4A7DE6CE"
 				"download" "FCDD9561F5BCF3CE8B93C6B62A4CB7A1"
 			}
+			"ludeo-dev"
+			{
+				"gid" "3AA5F6B39B3D72B3E64A702F3281491E"
+				"size" "723D9BD5EF76A6ED9307D7FBA93FE2CC"
+				"download" "CF09EC53854C5C6FF136C78059F2D26C"
+			}
+			"ludeo-softlaunch"
+			{
+				"gid" "63F9E810C4904385D62455B4452120EF"
+				"size" "DBC1FECA19E7867669B10C0DFB646AB4"
+				"download" "D15BA46D7CEF6DD80FEE98BA4DA4EF6B"
+			}
+			"ludeo-test"
+			{
+				"gid" "A4B06F342617310A519BDC68577435A6"
+				"size" "F514D82D59C608A73C46EBC55333B443"
+				"download" "51ACBC63147213272DD3C6E3934383A1"
+			}
+			"ludeo-test-log"
+			{
+				"gid" "9327C3392BB99348C1217979893AB6D5"
+				"size" "0BCE9FBCCDC1E93A32E55DD74EED8AFD"
+				"download" "A84A2DD7F1AA551CD3629D1EBE7A3657"
+			}
 		}
 	}
 	"1415423"
@@ -1110,6 +1289,30 @@
 				"size" "65AEAF74783E43C46A665469A4001B4E"
 				"download" "A196553EAB99930356023D60D32D0FF1"
 			}
+			"ludeo-dev"
+			{
+				"gid" "53F64C30FAF496853F14D3A9E874F9C2"
+				"size" "55F1069A298872ADB4D09C53E7F41F26"
+				"download" "38E02D4CA9A3C9FC05DB903EBEB583F2"
+			}
+			"ludeo-softlaunch"
+			{
+				"gid" "BDA4D5D04DDBE9A0E66FD4FC80588363"
+				"size" "DC0039DFCC94F566CA7957B9F7D54096"
+				"download" "880C0FD1FFF0FEB02010BD2E238BB2E1"
+			}
+			"ludeo-test"
+			{
+				"gid" "9592D69722B7EA1CBB3EF8136BD3DA45"
+				"size" "966614433186D54B61EA75FCFA4BBA35"
+				"download" "654D4A7C8E775AEBBC83FB5FC78EB4DC"
+			}
+			"ludeo-test-log"
+			{
+				"gid" "1038EF6AE700C1790BBD2784430FB97A"
+				"size" "F0A87B3415028D76995BD90D9931B9DD"
+				"download" "E20269320DCE1BB183C5D4699E656B1F"
+			}
 		}
 	}
 	"1415421"
@@ -1144,9 +1347,136 @@
 				"size" "3FF92BEDB3541615342A5CE49E340324"
 				"download" "FDE2AB4D8A1F6548E3629283147FD852"
 			}
+			"ludeo-dev"
+			{
+				"gid" "26254D6BADA1856AFBE25E881A25424F"
+				"size" "0648D684595BB8757C55A46D85223C1F"
+				"download" "81436E1ACD36D5656B4346717C6648B0"
+			}
+			"ludeo-softlaunch"
+			{
+				"gid" "F6D0D0595D0A5833AEC8D6017221EFC2"
+				"size" "B3882DE9A456CE7C9CBB1C9940E07405"
+				"download" "20505739E611DD8D2C0460B5F88043B8"
+			}
+			"ludeo-test"
+			{
+				"gid" "061DA9BD802D2D5015CBCD797066315C"
+				"size" "75B34E504AB4416A6C8BD1F57F039DE8"
+				"download" "0B8E108B8DEAAF0F813D07A0045F04B5"
+			}
+			"ludeo-test-log"
+			{
+				"gid" "1820083DAFDD427D2D7EB5881AF4CDAC"
+				"size" "44B76E70825A3F2EA5A442DAF98E56E0"
+				"download" "DC24AACC8E4AFC7173302835B88B97E4"
+			}
 		}
 	}
 	"hasdepotsindlc" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13919886"
+			"timeupdated" "1712818388"
+		}
+		"certification"
+		{
+			"buildid" "13234231"
+			"pwdrequired" "1"
+			"timeupdated" "1705891418"
+		}
+		"default_backup"
+		{
+			"sc_schinese" "旧版本备份"
+			"buildid" "13388644"
+			"description" "Old Version Backup"
+			"timeupdated" "1707286529"
+		}
+		"default_backup_1"
+		{
+			"sc_schinese" "default分支内部备份"
+			"buildid" "13389019"
+			"pwdrequired" "1"
+			"timeupdated" "1707286194"
+		}
+		"forshow"
+		{
+			"buildid" "3178574"
+			"pwdrequired" "1"
+			"timeupdated" "1538561309"
+		}
+		"game_manager"
+		{
+			"buildid" "7165376"
+			"pwdrequired" "1"
+			"timeupdated" "1628583481"
+		}
+		"lostcastle_p2p"
+		{
+			"buildid" "13388644"
+			"pwdrequired" "1"
+			"timeupdated" "1707282789"
+		}
+		"nd-development"
+		{
+			"sc_schinese" "For Neon Doctrine ONLY - development. Dev’s should work in here, freely :slight_smile: If any testing is needed developers should upload to a test build to the “test” branch. This branch is NOT for testing. Only Development."
+			"buildid" "14139359"
+			"pwdrequired" "1"
+			"timeupdated" "1713833501"
+		}
+		"recover_record"
+		{
+			"buildid" "13853709"
+			"pwdrequired" "1"
+			"timeupdated" "1711437158"
+		}
+		"steam_china_only"
+		{
+			"sc_schinese" "仅中国"
+			"buildid" "6612315"
+			"pwdrequired" "1"
+			"timeupdated" "1619593212"
+		}
+		"testing"
+		{
+			"buildid" "13919886"
+			"pwdrequired" "1"
+			"timeupdated" "1712041907"
+		}
+		"testing_china"
+		{
+			"sc_schinese" "steam china test"
+			"buildid" "9055542"
+			"pwdrequired" "1"
+			"timeupdated" "1656918747"
+		}
+		"ludeo-dev"
+		{
+			"buildid" "15646892"
+			"pwdrequired" "1"
+			"timeupdated" "1725945578"
+		}
+		"ludeo-softlaunch"
+		{
+			"buildid" "15674791"
+			"pwdrequired" "1"
+			"timeupdated" "1726131430"
+		}
+		"ludeo-test"
+		{
+			"buildid" "15756066"
+			"pwdrequired" "1"
+			"timeupdated" "1726746580"
+		}
+		"ludeo-test-log"
+		{
+			"buildid" "15739099"
+			"pwdrequired" "1"
+			"timeupdated" "1726645747"
+		}
+	}
 }
 "ufs"
 {
@@ -1179,7 +1509,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "23112915"
-"_sha" "57918e5945376797ff62b26870ed93b17060626d"
-"_size" "26577"
