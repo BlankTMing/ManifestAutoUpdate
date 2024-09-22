@@ -1,0 +1,320 @@
+"appid" "251430"
+"common"
+{
+	"name" "The Inner World"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "947dec2942d74ec42deaec8a343adb98c97c8a57"
+	"logo_small" "947dec2942d74ec42deaec8a343adb98c97c8a57_thumb"
+	"icon" "1d80cce2b884a54f983700b4e1b4e98fc4b8cf0f"
+	"clienttga" "ee75cf0d1639c742970ea65dbb000037350773b5"
+	"clienticon" "3427163a044641fe701f2b8c9975c14d3e0a3205"
+	"clienticns" "844dc7a710657b15186feaa603a4faa2b6a3e2d9"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1654732800"
+		"tested_build_id" "2118134"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "The Inner World"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"german" "header_german.jpg"
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "37.51458576429406"
+			"height_pct" "64.43837568273572"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "37.51458576429406"
+				"height_pct" "64.43837568273572"
+			}
+		}
+	}
+	"store_asset_mtime" "1574261638"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Studio Fizbin"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Headup"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Headup"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1380303840"
+	"metacritic_score" "72"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/the-inner-world\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "251430"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "1698"
+		"2" "1664"
+		"3" "492"
+		"4" "1742"
+		"5" "3871"
+		"6" "1756"
+		"7" "4004"
+		"8" "4182"
+		"9" "6691"
+		"10" "1693"
+		"11" "1719"
+		"12" "4136"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "Studio Fizbin"
+	"publisher" "Headup"
+	"homepage" "http://www.theinnerworld.de"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "TheInnerWorld"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TheInnerWorld.exe"
+			"description" "Launch-Win"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "TheInnerWorldSteam.app/"
+			"description" "Launch-Mac"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "TIW_start.sh"
+			"description" "Launch-Linux"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"baselanguages" "english,german"
+	"251431"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8635472830896814948"
+				"size" "1419570324"
+				"download" "1293143360"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "053B67383A89188188DC516F813C20B0"
+				"size" "8738D1F7E980781912031700BB363327"
+				"download" "411B3AA4C045AB2EC52AF35F004BF3CB"
+			}
+		}
+	}
+	"251432"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1896952142668043501"
+				"size" "1441564004"
+				"download" "1299006256"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "48123B42BB39F428E38611414497E94E"
+				"size" "766304192FEF69F0EDB98AB3372DA86A"
+				"download" "F7D27AAE0E3CC6907A5D3CFCE40869D6"
+			}
+		}
+	}
+	"251433"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "927794067050509561"
+				"size" "581543529"
+				"download" "504656496"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "4B84FC3CAA8ECA2685878328453CBBF0"
+				"size" "3B1F662A485FE1F0CEEE2EAF9F9A1F00"
+				"download" "80A67D3856CB6B7A1C542028AF6E35E5"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2118134"
+			"timeupdated" "1505382023"
+		}
+		"beta"
+		{
+			"buildid" "2118134"
+			"pwdrequired" "1"
+			"timeupdated" "1505381747"
+		}
+	}
+}
