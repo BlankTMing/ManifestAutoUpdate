@@ -1,0 +1,337 @@
+"appid" "1563070"
+"common"
+{
+	"name" "Outside The Box"
+	"type" "Game"
+	"logo" "f4b02939fb2fea29042bd90b99ae4149bc5f0a15"
+	"logo_small" "f4b02939fb2fea29042bd90b99ae4149bc5f0a15_thumb"
+	"clienticon" "1710673c9493eb56283ba822e78fd1368c55f6a6"
+	"clienttga" "3c52727f1186d449650403cd04b6f8495adb391a"
+	"icon" "0869b3c4090a7257028cfce6db8edff2d84890a1"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"releasestate" "released"
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "3"
+		"2" "4"
+		"3" "5"
+	}
+	"restricted_countries" "CN,DE"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1659571200"
+		"tested_build_id" "8463116"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "100"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1628896576"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "The Poundry"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Hardblush Interactive"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Circle Jerk(s)"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "CircleJerk(s)"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1648509322"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1563070"
+	"store_tags"
+	{
+		"0" "12095"
+		"1" "44868"
+		"2" "21"
+		"3" "6650"
+		"4" "4947"
+		"5" "1698"
+		"6" "9551"
+		"7" "597"
+		"8" "4305"
+		"9" "11014"
+		"10" "7702"
+		"11" "3871"
+		"12" "4726"
+		"13" "1664"
+		"14" "9130"
+		"15" "4182"
+		"16" "4085"
+		"17" "492"
+		"18" "24904"
+	}
+	"review_score" "5"
+	"review_percentage" "53"
+}
+"extended"
+{
+	"developer" "The Poundry"
+	"publisher" "Hardblush Interactive"
+}
+"config"
+{
+	"installdir" "Outside The Box"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "HBG_OutsideTheBox.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Game"
+			}
+			"description" "Game"
+		}
+		"1"
+		{
+			"executable" "HBG_OutsideTheBox.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "test_fix"
+			}
+			"description_loc"
+			{
+				"english" "D3D"
+			}
+			"description" "D3D"
+		}
+		"2"
+		{
+			"executable" "HBG_OutsideTheBox.exe"
+			"type" "manual"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "test_fix"
+			}
+			"description_loc"
+			{
+				"english" "Default"
+			}
+			"description" "Default"
+		}
+		"3"
+		{
+			"executable" "winsetup.exe"
+			"type" "config"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Settings"
+			}
+			"description" "Settings"
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1563071"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8822905364780666129"
+				"size" "1596031928"
+				"download" "555564320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dual_launch"
+			{
+				"gid" "F3F62826D75574A969B1D288C8B8F6D3"
+				"size" "3BC3BD02A5551C0D67BF514DA62A5C14"
+				"download" "3A8858433141853E5D430A59CC944ED5"
+			}
+			"test_fix"
+			{
+				"gid" "36A5322CD44CE9921075EBA0618B813B"
+				"size" "AE463EE40BFBEB96EB8E1AE1FDCE8E8C"
+				"download" "171B2EB8F94CE496F8A23912B0A788A1"
+			}
+			"testbranch"
+			{
+				"gid" "2D3026B82CCF4BCF6883794D7C6E8E64"
+				"size" "CF6F978348A787B165973C5230F53AF5"
+				"download" "318D13BFF72973AFEAFF4A860A59536F"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9965665"
+			"timeupdated" "1669130216"
+		}
+		"dual_launch"
+		{
+			"buildid" "9965665"
+			"pwdrequired" "1"
+			"timeupdated" "1669130240"
+		}
+		"test_fix"
+		{
+			"buildid" "9965665"
+			"pwdrequired" "1"
+			"timeupdated" "1669130224"
+		}
+		"testbranch"
+		{
+			"buildid" "9965665"
+			"pwdrequired" "1"
+			"timeupdated" "1669130247"
+		}
+	}
+}
