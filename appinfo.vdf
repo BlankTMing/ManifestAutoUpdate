@@ -1,0 +1,391 @@
+"appid" "1408680"
+"common"
+{
+	"name" "Nine to Five"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"clienticon" "9f7c87c9a353301df99736f41e9fc70299edf4ae"
+	"clienttga" "5aa134a5c882ecf81a402abb5013e580a8bded18"
+	"icon" "ce36055b0dccf752604576e1f3e8f377b55dcce0"
+	"logo" "d29d3967ee0527ae8d3b8a673b14de6cfc4961f1"
+	"logo_small" "d29d3967ee0527ae8d3b8a673b14de6cfc4961f1_thumb"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "1408680_eula_0"
+			"name" "Nine to Five EULA"
+			"url" "https://store.steampowered.com//eula/1408680_eula_0"
+			"version" "3"
+		}
+	}
+	"app_retired_publisher_request" "1"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1646438400"
+		"tested_build_id" "8244426"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_UnsupportedAntiCheatConfiguration"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-experimental"
+			"requires_h264" "0"
+		}
+	}
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "100"
+				"height_pct" "100"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1654586431"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Redhill Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Redhill Games"
+		}
+	}
+	"primary_genre" "37"
+	"genres"
+	{
+		"0" "1"
+		"1" "37"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_35" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_18" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1652695140"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1408680"
+	"store_tags"
+	{
+		"0" "5711"
+		"1" "4026"
+		"2" "1708"
+		"3" "3859"
+		"4" "1663"
+		"5" "3878"
+		"6" "3993"
+		"7" "5765"
+		"8" "9"
+		"9" "1774"
+		"10" "4175"
+		"11" "3839"
+		"12" "7481"
+		"13" "19"
+		"14" "113"
+		"15" "1775"
+		"16" "4295"
+		"17" "4166"
+		"18" "4168"
+		"19" "4747"
+	}
+	"review_score" "5"
+	"review_percentage" "46"
+}
+"extended"
+{
+	"developer" "Redhill Games"
+	"publisher" "Redhill Games"
+	"homepage" "https://www.ninetofive.game/"
+}
+"config"
+{
+	"installdir" "NineToFive"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "NineToFive.exe"
+			"arguments" "-DX11"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Nine to Five (DirectX 11 - Stable)"
+			}
+			"description" "Nine to Five (DirectX 11 - Stable)"
+		}
+		"1"
+		{
+			"executable" "NineToFive.exe"
+			"arguments" "-DX12"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Nine to Five (DirectX 12 - Experimental)"
+			}
+			"description" "Nine to Five (DirectX 12 - Experimental)"
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1408681"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1748788711668785162"
+				"size" "12017610508"
+				"download" "11592172368"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "AFE5A65E54493CD1A3D4F13B94846AD7"
+				"size" "479FB6E077ED6C81E66C34322948FE1A"
+				"download" "2F18794CB42FBA3969CA925B33CB309F"
+			}
+			"externaltest"
+			{
+				"gid" "9111B511F8E5A7C424CD0652BB7C143F"
+				"size" "99D4F6BD1821450245ADB6D2B2FC8A05"
+				"download" "7802DE6B5A435F6420D71C99196AA176"
+			}
+			"latest"
+			{
+				"gid" "D41FA24CD8079502DF6A117C888D7233"
+				"size" "91F51EB4EA6D2F9FE1715B6F97341904"
+				"download" "A5BCC8C72DBA7500D12FF8B34C6D7F48"
+			}
+			"playtest"
+			{
+				"gid" "53898F464FDC8FD38BD9A415FB7B3AD0"
+				"size" "A1532747FCB275CD087D1C0678DF3BE2"
+				"download" "F57B47873F9616A5B1F9E93A3764F934"
+			}
+			"shipping"
+			{
+				"gid" "5868BCE870001DD2CBC7706571D30388"
+				"size" "AAABB9B3F09F98C6C57DE7777E0018C6"
+				"download" "D0C2F3C752D8C8850C44609E347F3603"
+			}
+			"shipping_rev"
+			{
+				"gid" "8E7493B77AB3474F94AFA77917CA8B1C"
+				"size" "B2D609BB20C25570ADF8EA02D5B43A5E"
+				"download" "D0939F55AEE23EFF74FD7EE673BD8499"
+			}
+			"stadia"
+			{
+				"gid" "172123CB8A531194BC17573E309C9B7B"
+				"size" "25AB88E89723D96524A58A644E3E6397"
+				"download" "E488BE55F2541613A21F33BF5510A3CC"
+			}
+			"staging"
+			{
+				"gid" "9BAB2EDB8C7A1E1A8CE3E9E27EDDB87B"
+				"size" "4164D1238C621A41B0A03DB9FB73948C"
+				"download" "12C39AFAAC689EFCF0960471CE7BFBBF"
+			}
+			"test"
+			{
+				"gid" "001ED0FB4B7097174D30E71DF1CC84BA"
+				"size" "93632A92283BF91F2A776BFA3AA9E6B1"
+				"download" "8F807AAA992F08AF8FAE2BE94D273933"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9468232"
+			"timeupdated" "1663236062"
+		}
+		"development"
+		{
+			"buildid" "5886868"
+			"pwdrequired" "1"
+			"timeupdated" "1606406416"
+		}
+		"externaltest"
+		{
+			"buildid" "7821968"
+			"pwdrequired" "1"
+			"timeupdated" "1638533344"
+		}
+		"latest"
+		{
+			"buildid" "9468232"
+			"pwdrequired" "1"
+			"timeupdated" "1662551743"
+		}
+		"playtest"
+		{
+			"buildid" "7823209"
+			"pwdrequired" "1"
+			"timeupdated" "1638541101"
+		}
+		"shipping"
+		{
+			"buildid" "9468232"
+			"pwdrequired" "1"
+			"timeupdated" "1662556381"
+		}
+		"shipping_rev"
+		{
+			"buildid" "7240365"
+			"pwdrequired" "1"
+			"timeupdated" "1629801325"
+		}
+		"stadia"
+		{
+			"buildid" "9468006"
+			"pwdrequired" "1"
+			"timeupdated" "1662551540"
+		}
+		"staging"
+		{
+			"buildid" "9467573"
+			"pwdrequired" "1"
+			"timeupdated" "1662551555"
+		}
+		"test"
+		{
+			"buildid" "8717829"
+			"pwdrequired" "1"
+			"timeupdated" "1652269253"
+		}
+	}
+}
