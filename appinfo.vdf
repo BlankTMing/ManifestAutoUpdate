@@ -1,0 +1,473 @@
+"appid" "294720"
+"common"
+{
+	"name" "Putt-Putt and Fatty Bear\'s Activity Pack"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "0b6a5182cd0537e2a588b4a361532ac148d69b23"
+	"logo_small" "0b6a5182cd0537e2a588b4a361532ac148d69b23_thumb"
+	"linuxclienticon" "6c3fae1a6de90d3a71bb605a5427fc6ca028bb73"
+	"clienticon" "7c3ba2643d1b2d0860072bbdee2840216ca975f2"
+	"clienttga" "883205405507ec66adf60e525e381c4399849a1d"
+	"icon" "797e3666b0069d7700193a89256a328af01a8f8c"
+	"clienticns" "64822255b4aaf842ec68bed742dedb856831fabf"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1693958400"
+		"tested_build_id" "4419276"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Putt-Putt\'s Fun Pack"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "57.322654462242554"
+			"height_pct" "68.23794823082403"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "57.322654462242554"
+				"height_pct" "68.23794823082403"
+			}
+		}
+	}
+	"store_asset_mtime" "1578528726"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Humongous Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Humongous Entertainment"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Nightdive Studios"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "764582400"
+	"steam_release_date" "1400188663"
+	"community_hub_visible" "1"
+	"gameid" "294720"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "5350"
+		"2" "1698"
+		"3" "1036"
+		"4" "21"
+	}
+	"review_score" "8"
+	"review_percentage" "83"
+}
+"extended"
+{
+	"developer" "Humongous Entertainment"
+	"publisher" "Humongous Entertainment"
+	"homepage" "http://www.humongous.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Putt-Putt and Fatty Bears Activity Pack"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ScummVM_Windows\\scummvm.exe"
+			"arguments" "--no-console -c scummvm-ppafbactivitypack.ini activity"
+			"description" "Launch"
+			"workingdir" "ScummVM_Windows\\"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm"
+			"arguments" "-c scummvm-ppafbactivitypack.ini activity"
+			"description" "Launch"
+			"workingdir" "ScummVM_Mac\\"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "ScummVM_Linux\\launch_ppafbactivitypack.sh"
+			"description" "Launch"
+			"workingdir" "ScummVM_Linux\\"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"294721"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8454749347967762260"
+				"size" "106263822"
+				"download" "65532064"
+			}
+			"beta"
+			{
+				"gid" "8454749347967762260"
+				"size" "106263822"
+				"download" "65532064"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "64EFB8E2EB5DED1A9A794AF148E9B2CE"
+				"size" "3A92AB6AB51EE01CFC7C3936DC7536D2"
+				"download" "324254278B26F09F87CF68B22DADF677"
+			}
+		}
+	}
+	"294722"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5160597247598232423"
+				"size" "110074384"
+				"download" "63856720"
+			}
+			"beta"
+			{
+				"gid" "5160597247598232423"
+				"size" "110074384"
+				"download" "63856720"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "9246F32B879CDF0530BF775D074039B4"
+				"size" "1BCC6CBD868D64094D3C2AB0D8BD032B"
+				"download" "B935261AD5FA3CC87DC51A27745563B1"
+			}
+		}
+	}
+	"294723"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5416315921444349504"
+				"size" "56192505"
+				"download" "112583602959"
+			}
+			"beta"
+			{
+				"gid" "5416315921444349504"
+				"size" "56192505"
+				"download" "112583602959"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "81B350BB156F88931481D5813E44D87F"
+				"size" "194658FCFB8AC7C1B88F6546D7BD387A"
+				"download" "83AA76E08D0E2E732FD20255A0F70E19"
+			}
+		}
+	}
+	"294724"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5953743251626108373"
+				"size" "15115799"
+				"download" "84959526691"
+			}
+			"beta"
+			{
+				"gid" "5953743251626108373"
+				"size" "15115799"
+				"download" "84959526691"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "2147BA5E32D415E51CF5D97A233C626F"
+				"size" "130BF6A895AF80BE6D8CFB2DEAE052E0"
+				"download" "0CC5AAB74CA96D371C114FEE205EEA06"
+			}
+		}
+	}
+	"294725"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3730366005800500449"
+				"size" "465"
+				"download" "5"
+			}
+			"beta"
+			{
+				"gid" "3730366005800500449"
+				"size" "465"
+				"download" "5"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "5CABF503A41FC2F71789A58BF6F378F1"
+				"size" "7DAF9BAF09E4B59CB6E43F21E2A771D6"
+				"download" "4B949CD3EF4C5FD522B5C156317FFF1F"
+			}
+		}
+	}
+	"294726"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7947312391711385145"
+				"size" "432"
+				"download" "65246336"
+			}
+			"beta"
+			{
+				"gid" "7947312391711385145"
+				"size" "432"
+				"download" "65246336"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "739B8B425F4AE5F598172CFFDA4E05E5"
+				"size" "8486449BF68D552F318757C0D57F12DA"
+				"download" "5E4E667188731A23E9671318A633AD54"
+			}
+		}
+	}
+	"294727"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2807115965381965952"
+				"size" "433"
+				"download" "5"
+			}
+			"beta"
+			{
+				"gid" "2807115965381965952"
+				"size" "433"
+				"download" "5"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "8CB66CD8EFEF6C8730ACFADA4E21056E"
+				"size" "071725AD555C5FF5FD75E4AEBCD3AB17"
+				"download" "4B949CD3EF4C5FD522B5C156317FFF1F"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4419276"
+			"timeupdated" "1574492927"
+		}
+		"beta"
+		{
+			"buildid" "4419276"
+			"timeupdated" "1574492919"
+		}
+		"private_beta"
+		{
+			"buildid" "3707252"
+			"pwdrequired" "1"
+			"timeupdated" "1554337613"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10485760"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Saves"
+			"pattern" "*.*"
+		}
+	}
+}
