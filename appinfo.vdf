@@ -1,0 +1,407 @@
+"appid" "231160"
+"common"
+{
+	"name" "The Swapper"
+	"type" "Game"
+	"releasestate" "released"
+	"clienticon" "dd27a0efd2a8a74fc3838431180c466a8cc102a9"
+	"clienttga" "87d78c56be6e4b0280ea14164549e0e30c3af9c9"
+	"icon" "4d3e99b7d885baba60ea29ee1634cc58bf22e41d"
+	"oslist" "windows,macos,linux"
+	"logo" "11e08b7b00d8a24a1f83dec3e7c2ca08e98be78a"
+	"logo_small" "11e08b7b00d8a24a1f83dec3e7c2ca08e98be78a_thumb"
+	"clienticns" "6134337847de9eaead5228921679ed2f87ac938f"
+	"linuxclienticon" "47ae9670dcdbdc38b0271419657343d533dd6c43"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1665532800"
+		"tested_build_id" "226328"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"metacritic_name" "The Swapper"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1451047487"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Olli Harjola, Otto Hantula, Tom Jubert, Carlo Castellano"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Facepalm Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_28" "1"
+		"category_43" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1369933200"
+	"metacritic_score" "87"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/the-swapper\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "231160"
+	"store_tags"
+	{
+		"0" "1664"
+		"1" "3942"
+		"2" "4166"
+		"3" "492"
+		"4" "1755"
+		"5" "1625"
+		"6" "5537"
+		"7" "4182"
+		"8" "21"
+		"9" "1756"
+		"10" "15277"
+		"11" "3871"
+		"12" "1721"
+		"13" "1628"
+		"14" "5716"
+		"15" "3834"
+		"16" "1742"
+		"17" "19"
+		"18" "3798"
+		"19" "4026"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" "Olli Harjola, Otto Hantula, Tom Jubert, Carlo Castellano"
+	"gamedir" "ValveTestApp231160"
+	"homepage" "http://facepalmgames.com/the-swapper"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateComingSoonNoPreload"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Facepalm Games"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "The Swapper"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TheSwapper.exe"
+			"description" "Play Game..."
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "TheSwapper"
+			"description" "Play Game..."
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "TheSwapper"
+			"description" "Play Game..."
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "RunTheSwapper"
+			"description" "Play Game..."
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229002"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"231161"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4766457470056451316"
+				"size" "937383677"
+				"download" "0"
+			}
+			"compatibility"
+			{
+				"gid" "5504949947304904551"
+				"size" "937414370"
+				"download" "0"
+			}
+			"intel_fix_beta"
+			{
+				"gid" "8037371161923204296"
+				"size" "936588725"
+				"download" "0"
+			}
+			"intel_fix_beta_2"
+			{
+				"gid" "6842744024875428974"
+				"size" "936594869"
+				"download" "0"
+			}
+			"public_beta"
+			{
+				"gid" "9026791211683849690"
+				"size" "937384189"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "A2332CCC09FE6BCA23B65B0761E453C6"
+				"size" "1EFC40A3BC69C85BB5B29387E730863E"
+				"download" "1706A07DEB84777736B26022A44F5D40"
+			}
+			"linux_osx_beta"
+			{
+				"gid" "F42865F1793714B5B69AEE3F47A9B3B2"
+				"size" "58F14C0538D53FCF0D5836F8CC0A3D62"
+				"download" "70636D91144BA172BF544942EBFD809C"
+			}
+		}
+	}
+	"231162"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2384454092173583244"
+				"size" "986282702"
+				"download" "0"
+			}
+			"compatibility"
+			{
+				"gid" "5716373161549003920"
+				"size" "983022159"
+				"download" "0"
+			}
+			"intel_fix_beta"
+			{
+				"gid" "2384454092173583244"
+				"size" "986282702"
+				"download" "0"
+			}
+			"intel_fix_beta_2"
+			{
+				"gid" "2384454092173583244"
+				"size" "986282702"
+				"download" "0"
+			}
+			"public_beta"
+			{
+				"gid" "2384454092173583244"
+				"size" "986282702"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "7522EDBE79C9346AD7828C3C5EBFADE8"
+				"size" "5F884CECF34C3241EE1773308D8C945D"
+				"download" "1706A07DEB84777736B26022A44F5D40"
+			}
+			"linux_osx_beta"
+			{
+				"gid" "CE81D99566A1202C8E49635365FC3E6D"
+				"size" "6BB3A2BB1CE16EC9CD5D40129057E58D"
+				"download" "70636D91144BA172BF544942EBFD809C"
+			}
+		}
+	}
+	"231163"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5385124560162702064"
+				"size" "979424200"
+				"download" "0"
+			}
+			"compatibility"
+			{
+				"gid" "8878753917216664302"
+				"size" "979431191"
+				"download" "0"
+			}
+			"intel_fix_beta"
+			{
+				"gid" "3655365630960712052"
+				"size" "979425224"
+				"download" "0"
+			}
+			"intel_fix_beta_2"
+			{
+				"gid" "3655365630960712052"
+				"size" "979425224"
+				"download" "0"
+			}
+			"public_beta"
+			{
+				"gid" "3655365630960712052"
+				"size" "979425224"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "2C598A1C75C90F5D82E1967CB1FFBA03"
+				"size" "D7FF8BFF5DC417CEE14CE847469C8FAA"
+				"download" "1706A07DEB84777736B26022A44F5D40"
+			}
+			"linux_osx_beta"
+			{
+				"gid" "F34DC6D3137D9455FF52C831F894F82C"
+				"size" "A1A6A2E10F4DAACDE6B7D2D16A048F9E"
+				"download" "70636D91144BA172BF544942EBFD809C"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "226328"
+		}
+		"beta"
+		{
+			"buildid" "311837"
+			"pwdrequired" "1"
+		}
+		"compatibility"
+		{
+			"buildid" "194554"
+		}
+		"intel_fix_beta"
+		{
+			"buildid" "311720"
+			"description" "Intel fix beta"
+		}
+		"intel_fix_beta_2"
+		{
+			"buildid" "311837"
+			"description" "Intel fix beta 2"
+		}
+		"linux_osx_beta"
+		{
+			"buildid" "192640"
+			"pwdrequired" "1"
+		}
+		"public_beta"
+		{
+			"buildid" "243151"
+			"description" "Public beta"
+		}
+	}
+}
