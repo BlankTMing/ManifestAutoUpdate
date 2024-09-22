@@ -1,0 +1,288 @@
+"appid" "1550710"
+"common"
+{
+	"name" "Warbox"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"clienttga" "ff2f6ba703a6005770d42a045f33aaacc1432d64"
+	"clienticon" "35ad1b315192379e3d0310d744738fa65d411c24"
+	"icon" "e800e9b190333d7f7326da0df548e0857d435536"
+	"logo" "54d83eae64bd958fe5c4a540025b14808deedd41"
+	"logo_small" "54d83eae64bd958fe5c4a540025b14808deedd41_thumb"
+	"releasestate" "released"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "1"
+			"height_pct" "2"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "1"
+				"height_pct" "2"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1653773909"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Mantaliss"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Mantaliss"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1616429232"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1550710"
+	"store_tags"
+	{
+		"0" "3810"
+		"1" "1678"
+		"2" "3968"
+		"3" "4345"
+		"4" "4175"
+		"5" "19"
+		"6" "4182"
+		"7" "4747"
+		"8" "3993"
+		"9" "7926"
+		"10" "4667"
+		"11" "6730"
+		"12" "1708"
+		"13" "493"
+		"14" "5228"
+		"15" "5363"
+		"16" "4191"
+		"17" "9204"
+		"18" "11104"
+		"19" "4168"
+	}
+	"review_score" "5"
+	"review_percentage" "62"
+}
+"extended"
+{
+	"developer" "Mantaliss"
+	"publisher" "Mantaliss"
+	"homepage" "https://discord.gg/B59r8n7"
+}
+"config"
+{
+	"installdir" "Warbox"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "MantasWarbox.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Default Branch"
+			}
+			"description" "Default Branch"
+		}
+		"1"
+		{
+			"executable" "MantasWarbox.exe"
+			"type" "option2"
+			"config"
+			{
+				"betakey" "test"
+			}
+			"description_loc"
+			{
+				"english" "Launches Patreon/Test Build"
+			}
+			"description" "Launches Patreon/Test Build"
+		}
+		"2"
+		{
+			"executable" "\\windows_content\\WindowsNoEditor\\MantasWarbox.exe"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "legacy"
+			}
+		}
+		"3"
+		{
+			"executable" "\\windows_content\\MantasWarbox.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "0.0.1.4"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"baselanguages" "english"
+	"1550711"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2499984088654596327"
+				"size" "13564832911"
+				"download" "12653304432"
+			}
+			"0.0.1.4"
+			{
+				"gid" "4214135648330938135"
+				"size" "3609270585"
+				"download" "1559456480"
+			}
+			"legacy"
+			{
+				"gid" "9167784246161649034"
+				"size" "22159463762"
+				"download" "9813131984"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "EF177AA803E0F3904675DE917C2AD6D6"
+				"size" "E43C3329472CBAC1761429ED30C39D6F"
+				"download" "300BB41CBEEF5A293C13F0C930234EB0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15233424"
+			"timeupdated" "1722560908"
+		}
+		"0.0.1.4"
+		{
+			"buildid" "6529731"
+			"description" "Play Version 0.0.1.4 Here!"
+			"timeupdated" "1674366756"
+		}
+		"legacy"
+		{
+			"buildid" "8417570"
+			"description" "Warbox UE4 Legacy Branch"
+			"timeupdated" "1659423350"
+		}
+		"test"
+		{
+			"buildid" "13645161"
+			"pwdrequired" "1"
+			"timeupdated" "1709641015"
+		}
+	}
+}
