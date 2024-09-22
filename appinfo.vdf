@@ -1,0 +1,213 @@
+"appid" "2812310"
+"common"
+{
+	"name" "防沉迷渡劫"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64,macosapplesilicon"
+	"clienticon" "8ee6e9427ffbb0773e78d9f3a98de572847f0d70"
+	"clienttga" "0d507b3e2bd3f3b1995bd44da4e7a07c6dab7e07"
+	"icon" "1e558c2fa76aa0908ea3268e47e8f0e39c6d2edd"
+	"releasestate" "released"
+	"name_localized"
+	{
+		"english" "Taoist Survivor"
+	}
+	"app_retired_publisher_request" "1"
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"schinese" "capsule_231x87_schinese.jpg"
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"schinese" "header_schinese.jpg"
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn"
+		"library_hero" "en,zh-cn"
+		"library_logo" "en,zh-cn"
+		"library_header" "en,zh-cn"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "80.03492433061695"
+			"height_pct" "78.1168368558537"
+		}
+	}
+	"store_asset_mtime" "1708556824"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "黑心小作坊"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "黑心小作坊"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "4"
+		"3" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1708579195"
+	"community_hub_visible" "1"
+	"gameid" "2812310"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "42804"
+		"2" "4158"
+		"3" "3798"
+		"4" "3871"
+		"5" "21"
+		"6" "4255"
+		"7" "4145"
+		"8" "4004"
+		"9" "4562"
+		"10" "16094"
+		"11" "492"
+		"12" "597"
+		"13" "1684"
+		"14" "3993"
+		"15" "4182"
+	}
+}
+"extended"
+{
+	"developer" "黑心小作坊"
+	"publisher" "黑心小作坊"
+}
+"config"
+{
+	"installdir" "FCMDJ"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "YSLBJ.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "xxgmac.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"2812311"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4685599162417818339"
+				"size" "1512005297"
+				"download" "167534896"
+			}
+		}
+	}
+	"2812312"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5016147370940908638"
+				"size" "1535929297"
+				"download" "174551584"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13584768"
+			"timeupdated" "1709099054"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "50000000"
+	"maxnumfiles" "5000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "blackheart/YSLBJ/Save"
+			"pattern" "*.sv"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "com.blackheart.YSLBJ/Save"
+			"pattern" "*.sv"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+	}
+}
