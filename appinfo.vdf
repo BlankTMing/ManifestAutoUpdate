@@ -1,0 +1,235 @@
+"appid" "2108400"
+"common"
+{
+	"name" "ATCo2"
+	"type" "Game"
+	"icon" "e4d7534a7e9e1b489a9581b8d2e0240dfa26bf1e"
+	"clienticon" "3919bfc2a2c0e1a72cc791d77967db34cd09fa90"
+	"clienttga" "1a454d93ea9faeaf9bd794b028140f8463484a4b"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"osextended" "macos64,macosapplesilicon,macosnotarized"
+	"releasestate" "released"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1678379607"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Rabbit Garden Software"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Rabbit Garden Software"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1678380300"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2108400"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "15045"
+		"2" "1036"
+		"3" "5794"
+		"4" "5350"
+		"5" "4182"
+		"6" "3871"
+		"7" "4094"
+		"8" "51306"
+		"9" "4791"
+		"10" "492"
+		"11" "6426"
+		"12" "1708"
+		"13" "8945"
+		"14" "3854"
+	}
+}
+"extended"
+{
+	"developer" "Rabbit Garden Software"
+	"publisher" "Rabbit Garden Software"
+	"homepage" "https://www.rabbitgarden.games/"
+}
+"config"
+{
+	"installdir" "ATCo2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ATCo2.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "ATCo2.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "ATCo2.x64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"2108401"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5592916359939200964"
+				"size" "403620363"
+				"download" "245541168"
+			}
+			"local"
+			{
+				"gid" "7123633988671862725"
+				"size" "115702266"
+				"download" "27763728"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "8101E34F0B96B0B95FF41D300306C9FA"
+				"size" "2BB29F0395CFF48BC3C96A755E92C243"
+				"download" "589C10F27153C262E3C755AEF45B12B1"
+			}
+		}
+	}
+	"2108402"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4219686233459775476"
+				"size" "405459611"
+				"download" "244738304"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "B491FA3276A5B4210657A05017FCDD86"
+				"size" "1DEFD68BA1AD9277E2026FEBB7719682"
+				"download" "33FF56F6158372AE309DBD390332205F"
+			}
+		}
+	}
+	"2108403"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4870787069559072487"
+				"size" "428052086"
+				"download" "253001888"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "7B362DC6D566C62EA04BBAA3E41FF12F"
+				"size" "7F9C6B003E26D19A17C8E62D70D3157C"
+				"download" "9333BB88F67F8379BAF609D00DF29815"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10675625"
+			"timeupdated" "1677772272"
+		}
+		"local"
+		{
+			"buildid" "9275708"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1659982411"
+		}
+		"test"
+		{
+			"buildid" "9806261"
+			"pwdrequired" "1"
+			"timeupdated" "1666810007"
+		}
+	}
+}
