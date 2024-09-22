@@ -1,0 +1,365 @@
+"appid" "1881120"
+"common"
+{
+	"name" "Titan Station"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"icon" "ce8ef6aaddfcea6ae61d78b10be50cb8ffb03075"
+	"clienttga" "5e2eabc0bfef2a52e9847ec632e4da0bb7759bdc"
+	"clienticon" "cefbeccccc6807524142a11bbc71f48f869adb60"
+	"releasestate" "released"
+	"openxrsupport" "1"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "32.49613642517427"
+			"height_pct" "68.08510786316901"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "32.49613642517427"
+				"height_pct" "68.08510786316901"
+			}
+		}
+	}
+	"store_asset_mtime" "1668250921"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Joakim Larsen"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Joakim Larsen"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"german"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1668153682"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1881120"
+	"store_tags"
+	{
+		"0" "5900"
+		"1" "5716"
+		"2" "1742"
+		"3" "3942"
+		"4" "15172"
+		"5" "4166"
+		"6" "597"
+		"7" "4064"
+		"8" "4234"
+		"9" "4182"
+		"10" "3839"
+		"11" "3834"
+		"12" "5094"
+		"13" "4191"
+		"14" "492"
+		"15" "21"
+		"16" "4004"
+		"17" "1755"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Joakim Larsen"
+	"publisher" "Joakim Larsen"
+	"listofdlc" "2663810"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "TRS"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "titanstation.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Standard Version"
+			}
+			"description" "Standard Version"
+		}
+		"1"
+		{
+			"executable" "\\dlc_vr\\titanstation_vr.exe"
+			"arguments" "-vr -stereo"
+			"type" "openxr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"ownsdlc" "2663810"
+			}
+			"description_loc"
+			{
+				"english" "VR Version (Beta)"
+			}
+			"description" "VR Version (Beta)"
+		}
+	}
+}
+"depots"
+{
+	"hasdepotsindlc" "0"
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1881121"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6840668909821245682"
+				"size" "9156899656"
+				"download" "8837950896"
+			}
+			"beta"
+			{
+				"gid" "4403530846129103951"
+				"size" "5197596226"
+				"download" "5056153696"
+			}
+			"local"
+			{
+				"gid" "4403530846129103951"
+				"size" "5197596226"
+				"download" "5056153696"
+			}
+			"playtest"
+			{
+				"gid" "4403530846129103951"
+				"size" "5197596226"
+				"download" "5056153696"
+			}
+			"vrbeta"
+			{
+				"gid" "6840668909821245682"
+				"size" "9156899656"
+				"download" "8837950896"
+			}
+		}
+	}
+	"2663810"
+	{
+		"dlcappid" "2663810"
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5308636472601567631"
+				"size" "3046312042"
+				"download" "2928134496"
+			}
+			"vrbeta"
+			{
+				"gid" "5308636472601567631"
+				"size" "3046312042"
+				"download" "2928134496"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14655494"
+			"timeupdated" "1717932482"
+		}
+		"beta"
+		{
+			"buildid" "8143940"
+			"description" "betatest"
+			"lcsrequired" "1"
+			"timeupdated" "1643963040"
+		}
+		"local"
+		{
+			"buildid" "8143940"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1643962920"
+		}
+		"playtest"
+		{
+			"buildid" "8143940"
+			"description" "Playtest"
+			"lcsrequired" "1"
+			"timeupdated" "1643963120"
+		}
+		"vrbeta"
+		{
+			"buildid" "14655494"
+			"description" "Build to test VR"
+			"timeupdated" "1717932463"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "5000000"
+	"maxnumfiles" "12"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "titanstation/Saved/SaveGames/"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
