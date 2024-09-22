@@ -1,0 +1,215 @@
+"appid" "214970"
+"common"
+{
+	"name" "Intrusion 2"
+	"type" "Game"
+	"logo" "4559f77d2875c60562bebb22f656de6824badc6e"
+	"logo_small" "4559f77d2875c60562bebb22f656de6824badc6e_thumb"
+	"clienticon" "9f0633126beb7d790f248e2fe1c5e7e2724b4b70"
+	"clienttga" "b05108501ccbdfccc1458d3e55187ef2d420d9ab"
+	"icon" "e63fe503a18fc70c3c759e96341a406dc1c8cbe5"
+	"clienticns" "f5488c1efca955f5b623e56b80cbe754c6c6535b"
+	"oslist" "windows,linux"
+	"metacritic_name" "Intrusion 2"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1646994488"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Aleksey Abramenko"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Aleksey Abramenko"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_41" "1"
+		"category_42" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+		}
+		"russian"
+		{
+			"supported" "1"
+		}
+	}
+	"steam_release_date" "1347379860"
+	"metacritic_score" "80"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/intrusion-2\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "214970"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "1625"
+		"3" "3871"
+		"4" "3968"
+		"5" "1774"
+		"6" "3942"
+		"7" "4182"
+		"8" "3798"
+		"9" "4026"
+		"10" "4255"
+		"11" "1756"
+		"12" "4821"
+		"13" "5752"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "Aleksey Abramenko"
+	"gamedir" "Intrusion 2"
+	"homepage" "http://www.intrusion2.com/"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Aleksey Abramenko"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Intrusion 2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "intrusion2.exe"
+			"description" "Windows launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "intrusion2"
+			"description" "Linux launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"installscriptsignature" "6ac1df8277b02caa05c4b0b43d80079aa65ab79563ec98ee3acb568734a5712b3a40157f363292b99aa09092370de0b73d391621550b80d1c8f1f635ee2edaa1d02457ac3c390e56a15342d5c934226035e8772b176fde39de047291788f31ac4bdd520b3aebc58302e5395a0335d88065fd7ce85a7ce4f4c326a62a8ca6800c"
+	"installscriptoverride" "1"
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"2027710177"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\vapgames\\intrusion2"
+		{
+			"string"
+			{
+				"install_path" "%INSTALLDIR%"
+				"exe_path" "%INSTALLDIR%\\intrusion2.exe"
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214970"
+			"process 1" "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"214971"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1679780974567689047"
+				"size" "85228113"
+				"download" "0"
+			}
+		}
+	}
+	"214972"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3687718406210060432"
+				"size" "88700634"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "42885"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "1"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+}
