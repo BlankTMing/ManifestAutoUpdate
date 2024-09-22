@@ -1,0 +1,835 @@
+"appid" "292260"
+"common"
+{
+	"name" "SPY Fox 3: Operation Ozone"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "d93f893961a8d6fc6a24c1782be8add1f071fa51"
+	"logo_small" "d93f893961a8d6fc6a24c1782be8add1f071fa51_thumb"
+	"linuxclienticon" "a80a77fffcd0d1d98e6d61b11d4643b4f974ea1a"
+	"clienticon" "1660c40a86a51110f2ab96e29f238226d939de92"
+	"clienttga" "2ab0a852817f9da6ea000830145dfd198fc6645c"
+	"icon" "ac363792f108c5adf4964bf0943b54e27d2845d1"
+	"oslist" "windows,macos,linux"
+	"clienticns" "d0bcd67d06ccf3f2c46a5c8157e5cf6687efc318"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1691539200"
+		"tested_build_id" "2777265"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Spy Fox 3 &amp;quot;Operation Ozone&amp;quot;"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "56.407322654462234"
+			"height_pct" "73.5573497981477"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "56.407322654462234"
+				"height_pct" "73.5573497981477"
+			}
+		}
+	}
+	"store_asset_mtime" "1577149890"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Humongous Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Humongous Entertainment"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Nightdive Studios"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"original_release_date" "985939200"
+	"steam_release_date" "1400188686"
+	"community_hub_visible" "1"
+	"gameid" "292260"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "597"
+		"2" "1698"
+		"3" "5350"
+		"4" "14720"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"developer" "Humongous Entertainment"
+	"publisher" "Humongous Entertainment"
+	"homepage" "http://www.humongous.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Spy Fox 3"
+	"launch"
+	{
+		"3"
+		{
+			"executable" "ScummVM_Windows\\scummvm.exe"
+			"arguments" "--no-console -c scummvm-spyfox3-opengl.ini spyozon"
+			"workingdir" "ScummVM_Windows\\"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "ScummVM_Windows\\scummvm.exe"
+			"arguments" "--no-console -c scummvm-spyfox3-safe.ini spyozon"
+			"workingdir" "ScummVM_Windows\\"
+			"description" "Play in \"Safe Graphics\" Mode"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"5"
+		{
+			"executable" "ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm"
+			"arguments" "-c scummvm-spyfox3-opengl.ini spyozon"
+			"workingdir" "ScummVM_Mac\\"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"6"
+		{
+			"executable" "ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm"
+			"arguments" "-c scummvm-spyfox3-safe.ini spyozon"
+			"workingdir" "ScummVM_Mac\\"
+			"description" "Play in \"Safe Graphics\" Mode"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"7"
+		{
+			"executable" "ScummVM_Linux\\launch_spyfox3_opengl.sh"
+			"workingdir" "ScummVM_Linux\\"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"8"
+		{
+			"executable" "ScummVM_Linux\\launch_spyfox3_safe.sh"
+			"workingdir" "ScummVM_Linux\\"
+			"description" "Play in \"Safe Graphics\" Mode"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" "english,german,french"
+	"292261"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4421441797785555363"
+				"size" "90427208"
+				"download" "65215712"
+			}
+			"beta"
+			{
+				"gid" "4421441797785555363"
+				"size" "90427208"
+				"download" "65215712"
+			}
+			"beta_uk_version"
+			{
+				"gid" "4421441797785555363"
+				"size" "90427208"
+				"download" "65215712"
+			}
+			"uk_version"
+			{
+				"gid" "4421441797785555363"
+				"size" "90427208"
+				"download" "65215712"
+			}
+		}
+	}
+	"292262"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3430272928376038810"
+				"size" "104777095"
+				"download" "67613296"
+			}
+			"beta"
+			{
+				"gid" "3430272928376038810"
+				"size" "104777095"
+				"download" "67613296"
+			}
+			"beta_uk_version"
+			{
+				"gid" "3430272928376038810"
+				"size" "104777095"
+				"download" "67613296"
+			}
+			"uk_version"
+			{
+				"gid" "3430272928376038810"
+				"size" "104777095"
+				"download" "67613296"
+			}
+		}
+	}
+	"292263"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "564620872345699413"
+				"size" "88910117"
+				"download" "63670256"
+			}
+			"beta"
+			{
+				"gid" "564620872345699413"
+				"size" "88910117"
+				"download" "63670256"
+			}
+			"beta_uk_version"
+			{
+				"gid" "564620872345699413"
+				"size" "88910117"
+				"download" "63670256"
+			}
+			"uk_version"
+			{
+				"gid" "564620872345699413"
+				"size" "88910117"
+				"download" "63670256"
+			}
+		}
+	}
+	"292264"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2470978855368756266"
+				"size" "283342441"
+				"download" "177616768"
+			}
+			"beta"
+			{
+				"gid" "2470978855368756266"
+				"size" "283342441"
+				"download" "177616768"
+			}
+			"beta_uk_version"
+			{
+				"gid" "6416333418257220910"
+				"size" "299474945"
+				"download" "165721024"
+			}
+			"uk_version"
+			{
+				"gid" "6416333418257220910"
+				"size" "299474945"
+				"download" "165721024"
+			}
+		}
+	}
+	"292265"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3072460871795728293"
+				"size" "882"
+				"download" "736"
+			}
+			"beta"
+			{
+				"gid" "3072460871795728293"
+				"size" "882"
+				"download" "736"
+			}
+			"beta_uk_version"
+			{
+				"gid" "3072460871795728293"
+				"size" "882"
+				"download" "736"
+			}
+			"uk_version"
+			{
+				"gid" "3072460871795728293"
+				"size" "882"
+				"download" "736"
+			}
+		}
+	}
+	"292266"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8704522800112807117"
+				"size" "816"
+				"download" "704"
+			}
+			"beta"
+			{
+				"gid" "8704522800112807117"
+				"size" "816"
+				"download" "704"
+			}
+			"beta_uk_version"
+			{
+				"gid" "8704522800112807117"
+				"size" "816"
+				"download" "704"
+			}
+			"uk_version"
+			{
+				"gid" "8704522800112807117"
+				"size" "816"
+				"download" "704"
+			}
+		}
+	}
+	"292267"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6298503979222837788"
+				"size" "818"
+				"download" "704"
+			}
+			"beta"
+			{
+				"gid" "6298503979222837788"
+				"size" "818"
+				"download" "704"
+			}
+			"beta_uk_version"
+			{
+				"gid" "6298503979222837788"
+				"size" "818"
+				"download" "704"
+			}
+			"uk_version"
+			{
+				"gid" "6298503979222837788"
+				"size" "818"
+				"download" "704"
+			}
+		}
+	}
+	"292268"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7744456741570827202"
+				"size" "308107058"
+				"download" "198926480"
+			}
+			"beta"
+			{
+				"gid" "7744456741570827202"
+				"size" "308107058"
+				"download" "198926480"
+			}
+			"beta_uk_version"
+			{
+				"gid" "7744456741570827202"
+				"size" "308107058"
+				"download" "198926480"
+			}
+			"uk_version"
+			{
+				"gid" "7744456741570827202"
+				"size" "308107058"
+				"download" "198926480"
+			}
+		}
+	}
+	"292269"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1712818364180901107"
+				"size" "894"
+				"download" "768"
+			}
+			"beta"
+			{
+				"gid" "1712818364180901107"
+				"size" "894"
+				"download" "768"
+			}
+			"beta_uk_version"
+			{
+				"gid" "1712818364180901107"
+				"size" "894"
+				"download" "768"
+			}
+			"uk_version"
+			{
+				"gid" "1712818364180901107"
+				"size" "894"
+				"download" "768"
+			}
+		}
+	}
+	"292270"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7801836272175686011"
+				"size" "828"
+				"download" "704"
+			}
+			"beta"
+			{
+				"gid" "7801836272175686011"
+				"size" "828"
+				"download" "704"
+			}
+			"beta_uk_version"
+			{
+				"gid" "7801836272175686011"
+				"size" "828"
+				"download" "704"
+			}
+			"uk_version"
+			{
+				"gid" "7801836272175686011"
+				"size" "828"
+				"download" "704"
+			}
+		}
+	}
+	"292271"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5157156701163002783"
+				"size" "830"
+				"download" "704"
+			}
+			"beta"
+			{
+				"gid" "5157156701163002783"
+				"size" "830"
+				"download" "704"
+			}
+			"beta_uk_version"
+			{
+				"gid" "5157156701163002783"
+				"size" "830"
+				"download" "704"
+			}
+			"uk_version"
+			{
+				"gid" "5157156701163002783"
+				"size" "830"
+				"download" "704"
+			}
+		}
+	}
+	"292272"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "203158584763852258"
+				"size" "172092241"
+				"download" "90001696"
+			}
+			"beta"
+			{
+				"gid" "203158584763852258"
+				"size" "172092241"
+				"download" "90001696"
+			}
+			"beta_uk_version"
+			{
+				"gid" "203158584763852258"
+				"size" "172092241"
+				"download" "90001696"
+			}
+			"uk_version"
+			{
+				"gid" "203158584763852258"
+				"size" "172092241"
+				"download" "90001696"
+			}
+		}
+	}
+	"292273"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6529222366165384234"
+				"size" "890"
+				"download" "368"
+			}
+			"beta"
+			{
+				"gid" "6529222366165384234"
+				"size" "890"
+				"download" "368"
+			}
+			"beta_uk_version"
+			{
+				"gid" "6529222366165384234"
+				"size" "890"
+				"download" "368"
+			}
+			"uk_version"
+			{
+				"gid" "6529222366165384234"
+				"size" "890"
+				"download" "368"
+			}
+		}
+	}
+	"292274"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2150266060676883213"
+				"size" "820"
+				"download" "704"
+			}
+			"beta"
+			{
+				"gid" "2150266060676883213"
+				"size" "820"
+				"download" "704"
+			}
+			"beta_uk_version"
+			{
+				"gid" "2150266060676883213"
+				"size" "820"
+				"download" "704"
+			}
+			"uk_version"
+			{
+				"gid" "2150266060676883213"
+				"size" "820"
+				"download" "704"
+			}
+		}
+	}
+	"292275"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5342432618616691139"
+				"size" "822"
+				"download" "704"
+			}
+			"beta"
+			{
+				"gid" "5342432618616691139"
+				"size" "822"
+				"download" "704"
+			}
+			"beta_uk_version"
+			{
+				"gid" "5342432618616691139"
+				"size" "822"
+				"download" "704"
+			}
+			"uk_version"
+			{
+				"gid" "5342432618616691139"
+				"size" "822"
+				"download" "704"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2777265"
+			"timeupdated" "1526435815"
+		}
+		"beta"
+		{
+			"buildid" "2777265"
+			"description" "Beta"
+			"timeupdated" "1526432491"
+		}
+		"beta_uk_version"
+		{
+			"buildid" "2777401"
+			"description" "UK Release - Beta"
+			"timeupdated" "1526434706"
+		}
+		"uk_version"
+		{
+			"buildid" "2777401"
+			"description" "UK Release"
+			"timeupdated" "1526435845"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10485760"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Saves"
+			"pattern" "*.*"
+		}
+	}
+}
