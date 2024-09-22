@@ -1,0 +1,395 @@
+"appid" "373480"
+"common"
+{
+	"name" "1993 Space Machine"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "a2538e048cde94f80e976b92cd53fe640213c712"
+	"logo_small" "a2538e048cde94f80e976b92cd53fe640213c712_thumb"
+	"icon" "17c688d810e3a18572b256624ac030a2dee680fc"
+	"clienttga" "30c917e0acd349fb7cf6bfe3405414181fcf58f9"
+	"clienticon" "ceabda66cef96d77912e24d4308a9ab056b42978"
+	"clienticns" "d41f15cd0c63cfd5bb230df9432177235962ad27"
+	"releasestate" "released"
+	"osarch" ""
+	"osextended" "macos64"
+	"name_localized"
+	{
+		"japanese" "1993 シェナンドー"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1647648000"
+		"tested_build_id" "7278623"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "39.08659549228943"
+			"height_pct" "89.32767034158684"
+		}
+	}
+	"store_asset_mtime" "1650963401"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Exceed"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Aurora Punks"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Aurora Punks"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Aurora Punks"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_39" "1"
+		"category_44" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_24" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1459148400"
+	"steam_release_date" "1459181552"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "373480"
+	"store_tags"
+	{
+		"0" "5765"
+		"1" "1685"
+		"2" "4255"
+		"3" "1773"
+		"4" "3798"
+		"5" "4004"
+		"6" "3964"
+		"7" "4840"
+		"8" "3859"
+		"9" "5154"
+		"10" "1774"
+		"11" "3871"
+		"12" "4026"
+		"13" "3942"
+		"14" "19"
+		"15" "4885"
+		"16" "1755"
+		"17" "4305"
+		"18" "3916"
+		"19" "6691"
+	}
+	"review_score" "5"
+	"review_percentage" "69"
+}
+"extended"
+{
+	"developer" "Exceed"
+	"publisher" "Aurora Punks"
+	"homepage" "http://www.1993game.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "1993 Space Machine"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "SpaceMachine_Mac_FinalBuild.app/Contents/MacOS/SpaceMachine_Mac_FinalBuild"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "spacemachine.x86"
+			"arguments" "-force-opengl"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "1993Spacemachine.x86_64"
+			"arguments" "-force-opengl"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"5"
+		{
+			"executable" "1993 Shenandoah.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"373481"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6842228891274270607"
+				"size" "435076882"
+				"download" "118618560"
+			}
+			"linux_beta"
+			{
+				"gid" "650422608045270544"
+				"size" "428520337"
+				"download" "117732944"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "7BD1CEE02B8468A28420A0FFEC0D66D5"
+				"size" "799A6EEF252DFC5BA1E526C17B92FBF4"
+				"download" "7244D747C56172AFF10966EEDBE4B97C"
+			}
+			"original2016"
+			{
+				"gid" "6DA1D0B95B9E661FF2058413D6CC855B"
+				"size" "B723FC3817C36B8FE8AEF216673DF225"
+				"download" "AC452F905E9CCC5B12171DE0E423DDB6"
+			}
+			"summer2021"
+			{
+				"gid" "D82B4E6C0506DC2BF1B913C2266AEA94"
+				"size" "D78D053A80C03124FCB7AB9DE69FC22E"
+				"download" "0FB130D503605C7055CDE77227FB0D4C"
+			}
+			"suntech"
+			{
+				"gid" "796360F2C98E7884811EF73FFE394557"
+				"size" "6C79DF4E899502F1E45CF0B92737FFA1"
+				"download" "A80593BD052D2AA81B2F986A1360B26E"
+			}
+		}
+	}
+	"373482"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2762388834103011709"
+				"size" "460782687"
+				"download" "120540960"
+			}
+			"linux_beta"
+			{
+				"gid" "6481200707617902347"
+				"size" "428589090"
+				"download" "118119920"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "A841BFBA14C9533C9056710D9417CADC"
+				"size" "77E85F238B74A487C40456301BAF55A9"
+				"download" "C40EEB2EDC945AFD4B5382D52795D550"
+			}
+			"original2016"
+			{
+				"gid" "9429546043B0E532E625CC27A543DBC9"
+				"size" "B723FC3817C36B8FE8AEF216673DF225"
+				"download" "0446AD51C5BC9C9C6AA5B1ABC3373511"
+			}
+			"summer2021"
+			{
+				"gid" "D0026F9623A6D0251EA4799CC6EC5573"
+				"size" "625318B09B4799ED0D76AD7CFEA87EA2"
+				"download" "5D9C1D49FB02E5B007EDA9986972BF89"
+			}
+			"suntech"
+			{
+				"gid" "F60A5160A45557F2B193339E2DFDC1D9"
+				"size" "B185A20B70D905F1C5273BD69931EDEF"
+				"download" "1E8D225916230E3851B90E749A08E999"
+			}
+		}
+	}
+	"373483"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2818751354808439280"
+				"size" "479233569"
+				"download" "120156848"
+			}
+			"linux_beta"
+			{
+				"gid" "2818751354808439280"
+				"size" "479233569"
+				"download" "120156848"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "EC9276CEC772AD13C7B82301A7BB2B5F"
+				"size" "7D70333330445AC7FB1CD8C98F0DD465"
+				"download" "392EA3278F005728EA0B4CDAB24F0F98"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8626490"
+			"timeupdated" "1650981752"
+		}
+		"beta"
+		{
+			"buildid" "8557493"
+			"pwdrequired" "1"
+			"timeupdated" "1649931557"
+		}
+		"linux_beta"
+		{
+			"buildid" "8557202"
+			"description" "linux test"
+			"timeupdated" "1649929023"
+		}
+		"original2016"
+		{
+			"buildid" "7255954"
+			"pwdrequired" "1"
+			"timeupdated" "1629992169"
+		}
+		"summer2021"
+		{
+			"buildid" "7010763"
+			"pwdrequired" "1"
+			"timeupdated" "1625956169"
+		}
+		"suntech"
+		{
+			"buildid" "6747501"
+			"pwdrequired" "1"
+			"timeupdated" "1621842079"
+		}
+	}
+}
