@@ -1,0 +1,235 @@
+"appid" "2419800"
+"common"
+{
+	"name" "Harem in Another World"
+	"type" "Game"
+	"icon" "0acbb0bb0268b7ca4ab50779e53ba9b037d670e9"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"clienttga" "3cb20f78317fc10535e48b035313eb2f4ed15df9"
+	"clienticon" "0963b6bb53f9cc8f28f8b69e37f0ce8740198455"
+	"releasestate" "released"
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "5"
+	}
+	"restricted_countries" "DE"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1698710400"
+		"tested_build_id" "12522564"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "72.47924080664293"
+			"height_pct" "46.52991144044823"
+		}
+	}
+	"store_asset_mtime" "1718615707"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Jong Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Jong Games"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1697639880"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2419800"
+	"store_tags"
+	{
+		"0" "5611"
+		"1" "9130"
+		"2" "4947"
+		"3" "6650"
+		"4" "9551"
+		"5" "12095"
+		"6" "24904"
+		"7" "21"
+		"8" "122"
+		"9" "4106"
+		"10" "3871"
+		"11" "4085"
+		"12" "6815"
+		"13" "1684"
+		"14" "4136"
+		"15" "7332"
+		"16" "4182"
+		"17" "7481"
+		"18" "4305"
+		"19" "493"
+	}
+	"review_score" "8"
+	"review_percentage" "92"
+}
+"extended"
+{
+	"developer" "Jong Games"
+	"publisher" "Jong Games"
+	"gamemanualurl" "https://store.steampowered.com/manual/2419800/"
+	"listofdlc" "2850880"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Harem in Another World"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Game.exe"
+			"arguments" "--in-process-gpu"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"hasdepotsindlc" "1"
+	"2419801"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8207240076548902053"
+				"size" "538419826"
+				"download" "388382960"
+			}
+		}
+	}
+	"2850880"
+	{
+		"dlcappid" "2850880"
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9014403071700946593"
+				"size" "516532667"
+				"download" "504759152"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14544152"
+			"timeupdated" "1717055292"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "30"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "www/save"
+			"pattern" "*.rpgsave"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
