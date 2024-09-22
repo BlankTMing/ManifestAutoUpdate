@@ -1,0 +1,607 @@
+"appid" "292860"
+"common"
+{
+	"name" "Pajama Sam\'s Lost & Found"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "9b882cb15a7ca846662a5de0b601fc7850a6fa77"
+	"logo_small" "9b882cb15a7ca846662a5de0b601fc7850a6fa77_thumb"
+	"linuxclienticon" "d7639b74117bcfbac54a96fd911a9c80bcc2a616"
+	"clienticon" "d39c0b299a707f9ca12c9b6d2d45b00d0439be90"
+	"clienttga" "09fc0507aaf3513a3cf56ec9b611ee6e4178bea6"
+	"icon" "f36abef666310ec19a9c72670230778190a99211"
+	"clienticns" "7d940acdf6f746e61d57381b2d03a40c6c8d78ce"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1659139200"
+		"tested_build_id" "4419259"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Pajama Sam\'s Lost &amp;amp; Found"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "68.76430205949654"
+			"height_pct" "91.03538351935404"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "68.76430205949654"
+				"height_pct" "91.03538351935404"
+			}
+		}
+	}
+	"store_asset_mtime" "1576608444"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Humongous Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Humongous Entertainment"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Nightdive Studios"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "915091200"
+	"steam_release_date" "1402083705"
+	"community_hub_visible" "1"
+	"gameid" "292860"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "5350"
+		"2" "21"
+		"3" "1698"
+	}
+	"review_score" "5"
+	"review_percentage" "51"
+}
+"extended"
+{
+	"developer" "Humongous Entertainment"
+	"publisher" "Humongous Entertainment"
+	"homepage" "http://www.humongous.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Pajama Sams Lost and Found"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ScummVM_Windows\\scummvm.exe"
+			"arguments" "--no-console -c scummvm-pajamasamslostandfound.ini pajamalostandfound"
+			"description" "Launch"
+			"workingdir" "ScummVM_Windows\\"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm"
+			"arguments" "-c scummvm-pajamasamslostandfound.ini pajamalostandfound"
+			"description" "Launch"
+			"workingdir" "ScummVM_Mac\\"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "ScummVM_Linux\\launch_pajamasamslostandfound.sh"
+			"description" "Launch"
+			"workingdir" "ScummVM_Linux\\"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"292861"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2680268392684086314"
+				"size" "106263822"
+				"download" "65532064"
+			}
+			"beta"
+			{
+				"gid" "2680268392684086314"
+				"size" "106263822"
+				"download" "65532064"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "F9D2BE1A3873F0654FD6BD09AE14D040"
+				"size" "D5D7B440077E580AEE7C5B1F26877327"
+				"download" "7069D339913410AF569D5242937EE44E"
+			}
+		}
+	}
+	"292862"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1999132111720241152"
+				"size" "110074384"
+				"download" "64008016"
+			}
+			"beta"
+			{
+				"gid" "1999132111720241152"
+				"size" "110074384"
+				"download" "64008016"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "92BC1A4014AACCDBE910EB210AAD7094"
+				"size" "E4EB222AA7CEA7C0FD69D05FBB17A9B7"
+				"download" "3DB454D2D091DA6548651838B55693EE"
+			}
+		}
+	}
+	"292863"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5495733735214140213"
+				"size" "151790822"
+				"download" "2136424914"
+			}
+			"beta"
+			{
+				"gid" "5495733735214140213"
+				"size" "151790822"
+				"download" "2136424914"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "28DD506AB914C1940781FBCED1E181C8"
+				"size" "3BBA5D318C9F79349AE644B015026E8C"
+				"download" "18122959DFFC963266ED6E8D08413567"
+			}
+		}
+	}
+	"292864"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7420986959003294080"
+				"size" "27227273"
+				"download" "358407302531"
+			}
+			"beta"
+			{
+				"gid" "7420986959003294080"
+				"size" "27227273"
+				"download" "358407302531"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "9F2414A8AE00F3E0D499F6FB8CA324D4"
+				"size" "8370BD4CC786D561051D9E6E9F3A734B"
+				"download" "CC7E6F0605F50035ECF1B0A0140AFB4A"
+			}
+		}
+	}
+	"292865"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "545714107069452721"
+				"size" "468"
+				"download" "432"
+			}
+			"beta"
+			{
+				"gid" "545714107069452721"
+				"size" "468"
+				"download" "432"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "D56C559345E96609F96426B61CF07F87"
+				"size" "2F76B65E40C8196FE769F4B96B802093"
+				"download" "38E7996E7D4DACDBDA0BD2461BEF0F4E"
+			}
+		}
+	}
+	"292866"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4192741150135710224"
+				"size" "435"
+				"download" "416"
+			}
+			"beta"
+			{
+				"gid" "4192741150135710224"
+				"size" "435"
+				"download" "416"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "6C597CDAB3381572D1E51F49B69650DD"
+				"size" "5F5B39B50B733C44B11DB5D184F61BDE"
+				"download" "38E7996E7D4DACDBDA0BD2461BEF0F4E"
+			}
+		}
+	}
+	"292867"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7910181105937777653"
+				"size" "436"
+				"download" "416"
+			}
+			"beta"
+			{
+				"gid" "7910181105937777653"
+				"size" "436"
+				"download" "416"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "5C8E7C034C465003CF8CB02ABD7E2843"
+				"size" "4A11A6E0994D04531E5026997252C887"
+				"download" "38E7996E7D4DACDBDA0BD2461BEF0F4E"
+			}
+		}
+	}
+	"292868"
+	{
+		"config"
+		{
+			"language" "dutch"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8351169783724668787"
+				"size" "30379201"
+				"download" "342465712902"
+			}
+			"beta"
+			{
+				"gid" "8351169783724668787"
+				"size" "30379201"
+				"download" "342465712902"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "DAA2665179CA5F944F9ADD513A48D5F7"
+				"size" "C35EA7A098EB0E72313F17AF3D3FF666"
+				"download" "7DAA80C7ECE897599A6A006A70FED4D8"
+			}
+		}
+	}
+	"292869"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" "dutch"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "68142479930860473"
+				"size" "469"
+				"download" "432"
+			}
+			"beta"
+			{
+				"gid" "68142479930860473"
+				"size" "469"
+				"download" "432"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "198895FD130D1C4ECD7EACB90C5C3795"
+				"size" "61E6D173D686693A5BCE9BD242878D83"
+				"download" "DC8972ACDC2BD0D559508BF66E344B65"
+			}
+		}
+	}
+	"292870"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" "dutch"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4239683431401956788"
+				"size" "436"
+				"download" "416"
+			}
+			"beta"
+			{
+				"gid" "4239683431401956788"
+				"size" "436"
+				"download" "416"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "342855ECBE647FA0DA6301E477B80A02"
+				"size" "4A11A6E0994D04531E5026997252C887"
+				"download" "E8D85B72EE0AFD46BDC87C77CE357FF8"
+			}
+		}
+	}
+	"292871"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" "dutch"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "163491032610775513"
+				"size" "437"
+				"download" "416"
+			}
+			"beta"
+			{
+				"gid" "163491032610775513"
+				"size" "437"
+				"download" "416"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "9CC1E14B2C5E93052F3BF6BBF2DA4443"
+				"size" "BB67051E9256B93AFF297BB9CDD94089"
+				"download" "E8D85B72EE0AFD46BDC87C77CE357FF8"
+			}
+		}
+	}
+	"baselanguages" "english,dutch"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4419259"
+			"timeupdated" "1574492466"
+		}
+		"beta"
+		{
+			"buildid" "4419259"
+			"timeupdated" "1574492474"
+		}
+		"private_beta"
+		{
+			"buildid" "3704279"
+			"pwdrequired" "1"
+			"timeupdated" "1554271583"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10485760"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Saves"
+			"pattern" "*.*"
+		}
+	}
+}
