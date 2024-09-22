@@ -1,0 +1,585 @@
+"appid" "257030"
+"common"
+{
+	"name" "Project Nimbus: Complete Edition"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"logo" "b132aa8920440006ba1d06751445d40aca18322b"
+	"logo_small" "b132aa8920440006ba1d06751445d40aca18322b_thumb"
+	"clienticon" "0add4f34903b5ee99980ed263abc5e7f514bb9f3"
+	"clienttga" "b8851e7e51f3dac11678a024ad68d1d046268579"
+	"icon" "3162e12768cbcdc6dca6fbd9320da5f942c3d5a9"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "257030_eula_0"
+			"name" "Project Nimbus EULA"
+			"url" "http://store.steampowered.com//eula/257030_eula_0"
+		}
+	}
+	"languages"
+	{
+		"english" "1"
+		"japanese" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1646438400"
+		"tested_build_id" "4128241"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "simultaneous_gamepad_mouse"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Project Nimbus"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomCenter"
+				"width_pct" "50"
+				"height_pct" "50"
+			}
+		}
+	}
+	"store_asset_mtime" "1587982916"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "GameCrafterTeam"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "GameTomo Co., Ltd."
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "GameTomo Co., Ltd."
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "GameTomo Co., Ltd."
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_29" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"thai"
+		{
+			"full_audio" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1506445320"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "257030"
+	"store_tags"
+	{
+		"0" "4821"
+		"1" "19"
+		"2" "492"
+		"3" "5752"
+		"4" "4085"
+		"5" "3942"
+		"6" "1734"
+		"7" "4182"
+		"8" "15045"
+		"9" "1756"
+		"10" "122"
+	}
+	"review_score" "8"
+	"review_percentage" "85"
+}
+"extended"
+{
+	"developer" "GameCrafterTeam"
+	"publisher" "GameTomo Co., Ltd."
+	"homepage" "https://www.gametomo.co.jp/project-nimbus-pc"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Project Nimbus"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Binaries/Win32/UDK.exe"
+			"description" "Project Nimbus : Original Edition in 32 bit mode"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"1"
+		{
+			"executable" "Project Nimbus.app"
+			"description" "Launch Project Nimbus"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"9"
+		{
+			"executable" "ProjectNimbusCompleteEdition.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Launch Project Nimbus Complete Edition"
+			}
+			"description" "Launch Project Nimbus Complete Edition"
+		}
+		"10"
+		{
+			"executable" "RunGameWithChroma.bat"
+			"description" "Project Nimbus: Original Edition with RAZER Chroma integration"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"11"
+		{
+			"executable" "runGameForIntelGen11And12.bat"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Complete Edition for Generation 11/12 Intel CPU"
+			}
+			"description" "Complete Edition for Generation 11/12 Intel CPU"
+		}
+		"12"
+		{
+			"executable" "Binaries/Win64/UDK.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Project Nimbus: Original Edition"
+			}
+			"description" "Project Nimbus: Original Edition"
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229002"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"hasdepotsindlc" "0"
+	"baselanguages" ""
+	"257031"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6681851218748867978"
+				"size" "17426820987"
+				"download" "13267561008"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"mactestrollback"
+			{
+				"gid" "F6C9E8D07561DD00D7FAD544A29772BF"
+				"size" "F035C06396F1FAC56EB5B324CBCFBD24"
+				"download" "459D36D5DC1228166EC34116A0885954"
+			}
+			"prereleasetest"
+			{
+				"gid" "1ACD9D341E710DF39F05F898F80E3AF6"
+				"size" "09537CF395E9433E04A412483C125A06"
+				"download" "E9F8F6DE64CDA9F3F4A7FC9805178116"
+			}
+			"prereleasetest2"
+			{
+				"gid" "C06522871F2AD94B9FB05331566BFFBC"
+				"size" "3770A518C10B2B69E80AE8686035E216"
+				"download" "D1421A224C5CE6714D1C68C86628F3A6"
+			}
+			"rollbacktest"
+			{
+				"gid" "C36FE6780C7576B8BF4A6505139C96FA"
+				"size" "24D74C26285B456244A727CCC781AA6F"
+				"download" "4CBE6F7D3339402FB06A06D8CD51D73D"
+			}
+		}
+	}
+	"257032"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1824436341830748029"
+				"size" "8834841843"
+				"download" "5905758432"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"mactestrollback"
+			{
+				"gid" "BE1AAD5C210FF2F479241DF6C28BCC05"
+				"size" "18554E4E1F1013EBB0BDDF165E8B8091"
+				"download" "DB7CB7456B2F33A15BE7F56B05C65919"
+			}
+			"prereleasetest"
+			{
+				"gid" "0D28B36E8126102CE0C5D818DF9F221B"
+				"size" "93EFBC9797D67EF2FEB1EC7A695E0F23"
+				"download" "7B99CE4FAE8584B828F8F8631567CC1A"
+			}
+			"prereleasetest2"
+			{
+				"gid" "B6BE01DEE0025858D6F7ACD2D267E93B"
+				"size" "CD8C05BE5C31CE8D37D55E6BB6B07664"
+				"download" "324B9C76121204E2E8BAC261CF4015CF"
+			}
+			"rollbacktest"
+			{
+				"gid" "1ACF158E1E30F989D8E0DB9D97462D55"
+				"size" "67D1817DDCDC1BC7AF61A7FFED884DCE"
+				"download" "CC434C22F77EEF865DD7EB013FEFCE3E"
+			}
+		}
+	}
+	"932470"
+	{
+		"dlcappid" "932470"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8173731540012707875"
+				"size" "68138218"
+				"download" "67545456"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"prereleasetest"
+			{
+				"gid" "1EB747BCE09B6BE563C9DF2BB9C83B22"
+				"size" "62817A2A8C483EFF14AFFBE26F872EA2"
+				"download" "85E0E0B8899C76C91A3134648EA1E55A"
+			}
+			"prereleasetest2"
+			{
+				"gid" "862789327718BC48840208BC92E8ABC0"
+				"size" "5E97B82B630A56BFDF51DAE82E7A336B"
+				"download" "B63723C4BB073D19F48B3C51AA17B293"
+			}
+		}
+	}
+	"932471"
+	{
+		"dlcappid" "932471"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "861679955853785966"
+				"size" "1909583542"
+				"download" "1580636480"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"prereleasetest"
+			{
+				"gid" "B440F561560A7DF4BFD9FBCDA285875F"
+				"size" "55E540B276D28826A4E7349A57EFB7E8"
+				"download" "B0652754D5E5B87AD4CFD4D90BCE603F"
+			}
+			"prereleasetest2"
+			{
+				"gid" "61790859379CB6E536056BA05310623E"
+				"size" "022B1A79AAF909919B68193064613468"
+				"download" "96EDA76D332D62F7BDFE2D5E15A24E3C"
+			}
+		}
+	}
+	"932472"
+	{
+		"dlcappid" "932472"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1307299859442598077"
+				"size" "2239395102"
+				"download" "1814113488"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"prereleasetest"
+			{
+				"gid" "4E84F9E31BBF6BDE4DCC53431BD60A11"
+				"size" "D710D719B3F457E60784EB0616ED58AD"
+				"download" "970748E9CA21FA811D798058B2692CDC"
+			}
+			"prereleasetest2"
+			{
+				"gid" "BEDA1F3C2296DFF06A1131D39E5459FD"
+				"size" "5EF6B58149BEF2D4F7B655C649702578"
+				"download" "B0B4F994AEA09ADCDEB219F9DBD457BD"
+			}
+		}
+	}
+	"257033"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3945150385446831209"
+				"size" "5846307943"
+				"download" "5369442224"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"prereleasetest"
+			{
+				"gid" "8B853B009E6ED489500192E8689EC137"
+				"size" "4FDD156C4EA7BDBD0613F52CE6D58F61"
+				"download" "896B7DD7DBBECD7DA6A27AA60B539F90"
+			}
+			"prereleasetest2"
+			{
+				"gid" "F3E3236768B3385ABCFDCE199957081C"
+				"size" "2A38AD893E79FA852018DCC2547101BA"
+				"download" "184A22D361F68AD373694292395BA860"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13057366"
+			"timeupdated" "1703823724"
+		}
+		"mactestrollback"
+		{
+			"buildid" "1727230"
+			"pwdrequired" "1"
+			"timeupdated" "1503027606"
+		}
+		"prereleasetest"
+		{
+			"buildid" "4057168"
+			"pwdrequired" "1"
+			"timeupdated" "1564477095"
+		}
+		"prereleasetest2"
+		{
+			"buildid" "13057366"
+			"pwdrequired" "1"
+			"timeupdated" "1703771085"
+		}
+		"rollbacktest"
+		{
+			"buildid" "452416"
+			"pwdrequired" "1"
+		}
+	}
+}
