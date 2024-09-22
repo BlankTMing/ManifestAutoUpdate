@@ -1,0 +1,310 @@
+"appid" "370360"
+"common"
+{
+	"name" "TIS-100"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "5cafbe7be54aaf54999915159839949a5841d591"
+	"logo_small" "5cafbe7be54aaf54999915159839949a5841d591_thumb"
+	"icon" "42fd5647ea90f7df3a2a0a8991d2eda676c8efa7"
+	"clienttga" "af77fbd5ea5de2507066e03d03e8b1a01b17319a"
+	"clienticon" "5c63c3708a5754e5381867e86d15325b40d6ed2c"
+	"releasestate" "released"
+	"kbmousegame" "1"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1646179200"
+		"tested_build_id" "5832001"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "simultaneous_gamepad_mouse"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "TIS-100"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "52.81306715063519"
+			"height_pct" "64.58333333333334"
+		}
+	}
+	"store_asset_mtime" "1667069670"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Zachtronics"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Zachtronics"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_25" "1"
+		"category_22" "1"
+		"category_17" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1437405227"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "370360"
+	"store_tags"
+	{
+		"0" "5432"
+		"1" "1664"
+		"2" "492"
+		"3" "4026"
+		"4" "599"
+		"5" "5502"
+		"6" "6129"
+		"7" "4182"
+		"8" "1036"
+		"9" "255534"
+		"10" "1721"
+	}
+	"review_score" "9"
+	"review_percentage" "96"
+}
+"extended"
+{
+	"developer" "Zachtronics"
+	"publisher" "Zachtronics"
+	"homepage" "http://www.zachtronics.com/tis-100"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "TIS-100"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "tis100.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "TIS-100.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "tis100.x86"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "tis100.x86_64"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"370361"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3817547809422692189"
+				"size" "50190783"
+				"download" "19400192"
+			}
+			"previous"
+			{
+				"gid" "5976043299124878085"
+				"size" "50188727"
+				"download" "19399040"
+			}
+		}
+	}
+	"370362"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6233065756405430448"
+				"size" "96091571"
+				"download" "29801376"
+			}
+			"previous"
+			{
+				"gid" "8013277963600061082"
+				"size" "96090027"
+				"download" "29800464"
+			}
+		}
+	}
+	"370363"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8394348725058899270"
+				"size" "84039298"
+				"download" "29832224"
+			}
+			"previous"
+			{
+				"gid" "3475690159554361489"
+				"size" "84037242"
+				"download" "29831280"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14149786"
+			"timeupdated" "1713899190"
+		}
+		"previous"
+		{
+			"buildid" "5832001"
+			"description" "Previous version"
+			"timeupdated" "1714433000"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "{64BitSteamID}"
+			"pattern" "save.dat"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "{64BitSteamID}/save"
+			"pattern" "*"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "{64BitSteamID}/custom"
+			"pattern" "*.lua"
+		}
+	}
+	"rootoverrides"
+	{
+		"1"
+		{
+			"os" "windows"
+			"oscompare" "="
+			"root" "gameinstall"
+			"useinstead" "WinMyDocuments"
+			"addpath" "My Games/TIS-100"
+		}
+		"2"
+		{
+			"os" "macos"
+			"oscompare" "="
+			"root" "gameinstall"
+			"useinstead" "MacAppSupport"
+			"addpath" "TIS-100"
+		}
+		"3"
+		{
+			"os" "linux"
+			"oscompare" "="
+			"root" "gameinstall"
+			"useinstead" "LinuxXdgDataHome"
+			"addpath" "TIS-100"
+		}
+	}
+}
