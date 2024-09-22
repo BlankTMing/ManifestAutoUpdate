@@ -1,0 +1,282 @@
+"appid" "1890480"
+"common"
+{
+	"name" "Lorn\'s Lure: Prologue"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"osextended" ""
+	"icon" "6c5a45c2be9f5efae6b00a5833cd0fba1a70f0a7"
+	"logo" "59a8dce379e318f468ce3c610dfc4854f029c6fd"
+	"logo_small" "59a8dce379e318f468ce3c610dfc4854f029c6fd_thumb"
+	"clienttga" "a63da9e843236da628cb1e13e66af7de91451163"
+	"clienticon" "b640f897fc9c562e7f4308294e12134dc6cdafa6"
+	"releasestate" "released"
+	"app_retired_publisher_request" "1"
+	"app_retired_was_free" "1"
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1666224000"
+		"tested_build_id" "8413269"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-4"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "60.998518518518516"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50"
+				"height_pct" "60.998518518518516"
+			}
+		}
+	}
+	"store_asset_mtime" "1698385643"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Rubeki"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Rubeki"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1647006745"
+	"community_hub_visible" "1"
+	"gameid" "1890480"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "21"
+		"2" "4106"
+		"3" "1625"
+		"4" "5395"
+		"5" "3834"
+		"6" "3877"
+		"7" "4191"
+		"8" "3839"
+		"9" "4094"
+		"10" "3964"
+		"11" "4252"
+		"12" "4145"
+		"13" "4166"
+		"14" "4342"
+		"15" "1667"
+		"16" "4036"
+		"17" "4004"
+		"18" "7250"
+		"19" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"developer" "Rubeki"
+	"publisher" "Rubeki"
+	"homepage" "https://rubeki.com/"
+}
+"config"
+{
+	"installdir" "Lorn\'s Lure Standalone Demo"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "LornsLure.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Contents/MacOS/LornsLure"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Lorn\'s Lure DemoV2 Linux.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1890481"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "793774187831795749"
+				"size" "652514360"
+				"download" "330972592"
+			}
+		}
+	}
+	"1890482"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3322153200777496072"
+				"size" "672546555"
+				"download" "340133168"
+			}
+		}
+	}
+	"1890483"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5584507117227588799"
+				"size" "701640610"
+				"download" "353372832"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8413269"
+			"timeupdated" "1647909895"
+		}
+	}
+}
