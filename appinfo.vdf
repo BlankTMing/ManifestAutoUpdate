@@ -78,6 +78,52 @@
 			"height_pct" "56.45927333175018"
 		}
 	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"sc_schinese" "library_600x900_sc_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"sc_schinese" "library_600x900_sc_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+				"sc_schinese" "library_hero_sc_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"sc_schinese" "logo_sc_schinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomCenter"
+				"width_pct" "41.075514874141874"
+				"height_pct" "56.45927333175018"
+			}
+		}
+	}
 	"store_asset_mtime" "1669258972"
 	"associations"
 	{
@@ -94,7 +140,12 @@
 		"2"
 		{
 			"type" "franchise"
-			"name" "Absolver"
+			"name" "Devolver Digital"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Sloclap"
 		}
 	}
 	"primary_genre" "1"
@@ -117,6 +168,7 @@
 		"category_43" "1"
 		"category_45" "1"
 		"category_46" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -193,11 +245,11 @@
 		"15" "4608"
 		"16" "1754"
 		"17" "128"
-		"18" "29482"
-		"19" "4166"
+		"18" "4166"
+		"19" "29482"
 	}
 	"review_score" "6"
-	"review_percentage" "71"
+	"review_percentage" "72"
 }
 "extended"
 {
@@ -233,80 +285,6 @@
 }
 "depots"
 {
-	"branches"
-	{
-		"steam_china_only"
-		{
-			"sc_schinese" "仅中国"
-			"buildid" "6000998"
-			"pwdrequired" "1"
-			"timeupdated" "1609400713"
-		}
-		"public"
-		{
-			"buildid" "7627942"
-			"timeupdated" "1635616891"
-		}
-		"absolver_test_servers"
-		{
-			"buildid" "4228121"
-			"pwdrequired" "1"
-			"timeupdated" "1569418732"
-		}
-		"beta"
-		{
-			"buildid" "2570967"
-			"timeupdated" "1520002946"
-		}
-		"compatibility"
-		{
-			"buildid" "3128672"
-			"pwdrequired" "1"
-			"timeupdated" "1537190840"
-		}
-		"devbranch"
-		{
-			"buildid" "4128469"
-			"pwdrequired" "1"
-			"timeupdated" "1566456538"
-		}
-		"devlive"
-		{
-			"buildid" "2980021"
-			"pwdrequired" "1"
-			"timeupdated" "1532621723"
-		}
-		"easyanticheat"
-		{
-			"buildid" "2364474"
-			"pwdrequired" "1"
-			"timeupdated" "1513172708"
-		}
-		"steam_china_dev"
-		{
-			"buildid" "7627942"
-			"pwdrequired" "1"
-			"timeupdated" "1635543571"
-		}
-		"test"
-		{
-			"buildid" "3571154"
-			"pwdrequired" "1"
-			"timeupdated" "1550495348"
-		}
-		"test_loc"
-		{
-			"buildid" "4015246"
-			"pwdrequired" "1"
-			"timeupdated" "1563268015"
-		}
-		"vip_beta"
-		{
-			"buildid" "2825534"
-			"pwdrequired" "1"
-			"timeupdated" "1527853568"
-		}
-	}
 	"hasdepotsindlc" "1"
 	"baselanguages" "english,schinese,sc_schinese"
 	"228986"
@@ -712,6 +690,80 @@
 			}
 		}
 	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "7627942"
+			"timeupdated" "1635616891"
+		}
+		"absolver_test_servers"
+		{
+			"buildid" "4228121"
+			"pwdrequired" "1"
+			"timeupdated" "1569418732"
+		}
+		"beta"
+		{
+			"buildid" "2570967"
+			"timeupdated" "1520002946"
+		}
+		"compatibility"
+		{
+			"buildid" "3128672"
+			"pwdrequired" "1"
+			"timeupdated" "1537190840"
+		}
+		"devbranch"
+		{
+			"buildid" "4128469"
+			"pwdrequired" "1"
+			"timeupdated" "1566456538"
+		}
+		"devlive"
+		{
+			"buildid" "2980021"
+			"pwdrequired" "1"
+			"timeupdated" "1532621723"
+		}
+		"easyanticheat"
+		{
+			"buildid" "2364474"
+			"pwdrequired" "1"
+			"timeupdated" "1513172708"
+		}
+		"steam_china_dev"
+		{
+			"buildid" "7627942"
+			"pwdrequired" "1"
+			"timeupdated" "1635543571"
+		}
+		"steam_china_only"
+		{
+			"sc_schinese" "仅中国"
+			"buildid" "6000998"
+			"pwdrequired" "1"
+			"timeupdated" "1609400713"
+		}
+		"test"
+		{
+			"buildid" "3571154"
+			"pwdrequired" "1"
+			"timeupdated" "1550495348"
+		}
+		"test_loc"
+		{
+			"buildid" "4015246"
+			"pwdrequired" "1"
+			"timeupdated" "1563268015"
+		}
+		"vip_beta"
+		{
+			"buildid" "2825534"
+			"pwdrequired" "1"
+			"timeupdated" "1527853568"
+		}
+	}
 }
 "ufs"
 {
@@ -751,7 +803,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "22666047"
-"_sha" "dcc3b4cd35a5d72dfa0620d9bedef1efef5cae66"
-"_size" "15898"
