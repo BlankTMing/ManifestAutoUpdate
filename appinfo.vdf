@@ -1,0 +1,249 @@
+"appid" "410980"
+"common"
+{
+	"name" "Master of Orion 2"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "16e35deab18dcbc7e85493d69cc06867278f3d80"
+	"logo_small" "16e35deab18dcbc7e85493d69cc06867278f3d80_thumb"
+	"clienticon" "232da72d5998f447587bbfa8a70c8055f92b191b"
+	"clienttga" "8568cbb57d13e481278cc08a7fe5f1daa478d4ba"
+	"icon" "f2dda48354068ec953932fa262a895e78dd16f56"
+	"releasestate" "released"
+	"clienticns" "ce7390312bd6f5179ad5f219c9f99ee65ca4647b"
+	"linuxclienticon" "047addcd82a8e30962c1176d0a73b5bf02f60b89"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1653436800"
+		"tested_build_id" "1251164"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Master of Orion 2"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1707239362"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "SimTex"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Wargaming Labs"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "848649600"
+	"steam_release_date" "1456423980"
+	"community_hub_visible" "1"
+	"gameid" "410980"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "1670"
+		"2" "1677"
+		"3" "1755"
+		"4" "3942"
+		"5" "1693"
+		"6" "1741"
+		"7" "3859"
+		"8" "4182"
+		"9" "4004"
+	}
+	"review_score" "9"
+	"review_percentage" "96"
+}
+"extended"
+{
+	"developer" "SimTex"
+	"publisher" "Wargaming Labs"
+	"homepage" "http://www.masteroforion.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Master of Orion 2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DOSBOX\\DOSBox.exe"
+			"arguments" "-conf \"..\\dosboxMOO2.conf\" -conf \"..\\dosboxMOO2_single.conf\" -noconsole -c exit"
+			"workingdir" "DOSBOX"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "start.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "Master Of Orion 2.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"410981"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1879897312378045320"
+				"size" "393458609"
+				"download" "201489968"
+			}
+		}
+	}
+	"410982"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7688680691359260720"
+				"size" "415623948"
+				"download" "218491360"
+			}
+		}
+	}
+	"410983"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4157687316646854630"
+				"size" "399935980"
+				"download" "203148400"
+			}
+		}
+	}
+	"410984"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4346980210501833680"
+				"size" "393593266"
+				"download" "199494256"
+			}
+		}
+	}
+	"410985"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6363959464960609755"
+				"size" "390614532"
+				"download" "197737632"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1251164"
+			"timeupdated" "1470995856"
+		}
+	}
+}
