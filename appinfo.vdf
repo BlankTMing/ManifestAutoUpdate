@@ -29,6 +29,7 @@
 	{
 		"schinese" "忍者龟：施莱德的复仇"
 		"sc_schinese" "忍者龟：施莱德的复仇"
+		"tchinese" "忍者龜：施萊德的復仇"
 	}
 	"releasestatesteamchina" "prerelease"
 	"steam_deck_compatibility"
@@ -97,6 +98,54 @@
 			"height_pct" "100"
 		}
 	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"sc_schinese" "library_600x900_sc_schinese_2x.jpg"
+			}
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"sc_schinese" "library_600x900_sc_schinese.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+				"sc_schinese" "library_hero_sc_schinese_2x.jpg"
+			}
+			"image"
+			{
+				"english" "library_hero.jpg"
+				"sc_schinese" "library_hero_sc_schinese.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"sc_schinese" "logo_sc_schinese.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "48.98625190392195"
+				"height_pct" "100"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"sc_schinese" "logo_sc_schinese_2x.png"
+			}
+		}
+	}
 	"store_asset_mtime" "1693409663"
 	"associations"
 	{
@@ -124,6 +173,11 @@
 		{
 			"type" "franchise"
 			"name" "Tribute Games Inc."
+		}
+		"5"
+		{
+			"type" "franchise"
+			"name" "Gamera Games"
 		}
 	}
 	"primary_genre" "23"
@@ -183,11 +237,13 @@
 		{
 			"supported" "true"
 			"subtitles" "true"
+			"full_audio" "true"
 		}
 		"tchinese"
 		{
 			"supported" "true"
 			"subtitles" "true"
+			"full_audio" "true"
 		}
 		"koreana"
 		{
@@ -219,18 +275,18 @@
 		"5" "3871"
 		"6" "4106"
 		"7" "1688"
-		"8" "6915"
-		"9" "1773"
+		"8" "1773"
+		"9" "6915"
 		"10" "19"
 		"11" "492"
 		"12" "4305"
 		"13" "4562"
 		"14" "5350"
-		"15" "1751"
-		"16" "4182"
+		"15" "4182"
+		"16" "1751"
 		"17" "21"
 		"18" "4166"
-		"19" "1719"
+		"19" "3841"
 	}
 	"review_score" "8"
 	"review_percentage" "94"
@@ -312,162 +368,6 @@
 }
 "depots"
 {
-	"branches"
-	{
-		"steam_china_only"
-		{
-			"sc_schinese" "仅中国"
-		}
-		"public"
-		{
-			"buildid" "14442522"
-			"timeupdated" "1716299237"
-		}
-		"alpha"
-		{
-			"buildid" "5934433"
-			"pwdrequired" "1"
-			"timeupdated" "1607379205"
-		}
-		"beta2"
-		{
-			"buildid" "8176931"
-			"pwdrequired" "1"
-			"timeupdated" "1644462428"
-		}
-		"betamilestone"
-		{
-			"buildid" "7534130"
-			"pwdrequired" "1"
-			"timeupdated" "1634226362"
-		}
-		"china"
-		{
-			"buildid" "11031710"
-			"pwdrequired" "1"
-			"timeupdated" "1681838887"
-		}
-		"compat_huwiz"
-		{
-			"buildid" "10533582"
-			"pwdrequired" "1"
-			"timeupdated" "1676470387"
-		}
-		"consoles"
-		{
-			"buildid" "11435765"
-			"pwdrequired" "1"
-			"timeupdated" "1686559756"
-		}
-		"demo"
-		{
-			"buildid" "8558743"
-			"pwdrequired" "1"
-			"timeupdated" "1649944337"
-		}
-		"external_review"
-		{
-			"buildid" "10284463"
-			"pwdrequired" "1"
-			"timeupdated" "1673431062"
-		}
-		"featuresmilestone"
-		{
-			"buildid" "6994950"
-			"pwdrequired" "1"
-			"timeupdated" "1625697645"
-		}
-		"gameplaysprint"
-		{
-			"buildid" "6315437"
-			"pwdrequired" "1"
-			"timeupdated" "1614697523"
-		}
-		"gamerareview"
-		{
-			"buildid" "12512914"
-			"pwdrequired" "1"
-			"timeupdated" "1698159643"
-		}
-		"master_backup"
-		{
-			"buildid" "12228983"
-			"pwdrequired" "1"
-			"timeupdated" "1695208491"
-		}
-		"nickelodeon"
-		{
-			"buildid" "11308364"
-			"pwdrequired" "1"
-			"timeupdated" "1685019926"
-		}
-		"nightlyweekly"
-		{
-			"buildid" "7534130"
-			"pwdrequired" "1"
-			"timeupdated" "1634567811"
-		}
-		"press_review"
-		{
-			"buildid" "11792768"
-			"pwdrequired" "1"
-			"timeupdated" "1690970352"
-		}
-		"private"
-		{
-			"buildid" "10364579"
-			"pwdrequired" "1"
-			"timeupdated" "1674226269"
-		}
-		"releasehotfix"
-		{
-			"buildid" "11300783"
-			"pwdrequired" "1"
-			"timeupdated" "1684874922"
-		}
-		"speedrun"
-		{
-			"buildid" "9080781"
-			"pwdrequired" "1"
-			"timeupdated" "1668199663"
-		}
-		"tribute"
-		{
-			"buildid" "14024227"
-			"pwdrequired" "1"
-			"timeupdated" "1712849253"
-		}
-		"beta2_first_delivery"
-		{
-			"buildid" "14311756"
-			"pwdrequired" "1"
-			"timeupdated" "1715761942"
-		}
-		"internal_qa"
-		{
-			"buildid" "13989202"
-			"pwdrequired" "1"
-			"timeupdated" "1714636958"
-		}
-		"localisation"
-		{
-			"buildid" "13989202"
-			"pwdrequired" "1"
-			"timeupdated" "1714382975"
-		}
-		"master"
-		{
-			"buildid" "14442515"
-			"pwdrequired" "1"
-			"timeupdated" "1716299204"
-		}
-		"nightly"
-		{
-			"buildid" "14385090"
-			"pwdrequired" "1"
-			"timeupdated" "1715838685"
-		}
-	}
 	"228983"
 	{
 		"config"
@@ -542,12 +442,6 @@
 				"gid" "4E8FD3AE0D0DC6EB4BCF70617512ED77"
 				"size" "D91873506F091190007C6A84B430E42E"
 				"download" "E811EE29B7959FFC9BF6254685F9FCBF"
-			}
-			"consoles"
-			{
-				"gid" "C2816DD9C8C7DD976CCFE90ED524F459"
-				"size" "5DE3C1D1A3AC9CBC22F58E0F1AE7A710"
-				"download" "608DE30951AB75886212882A090D1413"
 			}
 			"demo"
 			{
@@ -633,29 +527,35 @@
 				"size" "DF5CB99B817BCB2AE78F360A07CD97B0"
 				"download" "1E979FB117210A8205002E8BD9D7FAD6"
 			}
+			"consoles"
+			{
+				"gid" "B7459882B75B559CF250A0499DC3FBBD"
+				"size" "75A4A8B76C45C49C4D2F77BF588C90E9"
+				"download" "EAF43F118AF4FC1011F1405E6BE34E49"
+			}
 			"internal_qa"
 			{
-				"gid" "A7962473A6A5F70C082C2479F36E5BF5"
-				"size" "AA87411E2EE3A3B2579ACADFA9A75C02"
-				"download" "3044D7F03B803AB84045D513BFD91B0D"
+				"gid" "61ED39D110F1FF7A1A0DAEFE6F550497"
+				"size" "C7B0D55CBE9D5A056FB8C71133D7E92A"
+				"download" "9F69EAD5F3514AA9F2DAAEA11C0AB354"
 			}
 			"localisation"
 			{
-				"gid" "219E0BBBCCAB2F65D9DEC493F19A8121"
-				"size" "9B8C36C2B545E80A601E1F6C806757E9"
-				"download" "B1CCE043504B304309DF9C6D35054195"
+				"gid" "B355A979339029AD7954739B32CF158F"
+				"size" "5C4C80866FC9465C0E94FF6084A23AA4"
+				"download" "FBFB9BC9B15BF0CF9BAEC8FD501B741C"
 			}
 			"master"
 			{
-				"gid" "9C74B3C773442A53D49F51BFE522E8DC"
-				"size" "2E9FB346743CEF8287354336F64DE339"
-				"download" "D09FB3B7C6BD28FC310316873292738F"
+				"gid" "EBBFCB410E66F891CE77D4989736B7FC"
+				"size" "877079459D863A641703B22DF729316F"
+				"download" "9457D186EAE6A033909F7FDEAC874A93"
 			}
 			"nightly"
 			{
-				"gid" "46464B853850E9A47CEDF44929EEAED5"
-				"size" "1EF5D3DF13ABEE05691226DF52819547"
-				"download" "737ECDB6099D5450FA840BCAA73E8320"
+				"gid" "7EBBF5910040CABCC9B380078A4405A5"
+				"size" "AA266940BE72B8CCDBA2B550A96C4A0A"
+				"download" "3FCC05339B7895DF5F05ADC1B1ED0060"
 			}
 		}
 	}
@@ -688,12 +588,6 @@
 				"gid" "95894A9B277F8C1036F4C3304918B9C1"
 				"size" "090C4B3D9849136E08C0CCB03CC1E65B"
 				"download" "237D1007D2F11CE076C447BD26E28334"
-			}
-			"consoles"
-			{
-				"gid" "BEE990227FA273752D0021A18AAF5C4F"
-				"size" "A531220C6145A03E791871A5FDA4FCDE"
-				"download" "1237FAC22B42EF4E9A48FDB2190D73E5"
 			}
 			"external_review"
 			{
@@ -755,23 +649,29 @@
 				"size" "7E9E7E72C956A44E96652121C7B4CCEC"
 				"download" "3BD0940FCFB900D955212DDC4AD4BB4E"
 			}
+			"consoles"
+			{
+				"gid" "A665D3E3D8B2E3F1B3AC404908780D06"
+				"size" "0BD59D8ED9FF94F551D3D3DBBC878420"
+				"download" "ABC0ABD5DF2E8FA8CECF9AE27D3E8D7A"
+			}
 			"internal_qa"
 			{
-				"gid" "0757AF43AE1F5673AC366A7635A07344"
-				"size" "E8AE48183F549E8AFA0DE84D3D096149"
-				"download" "9B4311C1FCE0E95F7F3DE4BD2D3E83D2"
+				"gid" "74073BB4BE0432268C4435BBFD0A8D44"
+				"size" "4008C4BBD43730BBCC6BBD9B237530B3"
+				"download" "42D9E3FC20AC386AB278CE30925DDF38"
 			}
 			"localisation"
 			{
-				"gid" "9149755CE5E3FED63B8E157B2A527F47"
-				"size" "4A39C6302C70A5FA065A5C17F28B94DA"
-				"download" "A9A610654ED22B75A4946E17AED4B413"
+				"gid" "9CAD54344931BD29C4C4A8CBD514621D"
+				"size" "D46F7FAE387FEA23D51CC0906EC8C510"
+				"download" "A15CE3437721C8F56C54B4D67AE3E01C"
 			}
 			"master"
 			{
-				"gid" "363CC9CD6A472848531F95CD9454B0F5"
-				"size" "5B1F4961F068B6B604B7C526D339E135"
-				"download" "8B5D9C36635829109C975DC0B6A2AB83"
+				"gid" "76001537DC8D478E6AF82863DB7C45AE"
+				"size" "C9D314AB18CB805CB08C19C602AF3E3A"
+				"download" "E070D29467F974E2B083BC6A55DC2ADD"
 			}
 			"nightly"
 			{
@@ -803,12 +703,6 @@
 		}
 		"encryptedmanifests"
 		{
-			"consoles"
-			{
-				"gid" "526A921176B902CB6B4DB1BDDDD7048F"
-				"size" "8E3691A6A6AFD99DF0F1C1D4E2CEB1B3"
-				"download" "D739D7AE5A4A892D6E675D15AAC30385"
-			}
 			"gamerareview"
 			{
 				"gid" "C05FABBFE4E821147B6C8704EA29CEAB"
@@ -845,30 +739,188 @@
 				"size" "E7EEFC832511C309A055281EF7E42567"
 				"download" "4D609EB162508252A0BE27339F0E89EB"
 			}
+			"consoles"
+			{
+				"gid" "6F5971A11FA01D3245D4350ED09CA40F"
+				"size" "2C5A02CD0720874D741295BD7235E2CB"
+				"download" "E4C28C7A2BB569DAD00525A8B982F3EF"
+			}
 			"internal_qa"
 			{
-				"gid" "FDFCC75787886C37147178A1EA646DFD"
+				"gid" "2816BF3B100CE0A15A4ADDFD9877E445"
 				"size" "3D40512B24351FE8CF4EED9C0342D4D2"
-				"download" "BA918F0B35E40590E25920F33CC210F2"
+				"download" "7D02C81EB213B6C0047C41AB61C713DD"
 			}
 			"localisation"
 			{
-				"gid" "17624B783B1EC43FC31718FCC181C53D"
+				"gid" "B012330806D47E00F8CE9008B8DD6E7E"
 				"size" "4C617DA08D2CBC73629B6BF3C6C7CD99"
-				"download" "BB2E4C6AFCD740356B67E397E014090A"
+				"download" "235AFECE02B86048C0C44763E07D9C6D"
 			}
 			"master"
 			{
-				"gid" "9F952ADBDF0673ABF0C918466D65B37F"
+				"gid" "632758BB574704CF01FDDE774D8DE67B"
 				"size" "35C63ACDF1E6D64F1D0ADA8E8FDA1386"
-				"download" "BDE7091B807F27145A46F2466D9D5D2C"
+				"download" "EC997B6129482DF01FAC3DDEAC2E8777"
 			}
 			"nightly"
 			{
-				"gid" "B3D7EE1C2B3B7EBB0991BA0F4FF33CDF"
+				"gid" "8C732EFD9A436354807642E31BEE532A"
 				"size" "6C90D373FFFAB954F5E4E2990BDB0144"
-				"download" "84B4E4B33D08658EE2348EAB0DB49E6F"
+				"download" "FE90F90F09B5419C6DC4015997A385C0"
 			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14442522"
+			"timeupdated" "1716299237"
+		}
+		"alpha"
+		{
+			"buildid" "5934433"
+			"pwdrequired" "1"
+			"timeupdated" "1607379205"
+		}
+		"beta2"
+		{
+			"buildid" "8176931"
+			"pwdrequired" "1"
+			"timeupdated" "1644462428"
+		}
+		"betamilestone"
+		{
+			"buildid" "7534130"
+			"pwdrequired" "1"
+			"timeupdated" "1634226362"
+		}
+		"china"
+		{
+			"buildid" "11031710"
+			"pwdrequired" "1"
+			"timeupdated" "1681838887"
+		}
+		"compat_huwiz"
+		{
+			"buildid" "10533582"
+			"pwdrequired" "1"
+			"timeupdated" "1676470387"
+		}
+		"demo"
+		{
+			"buildid" "8558743"
+			"pwdrequired" "1"
+			"timeupdated" "1649944337"
+		}
+		"external_review"
+		{
+			"buildid" "10284463"
+			"pwdrequired" "1"
+			"timeupdated" "1673431062"
+		}
+		"featuresmilestone"
+		{
+			"buildid" "6994950"
+			"pwdrequired" "1"
+			"timeupdated" "1625697645"
+		}
+		"gameplaysprint"
+		{
+			"buildid" "6315437"
+			"pwdrequired" "1"
+			"timeupdated" "1614697523"
+		}
+		"gamerareview"
+		{
+			"buildid" "12512914"
+			"pwdrequired" "1"
+			"timeupdated" "1698159643"
+		}
+		"master_backup"
+		{
+			"buildid" "12228983"
+			"pwdrequired" "1"
+			"timeupdated" "1695208491"
+		}
+		"nickelodeon"
+		{
+			"buildid" "11308364"
+			"pwdrequired" "1"
+			"timeupdated" "1685019926"
+		}
+		"nightlyweekly"
+		{
+			"buildid" "7534130"
+			"pwdrequired" "1"
+			"timeupdated" "1634567811"
+		}
+		"press_review"
+		{
+			"buildid" "11792768"
+			"pwdrequired" "1"
+			"timeupdated" "1690970352"
+		}
+		"private"
+		{
+			"buildid" "10364579"
+			"pwdrequired" "1"
+			"timeupdated" "1674226269"
+		}
+		"releasehotfix"
+		{
+			"buildid" "11300783"
+			"pwdrequired" "1"
+			"timeupdated" "1684874922"
+		}
+		"speedrun"
+		{
+			"buildid" "9080781"
+			"pwdrequired" "1"
+			"timeupdated" "1668199663"
+		}
+		"tribute"
+		{
+			"buildid" "14024227"
+			"pwdrequired" "1"
+			"timeupdated" "1712849253"
+		}
+		"beta2_first_delivery"
+		{
+			"buildid" "14311756"
+			"pwdrequired" "1"
+			"timeupdated" "1715761942"
+		}
+		"consoles"
+		{
+			"buildid" "14726835"
+			"pwdrequired" "1"
+			"timeupdated" "1718698852"
+		}
+		"internal_qa"
+		{
+			"buildid" "14491147"
+			"pwdrequired" "1"
+			"timeupdated" "1718027066"
+		}
+		"localisation"
+		{
+			"buildid" "14985158"
+			"pwdrequired" "1"
+			"timeupdated" "1720620668"
+		}
+		"master"
+		{
+			"buildid" "15664053"
+			"pwdrequired" "1"
+			"timeupdated" "1726058080"
+		}
+		"nightly"
+		{
+			"buildid" "15058089"
+			"pwdrequired" "1"
+			"timeupdated" "1721195492"
 		}
 	}
 }
@@ -877,7 +929,3 @@
 	"quota" "100000000000"
 	"maxnumfiles" "10000"
 }
-"_missing_token" "False"
-"_change_number" "23628240"
-"_sha" "228045c137089c4f7e116b5d4edbe2ef96910a00"
-"_size" "20246"
