@@ -1,0 +1,386 @@
+"appid" "386010"
+"common"
+{
+	"name" "Steambirds Alliance"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"clienttga" "2365c346cb057c88fd738390824f3aab40ddbeb1"
+	"clienticon" "dcf079af963314ee7818e72e525855a1e3a1c025"
+	"clienticns" "6472c3afd52a200538aedddb40973378694a63e3"
+	"logo" "91ac0605e1205e7f733b53d33cf1458124834db3"
+	"logo_small" "91ac0605e1205e7f733b53d33cf1458124834db3_thumb"
+	"icon" "db9ad28a9d7b21501307998680cee2a9c9aade38"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "386010_eula_1"
+			"name" "Steambirds Alliance EULA 1"
+			"url" "http://store.steampowered.com//eula/386010_eula_1"
+		}
+	}
+	"linuxclienticon" "9dba9941fd011ce277939f4661007b7a6ef7fc79"
+	"osarch" ""
+	"osextended" "macos64"
+	"app_retired_publisher_request" "1"
+	"app_retired_was_free" "1"
+	"metacritic_name" "Steambirds Alliance"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "50"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1566429520"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Spry Fox LLC"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Spry Fox LLC"
+		}
+	}
+	"primary_genre" "29"
+	"genres"
+	{
+		"0" "1"
+		"1" "37"
+		"2" "23"
+		"3" "29"
+		"4" "3"
+	}
+	"category"
+	{
+		"category_27" "1"
+		"category_20" "1"
+		"category_35" "1"
+		"category_38" "1"
+		"category_28" "1"
+		"category_36" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_9" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1566489960"
+	"community_hub_visible" "1"
+	"gameid" "386010"
+	"store_tags"
+	{
+		"0" "113"
+		"1" "4885"
+		"2" "128"
+		"3" "19"
+		"4" "122"
+		"5" "492"
+		"6" "1774"
+		"7" "1685"
+		"8" "4255"
+		"9" "3859"
+		"10" "3843"
+		"11" "3959"
+		"12" "1759"
+	}
+	"review_score" "6"
+	"review_percentage" "75"
+}
+"extended"
+{
+	"developer" "Spry Fox LLC"
+	"publisher" "Spry Fox LLC"
+	"homepage" "http://steambirds.com"
+	"listofdlc" "1144710"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Steambirds Alliance"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Steambirds.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Steambirds.app\\Contents\\MacOS\\Steambirds Alliance"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Steambirds.exe"
+			"arguments" "-connectionConfig beta -ignoreSteamBranchForConnection"
+			"description" "On Beta Servers"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "test"
+			}
+		}
+		"3"
+		{
+			"executable" "Steambirds.app\\Contents\\MacOS\\Steambirds Alliance"
+			"arguments" "-connectionConfig beta -ignoreSteamBranchForConnection"
+			"description" "On Beta Servers"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+				"betakey" "test"
+			}
+		}
+		"4"
+		{
+			"executable" "Steambirds.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"5"
+		{
+			"executable" "Steambirds.x86_64"
+			"arguments" "-connectionConfig beta -ignoreSteamBranchForConnection"
+			"description" "On Beta Servers"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+				"betakey" "test"
+			}
+		}
+		"6"
+		{
+			"executable" "Steambirds.exe"
+			"arguments" "-connectionConfig prod -ignoreSteamBranchForConnection"
+			"description" "On Prod Servers"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "test"
+			}
+		}
+		"7"
+		{
+			"executable" "Steambirds.app\\Contents\\MacOS\\Steambirds Alliance"
+			"arguments" "-connectionConfig prod -ignoreSteamBranchForConnection"
+			"description" "On Prod Servers"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "macos"
+				"betakey" "test"
+			}
+		}
+		"8"
+		{
+			"executable" "Steambirds.x86_64"
+			"arguments" "-connectionConfig prod -ignoreSteamBranchForConnection"
+			"description" "On Prod Servers"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "linux"
+				"betakey" "test"
+			}
+		}
+	}
+}
+"depots"
+{
+	"386011"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1820059818893407855"
+				"size" "70803410"
+				"download" "17051232"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "AA553E6DAD952627EA5075B5D32FA5C3"
+				"size" "3CAC11A3D39D2BD209AE17624389961C"
+				"download" "482BEB9B813D7DE2FD2A5062969551D2"
+			}
+			"test"
+			{
+				"gid" "2EAA734AC0C25F30E94F2BDF36B93155"
+				"size" "DC22EDBB9F7C12FE0BC2BBB8AD86C8C1"
+				"download" "8542399D6F22B2C2C63F20F1E737FE17"
+			}
+		}
+	}
+	"386012"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1104612518219404745"
+				"size" "70199841"
+				"download" "16777792"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "95DAED8E7F9792E524875933A5657322"
+				"size" "668D716110008CE03A218319E680D5E7"
+				"download" "964D4FB5511B79A74E77989383B512FF"
+			}
+			"test"
+			{
+				"gid" "2ACB572FC4377BC4A9D3338CB99344E4"
+				"size" "4BE2A06D8909A3F7864F2C5FA440C0B5"
+				"download" "20CD1EF2EE3C04522CB2626A2A11087A"
+			}
+		}
+	}
+	"386013"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5200215996260079867"
+				"size" "72005519"
+				"download" "17350144"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "7FE977EDDC96572B9865796F087D9AE7"
+				"size" "9504D957E0C1A30FE6263C1333935B32"
+				"download" "132183B0181C3165BFB38306813D7707"
+			}
+			"test"
+			{
+				"gid" "FD9E7377433F443D83EB2A5D486F3D08"
+				"size" "52514BA1DBA675A62C51EF04BB6E3669"
+				"download" "56131C9E5D11918E7CB4CEE53D7E2B3B"
+			}
+		}
+	}
+	"1144710"
+	{
+		"dlcappid" "1144710"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4925909004621930735"
+				"size" "46953842"
+				"download" "46727104"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "A8A9454C6F380F16AD6FD2FA4F251460"
+				"size" "87455305C2D523D5A85983911215241E"
+				"download" "9CEAFBA69EEE98BFF780B75F522E7F13"
+			}
+			"test"
+			{
+				"gid" "465CD38A1863EBAB2DF65760A2ED8352"
+				"size" "0BD655D4C6C011B9499D6CBF94D5F62C"
+				"download" "4DB6D035F6A89AF268559A75B5AA6C78"
+			}
+		}
+	}
+	"baselanguages" "english,french,spanish,schinese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "6255804"
+			"timeupdated" "1613758314"
+		}
+		"beta"
+		{
+			"buildid" "6255804"
+			"pwdrequired" "1"
+			"timeupdated" "1613758302"
+		}
+		"test"
+		{
+			"buildid" "6255804"
+			"pwdrequired" "1"
+			"timeupdated" "1613609964"
+		}
+	}
+}
