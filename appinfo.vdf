@@ -1,0 +1,218 @@
+"appid" "33390"
+"common"
+{
+	"name" "Zeit²"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+	}
+	"logo" "d672b4b5b8483405548cbf888cf20fc2023a6f29"
+	"logo_small" "d672b4b5b8483405548cbf888cf20fc2023a6f29_thumb"
+	"icon" "481486cc71bfa9feb39d6a52e0b9d94f289e45c4"
+	"clienttga" "c2c2dc450942c9a8d5969fee5ef4d4a2413f3890"
+	"clienticon" "ef7a33a79283adaa272cb093898bde39f5b28ae5"
+	"clienticns" "77f04cec3420906c1eec77055691114964d792ba"
+	"eulas"
+	{
+		"0"
+		{
+			"url" "http://store.steampowered.com/eula/eula_33390"
+			"id" "eula_33390"
+			"name" "eula_33390"
+		}
+	}
+	"type" "game"
+	"metacritic_name" "Zeit Squared"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1294858025"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Brightside Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Ubisoft"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_15" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1294855200"
+	"metacritic_score" "72"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/zeit-squared\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "33390"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "4255"
+		"3" "3798"
+	}
+	"review_score" "7"
+	"review_percentage" "82"
+}
+"extended"
+{
+	"developer" "Brightside Games"
+	"gamedir" "Zeit2"
+	"homepage" "http://www.facebook.com/zeit2"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"launcheula" "http://store.steampowered.com/eula/eula_33390"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp33390\\SteamKey"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "33391"
+	"serverbrowsername" ""
+	"showcdkeyinmenu" "1"
+	"state" "eStateAvailable"
+	"supportscdkeycopytoclipboard" "1"
+	"publisher" "Ubisoft"
+}
+"config"
+{
+	"installscriptsignature" "4a87fc0211ede91c975d51f9a5eee8d52b4f3435dab30e877eca4d946efbe334391b91c4f43a4ae077b60394df1546f1b353c45aa96aae6b5a887129269056a7306a5cea01192aa957b7cb78c1de4563282153985034062fb3b263d7ce6c956b69b4bc5862cf5c6cc4dc8cd173d450214e7fc1864bd89b7a092c78802fb6850c"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Zeit2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Zeit2.exe"
+		}
+	}
+}
+"install"
+{
+	"run process"
+	{
+		"prerequisites"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\33390"
+			"process 1" "%INSTALLDIR%\\Support\\Setup.exe"
+			"command 1" "/S /D=%INSTALLDIR%"
+			"description" "Prerequisites"
+			"nocleanup" "0"
+		}
+		"net35"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\33390"
+			"process 1" "%INSTALLDIR%\\Support\\dotnetfx35setup.exe"
+			"command 1" "/passive"
+			"description" ".NET 3.5 Framework"
+			"nocleanup" "1"
+		}
+		"xna"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\33390"
+			"process 1" "msiexec.exe"
+			"command 1" "/quiet /i \"%INSTALLDIR%\\Support\\xnafx31_redist.msi\""
+			"description" "XNA 3.1"
+			"nocleanup" "1"
+		}
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\33390"
+			"process 1" "%INSTALLDIR%\\Support\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"description" "DirectX"
+			"nocleanup" "1"
+		}
+	}
+	"run process on uninstall"
+	{
+		"removeshortcuts"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\33390"
+			"process 1" "%INSTALLDIR%\\uninst.exe"
+			"command 1" "/S"
+			"description" "Remove Shortcuts"
+			"nocleanup" "0"
+		}
+	}
+}
+"depots"
+{
+	"33391"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6936736098938534745"
+				"size" "345542495"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11367"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+}
