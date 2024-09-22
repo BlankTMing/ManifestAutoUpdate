@@ -1,0 +1,260 @@
+"appid" "1960920"
+"common"
+{
+	"name" "Zetria"
+	"type" "Game"
+	"releasestate" "released"
+	"clienttga" "415daaf16c0b68af57c4829aa968ac27ce6c76a0"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64,macosapplesilicon"
+	"clienticon" "2c12bfbf902b31d20b1ee4ecec3144e509071485"
+	"icon" "f4c51b9c95afba050c5d106ff566c1a3fa686827"
+	"linuxclienticon" "c84b84a6a0784e69fefe8cda7df1e4922f138bee"
+	"clienticns" "ccbc3ad14d83a6dd96e8f89883e0ac0205f816ab"
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "2"
+		"2" "3"
+		"3" "5"
+		"4" "4"
+	}
+	"restricted_countries" "CN,DE"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1663113600"
+		"tested_build_id" "9206205"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "eee51c1145d9cd8670f9885200512b93bc4db9e9/capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "65.46511627906978"
+			"height_pct" "62.91816319867016"
+		}
+	}
+	"store_asset_mtime" "1723160689"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "PixelBee"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "PixelBee"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1654865972"
+	"community_hub_visible" "1"
+	"gameid" "1960920"
+	"store_tags"
+	{
+		"0" "12095"
+		"1" "3964"
+		"2" "7208"
+		"3" "3871"
+		"4" "1625"
+		"5" "19"
+		"6" "6650"
+		"7" "1664"
+		"8" "5379"
+		"9" "4604"
+		"10" "21"
+		"11" "597"
+		"12" "3798"
+		"13" "44868"
+		"14" "1673"
+		"15" "4726"
+		"16" "4166"
+		"17" "9130"
+		"18" "5923"
+		"19" "4004"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"developer" "PixelBee"
+	"publisher" "PixelBee"
+}
+"config"
+{
+	"installdir" "Zetria"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "zetria_macos.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"1"
+		{
+			"executable" "Zetria.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"1960921"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9110419762165931394"
+				"size" "398124255"
+				"download" "47543328"
+			}
+			"rollback"
+			{
+				"gid" "5395074246455303423"
+				"size" "396058523"
+				"download" "47531568"
+			}
+		}
+	}
+	"1960922"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3239520305385252755"
+				"size" "421332629"
+				"download" "54426688"
+			}
+			"rollback"
+			{
+				"gid" "8191295558101819282"
+				"size" "419266897"
+				"download" "54414512"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11669751"
+			"timeupdated" "1689031201"
+		}
+		"rollback"
+		{
+			"buildid" "11123636"
+			"description" "Last working build"
+			"timeupdated" "1689031405"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Karne/Zetria"
+			"pattern" "*.fbf"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Karne/Zetria"
+					"replace" "com.Karne.Zetria"
+				}
+			}
+		}
+	}
+}
