@@ -56,6 +56,55 @@
 		"0" "2"
 		"1" "5"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1726790400"
+		"tested_build_id" "15752266"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_FirstTimeSetupRequiresActiveInternetConnection"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "1"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-3RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -328,11 +377,11 @@
 		"15" "1695"
 		"16" "1742"
 		"17" "4182"
-		"18" "6730"
-		"19" "4345"
+		"18" "4345"
+		"19" "6730"
 	}
 	"review_score" "5"
-	"review_percentage" "67"
+	"review_percentage" "66"
 }
 "extended"
 {
@@ -362,17 +411,17 @@
 	"steamconfigurator3rdpartynative" "65532"
 	"steamcontrollerconfigdetails"
 	{
-		"3253076898"
-		{
-			"controller_type" "controller_xboxone"
-			"enabled_branches" "default,amd_partner,compat,intel_partner,jpi_rollback,jpi_rollback2,latest_platinum,nvidia_partner,qa_gold,ratings"
-			"use_action_block" "false"
-		}
 		"3324037238"
 		{
 			"controller_type" "controller_ps5"
 			"enabled_branches" "default,amd_partner,compat,intel_partner,jpi_rollback,jpi_rollback2,latest_platinum,nvidia_partner,qa_gold,ratings"
 			"use_action_block" "true"
+		}
+		"3334547309"
+		{
+			"controller_type" "controller_xboxone"
+			"enabled_branches" "default,amd_partner,compat,intel_partner,jpi_rollback,jpi_rollback2,latest_platinum,nvidia_partner,qa_gold,ratings"
+			"use_action_block" "false"
 		}
 	}
 }
@@ -395,18 +444,18 @@
 		{
 			"public"
 			{
-				"gid" "9175237445121531390"
-				"size" "188672192377"
-				"download" "107434648704"
+				"gid" "5173038227934236482"
+				"size" "188672188135"
+				"download" "107434654064"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"amd_partner"
 			{
-				"gid" "E51C72ADEAF0B9B8DCA4FDC7C3B995B8"
-				"size" "F2E68AC17291CA1D4B8ABC6284FD89A7"
-				"download" "529451580D664F90988656264BB0C0F1"
+				"gid" "DF05BBFEE05846BC7F2B03C7A1166AAC"
+				"size" "2CBEB649533A27EC1DE372B328DC6292"
+				"download" "E72D5CF7B7C50FCE50506A23A9E9A53E"
 			}
 			"compat"
 			{
@@ -416,15 +465,15 @@
 			}
 			"intel_partner"
 			{
-				"gid" "7130929487C308496BBF9C10AC4C33A8"
-				"size" "8363AA16499CAEBE49AB731E5BA56A9F"
-				"download" "E0C5F4084167387E36539E8A3AD71DF4"
+				"gid" "550E0A402759B0400FB9F1DDC5FE30DB"
+				"size" "281863A3FF44047B4DFB246BE1CA6AE5"
+				"download" "14C181746151518BAB841D491C3A4183"
 			}
 			"jpi_rollback"
 			{
-				"gid" "959416E5C07F9C266E30CBFFC71D7CB7"
-				"size" "D66FA3E76BC60B9072EB1DD59D3B3DCC"
-				"download" "3523D94C24FA08C8AE07317215286C2A"
+				"gid" "CEDB833878DAF91E25EE564AC525B490"
+				"size" "64350C6C5F7F581054D7BFEF00264FB9"
+				"download" "F9F8C7411267DA4896D59EB066B6FB70"
 			}
 			"jpi_rollback2"
 			{
@@ -434,21 +483,21 @@
 			}
 			"latest_platinum"
 			{
-				"gid" "31109CF3257543BACCEEA121E2A1268B"
-				"size" "41074BCC312D2E4E6F50FE53C9BD20DB"
-				"download" "81E6CE8F3F139FD5D82EB329853F40F9"
+				"gid" "F321DC58D51B99A8E53FE429B5A77D3C"
+				"size" "D73D2477584839C76F3E6C80FF8CB8C6"
+				"download" "5B12B26F63F4FDA3FA9DC5EE24018E48"
 			}
 			"nvidia_partner"
 			{
-				"gid" "E685BCB1524A6C6A962A23F396A114D8"
-				"size" "F4698FDC28B1570F199DE6974E367D20"
-				"download" "44DD66E856709ED02FAAF155FA1D8C90"
+				"gid" "7A151A7F49EE5D0EB01121F7B77A2309"
+				"size" "02D004A8ACA48E8CE6D4B2A7C0338F80"
+				"download" "FA71913F6DDE0495CD532BB7C24A8002"
 			}
 			"qa_gold"
 			{
-				"gid" "421A088E84D88A7D326DAE25FE8E23C0"
-				"size" "A86EE2D86887A6508D39B7B27C29CAE7"
-				"download" "D441FC2DD87E199C7E155FAEBAFA64D6"
+				"gid" "FCC7ED13019C68C4F4F29D50F79A20D8"
+				"size" "D25131B58809D92CB1281351880BCC6D"
+				"download" "B532BCC716E46BACFAE3EB594B0CEF08"
 			}
 			"ratings"
 			{
@@ -462,14 +511,14 @@
 	{
 		"public"
 		{
-			"buildid" "15763082"
-			"timeupdated" "1726797350"
+			"buildid" "15780497"
+			"timeupdated" "1726944234"
 		}
 		"amd_partner"
 		{
-			"buildid" "15755984"
+			"buildid" "15780598"
 			"pwdrequired" "1"
-			"timeupdated" "1726755337"
+			"timeupdated" "1726926770"
 		}
 		"compat"
 		{
@@ -479,15 +528,15 @@
 		}
 		"intel_partner"
 		{
-			"buildid" "15755984"
+			"buildid" "15780598"
 			"pwdrequired" "1"
-			"timeupdated" "1726755353"
+			"timeupdated" "1726926787"
 		}
 		"jpi_rollback"
 		{
-			"buildid" "15493184"
+			"buildid" "15763201"
 			"pwdrequired" "1"
-			"timeupdated" "1724972980"
+			"timeupdated" "1726935673"
 		}
 		"jpi_rollback2"
 		{
@@ -497,21 +546,21 @@
 		}
 		"latest_platinum"
 		{
-			"buildid" "15763082"
+			"buildid" "15784787"
 			"pwdrequired" "1"
-			"timeupdated" "1726784833"
+			"timeupdated" "1726983474"
 		}
 		"nvidia_partner"
 		{
-			"buildid" "15755984"
+			"buildid" "15780598"
 			"pwdrequired" "1"
-			"timeupdated" "1726755367"
+			"timeupdated" "1726926805"
 		}
 		"qa_gold"
 		{
-			"buildid" "15763201"
+			"buildid" "15784849"
 			"pwdrequired" "1"
-			"timeupdated" "1726785490"
+			"timeupdated" "1726984631"
 		}
 		"ratings"
 		{
