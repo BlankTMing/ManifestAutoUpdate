@@ -27,6 +27,50 @@
 	{
 		"0" "5"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1726790400"
+		"tested_build_id" "15659834"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-3RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -103,7 +147,7 @@
 			}
 		}
 	}
-	"store_asset_mtime" "1726210935"
+	"store_asset_mtime" "1726722036"
 	"associations"
 	{
 		"0"
@@ -133,6 +177,7 @@
 		"category_56" "1"
 		"category_22" "1"
 		"category_25" "1"
+		"category_29" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -157,6 +202,11 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1725677466"
 	"community_visible_stats" "1"
@@ -168,12 +218,12 @@
 		"1" "56690"
 		"2" "1774"
 		"3" "4885"
-		"4" "4255"
-		"5" "4726"
+		"4" "4726"
+		"5" "4255"
 		"6" "7208"
 		"7" "19"
-		"8" "1742"
-		"9" "3964"
+		"8" "3964"
+		"9" "1742"
 		"10" "1773"
 		"11" "492"
 		"12" "4182"
@@ -216,9 +266,9 @@
 		{
 			"public"
 			{
-				"gid" "1948377404169489661"
-				"size" "814931740"
-				"download" "139955312"
+				"gid" "2159497057407301073"
+				"size" "815113204"
+				"download" "140404816"
 			}
 		}
 	}
@@ -226,8 +276,8 @@
 	{
 		"public"
 		{
-			"buildid" "15704802"
-			"timeupdated" "1726366078"
+			"buildid" "15778941"
+			"timeupdated" "1726895123"
 		}
 	}
 }
