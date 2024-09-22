@@ -1,0 +1,272 @@
+"appid" "2170420"
+"common"
+{
+	"name" "Starsiege: Deadzone"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"icon" "2da56b2d1c34df0026a63962ffebc72fe1868388"
+	"clienttga" "f002c2b7157be94248414904a4c02864a6291cc7"
+	"linuxclienticon" "df4722f65c536d7f723ab88ac7ef0d4ae8e28426"
+	"clienticon" "cfe9d0d4e39abf4cb677ca3750edc2ad983b8f1f"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "2170420_eula_1"
+			"name" "Starsiege: Deadzone EULA"
+			"url" "https://store.steampowered.com//eula/2170420_eula_1"
+			"version" "1"
+		}
+	}
+	"app_retired_publisher_request" "1"
+	"app_retired_was_free" "1"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1690416000"
+		"tested_build_id" "11760300"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-3"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1695324318"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Prophecy Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Prophecy Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Starsiege"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "70"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1689693488"
+	"community_hub_visible" "1"
+	"gameid" "2170420"
+	"store_tags"
+	{
+		"0" "1199779"
+		"1" "19"
+		"2" "3859"
+		"3" "353880"
+		"4" "1663"
+		"5" "1775"
+		"6" "176981"
+		"7" "3942"
+		"8" "1662"
+		"9" "1755"
+		"10" "5125"
+		"11" "1774"
+		"12" "4295"
+		"13" "1708"
+		"14" "1702"
+		"15" "3839"
+		"16" "1687"
+		"17" "4342"
+		"18" "6276"
+		"19" "6730"
+	}
+	"review_score" "5"
+	"review_percentage" "54"
+}
+"extended"
+{
+	"developer" "Prophecy Games"
+	"publisher" "Prophecy Games"
+	"listofdlc" "2484441,2484442"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Starsiege Deadzone"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Deadzone.exe"
+			"arguments" "-storefront=Steam -RallyHereSandbox=RETAIL -EpicApp=ValhallaClientLive"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2170421"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5336361731934936393"
+				"size" "7239682834"
+				"download" "6743685008"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "1BF97C04D45016ED36EB3EF9E6E21B64"
+				"size" "B1CEBA7190F35ADF08A26C952344386C"
+				"download" "A330F4776A022C4BB6316639D9917793"
+			}
+			"development"
+			{
+				"gid" "7C11988B356931405BA87B0506649918"
+				"size" "87E1130E128CD820EA5961DDFCC0BAEA"
+				"download" "9F71493EC8BCA088EB3B34706F458034"
+			}
+			"ptsr"
+			{
+				"gid" "60E095A767131C1AC0FC2AFE07DBD66D"
+				"size" "5EEEF2B7D21C96662DFB99143681B5F4"
+				"download" "E66282FC304B9F8099228AE5F22F65D1"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12311822"
+			"timeupdated" "1695946936"
+		}
+		"beta"
+		{
+			"buildid" "11451874"
+			"pwdrequired" "1"
+			"timeupdated" "1686602743"
+		}
+		"development"
+		{
+			"buildid" "12311822"
+			"pwdrequired" "1"
+			"timeupdated" "1695942341"
+		}
+		"ptsr"
+		{
+			"buildid" "11256291"
+			"pwdrequired" "1"
+			"timeupdated" "1684347125"
+		}
+	}
+}
