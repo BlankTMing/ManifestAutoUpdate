@@ -1,0 +1,320 @@
+"appid" "439720"
+"common"
+{
+	"name" "Unending Galaxy"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"logo" "8795da1c86107cf558e6adaa7ca34f8d3c586e99"
+	"logo_small" "8795da1c86107cf558e6adaa7ca34f8d3c586e99_thumb"
+	"icon" "1d3368b20686a67bbdeadecf866ae2b1048a7c4f"
+	"clienticon" "086d24c062498d6e0ddbcdc7a262df14840daae9"
+	"clienttga" "1e0b74d4662d12d33180056118271c935f3d06f9"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1669939200"
+		"tested_build_id" "2813759"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"5"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"metacritic_name" "Unending Galaxy"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1538517420"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Anarkis Gaming"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Anarkis Gaming"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_17" "1"
+		"category_29" "1"
+		"category_22" "1"
+		"category_30" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1455924130"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "439720"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "599"
+		"2" "492"
+		"3" "1755"
+		"4" "1670"
+		"5" "3871"
+		"6" "3810"
+		"7" "16598"
+		"8" "3942"
+		"9" "1695"
+		"10" "4182"
+		"11" "4695"
+		"12" "7107"
+	}
+	"review_score" "5"
+	"review_percentage" "62"
+}
+"extended"
+{
+	"developer" "Anarkis Gaming"
+	"publisher" "Anarkis Gaming"
+	"homepage" "http://www.anarkisgaming.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "UnendingGalaxyDeluxe"
+	"steamcontrollertemplateindex" "6"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "game.exe"
+			"description" "Unending Galaxy"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "uge.exe"
+			"description" "Game Editor"
+			"type" "editor"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "launcher.exe"
+			"description" "Mod Manager and Setup"
+			"type" "config"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptsignature" "50472c0ac2c417d59da8f53092fcaeb0722bb90cec5a44ef05470fccd935dae55de1596f99a90099a0267bc0b81b0191f13e967d0596f78d54b115187f971ac1206dd2a3019698a098164d65689e2a041b72db77ae8fe36f04a9e0da365e71bad2eef1649eaf73b66e169600a443b313f4f2e5c9512b0a027773f01565190ec3"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"fontinstaller"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\439720"
+			"process 1" "%INSTALLDIR%\\fonts\\fontinstall.exe"
+			"command 1" ""
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"229005"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229020"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"baselanguages" "english"
+	"439722"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8772843513308646855"
+				"size" "269162435"
+				"download" "208793712"
+			}
+			"1.3.1.2"
+			{
+				"gid" "2066080285579197362"
+				"size" "268694161"
+				"download" "208820944"
+			}
+			"1.3.1.5"
+			{
+				"gid" "4227028811802027595"
+				"size" "268695990"
+				"download" "208821056"
+			}
+			"1.3.2.0"
+			{
+				"gid" "1699071022037756943"
+				"size" "269022923"
+				"download" "209061744"
+			}
+			"1.3.5.0"
+			{
+				"gid" "258473925052225228"
+				"size" "269011227"
+				"download" "209049824"
+			}
+			"experimental"
+			{
+				"gid" "8772843513308646855"
+				"size" "269162435"
+				"download" "208793712"
+			}
+		}
+	}
+	"workshopdepot" "439720"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2813759"
+			"timeupdated" "1527553307"
+		}
+		"1.3.1.2"
+		{
+			"buildid" "1931563"
+			"description" "Archived version"
+			"timeupdated" "1504028993"
+		}
+		"1.3.1.5"
+		{
+			"buildid" "2076920"
+			"description" "Archived version"
+			"timeupdated" "1522689280"
+		}
+		"1.3.2.0"
+		{
+			"buildid" "2610174"
+			"description" "Archived version"
+			"timeupdated" "1523528988"
+		}
+		"1.3.5.0"
+		{
+			"buildid" "2681426"
+			"description" "Archived version"
+			"timeupdated" "1527553293"
+		}
+		"experimental"
+		{
+			"buildid" "2813759"
+			"description" "up to date"
+			"timeupdated" "1527553318"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "saves/"
+			"pattern" "*.*"
+			"recursive" "1"
+		}
+	}
+}
