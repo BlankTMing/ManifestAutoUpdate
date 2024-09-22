@@ -12,6 +12,12 @@
 	"releasestate" "released"
 	"osarch" ""
 	"osextended" "macos64"
+	"openxrsupport" "1"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
 	"steam_deck_compatibility"
 	{
 		"category" "3"
@@ -77,6 +83,44 @@
 			"height_pct" "100"
 		}
 	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "52.53046942286931"
+				"height_pct" "100"
+			}
+		}
+	}
 	"store_asset_mtime" "1627883976"
 	"associations"
 	{
@@ -117,6 +161,8 @@
 		"category_56" "1"
 		"category_57" "1"
 		"category_58" "1"
+		"category_53" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -238,21 +284,21 @@
 	"store_tags"
 	{
 		"0" "4345"
-		"1" "19"
-		"2" "5228"
-		"3" "1743"
+		"1" "5228"
+		"2" "19"
+		"3" "4667"
 		"4" "3859"
-		"5" "4667"
+		"5" "1743"
 		"6" "3839"
-		"7" "1716"
-		"8" "3968"
+		"7" "3968"
+		"8" "1716"
 		"9" "4136"
-		"10" "1732"
-		"11" "3959"
-		"12" "4158"
+		"10" "4158"
+		"11" "1732"
+		"12" "3959"
 		"13" "4182"
-		"14" "492"
-		"15" "1663"
+		"14" "1663"
+		"15" "492"
 		"16" "5611"
 		"17" "21"
 		"18" "4026"
@@ -339,10 +385,28 @@
 				"betakey" "previousversion"
 			}
 		}
+		"10"
+		{
+			"executable" "PTTRVR/PaintTheTownRedVR.exe"
+			"workingdir" "PTTRVR"
+			"type" "openxr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"ownsdlc" "2474710"
+			}
+			"description_loc"
+			{
+				"english" "Paint the Town Red VR"
+			}
+			"description" "Paint the Town Red VR"
+		}
 	}
 }
 "depots"
 {
+	"workshopdepot" "337320"
 	"228983"
 	{
 		"config"
@@ -433,23 +497,23 @@
 		}
 		"encryptedmanifests"
 		{
-			"1.0_early"
+			"internaltesting"
 			{
-				"gid" "5ADE1F2A8308F0D2A0F8472ED83CC420"
-				"size" "9D89C6E4DC229B964DCF50BCC96B48CE"
-				"download" "855B7154C92FA202CAEE818ADCC2C0CD"
+				"gid" "0239B6F227F32B427F42ABBD3D580CEF"
+				"size" "7BA47764D2F9D2D963CB9926C7964BFD"
+				"download" "B6F79EF10DD9ECC0B0DF0211D09D73DB"
+			}
+			"bhaptics"
+			{
+				"gid" "085A0393281979C2B4C8B3FD29BBC3B2"
+				"size" "05D81BB3A95889F9661D2475CB2C64B1"
+				"download" "8C4020B5DFB3385723DE18AC3048F101"
 			}
 			"devinternal"
 			{
 				"gid" "4FBE272F292F40981DBFF3D73E612221"
 				"size" "E20865BDE18D2CBF33ECCAC90CD515EB"
 				"download" "EBDF81AC4D1796397B4FF9E2E7A004F8"
-			}
-			"internaltesting"
-			{
-				"gid" "0239B6F227F32B427F42ABBD3D580CEF"
-				"size" "7BA47764D2F9D2D963CB9926C7964BFD"
-				"download" "B6F79EF10DD9ECC0B0DF0211D09D73DB"
 			}
 		}
 	}
@@ -524,23 +588,23 @@
 		}
 		"encryptedmanifests"
 		{
-			"1.0_early"
+			"internaltesting"
 			{
-				"gid" "CA028BA6DCD3A4A5BDEA2007F620CE26"
-				"size" "4B368951BC684A8BACD3AA157D7BED8D"
-				"download" "509D969A37BA95BEF0E3133CEDB2241D"
+				"gid" "455785F4B46F30D9101F8997A46F882A"
+				"size" "AD56CC21A907B2AEA2B397C07F8E9027"
+				"download" "6296F554801E66CF3C4F39E7AE313B15"
+			}
+			"bhaptics"
+			{
+				"gid" "103941ECD2CA8AF0B671388ADD56CAE9"
+				"size" "C8BF0B42DF5A4661AB7873E3EDDAA291"
+				"download" "A5469E42F11649185CAFB4BB55495381"
 			}
 			"devinternal"
 			{
 				"gid" "FEFDA600691F6C583298658363339122"
 				"size" "EF6769318949F1341CC7ED5A6DA1CDAE"
 				"download" "93FCC1DB5E81FD479B0E20135FD02686"
-			}
-			"internaltesting"
-			{
-				"gid" "455785F4B46F30D9101F8997A46F882A"
-				"size" "AD56CC21A907B2AEA2B397C07F8E9027"
-				"download" "6296F554801E66CF3C4F39E7AE313B15"
 			}
 		}
 	}
@@ -616,23 +680,23 @@
 		}
 		"encryptedmanifests"
 		{
-			"1.0_early"
+			"internaltesting"
 			{
-				"gid" "952D98F98FC6C70B2DF90C71368AAC62"
-				"size" "080D34ED26D9B28DCF1650CEBC0702F9"
-				"download" "D730081F61BDE2E7EDC814359DE566AE"
+				"gid" "A504AB44814941090B4F25487F7F3292"
+				"size" "F305BF9DF5264B7AF507F1F5B89CEC95"
+				"download" "45826209F52349A35EEAD7B40392BCC8"
+			}
+			"bhaptics"
+			{
+				"gid" "E5EA92D653BE8E17F31F08B0D31BB068"
+				"size" "8BB729DE72E86840412624B05B4AE5C8"
+				"download" "5D52E37B9AD4C64DA149ABEBF0305E7F"
 			}
 			"devinternal"
 			{
 				"gid" "7E6E70585E6222D2EEFC260E3213A080"
 				"size" "A332BB35B92D0B0F5D2817C1590239AA"
 				"download" "D48BA89EC05181A720BE761F2B75B207"
-			}
-			"internaltesting"
-			{
-				"gid" "A504AB44814941090B4F25487F7F3292"
-				"size" "F305BF9DF5264B7AF507F1F5B89CEC95"
-				"download" "45826209F52349A35EEAD7B40392BCC8"
 			}
 		}
 	}
@@ -708,23 +772,23 @@
 		}
 		"encryptedmanifests"
 		{
-			"1.0_early"
+			"internaltesting"
 			{
-				"gid" "AC044AFB0E3E2A44ED5672642048130D"
-				"size" "2612AD6F4577DBE0DC114D78A3F4A318"
-				"download" "0ABEE9E7D3D083678CA9CD7AD8B7DC90"
+				"gid" "B2E7ABC9A8DF9FCF44F848CFBD77A327"
+				"size" "C76E28F7FC7379228B065E075B01F57F"
+				"download" "14097E0E54B34546526C85F742054A94"
+			}
+			"bhaptics"
+			{
+				"gid" "168CC4BE044D967BCA45594B39A648C4"
+				"size" "F0ECD1DBAC7C63261196B6A0EE6292FD"
+				"download" "E660DE5E26DF7F7201C88012C5865B45"
 			}
 			"devinternal"
 			{
 				"gid" "BC2049F20B02397B2BB38F34A0250C9A"
 				"size" "C6755DDFD14F115D088370650126389E"
 				"download" "B9292137DF5C69EC4DF8A2BB177C532F"
-			}
-			"internaltesting"
-			{
-				"gid" "B2E7ABC9A8DF9FCF44F848CFBD77A327"
-				"size" "C76E28F7FC7379228B065E075B01F57F"
-				"download" "14097E0E54B34546526C85F742054A94"
 			}
 		}
 	}
@@ -800,11 +864,17 @@
 		}
 		"encryptedmanifests"
 		{
-			"1.0_early"
+			"internaltesting"
 			{
-				"gid" "C3C6E7414BADD61F54D59A804FA4366F"
-				"size" "4E10ADED3D1DC843B0161E7E0F72C0DC"
-				"download" "D6BDA526B29D9F700696F8D80F3BFB66"
+				"gid" "C255241C023870C52F28535008FFA3C4"
+				"size" "144D957616A6A512B29D0C23586A9611"
+				"download" "2C357F85036F93E57A10DC7DF0836C72"
+			}
+			"bhaptics"
+			{
+				"gid" "861C9CC6C87CA0FCB5996911A8DC0057"
+				"size" "CDCC07B2F99F822CA65CE285EF9CBE66"
+				"download" "0BC537730F8271D68B66B18EA91CF9FF"
 			}
 			"devinternal"
 			{
@@ -812,44 +882,70 @@
 				"size" "20DDFB07B00BD6B9DD6C037F23BACE15"
 				"download" "4FA8429FE324174A53095C7C348897D8"
 			}
+		}
+	}
+	"2474710"
+	{
+		"dlcappid" "2474710"
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2101450884385721157"
+				"size" "3309571803"
+				"download" "2349545824"
+			}
+			"earlytests"
+			{
+				"gid" "2101450884385721157"
+				"size" "3309571803"
+				"download" "2349545824"
+			}
+		}
+		"encryptedmanifests"
+		{
 			"internaltesting"
 			{
-				"gid" "C255241C023870C52F28535008FFA3C4"
-				"size" "144D957616A6A512B29D0C23586A9611"
-				"download" "2C357F85036F93E57A10DC7DF0836C72"
+				"gid" "0D374193FC58C5C386344700002879B3"
+				"size" "7E31B1A045A44F7E0AFF5FC45E8C0087"
+				"download" "9DE3A26C5441E27DF80A558219F2549A"
+			}
+			"bhaptics"
+			{
+				"gid" "ED9B604B929C3D56E9BC26AC4E67C490"
+				"size" "FEF6380E1EF45C8807763E01B16BB5D9"
+				"download" "2C2FDBD916D16821E67C8B6C2E7A109D"
+			}
+			"devinternal"
+			{
+				"gid" "2EFAB324BF78A5D8530CE49FE82A7132"
+				"size" "F7C373A67235F23D4793CAF03EC24CD9"
+				"download" "99550EF1563CDE0D717113393FF3CA0C"
 			}
 		}
 	}
-	"workshopdepot" "337320"
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "10833818"
-			"timeupdated" "1680173957"
-		}
-		"1.0_early"
-		{
-			"buildid" "10833818"
-			"pwdrequired" "1"
-			"timeupdated" "1680173853"
-		}
-		"devinternal"
-		{
-			"buildid" "10833818"
-			"pwdrequired" "1"
-			"timeupdated" "1679530567"
+			"buildid" "13818518"
+			"timeupdated" "1711084693"
 		}
 		"earlytests"
 		{
-			"buildid" "10833818"
-			"timeupdated" "1680173838"
+			"buildid" "13818518"
+			"timeupdated" "1711084626"
 		}
 		"internaltesting"
 		{
-			"buildid" "10833818"
+			"buildid" "13818518"
 			"pwdrequired" "1"
-			"timeupdated" "1680173846"
+			"timeupdated" "1711084611"
 		}
 		"previousversion"
 		{
@@ -898,6 +994,18 @@
 			"description" "Version 0.9.14 (8 January 2020)"
 			"timeupdated" "1683261120"
 		}
+		"bhaptics"
+		{
+			"buildid" "15282690"
+			"pwdrequired" "1"
+			"timeupdated" "1722984130"
+		}
+		"devinternal"
+		{
+			"buildid" "15221831"
+			"pwdrequired" "1"
+			"timeupdated" "1722486797"
+		}
 	}
 }
 "ufs"
@@ -929,7 +1037,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "20925556"
-"_sha" "74da5eb614d0c764f2cfa62d5aaefe0d37ecd01e"
-"_size" "18565"
