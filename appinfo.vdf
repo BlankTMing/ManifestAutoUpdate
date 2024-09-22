@@ -1,0 +1,259 @@
+"appid" "331190"
+"common"
+{
+	"name" "Master Spy"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"clienticon" "c2614f13d9c6c2a320917a40f1143f2b03b1691b"
+	"clienttga" "63e2b1be409be98832d42993122615c7f4dc045c"
+	"icon" "49c29dde62163b78144406ee747f55aa7a7e39d7"
+	"clienticns" "e1a48b07e2b283a909519a9d29154427d811cee0"
+	"logo" "494e91838a1e942d8d1a66b41b73fbf6e7e73aeb"
+	"logo_small" "494e91838a1e942d8d1a66b41b73fbf6e7e73aeb_thumb"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1664409600"
+		"tested_build_id" "5568471"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Master Spy"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "32.55813953488372"
+			"height_pct" "64.05841842792685"
+		}
+	}
+	"store_asset_mtime" "1632756161"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "TURBOGUN"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "TURBOGUN"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_13" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1441727831"
+	"metacritic_score" "68"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/master-spy\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "331190"
+	"store_tags"
+	{
+		"0" "1625"
+		"1" "492"
+		"2" "1687"
+		"3" "19"
+		"4" "3964"
+		"5" "4026"
+		"6" "1756"
+		"7" "4004"
+		"8" "3871"
+		"9" "4182"
+		"10" "6052"
+		"11" "1688"
+		"12" "1742"
+		"13" "4145"
+		"14" "3877"
+		"15" "3798"
+	}
+	"review_score" "6"
+	"review_percentage" "79"
+}
+"extended"
+{
+	"gamedir" ""
+	"developer" "TURBOGUN"
+	"publisher" "TURBOGUN"
+	"homepage" "http://masterspygame.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Master Spy"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "MasterSpy.exe"
+			"config"
+			{
+				"oslist" "windows"
+				"steamdeck" "0"
+			}
+			"description_loc"
+			{
+				"english" "Launch"
+			}
+			"description" "Launch"
+		}
+		"1"
+		{
+			"executable" "MasterSpy.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "MasterSpy.exe"
+			"arguments" "--disable-gpu"
+			"config"
+			{
+				"oslist" "windows"
+				"steamdeck" "1"
+			}
+			"description_loc"
+			{
+				"english" "Steam Deck Launch"
+			}
+			"description" "Steam Deck Launch"
+		}
+	}
+}
+"depots"
+{
+	"331191"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3601747566679143867"
+				"size" "148966724"
+				"download" "107941664"
+			}
+			"test"
+			{
+				"gid" "8851294655608595270"
+				"size" "148966691"
+				"download" "107941648"
+			}
+		}
+	}
+	"331192"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1430186266923105358"
+				"size" "168280068"
+				"download" "107559120"
+			}
+			"test"
+			{
+				"gid" "1520483766643924061"
+				"size" "168279649"
+				"download" "107559232"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5568471"
+			"timeupdated" "1600574271"
+		}
+		"test"
+		{
+			"buildid" "3267559"
+			"timeupdated" "1541080072"
+		}
+	}
+}
