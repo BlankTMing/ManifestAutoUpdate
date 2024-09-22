@@ -1,0 +1,242 @@
+"appid" "2510560"
+"common"
+{
+	"name" "Spell Disk Survivor"
+	"type" "Game"
+	"icon" "f0c3d8c695c64de2b97e96c10fb37266f99b7cb8"
+	"clienticon" "07530a4cf22ee7b6583bef058cfc43817da206d9"
+	"clienttga" "05d19533231f8123166a0058f167ff24a0efda84"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"app_retired_publisher_request" "1"
+	"app_retired_was_free" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "49.9092558983666"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1689741148"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Sunpeak Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Sunpeak Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "37"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1691081580"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2510560"
+	"store_tags"
+	{
+		"0" "113"
+		"1" "42804"
+		"2" "4885"
+		"3" "4255"
+		"4" "4637"
+		"5" "1662"
+		"6" "3959"
+		"7" "1774"
+		"8" "1716"
+		"9" "3871"
+		"10" "19"
+		"11" "4791"
+		"12" "7481"
+		"13" "597"
+		"14" "3964"
+		"15" "1684"
+		"16" "4057"
+		"17" "4182"
+		"18" "5547"
+		"19" "3993"
+	}
+	"review_score" "6"
+	"review_percentage" "79"
+}
+"extended"
+{
+	"developer" "Sunpeak Games"
+	"publisher" "Sunpeak Games"
+}
+"config"
+{
+	"installdir" "Spell Disk Survivor"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SpellDiskSurvivor.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+	"steamdecktouchscreen" "1"
+}
+"depots"
+{
+	"baselanguages" "english"
+	"2510561"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6785935609935249807"
+				"size" "598004032"
+				"download" "166839968"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devpurpose"
+			{
+				"gid" "E2994E54266B5003C30CBBF9F084021E"
+				"size" "8D586A5AE3A3A7509A3D99FD61CD0B52"
+				"download" "F32BA742D4D7D8F01F699A1AD6483845"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12009068"
+			"timeupdated" "1692760824"
+		}
+		"devpurpose"
+		{
+			"buildid" "11987654"
+			"pwdrequired" "1"
+			"timeupdated" "1692567157"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "SunpeakGames/SpellDiskSurvivor/{64BitSteamID}"
+			"pattern" "*.es3"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "SunpeakGames/SpellDisk/{64BitSteamID}"
+					"replace" "unity.SunpeakGames.SpellDiskSurvivor"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "SunpeakGames/SpellDisk/{64BitSteamID}"
+					"replace" ".config/unity2d/SunpeakGames/SpellDiskSurvivor"
+				}
+			}
+		}
+	}
+}
