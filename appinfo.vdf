@@ -1,0 +1,282 @@
+"appid" "1593350"
+"common"
+{
+	"name" "Increlution"
+	"type" "Game"
+	"logo" "1b68581ce73873c899c33b71955e5bfafef618e4"
+	"logo_small" "1b68581ce73873c899c33b71955e5bfafef618e4_thumb"
+	"icon" "53b8cda514150d3792b315485a32622a37d62f77"
+	"clienticon" "8e6bcb92870106b33cd9be5a0a906b62c36f6df4"
+	"clienttga" "59cb7baa08be8efc7baed9e5af6df9cd8ce68720"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"osextended" "macos64"
+	"releasestate" "released"
+	"clienticns" "3b56e736fb7a672e072197f90e7e9441d8c4b0e6"
+	"linuxclienticon" "badedba61d6cb3c85e7ca2c7c095fb13a744f5b6"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1647648000"
+		"tested_build_id" "7690717"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "49.071896058825246"
+			"height_pct" "73.5573497981477"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "49.071896058825246"
+				"height_pct" "73.5573497981477"
+			}
+		}
+	}
+	"store_asset_mtime" "1633552160"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Gniller"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Gniller"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1634130622"
+	"community_hub_visible" "1"
+	"gameid" "1593350"
+	"store_tags"
+	{
+		"0" "615955"
+		"1" "16689"
+		"2" "3959"
+		"3" "379975"
+		"4" "1698"
+		"5" "31275"
+		"6" "493"
+		"7" "492"
+		"8" "4094"
+		"9" "122"
+		"10" "17305"
+		"11" "3871"
+		"12" "597"
+		"13" "8945"
+		"14" "1684"
+		"15" "1662"
+		"16" "4182"
+		"17" "3916"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"developer" "Gniller"
+	"publisher" "Gniller"
+}
+"config"
+{
+	"installdir" "Increlution"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Increlution.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Increlution"
+			"arguments" "--no-sandbox"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "Increlution.app/Contents/MacOS/Increlution"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1593351"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5144233901263067660"
+				"size" "202451770"
+				"download" "65905232"
+			}
+		}
+	}
+	"1593352"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4202347788529788006"
+				"size" "217820661"
+				"download" "66498736"
+			}
+		}
+	}
+	"1593353"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3707730212271153943"
+				"size" "229816759"
+				"download" "67778064"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11640258"
+			"timeupdated" "1688650001"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "100"
+}
