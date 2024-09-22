@@ -1,0 +1,287 @@
+"appid" "339110"
+"common"
+{
+	"name" "Plith"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"logo" "0834fe207c2d92df0b63b26e67301026d355986b"
+	"logo_small" "0834fe207c2d92df0b63b26e67301026d355986b_thumb"
+	"icon" "df75d71f00d953b1c0ee4b99df7e8a8ff8375510"
+	"clienttga" "2f0a55c8e440ff5b113d714850525aa2717c4d4e"
+	"linuxclienticon" "fa90d39ee1cc8b794d2ef25afeea924db91cc87b"
+	"clienticon" "ecf064b976fa934c67cf447ba2e120aaa520518f"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1656028800"
+		"tested_build_id" "1242491"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Plith"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1425153522"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Ya2"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Flying Interactive"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1464887401"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "339110"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "597"
+		"2" "1664"
+		"3" "4182"
+		"4" "5350"
+	}
+	"review_score" "5"
+	"review_percentage" "48"
+}
+"extended"
+{
+	"developer" "Ya2"
+	"publisher" "Flying Interactive"
+	"homepage" "http://flyinginteractive.com/plith/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Plith"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Plith.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Plith.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "plith"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"339111"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8640888884428587560"
+				"size" "118731466"
+				"download" "62360256"
+			}
+			"beta"
+			{
+				"gid" "8640888884428587560"
+				"size" "118731466"
+				"download" "62360256"
+			}
+		}
+	}
+	"339112"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6329645221939114751"
+				"size" "114833102"
+				"download" "58197248"
+			}
+			"beta"
+			{
+				"gid" "6329645221939114751"
+				"size" "114833102"
+				"download" "58197248"
+			}
+		}
+	}
+	"339113"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3347690230201338904"
+				"size" "120283396"
+				"download" "62797936"
+			}
+			"beta"
+			{
+				"gid" "5140450498484763290"
+				"size" "120273263"
+				"download" "62796688"
+			}
+		}
+	}
+	"339114"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8642567216570213061"
+				"size" "127831631"
+				"download" "63434304"
+			}
+			"beta"
+			{
+				"gid" "1676713583180185839"
+				"size" "127821498"
+				"download" "63433072"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1242491"
+			"timeupdated" "1469465074"
+		}
+		"beta"
+		{
+			"buildid" "1579238"
+			"timeupdated" "1484846190"
+		}
+	}
+}
