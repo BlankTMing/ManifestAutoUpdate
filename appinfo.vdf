@@ -1,0 +1,321 @@
+"appid" "207750"
+"common"
+{
+	"name" "Symphony"
+	"type" "Game"
+	"logo" "fbb6eb900a4c8b83d6fbf21245104ac44f6232ec"
+	"logo_small" "fbb6eb900a4c8b83d6fbf21245104ac44f6232ec_thumb"
+	"icon" "a71e68ccdefe21a3a23e8197d5f97e98c0c0a0fb"
+	"clienttga" "bedd5708bbbf09a0351f657353d2e2fe2c500775"
+	"clienticon" "b69a45f63536e9fccabbf892ad106aec48bea1d6"
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+	}
+	"oslist" "windows,macos,linux"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1689984000"
+		"tested_build_id" "1377797"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Symphony"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1344036968"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Empty Clip Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Empty Clip Studios"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1344272400"
+	"metacritic_score" "75"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/symphony\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "207750"
+	"store_tags"
+	{
+		"0" "1621"
+		"1" "492"
+		"2" "4255"
+		"3" "19"
+		"4" "1752"
+		"5" "597"
+		"6" "4885"
+		"7" "8253"
+		"8" "1773"
+		"9" "4182"
+		"10" "1774"
+		"11" "5125"
+	}
+	"review_score" "8"
+	"review_percentage" "84"
+}
+"extended"
+{
+	"developer" "Empty Clip Studios"
+	"gamedir" "Symphony"
+	"homepage" "www.symphonygame.com"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Empty Clip Studios"
+	"listofdlc" "207760,261060"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Symphony.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Symphony.app"
+			"description" "Launch OSX"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Symphony.bin.x86"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "Symphony.bin.x86_64"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Symphony"
+	"installscriptsignature" "4498f2f5bce804d6cfaaa112c517e6835a6b0fd11f3bd2dc80e20830c81f4910a31bc6a68565a50d2b73a32b5d3739a2666c7c4b1a94bfe9e28338f81c530c0383c7ab2888daa1f0ad33f8b00713bd423334e470506780f59c0e7ab65958a2014e22defdeabd4693510b1ffde836b0bed05837b7105611acd4adbc7c35cc22b8"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"install_symphony_data"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\207750"
+			"process 1" "%INSTALLDIR%\\Symphony_Installer_Steam.exe"
+			"command 1" ""
+			"nocleanup" "1"
+		}
+	}
+	"run process on uninstall"
+	{
+		"uninstall_symphony_data"
+		{
+			"process 1" "%INSTALLDIR%\\Symphony_data_uninstaller.exe"
+			"command 1" ""
+		}
+	}
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"207751"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2397687909826622683"
+				"size" "424717953"
+				"download" "315074816"
+			}
+			"beta_loggin_f"
+			{
+				"gid" "3709517590768531476"
+				"size" "424716417"
+				"download" "315073552"
+			}
+			"p_test"
+			{
+				"gid" "1813648556947799402"
+				"size" "370919996"
+				"download" "302745696"
+			}
+		}
+	}
+	"207752"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2419917772778050953"
+				"size" "490106382"
+				"download" "277495392"
+			}
+			"beta_loggin_f"
+			{
+				"gid" "2419917772778050953"
+				"size" "490106382"
+				"download" "277495392"
+			}
+			"p_test"
+			{
+				"gid" "229507559843302617"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"207753"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6744107067409347205"
+				"size" "415093368"
+				"download" "277918576"
+			}
+			"beta_loggin_f"
+			{
+				"gid" "6744107067409347205"
+				"size" "415093368"
+				"download" "277918576"
+			}
+			"p_test"
+			{
+				"gid" "1646996725991420924"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"hasdepotsindlc" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1377797"
+			"timeupdated" "1475764420"
+		}
+		"beta_loggin_f"
+		{
+			"buildid" "1374271"
+			"description" "Build with logging enabled (and potentially other experimental features!)"
+			"timeupdated" "1475630669"
+		}
+		"p_test"
+		{
+			"buildid" "10834552"
+			"description" "Private Testing"
+			"timeupdated" "1679538783"
+		}
+	}
+}
