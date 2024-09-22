@@ -1,0 +1,310 @@
+"appid" "1730650"
+"common"
+{
+	"name" "Requisition VR"
+	"type" "Game"
+	"icon" "dbd23c419bc0e5df092ff4582f9c590d7659aa50"
+	"logo" "3089a158f66f3e5a30ea8efdac60650dca6bc116"
+	"logo_small" "3089a158f66f3e5a30ea8efdac60650dca6bc116_thumb"
+	"clienticon" "edb36db453acfc562c63f8ca527bb0c563792a36"
+	"clienttga" "896c0725a91bf937c6c5eec2363b4bda31f82f60"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+	}
+	"openvr_action_manifest_path" "Requisition_Data/Streaming"
+	"releasestate" "released"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "100"
+				"height_pct" "100"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1690320301"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Arcadia"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Spheroom"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_52" "1"
+		"category_29" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1683234298"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1730650"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "21978"
+		"1" "19"
+		"2" "1774"
+		"3" "1659"
+		"4" "3859"
+		"5" "4345"
+		"6" "21"
+		"7" "3978"
+		"8" "1663"
+		"9" "4667"
+		"10" "353880"
+		"11" "1685"
+		"12" "4182"
+		"13" "1702"
+		"14" "1662"
+		"15" "1667"
+		"16" "3835"
+		"17" "1695"
+		"18" "3968"
+		"19" "4166"
+	}
+	"review_score" "6"
+	"review_percentage" "70"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Arcadia"
+	"publisher" "Spheroom"
+	"homepage" "https://arcadia-vr.co.uk/"
+}
+"config"
+{
+	"installdir" "REQUISITION"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Requisition.exe"
+			"arguments" "+tracking SteamVR"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Requisition.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "beta"
+			}
+		}
+		"2"
+		{
+			"executable" "Requisition.exe"
+			"arguments" "+tracking SteamVR"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "alpha"
+			}
+		}
+		"3"
+		{
+			"executable" "Requisition.exe"
+			"arguments" "+tracking Oculus"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "alpha"
+			}
+		}
+		"5"
+		{
+			"executable" "Requisition.exe"
+			"arguments" "+tracking Oculus"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+	"uselaunchcommandline" "1"
+}
+"depots"
+{
+	"baselanguages" "english"
+	"1730651"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3402658985814903489"
+				"size" "14811398013"
+				"download" "11682957536"
+			}
+			"beta"
+			{
+				"gid" "4771838259842145883"
+				"size" "20848120018"
+				"download" "16976884144"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha"
+			{
+				"gid" "A3E37AAFCF4FBF5377D377F828CB3AE6"
+				"size" "61AF08D3A446A9098536AE228B924235"
+				"download" "7B33F57B9AAF3FAACC9AAC88BDF2A194"
+			}
+			"gamma"
+			{
+				"gid" "B2BE238A12ADCF5640AF9A7F4AC70F12"
+				"size" "9778FF10B7BF6C06EEDEF2B1FDE858DF"
+				"download" "6AC6A18B65A9346ED23863C1D00E5960"
+			}
+		}
+	}
+	"1730652"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11478755"
+			"timeupdated" "1686848461"
+		}
+		"alpha"
+		{
+			"buildid" "11478755"
+			"pwdrequired" "1"
+			"timeupdated" "1686839199"
+		}
+		"beta"
+		{
+			"buildid" "11063267"
+			"description" "beta"
+			"timeupdated" "1682183626"
+		}
+		"gamma"
+		{
+			"buildid" "10739551"
+			"pwdrequired" "1"
+			"timeupdated" "1678458427"
+		}
+	}
+}
