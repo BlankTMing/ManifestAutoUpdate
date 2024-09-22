@@ -1,0 +1,210 @@
+"appid" "2430410"
+"common"
+{
+	"name" "Myth"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"icon" "155f94642270c6bed965e00dc3cdf9b1c20b98c2"
+	"clienticon" "21216dc1c568bd0b56418c258a8384fb9821ec53"
+	"clienttga" "7ff9422bdb0eac3a1782458bd0743a6e9274b2c7"
+	"releasestate" "released"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "49.88331388564761"
+			"height_pct" "48.860128235573505"
+		}
+	}
+	"store_asset_mtime" "1684327201"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Techcast"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Techcast"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_48" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"thai"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1685690713"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2430410"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "21"
+		"2" "1664"
+		"3" "3834"
+		"4" "4191"
+		"5" "3839"
+		"6" "4175"
+		"7" "4342"
+		"8" "4604"
+		"9" "1667"
+		"10" "9541"
+		"11" "5716"
+		"12" "16094"
+		"13" "7926"
+		"14" "4747"
+		"15" "7481"
+		"16" "1687"
+		"17" "1742"
+		"18" "1685"
+		"19" "3859"
+	}
+	"review_score" "7"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "Techcast"
+	"publisher" "Techcast"
+}
+"config"
+{
+	"installdir" "Myth"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "horrorGameSeries.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"baselanguages" "english,thai"
+	"2430411"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1501944829993554592"
+				"size" "3934955589"
+				"download" "3758535632"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "B245E7FE4D2A512B451737B247ADABFC"
+				"size" "56F056CA5007A05BC84D23A63C255F1A"
+				"download" "1A84945668598177468DE3D9D869D048"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11484638"
+			"timeupdated" "1687074724"
+		}
+		"beta"
+		{
+			"buildid" "11484638"
+			"pwdrequired" "1"
+			"timeupdated" "1686888734"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"sync_while_suspended" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "SavesDir"
+			"pattern" "*.sav"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "horrorGameSeries/Saved/SaveGames"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
