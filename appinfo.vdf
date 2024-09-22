@@ -1,0 +1,371 @@
+"appid" "384960"
+"common"
+{
+	"name" "Vengeance"
+	"type" "Game"
+	"icon" "ec87eb8d966715f18ce5f4130829dda082950762"
+	"logo" "1b71859c541a73d296e46a46064876e334d22d1d"
+	"logo_small" "1b71859c541a73d296e46a46064876e334d22d1d_thumb"
+	"clienttga" "5bf34dd704e65dbeecf6f40263fa2283279e4fd9"
+	"clienticon" "2f1b390d3ebc83838ca148839f4b873c2862deee"
+	"oslist" "windows,linux"
+	"releasestate" "released"
+	"osarch" "64"
+	"clienticns" "a481dfd825051263f1f9edc9108298ed25c8f3fd"
+	"linuxclienticon" "a481dfd825051263f1f9edc9108298ed25c8f3fd"
+	"osextended" ""
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"metacritic_name" "Vengeance"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "39.24672965856294"
+			"height_pct" "22.496622427775293"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "39.24672965856294"
+				"height_pct" "22.496622427775293"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1656111126"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "314 Arts"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "314 Arts"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Vengeance"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_36" "1"
+		"category_49" "1"
+		"category_30" "1"
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"original_release_date" "1461913200"
+	"steam_release_date" "1588196673"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "384960"
+	"store_tags"
+	{
+		"0" "493"
+		"1" "19"
+		"2" "492"
+		"3" "9"
+		"4" "1663"
+		"5" "3859"
+		"6" "1774"
+		"7" "3839"
+		"8" "597"
+		"9" "5547"
+		"10" "128"
+		"11" "1775"
+		"12" "4191"
+		"13" "3916"
+		"14" "1678"
+		"15" "4667"
+		"16" "5711"
+		"17" "3993"
+		"18" "4182"
+		"19" "5673"
+	}
+	"review_score" "6"
+	"review_percentage" "79"
+}
+"extended"
+{
+	"gamedir" "Vengeance"
+	"serverbrowsername" "Vengeance"
+	"anti_cheat_support_url" "https://help.steampowered.com/en/wizard/VacBans"
+	"developer" "314 Arts"
+	"publisher" "314 Arts"
+	"listofdlc" "1411650"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Vengeance"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Vengeance Reboot.exe"
+			"description" "DirectX"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Vengeance.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "Vengeance Reboot.exe"
+			"arguments" "-force-d3d12"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "hdrpbeta"
+			}
+			"description_loc"
+			{
+				"english" "DX12 (RT support)"
+			}
+			"description" "DX12 (RT support)"
+		}
+		"3"
+		{
+			"executable" "Vengeance Reboot.exe"
+			"arguments" "-force-d3d11"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "hdrpbeta"
+			}
+			"description_loc"
+			{
+				"english" "DX11 (Performance)"
+			}
+			"description" "DX11 (Performance)"
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+}
+"depots"
+{
+	"baselanguages" "english"
+	"workshopdepot" "384960"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"384962"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5201164712912093131"
+				"size" "8651457955"
+				"download" "3470229360"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"2.0.0_devbuild"
+			{
+				"gid" "4366FA7E2D6119E45FCDE1895ED8B795"
+				"size" "003B1BC7C5E0B8EC2ACB437D10CD5793"
+				"download" "FBA527EA13A9E2673C0140E59BF8837B"
+			}
+			"2.3.0_devbuild"
+			{
+				"gid" "719D136A621844B10CEACE31BF6DE01A"
+				"size" "8FAEF44FB75D3CAEB60649D739C9FB77"
+				"download" "59254273CDBD841C39565A2746F69DD8"
+			}
+			"hdrpbeta"
+			{
+				"gid" "BAD7E457AFA36AF21BC0291C369B502D"
+				"size" "C97AD75DAF7067AA9796D689B2026B6F"
+				"download" "0F75FB1858497958561854912FA4323C"
+			}
+			"releasecandidate"
+			{
+				"gid" "67D2B331D6E4D1ACD1B4CB05AFA4A700"
+				"size" "EE8AA1E1101B731E9A43A87A24D810BB"
+				"download" "04FF242107B423FC004FAABC92D15579"
+			}
+		}
+	}
+	"384963"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "101123405550738732"
+				"size" "8653767551"
+				"download" "3461326880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"2.0.0_devbuild"
+			{
+				"gid" "0AA5FAD28E7830701F98D19EA17A0D4B"
+				"size" "A738CCEC387ACF9CFE7AE421ABEA4ECE"
+				"download" "8FDB8F1B6BFEA6692449FAF72EC9023B"
+			}
+			"2.3.0_devbuild"
+			{
+				"gid" "7CD78AC9964206A480B328542199EC3E"
+				"size" "DB2B0DD1BEE38749A0667DB644901565"
+				"download" "B1AE40E5AFBFC6E1CB661D9804F21487"
+			}
+			"hdrpbeta"
+			{
+				"gid" "EBD0B3854BC4CBBFEB66148E25DC968A"
+				"size" "0447535EC1AE70CECFE67AC9785CCB08"
+				"download" "89514908C834198A2894D039F2BA89BC"
+			}
+			"releasecandidate"
+			{
+				"gid" "EC78C11F69D3846F1C8CC1B3BE94B0AF"
+				"size" "9DFBC1DF0EE79493305DD6E8A26EEE2C"
+				"download" "F19775B27D4752328B9C2A4B8444EFAA"
+			}
+		}
+	}
+	"hasdepotsindlc" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9007440"
+			"timeupdated" "1656189453"
+		}
+		"2.0.0_devbuild"
+		{
+			"buildid" "15554315"
+			"pwdrequired" "1"
+			"timeupdated" "1725109404"
+		}
+		"2.3.0_devbuild"
+		{
+			"buildid" "15554315"
+			"pwdrequired" "1"
+			"timeupdated" "1725109397"
+		}
+		"hdrpbeta"
+		{
+			"buildid" "14578243"
+			"pwdrequired" "1"
+			"timeupdated" "1717356954"
+		}
+		"releasecandidate"
+		{
+			"buildid" "15554315"
+			"pwdrequired" "1"
+			"timeupdated" "1725109417"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "10000"
+}
