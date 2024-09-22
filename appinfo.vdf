@@ -1,0 +1,268 @@
+"appid" "214830"
+"common"
+{
+	"name" "Half Minute Hero: Super Mega Neo Climax Ultimate Boy"
+	"type" "Game"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"japanese" "1"
+	}
+	"logo" "8a2dab9d7c5550052db46e78ea6fab7c53f016f9"
+	"logo_small" "8a2dab9d7c5550052db46e78ea6fab7c53f016f9_thumb"
+	"clienticon" "25260cc8948d1b87143c0e591f4a6cc43a1e18af"
+	"clienttga" "cc785d30b1cd9022c2c3eb68cb9b6430f3259485"
+	"icon" "6308689dd86dbfb4f18e82ab246bcdd68b46e914"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1651881600"
+		"tested_build_id" "29070"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Half-Minute Hero: Super Mega Neo Climax Ultimate Boy"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1346799022"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Opus"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Marvelous"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_15" "1"
+		"category_28" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+		}
+		"italian"
+		{
+			"supported" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+		}
+		"japanese"
+		{
+			"supported" "1"
+		}
+	}
+	"steam_release_date" "1348765200"
+	"metacritic_score" "75"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/half-minute-hero-super-mega-neo-climax-ultimate-boy\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "214830"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "19"
+		"2" "4878"
+		"3" "1734"
+		"4" "597"
+		"5" "4434"
+		"6" "1719"
+		"7" "4004"
+		"8" "492"
+		"9" "3871"
+		"10" "1684"
+		"11" "1664"
+		"12" "4182"
+		"13" "13782"
+		"14" "21"
+		"15" "3964"
+		"16" "1756"
+		"17" "4136"
+		"18" "3859"
+		"19" "4085"
+	}
+	"review_score" "8"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"developer" "Opus"
+	"gamedir" "ValveTestApp214830"
+	"homepage" "http://www.halfminutehero.com"
+	"icon" ""
+	"languages" "english,french,german,italian,spanish,japanese"
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Marvelous"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Half Minute Hero"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "HMH.exe"
+			"arguments" "-console"
+			"description" "Launch with Console"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptsignature" "0b6d652333d50e931b8183ec900591f64e5ce90b243c2efdc0a5013dfc2e37a4663ea8894a0608480d6cf846233515331b1c81dcbe606854dad32baa8b3508d806a2276e638c9bdafcb2d2533d76e6f62905386e43442a6d32a97d951d438a5ecc64cfaad2267266dbcb48b5a5c0b62025ed16d3343ea440b52cfc5af16f88c5"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214830"
+			"process 1" "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+		}
+	}
+}
+"depots"
+{
+	"214831"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2364079169036956309"
+				"size" "750936529"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "3925710313957189112"
+				"size" "664572179"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "8B266067CBB693E90FE4831FCAADE489"
+				"size" "9443CB157E5DB903D3A8059B9643F71C"
+				"download" "DF8C1A7EF062A35F42B586F59C8AF9DF"
+			}
+			"beta_adv"
+			{
+				"gid" "D2952DAE056D81B01C1B11738FCA560E"
+				"size" "AC53449B3BC3836CA3D619BD8CC78372"
+				"download" "3A3636C3977085203191C99ECAB02821"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"baselanguages" "english,french,german,italian,spanish,japanese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "29070"
+		}
+		"beta"
+		{
+			"buildid" "29070"
+			"pwdrequired" "1"
+		}
+		"beta_adv"
+		{
+			"buildid" "29069"
+			"pwdrequired" "1"
+		}
+		"local"
+		{
+			"buildid" "7557"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+	"hidecloudui" "0"
+}
