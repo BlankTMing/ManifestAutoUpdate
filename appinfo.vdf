@@ -1,0 +1,478 @@
+"appid" "220460"
+"common"
+{
+	"name" "Cargo Commander"
+	"type" "Game"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"russian" "1"
+	}
+	"icon" "ff3eb07fb5253d322ec37414eb7804c0eeeb7ded"
+	"logo" "99d5a46e9a6426ae1e81ee33752522965aad9dfa"
+	"logo_small" "99d5a46e9a6426ae1e81ee33752522965aad9dfa_thumb"
+	"clienttga" "e092632a809e7f89ff4b84d05be7f489caad9f9d"
+	"clienticns" "12902d55ff72c7b770bb1f591c40c16277f726f4"
+	"clienticon" "21723309e98457ceebb7fe951b6a513e6386f34d"
+	"oslist" "windows,macos,linux"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1666396800"
+		"tested_build_id" "159511"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-5"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controllertagwizard" "1"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1417303094"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Serious Brew"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Serious Brew"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "4"
+		"3" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_18" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+		}
+		"italian"
+		{
+			"supported" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+		}
+		"russian"
+		{
+			"supported" "1"
+		}
+	}
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "220460"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "5125"
+		"2" "4166"
+		"3" "3959"
+		"4" "1625"
+		"5" "19"
+		"6" "3942"
+		"7" "5154"
+		"8" "1773"
+		"9" "7948"
+		"10" "42804"
+		"11" "4136"
+		"12" "1774"
+		"13" "5379"
+		"14" "1755"
+		"15" "4975"
+		"16" "4182"
+		"17" "1716"
+		"18" "597"
+		"19" "1662"
+	}
+	"review_score" "8"
+	"review_percentage" "82"
+}
+"extended"
+{
+	"developer" "Serious Brew"
+	"gamedir" "Cargo Commander"
+	"homepage" "http://www.playcargocommander.com"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"validoslist" "macos,windows"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Serious Brew"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "cargo commander"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CargoCommander.exe"
+			"description" "Default Windows"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "CargoCommander.app/Contents/MacOS/CargoCommander"
+			"description" "Default Mac"
+			"workingdir" "CargoCommander.app/Contents"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "CargoCommander.x86"
+			"description" "Linux 32"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "CargoCommander.x86"
+			"description" "Linux 64 -> 32"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"220461"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3189998232449907546"
+				"size" "157873495"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "150522632338498343"
+				"size" "123810248"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "DA49F3B3AE1DC2731ED1CF86794CAB59"
+				"size" "ED1138D052E07B210E848B1180E5AC7A"
+				"download" "E68A76870910123420F4FDD8DDBF773F"
+			}
+		}
+	}
+	"220462"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3368116020886017992"
+				"size" "176618699"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "8EB43F4BC9F15FB21F2ADC726229B472"
+				"size" "EA3A39AEAB3871D60E130A79ABED48EA"
+				"download" "E68A76870910123420F4FDD8DDBF773F"
+			}
+		}
+	}
+	"220469"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6612960941971011744"
+				"size" "170496336"
+				"download" "0"
+			}
+		}
+	}
+	"220463"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2960075285399400421"
+				"size" "4"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "0F35CA1E6B7054CCAF926E3B186E857C"
+				"size" "FD6467F8A0BB3D5C0DFA07E4FABAE609"
+				"download" "E68A76870910123420F4FDD8DDBF773F"
+			}
+		}
+	}
+	"220464"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1633117858435130170"
+				"size" "4"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "D7F1191D8C7D6A312F9D45F17C693591"
+				"size" "FD6467F8A0BB3D5C0DFA07E4FABAE609"
+				"download" "E68A76870910123420F4FDD8DDBF773F"
+			}
+		}
+	}
+	"220465"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3538591933216031194"
+				"size" "4"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "C3ED88F8F55C2F7DB707A8307782D096"
+				"size" "FD6467F8A0BB3D5C0DFA07E4FABAE609"
+				"download" "E68A76870910123420F4FDD8DDBF773F"
+			}
+		}
+	}
+	"220466"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8209785959145698097"
+				"size" "4"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "0ACDBBF24D4A37780DC174AAF2BD93C0"
+				"size" "FD6467F8A0BB3D5C0DFA07E4FABAE609"
+				"download" "E68A76870910123420F4FDD8DDBF773F"
+			}
+		}
+	}
+	"220467"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8832652254617286063"
+				"size" "4"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "B4C6C0B6251F2B76E40CDE6A2712D964"
+				"size" "FD6467F8A0BB3D5C0DFA07E4FABAE609"
+				"download" "E68A76870910123420F4FDD8DDBF773F"
+			}
+		}
+	}
+	"220468"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4974294385253293123"
+				"size" "4"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "53FE89B8F0F093AA5B7D4C945DC91F0C"
+				"size" "FD6467F8A0BB3D5C0DFA07E4FABAE609"
+				"download" "E68A76870910123420F4FDD8DDBF773F"
+			}
+		}
+	}
+	"markdlcdepots" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "159511"
+		}
+		"beta"
+		{
+			"buildid" "23359"
+			"pwdrequired" "1"
+		}
+		"local"
+		{
+			"buildid" "17020"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+	}
+}
