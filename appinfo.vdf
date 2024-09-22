@@ -1,0 +1,540 @@
+"appid" "375230"
+"common"
+{
+	"name" "Warhammer 40,000: Eternal Crusade"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"logo" "ca52cfa5afe566e7b94deb2cb4b61591937aa03b"
+	"logo_small" "ca52cfa5afe566e7b94deb2cb4b61591937aa03b_thumb"
+	"icon" "dcda2a72282ae7a28004962fe3059f23ab902740"
+	"clienttga" "4ea9623ebbc9c5ef7cac978bfa918fcf39f3d28c"
+	"clienticon" "b52d8fda75bdf874282886176ce477eacbd6830e"
+	"eulas"
+	{
+		"1"
+		{
+			"id" "375230_eula_1"
+			"name" "Warhammer 40,000: Eternal Crusade EULA 1"
+			"url" "http://store.steampowered.com//eula/375230_eula_1"
+		}
+	}
+	"osarch" "64"
+	"app_retired_publisher_request" "1"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"metacritic_name" "Warhammer 40,000 - Eternal Crusade"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1558028327"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Behaviour Interactive Inc."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Behaviour Interactive Inc."
+		}
+	}
+	"primary_genre" "29"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "37"
+		"3" "29"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_20" "1"
+		"category_9" "1"
+		"category_22" "1"
+		"category_15" "1"
+		"category_33" "1"
+		"category_18" "1"
+		"category_29" "1"
+		"category_38" "1"
+		"category_35" "1"
+		"category_36" "1"
+		"category_49" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1474649580"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "375230"
+	"store_tags"
+	{
+		"0" "12286"
+		"1" "19"
+		"2" "3814"
+		"3" "113"
+		"4" "128"
+		"5" "1775"
+		"6" "5310"
+		"7" "3859"
+		"8" "3942"
+		"9" "1685"
+		"10" "21"
+		"11" "1774"
+		"12" "6730"
+		"13" "5711"
+		"14" "4747"
+		"15" "4667"
+		"16" "1708"
+		"17" "4295"
+		"18" "13276"
+		"19" "4026"
+	}
+	"review_score" "5"
+	"review_percentage" "49"
+}
+"extended"
+{
+	"gamedir" "eternalcrusade"
+	"allowmicrotxnfromrestrictedcountries" "0"
+	"microtxnrestrictedcountries" "RU,BY"
+	"developer" "Behaviour Interactive Inc."
+	"publisher" "Behaviour Interactive Inc."
+	"homepage" "https://www.eternalcrusade.com"
+	"listofdlc" "377920,377930,489960,566040,591810,591811,591812,591813,592960,596830,597050,612630,612631,621460,621461,622120,625200,630970,637370"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Warhammer 40,000 - Eternal Crusade"
+	"launch"
+	{
+		"2"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?EnableMBP=1\?IsPveLocked=0\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseLobby=1\?ServiceApi=\"http://live-latest.eternalcrusade.com\""
+			"description" "Launch Eternal Crusade (Live)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?PktLag=0\?EnableMBP=1\?UsePersistence=1\?UseTurbulentApi=1\?UseDevFeatures=1\?UseLobby=1\?ServiceApi=\"http://dev.sandbox.eternalcrusade.com\""
+			"description" "Launch using AWS dev env"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "dev-shipping,dev"
+			}
+		}
+		"4"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?EnableMBP=1\?IsPveLocked=0\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseLobby=1\?ServiceApi=\"http://latest.eternalcrusade.com\"\?StashboardApi=\"https://wh40k-dev-stashboard.appspot.com\""
+			"description" "Launch using AWS \"latest.eternalcrusade.com\""
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "latest-dev,latest-shipping"
+			}
+		}
+		"6"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?EnableMBP=1\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseLobby=1\?ServiceApi=\"http://qa-3-6-1.eternalcrusade.com\""
+			"description" "Play using Asia core"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "asia"
+			}
+		}
+		"7"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?EnableMBP=1\?IsPveLocked=0\?ServiceApi=\"http://twitch.sandbox.eternalcrusade.com\"\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseDevFeatures=1\?UseLobby=1\?StashboardApi=\"https://wh40k-dev-stashboard.appspot.com\""
+			"description" "Launch using \"twitch.sandbox.eternalcrusade.com\""
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "twitch"
+			}
+		}
+		"8"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?UseDevFeatures=1\?IsPveLocked=0\?EnableMBP=1\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseLobby=1\?ServiceApi=\"http://pve.sandbox.eternalcrusade.com\"\?StashboardApi=\"https://wh40k-dev-stashboard.appspot.com\""
+			"description" "Launch PVE"
+			"type" "none"
+			"config"
+			{
+				"betakey" "pve-dev"
+			}
+		}
+		"9"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?IsUnderNDA=0\?IsPveLocked=0\?EnableMBP=1\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseLobby=1\?ServiceApi=\"http://uat-latest.eternalcrusade.com\"\?StashboardApi=\"https://wh40k-uat-stashboard.appspot.com\""
+			"description" "Launch UAT build"
+			"type" "none"
+			"config"
+			{
+				"betakey" "uat-dev,uat-shipping,win32-shipping"
+			}
+		}
+		"10"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?UseDevFeatures=1\?IsPveLocked=0\?EnableMBP=1\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseLobby=1\?ServiceApi=\"http://qa-latest.eternalcrusade.com\"\?StashboardApi=\"https://wh40k-qa-stashboard.appspot.com\""
+			"description" "Launch QA build"
+			"type" "none"
+			"config"
+			{
+				"betakey" "qa-dev,qa-shipping"
+			}
+		}
+		"11"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?UseDevFeatures=1\?EnableMBP=1\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseLobby=1\?ServiceApi=\"http://stage-latest.eternalcrusade.com\"\?StashboardApi=\"https://wh40k-stage-stashboard.appspot.com\""
+			"description" "Launch Maverick environment"
+			"type" "none"
+			"config"
+			{
+				"betakey" "mav-dev"
+			}
+		}
+		"12"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?EnableMBP=1\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseDevFeatures=1\?UseLobby=1\?ServiceApi=\"cp.sandbox.eternalcrusade.com\""
+			"description" "Crossplay"
+			"type" "none"
+			"config"
+			{
+				"betakey" "cp-dev,cp-shipping"
+			}
+		}
+		"13"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?UseDevFeatures=1\?EnableMBP=1\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseLobby=1\?ServiceApi=\"http://stage-latest.eternalcrusade.com\"\?StashboardApi=\"https://wh40k-stage-stashboard.appspot.com\""
+			"description" "Stage/Namco (shipping)"
+			"type" "none"
+			"config"
+			{
+				"betakey" "namco-shipping"
+			}
+		}
+		"14"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?UseDevFeatures=1\?EnableMBP=1\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseLobby=1\?ServiceApi=\"http://stage-latest.eternalcrusade.com\"\?StashboardApi=\"https://wh40k-stage-stashboard.appspot.com\""
+			"description" "PEGI Ratings"
+			"type" "none"
+			"config"
+			{
+				"betakey" "ratings"
+			}
+		}
+		"15"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?UseDevFeatures=1\?EnableMBP=1\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseLobby=1\?ServiceApi=\"http://loc.sandbox.eternalcrusade.com\"\?StashboardApi=\"https://wh40k-uat-stashboard.appspot.com\""
+			"description" "Localization"
+			"type" "none"
+			"config"
+			{
+				"betakey" "localization"
+			}
+		}
+		"16"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?EnableMBP=1\?IsPveLocked=0\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseLobby=1\?ServiceApi=\"http://latest.eternalcrusade.com\"\?StashboardApi=\"https://wh40k-dev-stashboard.appspot.com\""
+			"description" "Special patch testing branch"
+			"type" "none"
+			"config"
+			{
+				"betakey" "patch-shipping"
+			}
+		}
+		"17"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?EnableMBP=1\?UsePersistence=1\?UseTurbulentApi=1\?UseDevFeatures=1\?UseLobby=1\?ServiceApi=\"http://debug.sandbox.eternalcrusade.com\""
+			"description" "Launch using \"debug.sandbox.eternalcrusade.com\""
+			"type" "none"
+			"config"
+			{
+				"betakey" "colt-none"
+			}
+		}
+		"18"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?ServiceApi=\"http://debug.sandbox.eternalcrusade.com\""
+			"description" "Launch COLT on \"debug.sandbox.eternalcrusade.com\""
+			"type" "none"
+			"config"
+			{
+				"betakey" "colt-dev,colt-shipping"
+			}
+		}
+		"19"
+		{
+			"executable" "EternalCrusade\\Binaries\\Win64\\EternalCrusadeClient-Win64-Test.exe"
+			"arguments" "\?EnableMBP=1\?IsPveLocked=0\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseLobby=1\?ServiceApi=\"http://live-latest.eternalcrusade.com\""
+			"description" "Launch a Test (profiling build) based on \'Default-Development\' branch"
+			"type" "none"
+			"config"
+			{
+				"betakey" "default-development"
+			}
+		}
+		"20"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?IsUnderNDA=0\?IsPveLocked=0\?EnableMBP=1\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseLobby=1\?ServiceApi=\"http://uat-latest.eternalcrusade.com\"\?StashboardApi=\"https://wh40k-uat-stashboard.appspot.com\" -d3d10"
+			"description" "Launch UAT build (DirectX 10)"
+			"type" "none"
+			"config"
+			{
+				"betakey" "uat-dev,uat-shipping"
+			}
+		}
+		"21"
+		{
+			"executable" "EternalCrusadeClient.exe"
+			"arguments" "\?EnableMBP=1\?IsPveLocked=0\?UsePersistence=1\?UseTurbulentApi=1\?PktLag=0\?PktLagVariance=0\?PktLoss=0\?PktOrder=0\?PktDup=0\?UseLobby=1\?ServiceApi=\"http://live-latest.eternalcrusade.com\" -d3d10"
+			"description" "Launch using DirectX 10 (Live)"
+			"type" "none"
+		}
+	}
+}
+"depots"
+{
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"375231"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7489873792335166156"
+				"size" "13610333098"
+				"download" "5914647872"
+			}
+			"uat-shipping"
+			{
+				"gid" "315926833624732919"
+				"size" "13609656682"
+				"download" "5913731760"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"default-development"
+			{
+				"gid" "D648BE76FA28069500D7223CB39E0D14"
+				"size" "3434C1584E0991BF25A7BDD6FA7423D6"
+				"download" "AAB7E4C41B0A4EF51660466F95D3C12B"
+			}
+			"dev"
+			{
+				"gid" "0C536550871633A29974C63A117585C9"
+				"size" "D0C09516A413119336ABAF56F0F82E47"
+				"download" "1B14972748DEB3BFF4B18FB4DDD77F69"
+			}
+			"dev-shipping"
+			{
+				"gid" "A23170C44CA9E83993641E4CC7A9A55F"
+				"size" "AB1189333A0792C5616881CDB2774888"
+				"download" "1F5AA7B78F29EA2895FF16E75693838D"
+			}
+			"latest-dev"
+			{
+				"gid" "FB66C292E97726E4AEB752AC8FEE60A1"
+				"size" "3D06F12E95F41A44AA2D7547F5E6662E"
+				"download" "A914AC6AE8AFB0A2F07CB80721B28E57"
+			}
+			"latest-shipping"
+			{
+				"gid" "B58CACDB0819B1F2EF98747FFA0A2A8C"
+				"size" "33C97FB90DC6EC24FCEF44BA245B056E"
+				"download" "D72A7BC00489E277E98B98D95932CA72"
+			}
+			"uat-dev"
+			{
+				"gid" "8B6AE4E480F02F1887FA0EDDDF45C701"
+				"size" "3BBC842081C467284F89886AA9530BB7"
+				"download" "AA511F98991F2A23AE8CFA670392FB26"
+			}
+		}
+	}
+	"377910"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"dlcappid" "377910"
+	}
+	"377920"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"dlcappid" "377920"
+	}
+	"377930"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"dlcappid" "377930"
+	}
+	"workshopdepot" "375230"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4060949"
+			"timeupdated" "1564584677"
+		}
+		"default-development"
+		{
+			"buildid" "4060646"
+			"pwdrequired" "1"
+			"timeupdated" "1564584689"
+		}
+		"dev"
+		{
+			"buildid" "4059909"
+			"pwdrequired" "1"
+			"timeupdated" "1564571788"
+		}
+		"dev-shipping"
+		{
+			"buildid" "4060314"
+			"pwdrequired" "1"
+			"timeupdated" "1564571769"
+		}
+		"latest-dev"
+		{
+			"buildid" "4060646"
+			"pwdrequired" "1"
+			"timeupdated" "1564572362"
+		}
+		"latest-shipping"
+		{
+			"buildid" "4060949"
+			"pwdrequired" "1"
+			"timeupdated" "1564572373"
+		}
+		"uat-dev"
+		{
+			"buildid" "4059909"
+			"pwdrequired" "1"
+			"timeupdated" "1564571779"
+		}
+		"uat-shipping"
+		{
+			"buildid" "4060314"
+			"description" "UAT shipping"
+			"timeupdated" "1564571755"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "50"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+}
