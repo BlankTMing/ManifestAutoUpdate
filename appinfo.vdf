@@ -1,0 +1,237 @@
+"appid" "1619350"
+"common"
+{
+	"name" "DeepStates [VR]"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"logo" "2e685901316c77d0efdb44c47e19a8df044c23f4"
+	"logo_small" "2e685901316c77d0efdb44c47e19a8df044c23f4_thumb"
+	"icon" "4aa8a03089657a9dedbd9281374965c29008e4c3"
+	"clienticon" "ad2f6b44ecefd25444bb1c81310e0a01a3ec778c"
+	"clienttga" "a716f20aaec5895b78279c6332457171320d3083"
+	"openvr_action_manifest_path" "DeepStatesVR_content/DeepStates/Config/SteamVRBindings/steamvr_manifest.json"
+	"releasestate" "released"
+	"openvrsupport" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1666742400"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "48.37209302325579"
+			"height_pct" "84.19615293279507"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "UpperCenter"
+				"width_pct" "48.37209302325579"
+				"height_pct" "84.19615293279507"
+			}
+		}
+	}
+	"store_asset_mtime" "1689933012"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Marc Zimmermann"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "EpicScapes"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+		"3" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_52" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1624036320"
+	"community_hub_visible" "1"
+	"gameid" "1619350"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "4166"
+		"1" "21978"
+		"2" "30358"
+		"3" "1654"
+		"4" "29855"
+		"5" "599"
+		"6" "1714"
+		"7" "3934"
+		"8" "3834"
+		"9" "5900"
+		"10" "4191"
+		"11" "9204"
+		"12" "4145"
+		"13" "4175"
+		"14" "5608"
+		"15" "5350"
+		"16" "4835"
+		"17" "6869"
+		"18" "4182"
+		"19" "493"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Marc Zimmermann"
+	"publisher" "EpicScapes"
+	"homepage" "https://epicscapes.de/virtual-reality-360-video"
+}
+"config"
+{
+	"installdir" "DeepStatesVR"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DeepStatesVR_content/DeepStates.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1619351"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8947910307616773435"
+				"size" "14242487832"
+				"download" "13550299600"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9091883"
+			"timeupdated" "1657384490"
+		}
+	}
+}
