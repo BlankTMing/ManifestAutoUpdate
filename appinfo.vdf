@@ -1,0 +1,259 @@
+"appid" "2360"
+"common"
+{
+	"clienticon" "0e02d5275edf791254f75320e5355fc77d7dfdd5"
+	"clienttga" "b8c0437c8f2a234f0e936658f20ceeb475acd49c"
+	"icon" "1675fc2c52142b25165a1dfb15deeb614c2dbb0b"
+	"logo" "062a58433cf1b66546ad61a3e981d2b1a119d8f5"
+	"logo_small" "25547073ff5fdc627170a8066f32fdb7b2c7df51"
+	"name" "Hexen: Beyond Heretic"
+	"sortas" "HeXen 1: Beyond Heretic"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "2360_eula_0"
+			"name" "HeXen: Beyond Heretic EULA"
+			"url" "https://store.steampowered.com//eula/2360_eula_0"
+		}
+		"1"
+		{
+			"id" "2360_eula_1"
+			"name" "HeXen: Beyond Heretic EULA"
+			"url" "https://store.steampowered.com//eula/2360_eula_1"
+			"version" "1"
+		}
+	}
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1663718400"
+		"tested_build_id" "242368"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50"
+				"height_pct" "50"
+			}
+		}
+	}
+	"store_asset_mtime" "1574461000"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Raven Software"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "id Software"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "812530800"
+	"steam_release_date" "1186183800"
+	"community_hub_visible" "1"
+	"gameid" "2360"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "1684"
+		"2" "1663"
+		"3" "1774"
+		"4" "1693"
+		"5" "3839"
+		"6" "4604"
+		"7" "4004"
+		"8" "3916"
+		"9" "6691"
+		"10" "4342"
+		"11" "4155"
+		"12" "1023537"
+		"13" "4182"
+		"14" "3952"
+		"15" "122"
+		"16" "4057"
+		"17" "1664"
+		"18" "21"
+	}
+	"review_score" "8"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"developer" "Raven Software"
+	"gamedir" "Hexen"
+	"homepage" "http://www.idsoftware.com/games/vintage/hexen/"
+	"icon" "steam/games/icon_Hexen"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "2361"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"developer_url" "http://www.ravensoft.com"
+	"publisher" "id Software"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Hexen"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "base\\dosbox.exe"
+			"arguments" "base\\hexen.exe -conf base\\hexen.conf -fullscreen -exit"
+		}
+	}
+	"steamcontrollertemplateindex" "6"
+}
+"depots"
+{
+	"2361"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4318546108121182517"
+				"size" "26499035"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "242368"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "500000000"
+	"maxnumfiles" "100"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "base/HEXNDATA"
+			"pattern" "*.hxs"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+	}
+}
