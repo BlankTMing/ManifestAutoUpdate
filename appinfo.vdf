@@ -1,0 +1,176 @@
+"appid" "404040"
+"common"
+{
+	"name" "Lords of Magic: Special Edition"
+	"type" "Game"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "404040_eula_0"
+			"name" "Lords of Magic: Special Edition EULA"
+			"url" "http://store.steampowered.com//eula/404040_eula_0"
+		}
+	}
+	"oslist" "windows"
+	"logo" "8309f402fc1e84dbdbd1a80dd3f1bb7ed42268cd"
+	"logo_small" "8309f402fc1e84dbdbd1a80dd3f1bb7ed42268cd_thumb"
+	"icon" "b69e059920b0de40e865146dcc7f96b1caee66ea"
+	"clienttga" "6a2a9e102701276af9a1ca12cb1eda1a433b33ef"
+	"clienticon" "aaf3b0ebbcad01773932776144b8ba4670eb9411"
+	"releasestate" "released"
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"metacritic_name" "Lords of Magic: Special Edition"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "46.266044340723454"
+			"height_pct" "54.93944431251484"
+		}
+	}
+	"store_asset_mtime" "1561124177"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Impressions Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Rebellion"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "3"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "879926400"
+	"steam_release_date" "1449162094"
+	"community_hub_visible" "1"
+	"gameid" "404040"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "122"
+		"2" "7918"
+		"3" "1677"
+		"4" "1693"
+		"5" "1684"
+	}
+	"review_score" "8"
+	"review_percentage" "92"
+}
+"extended"
+{
+	"developer" "Impressions Games"
+	"publisher" "Rebellion"
+	"homepage" "http://www.rebellion.co.uk/"
+	"gamemanualurl" "https://store.steampowered.com/manual/404040/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Lords of Magic Special Edition"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "English\\Launcher\\LOMLauncher.exe"
+			"workingdir" "English"
+			"type" "default"
+		}
+	}
+	"installscriptsignature" "8e12d4c404485df97817676614d43c900fc9d640e47195df0c5e207babb1ced1efd23c9db5ad392626ae39626c1721bb55017787b59d470e1d0ea7417224e0579b2f147608bdb915e4a06a8e520348abe567adc8ebc67de66727f9db1af059307b1f8de72db7ae4d8ebeb91700cc1b2d79c9771db558eab58d8cc34f49c39ee4"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_current_user\\software\\microsoft\\windows nt\\currentversion\\appcompatflags\\layers"
+		{
+			"string"
+			{
+				"%installdir%\\english\\lomse.exe" "WINXPSP3 RUNASADMIN HIGHDPIAWARE"
+			}
+		}
+		"hkey_local_machine\\software\\microsoft\\windows nt\\currentversion\\appcompatflags\\layers"
+		{
+			"string"
+			{
+				"%installdir%\\english\\lomse.exe" "WINXPSP3 RUNASADMIN HIGHDPIAWARE"
+			}
+		}
+		"hkey_local_machine\\software\\sierra online\\setup\\lomse"
+		{
+			"string"
+			{
+				"cdpath" "c:\\"
+			}
+		}
+	}
+	"firewall"
+	{
+		"lords of magic special edition" "%INSTALLDIR%\\English\\lomse.exe"
+	}
+}
+"depots"
+{
+	"404041"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7700559883235073949"
+				"size" "575278114"
+				"download" "517084304"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "866683"
+		}
+	}
+}
