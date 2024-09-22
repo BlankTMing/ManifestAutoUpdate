@@ -1,0 +1,269 @@
+"appid" "35480"
+"common"
+{
+	"name" "Dwarfs!\?"
+	"clienticon" "33af66a97f5315054b2e17d051b5c1437b3fadc8"
+	"clienttga" "5566c15498850cb8713407e5116e0484a4f20e21"
+	"icon" "aea074ae0727b262068eb0bd8d9b285fcdfb18c8"
+	"logo" "b3bc51a91f0ba091e59a97971d92c365ba2d7b12"
+	"logo_small" "b3bc51a91f0ba091e59a97971d92c365ba2d7b12_thumb"
+	"oslist" "windows,macos,linux"
+	"type" "game"
+	"metacritic_name" "Dwarfs!\?"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1360359395"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Power of 2"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Tripwire Interactive"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Tripwire Interactive"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_15" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1304531100"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "35480"
+	"store_tags"
+	{
+		"0" "220585"
+		"1" "3964"
+		"2" "7918"
+		"3" "492"
+		"4" "4791"
+		"5" "1645"
+		"6" "12472"
+		"7" "5981"
+		"8" "3871"
+		"9" "4182"
+		"10" "1684"
+		"11" "7332"
+		"12" "9204"
+		"13" "9"
+		"14" "5379"
+		"15" "3810"
+		"16" "599"
+		"17" "10397"
+		"18" "5125"
+		"19" "1662"
+	}
+	"review_score" "6"
+	"review_percentage" "76"
+}
+"extended"
+{
+	"developer" "Power of 2"
+	"gamedir" "Dwarfs"
+	"homepage" "http://www.dwarfs-game.com/"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "35481"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"validoslist" "windows,macos,linux"
+	"publisher" "Tripwire Interactive"
+	"listofdlc" "35485"
+}
+"config"
+{
+	"installscriptsignature" "2399b1429692556d91db0780fe4265862f397fec8bfdcf773ff10c694bf5eb412d46cc014f9b49cb39377521e922059baaf1b503e9b8d5e40e75e80a450585041324e9c7f41ad5fb3d3ecff9b57496619d6436d93b7a87e88bc036352207b2a67922dbf13d11ee7ce8a0ff3fd5fa309039aed3ab5ab8ea0a96a5940dd702ecab"
+	"installscriptoverride" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Dwarfs.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "DwarfsMac.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Dwarfs"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Dwarfs"
+}
+"install"
+{
+	"run process"
+	{
+		"dotnet"
+		{
+			"process 1" "%INSTALLDIR%\\Depends\\DotNet\\dotNetFx35setup.exe"
+			"command 1" "/q /norestart"
+			"nocleanup" "1"
+		}
+		"xna"
+		{
+			"process 1" "msiexec.exe"
+			"command 1" "/i \"%INSTALLDIR%\\Depends\\XNA\\xnafx31_redist.msi\""
+			"nocleanup" "1"
+		}
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\Depends\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"35481"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5124488228833740691"
+				"size" "384884567"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"linuxtest"
+			{
+				"gid" "927E1B698C976AC351183874983C6307"
+				"size" "EB93B247F842976B5B14B036B322867F"
+				"download" "A98A2BA273B7CA8001C4030BD772F737"
+			}
+		}
+	}
+	"35483"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2076804504214307075"
+				"size" "1638164634"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"linuxtest"
+			{
+				"gid" "CCDB0A762631F9C090FBBAB791287FE8"
+				"size" "C856ED940357350211089927987446F3"
+				"download" "A98A2BA273B7CA8001C4030BD772F737"
+			}
+		}
+	}
+	"35482"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2336748263025454892"
+				"size" "1688312267"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"linuxtest"
+			{
+				"gid" "AF35A7B9C72F139DF2D8F9FF14E04D49"
+				"size" "969B33AF470DF9FC66B790BE82F7E02F"
+				"download" "A98A2BA273B7CA8001C4030BD772F737"
+			}
+		}
+	}
+	"35484"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "161441"
+		}
+		"linuxtest"
+		{
+			"buildid" "159586"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "0"
+	"maxnumfiles" "0"
+}
