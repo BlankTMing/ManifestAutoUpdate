@@ -1,0 +1,376 @@
+"appid" "1816070"
+"common"
+{
+	"name" "ILLUMINATI"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64,macosapplesilicon"
+	"icon" "79e094d4da58dbb65df6aedca3c80e7ea2264ba2"
+	"clienticns" "f28130a4809b9bef4b306f8c23895674e9d882b2"
+	"clienticon" "6156f663aa30ab0dc079bc2afc51b0e53bd4aa52"
+	"clienttga" "6efa0657651227f41b736b95dace50039dfa792f"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1683763200"
+		"tested_build_id" "10639407"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DisplayOutputNotCorrectlyScaled"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"5"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "54.91990846681923"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "54.91990846681923"
+				"height_pct" "100"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1673059477"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "RadioFree.Net"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" " RadioFree.Net"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_27" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1673049594"
+	"community_hub_visible" "1"
+	"gameid" "1816070"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "791774"
+		"2" "1775"
+		"3" "597"
+		"4" "1666"
+		"5" "3871"
+		"6" "4191"
+		"7" "5923"
+		"8" "4325"
+		"9" "4305"
+		"10" "7432"
+		"11" "492"
+		"12" "5372"
+		"13" "7478"
+		"14" "4342"
+		"15" "3859"
+		"16" "4182"
+	}
+	"review_score" "6"
+	"review_percentage" "70"
+}
+"extended"
+{
+	"developer" "RadioFree.Net"
+	"publisher" " RadioFree.Net"
+	"homepage" "https://illuminati.game"
+}
+"config"
+{
+	"installdir" "ILLUMINATI"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ILLUMINATI.exe"
+			"arguments" "-FromSteam"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Launch"
+			}
+			"description" "Launch"
+		}
+		"1"
+		{
+			"executable" "ILLUMINATI.app"
+			"arguments" "-FromSteam"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "Launch"
+			}
+			"description" "Launch"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1816071"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6435466710308737121"
+				"size" "1255512974"
+				"download" "421243616"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta-wip"
+			{
+				"gid" "C4DD09D2EED7D813D9EC9AA113F4CEAD"
+				"size" "2AB6CA76BEAC86ADC1E68E9D5458E938"
+				"download" "B4D7758545EDC3A0AE299C9F6814445D"
+			}
+			"devtesting"
+			{
+				"gid" "FB33145886E57527828279AAACA84A7D"
+				"size" "1C073D14ED27B946ABC98A33F151FCB9"
+				"download" "1C073D14ED27B946ABC98A33F151FCB9"
+			}
+			"dp-private"
+			{
+				"gid" "47357F8EC20094524DE0E273A1B0B4B7"
+				"size" "2CC0DB045693304C90ECD09D0E247C2C"
+				"download" "3E57E2447E969838271B63E39C262EB7"
+			}
+			"internaltesting"
+			{
+				"gid" "28E443C67E26A06BA7B7C0972CDD72C4"
+				"size" "87291BD7A7A58D4B878D93576C76104F"
+				"download" "514FD55455F109CF61C46CCA38CB6231"
+			}
+		}
+	}
+	"1816074"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7798752608543487668"
+				"size" "579176669"
+				"download" "279195136"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta-wip"
+			{
+				"gid" "32571E4E58EECD5D73ECE1281BFDC329"
+				"size" "84EDF8D67925E70738ECB75E0F3E6E73"
+				"download" "B5EC01136F836DA2585882A6FAFAE84B"
+			}
+			"devtesting"
+			{
+				"gid" "F737C1234BE7B3AB8E8E80A8A03A8D5D"
+				"size" "EE4E63D30D53F8A0C5F4F007FC61E2A7"
+				"download" "287FBA44E5F35784AA31FF8353A822E6"
+			}
+			"dp-private"
+			{
+				"gid" "DC9B2B6FF9FD5B22AC220BB1644CE7B3"
+				"size" "64077D7A08DE5A6F8650D86A79299451"
+				"download" "8DD50FE2D63095B87AD9DE74EDA75AC0"
+			}
+			"internaltesting"
+			{
+				"gid" "886B610199BBE5FE02DF3092E7D654B4"
+				"size" "6706C617A635AB104584AE8DB9552F00"
+				"download" "51444C5E214E9B64E9038B55A8092E9C"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11581945"
+			"timeupdated" "1687984111"
+		}
+		"beta-wip"
+		{
+			"buildid" "11581945"
+			"pwdrequired" "1"
+			"timeupdated" "1687984069"
+		}
+		"devtesting"
+		{
+			"buildid" "10803402"
+			"pwdrequired" "1"
+			"timeupdated" "1679177987"
+		}
+		"dp-private"
+		{
+			"buildid" "11581945"
+			"pwdrequired" "1"
+			"timeupdated" "1687984036"
+		}
+		"internaltesting"
+		{
+			"buildid" "11581945"
+			"pwdrequired" "1"
+			"timeupdated" "1687984054"
+		}
+	}
+}
