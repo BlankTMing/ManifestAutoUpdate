@@ -1,0 +1,574 @@
+"appid" "436320"
+"common"
+{
+	"name" "Raw Data"
+	"type" "Game"
+	"oslist" "windows"
+	"icon" "8b5c46829f26e148f06e4f4fde437f675fdaeca8"
+	"clienticon" "9f8592d82068465bc7e309287d83b0773a5d2c1b"
+	"clienttga" "43e59a0b6e6cea91f464a013fdea20306a7271e8"
+	"logo" "64f5f24a9a5907c0c00a7f5e3aad2c3b65281c26"
+	"logo_small" "64f5f24a9a5907c0c00a7f5e3aad2c3b65281c26_thumb"
+	"releasestate" "released"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"openvrsupport" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1644278400"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Raw Data"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "30.488542063663516"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1565043032"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Survios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Survios"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_9" "1"
+		"category_31" "1"
+		"category_23" "1"
+		"category_38" "1"
+		"category_27" "1"
+		"category_40" "1"
+		"category_1" "1"
+		"category_36" "1"
+		"category_22" "1"
+		"category_49" "1"
+		"category_52" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1507219304"
+	"metacritic_score" "87"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/raw-data\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "436320"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "21978"
+		"1" "19"
+		"2" "4255"
+		"3" "1685"
+		"4" "3859"
+		"5" "9"
+		"6" "3942"
+		"7" "1663"
+		"8" "1774"
+		"9" "4508"
+		"10" "4182"
+		"11" "5752"
+		"12" "1775"
+		"13" "620519"
+		"14" "1773"
+		"15" "4115"
+		"16" "3843"
+		"17" "4835"
+		"18" "492"
+		"19" "4295"
+	}
+	"review_score" "6"
+	"review_percentage" "77"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Survios"
+	"publisher" "Survios"
+	"homepage" "http://rawdatagame.com"
+	"gamemanualurl" "https://store.steampowered.com/manual/436320/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Raw Data"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "RawData.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "RawData.exe"
+			"arguments" "-simplelobbyhack -AUTOHOST -AUTOHOSTMAP=/Game/Maps/RD_HardPoint/RD_HardPoint"
+			"description" "HOST LAN Game"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "arcade"
+			}
+		}
+		"2"
+		{
+			"executable" "RawData.exe"
+			"arguments" "-simplelobbyhack -AUTOJOIN"
+			"description" "AUTOJOIN Closest LAN GAME"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "arcade"
+			}
+		}
+		"3"
+		{
+			"executable" "RawData.exe"
+			"arguments" "-parallel=staging"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "v.0.6_beta"
+			}
+		}
+		"4"
+		{
+			"executable" "RawData.exe"
+			"arguments" "-noparallel"
+			"description" "GDC DEMO"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "gdc-2017"
+			}
+		}
+	}
+	"usemms" "1"
+}
+"depots"
+{
+	"baselanguages" ""
+	"hasdepotsindlc" "1"
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"436321"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "632163443626812896"
+				"size" "9476342024"
+				"download" "7946385936"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"0.5.0.1"
+			{
+				"gid" "E76E410AE1824CCDAD99C38060BB6E5B"
+				"size" "007EE19A941B1D0C53845955290DB131"
+				"download" "75E317D4ED0E8BF187092867C8B5E7C1"
+			}
+			"0.5.1"
+			{
+				"gid" "0FE85FEC07668B9FF17C90C0A3469767"
+				"size" "2524379E5A3360EA245AF4A9C03BCE68"
+				"download" "B7859CF4BFA29408E9BBD64DF2253962"
+			}
+			"0.5.2"
+			{
+				"gid" "356C346F043972CE549511AB793348DA"
+				"size" "DE6ED8210D458E64142A21179D94BAB3"
+				"download" "B15F0F3A7A740B137177370235EA9A63"
+			}
+			"0.5.3"
+			{
+				"gid" "E99D44A398A3EA40C81E9A89FA0C9111"
+				"size" "70B9A1FDDFAC6204EC57459326CF6217"
+				"download" "E53508C9F16BE9363B695891F54C373D"
+			}
+			"0.6.1"
+			{
+				"gid" "F58DC27B2FCE72B50CDB472A5A9A3EBD"
+				"size" "576146C6A7F2B11651D5F73852385D4D"
+				"download" "434D898B5EF5B75CFB87932427971DC0"
+			}
+			"0.6.1.1"
+			{
+				"gid" "D236E67407D1AF44BDF288353409FC5F"
+				"size" "19BD58621521F697A6AF4FC55755B3A1"
+				"download" "C0E7F32A69B2F5DE88BA6A0ADC6ED2E3"
+			}
+			"0.6.2"
+			{
+				"gid" "C57A971EB1DB5EA38D257C8030F926B8"
+				"size" "0341610874D465D7CB1EBCCB93D7F8AB"
+				"download" "A3744CDD5CDA007F67D1F7C64FDEB0CF"
+			}
+			"0.6.3"
+			{
+				"gid" "EE2D7922EDA16CD4AED4EE1524B264D2"
+				"size" "9F7DD37B83B6E6C3516A91FC391B614F"
+				"download" "40ABF3508883FB6549859F163EC7378B"
+			}
+			"0.6.4"
+			{
+				"gid" "7660C9961F9BCED4573E06FD1F26FF13"
+				"size" "33CE4085722A55D203D027921E39EF2D"
+				"download" "CF80BF313303BC3933DF31EB5DF65E68"
+			}
+			"0.6.5"
+			{
+				"gid" "44E95E8AC34557B8C7D932C0323D849D"
+				"size" "59188FFBF22661DC993D9C2EA02C9989"
+				"download" "4FA8DF6096B224618ECE6F4BBB5309BC"
+			}
+			"0.7.0"
+			{
+				"gid" "1F289761EEBF65E918F6E12344DF0C73"
+				"size" "CC7DB3FB0A0F7351C1ECF15C06BED11D"
+				"download" "182A3236482A67F246EF62C9DF1D408F"
+			}
+			"0.7.1"
+			{
+				"gid" "449E2976500F75A9BC22199829D34772"
+				"size" "14F315D62F1D8CC182D572CECF1E1701"
+				"download" "2B7BAECE6346BE4DA0BEB406D9366A7E"
+			}
+			"0.7.2"
+			{
+				"gid" "7E51B800733CC9F19EA357C8D90D93A4"
+				"size" "AFB8183C65D995DD37E76C1A346D2250"
+				"download" "B12218157A043E2EA7090BF47A28A215"
+			}
+			"0.7.3"
+			{
+				"gid" "9808D51E66FD512ECD935EB9817C7A5B"
+				"size" "E37E8C52B6C3834BA4CBD9CCC7BB6F3B"
+				"download" "13B52A3994C6A11AF84EDC1E4F743DD7"
+			}
+			"1.0.0"
+			{
+				"gid" "49A5BF318D0EFC8C9E494F2A9747A19B"
+				"size" "6504CB9D562A26824E764A4BD14828DF"
+				"download" "8CD7E827C8F3E6D92C78E4E6301D91D5"
+			}
+			"1.0.1"
+			{
+				"gid" "E5C5B2D155700206D26E956A254E2B57"
+				"size" "D0D890F6BDF30BAF07312565B2C67704"
+				"download" "39738C177CECBB1C976D387E2338B176"
+			}
+			"1.0.2"
+			{
+				"gid" "EAEB926D84CDA796BE2C3483209EFEB2"
+				"size" "7D87F16C47B56D755F9D465C798B2EAC"
+				"download" "27BA7648924B3446AAB2544403C14033"
+			}
+			"1.1.0"
+			{
+				"gid" "82243447042B73CD931D32BD541CB884"
+				"size" "75F892CA4546BF02BA7D74AAD81DFE0A"
+				"download" "A463E33B4BC5EFE68455DEEAC31D7A9D"
+			}
+			"1.1.1"
+			{
+				"gid" "B29CD6832DCD7293B371AA2B9FE723AE"
+				"size" "5FCA36A0997441D1015B90AC8003CB22"
+				"download" "810AC8B890320D981C8927B2902DAC82"
+			}
+			"qa-dev-rawdata"
+			{
+				"gid" "2824C80F20C273E2AC5BAB77784FCF5C"
+				"size" "F464C8F680FF03B924D32BB40ABA5EF9"
+				"download" "25DA9F1D8BBF62CAAC602409D5E733A0"
+			}
+			"ratings_board"
+			{
+				"gid" "D6FD1C8A1846DAF8CC23ED73F2C5CE14"
+				"size" "423E90A977A0ADA1CB5B640EA697D021"
+				"download" "A2E00A262D801A53CFB221CD8B57F3D9"
+			}
+			"rawdata-releae-candidates"
+			{
+				"gid" "80845E77BBC18521DF287321A239C068"
+				"size" "12E8A3814AA3A2F0A41E64FB2F7F008B"
+				"download" "923099F4AF4E7F57511C8BFC87BB4BDF"
+			}
+			"survios_marketing"
+			{
+				"gid" "3F1E5ED1C46DEBABD3FB2D90ECD7A0DF"
+				"size" "C8C6D002522566FE9C83BD1112861B6B"
+				"download" "2B7D2B6903C08EEA444E5164019B1064"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9002865"
+			"timeupdated" "1656376221"
+		}
+		"0.5.0.1"
+		{
+			"buildid" "1525166"
+			"pwdrequired" "1"
+			"timeupdated" "1482202568"
+		}
+		"0.5.1"
+		{
+			"buildid" "1529865"
+			"pwdrequired" "1"
+			"timeupdated" "1482201208"
+		}
+		"0.5.2"
+		{
+			"buildid" "1534667"
+			"pwdrequired" "1"
+			"timeupdated" "1482370362"
+		}
+		"0.5.3"
+		{
+			"buildid" "1553974"
+			"pwdrequired" "1"
+			"timeupdated" "1483669334"
+		}
+		"0.6.1"
+		{
+			"buildid" "1693957"
+			"pwdrequired" "1"
+			"timeupdated" "1489772217"
+		}
+		"0.6.1.1"
+		{
+			"buildid" "1699272"
+			"pwdrequired" "1"
+			"timeupdated" "1489791164"
+		}
+		"0.6.2"
+		{
+			"buildid" "1726274"
+			"pwdrequired" "1"
+			"timeupdated" "1492125635"
+		}
+		"0.6.3"
+		{
+			"buildid" "1763884"
+			"pwdrequired" "1"
+			"timeupdated" "1492566027"
+		}
+		"0.6.4"
+		{
+			"buildid" "1786509"
+			"pwdrequired" "1"
+			"timeupdated" "1495144244"
+		}
+		"0.6.5"
+		{
+			"buildid" "1901525"
+			"pwdrequired" "1"
+			"timeupdated" "1498170413"
+		}
+		"0.7.0"
+		{
+			"buildid" "1962554"
+			"pwdrequired" "1"
+			"timeupdated" "1502165460"
+		}
+		"0.7.1"
+		{
+			"buildid" "1973507"
+			"pwdrequired" "1"
+			"timeupdated" "1502165476"
+		}
+		"0.7.2"
+		{
+			"buildid" "2036697"
+			"pwdrequired" "1"
+			"timeupdated" "1502828714"
+		}
+		"0.7.3"
+		{
+			"buildid" "2063324"
+			"pwdrequired" "1"
+			"timeupdated" "1507251046"
+		}
+		"1.0.0"
+		{
+			"buildid" "2173034"
+			"pwdrequired" "1"
+			"timeupdated" "1507251004"
+		}
+		"1.0.1"
+		{
+			"buildid" "2176425"
+			"pwdrequired" "1"
+			"timeupdated" "1507577414"
+		}
+		"1.0.2"
+		{
+			"buildid" "2226588"
+			"pwdrequired" "1"
+			"timeupdated" "1508880271"
+		}
+		"1.1.0"
+		{
+			"buildid" "2837357"
+			"pwdrequired" "1"
+			"timeupdated" "1536780561"
+		}
+		"1.1.1"
+		{
+			"buildid" "3197410"
+			"pwdrequired" "1"
+			"timeupdated" "1545350321"
+		}
+		"qa-dev-rawdata"
+		{
+			"buildid" "2166914"
+			"pwdrequired" "1"
+			"timeupdated" "1506990985"
+		}
+		"ratings_board"
+		{
+			"buildid" "2253876"
+			"pwdrequired" "1"
+			"timeupdated" "1510266235"
+		}
+		"rawdata-releae-candidates"
+		{
+			"buildid" "9002865"
+			"pwdrequired" "1"
+			"timeupdated" "1656091897"
+		}
+		"survios_marketing"
+		{
+			"buildid" "2166914"
+			"pwdrequired" "1"
+			"timeupdated" "1506991510"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "4194305"
+	"maxnumfiles" "10"
+}
