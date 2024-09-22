@@ -1,0 +1,997 @@
+"appid" "448850"
+"common"
+{
+	"name" "Overload"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "f80b29c4dc5bef26ad43dad5471661308730d5aa"
+	"logo_small" "f80b29c4dc5bef26ad43dad5471661308730d5aa_thumb"
+	"clienticon" "0539c251a0b7fffe1d973c39e73a722bc7b8bf8e"
+	"clienttga" "49afdb3a8241c81a477816f6d8b8f8cb3836e751"
+	"icon" "8748a831a8aa3e0e04a367269f14f3eac61deffb"
+	"clienticns" "846da922aa79e48cc735df376c9f989f3e9c17e3"
+	"linuxclienticon" "5b103a2c788ba64c499dd36505a262e9050dd1ec"
+	"controllervr"
+	{
+		"kbm" "1"
+		"xinput" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+	}
+	"osarch" ""
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"spanish" "1"
+		"russian" "1"
+	}
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"osextended" "macos64"
+	"metacritic_name" "Overload"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1668652938"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Revival Productions, LLC"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Revival Productions, LLC"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_25" "1"
+		"category_22" "1"
+		"category_13" "1"
+		"category_23" "1"
+		"category_36" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_43" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1527768780"
+	"metacritic_score" "74"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/overload\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "448850"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "4835"
+		"2" "1663"
+		"3" "3942"
+		"4" "21978"
+		"5" "3839"
+		"6" "1756"
+		"7" "4004"
+		"8" "1693"
+		"9" "4026"
+		"10" "1755"
+		"11" "1774"
+		"12" "4182"
+		"13" "3859"
+		"14" "5752"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Revival Productions, LLC"
+	"publisher" "Revival Productions, LLC"
+	"homepage" "http://playoverload.com/"
+	"gamemanualurl" "https://store.steampowered.com/manual/448850/"
+	"listofdlc" "884970,954030,1119750"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Overload"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Overload.exe"
+			"arguments" "-vrmode none"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Overload.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Overload.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "Overload.x86"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"4"
+		{
+			"executable" "Overload.exe"
+			"arguments" "-vrmode openvr"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"5"
+		{
+			"executable" "Overload.exe"
+			"arguments" "-vrmode oculus"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"6"
+		{
+			"executable" "ReadMe.txt"
+			"description" "View ReadMe file"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"8"
+		{
+			"executable" "OverloadLevelEditor\\OverloadLevelEditor.exe"
+			"workingdir" "OverloadLevelEditor"
+			"description" "Start Overload Level Editor"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "884970"
+			}
+		}
+		"9"
+		{
+			"executable" "OverloadLevelEditor\\OverloadDMeshEditor.exe"
+			"workingdir" "OverloadLevelEditor"
+			"description" "Start Overload DMesh Editor"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "884970"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,spanish,russian"
+	"448851"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2865041475373198704"
+				"size" "7322847794"
+				"download" "3897682016"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "F559F44EE53221B2DAE43A74BE6F56D5"
+				"size" "849902CAA13BE8B2635D7A03A319E474"
+				"download" "3CB68DAA0BE7D55C883D203ECD052540"
+			}
+			"debug"
+			{
+				"gid" "70B5E71A0312B36AA203DBD92204830E"
+				"size" "51E227606D2FCC580744BCEFDB0F7EEB"
+				"download" "3D610D61842DA5798491DBA79BB9F2B1"
+			}
+			"dlc2_test"
+			{
+				"gid" "B3882E1843B7B421401D36F2A04DA0B5"
+				"size" "D7F78AB1BC2FEE37DA5FE50ED6AE2B0D"
+				"download" "740C1571F81DD53F4F9FBED2B05D7B62"
+			}
+			"fullgame_internal_test"
+			{
+				"gid" "C09C0DD76D8938EA6F89918D0D589BE7"
+				"size" "85600DB00F8C909A96287B9D77CF1777"
+				"download" "7ED193222D7DDC0D5ED427957F0FA507"
+			}
+			"fullgame_internal_test_debug"
+			{
+				"gid" "114699E84BC9D9D6FB4F6D8E7BDA7784"
+				"size" "A678E4A97358B9455186EBD0B4C1C4CD"
+				"download" "422F241B60560714BB1EC57BB1B0F2AC"
+			}
+			"gameon"
+			{
+				"gid" "2E508FD6FB876315837E0A8668FF3106"
+				"size" "F719E559FC01EFC4E9B1404E479A2791"
+				"download" "C1AD0735A5D1702CB9C88D82FF78E080"
+			}
+			"gameon_internal_test"
+			{
+				"gid" "8656D61D029A9BD76B5DF99A41C80697"
+				"size" "C01364EE1F0D69D353769B56CC2F15CE"
+				"download" "AE373802FA4C85CFB9FAFB5ADD1AE6F2"
+			}
+			"internal_test"
+			{
+				"gid" "37BE9A09CD046BE7FBCDCD8F4631A3C0"
+				"size" "26724E799969857F0F8ED3A06E312551"
+				"download" "93173CCA96F38DAD0C4361FE69D76400"
+			}
+			"internal_test_debug"
+			{
+				"gid" "C7645C94FC06248E1A56E26CFDE04F19"
+				"size" "6E252A6FA0F2D8BFCF0BC12B628D57C7"
+				"download" "EA6783CB5F707E5C291C62028BCD270F"
+			}
+			"mptest"
+			{
+				"gid" "03084AA70A0E443466E63EF39AE95419"
+				"size" "78ED257794AFAB4C1900E32AD72005D7"
+				"download" "2EE708211077CDF98C44D4BF9121ACFF"
+			}
+		}
+	}
+	"448852"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8477674725726142164"
+				"size" "7311269072"
+				"download" "3892835904"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "E15FF5AE53CF8FC0FA7DCE978FEB621B"
+				"size" "5C1C246C365CBD6F55A8A93462EB49A3"
+				"download" "48C56AA05DF041EDEA21D9DA51F9D98D"
+			}
+			"debug"
+			{
+				"gid" "21F1CBE4794128AAF9A92A0CA32CDC48"
+				"size" "1A26509E278C2AC47F2651EA8EC28FFA"
+				"download" "3EA0DA355220021281BAD805E738F0F5"
+			}
+			"dlc2_test"
+			{
+				"gid" "4BFC25D2EF04FC74B8FB1582D73CEBE7"
+				"size" "8441A4E1CB19C3117CB24AC8E54BDF25"
+				"download" "3F23646700DBB3EE2E71136BFD475AAC"
+			}
+			"fullgame_internal_test"
+			{
+				"gid" "2BC61431CE1FBFB29E9A53C166B0C223"
+				"size" "0E798BDB73F6F9684543C70BB4E4D5BD"
+				"download" "35078F8E088FB58409B9693B5B4C5A91"
+			}
+			"fullgame_internal_test_debug"
+			{
+				"gid" "50C3AC075ED2EBC9D59F307FB9064D71"
+				"size" "8C1824044DDA5F2EF95A4D93EBDE64AC"
+				"download" "D54CC503262226C2929AC762C77D77AA"
+			}
+			"gameon"
+			{
+				"gid" "92CE88E3DCE3745F2F2FF01016EB02EA"
+				"size" "769238F4F42A80187F8546C4C3A1F959"
+				"download" "33FD6C9DA3DBB90F9EB1A809645205F8"
+			}
+			"gameon_internal_test"
+			{
+				"gid" "BC260EE55A9AF78C9B784AFC824FBFB5"
+				"size" "71F618F821FF2E0AD0983402B212523F"
+				"download" "7A74CEA4E6ED55A3F7618E9199FBFB16"
+			}
+			"internal_test"
+			{
+				"gid" "8EB14C4CFCEB34EDBF8237DF07F2F86D"
+				"size" "2B8EB19DF4C2E41ADA81E58B97F7BA74"
+				"download" "4F8B83E0E35EBE2F865A37527A3483C4"
+			}
+			"internal_test_debug"
+			{
+				"gid" "82369EF5BAC2DEDF55670FD5C695048A"
+				"size" "03197704705D801513FA662A7F18BB14"
+				"download" "E5D5C7A392680FA0D320F6078C289CB3"
+			}
+			"mptest"
+			{
+				"gid" "850A4C7EA18D2E6C865E36BC6C86F98F"
+				"size" "F941B231414194C9BD82E4665AF48604"
+				"download" "3FFA31A194C9D3EBAE53B2396344E6E6"
+			}
+		}
+	}
+	"448853"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1399356370845518972"
+				"size" "7365589857"
+				"download" "3896854800"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "D383BBD09FD0C0A9CA02576265666C47"
+				"size" "346C9EE976D8DFEFFFBE7C849CA2F082"
+				"download" "BB2A9F9063669E1CDA39D2900DDC155E"
+			}
+			"debug"
+			{
+				"gid" "2B3681D8F740B567036A929EF1C0FE05"
+				"size" "3BAED78C9ABACF885CFBDE91C2D584C3"
+				"download" "1E03C792794CB1328055ED55A0740053"
+			}
+			"dlc2_test"
+			{
+				"gid" "A02F6957762745CABC8C58526A1D09A9"
+				"size" "FF0BF21CD1749976705B1C936A2BA643"
+				"download" "98FEE7FA637845B1949B528DA5708810"
+			}
+			"fullgame_internal_test"
+			{
+				"gid" "70299D0BDE2628D155BE87607821C95E"
+				"size" "9E68375D3A92A1EBC76A7F106C707247"
+				"download" "8440CB02A468A42BB11B5DC933B7B35A"
+			}
+			"fullgame_internal_test_debug"
+			{
+				"gid" "72682E63479E6DC969F58F814400EC43"
+				"size" "42401B39F328457E39D64A898814A1A4"
+				"download" "0605D4EE145BE9421612EE12CA781E05"
+			}
+			"gameon"
+			{
+				"gid" "143700663AC10AFFD8F26BF92323DFF0"
+				"size" "06F882E8BFCF39E53CA2B693BDBDB7E1"
+				"download" "001CB0A237D663DCCE70044BB24AE681"
+			}
+			"gameon_internal_test"
+			{
+				"gid" "28B744DA4BB0389B76262747567532B5"
+				"size" "FD877ADA00C88066BDF9A11FA580C2B0"
+				"download" "787BCD62AADC3FA21F2C774F2EF93C91"
+			}
+			"internal_test"
+			{
+				"gid" "A26E69DCB09541050831CEC3E3879D20"
+				"size" "ED2EB017D3358E784E60888620FD91C5"
+				"download" "C7629F9400969F928F8EF6F2A37102EE"
+			}
+			"internal_test_debug"
+			{
+				"gid" "BD18B0280C81018FB23C008CA0EAE594"
+				"size" "02D9B73FE40CC490F53D6B787187F2A1"
+				"download" "E560CE793C8E1A76D854D0A064B5824D"
+			}
+			"mptest"
+			{
+				"gid" "348ABF6C0EDC1FEB7057E6E2DDEBF790"
+				"size" "EE681DF195A066264A808DC419F60B77"
+				"download" "21B0DEADCB0955D374B268DC4A340109"
+			}
+		}
+	}
+	"448854"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4233222078615383606"
+				"size" "7355678209"
+				"download" "3911745072"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "41D1B53B2A21F352E75299CA53E0A378"
+				"size" "993694B0E950834DAD21EB294C4D3840"
+				"download" "BCF27CB655A44544E615BBE7124069C0"
+			}
+			"debug"
+			{
+				"gid" "9E03B7228A0750FE13EBCE03A84FB837"
+				"size" "25A1A6FE7B8FEAE2D44F10F144F7E380"
+				"download" "E960EC899A58AB6A38B14688F3B0A1BB"
+			}
+			"dlc2_test"
+			{
+				"gid" "3BAF31D2617CB7E5A97C93DF99C6EFAB"
+				"size" "442E8F1E80F1C1C7788B6E7266C04695"
+				"download" "DADDBAA3F49644A253E7E41B9C62C77E"
+			}
+			"fullgame_internal_test"
+			{
+				"gid" "42C1979DC8250D63A7BB70B56765720D"
+				"size" "C8B213FBC468F1ADA66D62B7011B231E"
+				"download" "5D608EBE01D658136EAEF62C90EA4C7E"
+			}
+			"fullgame_internal_test_debug"
+			{
+				"gid" "5C1089B14B64ABA07E1620B9B052F0B2"
+				"size" "E2C08032874B4D6C5B7AD402E4485A4D"
+				"download" "6B5391EC63B12642BE000BA57DC91E08"
+			}
+			"gameon"
+			{
+				"gid" "D93286BFA3746B720DBBDA27BBF8AEE7"
+				"size" "2050D10DF1E5C46E705E179EB56F318B"
+				"download" "DD24717411CCE808D1A76D02A5F2DA73"
+			}
+			"gameon_internal_test"
+			{
+				"gid" "FB7EC9BDFE86FEFF1A6B19C48FDA4947"
+				"size" "78E6D9BA92DB1386BCEF726DADEC909C"
+				"download" "31BF05AF16A8A4C2ED46DC94137C716A"
+			}
+			"internal_test"
+			{
+				"gid" "CD046B3C7438B6774033FBB56898D5D6"
+				"size" "6601E56A17C504A0ED477456CF87C068"
+				"download" "58B5E3C85E11BBE6A305340214E84E65"
+			}
+			"internal_test_debug"
+			{
+				"gid" "0A85101D97441D810F905D355A39D554"
+				"size" "E8C37382104EC92AEDBDA6B7EF37AF29"
+				"download" "4788ADF6C534316A47556FB277DFF08E"
+			}
+			"mptest"
+			{
+				"gid" "1E8D9F5FC28DD17880B3FC3DDBD6E460"
+				"size" "B960B2A405359ACD58990F40396D9072"
+				"download" "B7D173EC9897A51315A7458685874FFB"
+			}
+		}
+	}
+	"448856"
+	{
+		"dlcappid" "884970"
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7875787088852892467"
+				"size" "308297000"
+				"download" "121490320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "C9A09FA06AE884D399199703C13DC02D"
+				"size" "4A227C7DBA645CB4A7D342DF363B9940"
+				"download" "06B6485AF7ADE1ECBC7AD15EDB127EA1"
+			}
+			"debug"
+			{
+				"gid" "48C3E92B419A23FF3F9AD6CD4B7C9B45"
+				"size" "1B75F59BE95654345007D5B4C7548234"
+				"download" "3ECBDE90DAA76B93FCF4E560D5F0AEC8"
+			}
+			"dlc2_test"
+			{
+				"gid" "30CB3119DB396AB7AE4C6205B016D9D7"
+				"size" "27753E8E6091F8AE61C6B80E2D8A9204"
+				"download" "4DA2386730FE08C97259DD8AAEF33AAC"
+			}
+			"fullgame_internal_test"
+			{
+				"gid" "F6AE1C440462322478FAFF0EB54E27A0"
+				"size" "D9A3C1147213D06C95692E1B4F6FAE11"
+				"download" "6AC56E120F59EF6E993DD5DE5D3A92EE"
+			}
+			"gameon"
+			{
+				"gid" "D189E8D0ABF38BEC7AB1E671C3530CA4"
+				"size" "52FD41ED75267CEF8276736C8EA20195"
+				"download" "E593047D3636C056AA3D18C2723BD8F6"
+			}
+			"gameon_internal_test"
+			{
+				"gid" "FA66BD193A051D61A408BEB63221DE37"
+				"size" "04D3AA43F8F0508A345F9024851BE604"
+				"download" "2F78E88CFDACE1E0F5CF23702279C7A8"
+			}
+			"internal_test"
+			{
+				"gid" "46303FAB5D5C98F10A4C937DAEA3ADF6"
+				"size" "000AC33718DB5381AA2C35D6B6D5A51F"
+				"download" "934E17DB7AFB5DD2CE420AD2A411A0DA"
+			}
+			"mptest"
+			{
+				"gid" "228BEE2528BE0103F82DD0D17EC9F9FD"
+				"size" "51082AC86D9B2E7BBA043F38EEF8D671"
+				"download" "8705942F301D6B17ACA4F43390A0F503"
+			}
+		}
+	}
+	"448857"
+	{
+		"dlcappid" "884970"
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7547388682409748316"
+				"size" "306707752"
+				"download" "121055152"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "AC6CA0B261BADC565B8B142709A164DE"
+				"size" "D0DDA1847B457B40C479CAA95C75949A"
+				"download" "9944AD39B0F4C3C679AD9CA36573C872"
+			}
+			"debug"
+			{
+				"gid" "C1855438BF3F34674C5902CF0B1CD424"
+				"size" "257860EDFFEC78662CA87228E2B160F3"
+				"download" "BC9CD495448ECFA533CFD452EC887252"
+			}
+			"dlc2_test"
+			{
+				"gid" "E11C6897FEBBB13AFC779FD358CAC8AC"
+				"size" "379CDF860D8B63D6FF346D9279CD72C4"
+				"download" "F26C9AE4BC8E670498D64214365C00CD"
+			}
+			"fullgame_internal_test"
+			{
+				"gid" "20DE49C9B6957D334284D7D353F26BAC"
+				"size" "F834A596F8ED7B48EB2DB6A6E5A4F54C"
+				"download" "0BBF049BC05E675933D9BABA3D30C240"
+			}
+			"gameon"
+			{
+				"gid" "EB2252557AF43802F9B232D0ABEE32FE"
+				"size" "D56566C768E522EAC0E8767224C2E5FE"
+				"download" "8553985C73E731D69C07D57B24E6EA72"
+			}
+			"gameon_internal_test"
+			{
+				"gid" "802EED28BD8E5C302675581310916856"
+				"size" "9B62AB62E62BA58127A0F21D0EE27E8F"
+				"download" "2C64B06920202928A171EAEBFDDACE31"
+			}
+			"internal_test"
+			{
+				"gid" "7A69BE219AF965E1A0E9C98AF1ED4FB5"
+				"size" "E799118037AD721268A5D5E775124680"
+				"download" "63ED34097D16E2FF1597F7A88106535A"
+			}
+			"mptest"
+			{
+				"gid" "C3396B137CB1F52383D5578542D80FCB"
+				"size" "5AF20B5379632D2C8D2F9E08226471A9"
+				"download" "CDD0A26B83AC7A7F3C764BBA9639C681"
+			}
+		}
+	}
+	"448858"
+	{
+		"dlcappid" "954030"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "65665201019067961"
+				"size" "202262479"
+				"download" "188487280"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"debug"
+			{
+				"gid" "036652052FEBFA5FE309019E18FE3BB0"
+				"size" "A78897CBB31B73533C118F2E7ADE8D7B"
+				"download" "35323A4E67528ED3C6B035F3A238A052"
+			}
+			"dlc2_test"
+			{
+				"gid" "84E3FF16DCA69920C87E11B274649132"
+				"size" "FE66C4E1A1018B862D8CF82CFBF4284A"
+				"download" "8F306A3C4D7F6736EC48F607DB5B0DF5"
+			}
+			"fullgame_internal_test"
+			{
+				"gid" "51A80DF3FA6552752CECB89E9D50EB64"
+				"size" "C29083E65A6C79AE48E497A34F8BB319"
+				"download" "AF1217C7C78339AC50AD38A3818A7782"
+			}
+			"internal_test"
+			{
+				"gid" "4BD9FFA9EE4E565648BD16E340D3712F"
+				"size" "37A688AC7824CAF52601A41EF48AB7ED"
+				"download" "180BAC0014EC63FF8A163C28E3E19A33"
+			}
+			"mptest"
+			{
+				"gid" "B87A1DCC4BD10FB0A8DD609462DA817D"
+				"size" "F9A7A33184C162F8436A6722DECE7976"
+				"download" "A536BA55C10FB53ACDD02502C14B9592"
+			}
+		}
+	}
+	"448859"
+	{
+		"dlcappid" "1119750"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2452811571590044730"
+				"size" "287806491"
+				"download" "280683248"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dlc2_test"
+			{
+				"gid" "57F6BF063E7533B77D3DE1D5FD6C69E3"
+				"size" "EFDCD1B40095E8D664A58AF11E528738"
+				"download" "53495717FA19564A0655FE28B6A725C1"
+			}
+			"fullgame_internal_test"
+			{
+				"gid" "1180211E5025557A6A264DA3C9A7B453"
+				"size" "BB7F241D4BE8FE968C3E7ED5A9119507"
+				"download" "6ACEE9F5562E93FBEA402B6970E0888A"
+			}
+			"mptest"
+			{
+				"gid" "A1F8FA59F3B777CFBAC50503E1F95B4F"
+				"size" "1713A2678CD4A8FBC93F9D8CA7E0DFB4"
+				"download" "3AA1E2118F155F6C5CBD8B81500CBEA5"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5100701"
+			"timeupdated" "1590984414"
+		}
+		"beta"
+		{
+			"buildid" "3032868"
+			"pwdrequired" "1"
+			"timeupdated" "1534288899"
+		}
+		"debug"
+		{
+			"buildid" "4087707"
+			"pwdrequired" "1"
+			"timeupdated" "1565284203"
+		}
+		"dlc2_test"
+		{
+			"buildid" "4016642"
+			"pwdrequired" "1"
+			"timeupdated" "1563297364"
+		}
+		"fullgame_internal_test"
+		{
+			"buildid" "5100701"
+			"pwdrequired" "1"
+			"timeupdated" "1590883892"
+		}
+		"fullgame_internal_test_debug"
+		{
+			"buildid" "2816111"
+			"pwdrequired" "1"
+			"timeupdated" "1527615184"
+		}
+		"gameon"
+		{
+			"buildid" "3152420"
+			"pwdrequired" "1"
+			"timeupdated" "1537827385"
+		}
+		"gameon_internal_test"
+		{
+			"buildid" "3152420"
+			"pwdrequired" "1"
+			"timeupdated" "1537824111"
+		}
+		"internal_test"
+		{
+			"buildid" "3212168"
+			"pwdrequired" "1"
+			"timeupdated" "1539552788"
+		}
+		"internal_test_debug"
+		{
+			"buildid" "2574553"
+			"pwdrequired" "1"
+			"timeupdated" "1520196106"
+		}
+		"mptest"
+		{
+			"buildid" "5100701"
+			"pwdrequired" "1"
+			"timeupdated" "1590984360"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "20000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Revival/Overload"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Revival/Overload"
+					"replace" "Revival/Overload"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Revival/Overload"
+					"replace" ".config/unity3d/Revival/Overload"
+				}
+			}
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#statusstartingup" "Starting Up"
+				"#statusinmenus" "In Menus"
+				"#statuswaitingformatch" "Waiting for Match"
+				"#statustraining" "{%playing_or_paused%} TRAINING SIMULATOR"
+				"#statusmission" "{%playing_or_paused%} %level% in %mission%"
+				"#statuschallengemode" "{%playing_or_paused%} {#status_ChallengeMode} in %level%"
+				"#statusmultiplayer" "{%playing_or_paused%} {#status_Multiplayer} in %level%"
+				"#status_paused" "[Paused]"
+				"#status_playing" "Playing"
+				"#status_challengemode" "Challenge Mode"
+				"#status_multiplayer" "Multiplayer"
+			}
+		}
+		"french"
+		{
+			"tokens"
+			{
+				"#statusstartingup" "Lancement"
+				"#statusinmenus" "Dans les Menus"
+				"#statuswaitingformatch" "En attente d’une Partie"
+				"#statustraining" "{%playing_or_paused%} SIMULATEUR D’ENTRAÎNEMENT"
+				"#statusmission" "{%playing_or_paused%} %level% dans %mission%"
+				"#statuschallengemode" "{%playing_or_paused%} {#status_ChallengeMode} dans %level%"
+				"#statusmultiplayer" "{%playing_or_paused%} {#status_Multiplayer} in %level%"
+				"#status_paused" "[En pause]"
+				"#status_playing" "En jeu"
+				"#status_challengemode" "Mode Défi"
+				"#status_multiplayer" "Multijoueur"
+			}
+		}
+		"german"
+		{
+			"tokens"
+			{
+				"#statusstartingup" "Wird gestartet"
+				"#statusinmenus" "Im Menü"
+				"#statuswaitingformatch" "Warte auf Spiel"
+				"#statustraining" "{%playing_or_paused%} TRAINING SIMULATOR"
+				"#statusmission" "{%playing_or_paused%} %level% in %mission%"
+				"#statuschallengemode" "{%playing_or_paused%} {#status_ChallengeMode} in %level%"
+				"#statusmultiplayer" "{%playing_or_paused%} {#status_Multiplayer} in %level%"
+				"#status_paused" "[Pausiert]"
+				"#status_playing" "Spielt"
+				"#status_challengemode" "Herausforderungsmodus"
+				"#status_multiplayer" "Mehrspieler"
+			}
+		}
+		"spanish"
+		{
+			"tokens"
+			{
+				"#statusstartingup" "Puesta en marcha"
+				"#statusinmenus" "En los Menús"
+				"#statuswaitingformatch" "Esperando la partida"
+				"#statustraining" "{%playing_or_paused%} SIMULADOR DE ENTRENAMIENTO"
+				"#statusmission" "{%playing_or_paused%} %level% en %mission%"
+				"#statuschallengemode" "{%playing_or_paused%} {#status_ChallengeMode} en %level%"
+				"#statusmultiplayer" "{%playing_or_paused%} {#status_Multiplayer} en %level%"
+				"#status_paused" "[En pausa]"
+				"#status_playing" "En juego"
+				"#status_challengemode" "Modo Desafío"
+				"#status_multiplayer" "Modo Multijugador"
+			}
+		}
+		"russian"
+		{
+			"tokens"
+			{
+				"#statusstartingup" "Запуск"
+				"#statusinmenus" "В Меню"
+				"#statuswaitingformatch" "Ожидание Матча"
+				"#statustraining" "{%playing_or_paused%} УЧЕБНЫЙ СИМУЛЯТОР"
+				"#statusmission" "{%playing_or_paused%} %level% in %mission%"
+				"#statuschallengemode" "{%playing_or_paused%} {#status_ChallengeMode} в %level%"
+				"#statusmultiplayer" "{%playing_or_paused%} {#status_Multiplayer} в %level%"
+				"#status_paused" "[Пауза]"
+				"#status_playing" "Игра"
+				"#status_challengemode" "Режим Испытания"
+				"#status_multiplayer" "Мультиплеер"
+			}
+		}
+	}
+}
