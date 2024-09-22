@@ -1,0 +1,230 @@
+"appid" "217100"
+"common"
+{
+	"name" "Dementium II HD"
+	"type" "Game"
+	"oslist" "windows"
+	"releasestate" "released"
+	"logo" "c77f7234be78d03c33d71ec8b629bdbb08b8df49"
+	"logo_small" "c77f7234be78d03c33d71ec8b629bdbb08b8df49_thumb"
+	"clienttga" "49ce5d3e92f6ba6a44f4f87fb83eef570ca06ddd"
+	"clienticon" "1b4222951c67ada645f153ca711ce93709f60d49"
+	"icon" "8b52ad2671613ffd9fadfd5f5112a0c15601b5e3"
+	"metacritic_name" "Dementium II HD"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1419124475"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Memetic Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Missing Link Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1387303080"
+	"metacritic_score" "37"
+	"metacritic_fullurl" "http://www.metacritic.com/game/pc/dementium-ii-hd\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "217100"
+	"store_tags"
+	{
+		"0" "1667"
+		"1" "19"
+		"2" "21"
+		"3" "492"
+		"4" "1663"
+		"5" "3839"
+		"6" "4345"
+		"7" "4182"
+	}
+	"review_score" "5"
+	"review_percentage" "48"
+}
+"extended"
+{
+	"developer" "Memetic Games"
+	"gamedir" "ValveTestApp217100"
+	"homepage" "http://digitaltribegames.com/dementium-ii-hd/"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"validoslist" "windows,macos"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Missing Link Games"
+	"listofdlc" "217115"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Dementium 2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "/DII_Beta.exe"
+			"description" "Launch without console"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "/DII.app"
+			"description" "Launch without Console"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228982"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"217101"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7460370792665992971"
+				"size" "3508303994"
+				"download" "0"
+			}
+			"beta"
+			{
+				"gid" "7581299613487637825"
+				"size" "3610277062"
+				"download" "0"
+			}
+		}
+	}
+	"217102"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"beta"
+			{
+				"gid" "5555317524211378365"
+				"size" "3499617006"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "165591"
+		}
+		"beta"
+		{
+			"buildid" "271128"
+			"description" "Le beta"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "512000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "DII_Beta_Data"
+			"pattern" "DII.db"
+		}
+	}
+}
