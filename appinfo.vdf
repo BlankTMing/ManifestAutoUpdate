@@ -1,0 +1,228 @@
+"appid" "2206830"
+"common"
+{
+	"name" "Crafty Survivors - Prologue"
+	"type" "Game"
+	"icon" "a95c2c3e1053efec4de61fa913267e9808519c17"
+	"clienticon" "2086fe5314476bed345b5fdd797c67408d13b89c"
+	"clienttga" "ef5797f8811b87a0038d923d4175c7dc3935709c"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64"
+	"releasestate" "released"
+	"app_retired_publisher_request" "1"
+	"app_retired_was_free" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1668647610"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Flannel Bear Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Flannel Bear Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1668704484"
+	"community_hub_visible" "1"
+	"gameid" "2206830"
+	"store_tags"
+	{
+		"0" "42804"
+		"1" "1702"
+		"2" "1716"
+		"3" "4885"
+		"4" "3959"
+		"5" "7481"
+		"6" "4182"
+		"7" "4231"
+		"8" "1773"
+		"9" "4758"
+		"10" "4255"
+		"11" "3871"
+		"12" "3964"
+		"13" "4637"
+		"14" "4791"
+		"15" "19"
+		"16" "1684"
+		"17" "4172"
+		"18" "4305"
+		"19" "4562"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "Flannel Bear Games"
+	"publisher" "Flannel Bear Games"
+}
+"config"
+{
+	"installdir" "Crafty Survivors - Prologue"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CraftySurvivors.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "CraftySurvivors.app/Contents/MacOS/CraftySurvivors"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"2206831"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5090842112982635077"
+				"size" "318817580"
+				"download" "38937040"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "EA7B1892D864789FB09E3291E8B2D783"
+				"size" "119E5E9377103324917EE3622F2C8005"
+				"download" "73612EBA43481F9973C715D49BC90476"
+			}
+		}
+	}
+	"2206832"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2634036932512298346"
+				"size" "344632977"
+				"download" "46573792"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "0EB04C8BD0AF9F6100B0C3D3C1F53D3D"
+				"size" "39FC3C637287D41BC670C4EB435D9B17"
+				"download" "FC2E8CC2CE73783A96CE47C8186D1523"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10284186"
+			"timeupdated" "1673285758"
+		}
+		"developer"
+		{
+			"buildid" "9979093"
+			"pwdrequired" "1"
+			"timeupdated" "1668974328"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "10"
+	"appidredirect" "2137760"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "FlannelBearGames/CraftySurvivors/{Steam3AccountID}"
+			"pattern" "*.dat"
+		}
+		"copied_from_parent" "1"
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "FlannelBearGames/CraftySurvivors/{Steam3AccountID}"
+					"replace" "FlannelBearGames/CraftySurvivors/{Steam3AccountID}"
+				}
+			}
+		}
+	}
+}
