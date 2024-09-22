@@ -1,0 +1,599 @@
+"appid" "214910"
+"common"
+{
+	"name" "Air Conflicts: Pacific Carriers"
+	"type" "Game"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"russian" "1"
+	}
+	"clienticon" "6abb38d40984a9bcfb501161ba94c818f8d7c3bf"
+	"clienttga" "747b9dd16434be6aa7fdad863f129cf5453d48cf"
+	"icon" "83837f32149ac0662aef91b7380867eb9632a8b0"
+	"logo" "91ad6b85d2c53a7a6d32acf490ae6f5f4873f672"
+	"logo_small" "91ad6b85d2c53a7a6d32acf490ae6f5f4873f672_thumb"
+	"oslist" "windows,macos,linux"
+	"clienticns" "14015fcdb7be44b28ac634f3e8cefd2e5ed9ebc9"
+	"linuxclienticon" "01dfc9b5f3b5c2d0982c8be4cb70a3796e72b260"
+	"metacritic_name" "Air Conflicts - Pacific Carriers"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1346799541"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Games Farm"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "3Division"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Games Farm"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_22" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1348246800"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "214910"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "599"
+		"2" "15045"
+		"3" "4150"
+		"4" "4182"
+		"5" "1773"
+	}
+	"review_score" "5"
+	"review_percentage" "53"
+}
+"extended"
+{
+	"developer" "Games Farm"
+	"gamedir" "Air Conflicts: Pacific Carriers"
+	"homepage" "http://www.airconflicts.net/"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"installscriptosx" "ACPC.app/installscript_osx.vdf"
+	"installscript_macos" "ACPC.app/installscript_osx.vdf"
+	"publisher" "Games Farm"
+	"gamemanualurl" "https://store.steampowered.com/manual/214910/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Air Conflicts - Pacific Carriers"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ACPC.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Configure.exe"
+			"description" "Configure Game Parameters"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "ACPC.app/Contents/MacOS/ACPC"
+			"description" "Play"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"4"
+		{
+			"executable" "ACPC Configuration.app"
+			"description" "Configuration"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"5"
+		{
+			"executable" "run.sh"
+			"arguments" "game"
+			"description" "Play"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"6"
+		{
+			"executable" "run.sh"
+			"arguments" "config"
+			"description" "Configuration"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"installscriptsignature" "067edf2dd1a061641f8b5492bf48d86b49daaceb47a0aab394474238361150cb2050104c09f310a8409e57fa027738ef8a3665be8ae7818cc6693bd5e4ebf76cfc851f3e29b8adf5efb5b8e5acf6dd76a10c0a929da6f4b6b5cc957bbb30ef056d5c8bbd4f99c1cfd2fbde64f5dedf6d49d9bb9d1cf2cfc185366f9a2a92aa2f"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\prereq\\DXSETUP.exe"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"214911"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6039275802473269449"
+				"size" "3336019628"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"linux_beta"
+			{
+				"gid" "B988018A66E347A337E3BC70C728517C"
+				"size" "25D03D6E7F600BD019FA5F4DD49F3FA6"
+				"download" "07B330BEA644F926838F46FA32B75E87"
+			}
+			"osx_beta"
+			{
+				"gid" "8B2E7C678F63BFC4962944241E86817D"
+				"size" "2C0002D7932E731BA054DE60B52BAEA5"
+				"download" "32382F425888E3F678B1ECFDA8BB564F"
+			}
+			"test"
+			{
+				"gid" "8FFCE5F92EE0D3D6EA4A7862429221E6"
+				"size" "C2FE04FF901FD095E3606173A02772CA"
+				"download" "3086E70456C58DB2FE9DD4EF05812272"
+			}
+		}
+	}
+	"214912"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3714298633924613170"
+				"size" "3"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"linux_beta"
+			{
+				"gid" "85D153E7818E117CC927907F82C66F2B"
+				"size" "88A7C5A319DB70059BD2D4A9E7767D9D"
+				"download" "07B330BEA644F926838F46FA32B75E87"
+			}
+			"osx_beta"
+			{
+				"gid" "FC5173C29CA97900C8A27F9B5238FF4F"
+				"size" "99FFD49991E72E0CBE2FDE461B2E5A58"
+				"download" "32382F425888E3F678B1ECFDA8BB564F"
+			}
+			"test"
+			{
+				"gid" "033382756AA2439AC3C76E101C33FCF4"
+				"size" "029B4647946C7BEC311DF5F61CCC0353"
+				"download" "3086E70456C58DB2FE9DD4EF05812272"
+			}
+		}
+	}
+	"214913"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2921994207436494442"
+				"size" "3"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"linux_beta"
+			{
+				"gid" "72A20E0FBBC8CBDA9F0DA41C2173DA3D"
+				"size" "88A7C5A319DB70059BD2D4A9E7767D9D"
+				"download" "07B330BEA644F926838F46FA32B75E87"
+			}
+			"osx_beta"
+			{
+				"gid" "421CDE228F684475FE994A711DBD8995"
+				"size" "99FFD49991E72E0CBE2FDE461B2E5A58"
+				"download" "32382F425888E3F678B1ECFDA8BB564F"
+			}
+			"test"
+			{
+				"gid" "401171BC7382C0778FBC7964FA34179C"
+				"size" "029B4647946C7BEC311DF5F61CCC0353"
+				"download" "3086E70456C58DB2FE9DD4EF05812272"
+			}
+		}
+	}
+	"214914"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7989731530792873435"
+				"size" "3"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"linux_beta"
+			{
+				"gid" "075487E1BF1583407423043D9C68D893"
+				"size" "88A7C5A319DB70059BD2D4A9E7767D9D"
+				"download" "07B330BEA644F926838F46FA32B75E87"
+			}
+			"osx_beta"
+			{
+				"gid" "EFCE2909B65433AD96CA6EA383E68419"
+				"size" "99FFD49991E72E0CBE2FDE461B2E5A58"
+				"download" "32382F425888E3F678B1ECFDA8BB564F"
+			}
+			"test"
+			{
+				"gid" "DDA2938CD9DC4B936413300062101082"
+				"size" "029B4647946C7BEC311DF5F61CCC0353"
+				"download" "3086E70456C58DB2FE9DD4EF05812272"
+			}
+		}
+	}
+	"214915"
+	{
+		"config"
+		{
+			"language" "italian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1511064427372116838"
+				"size" "3"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"linux_beta"
+			{
+				"gid" "5A69E9F6CD14D16A5B0BF345F455A8AE"
+				"size" "88A7C5A319DB70059BD2D4A9E7767D9D"
+				"download" "07B330BEA644F926838F46FA32B75E87"
+			}
+			"osx_beta"
+			{
+				"gid" "EE91926BFD1B6BDEF9D3874A08ABC01C"
+				"size" "99FFD49991E72E0CBE2FDE461B2E5A58"
+				"download" "32382F425888E3F678B1ECFDA8BB564F"
+			}
+			"test"
+			{
+				"gid" "D718566CC781E542FE663F9FACDDEB8F"
+				"size" "029B4647946C7BEC311DF5F61CCC0353"
+				"download" "3086E70456C58DB2FE9DD4EF05812272"
+			}
+		}
+	}
+	"214916"
+	{
+		"config"
+		{
+			"language" "spanish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5129139993648339570"
+				"size" "3"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"linux_beta"
+			{
+				"gid" "3D104732408FC4EE2C98435280EE3A58"
+				"size" "88A7C5A319DB70059BD2D4A9E7767D9D"
+				"download" "07B330BEA644F926838F46FA32B75E87"
+			}
+			"osx_beta"
+			{
+				"gid" "E250C3069A32766350593246B059207D"
+				"size" "99FFD49991E72E0CBE2FDE461B2E5A58"
+				"download" "32382F425888E3F678B1ECFDA8BB564F"
+			}
+			"test"
+			{
+				"gid" "1DBE76A2BCE43FD8DDF6BD26E8B4D950"
+				"size" "029B4647946C7BEC311DF5F61CCC0353"
+				"download" "3086E70456C58DB2FE9DD4EF05812272"
+			}
+		}
+	}
+	"214917"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "316039950873386390"
+				"size" "3"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"linux_beta"
+			{
+				"gid" "C339E18DB765437744C310353E457CDC"
+				"size" "88A7C5A319DB70059BD2D4A9E7767D9D"
+				"download" "07B330BEA644F926838F46FA32B75E87"
+			}
+			"osx_beta"
+			{
+				"gid" "3A198DD4B3BD65DBEC6FF7F58C43B2E9"
+				"size" "99FFD49991E72E0CBE2FDE461B2E5A58"
+				"download" "32382F425888E3F678B1ECFDA8BB564F"
+			}
+			"test"
+			{
+				"gid" "0DDE0FB242BF5D9E676B94B52C3F481A"
+				"size" "029B4647946C7BEC311DF5F61CCC0353"
+				"download" "3086E70456C58DB2FE9DD4EF05812272"
+			}
+		}
+	}
+	"214918"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7065454113415263895"
+				"size" "3959772347"
+				"download" "16270748928060"
+			}
+			"local"
+			{
+				"gid" "6603403682254211986"
+				"size" "3698980846"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"linux_beta"
+			{
+				"gid" "3046554989625E14F294B85A83D1E05F"
+				"size" "F1D1FD2945E9E21FA95F056A212ACD3C"
+				"download" "07B330BEA644F926838F46FA32B75E87"
+			}
+			"osx_beta"
+			{
+				"gid" "83A6D484BB5F12A2A10F320C175A5BA5"
+				"size" "B55E5610BF000C29A442E68E1ABF2A86"
+				"download" "32382F425888E3F678B1ECFDA8BB564F"
+			}
+			"test"
+			{
+				"gid" "68020C132282CB16B67590CD32940F8B"
+				"size" "E9833B275DF6564D3F0912CB529EB46F"
+				"download" "3086E70456C58DB2FE9DD4EF05812272"
+			}
+		}
+	}
+	"214919"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5901803471930156247"
+				"size" "4054604973"
+				"download" "575348217888"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"linux_beta"
+			{
+				"gid" "C5AC772312E68AD3518769A17FEFE9A2"
+				"size" "8DF64D86B15C61046D4BFC1525ED1DA9"
+				"download" "07B330BEA644F926838F46FA32B75E87"
+			}
+			"osx_beta"
+			{
+				"gid" "2BA4C9B0C6C2CCA2433E5C6F6C005679"
+				"size" "047579E57725E474AAF9CCAAE516F8EA"
+				"download" "32382F425888E3F678B1ECFDA8BB564F"
+			}
+			"test"
+			{
+				"gid" "124BBB7B73302479F96C755D35E86D51"
+				"size" "19ACB56F41E0403FAD3CBAF5C49EAD13"
+				"download" "3086E70456C58DB2FE9DD4EF05812272"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "326202"
+		}
+		"linux_beta"
+		{
+			"buildid" "310155"
+			"pwdrequired" "1"
+		}
+		"local"
+		{
+			"buildid" "54831"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+		"osx_beta"
+		{
+			"buildid" "310159"
+			"pwdrequired" "1"
+		}
+		"test"
+		{
+			"buildid" "62099"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "20"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "save"
+			"pattern" "*.dta"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
