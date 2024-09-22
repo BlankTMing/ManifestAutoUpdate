@@ -1,0 +1,348 @@
+"appid" "336240"
+"common"
+{
+	"name" "Typoman"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "caee90013a7d72fcc5ad415c57ab565c45262a62"
+	"logo_small" "caee90013a7d72fcc5ad415c57ab565c45262a62_thumb"
+	"icon" "44680606ed14db443e7c4028e6f2b13bd0bd07d7"
+	"clienticon" "8f0163c47836e66cc48a4191189e9b72e56ebeeb"
+	"clienttga" "dcaf9e76a4b7ff0eae8a123e4aefc24c9bad1f8a"
+	"releasestate" "released"
+	"osarch" "64"
+	"osextended" "macos64,macosnotarized"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1673481600"
+		"tested_build_id" "1794633"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-5"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Typoman"
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1713018053"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Brainseed Factory"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Brainseed Factory"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_43" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1471283760"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "336240"
+	"store_tags"
+	{
+		"0" "3871"
+		"1" "24003"
+		"2" "492"
+		"3" "3798"
+		"4" "5537"
+		"5" "1664"
+		"6" "1756"
+		"7" "1625"
+		"8" "1710"
+		"9" "21"
+	}
+	"review_score" "8"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"developer" "Brainseed Factory"
+	"publisher" "Brainseed Factory"
+	"homepage" "http://www.typoman.net"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Typoman"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Typoman.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Typoman.app/Contents/MacOS/Typoman"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Typoman.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,spanish,schinese,russian,japanese,brazilian"
+	"336241"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7166318053351768113"
+				"size" "1093327978"
+				"download" "273060800"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "50DDA944383E6D0DF6472F55FC67FDDE"
+				"size" "5D645CE570636708F51C67A8A625D7F8"
+				"download" "3D494A4BBCA33E2836F44A471EB51199"
+			}
+			"internal"
+			{
+				"gid" "195BA1BFE0004475147B774DDAC769C1"
+				"size" "643A3B48A26E7B5CF77EBCF2CB89DD5B"
+				"download" "50FE4581D4DB03F682A90E3E9B985FB5"
+			}
+		}
+	}
+	"336242"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7538147652650738277"
+				"size" "1099826395"
+				"download" "272582176"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "B9F2920B4C6FBA2C097304631BA975E4"
+				"size" "E6D9AA1676A66B10B008C5B0CA2D1583"
+				"download" "790810029586FC700B1FADB3BB4F7950"
+			}
+			"internal"
+			{
+				"gid" "ED7DE3209113B66437479018381F0375"
+				"size" "CB9F67297713EE8A3613321842810AEA"
+				"download" "309ADA762626DD030726387B18D5C511"
+			}
+		}
+	}
+	"336243"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5198864526545192384"
+				"size" "1094608524"
+				"download" "272215600"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "F98AAD0DCFD4E776FB0CEC2248770F69"
+				"size" "9CD1E6C41F6393CE335C724827FF3F2A"
+				"download" "1F022BF06FE2E6D803F596C307C3897B"
+			}
+			"internal"
+			{
+				"gid" "6EDB75077550EF5CDBEE788866967AC0"
+				"size" "FECF92B652E7547D5C8A97CBA57F8642"
+				"download" "9FCCC8C20E2FC9A843214CEE93740F8E"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13861932"
+			"timeupdated" "1711504060"
+		}
+		"beta"
+		{
+			"buildid" "13861932"
+			"pwdrequired" "1"
+			"timeupdated" "1711484745"
+		}
+		"internal"
+		{
+			"buildid" "13861932"
+			"pwdrequired" "1"
+			"timeupdated" "1711593077"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "SavesDir"
+			"pattern" "*.sav"
+		}
+	}
+}
