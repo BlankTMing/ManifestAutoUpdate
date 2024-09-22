@@ -1,99 +1,67 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-22 14:41:10
+## 更新时间：2024-09-22 14:52:31
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1000400 | Edge Of Eternity - War Nekaroo Skin| DLC |
-| 1000410 | WRATH: Aeon of Ruin| Game |
-| 1000100 | 干支セトラ　陽ノ巻| Game |
-| 1000830 | Gachi Finder 3000| Game |
-| 1001140 | Angry Birds VR: Isle of Pigs| Game |
-| 1000280 | 起源之塔2-虫巢| Game |
-| 1001800 | 酷派忍者 / KUNAI| Game |
-| 1001620 | Deep Space Waifu: Nekomimi - Soundtrack| DLC |
-| 1000440 | 东方雪莲华 ～ Abyss Soul Lotus.| Game |
-| 1002310 | The Childs Sight| Game |
-| 1002200 | Vasilis| Game |
-| 1002100 | Negligee: Love Stories| Game |
-| 1003590 | Tetris® Effect: Connected| Game |
-| 1002030 | Hentai beautiful girls| Game |
-| 1003320 | Nya Nya Nya Girls 2 (ʻʻʻ)_(=^･ω･^=)_(ʻʻʻ)| Game |
-| 1003750 | 她2 : 我还想再见到你   Her2 : I Want To See You Again| Game |
-| 1004610 | Roombo: First Blood - JUSTICE SUCKS| Game |
-| 1002300 | Fear & Hunger| Game |
-| 1005130 | Delicious - Emily's Road Trip| Game |
-| 1004770 | 少女与魔法| Game |
-| 1006210 | A Front Too Far: Normandy - Deluxe Pass| DLC |
-| 1004860 | The Secret Order 7: Shadow Breach| Game |
-| 1006710 | Decent Icons 2| Application |
-| 1006470 | The Legacy of Music| Game |
-| 1007341 | Fantasia of the Wind 2 Art Book| DLC |
-| 1006400 | Fantasia of the Wind 2 风之幻想曲 第二部| Game |
-| 1007080 | Death Rpg| Game |
-| 1007810 | 重明鸟 Bright Bird| Game |
-| 1007840 | Wanking Simulator| Game |
-| 1005300 | The Jackbox Party Pack 6| Game |
-| 1008520 | Mahjong Strip Solitaire: Harem Guild| Game |
-| 1007400 | Alien Shooter 2- 传奇| Game |
-| 1008740 | Cube Mission| Game |
-| 1009850 | OVR Advanced Settings| Application |
-| 1011830 | Rocwood Academy| Game |
-| 1012180 | Elearning Development Intern| Game |
-| 1012330 | Umichan Sorani| Game |
-| 1012530 | Soccering| Game |
-| 1013120 | HotPuzzle:Video| Game |
-| 1012800 | WhiTaers: Gongren Edition| Game |
-| 1010600 | The Princess, the Stray Cat, and Matters of the Heart| Game |
-| 1012900 | 异世界淫乱后宫物语| Game |
-| 1012790 | Into the Radius VR| Game |
-| 1015710 | 少女之路| Game |
-| 1015720 | 异次元屋敷怪异录| Game |
-| 1015130 | Wounded - The Beginning| Game |
-| 1016180 | 暴走恐龙 Terror of Hemasaurus| Game |
-| 1015800 | 亡国公主爱丽丝| Game |
-| 1015790 | 外道勇者一行| Game |
-| 1015730 | 福音的使徒| Game |
-| 1016120 | PGA TOUR 2K21| Game |
-| 1016930 | The Great Perhaps| Game |
-| 1016790 | West of Dead| Game |
-| 1018010 | Castlevania Anniversary Collection| Game |
-| 1016950 | Blood Bowl 3| Game |
-| 1018020 | Contra Anniversary Collection| Game |
-| 1018420 | uuu so smislom| Game |
-| 1020490 | Woman's body 2| Game |
-| 1020270 | Demon Hunter 5: Ascendance| Game |
-| 1019590 | Lovely Planet 2: April Skies| Game |
-| 1019920 | 幻想乡守护者| Game |
-| 1020540 | CONTRA: ROGUE CORPS| Game |
-| 1020820 | KumaKuma Manga Editor| Application |
-| 1021100 | Aircraft Carrier Survival| Game |
-| 1021900 | Re-Legion - Digital_Soundtrack_| Music |
-| 1021850 | Blood Memery| Game |
-| 1021780 | The Region| Game |
-| 1023570 | PUZZLE: ANIMALS| Game |
-| 1022980 | Ostranauts| Game |
-| 1023690 | Nurse Love Syndrome| Game |
-| 1023970 | Gun Gun Pixies| Game |
-| 1023740 | 7 Sexy Sins| Game |
-| 1023700 | Palais de Reine| Game |
-| 1024890 | Sector's Edge| Game |
-| 1025130 | Oik Memory 3| Game |
-| 1025460 | Rift Racoon| Game |
-| 1025340 | Grim Nights - Elven Curse| DLC |
-| 1026200 | Hentai Loli 3D| Game |
-| 1025410 | Metamorphosis| Game |
-| 1026060 | Brutal Games| Game |
-| 1026680 | FINAL FANTASY VIII - REMASTERED| Game |
-| 1027230 | Woman's body: For adults| Game |
-| 1027520 | Hentai Waifu| Game |
-| 1028120 | Agony Soundtrack| DLC |
-| 1028300 | Katana Soul| Game |
-| 1027250 | The Alliance Alive HD Remastered| Game |
-| 1025580 | Vainglory| Game |
-| 1028440 | Arrow Tourney| Game |
-| 1028800 | 生存营地| Game |
-| 1028130 | Gamble Fight Plus| Game |
-| 1030380 | Real Fishing VR| Game |
-| 1010870 | The Last 47 Hours| Game |
-| 1018160 | MXGP 2019 - The Official Motocross Videogame| Game |
-| 1024010 | Ultimate Fishing Simulator VR| Game |
+| 1031420 | Heart of the Woods OST - Snowfall| Music |
+| 1031440 | 东京时笼| Game |
+| 1032190 | 铸时匠 - 原声音乐集| Music |
+| 1031920 | Симулятор Сидения у Подъезда| Game |
+| 1031170 | Elf Enchanter: Arousing Anima| Game |
+| 1032750 | Zombie Shooter: Ares Virus| Game |
+| 1031500 | 超级机器人大战V| Game |
+| 1033120 | Trinity of Chaos| Game |
+| 1032670 | FOCUS on YOU| Game |
+| 1033170 | Talisman: Origins| Game |
+| 1034150 | 琉璃编年史| Game |
+| 1034900 | Blaster Master Zero| Game |
+| 1034700 | GRAY| Game |
+| 1034860 | 冒險奇譚高畫質重製版| Game |
+| 1036120 | 病毒恶化 VirusCrisis| Game |
+| 1035560 | Struggling| Game |
+| 1034910 | Blaster Master Zero 2| Game |
+| 1036750 | Hentai Chicks| Game |
+| 1036690 | 忆恋-Reverse Memories-| Game |
+| 1036260 | Journey For Elysium| Game |
+| 1036740 | METAL DOGS| Game |
+| 1037590 | Neptunia Shooter| Game |
+| 1037020 | 灾厄逆刃| Game |
+| 1037930 | Era of Miracles| Game |
+| 1038300 | New Super Lucky's Tale| Game |
+| 1038620 | House of 1000 Doors: Evil Inside| Game |
+| 1039370 | Draw With Unknown| Game |
+| 1038670 | Mind's Eye: Secrets of the Forgotten| Game |
+| 1040610 | Zero One / 杀戮世界| Game |
+| 1040070 | 天空商人| Game |
+| 1041670 | Money Bath VR| Game |
+| 1040510 | 泽温公主| Game |
+| 1042030 | Nyasha Winter| Game |
+| 1041920 | If Found| Game |
+| 1042170 | Summon of asmodeus| Game |
+| 1042600 | 女魔王梅丽莎的冒险| Game |
+| 1042990 | Zen Chess: Mate in Three| Game |
+| 1043230 | 東方神霊廟 〜 Ten Desires| Game |
+| 1043240 | 東方輝針城 〜 Double Dealing Character| Game |
+| 1043880 | Hentai Clouds| Game |
+| 1043260 | 角斗士公会经理| Game |
+| 1044220 | Oik Reloaded| Game |
+| 1044260 | Hentai DLC| DLC |
+| 1042670 | Orangeblood《橙色的血液》| Game |
+| 1044200 | Wasteland Survival| Game |
+| 1045120 | Brunch Club| Game |
+| 1045080 | Curious Cases| Game |
+| 1045350 | Hentai Pussy| Game |
+| 1045610 | Startup Panic| Game |
+| 1044620 | 苍之彼方的四重奏| Game |
+| 1045620 | 露露亚的炼金工房 ～亚兰德之炼金术士4～| Game |
+| 1046480 | 偶像大师 STARLIT SEASON| Game |
+| 1047010 | Synergia| Game |
+| 1047040 | Find Your Way - Episode 1| DLC |
+| 1045920 | Hentai beautiful girls 2| Game |
+| 1047680 | 亚利利亚的精灵们 ALILIA| Game |
+| 1047220 | Frog Detective 2: The Case of the Invisible Wizard| Game |
+| 1047380 | MMA Arena| Game |
+| 1033950 | 哀歌| Game |
+| 1037480 | Classic Racers| Game |
+| 1042080 | Nyasha Beach| Game |
+| 1046400 | Astalon: Tears of the Earth| Game |
