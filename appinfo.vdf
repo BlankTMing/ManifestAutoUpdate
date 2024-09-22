@@ -1,0 +1,481 @@
+"appid" "292300"
+"common"
+{
+	"name" "SPY Fox in: Hold the Mustard"
+	"type" "Game"
+	"releasestate" "released"
+	"linuxclienticon" "b134630f3eb715a58bb7dc7c296887ee4755d967"
+	"clienticon" "bdab50ef297e6f86da83b0e57e5e6a03725bdb65"
+	"clienttga" "36406a33432d7e203fafc071340c3cf54ebb2ef8"
+	"icon" "2a262dffe5db8c771e7b870ec74d4d1cc83995b3"
+	"logo" "92cb7765e7b37b68b47aa5bbf1bf1bc62621c3d4"
+	"logo_small" "92cb7765e7b37b68b47aa5bbf1bf1bc62621c3d4_thumb"
+	"oslist" "windows,macos,linux"
+	"clienticns" "45e36601c9259c465243ecd2009b443889fdd0b3"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1678838400"
+		"tested_build_id" "4419293"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Spy Fox In: Hold the Mustard"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "59.61098398169338"
+			"height_pct" "87.23581097126572"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "59.61098398169338"
+				"height_pct" "87.23581097126572"
+			}
+		}
+	}
+	"store_asset_mtime" "1577151633"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Humongous Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Humongous Entertainment"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Nightdive Studios"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "978249600"
+	"steam_release_date" "1402083644"
+	"community_hub_visible" "1"
+	"gameid" "292300"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "597"
+		"2" "5350"
+		"3" "1698"
+		"4" "1773"
+	}
+	"review_score" "4"
+	"review_percentage" "38"
+}
+"extended"
+{
+	"developer" "Humongous Entertainment"
+	"publisher" "Humongous Entertainment"
+	"homepage" "http://www.humongous.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Spy Fox In Hold the Mustard"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ScummVM_Windows\\scummvm.exe"
+			"arguments" "--no-console -c scummvm-spyfoxholdthemustard.ini mustard"
+			"description" "Launch"
+			"workingdir" "ScummVM_Windows\\"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm"
+			"arguments" "-c scummvm-spyfoxholdthemustard.ini mustard"
+			"description" "Launch"
+			"workingdir" "ScummVM_Mac\\"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "ScummVM_Linux\\launch_spyfoxholdthemustard.sh"
+			"description" "Launch"
+			"workingdir" "ScummVM_Linux\\"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"292301"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1539331310250984699"
+				"size" "106263822"
+				"download" "65532064"
+			}
+			"beta"
+			{
+				"gid" "1539331310250984699"
+				"size" "106263822"
+				"download" "65532064"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "3015159AFB451B2302294A67661A80F4"
+				"size" "E45D811CB168BBE4C89C0ED3ED918728"
+				"download" "4F73D9EC5F25B28AA883B826B4067522"
+			}
+		}
+	}
+	"292302"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4035632975374188586"
+				"size" "110074384"
+				"download" "63856720"
+			}
+			"beta"
+			{
+				"gid" "4035632975374188586"
+				"size" "110074384"
+				"download" "63856720"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "5BC057655A796716F091226180F510BE"
+				"size" "6E03B36D6154DBE7143F00438346E3C3"
+				"download" "DEC208817E4CEF8B17547B73DC34DECD"
+			}
+		}
+	}
+	"292303"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2243964007293265053"
+				"size" "56192495"
+				"download" "54820225929"
+			}
+			"beta"
+			{
+				"gid" "2243964007293265053"
+				"size" "56192495"
+				"download" "54820225929"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "302AB74E55D5BCAEE68B6E76ECE82A2F"
+				"size" "5210FDF7F99A816606E1E8326D767691"
+				"download" "5BA312306CBDFD3211782DFD7A433667"
+			}
+		}
+	}
+	"292304"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5634036642284345352"
+				"size" "120431563"
+				"download" "2849286831882"
+			}
+			"beta"
+			{
+				"gid" "5634036642284345352"
+				"size" "120431563"
+				"download" "2849286831882"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "B92040353D4CB642FB0AB87CD0CF7D8D"
+				"size" "1765BC4FE53F1DB0E6AED40C9DFE6530"
+				"download" "3AFE13BADFD7441A07C1BC895053638A"
+			}
+		}
+	}
+	"292305"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3203142245438981886"
+				"size" "451"
+				"download" "67736704"
+			}
+			"beta"
+			{
+				"gid" "3203142245438981886"
+				"size" "451"
+				"download" "67736704"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "58B67C444AB5801C01C7F6B833667122"
+				"size" "353887857CF986D3518221B8571681E0"
+				"download" "B33F922250FB858BC3C9E4AA400CC69A"
+			}
+		}
+	}
+	"292306"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "981146655203423796"
+				"size" "418"
+				"download" "67736704"
+			}
+			"beta"
+			{
+				"gid" "981146655203423796"
+				"size" "418"
+				"download" "67736704"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "A09E1A31F78A68D5467001B3466A075B"
+				"size" "0D4B3DECEC9ED827D8BB9A556DE30961"
+				"download" "B33F922250FB858BC3C9E4AA400CC69A"
+			}
+		}
+	}
+	"292307"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1420993058463744268"
+				"size" "419"
+				"download" "5"
+			}
+			"beta"
+			{
+				"gid" "1420993058463744268"
+				"size" "419"
+				"download" "5"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "19A459819696F39EB52B6F3C8F32820D"
+				"size" "73C335A807252EDD51A90E1DAA92BEF8"
+				"download" "0AD508B551D8DD09AF3140F5C7E2B5D8"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4419293"
+			"timeupdated" "1574493272"
+		}
+		"beta"
+		{
+			"buildid" "4419293"
+			"timeupdated" "1574493280"
+		}
+		"private_beta"
+		{
+			"buildid" "4419293"
+			"pwdrequired" "1"
+			"timeupdated" "1574493287"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10485760"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Saves"
+			"pattern" "*.*"
+		}
+	}
+}
