@@ -1,0 +1,189 @@
+"appid" "358200"
+"common"
+{
+	"name" "Math Rescue"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "c1640631c15ffb3a1ab1d87b326db8ecfb9373f4"
+	"logo_small" "c1640631c15ffb3a1ab1d87b326db8ecfb9373f4_thumb"
+	"clienticon" "02188c7984b2b9e925df1ac8f723aceb193bb290"
+	"clienttga" "103c9a4f7b994e4784b077d8c9d39f73ec40631c"
+	"icon" "9fa3b26a82089575c16652fe47b82580c8650086"
+	"oslist" "windows,macos"
+	"metacritic_name" "Math Rescue"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "56.06767794632438"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1695977514"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Redwood Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "3D Realms"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "717922800"
+	"steam_release_date" "1399309320"
+	"community_hub_visible" "1"
+	"gameid" "358200"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "1036"
+		"2" "1625"
+		"3" "6691"
+	}
+	"review_score" "8"
+	"review_percentage" "82"
+}
+"extended"
+{
+	"developer" "Redwood Games"
+	"publisher" "3D Realms"
+	"homepage" "https://3drealms.com/catalog/math-rescue_22/"
+	"gamemanualurl" "https://store.steampowered.com/manual/358200/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Math Rescue"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Math Rescue\\dosbox\\dosbox.exe"
+			"arguments" "-conf \"..\\MATH.conf\" -noconsole -c"
+			"description" "Launch"
+			"workingdir" "Math Rescue\\dosbox\\"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Math Rescue.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Dosbox\\dosbox"
+			"arguments" "-conf \"..\\MATH.conf\" -noconsole -c"
+			"description" "Launch"
+			"workingdir" "Dosbox\\"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"358201"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7685886881372497585"
+				"size" "30154303"
+				"download" "11447712"
+			}
+		}
+	}
+	"358202"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3448828802497552472"
+				"size" "8482855"
+				"download" "2801824"
+			}
+		}
+	}
+	"358203"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1901534352255769356"
+				"size" "10177381"
+				"download" "3539872"
+			}
+		}
+	}
+	"358282"
+	{
+		"depotfromapp" "358280"
+		"sharedinstall" "1"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "606132"
+		}
+	}
+}
