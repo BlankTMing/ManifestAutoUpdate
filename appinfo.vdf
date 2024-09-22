@@ -1,0 +1,302 @@
+"appid" "283160"
+"common"
+{
+	"name" "House of the Dying Sun"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"logo" "9b1a34fd617ac3d56728991906ae8338fbd0b07d"
+	"logo_small" "9b1a34fd617ac3d56728991906ae8338fbd0b07d_thumb"
+	"icon" "f7aa1b4e103c068c349740d63aa4ad9cb210e000"
+	"controllervr"
+	{
+		"xinput" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+	}
+	"clienttga" "ecec33511750e6d6ddd4c7ac94b54eb8d5ba1061"
+	"clienticon" "412277bfa9b2e690b1c53aa034be7029652eca5a"
+	"openvrsupport" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1652486400"
+		"tested_build_id" "3053213"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "House of the Dying Sun"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomCenter"
+				"width_pct" "50"
+				"height_pct" "50"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1577079161"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Marauder Interactive, LLC"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Marauder Interactive, LLC"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_31" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_25" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1478026439"
+	"metacritic_score" "76"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/house-of-the-dying-sun\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "283160"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "599"
+		"2" "492"
+		"3" "1755"
+		"4" "16598"
+		"5" "21978"
+		"6" "3942"
+		"7" "4182"
+		"8" "1774"
+		"9" "15045"
+		"10" "3839"
+		"11" "9"
+		"12" "1756"
+		"13" "4234"
+		"14" "1708"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "Marauder Interactive, LLC"
+	"publisher" "Marauder Interactive, LLC"
+	"homepage" "http://www.dyingsungame.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "DyingSun"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "dyingsun.exe"
+			"description" "Play House of the Dying Sun (DirectX 11.0)"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "dyingsun.exe"
+			"arguments" "-force-d3d9"
+			"description" "Play House of the Dying Sun (DirectX 9.0)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "dyingsun.exe"
+			"arguments" "-force-d3d11 -vrmode openvr"
+			"description" "House of the Dying Sun"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"vrsupport" "openvr"
+	"steamcontrollertemplateindex" "4"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" "english"
+	"283161"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2856888897344621525"
+				"size" "1078012630"
+				"download" "533786608"
+			}
+			"beta"
+			{
+				"gid" "2688429362270451894"
+				"size" "1078012902"
+				"download" "533786992"
+			}
+			"previous"
+			{
+				"gid" "5919818975159819230"
+				"size" "1078011558"
+				"download" "533786144"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev"
+			{
+				"gid" "666876B0E76123530B8ADFF25EAB862E"
+				"size" "875ED8197AFA587641CBABE92684B60A"
+				"download" "2977404D24EC8020203988AFD0BD5CF1"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3053213"
+			"timeupdated" "1541089493"
+		}
+		"beta"
+		{
+			"buildid" "3338476"
+			"description" "Upcoming fixes go here!"
+			"timeupdated" "1543197533"
+		}
+		"dev"
+		{
+			"buildid" "3053213"
+			"pwdrequired" "1"
+			"timeupdated" "1541089482"
+		}
+		"previous"
+		{
+			"buildid" "2417566"
+			"timeupdated" "1541089470"
+		}
+	}
+}
