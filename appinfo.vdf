@@ -1,0 +1,244 @@
+"appid" "358300"
+"common"
+{
+	"name" "Major Stryker"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "b5bfc7305bea72690ce40b7dc2bbadb22c3c9c00"
+	"logo_small" "b5bfc7305bea72690ce40b7dc2bbadb22c3c9c00_thumb"
+	"oslist" "windows,macos"
+	"clienticon" "6e309c9bfee9a6cbfbee9530da21c52289f776e5"
+	"clienttga" "f1655ea1d5ddd022d405ea92cafba7cb31c93375"
+	"icon" "7d0d6e2a063659c1e6b1d2ac80143fde943e4c78"
+	"metacritic_name" "Major Stryker"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "ea565cbfdc9d8f0d17684a3705a19710b96058cd/capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "51.050175029171534"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "abfaa952fc0324f28bd03b2966130675786f5e61/library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "abfaa952fc0324f28bd03b2966130675786f5e61/library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "d85f4e131ed481cdeff2495b0b31872872f411ad/library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "d85f4e131ed481cdeff2495b0b31872872f411ad/library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "51.050175029171534"
+				"height_pct" "100"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "2f5af6b885b5baea4ed32958f6af205d30c6d12e/library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "2f5af6b885b5baea4ed32958f6af205d30c6d12e/library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1726667233"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "3D Realms"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "3D Realms"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_18" "1"
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "727776000"
+	"steam_release_date" "1399309320"
+	"community_hub_visible" "1"
+	"gameid" "358300"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "4255"
+		"2" "1693"
+		"3" "1773"
+		"4" "4004"
+	}
+	"review_score" "6"
+	"review_percentage" "77"
+}
+"extended"
+{
+	"developer" "3D Realms"
+	"publisher" "3D Realms"
+	"homepage" "https://3drealms.com/catalog/major-stryker_47/"
+	"gamemanualurl" "https://store.steampowered.com/manual/358300/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Major Stryker"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Major Stryker\\dosbox\\dosbox.exe"
+			"arguments" "-conf \"..\\STRYKER.conf\" -noconsole -c"
+			"description" "Launch"
+			"workingdir" "Major Stryker\\dosbox\\"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Major Stryker.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Dosbox\\dosbox"
+			"arguments" "-conf \"..\\STRYKER.conf\" -noconsole -c"
+			"description" "Launch"
+			"workingdir" "Dosbox\\"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"358301"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4234364669001166710"
+				"size" "32811938"
+				"download" "11596496"
+			}
+		}
+	}
+	"358302"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1951672371918033842"
+				"size" "10818473"
+				"download" "2786480"
+			}
+		}
+	}
+	"358303"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4648468625388612600"
+				"size" "12834430"
+				"download" "3688640"
+			}
+		}
+	}
+	"358282"
+	{
+		"depotfromapp" "358280"
+		"sharedinstall" "1"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "606131"
+		}
+	}
+}
