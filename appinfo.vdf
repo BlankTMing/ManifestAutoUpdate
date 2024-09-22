@@ -1,0 +1,303 @@
+"appid" "216290"
+"common"
+{
+	"name" "Gateways"
+	"type" "Game"
+	"clienticon" "9e55d21819115bfb0afe30a5fd88442e30ec7c24"
+	"clienttga" "fc1300babc433d91618113b8bc7422f3ddcb2c33"
+	"icon" "3cc65892ba65ac6eb9201ad77db3d11327e222e6"
+	"logo" "f09fcd5126e052be7105c53acbc808f18f74a5d3"
+	"logo_small" "f09fcd5126e052be7105c53acbc808f18f74a5d3_thumb"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1652918400"
+		"tested_build_id" "8643531"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Gateways"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1377709291"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Smudged Cat Games Ltd"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Smudged Cat Games Ltd"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "34"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+		}
+	}
+	"steam_release_date" "1347552600"
+	"metacritic_score" "72"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/gateways\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "216290"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "1664"
+		"2" "1625"
+		"3" "1628"
+		"4" "3942"
+		"5" "6625"
+		"6" "4182"
+		"7" "5537"
+		"8" "3871"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "Smudged Cat Games Ltd"
+	"gamedir" "Gateways"
+	"homepage" "http://www.smudgedcat.com/gateways.htm"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Smudged Cat Games Ltd"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Gateways"
+	"installscriptsignature" "16d11ae964e48d602ac261c50cadf21b1982c27a17f4ed3a7159d1dac5ddc15e4d654fc4894b1cfbf8422e41cd816bee50f5856a3fef2e2cc821208c53c87c121190f61c938c1dc4d8509c86094f167eb02ca49365db84e3d1e78cf8217f56321bd3e583832df95f9bb90ff6d5a80727f040cb39268274fae3f4174326630b4e"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Gateways.exe"
+			"workingdir" "."
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Gateways.app/Contents/MacOS/Gateways"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Gateways"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"installscriptoverride" "1"
+	"steamcontrollertemplateindex" "4"
+	"steamdecktouchscreen" "5"
+}
+"install"
+{
+	"run process"
+	{
+		"install"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full"
+			"process 1" "%INSTALLDIR%\\Redist\\dotNetFx40_Full_x86_x64.exe"
+			"command 1" "/passive /norestart"
+			"nocleanup" "1"
+		}
+		"direct x"
+		{
+			"process 1" "%INSTALLDIR%\\Redist\\DX Redist\\DXSETUP.exe"
+			"command 1" "/silent"
+		}
+		"installed"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\XNA\\Framework\\v4.0"
+			"process 1" "msiexec.exe"
+			"command 1" "/passive /i \"%INSTALLDIR%\\Redist\\XNA FX Redist\\xnafx40_redist.msi\""
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"216291"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3428613182960051149"
+				"size" "124259900"
+				"download" "0"
+			}
+			"linux32"
+			{
+				"gid" "3428613182960051149"
+				"size" "124259900"
+				"download" "0"
+			}
+		}
+	}
+	"216292"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8287828397886031691"
+				"size" "86233502"
+				"download" "50187200"
+			}
+			"linux32"
+			{
+				"gid" "4144801419735962804"
+				"size" "71197426"
+				"download" "46611632"
+			}
+		}
+	}
+	"216293"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1404893551277320232"
+				"size" "72280057"
+				"download" "46062720"
+			}
+			"linux32"
+			{
+				"gid" "7118254831557574941"
+				"size" "79480409"
+				"download" "47754624"
+			}
+		}
+	}
+	"markdlcdepots" "0"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8643531"
+			"timeupdated" "1651165533"
+		}
+		"linux32"
+		{
+			"buildid" "4196692"
+			"description" "32-bit Linux (Legacy)"
+			"timeupdated" "1609452172"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+}
