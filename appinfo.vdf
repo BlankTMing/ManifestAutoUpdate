@@ -1,0 +1,337 @@
+"appid" "1779200"
+"common"
+{
+	"name" "Thrive"
+	"type" "Game"
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"osextended" ""
+	"clienticon" "33edbe1bf5fd98c415ee3d1c86e1ea9d6e3ac408"
+	"clienttga" "cad5d1d4369db39441ca1748a9bb0de64e199e6d"
+	"icon" "413f8ae23912fb0efe479938ad4a70bfcbbc092c"
+	"clienticns" "e50bd8ebf876245ab98e899d59effe9ee27182d0"
+	"linuxclienticon" "928fca4e97aa5330bf5061c6ade2d4a4e01a9e7a"
+	"logo" "f2f4c5c4f43291356ac518249720d899aea190b0"
+	"logo_small" "f2f4c5c4f43291356ac518249720d899aea190b0_thumb"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1708732800"
+		"tested_build_id" "13484859"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "52.54083484573505"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "52.54083484573505"
+				"height_pct" "100"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1718111303"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Revolutionary Games Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Revolutionary Games Studio"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+		"3" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_30" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1637924088"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "1779200"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "5794"
+		"2" "3810"
+		"3" "4747"
+		"4" "1036"
+		"5" "5125"
+		"6" "30358"
+		"7" "12057"
+		"8" "597"
+		"9" "7926"
+		"10" "4191"
+		"11" "3871"
+		"12" "4175"
+		"13" "29363"
+		"14" "5350"
+		"15" "1662"
+		"16" "4791"
+		"17" "12472"
+		"18" "1717"
+		"19" "493"
+	}
+	"review_score" "8"
+	"review_percentage" "92"
+}
+"extended"
+{
+	"developer" "Revolutionary Games Studio"
+	"publisher" "Revolutionary Games Studio"
+}
+"config"
+{
+	"installdir" "Thrive"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ThriveLauncher.exe"
+			"arguments" "--allow-seamless-mode"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "launch.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1779202"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4684224425668709850"
+				"size" "1732654109"
+				"download" "530023184"
+			}
+			"0.6.5-last-version-with-godot-3"
+			{
+				"gid" "257976494422021828"
+				"size" "964344786"
+				"download" "486286720"
+			}
+			"beta"
+			{
+				"gid" "4684224425668709850"
+				"size" "1732654109"
+				"download" "530023184"
+			}
+		}
+	}
+	"1779203"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4001860215028057654"
+				"size" "1746836696"
+				"download" "533781344"
+			}
+			"0.6.5-last-version-with-godot-3"
+			{
+				"gid" "5125749421719998037"
+				"size" "962136316"
+				"download" "483293792"
+			}
+			"beta"
+			{
+				"gid" "4001860215028057654"
+				"size" "1746836696"
+				"download" "533781344"
+			}
+		}
+	}
+	"workshopdepot" "1779200"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15553386"
+			"timeupdated" "1725093785"
+		}
+		"0.6.5-last-version-with-godot-3"
+		{
+			"buildid" "13551762"
+			"description" "Last version of Thrive before the update to Godot 4"
+			"timeupdated" "1712829661"
+		}
+		"beta"
+		{
+			"buildid" "15553386"
+			"description" "non-stable version"
+			"timeupdated" "1725100955"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "20000000000"
+	"maxnumfiles" "1500"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "LinuxXdgDataHome"
+			"path" "Thrive/saves"
+			"pattern" "*.thrivesave"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "LinuxXdgDataHome"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinAppDataRoaming"
+			"addpath" ""
+		}
+	}
+}
