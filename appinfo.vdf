@@ -1,0 +1,234 @@
+"appid" "395550"
+"common"
+{
+	"name" "Operation Hardcore"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"logo" "52cf41bd769d95ff1ae1996e9cad976f161fc7a3"
+	"logo_small" "52cf41bd769d95ff1ae1996e9cad976f161fc7a3_thumb"
+	"icon" "c7b6047dd97775215b0a36657e5b544c03936171"
+	"clienticon" "8ec36216c9eb2c3171e20f4d4175d96b6e87476f"
+	"clienttga" "502954c7188b2f7ec8529eb90c186e5e8a20b3b0"
+	"osarch" ""
+	"metacritic_name" "Operation Hardcore"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1588714107"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Cosmocat"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Cosmocat"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_24" "1"
+		"category_22" "1"
+		"category_18" "1"
+		"category_23" "1"
+		"category_39" "1"
+		"category_29" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_44" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1482933669"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "395550"
+	"store_tags"
+	{
+		"0" "3798"
+		"1" "4255"
+		"2" "5379"
+		"3" "4885"
+		"4" "4026"
+		"5" "1625"
+		"6" "1774"
+		"7" "4758"
+		"8" "4106"
+		"9" "3871"
+		"10" "19"
+		"11" "3964"
+		"12" "4252"
+		"13" "4305"
+		"14" "3942"
+		"15" "1719"
+		"16" "3968"
+		"17" "21"
+		"18" "6691"
+		"19" "1673"
+	}
+	"review_score" "7"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"developer" "Cosmocat"
+	"publisher" "Cosmocat"
+	"homepage" "https://operationhardcore.com/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Operation Hardcore"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "OH.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "OH.app"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"395551"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7556926826422208353"
+				"size" "368094238"
+				"download" "223694816"
+			}
+			"beta"
+			{
+				"gid" "6635689631811847691"
+				"size" "377206269"
+				"download" "226147184"
+			}
+		}
+	}
+	"395552"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "315511083743982227"
+				"size" "383281243"
+				"download" "230715664"
+			}
+			"beta"
+			{
+				"gid" "315511083743982227"
+				"size" "383281243"
+				"download" "230715664"
+			}
+		}
+	}
+	"hasdepotsindlc" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4974575"
+			"timeupdated" "1590242670"
+		}
+		"beta"
+		{
+			"buildid" "6272206"
+			"description" "Beta branch"
+			"timeupdated" "1613919728"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "8192"
+	"maxnumfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Adam McLellan/Operation Hardcore"
+			"pattern" "oh.dat"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Adam McLellan/Operation Hardcore"
+					"replace" "unity.Adam McLellan.Operation Hardcore"
+				}
+			}
+		}
+	}
+}
