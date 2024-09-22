@@ -1,0 +1,226 @@
+"appid" "42930"
+"common"
+{
+	"name" "Elven Legacy: Magic"
+	"clienticon" "d4377d66c1062e8e38ab0948187181a700b7e839"
+	"clienttga" "a7d27c185b26cf1b0af14bcb4b6012e365d171a5"
+	"icon" "8cbdd3c1ce84e9071f8dc859b7f96c6af7d9ff0b"
+	"logo" "b4eb4a25a4723138df7ba2f196ca3888ecab9a0b"
+	"logo_small" "b4eb4a25a4723138df7ba2f196ca3888ecab9a0b_thumb"
+	"oslist" "windows"
+	"type" "game"
+	"metacritic_name" "Elven Legacy: Magic"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1668514003"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "1C:InoCo"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Fulqrum Publishing"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Fulqrum"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1259827200"
+	"community_hub_visible" "1"
+	"gameid" "42930"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "1741"
+	}
+	"review_score" "5"
+	"review_percentage" "66"
+}
+"extended"
+{
+	"dependantonapp" "25850"
+	"developer" "1C:InoCo"
+	"gamedir" "Elven Legacy Magic"
+	"homepage" ""
+	"icon" ""
+	"installscript" "42930_install.vdf"
+	"mustownapptopurchase" "25850"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "42932"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Fulqrum Publishing"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DLC/Magic/launcher-magic-x64.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "DLC/Magic/launcher-magic-ia32.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Elven Legacy"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"42932"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "457582324714904336"
+				"size" "1"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"launcher"
+			{
+				"gid" "7F9BE04B0DB7C9F9C47F6E1039FDFE08"
+				"size" "979FBE60890A275BE454DE5C70DFDD0B"
+				"download" "C01873D94ADFD8B48464EC9D34898145"
+			}
+		}
+	}
+	"25851"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "25850"
+		"sharedinstall" "2"
+	}
+	"42931"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5283292454636285121"
+				"size" "566715193"
+				"download" "352703024"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"launcher"
+			{
+				"gid" "74E19699E8A897B603732ADB071BF442"
+				"size" "0680EEC961A1811192A41D849DD3CA58"
+				"download" "826B3E9C46ADA0120186EDCF6119FD73"
+			}
+		}
+	}
+	"25852"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"depotfromapp" "25850"
+		"sharedinstall" "2"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15227946"
+			"timeupdated" "1722868028"
+		}
+		"launcher"
+		{
+			"buildid" "15227946"
+			"pwdrequired" "1"
+			"timeupdated" "1722522352"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+	"appidredirect" "25850"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "Elven Legacy Profiles"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
