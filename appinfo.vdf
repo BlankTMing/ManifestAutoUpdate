@@ -1,0 +1,226 @@
+"appid" "42940"
+"common"
+{
+	"name" "Elven Legacy: Siege"
+	"clienticon" "d4377d66c1062e8e38ab0948187181a700b7e839"
+	"clienttga" "a7d27c185b26cf1b0af14bcb4b6012e365d171a5"
+	"icon" "8cbdd3c1ce84e9071f8dc859b7f96c6af7d9ff0b"
+	"logo" "f17aaf2316318be7b00a761dba34802652a62b6a"
+	"logo_small" "f17aaf2316318be7b00a761dba34802652a62b6a_thumb"
+	"oslist" "windows"
+	"type" "game"
+	"metacritic_name" "Elven Legacy: Siege"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1668513941"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "1C:InoCo"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Fulqrum Publishing"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Fulqrum"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1258444800"
+	"community_hub_visible" "1"
+	"gameid" "42940"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "1741"
+	}
+	"review_score" "6"
+	"review_percentage" "75"
+}
+"extended"
+{
+	"dependantonapp" "25850"
+	"developer" "1C:InoCo"
+	"gamedir" "Elven Legacy Siege"
+	"homepage" ""
+	"icon" ""
+	"installscript" "42940_install.vdf"
+	"mustownapptopurchase" "25850"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "42942"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Fulqrum Publishing"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DLC/Siege/launcher-siege-x64.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "DLC/Siege/launcher-siege-ia32.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Elven Legacy"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"42942"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1590138277198331011"
+				"size" "1"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"launcher"
+			{
+				"gid" "0ED3E562AA907C8925FDE6DE3D990C74"
+				"size" "D3C0CF8F5A1051AB56B528337C91A4EE"
+				"download" "6C76F81F411BD01FC2A5980017F02FBD"
+			}
+		}
+	}
+	"25851"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "25850"
+		"sharedinstall" "2"
+	}
+	"42941"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1996161355832937425"
+				"size" "776721724"
+				"download" "426794800"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"launcher"
+			{
+				"gid" "A718384D5DEA7A8CD40D374992CFD43B"
+				"size" "6E5CB96730B664DFB97DA45A46D0BDD7"
+				"download" "3423990FE5DE8C55836FF289312CB4A4"
+			}
+		}
+	}
+	"25852"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"depotfromapp" "25850"
+		"sharedinstall" "2"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15238105"
+			"timeupdated" "1722868267"
+		}
+		"launcher"
+		{
+			"buildid" "15238105"
+			"pwdrequired" "1"
+			"timeupdated" "1722591614"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+	"appidredirect" "25850"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "Elven Legacy Profiles"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
