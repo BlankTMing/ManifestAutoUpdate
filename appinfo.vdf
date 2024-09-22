@@ -19,9 +19,46 @@
 		"2" "5"
 		"3" "4"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_sex" "1"
 	"restricted_countries" "CN,DE"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1725580800"
+		"tested_build_id" "3116261"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-2RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"metacritic_name" "Negligee"
 	"controller_support" "partial"
 	"small_capsule"
@@ -44,23 +81,57 @@
 			"height_pct" "57.35394505820935"
 		}
 	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "34.66662110272945"
+				"height_pct" "57.35394505820935"
+			}
+		}
+	}
 	"store_asset_mtime" "1572364526"
 	"associations"
 	{
 		"0"
 		{
 			"type" "developer"
-			"name" "Dharker Studio"
+			"name" "Dharker Studios"
 		}
 		"1"
 		{
 			"type" "publisher"
-			"name" "Dharker Studios Ltd"
+			"name" "Dharker Studios"
 		}
 		"2"
 		{
 			"type" "franchise"
-			"name" "Paradise"
+			"name" "Paradise Cove"
 		}
 	}
 	"primary_genre" "23"
@@ -77,6 +148,7 @@
 		"category_22" "1"
 		"category_29" "1"
 		"category_23" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -115,9 +187,9 @@
 }
 "extended"
 {
-	"developer" "Dharker Studio"
-	"publisher" "Dharker Studios Ltd"
-	"homepage" "http://www.dharkerstudio.com"
+	"developer" "Dharker Studios"
+	"publisher" "Dharker Studios"
+	"homepage" "http://maid4fun.net"
 	"listofdlc" "492320,526520,526530,526531,526532,529010,944520"
 	"dlcavailableonstore" "1"
 }
@@ -294,7 +366,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "21523333"
-"_sha" "8c2d48b9d49053775c0ae8148da5b76678d0e804"
-"_size" "4658"
