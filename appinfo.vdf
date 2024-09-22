@@ -1,0 +1,230 @@
+"appid" "1008740"
+"common"
+{
+	"name" "Cube Mission"
+	"type" "Game"
+	"clienttga" "18ef450c94fefa6dd5db8dbb0527a1c67f52b1f1"
+	"logo" "f84ff9a4b43aa3172eaba3b486c1e50e651c205c"
+	"logo_small" "f84ff9a4b43aa3172eaba3b486c1e50e651c205c_thumb"
+	"icon" "5bc302f4b7a5dc20a4a30d38c4c48f98a373755c"
+	"clienticon" "bbad331c22db4ef4b5d8490805df7ad34e54db26"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"releasestate" "released"
+	"metacritic_name" "Cube Mission"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1667043844"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "NanningsGames"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "NanningsGames"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Nannings"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1547717129"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1008740"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "597"
+		"3" "1664"
+		"4" "5851"
+		"5" "1756"
+		"6" "4182"
+		"7" "4191"
+		"8" "4400"
+		"9" "5411"
+		"10" "7481"
+		"11" "4106"
+		"12" "4094"
+		"13" "4166"
+		"14" "7569"
+		"15" "7948"
+		"16" "11123"
+		"17" "1654"
+	}
+	"review_score" "7"
+	"review_percentage" "80"
+}
+"extended"
+{
+	"developer" "NanningsGames"
+	"publisher" "NanningsGames"
+	"homepage" "http://www.nannings.nz"
+	"listofdlc" "1039700"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Cube Mission"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Cube Mission.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Cube Mission.x86_64"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1008741"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4993092300293044241"
+				"size" "117729581"
+				"download" "38576288"
+			}
+		}
+	}
+	"1039700"
+	{
+		"dlcappid" "1039700"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6011656081492161753"
+				"size" "38503036"
+				"download" "36600528"
+			}
+		}
+		"config"
+		{
+			"optionaldlc" "1039700"
+		}
+	}
+	"1008742"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1037748909469132245"
+				"size" "124086399"
+				"download" "40902512"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9839981"
+			"timeupdated" "1667247984"
+		}
+	}
+	"appmanagesdlc" "1"
+}
+"ufs"
+{
+	"quota" "10000"
+	"maxnumfiles" "2"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "NanningsGames/Cube Mission"
+			"pattern" "savedata"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "NanningsGames/Cube Mission"
+					"replace" ".config/unity3d/NanningsGames/Cube Mission"
+				}
+			}
+		}
+	}
+}
