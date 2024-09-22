@@ -1,0 +1,221 @@
+"appid" "19030"
+"common"
+{
+	"name" "Rocket Knight"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"japanese" "1"
+	}
+	"logo" "398e22028a6936ee3d8dcf8d0ed9a3e0c9b2825c"
+	"logo_small" "398e22028a6936ee3d8dcf8d0ed9a3e0c9b2825c_thumb"
+	"icon" "8550135163d18d85c3f384852e84b9f35872277a"
+	"clienttga" "9d4b4c55d32afc821b5fad18e18572da303b5e8a"
+	"clienticon" "91dfbb3e4f21ba50532a2bef2d19b7b2ebc300ae"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1657065600"
+		"tested_build_id" "580"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Rocket Knight"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Climax Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "KONAMI"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1273622400"
+	"metacritic_score" "63"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/rocket-knight\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "19030"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "21"
+		"2" "1625"
+	}
+	"review_score" "6"
+	"review_percentage" "75"
+}
+"extended"
+{
+	"developer" "Climax Studios"
+	"gamedir" "Rocket Knight"
+	"homepage" "http://www.konami.com/rocketknight"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"languages" "english,french,italian,german,spanish"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "19031"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "KONAMI"
+}
+"config"
+{
+	"installscriptsignature" "9975572b0f659664c074ec606d711092b0b5207dc2f1f41bb36c8eacb1ce2671f5239461f838593a31d482ef79ce6bad4aa346389a6b5a5a64ed13eb1d1be4753fcfbf565714036d711c71a910387f41c7909cf02ec42770dc3499af551ec6d09b576f50b4e160016d36e36bf926fcdb72346ff57bf7a4e26cd0091e5a9ac1de"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Rocket Knight"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "RocketKnight_ConfigTool.exe"
+		}
+	}
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\19030"
+			"process 1" "%INSTALLDIR%\\Redist\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"dotnet"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\19030"
+			"process 1" "%INSTALLDIR%\\Redist\\DotNet\\dotNetFx35setup.exe"
+			"command 1" "/Q"
+			"nocleanup" "1"
+		}
+		"vc2005"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\19030"
+			"process 1" "%INSTALLDIR%\\Redist\\VC2005\\vcredist_x86.exe"
+			"command 1" "/q:a /c:\"msiexec /i vcredist.msi /qn /l*v %temp%\vcredist_x86.log\""
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"19031"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "171027550776184066"
+				"size" "776695791"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"baselanguages" "english,french,italian,german,spanish"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "580"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1048576"
+	"maxnumfiles" "100"
+}
