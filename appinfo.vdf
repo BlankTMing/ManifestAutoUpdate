@@ -1,0 +1,342 @@
+"appid" "400160"
+"common"
+{
+	"name" "Concrete Jungle"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "67b7bd1ce4c4f380b0fce2fb38198a48a583d37e"
+	"logo_small" "67b7bd1ce4c4f380b0fce2fb38198a48a583d37e_thumb"
+	"icon" "20887c786cd2649126a8b863c9a21ac952edb199"
+	"clienttga" "baed02e42945629f0e1a5d02eb338095bdc758ea"
+	"clienticon" "b026273963f1a21e0a3807c686cc277e2f914b23"
+	"clienticns" "a60efde25c974b528ab5b1ad33e13aa64a48c8e8"
+	"linuxclienticon" "9f8ae8717930c573757839918a434b288e87f71e"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1677801600"
+		"tested_build_id" "3331054"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Concrete Jungle"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1576843425"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "ColePowered Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "ColePowered Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_24" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_39" "1"
+		"category_37" "1"
+		"category_25" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_9" "1"
+		"category_44" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1443034178"
+	"metacritic_score" "76"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/concrete-jungle\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "400160"
+	"store_tags"
+	{
+		"0" "4328"
+		"1" "32322"
+		"2" "9"
+		"3" "492"
+		"4" "1666"
+		"5" "1664"
+		"6" "5851"
+		"7" "4305"
+		"8" "1770"
+		"9" "7368"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"gamedir" ""
+	"developer" "ColePowered Games"
+	"publisher" "ColePowered Games"
+	"homepage" "http://concretejunglegame.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Concrete Jungle"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Concrete Jungle.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"1"
+		{
+			"executable" "Native/ConcreteJungle.app"
+			"description" "Native Version"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Wine/ConcreteJungle.app"
+			"description" "Wine Version"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228982"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"400161"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4311486907808161561"
+				"size" "406000951"
+				"download" "399008592"
+			}
+			"native"
+			{
+				"gid" "4311486907808161561"
+				"size" "406000951"
+				"download" "399008592"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "3000A3A577CEA191F845F2842EC83C29"
+				"size" "63A1F0AAAE24BE35FC160BF899FFF005"
+				"download" "B6FC37023C0CD044AD1246E63C0E6D6D"
+			}
+		}
+	}
+	"400162"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1894401229651843958"
+				"size" "417791690"
+				"download" "398228304"
+			}
+			"native"
+			{
+				"gid" "1894401229651843958"
+				"size" "417791690"
+				"download" "398228304"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "0E19660970FFEF78BB5734CB3D0B0A8B"
+				"size" "021B8FC02D8CD2C4888A97546F3F95FB"
+				"download" "40ECAF92629D60BCBE30B52ED83085C9"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3331054"
+			"timeupdated" "1542888170"
+		}
+		"native"
+		{
+			"buildid" "3331054"
+			"description" "OSX native version only"
+			"timeupdated" "1542888159"
+		}
+		"test"
+		{
+			"buildid" "3331054"
+			"pwdrequired" "1"
+			"timeupdated" "1542887860"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "ConcreteJungle"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "ConcreteJungle"
+					"replace" "ConcreteJungle"
+				}
+			}
+		}
+	}
+}
