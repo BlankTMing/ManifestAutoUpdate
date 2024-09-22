@@ -1,0 +1,374 @@
+"appid" "42990"
+"common"
+{
+	"name" "Sword of the Stars II: Enhanced Edition"
+	"logo" "fb9bb3b1f8fe0b5b9e49df8f7f2351dd805a27a4"
+	"logo_small" "fb9bb3b1f8fe0b5b9e49df8f7f2351dd805a27a4_thumb"
+	"icon" "aae62616aeaf8711a6b382208cc9487f3480da3b"
+	"clienttga" "9aab7ae2649c3baa229f2cb5ae56db94967d0047"
+	"clienticon" "001c10e59170f1ad288f6ff1df6305d65cad93d1"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "42990_eula_0"
+			"name" "Sword of the Stars II: Enhanced Edition EULA"
+			"url" "https://store.steampowered.com//eula/42990_eula_0"
+			"version" "1"
+		}
+	}
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1667865600"
+		"tested_build_id" "363334"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Sword of the Stars II: Lords of Winter (Enhanced Edition)"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1367413554"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Kerberos Productions"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Paradox Interactive"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "2"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"steam_release_date" "1319821200"
+	"metacritic_score" "65"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/sword-of-the-stars-ii-lords-of-winter-enhanced-edition\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "42990"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "1670"
+		"2" "1755"
+		"3" "3942"
+		"4" "4182"
+		"5" "3859"
+		"6" "1741"
+		"7" "3854"
+		"8" "1708"
+		"9" "1677"
+	}
+	"review_score" "5"
+	"review_percentage" "44"
+}
+"extended"
+{
+	"developer" "Kerberos Productions"
+	"gamedir" "sots2"
+	"gamemanualurl" "http://store.steampowered.com/manual/42990/"
+	"homepage" "http://www.swordofthestars.com"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp42990\\SteamKey"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "42992"
+	"serverbrowsername" ""
+	"showcdkeyonlaunch" "1"
+	"state" "eStateAvailable"
+	"supportscdkeycopytoclipboard" "1"
+	"publisher" "Paradox Interactive"
+	"listofdlc" "202220,202230,202240,203050,220180"
+}
+"config"
+{
+	"installscriptsignature" "b0e77bd7df25a4e39da84123c770c3c30a2484a9a528555376836238bdab3b0fef27730fd895c64213e72f6479f4674e0787e498bc13695421900b218ed6551e1c895103c82f3071f95fd1d3372b97517ecdc5b3d66bd50831b9a8724265d6c35f44ebf7f7a3e27172c43cfc00ac9dc81a11bd6c88a1aa6c761060a696b57876"
+	"installscriptoverride" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bin\\x86\\sots2.exe"
+			"workingdir" "bin\\x86\\"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Sword of the Stars II"
+	"usemms" ""
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\42990\\DX"
+			"process 1" "%INSTALLDIR%\\directx\\DXSETUP.EXE"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"visual c++ redist"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\42990\\VC"
+			"process 1" "%INSTALLDIR%\\msvc2010sp1\\vcredist_x86.exe"
+			"command 1" "/q /norestart"
+			"nocleanup" "1"
+		}
+		"visual c++ redist 64-bit"
+		{
+			"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\42990\\VC64"
+			"process 1" "%INSTALLDIR%\\msvc2010sp1\\vcredist_x64.exe"
+			"command 1" "/q /norestart"
+			"nocleanup" "1"
+			"requirement_os" "������"
+			"{" "�������������"
+			"is64bitwindows" "1"
+			"������"
+			{
+			}
+		}
+	}
+	"microsoft .net framework 4"
+	{
+		"hasrunkey" "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\42990\\DOTNET4"
+		"process 1" "%INSTALLDIR%\\netfx4cp\\dotNetFx40_Client_x86_x64.exe"
+		"command 1" "/q /norestart"
+		"nocleanup" "1"
+		"ignoreexitcode" "1"
+	}
+}
+"depots"
+{
+	"203060"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7937676624317746126"
+				"size" "255255326"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "96F3FCDB2B0FE8765EED8B63466FE755"
+				"size" "32ED61B939101E548AF6FBB48AB3B181"
+				"download" "BCCCDBE3907F18B560409869AD7B512F"
+			}
+		}
+	}
+	"203050"
+	{
+		"optional" "1"
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2545128422506582160"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "A388DA1933CAD33C9271DC1F0B529D2A"
+				"size" "BCCCDBE3907F18B560409869AD7B512F"
+				"download" "BCCCDBE3907F18B560409869AD7B512F"
+			}
+		}
+		"dlcappid" "203050"
+	}
+	"202240"
+	{
+		"optional" "1"
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5565485737727957059"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "1F5DEAA8091A2FA820A130A93BB6BB35"
+				"size" "BCCCDBE3907F18B560409869AD7B512F"
+				"download" "BCCCDBE3907F18B560409869AD7B512F"
+			}
+		}
+		"dlcappid" "202240"
+	}
+	"202230"
+	{
+		"optional" "1"
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5277880744440803929"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "4B302DAEB682ED97F09177DBF1A331D9"
+				"size" "BCCCDBE3907F18B560409869AD7B512F"
+				"download" "BCCCDBE3907F18B560409869AD7B512F"
+			}
+		}
+		"dlcappid" "202230"
+	}
+	"202220"
+	{
+		"optional" "1"
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5801065807086296297"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "CB12D436C30CF8B6D5A9AF160F6AF3CC"
+				"size" "BCCCDBE3907F18B560409869AD7B512F"
+				"download" "BCCCDBE3907F18B560409869AD7B512F"
+			}
+		}
+		"dlcappid" "202220"
+	}
+	"43000"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+	}
+	"42992"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1374043616619803499"
+				"size" "8093453374"
+				"download" "16206003392920"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "A19976C4E86477C8DAE0052D34D45210"
+				"size" "81D948298A4BFF2DA1219CB589F7E9B2"
+				"download" "BCCCDBE3907F18B560409869AD7B512F"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "363334"
+		}
+		"beta"
+		{
+			"buildid" "149548"
+			"pwdrequired" "1"
+		}
+	}
+}
