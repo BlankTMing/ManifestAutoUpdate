@@ -1,0 +1,287 @@
+"appid" "394970"
+"common"
+{
+	"name" "DEADBOLT"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "2b10ee5364012f2f97bcbd0c567d0baf1f506649"
+	"logo_small" "2b10ee5364012f2f97bcbd0c567d0baf1f506649_thumb"
+	"icon" "c6f2bfdaf209918265a41081c769e5f1cb04f409"
+	"clienttga" "edda918baa59d4212d578b21257582686dbf6abc"
+	"clienticon" "3b86dacb0500790627685910763e572f5fd0d3a9"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1670544000"
+		"tested_build_id" "1244085"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_CrossPlatformCloudSavesNotSupported"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-5"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"metacritic_name" "DEADBOLT"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "33.78063010501752"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1602283315"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Hopoo Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Hopoo Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_30" "1"
+		"category_17" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1457964183"
+	"metacritic_score" "76"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/deadbolt\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "394970"
+	"store_tags"
+	{
+		"0" "1687"
+		"1" "3964"
+		"2" "1756"
+		"3" "492"
+		"4" "3871"
+		"5" "19"
+		"6" "4026"
+		"7" "4345"
+		"8" "4182"
+		"9" "3798"
+		"10" "1774"
+		"11" "5228"
+		"12" "4166"
+		"13" "4667"
+		"14" "1659"
+		"15" "9"
+		"16" "4018"
+		"17" "4342"
+		"18" "1625"
+		"19" "1667"
+	}
+	"review_score" "9"
+	"review_percentage" "95"
+}
+"extended"
+{
+	"gamedir" ""
+	"developer" "Hopoo Games"
+	"publisher" "Hopoo Games"
+	"homepage" "http://playdeadbolt.com/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "DEADBOLT"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "deadbolt_game.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "DEADBOLT.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "run.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "394970"
+	"baselanguages" "english"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"394971"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7638387365191246888"
+				"size" "207277779"
+				"download" "183815520"
+			}
+		}
+	}
+	"394972"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3096459483764877736"
+				"size" "143866713"
+				"download" "118414368"
+			}
+		}
+	}
+	"394973"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1493037790156163876"
+				"size" "135264388"
+				"download" "116119456"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1244085"
+			"timeupdated" "1469463784"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "deadbolt_game/"
+			"pattern" "*.sav"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "deadbolt_map_editor/"
+			"pattern" "*.nc"
+		}
+	}
+}
