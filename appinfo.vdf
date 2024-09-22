@@ -1,0 +1,467 @@
+"appid" "253030"
+"common"
+{
+	"name" "Race The Sun"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "ff0d04cb05dc03ec4b9a136d6b35b00166c475fc"
+	"logo_small" "ff0d04cb05dc03ec4b9a136d6b35b00166c475fc_thumb"
+	"clienticon" "4ecd8938ece7f22e48e9b405183452693557119d"
+	"clienttga" "b08425703288d8ec8fb04555d87129324e56ae1d"
+	"icon" "c71854fe8d02e797b43f5ea7d57a6430913442c7"
+	"requireskbmouse" "1"
+	"controllervr"
+	{
+		"xinput" "1"
+		"kbm" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+	}
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1647648000"
+		"tested_build_id" "1808508"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Race The Sun"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1685019308"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Flippfly LLC"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Flippfly LLC"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Flippfly LLC"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "9"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_17" "1"
+		"category_23" "1"
+		"category_15" "1"
+		"category_29" "1"
+		"category_30" "1"
+		"category_28" "1"
+		"category_41" "1"
+		"category_42" "1"
+		"category_43" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1386641940"
+	"metacritic_score" "79"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/race-the-sun\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "253030"
+	"store_tags"
+	{
+		"0" "5125"
+		"1" "8666"
+		"2" "699"
+		"3" "1759"
+		"4" "1644"
+		"5" "4026"
+		"6" "12057"
+		"7" "1662"
+		"8" "1773"
+		"9" "4191"
+		"10" "21978"
+		"11" "4166"
+		"12" "6052"
+		"13" "1697"
+		"14" "1654"
+		"15" "3835"
+		"16" "1710"
+		"17" "8122"
+		"18" "3839"
+		"19" "19"
+	}
+	"review_score" "8"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"gamedir" ""
+	"vrheadsetstreaming" "1"
+	"developer" "Flippfly LLC"
+	"publisher" "Flippfly LLC"
+	"homepage" "http://flippfly.com/racethesun/"
+	"listofdlc" "378730,378731"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "RaceTheSun"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "RaceTheSun.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "RaceTheSun.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "launch_linux.sh"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "RaceTheSun.exe"
+			"arguments" "vr"
+			"description" "Launch Steam VR"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "RaceTheSun.exe"
+			"arguments" "vr oculus"
+			"description" "Launch with Oculus Drivers"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"1862167654"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"253031"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1005746811166845326"
+				"size" "155896395"
+				"download" "32771968"
+			}
+			"old_stable"
+			{
+				"gid" "7084165925684659131"
+				"size" "135660449"
+				"download" "28644352"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta_internal"
+			{
+				"gid" "DDED90F292379C02EA36900CF9301373"
+				"size" "973F7B781440B6C168FC20657E90C011"
+				"download" "A72D95839611416B6D5FAA2A2C0542DA"
+			}
+			"test_internal"
+			{
+				"gid" "479178720D2F910F9F507FD0158CA151"
+				"size" "11F5195714168A0F48DD11B329ACF772"
+				"download" "40EA962D8666C6ECF3E844A3605339FE"
+			}
+		}
+	}
+	"253032"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "847402472000595992"
+				"size" "167530712"
+				"download" "34922640"
+			}
+			"old_stable"
+			{
+				"gid" "5652190320903646351"
+				"size" "140204638"
+				"download" "30366224"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta_internal"
+			{
+				"gid" "394F99EF862D3F339401ED5CA6F04CDB"
+				"size" "4C3F3B10F911C150490D6806BECD402E"
+				"download" "5583FE42D1392B0EC90AFCC1BC5F460C"
+			}
+			"test_internal"
+			{
+				"gid" "7D6988244A641EAC716AFB413B3D491E"
+				"size" "8338FB4CD4496A3CA06A147B06063793"
+				"download" "169E847BCAD5483229D552C9DD7F6210"
+			}
+		}
+	}
+	"253033"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5296224263863569175"
+				"size" "162680714"
+				"download" "34010752"
+			}
+			"old_stable"
+			{
+				"gid" "4133644117103567858"
+				"size" "139786618"
+				"download" "30343984"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta_internal"
+			{
+				"gid" "2EDB6690D43296F9D78B4A03465845C5"
+				"size" "8AFE3B352086D9A8E7D6EF6C944B7893"
+				"download" "F519051B83DA0858E15E0365E5FCD71B"
+			}
+			"test_internal"
+			{
+				"gid" "5DE09267BB04104BFBDE2A538583F7C6"
+				"size" "3AB1442C4835D5263F6C30B69E46C492"
+				"download" "F454F980127C7A4C8F313C9CE3114A98"
+			}
+		}
+	}
+	"378731"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9195102739094348968"
+				"size" "24"
+				"download" "80"
+			}
+			"old_stable"
+			{
+				"gid" "9195102739094348968"
+				"size" "24"
+				"download" "80"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta_internal"
+			{
+				"gid" "165EEE050F61FA3CA446863F3C271BB8"
+				"size" "D13D6BE15182D4FBC11D43B9A9D8BF0F"
+				"download" "553856FE0FE7E11CDA68033D15284B3F"
+			}
+			"test_internal"
+			{
+				"gid" "97A9D93692F0211A3EF8041230E2221B"
+				"size" "75400E9307352D40F60709D5CE890A8E"
+				"download" "FAD5CE618F281025024AF472EA0C1512"
+			}
+		}
+		"dlcappid" "378731"
+	}
+	"378730"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7368530143107066534"
+				"size" "188158143"
+				"download" "190064464"
+			}
+			"old_stable"
+			{
+				"gid" "7368530143107066534"
+				"size" "188158143"
+				"download" "190064464"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta_internal"
+			{
+				"gid" "1B93DABC32F23CF9202AD53986A34F71"
+				"size" "23D95831D09A791AB28C6FE907D80098"
+				"download" "E3369052D71A9A73ACC97898B47FAF6C"
+			}
+			"test_internal"
+			{
+				"gid" "3E8B12E33D77783038499AFB6E2EA711"
+				"size" "8097AD791D5A651499441FCFF264E10E"
+				"download" "9FF83BC8E42AC1FCAFD056CB86F243C0"
+			}
+		}
+		"dlcappid" "378730"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1808508"
+			"timeupdated" "1494297795"
+		}
+		"beta_internal"
+		{
+			"buildid" "1623334"
+			"pwdrequired" "1"
+			"timeupdated" "1486748356"
+		}
+		"old_stable"
+		{
+			"buildid" "759512"
+			"timeupdated" "1487787337"
+		}
+		"test_internal"
+		{
+			"buildid" "1765630"
+			"pwdrequired" "1"
+			"timeupdated" "1492541120"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "500"
+}
