@@ -1,0 +1,271 @@
+"appid" "359060"
+"common"
+{
+	"name" "Switch Galaxy Ultra"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "0ea406b49ec6d269f898a915cf4bde773c01eac9"
+	"logo_small" "0ea406b49ec6d269f898a915cf4bde773c01eac9_thumb"
+	"clienticon" "e77bc67e7a56cdca4004a52257148eff1045e272"
+	"clienttga" "dba7369fbb74c0763129b9c696675a3524d2bdc2"
+	"icon" "2e9d205213bf8860e45580520075641ea8745d86"
+	"metacritic_name" "Switch Galaxy Ultra"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1442223328"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Atomicom Limited"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Green Man Gaming Publishing"
+		}
+	}
+	"primary_genre" "9"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "9"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_25" "1"
+		"category_18" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"dutch"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1448036360"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "359060"
+	"store_tags"
+	{
+		"0" "699"
+		"1" "19"
+		"2" "492"
+	}
+	"review_score" "5"
+	"review_percentage" "44"
+}
+"extended"
+{
+	"developer" "Atomicom Limited"
+	"publisher" "Green Man Gaming Publishing"
+	"homepage" "http://www.switchgalaxy.com"
+	"listofdlc" "381190,381191"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Switch Galaxy Ultra"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "switch_galaxy.exe"
+			"description" "Play Switch Galaxy Ultra"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "switch_galaxy"
+			"description" "Play Switch Galaxy Ultra"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "switch_galaxy.app"
+			"workingdir" "switch_galaxy.app/Contents/MacOS/"
+			"description" "Play Switch Galaxy Ultra"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,italian,spanish,schinese,russian,portuguese,polish,dutch"
+	"359062"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2714409691791287441"
+				"size" "1097730096"
+				"download" "1084884368"
+			}
+		}
+	}
+	"359063"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2282499320192176630"
+				"size" "1096790845"
+				"download" "1084510528"
+			}
+		}
+	}
+	"359064"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "445174272470447934"
+				"size" "1103570860"
+				"download" "1085854048"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "874514"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "48000"
+	"maxnumfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Atomicom/Switch Galaxy"
+			"pattern" "savedata-001.dat"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "savedata-001.dat"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
