@@ -1,0 +1,230 @@
+"appid" "446530"
+"common"
+{
+	"name" "One Last Crane"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "5ac3c072578633bf159c4c26e15023fc048db01e"
+	"logo_small" "5ac3c072578633bf159c4c26e15023fc048db01e_thumb"
+	"icon" "cfe340fa535848703122ca242d2373b8bd9433fd"
+	"clienticon" "35c86b7a55fc7b49dde046da1692452999c3b92a"
+	"clienttga" "ded50989db86e1b550b6e2f7bf356aa120e516cd"
+	"releasestate" "released"
+	"name_localized"
+	{
+		"schinese" "最后的千纸鹤 One Last Crane"
+		"tchinese" "最後的千紙鶴 One Last Crane"
+	}
+	"osextended" ""
+	"metacritic_name" "One Last Crane"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "60.471395640634476"
+		}
+	}
+	"store_asset_mtime" "1656946024"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Blissful Work\'s"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Sekai Project"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1656977820"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "446530"
+	"store_tags"
+	{
+		"0" "4085"
+		"1" "21"
+		"2" "492"
+		"3" "597"
+		"4" "3799"
+		"5" "4182"
+		"6" "4947"
+		"7" "4726"
+		"8" "6971"
+		"9" "9551"
+		"10" "1742"
+		"11" "3871"
+		"12" "12095"
+	}
+}
+"extended"
+{
+	"developer" "Blissful Work\'s"
+	"publisher" "Sekai Project"
+	"homepage" "https://sekaiproject.com/games/one-last-crane/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "One Last Crane"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "OneLastCrane.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "OneLastCrane.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "OneLastCrane.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"446531"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3195927198203262396"
+				"size" "1986396618"
+				"download" "1891622048"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha"
+			{
+				"gid" "970345C6281A0ADD90ACB95E5FF378B8"
+				"size" "A3F8EA6D97C6BB36F87E33676AD050D3"
+				"download" "27C2FCD5486C7A6B6705BFCF8B163081"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9094906"
+			"timeupdated" "1657477896"
+		}
+		"alpha"
+		{
+			"buildid" "8884527"
+			"pwdrequired" "1"
+			"timeupdated" "1654570254"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "268435456"
+	"maxnumfiles" "1024"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "RenPy/OneLastCrane-beta"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "MacHome"
+			"path" "Library/RenPy/OneLastCrane-beta"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"2"
+		{
+			"root" "LinuxHome"
+			"path" ".renpy/OneLastCrane-beta"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "game/saves"
+			"pattern" "*"
+		}
+	}
+}
