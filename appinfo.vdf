@@ -1,0 +1,196 @@
+"appid" "341980"
+"common"
+{
+	"name" "Dispatcher"
+	"type" "Game"
+	"oslist" "windows"
+	"logo" "6209fe33e0ed826fa5c80300b0288606fe9b6c98"
+	"logo_small" "6209fe33e0ed826fa5c80300b0288606fe9b6c98_thumb"
+	"clienticon" "936bf1e8b27ccfc8e769124272e6f0e31a0fcdb0"
+	"clienttga" "bf8e46422f6693464ae8ca8f63ab3b1ae86df355"
+	"icon" "954f1066cea417102bc61fff47cfaceecc8f1113"
+	"releasestate" "released"
+	"metacritic_name" "Dispatcher"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1445673286"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "CivilSavages"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Siberian Digital"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_1" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1447357220"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "341980"
+	"store_tags"
+	{
+		"0" "1667"
+		"1" "3859"
+		"2" "1755"
+		"3" "3942"
+		"4" "21"
+		"5" "492"
+		"6" "1685"
+		"7" "19"
+		"8" "3839"
+		"9" "4166"
+		"10" "7208"
+		"11" "1687"
+		"12" "493"
+		"13" "1662"
+		"14" "122"
+		"15" "3978"
+	}
+	"review_score" "5"
+	"review_percentage" "54"
+}
+"extended"
+{
+	"developer" "CivilSavages"
+	"publisher" "Siberian Digital"
+	"listofdlc" "441240,455330"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Dispatcher"
+	"installscriptsignature" "49ee036558edd7381e0ab5f5e1da1892428edd708b97ab89a8096cccbd8006c5c1bb3d6b706e1a99ee1038620664c13f88e662723bbbafbc3c5344e77cf9f04d12a35c1b299c446a28bb57ff0e42cbccfbb3456f7f2913e66cb13ac40aa26c18b49f662479247bf652f9e6d94460c1f623acb06388d89c3e154d1d8cb48c3047"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Disp1.exe"
+			"description" "Dispatcher"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"ue4redist"
+		{
+			"process 1" "%INSTALLDIR%\\Engine\\Extras\\Redist\\en-us\\UE4PrereqSetup_x86.exe"
+			"nocleanup" "1"
+			"ignoreexitcode" "1"
+		}
+		"firewall"
+		{
+			"depth" "%INSTALLDIR%\\Disp1.exe"
+		}
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229002"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"341981"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1775975434145542629"
+				"size" "3309289817"
+				"download" "972573760"
+			}
+		}
+	}
+	"441240"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1812558694666177523"
+				"size" "267102499"
+				"download" "213328800"
+			}
+		}
+		"dlcappid" "441240"
+	}
+	"455330"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7685390276357719913"
+				"size" "28520148"
+				"download" "26403232"
+			}
+		}
+		"dlcappid" "455330"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1042035"
+			"timeupdated" "1458934405"
+		}
+	}
+}
