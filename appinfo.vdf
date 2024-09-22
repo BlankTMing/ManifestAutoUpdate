@@ -1,0 +1,320 @@
+"appid" "1009850"
+"common"
+{
+	"name" "OVR Advanced Settings"
+	"type" "Application"
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"osextended" ""
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"openvr_action_manifest_path" "./action_manifest.json"
+	"logo" "52b1cd255728ce6a11fc003626e893af90b3172a"
+	"logo_small" "52b1cd255728ce6a11fc003626e893af90b3172a_thumb"
+	"icon" "fa8eecdff0e044b5aad401e027fcdc53e8282690"
+	"clienticon" "611f9ab0246895682f5f4561a71b1256104dfb3d"
+	"clienttga" "b4c84a116392588d9a65aae2f55cc881f94532fd"
+	"releasestate" "released"
+	"openvroverlaysupport" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1669852800"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_Software"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "80.85533838162087"
+			"height_pct" "76.17145241299244"
+		}
+	}
+	"store_asset_mtime" "1659041859"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "OVRAS Team"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "OVRAS Team"
+		}
+	}
+	"primary_genre" "57"
+	"genres"
+	{
+		"0" "57"
+	}
+	"category"
+	{
+		"category_52" "1"
+		"category_54" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1473577200"
+	"steam_release_date" "1586887200"
+	"community_hub_visible" "1"
+	"gameid" "1009850"
+	"exfgls" "6"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "21978"
+		"1" "87"
+		"2" "8013"
+		"3" "492"
+	}
+	"review_score" "8"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "OVRAS Team"
+	"publisher" "OVRAS Team"
+	"homepage" "https://www.youtube.com/@OVRAdvancedSettings"
+	"gamemanualurl" "https://store.steampowered.com/manual/1009850/"
+	"listofdlc" "1342830,1342831,1342840"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "OVR_AdvancedSettings"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "AdvancedSettings.exe"
+			"description" "Default"
+			"type" "openvroverlay"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "run.sh"
+			"description" "Linux Default"
+			"type" "openvroverlay"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "AdvancedSettings.exe"
+			"arguments" "--desktop-mode"
+			"type" "openvroverlay"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Desktop Mode"
+			}
+			"description" "Desktop Mode"
+		}
+	}
+}
+"depots"
+{
+	"1009851"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2651652159210957100"
+				"size" "79180661"
+				"download" "35557920"
+			}
+			"5.3.1"
+			{
+				"gid" "976301007292113060"
+				"size" "78804857"
+				"download" "35426576"
+			}
+			"5.6.2"
+			{
+				"gid" "3904665003005399751"
+				"size" "79584633"
+				"download" "35617072"
+			}
+			"5.7.3"
+			{
+				"gid" "895610668112095092"
+				"size" "79600411"
+				"download" "35619952"
+			}
+			"5.7.4"
+			{
+				"gid" "1112433176678238934"
+				"size" "79179350"
+				"download" "35558464"
+			}
+			"beta"
+			{
+				"gid" "2651652159210957100"
+				"size" "79180661"
+				"download" "35557920"
+			}
+		}
+	}
+	"1009852"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "399261972683075166"
+				"size" "37651833"
+				"download" "37216336"
+			}
+			"5.3.1"
+			{
+				"gid" "944922081891941831"
+				"size" "36708401"
+				"download" "36274736"
+			}
+			"5.6.2"
+			{
+				"gid" "6621353094387225527"
+				"size" "37406073"
+				"download" "36971808"
+			}
+			"5.7.3"
+			{
+				"gid" "4316573875366699656"
+				"size" "37410169"
+				"download" "36975424"
+			}
+			"5.7.4"
+			{
+				"gid" "4120090556995576385"
+				"size" "37655929"
+				"download" "37218864"
+			}
+			"beta"
+			{
+				"gid" "399261972683075166"
+				"size" "37651833"
+				"download" "37216336"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13891365"
+			"timeupdated" "1711693786"
+		}
+		"5.3.1"
+		{
+			"buildid" "5639217"
+			"description" "5.3.1"
+			"timeupdated" "1614730177"
+		}
+		"5.6.2"
+		{
+			"buildid" "9211258"
+			"description" "5.6.2"
+			"timeupdated" "1684371454"
+		}
+		"5.7.3"
+		{
+			"buildid" "11581276"
+			"description" "5.7.3"
+			"timeupdated" "1696951750"
+		}
+		"5.7.4"
+		{
+			"buildid" "12397380"
+			"description" "5.7.4"
+			"timeupdated" "1708540779"
+		}
+		"beta"
+		{
+			"buildid" "13891365"
+			"description" "beta"
+			"timeupdated" "1711693753"
+		}
+	}
+}
