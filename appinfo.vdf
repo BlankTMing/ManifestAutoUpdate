@@ -1,0 +1,570 @@
+"appid" "223830"
+"common"
+{
+	"name" "Xenonauts"
+	"type" "Game"
+	"logo" "8d82bab60ce25a5dd5f14cb1c4f0110d1668ca53"
+	"logo_small" "8d82bab60ce25a5dd5f14cb1c4f0110d1668ca53_thumb"
+	"oslist" "windows,macos,linux"
+	"icon" "b7e97ba62adc7281ecb014432dec35eb32d86ffb"
+	"clienttga" "0b574230d921a2066e979902f461b8531cfb8020"
+	"eulas"
+	{
+	}
+	"clienticon" "a945cd492d881c73b1c906be0082b27f98d73fb4"
+	"linuxclienticon" "675e2ccd6f79b519fd65c3bdb19a18752ef837ef"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1667520000"
+		"tested_build_id" "1007626"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-5"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Xenonauts"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomCenter"
+				"width_pct" "50"
+				"height_pct" "50"
+			}
+		}
+	}
+	"store_asset_mtime" "1560507350"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Goldhawk Interactive"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Goldhawk Interactive"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Goldhawk Interactive"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1402949520"
+	"metacritic_score" "77"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/xenonauts\?ftag=MCD-06-10aaa1f"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "223830"
+	"store_tags"
+	{
+		"0" "1741"
+		"1" "14139"
+		"2" "4325"
+		"3" "7332"
+		"4" "4364"
+		"5" "12472"
+		"6" "4182"
+		"7" "9"
+		"8" "1708"
+		"9" "1673"
+		"10" "3942"
+		"11" "492"
+		"12" "5851"
+		"13" "599"
+		"14" "5153"
+		"15" "1677"
+		"16" "5179"
+		"17" "5708"
+		"18" "3871"
+		"19" "4166"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"developer" "Goldhawk Interactive"
+	"gamedir" "ValveTestApp223830"
+	"homepage" "http://www.xenonauts.com"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Goldhawk Interactive"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Xenonauts"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "xenonauts.exe"
+			"description" "Launch Game"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "Xenonauts.app"
+			"description" "Launch Game"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"5"
+		{
+			"executable" "Xenonauts.bin.x86"
+			"description" "Launch Game"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"6"
+		{
+			"executable" "Xenonauts.app"
+			"arguments" "-nolauncher"
+			"description" "Skip Launcher"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"7"
+		{
+			"executable" "Xenonauts.bin.x86"
+			"arguments" "-nolauncher"
+			"description" "Skip Launcher"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"preloadonly" "1"
+	"overridescddb" "1"
+	"markdlcdepots" "0"
+	"223831"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2571778493951657023"
+				"size" "2965995847"
+				"download" "2563665296"
+			}
+			"community"
+			{
+				"gid" "476033002971876195"
+				"size" "2910738461"
+				"download" "65623944989346"
+			}
+			"compatibility"
+			{
+				"gid" "4495595213202703635"
+				"size" "2924532416"
+				"download" "2504457456"
+			}
+			"experiment"
+			{
+				"gid" "3550789777527482236"
+				"size" "2966054307"
+				"download" "2563603136"
+			}
+			"legacy"
+			{
+				"gid" "1279593782991431489"
+				"size" "2715107358"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "5A1082B98D1C7FE2E9031B08A1F082C1"
+				"size" "FBC04AD02EBD17D4DC2B3D62BE8423AE"
+				"download" "55834AF507D7683B36B05864D437A1E3"
+			}
+			"portingtest"
+			{
+				"gid" "6B0F856D14D90F21ECFBC4B3D057322D"
+				"size" "8B41AE88CB6D926F897AF402D0614EF1"
+				"download" "F39484E790CDA51B24D723F6D4E3D1D5"
+			}
+		}
+	}
+	"223833"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6578508371997597324"
+				"size" "2745586993"
+				"download" "2407221920"
+			}
+			"community"
+			{
+				"gid" "9112961298842054788"
+				"size" "3326821402"
+				"download" "2781449648"
+			}
+			"compatibility"
+			{
+				"gid" "2228431392109870735"
+				"size" "2709238257"
+				"download" "19600680894510"
+			}
+			"experiment"
+			{
+				"gid" "6578508371997597324"
+				"size" "2745586993"
+				"download" "2407221920"
+			}
+			"legacy"
+			{
+				"gid" "8819118377445148621"
+				"size" "2945615843"
+				"download" "2556533632"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "9FA99FC5DE107A9D7E5E004EF5388DE4"
+				"size" "0EEC73D25309EBC3990F6AC6B7FD8B75"
+				"download" "32A5E58737E3B7AA649970D6D9E72E67"
+			}
+			"portingtest"
+			{
+				"gid" "5F5D10BAE0C10D9CDCDF86EA650967CE"
+				"size" "5120FBE4F4562C858D3C8440C9AF36A4"
+				"download" "1247DECCCB5E6F24D638110C82F8A1C7"
+			}
+		}
+	}
+	"223835"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5341086061831798490"
+				"size" "2746623724"
+				"download" "2409377072"
+			}
+			"community"
+			{
+				"gid" "1338736390771589046"
+				"size" "5137097582"
+				"download" "161935724365"
+			}
+			"compatibility"
+			{
+				"gid" "6218941276759317225"
+				"size" "5510240533"
+				"download" "4969353264"
+			}
+			"experiment"
+			{
+				"gid" "5341086061831798490"
+				"size" "2746623724"
+				"download" "2409377072"
+			}
+			"legacy"
+			{
+				"gid" "2637538912506232190"
+				"size" "2803750340"
+				"download" "2826713552"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "3B3E33FD61279E9D3C1AC5BCEE70597B"
+				"size" "7B0EADEB307CD4711C73081C7E88C3E4"
+				"download" "70B5393C9A585BA9726BDA0FC36A3D73"
+			}
+			"portingtest"
+			{
+				"gid" "E30C19E6F7EA6C84D7E1C2D48604AA04"
+				"size" "35F72D45D48678EA9BC65F97718876B8"
+				"download" "6D163827845C785A10A4D5BA09B6701E"
+			}
+		}
+	}
+	"223837"
+	{
+		"config"
+		{
+			"language" "italian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2197630807150670993"
+				"size" "2714585469"
+				"download" "2349866400"
+			}
+			"community"
+			{
+				"gid" "2197630807150670993"
+				"size" "2714585469"
+				"download" "2349866400"
+			}
+			"compatibility"
+			{
+				"gid" "2197630807150670993"
+				"size" "2714585469"
+				"download" "2349866400"
+			}
+			"experiment"
+			{
+				"gid" "2197630807150670993"
+				"size" "2714585469"
+				"download" "2349866400"
+			}
+			"legacy"
+			{
+				"gid" "2197630807150670993"
+				"size" "2714585469"
+				"download" "2349866400"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "AC321F90C37A7226E51BBAE66D39E826"
+				"size" "0655201F4A1DB0C06885CE2FC05A5596"
+				"download" "5020F286CC027260480CDD5DA08E9169"
+			}
+			"portingtest"
+			{
+				"gid" "79C104FEB0676071E44FC8D1923E18CC"
+				"size" "99D3728A03B6B305E85661CA9C4F71AD"
+				"download" "4A30AF2D5B62B0DE07BF69504ED1A377"
+			}
+		}
+	}
+	"223849"
+	{
+	}
+	"223836"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"community"
+			{
+				"gid" "2928967554617078031"
+				"size" "3250326056"
+				"download" "2688351088"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12760814"
+			"timeupdated" "1700574254"
+		}
+		"community"
+		{
+			"buildid" "4987080"
+			"description" "Xenonauts: Community Edition branch"
+			"timeupdated" "1588714966"
+		}
+		"compatibility"
+		{
+			"buildid" "543488"
+			"description" "No tile atlases / sprite archives; slower load times but better performance on low-end machines. Warning: has ~150,000 files."
+		}
+		"developer"
+		{
+			"buildid" "11011988"
+			"pwdrequired" "1"
+			"timeupdated" "1681580661"
+		}
+		"experiment"
+		{
+			"buildid" "1007626"
+			"description" "Public test branch; contains latest updates, possibly unstable"
+		}
+		"legacy"
+		{
+			"buildid" "794369"
+			"description" "Contains Xenonauts V1.09"
+		}
+		"portingtest"
+		{
+			"buildid" "1007616"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "3000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "Xenonauts"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "LinuxHome"
+			"path" "Xenonauts"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
