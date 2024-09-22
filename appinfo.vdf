@@ -1,0 +1,386 @@
+"appid" "245410"
+"common"
+{
+	"name" "Wizardry 6: Bane of the Cosmic Forge"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "352152c90bf4e8ac837e9f0fef1d22c4bb764bc7"
+	"logo_small" "352152c90bf4e8ac837e9f0fef1d22c4bb764bc7_thumb"
+	"icon" "edaf17a07868c673a18f9a075c832c253f763cfb"
+	"clienttga" "212b9f228dc7b214370cfd4cca74139c88563056"
+	"clienticon" "4a6254c99999316794f75a3af190ad0f085ce183"
+	"clienticns" "fbadc5b15db7a77a4a80c3ae4869f8db21eb68b6"
+	"linuxclienticon" "4abdcd30a71e3b131ba9ec242a8c37e22c9e467a"
+	"metacritic_name" "Wizardry 6: Bane of the Cosmic Forge"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "100"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1670353962"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Sir-Tech"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Drecom Co., Ltd."
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Nightdive Studios"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Wizardry"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "25"
+		"1" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1378833480"
+	"community_hub_visible" "1"
+	"gameid" "245410"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "21"
+		"2" "3839"
+		"3" "1720"
+		"4" "1693"
+		"5" "10695"
+		"6" "4325"
+		"7" "7569"
+		"8" "1677"
+		"9" "1684"
+		"10" "3916"
+		"11" "4474"
+		"12" "4182"
+		"13" "4004"
+	}
+	"review_score" "6"
+	"review_percentage" "76"
+}
+"extended"
+{
+	"developer" "Sir-Tech"
+	"publisher" "Drecom Co., Ltd."
+	"homepage" "http://www.nightdivestudios.com/games/wizardry-6/\?utm_source=steampowered.com&amp;utm_medium=product&amp;utm_campaign=website%20-%20wizardry%206"
+	"gamemanualurl" "https://store.steampowered.com/manual/245410/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Wizardry6"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "dosbox_windows/dosbox.exe"
+			"arguments" "-conf dosbox_wizardry6.conf -conf dosbox_wizardry6_launch_windows.conf -noconsole"
+			"description" "Play Wizardry 6"
+			"workingdir" "dosbox_windows/"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "dosbox_windows/daum/dosbox.exe"
+			"arguments" "-conf dosbox_wizardry6.conf -conf dosbox_wizardry6_launch_windows.conf -noconsole"
+			"description" "Play Wizardry 6 with DOSBox Daum"
+			"workingdir" "dosbox_windows/daum"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "dosbox_linux/launch_wizardry6_game.sh"
+			"description" "Play Wizardry 6"
+			"workingdir" "dosbox_linux/"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"4"
+		{
+			"executable" "dosbox_linux/daum/launch_wizardry6_game_daum.sh"
+			"description" "Play Wizardry 6 with DOSBox Daum"
+			"workingdir" "dosbox_linux/daum/"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"5"
+		{
+			"executable" "Wizardry 6.app"
+			"description" "Launch Wizardry 6"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"baselanguages" "english,german"
+	"245411"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6462998162661213168"
+				"size" "145234404"
+				"download" "136745872"
+			}
+			"beta"
+			{
+				"gid" "6462998162661213168"
+				"size" "145234404"
+				"download" "136745872"
+			}
+		}
+	}
+	"245412"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "717917795567715441"
+				"size" "44930735"
+				"download" "24689808"
+			}
+			"beta"
+			{
+				"gid" "8062783357759440728"
+				"size" "47506480"
+				"download" "25656192"
+			}
+		}
+	}
+	"245413"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3242591280959015596"
+				"size" "43203512"
+				"download" "21496400"
+			}
+			"beta"
+			{
+				"gid" "990010209260653160"
+				"size" "51316622"
+				"download" "15485824"
+			}
+		}
+	}
+	"245414"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6886707081015967892"
+				"size" "36525136"
+				"download" "26024256"
+			}
+			"beta"
+			{
+				"gid" "6886707081015967892"
+				"size" "36525136"
+				"download" "26024256"
+			}
+		}
+	}
+	"245415"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7494410281369812937"
+				"size" "36489206"
+				"download" "26005552"
+			}
+			"beta"
+			{
+				"gid" "7494410281369812937"
+				"size" "36489206"
+				"download" "26005552"
+			}
+		}
+	}
+	"245416"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows,linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3742347839668498119"
+				"size" "2323627"
+				"download" "1282944"
+			}
+			"beta"
+			{
+				"gid" "3742347839668498119"
+				"size" "2323627"
+				"download" "1282944"
+			}
+		}
+	}
+	"245417"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows,linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7258342753626885225"
+				"size" "2287698"
+				"download" "1264240"
+			}
+			"beta"
+			{
+				"gid" "7258342753626885225"
+				"size" "2287698"
+				"download" "1264240"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3325567"
+			"timeupdated" "1542763569"
+		}
+		"beta"
+		{
+			"buildid" "4546378"
+			"description" "Wiz 6 Beta"
+			"timeupdated" "1578361426"
+		}
+	}
+}
