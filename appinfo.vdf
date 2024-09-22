@@ -1,0 +1,535 @@
+"appid" "245430"
+"common"
+{
+	"name" "Wizardry 7: Crusaders of the Dark Savant"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"clienticon" "868c60c87d52051ef1cbe2b60ffcd9beaaa190e4"
+	"clienttga" "d847e99f5e5528a0bc330c62c7e02d6d2d4f77c9"
+	"icon" "8b112c357fc320f56741c0fd815604f442e0e0e8"
+	"logo" "af81d07d39a8fea8a27fa01f8c2bacad57bbeedb"
+	"logo_small" "af81d07d39a8fea8a27fa01f8c2bacad57bbeedb_thumb"
+	"linuxclienticon" "278eaf2f36f57ca894422cf7f67459dc4961ceee"
+	"clienticns" "8ce5ad2a265a4426935483d2e6d61d0885ab4b11"
+	"metacritic_name" "Wizardry 7: Crusaders of the Dark Savant"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "100"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1670354241"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Sir-Tech"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Drecom Co., Ltd."
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Nightdive Studios"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Wizardry"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "25"
+		"1" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1378833540"
+	"community_hub_visible" "1"
+	"gameid" "245430"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "1720"
+		"2" "7569"
+		"3" "21"
+		"4" "1693"
+		"5" "1677"
+		"6" "10695"
+		"7" "3839"
+		"8" "4325"
+		"9" "1684"
+		"10" "3916"
+		"11" "4474"
+		"12" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "80"
+}
+"extended"
+{
+	"developer" "Sir-Tech"
+	"publisher" "Drecom Co., Ltd."
+	"homepage" "http://www.nightdivestudios.com/games/wizardry-7/\?utm_source=steampowered.com&amp;utm_medium=product&amp;utm_campaign=website%20-%20wizardry%207"
+	"gamemanualurl" "https://store.steampowered.com/manual/245430/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Wizardry7"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "dosbox_windows/dosbox.exe"
+			"arguments" "-conf dosbox_wizardry7.conf -conf dosbox_wizardry7_launch_windows.conf -noconsole"
+			"description" "Play Wizardry 7: COTDS (MS-DOS)"
+			"workingdir" "dosbox_windows/"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "dosbox_windows/daum/dosbox.exe"
+			"arguments" "-conf dosbox_wizardry7.conf -conf dosbox_wizardry7_launch_windows.conf -noconsole"
+			"description" "Play Wizardry 7: COTDS (MS-DOS) with DOSBox Daum"
+			"workingdir" "dosbox_windows/daum/"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "wizardry7gold/WIZARD.EXE"
+			"description" "Play Wizardry 7: COTDS Gold Edition"
+			"workingdir" "wizardry7gold/"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "dosbox_linux/launch_wizardry7_game.sh"
+			"description" "Play Wizardry 7: COTDS (MS-DOS)"
+			"workingdir" "dosbox_linux/"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"5"
+		{
+			"executable" "dosbox_linux/daum/launch_wizardry7_game_daum.sh"
+			"description" "Play Wizardry 7: COTDS (MS-DOS) with DOSBox Daum"
+			"workingdir" "dosbox_linux/daum/"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"6"
+		{
+			"executable" "Wizardry 7.app"
+			"description" "Play Wizardry 7"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"baselanguages" "english,german"
+	"245431"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6403942610233934645"
+				"size" "90786335"
+				"download" "82815424"
+			}
+			"beta"
+			{
+				"gid" "481569619547107275"
+				"size" "102989526"
+				"download" "93689680"
+			}
+		}
+	}
+	"245432"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5591812826053522395"
+				"size" "553733916"
+				"download" "269205408"
+			}
+			"beta"
+			{
+				"gid" "3965740082110455762"
+				"size" "552383494"
+				"download" "267884032"
+			}
+		}
+	}
+	"245433"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1107796654535356488"
+				"size" "121"
+				"download" "384"
+			}
+			"beta"
+			{
+				"gid" "1107796654535356488"
+				"size" "121"
+				"download" "384"
+			}
+		}
+	}
+	"245434"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3140523273910861512"
+				"size" "188"
+				"download" "416"
+			}
+			"beta"
+			{
+				"gid" "3140523273910861512"
+				"size" "188"
+				"download" "416"
+			}
+		}
+	}
+	"245435"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "741835975061354627"
+				"size" "31711106"
+				"download" "12267840"
+			}
+			"beta"
+			{
+				"gid" "2708255766362163318"
+				"size" "50660084"
+				"download" "15776544"
+			}
+		}
+	}
+	"245436"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7430461454825708932"
+				"size" "109"
+				"download" "368"
+			}
+			"beta"
+			{
+				"gid" "7430461454825708932"
+				"size" "109"
+				"download" "368"
+			}
+		}
+	}
+	"245437"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3733445370436634655"
+				"size" "188"
+				"download" "416"
+			}
+			"beta"
+			{
+				"gid" "3733445370436634655"
+				"size" "188"
+				"download" "416"
+			}
+		}
+	}
+	"245438"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4731205365354677619"
+				"size" "39526043"
+				"download" "27137536"
+			}
+			"beta"
+			{
+				"gid" "4731205365354677619"
+				"size" "39526043"
+				"download" "27137536"
+			}
+		}
+	}
+	"245439"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5871067044409550797"
+				"size" "39483494"
+				"download" "27110832"
+			}
+			"beta"
+			{
+				"gid" "5871067044409550797"
+				"size" "39483494"
+				"download" "27110832"
+			}
+		}
+	}
+	"245440"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2184274560347297526"
+				"size" "5396431"
+				"download" "2453408"
+			}
+			"beta"
+			{
+				"gid" "2184274560347297526"
+				"size" "5396431"
+				"download" "2453408"
+			}
+		}
+	}
+	"245441"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1729431314648208608"
+				"size" "5353891"
+				"download" "2426720"
+			}
+			"beta"
+			{
+				"gid" "1729431314648208608"
+				"size" "5353891"
+				"download" "2426720"
+			}
+		}
+	}
+	"245442"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "404792748091040320"
+				"size" "5396431"
+				"download" "2453408"
+			}
+			"beta"
+			{
+				"gid" "404792748091040320"
+				"size" "5396431"
+				"download" "2453408"
+			}
+		}
+	}
+	"245443"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6619051837741955856"
+				"size" "5353891"
+				"download" "2426720"
+			}
+			"beta"
+			{
+				"gid" "6619051837741955856"
+				"size" "5353891"
+				"download" "2426720"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3325576"
+			"timeupdated" "1542764208"
+		}
+		"beta"
+		{
+			"buildid" "4546400"
+			"description" "Wiz 7 Beta"
+			"timeupdated" "1578361782"
+		}
+	}
+}
