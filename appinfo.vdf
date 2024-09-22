@@ -1,0 +1,239 @@
+"appid" "1658880"
+"common"
+{
+	"name" "汉字大冒险"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "3f431d4b39c60916229e96cc1654749c2ccf716e"
+	"logo_small" "3f431d4b39c60916229e96cc1654749c2ccf716e_thumb"
+	"icon" "263bb203d3af34f406216b05291f256213f37e97"
+	"clienticon" "b121d0431ee07a6fe91546ad092a8452f5083525"
+	"clienttga" "b2b3f5916405d703cc3baf794cc81a0ac0f05464"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "70.23589297759042"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "70.23589297759042"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1659978542"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "InsVolcStudio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "InsVolcStudio"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1671274364"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1658880"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "1664"
+		"2" "4026"
+		"3" "6129"
+		"4" "1730"
+		"5" "3871"
+		"6" "597"
+		"7" "3834"
+		"8" "4094"
+		"9" "21"
+		"10" "9"
+		"11" "4182"
+		"12" "31275"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "InsVolcStudio"
+	"publisher" "InsVolcStudio"
+}
+"config"
+{
+	"installdir" "汉字大冒险"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CharGame.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "汉字大冒险.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "6"
+}
+"depots"
+{
+	"1658881"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "692456509757155812"
+				"size" "426190844"
+				"download" "54854544"
+			}
+		}
+	}
+	"1658882"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2427588926966676249"
+				"size" "420963798"
+				"download" "53457200"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10224537"
+			"timeupdated" "1672237001"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "200"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "CharGame_Data/StreamingAssets/data"
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "CharGame_Data/StreamingAssets/data"
+					"replace" "汉字大冒险.app/Contents/Resources/Data/StreamingAssets/data"
+				}
+			}
+		}
+	}
+}
