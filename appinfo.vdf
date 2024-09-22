@@ -1,0 +1,231 @@
+"appid" "2016940"
+"common"
+{
+	"name" "O2Jam"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"icon" "dfc157e70aaae58bd24ebc23994ad0d5990ca9e3"
+	"clienticon" "edfb03e504357724d52b4716f37551722a74fee3"
+	"clienttga" "3cf541e1c94136c216f2fae4e252112b646de62a"
+	"releasestate" "released"
+	"app_retired_publisher_request" "1"
+	"app_retired_was_free" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1677196800"
+		"tested_build_id" "10417375"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_UnsupportedAntiCheat_Other"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1672802469"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "VALOFE"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "VALOFE"
+		}
+	}
+	"primary_genre" "37"
+	"genres"
+	{
+		"0" "4"
+		"1" "37"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_35" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1673920867"
+	"community_hub_visible" "1"
+	"gameid" "2016940"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "1752"
+		"2" "1654"
+		"3" "4305"
+		"4" "5154"
+		"5" "113"
+		"6" "3916"
+		"7" "4182"
+		"8" "1721"
+	}
+	"review_score" "1"
+	"review_percentage" "18"
+}
+"extended"
+{
+	"developer" "VALOFE"
+	"publisher" "VALOFE"
+}
+"config"
+{
+	"installdir" "O2Jam"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "O2Jam.exe"
+			"arguments" "/o2jam-steam"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "O2Jam.exe"
+			"arguments" "/o2jam-steam-test"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "vf-test"
+			}
+			"description_loc"
+			{
+				"english" "vf-o2jam"
+			}
+			"description" "vf-o2jam"
+		}
+	}
+}
+"depots"
+{
+	"hasdepotsindlc" "0"
+	"baselanguages" "english,koreana,schinese,japanese"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2016941"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7864493113690075499"
+				"size" "1785772693"
+				"download" "1411062144"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"vf-test"
+			{
+				"gid" "7E02796045DF39D37E4CA9FAA5414457"
+				"size" "6893C486DE709A5A539FD615A32F2390"
+				"download" "07127B148BEDACF6FFF02C0840463C49"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11038537"
+			"timeupdated" "1681895866"
+		}
+		"vf-test"
+		{
+			"buildid" "11038537"
+			"pwdrequired" "1"
+			"timeupdated" "1681895877"
+		}
+	}
+}
