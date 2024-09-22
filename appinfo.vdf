@@ -42,14 +42,14 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1698364800"
-		"tested_build_id" "12459477"
+		"test_timestamp" "1718928000"
+		"tested_build_id" "13569795"
 		"tests"
 		{
 			"0"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
 			}
 			"1"
 			{
@@ -59,7 +59,7 @@
 			"2"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
 			}
 			"3"
 			{
@@ -78,13 +78,14 @@
 			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "1"
-			"non_deck_display_glyphs" "0"
-			"small_text" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-1RC"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "1"
+			"hdr_support" "0"
 		}
 	}
 	"controllertagwizard" "1"
@@ -109,7 +110,49 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1710476196"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "56.65110851808634"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1718775144"
 	"associations"
 	{
 		"0"
@@ -189,15 +232,15 @@
 		"2" "21"
 		"3" "4106"
 		"4" "3814"
-		"5" "3834"
-		"6" "1742"
-		"7" "4191"
-		"8" "4145"
-		"9" "4168"
-		"10" "4791"
-		"11" "1708"
-		"12" "5984"
-		"13" "4182"
+		"5" "1742"
+		"6" "3834"
+		"7" "4145"
+		"8" "4191"
+		"9" "1708"
+		"10" "4168"
+		"11" "4791"
+		"12" "4182"
+		"13" "5984"
 		"14" "1678"
 		"15" "4667"
 		"16" "1693"
@@ -205,8 +248,8 @@
 		"18" "13276"
 		"19" "1756"
 	}
-	"review_score" "5"
-	"review_percentage" "68"
+	"review_score" "6"
+	"review_percentage" "72"
 }
 "extended"
 {
@@ -489,7 +532,3 @@
 	"quota" "100000000"
 	"maxnumfiles" "16"
 }
-"_missing_token" "False"
-"_change_number" "23037810"
-"_sha" "f2366a4a83df067689678bf0c6b1ddb7c13df88c"
-"_size" "9236"
