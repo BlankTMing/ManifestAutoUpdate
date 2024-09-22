@@ -1,0 +1,213 @@
+"appid" "1409510"
+"common"
+{
+	"name" "Survival Simulator"
+	"type" "Game"
+	"releasestate" "released"
+	"icon" "7629ae1ca80f620ea74e6ea3aba9f7c9cbd802c4"
+	"logo" "ab88fff6af74ca13ce85f000f0a83e424926f6d7"
+	"logo_small" "ab88fff6af74ca13ce85f000f0a83e424926f6d7_thumb"
+	"clienticon" "f4d8b1681f7a514d5bf786846267d063bb781af7"
+	"clienttga" "91b5fa32513fa76d30824247aa9026dabdd380ef"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50"
+				"height_pct" "50"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1600939244"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Yuyi Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "East2West Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "East2West Games"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1623393337"
+	"community_hub_visible" "1"
+	"gameid" "1409510"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "1695"
+		"2" "1662"
+		"3" "4182"
+		"4" "1100689"
+		"5" "492"
+	}
+	"review_score" "5"
+	"review_percentage" "62"
+}
+"extended"
+{
+	"developer" "Yuyi Studio"
+	"publisher" "East2West Games"
+}
+"config"
+{
+	"installdir" "Survival Simulator"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SurvivalSimulator.exe"
+			"type" "none"
+		}
+	}
+}
+"depots"
+{
+	"1409511"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4052773781452386668"
+				"size" "611816877"
+				"download" "216373504"
+			}
+		}
+	}
+	"baselanguages" "english,schinese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5571597"
+			"timeupdated" "1600655642"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "east2west/Survival Simulator"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "east2west/Survival Simulator"
+					"replace" "unity.east2west.Survival Simulator"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "east2west/Survival Simulator"
+					"replace" ".config/unity3d/east2west/Survival Simulator"
+				}
+			}
+		}
+	}
+}
