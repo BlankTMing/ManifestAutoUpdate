@@ -1,0 +1,126 @@
+"appid" "2424130"
+"common"
+{
+	"name" "Death Must Die Demo"
+	"type" "Demo"
+	"parent" "2334730"
+	"clienticon" "fd03d480fffa2cde131c5a3c5ad01db4ea0ca037"
+	"clienttga" "3d1829bf6d033b61cac724b51e611850ecb6ecab"
+	"icon" "8bb324e3520441323adf02215b66f5c0c685d6c8"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"releasestate" "released"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+	}
+	"store_asset_mtime" "1687033605"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Realm Archive"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Realm Archive"
+		}
+	}
+	"steam_release_date" "1686184425"
+	"gameid" "2424130"
+	"exfgls" "6"
+}
+"extended"
+{
+	"developer" "Realm Archive"
+	"publisher" "Realm Archive"
+}
+"config"
+{
+	"installdir" "Death Must Die Demo"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Death Must Die.exe"
+		}
+	}
+}
+"depots"
+{
+	"2424131"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "103307279830531896"
+				"size" "1337298488"
+				"download" "391978000"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "68E7E229B077DD4128D384FEA5E1997F"
+				"size" "84D4F9F59BC98AD0E2618C087BC63AB4"
+				"download" "56F9F4C06D67270F6C28584CC5C1D60F"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11659327"
+			"timeupdated" "1688898476"
+		}
+		"beta"
+		{
+			"buildid" "11659327"
+			"pwdrequired" "1"
+			"timeupdated" "1688897547"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "600000"
+	"maxnumfiles" "10"
+	"appidredirect" "2334730"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Realm Archive/Death Must Die/Saves"
+			"pattern" "*.sav"
+		}
+		"copied_from_parent" "1"
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
+		}
+	}
+}
