@@ -1,0 +1,263 @@
+"appid" "1833910"
+"common"
+{
+	"name" "游戏玩家中医体质测试及养生指南"
+	"type" "Application"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" ""
+	"clienttga" "28df486b2f357f0aebc83451cfa068916b837afd"
+	"clienticon" "0ce9d515fb89cd3b630cbe63a191a2ae20098e25"
+	"icon" "756fd4d4e3f3cf17ec0aaab32bab0e1ebfc19311"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "62.67441860465116"
+			"height_pct" "81.1564948943244"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "62.67441860465116"
+				"height_pct" "81.1564948943244"
+			}
+		}
+	}
+	"store_asset_mtime" "1650443764"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "曲波"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "曲波"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "2"
+		"1" "54"
+		"2" "57"
+		"3" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1651757284"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1833910"
+	"exfgls" "6"
+	"store_tags"
+	{
+		"0" "1036"
+		"1" "9"
+		"2" "87"
+		"3" "31275"
+		"4" "4094"
+		"5" "5379"
+		"6" "4182"
+		"7" "8013"
+		"8" "493"
+	}
+}
+"extended"
+{
+	"enablegameoverlayforapp" "1"
+	"developer" "曲波"
+	"publisher" "曲波"
+}
+"config"
+{
+	"installdir" "Zhongyi"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Zhongyi.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Zhongyi32.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"2"
+		{
+			"executable" "Zhongyi.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1833911"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "429749536585681353"
+				"size" "188780857"
+				"download" "86458736"
+			}
+		}
+	}
+	"1833912"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1110798380423904209"
+				"size" "181437001"
+				"download" "84127040"
+			}
+		}
+	}
+	"1833913"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8357378772466443109"
+				"size" "188629908"
+				"download" "86021584"
+			}
+		}
+	}
+	"baselanguages" "schinese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8647209"
+			"timeupdated" "1651214560"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000"
+	"maxnumfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "曲波/中医体质"
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "曲波/中医体质"
+					"replace" "unity.曲波.中医体质"
+				}
+			}
+		}
+	}
+}
