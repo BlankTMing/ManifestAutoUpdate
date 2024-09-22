@@ -1,0 +1,387 @@
+"appid" "251890"
+"common"
+{
+	"name" "World of Diving"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"clienticon" "b2ec0dc2efd53cd0cb36a542638ed246343a822e"
+	"clienttga" "f4da30a00e951a1287e0bc448cf25a0ab2763e6c"
+	"icon" "37148da751af3ff9536c63a4f791c766919e15ce"
+	"clienticns" "84744b5777e807f8c58d00838e08d365f8cc286c"
+	"linuxclienticon" "80f9a70df9107d7f0dfb824a515a81066620124b"
+	"eulas"
+	{
+	}
+	"logo" "47b451087fc4584ef878b71670ae04ab29032cc7"
+	"logo_small" "47b451087fc4584ef878b71670ae04ab29032cc7_thumb"
+	"controllervr"
+	{
+		"xinput" "1"
+		"kbm" "1"
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"openvrsupport" "1"
+	"osarch" "64"
+	"metacritic_name" "World of Diving"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "65.8693115519253"
+			"height_pct" "89.51555450011875"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "65.8693115519253"
+				"height_pct" "89.51555450011875"
+			}
+		}
+	}
+	"store_asset_mtime" "1667215505"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Vertigo Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Vertigo Games"
+		}
+	}
+	"primary_genre" "70"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "28"
+		"3" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_27" "1"
+		"category_9" "1"
+		"category_22" "1"
+		"category_17" "1"
+		"category_31" "1"
+		"category_29" "1"
+		"category_28" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1409063820"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "251890"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "21"
+		"2" "9157"
+		"3" "3834"
+		"4" "21978"
+		"5" "492"
+		"6" "3859"
+		"7" "1695"
+		"8" "493"
+		"9" "1685"
+		"10" "4182"
+		"11" "7208"
+		"12" "3839"
+		"13" "1654"
+		"14" "4166"
+	}
+	"review_score" "5"
+	"review_percentage" "50"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Vertigo Games"
+	"publisher" "Vertigo Games"
+	"homepage" "http://www.divegame.net"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "World of Diving"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "WorldOfDiving.exe"
+			"arguments" "-UnityVR"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "WorldOfDiving.app"
+			"arguments" "-vrmode none"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "WorldOfDiving.x86_64"
+			"arguments" "-vrmode none"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"9"
+		{
+			"executable" "WorldOfDiving.exe"
+			"arguments" "-vrmode none"
+			"description" "Launch World of Diving"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"251891"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6004233786596283235"
+				"size" "5543828563"
+				"download" "2484774304"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"eucl3d"
+			{
+				"gid" "AE22434C39F5F0112EC2EE9300CA1609"
+				"size" "1A59DA309B096C96D8222E8C7C8574E3"
+				"download" "165C49F40F175D13E6265CE453FE5E04"
+			}
+			"internal"
+			{
+				"gid" "61D05E26336F0B57CA85B026A0CF97D8"
+				"size" "F45BE335BF1530834F82125AAA8B3313"
+				"download" "E49CB9DF64CC05844F44F46AAE110320"
+			}
+			"vrcafe"
+			{
+				"gid" "E713C1A2FD2A417162CB8E7434FCF0BD"
+				"size" "DDD25BB714D607B29FDA578B9D67C69B"
+				"download" "1C609BFFF0ACA7B2D42C27F9994E27FB"
+			}
+		}
+	}
+	"251892"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6159019120985487035"
+				"size" "5580265177"
+				"download" "2497208512"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"eucl3d"
+			{
+				"gid" "EDF2DE1E4C2F0FBEA7B0E4751EF9A681"
+				"size" "D7AFBE3FB9A5789537221FB8091F1417"
+				"download" "A7E4CABD1C665B6742298208975DCBCD"
+			}
+			"internal"
+			{
+				"gid" "3C20F25725B171798390A136B8CCD6EC"
+				"size" "8CC03408EF7F74E9E0D6CD7A844A8182"
+				"download" "D054B8EFA34AB1D613BDB14CE0F5A79A"
+			}
+			"vrcafe"
+			{
+				"gid" "0E1EEF629CBF6B31EC2CA97506D972AB"
+				"size" "BD915E432D74BD759326C70BC56E29BC"
+				"download" "4478ECC1BE6BE9C23FFFFD083BD0AC0F"
+			}
+		}
+	}
+	"251893"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "110266594976341761"
+				"size" "5571635804"
+				"download" "2497400288"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"eucl3d"
+			{
+				"gid" "A27615817D39DC2CF429F71A2297829B"
+				"size" "83A94DBF98FEB1FD8BD336111359CE45"
+				"download" "4B1C2EEB5C52CCF9980F867FB54B69FB"
+			}
+			"internal"
+			{
+				"gid" "AB5D9D5BB266F3376A3B99042628A663"
+				"size" "10D1F00AE2ADDBC7951E97F104B7F794"
+				"download" "ED14019A71CEC43DB54A3DBEE1CE90CE"
+			}
+			"vrcafe"
+			{
+				"gid" "84D0546D5CF426E1FF6D3C48A3642D8A"
+				"size" "BF5CDF14984E592A7D77DB7828D08AE7"
+				"download" "29E2B7AC2A9CB466D23269C6F32BFB5E"
+			}
+		}
+	}
+	"workshopdepot" "251890"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1638674"
+			"timeupdated" "1487694343"
+		}
+		"eucl3d"
+		{
+			"buildid" "1233928"
+			"pwdrequired" "1"
+			"timeupdated" "1468910822"
+		}
+		"internal"
+		{
+			"buildid" "5515541"
+			"pwdrequired" "1"
+			"timeupdated" "1599559288"
+		}
+		"vrcafe"
+		{
+			"buildid" "1185975"
+			"pwdrequired" "1"
+			"timeupdated" "1466181064"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "500"
+}
