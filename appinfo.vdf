@@ -1,0 +1,284 @@
+"appid" "364260"
+"common"
+{
+	"name" "Warlock\'s Citadel"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"icon" "470c05883f2bf74d631e54ecce4761b9486ef91d"
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+	}
+	"clienttga" "ab73799bacb056b9fcfdde358a53e80486245da6"
+	"logo" "46446f4dd5f494f3ee578953811063f5955af666"
+	"logo_small" "46446f4dd5f494f3ee578953811063f5955af666_thumb"
+	"clienticon" "0c136841b9f18a8abf87b5bec6aa9e806a2aa938"
+	"clienticns" "06cb9f05a1574dcff4e2287f695db8e37ff48d3b"
+	"linuxclienticon" "f488193bab2a9b897f69919f5f03bb4682bbf7ba"
+	"app_retired_publisher_request" "1"
+	"metacritic_name" "Warlock\'s Citadel"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"russian" "capsule_231x87_russian.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"russian" "header_russian.jpg"
+	}
+	"store_asset_mtime" "1444297766"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Byte-UP Co., ltd."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Byte-UP Co., ltd."
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+		"3" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1444435358"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "364260"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "21"
+		"2" "597"
+		"3" "122"
+	}
+}
+"extended"
+{
+	"developer" "Byte-UP Co., ltd."
+	"publisher" "Byte-UP Co., ltd."
+	"homepage" "http://support.warlockscitadel.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Warlock\'s Citadel"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "wc.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "wc.app/Contents/MacOS/wc"
+			"workingdir" "wc.app/Contents/MacOS"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "wc"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,russian"
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"364261"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8705435550023866734"
+				"size" "45716433"
+				"download" "40974400"
+			}
+			"beta"
+			{
+				"gid" "8705435550023866734"
+				"size" "45716433"
+				"download" "40974400"
+			}
+		}
+	}
+	"364262"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5652110459549714879"
+				"size" "57080899"
+				"download" "42615216"
+			}
+			"beta"
+			{
+				"gid" "5652110459549714879"
+				"size" "57080899"
+				"download" "42615216"
+			}
+		}
+	}
+	"364263"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7087526157399050353"
+				"size" "48063676"
+				"download" "41336256"
+			}
+			"beta"
+			{
+				"gid" "7087526157399050353"
+				"size" "48063676"
+				"download" "41336256"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "872977"
+		}
+		"beta"
+		{
+			"buildid" "872977"
+			"description" "Public beta version branch"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "600000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "settings.dat"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "wc.app/Contents/MacOS"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "wc.app/Contents/MacOS"
+			"pattern" "settings.dat"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"4"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+		"5"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "settings.dat"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
