@@ -1,0 +1,248 @@
+"appid" "759970"
+"common"
+{
+	"name" "HIBIKAKEYIRONOKISEKI / 裂色的奇迹"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"icon" "4cbc54f394406e305cb09b71a66ae16e8902b5fc"
+	"logo" "3fa2e6102788296085683eddaf41e57f9a186549"
+	"logo_small" "3fa2e6102788296085683eddaf41e57f9a186549_thumb"
+	"clienttga" "5df18e1572ba9a34569b58742146cc22f7250ba6"
+	"clienticon" "398ff05d872929f879df978e91ab67f4e14caf5e"
+	"clienticns" "a874b5de72aec29360f1c7e196d3c3bfddafd799"
+	"releasestate" "released"
+	"app_retired_publisher_request" "1"
+	"app_retired_was_free" "1"
+	"metacritic_name" "裂色的奇迹"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"store_asset_mtime" "1513060515"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "ecoddr"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Pujia8 Studio"
+		}
+	}
+	"primary_genre" "37"
+	"genres"
+	{
+		"0" "25"
+		"1" "37"
+		"2" "23"
+		"3" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1513324800"
+	"steam_release_date" "1513301305"
+	"community_hub_visible" "1"
+	"gameid" "759970"
+	"store_tags"
+	{
+		"0" "113"
+		"1" "4085"
+		"2" "122"
+		"3" "492"
+		"4" "21"
+		"5" "6650"
+		"6" "12095"
+		"7" "3799"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "ecoddr"
+	"publisher" "Pujia8 Studio"
+	"homepage" "http://www.pujia8.com/library/9683/"
+}
+"config"
+{
+	"installdir" "HIBIKAKEYIRONOKISEKI"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Game.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Game.app\\Contents\\MacOS\\nwjs"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Game"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "schinese,japanese"
+	"759971"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7286029298790299145"
+				"size" "226521766"
+				"download" "155226432"
+			}
+		}
+	}
+	"759972"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "184358054941985404"
+				"size" "238653896"
+				"download" "155127376"
+			}
+		}
+	}
+	"759973"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6012059827314969084"
+				"size" "250973393"
+				"download" "158177808"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2350781"
+			"timeupdated" "1512710934"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "www/save"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "www/save"
+					"replace" "www/save"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "www/save"
+					"replace" "Game.app/Contents/Resources/app.nw/save/"
+				}
+			}
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "www/save"
+					"replace" "www/save"
+				}
+			}
+		}
+	}
+}
