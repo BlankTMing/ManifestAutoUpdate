@@ -1,0 +1,235 @@
+"appid" "589060"
+"common"
+{
+	"name" "Trapper Knight, Sharpshooter Princess"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"clienticon" "986b2336238d37e8b42270957f2dfd4d6af9bf35"
+	"clienttga" "478d3e293344253adbd28d14f10ee94c947dc96b"
+	"icon" "b9ca6f56c927eff3d0acc6c9ff3bceb86518550c"
+	"linuxclienticon" "033daa60dbb1033155674031451c24c09b272dba"
+	"languages"
+	{
+		"english" "1"
+		"japanese" "1"
+	}
+	"logo" "ec669a7519e5d030b4e37c480a9b60272c859781"
+	"logo_small" "ec669a7519e5d030b4e37c480a9b60272c859781_thumb"
+	"name_localized"
+	{
+		"japanese" "罠の騎士　銀閃の姫"
+	}
+	"metacritic_name" "Trapper Knight, Sharpshooter Princess"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "99.39444312514843"
+		}
+	}
+	"store_asset_mtime" "1595528234"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "desunoya"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Sekai Project"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "3"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1491849696"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "589060"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "9"
+		"2" "1741"
+		"3" "4026"
+		"4" "4726"
+		"5" "17305"
+		"6" "1664"
+		"7" "1742"
+		"8" "14139"
+		"9" "4085"
+	}
+	"review_score" "7"
+	"review_percentage" "81"
+}
+"extended"
+{
+	"developer" "desunoya"
+	"publisher" "Sekai Project"
+	"homepage" "https://sekaiproject.com/products/trapper-knight-sharpshooter-princess/"
+}
+"config"
+{
+	"installdir" "Trapper Knight Sharpshooter Princess"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "wanahime.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "./Wanahime"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"baselanguages" "english,japanese"
+	"589061"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9069908085908068015"
+				"size" "653188065"
+				"download" "511289632"
+			}
+		}
+	}
+	"589062"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1893085464381299904"
+				"size" "6349600"
+				"download" "1699680"
+			}
+		}
+	}
+	"589063"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7435771946353405592"
+				"size" "12239265"
+				"download" "3305504"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4577494"
+			"timeupdated" "1579196230"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"2"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "desunoya/PrincessTrapsave"
+			"pattern" "*.dat"
+		}
+		"3"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "desunoya/PrincessTrapsave"
+			"pattern" "*.ini"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxXdgDataHome"
+			"addpath" ""
+		}
+	}
+}
