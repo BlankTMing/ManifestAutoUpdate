@@ -1,0 +1,311 @@
+"appid" "978700"
+"common"
+{
+	"name" "Ironsmith Medieval Simulator"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"logo" "eb48c6d621314de842e4a9891d81338202c141c6"
+	"logo_small" "eb48c6d621314de842e4a9891d81338202c141c6_thumb"
+	"icon" "e67b5f02562d977dc39fbc832870a2acae85150d"
+	"clienttga" "6b7e298d90c496ff8986800dac3b3fa32a629e9a"
+	"clienticon" "ee9c41950c8b4668e6f043b7eff911ba914da706"
+	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1666656000"
+		"tested_build_id" "8335137"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-5"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Ironsmith Medieval Simulator"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "50"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1646842545"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "The EpicLore"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SIG Publishing"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "SIG Publishing"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "3"
+		"3" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_44" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1646837759"
+	"community_hub_visible" "1"
+	"gameid" "978700"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "4608"
+		"2" "3839"
+		"3" "4168"
+		"4" "4172"
+		"5" "4695"
+		"6" "12472"
+		"7" "1643"
+		"8" "4202"
+		"9" "492"
+		"10" "1702"
+		"11" "3987"
+		"12" "599"
+		"13" "1742"
+		"14" "4182"
+		"15" "4175"
+		"16" "21"
+		"17" "4106"
+		"18" "3834"
+		"19" "9204"
+	}
+	"review_score" "4"
+	"review_percentage" "31"
+}
+"extended"
+{
+	"developer" "The EpicLore"
+	"publisher" "SIG Publishing"
+}
+"config"
+{
+	"installdir" "IronsmithMS"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "IronSmith.exe"
+			"arguments" "cmd /c \"set OPENSSL_ia32cap=:~0x20000000 && %command%\""
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "IronSmithLauncher.bat"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "on Intel 10th/11th/12th GEN"
+			}
+			"description" "on Intel 10th/11th/12th GEN"
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229007"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"hasdepotsindlc" "1"
+	"978701"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2630894532763984065"
+				"size" "6758530548"
+				"download" "6450205152"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"intelsshtest"
+			{
+				"gid" "88812B325FEDD5A24D00FBB9E1063659"
+				"size" "8BCC1D7809210F89E08AC2E03AC48B53"
+				"download" "EDBA889FACA615C588AE5CDAA328F206"
+			}
+			"qa-ea"
+			{
+				"gid" "9110B3BAE6088DE713CC2DF5886D236A"
+				"size" "417B3D9D654026D84C6052A7C16FE615"
+				"download" "1E57822D0C86E303B3DAACBC7C561010"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8335137"
+			"timeupdated" "1646763679"
+		}
+		"intelsshtest"
+		{
+			"buildid" "8334816"
+			"pwdrequired" "1"
+			"timeupdated" "1646759429"
+		}
+		"qa-ea"
+		{
+			"buildid" "8335137"
+			"pwdrequired" "1"
+			"timeupdated" "1646763123"
+		}
+	}
+}
