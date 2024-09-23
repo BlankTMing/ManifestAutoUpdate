@@ -1,184 +1,142 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-23 16:21:09
+## 更新时间：2024-09-23 16:52:32
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 860690 | Reus - Soundtrack| Music |
-| 860650 | Drizzlepath: Deja Vu| Game |
-| 861030 | Lovely Fox| Game |
-| 861250 | Cyber Shadow| Game |
-| 861710 | Geometry Rush| Game |
-| 862150 | Prison Test| Game |
-| 861270 | Sudoku Killer| Game |
-| 862110 | Super Jigsaw Puzzle: Cities| Game |
-| 862580 | OK/NORMAL| Game |
-| 864300 | qop 3| Game |
-| 864430 | SilverFrame(纯白星原)| Game |
-| 863460 | Cyber Ops| Game |
-| 864420 | Waterside Chirping 水畔空蝉| Game |
-| 863900 | Villager's Biography| Game |
-| 864540 | FALLBACK| Game |
-| 863470 | Cairo's Tale: The Big Egg| Game |
-| 865060 | Murasaki Tsurugi| Game |
-| 865610 | 浣熊硬探| Game |
-| 864810 | NUMERIC| Game |
-| 865360 | We Were Here Together| Game |
-| 865180 | Reformers Intl Ver| Game |
-| 865820 | 黑蝶幻境| Game |
-| 865930 | BQM - 砖块迷宫建造者| Game |
-| 865850 | Dehumanized| Game |
-| 867270 | DRAGON QUEST XI®: EDITION OF LIGHT BONUS DLC| DLC |
-| 867090 | つんつんVR / TSUN-TSUN VR| Game |
-| 867210 | 征服之歌| Game |
-| 867380 | Up Left Out| Game |
-| 867120 | 莉莉宫殿| Game |
-| 868150 | Takelings House Party| Game |
-| 868770 | Saint Kotar: The Yellow Mask| Game |
-| 869690 | Cat Lady - The Card Game| Game |
-| 869780 | Super Golf 2018| Game |
-| 868980 | DEEP SPACE WAIFU: NEKOMIMI| Game |
-| 869840 | Feather Of Praying 羽翼的祈愿| Game |
-| 870100 | Crows - 乌鸦| Game |
-| 867290 | Crossroads Inn Anniversary Edition| Game |
-| 869870 | She is Mermaid| Game |
-| 870110 | 怪物的历史书| Game |
-| 870530 | Warhammer 40,000: Gladius - Relics of War - Soundtrack| Music |
-| 870160 | R.O.V.E.R.| Game |
-| 871570 | 忆夏之铃| Game |
-| 871120 | MilkChoco| Game |
-| 871990 | BattleRush 2| Game |
-| 873030 | Just Shapes & Beats - Monstercat Track Selection| Music |
-| 873200 | Teleportals. I swear it's a nice game| Game |
-| 873500 | Space Maze| Game |
-| 872670 | SCP: 5K - Alpha Testing| Game |
-| 873490 | 不落城-Unconquered Castle| Game |
-| 874040 | 围城里的演出/Ministry of Broadcast| Game |
-| 874050 | Cultist Simulator - Perpetual Edition Aspect| DLC |
-| 874760 | GIPHY World VR| Game |
-| 875310 | LIBERATED| Game |
-| 874240 | MU Legend| Game |
-| 875760 | Furious Seas| Game |
-| 876380 | Underwater hunting| Game |
-| 876960 | Round Ways| Game |
-| 877010 | Beyond Contact| Game |
-| 876650 | Aground| Game |
-| 876850 | WhiteLily 1：丽丽公主| Game |
-| 877360 | 18+| Game |
-| 877840 | Pixel Hentai Mosaic| Game |
-| 878580 | GARAGE: Bad Trip| Game |
-| 879140 | Space Channel 5 VR Kinda Funky News Flash!| Game |
-| 878760 | Realm Royale - Test Server| Game |
-| 879420 | Agony UNRATED| Game |
-| 879670 | Battle Simulator| Game |
-| 879510 | Lucy Got Problems| Game |
-| 880220 | ~Azur Ring~圣女与奴隶之匣| Game |
-| 880400 | Lingering Fragrance| Game |
-| 880240 | Adventure of a Lifetime - Original Sound Track| Music |
-| 880950 | 爱上火车-Pure Station-| Game |
-| 881040 | 虫虫学院| Game |
-| 882460 | The Warrior War| Game |
-| 882670 | Nono's magic general shop| Game |
-| 883070 | Viviette| Game |
-| 883880 | Faraway: Director's Cut| Game |
-| 884220 | VR Cops| Game |
-| 884320 | Love Vibe: Aria| Game |
-| 885150 | Capcom Beat 'Em Up Bundle| Game |
-| 882710 | 東方幕華祭 TouHou Makuka Sai ~ Fantastic Danmaku Festival| Game |
-| 885510 | Smutty Scrolls| Game |
-| 885910 | Ginga Force| Game |
-| 885940 | Meritocracy of the Oni & Blade| Game |
-| 886040 | Hentai Temple| Game |
-| 886160 | Respublica| Game |
-| 886310 | The Island Combat| Game |
-| 868270 | The Cycle: Frontier| Game |
-| 886900 | 大厨 Chef| Game |
-| 887160 | The Sunny Day 晴天| Game |
-| 886960 | Dragon Spear| Game |
-| 887450 | 密林传奇| Game |
-| 887570 | 星云：战舰指挥官 NEBULOUS: Fleet Command| Game |
-| 887370 | Element: Space| Game |
-| 872130 | DEEP SPACE WAIFU: WORLD| Game |
-| 871930 | Gladiabots| Game |
-| 888530 | Yaga| Game |
-| 887800 | Snooker 19| Game |
-| 8880 | Freedom Force| game |
-| 8890 | Freedom Force vs. the 3rd Reich| game |
-| 889770 | UnHolY DisAsTeR| Game |
-| 889040 | FPV Air 2| Game |
-| 890550 | RUMBLE| Game |
-| 891540 | The Warrior War: Soundtrack| DLC |
-| 893070 | The End| Game |
-| 893030 | Music Racer| Game |
-| 892650 | Play With Kizami| Game |
-| 893500 | 魅魔栖息的小岛| Game |
-| 893720 | One Hand Clapping| Game |
-| 895330 | Unblock: The Parking| Game |
-| 895040 | CSC \| Space MMO| Game |
-| 895200 | Swords of Gargantua| Game |
-| 895990 | 水时钟| Game |
-| 896520 | Stay Out of the House| Game |
-| 896860 | Trekking and Camping Sketch Edition \| 远足与露营草图版| Game |
-| 896440 | Eternal Edge| Game |
-| 896960 | DreamWorks Dragons: Dawn of New Riders| Game |
-| 897220 | Summer Pockets| Game |
-| 896950 | Jumanji: The Video Game| Game |
-| 897440 | 列维坦| Game |
-| 897690 | Ding Dong VR| Game |
-| 897380 | Reptiles: In Hunt| Game |
-| 899390 | Xenon Racer| Game |
-| 899540 | PROTEST| Game |
-| 896890 | VR Paradise| Game |
-| 899970 | NEKOPARA Extra| Game |
-| 900990 | Hentai Sokoban| Game |
-| 903150 | FALL 坠落之后| Game |
-| 903160 | Wunderwaffe| Game |
-| 904320 | My Holiday| Game |
-| 9060 | HeXen II| game |
-| 904960 | Cine Tracer| Game |
-| 885030 | Platform Builder| Application |
-| 906390 | Return.| Game |
-| 905940 | 女神驾到丨Happy Together| Game |
-| 906730 | Typical| Game |
-| 906510 | Conception PLUS: Maidens of the Twelve Stars| Game |
-| 907090 | 詛咒铠甲| Game |
-| 907330 | Amulet Zero 零物语 - Optimize| Game |
-| 907950 | Bottle of truth| Game |
-| 908070 | Mystic Vale| Game |
-| 868520 | killer7| Game |
-| 909380 | 中医模拟器| Game |
-| 909320 | Ruinarch| Game |
-| 909820 | Songbird Symphony| Game |
-| 910370 | CoreOptimizer| Application |
-| 911040 | Bunny - The Horror Game| Game |
-| 910630 | Arcade Spirits| Game |
-| 911680 | REZ PLZ| Game |
-| 910830 | Rebel Galaxy Outlaw| Game |
-| 912450 | YU-NO: A girl who chants love at the bound of this world| Game |
-| 912650 | Time Carnage| Game |
-| 912370 | 麻将部| Game |
-| 912570 | BEAUTIFUL DESOLATION| Game |
-| 913060 | Jet Lancer| Game |
-| 913330 | Girls| Game |
-| 913850 | 103| Game |
-| 914310 | Copy Kitty OST| Music |
-| 891130 | SUPER FLAIL| Game |
-| 914260 | HALF DEAD 2| Game |
-| 914290 | Welcome to Princeland| Game |
-| 915130 | 東方龍隱談 ~ Chaos of black loong| Game |
-| 91604 | Sanctum: Official Soundtrack| Music |
-| 916050 | 铸时匠 Clocker| Game |
-| 914020 | Gibbous - A Cthulhu Adventure| Game |
-| 916160 | Dreamwalker: Never Fall Asleep| Game |
-| 917610 | The Story of My Life| Game |
-| 91600 | Sanctum| game |
-| 918950 | Warborn| Game |
-| 919260 | Final Upgrade| Game |
-| 919410 | Felix the Reaper| Game |
-| 917720 | 骇游侠探 - 决定版| Game |
-| 920320 | Virgo Versus the Zodiac| Game |
-| 920520 | Sexy Jigsaw| Game |
-| 920700 | Piano Bar| Game |
-| 921060 | Modern Combat 5| Game |
-| 917940 | LEMURIA| Game |
-| 906870 | FurryFury| Game |
-| 886820 | Nelke & the Legendary Alchemists ~Ateliers of the New World~| Game |
+| 815070 | The Adventurous Four| Game |
+| 815150 | Knight Bewitched| Game |
+| 815830 | Space Escape| Game |
+| 816330 | The Council of Hanwell| Game |
+| 816490 | Hidden Paws| Game |
+| 817230 | Acid Spy| Game |
+| 817540 | SpellForce 3: Soul Harvest| Game |
+| 817950 | Naturallandscape - Threegorges (自然景观系列-长江三峡)| Game |
+| 818570 | Zombie Desperation| Game |
+| 818530 | 8 Ball| Game |
+| 819650 | Bitcoin| Game |
+| 819020 | Zanki Zero: Last Beginning| Game |
+| 820240 | Save One More| Game |
+| 8200 | Sam & Max 101: Culture Shock| game |
+| 821250 | Flotsam| Game |
+| 820760 | Tactics & Strategy Master:Joan of Arc| Game |
+| 820910 | Last Resort Island| Game |
+| 822760 | Fureraba ~Friend to Lover~| Game |
+| 819310 | Realities - Terres d'Expolration| DLC |
+| 8230 | Sam & Max 104: Abe Lincoln Must Die!| game |
+| 822800 |  灵魂之火| Game |
+| 823580 | Isoland 2: Ashes of Time| Game |
+| 822930 | Wolf Tails| Game |
+| 824460 | HELLFRONT: HONEYMOON| Game |
+| 824600 | HROT| Game |
+| 824580 | The Last Tower| Game |
+| 825970 | The Mystery of Devils House| Game |
+| 824760 | Deathtrap Dungeon Trilogy| Game |
+| 826600 | I’m not a Monster| Game |
+| 827610 | Dead End Job| Game |
+| 827920 | Bounce| Game |
+| 828880 | Psi Cards - Soundtrack| DLC |
+| 828350 | Tomb Towers| Game |
+| 829540 | Viki Spotter: Shopping| Game |
+| 829080 | Burst Into| Game |
+| 829280 | Kaze and the Wild Masks| Game |
+| 830820 | Jets'n'Guns 2| Game |
+| 831770 | Zombie Derby| Game |
+| 832320 | Mighty Switch Force! Collection| Game |
+| 827640 | Trash Story| Game |
+| 833700 | City Bus Simulator 2018| Game |
+| 835440 | Naturallandscape - Grand Canyon (自然景观系列-美国大峡谷)| Game |
+| 835130 | Last Stanza| Game |
+| 835950 | Transpose| Game |
+| 836540 | Viking Brothers 2| Game |
+| 836550 | Viking Brothers 3| Game |
+| 836560 | Viking Brothers 4| Game |
+| 834280 | Fishing Sim World®: Pro Tour| Game |
+| 835960 | 塔罗斯的法则2| Game |
+| 836490 | 月夜下的紅茶杯 ~ Blacktea With Moon| Game |
+| 836590 | 热血外传：好酷啊！小林| Game |
+| 836620 | Black Desert (Retired)| Game |
+| 836640 | 寄居隅怪奇事件簿 Hermitage Strange Case Files| Game |
+| 837440 | MineSweep| Game |
+| 837530 | Dark Ghost RPG| Game |
+| 838310 | Bloodstained: Curse of the Moon| Game |
+| 837510 | Pixel Game Maker MV| Application |
+| 838270 | Grandpa| Game |
+| 838980 | Eon Fleet| Game |
+| 838620 | Slappy Ass| Game |
+| 839420 | Krampus is Home| Game |
+| 839080 | DRAW CHILLY| Game |
+| 837600 | The Royal Marines Commando| Game |
+| 8400 | Geometry Wars: Retro Evolved| game |
+| 839670 | Alice's Adventures| Game |
+| 840100 | Magic Scroll Tactics| Game |
+| 840130 | Battle Royale: Survivors| Game |
+| 840590 | ANOIX| Game |
+| 840310 | SLICE| Game |
+| 841350 | NALOGI 2| Game |
+| 841660 | The Treehouse Man| Game |
+| 841460 | The Great C| Game |
+| 842910 | The MISSING: J.J. Macfield and the Island of Memories| Game |
+| 843200 | Alien Hominid Invasion| Game |
+| 843790 | How long can human beings exist| Game |
+| 843440 | Pivot XL| Game |
+| 844290 | Sniper Squad Mission| Game |
+| 844050 | Desert Child| Game |
+| 844590 | Hypnospace Outlaw| Game |
+| 844660 | 森灵之心| Game |
+| 844850 | Tower Hunter: Erza's Trial| Game |
+| 844950 | Eternal Fantasy| Game |
+| 840390 | Spacebase Startopia| Game |
+| 845030 | Evergate| Game |
+| 846010 | Visceral Cubes| Game |
+| 845880 | 東方紅輝心| Game |
+| 846210 | Sea Explorer| Game |
+| 846030 | ΔV: Rings of Saturn| Game |
+| 847470 | Consummate:Restart| DLC |
+| 847660 | Story: Heaven & Hell| Game |
+| 848030 | Roundguard| Game |
+| 848260 | Super GTR Racing| Game |
+| 847360 | Super Lucky's Tale| Game |
+| 848480 | Creeper World 4| Game |
+| 848350 | Katamari Damacy REROLL| Game |
+| 848410 | Detached: Non-VR Edition| Game |
+| 848970 | Squad 44 Soundtrack| Music |
+| 849320 | Tank rush| Game |
+| 849520 | Rheum| Game |
+| 850980 | GUILTY GEAR| Game |
+| 849740 | 小兵求爱记 (Love Esquire)| Game |
+| 850820 | 祛魅·教化（祛魅1）| Game |
+| 851050 | PaperDolls| Game |
+| 851200 | Omae Wa Mou Shindeiru| Game |
+| 851520 | Trivia Vault: TV Trivia| Game |
+| 851280 | MindSeize| Game |
+| 851930 | Battle Royale Tycoon| Game |
+| 852480 | Snow Daze| Game |
+| 852910 | sweet pool| Game |
+| 852790 | The Adventure of Magical Girl| Game |
+| 853110 | Viki Spotter: Sports| Game |
+| 853580 | Lost| Game |
+| 853550 | Equilinox| Game |
+| 853620 | Stickman in the portal| Game |
+| 853450 | Nevergrind Online| Game |
+| 853940 | Moonfall Ultimate| Game |
+| 854110 | AFTER-H| Game |
+| 854570 | 鬼妇：印尼民间恐怖传说| Game |
+| 855700 | Trippy Jump| Game |
+| 855860 | Superfighters Deluxe| Game |
+| 856130 | Dark SASI| Game |
+| 856350 | 15 seconds| Game |
+| 856430 | Pinball 2018| Game |
+| 856370 | One-way Ticket · 单程票| Game |
+| 850000 | 被虐的诺艾尔 S1-7| Game |
+| 856890 | JUSTICE SUCKS| Game |
+| 856620 | Vカツ / V-Katsu| Game |
+| 856990 | 漫漫长路| Game |
+| 857140 | Snake, snake, snake!| Game |
+| 833040 | Hiveswap Friendsim| Game |
+| 857470 | NEKOKORO| Game |
+| 858360 | The Initiate 2: The First Interviews| Game |
+| 858630 | Aquaculture Land| Game |
+| 859610 | S.T.R.E.T.C.H.| Game |
+| 835860 | Dreadnought| Game |
+| 857320 | SRPG Studio| Application |
+| 838630 | Deadliest Catch: The Game| Game |
