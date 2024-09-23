@@ -1,0 +1,220 @@
+"appid" "1111080"
+"common"
+{
+	"name" "Ghost Feed"
+	"type" "Game"
+	"clienticon" "bcedca0b2a43eac70df6ed29e64368b57098f8bc"
+	"clienttga" "175a6dfdb6e131f65505086c05b4a09ce2fa59b9"
+	"icon" "4150c573f81f20dff8d897bc7edf2879a5211a14"
+	"logo" "8f9b9ebcb2004dc491f824dc8bceac4c68bd0008"
+	"logo_small" "8f9b9ebcb2004dc491f824dc8bceac4c68bd0008_thumb"
+	"name_localized"
+	{
+		"schinese" "吃香"
+	}
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"releasestate" "released"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "27.202729401597537"
+			"height_pct" "76.05452980289719"
+		}
+	}
+	"store_asset_mtime" "1699000517"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Hulu World"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "CE-Asia"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1700215226"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1111080"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "21"
+		"2" "1664"
+		"3" "9204"
+		"4" "3871"
+		"5" "1667"
+		"6" "4166"
+		"7" "1710"
+		"8" "5094"
+		"9" "1742"
+		"10" "4182"
+		"11" "4004"
+		"12" "19"
+		"13" "5984"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"developer" "Hulu World"
+	"publisher" "CE-Asia"
+}
+"config"
+{
+	"installdir" "GHOSTFEED"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "GHOSTFEED.exe"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"baselanguages" "english,schinese,tchinese"
+	"1111081"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5187045191428938874"
+				"size" "1238504585"
+				"download" "1158088368"
+			}
+			"local"
+			{
+				"gid" "6049612115118207928"
+				"size" "1029267125"
+				"download" "845006704"
+			}
+			"test0322"
+			{
+				"gid" "6049612115118207928"
+				"size" "1029267125"
+				"download" "845006704"
+			}
+		}
+	}
+	"hasdepotsindlc" "0"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12769301"
+			"timeupdated" "1700645752"
+		}
+		"local"
+		{
+			"buildid" "10828625"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1679490932"
+		}
+		"test0322"
+		{
+			"buildid" "10828625"
+			"description" "FOR TEST"
+			"lcsrequired" "1"
+			"timeupdated" "1679489102"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "500000"
+	"maxnumfiles" "5000"
+	"sync_while_suspended" "1"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "GHOSTFEED"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
