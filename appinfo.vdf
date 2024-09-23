@@ -1,0 +1,257 @@
+"appid" "823580"
+"common"
+{
+	"name" "Isoland 2: Ashes of Time"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"clienticon" "ce35d359bed404a0a36d0e35333acb14b7240018"
+	"clienttga" "f09303092a0dec990fcb8ae3dfe28dfe622f2d9d"
+	"icon" "daf946b30cb2f1c19a314b2144e5aa57020b9135"
+	"clienticns" "c0e1af79c599c0e1f56103c75001c142cbb911dc"
+	"logo" "5e80c3b01a0a8b8ca40df337cd92029f17a81781"
+	"logo_small" "5e80c3b01a0a8b8ca40df337cd92029f17a81781_thumb"
+	"metacritic_name" "迷失岛2"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"store_asset_mtime" "1533028630"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Cotton Game"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Lilith Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1525227841"
+	"community_hub_visible" "1"
+	"gameid" "823580"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "1664"
+	}
+	"review_score" "8"
+	"review_percentage" "95"
+}
+"extended"
+{
+	"developer" "Cotton Game"
+	"publisher" "Lilith Games"
+	"listofdlc" "909390"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Isoland2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Isoland2.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Isoland2.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "IslandBook.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "909390"
+			}
+		}
+		"3"
+		{
+			"executable" "IslandBook.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+				"ownsdlc" "909390"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,schinese,tchinese"
+	"hasdepotsindlc" "1"
+	"823581"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1069502457255166792"
+				"size" "1378347853"
+				"download" "266670800"
+			}
+		}
+	}
+	"823582"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2689667772970902926"
+				"size" "1392193864"
+				"download" "269911136"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2841586"
+			"timeupdated" "1528364604"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10485760"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "CottonGame/Isoland2_Steam/savedatas"
+			"pattern" "*.sav"
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "unity.CottonGame.Isoland2_Steam/savedatas"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "CottonGame/Isoland2_Steam/savedatas"
+					"replace" "CottonGame/Isoland2_Steam/savedatas"
+				}
+			}
+		}
+	}
+}
