@@ -1,0 +1,289 @@
+"appid" "922040"
+"common"
+{
+	"name" "Hamsterdam"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "dc230b101866cb42f577739f1c4052d0dc3f0096"
+	"logo_small" "dc230b101866cb42f577739f1c4052d0dc3f0096_thumb"
+	"icon" "7f52b2371c88d7968c60c6018b47dc8e52ce897b"
+	"clienttga" "381af65bcb754b7930f126b247b84718a03a1a15"
+	"clienticon" "ba0512edd8cfe7006b3cf221bb641a46a2a51ba1"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1672963200"
+		"tested_build_id" "4075539"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"5"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-6"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Hamsterdam"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "56.47786951009735"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1564630509"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Muse Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Muse Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1564630252"
+	"community_hub_visible" "1"
+	"gameid" "922040"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "4726"
+		"3" "1743"
+	}
+	"review_score" "8"
+	"review_percentage" "81"
+}
+"extended"
+{
+	"developer" "Muse Games"
+	"publisher" "Muse Games"
+	"homepage" "http://www.hamsterdamgame.com/"
+}
+"config"
+{
+	"installdir" "Hamsterdam"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Hamsterdam.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Hamsterdam.app/Contents/MacOS/Hamsterdam"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"922041"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7690863500100350948"
+				"size" "1207657534"
+				"download" "277869168"
+			}
+			"autobuild"
+			{
+				"gid" "7690863500100350948"
+				"size" "1207657534"
+				"download" "277869168"
+			}
+		}
+	}
+	"922042"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6313017784938395960"
+				"size" "1214869811"
+				"download" "278555376"
+			}
+			"autobuild"
+			{
+				"gid" "2571031470286933404"
+				"size" "1187646875"
+				"download" "276058448"
+			}
+		}
+	}
+	"999010"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2379088268561178830"
+				"size" "36116186"
+				"download" "34366944"
+			}
+			"autobuild"
+			{
+				"gid" "2379088268561178830"
+				"size" "36116186"
+				"download" "34366944"
+			}
+		}
+		"dlcappid" "999010"
+	}
+	"hasdepotsindlc" "0"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4075539"
+			"timeupdated" "1565000969"
+		}
+		"autobuild"
+		{
+			"buildid" "4100596"
+			"timeupdated" "1565690392"
+		}
+	}
+}
