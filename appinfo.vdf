@@ -1,0 +1,533 @@
+"appid" "736810"
+"common"
+{
+	"name" "The Raven Remastered"
+	"type" "Game"
+	"releasestate" "released"
+	"clienticon" "1861b887978d338c975b45b5ecf8eb7d92b55eb2"
+	"clienttga" "ea9da2232b8f7379910e993aa3ea249928b2af5e"
+	"icon" "f73d27652b6535ebf4e214c1cf0747796eca733d"
+	"clienticns" "ca9de71e5abab296b225205af15fab836e40a9de"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"russian" "1"
+		"polish" "1"
+	}
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "f080118d4a3b6f850f82fc0034fa33e93acddf7c"
+	"logo_small" "f080118d4a3b6f850f82fc0034fa33e93acddf7c_thumb"
+	"linuxclienticon" "16f19af8ef306bd87c3705b769843579e251470a"
+	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1666051200"
+		"tested_build_id" "2685923"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "The Raven Remastered"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "41.83197199533254"
+			"height_pct" "42.400854903823316"
+		}
+	}
+	"store_asset_mtime" "1561969415"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "KING Art"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "THQ Nordic"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_23" "1"
+		"category_43" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1520963826"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "736810"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "1698"
+		"2" "5613"
+		"3" "4182"
+		"4" "5716"
+	}
+	"review_score" "8"
+	"review_percentage" "81"
+}
+"extended"
+{
+	"developer" "KING Art"
+	"publisher" "THQ Nordic"
+	"homepage" "http://www.raven-game.com"
+	"listofdlc" "822120"
+}
+"config"
+{
+	"installdir" "The Raven Remastered"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "raven_game\\Raven.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "The Raven Remastered.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Linux/Raven"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"736811"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7060095460624123947"
+				"size" "9730874649"
+				"download" "8991448752"
+			}
+			"local"
+			{
+				"gid" "2973369587260683893"
+				"size" "9730874649"
+				"download" "8991448752"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"agerating"
+			{
+				"gid" "1CF3F71958EB1DCE84AA84B15A9EF483"
+				"size" "054FD15BD34FB7E3D7E26B1CCE48E987"
+				"download" "7C7A8483D2790B7DC0E10111D6600DEF"
+			}
+			"baseline"
+			{
+				"gid" "36C52645F542F3DA62F749DDB4C69466"
+				"size" "D9EBC68A437A7F33912717C6A4BA45E2"
+				"download" "5B398CC63B517DBA698926F81B9CA0FD"
+			}
+			"goldmaster"
+			{
+				"gid" "0C8A48F5A1186E4824BE79FEB1586D72"
+				"size" "607AAF93A3FA43C6D864E6A8A126AE73"
+				"download" "310283A30588431BEAA079092016DE8D"
+			}
+			"internal_nightly"
+			{
+				"gid" "69F49A80A8BAF46C70E3DDF924C322DF"
+				"size" "55C1B2CB3EE1079134F4DD02049811D8"
+				"download" "0C1670423BCDC23E18A8A2EC7E8E8C21"
+			}
+			"ravenremastered_pr"
+			{
+				"gid" "EBE5A5BAB78C0DFC760EF8030CCEE8F2"
+				"size" "FEBE7A728D4BCE8036C80E7373313E63"
+				"download" "C981B35A5DE5CC0611729660DC2A682D"
+			}
+			"testgate"
+			{
+				"gid" "EBA456EA7EAFD1DA1188963644AFE66F"
+				"size" "6E60EEF6FEF31D2951D5477D33EBA358"
+				"download" "95DF665D81422721C1EFDF5A2AB5BC62"
+			}
+		}
+	}
+	"736812"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "952221680153655759"
+				"size" "269222122"
+				"download" "107470144"
+			}
+			"local"
+			{
+				"gid" "1530141345963068371"
+				"size" "269218633"
+				"download" "107469232"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"agerating"
+			{
+				"gid" "0248F9000E829D508D547B7AAE4C20B8"
+				"size" "9B99CD98AAA3DD5F35804F126A27C66E"
+				"download" "52413D345314034A0EC4C3432AC5D1B4"
+			}
+			"baseline"
+			{
+				"gid" "1581DE91CF08A4BD352F96461EDB8065"
+				"size" "33DA3A826126E38B9E05528178252A0B"
+				"download" "585479A71E0B9BF12ED305A56412DCC7"
+			}
+			"goldmaster"
+			{
+				"gid" "7BF67233F759D07608A5A160356811F8"
+				"size" "AD355F2FB954526415E439348666ED98"
+				"download" "E8DD06A0F5650D6B6B4BCF433A595AEF"
+			}
+			"internal_nightly"
+			{
+				"gid" "25F7D01E95E1DAB036516B284948CAB0"
+				"size" "E8639EFAE2491A621EF4C1695C16F4C7"
+				"download" "0BFB8467FDE38F1F11D48C5DE24BCA41"
+			}
+			"ravenremastered_pr"
+			{
+				"gid" "FBFC8A97453AC0FD48B672E709B76E06"
+				"size" "CBC7D5E407D664B5C1F598202555E3D2"
+				"download" "DBBAC5EA24A90C64721AC17BE983859B"
+			}
+			"testgate"
+			{
+				"gid" "ADF97773C17A210F889EA9372C85BD72"
+				"size" "A9F698895169F75F685120A8C2E13CE9"
+				"download" "DAE995BCCDAD715CA30E139F54BA2C8E"
+			}
+		}
+	}
+	"736813"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2010276028106132025"
+				"size" "280813864"
+				"download" "109112112"
+			}
+			"local"
+			{
+				"gid" "7222534351599588106"
+				"size" "280810369"
+				"download" "109110800"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"baseline"
+			{
+				"gid" "9BBB33EF0F1394971C0C30E9C2F19669"
+				"size" "2763087CF75D5E37D48E7898BB8E6EBE"
+				"download" "FB836F79D5A431A537BBB4EF26FE86BC"
+			}
+			"goldmaster"
+			{
+				"gid" "9CC85AD03DE99BC656F7A679356FE0D2"
+				"size" "A92EE5EE22743C96289040AB55F3E637"
+				"download" "9F02866A25D9A89074DE2C1ED6539363"
+			}
+			"internal_nightly"
+			{
+				"gid" "70D8F4833B2F514D0B30ACABFD2D70C1"
+				"size" "EBD5789F8812D4446654FDCD91FF9D2A"
+				"download" "B7551D3EAE7358C934C1B17FD00B15A8"
+			}
+			"ravenremastered_pr"
+			{
+				"gid" "C48662675DDB31FBF3FD33BD69E58BF2"
+				"size" "3DA4E96BF1C41A84B21A6D06554F6C09"
+				"download" "40E80720264530BAD2B602E061CDD8E9"
+			}
+			"testgate"
+			{
+				"gid" "67BA0424E7D729A9E4338381F4975421"
+				"size" "34E91C210FCFF5B453E2C3ED08D19C0B"
+				"download" "7C182AD1E898946517A2928ADC9C8688"
+			}
+		}
+	}
+	"736814"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5971073860585149376"
+				"size" "278174395"
+				"download" "109138800"
+			}
+			"local"
+			{
+				"gid" "326682189143219233"
+				"size" "277670639"
+				"download" "109045056"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"baseline"
+			{
+				"gid" "411B566FAF1453361358F739BAE8ECBB"
+				"size" "05813B1C04D7BDF6EC2DE367F9B1726F"
+				"download" "0C4FE885A91A1B5E7693A41CF8A8FB98"
+			}
+			"goldmaster"
+			{
+				"gid" "FEC44E7494B2A4A8EA845D526F799808"
+				"size" "7B401FB0DD710D3276B8E1B3419264C3"
+				"download" "131FB86C4E90B27BE117FD55DFA786C1"
+			}
+			"internal_nightly"
+			{
+				"gid" "83C85F405496B7ED1655847196BFF263"
+				"size" "EB9B611625A128F58069ACEFA06C1837"
+				"download" "45A564FB9B7226CC7AE2D98A723D8CB8"
+			}
+			"ravenremastered_pr"
+			{
+				"gid" "35ED428B34E82F960DCBA0B6FD9E28A9"
+				"size" "6896CB4A563EF734115D79697B93A052"
+				"download" "A47AEC887140DCD8028CA83CA7A7E54C"
+			}
+			"testgate"
+			{
+				"gid" "8215E47A7DBD9DF43C2EB006CAEA6ABB"
+				"size" "D252E293FBF65CADA1E5F13A128BF79E"
+				"download" "354A7D4741D6967D1413F360035D83D7"
+			}
+		}
+	}
+	"822120"
+	{
+		"dlcappid" "822120"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4557840755848236862"
+				"size" "464730479"
+				"download" "410242976"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2685923"
+			"timeupdated" "1523615185"
+		}
+		"agerating"
+		{
+			"buildid" "2322247"
+			"pwdrequired" "1"
+			"timeupdated" "1511885856"
+		}
+		"baseline"
+		{
+			"buildid" "2483100"
+			"pwdrequired" "1"
+			"timeupdated" "1517404405"
+		}
+		"goldmaster"
+		{
+			"buildid" "2479646"
+			"pwdrequired" "1"
+			"timeupdated" "1517263740"
+		}
+		"internal_nightly"
+		{
+			"buildid" "2685673"
+			"pwdrequired" "1"
+			"timeupdated" "1523610000"
+		}
+		"local"
+		{
+			"buildid" "2637023"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1522155045"
+		}
+		"ravenremastered_pr"
+		{
+			"buildid" "2479646"
+			"pwdrequired" "1"
+			"timeupdated" "1519910720"
+		}
+		"testgate"
+		{
+			"buildid" "2522503"
+			"pwdrequired" "1"
+			"timeupdated" "1518542352"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "100"
+}
