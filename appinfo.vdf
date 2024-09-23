@@ -1,0 +1,208 @@
+"appid" "489600"
+"common"
+{
+	"name" "The Golf Club VR"
+	"type" "Game"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "1"
+		}
+	}
+	"oslist" "windows"
+	"logo" "fdc2a40d4cf796f2828b0687107d72b059906d9f"
+	"logo_small" "fdc2a40d4cf796f2828b0687107d72b059906d9f_thumb"
+	"icon" "d69b095a974d7b7d6e6813ef7dd056465894c406"
+	"clienttga" "4f4078cb3e2d3b7a83aa8a4f9de232f6e8c97563"
+	"clienticon" "c31c2f0becd446f5304087ff4e549b668ed34153"
+	"releasestate" "released"
+	"osarch" "64"
+	"openvrsupport" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1644278400"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "The Golf Club VR"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1475666301"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "HB Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "HB Studios"
+		}
+	}
+	"primary_genre" "18"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_52" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1487951810"
+	"community_hub_visible" "1"
+	"gameid" "489600"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "701"
+		"1" "599"
+		"2" "492"
+		"3" "21978"
+		"4" "7038"
+	}
+	"review_score" "5"
+	"review_percentage" "68"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "HB Studios"
+	"publisher" "HB Studios"
+	"homepage" "http://www.thegolfclubgame.com/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "The Golf Club VR"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "golfvr.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"489601"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8763033668994747582"
+				"size" "3613702118"
+				"download" "1222897568"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"tgcvr-ua"
+			{
+				"gid" "32C7D30BDA29082C17FF8A94346F97C5"
+				"size" "C462E4DFDC3B1EA756D91A8D68BBC830"
+				"download" "F3773E84C928F5A72CA7D82F32F672A3"
+			}
+			"unstable"
+			{
+				"gid" "A7C0C209CE994FC2C80B2CA2C4AEFC4A"
+				"size" "9E985EBF82486BC8BB1D6649B494CB5D"
+				"download" "9F9664F42DA0DCCC796CDAF547D0E4C4"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3019312"
+			"timeupdated" "1533906235"
+		}
+		"tgcvr-ua"
+		{
+			"buildid" "2319858"
+			"pwdrequired" "1"
+			"timeupdated" "1511811955"
+		}
+		"unstable"
+		{
+			"buildid" "3048109"
+			"pwdrequired" "1"
+			"timeupdated" "1534778500"
+		}
+	}
+}
