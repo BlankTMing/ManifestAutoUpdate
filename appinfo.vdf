@@ -1,0 +1,518 @@
+"appid" "488660"
+"common"
+{
+	"name" "Just Deserts"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "43c9fde66fa0f77e2ed4cca037625faed0b1866e"
+	"logo_small" "43c9fde66fa0f77e2ed4cca037625faed0b1866e_thumb"
+	"clienticon" "2dc6ce9b9c0f8b1a2b1120dde6768b059a253a64"
+	"clienttga" "3b0e78bb71c6a7bdfda0d3d84a3c8f63f5469e21"
+	"icon" "2c0cfd6b5a3ce64c42babeda21eafb66839319ba"
+	"linuxclienticon" "330a1631ae6492b596987d5f97cc6486b8f545af"
+	"clienticns" "f1de60341981b4785a720da914e25cc26c397434"
+	"releasestate" "released"
+	"osarch" ""
+	"osextended" ""
+	"metacritic_name" "Just Deserts"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "44.51575262543757"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "44.51575262543757"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1582671161"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Vifth Floor"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Sekai Project"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1469469538"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "488660"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "492"
+		"2" "597"
+		"3" "4085"
+		"4" "599"
+		"5" "9551"
+		"6" "3799"
+		"7" "4325"
+		"8" "12095"
+		"9" "4168"
+		"10" "6650"
+		"11" "1673"
+		"12" "3942"
+		"13" "4726"
+		"14" "1677"
+		"15" "6971"
+		"16" "8945"
+	}
+	"review_score" "6"
+	"review_percentage" "72"
+}
+"extended"
+{
+	"developer" "Vifth Floor"
+	"publisher" "Sekai Project"
+	"homepage" "https://justdeserts.vifthfloor.moe/"
+	"listofdlc" "517290,517291,517292,1394950"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Just Deserts"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "JustDeserts.app/Contents/MacOS/JustDeserts"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"1"
+		{
+			"executable" "JustDeserts.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "JustDeserts.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Just Deserts"
+			}
+			"description" "Just Deserts"
+		}
+		"4"
+		{
+			"executable" "JustDeserts-ValeryaChapter/JustDeserts-ValeryaChapter.sh"
+			"workingdir" "JustDeserts-ValeryaChapter"
+			"description" "Just Deserts - Valerya Chapter"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+				"ownsdlc" "1394950"
+			}
+		}
+		"5"
+		{
+			"executable" "JustDeserts-ValeryaChapter/JustDeserts-ValeryaChapter.exe"
+			"workingdir" "JustDeserts-ValeryaChapter"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"ownsdlc" "1394950"
+			}
+			"description_loc"
+			{
+				"english" "Just Deserts - Valerya Chapter"
+			}
+			"description" "Just Deserts - Valerya Chapter"
+		}
+		"6"
+		{
+			"executable" "JustDeserts-ValeryaChapter/JustDeserts-ValeryaChapter.app/Contents/MacOS/JustDeserts-ValeryaChapter"
+			"workingdir" "JustDeserts-ValeryaChapter"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+				"ownsdlc" "1394950"
+			}
+			"description_loc"
+			{
+				"english" "Just Deserts - Valerya Chapter"
+			}
+			"description" "Just Deserts - Valerya Chapter"
+		}
+		"7"
+		{
+			"executable" "JustDeserts-ValeryaChapter/JustDeserts-ValeryaChapter-32.exe"
+			"workingdir" "JustDeserts-ValeryaChapter"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+				"ownsdlc" "1394950"
+			}
+			"description_loc"
+			{
+				"english" "Just Deserts - Valerya Chapter - 32bit"
+			}
+			"description" "Just Deserts - Valerya Chapter - 32bit"
+		}
+		"8"
+		{
+			"executable" "JustDeserts-32.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+	}
+}
+"depots"
+{
+	"488661"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "646522617765591097"
+				"size" "1167560069"
+				"download" "917026544"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "C7BA2AA5C6DDE12856B903A1D078D98E"
+				"size" "CFB866F738B221D403FB06A729042B4C"
+				"download" "E501014374B0F55973562AA9B3CF887F"
+			}
+		}
+	}
+	"517290"
+	{
+		"dlcappid" "517290"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7810642422196367034"
+				"size" "8152139"
+				"download" "8094512"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "6757B8CE607FB9652A154000611DB48D"
+				"size" "62193CF3E6C54C697DAD813ECC63F68C"
+				"download" "A3FBEFEF89E06AC72AA1150580468F24"
+			}
+		}
+	}
+	"517291"
+	{
+		"dlcappid" "517291"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5826581950456746385"
+				"size" "9280768"
+				"download" "9228048"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "71388E2A07EA83173692BD8EC9462C79"
+				"size" "D25526171114047042E423FF4914AE0E"
+				"download" "559402996633AFD9212E2AA818CDA198"
+			}
+		}
+	}
+	"517292"
+	{
+		"dlcappid" "517292"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1279074070028211535"
+				"size" "9709101"
+				"download" "9670240"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "C90844248B8FFFB682E471EC2C1B7F0B"
+				"size" "CBCBB9F88B0042F9F8F8BACDB70BE99B"
+				"download" "7E43645475EB0559934EB18D2F318308"
+			}
+		}
+	}
+	"1394950"
+	{
+		"dlcappid" "1394950"
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6983630254700076855"
+				"size" "473064530"
+				"download" "249799856"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "0E9B606E3D83CD094D0E27A739A339B2"
+				"size" "E1B411235FB45CF829788C454E5CD96B"
+				"download" "BFC459306092998D88CBDB5735C4EB80"
+			}
+		}
+	}
+	"baselanguages" "english,schinese,japanese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "7112195"
+			"timeupdated" "1627638444"
+		}
+		"beta"
+		{
+			"buildid" "7112195"
+			"pwdrequired" "1"
+			"timeupdated" "1627633594"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "4194304"
+	"maxnumfiles" "100"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "RenPy/JustDeserts"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "RenPy/persistent"
+			"pattern" "moe.vifthfloor.justdeserts"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"2"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "RenPy/JustDeserts"
+			"pattern" "persistent"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"3"
+		{
+			"root" "MacHome"
+			"path" "/Library/RenPy/persistent"
+			"pattern" "moe.vifthfloor.justdeserts"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"4"
+		{
+			"root" "MacHome"
+			"path" "/Library/RenPy/JustDeserts"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"5"
+		{
+			"root" "MacHome"
+			"path" "/Library/RenPy/JustDeserts"
+			"pattern" "persistent"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"6"
+		{
+			"root" "LinuxHome"
+			"path" ".renpy/persistent"
+			"pattern" "moe.vifthfloor.justdeserts"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+		"7"
+		{
+			"root" "LinuxHome"
+			"path" ".renpy/JustDeserts"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+		"8"
+		{
+			"root" "LinuxHome"
+			"path" ".renpy/JustDeserts"
+			"pattern" "persistent"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
