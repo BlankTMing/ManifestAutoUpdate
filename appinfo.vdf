@@ -1,0 +1,58 @@
+"appid" "61800"
+"common"
+{
+	"name" "AMD Driver Updater, Vista and 7, 32 bit"
+	"driverversion" "8.17.10.1124"
+	"type" "game"
+	"community_hub_visible" "1"
+	"gameid" "61800"
+}
+"extended"
+{
+	"developer" ""
+	"gamedir" "AMD Driver Updater, Vista and 7, 32 bit"
+	"homepage" ""
+	"icon" ""
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "61801"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "AMD Driver Updater, Vista and 7, 32 bit"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Setup.exe"
+			"arguments" "/UNATTENDED_INSTALL /FORCE_HIDE_FIRST_RUN /AUTOACCEPT_ALL /ON_REBOOT_MESSAGE:NO"
+		}
+	}
+}
+"depots"
+{
+	"61801"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3553343030340794060"
+				"size" "172013636"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "23891"
+		}
+	}
+}
