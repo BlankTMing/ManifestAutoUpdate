@@ -1,0 +1,272 @@
+"appid" "654910"
+"common"
+{
+	"name" "YANKAI\'S PEAK."
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "a97d4d6cd83ec330f00406b4c05c206d4f0857d7"
+	"logo_small" "a97d4d6cd83ec330f00406b4c05c206d4f0857d7_thumb"
+	"icon" "cdd42c069a28056259ded9fa6dfbd0027ea5da79"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"clienttga" "530e59e339f93c9da57fb7e3ab8b90c0029434ce"
+	"clienticon" "b5735e8fb93c8352755e1170ec0233185382f2ce"
+	"metacritic_name" "YANKAI\'S PEAK."
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1497400332"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Kenny Sun"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Kenny Sun"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1499929200"
+	"steam_release_date" "1499963658"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "654910"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "1664"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "Kenny Sun"
+	"publisher" "Kenny Sun"
+	"homepage" "http://yankaispeak.com/"
+}
+"config"
+{
+	"installdir" "YANKAI\'S PEAK"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Pyramid.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "YANKAISPEAK.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Pyramid.x86_64"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "Pyramid.x86"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+	}
+}
+"depots"
+{
+	"654911"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "886945445423306228"
+				"size" "94692241"
+				"download" "36435168"
+			}
+			"showcase"
+			{
+				"gid" "4710359156050857332"
+				"size" "94692241"
+				"download" "36435248"
+			}
+		}
+	}
+	"654912"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6414167683683529294"
+				"size" "89845137"
+				"download" "34956624"
+			}
+			"showcase"
+			{
+				"gid" "1545670343739900907"
+				"size" "89845133"
+				"download" "34956784"
+			}
+		}
+	}
+	"654913"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5581126159973217456"
+				"size" "136375544"
+				"download" "47909264"
+			}
+			"showcase"
+			{
+				"gid" "6321506815503607506"
+				"size" "136371090"
+				"download" "47908624"
+			}
+		}
+	}
+	"654914"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4849635464747072791"
+				"size" "131570846"
+				"download" "47533264"
+			}
+			"showcase"
+			{
+				"gid" "8151598875081812944"
+				"size" "131566438"
+				"download" "47532656"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1930614"
+			"timeupdated" "1498930738"
+		}
+		"showcase"
+		{
+			"buildid" "1914751"
+			"timeupdated" "1498345446"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Kenny Sun/PEAK"
+			"pattern" "*.yankai"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Kenny Sun/PEAK"
+					"replace" "unity.Kenny Sun.PEAK."
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Kenny Sun/PEAK"
+					"replace" ".config/unity3d/Kenny Sun/PEAK_"
+				}
+			}
+		}
+	}
+}
