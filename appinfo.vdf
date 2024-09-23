@@ -1,0 +1,900 @@
+"appid" "704230"
+"common"
+{
+	"name" "Pro Cycling Manager 2018"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"logo" "1e397c3a79e9728f9a3a2379c5a83594f34f721c"
+	"logo_small" "1e397c3a79e9728f9a3a2379c5a83594f34f721c_thumb"
+	"icon" "40050e29d02f324dcb48bf9ddd8d5c3632067c28"
+	"clienticon" "75011ede598e7a84d33796aa3d685c1c9e39c470"
+	"clienttga" "f4dec3278d342114219fcd8e1af716727c44b772"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"danish" "1"
+		"dutch" "1"
+		"norwegian" "1"
+	}
+	"eulas"
+	{
+		"0"
+		{
+			"id" "704230_eula_0"
+			"name" "Pro Cycling Manager 2018 EULA"
+			"url" "https://store.steampowered.com//eula/704230_eula_0"
+		}
+	}
+	"metacritic_name" "Pro Cycling Manager 2018"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "38"
+			"height_pct" "38"
+		}
+	}
+	"store_asset_mtime" "1524585826"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Cyanide Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Focus Entertainment"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "28"
+		"1" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_36" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_30" "1"
+		"category_23" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"danish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"dutch"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"norwegian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1530169200"
+	"steam_release_date" "1530201600"
+	"metacritic_score" "69"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/pro-cycling-manager-2018\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "704230"
+	"store_tags"
+	{
+		"0" "701"
+		"1" "599"
+		"2" "19568"
+		"3" "12472"
+	}
+	"review_score" "6"
+	"review_percentage" "75"
+}
+"extended"
+{
+	"developer" "Cyanide Studio"
+	"publisher" "Focus Entertainment"
+	"homepage" "http://letour-games.com/"
+}
+"config"
+{
+	"installdir" "Pro Cycling Manager 2018"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "PCM64.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "PCM64.exe"
+			"arguments" "-noassert -debug_Transfers"
+			"description" "Cheat transfers"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "cyanide-candidate,focus-qa"
+			}
+		}
+		"2"
+		{
+			"executable" "LaunchBot.bat"
+			"description" "bot"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "cyanide-candidate,focus-qa"
+			}
+		}
+		"5"
+		{
+			"executable" "launchmulti.bat"
+			"description" "multiplayer"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "cyanide-candidate,focus-qa"
+			}
+		}
+		"6"
+		{
+			"executable" "DatabaseEditor\\PCM_Database_Editor.exe"
+			"arguments" "-debug"
+			"workingdir" "DatabaseEditor"
+			"description" "Database Editor"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "cyanide-candidate,focus-qa"
+			}
+		}
+		"7"
+		{
+			"executable" "PCM64.exe"
+			"arguments" "-noassert -debug_Sponsor"
+			"description" "Cheat sponsor"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "cyanide-candidate,focus-qa"
+			}
+		}
+		"8"
+		{
+			"executable" "PCM64.exe"
+			"arguments" "-noassert -debug_Screenshot"
+			"description" "Screenshot"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "cyanide-candidate,focus-qa"
+			}
+		}
+		"9"
+		{
+			"executable" "LaunchMultiRes.bat"
+			"description" "Resolution"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "cyanide-candidate,focus-qa"
+			}
+		}
+		"10"
+		{
+			"executable" "PCM64.exe"
+			"arguments" "-noassert"
+			"description" "NoAssert"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "cyanide-candidate,focus-qa"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" ""
+	"228984"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229000"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"704231"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4719248030888316259"
+				"size" "12436744841"
+				"download" "6794435904"
+			}
+			"next_patch_beta"
+			{
+				"gid" "4719248030888316259"
+				"size" "12436744841"
+				"download" "6794435904"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"cyanide-candidate"
+			{
+				"gid" "5BEA949B88DD94149351D60C0673F415"
+				"size" "BA9925DCE10190AC51830139EE096253"
+				"download" "D9E5F7DEA88D449B13ABE66C78BC8FA6"
+			}
+			"focus-qa"
+			{
+				"gid" "A78D8E2E46F49AC83F008D093256BA2B"
+				"size" "F70B6FA7423B9E4B7D2A6A11B3DF8BB5"
+				"download" "2BD111ED501F07C160FE6E3883B90FCE"
+			}
+			"master-candidate"
+			{
+				"gid" "F39739529292627C1CB84BCFAD1DCE9C"
+				"size" "FA6B1B4F1E4BE3964CABDF7A5B6C2217"
+				"download" "192BB174F4DC00143E39E8D089382397"
+			}
+			"master-dayone"
+			{
+				"gid" "A0A2DB12C4301071F69AC878B77FD179"
+				"size" "91FC74CF7700377BF73997700B91ABE9"
+				"download" "566440262934048E4262DB8C8510AC73"
+			}
+			"next_patch"
+			{
+				"gid" "4F1F3DA218ABC37C57E3AA216F1230F4"
+				"size" "BA82ED0A3CBF84451126FEDD09578972"
+				"download" "6E8A81D174E6DF3C66E075742860BF1E"
+			}
+			"release-dayone"
+			{
+				"gid" "05E03C5E88FFDD96285B1A9DDC647B1E"
+				"size" "0ACAC1FDBBBFDABEFED69AD07C3D3611"
+				"download" "D877802D3512016ECC22145255B4F21B"
+			}
+			"sprint-17"
+			{
+				"gid" "BD9468B56D6BD3DCBDC98E9B6CD7D419"
+				"size" "B5C735AB11A655A8C7D354CA65D8327E"
+				"download" "122DBE4411FB92508299734087C25C1C"
+			}
+		}
+	}
+	"704232"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7406197690544349415"
+				"size" "81"
+				"download" "112"
+			}
+			"next_patch_beta"
+			{
+				"gid" "7406197690544349415"
+				"size" "81"
+				"download" "112"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master-candidate"
+			{
+				"gid" "3C53C963BC094D0B1BC19D352934D458"
+				"size" "95626153011D7B9D9EE43667387E46C8"
+				"download" "3739CFDC638F622A3EA19E63381158B7"
+			}
+			"master-dayone"
+			{
+				"gid" "D759F21F169A99EA92C688E7D4F0BB04"
+				"size" "39B00336719D0354F3BCE2259994C035"
+				"download" "D8A20140946ABF38E0E231E3137FD075"
+			}
+			"next_patch"
+			{
+				"gid" "626C05FBDE872130E7C964262DBC687B"
+				"size" "5EC82E523D955DDBBE2686EB6B407D10"
+				"download" "593C6F4FDC905F539769EE466D10D06D"
+			}
+			"release-dayone"
+			{
+				"gid" "63CBEB4A15FF8F579018B812A6DE354E"
+				"size" "C48511F8D6AB342B5E3A78F97091C80E"
+				"download" "71364475A795B4DFEAD2FDF807EA1C1A"
+			}
+		}
+	}
+	"704233"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4169881000125741209"
+				"size" "81"
+				"download" "112"
+			}
+			"next_patch_beta"
+			{
+				"gid" "4169881000125741209"
+				"size" "81"
+				"download" "112"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master-candidate"
+			{
+				"gid" "623EAB3DF85D6121B3C263C24D47AB4E"
+				"size" "95626153011D7B9D9EE43667387E46C8"
+				"download" "3739CFDC638F622A3EA19E63381158B7"
+			}
+			"master-dayone"
+			{
+				"gid" "7E0519B036AAE7DDB3583FF5F07436AA"
+				"size" "39B00336719D0354F3BCE2259994C035"
+				"download" "D8A20140946ABF38E0E231E3137FD075"
+			}
+			"next_patch"
+			{
+				"gid" "0C3B1E22EC1B12536F89CA977FC6D11E"
+				"size" "5EC82E523D955DDBBE2686EB6B407D10"
+				"download" "593C6F4FDC905F539769EE466D10D06D"
+			}
+			"release-dayone"
+			{
+				"gid" "22F78E0DC1E6608CD00D9C338BE0F35B"
+				"size" "C48511F8D6AB342B5E3A78F97091C80E"
+				"download" "71364475A795B4DFEAD2FDF807EA1C1A"
+			}
+		}
+	}
+	"704234"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8621629292456592199"
+				"size" "82"
+				"download" "112"
+			}
+			"next_patch_beta"
+			{
+				"gid" "8621629292456592199"
+				"size" "82"
+				"download" "112"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master-candidate"
+			{
+				"gid" "BDE8D4568954386BC5C9CE073B886366"
+				"size" "114434DF77C618A52F3E66C95C6BD8E1"
+				"download" "3739CFDC638F622A3EA19E63381158B7"
+			}
+			"master-dayone"
+			{
+				"gid" "9DEF35E7E9140445C85A736DA9BE467E"
+				"size" "51D2D565E39625CBC8052745F6332B19"
+				"download" "D8A20140946ABF38E0E231E3137FD075"
+			}
+			"next_patch"
+			{
+				"gid" "073E82CD63C12F37AFD21576FA2DB76C"
+				"size" "1ED8F27B04F2DE298CEC814132B6D270"
+				"download" "593C6F4FDC905F539769EE466D10D06D"
+			}
+			"release-dayone"
+			{
+				"gid" "2DF9457156334906D437F8E18BF1B524"
+				"size" "A4F70EF478D4E521BC4C877E9C844655"
+				"download" "71364475A795B4DFEAD2FDF807EA1C1A"
+			}
+		}
+	}
+	"704235"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4506274812793655714"
+				"size" "80"
+				"download" "112"
+			}
+			"next_patch_beta"
+			{
+				"gid" "4506274812793655714"
+				"size" "80"
+				"download" "112"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master-candidate"
+			{
+				"gid" "1DCAE442D4B048DD72D3437955F18DB7"
+				"size" "8F1050000CB094C89EA0C1EC2B065483"
+				"download" "3739CFDC638F622A3EA19E63381158B7"
+			}
+			"master-dayone"
+			{
+				"gid" "ABB8DD55D54D961705EDA453A748ADCC"
+				"size" "8B3288051456B0E5C4F4A4637750CE96"
+				"download" "D8A20140946ABF38E0E231E3137FD075"
+			}
+			"next_patch"
+			{
+				"gid" "8EE6AAAD003EE08AE5F12793BB4BBF1B"
+				"size" "4D71ACCC46247EEC60C97C2BDCFEF5D0"
+				"download" "593C6F4FDC905F539769EE466D10D06D"
+			}
+			"release-dayone"
+			{
+				"gid" "933D6A853FE8C9F4B365C623E43C620B"
+				"size" "F0071B179AFF0668489850B1C5DBF8E4"
+				"download" "71364475A795B4DFEAD2FDF807EA1C1A"
+			}
+		}
+	}
+	"704236"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6456400074163771736"
+				"size" "82"
+				"download" "112"
+			}
+			"next_patch_beta"
+			{
+				"gid" "6456400074163771736"
+				"size" "82"
+				"download" "112"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master-candidate"
+			{
+				"gid" "AE92B25CDD47D26A17F54224C9AA823E"
+				"size" "114434DF77C618A52F3E66C95C6BD8E1"
+				"download" "3739CFDC638F622A3EA19E63381158B7"
+			}
+			"master-dayone"
+			{
+				"gid" "47B18F7B257BA9C4E868ABF3594EBE15"
+				"size" "51D2D565E39625CBC8052745F6332B19"
+				"download" "D8A20140946ABF38E0E231E3137FD075"
+			}
+			"next_patch"
+			{
+				"gid" "2B01A63B7BBDB36BBD25BC74DCFE630B"
+				"size" "1ED8F27B04F2DE298CEC814132B6D270"
+				"download" "593C6F4FDC905F539769EE466D10D06D"
+			}
+			"release-dayone"
+			{
+				"gid" "40D88A63CE4445E4900F1DFCEC4EECC9"
+				"size" "A4F70EF478D4E521BC4C877E9C844655"
+				"download" "71364475A795B4DFEAD2FDF807EA1C1A"
+			}
+		}
+	}
+	"704237"
+	{
+		"config"
+		{
+			"language" "dutch"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1323562727415536648"
+				"size" "80"
+				"download" "112"
+			}
+			"next_patch_beta"
+			{
+				"gid" "1323562727415536648"
+				"size" "80"
+				"download" "112"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master-candidate"
+			{
+				"gid" "835480463B2D83DD329D1F0846D8F0D4"
+				"size" "8F1050000CB094C89EA0C1EC2B065483"
+				"download" "3739CFDC638F622A3EA19E63381158B7"
+			}
+			"master-dayone"
+			{
+				"gid" "B72959C3C683E79C97F11DC4B757A6C5"
+				"size" "8B3288051456B0E5C4F4A4637750CE96"
+				"download" "D8A20140946ABF38E0E231E3137FD075"
+			}
+			"next_patch"
+			{
+				"gid" "4E895C41990A13E9E77328000EA4F306"
+				"size" "4D71ACCC46247EEC60C97C2BDCFEF5D0"
+				"download" "593C6F4FDC905F539769EE466D10D06D"
+			}
+			"release-dayone"
+			{
+				"gid" "28A86D36CB6F192095DD42B1BFC58AF7"
+				"size" "F0071B179AFF0668489850B1C5DBF8E4"
+				"download" "71364475A795B4DFEAD2FDF807EA1C1A"
+			}
+		}
+	}
+	"704238"
+	{
+		"config"
+		{
+			"language" "danish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4968764393796351718"
+				"size" "80"
+				"download" "112"
+			}
+			"next_patch_beta"
+			{
+				"gid" "4968764393796351718"
+				"size" "80"
+				"download" "112"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master-candidate"
+			{
+				"gid" "438B8D56F494B9B6B97A7BD543411939"
+				"size" "8F1050000CB094C89EA0C1EC2B065483"
+				"download" "3739CFDC638F622A3EA19E63381158B7"
+			}
+			"master-dayone"
+			{
+				"gid" "6190DDCFC6A519FEE2CA5490E9ACF95D"
+				"size" "8B3288051456B0E5C4F4A4637750CE96"
+				"download" "D8A20140946ABF38E0E231E3137FD075"
+			}
+			"next_patch"
+			{
+				"gid" "66BB07DFD1F0B0EB5F59A320FFB2F6DF"
+				"size" "4D71ACCC46247EEC60C97C2BDCFEF5D0"
+				"download" "593C6F4FDC905F539769EE466D10D06D"
+			}
+			"release-dayone"
+			{
+				"gid" "B07B1B1B8FED75ED53988A9097BE4643"
+				"size" "F0071B179AFF0668489850B1C5DBF8E4"
+				"download" "71364475A795B4DFEAD2FDF807EA1C1A"
+			}
+		}
+	}
+	"704239"
+	{
+		"config"
+		{
+			"language" "norwegian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "404014105138936791"
+				"size" "84"
+				"download" "112"
+			}
+			"next_patch_beta"
+			{
+				"gid" "404014105138936791"
+				"size" "84"
+				"download" "112"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master-candidate"
+			{
+				"gid" "846356FD8405DEC045F2871409751176"
+				"size" "06E017ED40D54A18E3799CABC6CA35CF"
+				"download" "3739CFDC638F622A3EA19E63381158B7"
+			}
+			"master-dayone"
+			{
+				"gid" "8E79698B19EAD8AF3EF52AF1992E21C0"
+				"size" "22D8A86AEC7F6948C732874708F1E7C2"
+				"download" "D8A20140946ABF38E0E231E3137FD075"
+			}
+			"next_patch"
+			{
+				"gid" "F4DC42A76012362A1B1C09E51F92512D"
+				"size" "EF1DCEA4ABA61D918926F9F367BFA84D"
+				"download" "593C6F4FDC905F539769EE466D10D06D"
+			}
+			"release-dayone"
+			{
+				"gid" "F97F51EFFDAB311B42751E2B3DF01BEC"
+				"size" "224F89958D77AF18B316697CB78EAEB9"
+				"download" "71364475A795B4DFEAD2FDF807EA1C1A"
+			}
+		}
+	}
+	"883410"
+	{
+		"config"
+		{
+			"language" "portuguese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3334816774371658932"
+				"size" "85"
+				"download" "112"
+			}
+			"next_patch_beta"
+			{
+				"gid" "3334816774371658932"
+				"size" "85"
+				"download" "112"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"master-candidate"
+			{
+				"gid" "4A32AE9CB7AC0952654BAE3A1FA53A0B"
+				"size" "50A133B9E661B80B07C82AC6D77A2573"
+				"download" "3739CFDC638F622A3EA19E63381158B7"
+			}
+			"master-dayone"
+			{
+				"gid" "9F1FFAA6EAC4A7739BB80EA608D41165"
+				"size" "C43F1DD962692F4562089E9E92291F9E"
+				"download" "D8A20140946ABF38E0E231E3137FD075"
+			}
+			"next_patch"
+			{
+				"gid" "A34C87136BF69AF00A92AEB381F9BA6E"
+				"size" "019C567389E0EE2E5DA573E9AA874741"
+				"download" "593C6F4FDC905F539769EE466D10D06D"
+			}
+			"release-dayone"
+			{
+				"gid" "75939FE810AEF62AD0EF5C9250A23243"
+				"size" "4EB912D97C63657EDFB7EB951CD054AF"
+				"download" "71364475A795B4DFEAD2FDF807EA1C1A"
+			}
+		}
+	}
+	"workshopdepot" "704230"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3228749"
+			"timeupdated" "1541415899"
+		}
+		"cyanide-candidate"
+		{
+			"buildid" "3228587"
+			"pwdrequired" "1"
+			"timeupdated" "1539950628"
+		}
+		"focus-qa"
+		{
+			"buildid" "2900539"
+			"pwdrequired" "1"
+			"timeupdated" "1532605944"
+		}
+		"master-candidate"
+		{
+			"buildid" "3228749"
+			"pwdrequired" "1"
+			"timeupdated" "1539953190"
+		}
+		"master-dayone"
+		{
+			"buildid" "2899420"
+			"pwdrequired" "1"
+			"timeupdated" "1530116912"
+		}
+		"next_patch"
+		{
+			"buildid" "3004077"
+			"pwdrequired" "1"
+			"timeupdated" "1533557531"
+		}
+		"next_patch_beta"
+		{
+			"buildid" "3228749"
+			"timeupdated" "1540226475"
+		}
+		"release-dayone"
+		{
+			"buildid" "2899693"
+			"pwdrequired" "1"
+			"timeupdated" "1530116928"
+		}
+		"sprint-17"
+		{
+			"buildid" "2792403"
+			"pwdrequired" "1"
+			"timeupdated" "1526898706"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "21474836480"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "/Pro Cycling Manager 2018/Cloud"
+			"pattern" "*"
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "/Pro Cycling Manager 2018/Users"
+			"pattern" "*"
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "/Pro Cycling Manager 2018/"
+			"pattern" "Users.cdb"
+		}
+	}
+}
