@@ -1,0 +1,219 @@
+"appid" "987230"
+"common"
+{
+	"name" "Shadow Legend VR"
+	"type" "Game"
+	"logo" "91431c56d1fc597305ef4fd4dd51e98a3bfffd5d"
+	"logo_small" "91431c56d1fc597305ef4fd4dd51e98a3bfffd5d_thumb"
+	"icon" "5a0477c6ccdb1aa0b0e5e9bd6b9e72a94a0a4636"
+	"clienttga" "6a83976281329d6aabb7256bbcbee0b56e1963d8"
+	"clienticon" "c77cfa9717cc26d080febcbc6a195121019f8aef"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"openvr_action_manifest_path" "actions.json"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1648252800"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Shadow Legend VR"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "60.96849474912485"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1666986699"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "VitruviusVR"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "VitruviusVR"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_52" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1551981670"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "987230"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "122"
+		"2" "19"
+		"3" "4667"
+		"4" "4345"
+		"5" "21978"
+		"6" "4172"
+	}
+	"review_score" "6"
+	"review_percentage" "78"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "VitruviusVR"
+	"publisher" "VitruviusVR"
+}
+"config"
+{
+	"installdir" "Shadow Legend VR"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ShadowLegendVR.exe"
+			"arguments" "-vrmode openvr"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "ShadowLegendVR.exe"
+			"arguments" "-vrmode oculus"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"987231"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "472692135567305253"
+				"size" "11200370138"
+				"download" "3635531488"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "67CD16DE03DDEA388B1F33161BD6E3F2"
+				"size" "64EC0208F719A35297913D6FC71800A0"
+				"download" "71AE96BE5EBADB4E63AC0878A3D27A54"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4497577"
+			"timeupdated" "1576519509"
+		}
+		"beta"
+		{
+			"buildid" "4497577"
+			"pwdrequired" "1"
+			"timeupdated" "1576512827"
+		}
+	}
+}
