@@ -1,0 +1,267 @@
+"appid" "906730"
+"common"
+{
+	"name" "Typical"
+	"type" "Game"
+	"logo" "5d75306bf608515ef8842b5dc5e7a82894efeaf1"
+	"logo_small" "5d75306bf608515ef8842b5dc5e7a82894efeaf1_thumb"
+	"icon" "2640f0f4f6f643cf9f2c1df0ed78fa5eebacf6a5"
+	"clienttga" "a3006d8c2b697092b704f92d8f6ead3bb4b8fcda"
+	"clienticon" "02fa1dfc961e55880b080e36538ec41723beec1f"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+	}
+	"clienticns" "2986c4c4a459ea194f5b76d4524d1654519bfe68"
+	"linuxclienticon" "9e8b718c089dd54c8c8eb060bc1d1feb63f1d9b9"
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "5"
+	}
+	"metacritic_name" "Typical"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1647607819"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "kalanhow"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "TsunamiGames"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1544863080"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "906730"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "6650"
+		"2" "597"
+		"3" "3799"
+		"4" "21"
+		"5" "31579"
+		"6" "7208"
+		"7" "4947"
+		"8" "4085"
+	}
+	"review_score" "6"
+	"review_percentage" "79"
+}
+"extended"
+{
+	"developer" "kalanhow"
+	"publisher" "TsunamiGames"
+	"homepage" "https://twitter.com/Tsunami__Games"
+}
+"config"
+{
+	"installdir" "Typical"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Typical.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Typical.sh"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "Typical.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229012"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229020"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"906731"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8277743226155506983"
+				"size" "385391552"
+				"download" "293393056"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3532445"
+			"timeupdated" "1549357944"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "MacHome"
+			"path" "/Library/RenPy/"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "LinuxHome"
+			"path" "$HOME/.renpy/"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "RenPy/Typical-1528877933"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+	"appidredirect" "906730"
+}
