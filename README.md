@@ -1,218 +1,227 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-23 15:13:51
+## 更新时间：2024-09-23 15:34:59
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 662190 | The Secret Order 6: Bloodline| Game |
-| 661710 | 百曲原声集| Music |
-| 663390 | Rento Fortune - Multiplayer Board Game| Game |
-| 663300 | 启蒙| Game |
-| 663380 | Tales from Candlekeep: Tomb of Annihilation| Game |
-| 664420 | Girls and Quiz| Game |
-| 665230 | Glowing Sokoban| Game |
-| 665030 | Zeran's Folly| Game |
-| 665370 | Mutilate-a-Doll 2| Game |
-| 664320 | Holy Potatoes! What the Hell?!| Game |
-| 665270 | Barrage Musical ～A Fantasy of Tempest～| Game |
-| 665330 | Wrestling Revolution 3D| Game |
-| 666570 | Infectonator 3: Apocalypse| Game |
-| 666330 | Inertia| Game |
-| 666050 | Rescue Team 7| Game |
-| 666820 | Skirmish Line| Game |
-| 668670 | Glasswinged Ascension| Game |
-| 668680 | 鬼畜大冒险 Gui Chu Da Mao Xian| Game |
-| 670430 | Colorless Life| Game |
-| 670160 | D'LIRIUM| Game |
-| 670930 | Escape Doodland| Game |
-| 671240 | Seven boys 2| Game |
-| 671090 | Oik Memory| Game |
-| 671650 | Mad Age & This Guy| Game |
-| 672290 | Magic Forest| Game |
-| 671950 | The Initial Origin Sound Track| DLC |
-| 672360 | ISEE| Game |
-| 670900 | NASCAR Heat 2| Game |
-| 672710 | Traffic Giant| Game |
-| 673000 | High Hell| Game |
-| 673190 | All-Star Fruit Racing| Game |
-| 673910 | Wrestling Revolution 2D| Game |
-| 674310 | THE 2048| Game |
-| 674380 | Delude - Succubus Prison| Game |
-| 674800 | Tailwind| Game |
-| 673130 | AMID EVIL| Game |
-| 675140 | Laika 2.0| Game |
-| 675130 | AEGYPTUS| Game |
-| 675490 | Artifact Adventure Gaiden| Game |
-| 674930 | Boyfriend Dungeon| Game |
-| 676180 | Spaceguard 80| Game |
-| 675240 | Shining Song Starnova| Game |
-| 676440 | Trash Squad| Game |
-| 676430 | PUSH| Game |
-| 676130 | Without Within 3| Game |
-| 676490 | Heroes of Civilizations| Game |
-| 676090 | Legend Of Mercy 神医魔导| Game |
-| 676850 | Guardian| Game |
-| 677160 | We Were Here Too| Game |
-| 676820 | Subsurface Circular| Game |
-| 677280 | Sigi - A Fart for Melusina| Game |
-| 677790 | SOULS| Game |
-| 677520 | Guilt Battle Arena| Game |
-| 678850 | Uurnog Uurnlimited| Game |
-| 678900 | 农夫王朝| Game |
-| 678970 | Modern Tales: Age of Invention| Game |
-| 678190 | King Of Bali| Game |
-| 679110 | Werewolf: The Apocalypse - Earthblood| Game |
-| 678030 | 玩命关头：十字路口| Game |
-| 680340 | Omega Strike| Game |
-| 680380 | Night Call| Game |
-| 680450 | Damn| Game |
-| 680700 | OK K.O.! Let’s Play Heroes| Game |
-| 681170 | SUDOKU| Game |
-| 681700 | Absolver Soundtrack| Music |
-| 682480 | the untold story of hengshui school| Game |
-| 682500 | Desperate game| Game |
-| 682660 | Plant This| Game |
-| 682530 | MarZ: Tactical Base Defense| Game |
-| 683160 | The Exorcist| Game |
-| 684620 | JetX| Game |
-| 684580 | Shoppe Keep 2| Game |
-| 683760 | Strangers of the Power| Game |
-| 684680 | Polygoneer| Game |
-| 684870 | Spiral Splatter| Game |
-| 685340 | Delivery From The Pain| Game |
-| 685750 | The soldier in the mine| Game |
-| 685820 | Aven Colony - Soundtrack| DLC |
-| 686680 | Computer Tycoon| Game |
-| 686900 | Bronze Age| Game |
-| 687260 | Tokyo Dark| Game |
-| 686720 | SaGa SCARLET GRACE: AMBITIONS™| Game |
-| 687920 | Tropical Liquor| Game |
-| 687830 | Transparent Black| Game |
-| 688690 | Yoba| Game |
-| 689070 | Asyula 方舟之链| Game |
-| 689350 | Ruin City Gasolina| Game |
-| 689650 | Les Fleursword| Game |
-| 689520 | ★ Fallalypse ★| Game |
-| 689710 | Hop Step Sing! KimamaniŌśåSummer vacation (HQ Edition)| Game |
-| 689910 | Another Lost Phone: Laura's Story| Game |
-| 690140 | Sword Legacy Omen| Game |
-| 690120 | 洇客 Inked: A Tale of Love| Game |
-| 690510 | 黑色幸存者| Game |
-| 690630 | Light Fantastik| Game |
-| 691080 | 3D Hardcore Cube| Game |
-| 690810 | Killing Floor: Incursion| Game |
-| 690850 | Magibot| Game |
-| 691450 | Misao - 2024 HD Remaster| Game |
-| 691260 | POPULATION: ONE| Game |
-| 691770 | Eiyu*Senki - The World Conquest| Game |
-| 692690 | Dance Collider| Game |
-| 665300 | Stream Avatars| Application |
-| 692890 | Roboquest| Game |
-| 666940 | Welcome Back To 2007| Game |
-| 693000 | Super Blood Hockey - Original Soundtrack| DLC |
-| 692840 | Underworld Ascendant| Game |
-| 692850 | Bloodstained: Ritual of the Night| Game |
-| 692030 | Tennis World Tour| Game |
-| 693890 | Trivia Vault: Classic Rock Trivia 2| Game |
-| 692930 | DreadEye VR| Game |
-| 694770 | 维斯塔利亚传说 亡国骑士与星辰巫女| Game |
-| 694090 | Apex Construct| Game |
-| 694500 | Army Men RTS| Game |
-| 695100 | Smoke and Sacrifice| Game |
-| 694930 | Lost God| Game |
-| 695110 | Twickles| Game |
-| 695290 | The Golf Club™ 2019 Featuring PGA TOUR| Game |
-| 696460 | Pixel Traffic: Circle Rush| Game |
-| 696220 | Folklore Hunter| Game |
-| 696060 | Live| Game |
-| 695760 | Girls and Dungeons| Game |
-| 696180 | Bullet Witch| Game |
-| 698330 | Z Runaway| Game |
-| 698610 | Through Blocks| Game |
-| 698540 | Dungeon Warfare 2| Game |
-| 697650 | The 25th Ward: The Silver Case| Game |
-| 698980 | sWORD MASTER| Game |
-| 699080 | Jake's Love Story| Game |
-| 698890 | Crypt of the NecroDancer: AMPLIFIED OST - Chipzel| Music |
-| 698640 | Deep Sky Derelicts| Game |
-| 699750 | Pixel Traffic: Risky Bridge| Game |
-| 699670 | Feudal Alloy| Game |
-| 699600 | PEG| Game |
-| 700160 | Semblance| Game |
-| 676240 | TAURONOS| Game |
-| 700660 | Dice Tower Defense| Game |
-| 700740 | Teenage Mutant Ninja Turtles: Portal Power| Game |
-| 700440 | Jellyfish| Game |
-| 702030 | Starbear: Taxi| Game |
-| 70120 | Hacker Evolution Duality| game |
-| 70200 | Governor of Poker 2| game |
-| 702110 | THE LAST BLADE 2| Game |
-| 701760 | L.S.S| Game |
-| 702210 | Princess Serena ~Raid of Demon Legion~| Game |
-| 702890 | BlazBlue Cross Tag Battle| Game |
-| 703180 | Ben 10| Game |
-| 703880 | Swords and Soldiers 2 Shawarmageddon| Game |
-| 700600 | Evil Genius 2| Game |
-| 702940 | Paper Shakespeare: To Date Or Not To Date?| Game |
-| 703320 | Hidden & Dangerous 2: Courage Under Fire| Game |
-| 704440 | Nimble Fish| Game |
-| 704480 | Durak!| Game |
-| 704640 | Settlements| Game |
-| 704680 | AMPLITUDE: A Visual Novel| Game |
-| 704840 | The Walking Vegetables| Game |
-| 704880 | Trident's Wake| Game |
-| 704910 | Tenta Shooter| Game |
-| 704990 | OSES| Game |
-| 705220 | Tactical Monsters Rumble Arena| Game |
-| 704230 | Pro Cycling Manager 2018| Game |
-| 705300 | Suicide Adventures| Game |
-| 705290 | Strange Telephone| Game |
-| 705280 | 箱庭探险者Plus| Game |
-| 682570 | SG/ZH: School Girl/Zombie Hunter| Game |
-| 706440 | Cyborg Arena| Game |
-| 706350 | Mari and the Black Tower| Game |
-| 708640 | Nudist Beach Survival Simulator| Game |
-| 708622 | Realities - Beelitz Heilstätten| DLC |
-| 708950 | Steam Tactics| Game |
-| 708621 | Realities - Death Valley| DLC |
-| 708620 | Realities - Cologne Cathedral| DLC |
-| 709310 | Decksplash Free Week| Game |
-| 709190 | God of Failure| Game |
-| 709700 | The Thing: Space X| Game |
-| 709920 | Tametsi| Game |
-| 709440 | Override| Game |
-| 710600 | Red Bow| Game |
-| 710520 | Super Trashforce| Game |
-| 710030 | Cinderella Escape 2 Revenge| Game |
-| 710130 | 隐龙传| Game |
-| 711660 | 毛线先生 (CHUCHEL)| Game |
-| 711540 | Lonely Mountains: Downhill| Game |
-| 711860 | Yomawari: Midnight Shadows - Digital Soundtrack| Music |
-| 711750 | Monster Energy Supercross - The Official Videogame| Game |
-| 712180 | Mugsters| Game |
-| 712000 | Elder Chaos| Game |
-| 7110 | Jade Empire: Special Edition| game |
-| 713080 | President Evil| Game |
-| 713050 | Vampires!| Game |
-| 713260 | Beyond the Sunset 斜阳下的彼岸| Game |
-| 713950 | INWAY| Game |
-| 714120 | Little Misfortune| Game |
-| 714130 | WhiTaers| Game |
-| 714080 | BLACK CLOVER: QUARTET KNIGHTS| Game |
-| 714640 | Abstractanoid| Game |
-| 714800 | Maitetsu| Game |
-| 715470 | Rocks and Rockets| Game |
-| 716070 | Mindsight| Game |
-| 716340 | Blackberry Honey| Game |
-| 716330 | VOID| Game |
-| 716490 | EXAPUNKS| Game |
-| 716500 | Eliza| Game |
-| 716680 | Nirvana Pilot Yume| Game |
-| 716710 | 東方憑依華　～ Antinomy of Common Flowers.| Game |
-| 716940 | Grape Jelly| Game |
-| 717310 | Aggelos| Game |
-| 717450 | Nimble Bunn| Game |
-| 717940 | WIL| Game |
-| 702700 | Super Bomberman R| Game |
-| 707300 | 初音未来 VR| Game |
-| 708720 | GridIron| Game |
-| 710190 | 谜题姐妹 Puzzle Sisters| Game |
+| 718200 | Forever Home| Game |
+| 718370 | LSD| Game |
+| 718850 | Age of Wonders: Planetfall| Game |
+| 720030 | Indecision.| Game |
+| 7200 | TrackMania United Forever| game |
+| 720240 | Legend of Fainn Dynasty ～Battles of Beautiful Warlords～| Game |
+| 720530 | Killer Instinct - The Complete Soundtrack| Music |
+| 720470 | Caveman Alive| Game |
+| 720150 | Shikhondo(食魂徒) - Soul Eater| Game |
+| 719750 | PUSS!| Game |
+| 720090 | Magic Spellslingers| Game |
+| 720860 | RAID: World War II Soundtrack| Music |
+| 720730 | Without Escape| Game |
+| 721090 | SKYBOX VR Video Player| Application |
+| 722670 | 中国象棋| Game |
+| 722560 | RAD| Game |
+| 723760 | Steamburg| Game |
+| 723780 | Modern Combat Versus| Game |
+| 724000 | Uragun| Game |
+| 724470 | Lazy Galaxy| Game |
+| 725110 | Wizards Tourney| Game |
+| 724740 | Lines X| Game |
+| 725660 | Thundering Skies| Game |
+| 725540 | Morps| Game |
+| 726030 | MinSweeper| Game |
+| 726020 | Mission Ammunition| Game |
+| 726340 | Alchemist's Castle| Game |
+| 726360 | BOOBS SAGA: Prepare To Hentai Edition| Game |
+| 726840 | City Game Studio| Game |
+| 727090 | Village of Adventurers 2| Game |
+| 723090 | Meltys Quest| Game |
+| 727570 | After the Collapse| Game |
+| 727680 | Case #9| Game |
+| 727760 | Umiro| Game |
+| 726990 | Succubus Rem| Game |
+| 727850 | ELDERBORN| Game |
+| 728420 | Rogue Quest: The Vault of the Lost Tyrant| Game |
+| 728240 | Adventure Time: Pirates of the Enchiridion| Game |
+| 728830 | San Matias - Mafia City| Game |
+| 729720 | Zomborg| Game |
+| 729240 | Songs for the Dead| DLC |
+| 729060 | Silent Descent| Game |
+| 728530 | SD GUNDAM G GENERATION CROSS RAYS| Game |
+| 730390 | Raji: An Ancient Epic / 拉吉：远古传奇| Game |
+| 73020 | Majesty 2 Collection| game |
+| 731720 | DOOMED| Game |
+| 732400 | PlataGO!| Game |
+| 73230 | Majesty Gold HD| Game |
+| 733050 | Lines Infinite| Game |
+| 733090 | Mustache Politics Shooter| Game |
+| 73170 | Darkest Hour: A Hearts of Iron Game| game |
+| 733460 | 第一王权| Game |
+| 733210 | Neversong| Game |
+| 733340 | Hakuoki: Edo Blossoms| Game |
+| 733610 | Tales of Winds: Tomb of the Sol Empire| Game |
+| 734570 | Bitcoin Tycoon - Mining Simulation Game| Game |
+| 733760 | MegaRace 2| Game |
+| 726950 | Dark Rose Valkyrie| Game |
+| 734890 | The Francy Droo & Friends Collection| Game |
+| 735550 | Crazy Soccer| Game |
+| 735570 | Project Rhombus| Game |
+| 736930 | Delicious - Moms vs Dads| Game |
+| 736810 | The Raven Remastered| Game |
+| 737710 | the Melody of Iris| Game |
+| 737870 | Conduct DELUXE!| Game |
+| 738600 | Odyssey: The Deep Space Expedition| Game |
+| 736990 | Realities - Bonus Locations| DLC |
+| 735280 | EMERGENCY 20| Game |
+| 739540 | Break the Game| Game |
+| 739650 | Drake Hollow| Game |
+| 739260 | Golden Hornet| Game |
+| 740790 | Goldmine| Game |
+| 741510 | The Hong Kong Massacre| Game |
+| 742300 | Mega Man 11| Game |
+| 742480 | The Big Journey| Game |
+| 742490 | Nonogram - The Greatest Painter| Game |
+| 743410 | Idolzzz| Game |
+| 744050 | Space Invaders Extreme| Game |
+| 744430 | Deep GachiGASM| Game |
+| 743890 | Mega Man X Legacy Collection| Game |
+| 744870 | Seven: Enhanced Edition - Original Soundtrack| Music |
+| 744750 | Devil and the Fairy| Game |
+| 745160 | Gorogoa - Original Soundtrack| Music |
+| 745330 | StrikeForce Kitty| Game |
+| 746360 | Orblitz| Game |
+| 746280 | Alpha Locus VR| Game |
+| 746400 | Speed Dating for Ghosts| Game |
+| 746930 | OrbusVR| Game |
+| 746760 | Outside| Game |
+| 746940 | Nippon Marathon| Game |
+| 747470 | Doughlings: Arcade| Game |
+| 747360 | Gray Dawn| Game |
+| 747620 | Joggernauts| Game |
+| 747690 | Sinister Halloween| Game |
+| 748020 | 兵马俑| Game |
+| 748480 | 我的兽耳后宫 - 解禁版| Game |
+| 749250 | 7th Sector| Game |
+| 749880 | Just Jump| Game |
+| 749960 | Townsmen VR| Game |
+| 749890 | The Hanged Man| Game |
+| 749840 | The Boogie Man| Game |
+| 750850 | The Dream Collector| Game |
+| 751110 | 纵观 (OVERVIEW)| Game |
+| 7510 | X-Blades| Game |
+| 751220 | ETHEREAL| Game |
+| 751340 | ASSAULT GUNNERS HD EDITION| Game |
+| 751470 | Deadstep| Game |
+| 751450 | Nanairo Reincarnation| Game |
+| 751640 | Dead Dungeon| Game |
+| 751320 | 回音| Game |
+| 753230 | STAY| Game |
+| 753220 | Mhakna Gramura and Fairy Bell| Game |
+| 752910 | Cookies vs. Claus| Game |
+| 753360 | VoiceActress| Game |
+| 753590 | Hellbound| Game |
+| 753660 | AtmaSphere| Game |
+| 753650 | Due Process| Game |
+| 753930 | God's Basement| Game |
+| 755270 | Fantasia of the Wind Theme Soundtrack| Music |
+| 754850 | The Spy Who Shrunk Me| Game |
+| 755260 | Fantasia of the Wind Guide Book| DLC |
+| 754530 | IL-2 Sturmovik: Cliffs of Dover Blitz| Game |
+| 755580 | Daddy's gone a-hunting| Game |
+| 755770 | YouTube VR| Game |
+| 755470 | The World Next Door| Game |
+| 756440 | Your Bunny Wrote| Game |
+| 756280 | Deep Space Waifu: Flat Justice - Soundtrack| DLC |
+| 756530 | TOKYO GHOUL：re [CALL to EXIST]| Game |
+| 756600 | Trianga's Project: Battle Splash 2.0| Game |
+| 756880 | NVL| Game |
+| 757180 | Wolf & Rabbit| Game |
+| 757310 | Sable| Game |
+| 758050 | Internet Simulator| Game |
+| 758090 | 茂伸奇谈| Game |
+| 758500 | Loot Box Quest| Game |
+| 758670 | Tower Accelerator| Application |
+| 758700 | Half Past Impossible| Game |
+| 758690 | Occupy Mars: The Game| Game |
+| 744060 | Groove Coaster| Game |
+| 758720 | Castle Story - OST| DLC |
+| 758730 | Paw Patrol: On A Roll| Game |
+| 759970 | HIBIKAKEYIRONOKISEKI / 裂色的奇迹| Game |
+| 760460 | WEED| Game |
+| 742120 | DRAGON QUEST® XI: Echoes of an Elusive Age™| Game |
+| 760810 | Retimed| Game |
+| 7610 | Railroad Tycoon 3| game |
+| 761440 | Santa Run| Game |
+| 761660 | Stickman Destruction 2| Game |
+| 762590 | Zombie Derby 2| Game |
+| 762490 | Naked Sun| Game |
+| 762610 | Russian Subway Dogs| Game |
+| 762220 | Afterparty| Game |
+| 762920 | Glory of the Self-Styled Diehard girl| Game |
+| 762940 | Mineko's Night Market| Game |
+| 763710 | River City Melee Mach!!| Game |
+| 763430 | Front Defense Heroes| Game |
+| 763770 | Space Stories: Darth Star| Game |
+| 763760 | My Coloring Book: Food and Beverage| Game |
+| 764300 | Shantae: Half-Genie Hero Ultimate Edition| Game |
+| 764490 | Stickman Jetpack| Game |
+| 764430 | The Legend of Bean| Game |
+| 765650 | TSUKUMOHIME| Game |
+| 765640 | Change / 改变| Game |
+| 765400 | Christmas Tale - Visual Novel| Game |
+| 766280 | 夜光| Game |
+| 766680 | Punch Line| Game |
+| 766560 | The Fruitless Flower 雾雨中的徒花| Game |
+| 767110 | Anime Girls VR| Game |
+| 767600 | Lepur| Game |
+| 767200 | Chinese Ink Painting Puzzle & Creator| Game |
+| 767910 | Strange Night ll| Game |
+| 768450 | NUTS| Game |
+| 769670 | Gecata by Movavi 5 - Game Recording Software| Application |
+| 769550 | 东73：洋红色童话| Game |
+| 769690 | Reading Simulator| Game |
+| 769720 | 风暴岛| Game |
+| 770370 | Adventures of Dragon| Game |
+| 770400 | Fairy of the treasures| Game |
+| 770100 | One Deck Dungeon| Game |
+| 770490 | Death in the Water| Game |
+| 770630 | Boo! Greedy Kid| Game |
+| 771060 | Iron League| Game |
+| 755790 | 无限法则| Game |
+| 771410 | You Will Never Get This Achievement| Game |
+| 771240 | YumeCore| Game |
+| 756590 | Atelier Lydie & Suelle ~The Alchemists and the Mysterious Paintings~| Game |
+| 771810 | The spy who shot me™| Game |
+| 771530 | Take That| Game |
+| 771920 | TOGETHER VR| Game |
+| 735580 | 11-11 Memories Retold| Game |
+| 773460 | Pupil: Wandering VR| Game |
+| 773670 | Delete| Game |
+| 773580 | Game Dev Studio| Game |
+| 773920 | Scram| Game |
+| 774161 | Steampunker| Game |
+| 774261 | My Little Bomb| Game |
+| 774091 | Ostalgie: The Berlin Wall| Game |
+| 774201 | Heaven's Vault| Game |
+| 774321 | STARBO - The Story of Leo Cornell| Game |
+| 774651 | Mighty Gunvolt Burst| Game |
+| 774811 | YUMENIKKI -DREAM DIARY-| Game |
+| 770810 | 可口的披萨，美味的披萨| Game |
+| 774461 | The Jackbox Party Pack 5| Game |
+| 775430 | Discovery Tour by Assassin’s Creed: Ancient Egypt| Game |
+| 775760 | Juice Girl| Game |
+| 775820 | Controllers Battery Indicator | Application |
+| 776340 | Gay World| Game |
+| 775900 | MotoGP™18| Game |
+| 776820 | Sit on bottle| Game |
+| 776890 | Clicker: Mining Simulator| Game |
+| 777240 | Tren0| Game |
+| 777020 | Mumps| Game |
+| 777110 | MEANDERS - Original Soundtrack| DLC |
+| 777270 | Thirsty Bubble| Game |
+| 777390 | Flyout| Game |
+| 777880 | Fluffy Horde| Game |
+| 777670 | Okinawa Rush| Game |
+| 778390 | Corpse Party: Book of Shadows| Game |
+| 778400 | Corpse Party: Sweet Sachiko's Hysteric Birthday Bash| Game |
+| 778570 | Bustories| Game |
+| 769840 | Muddledash| Game |
+| 758370 | Through the Ages| Game |
