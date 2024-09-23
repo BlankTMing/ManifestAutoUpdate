@@ -1,0 +1,582 @@
+"appid" "663380"
+"common"
+{
+	"name" "Tales from Candlekeep: Tomb of Annihilation"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "bd02e1fc16e00e2444b5785315012f96241a6aeb"
+	"logo_small" "bd02e1fc16e00e2444b5785315012f96241a6aeb_thumb"
+	"icon" "9dac51bd0ebe9d25865c49753b7aad7178cd05d0"
+	"clienticon" "c835aebe0d99b306d446080fedb344b2c044a098"
+	"clienttga" "e575eb74bc5b380472f0527dfee48aa9544382ed"
+	"clienticns" "11c2e43099d8da29dcaa009e23b718e981f54841"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "663380_eula_0"
+			"name" "Tales From Candlekeep: Tomb of Annihilation EULA"
+			"url" "http://store.steampowered.com//eula/663380_eula_0"
+		}
+	}
+	"releasestate" "released"
+	"app_retired_publisher_request" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1681948800"
+		"tested_build_id" "2903761"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Tales from Candlekeep: Tomb of Annihilation"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1561143602"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "BKOM Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "BKOM Studios"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "25"
+		"1" "3"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_44" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1507705262"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "663380"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "21"
+		"2" "1770"
+		"3" "14153"
+		"4" "9"
+		"5" "1677"
+		"6" "4182"
+		"7" "1741"
+		"8" "492"
+		"9" "1720"
+		"10" "1684"
+		"11" "5125"
+	}
+	"review_score" "5"
+	"review_percentage" "69"
+}
+"extended"
+{
+	"absolutemousecoordinates" "0"
+	"remoteplaytogethertestingbranches" "dnd_bkom_qa"
+	"developer" "BKOM Studios"
+	"publisher" "BKOM Studios"
+	"homepage" "https://talesfromcandlekeep.com"
+	"gamemanualurl" "https://store.steampowered.com/manual/663380/"
+	"listofdlc" "750320,750340,750341,750342,774841"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Tales from Candlekeep"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TalesCandlekeep.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "TalesCandlekeep.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "DnD-Tomb_of_Annihilation.exe"
+			"description" "WOTC Beta Review"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "dnd_wotc_review"
+			}
+		}
+		"3"
+		{
+			"executable" "DnD-Tomb_of_Annihilation.app"
+			"description" "WOTC Beta Review"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+				"betakey" "dnd_wotc_review"
+			}
+		}
+	}
+}
+"depots"
+{
+	"663381"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3634265590247577854"
+				"size" "1486729907"
+				"download" "1458955584"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dnd_bkom_qa"
+			{
+				"gid" "1AE48137C42A0A0FDC03D2D069C68C83"
+				"size" "8ABF9EBF44D22B6DE315CA28412CAA72"
+				"download" "C39B097E8024F21426D6C8CD93684444"
+			}
+			"dnd_dev"
+			{
+				"gid" "0EA80892AB7EF98AEFFFC5DF2F754179"
+				"size" "17CD194D24BEF3DA467E55CB6AAA6E76"
+				"download" "9E8A1191353FB83C6835FE4BD37B1D60"
+			}
+			"dnd_wotc_review"
+			{
+				"gid" "4D5A33E9D2CFB49A620CD5951D5D545D"
+				"size" "4D1950F2A06C4B9C3565591B11310445"
+				"download" "F2EFCAABBB14C0662FA95C5ECA4C7A96"
+			}
+			"pax_demo"
+			{
+				"gid" "DBC4917EAB274235199275C399AEAF75"
+				"size" "962141B1C794EB2BC0581C2F54BC97B8"
+				"download" "CD3460B10408B2A2999F244A3EEF76EA"
+			}
+			"tfc_streams_cheat"
+			{
+				"gid" "C7964DB0FCD0BC88BE124A4141FD410B"
+				"size" "413A863DABEE3E90F0E6882EE8B3A558"
+				"download" "EB6AFCD34D01FFDA1444E10C1D5FE3EB"
+			}
+		}
+	}
+	"663382"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8237316869906727504"
+				"size" "1568684776"
+				"download" "1501502288"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dnd_bkom_qa"
+			{
+				"gid" "3B48E4C633AC8F4D91AFEB6AA5FA9C27"
+				"size" "92D2C1E9C440BB199BCC7504E49C7C3D"
+				"download" "E8E2157654DD0ED3E201E4887905C439"
+			}
+			"dnd_dev"
+			{
+				"gid" "EF56E50899C9077AE3FA51BF60BBFB75"
+				"size" "7B2D20AA0E98903FEB878A3A8C02C366"
+				"download" "520FE60F7C0C478934292CC9DDCB2417"
+			}
+			"dnd_wotc_review"
+			{
+				"gid" "EC866B4A1FB1F85E85D51D4F28C8D73F"
+				"size" "9CAB7B2905DFACB1F3821143B250B4C3"
+				"download" "E3F83428B891BEAF0A0599A046D20DBC"
+			}
+			"pax_demo"
+			{
+				"gid" "5C3FF4C1F70F9B9A2A230AB60005870F"
+				"size" "6FC42697F8DA9DF01F65532E802F54F4"
+				"download" "2EDB39579A3BA01BD2526686C7F39CC5"
+			}
+			"tfc_streams_cheat"
+			{
+				"gid" "C703633E63422689F5D1A77D07C814D3"
+				"size" "7F4C4705503EF7492685682CF6D64CFE"
+				"download" "EE2936E892D74717BB9CA0257597CBE8"
+			}
+		}
+	}
+	"750320"
+	{
+		"dlcappid" "750320"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3459814983779837568"
+				"size" "3895946"
+				"download" "3933264"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dnd_bkom_qa"
+			{
+				"gid" "A88551BC510428C53B3C94D076DEDCCA"
+				"size" "13622769B8009B163A4E43AE2A76DA37"
+				"download" "3C246E0AD06CF52DD3AF88C5BB28FED9"
+			}
+			"dnd_dev"
+			{
+				"gid" "84EC47186076574C125D7CA30DD5B136"
+				"size" "1C56DD6C1A9CF9A088BE4F4DC3701834"
+				"download" "1227E916EC39EAD1651E007830B387EC"
+			}
+			"dnd_wotc_review"
+			{
+				"gid" "48ACFDC737EC4EF49718BF6265126617"
+				"size" "877575540452FEA40C82C0242CAF8EC1"
+				"download" "F380823FC0549E96626787C98543DC9F"
+			}
+			"tfc_streams_cheat"
+			{
+				"gid" "7FCE1EA157DD7DA12DF79E4DB8C78DC3"
+				"size" "1838C6E8F97618819F1197F03717A6DF"
+				"download" "10BC5E347F0BECA3BC3E3C17C37566B5"
+			}
+		}
+	}
+	"750341"
+	{
+		"dlcappid" "750341"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7125132288227138282"
+				"size" "3950266"
+				"download" "3986096"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dnd_bkom_qa"
+			{
+				"gid" "50C4CE4A451DB830D21C4E38EF5F5F26"
+				"size" "EB9A310F6A78D9D581B22E7A3E2C34FD"
+				"download" "918C31DB0B88D8F631A40D14E5B2D7C0"
+			}
+			"dnd_dev"
+			{
+				"gid" "31D30E00F1A91B9843667FDEC34FBB1D"
+				"size" "D09A4CFABFABA896EE96C34EEBC5DB9F"
+				"download" "387CDEAAD5AEA4D0A28C28A48DB25FC0"
+			}
+			"dnd_wotc_review"
+			{
+				"gid" "7F23630CF56E0764D73F2C67332069D7"
+				"size" "908D777275DF8FB39CFFC9234BD19231"
+				"download" "EAEA5A4AA26BF812296ED8E1C84A62DB"
+			}
+			"tfc_streams_cheat"
+			{
+				"gid" "EBE9D78683DB016830016C5D9CE08C3A"
+				"size" "E28A339117C270437426320C6B78BB4F"
+				"download" "7A4D6D47181D77A452296427266A72CB"
+			}
+		}
+	}
+	"750340"
+	{
+		"dlcappid" "750340"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "706001627242455103"
+				"size" "3959524"
+				"download" "3990624"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dnd_bkom_qa"
+			{
+				"gid" "E9CAAC73D1F0F170149BCB672751B355"
+				"size" "2AEEC8B18F6BD6853921E92040CE48BF"
+				"download" "127C57136A4BC41F63BFE078B7449517"
+			}
+			"dnd_dev"
+			{
+				"gid" "090CDCCCAE37F7759571B09A803E72DF"
+				"size" "89DD4E14E0511A8239CBC41EAFCC7C75"
+				"download" "FC76360E8FE7D83DAC0C7EB49FB05810"
+			}
+			"dnd_wotc_review"
+			{
+				"gid" "7A46606A891FE08A38BA5E7B0AF1A3AE"
+				"size" "A34D5D14F7C59097D7443A3B181FB94E"
+				"download" "6BD5C8819D6AF33F00071E31B5D66143"
+			}
+			"tfc_streams_cheat"
+			{
+				"gid" "A631364A7C926432BA2C4B088CCA3A7A"
+				"size" "F776A7BC359530F5274E6861FEBF4C0A"
+				"download" "442AE7EC3653262B679C7E26687E5E8B"
+			}
+		}
+	}
+	"750342"
+	{
+		"dlcappid" "750342"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "463826471507021811"
+				"size" "4856513"
+				"download" "4898192"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dnd_bkom_qa"
+			{
+				"gid" "DBBDBDA8AE4593B220FBCD6C70F2129A"
+				"size" "61D0AAC1A47ABECAD9EAD6B3A1BD64AB"
+				"download" "CB75AAF29C26450E1C12DEE268E390B1"
+			}
+			"dnd_dev"
+			{
+				"gid" "D7587E5E0EE3A1EAA6B939FEE741E538"
+				"size" "B56C3FB09906AFEB61DED778B8C15CA4"
+				"download" "D6F6FC20FD96BFC855D6B303BAC3E2E8"
+			}
+			"dnd_wotc_review"
+			{
+				"gid" "624C29396A04FA4ED21A0BAD8070360D"
+				"size" "1C22FC93FC4F3F514A5964BB64C4140D"
+				"download" "25E8236677BE82CF9E7AFBD31A31381F"
+			}
+			"tfc_streams_cheat"
+			{
+				"gid" "D958F3FE37F39C81C718F8B761F7FE61"
+				"size" "1808BFE38620EF677B2D385F7ACF33A6"
+				"download" "BF84E778D36B0692FA9AD1EB639463D7"
+			}
+		}
+	}
+	"774841"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8060200792336831346"
+				"size" "4165411"
+				"download" "4201168"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dnd_bkom_qa"
+			{
+				"gid" "66B4E2576058AFBF023C7D96B3254DC2"
+				"size" "50F810C2A960C7B5B75DE9FED22F74BA"
+				"download" "F88BEF90718CC463167523D3313522BB"
+			}
+			"dnd_dev"
+			{
+				"gid" "9E07F39960C72E54D30B910B3F60B6F7"
+				"size" "AC2D951E64F283B571339F9E7CD3DA1A"
+				"download" "F8DD4B8D694EE3A0DA81517BE7142580"
+			}
+			"dnd_wotc_review"
+			{
+				"gid" "F0F70F90C2AFD9E5F0AD7DFB41710C71"
+				"size" "39E3D2D8DA0584C516D14C12ACFC478B"
+				"download" "DCF0F889CDB01C86A3A1EFFABA41E359"
+			}
+			"tfc_streams_cheat"
+			{
+				"gid" "8510F50BF60DC1A71EC7269FC5A1F07D"
+				"size" "F537E11471D5AEE3D47960458DCABE4C"
+				"download" "9AC00A20E1A5E9605782CAC8619114CD"
+			}
+		}
+		"dlcappid" "774841"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2903761"
+			"timeupdated" "1530225541"
+		}
+		"dnd_bkom_qa"
+		{
+			"buildid" "2903761"
+			"pwdrequired" "1"
+			"timeupdated" "1530220667"
+		}
+		"dnd_dev"
+		{
+			"buildid" "2659273"
+			"pwdrequired" "1"
+			"timeupdated" "1522850080"
+		}
+		"dnd_wotc_review"
+		{
+			"buildid" "2505178"
+			"pwdrequired" "1"
+			"timeupdated" "1518012639"
+		}
+		"pax_demo"
+		{
+			"buildid" "2659865"
+			"pwdrequired" "1"
+			"timeupdated" "1522862016"
+		}
+		"tfc_streams_cheat"
+		{
+			"buildid" "2648518"
+			"pwdrequired" "1"
+			"timeupdated" "1522430041"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Save"
+			"pattern" "*.sav"
+		}
+	}
+}
