@@ -1,0 +1,197 @@
+"appid" "985740"
+"common"
+{
+	"name" "同居指南 | Cohabitation Guide"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "8e30eaf881f4cd49cd9ce660e58dfb16c5ea90e4"
+	"logo_small" "8e30eaf881f4cd49cd9ce660e58dfb16c5ea90e4_thumb"
+	"clienticon" "cdc4b8adf7c46d742112f1c0b7a9f623e3aa88ca"
+	"clienttga" "2d6e81a981bade8b87c5a7f2bd6096ec8b496946"
+	"icon" "a046262666941867126820eb4968f13862021abc"
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"metacritic_name" "同居指南"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"store_asset_mtime" "1562406717"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "CCYY"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "CCYY"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+		"3" "3"
+		"4" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1562921980"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "985740"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "597"
+		"2" "21"
+		"3" "122"
+		"4" "599"
+		"5" "3799"
+	}
+	"review_score" "5"
+	"review_percentage" "58"
+}
+"extended"
+{
+	"developer" "CCYY"
+	"publisher" "CCYY"
+}
+"config"
+{
+	"installdir" "CohabitationGuide"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TJZN.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "TJZN.app/Contents/MacOS/TJZN"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"985741"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "642236280657492949"
+				"size" "368152853"
+				"download" "204166992"
+			}
+		}
+	}
+	"985743"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6438296674496027421"
+				"size" "367633928"
+				"download" "200486000"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3998190"
+			"timeupdated" "1562746223"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "config"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "TJZN.app/Contents/MacOS/config"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" ""
+		}
+	}
+}
