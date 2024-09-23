@@ -1,0 +1,211 @@
+"appid" "751220"
+"common"
+{
+	"name" "ETHEREAL"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "86805fe715cd69cc7ac2ef1bbf8216f99a7b9d28"
+	"logo_small" "86805fe715cd69cc7ac2ef1bbf8216f99a7b9d28_thumb"
+	"icon" "0331a1d96c96f8277c9a2c4520f765696063eaad"
+	"clienticon" "d97d50486945739865cd5df7bb0b59bd54be04cd"
+	"clienttga" "7da016e0c06a19b08317b7d3c08f7e474fce18da"
+	"languages"
+	{
+		"english" "1"
+		"spanish" "1"
+	}
+	"metacritic_name" "ETHEREAL"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1556113144"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Nicolás Recabarren"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Tomás Batista"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Nonsense Arts"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1551988803"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "751220"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "1664"
+		"2" "4400"
+		"3" "3871"
+		"4" "1756"
+		"5" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "Nicolás Recabarren"
+	"publisher" "Nonsense Arts"
+	"homepage" "http://www.nonsensearts.com"
+}
+"config"
+{
+	"installdir" "ETHEREAL"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ETHEREAL.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "ETHEREAL.app\\Contents\\MacOS\\ETHEREAL"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,spanish"
+	"751221"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3258073002377923193"
+				"size" "220205612"
+				"download" "145638320"
+			}
+		}
+	}
+	"751222"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5806940890744239399"
+				"size" "233730650"
+				"download" "147973664"
+			}
+		}
+	}
+	"751223"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5047645382558260247"
+				"size" "214655020"
+				"download" "143765600"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3795647"
+			"timeupdated" "1557074073"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "NonSense Arts/ETHEREAL"
+			"pattern" "*.dat"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "NonSense Arts/ETHEREAL"
+					"replace" "unity.NonSense Arts.ETHEREAL"
+				}
+			}
+		}
+	}
+}
