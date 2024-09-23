@@ -1,0 +1,227 @@
+"appid" "1101570"
+"common"
+{
+	"name" "Cliper"
+	"type" "Application"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"icon" "6841f10df115cd5c5f8274fc995f6edede0b677f"
+	"clienticon" "d80756139747e05c6a0a4df7eb441df2c73d73c9"
+	"clienttga" "3d178b315b4d7209507360d3f9804ee35003d71d"
+	"logo" "736b37fc4cd13114bfa1172bcabfe681fe7d0058"
+	"logo_small" "736b37fc4cd13114bfa1172bcabfe681fe7d0058_thumb"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "1101570_eula_0"
+			"name" "Cliper EULA"
+			"url" "https://store.steampowered.com//eula/1101570_eula_0"
+		}
+	}
+	"name_localized"
+	{
+		"english" "Cliper: A clipboard enhancement tool"
+		"schinese" "Cliper: 剪贴板增强工具"
+		"tchinese" "Cliper: 剪貼簿增強工具"
+		"japanese" "Cliper: 増強型クリップボード"
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "98.28839857363074"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1590995819"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Starship Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Starship Studio"
+		}
+	}
+	"primary_genre" "57"
+	"genres"
+	{
+		"0" "53"
+		"1" "57"
+		"2" "59"
+	}
+	"category"
+	{
+		"category_22" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1591010490"
+	"community_hub_visible" "1"
+	"gameid" "1101570"
+	"exfgls" "6"
+	"store_tags"
+	{
+		"0" "87"
+		"1" "84"
+		"2" "1038"
+		"3" "597"
+		"4" "8013"
+	}
+	"review_score" "5"
+	"review_percentage" "55"
+}
+"extended"
+{
+	"developer" "Starship Studio"
+	"publisher" "Starship Studio"
+}
+"config"
+{
+	"installdir" "Cliper"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Cliper.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "cmd.exe"
+			"arguments" " /c start \"\" Cliper.exe -s"
+			"description" "(Background Mode) Launch Cliper Without Steam"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "cmd.exe"
+			"arguments" " /c start \"\" Cliper.exe -s"
+			"description" "测试用"
+			"type" "none"
+			"config"
+			{
+				"betakey" "Debug"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" ""
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1101571"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3408809955079766926"
+				"size" "32533916"
+				"download" "7199568"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"debug"
+			{
+				"gid" "3BE0A7C12CDF3D55D8D603C975ED4083"
+				"size" "352C78D30E762B1268D2F7297D6E4219"
+				"download" "705040C5C7236A81F2A4E2FA7D2CBE79"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5125260"
+			"timeupdated" "1591353600"
+		}
+		"debug"
+		{
+			"buildid" "5125260"
+			"pwdrequired" "1"
+			"timeupdated" "1591359664"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1048576"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "Cliper"
+			"pattern" "*.cliper"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
