@@ -1,0 +1,230 @@
+"appid" "94530"
+"common"
+{
+	"name" "Back to the Future: Ep 5 - OUTATIME"
+	"clienticon" "fd04601bfbbbc644479eef9272b38b960e5ebee0"
+	"clienttga" "150652ba204575522d64482a6e24c425c2b69941"
+	"icon" "3d034831533383bc5a58787763925660684de8c4"
+	"clienticns" "57e01f4dacf58e0d1b3466a015bda3103085b537"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+	}
+	"logo" "76361dfc1ef09dbb7f6572a6da7ab38a811f54af"
+	"logo_small" "76361dfc1ef09dbb7f6572a6da7ab38a811f54af_thumb"
+	"oslist" "windows,macos"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1679356800"
+		"tested_build_id" "25499"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Back to the Future: Ep 5 - OUTATIME"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1308850488"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Telltale Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Telltale Games"
+		}
+	}
+	"primary_genre" "0"
+	"category"
+	{
+		"category_62" "1"
+	}
+	"community_hub_visible" "1"
+	"gameid" "94530"
+	"store_tags"
+	{
+		"0" "1698"
+		"1" "21"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "Telltale Games"
+	"gamedir" "BTTF105"
+	"homepage" ""
+	"icon" ""
+	"installscript_macos" "BackToTheFuture105.app\\installScript_osx.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "94531"
+	"primarycache_macos" "94532"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "windows,macos"
+	"publisher" "Telltale Games"
+}
+"config"
+{
+	"installscriptsignature" "93587e316e134fb22028c3f8bd2c55da0acec71a93d88d09c5c4902753c5e7f2d6bc7d889dfd75e0eb345d0d0237c745f95ca330d16c9f16fd7294ab4f8f11f771c0f7a243423aa52dc31c7162d9cfa88dd8b6b5848bcfc2443f6ef93eb412607fc2aa6ff94ebf0146c7cbe598662a68fdf4823ae939e5b45e49e7da45d6a4bc"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Back to the Future 105"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "BackToTheFuture105.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "BackToTheFuture105.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\telltale games\\backtothefuture105.exe"
+		{
+			"string"
+			{
+				"distribution" "Telltale"
+				"franchise" "BackToTheFuture100"
+				"install location" "%INSTALLDIR%\\"
+				"manual" "Manual.pdf"
+				"readme" "Readme.txt"
+				"savegamefoldername" "Episode 5"
+				"version" "1.0.0.0"
+				"english"
+				{
+					"language" "english"
+					"language id" "1033"
+				}
+				"german"
+				{
+					"language" "german"
+					"language id" "1031"
+				}
+				"french"
+				{
+					"language" "french"
+					"language id" "1033"
+				}
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\31290"
+			"process 1" "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"94532"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2463854689865651577"
+				"size" "699643077"
+				"download" "0"
+			}
+		}
+	}
+	"94531"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3056684580627220621"
+				"size" "560860619"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "25499"
+		}
+	}
+}
