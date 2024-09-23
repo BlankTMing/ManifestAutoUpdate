@@ -1,0 +1,233 @@
+"appid" "94510"
+"common"
+{
+	"name" "Back to the Future: Ep 3 - Citizen Brown"
+	"clienticon" "b8adaeaf451c495baa505e620fd4accba1b1218f"
+	"clienttga" "df2c6ff7f2e5d53df701e28cd1ec1566d934472b"
+	"icon" "a51c4795b44f689628bd76bc64cad310385ba1a2"
+	"clienticns" "b7a5cd5f54c72950c0913a4dd2721355707cc745"
+	"logo" "7fe46585ad7fbc8fedb38db7f8dd8608be5a46ee"
+	"logo_small" "7fe46585ad7fbc8fedb38db7f8dd8608be5a46ee_thumb"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+	}
+	"oslist" "windows,macos"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1679356800"
+		"tested_build_id" "25497"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Back to the Future: Ep 3 - Citizen Brown"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1301423654"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Telltale Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Telltale Games"
+		}
+	}
+	"primary_genre" "0"
+	"category"
+	{
+		"category_62" "1"
+	}
+	"community_hub_visible" "1"
+	"gameid" "94510"
+	"store_tags"
+	{
+		"0" "1698"
+		"1" "21"
+		"2" "4242"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "Telltale Games"
+	"gamedir" "Back to the Future 103"
+	"homepage" ""
+	"icon" ""
+	"installscriptosx" "BackToTheFuture103.app\\installScript_osx.vdf"
+	"installscript_macos" "BackToTheFuture103.app\\installScript_osx.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "94511"
+	"primarycache_macos" "94514"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "windows,macos"
+	"publisher" "Telltale Games"
+}
+"config"
+{
+	"installscriptsignature" "773d6eaaef47a1c7165563690abe3a5606c13804c08bb6d693a50f2ba1d1193db8663177dfb174529363cd05a40162db45837f0d28d7cbe71772793cd7add287f75ce52a7aeb828e8df5a5ac7d97e234555fe089d3440c66482367a4a7e99a4794efd7795118358a08240927b60eef8a4223fa6a0c3df2fc5f7532acb0b909d7"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Back to the Future 103"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "BacktotheFuture103.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"description" "Default-Mac"
+			"executable" "BackToTheFuture103.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\telltale games\\backtothefuture103.exe"
+		{
+			"string"
+			{
+				"distribution" "Telltale"
+				"franchise" "BackToTheFuture100"
+				"install location" "%INSTALLDIR%\\"
+				"manual" "Manual.pdf"
+				"readme" "Readme.txt"
+				"savegamefoldername" "Episode 3"
+				"version" "1.0.0.0"
+				"english"
+				{
+					"language" "english"
+					"language id" "1033"
+				}
+				"german"
+				{
+					"language" "german"
+					"language id" "1031"
+				}
+				"french"
+				{
+					"language" "french"
+					"language id" "1033"
+				}
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\31290"
+			"process 1" "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"94514"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2594444540176686976"
+				"size" "595887467"
+				"download" "0"
+			}
+		}
+	}
+	"94511"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "124629251768884442"
+				"size" "446871443"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "25497"
+		}
+	}
+}
