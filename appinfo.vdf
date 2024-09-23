@@ -1,0 +1,216 @@
+"appid" "589480"
+"common"
+{
+	"name" "The Falconers: Moonlight"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"clienticon" "b3f44fe9d1f0357c4836ee06deff7260269bff71"
+	"clienttga" "14579e70e84d6f8eef3ac3dd0e65ee20c9f53029"
+	"icon" "9fd7d5f9599b5e0ba34a95fbfd8c6514a37b2d0e"
+	"clienticns" "a738b12c974a54fb0b76cfdbf1e7360f8ab7f047"
+	"linuxclienticon" "b9ff067b03e793a29321006cdc9cce5d2b4205b6"
+	"logo" "2ae024fd3e3a22db6d9339d32413846fecc8e49f"
+	"logo_small" "2ae024fd3e3a22db6d9339d32413846fecc8e49f_thumb"
+	"metacritic_name" "The Falconers: Moonlight"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1568780524"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Bionic Penguin"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Sekai Project"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"thai"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1492542235"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "589480"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "7208"
+		"3" "597"
+		"4" "3799"
+		"5" "1742"
+		"6" "19"
+		"7" "4064"
+		"8" "10808"
+		"9" "6971"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "Bionic Penguin"
+	"publisher" "Sekai Project"
+	"homepage" "https://www.bionicpenguinstudios.com/moonlight/"
+}
+"config"
+{
+	"installdir" "The Falconers Moonlight"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "moonlight.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "moonlight.app\\Contents\\MacOS\\moonlight"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "moonlight.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"589481"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3570397391427479529"
+				"size" "643639563"
+				"download" "574823056"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1781461"
+			"timeupdated" "1493186369"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "5000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "game/saves"
+			"pattern" "*"
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "RenPy/The Falconers Moonlight"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"2"
+		{
+			"root" "MacHome"
+			"path" "Library/RenPy/The Falconers Moonlight"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"3"
+		{
+			"root" "LinuxHome"
+			"path" ".renpy/The Falconers Moonlight"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
