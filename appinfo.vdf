@@ -1,0 +1,266 @@
+"appid" "984560"
+"common"
+{
+	"name" "HEARTBEAT"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"clienticon" "8b509955f1fdcc600991077e681ff33ebb6f6289"
+	"clienttga" "49734c440eab490c54af9d603df8386b7ebd8d84"
+	"icon" "a8fb2388c98c0143a1a8a824036d2ced678e1257"
+	"logo" "1202e34b3a26d0fb36b4cabdf502d82fe185e0fe"
+	"logo_small" "1202e34b3a26d0fb36b4cabdf502d82fe185e0fe_thumb"
+	"releasestate" "released"
+	"metacritic_name" "HEARTBEAT"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1543265596"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "CHUMBOSOFT LLC"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "CHUMBOSOFT LLC"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "23"
+		"1" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1544620799"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "984560"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "492"
+		"2" "3964"
+		"3" "5577"
+		"4" "7208"
+		"5" "4726"
+		"6" "4085"
+		"7" "21"
+		"8" "1756"
+		"9" "4434"
+		"10" "1742"
+		"11" "4182"
+		"12" "4325"
+		"13" "1677"
+		"14" "916648"
+	}
+	"review_score" "8"
+	"review_percentage" "85"
+	"review_score_bombs" "8"
+	"review_percentage_bombs" "86"
+}
+"extended"
+{
+	"developer" "CHUMBOSOFT LLC"
+	"publisher" "CHUMBOSOFT LLC"
+	"listofdlc" "985110"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "HEARTBEAT"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "nw.exe"
+			"arguments" "--in-process-gpu --user-data-dir=heartbeat/"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Game.app"
+			"arguments" "--in-process-gpu"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "nw"
+			"arguments" "--in-process-gpu --user-data-dir=heartbeat/"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"hasdepotsindlc" "1"
+	"984561"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7964627249258758643"
+				"size" "743781881"
+				"download" "538513840"
+			}
+		}
+	}
+	"984562"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6596246508078197205"
+				"size" "725315173"
+				"download" "536702576"
+			}
+		}
+	}
+	"984563"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2254786419167844688"
+				"size" "1070569271"
+				"download" "543324576"
+			}
+		}
+	}
+	"984564"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4717872850160845569"
+				"size" "767231004"
+				"download" "538805456"
+			}
+		}
+	}
+	"984565"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5075954366725040925"
+				"size" "772409164"
+				"download" "540732560"
+			}
+		}
+	}
+	"workshopdepot" "984560"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3953671"
+			"timeupdated" "1561484179"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "www/save"
+			"pattern" "*.rpgsave"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "nwjs.app/Contents/Resources/app.nw/save"
+			"pattern" "*.rpgsave"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "www/save"
+			"pattern" "*.rpgsave"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
