@@ -1,0 +1,225 @@
+"appid" "806740"
+"common"
+{
+	"name" "Fei Duanmu VS Kobayashi 端木斐 VS 小林正雪"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "12e6fa9a13261f1d92919d4968f70e1c71336bbc"
+	"logo_small" "12e6fa9a13261f1d92919d4968f70e1c71336bbc_thumb"
+	"icon" "a5f432988574be23770cbee605dc2865ab2e81e2"
+	"clienticon" "539f67d084bc63f48db37dd9600ea9a9f4d04681"
+	"clienttga" "1fdfee179ccf9f62b229262bef261f77f68608a7"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"tchinese" "1"
+	}
+	"osextended" "macos64"
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"metacritic_name" "Fei Duanmu VS Kobayashi 端木斐 VS 小林正雪"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "43.726504566414825"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1569391864"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "致意"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "傅真"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "致意"
+		}
+		"3"
+		{
+			"type" "publisher"
+			"name" "傅真"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1541080097"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "806740"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "3799"
+		"2" "1664"
+	}
+	"review_score" "8"
+	"review_percentage" "92"
+}
+"extended"
+{
+	"developer" "致意"
+	"publisher" "致意"
+}
+"config"
+{
+	"installdir" "DMF_VS_KOBA"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "dmfVSkobayashi.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "dmfVSkobayashi.sh"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "dmfVSkobayashi.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+}
+"depots"
+{
+	"806741"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1883614653804164438"
+				"size" "960059320"
+				"download" "817487520"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "601908B07AF688C3DC2C54AF0FA70559"
+				"size" "74642C4DE233028172EBFB05745725BA"
+				"download" "EC935A91C920767D181B2B10F4A0C435"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3549532"
+			"timeupdated" "1549868952"
+		}
+		"test"
+		{
+			"buildid" "3549532"
+			"pwdrequired" "1"
+			"timeupdated" "1549868624"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "25000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "RenPy/dmfVSkobayashi-1516172837"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "DMF.app/Contents/Resources/autorun/saves"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"2"
+		{
+			"root" "LinuxHome"
+			"path" ".renpy/dmfVSkobayashi-1516172837"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
