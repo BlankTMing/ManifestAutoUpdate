@@ -1,0 +1,287 @@
+"appid" "1175190"
+"common"
+{
+	"name" "Natsuki Chronicles"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"icon" "e7ea3bb4cdb866ae0f13a800ffeb86de3907ee8d"
+	"logo" "1edddd9fb418bfafbec80a613356beb4c19f6bb2"
+	"logo_small" "1edddd9fb418bfafbec80a613356beb4c19f6bb2_thumb"
+	"clienticon" "7f4e44a61a33298f5dc2a2102242ad8cd158fdac"
+	"clienttga" "29e89eb782423d78cbfba2bb94c78060e2da6bca"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"japanese" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1651104000"
+		"tested_build_id" "6334620"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "100"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1611568355"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Qute"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Rising Star Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_22" "1"
+		"category_2" "1"
+		"category_28" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1613660613"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1175190"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "4255"
+		"2" "1773"
+		"3" "4085"
+		"4" "1734"
+		"5" "1756"
+		"6" "4885"
+		"7" "7208"
+	}
+	"review_score" "8"
+	"review_percentage" "85"
+}
+"extended"
+{
+	"developer" "Qute"
+	"publisher" "Rising Star Games"
+}
+"config"
+{
+	"installdir" "NatsukiChronicles"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "x64\\Release_Steam\\Natsuki_Desktop_Steam.exe"
+			"arguments" "/a"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,japanese"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1175191"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2571357899318133976"
+				"size" "4691788103"
+				"download" "3080160576"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"latest_patch_test"
+			{
+				"gid" "EA45022CE0A0631F39EF53857D52053E"
+				"size" "90A43EC0983521449E8276982C652191"
+				"download" "A1930A1C3808B789F6595BB11F6C07EC"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "6334620"
+			"timeupdated" "1616507907"
+		}
+		"latest_patch_test"
+		{
+			"buildid" "6334620"
+			"pwdrequired" "1"
+			"timeupdated" "1615378460"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Qute\\NatsukiChronicles"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
