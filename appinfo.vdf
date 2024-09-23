@@ -1,0 +1,349 @@
+"appid" "490690"
+"common"
+{
+	"name" "The Barbarian and the Subterranean Caves"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+	}
+	"icon" "6c2fb56538eeb8f751131819544f73f484b141b8"
+	"clienttga" "d7fb99cb7fc697918be9c75e4306549d020b9ec8"
+	"clienticon" "a161e3757e5e6b3b58e75a10133562b3494a78ba"
+	"linuxclienticon" "45c241ea93d19cd2f9347c1b23a2f9d5c38bb0b4"
+	"logo" "fd97bd4922a3ff9445992904ac8aa4c811fe4d32"
+	"logo_small" "fd97bd4922a3ff9445992904ac8aa4c811fe4d32_thumb"
+	"clienticns" "491ed9cd3f0fc0fa793c6fe04d417971010f338f"
+	"releasestate" "released"
+	"osarch" ""
+	"osextended" "macos64"
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "2"
+		"2" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1716854400"
+		"tested_build_id" "4235684"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"metacritic_name" "The Barbarian and the Subterranean Caves"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "100"
+			"height_pct" "87.46141059130848"
+		}
+	}
+	"store_asset_mtime" "1572795482"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "NLB project"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "NLB project"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "NLB project"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1486687923"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "490690"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "3799"
+		"3" "4667"
+		"4" "4486"
+		"5" "6426"
+		"6" "4182"
+		"7" "5094"
+		"8" "11014"
+		"9" "6971"
+		"10" "6869"
+		"11" "4711"
+		"12" "11123"
+		"13" "6650"
+		"14" "12095"
+	}
+	"review_score" "6"
+	"review_percentage" "76"
+}
+"extended"
+{
+	"developer" "NLB project"
+	"publisher" "NLB project"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "The_Barbarian_and_the_Subterranean_Caves"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "barbsc.exe"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"1"
+		{
+			"executable" "barbsc"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "BarbarianCaves.app/Contents/MacOS/sdl-instead"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "barbsc.exe"
+			"arguments" "-fullscreen -standalone -game barbarian_caves"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,russian"
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"490691"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4821634780171472729"
+				"size" "315074381"
+				"download" "302010128"
+			}
+		}
+	}
+	"490692"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2375074201249115428"
+				"size" "364114100"
+				"download" "303358656"
+			}
+		}
+	}
+	"490693"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5627903135571919867"
+				"size" "312178537"
+				"download" "300628208"
+			}
+		}
+	}
+	"490694"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7907525357797595626"
+				"size" "312002264"
+				"download" "300562272"
+			}
+		}
+	}
+	"490695"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6767451149120024727"
+				"size" "319335706"
+				"download" "303437760"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4235684"
+			"timeupdated" "1569587527"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "appdata/saves/barbarian_caves"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" "BarbarianCaves.app/Contents/Resources"
+		}
+	}
+}
