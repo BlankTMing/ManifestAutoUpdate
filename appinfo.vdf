@@ -1,0 +1,392 @@
+"appid" "650220"
+"common"
+{
+	"name" "Interplanetary: Enhanced Edition"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"logo" "a21dfaadc801de13005196b0c7e93f6fbc426a75"
+	"logo_small" "a21dfaadc801de13005196b0c7e93f6fbc426a75_thumb"
+	"icon" "e635c3d9b3de97e6e3e3f9a7475c85db2f3818e6"
+	"clienttga" "80a20a0b6cbfee5c2e4d1c1c7879de0c7e3cf4d9"
+	"clienticon" "7ae4c293efe1edf35d48ac3c3560c6b573c2a038"
+	"clienticns" "edee50a98177446f8851293e130e6fe035adfd55"
+	"linuxclienticon" "7f625f16e8a0c23ab326ed4cb4f0c9dae862c991"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+	}
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1664928000"
+		"tested_build_id" "3398086"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Interplanetary: Enhanced Edition"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "59.102222222222196"
+		}
+	}
+	"store_asset_mtime" "1563805080"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Team Jolly Roger"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Team17 Digital Ltd"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_36" "1"
+		"category_22" "1"
+		"category_24" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_49" "1"
+		"category_44" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1501689578"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "650220"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "599"
+		"2" "492"
+		"3" "1755"
+		"4" "1741"
+		"5" "1677"
+		"6" "3859"
+		"7" "14139"
+		"8" "3942"
+		"9" "4182"
+		"10" "7368"
+	}
+	"review_score" "8"
+	"review_percentage" "84"
+}
+"extended"
+{
+	"developer" "Team Jolly Roger"
+	"publisher" "Team17 Digital Ltd"
+	"homepage" "http://www.interplanetarygame.com"
+	"listofdlc" "674700"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Interplanetary Enhanced Edition"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Interplanetary.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Interplanetary.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "Interplanetary.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"674701"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3666254426767318336"
+				"size" "638506170"
+				"download" "248969136"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev_build"
+			{
+				"gid" "F943F83447AB3F2CC91B1422461033C3"
+				"size" "EBDCCD69D27EB7DAAAB7584E79DBB3FC"
+				"download" "1902D04A9C4F952082B9E83CA0D29077"
+			}
+		}
+	}
+	"650229"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "984557665605709688"
+				"size" "641129954"
+				"download" "248586592"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev_build"
+			{
+				"gid" "068CF41FA236672EE4C08309B28B3465"
+				"size" "29C5DF7FDF688C4B3DFEC71E7B5CBEED"
+				"download" "A029AB4E671E6168E24D29B9474E8F05"
+			}
+		}
+	}
+	"650228"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7332287566476489778"
+				"size" "630126543"
+				"download" "247157280"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev_build"
+			{
+				"gid" "3CAAF553854CA7DF60B2F73A27A4F807"
+				"size" "B8FC7DAA4B0BB9B153E85B104ACF5F66"
+				"download" "D9DA209E588114ACB8D8710D3D628BDC"
+			}
+		}
+	}
+	"674700"
+	{
+		"dlcappid" "674700"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7530334064789310965"
+				"size" "104586519"
+				"download" "101455904"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev_build"
+			{
+				"gid" "CC6883C92F08E3C19E66691085C623E8"
+				"size" "DA654F62C30A7717F2F5AA4E30BE3DA8"
+				"download" "2F33240C591A42C55E83EC09BD07B16D"
+			}
+		}
+	}
+	"674702"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+	}
+	"674703"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+	}
+	"674704"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3398086"
+			"timeupdated" "1544798303"
+		}
+		"dev_build"
+		{
+			"buildid" "3398086"
+			"pwdrequired" "1"
+			"timeupdated" "1544796950"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "PlayerData/{64BitSteamID}/"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#atmainmenu" "Main Menu"
+				"#atonlinelobby" "Looking for a Game"
+				"#hostinggame" "Hosting a Game"
+				"#joininggame" "Joining a Game"
+				"#playingonlinematch" "Playing: Online Game"
+				"#playinglocalmatch" "Playing: Local Game"
+			}
+		}
+	}
+}
