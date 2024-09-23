@@ -1,0 +1,196 @@
+"appid" "1270990"
+"common"
+{
+	"name" "West of Dead Beta"
+	"type" "Game"
+	"logo" "66fcb2e018d02a9412286f99d82a30d6f10c3e27"
+	"logo_small" "66fcb2e018d02a9412286f99d82a30d6f10c3e27_thumb"
+	"icon" "ee81bbed91c6cfd2bc8d4c6f4c57f9d1368c06bc"
+	"clienttga" "511055b31399de5addac49561803b09ffe45653d"
+	"clienticon" "c486f0a2e84d847a8aeffcf3f445050eeb577563"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"releasestate" "released"
+	"app_retired_publisher_request" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1591017743"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Upstream Arcade"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Raw Fury AB"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "West of Dead"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1585655580"
+	"community_hub_visible" "1"
+	"gameid" "1270990"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "19"
+		"2" "1647"
+		"3" "4758"
+		"4" "4026"
+		"5" "1716"
+		"6" "113"
+	}
+	"review_score" "8"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"developer" "Upstream Arcade"
+	"publisher" "Raw Fury AB"
+	"homepage" "https://westofdead.com/"
+}
+"config"
+{
+	"installdir" "West of Dead Beta"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "WestOfDead.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1270991"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8636909902460806870"
+				"size" "685514598"
+				"download" "204274912"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "29AA2A8EBDAA9F75DFC6DD582D8741B9"
+				"size" "985A87EB86A00E91BDB25B5A11263145"
+				"download" "7AD604109FB557782E653F11EED87BE4"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5095099"
+			"timeupdated" "1590942757"
+		}
+		"testing"
+		{
+			"buildid" "5095099"
+			"pwdrequired" "1"
+			"timeupdated" "1590767202"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000"
+	"maxnumfiles" "1"
+	"appidredirect" "1016790"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Upstream Arcade/West of Dead"
+			"pattern" "*.dat"
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Upstream Arcade/West of Dead"
+			"pattern" "*.txt"
+			"recursive" "1"
+		}
+		"copied_from_parent" "1"
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ".config/unity3d/"
+		}
+	}
+}
