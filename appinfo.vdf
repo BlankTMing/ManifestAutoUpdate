@@ -81,6 +81,40 @@
 			"height_pct" "71.4568045584865"
 		}
 	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "80.85187955370327"
+				"height_pct" "71.4568045584865"
+			}
+		}
+	}
 	"store_asset_mtime" "1705432923"
 	"associations"
 	{
@@ -115,6 +149,7 @@
 		"category_28" "1"
 		"category_23" "1"
 		"category_29" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -198,11 +233,11 @@
 		"10" "1756"
 		"11" "4026"
 		"12" "4758"
-		"13" "1621"
-		"14" "5154"
-		"15" "3964"
-		"16" "4711"
-		"17" "4791"
+		"13" "5154"
+		"14" "1621"
+		"15" "4791"
+		"16" "3964"
+		"17" "4711"
 		"18" "21"
 		"19" "7743"
 	}
@@ -225,11 +260,26 @@
 		"0"
 		{
 			"executable" "Polygoneer.exe"
-			"type" "default"
+			"type" "option1"
 			"config"
 			{
 				"oslist" "windows"
 			}
+			"description_loc"
+			{
+				"english" "Polygoneer"
+			}
+			"description" "Polygoneer"
+		}
+		"1"
+		{
+			"executable" "Gifts\\Burning Skies Neon\\Burning Skies Neon.exe"
+			"type" "option2"
+			"description_loc"
+			{
+				"english" "Burning Skies Neon"
+			}
+			"description" "Burning Skies Neon"
 		}
 	}
 }
@@ -255,6 +305,7 @@
 	}
 	"700870"
 	{
+		"dlcappid" "700870"
 		"manifests"
 		{
 			"public"
@@ -270,24 +321,37 @@
 				"download" "102701920"
 			}
 		}
-		"dlcappid" "700870"
+	}
+	"684682"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5290205219806507554"
+				"size" "225729822"
+				"download" "110959760"
+			}
+			"development"
+			{
+				"gid" "2882370204519562143"
+				"size" "225694014"
+				"download" "110977712"
+			}
+		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13185973"
-			"timeupdated" "1705416141"
+			"buildid" "14225428"
+			"timeupdated" "1714505796"
 		}
 		"development"
 		{
-			"buildid" "13185973"
+			"buildid" "14316164"
 			"description" "Development Branch"
-			"timeupdated" "1705415945"
+			"timeupdated" "1715264558"
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "21920243"
-"_sha" "17c828540542335d87b36b153f8c4490053dd5c1"
-"_size" "5226"
