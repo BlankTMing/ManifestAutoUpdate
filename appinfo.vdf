@@ -1,0 +1,226 @@
+"appid" "556130"
+"common"
+{
+	"name" "Drones, The Human Condition"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"logo" "bd8fa00d14610b592e5d95347b0b7d2a860a9fd3"
+	"logo_small" "bd8fa00d14610b592e5d95347b0b7d2a860a9fd3_thumb"
+	"icon" "e8924f0912fd03de1e3d8c1e917bbe4d90c4488a"
+	"clienticon" "e76288d27cfa1463e4c9a453fd1e2d99345951c5"
+	"clienttga" "c2201600fe890f8a5dbd1a5d0a7294c09f684034"
+	"metacritic_name" "Drones, The Human Condition"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "35.137852432769805"
+			"height_pct" "92.78081215863216"
+		}
+	}
+	"store_asset_mtime" "1635535512"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Blunt Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "ninjainatux"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_43" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1480615273"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "556130"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "1773"
+		"3" "4255"
+		"4" "4758"
+		"5" "1774"
+		"6" "4637"
+		"7" "5547"
+		"8" "4004"
+		"9" "5752"
+		"10" "1734"
+		"11" "4885"
+		"12" "1649"
+		"13" "4975"
+		"14" "3871"
+		"15" "4400"
+		"16" "4305"
+		"17" "3964"
+		"18" "1714"
+		"19" "4252"
+	}
+	"review_score" "4"
+	"review_percentage" "38"
+}
+"extended"
+{
+	"developer" "Blunt Games"
+	"publisher" "ninjainatux"
+	"homepage" "https://ninjainatux.com"
+}
+"config"
+{
+	"installdir" "Drones, The Human Condition"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DTHC_Game.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "DTHC_Game"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"556131"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4327428772067603019"
+				"size" "190210968"
+				"download" "178292976"
+			}
+			"beta"
+			{
+				"gid" "7377054709047923311"
+				"size" "188973587"
+				"download" "178694864"
+			}
+		}
+	}
+	"556132"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2079653835587523244"
+				"size" "72007821"
+				"download" "58767584"
+			}
+			"beta"
+			{
+				"gid" "6708462856934439362"
+				"size" "69169303"
+				"download" "58366816"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "7560379"
+			"timeupdated" "1634653028"
+		}
+		"beta"
+		{
+			"buildid" "1638485"
+			"description" "Public Beta Branch"
+			"timeupdated" "1634573296"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "1"
+	"hidecloudui" "1"
+	"ignoreexternalfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "DTHC_Game"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "LinuxHome"
+			"path" "DTHC_Game"
+			"pattern" "*.ini"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
