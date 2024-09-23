@@ -1,0 +1,187 @@
+"appid" "99400"
+"common"
+{
+	"name" "Garshasp: The Monster Slayer"
+	"clienticon" "1df95db343d0d78728c9169c701ce68302bbce16"
+	"clienttga" "eed5b5b57061e39090a9d591bdd230afe2ef448b"
+	"icon" "0c39a239305abcec5531dba933f0d4c0ca729a25"
+	"logo" "b78e9419cf2a288bc4e0260c4058db143811b782"
+	"logo_small" "b78e9419cf2a288bc4e0260c4058db143811b782_thumb"
+	"type" "game"
+	"metacritic_name" "Garshasp: The Monster Slayer"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1306352484"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Dead Mage"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Digital Dragon"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"persian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1304969400"
+	"metacritic_score" "49"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/garshasp-the-monster-slayer\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "99400"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "1646"
+	}
+	"review_score" "5"
+	"review_percentage" "48"
+}
+"extended"
+{
+	"cwdoverride" "distro"
+	"developer" "Dead Mage"
+	"gamedir" "The Monster Slayer"
+	"homepage" "http://garshasp.com"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "99401"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Digital Dragon"
+	"gamemanualurl" "https://store.steampowered.com/manual/99400/"
+}
+"config"
+{
+	"installscriptsignature" "54229386d4ffac50aa2c8afe8e751a2df94b4615a639f5b27ca8ecb0f063554e22c4200f054d269937434ad383c28406f43c678720314ad551c1a8351c14baf8c1776c0cbcd42165b495f2883ca11211677780579976f5d85ca6fcc8071470f1e36309426b83723be4abb1cee5e797084f773b77531ae4460d16504ca7d793fa"
+	"launch"
+	{
+		"0"
+		{
+			"description" "The Monster Slayer - Garshasp (Game)"
+			"executable" "distro\\garshasp.exe"
+			"workingdir" "distro"
+		}
+		"1"
+		{
+			"description" "Game Configuration"
+			"executable" "distro\\garshaspconfig.exe"
+			"workingdir" "distro"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "TheMonsterSlayer"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"vcredist"
+		{
+			"process 1" "%INSTALLDIR%\\redist\\vcredist_x86_2008_sp1.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+			"description" "Visual C Library "
+		}
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\redist\\directx_Jun2010_redist\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+			"description" "Microsoft DirectX"
+		}
+		"openal"
+		{
+			"process 1" "%INSTALLDIR%\\redist\\oalinst.exe"
+			"command 1" "/s"
+			"nocleanup" "1"
+			"description" "OpenAL"
+		}
+		"physx legacy"
+		{
+			"process 1" "%windir%\\system32\\msiexec.exe"
+			"command 1" "/i \"%INSTALLDIR%\\redist\\PhysX-9.12.1031-SystemSoftware-Legacy.msi\" /passive"
+			"nocleanup" "1"
+			"description" "Nvidia PhysX Legacy"
+		}
+	}
+}
+"depots"
+{
+	"99401"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2474228653591818614"
+				"size" "3168072514"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "36098"
+		}
+	}
+}
