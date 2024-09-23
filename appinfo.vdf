@@ -1,0 +1,322 @@
+"appid" "751110"
+"common"
+{
+	"name" "OVERVIEW: a Walk Through the Universe"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "2"
+			"360_required" "0"
+		}
+	}
+	"eulas"
+	{
+		"0"
+		{
+			"id" "751110_eula_0"
+			"name" "OVERVIEW EULA"
+			"url" "http://store.steampowered.com//eula/751110_eula_0"
+		}
+	}
+	"logo" "f8ecb40d0d06df0b88578412703a345b95200399"
+	"logo_small" "f8ecb40d0d06df0b88578412703a345b95200399_thumb"
+	"icon" "2a707451e5284c122f345237e3fd810d92a3a74b"
+	"clienticon" "9e0ef1fba88c37dd808043d997a615c2f09a5844"
+	"clienttga" "1325a464768622ea6dbea59a24643e099cc9d80c"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"name_localized"
+	{
+		"french" "OVERVIEW : une Promenade dans l\'Univers"
+		"german" "OVERVIEW: ein Spaziergang durch das Universum"
+		"schinese" "纵观 (OVERVIEW)"
+	}
+	"metacritic_name" "OVERVIEW"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "34.02426693629931"
+			"height_pct" "58.680555555555564"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "34.02426693629931"
+				"height_pct" "58.680555555555564"
+			}
+		}
+	}
+	"store_asset_mtime" "1643215728"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Orbital Views"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Orbital Views"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_52" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1519914633"
+	"community_hub_visible" "1"
+	"gameid" "751110"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "1036"
+		"1" "597"
+		"2" "3834"
+		"3" "6702"
+		"4" "5794"
+		"5" "1755"
+		"6" "3968"
+		"7" "30358"
+		"8" "16598"
+		"9" "21978"
+		"10" "5094"
+		"11" "599"
+		"12" "4175"
+		"13" "5350"
+		"14" "3942"
+		"15" "4166"
+		"16" "4145"
+		"17" "4182"
+		"18" "15339"
+		"19" "4242"
+	}
+	"review_score" "6"
+	"review_percentage" "73"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Orbital Views"
+	"publisher" "Orbital Views"
+	"homepage" "http://www.overviewexperience.com"
+	"listofdlc" "845120"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "OVERVIEW"
+	"launch"
+	{
+		"2"
+		{
+			"executable" "system/OVERVIEW_Steam.exe"
+			"arguments" "-mode=VR_OpenVR"
+			"workingdir" "system"
+			"description" "HTC Vive & WMR"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "system/OVERVIEW_Steam.exe"
+			"arguments" "-mode=VR_Oculus"
+			"workingdir" "system"
+			"description" "Oculus Rift"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "system/OVERVIEW_Steam.exe"
+			"arguments" "-mode=VR_OpenVR"
+			"workingdir" "system"
+			"description" "HTC Vive & WMR (beta)"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "beta"
+			}
+		}
+		"5"
+		{
+			"executable" "system/OVERVIEW_Steam.exe"
+			"arguments" "-mode=VR_Oculus"
+			"workingdir" "system"
+			"description" "Oculus Rift (beta)"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "beta"
+			}
+		}
+	}
+}
+"depots"
+{
+	"751111"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2280534024918364713"
+				"size" "1211757419"
+				"download" "1090349312"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "BD3F4B4A98E61EE45C28A5BB25A1A5F0"
+				"size" "FA252801499F2159B9AA4FED0FD599AC"
+				"download" "0A664389A49E2A8676B490ED0D3F87E7"
+			}
+			"oculus_beta"
+			{
+				"gid" "F950C1FB6275219277A4F408ADF17522"
+				"size" "3526EBA7C58CA0FA6624C14BFA4F3D63"
+				"download" "F1B35C1864595E6C4A2AE86E751F629E"
+			}
+		}
+	}
+	"751112"
+	{
+		"sharedinstall" ""
+		"config"
+		{
+			"oslist" "windows"
+		}
+	}
+	"751113"
+	{
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "7954133"
+			"timeupdated" "1640861386"
+		}
+		"beta"
+		{
+			"buildid" "7954133"
+			"pwdrequired" "1"
+			"timeupdated" "1640861322"
+		}
+		"oculus_beta"
+		{
+			"buildid" "3380739"
+			"pwdrequired" "1"
+			"timeupdated" "1545312987"
+		}
+	}
+}
