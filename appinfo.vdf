@@ -1,0 +1,337 @@
+"appid" "1058650"
+"common"
+{
+	"name" "Beyond The Wire"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"logo" "33bff87dee26151673e97054f8c5ed23b4fa8ce3"
+	"logo_small" "33bff87dee26151673e97054f8c5ed23b4fa8ce3_thumb"
+	"icon" "37e6a1b67f2d88a428dd895a3528eec0230e8ea9"
+	"clienticon" "107f4d0e2efff4ffc01fb970bb207ca3c4828d00"
+	"clienttga" "b49143bf69f3be0fc2d86bd7ca29244e50953ae5"
+	"releasestate" "released"
+	"osextended" ""
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1655251200"
+		"tested_build_id" "8772171"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_UnsupportedAntiCheatConfiguration"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "45.2837100757103"
+			"height_pct" "98.48017098076465"
+		}
+	}
+	"store_asset_mtime" "1661452628"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Redstone Interactive"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Offworld"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Offworld"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "29"
+		"3" "28"
+		"4" "2"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1661969400"
+	"community_hub_visible" "1"
+	"gameid" "1058650"
+	"store_tags"
+	{
+		"0" "1663"
+		"1" "1678"
+		"2" "5382"
+		"3" "4168"
+		"4" "1775"
+		"5" "1774"
+		"6" "3839"
+		"7" "13276"
+		"8" "3987"
+		"9" "9"
+		"10" "19"
+		"11" "4175"
+		"12" "599"
+		"13" "1708"
+		"14" "128"
+		"15" "3993"
+		"16" "4166"
+		"17" "3859"
+		"18" "4345"
+		"19" "492"
+	}
+	"review_score" "5"
+	"review_percentage" "64"
+}
+"extended"
+{
+	"gamedir" "beyondthewire"
+	"serverbrowsername" "Beyond the Wire"
+	"anti_cheat_support_url" "https://www.easy.ac/r/steam/gamebans/\?steamAppId=1058650"
+	"developer" "Redstone Interactive"
+	"publisher" "Offworld"
+	"homepage" "http://playbtw.com"
+}
+"config"
+{
+	"installdir" "Beyond the Wire"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "btw_launcher.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "WireGame.exe"
+			"arguments" "-noeac"
+			"description" "without EAC"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "internal-testing"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228984"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1058651"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6612621698412921163"
+				"size" "72655759987"
+				"download" "30385536320"
+			}
+			"public-testing"
+			{
+				"gid" "1017610619737173736"
+				"size" "51198285450"
+				"download" "21233372416"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"closed-testing"
+			{
+				"gid" "D4F5193746C667D08AA6E11A6926673F"
+				"size" "6F85F3C957A939F5179B787D9D9247E1"
+				"download" "BAD582F064C3F5198D8148EE6AF5DA5F"
+			}
+			"internal"
+			{
+				"gid" "46FCDEDD92ED32EB21CA87C8DE97CAF8"
+				"size" "4805C89A799478C5EA0BFC6FA000A52B"
+				"download" "13B9F4A49DF9E90990EE6F68A1DE1341"
+			}
+			"legacy"
+			{
+				"gid" "EFF1079048B13BF967C398043D9EB5C8"
+				"size" "24D47FDC95B83CF8D4916B605B594776"
+				"download" "2B70863CD12640001E9AC4D5A7AA3E21"
+			}
+			"release"
+			{
+				"gid" "BCDD59B8A322F9DBC92918E4EEC7944A"
+				"size" "F883BF139D1498A935B3B6CB6E085E33"
+				"download" "5BDA8BD9CC5565100179A3D97BE4AB26"
+			}
+			"release_alt"
+			{
+				"gid" "5374F5053956BE64F830258F2AADFD94"
+				"size" "57FBC651B27456B9DB6BF2CFBB2AC1D7"
+				"download" "18D64955754B3B55B06CA2400BA0B884"
+			}
+		}
+	}
+	"baselanguages" "english,german,french,schinese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11224329"
+			"timeupdated" "1688669978"
+		}
+		"closed-testing"
+		{
+			"buildid" "9422560"
+			"pwdrequired" "1"
+			"timeupdated" "1661954918"
+		}
+		"internal"
+		{
+			"buildid" "10153879"
+			"pwdrequired" "1"
+			"timeupdated" "1671105752"
+		}
+		"legacy"
+		{
+			"buildid" "4476702"
+			"pwdrequired" "1"
+			"timeupdated" "1633548257"
+		}
+		"public-testing"
+		{
+			"buildid" "7650266"
+			"description" "public testing branch"
+			"timeupdated" "1635964598"
+		}
+		"release"
+		{
+			"buildid" "11224329"
+			"pwdrequired" "1"
+			"timeupdated" "1683965252"
+		}
+		"release_alt"
+		{
+			"buildid" "10114890"
+			"pwdrequired" "1"
+			"timeupdated" "1688739884"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#status_inmainmenu" "In Main-Menu"
+				"#status_inparty" "In a Party"
+				"#status_playing" "Playing %map_name%"
+				"#status_playingwithmode" "{#Status_Playing} - %game_mode%"
+				"#status_playingwithserver" "{#Status_PlayingWithMode} as %team_name% | %player_count% / %max_player_count%"
+			}
+		}
+	}
+}
