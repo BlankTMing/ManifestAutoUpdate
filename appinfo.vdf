@@ -1,0 +1,447 @@
+"appid" "528250"
+"common"
+{
+	"name" "Patchwork"
+	"type" "Game"
+	"logo" "0bfb71d31ebaf929e2adc4d295fd65709cec97e0"
+	"logo_small" "0bfb71d31ebaf929e2adc4d295fd65709cec97e0_thumb"
+	"icon" "e9cdc375cb696c8377376dff65616fdc69a31a38"
+	"clienticon" "6f28ece853558a69862d0961deefe6821fc51e97"
+	"clienttga" "ff88c4bf535c48a45c41bb29e799363a695a9529"
+	"linuxclienticon" "47f38a0c2352cbe4c1795d8d003e93d8f22d41e3"
+	"clienticns" "02ee23b7542669e208ca9b1b74ee4b8fd984014c"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"releasestate" "released"
+	"osextended" "macos64,macosapplesilicon"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1690848000"
+		"tested_build_id" "528250"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-3"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Patchwork"
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "78.48970251716247"
+			"height_pct" "79.8628632491318"
+		}
+	}
+	"store_asset_mtime" "1668438603"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "DIGIDICED"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Twin Sails Interactive"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Twin Sails Interactive"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_36" "1"
+		"category_37" "1"
+		"category_27" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_32" "1"
+		"category_23" "1"
+		"category_49" "1"
+		"category_44" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1481015703"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "528250"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "597"
+		"2" "492"
+		"3" "1770"
+		"4" "17389"
+	}
+	"review_score" "6"
+	"review_percentage" "75"
+}
+"extended"
+{
+	"developer" "DIGIDICED"
+	"publisher" "Twin Sails Interactive"
+	"homepage" "http://digidiced.com/patchwork/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Patchwork"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "pxw.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "pxw.x86"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"2"
+		{
+			"executable" "pxw.x86_64"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "pxw.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" ""
+	"528251"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4962342509047875246"
+				"size" "156406271"
+				"download" "50421808"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "9673C9BB632F605F7026C4EFB5160B9B"
+				"size" "E90D86AD03343E40BA3BF9619FF2D846"
+				"download" "D7A2B1CB2B9EC1C60BA02E59653E355F"
+			}
+			"internal2"
+			{
+				"gid" "EAFEE77A992D5731641BC5CC84EE4584"
+				"size" "BF70328A2F6B84F95BAD5E93470C7842"
+				"download" "371CE22B833BB2FFF1778DFCDCD53A99"
+			}
+			"legacy"
+			{
+				"gid" "360961A99095CF6D7C21EA73A1073B33"
+				"size" "547D035A5BB835B3709D8B08E8E87D3F"
+				"download" "B76E0E72755A80DABD1DB2792C860ADD"
+			}
+		}
+	}
+	"528252"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4936305647536476974"
+				"size" "230523508"
+				"download" "68227152"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "4A150110CE67A3FE6E27EC7688DABD06"
+				"size" "EEE2178FB132C910D5A1A223F46E5540"
+				"download" "4760680D96DA5F187F49DEB73386DEB7"
+			}
+			"internal2"
+			{
+				"gid" "92E093562FEB6AE5BB90BB400B3A3435"
+				"size" "26C133EA2A83DD5D4608CF7546D756BE"
+				"download" "5497AEB981F28110B226EE81F13AD863"
+			}
+			"legacy"
+			{
+				"gid" "1E29CDFF87E889E3E6EDEF2592981C75"
+				"size" "391337EE89641E0E10E9ADD50686B377"
+				"download" "CF91A3CF7084224C61316DDC7B56E5CB"
+			}
+		}
+	}
+	"528253"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2404663192821142958"
+				"size" "178245850"
+				"download" "50988624"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "A0E2CF45CB8FCD534A9EEC07E1184760"
+				"size" "D6E2EDF642B790108302466FCF83760B"
+				"download" "A783DE817F2035DBDABF50C19DFAB5BE"
+			}
+			"internal2"
+			{
+				"gid" "8E961C070ED1C194AFF086204D92CC3A"
+				"size" "1C491B9BE5ECAC493B58098A562EF54B"
+				"download" "B484C3413B541488DBB9AE175E6309D5"
+			}
+			"legacy"
+			{
+				"gid" "9F7CDBAB39A22C4AE90F20C1BBA29912"
+				"size" "E36BB753FCE285B51C51C2DC2973FE8B"
+				"download" "701DD68389A479B0E5D454A15A89F1F4"
+			}
+		}
+	}
+	"528254"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "561257826802772835"
+				"size" "178245850"
+				"download" "50988624"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "44C541B76DB061B9696E8A159D7C851E"
+				"size" "D6E2EDF642B790108302466FCF83760B"
+				"download" "A783DE817F2035DBDABF50C19DFAB5BE"
+			}
+			"internal2"
+			{
+				"gid" "374278CF1A275DAA9E7FD787C137DE0E"
+				"size" "1C491B9BE5ECAC493B58098A562EF54B"
+				"download" "B484C3413B541488DBB9AE175E6309D5"
+			}
+			"legacy"
+			{
+				"gid" "E5DFB41933A8C077C0F48713A9098CF3"
+				"size" "8FD61FF2D04CDEF886849FED735E5510"
+				"download" "BCAA50C9BA8ED089452379AAFF67ABC2"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13012207"
+			"timeupdated" "1703089812"
+		}
+		"internal"
+		{
+			"buildid" "13012207"
+			"pwdrequired" "1"
+			"timeupdated" "1703089772"
+		}
+		"internal2"
+		{
+			"buildid" "13012207"
+			"pwdrequired" "1"
+			"timeupdated" "1703089785"
+		}
+		"legacy"
+		{
+			"buildid" "2024287"
+			"pwdrequired" "1"
+			"timeupdated" "1707905223"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "20"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "DIGIDICED/Patchwork/games"
+			"pattern" "*.gam"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "LinuxHome"
+			"path" ".config/unity3d/DIGIDICED/Patchwork/games"
+			"pattern" "*.gam"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+		"2"
+		{
+			"root" "MacAppSupport"
+			"path" "DIGIDICED/Patchwork/games"
+			"pattern" "*.gam"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+}
