@@ -1,0 +1,167 @@
+"appid" "658630"
+"common"
+{
+	"name" "Anonymous ME"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"logo" "84ab91ca3662e533f1bf1ae13c9e513444868196"
+	"logo_small" "84ab91ca3662e533f1bf1ae13c9e513444868196_thumb"
+	"icon" "d1c5e3632d73f0273dd24ed7bd46dd18db62f1b6"
+	"clienticon" "b0937e5e6b39426738754e6629c9eb0331f8483b"
+	"clienttga" "32ae9e534f57d06c26710f8faacbd06c692cf4ce"
+	"metacritic_name" "Anonymous ME"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+		"tchinese" "capsule_231x87_tchinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+		"tchinese" "header_tchinese.jpg"
+	}
+	"store_asset_mtime" "1509435198"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "RKTime"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Chengdu longyuan Network Technology Co.Ltd"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1657175595"
+	"community_hub_visible" "1"
+	"gameid" "658630"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "122"
+		"2" "7208"
+	}
+	"review_score" "5"
+	"review_percentage" "52"
+}
+"extended"
+{
+	"developer" "RKTime"
+	"publisher" "Chengdu longyuan Network Technology Co.Ltd"
+	"homepage" "http://am.dragonest.com"
+	"listofdlc" "2072530"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Anonymous ME"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "AnonymousME.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,schinese,tchinese"
+	"hasdepotsindlc" "1"
+	"658631"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9070529974486357672"
+				"size" "684742584"
+				"download" "504352432"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9027508"
+			"timeupdated" "1656492487"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "50"
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "WinAppDataLocalLow"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "RKTime/Anonymous ME/Save"
+					"replace" "RKTime/Anonymous ME/Save"
+				}
+			}
+		}
+	}
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "RKTime/Anonymous ME/Save"
+			"pattern" "*.xml"
+			"recursive" "1"
+		}
+	}
+}
