@@ -18,8 +18,53 @@
 		"tchinese" "海天岛传说"
 		"japanese" "空と海の伝説"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1723507200"
+		"tested_build_id" "14580358"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+			"hdr_support" "0"
+		}
+	}
+	"metacritic_name" "Isles of Sea and Sky"
 	"controllertagwizard" "1"
-	"controller_support" "partial"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -41,6 +86,60 @@
 			"pinned_position" "CenterCenter"
 			"width_pct" "53.140282817712006"
 			"height_pct" "92.00282148299141"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+			}
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "53.140282817712006"
+				"height_pct" "92.00282148299141"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+				"schinese" "library_header_schinese.jpg"
+			}
 		}
 	}
 	"store_asset_mtime" "1717050771"
@@ -73,7 +172,11 @@
 		"category_2" "1"
 		"category_22" "1"
 		"category_23" "1"
-		"category_18" "1"
+		"category_28" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -130,8 +233,18 @@
 		{
 			"supported" "true"
 		}
+		"bulgarian"
+		{
+			"supported" "true"
+		}
+		"romanian"
+		{
+			"supported" "true"
+		}
 	}
 	"steam_release_date" "1716386008"
+	"metacritic_score" "85"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/isles-of-sea-and-sky\?ftag=MCD-06-10aaa1f"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "1233070"
@@ -140,14 +253,14 @@
 		"0" "1628"
 		"1" "4004"
 		"2" "4166"
-		"3" "21"
-		"4" "1664"
+		"3" "1664"
+		"4" "21"
 		"5" "1695"
 		"6" "3834"
-		"7" "5652"
-		"8" "1730"
-		"9" "16094"
-		"10" "3964"
+		"7" "1730"
+		"8" "5652"
+		"9" "3964"
+		"10" "16094"
 		"11" "4182"
 		"12" "6971"
 		"13" "6869"
@@ -196,24 +309,18 @@
 		{
 			"public"
 			{
-				"gid" "3533192569875455400"
-				"size" "441111506"
-				"download" "321256048"
+				"gid" "7312477526052257582"
+				"size" "441810745"
+				"download" "321448768"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"internal"
-			{
-				"gid" "FEF04D3659757A74D51BD7AD887B40EE"
-				"size" "C13329996D8386BDDB3BDCF6A6B8C468"
-				"download" "B053EFBB856A3CE7BB372BF14A1B5118"
-			}
 			"beta"
 			{
-				"gid" "34F64E70D9B37AF1ADE934C8E92C1053"
-				"size" "3E96D330A031F9DCDA5BCA30A3E652A4"
-				"download" "9F1786DF5C3D9CE604F58B46E39162AB"
+				"gid" "0436ED734CCDD62BCA0B18BB553C8DD1"
+				"size" "BA27F9F8D1D2DF079DB3F0BF5BDDB2A4"
+				"download" "B5E984D8E0D46B654B56FAC755E6F135"
 			}
 		}
 	}
@@ -221,20 +328,14 @@
 	{
 		"public"
 		{
-			"buildid" "14685606"
-			"timeupdated" "1718156979"
-		}
-		"internal"
-		{
-			"buildid" "14524701"
-			"pwdrequired" "1"
-			"timeupdated" "1716930814"
+			"buildid" "15790016"
+			"timeupdated" "1727059022"
 		}
 		"beta"
 		{
-			"buildid" "14667744"
+			"buildid" "15786804"
 			"pwdrequired" "1"
-			"timeupdated" "1718041397"
+			"timeupdated" "1727017317"
 		}
 	}
 }
@@ -263,7 +364,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "23983301"
-"_sha" "411928d1765d356f0789b6f0502e452a22f12153"
-"_size" "4382"
