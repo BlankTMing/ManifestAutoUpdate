@@ -1,0 +1,238 @@
+"appid" "94500"
+"common"
+{
+	"name" "Back to the Future: Ep 2 - Get Tannen!"
+	"clienticon" "b5f243c7b53f1c35dd5b60812146927f95c43454"
+	"clienttga" "5b971fdaae539c80541a84f001e0b27891e3ff56"
+	"icon" "d5382aedd7594e088a078341034e4b369210ec9a"
+	"clienticns" "41d818379fc371d871bb2fef382a9a337403bd72"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+	}
+	"logo" "ae0d863314d6111e6debaef7c9cdcf2940738b1e"
+	"logo_small" "ae0d863314d6111e6debaef7c9cdcf2940738b1e_thumb"
+	"oslist" "windows,macos"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1654732800"
+		"tested_build_id" "25495"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Back to the Future: Ep 2 - Get Tannen!"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1299024084"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Telltale Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Telltale Games"
+		}
+	}
+	"primary_genre" "0"
+	"category"
+	{
+		"category_62" "1"
+	}
+	"community_hub_visible" "1"
+	"gameid" "94500"
+	"store_tags"
+	{
+		"0" "1698"
+		"1" "21"
+		"2" "4242"
+		"3" "1664"
+		"4" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "Telltale Games"
+	"gamedir" "Back to the Future Ep 2"
+	"homepage" ""
+	"icon" ""
+	"installscript" "94500_install.vdf"
+	"installscriptosx" "BackToTheFuture102.app/installscript_osx.vdf"
+	"installscript_macos" "BackToTheFuture102.app/installscript_osx.vdf"
+	"languages" "english,french,german"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "94501"
+	"primarycache_mac" "94502"
+	"primarycache_macos" "94502"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "windows,macos"
+	"publisher" "Telltale Games"
+}
+"config"
+{
+	"installscriptsignature" "9b1d4853a24d374e047a0eb34c274eef5cd2e4af76e90d7ed9de39e3a017ff9e0ce9d04c62f67fe2f59f5dbef4be9afb169ec65e63d833fcf46e7a771ce5e1d5a01482ae6f2be0d46e9f3eac46e63070ed8f45e57bad180bc8805012c15cd0d26280c978375619b4460690df1b44d3a66ec22eba62d23100fafe4369a674d662"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Back to the Future Ep 2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "BackToTheFuture102.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "BackToTheFuture102.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\telltale games\\backtothefuture102.exe"
+		{
+			"string"
+			{
+				"distribution" "Telltale"
+				"franchise" "BackToTheFuture100"
+				"install location" "%INSTALLDIR%\\"
+				"manual" "Manual.pdf"
+				"readme" "Readme.txt"
+				"savegamefoldername" "Episode 2"
+				"version" "1.0.0.0"
+				"english"
+				{
+					"language" "english"
+					"language id" "1033"
+				}
+				"german"
+				{
+					"language" "german"
+					"language id" "1031"
+				}
+				"french"
+				{
+					"language" "french"
+					"language id" "1033"
+				}
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\31290"
+			"process 1" "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"94502"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8097040956761860990"
+				"size" "514567053"
+				"download" "0"
+			}
+		}
+	}
+	"94501"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7595819597781077059"
+				"size" "498048304"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"baselanguages" "english,french,german"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "25495"
+		}
+	}
+}
