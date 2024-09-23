@@ -1,0 +1,196 @@
+"appid" "653950"
+"common"
+{
+	"name" "Your Smile Beyond Twilight"
+	"type" "Game"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"tchinese" "1"
+	}
+	"oslist" "windows"
+	"osarch" ""
+	"clienttga" "2096509b697a7647496c923a6bf7a99b69b9b706"
+	"clienticon" "b223b82098e5079ba7e00d4401ed3948645a29c6"
+	"icon" "07a2537d1b9ca8fcb38ee04e380a352bd740a1c0"
+	"logo" "24240a53ee9776b82036dacc2ebf2bccbd517c5a"
+	"logo_small" "24240a53ee9776b82036dacc2ebf2bccbd517c5a_thumb"
+	"metacritic_name" "Your Smile Beyond Twilight"
+	"small_capsule"
+	{
+		"schinese" "capsule_231x87_schinese.jpg"
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"schinese" "header_schinese.jpg"
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1550735275"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Lingtan Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Lingtan Studio"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1498266984"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "653950"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "21"
+		"2" "3799"
+		"3" "4085"
+		"4" "4947"
+		"5" "12095"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"developer" "Lingtan Studio"
+	"publisher" "Lingtan Studio"
+	"homepage" "http://the9thday.net/"
+	"listofdlc" "667250"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Your Smile Beyond Twilight"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Station.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"hasdepotsindlc" "1"
+	"653951"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2461663122947143828"
+				"size" "1136803154"
+				"download" "370830624"
+			}
+		}
+	}
+	"653952"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8476068667071400975"
+				"size" "1133787095"
+				"download" "370198624"
+			}
+		}
+	}
+	"workshopdepot" "653950"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3391235"
+			"timeupdated" "1544639115"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "5000000"
+	"maxnumfiles" "50"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "lingtanstudio/YourSmileBeyondTwilight/"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" "com.lingtanstudio.yoursmilebeyondtwilight"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ".config/com/lingtanstudio/yoursmilebeyondtwilight"
+		}
+	}
+}
