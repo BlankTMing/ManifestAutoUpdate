@@ -1,0 +1,249 @@
+"appid" "1175800"
+"common"
+{
+	"name" "Command & Control 3"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "9a6669cb7d6f4c290cfb165056770474e6576ad3"
+	"logo_small" "9a6669cb7d6f4c290cfb165056770474e6576ad3_thumb"
+	"icon" "ead8c227de12f4c138aa0151fcb21df35c308994"
+	"clienticon" "c0c502206cb0d9474371a2cb508ca698b8ac60cd"
+	"clienttga" "c0fa28a1eebff33e2585e002680c0eadae25b321"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"japanese" "1"
+		"portuguese" "1"
+		"brazilian" "1"
+		"latam" "1"
+	}
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "51.88805940672276"
+			"height_pct" "45.118516780098574"
+		}
+	}
+	"store_asset_mtime" "1649701802"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "C&amp;C Game Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "C&C Game Studio"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Command &amp; Control"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1662625140"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1175800"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "492"
+		"2" "1676"
+		"3" "5851"
+		"4" "4168"
+		"5" "1678"
+		"6" "3859"
+		"7" "4182"
+		"8" "4667"
+		"9" "4175"
+	}
+	"review_score" "5"
+	"review_percentage" "62"
+}
+"extended"
+{
+	"developer" "C&amp;C Game Studio"
+	"publisher" "C&C Game Studio"
+	"homepage" "http://command-and-control.com/"
+}
+"config"
+{
+	"installdir" "Command & Control 3"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "assault.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,russian"
+	"hasdepotsindlc" "0"
+	"1175801"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7296462519725713781"
+				"size" "8941417044"
+				"download" "1760605312"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "FF01404092443CD7019928633F04A91E"
+				"size" "069C75F75AD0BB7273B909E8C5CB03B1"
+				"download" "161A60117617817E15FBEA771047B985"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9487601"
+			"timeupdated" "1662759366"
+		}
+		"beta"
+		{
+			"buildid" "9487601"
+			"pwdrequired" "1"
+			"timeupdated" "1662757976"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "500"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "cnc/assault"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "cnc/assault"
+			"pattern" "save_data.json"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
