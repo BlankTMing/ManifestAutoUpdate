@@ -1,0 +1,480 @@
+"appid" "651660"
+"common"
+{
+	"name" "Halcyon 6: Lightspeed Edition"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "4c9d5c042908be67cb6dafa966508fc55a88bc74"
+	"logo_small" "4c9d5c042908be67cb6dafa966508fc55a88bc74_thumb"
+	"clienticon" "7899cfe5d50784f7b5782b9da08006df08b922b4"
+	"clienttga" "145cecbb05c89aeb33d572c17ad45ac53173f8ea"
+	"icon" "30aa60bafd91424c652c7952da0420965700ca38"
+	"clienticns" "8411a6c33741e985b5e4ffd95b36258c553a6dab"
+	"releasestate" "released"
+	"osarch" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1680048000"
+		"tested_build_id" "2853406"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Halcyon 6: Lightspeed Edition"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "58.88680997605056"
+			"height_pct" "77.52688172043011"
+		}
+	}
+	"store_asset_mtime" "1667242065"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Massive Damage, Inc."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Massive Damage, Inc."
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "3"
+		"2" "28"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1502348400"
+	"steam_release_date" "1502347200"
+	"metacritic_score" "73"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/halcyon-6-lightspeed-edition\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "651660"
+	"store_tags"
+	{
+		"0" "1670"
+		"1" "21725"
+		"2" "1677"
+		"3" "3834"
+		"4" "1741"
+		"5" "7332"
+		"6" "17305"
+		"7" "122"
+		"8" "9"
+		"9" "3871"
+		"10" "4325"
+		"11" "1755"
+		"12" "6310"
+		"13" "3964"
+		"14" "3942"
+		"15" "6971"
+		"16" "4747"
+		"17" "599"
+		"18" "5411"
+		"19" "4004"
+	}
+	"review_score" "6"
+	"review_percentage" "78"
+}
+"extended"
+{
+	"developer" "Massive Damage, Inc."
+	"publisher" "Massive Damage, Inc."
+	"homepage" "http://www.playhalcyon6.com"
+	"listofdlc" "677640,706910,782270"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Halcyon 6 Lightspeed Edition"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "H6.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "H6.app\\Contents\\MacOS\\H6"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "H6.x86"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "H6.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"651661"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8402451492229534406"
+				"size" "1571966670"
+				"download" "339264720"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "E2C27601AFD80B0F9AE2451DCF5F021C"
+				"size" "2B10322B0E8712639F6F3DF1647C0B8D"
+				"download" "B76A7B36F86F6DA57BFD97215F080FB7"
+			}
+		}
+	}
+	"651662"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6120596303295175449"
+				"size" "1619744746"
+				"download" "351386480"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "56D7901E2FF0C89522A0183CC0FEEEE7"
+				"size" "25EE3449C14F3ABB2CE046F620967BBD"
+				"download" "00E9789C99BAF6383E3667CC9E58D71A"
+			}
+		}
+	}
+	"651663"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8339340124992540486"
+				"size" "1621630979"
+				"download" "353188848"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "2D5C5B8C2665EEB3A18A2637B0BCDBAA"
+				"size" "8DF6D122BE332A93CE946F46D4E57525"
+				"download" "C26110BADC31BE153DFEEE018D195778"
+			}
+		}
+	}
+	"651664"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7412202701271345740"
+				"size" "1566587534"
+				"download" "337579424"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "24BDD6A6700B18EBFBAAEE24F170EC12"
+				"size" "2CEA54130B2E2C2C366282C163C8CDCD"
+				"download" "99D4DF68A5E1A98DB5D19FAE6482C938"
+			}
+		}
+	}
+	"677640"
+	{
+		"dlcappid" "677640"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8820432894612880943"
+				"size" "112934682"
+				"download" "110678368"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "69EA84A1CF0556C80ED78F1C89411FCF"
+				"size" "D6FB63636E0966EA0AC65CF5E920C3BA"
+				"download" "3DFFDC511BC7018AE7452D371023E847"
+			}
+		}
+	}
+	"706910"
+	{
+		"dlcappid" "706910"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6827222975964283155"
+				"size" "26179148"
+				"download" "21572864"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "1FCFBD33D6A3064E03B4AEC27025D890"
+				"size" "CDC10CBF6F7E18C839DA3EAF5702AE35"
+				"download" "1D231F15D8B50847AC98B3FE310B0D58"
+			}
+		}
+	}
+	"782271"
+	{
+		"dlcappid" "782270"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2291535890575647532"
+				"size" "1585518"
+				"download" "696096"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "946F01639ED86AF15706286D4B64A4B0"
+				"size" "5CFCB5AF33240C18E9D23C9EE8699672"
+				"download" "655CDEAFD020DA1187B143791791AE0D"
+			}
+		}
+	}
+	"782272"
+	{
+		"dlcappid" "782270"
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7526491168220653488"
+				"size" "1585518"
+				"download" "696096"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "73299FD47FD9994F81A7C8330F519945"
+				"size" "5CFCB5AF33240C18E9D23C9EE8699672"
+				"download" "655CDEAFD020DA1187B143791791AE0D"
+			}
+		}
+	}
+	"782273"
+	{
+		"dlcappid" "782270"
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2528912614141713730"
+				"size" "1585518"
+				"download" "696096"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "F275D9F06BA337A42521B17FD559D967"
+				"size" "5CFCB5AF33240C18E9D23C9EE8699672"
+				"download" "655CDEAFD020DA1187B143791791AE0D"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2853406"
+			"timeupdated" "1528764449"
+		}
+		"development"
+		{
+			"buildid" "2853406"
+			"pwdrequired" "1"
+			"timeupdated" "1528764247"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "MASSDMG/Halcyon6LSE"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ".config/unity3d/"
+		}
+	}
+}
