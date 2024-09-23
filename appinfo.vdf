@@ -1,0 +1,299 @@
+"appid" "554280"
+"common"
+{
+	"name" "Time Carnage VR"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"logo" "b46643b60286fa71b66446ea61df0657af508e27"
+	"logo_small" "b46643b60286fa71b66446ea61df0657af508e27_thumb"
+	"icon" "1f243de151d490bc4fc53cc627c6576a03978dbc"
+	"clienttga" "71a63e2b02fa13a7b7146f4c083060c7254a821a"
+	"clienticon" "44ef881ad7bccbf0ef03d87f9f540c65883912f3"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"metacritic_name" "Time Carnage"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "99.24008549038234"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "100"
+				"height_pct" "99.24008549038234"
+			}
+		}
+	}
+	"store_asset_mtime" "1667310539"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Wales Interactive"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Wales Interactive"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Wales Interactive"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_52" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1523379706"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "554280"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "4667"
+		"3" "21978"
+		"4" "5160"
+		"5" "1774"
+		"6" "10679"
+		"7" "1659"
+		"8" "5752"
+	}
+	"review_score" "6"
+	"review_percentage" "75"
+}
+"extended"
+{
+	"developer" "Wales Interactive"
+	"publisher" "Wales Interactive"
+	"homepage" "http://www.walesinteractive.com/timecarnage"
+}
+"config"
+{
+	"installdir" "Time Carnage"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TimeCarnage.exe"
+			"arguments" "-platform OpenVR"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "TimeCarnage.exe"
+			"arguments" "-platform Oculus"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"554281"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8183415360464217959"
+				"size" "3191284755"
+				"download" "1247556832"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"arcade"
+			{
+				"gid" "600E30A30038C025B3DF9843D18A5D6D"
+				"size" "32EFA7E447658709E82B00159294F94F"
+				"download" "BD134F9987354F200C2501050821CE2D"
+			}
+			"development"
+			{
+				"gid" "3FE8D041C79D3A11225360DC9A1D43EE"
+				"size" "2FA8EC0DE805B0B5AB4FA76F2F392D6B"
+				"download" "06B7400B92A1AC5CB526E19C0F74038B"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3493975"
+			"timeupdated" "1548251020"
+		}
+		"arcade"
+		{
+			"buildid" "3220569"
+			"pwdrequired" "1"
+			"timeupdated" "1539769188"
+		}
+		"development"
+		{
+			"buildid" "3777712"
+			"pwdrequired" "1"
+			"timeupdated" "1556534555"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "100"
+}
