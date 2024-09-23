@@ -1,0 +1,545 @@
+"appid" "80340"
+"common"
+{
+	"name" "Blackwell Unbound"
+	"type" "Game"
+	"logo" "5aed3f0772a29999f2f16402fca87139c23053ec"
+	"logo_small" "5aed3f0772a29999f2f16402fca87139c23053ec_thumb"
+	"icon" "03e3c9d9ae29c486b244d3cd81e6cf918540e828"
+	"clienttga" "9003fb47569177fe8e3df4c56315d045207c156d"
+	"clienticon" "10c8349ec425d56c2511ebbd192fb4478ca6c991"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"osextended" "macos64,macosnotarized"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1659744000"
+		"tested_build_id" "9207530"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Blackwell Unbound"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "63.29850391830919"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50"
+				"height_pct" "63.29850391830919"
+			}
+		}
+	}
+	"store_asset_mtime" "1667003581"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Wadjet Eye Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Wadjet Eye Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_41" "1"
+		"category_42" "1"
+		"category_13" "1"
+		"category_23" "1"
+		"category_14" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1326477600"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "80340"
+	"store_tags"
+	{
+		"0" "1698"
+		"1" "21"
+		"2" "492"
+		"3" "7208"
+		"4" "10808"
+		"5" "5716"
+		"6" "5613"
+		"7" "4182"
+		"8" "1742"
+		"9" "3964"
+		"10" "6052"
+		"11" "3871"
+		"12" "4166"
+		"13" "1697"
+		"14" "4234"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"developer" "Wadjet Eye Games"
+	"gamedir" "Blackwell Unbound"
+	"homepage" "http://www.wadjeteyegames.com"
+	"icon" ""
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "80341"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Wadjet Eye Games"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Unbound.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "winsetup.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Configure"
+			}
+			"description" "Configure"
+		}
+		"5"
+		{
+			"executable" "./Start.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+			"description_loc"
+			{
+				"english" "Launch [32bit]"
+			}
+			"description" "Launch [32bit]"
+		}
+		"6"
+		{
+			"executable" "./Start.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Launch [64 bit]"
+			}
+			"description" "Launch [64 bit]"
+		}
+		"7"
+		{
+			"executable" "./Start.sh"
+			"arguments" "--windowed"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "windowed"
+			}
+			"description" "windowed"
+		}
+		"8"
+		{
+			"executable" "Unbound.app/Contents/MacOS/AGS"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "Launch"
+			}
+			"description" "Launch"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Blackwell Unbound"
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"2204786247"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"2815714655"
+		{
+			"controller_type" "controller_neptune"
+			"enabled_branches" "default,beta,original,pre-test"
+			"use_action_block" "true"
+		}
+	}
+	"steamdecktouchscreen" "1"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"80341"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8306674858922216111"
+				"size" "203309453"
+				"download" "164717920"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "7082D74490E334AE320824FB33276E58"
+				"size" "97AF60F145EF24041741D8F22092C7A7"
+				"download" "044689061F43E74B042FC6640A51B1F7"
+			}
+			"oldversion"
+			{
+				"gid" "D6EFFAFC56E812E8AFC8D3E10A5EA139"
+				"size" "DCE91578877DEAEE9FB9A7B3B6AB1E08"
+				"download" "5AB4C0774F8D88AEC8ED02352E5B1261"
+			}
+			"original"
+			{
+				"gid" "C323DB33696178D380173007AB807B6D"
+				"size" "27EB0AE8A196A123AC300FC722DF8FA8"
+				"download" "B668F60B17361AA47E31C4FB8EB542AF"
+			}
+			"pre-test"
+			{
+				"gid" "7B604DA6FC688C09A6AF9A99A377A6DA"
+				"size" "628E1339CF492F829BD215190939D1AC"
+				"download" "58F50043B6990149C269103D1497C061"
+			}
+		}
+	}
+	"80342"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "592654903144244516"
+				"size" "270147038"
+				"download" "181832928"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "F8625ACE26B348C41380E7D2F8E8F2DC"
+				"size" "D7F9DA235E6E39878FF0DD5DAFE52A51"
+				"download" "8CD4C950BA44707CE8F54FCE058CD494"
+			}
+			"oldversion"
+			{
+				"gid" "8C238B779CF63FE5C1FB5B2325EDACF8"
+				"size" "AD8D5E21C440987B2AA0223B87DFA8B6"
+				"download" "27F1436AD54139A9DDD598055328BF35"
+			}
+			"original"
+			{
+				"gid" "2E49C0C107616E5987B32DEC1CB39BB2"
+				"size" "787E40F7F4322D8ABBCF97B4DAEFB8B0"
+				"download" "6BF531462955F59DA01C8F74317C2A93"
+			}
+			"pre-test"
+			{
+				"gid" "91FCB9171BF88661F43076B887FDD3A2"
+				"size" "3E64465F4C77B8A8B3F605EE20FF4922"
+				"download" "B59F89D1C0C08724EFCFB020EA687BF9"
+			}
+		}
+	}
+	"80343"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8098389994544773197"
+				"size" "205354835"
+				"download" "166170128"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "681EB53CA9F1F4090CED531DD506AC2D"
+				"size" "208DBE200978476AD409A0AA8B2E07E5"
+				"download" "04FED3738A618184C96900B2CCB827D2"
+			}
+			"oldversion"
+			{
+				"gid" "1ACD9789D91D1FCDC69DF82B9E64F888"
+				"size" "A641E6368AABB5744CEB1F7A4D55C66A"
+				"download" "1E76940B5561A1235D6A71C65BECA56D"
+			}
+			"original"
+			{
+				"gid" "4C61EB54003522BA57D6ABE283F1E212"
+				"size" "23325E618654D8D9D364D0CC4CFE60EF"
+				"download" "F160D11CD86953852E07F24F761AE415"
+			}
+			"pre-test"
+			{
+				"gid" "1F6EA07B4A3B37FD17FF39DEF3C6910D"
+				"size" "1FE79287B5B3F19E10C912C4A50AE055"
+				"download" "FBD37D75317F8E7DC4D46D5151FB9BDC"
+			}
+		}
+	}
+	"2022100"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"steamdeck" "1"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "973914528842277547"
+				"size" "271124367"
+				"download" "180167872"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"oldversion"
+			{
+				"gid" "F0EF66AF9F5572A6EEB822CA2D83B28A"
+				"size" "03CF7219E1A332B7525B1B9ABED1D3E2"
+				"download" "0A67C0656BA38F9FF9A4DC05CBC1C9D0"
+			}
+			"pre-test"
+			{
+				"gid" "A413F54C6AAE07B82E93F15E1778391D"
+				"size" "0C9BC704A1A234B1CD3EF23CA91E2876"
+				"download" "6D8A76DC5B04EE9706EF6E60593FF991"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13421989"
+			"timeupdated" "1707554188"
+		}
+		"beta"
+		{
+			"buildid" "6318999"
+			"pwdrequired" "1"
+			"timeupdated" "1614711862"
+		}
+		"oldversion"
+		{
+			"buildid" "9207530"
+			"pwdrequired" "1"
+			"timeupdated" "1689753750"
+		}
+		"original"
+		{
+			"buildid" "407242"
+			"pwdrequired" "1"
+			"timeupdated" "1614712451"
+		}
+		"pre-test"
+		{
+			"buildid" "13421989"
+			"pwdrequired" "1"
+			"timeupdated" "1707553865"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "55"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinSavedGames"
+			"path" "Blackwell Unbound"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinSavedGames"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Blackwell Unbound"
+					"replace" "Blackwell Unbound"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinSavedGames"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Blackwell Unbound"
+					"replace" ".local/share/ags/Blackwell Unbound"
+				}
+			}
+		}
+	}
+}
