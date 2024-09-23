@@ -43,20 +43,20 @@
 	"releasestatesteamchina" "released"
 	"steam_deck_compatibility"
 	{
-		"category" "3"
-		"test_timestamp" "1644969600"
-		"tested_build_id" "7681153"
+		"category" "2"
+		"test_timestamp" "1723248000"
+		"tested_build_id" "13400350"
 		"tests"
 		{
 			"0"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
 			}
 			"1"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"2"
 			{
@@ -68,19 +68,26 @@
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
 			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
 		}
 		"configuration"
 		{
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "0"
-			"non_deck_display_glyphs" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
 			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-experimental"
 			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Eastward"
@@ -95,6 +102,11 @@
 	{
 		"english" "header.jpg"
 		"schinese" "header_schinese.jpg"
+		"tchinese" "header_tchinese.jpg"
+		"japanese" "header_japanese.jpg"
+		"german" "header_german.jpg"
+		"french" "header_french.jpg"
+		"spanish" "header_spanish.jpg"
 	}
 	"library_assets"
 	{
@@ -108,7 +120,48 @@
 			"height_pct" "66.34560364168294"
 		}
 	}
-	"store_asset_mtime" "1707329528"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "24.716805023938917"
+				"height_pct" "66.34560364168294"
+			}
+		}
+	}
+	"store_asset_mtime" "1716212291"
 	"associations"
 	{
 		"0"
@@ -143,6 +196,7 @@
 		"category_56" "1"
 		"category_57" "1"
 		"category_58" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -194,19 +248,19 @@
 		"0" "3964"
 		"1" "1742"
 		"2" "21"
-		"3" "4182"
-		"4" "4231"
+		"3" "4231"
+		"4" "4182"
 		"5" "4166"
 		"6" "122"
 		"7" "3835"
 		"8" "19"
 		"9" "4434"
 		"10" "3871"
-		"11" "7948"
-		"12" "4726"
+		"11" "4726"
+		"12" "7948"
 		"13" "7208"
-		"14" "4342"
-		"15" "1654"
+		"14" "1654"
+		"15" "4342"
 		"16" "5611"
 		"17" "1719"
 		"18" "492"
@@ -284,71 +338,6 @@
 "depots"
 {
 	"baselanguages" "english,schinese,tchinese,japanese"
-	"branches"
-	{
-		"steam_china_only"
-		{
-			"sc_schinese" "仅中国"
-			"buildid" "13300466"
-			"pwdrequired" "1"
-			"timeupdated" "1706610992"
-		}
-		"bitsummit"
-		{
-			"sc_schinese" "BIS"
-			"buildid" "9111391"
-			"pwdrequired" "1"
-			"timeupdated" "1658314609"
-		}
-		"reviewer"
-		{
-			"sc_schinese" "评测用"
-			"buildid" "9111391"
-			"pwdrequired" "1"
-			"timeupdated" "1658314552"
-		}
-		"general_pr"
-		{
-			"sc_schinese" "PR用"
-			"buildid" "9111391"
-			"pwdrequired" "1"
-			"timeupdated" "1658314564"
-		}
-		"demo2"
-		{
-			"sc_schinese" "demo2"
-		}
-		"cnbeta"
-		{
-			"sc_schinese" "CN only BETA"
-			"buildid" "13300466"
-			"pwdrequired" "1"
-			"timeupdated" "1706611066"
-		}
-		"public"
-		{
-			"buildid" "13400350"
-			"timeupdated" "1707387628"
-		}
-		"beta"
-		{
-			"buildid" "13300466"
-			"pwdrequired" "1"
-			"timeupdated" "1706611056"
-		}
-		"farm"
-		{
-			"buildid" "13400350"
-			"pwdrequired" "1"
-			"timeupdated" "1707372102"
-		}
-		"usertest"
-		{
-			"buildid" "9111391"
-			"pwdrequired" "1"
-			"timeupdated" "1658314620"
-		}
-	}
 	"228988"
 	{
 		"config"
@@ -673,6 +662,67 @@
 		}
 	}
 	"hasdepotsindlc" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13400350"
+			"timeupdated" "1707387628"
+		}
+		"beta"
+		{
+			"buildid" "13300466"
+			"pwdrequired" "1"
+			"timeupdated" "1706611056"
+		}
+		"bitsummit"
+		{
+			"sc_schinese" "BIS"
+			"buildid" "9111391"
+			"pwdrequired" "1"
+			"timeupdated" "1658314609"
+		}
+		"cnbeta"
+		{
+			"sc_schinese" "CN only BETA"
+			"buildid" "13300466"
+			"pwdrequired" "1"
+			"timeupdated" "1706611066"
+		}
+		"farm"
+		{
+			"buildid" "13400350"
+			"pwdrequired" "1"
+			"timeupdated" "1707372102"
+		}
+		"general_pr"
+		{
+			"sc_schinese" "PR用"
+			"buildid" "9111391"
+			"pwdrequired" "1"
+			"timeupdated" "1658314564"
+		}
+		"reviewer"
+		{
+			"sc_schinese" "评测用"
+			"buildid" "9111391"
+			"pwdrequired" "1"
+			"timeupdated" "1658314552"
+		}
+		"steam_china_only"
+		{
+			"sc_schinese" "仅中国"
+			"buildid" "13300466"
+			"pwdrequired" "1"
+			"timeupdated" "1706610992"
+		}
+		"usertest"
+		{
+			"buildid" "9111391"
+			"pwdrequired" "1"
+			"timeupdated" "1658314620"
+		}
+	}
 }
 "ufs"
 {
@@ -722,7 +772,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "22258897"
-"_sha" "16e60bf53740635a5114ca636cfed433b10d8687"
-"_size" "15350"
