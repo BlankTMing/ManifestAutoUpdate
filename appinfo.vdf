@@ -54,6 +54,7 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "UpperCenter"
@@ -61,7 +62,56 @@
 			"height_pct" "73.26388888888889"
 		}
 	}
-	"store_asset_mtime" "1577603913"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "UpperCenter"
+				"width_pct" "50"
+				"height_pct" "73.26388888888889"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1718186329"
 	"associations"
 	{
 		"0"
@@ -89,6 +139,7 @@
 		"category_2" "1"
 		"category_29" "1"
 		"category_18" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -157,7 +208,7 @@
 	"state" "eStateAvailable"
 	"publisher" "Topware Interactive"
 	"gamemanualurl" "https://store.steampowered.com/manual/7510/"
-	"listofdlc" "604280,604290"
+	"listofdlc" "604280,604290,3050910"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -259,6 +310,15 @@
 				"download" "2388279024"
 			}
 		}
+		"encryptedmanifests"
+		{
+			"hd_upgrade_test"
+			{
+				"gid" "1F2A895C7D7EC2EECE3496874509981B"
+				"size" "4A5CB7F9A9140EF0D67F8104003858D7"
+				"download" "C13F1C2BF5E4F325B69A4E010E5F4393"
+			}
+		}
 	}
 	"7513"
 	{
@@ -273,6 +333,15 @@
 				"gid" "5697552235143526455"
 				"size" "3103585375"
 				"download" "2584779184"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"hd_upgrade_test"
+			{
+				"gid" "387067111FC4F8E0FAC9BFEBEFE2EB22"
+				"size" "37C68595C9DBD65A79E20D14EB50C4EC"
+				"download" "BE58CCA2710134B7E9E21653CC05DFF2"
 			}
 		}
 	}
@@ -291,6 +360,15 @@
 				"download" "2576907824"
 			}
 		}
+		"encryptedmanifests"
+		{
+			"hd_upgrade_test"
+			{
+				"gid" "C54E94BFCB6B399B1197EAD7E768BA41"
+				"size" "50A94BB7658F3737BC95DB51B751B3F9"
+				"download" "059BE476513FE38B024D2350BFEB759F"
+			}
+		}
 	}
 	"7512"
 	{
@@ -302,6 +380,15 @@
 				"gid" "8114717897058308002"
 				"size" "107335207"
 				"download" "100431488"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"hd_upgrade_test"
+			{
+				"gid" "6D420D3A1779264238CE5DA2ECFD0100"
+				"size" "5E0A66BB4A22A06D6A14EF68DE490A91"
+				"download" "234E51ED918AFF8EB15E1294D6FE1E8B"
 			}
 		}
 	}
@@ -317,17 +404,54 @@
 				"download" "282624608"
 			}
 		}
+		"encryptedmanifests"
+		{
+			"hd_upgrade_test"
+			{
+				"gid" "557F496CF096F62C820046D401157146"
+				"size" "890A818934D4C2802B9F53BE3FE96FAA"
+				"download" "527423D1698F677B99634A7E4F81CA22"
+			}
+		}
+	}
+	"7516"
+	{
+		"dlcappid" "3050910"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3919494375063348227"
+				"size" "3306040258"
+				"download" "3288773184"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"hd_upgrade_test"
+			{
+				"gid" "2F7A30D867FDF79104A919C0AF1B549E"
+				"size" "8C3EE1A3DC450BF8E457F79D15DFDCC9"
+				"download" "DF81DA877D46C7FB5404667847AE537E"
+			}
+		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "1818159"
-			"timeupdated" "1494601501"
+			"buildid" "14703339"
+			"timeupdated" "1718272726"
+		}
+		"hd_upgrade_test"
+		{
+			"buildid" "14703339"
+			"pwdrequired" "1"
+			"timeupdated" "1718271039"
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "19967303"
-"_sha" "b1fb4148039c16386c3a8045e81395e99506bf1b"
-"_size" "5748"
