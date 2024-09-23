@@ -1,0 +1,235 @@
+"appid" "827920"
+"common"
+{
+	"name" "Bounce"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "8e4f9af3fae78fd0683478c6bd516a878b6e7564"
+	"logo_small" "8e4f9af3fae78fd0683478c6bd516a878b6e7564_thumb"
+	"clienticon" "ae754e578ce41731727614cbe2b6f8c85076bea2"
+	"clienttga" "3cafcd970ec0a08132e48a21ef8df387690154ee"
+	"icon" "8a9ad24c26a2b89df68f7acdcce2e63d09aa6a45"
+	"clienticns" "7cee40924447a99a8a80c84f0803de77cc2042fb"
+	"linuxclienticon" "8a1ffbcee59ee1965d6adca923b9892eb12831dc"
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+	}
+	"osextended" "macos64"
+	"metacritic_name" "Bounce"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1521282269"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Mikhail Melnikov"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SA Industry"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "SA Industry"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_15" "1"
+		"category_25" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1522675301"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "827920"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "597"
+	}
+	"review_score" "5"
+	"review_percentage" "57"
+}
+"extended"
+{
+	"developer" "Mikhail Melnikov"
+	"publisher" "SA Industry"
+}
+"config"
+{
+	"installdir" "Bounce"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Bounce.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Bounce.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Bounce.x86"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"827921"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2005254172208442748"
+				"size" "40246541"
+				"download" "10220480"
+			}
+		}
+	}
+	"827922"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9127394095754113599"
+				"size" "60570688"
+				"download" "14481360"
+			}
+		}
+	}
+	"827923"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3713900800285893557"
+				"size" "55733861"
+				"download" "14387104"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2646077"
+			"timeupdated" "1522354460"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "1"
+	"appidredirect" "827920"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Mikhail Melnikov/Bounce"
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Mikhail Melnikov/Bounce"
+					"replace" "Mikhail Melnikov/Bounce"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Mikhail Melnikov/Bounce"
+					"replace" ".config/unity3d/Mikhail Melnikov/Bounce"
+				}
+			}
+		}
+	}
+}
