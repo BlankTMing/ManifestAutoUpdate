@@ -1,0 +1,763 @@
+"appid" "573320"
+"common"
+{
+	"name" "Underhero"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "1b258f9c0bdda0d9051b2fec72eebf65a5f13572"
+	"logo_small" "1b258f9c0bdda0d9051b2fec72eebf65a5f13572_thumb"
+	"icon" "809eafc5e7b7d792ce045899b528d6bddc68fdba"
+	"clienttga" "b118b2d8b691e6d521016c47f216092547e80087"
+	"clienticon" "f417e37792f8705248158a65d60a98a0157008e7"
+	"releasestate" "released"
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1675296000"
+		"tested_build_id" "5938432"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_CrossPlatformCloudSavesNotSupported"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"metacritic_name" "Underhero"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "91.27689370455059"
+			"height_pct" "66.7480804302624"
+		}
+	}
+	"store_asset_mtime" "1603895996"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Paper Castle Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Paper Castle Games"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_18" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1537340400"
+	"steam_release_date" "1537383414"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "573320"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "1625"
+		"2" "1742"
+		"3" "4182"
+		"4" "3964"
+		"5" "4325"
+		"6" "11333"
+		"7" "3871"
+		"8" "7250"
+		"9" "4434"
+		"10" "4136"
+		"11" "4305"
+		"12" "4726"
+		"13" "492"
+		"14" "21"
+		"15" "5379"
+		"16" "1756"
+		"17" "1664"
+		"18" "1719"
+		"19" "3798"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"developer" "Paper Castle Games"
+	"publisher" "Paper Castle Games"
+	"homepage" "http://underherogame.com/"
+}
+"config"
+{
+	"installdir" "Underhero"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "BETA/Underhero Beta.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "betabranch"
+			}
+		}
+		"2"
+		{
+			"executable" "Underhero.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "Underhero.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"4"
+		{
+			"executable" "Underhero.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"5"
+		{
+			"executable" "Contents\\MacOS\\Underhero"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"hasdepotsindlc" "1"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228984"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229003"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229005"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229011"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229012"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229030"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229031"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229032"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"573321"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2746667843539934533"
+				"size" "2199093383"
+				"download" "258283152"
+			}
+			"prerelease"
+			{
+				"gid" "3254141130567893144"
+				"size" "2198053876"
+				"download" "258280176"
+			}
+			"undehero-tb"
+			{
+				"gid" "2148921300523359116"
+				"size" "2092696564"
+				"download" "258273328"
+			}
+			"underhero-prevstable"
+			{
+				"gid" "2148921300523359116"
+				"size" "2092696564"
+				"download" "258273328"
+			}
+			"underhero_407"
+			{
+				"gid" "3603128768750882702"
+				"size" "2066987106"
+				"download" "254779104"
+			}
+			"underhero_411"
+			{
+				"gid" "7538505798892490674"
+				"size" "2197734440"
+				"download" "258259664"
+			}
+			"underhero_412"
+			{
+				"gid" "2818949412498070994"
+				"size" "2197735948"
+				"download" "258245616"
+			}
+			"underhero_413"
+			{
+				"gid" "3254141130567893144"
+				"size" "2198053876"
+				"download" "258280176"
+			}
+		}
+	}
+	"958610"
+	{
+		"dlcappid" "958610"
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"optionaldlc" "958610"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4392920405069247379"
+				"size" "261246992"
+				"download" "256175056"
+			}
+			"prerelease"
+			{
+				"gid" "4392920405069247379"
+				"size" "261246992"
+				"download" "256175056"
+			}
+			"undehero-tb"
+			{
+				"gid" "4392920405069247379"
+				"size" "261246992"
+				"download" "256175056"
+			}
+			"underhero-prevstable"
+			{
+				"gid" "4392920405069247379"
+				"size" "261246992"
+				"download" "256175056"
+			}
+			"underhero_407"
+			{
+				"gid" "4392920405069247379"
+				"size" "261246992"
+				"download" "256175056"
+			}
+			"underhero_411"
+			{
+				"gid" "4392920405069247379"
+				"size" "261246992"
+				"download" "256175056"
+			}
+			"underhero_412"
+			{
+				"gid" "4392920405069247379"
+				"size" "261246992"
+				"download" "256175056"
+			}
+			"underhero_413"
+			{
+				"gid" "4392920405069247379"
+				"size" "261246992"
+				"download" "256175056"
+			}
+		}
+	}
+	"573323"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3701134889305417512"
+				"size" "2184766271"
+				"download" "256218256"
+			}
+			"prerelease"
+			{
+				"gid" "323460712080373554"
+				"size" "2183727276"
+				"download" "256214608"
+			}
+			"undehero-tb"
+			{
+				"gid" "2765675940836047704"
+				"size" "2078364812"
+				"download" "256203056"
+			}
+			"underhero-prevstable"
+			{
+				"gid" "2765675940836047704"
+				"size" "2078364812"
+				"download" "256203056"
+			}
+			"underhero_407"
+			{
+				"gid" "2765675940836047704"
+				"size" "2078364812"
+				"download" "256203056"
+			}
+			"underhero_411"
+			{
+				"gid" "214121532951209346"
+				"size" "2183373952"
+				"download" "256175984"
+			}
+			"underhero_412"
+			{
+				"gid" "6988495177144714645"
+				"size" "2183375476"
+				"download" "256161808"
+			}
+			"underhero_413"
+			{
+				"gid" "323460712080373554"
+				"size" "2183727276"
+				"download" "256214608"
+			}
+		}
+	}
+	"573324"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "658686746429810103"
+				"size" "2178879245"
+				"download" "257516640"
+			}
+			"prerelease"
+			{
+				"gid" "1548744096357819001"
+				"size" "2177840346"
+				"download" "257511248"
+			}
+			"undehero-tb"
+			{
+				"gid" "6222092990140119459"
+				"size" "2072466650"
+				"download" "257485776"
+			}
+			"underhero-prevstable"
+			{
+				"gid" "6222092990140119459"
+				"size" "2072466650"
+				"download" "257485776"
+			}
+			"underhero_407"
+			{
+				"gid" "6222092990140119459"
+				"size" "2072466650"
+				"download" "257485776"
+			}
+			"underhero_411"
+			{
+				"gid" "5012448520406529858"
+				"size" "2177486926"
+				"download" "257473520"
+			}
+			"underhero_412"
+			{
+				"gid" "680766427747741579"
+				"size" "2177488450"
+				"download" "257458720"
+			}
+			"underhero_413"
+			{
+				"gid" "1548744096357819001"
+				"size" "2177840346"
+				"download" "257511248"
+			}
+		}
+	}
+	"573325"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "710873780263417242"
+				"size" "2242117708"
+				"download" "262616656"
+			}
+			"prerelease"
+			{
+				"gid" "3739473523303306606"
+				"size" "2241078201"
+				"download" "262611328"
+			}
+			"undehero-tb"
+			{
+				"gid" "3863760609578400601"
+				"size" "2135677775"
+				"download" "262573760"
+			}
+			"underhero-prevstable"
+			{
+				"gid" "3863760609578400601"
+				"size" "2135677775"
+				"download" "262573760"
+			}
+			"underhero_407"
+			{
+				"gid" "3863760609578400601"
+				"size" "2135677775"
+				"download" "262573760"
+			}
+			"underhero_411"
+			{
+				"gid" "2327238498029813713"
+				"size" "2240725389"
+				"download" "262567120"
+			}
+			"underhero_412"
+			{
+				"gid" "8363519896396153503"
+				"size" "2240726913"
+				"download" "262560256"
+			}
+			"underhero_413"
+			{
+				"gid" "3739473523303306606"
+				"size" "2241078201"
+				"download" "262611328"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5938432"
+			"timeupdated" "1607439312"
+		}
+		"prerelease"
+		{
+			"buildid" "5228028"
+			"timeupdated" "1593429343"
+		}
+		"undehero-tb"
+		{
+			"buildid" "4651871"
+			"timeupdated" "1585764645"
+		}
+		"underhero-prevstable"
+		{
+			"buildid" "4651871"
+			"timeupdated" "1585766371"
+		}
+		"underhero_407"
+		{
+			"buildid" "4651900"
+			"description" "Previous Stable Builds"
+			"timeupdated" "1585764399"
+		}
+		"underhero_411"
+		{
+			"buildid" "4847177"
+			"timeupdated" "1587468170"
+		}
+		"underhero_412"
+		{
+			"buildid" "5223522"
+			"timeupdated" "1593438630"
+		}
+		"underhero_413"
+		{
+			"buildid" "5228028"
+			"description" "Pre Seiz Warining"
+			"timeupdated" "1607439287"
+		}
+	}
+	"appmanagesdlc" "1"
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Paper Castle Games"
+			"pattern" "UnderheroUnderHeroSaveFile*.dat"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "/"
+			"pattern" "unity.Paper Castle Games.UnderheroSaveFile.dat"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"2"
+		{
+			"root" "LinuxHome"
+			"path" ".config/unity3d/Paper Castle Games"
+			"pattern" "UnderheroUnderheroSaveFile.dat"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Paper Castle Games"
+					"replace" ""
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ".config/unity3d/Paper Castle Games"
+		}
+	}
+}
