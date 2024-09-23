@@ -1,0 +1,217 @@
+"appid" "652760"
+"common"
+{
+	"name" "Watchlist"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"clienttga" "010529b6336e9d8fc47d04ef45e76a95d9f4aa4a"
+	"clienticon" "f463c75b4d1beb271dc14a24199a92a402e977dd"
+	"icon" "9e5e12b0601af6529d85d7af07a34732113827a7"
+	"logo" "7d035cbdfb20f0a65517bfe6cdeb96fe6848a9ee"
+	"logo_small" "7d035cbdfb20f0a65517bfe6cdeb96fe6848a9ee_thumb"
+	"metacritic_name" "Watchlist"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "56.240133159448185"
+			"height_pct" "75.84325314005224"
+		}
+	}
+	"store_asset_mtime" "1574388554"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Fletcher\'s Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Fletcher\'s Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_9" "1"
+		"category_39" "1"
+		"category_24" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_25" "1"
+		"category_1" "1"
+		"category_44" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1467615600"
+	"steam_release_date" "1499370611"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "652760"
+	"store_tags"
+	{
+		"0" "1716"
+		"1" "4758"
+		"2" "3841"
+		"3" "4004"
+		"4" "4255"
+		"5" "21"
+		"6" "492"
+		"7" "19"
+		"8" "3964"
+		"9" "4840"
+		"10" "1773"
+		"11" "1774"
+		"12" "4885"
+		"13" "4637"
+		"14" "3871"
+		"15" "4094"
+		"16" "4400"
+		"17" "4853"
+		"18" "5125"
+		"19" "1685"
+	}
+	"review_score" "7"
+	"review_percentage" "85"
+}
+"extended"
+{
+	"developer" "Fletcher\'s Games"
+	"publisher" "Fletcher\'s Games"
+	"homepage" "http://www.fletchersgames.com/"
+}
+"config"
+{
+	"installdir" "Watchlist"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Watchlist.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Watchlist.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+}
+"depots"
+{
+	"652761"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7192036067847022251"
+				"size" "75000603"
+				"download" "42148368"
+			}
+		}
+	}
+	"652762"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7710638317699734551"
+				"size" "93021314"
+				"download" "45049184"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1953516"
+			"timeupdated" "1499810637"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "200000"
+	"maxnumfiles" "2"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "FletchersGames/Watchlist/"
+			"pattern" "*.dat"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "FletchersGames/Watchlist/"
+					"replace" "FletchersGames/Watchlist/"
+				}
+			}
+		}
+	}
+}
