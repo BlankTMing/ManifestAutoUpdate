@@ -1,0 +1,252 @@
+"appid" "605310"
+"common"
+{
+	"name" "Unearthing Mars VR"
+	"type" "Game"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"koreana" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"japanese" "1"
+	}
+	"clienttga" "9005fa81d7aca05c4a5efb69ad1b1f94dded5993"
+	"clienticon" "a91dcd9eeee5009d0582db5e85653646a2e06e74"
+	"icon" "6e00f9d7e959e8fe0a8127f39e74466fc891486d"
+	"logo" "0e7339677541715ac9ccaa62f0f23c92b0b8b689"
+	"logo_small" "0e7339677541715ac9ccaa62f0f23c92b0b8b689_thumb"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"oslist" "windows"
+	"osarch" ""
+	"openvrsupport" "1"
+	"openvroverlaysupport" "1"
+	"metacritic_name" "Unearthing Mars"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1516784192"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Light Era Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Skywalker HK"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_52" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"full_audio" "true"
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"tchinese"
+		{
+			"full_audio" "true"
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1498183265"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "605310"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "599"
+		"2" "6702"
+		"3" "21978"
+	}
+	"review_score" "5"
+	"review_percentage" "64"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Light Era Studio"
+	"publisher" "Skywalker HK"
+}
+"config"
+{
+	"installdir" "UnearthingMars"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "UnearthingMars.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "UnearthingMars.exe"
+			"type" "openvroverlay"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"605311"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3991494550549204159"
+				"size" "12642557774"
+				"download" "11938520656"
+			}
+			"local"
+			{
+				"gid" "3991494550549204159"
+				"size" "12642557774"
+				"download" "11938520656"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2372507"
+			"timeupdated" "1513662831"
+		}
+		"local"
+		{
+			"buildid" "2372713"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1513357038"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "2000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "UnearthingMars/Saved/SaveGames"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
