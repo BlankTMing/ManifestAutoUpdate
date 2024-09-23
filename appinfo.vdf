@@ -1,0 +1,230 @@
+"appid" "857470"
+"common"
+{
+	"name" "NEKOKORO"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"clienticon" "60151c8501f5ccfa79a0ff8cb62ec882e73602c3"
+	"clienttga" "a193f7df9173e70228652db9687f5bf5076152e9"
+	"icon" "d5175bdbceb73f3dec5dfed41d6d04f0c5c87a68"
+	"logo" "5696148b5b2f92a713fc08794eca2fdff2538eb7"
+	"logo_small" "5696148b5b2f92a713fc08794eca2fdff2538eb7_thumb"
+	"metacritic_name" "NEKOKORO"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "78.87055725753872"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1666986609"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Mikołaj Spychał"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Mikołaj Spychał"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Mikołaj Spychał"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+		"3" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1534449180"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "857470"
+	"store_tags"
+	{
+		"0" "3799"
+		"1" "4085"
+		"2" "4947"
+		"3" "1742"
+		"4" "4726"
+		"5" "1654"
+		"6" "1719"
+		"7" "5350"
+		"8" "492"
+		"9" "4305"
+		"10" "4136"
+		"11" "597"
+		"12" "21"
+		"13" "9551"
+		"14" "3942"
+		"15" "4182"
+		"16" "3871"
+		"17" "3839"
+		"18" "10397"
+		"19" "6971"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"developer" "Mikołaj Spychał"
+	"publisher" "Mikołaj Spychał"
+	"homepage" "http://mikolajspychal.com/nekokoro"
+}
+"config"
+{
+	"installdir" "NEKOKORO"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "NEKOKORO.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "NEKOKORO.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "NEKOKORO.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"857471"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4131984718911505455"
+				"size" "748449849"
+				"download" "622276896"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3830684"
+			"timeupdated" "1558032255"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "21000000"
+	"maxnumfiles" "70"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "RenPy/NEKOKORO"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "LinuxHome"
+			"path" ".renpy/NEKOKORO"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+		"2"
+		{
+			"root" "MacHome"
+			"path" "/Library/RenPy/NEKOKORO"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+}
