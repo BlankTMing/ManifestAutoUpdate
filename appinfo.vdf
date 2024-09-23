@@ -1,0 +1,276 @@
+"appid" "606140"
+"common"
+{
+	"name" "Survived By"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"clienttga" "15016d7739dbd6ba99c4753f75bcdf073cce43b2"
+	"clienticon" "a281bc73929b31920388d9289b7cba1294efed2e"
+	"icon" "588793310f03945fd7df73095fd8f57afdeeaedf"
+	"logo" "4c576126b4412598d584372256abc1f7230751a0"
+	"logo_small" "4c576126b4412598d584372256abc1f7230751a0_thumb"
+	"app_retired_publisher_request" "1"
+	"metacritic_name" "Survived By"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1544209845"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Human Head Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Digital Extremes"
+		}
+	}
+	"primary_genre" "37"
+	"genres"
+	{
+		"0" "1"
+		"1" "37"
+		"2" "23"
+		"3" "29"
+		"4" "3"
+		"5" "70"
+	}
+	"category"
+	{
+		"category_36" "1"
+		"category_20" "1"
+		"category_38" "1"
+		"category_18" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1544041980"
+	"community_hub_visible" "1"
+	"gameid" "606140"
+	"store_tags"
+	{
+		"0" "113"
+		"1" "122"
+		"2" "128"
+		"3" "3964"
+		"4" "1662"
+		"5" "4885"
+		"6" "493"
+		"7" "1716"
+		"8" "19"
+		"9" "3859"
+		"10" "492"
+		"11" "1685"
+		"12" "1759"
+		"13" "3871"
+	}
+	"review_score" "5"
+	"review_percentage" "61"
+}
+"extended"
+{
+	"allowmicrotxnfromrestrictedcountries" "0"
+	"microtxnrestrictedcountries" "RU,BY"
+	"developer" "Human Head Studios"
+	"publisher" "Digital Extremes"
+	"homepage" "http://survivedby.com/"
+	"listofdlc" "990760,990761,990762"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Survived By"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SurvivedBy.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "default"
+			}
+		}
+		"5"
+		{
+			"executable" "SurvivedBy.exe"
+			"arguments" "-hosturl https://staging.backend.survivedby.com"
+			"description" "Playtest Server (Staging)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "qastaging"
+			}
+		}
+		"6"
+		{
+			"executable" "SurvivedBy.exe"
+			"arguments" "-hosturl http://test.backend.survivedby.com:9000"
+			"description" "Playtest Server (test)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "qabranch"
+			}
+		}
+		"7"
+		{
+			"executable" "SurvivedBy.exe"
+			"arguments" "-hosturl http://test.backend.survivedby.com:9000"
+			"description" "Playtest Server (test)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "qadebug"
+			}
+		}
+		"8"
+		{
+			"executable" "SurvivedBy.exe"
+			"arguments" "-hosturl https://nightly.backend.survivedby.com"
+			"description" "Playtest Server (nightly)"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "qanightly"
+			}
+		}
+	}
+}
+"depots"
+{
+	"606141"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8154792334392567129"
+				"size" "887365337"
+				"download" "431656992"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"digitalextremes"
+			{
+				"gid" "936C18FAE1C64A3C7374E4D7016A0840"
+				"size" "2B3D9FE3DA9C01ECFB90D327B3E90A2A"
+				"download" "6D2A1882557225FEED8A12B8D1E9048F"
+			}
+			"playtest"
+			{
+				"gid" "F040504C16E0E54998088293D56CFCA5"
+				"size" "5F477B59DF16ED350C13FAE00B250F1A"
+				"download" "507AAA2B395B324AD2090DEBC547A550"
+			}
+			"qabranch"
+			{
+				"gid" "8D9B3FBDA8AF208075B45275D082DD56"
+				"size" "ED5B9F119B75BA11468A76FAE4236BE2"
+				"download" "A52E5515D777D2A7327F3A43A6A3571D"
+			}
+			"qadebug"
+			{
+				"gid" "CD6AB396909FF5F3B6EF0FF747D40271"
+				"size" "5A0111DB18B11CBEB28AC294D8CC55E3"
+				"download" "7BD19836809F880126D741FF88C4E46A"
+			}
+			"qanightly"
+			{
+				"gid" "141350498FF31974AC6EA17DA3048047"
+				"size" "D7F57AB51365010B51F0A2C547F8B130"
+				"download" "D8D76F4ACCBA15960FAF4FD40E2760E0"
+			}
+			"qastaging"
+			{
+				"gid" "7AE7A2033C7FB2919211B211DB2D06FD"
+				"size" "6713F4645DC3CFA7DF3ABE9912924FA3"
+				"download" "54F37600C5997E47217FE98DE90A406B"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3699744"
+			"timeupdated" "1554307060"
+		}
+		"digitalextremes"
+		{
+			"buildid" "3658711"
+			"pwdrequired" "1"
+			"timeupdated" "1552960197"
+		}
+		"playtest"
+		{
+			"buildid" "2175208"
+			"pwdrequired" "1"
+			"timeupdated" "1507222440"
+		}
+		"qabranch"
+		{
+			"buildid" "3658709"
+			"pwdrequired" "1"
+			"timeupdated" "1552960181"
+		}
+		"qadebug"
+		{
+			"buildid" "3658712"
+			"pwdrequired" "1"
+			"timeupdated" "1552960216"
+		}
+		"qanightly"
+		{
+			"buildid" "3704344"
+			"pwdrequired" "1"
+			"timeupdated" "1554273502"
+		}
+		"qastaging"
+		{
+			"buildid" "3699744"
+			"pwdrequired" "1"
+			"timeupdated" "1554154367"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "3145728"
+	"maxnumfiles" "32"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "CloudSaves/{64BitSteamID}"
+			"pattern" "*"
+		}
+	}
+}
