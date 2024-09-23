@@ -1,0 +1,225 @@
+"appid" "885910"
+"common"
+{
+	"name" "Ginga Force"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"japanese" "1"
+	}
+	"icon" "8b15a305ffaf6568d2855011db336ba789c58bb5"
+	"logo" "9f8e75dbdf4beac77a1a2ab2793464c779e5db2a"
+	"logo_small" "9f8e75dbdf4beac77a1a2ab2793464c779e5db2a_thumb"
+	"clienticon" "bd4461c1944234037b34abe8a524007ae36f446b"
+	"clienttga" "59ddbf15bb494dcf2598461f04d35b44e4b30153"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1671840000"
+		"tested_build_id" "5583393"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "45.42334096109843"
+			"height_pct" "76.82260745666112"
+		}
+	}
+	"store_asset_mtime" "1582533624"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Qute"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Rising Star Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_25" "1"
+		"category_22" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1600953553"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "885910"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "4255"
+		"2" "1773"
+		"3" "4085"
+		"4" "1756"
+		"5" "4885"
+	}
+	"review_score" "8"
+	"review_percentage" "82"
+}
+"extended"
+{
+	"developer" "Qute"
+	"publisher" "Rising Star Games"
+}
+"config"
+{
+	"installdir" "GingaForce"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "GingaForce_x64_Release.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,japanese"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"885911"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5428233660349629513"
+				"size" "1470484430"
+				"download" "1243655088"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5583393"
+			"timeupdated" "1600854872"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Qute\\GingaForce"
+			"pattern" "*.bin"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Qute\\GingaForce\\replay"
+			"pattern" "*.dat"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
