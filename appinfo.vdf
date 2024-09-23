@@ -1,0 +1,404 @@
+"appid" "63960"
+"common"
+{
+	"name" "Theatre of War 3: Korea"
+	"clienticon" "f167674783ac492080385c6d22b046ec5f30248f"
+	"clienttga" "64e654e6188a9e51d1af28f48a1efad7756a7c82"
+	"icon" "7f5b4d64630fd50a5c91ca247e4c7652a5312af5"
+	"oslist" "windows"
+	"logo" "efc229a4066191e8c67172d5c57ed36e62314183"
+	"logo_small" "efc229a4066191e8c67172d5c57ed36e62314183_thumb"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1698710400"
+		"tested_build_id" "300171"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Theatre of War 3: Korea"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1668527384"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Fulqrum Publishing"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Fulqrum Publishing"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Fulqrum"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_23" "1"
+		"category_17" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1300986000"
+	"metacritic_score" "49"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/theatre-of-war-3-korea\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "63960"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "5179"
+		"2" "1676"
+	}
+	"review_score" "5"
+	"review_percentage" "44"
+}
+"extended"
+{
+	"developer" "Fulqrum Publishing"
+	"gamedir" "Theatre of War 3 Korea"
+	"homepage" "http://www.tow-game.com/"
+	"icon" ""
+	"installscript" "63960_install.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "63961"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Fulqrum Publishing"
+	"gamemanualurl" "https://store.steampowered.com/manual/63960/"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Korea.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "MissionEditor/SimpleEditor.exe"
+			"description" "Scenario Wizard"
+			"workingdir" "MissionEditor"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "MissionEditor/Editor.exe"
+			"description" "Mission Editor"
+			"workingdir" "MissionEditor"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "Builder.exe"
+			"description" "Map Editor"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "Korea.exe"
+			"arguments" "StrategicCampaignDesignerMode"
+			"description" "Strategic Map Designer"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"5"
+		{
+			"executable" "options.exe"
+			"description" "Configure"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Theatre of War 3 Korea"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229000"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"63961"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3117391426650511064"
+				"size" "1578186665"
+				"download" "0"
+			}
+		}
+	}
+	"63962"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3853334029061751976"
+				"size" "60485006"
+				"download" "0"
+			}
+		}
+	}
+	"63963"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2470390793600352727"
+				"size" "38492773"
+				"download" "0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "300171"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "524288000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "users"
+			"pattern" "*.usr"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "users"
+			"pattern" "*.xml"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "users"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "users"
+			"pattern" "trigger.ini"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"4"
+		{
+			"root" "gameinstall"
+			"path" "users"
+			"pattern" "*.utf8"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"5"
+		{
+			"root" "gameinstall"
+			"path" "users"
+			"pattern" "*.bin"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"6"
+		{
+			"root" "gameinstall"
+			"path" "users"
+			"pattern" "camera.properties"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"7"
+		{
+			"root" "gameinstall"
+			"path" "users"
+			"pattern" "game.ini"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"8"
+		{
+			"root" "gameinstall"
+			"path" "users"
+			"pattern" "keys.ini"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"9"
+		{
+			"root" "gameinstall"
+			"path" "users"
+			"pattern" "settings.ini"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
