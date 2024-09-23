@@ -1,0 +1,202 @@
+"appid" "1269350"
+"common"
+{
+	"name" "Neuronaut"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "068b6fb99a4183776e90a1d687f0d1d2b1ad6bd2"
+	"logo_small" "068b6fb99a4183776e90a1d687f0d1d2b1ad6bd2_thumb"
+	"icon" "97780a85ec114ce5456d29b50478dd4e2ad3dd99"
+	"clienticns" "83b1c637280b6f365461c2e63a7699dfc99fdb9a"
+	"clienticon" "fe8b3d4dc7978855ce17a9963da562086eca85e0"
+	"clienttga" "5401b5dc1ae33132f7383efd8bbe76d7c5142d78"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"osextended" ""
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+	}
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "3"
+		"2" "5"
+		"3" "4"
+	}
+	"restricted_countries" "CN,DE"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "87.98133022170362"
+			"height_pct" "60.48632402106641"
+		}
+	}
+	"store_asset_mtime" "1584535686"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "GUT.GAMES"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "7DOTS"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "GUT.GAMES"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1586508142"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1269350"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "597"
+		"3" "12095"
+		"4" "3799"
+		"5" "6650"
+		"6" "5611"
+		"7" "4085"
+	}
+	"review_score" "8"
+	"review_percentage" "80"
+}
+"extended"
+{
+	"developer" "GUT.GAMES"
+	"publisher" "GUT.GAMES"
+}
+"config"
+{
+	"installdir" "Neuronaut"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Neuronaut.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Neuronaut.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1269351"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2492678946041813012"
+				"size" "223517549"
+				"download" "161352192"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4934622"
+			"timeupdated" "1587640619"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "20000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "RenPy/Neuronaut"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "LinuxHome"
+			"path" ".renpy/Neuronaut"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "game/saves"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+}
