@@ -29,29 +29,51 @@
 	"releasestatesteamchina" "released"
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1645488000"
-		"tested_build_id" "7821447"
+		"category" "2"
+		"test_timestamp" "1717632000"
+		"tested_build_id" "13562731"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
 		{
-			"supported_input" "simultaneous_gamepad_mouse"
+			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
-			"small_text" "0"
+			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-1RC"
 			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"controller_support" "full"
@@ -70,6 +92,41 @@
 		"library_capsule" "en,zh-xc"
 		"library_hero" "en"
 		"library_logo" "en,zh-xc"
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"sc_schinese" "library_600x900_sc_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"sc_schinese" "library_600x900_sc_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"sc_schinese" "logo_sc_schinese.png"
+			}
+			"image2x"
+			{
+				"sc_schinese" "logo_sc_schinese_2x.png"
+			}
+		}
 	}
 	"store_asset_mtime" "1683092872"
 	"associations"
@@ -208,15 +265,17 @@
 		"5" "3810"
 		"6" "3834"
 		"7" "4175"
-		"8" "16689"
-		"9" "3839"
+		"8" "3839"
+		"9" "16689"
 		"10" "4191"
 		"11" "1697"
-		"12" "5230"
-		"13" "3859"
+		"12" "3859"
+		"13" "5230"
+		"14" "1685"
+		"15" "13577"
 	}
 	"review_score" "6"
-	"review_percentage" "76"
+	"review_percentage" "77"
 }
 "extended"
 {
@@ -250,64 +309,6 @@
 "depots"
 {
 	"baselanguages" ""
-	"branches"
-	{
-		"steam_china_only"
-		{
-			"sc_schinese" "仅中国"
-			"buildid" "13562731"
-			"pwdrequired" "1"
-			"timeupdated" "1708940173"
-		}
-		"steam_china_new"
-		{
-			"sc_schinese" "Steam China Only"
-			"buildid" "11270897"
-			"pwdrequired" "1"
-			"timeupdated" "1684492754"
-		}
-		"public"
-		{
-			"buildid" "13562731"
-			"timeupdated" "1709026739"
-		}
-		"beta"
-		{
-			"buildid" "7530896"
-			"pwdrequired" "1"
-			"timeupdated" "1634192925"
-		}
-		"development"
-		{
-			"buildid" "10504641"
-			"pwdrequired" "1"
-			"timeupdated" "1675851842"
-		}
-		"goldmaster"
-		{
-			"buildid" "5678061"
-			"pwdrequired" "1"
-			"timeupdated" "1602616919"
-		}
-		"production"
-		{
-			"buildid" "13513145"
-			"pwdrequired" "1"
-			"timeupdated" "1708500950"
-		}
-		"releasecandidate"
-		{
-			"buildid" "12395414"
-			"pwdrequired" "1"
-			"timeupdated" "1696869493"
-		}
-		"testing"
-		{
-			"buildid" "13546744"
-			"pwdrequired" "1"
-			"timeupdated" "1708714145"
-		}
-	}
 	"228988"
 	{
 		"config"
@@ -1432,6 +1433,64 @@
 			}
 		}
 	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13562731"
+			"timeupdated" "1709026739"
+		}
+		"beta"
+		{
+			"buildid" "7530896"
+			"pwdrequired" "1"
+			"timeupdated" "1634192925"
+		}
+		"development"
+		{
+			"buildid" "10504641"
+			"pwdrequired" "1"
+			"timeupdated" "1675851842"
+		}
+		"goldmaster"
+		{
+			"buildid" "5678061"
+			"pwdrequired" "1"
+			"timeupdated" "1602616919"
+		}
+		"production"
+		{
+			"buildid" "13513145"
+			"pwdrequired" "1"
+			"timeupdated" "1708500950"
+		}
+		"releasecandidate"
+		{
+			"buildid" "12395414"
+			"pwdrequired" "1"
+			"timeupdated" "1696869493"
+		}
+		"steam_china_new"
+		{
+			"sc_schinese" "Steam China Only"
+			"buildid" "11270897"
+			"pwdrequired" "1"
+			"timeupdated" "1684492754"
+		}
+		"steam_china_only"
+		{
+			"sc_schinese" "仅中国"
+			"buildid" "13562731"
+			"pwdrequired" "1"
+			"timeupdated" "1708940173"
+		}
+		"testing"
+		{
+			"buildid" "13546744"
+			"pwdrequired" "1"
+			"timeupdated" "1708714145"
+		}
+	}
 }
 "ufs"
 {
@@ -1451,7 +1510,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "22766622"
-"_sha" "0926550a55147e2d04d99198dfdf02f6334ba931"
-"_size" "31112"
