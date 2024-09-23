@@ -1,0 +1,318 @@
+"appid" "716490"
+"common"
+{
+	"name" "EXAPUNKS"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"logo" "3a0c7ce859352ee20da2403c5b75145678477755"
+	"logo_small" "3a0c7ce859352ee20da2403c5b75145678477755_thumb"
+	"clienticon" "233f8f7625185a30baadccfbfef237cbf1c72d1c"
+	"clienttga" "69c250e816c226a8b5522a16356e6475ae77e706"
+	"icon" "31c5bbbd5f68c9094fff8ff7a3c43272f183bf13"
+	"linuxclienticon" "a07d06e2f75514fbf9c58db04dbd68466a4ea213"
+	"clienticns" "b228c8160f65c1524cf865ad951f70d54a8335dc"
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1646179200"
+		"tested_build_id" "5829441"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "EXAPUNKS"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1667071506"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Zachtronics"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Zachtronics"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "EXAPUNKS"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_30" "1"
+		"category_23" "1"
+		"category_25" "1"
+		"category_17" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1540223104"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "716490"
+	"store_tags"
+	{
+		"0" "5432"
+		"1" "1664"
+		"2" "5502"
+		"3" "255534"
+		"4" "492"
+		"5" "599"
+		"6" "6129"
+		"7" "4115"
+		"8" "4182"
+		"9" "4026"
+		"10" "1756"
+		"11" "3810"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"developer" "Zachtronics"
+	"publisher" "Zachtronics"
+	"homepage" "http://www.zachtronics.com/exapunks"
+}
+"config"
+{
+	"installdir" "EXAPUNKS"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "EXAPUNKS.exe"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "EXAPUNKS.app/Contents/MacOS/EXAPUNKS"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "EXAPUNKS"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"229004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"716491"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2461759427682173730"
+				"size" "665772786"
+				"download" "488845536"
+			}
+		}
+	}
+	"716492"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3105054713697192985"
+				"size" "692813446"
+				"download" "495791184"
+			}
+		}
+	}
+	"716493"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "623155301854862726"
+				"size" "720514770"
+				"download" "504086576"
+			}
+		}
+	}
+	"workshopdepot" "716490"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9717324"
+			"timeupdated" "1665700767"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "{64BitSteamID}"
+			"pattern" "save.dat"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "{64BitSteamID}"
+			"pattern" "*.solution"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "{64BitSteamID}/custom"
+			"pattern" "*.js"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinMyDocuments"
+			"addpath" "My Games/EXAPUNKS"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" "EXAPUNKS"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxXdgDataHome"
+			"addpath" "EXAPUNKS"
+		}
+	}
+}
