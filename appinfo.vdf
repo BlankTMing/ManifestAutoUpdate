@@ -1,0 +1,343 @@
+"appid" "770630"
+"common"
+{
+	"name" "Boo! Greedy Kid"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"clienticon" "8c7276056c811963a12b37be853328df6e7d70ec"
+	"clienttga" "c9f9a4c4bf6bd252273639ccd831f6abcb86c3da"
+	"icon" "daacd3fde84208d383dfbc5aa72b0933ff32cd3c"
+	"clienticns" "57e069dc6f60148d22c1ae477b2f505140f78fa6"
+	"logo" "c65cedeb9271621bb5b4956abcbb34bb1d7263fb"
+	"logo_small" "c65cedeb9271621bb5b4956abcbb34bb1d7263fb_thumb"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"russian" "1"
+		"brazilian" "1"
+	}
+	"osextended" "macos64"
+	"metacritic_name" "Boo! Greedy Kid"
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "30.43971526195827"
+			"height_pct" "91.66365133138666"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "30.43971526195827"
+				"height_pct" "91.66365133138666"
+			}
+		}
+	}
+	"store_asset_mtime" "1572429035"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Flying Oak Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Flying Oak Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Flying Oak Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_30" "1"
+		"category_23" "1"
+		"category_17" "1"
+		"category_28" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1519314707"
+	"steam_deck_blog_url" "https://steamcommunity.com/app/770630/discussions/0/4039231510647747872/"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "770630"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "3964"
+		"3" "27758"
+		"4" "8122"
+		"5" "1664"
+		"6" "1687"
+		"7" "3871"
+		"8" "1719"
+	}
+	"review_score" "8"
+	"review_percentage" "85"
+}
+"extended"
+{
+	"developer" "Flying Oak Games"
+	"publisher" "Flying Oak Games"
+	"homepage" "http://greedy-kid.com/"
+}
+"config"
+{
+	"installdir" "Boo! Greedy Kid"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "GreedyKid.exe"
+			"description" "Boo! Greedy Kid"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "./Editor/GreedyKidEditor.exe"
+			"description" "Level Editor"
+			"type" "editor"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "GreedyKid.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "GreedyKid"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229002"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"workshopdepot" "770630"
+	"770631"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3999088776418612020"
+				"size" "23553159"
+				"download" "9072720"
+			}
+		}
+	}
+	"770632"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7407426782559739787"
+				"size" "31804358"
+				"download" "11333280"
+			}
+		}
+	}
+	"770633"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6606811896242762171"
+				"size" "61875618"
+				"download" "20149232"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2547374"
+			"timeupdated" "1519293581"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "4194304"
+	"maxnumfiles" "4082"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Flying Oak Games/Boo! Greedy Kid"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "Flying Oak Games/Boo! Greedy Kid"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"2"
+		{
+			"root" "LinuxHome"
+			"path" ".greedykid"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
