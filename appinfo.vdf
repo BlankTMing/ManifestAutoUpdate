@@ -1,0 +1,384 @@
+"appid" "835860"
+"common"
+{
+	"name" "Dreadnought"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"logo" "876070b21e28be6ac1368e9006bd5b94fdd59bf6"
+	"logo_small" "876070b21e28be6ac1368e9006bd5b94fdd59bf6_thumb"
+	"icon" "f87e6aeda2921741fca0a4b0861ceff103abfc44"
+	"clienttga" "275b006b977f7e9875f014436a745c3a08f601e3"
+	"clienticns" "153a1dcdf97718a8d415096d26f6f6eda1c6003d"
+	"linuxclienticon" "153a1dcdf97718a8d415096d26f6f6eda1c6003d"
+	"clienticon" "dc1503feecfb6b4249c3c61864277abcf376815f"
+	"app_retired_publisher_request" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1645574400"
+		"tested_build_id" "8079048"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Dreadnought"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1572459900"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Six Foot"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "YAGER"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Grey Box"
+		}
+		"3"
+		{
+			"type" "publisher"
+			"name" "Six Foot"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "29"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_36" "1"
+		"category_20" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_35" "1"
+		"category_49" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1539514020"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "835860"
+	"store_tags"
+	{
+		"0" "1755"
+		"1" "113"
+		"2" "128"
+		"3" "3942"
+		"4" "19"
+		"5" "3859"
+		"6" "1774"
+		"7" "1775"
+		"8" "4291"
+		"9" "1695"
+		"10" "9"
+		"11" "1685"
+		"12" "1718"
+		"13" "4295"
+	}
+	"review_score" "5"
+	"review_percentage" "67"
+}
+"extended"
+{
+	"developer" "Six Foot"
+	"publisher" "Grey Box"
+	"homepage" "https://www.greybox.com/dreadnought/"
+	"listofdlc" "858300,916771,916772,931800,931980,949110,1384810,1741750"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Dreadnought"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DreadnoughtLauncher.exe"
+			"arguments" "--debug"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "DreadnoughtLauncher.exe"
+			"arguments" "/action unpromoted"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "staging"
+			}
+		}
+		"2"
+		{
+			"executable" "PlayDread.exe"
+			"arguments" "--debug"
+			"description" "Launch with PlayDread"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "mith"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"hasdepotsindlc" "1"
+	"835861"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "646057294282365454"
+				"size" "24141240800"
+				"download" "8915549696"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development_latest"
+			{
+				"gid" "B8164E61AC65FF473751AA1D290542CA"
+				"size" "59BC0D9B4D718B534BBABF70D7A41079"
+				"download" "82BA6876F6A94365F3AE65ED6AF80624"
+			}
+			"engineupgrade_latest"
+			{
+				"gid" "5CD894FAF7185A3C4D16181CF5EC3A60"
+				"size" "A6427130F1A2263E195508797DC6F761"
+				"download" "4D10040B440488E761898A2109D7F32E"
+			}
+			"live_latest"
+			{
+				"gid" "2945FB9E98D9A3C8775A8DB13CF7101E"
+				"size" "69CA204CCE9CA99FE114EE6A7AFCF18B"
+				"download" "A43793A2BD986805E4B21414C1A64227"
+			}
+			"main_latest"
+			{
+				"gid" "44EC8F10D51873B9AAE10A96061321DF"
+				"size" "5AF9C2F1D072D5D45C6B5D602525B3A5"
+				"download" "B3DD4A365D664E09FF34EDC259051C12"
+			}
+			"main_lkg"
+			{
+				"gid" "DFEBE40A43882B24C6D6F56195D5CEC5"
+				"size" "B3D68EC690719D9251B7E2BE81765172"
+				"download" "647EBC9BEED0748AA8F23B123BE29405"
+			}
+			"private_beta_test"
+			{
+				"gid" "A4CA6C1856EFE8A8608DAEF6C51AB0B7"
+				"size" "E2ADC69911E0E05FB62B368C9F421333"
+				"download" "628404168E59C016C565B7F437380642"
+			}
+			"qa_review"
+			{
+				"gid" "C406A38AB7516086293F4E39EA76C5B1"
+				"size" "E6C44B9D3BE14F2F79F98BA2361827BC"
+				"download" "00218688A0A46F0068D6796B6CDC6CFE"
+			}
+			"release_latest"
+			{
+				"gid" "4A8319A34DE7EB84DFC964BFD6C402AB"
+				"size" "FAD3B4A3451CA49564F9EB70725987DC"
+				"download" "9CD862562B8B07C7F1756F0040EB9869"
+			}
+			"release_lkg"
+			{
+				"gid" "C60560C4681E3073CDED6AF6A53A8BE6"
+				"size" "D6A5E25107D15B419EE48C2789F67CAE"
+				"download" "7E46C580369CF00E14C041D9CCB5A39B"
+			}
+		}
+	}
+	"916770"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2779983522665883789"
+				"size" "141147375"
+				"download" "140381040"
+			}
+		}
+		"dlcappid" "916770"
+		"depotfromapp" "916770"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10677809"
+			"timeupdated" "1677793944"
+		}
+		"development_latest"
+		{
+			"buildid" "8800299"
+			"pwdrequired" "1"
+			"timeupdated" "1653405624"
+		}
+		"engineupgrade_latest"
+		{
+			"buildid" "8898942"
+			"pwdrequired" "1"
+			"timeupdated" "1654725184"
+		}
+		"live_latest"
+		{
+			"buildid" "10677809"
+			"pwdrequired" "1"
+			"timeupdated" "1677790156"
+		}
+		"main_latest"
+		{
+			"buildid" "10140668"
+			"pwdrequired" "1"
+			"timeupdated" "1670965816"
+		}
+		"main_lkg"
+		{
+			"buildid" "8537008"
+			"pwdrequired" "1"
+			"timeupdated" "1653337296"
+		}
+		"private_beta_test"
+		{
+			"buildid" "6654003"
+			"pwdrequired" "1"
+			"timeupdated" "1620248266"
+		}
+		"qa_review"
+		{
+			"buildid" "3182761"
+			"pwdrequired" "1"
+			"timeupdated" "1538658233"
+		}
+		"release_latest"
+		{
+			"buildid" "6289038"
+			"pwdrequired" "1"
+			"timeupdated" "1614699341"
+		}
+		"release_lkg"
+		{
+			"buildid" "6289038"
+			"pwdrequired" "1"
+			"timeupdated" "1614699447"
+		}
+	}
+}
