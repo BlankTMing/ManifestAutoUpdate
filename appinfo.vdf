@@ -1,0 +1,392 @@
+"appid" "1295900"
+"common"
+{
+	"name" "Draconia"
+	"type" "Game"
+	"logo" "949f39033a6cc385cc8ff3a8a61c5654d8b2004b"
+	"logo_small" "949f39033a6cc385cc8ff3a8a61c5654d8b2004b_thumb"
+	"icon" "9adf0ae33c81c98d8046ca84512f16a4524bc0a9"
+	"clienttga" "7596a6d38bcfaf7332ce934f41139b905a0df771"
+	"clienticon" "1161787cd32866b8f08fbe4ce0fd0b5aa164f026"
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"osextended" ""
+	"releasestate" "released"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "1295900_eula_0"
+			"name" "Draconia EULA"
+			"url" "https://store.steampowered.com//eula/1295900_eula_0"
+			"version" "1"
+		}
+	}
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1662508800"
+		"tested_build_id" "8822295"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-3"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controllertagwizard" "1"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "100"
+			"height_pct" "56.83923058655902"
+		}
+	}
+	"store_asset_mtime" "1695941573"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Draconia Dev Team"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Draconia Dev Team"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "3"
+		"3" "28"
+		"4" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_20" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1642107525"
+	"community_hub_visible" "1"
+	"gameid" "1295900"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "4046"
+		"2" "599"
+		"3" "492"
+		"4" "493"
+		"5" "3859"
+		"6" "4345"
+		"7" "4182"
+		"8" "1662"
+		"9" "1754"
+		"10" "4747"
+		"11" "1695"
+		"12" "21"
+		"13" "4175"
+		"14" "1684"
+		"15" "15045"
+		"16" "5984"
+		"17" "597"
+		"18" "7332"
+		"19" "4231"
+	}
+	"review_score" "5"
+	"review_percentage" "69"
+}
+"extended"
+{
+	"gamedir" "Draconia"
+	"serverbrowsername" "Draconia"
+	"developer" "Draconia Dev Team"
+	"publisher" "Draconia Dev Team"
+	"homepage" "http://www.draconiagame.com"
+}
+"config"
+{
+	"installdir" "Draconia"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Draconia.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Draconia"
+			}
+			"description" "Draconia"
+		}
+		"1"
+		{
+			"executable" "Draconia.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "Draconia.exe"
+			"arguments" " -dx11"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Draconia - DirectX11"
+			}
+			"description" "Draconia - DirectX11"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229020"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229033"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1295901"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5809172228084799656"
+				"size" "7271126343"
+				"download" "5171536048"
+			}
+			"legacy"
+			{
+				"gid" "6787191241507819406"
+				"size" "3085112960"
+				"download" "2375999488"
+			}
+			"buildtest"
+			{
+				"gid" "5809172228084799656"
+				"size" "7271126343"
+				"download" "5171536048"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "B315E09378BF01849E54A6DF4D8E0337"
+				"size" "9857371B71645D3EF4F8FCB612163C35"
+				"download" "12329256E1808E90FFAD41F4979A7DC7"
+			}
+		}
+	}
+	"1295902"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3305472954219582960"
+				"size" "5673086584"
+				"download" "3694395904"
+			}
+			"legacy"
+			{
+				"gid" "8855412788177870780"
+				"size" "3619144287"
+				"download" "2385261744"
+			}
+			"buildtest"
+			{
+				"gid" "3305472954219582960"
+				"size" "5673086584"
+				"download" "3694395904"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "4DCCD07B9BB0CBEF9C8B43E7FB54BAE8"
+				"size" "098AD887A3499C2F91E9D3F3E61AF156"
+				"download" "F85F5421C8DDD580118138FDF7E42FB2"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15423988"
+			"timeupdated" "1724094611"
+		}
+		"legacy"
+		{
+			"buildid" "8503300"
+			"timeupdated" "1650185500"
+		}
+		"buildtest"
+		{
+			"buildid" "15423988"
+			"description" "public developer build branch"
+			"timeupdated" "1724094577"
+		}
+		"developer"
+		{
+			"buildid" "15423988"
+			"pwdrequired" "1"
+			"timeupdated" "1724094584"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "102400000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Draconia/Saved/SaveGames"
+			"pattern" "*.sav"
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Draconia/Saved/DraconiaData/Client_Single"
+			"pattern" "*.json"
+			"recursive" "1"
+		}
+	}
+}
