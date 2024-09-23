@@ -29,8 +29,6 @@
 		"0" "2"
 		"1" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "1"
@@ -82,7 +80,49 @@
 			"height_pct" "50"
 		}
 	}
-	"store_asset_mtime" "1667246623"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50"
+				"height_pct" "50"
+			}
+		}
+	}
+	"store_asset_mtime" "1719498964"
 	"associations"
 	{
 		"0"
@@ -117,6 +157,7 @@
 		"category_43" "1"
 		"category_45" "1"
 		"category_46" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -182,8 +223,8 @@
 	{
 		"0" "21"
 		"1" "1667"
-		"2" "492"
-		"3" "1721"
+		"2" "1721"
+		"3" "492"
 		"4" "3839"
 		"5" "4667"
 		"6" "1638"
@@ -194,12 +235,12 @@
 		"11" "1742"
 		"12" "3978"
 		"13" "8369"
-		"14" "1662"
-		"15" "4145"
-		"16" "3859"
-		"17" "5611"
+		"14" "4145"
+		"15" "1662"
+		"16" "5611"
+		"17" "3859"
 		"18" "5186"
-		"19" "1756"
+		"19" "1685"
 	}
 	"review_score" "6"
 	"review_percentage" "78"
@@ -292,12 +333,6 @@
 		}
 		"encryptedmanifests"
 		{
-			"bleeding_edge"
-			{
-				"gid" "375F1E37F5155CAE60BD0A580C857E23"
-				"size" "A5B165B253B0F7B7AEAAB3C5CE488445"
-				"download" "EE0BECC60CD15CAD566461B1E7C9F840"
-			}
 			"bwp_demo"
 			{
 				"gid" "D2E6532DC5BF5597EE48EF90C4C40410"
@@ -321,6 +356,12 @@
 				"gid" "8FC930645F68F0C8542F14E9B7B537BF"
 				"size" "41CCE29310F8E5D9BE108F91F2C7676C"
 				"download" "B858877BE5B5A9883B5E9445ABAEF982"
+			}
+			"bleeding_edge"
+			{
+				"gid" "A81B8059C20616DC1698B6C59A594837"
+				"size" "C4679FFE55FD6C6846E83D9D424FF487"
+				"download" "13139C0193A3EAF9C92FDD8952E954EC"
 			}
 		}
 	}
@@ -449,17 +490,17 @@
 		}
 		"encryptedmanifests"
 		{
-			"bleeding_edge"
-			{
-				"gid" "983873C096A20D32EB636CE13D80603B"
-				"size" "7892EDAA8BE34C7E4D99BAFB0AD1FE8A"
-				"download" "43A9DCFFBC6FCACA4FCC0D089E049E38"
-			}
 			"steamos_beta"
 			{
 				"gid" "28323FF1E540E01902B0ADC23EF722D3"
 				"size" "30C6157C94D88F52E81F6E4E9AFAD10F"
 				"download" "E17E303656603E8FEFFB462344BE0A05"
+			}
+			"bleeding_edge"
+			{
+				"gid" "983873C096A20D32EB636CE13D80603B"
+				"size" "7892EDAA8BE34C7E4D99BAFB0AD1FE8A"
+				"download" "43A9DCFFBC6FCACA4FCC0D089E049E38"
 			}
 		}
 	}
@@ -469,12 +510,6 @@
 		{
 			"buildid" "5340689"
 			"timeupdated" "1595928851"
-		}
-		"bleeding_edge"
-		{
-			"buildid" "5335550"
-			"pwdrequired" "1"
-			"timeupdated" "1595836954"
 		}
 		"bwp_demo"
 		{
@@ -500,6 +535,12 @@
 			"pwdrequired" "1"
 			"timeupdated" "1644312111"
 		}
+		"bleeding_edge"
+		{
+			"buildid" "4315987"
+			"pwdrequired" "1"
+			"timeupdated" "1720630658"
+		}
 	}
 }
 "ufs"
@@ -520,7 +561,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "21722114"
-"_sha" "5f24955d8944e14f0b55b0495c0f9f64add498d9"
-"_size" "9483"
