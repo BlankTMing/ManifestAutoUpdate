@@ -1,0 +1,204 @@
+"appid" "1097310"
+"common"
+{
+	"name" "Night Sing"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" ""
+	"clienticon" "eeb6b17f52cbabb8b0b6c17d9649a51e6107a4ee"
+	"clienttga" "56583ec37cb18e93ec73b9fd0284f9bbd1ebded2"
+	"icon" "c92dc482063e9ecd26c94b92c4197769c5451c9d"
+	"logo" "3d867873b01d1c5f95774393905941b6ade6d9ba"
+	"logo_small" "3d867873b01d1c5f95774393905941b6ade6d9ba_thumb"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"japanese" "1"
+	}
+	"app_retired_publisher_request" "1"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"metacritic_name" "Night Song"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1568776910"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "VKGame"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SakuraGame"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1563505099"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1097310"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "21"
+		"2" "4345"
+		"3" "122"
+		"4" "492"
+		"5" "4667"
+		"6" "4085"
+	}
+	"review_score" "5"
+	"review_percentage" "65"
+}
+"extended"
+{
+	"developer" "VKGame"
+	"publisher" "SakuraGame"
+}
+"config"
+{
+	"installdir" "Night Song"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "NS.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1097311"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "928941475455100402"
+				"size" "11004938410"
+				"download" "3696455392"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "34D3C0BDE93F7B6F7B4F282FEF865526"
+				"size" "DC412B8054CB8E0F8AAEDBCFDF9F8388"
+				"download" "D512D99E1CBD50553BBFCC509DA22BCD"
+			}
+		}
+	}
+	"baselanguages" "english,schinese,tchinese,japanese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4303471"
+			"timeupdated" "1571638935"
+		}
+		"beta"
+		{
+			"buildid" "4303471"
+			"pwdrequired" "1"
+			"timeupdated" "1571459188"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"appidredirect" "1097310"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "NS_Data"
+			"pattern" "*.json"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "NS_Data"
+					"replace" "NS_Data"
+				}
+			}
+		}
+	}
+}
