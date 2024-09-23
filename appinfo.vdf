@@ -1,0 +1,180 @@
+"appid" "480"
+"common"
+{
+	"name" "Spacewar"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "480_eula_0"
+			"name" "Spacewar EULA"
+			"url" "http://store.steampowered.com/eula/480_eula_0"
+		}
+		"1"
+		{
+			"id" "480_eula_1"
+			"name" "Spacewar EULA 1"
+			"url" "http://store.steampowered.com/eula/480_eula_1"
+			"countries" "US"
+		}
+	}
+	"requireskbmouse" "1"
+	"type" "Game"
+	"releasestate" "released"
+	"steamchinaapproved" "1"
+	"releasestatesteamchina" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"osextended" ""
+	"controller_support" "full"
+	"associations"
+	{
+		"0"
+		{
+			"type" "publisher"
+			"name" "Telltale Games"
+		}
+	}
+	"primary_genre" "0"
+	"category"
+	{
+		"category_28" "1"
+		"category_33" "1"
+		"category_44" "1"
+	}
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"gameid" "480"
+}
+"extended"
+{
+	"developer" "Valve"
+	"gamedir" "spacewar"
+	"homepage" ""
+	"icon" ""
+	"noservers" "1"
+	"serverbrowsername" "Spacewar"
+	"state" "eStateAvailable"
+	"vacmacmodulecache" "160"
+	"vacmodulecache" "203"
+	"vacmodulefilename" "sourceinit.dat"
+	"visibleonlywheninstalled" "1"
+	"disableshaderreporting" "1"
+	"publisher" "Telltale Games"
+	"listofdlc" "110902,447130"
+}
+"config"
+{
+	"usemms" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SteamWorksExample.exe"
+			"type" "none"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Spacewar"
+	"nativesteamcontroller" "1"
+	"checkforupdatesbeforelaunch" "1"
+	"testchange" "2"
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"1417465272"
+		{
+			"controller_type" "controller_steamcontroller_gordon"
+			"enabled_branches" "default,previous,private"
+			"use_action_block" "true"
+		}
+		"1761888411"
+		{
+			"controller_type" "controller_xboxone"
+			"enabled_branches" "default,previous,private"
+			"use_action_block" "false"
+		}
+	}
+	"steamconfigurator3rdpartynative" "65535"
+	"steam_china_only"
+	{
+		"steam_china_enable_duration_control" "0"
+	}
+}
+"depots"
+{
+	"229006"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"481"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3183503801510301321"
+				"size" "1906055"
+				"download" "797632"
+			}
+			"previous"
+			{
+				"gid" "8382873932604653347"
+				"size" "1752776"
+				"download" "841424"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private"
+			{
+				"gid" "89A09467D33499F8ED88480C22A2B962"
+				"size" "3F5CBBE518C2058886C5E37A62D1E6F1"
+				"download" "5A5D38347D011C6ACF52287D279FDBDA"
+			}
+		}
+	}
+	"workshopdepot" "480"
+	"baselanguages" ""
+	"privatebranches" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3538192"
+			"timeupdated" "1549489971"
+		}
+		"previous"
+		{
+			"buildid" "316058"
+			"description" "SDK 1.30"
+			"timeupdated" "1503510482"
+		}
+		"private"
+		{
+			"buildid" "316281"
+			"pwdrequired" "1"
+			"timeupdated" "1506539230"
+		}
+	}
+}
+"ufs"
+{
+	"sync_while_suspended" "1"
+	"quota" "4096"
+	"maxnumfiles" "10"
+}
+"sysreqs"
+{
+	"windows"
+	{
+		"supported" "1"
+		"cpu_min" "42"
+		"ram_min" "42"
+	}
+}
