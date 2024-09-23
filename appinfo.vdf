@@ -1,0 +1,202 @@
+"appid" "491420"
+"common"
+{
+	"name" "第九日-The 9th Day-"
+	"type" "Game"
+	"oslist" "windows"
+	"linuxclienticon" "0b8c2bbba01d4afbed368662053b684ab31d9177"
+	"clienticon" "eb5086b207d74ddbc681e9150de9c3239a91ce6f"
+	"clienttga" "10c8e05f830272b8d6a4e9d1d0dec492b7aa392b"
+	"icon" "6dedbe7d71d5a3356fd76b65ed777d74c74ad4ad"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+	}
+	"logo" "85976d7cd3bd23dfbe1276656571344f77f79a89"
+	"logo_small" "85976d7cd3bd23dfbe1276656571344f77f79a89_thumb"
+	"releasestate" "released"
+	"metacritic_name" "the 9th day"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"store_asset_mtime" "1543551732"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Lingtan Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Lingtan Studio"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1487284703"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "491420"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "21"
+		"2" "3799"
+		"3" "4085"
+	}
+	"review_score" "8"
+	"review_percentage" "91"
+}
+"extended"
+{
+	"developer" "Lingtan Studio"
+	"publisher" "Lingtan Studio"
+	"homepage" "http://the9thday.net/"
+	"listofdlc" "593990,989480,989500,991580"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "the 9th day"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "The9thday.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" ""
+	"hasdepotsindlc" "1"
+	"491421"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2715302573464548858"
+				"size" "4113310851"
+				"download" "1110984464"
+			}
+		}
+	}
+	"491422"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1785836378338541160"
+				"size" "4112620979"
+				"download" "1112788880"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3391137"
+			"timeupdated" "1544638929"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "5000000"
+	"maxnumfiles" "50"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "lingtanstudio/the9thday/"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "lingtanstudio/the9thday"
+					"replace" "com.lingtanstudio.the9thday"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "lingtanstudio/the9thday"
+					"replace" ".config/com/lingtanstudio/the9thday"
+				}
+			}
+		}
+	}
+}
