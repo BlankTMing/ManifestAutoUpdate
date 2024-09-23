@@ -1,0 +1,322 @@
+"appid" "815150"
+"common"
+{
+	"name" "Knight Bewitched"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"clienticon" "4d433a837caafc6e31660c58f7c3b1d6f5ecda0b"
+	"clienttga" "7952eaba8a19dccce3ea9d4c8250ca2eb58cbe54"
+	"icon" "c859de09399372f513c19893b8265c69295ab184"
+	"logo" "2466bdb6e575ab054ded50c7167f190e4cc9a38a"
+	"logo_small" "2466bdb6e575ab054ded50c7167f190e4cc9a38a_thumb"
+	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1675296000"
+		"tested_build_id" "9334820"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-6"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Knight Bewitched"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "99.68214599371214"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomCenter"
+				"width_pct" "99.68214599371214"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1643844796"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Joshua Keith"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Joshua Keith"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "The Knights of Ambrose Saga"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1524043477"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "815150"
+	"store_tags"
+	{
+		"0" "4434"
+		"1" "4947"
+		"2" "492"
+		"3" "44868"
+		"4" "7208"
+		"5" "1742"
+		"6" "597"
+		"7" "1684"
+		"8" "122"
+		"9" "5577"
+		"10" "3964"
+		"11" "3871"
+		"12" "4325"
+		"13" "4791"
+		"14" "1677"
+		"15" "4726"
+		"16" "21"
+		"17" "4182"
+		"18" "4234"
+		"19" "10695"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "Joshua Keith"
+	"publisher" "Joshua Keith"
+	"homepage" "http://teambewitched.com"
+	"listofdlc" "1713281"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Knight Bewitched"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Knight Bewitched Enhanced Edition/game.exe"
+			"arguments" "--in-process-gpu"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Play the Enhanced Edition"
+			}
+			"description" "Play the Enhanced Edition"
+		}
+		"1"
+		{
+			"executable" "game.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "game.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Play the Legacy Edition"
+			}
+			"description" "Play the Legacy Edition"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"815151"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3238154585663026838"
+				"size" "969660652"
+				"download" "484438544"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "9574E953BF27F704CD81FA10C9D8FF1F"
+				"size" "C38638AD98F2CC689A459937C7D83FDE"
+				"download" "35D13D11D57A75BB715B1C10EE3B8146"
+			}
+		}
+	}
+	"815152"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8261545989795613045"
+				"size" "658108979"
+				"download" "372769040"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "990D1EA65299CC471DA7C53D3E6E12A8"
+				"size" "2A95CB3DF9B4EFB3D2E1BFFE6B6B94EF"
+				"download" "B8BE1D7D3497916EE2B6121DE382501D"
+			}
+		}
+	}
+	"815153"
+	{
+		"dlcappid" "1713281"
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1032865657413447824"
+				"size" "31933492"
+				"download" "32282848"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11305146"
+			"timeupdated" "1684920989"
+		}
+		"beta"
+		{
+			"buildid" "7036585"
+			"pwdrequired" "1"
+			"timeupdated" "1626381918"
+		}
+	}
+}
