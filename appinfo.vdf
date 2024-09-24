@@ -41,6 +41,60 @@
 	{
 		"0" "5"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1727136000"
+		"tested_build_id" "15773735"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"5"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-3RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -258,15 +312,15 @@
 		{
 			"public"
 			{
-				"gid" "1524509781752397350"
-				"size" "766075355"
-				"download" "608755072"
+				"gid" "6421209516023543654"
+				"size" "766005243"
+				"download" "608749600"
 			}
 			"public-beta"
 			{
-				"gid" "1524509781752397350"
-				"size" "766075355"
-				"download" "608755072"
+				"gid" "9032811117148134119"
+				"size" "766188884"
+				"download" "608929648"
 			}
 		}
 		"encryptedmanifests"
@@ -285,9 +339,9 @@
 			}
 			"internal-test"
 			{
-				"gid" "30256131A8982433E6275F96321099D8"
-				"size" "3B656E9AD4D107C8EB30A1BB5A859D64"
-				"download" "E36D82D70AC0FFD1EA991AEF8C5116BF"
+				"gid" "D34A24CEA812E09AD954AF9A8DCC3A98"
+				"size" "2940517EA576D8C16C7077D92A3DA839"
+				"download" "FDDBE69B0C1AFFCA307396CC2464C1B5"
 			}
 			"localization"
 			{
@@ -319,8 +373,8 @@
 	{
 		"public"
 		{
-			"buildid" "15773735"
-			"timeupdated" "1726905364"
+			"buildid" "15794367"
+			"timeupdated" "1727104565"
 		}
 		"gamescom2023"
 		{
@@ -336,9 +390,9 @@
 		}
 		"internal-test"
 		{
-			"buildid" "15773735"
+			"buildid" "15797323"
 			"pwdrequired" "1"
-			"timeupdated" "1726852472"
+			"timeupdated" "1727108844"
 		}
 		"localization"
 		{
@@ -348,9 +402,9 @@
 		}
 		"public-beta"
 		{
-			"buildid" "15773735"
+			"buildid" "15797323"
 			"description" "to get future updates earlier"
-			"timeupdated" "1726856066"
+			"timeupdated" "1727173659"
 		}
 		"q-a-branch"
 		{
@@ -387,7 +441,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "25328938"
-"_sha" "a8e46b8217945ba0480794414d86568134f48c43"
-"_size" "7182"
