@@ -1,14 +1,14 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-25 05:44:28
+## 更新时间：2024-09-25 05:57:46
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 2715960 | Girls Hobby in LOVE| Game |
-| 2752720 | 骰号玩家| Game |
-| 3047010 | 总裁你想和谁谈恋爱-原声音乐MV| DLC |
-| 3050620 | 总裁你想和谁谈恋爱-视频花絮集| DLC |
-| 3050610 | 总裁你想和谁谈恋爱-精品剧照集| DLC |
-| 2814390 | NSFW Content - Bunny-girl with Golden tummy| DLC |
-| 2845150 | 魅惑| Game |
-| 2882440 | DEVIL BLADE REBOOT| Game |
-| 2878600 | 哈利·波特：魁地奇锦标赛| Game |
+| 2528120 | 规则支配| Game |
+| 3040550 | 故事结局 陆小小| DLC |
+| 2583430 | 梦狱之国的爱丽丝 ~猎奇密室逃脱游戏~| Game |
+| 25850 | Elven Legacy| game |
+| 2593600 | Resident Evil 4 Original Soundtrack| Music |
+| 2725740 | 黑道麻将R18 DLC| DLC |
+| 2914180 | Lust Academy Season 3 - Forbidden Fantasies| DLC |
+| 2657730 | 黄金之境-埃尔德兰特-| Game |
+| 2824300 | Miss Neko: Pirates - Free Bonus Content| DLC |
