@@ -1,13 +1,11 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-25 06:46:12
+## 更新时间：2024-09-25 07:05:53
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 2167790 | 风暴行动| Game |
-| 2685660 | 《寂静之歌》 数码产品| DLC |
-| 2186680 | Warhammer 40,000: Rogue Trader| Game |
-| 2198150 | Tiny Glade| Game |
-| 221001 | FTL: Faster Than Light - Soundtrack| Music |
-| 2212700 | The Book of Bondmaids - Tales| DLC |
-| 2218750 | Halls of Torment 苦痛殿堂| Game |
-| 2221490 | Tom Clancy's The Division 2| Game |
+| 207930 | Sacred Citadel| Game |
+| 2394360 | 你被驱逐了。 - 成人故事情节&绘图追加DLC| DLC |
+| 2394370 | 修女莉濑的受难 - 成人故事情节&绘图追加DLC| DLC |
+| 212680 | FTL: Faster Than Light| Game |
+| 2141230 | 人生牌| Game |
+| 2144640 | 末日地带2| Game |
