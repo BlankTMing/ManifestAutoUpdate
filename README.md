@@ -1,14 +1,11 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-25 05:57:46
+## 更新时间：2024-09-25 06:11:26
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 2528120 | 规则支配| Game |
-| 3040550 | 故事结局 陆小小| DLC |
-| 2583430 | 梦狱之国的爱丽丝 ~猎奇密室逃脱游戏~| Game |
-| 25850 | Elven Legacy| game |
-| 2593600 | Resident Evil 4 Original Soundtrack| Music |
-| 2725740 | 黑道麻将R18 DLC| DLC |
-| 2914180 | Lust Academy Season 3 - Forbidden Fantasies| DLC |
-| 2657730 | 黄金之境-埃尔德兰特-| Game |
-| 2824300 | Miss Neko: Pirates - Free Bonus Content| DLC |
+| 240660 | RainBlood Chronicles: Mirage| Game |
+| 2399830 | 方舟: 生存飞升| Game |
+| 2662040 | Love n Life: Lucky Teacher - Secrets Behind Classroom Doors (18+)| DLC |
+| 2446550 | STAR WARS™: Battlefront Classic Collection| Game |
+| 2468610 | The Night Shift| Game |
+| 2516220 | The Legend of Legacy HD Remastered| Game |
