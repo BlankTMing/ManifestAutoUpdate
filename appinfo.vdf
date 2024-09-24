@@ -13,7 +13,7 @@
 			"id" "843380_eula_0"
 			"name" "Super Animal Royale EULA"
 			"url" "https://store.steampowered.com//eula/843380_eula_0"
-			"version" "1"
+			"version" "4"
 		}
 	}
 	"logo" "4b5d317c25dbbe4c644532f55def657d432bc8e2"
@@ -41,31 +41,26 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1655424000"
-		"tested_build_id" "8676224"
+		"test_timestamp" "1714780800"
+		"tested_build_id" "14197520"
 		"tests"
 		{
 			"0"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-			}
-			"1"
-			{
-				"display" "3"
 				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
 			}
-			"2"
+			"1"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
-			"3"
+			"2"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
-			"4"
+			"3"
 			{
 				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
@@ -74,16 +69,17 @@
 		"configuration"
 		{
 			"supported_input" "gamepad"
-			"requires_manual_keyboard_invoke" "1"
+			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
 			"non_deck_display_glyphs" "0"
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-1RC"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Super Animal Royale"
@@ -108,7 +104,49 @@
 			"height_pct" "50"
 		}
 	}
-	"store_asset_mtime" "1702404004"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "50"
+				"height_pct" "50"
+			}
+		}
+	}
+	"store_asset_mtime" "1727166248"
 	"associations"
 	{
 		"0"
@@ -119,17 +157,12 @@
 		"1"
 		{
 			"type" "publisher"
-			"name" "Maximum Entertainment"
+			"name" "Pixile"
 		}
 		"2"
 		{
 			"type" "franchise"
 			"name" "Super Animal Royale"
-		}
-		"3"
-		{
-			"type" "franchise"
-			"name" "Maximum Entertainment"
 		}
 	}
 	"primary_genre" "37"
@@ -232,12 +265,12 @@
 		"10" "1685"
 		"11" "4637"
 		"12" "19"
-		"13" "492"
-		"14" "1775"
+		"13" "1775"
+		"14" "492"
 		"15" "1662"
-		"16" "3854"
-		"17" "4305"
-		"18" "5350"
+		"16" "4305"
+		"17" "5350"
+		"18" "3854"
 		"19" "21"
 	}
 	"review_score" "8"
@@ -246,10 +279,10 @@
 "extended"
 {
 	"developer" "Pixile"
-	"publisher" "Maximum Entertainment"
+	"publisher" "Pixile"
 	"homepage" "https://animalroyale.com"
 	"isfreeapp" "1"
-	"listofdlc" "997330,1475530,1475540,1695290,1784150,1899030,1984600,2095020,2173400,2255940,2374860,2524160,2640070"
+	"listofdlc" "997330,1475530,1475540,1695290,1784150,1899030,1984600,2095020,2173400,2255940,2374860,2524160,2640070,3095340"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -291,9 +324,9 @@
 		{
 			"public"
 			{
-				"gid" "473715593217348683"
-				"size" "1676318356"
-				"download" "469244144"
+				"gid" "8840069503979898451"
+				"size" "1694745815"
+				"download" "469433120"
 			}
 		}
 		"encryptedmanifests"
@@ -312,21 +345,21 @@
 			}
 			"developer"
 			{
-				"gid" "6FCE78BB8DB1AB34B9CFDAAF0B23C7A1"
-				"size" "AE08FE5223C765DD7E9CD499A969386A"
-				"download" "3B71122C7DC77548EBF94AF7A8B7169F"
+				"gid" "4A6EBA8C7930EEB47008519A4338E10B"
+				"size" "6846176C5C2E8ED4FABC26D5D266BEDE"
+				"download" "12AB3F57270087DA50148E5140D56BFD"
 			}
-			"preview"
+			"preview2"
 			{
-				"gid" "2231AE85EFD9F91AB70DEEB33CCAD430"
-				"size" "5EBB33DA8CC8DD94370892A8B970F059"
-				"download" "54D131031B6C39F98FF685A0846EEF57"
+				"gid" "FFF9C0085CBFA817364FF94BE3752F8A"
+				"size" "5588FB5F39D54B04AA68A1167CD8E6D1"
+				"download" "F152A680CBDE0146F41475E9DB162945"
 			}
 			"superdev"
 			{
-				"gid" "847215E15412371DA8C7792282D2571C"
-				"size" "A45DAFE43C18C5A33B2F90406D3802D1"
-				"download" "481D62834267E730E279BFC08835743D"
+				"gid" "42B08AC7DD44383C1ED307366F8ED123"
+				"size" "76DD9533FD61CDCF185960C97BA40475"
+				"download" "81184873E637C02D3A11B1606B0D9F35"
 			}
 		}
 	}
@@ -341,9 +374,9 @@
 		{
 			"public"
 			{
-				"gid" "4868443607382693844"
-				"size" "1647375346"
-				"download" "462970176"
+				"gid" "5616400864356287424"
+				"size" "1665709152"
+				"download" "463248128"
 			}
 		}
 		"encryptedmanifests"
@@ -362,21 +395,21 @@
 			}
 			"developer"
 			{
-				"gid" "9B6AB93FD0350CDE61C1DCA3E3F7D030"
-				"size" "02187B350CAA7AE32C76E163C175BD8A"
-				"download" "1B4AE35041423015568EC91958F5DD48"
+				"gid" "1CD17430F285003A24406EAFE7B29CE9"
+				"size" "B8CBC595CC7A0BAE4AFFDA6A17E0CE7D"
+				"download" "0EC2253EE7FC2E27994E3F2E7918C3FF"
 			}
-			"preview"
+			"preview2"
 			{
-				"gid" "BC01B0834CD95CD4CCA336D0A2800EB3"
-				"size" "A6BCEF9A77B9FFD4F9223B91FE7C00AB"
-				"download" "60802EA173D1312F43C4D3BE8E44CC52"
+				"gid" "AE57824D8849DDF84A23E2BC4F070C94"
+				"size" "9961FB7F7173F76AE268F9D5879E3AF9"
+				"download" "E528451A88BF822FAB4365D99230CBDB"
 			}
 			"superdev"
 			{
-				"gid" "DFD4E0CF241E60B718E8009AC2DC25F2"
-				"size" "4B00CAB64AFB9C41BDE022C095F8A229"
-				"download" "183E787CDB07798C9817AD7F97999D6C"
+				"gid" "9F0EE60336F7A6E65C1AA151DC14C648"
+				"size" "DF57791031D14CC819F00BFA16BD3686"
+				"download" "7BABF70C4A827F4BE06A8C1DC72C6089"
 			}
 		}
 	}
@@ -385,8 +418,8 @@
 	{
 		"public"
 		{
-			"buildid" "14197520"
-			"timeupdated" "1714435368"
+			"buildid" "15282649"
+			"timeupdated" "1727197114"
 		}
 		"gametest"
 		{
@@ -402,21 +435,21 @@
 		}
 		"developer"
 		{
-			"buildid" "14197520"
+			"buildid" "15793227"
 			"pwdrequired" "1"
-			"timeupdated" "1714255793"
+			"timeupdated" "1727086174"
 		}
-		"preview"
+		"preview2"
 		{
-			"buildid" "14197520"
+			"buildid" "15282649"
 			"pwdrequired" "1"
-			"timeupdated" "1714435319"
+			"timeupdated" "1722983829"
 		}
 		"superdev"
 		{
-			"buildid" "14197520"
+			"buildid" "15282649"
 			"pwdrequired" "1"
-			"timeupdated" "1714435352"
+			"timeupdated" "1727197144"
 		}
 	}
 }
@@ -444,11 +477,12 @@
 				"#status_playingmyst" "Playing Mystery Mode"
 				"#status_playinginfec" "Playing The Bwoking Dead"
 				"#status_playing" "In a Match"
+				"#status_socialhub" "In the SAW Social Hub"
 			}
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "23350935"
-"_sha" "18d6cf2db6a209b1a027b5b49446044fcf30a9a1"
-"_size" "8825"
+"_change_number" "25372770"
+"_sha" "51ea025167b23bf98e82eea86ec16e6252b3a765"
+"_size" "9270"
