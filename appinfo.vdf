@@ -1,0 +1,75 @@
+"appid" "223540"
+"common"
+{
+	"name" "Left 4 Dead 2 Beta Authoring Tools"
+	"section_type" "ownersonly"
+	"type" "Tool"
+	"parent" "223530"
+	"gameid" "223540"
+	"exfgls" "9"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" ""
+	"gamedir" "ValveTestApp223540"
+	"homepage" ""
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateTool"
+	"visibleonlywhensubscribed" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Left 4 Dead 2 Beta"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bin\\sdklauncher.exe"
+			"workingdir" "bin"
+		}
+	}
+}
+"depots"
+{
+	"223541"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8075139302085465338"
+				"size" "848824667"
+				"download" "647018144"
+			}
+		}
+	}
+	"223531"
+	{
+		"systemdefined" "1"
+		"depotfromapp" "223530"
+		"sharedinstall" "2"
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1559639"
+			"timeupdated" "1484072473"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1073741824"
+	"maxnumfiles" "100"
+}
+"_missing_token" "False"
+"_change_number" "22534048"
+"_sha" "0b09377f731f614a7d5e66ae51f8e710e8bc573c"
+"_size" "1074"
