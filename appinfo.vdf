@@ -42,7 +42,6 @@
 	{
 		"0" "5"
 	}
-	"has_adult_content" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "2"
@@ -114,6 +113,48 @@
 			"height_pct" "94.07504155782475"
 		}
 	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "51.166861143523924"
+				"height_pct" "94.07504155782475"
+			}
+		}
+	}
 	"store_asset_mtime" "1568740513"
 	"associations"
 	{
@@ -175,6 +216,7 @@
 		"category_22" "1"
 		"category_28" "1"
 		"category_23" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -229,16 +271,16 @@
 		"1" "19"
 		"2" "4182"
 		"3" "1742"
-		"4" "4166"
-		"5" "1667"
-		"6" "1774"
-		"7" "3839"
+		"4" "1667"
+		"5" "4166"
+		"6" "3839"
+		"7" "1774"
 		"8" "5030"
 		"9" "3942"
 		"10" "122"
 		"11" "1777"
-		"12" "21"
-		"13" "9157"
+		"12" "9157"
+		"13" "21"
 		"14" "4342"
 		"15" "1756"
 		"16" "4598"
@@ -247,7 +289,7 @@
 		"19" "3859"
 	}
 	"review_score" "5"
-	"review_percentage" "68"
+	"review_percentage" "69"
 }
 "extended"
 {
@@ -271,7 +313,7 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "qatest1"
+				"betakey" "qatest1,newtest"
 			}
 		}
 		"1"
@@ -530,6 +572,12 @@
 				"size" "C3963E765DA8289810A0E987B9E33BA2"
 				"download" "1BC610709270C9E93E42492B8D6EAC6D"
 			}
+			"newtest"
+			{
+				"gid" "D6D6FC911DA38E0C68A0E54B76A83B7E"
+				"size" "820EFF057633983A45DB44B513B06FCE"
+				"download" "3F722EBB7BA3C03B47152B5A46E215DD"
+			}
 		}
 	}
 	"409722"
@@ -572,6 +620,12 @@
 				"gid" "8252BCB97BFC57DFD6A9F818A75A4DF8"
 				"size" "847DB072A15794C6376F0A67BEB2D82F"
 				"download" "E96C6C1D0AA2C880D6BFDE569A156218"
+			}
+			"newtest"
+			{
+				"gid" "4E1C2C0BA489EBE119C74EFAB1E75436"
+				"size" "2231E81B0AE37B7C83B7571D8F845071"
+				"download" "FA359A4BB87904E6A25B6C8D3E63C889"
 			}
 		}
 	}
@@ -616,6 +670,12 @@
 				"size" "20E7EE96A60D939578AA427B8A23FD0D"
 				"download" "A9A9DB92B58B2E9F3CA9C18619E876C7"
 			}
+			"newtest"
+			{
+				"gid" "DF3384D50CF4998DC89894308805F957"
+				"size" "B77358E7AEFF8B6C0A54B3AA2BA4520C"
+				"download" "CDE250EC3B1415EFB5480AF46A92BAA3"
+			}
 		}
 	}
 	"1523211"
@@ -628,25 +688,13 @@
 		{
 			"public"
 			{
-				"gid" "1898676659422131805"
-				"size" "134354670"
-				"download" "131114960"
+				"gid" "1298223493515886904"
+				"size" "139408274"
+				"download" "135668816"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"2kqa_a"
-			{
-				"gid" "C3308368AEBBA25C800537331265966D"
-				"size" "B6BEAB17615F474BFE39246A55DCE8D7"
-				"download" "ED3B30C633E2B592BC476C0864426788"
-			}
-			"2kqa_b"
-			{
-				"gid" "275296C97C06B6BC62E2170E9028D58E"
-				"size" "0A9E1FED8188E696CE510B0D67997149"
-				"download" "D1B04BF44EC6EA1728DFEE1A9D3CCD9F"
-			}
 			"autoupdater"
 			{
 				"gid" "4E3E3F1638E281108D8D37D424AA3B57"
@@ -659,23 +707,35 @@
 				"size" "AAADF7F96AF1069F8836A1331E7A01F5"
 				"download" "582456C4FCBEE3E1A9E86D979BE601F5"
 			}
-			"dev2klauncherintegration"
-			{
-				"gid" "2169D76DD941872E792FDED5697875C2"
-				"size" "9D71EC6E0B68B68E87D5544696D8512F"
-				"download" "768C4EE0DA58B806FF825E138C9ECAE2"
-			}
 			"integration"
 			{
 				"gid" "7BD9D20CE86454BAF67C52EFFD0DE219"
 				"size" "24D9E93D742F4CE62CF1C6E5ABCB1A42"
 				"download" "FB76340812E5365A297D21601F46B9ED"
 			}
+			"2kqa_a"
+			{
+				"gid" "48948F6A5F65059D957C3A77A1374428"
+				"size" "835F6FDDBE4912046B33C9CCD6DAC833"
+				"download" "68AA401F66E10FF500CF563F38BC42A8"
+			}
+			"2kqa_b"
+			{
+				"gid" "67F3C2AB191108E2FAE2DED9F06F420C"
+				"size" "3F9AC951D0166DA056A7DF05A7D12E3C"
+				"download" "F33D7CF145E545ED7AC02757F1904313"
+			}
+			"dev2klauncherintegration"
+			{
+				"gid" "A6771BCEB84EE61E4A14FD29AEE2A9AA"
+				"size" "B96C27C0D780B9B80AF9E80AE87FBF3C"
+				"download" "828EAC10201B38373963A312B5412DAC"
+			}
 			"newtest"
 			{
-				"gid" "FCBBD33099B225815D98580137FC65D6"
-				"size" "691A140320B0B75EB6587D7B35595D75"
-				"download" "F75F9CE9AACA07B5DDC336A0AB7EE40B"
+				"gid" "E49B503B2C4BB0E6246C5BBA3D160F78"
+				"size" "E93AA37E48B6D5DF75640809DDCBF2DC"
+				"download" "E93AA37E48B6D5DF75640809DDCBF2DC"
 			}
 		}
 		"depotfromapp" "1523210"
@@ -800,17 +860,11 @@
 			"pwdrequired" "1"
 			"timeupdated" "1473890693"
 		}
-		"2kqa_a"
+		"newtest"
 		{
-			"buildid" "10553417"
+			"buildid" "8552776"
 			"pwdrequired" "1"
-			"timeupdated" "1676488623"
-		}
-		"2kqa_b"
-		{
-			"buildid" "10553417"
-			"pwdrequired" "1"
-			"timeupdated" "1676488638"
+			"timeupdated" "1716505673"
 		}
 		"autoupdater"
 		{
@@ -830,11 +884,17 @@
 			"pwdrequired" "1"
 			"timeupdated" "1644614282"
 		}
-		"newtest"
+		"2kqa_a"
 		{
-			"buildid" "10362315"
+			"buildid" "14980618"
 			"pwdrequired" "1"
-			"timeupdated" "1674174181"
+			"timeupdated" "1720729682"
+		}
+		"2kqa_b"
+		{
+			"buildid" "14980618"
+			"pwdrequired" "1"
+			"timeupdated" "1720729700"
 		}
 	}
 }
@@ -864,6 +924,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21497047"
-"_sha" "0dd5f990602193dd3d6a100618e915a5df69ef6e"
-"_size" "17964"
+"_change_number" "25376591"
+"_sha" "6bf1568616b395f290f44c218de2a8c58e5fb17d"
+"_size" "19110"
