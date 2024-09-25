@@ -24,8 +24,8 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1669939200"
-		"tested_build_id" "9938323"
+		"test_timestamp" "1721174400"
+		"tested_build_id" "14675754"
 		"tests"
 		{
 			"0"
@@ -64,9 +64,10 @@
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-experimental"
 			"requires_h264" "1"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Squad"
@@ -91,7 +92,49 @@
 			"height_pct" "43.54072666824983"
 		}
 	}
-	"store_asset_mtime" "1719340753"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "25.262543757292875"
+				"height_pct" "43.54072666824983"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1724193943"
 	"associations"
 	{
 		"0"
@@ -163,8 +206,8 @@
 		"11" "9"
 		"12" "5673"
 		"13" "599"
-		"14" "7332"
-		"15" "4684"
+		"14" "4684"
+		"15" "7332"
 		"16" "1695"
 		"17" "9204"
 		"18" "4166"
@@ -269,18 +312,6 @@
 				"gid" "4775106220189693074"
 				"size" "86970696027"
 				"download" "34316345328"
-			}
-			"squad_experimental"
-			{
-				"gid" "4891909792254104132"
-				"size" "86441274411"
-				"download" "33999895088"
-			}
-			"squad_tournament"
-			{
-				"gid" "3978385857423005158"
-				"size" "86970559885"
-				"download" "34316319664"
 			}
 		}
 		"encryptedmanifests"
@@ -395,27 +426,39 @@
 			}
 			"backtracking"
 			{
-				"gid" "78D5D01E72AF4D42CC9547081EE67499"
-				"size" "9FBDE91F2CD4850DE95D4593DEAF5812"
-				"download" "BD6C1ACB9FB62E733E3E56760BCCB919"
+				"gid" "FD7D3C9E98CCA1B623E0972341E8AACB"
+				"size" "756521FBBAAC8A9102FC46C8A9FBDBF3"
+				"download" "91E7F31B2FBC73BB8C1744FDCB3F5E30"
+			}
+			"squad_experimental"
+			{
+				"gid" "547B6A50A398257FAEBF74912F92947D"
+				"size" "176D54534DBDEBAB14A2E7CD0B7B9BEE"
+				"download" "7F8C28CF54C828C3916FCE40264AB845"
 			}
 			"squad_main"
 			{
-				"gid" "A877C15910ECE048536AD860F5BCB03C"
-				"size" "83E04DBF0C0C5EAA8745259AFDA498B5"
-				"download" "2A0641DEA36EE9F71939C935872D3DAF"
+				"gid" "38B68A22BDB361A707601D9D3DC424A8"
+				"size" "90C943C1AB0E33DC9FEE6B64C6D29742"
+				"download" "AB37961497735604294BF140BD0577BE"
 			}
 			"squad_release"
 			{
-				"gid" "43019FF99F5DC3C0E3B26B9110B844ED"
-				"size" "3B8BA3B2696226815FF81DF5B9D9E5A7"
-				"download" "68D3F49A8EF7CE3C85F701AA4B70C3F2"
+				"gid" "6930D40A14895B1D8F4D8545198B3209"
+				"size" "A0F8E6D2EC8D44F88783D09BE4208C5C"
+				"download" "EC1681D7C2391C427A76F18092089BB9"
 			}
 			"squad_testing"
 			{
-				"gid" "EC4EEB216E286340520F6E65DA05F639"
-				"size" "1A10CA02C743FFFEA6D27D035952BD00"
-				"download" "4B8E304BCA1D8A6FDA3515BE04914132"
+				"gid" "13552BAC980579512AE04C3D61B9C4E2"
+				"size" "42D518C5D0C3032B7CFB7BFB4DD04C12"
+				"download" "D37DD7CF5C407E06AFD4CB736B45E455"
+			}
+			"squad_tournament"
+			{
+				"gid" "1BC199C3EB793ACD9F10711BB51535ED"
+				"size" "89093485A7FB8EDF860B07F312CCCF46"
+				"download" "3F3C72AA8C6F622D700DB612D599266C"
 			}
 		}
 	}
@@ -433,18 +476,6 @@
 		"manifests"
 		{
 			"public"
-			{
-				"gid" "8509449628493661206"
-				"size" "15654"
-				"download" "15264"
-			}
-			"squad_experimental"
-			{
-				"gid" "8509449628493661206"
-				"size" "15654"
-				"download" "15264"
-			}
-			"squad_tournament"
 			{
 				"gid" "8509449628493661206"
 				"size" "15654"
@@ -483,6 +514,12 @@
 				"size" "0F3CA88B7E88FDBA0B62EB40A5164C02"
 				"download" "701D451F0B3512A38000E1B746E71F98"
 			}
+			"squad_experimental"
+			{
+				"gid" "D5BDF93A0DE8D7B729138D2503CCCBA9"
+				"size" "F4D7427A3242DA4DF61B03CA366773B2"
+				"download" "7E53AA1F188ABC71DD8FBDECF47B2C72"
+			}
 			"squad_main"
 			{
 				"gid" "3ADCB8296056183D3A2CDD323213D3C5"
@@ -497,9 +534,15 @@
 			}
 			"squad_testing"
 			{
-				"gid" "C0C82CD8891D46283A61F4FF996D5B8C"
-				"size" "85D4353587E05AE2D6184AC3F490FE74"
-				"download" "3F6CF0A80555103A5DDEE29567B37CDA"
+				"gid" "00776259AE459AB712605CD122255A23"
+				"size" "F7444310E3236C7284F968E46115FFAC"
+				"download" "BBF65AC24DF5D21A86E6ACDDE54ED248"
+			}
+			"squad_tournament"
+			{
+				"gid" "CC1E19D506621336DDF693C380CB1AFB"
+				"size" "AB91CB203D10340FC4DF66534EEA8A4F"
+				"download" "034C374E18A9FA12808B8584177D7540"
 			}
 		}
 	}
@@ -621,38 +664,38 @@
 		}
 		"backtracking"
 		{
-			"buildid" "14549714"
+			"buildid" "15510142"
 			"pwdrequired" "1"
-			"timeupdated" "1717086108"
+			"timeupdated" "1724790215"
 		}
 		"squad_experimental"
 		{
 			"buildid" "14236336"
-			"description" "Experimental Squad builds (compatible with Live servers)"
+			"pwdrequired" "1"
 			"timeupdated" "1715018424"
 		}
 		"squad_main"
 		{
-			"buildid" "14792869"
+			"buildid" "15769632"
 			"pwdrequired" "1"
-			"timeupdated" "1718964776"
+			"timeupdated" "1727109594"
 		}
 		"squad_release"
 		{
-			"buildid" "15006454"
+			"buildid" "15769632"
 			"pwdrequired" "1"
-			"timeupdated" "1720734696"
+			"timeupdated" "1726830349"
 		}
 		"squad_testing"
 		{
-			"buildid" "14800452"
+			"buildid" "15737072"
 			"pwdrequired" "1"
-			"timeupdated" "1719012674"
+			"timeupdated" "1726629142"
 		}
 		"squad_tournament"
 		{
 			"buildid" "14802093"
-			"description" "Squad Tournament branch"
+			"pwdrequired" "1"
 			"timeupdated" "1719033480"
 		}
 	}
@@ -663,6 +706,6 @@
 	"maxnumfiles" "20"
 }
 "_missing_token" "False"
-"_change_number" "24403077"
-"_sha" "eab09374c9487a252a392473614e742d844dafc7"
-"_size" "14306"
+"_change_number" "25378529"
+"_sha" "53677b1fd6e741c751bb23e7d9eb456854b394dc"
+"_size" "15128"
