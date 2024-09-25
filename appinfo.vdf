@@ -1,0 +1,108 @@
+"appid" "282160"
+"common"
+{
+	"name" "X Tools"
+	"type" "Tool"
+	"releasestate" "released"
+	"oslist" "windows"
+	"parent" "2870"
+	"osarch" "64"
+	"osextended" ""
+	"associations"
+	{
+	}
+	"gameid" "282160"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "X Tools"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "startcmd.bat"
+			"description" "Command line"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "startreadme.bat"
+			"description" "Readme"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "XRCatToolGUI.exe"
+			"description" "Catalog Tool"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"282161"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "672644625908482636"
+				"size" "4430735"
+				"download" "1720864"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private_beta"
+			{
+				"gid" "5EDE1326C749646AFCA3E7D30979DDC4"
+				"size" "3FDF139E3B756231D0A1F64B867AE04C"
+				"download" "361E6E3DB668818CF54C8742B7E2FF90"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14641751"
+			"timeupdated" "1717775555"
+		}
+		"private_beta"
+		{
+			"buildid" "14641751"
+			"pwdrequired" "1"
+			"timeupdated" "1717775311"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10"
+}
+"_missing_token" "False"
+"_change_number" "24483107"
+"_sha" "77e6f1e03102ba15215ad9d94c824f88f0d928cd"
+"_size" "1539"
