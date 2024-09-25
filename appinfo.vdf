@@ -1,0 +1,108 @@
+"appid" "211"
+"common"
+{
+	"clienttga" "cf1ac7ec6ac21d099a2fe81bf269bfd50a550a0c"
+	"icon" "50dd8fa4ea86581b1986e8b1d0560d58f41912ac"
+	"logo" "265be1d1db7ecf801a1ac8fde07692a567c14bb0"
+	"logo_small" "6f982a1905f93110bd7a719d80b6d4e6ffe39eae"
+	"name" "Source SDK"
+	"type" "Tool"
+	"oslist" "windows"
+	"community_hub_visible" "1"
+	"gameid" "211"
+}
+"extended"
+{
+	"developer" "Valve"
+	"disableoverlay" "1"
+	"gamedir" "valve"
+	"homepage" "http://developer.valvesoftware.com/"
+	"icon" "steam/games/icon_source_ds"
+	"icon2" "steam/games/icon_source_ds_dull"
+	"noservers" "1"
+	"order" "20"
+	"primarycache" "211"
+	"state" "eStateTool"
+	"visibleonlywhensubscribed" "1"
+	"installscript" "211_install.vdf"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "SourceSDK"
+	"installscriptoverride" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bin\\SDKLauncher.exe"
+			"arguments" "-game launcher"
+		}
+	}
+}
+"install"
+{
+	"copy files"
+	{
+		"config file"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\211"
+			"srcfile1" "%INSTALLDIR%\\steam.dll"
+			"dstfile1" "%INSTALLDIR%\\bin\\source2007\\bin\\steam.dll"
+			"srcfile2" "%INSTALLDIR%\\steam.dll"
+			"dstfile2" "%INSTALLDIR%\\bin\\orangebox\\bin\\steam.dll"
+			"srcfile3" "%INSTALLDIR%\\steam.dll"
+			"dstfile3" "%INSTALLDIR%\\bin\\ep1\\bin\\steam.dll"
+			"srcfile4" "%INSTALLDIR%\\steam.dll"
+			"dstfile4" "%INSTALLDIR%\\bin\\source2009\\bin\\steam.dll"
+			"ignoreexitcode" "1"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"211"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7774191697749867566"
+				"size" "2163596723"
+				"download" "0"
+			}
+		}
+	}
+	"1004"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3578600867548439549"
+				"size" "9662208"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1002"
+	}
+	"markdlcdepots" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "135296"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "20463396"
+"_sha" "744672be765b09daf71cfb5c06d7c54cc4950334"
+"_size" "2088"
