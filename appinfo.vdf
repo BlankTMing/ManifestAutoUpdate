@@ -39,7 +39,6 @@
 	{
 		"0" "5"
 	}
-	"has_adult_content" "1"
 	"steam_deck_compatibility"
 	{
 		"category" "2"
@@ -108,6 +107,40 @@
 			"height_pct" "69.70700198614294"
 		}
 	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "36.9830509031779"
+				"height_pct" "69.70700198614294"
+			}
+		}
+	}
 	"store_asset_mtime" "1587665032"
 	"associations"
 	{
@@ -138,6 +171,7 @@
 		"category_22" "1"
 		"category_30" "1"
 		"category_42" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -211,8 +245,8 @@
 	{
 		"0" "9"
 		"1" "14139"
-		"2" "1677"
-		"3" "1741"
+		"2" "1741"
+		"3" "1677"
 		"4" "1673"
 		"5" "4182"
 		"6" "3942"
@@ -226,7 +260,7 @@
 		"14" "19"
 	}
 	"review_score" "6"
-	"review_percentage" "72"
+	"review_percentage" "71"
 }
 "extended"
 {
@@ -301,13 +335,18 @@
 			"executable" "Launcher\\launcher.exe"
 			"arguments" "-steam_auto_login -game-50546=-crashdumpwatcher -game-50546=-review -game-50546=-noRedscreens"
 			"workingdir" "Launcher"
-			"type" "default"
+			"type" "option2"
 			"config"
 			{
 				"oslist" "windows"
 				"osarch" "64"
-				"betakey" "old"
+				"betakey" "old,newtest"
 			}
+			"description_loc"
+			{
+				"english" "Mod Launcher"
+			}
+			"description" "Mod Launcher"
 		}
 		"8"
 		{
@@ -324,6 +363,18 @@
 				"english" "2K Launcher"
 			}
 			"description" "2K Launcher"
+		}
+		"9"
+		{
+			"executable" "binaries\\Win64\\XCom.exe"
+			"arguments" "-steam_auto_login -game-50546=-crashdumpwatcher -game-50546=-review -game-50546=-noRedscreens"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "newtest"
+			}
 		}
 	}
 	"uselaunchcommandline" "1"
@@ -706,25 +757,13 @@
 		{
 			"public"
 			{
-				"gid" "1898676659422131805"
-				"size" "134354670"
-				"download" "131114960"
+				"gid" "1298223493515886904"
+				"size" "139408274"
+				"download" "135668816"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"2kqa_a"
-			{
-				"gid" "C3308368AEBBA25C800537331265966D"
-				"size" "B6BEAB17615F474BFE39246A55DCE8D7"
-				"download" "ED3B30C633E2B592BC476C0864426788"
-			}
-			"2kqa_b"
-			{
-				"gid" "275296C97C06B6BC62E2170E9028D58E"
-				"size" "0A9E1FED8188E696CE510B0D67997149"
-				"download" "D1B04BF44EC6EA1728DFEE1A9D3CCD9F"
-			}
 			"autoupdater"
 			{
 				"gid" "4E3E3F1638E281108D8D37D424AA3B57"
@@ -737,23 +776,35 @@
 				"size" "AAADF7F96AF1069F8836A1331E7A01F5"
 				"download" "582456C4FCBEE3E1A9E86D979BE601F5"
 			}
-			"dev2klauncherintegration"
-			{
-				"gid" "96297BCC9263A5BEB7A7C7D1573400B2"
-				"size" "F7653DEEFA0BB9F17B38B6185D20351D"
-				"download" "9624E2611A823F86714E98E26DCAD881"
-			}
 			"integration"
 			{
 				"gid" "7BD9D20CE86454BAF67C52EFFD0DE219"
 				"size" "24D9E93D742F4CE62CF1C6E5ABCB1A42"
 				"download" "FB76340812E5365A297D21601F46B9ED"
 			}
+			"2kqa_a"
+			{
+				"gid" "48948F6A5F65059D957C3A77A1374428"
+				"size" "835F6FDDBE4912046B33C9CCD6DAC833"
+				"download" "68AA401F66E10FF500CF563F38BC42A8"
+			}
+			"2kqa_b"
+			{
+				"gid" "67F3C2AB191108E2FAE2DED9F06F420C"
+				"size" "3F9AC951D0166DA056A7DF05A7D12E3C"
+				"download" "F33D7CF145E545ED7AC02757F1904313"
+			}
+			"dev2klauncherintegration"
+			{
+				"gid" "ECEB05B364DF41C2E8EDD816C40E5E95"
+				"size" "CA90A8926D6C897A1DA11B0201BB6275"
+				"download" "943801E533D8CE239FA1632E39CAAE79"
+			}
 			"newtest"
 			{
-				"gid" "1B3F6F9DEFA4C10F7A219FDBEF4F740A"
-				"size" "D480E85152283F4770BBBA05BD6EFE29"
-				"download" "4AA863ABE64EBAA32048E82F57F3D5B8"
+				"gid" "B976A9E9D5654417B1BD9D2A4F15DB6C"
+				"size" "C8E75785569D2547F38C27B84E5971AF"
+				"download" "C8E75785569D2547F38C27B84E5971AF"
 			}
 		}
 		"depotfromapp" "1523210"
@@ -896,18 +947,6 @@
 			"pwdrequired" "1"
 			"timeupdated" "1587169475"
 		}
-		"2kqa_a"
-		{
-			"buildid" "10553417"
-			"pwdrequired" "1"
-			"timeupdated" "1676488623"
-		}
-		"2kqa_b"
-		{
-			"buildid" "10553417"
-			"pwdrequired" "1"
-			"timeupdated" "1676488638"
-		}
 		"autoupdater"
 		{
 			"buildid" "6530247"
@@ -920,17 +959,29 @@
 			"pwdrequired" "1"
 			"timeupdated" "1638567025"
 		}
-		"dev2klauncherintegration"
-		{
-			"buildid" "10553417"
-			"pwdrequired" "1"
-			"timeupdated" "1676423168"
-		}
 		"integration"
 		{
 			"buildid" "8189487"
 			"pwdrequired" "1"
 			"timeupdated" "1644614282"
+		}
+		"2kqa_a"
+		{
+			"buildid" "14980618"
+			"pwdrequired" "1"
+			"timeupdated" "1720729682"
+		}
+		"2kqa_b"
+		{
+			"buildid" "14980618"
+			"pwdrequired" "1"
+			"timeupdated" "1720729700"
+		}
+		"dev2klauncherintegration"
+		{
+			"buildid" "14645959"
+			"pwdrequired" "1"
+			"timeupdated" "1719352092"
 		}
 	}
 }
@@ -949,6 +1000,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21234002"
-"_sha" "0945df5eaedb93e372e0f795841aded99e320881"
-"_size" "20686"
+"_change_number" "25376591"
+"_sha" "a6f39e8fc12f21481278fcfd9d380d848db60ffe"
+"_size" "21585"
