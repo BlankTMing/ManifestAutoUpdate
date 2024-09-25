@@ -1,0 +1,356 @@
+"appid" "444220"
+"common"
+{
+	"name" "Asteroid Bounty Hunter"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "757a5313cbdd156db60a5d866988941e8f58a295"
+	"logo_small" "757a5313cbdd156db60a5d866988941e8f58a295_thumb"
+	"icon" "c26d68e1bdea863b3b4234a92689753d01c85796"
+	"clienttga" "9aaf23470fecd346662666dad7bcb36bf0b683ed"
+	"clienticon" "c07db6250593626495098302c69b7dddec101d75"
+	"clienticns" "250cd71f44e754e6de8cebac05bddbea5b74b53e"
+	"linuxclienticon" "bd3ba3c49e5ced92a430e8fcb6ad25285fcf258d"
+	"oslist" "windows,macos,linux"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1679097600"
+		"tested_build_id" "1554608"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_CrossPlatformCloudSavesNotSupported"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"metacritic_name" "Asteroid Bounty Hunter"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1455641143"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "EGAMER"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SA Industry"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "SA Industry"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "4"
+		"3" "23"
+		"4" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_13" "1"
+		"category_23" "1"
+		"category_15" "1"
+		"category_25" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1455696000"
+	"steam_release_date" "1456325445"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "444220"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "19"
+		"2" "597"
+		"3" "21"
+		"4" "122"
+		"5" "4255"
+		"6" "1755"
+		"7" "4885"
+		"8" "1774"
+	}
+	"review_score" "5"
+	"review_percentage" "65"
+}
+"extended"
+{
+	"developer" "EGAMER"
+	"publisher" "SA Industry"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Asteroid Bounty Hunter"
+	"steamcontrollertemplateindex" "4"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "AsteroidBountyHunter.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "AsteroidBountyHunter.x86"
+			"arguments" "-force-opengl"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "AsteroidBountyHunter.app\\Contents\\MacOS\\AsteroidBountyHunter"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"4"
+		{
+			"executable" "AsteroidBountyHunter.x86_64"
+			"arguments" "-force-opengl"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"444221"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "824361362452749023"
+				"size" "3508595013"
+				"download" "1314432384"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testbranch"
+			{
+				"gid" "4EEB1B06BD53B266309211DA2D81E6B9"
+				"size" "A673C7260DB40B78211E6417C9011EBA"
+				"download" "33454CFA7E56C25AF6056EB3EA00039E"
+			}
+		}
+	}
+	"444223"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "462253265177434710"
+				"size" "3515502823"
+				"download" "1316120160"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testbranch"
+			{
+				"gid" "E0AC803B536E72CED2ECE45636058BC3"
+				"size" "716C657C03F99802F3514CDD0628617E"
+				"download" "96E5BD03D80D35240A7E3CF1A55B2C0F"
+			}
+		}
+	}
+	"444224"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "886472108336465359"
+				"size" "3515448681"
+				"download" "1315447920"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testbranch"
+			{
+				"gid" "CF52B629C4F38F795EC7C9BAB5821FB1"
+				"size" "307D22CD00449D33C892FAF7EBB2C0C1"
+				"download" "7AC734F60AC7A5A30F199BF4A9A3AA41"
+			}
+		}
+	}
+	"444225"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4931639115918937654"
+				"size" "3520864775"
+				"download" "1318561872"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testbranch"
+			{
+				"gid" "D419EA6200486BD8D6B44E6B7451F321"
+				"size" "7ADAEB3120B2A24A973B2D39AFF0BEC6"
+				"download" "7751A93D1AD5A82AC0257BBEEBAF5FD5"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1554608"
+			"timeupdated" "1483716232"
+		}
+		"testbranch"
+		{
+			"buildid" "1554608"
+			"pwdrequired" "1"
+			"timeupdated" "1483704041"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "AsteroidBountyHunter"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "LinuxHome"
+			"path" ".config/AsteroidBountyHunter"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "MacHome"
+			"path" ".config/AsteroidBountyHunter"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+	}
+}
