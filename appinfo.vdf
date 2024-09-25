@@ -1,0 +1,137 @@
+"appid" "16830"
+"common"
+{
+	"name" "Sid Meier\'s Civilization V SDK"
+	"logo" "06a3cb3a552a008b603d11aa8e32be41bc09d0f9"
+	"logo_small" "06a3cb3a552a008b603d11aa8e32be41bc09d0f9_thumb"
+	"clienticon" "0e8b30bde9fd713e8346a0fac2d506c2e20b298c"
+	"clienttga" "12f6ae96280c579469f04b548f78ba95d1189f28"
+	"icon" "078d66bc5425c4c94353f78571e0c32cad2d51e3"
+	"type" "Tool"
+	"eulas"
+	{
+		"0"
+		{
+			"url" "http://store.steampowered.com/eula/CivVEula"
+			"id" "CivVEula"
+			"name" "CivVEula"
+		}
+	}
+	"gameid" "16830"
+}
+"extended"
+{
+	"developer" "Firaxis Games"
+	"disableoverlay" "1"
+	"gamedir" "Sid Meier\'s Civilization V SDK"
+	"homepage" "www.civilization5.com"
+	"icon" ""
+	"installscript" "InstallScript.txt"
+	"launcheula" "http://store.steampowered.com/eula/CivVEula"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "16831"
+	"serverbrowsername" ""
+	"state" "eStateTool"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"description" "Sid Meier\'s Civilization V SDK"
+			"executable" "Sid Meier\'s Civilization V SDK.exe"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Sid Meier\'s Civilization V SDK"
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229000"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"16831"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2711483179553339466"
+				"size" "117319692"
+				"download" "1724408330042"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"multiplayerfix"
+			{
+				"gid" "57B421C09C7A9C28F1CCAF6C18CA4F5E"
+				"size" "F7AD4498139A012E8370C1982B3A252C"
+				"download" "58743DE834C732C589BA4BE51D0AD491"
+			}
+			"pitboss"
+			{
+				"gid" "C0B3E3DB95C2DC0BC2751572C65CA47B"
+				"size" "D10FEA22B79D1866550A9DF40BE89555"
+				"download" "45DCDA1D1EE525AA2F3891C55587A411"
+			}
+			"sdkbeta"
+			{
+				"gid" "BDD28A7F8C5401741938EE28F21EEDC5"
+				"size" "FF01AFF4E77F3DF535D968E9A93CB248"
+				"download" "C908F2C60B320F5FF474D77B537F3088"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "455304"
+		}
+		"multiplayerfix"
+		{
+			"buildid" "455304"
+			"pwdrequired" "1"
+		}
+		"pitboss"
+		{
+			"buildid" "134228"
+			"pwdrequired" "1"
+		}
+		"sdkbeta"
+		{
+			"buildid" "29563"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1073741824"
+	"maxnumfiles" "1000"
+	"hidecloudui" "0"
+}
+"_missing_token" "False"
+"_change_number" "24483107"
+"_sha" "2e8edf9044e230bfa3013597e4251f44d81ab5d7"
+"_size" "2545"
