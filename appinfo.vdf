@@ -1,0 +1,288 @@
+"appid" "201760"
+"common"
+{
+	"name" "Cities XL 2012"
+	"type" "Game"
+	"clienticon" "b9ca291ef743cea8c151af5cbbc4ebb5b08c7152"
+	"clienttga" "ac6d7c643122570e72b0792efbf886a8843a7725"
+	"icon" "f74a6529a150a140351e4f3ef9659f73c5411866"
+	"logo" "8414cfcfaeda7788332960fd697e6287dca2b214"
+	"logo_small" "8414cfcfaeda7788332960fd697e6287dca2b214_thumb"
+	"metacritic_name" "Cities XL 2012"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1360185646"
+	"associations"
+	{
+		"0"
+		{
+			"type" "publisher"
+			"name" "Focus Home Interactive"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1319130000"
+	"metacritic_score" "61"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/cities-xl-2012\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "201760"
+	"store_tags"
+	{
+		"0" "599"
+	}
+	"review_score" "6"
+	"review_percentage" "75"
+}
+"extended"
+{
+	"developer" ""
+	"gamedir" "Cities XL 2012"
+	"gamemanualurl" "http://store.steampowered.com/manual/201760/"
+	"homepage" "http://www.citiesxl.com"
+	"icon" ""
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "201761"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Focus Home Interactive"
+}
+"config"
+{
+	"installscriptsignature" "53f0e43195eb807091dad4b72bc679753bdd88de54cfb360108c5e2ff77ce59e14ea672d78d98da9fc6b8cf68bb5189f74e5e8bba55ef18bcb19c4f8487d4febddf7db1e5453e33c01b7223242c19ab1f4c51c67c1769b2b3648c15a775e51d7dac0378c5a66ca7a0935f68851cf0c2360dbb4844630277ea9e0a416403c9a6c"
+	"installscriptoverride" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CitiesXL_2012.exe"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Cities XL 2012"
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\DirectX9\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"dotnet"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\201760"
+			"process 1" "%INSTALLDIR%\\dotnetfx.exe"
+			"command 1" "/q:a /c:"
+			"command 2" "install /l /q"
+			"nocleanup" "1"
+			"requirement_os"
+			{
+				"is64bitwindows" "0"
+			}
+		}
+		"vcredist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\201760"
+			"process 1" "%INSTALLDIR%\\vcredist_x86.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"201761"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8390272428731363109"
+				"size" "6334433550"
+				"download" "0"
+			}
+		}
+	}
+	"201762"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5781433220770193743"
+				"size" "1279385"
+				"download" "0"
+			}
+		}
+	}
+	"201763"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5260590427952096074"
+				"size" "1370429"
+				"download" "0"
+			}
+		}
+	}
+	"201764"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3014107015305059258"
+				"size" "1380129"
+				"download" "0"
+			}
+		}
+	}
+	"201765"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7530803895706298062"
+				"size" "1369623"
+				"download" "0"
+			}
+		}
+	}
+	"201766"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2923010662981865284"
+				"size" "1321347"
+				"download" "0"
+			}
+		}
+	}
+	"201767"
+	{
+		"config"
+		{
+			"language" "czech"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8303330181648851119"
+				"size" "1309081"
+				"download" "0"
+			}
+		}
+	}
+	"231141"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2931017148117250403"
+				"size" "6449020318"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "231140"
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "18859"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"appidredirect" "231140"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Focus Home Interactive/Cities XL 2012/live/offline/solo"
+			"pattern" "*"
+			"recursive" "1"
+			"platforms"
+			{
+				"1" "all"
+			}
+		}
+		"copied_from_parent" "1"
+	}
+}
