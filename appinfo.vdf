@@ -12,6 +12,55 @@
 	"clienttga" "d9537e5ea2c416b1a3c18dff67f11d7c44bc04f3"
 	"releasestate" "released"
 	"app_retired_publisher_request" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1718150400"
+		"tested_build_id" "2049169"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-2RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"metacritic_name" "The Heiress"
 	"small_capsule"
 	{
@@ -47,6 +96,7 @@
 		"category_2" "1"
 		"category_23" "1"
 		"category_29" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -79,8 +129,8 @@
 		"6" "4434"
 		"7" "5577"
 		"8" "4182"
-		"9" "492"
-		"10" "4726"
+		"9" "4726"
+		"10" "492"
 		"11" "21"
 		"12" "1720"
 		"13" "1742"
@@ -90,7 +140,7 @@
 		"17" "24904"
 	}
 	"review_score" "8"
-	"review_percentage" "87"
+	"review_percentage" "86"
 }
 "extended"
 {
@@ -156,6 +206,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "21683411"
-"_sha" "bbd901b03079a24b8e3a359cddc63b154a71d0cb"
-"_size" "2439"
+"_change_number" "24664942"
+"_sha" "142578d108ee9aaf983c7f20d96e9e6b18fe9a27"
+"_size" "3694"
