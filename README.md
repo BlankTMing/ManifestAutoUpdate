@@ -1,11 +1,10 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-27 05:49:25
+## 更新时间：2024-09-27 05:59:51
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1751350 | 野靛花农场| Game |
-| 1755830 | Astrea: Six-Sided Oracles| Game |
-| 1854230 | Tails and Pines - 18+ Extra Scenes| DLC |
-| 1798870 | The Concentration of Lust| Game |
-| 1802720 | Sixtar Gate: STARTRAIL| Game |
-| 2264720 | 【对应中文】转生到RPG世界将NPC给… - 成人故事情节&绘图追加DLC| DLC |
+| 1965220 | Maid Knight Alicia - Bonus Pack| DLC |
+| 2387520 | Erophone Re-新世界| DLC |
+| 1844230 | 恶意重现Ⅱ| Game |
+| 1860510 | Total Conflict: Resistance| Game |
+| 1895530 | Meet Cute: Cafe - 18+ Adult Only Patch| DLC |
