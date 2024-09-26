@@ -49,6 +49,35 @@
 		"0" "2"
 		"1" "5"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1726185600"
+		"tested_build_id" "15640106"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-3RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"metacritic_name" "Warhammer 40,000: Space Marine II"
 	"controllertagwizard" "1"
 	"controller_support" "full"
@@ -263,8 +292,8 @@
 			"subtitles" "true"
 		}
 	}
-	"steam_release_date" "1725898194"
-	"metacritic_score" "83"
+	"steam_release_date" "1725898140"
+	"metacritic_score" "82"
 	"metacritic_fullurl" "https://www.metacritic.com/game/pc/warhammer-40000-space-marine-ii\?ftag=MCD-06-10aaa1f"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
@@ -274,26 +303,26 @@
 		"0" "12286"
 		"1" "19"
 		"2" "3814"
-		"3" "21"
-		"4" "4106"
-		"5" "3859"
+		"3" "3859"
+		"4" "21"
+		"5" "4106"
 		"6" "6730"
-		"7" "1697"
-		"8" "4684"
-		"9" "1685"
-		"10" "4191"
-		"11" "5094"
-		"12" "3942"
+		"7" "1685"
+		"8" "1697"
+		"9" "4684"
+		"10" "3942"
+		"11" "4191"
+		"12" "5094"
 		"13" "1684"
-		"14" "1755"
-		"15" "1678"
+		"14" "1678"
+		"15" "1755"
 		"16" "4175"
 		"17" "4182"
-		"18" "4295"
-		"19" "4145"
+		"18" "4145"
+		"19" "4295"
 	}
-	"review_score" "6"
-	"review_percentage" "79"
+	"review_score" "8"
+	"review_percentage" "80"
 }
 "extended"
 {
@@ -331,7 +360,7 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "test_dev, gamesworkshop, redcon_fcs, test_crunch, test_fcs, spl_hm, test_share, marketing_build_prod, fe_hw2, test_d1, test_prod, focus_marketing_recording, ms_builds, test_pros_true_retail, grigorenko_marketing"
+				"betakey" "focus_marketing_recording, focus_playtest"
 			}
 			"description_loc"
 			{
@@ -346,7 +375,7 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "marketing_build, focus_external_partners, gmc_"
+				"betakey" "marketing_build, focus_external_partners, gmc_, focus_playtest"
 			}
 			"description_loc"
 			{
@@ -362,7 +391,7 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "focus_agerating, gamesworkshop, redcon_fcs,pvp_stable,record_fcs,marketing_build,test_fcs, gamescom_ext,focus_external_partners, focus_marketing_recording, ms_builds, gmc_, focus_marketing_recording"
+				"betakey" "focus_agerating, gamesworkshop, redcon_fcs,record_fcs,marketing_build,test_fcs, gamescom_ext,focus_external_partners, focus_marketing_recording, gmc_, focus_marketing_recording"
 			}
 			"description_loc"
 			{
@@ -378,7 +407,7 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "focus_agerating, gamesworkshop, redcon_fcs,pvp_stable,marketing_build,focus_external_partners, focus_marketing_recording"
+				"betakey" "focus_agerating, gamesworkshop, redcon_fcs,marketing_build,focus_external_partners, focus_marketing_recording"
 			}
 			"description_loc"
 			{
@@ -392,7 +421,7 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "test_dev, gamesworkshop,test_crunch, redcon_fcs,pvp_stable, test_fcs,spl_hm, test_share, ms_builds, test_d1, test_prod, focus_marketing_recording, grigorenko_marketing"
+				"betakey" "focus_marketing_recording, focus_playtest"
 			}
 			"description_loc"
 			{
@@ -406,7 +435,7 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "test_dev, test_crunch, gamesworkshop,redcon_fcs,spl_hm, marketing_build_prod, test_d1, test_prod, grigorenko_marketing"
+				"betakey" "focus_marketing_recording, focus_playtest"
 			}
 			"description_loc"
 			{
@@ -431,13 +460,13 @@
 		}
 		"9"
 		{
-			"executable" "Steam Dev Build\\client_pc\\root\\bin\\pc\\MagnusClientSteamRelease.exe"
-			"workingdir" "Steam Dev Build\\client_pc\\root\\bin\\pc"
+			"executable" "client_pc\\root\\bin\\pc\\MagnusClientSteamRelease.exe"
+			"workingdir" "client_pc\\root\\bin\\pc"
 			"type" "option2"
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "playtest_pvp, pvp_stable, test_fcs, ms_builds, focus_marketing_recording, friendsandfamily"
+				"betakey" "playtest_pvp, pvp_stable, test_fcs, focus_marketing_recording, friendsandfamily, steam_features"
 			}
 			"description_loc"
 			{
@@ -452,7 +481,7 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "playtest_pvp, pvp_stable, test_fcs, ms_builds, focus_marketing_recording"
+				"betakey" "playtest_pvp, test_fcs, focus_marketing_recording, steam_features"
 			}
 			"description_loc"
 			{
@@ -482,13 +511,13 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "steam_features, steam_retail_crash, pvp_stable, test_disc_release, test_backend, test_crunch,test_pros_true_retail, saber_external_preview, fe_crossplay, fe_hw_test, test_fcs_alt, gw_streaming"
+				"betakey" "focus_test_dev, steam_features, test_disc_release, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, fe_hw_test, test_fcs_alt, gw_streaming, ms_builds, steam_dev_live"
 			}
 			"description_loc"
 			{
-				"english" "Warhammer 40.000: Space Marine 2 Release EOS"
+				"english" "Space Marine 2 Release EOS noEAC"
 			}
-			"description" "Warhammer 40.000: Space Marine 2 Release EOS"
+			"description" "Space Marine 2 Release EOS noEAC"
 		}
 		"14"
 		{
@@ -497,13 +526,13 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "steam_features, steam_retail_crash, playtest_pvp, natour, focus_external_gse, pvp_stable, test_disc_release, fe_hw_test, test_backend,test_pros_true_retail, saber_external_preview, fe_crossplay, fe_hw_test, fe_hw_nvidia_temp, test_fcs_alt, gw_streaming"
+				"betakey" "focus_test_dev, steam_features, steam_retail_crash, playtest_pvp, natour, focus_external_gse, pvp_stable, test_disc_release, fe_hw_test, test_backend,test_pros_true_retail, saber_external_preview, fe_crossplay, fe_hw_test, fe_hw_nvidia_temp, test_fcs_alt, gw_streaming, ms_builds, steam_dev_live"
 			}
 			"description_loc"
 			{
-				"english" "Warhammer 40.000: Space Marine 2 Retail EOS"
+				"english" "Space Marine 2 Retail EOS noEAC"
 			}
-			"description" "Warhammer 40.000: Space Marine 2 Retail EOS"
+			"description" "Space Marine 2 Retail EOS noEAC"
 		}
 		"15"
 		{
@@ -512,13 +541,13 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "steam_features, steam_retail_crash, playtest_pvp, test_disc_release, fe_hw_test, test_backend, test_crunch,test_pros_true_retail, saber_external_preview, fe_crossplay, fe_hw_test, fe_hw_nvidia_temp, focus_external_lqa, pvp_stable, test_fcs_alt, gw_streaming"
+				"betakey" "focus_test_dev, steam_features, steam_retail_crash, playtest_pvp, test_disc_release, fe_hw_test, test_backend, test_crunch,test_pros_true_retail, saber_external_preview, fe_crossplay, fe_hw_test, fe_hw_nvidia_temp, focus_external_lqa, pvp_stable, test_fcs_alt, gw_streaming, ms_builds, steam_dev_live"
 			}
 			"description_loc"
 			{
-				"english" "Warhammer 40.000: Space Marine 2 Profile EOS"
+				"english" "Space Marine 2 Profile EOS noEAC"
 			}
-			"description" "Warhammer 40.000: Space Marine 2 Profile EOS"
+			"description" "Space Marine 2 Profile EOS noEAC"
 		}
 		"16"
 		{
@@ -570,7 +599,7 @@
 			"workingdir" "client_pc\\root\\bin\\pc"
 			"config"
 			{
-				"betakey" "pvp_stable, steam_features, test_fcs, anti-cheat_test, test_bender, test_pros_true_retail, test_backend"
+				"betakey" "anti-cheat_test, steam_features, test_bender, test_pros_true_retail, test_backend, patch_3x_steamfeats, test_retail"
 			}
 			"description_loc"
 			{
@@ -599,7 +628,7 @@
 			"workingdir" "client_pc\\root\\bin\\pc"
 			"config"
 			{
-				"betakey" "test_fcs_alt, stress_test, gw_streaming, pvp_stable"
+				"betakey" "test_fcs_alt, stress_test, gw_streaming"
 			}
 			"description_loc"
 			{
@@ -613,7 +642,7 @@
 			"workingdir" "Steam Dev Build\\client_pc\\root\\bin\\pc"
 			"config"
 			{
-				"betakey" "test_prod_steamfeats, patch_3x_steamfeats, test_perf, pvp_stable"
+				"betakey" "test_prod_steamfeats, patch_3x_steamfeats, test_perf, pvp_stable, test_fcs"
 			}
 			"description_loc"
 			{
@@ -641,7 +670,7 @@
 			"workingdir" "Steam Dev Build\\client_pc\\root\\bin\\pc\\"
 			"config"
 			{
-				"betakey" "test_prod_steamfeats, patch_3x_steamfeats, test_perf"
+				"betakey" "test_prod_steamfeats, patch_3x_steamfeats, test_perf, test_fcs"
 			}
 			"description_loc"
 			{
@@ -649,19 +678,97 @@
 			}
 			"description" "Warhammer 40.000: Space Marine 2  Release"
 		}
-		"25"
+		"26"
 		{
-			"executable" "Steam Dev Build\\client_pc\\root\\bin\\pc\\Warhammer 40000 Space Marine 2.exe"
-			"workingdir" "Steam Dev Build\\client_pc\\root\\bin\\pc\\"
+			"executable" "start_protected_game.exe"
+			"arguments" "--cwd client_pc\\root\\bin\\pc"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"type" "option2"
 			"config"
 			{
-				"betakey" "pvp_stable"
+				"oslist" "windows"
+				"betakey" "test_pros_true_retail, anti-cheat_test"
 			}
 			"description_loc"
 			{
-				"english" "Warhammer 40000 Retail "
+				"english" "EAC Only"
 			}
-			"description" "Warhammer 40000 Retail "
+			"description" "EAC Only"
+		}
+		"28"
+		{
+			"executable" "Steam Dev Build\\MagnusEOSBootstrapperProfile.exe"
+			"arguments" "--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsProfile.json"
+			"workingdir" "Steam Dev Build\\client_pc\\root\\bin\\pc\\"
+			"config"
+			{
+				"betakey" "patch_3x_steamfeats, test_prod_steamfeats"
+			}
+			"description_loc"
+			{
+				"english" "Space Marine 2 EAC Profile"
+			}
+			"description" "Space Marine 2 EAC Profile"
+		}
+		"29"
+		{
+			"executable" "Steam Dev Build\\MagnusEOSBootstrapperRelease.exe"
+			"arguments" "--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsRelease.json"
+			"workingdir" "Steam Dev Build\\client_pc\\root\\bin\\pc\\"
+			"config"
+			{
+				"betakey" "patch_3x_steamfeats, test_prod_steamfeats"
+			}
+			"description_loc"
+			{
+				"english" "Space Marine 2 EAC Release"
+			}
+			"description" "Space Marine 2 EAC Release"
+		}
+		"30"
+		{
+			"executable" "Steam Dev Build\\MagnusEOSBootstrapperRetail.exe"
+			"arguments" "--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsRetail.json"
+			"workingdir" "Steam Dev Build\\client_pc\\root\\bin\\pc\\"
+			"config"
+			{
+				"betakey" "patch_3x_steamfeats, test_prod_steamfeats"
+			}
+			"description_loc"
+			{
+				"english" "Space Marine 2 EAC Retail"
+			}
+			"description" "Space Marine 2 EAC Retail"
+		}
+		"31"
+		{
+			"executable" "Steam Dev Build\\start_protected_game.exe"
+			"arguments" "--cwd client_pc\\root\\bin\\pc"
+			"workingdir" "Steam Dev Build\\client_pc\\root\\bin\\pc\\"
+			"config"
+			{
+				"betakey" "test_prod_steamfeats"
+			}
+			"description_loc"
+			{
+				"english" "Space Marine 2 EAC"
+			}
+			"description" "Space Marine 2 EAC"
+		}
+		"32"
+		{
+			"executable" "start_epic_crossplay_game.bat"
+			"arguments" "--cwd client_pc\\root\\bin\\pc"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "anti-cheat_test"
+			}
+			"description_loc"
+			{
+				"english" "Warhammer 40000 Space Marine 2 Epic Crossplay"
+			}
+			"description" "Warhammer 40000 Space Marine 2 Epic Crossplay"
 		}
 	}
 	"steamdecktouchscreen" "5"
@@ -685,9 +792,9 @@
 		{
 			"public"
 			{
-				"gid" "5195078826538812661"
-				"size" "69359593381"
-				"download" "55801243104"
+				"gid" "3360723320531138134"
+				"size" "71311500631"
+				"download" "57403446688"
 			}
 		}
 		"encryptedmanifests"
@@ -698,17 +805,17 @@
 				"size" "815AF80A335387E22DC088955899E5EB"
 				"download" "AE6981BFF221238658201C12AB9BCDA9"
 			}
+			"4k_dlc"
+			{
+				"gid" "0BBC6299E63C16083DBD45B61445085A"
+				"size" "18CB36868EA1F302FE0D6935488BE463"
+				"download" "2189786D7FD1CB257C980D266F13F89F"
+			}
 			"anti-cheat_test"
 			{
-				"gid" "DDC1D2B1112F42DAEFDC9E32DE7832D2"
-				"size" "13EA45E5F7BF1958F2DF5BEE23C2C994"
-				"download" "B61D4A56E23E8632A57DA24AF580AF37"
-			}
-			"eos_fix"
-			{
-				"gid" "0DD9014EB13C01DE79250467B900D3EC"
-				"size" "4AB22073EFE7687B95CEB009E6D2394C"
-				"download" "9F870B48884365C546BC9821B365648B"
+				"gid" "402E626D96914F3C261B0761413ADC82"
+				"size" "67CCE975985BFEB9D21D0EE78F1A1CFA"
+				"download" "D0866076A491B6AAC2B715E38E34CC40"
 			}
 			"fe_crossplay"
 			{
@@ -716,23 +823,17 @@
 				"size" "239723BDCA2A9A4D1FCC931AA44535B5"
 				"download" "21CD762011A3C30953E82B169B2E2844"
 			}
+			"fe_eos"
+			{
+				"gid" "13C0619D1084A9FCCDF285B43647B542"
+				"size" "66F983FA24DA7E3B60AC2CC43D33C1D0"
+				"download" "9E467D35043B80F34B246F4BEBD01945"
+			}
 			"fe_hw_nvidia_temp"
 			{
-				"gid" "725386F26AAF40583D9274D298AF55CC"
-				"size" "FBDF9543C63AA20A38AA1611CBBA9648"
-				"download" "C662E8ADF1DA07F5E4068DD69F0B8EE3"
-			}
-			"fe_hw_test"
-			{
-				"gid" "32B1C235368615814552D0F80C610FA4"
-				"size" "E3436F6FB6B83FF52A1F0667661C0A18"
-				"download" "1548BDDA39BF643B3B00115A5AE380CE"
-			}
-			"fe_v_build_review"
-			{
-				"gid" "48E4E3DC0E36825ACA344C9933B6BA1A"
-				"size" "0ACD9EF9EE26D05A3214DF704B383E79"
-				"download" "91388D2FA8F5BBFDE479A1216458B693"
+				"gid" "8E0782459DCF9005435F3ACE4606E411"
+				"size" "AA436C60391990EBD3C5D317FB7FE1BE"
+				"download" "29C14E2852CA3D78F68217E4E0CDD4C7"
 			}
 			"focus_external_asiapartner"
 			{
@@ -742,15 +843,27 @@
 			}
 			"focus_marketing_recording"
 			{
-				"gid" "EA25BA8B9BEA81F993579E38C0581DA6"
-				"size" "1D3F0405F554BC481E7F49464E5E4958"
-				"download" "C8ECBE6A44172F7047D4E6699718A05C"
+				"gid" "45B84A2D6E7FE407B4AABB0BBCF815FA"
+				"size" "8621B227F565BFA853B94D4F540DB796"
+				"download" "0D1339596126809A5C8ABD857826B088"
 			}
 			"focus_playtest"
 			{
-				"gid" "5EF077653697E61C69A8D252D56A0755"
-				"size" "AA67160ECA093CE3216FA723AF823A56"
-				"download" "695086EDC118C5AFFB58566BE2BCABE4"
+				"gid" "68E8545D254CD1FEDCBB4F44A45914B5"
+				"size" "2D61A13F84B4D1A393EF0CC5B1506AF6"
+				"download" "55BEDCF335E43F1EE1326837AB181FF7"
+			}
+			"focus_test_dev"
+			{
+				"gid" "FD015DFC1D0A8C8FB1A1B58C468E5AB3"
+				"size" "0FCFCFFFA73DA28EC6DCEA3E582B14A3"
+				"download" "5C09630680A040D2495432384D515819"
+			}
+			"focus_test_retail"
+			{
+				"gid" "31C52AD6315F6F87C6103CE761F39D90"
+				"size" "9408DD8106F10F4693466B63F3015565"
+				"download" "C00AD0D72E3E54DE503BC4B433F3307A"
 			}
 			"gw_external_review"
 			{
@@ -760,21 +873,15 @@
 			}
 			"ms_builds"
 			{
-				"gid" "EE07DEEB2423C96B06E76F2DF1A07E08"
-				"size" "DDC483CF69C36E2C6E162D78DA7D0A03"
-				"download" "F9A0DCAB408654868647A58673012B45"
+				"gid" "D621C4418BE601217AFD066ABFBC5916"
+				"size" "BD0AC6DB2CE72C23C98006D42BF315CB"
+				"download" "E672EE6629E26EAB7F098E8587976753"
 			}
 			"patch_3x_steamfeats"
 			{
-				"gid" "BFB2209ABCD4A181914F4866A0577235"
-				"size" "BC21F691815BB9FA92BDE76E267790D3"
-				"download" "834236A82AB3158AC6A820BA66CF5144"
-			}
-			"pvp_stable"
-			{
-				"gid" "BD100EEBC8B8880EACC543610D6E3B54"
-				"size" "A5B4FE1C697D6824D45A1A1C3FE30167"
-				"download" "CD7F18EF55B674B1715D5A390E3C45EA"
+				"gid" "9518EE3F59B19CDFB9C65C8AC6285734"
+				"size" "24852A7BDF99868CD04BD9011870B3A4"
+				"download" "00109F2FC9A266A9616D3F5395977365"
 			}
 			"saber_external_preview"
 			{
@@ -782,66 +889,84 @@
 				"size" "148894C3C2C5BCCFFB4E11317CA5C2F8"
 				"download" "36FFF4E0757995FAA3D889126D8C577F"
 			}
+			"steam_dev_live"
+			{
+				"gid" "4EC0DE5BF34044EF45276F4D5413EA19"
+				"size" "ABF83C038DF2B1EE232435B49622DF37"
+				"download" "CF4C3BAFCFE7E6A5C3D8B712E74D3815"
+			}
 			"steam_features"
 			{
-				"gid" "1ACCCFEF6633D082565E8AF65E3C2D29"
-				"size" "0BB62D2C07F9730490AA56615B32BAB4"
-				"download" "4FB5E7BC7C513FD175DBA13F95C5A7F6"
+				"gid" "679D105D28B4D156CAFFF42E5FD2A6DD"
+				"size" "8959BD07AC4D56B682947FE39EFAA54C"
+				"download" "6E6488770705C5F577D82438424FACCD"
 			}
 			"test_backend"
 			{
-				"gid" "B956D250878FF12384B3607008CE5F8F"
-				"size" "7091DF071625533E7011BF4D4795C21A"
-				"download" "07F8DD897DA0D7B8C97FB7E9DFC20214"
+				"gid" "3C986C57CE0A4A1FF57A3F19B470BACD"
+				"size" "EE5EE24AF4AF961977989F1CDC44E6A0"
+				"download" "2EEE11C99C2222A0518493607BF8EAB3"
 			}
 			"test_bender"
 			{
-				"gid" "C600946D5EE91465DB96E3077FA29C53"
-				"size" "07ADA4A1599D7C14DCE725F63483C804"
-				"download" "2B70736B5307059B2432C2F5A89CBAB6"
-			}
-			"test_fcs"
-			{
-				"gid" "E5D75B58263950F4989597A1FA9BD9C5"
-				"size" "965FC7F7C1911F3A5EA6703FFCAD66C7"
-				"download" "8D3F4D7BB482E1EEBAB86E57664B08F6"
-			}
-			"test_fcs_alt"
-			{
-				"gid" "5F27B2B1FD0FE7C5C6E5B4DA41CF8482"
-				"size" "A8DF60E5940139F2614CD42BFF88F3BF"
-				"download" "1DE6DA869D92A3A51FF4BB57C7992E7A"
-			}
-			"test_perf"
-			{
-				"gid" "B2100205CF967498E03170524AE13608"
-				"size" "2074800F505A3C096F07A6C76C656D01"
-				"download" "0BC0A01CCCB81A64EC33ACAE2736D4F7"
+				"gid" "A85375AFC6DD41FF95F735CF4210FAD5"
+				"size" "5AF06D4D6DE7241297FF7F3B14DBA888"
+				"download" "E7060D26DD36EED376D6D7C4869E5168"
 			}
 			"test_prod_steamfeats"
 			{
-				"gid" "73F595398803085D60338D17BE8FD1C5"
-				"size" "38F658B6D6B9E389903E0EB698CE1248"
-				"download" "EB08900541BD97E7D90C01784BC38FA0"
+				"gid" "8FB9CBDADB3A1EFFC4E60083F034EBC4"
+				"size" "CA8226B5BF6B3CD51F199DA67508920F"
+				"download" "6313E33898AB9D522FAC4BD0183B48E9"
 			}
 			"test_pros_true_retail"
 			{
-				"gid" "7F99AD1E93509EAD473ED03871EFC6C2"
-				"size" "392C5D35347ACF574A2D6C83CD613A2C"
-				"download" "2E5E676390F456B780D63DEE4FA1B137"
+				"gid" "620CBF33C9850C3DB72077A8B19EBD4D"
+				"size" "847164448D307C560893FF4EFD841B40"
+				"download" "82743286AABFAF04582B825C5D0C0FF5"
+			}
+			"test_retail"
+			{
+				"gid" "87E7C70CC64BE9B28B7441509C97214E"
+				"size" "EC198E90468D87CD2706722B5EE28782"
+				"download" "EF6864AD08E3C0B7BF3EB59C1683EF36"
 			}
 		}
 	}
 	"3202690"
 	{
 		"dlcappid" "3202690"
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"4k_dlc"
+			{
+				"gid" "464350227410C7E4C68AE83C3DFEC8A7"
+				"size" "842086FF8011368318126F50B51820DB"
+				"download" "2E4A6532A0D5717E77AE9D5ED914B2C7"
+			}
+			"ms_builds"
+			{
+				"gid" "EEED975DF6B434CF16DDA75612C3CB0C"
+				"size" "1664F75296C71BAAE767164C40E79FF0"
+				"download" "1664F75296C71BAAE767164C40E79FF0"
+			}
+			"test_pros_true_retail"
+			{
+				"gid" "FFA15E438FD93F7EC87798B9EA02B531"
+				"size" "D8E4BC03984BE22742E2EB9C79E4FAA5"
+				"download" "3800CA111FEAFA0198F911D51F538392"
+			}
+		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "15640106"
-			"timeupdated" "1726048788"
+			"buildid" "15812208"
+			"timeupdated" "1727352445"
 		}
 		"natour"
 		{
@@ -849,17 +974,17 @@
 			"pwdrequired" "1"
 			"timeupdated" "1713452505"
 		}
+		"4k_dlc"
+		{
+			"buildid" "15835274"
+			"pwdrequired" "1"
+			"timeupdated" "1727346965"
+		}
 		"anti-cheat_test"
 		{
-			"buildid" "15589635"
+			"buildid" "15812208"
 			"pwdrequired" "1"
-			"timeupdated" "1725449768"
-		}
-		"eos_fix"
-		{
-			"buildid" "15649637"
-			"pwdrequired" "1"
-			"timeupdated" "1725962992"
+			"timeupdated" "1727254491"
 		}
 		"fe_crossplay"
 		{
@@ -867,23 +992,17 @@
 			"pwdrequired" "1"
 			"timeupdated" "1723730196"
 		}
+		"fe_eos"
+		{
+			"buildid" "15521170"
+			"pwdrequired" "1"
+			"timeupdated" "1726070554"
+		}
 		"fe_hw_nvidia_temp"
 		{
-			"buildid" "15439955"
+			"buildid" "15762002"
 			"pwdrequired" "1"
-			"timeupdated" "1724189046"
-		}
-		"fe_hw_test"
-		{
-			"buildid" "15382548"
-			"pwdrequired" "1"
-			"timeupdated" "1723800901"
-		}
-		"fe_v_build_review"
-		{
-			"buildid" "15431500"
-			"pwdrequired" "1"
-			"timeupdated" "1724157613"
+			"timeupdated" "1726777888"
 		}
 		"focus_external_asiapartner"
 		{
@@ -893,15 +1012,27 @@
 		}
 		"focus_marketing_recording"
 		{
-			"buildid" "15568764"
+			"buildid" "15771059"
 			"pwdrequired" "1"
-			"timeupdated" "1725291856"
+			"timeupdated" "1726838246"
 		}
 		"focus_playtest"
 		{
-			"buildid" "15274465"
+			"buildid" "15771059"
 			"pwdrequired" "1"
-			"timeupdated" "1722934988"
+			"timeupdated" "1727097421"
+		}
+		"focus_test_dev"
+		{
+			"buildid" "15822624"
+			"pwdrequired" "1"
+			"timeupdated" "1727269435"
+		}
+		"focus_test_retail"
+		{
+			"buildid" "15812208"
+			"pwdrequired" "1"
+			"timeupdated" "1727264447"
 		}
 		"gw_external_review"
 		{
@@ -911,21 +1042,15 @@
 		}
 		"ms_builds"
 		{
-			"buildid" "15662666"
+			"buildid" "15824231"
 			"pwdrequired" "1"
-			"timeupdated" "1726050253"
+			"timeupdated" "1727276639"
 		}
 		"patch_3x_steamfeats"
 		{
-			"buildid" "15657209"
+			"buildid" "15835188"
 			"pwdrequired" "1"
-			"timeupdated" "1726010613"
-		}
-		"pvp_stable"
-		{
-			"buildid" "15648415"
-			"pwdrequired" "1"
-			"timeupdated" "1725956807"
+			"timeupdated" "1727346562"
 		}
 		"saber_external_preview"
 		{
@@ -933,53 +1058,47 @@
 			"pwdrequired" "1"
 			"timeupdated" "1723129339"
 		}
-		"steam_features"
-		{
-			"buildid" "15661617"
-			"pwdrequired" "1"
-			"timeupdated" "1726044207"
-		}
-		"test_backend"
-		{
-			"buildid" "15648052"
-			"pwdrequired" "1"
-			"timeupdated" "1725954831"
-		}
-		"test_bender"
-		{
-			"buildid" "15664695"
-			"pwdrequired" "1"
-			"timeupdated" "1726061582"
-		}
-		"test_fcs"
-		{
-			"buildid" "15624872"
-			"pwdrequired" "1"
-			"timeupdated" "1725703184"
-		}
-		"test_fcs_alt"
+		"steam_dev_live"
 		{
 			"buildid" "15624728"
 			"pwdrequired" "1"
-			"timeupdated" "1725700624"
+			"timeupdated" "1726498744"
 		}
-		"test_perf"
+		"steam_features"
 		{
-			"buildid" "15562381"
+			"buildid" "15823982"
 			"pwdrequired" "1"
-			"timeupdated" "1725286747"
+			"timeupdated" "1727275514"
+		}
+		"test_backend"
+		{
+			"buildid" "15823060"
+			"pwdrequired" "1"
+			"timeupdated" "1727271265"
+		}
+		"test_bender"
+		{
+			"buildid" "15675780"
+			"pwdrequired" "1"
+			"timeupdated" "1726136851"
 		}
 		"test_prod_steamfeats"
 		{
-			"buildid" "15659638"
+			"buildid" "15836950"
 			"pwdrequired" "1"
-			"timeupdated" "1726030471"
+			"timeupdated" "1727355350"
 		}
 		"test_pros_true_retail"
 		{
-			"buildid" "15640106"
+			"buildid" "15772043"
 			"pwdrequired" "1"
-			"timeupdated" "1725895482"
+			"timeupdated" "1726843537"
+		}
+		"test_retail"
+		{
+			"buildid" "15812208"
+			"pwdrequired" "1"
+			"timeupdated" "1727200854"
 		}
 	}
 }
@@ -1002,42 +1121,7 @@
 		}
 	}
 }
-"localization"
-{
-	"richpresence"
-	{
-		"english"
-		{
-			"tokens"
-			{
-				"#rp_on_title_screen" "Title Menu"
-				"#rp_story" "Campaign: {#%pvemission%}"
-				"#rp_pve" "Operations: {#%pvemission%}"
-				"#rp_pvp" "Crusade:  {#%pvpmode%}"
-				"#battle_barge" "Battle barge"
-				"#story_intro" "Rain of Terror"
-				"#story_cannon" "Skyfire"
-				"#pve_acid_bomb" "Inferno"
-				"#story_assassination" "Severance"
-				"#story_skylab" "Machinus Divinitus"
-				"#story_rescue" "Servant of the Machine"
-				"#pve_train" "Ballistic Engine"
-				"#pve_tyrant" "Decapitation"
-				"#pve_daemonhost" "Vox Liberatis"
-				"#story_tower" "Voidsong"
-				"#pve_firestorm" "Reliquary"
-				"#pve_ancient_weapon" "Fall of Atreus"
-				"#story_blackstone" "Dawn\'s Descent"
-				"#story_last_stand" "Bellum Sempiternus"
-				"#story_finale" "Duty Without End"
-				"#pvp_team_deathmatch" "Annihilation"
-				"#pvp_king_of_the_hill" "Capture and Control"
-				"#pvp_domination" "Seize Ground"
-			}
-		}
-	}
-}
 "_missing_token" "False"
-"_change_number" "25175066"
-"_sha" "0ee73b41dda08245692d2715d4e42be969f65141"
-"_size" "24774"
+"_change_number" "25405762"
+"_sha" "41b8f93a5c35f9eceba25cb7a4ea190e27da9c92"
+"_size" "26525"
