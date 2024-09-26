@@ -25,6 +25,21 @@
 		"schinese" "Ravenswatch 鸦卫奇旅"
 		"tchinese" "Ravenswatch 鸦卫奇旅"
 	}
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"japanese" "1"
+		"polish" "1"
+		"brazilian" "1"
+	}
 	"content_descriptors"
 	{
 		"0" "5"
@@ -76,15 +91,13 @@
 	"controller_support" "full"
 	"small_capsule"
 	{
-		"english" "capsule_231x87.jpg"
-		"schinese" "capsule_231x87_schinese.jpg"
-		"tchinese" "capsule_231x87_tchinese.jpg"
+		"english" "7c03b1bafb313fb04331fa735ec4101b2f812286/capsule_231x87.jpg"
+		"schinese" "dbe2a3a29975aa79cc0514523dbafe257af82aed/capsule_231x87_schinese.jpg"
 	}
 	"header_image"
 	{
 		"english" "header.jpg"
 		"schinese" "header_schinese.jpg"
-		"tchinese" "header_tchinese.jpg"
 	}
 	"library_assets"
 	{
@@ -99,7 +112,60 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1713798180"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "f730843cceccbafde6da8b1d0ef01e8e744a8e28/library_600x900.jpg"
+				"schinese" "66175236c2b24649f12de5687e059cb6026603b0/library_600x900_schinese.jpg"
+				"tchinese" "library_600x900_tchinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "f730843cceccbafde6da8b1d0ef01e8e744a8e28/library_600x900_2x.jpg"
+				"schinese" "66175236c2b24649f12de5687e059cb6026603b0/library_600x900_schinese_2x.jpg"
+				"tchinese" "library_600x900_tchinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "92.06131588717972"
+				"height_pct" "100"
+			}
+			"image"
+			{
+				"schinese" "logo_schinese.png"
+				"tchinese" "logo_tchinese.png"
+				"english" "logo.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+				"schinese" "library_header_schinese.jpg"
+				"tchinese" "library_header_tchinese.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1727366716"
 	"associations"
 	{
 		"0"
@@ -123,7 +189,6 @@
 	{
 		"0" "1"
 		"1" "25"
-		"2" "70"
 	}
 	"category"
 	{
@@ -203,7 +268,8 @@
 			"subtitles" "true"
 		}
 	}
-	"steam_release_date" "1680796824"
+	"steam_release_date" "1727366400"
+	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "2071280"
 	"store_tags"
@@ -215,9 +281,9 @@
 		"4" "4182"
 		"5" "492"
 		"6" "3959"
-		"7" "4026"
-		"8" "3859"
-		"9" "21"
+		"7" "21"
+		"8" "4026"
+		"9" "3859"
 		"10" "3843"
 		"11" "1646"
 		"12" "122"
@@ -226,8 +292,8 @@
 		"15" "4791"
 		"16" "4711"
 		"17" "4604"
-		"18" "5851"
-		"19" "4342"
+		"18" "4342"
+		"19" "5851"
 	}
 	"review_score" "8"
 	"review_percentage" "80"
@@ -236,6 +302,8 @@
 {
 	"developer" "Passtech Games"
 	"publisher" "Nacon"
+	"listofdlc" "3113100,3113110,3113120,3113130"
+	"dlcavailableonstore" "1"
 }
 "config"
 {
@@ -271,9 +339,9 @@
 		{
 			"public"
 			{
-				"gid" "939453044651816197"
-				"size" "4449685851"
-				"download" "1514089216"
+				"gid" "7855633046078838188"
+				"size" "5754576311"
+				"download" "2078880512"
 			}
 		}
 		"encryptedmanifests"
@@ -290,12 +358,6 @@
 				"size" "B9E7DFF3950F1E3D92FD08CF7B575CFD"
 				"download" "957439FEA6FF6980CED4AD67B5AE81DB"
 			}
-			"ptg_test"
-			{
-				"gid" "FBF2BF0621605135C7C6D9EC4CFF40B1"
-				"size" "593225BAEA2C5B821B862AAAFF2BC9D7"
-				"download" "EF0BA64F1EA1477D88FB43F4D1AC4DFB"
-			}
 			"ptg_version_wip"
 			{
 				"gid" "7F899919BCAD23F4015646B71E0EF514"
@@ -304,39 +366,45 @@
 			}
 			"marketing"
 			{
-				"gid" "3C32D6ADD2D3BD095F34CD1B06DAE29F"
-				"size" "324CE2FB00CE1557E12F89F26BCC3624"
-				"download" "60DDCCB74B2D84279A12D9BF3F67DBE0"
+				"gid" "62A96AB6C0BE2E4AF5453903F6EA7845"
+				"size" "8E1C39E7DD662F54F1C0CB3D17E12311"
+				"download" "90EF525351BF662EC30DB08F82A57324"
 			}
 			"nacon_ea"
 			{
-				"gid" "A0E47AACC6EAFFFBBDFB68197B03AC47"
-				"size" "AC8AAFD68DBE30EFCE43B5EFF58916AB"
-				"download" "42282438E4387A3B0934A32D8B622CE4"
+				"gid" "26300DC5C20C53765BA9B5F5E4C1FE63"
+				"size" "31B7F4312F151B0B3398E6940A03B65E"
+				"download" "9D99FED6F11E81C33EFE6E77330C11C1"
 			}
 			"nacon_qa"
 			{
-				"gid" "61B95CD5298397A4C6705ECAA9A5F1C1"
-				"size" "8E6E2B06BA55948928B2E8C47D5F6046"
-				"download" "4FC862B27418EA49688BBF9755FFE784"
+				"gid" "A05CFB82E646584ADCA682598E11DFBC"
+				"size" "784031A3B71626D63D333A18A25FBBC3"
+				"download" "569A0FE5FEFB704D7F56030AC0D8C437"
 			}
 			"nacon_ratings"
 			{
-				"gid" "FF90C609D640A72DA11F8399055D14B0"
-				"size" "802A5463095921959BC309897C4D3B32"
-				"download" "A6C78E9812FBCCC668105BAA43277549"
+				"gid" "71B3FC1FE6A1BF858416BB111E0345BD"
+				"size" "770449FBCFBD92535457F31EEF65DF31"
+				"download" "EF89575AD86C47263C3A251D8DB39D40"
+			}
+			"press"
+			{
+				"gid" "043B4359C30D3CB7E084ADBF350806EC"
+				"size" "4A3A17DDB4B0DA49A6A9ACE3810D9412"
+				"download" "6863B4109EF61B6CC10B254D4C56FD53"
 			}
 			"ptg_main"
 			{
-				"gid" "195C1CD9C529AAFF2EB9E6ADDF7F7E61"
-				"size" "314359B4A782225D8CAEC8B634F6AA2B"
-				"download" "28C8386C29AE9D6AC4D23219910909E7"
+				"gid" "D1FBC177A70683F407C5B8C3C59614D2"
+				"size" "3FE973A9DB6481E37D154AA758360BC5"
+				"download" "DCEDF358AB3A946CD2755DC9472D2E82"
 			}
 			"ptg_main_cheats"
 			{
-				"gid" "94F42F56473D03624A9C44609ED8F999"
-				"size" "9D2710CDB22B93F5DC38CF66674FF16B"
-				"download" "CBF8D56F4428529759619DF734D146B4"
+				"gid" "CEDD54DCFFC73422247022DDA11F16BF"
+				"size" "8949E2D62E353EC6E98894C3A9A5208B"
+				"download" "1B4C72D5AEDF3AFC7B64AA5866F13B01"
 			}
 			"ptg_retro"
 			{
@@ -344,17 +412,23 @@
 				"size" "1388E6003042A37EE587246300929907"
 				"download" "66DECE458FF7B8FB55FA66A38C3B6875"
 			}
+			"ptg_test"
+			{
+				"gid" "A11E327770CC903E2CB489BE31CD79E8"
+				"size" "1DDC7DB2FE39CA66B745B3BFEAFAF9A7"
+				"download" "DECCD2CD5EA320DB02792DF742819ECB"
+			}
 			"ptg_version"
 			{
-				"gid" "40618762644DDCF5B9A602E8514EF1B1"
-				"size" "8CC9D3E47ACE4117651A8E4AB04BEF72"
-				"download" "67999F2F5E4C3890C6ADD826ABA71562"
+				"gid" "B15F883B8D34553F40601665391D45E9"
+				"size" "AAEC76A5A68C980CE4E6D471F05665F7"
+				"download" "6A49030079DABF1A519F642415DB08CE"
 			}
 			"ptg_version_cheats"
 			{
-				"gid" "6700D90C075654D6825906CC09FABA7A"
-				"size" "AEB4AD3C83170A24B21C1E76B36472E7"
-				"download" "7B8522C3CA791908F894CEE04626E623"
+				"gid" "0FEFC52698925B384E1CBBC3258ED3CC"
+				"size" "67759858DF766D6131407B1DD59A3AA6"
+				"download" "AC96E4A4B6A225F924D76E1B97C7FA26"
 			}
 			"public_test"
 			{
@@ -365,12 +439,13 @@
 		}
 	}
 	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,brazilian"
+	"hasdepotsindlc" "1"
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "14907760"
-			"timeupdated" "1720016214"
+			"buildid" "15824629"
+			"timeupdated" "1727366134"
 		}
 		"nacon_prod"
 		{
@@ -384,12 +459,6 @@
 			"pwdrequired" "1"
 			"timeupdated" "1689583703"
 		}
-		"ptg_test"
-		{
-			"buildid" "13638769"
-			"pwdrequired" "1"
-			"timeupdated" "1709635260"
-		}
 		"ptg_version_wip"
 		{
 			"buildid" "11342577"
@@ -398,39 +467,45 @@
 		}
 		"marketing"
 		{
-			"buildid" "14280110"
+			"buildid" "15366162"
 			"pwdrequired" "1"
-			"timeupdated" "1715086905"
+			"timeupdated" "1723634928"
 		}
 		"nacon_ea"
 		{
-			"buildid" "14907760"
+			"buildid" "15824629"
 			"pwdrequired" "1"
-			"timeupdated" "1720010968"
+			"timeupdated" "1727280584"
 		}
 		"nacon_qa"
 		{
-			"buildid" "14870117"
+			"buildid" "15816664"
 			"pwdrequired" "1"
-			"timeupdated" "1719576560"
+			"timeupdated" "1727280598"
 		}
 		"nacon_ratings"
 		{
-			"buildid" "14707284"
+			"buildid" "15154442"
 			"pwdrequired" "1"
-			"timeupdated" "1718293339"
+			"timeupdated" "1722514499"
+		}
+		"press"
+		{
+			"buildid" "15694966"
+			"pwdrequired" "1"
+			"timeupdated" "1726471966"
 		}
 		"ptg_main"
 		{
-			"buildid" "14901434"
+			"buildid" "15829643"
 			"pwdrequired" "1"
-			"timeupdated" "1719888453"
+			"timeupdated" "1727308612"
 		}
 		"ptg_main_cheats"
 		{
-			"buildid" "14916418"
+			"buildid" "15831525"
 			"pwdrequired" "1"
-			"timeupdated" "1719996073"
+			"timeupdated" "1727323115"
 		}
 		"ptg_retro"
 		{
@@ -438,17 +513,23 @@
 			"pwdrequired" "1"
 			"timeupdated" "1714467618"
 		}
+		"ptg_test"
+		{
+			"buildid" "15003580"
+			"pwdrequired" "1"
+			"timeupdated" "1720786256"
+		}
 		"ptg_version"
 		{
-			"buildid" "14907760"
+			"buildid" "15824629"
 			"pwdrequired" "1"
-			"timeupdated" "1719930718"
+			"timeupdated" "1727278434"
 		}
 		"ptg_version_cheats"
 		{
-			"buildid" "14870117"
+			"buildid" "15825098"
 			"pwdrequired" "1"
-			"timeupdated" "1719567895"
+			"timeupdated" "1727280892"
 		}
 		"public_test"
 		{
@@ -488,6 +569,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "24223237"
-"_sha" "fc23a4827e0a80108052598b24de4df3c579f73a"
-"_size" "9617"
+"_change_number" "25409673"
+"_sha" "bcd98debb53fd0c245a4871b4d6fd1898f0f9bb9"
+"_size" "11430"
