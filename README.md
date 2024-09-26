@@ -1,13 +1,10 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-27 03:38:24
+## 更新时间：2024-09-27 03:50:45
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1346020 | 战律 2| Game |
-| 1366800 | Crosshair X| Application |
-| 2052960 | Kao the Kangaroo - Summer Drip| DLC |
-| 2052962 | Kao the Kangaroo - VIP| DLC |
-| 1372530 | 飞飞公司 Fly Corp| Game |
-| 1361210 | 战锤40K：暗潮| Game |
-| 1398070 | The Book of Bondmaids| Game |
-| 2488400 | Everdream Valley - Summer Fun DLC| DLC |
+| 1436000 | Freya's Potion Shop| Game |
+| 2313150 |  魅魔★钟爱! - 成人故事情节&绘图追加DLC| DLC |
+| 2295330 | 【对应中文】饮料吧侍女 - 成人故事情节&绘图追加DLC| DLC |
+| 1454580 | Trump VS Covid: Save The World Clicker| Game |
+| 1533240 | Love Fantasy - 18+ Content| DLC |
