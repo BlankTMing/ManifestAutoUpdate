@@ -1,0 +1,424 @@
+"appid" "1836730"
+"common"
+{
+	"name" "Echo Point Nova"
+	"type" "Game"
+	"icon" "e127de25605e0a939e2fc50d1672a1b75022b5a0"
+	"clienttga" "b3539f0c1e6aa05bea8866543ceaf3e2af9c24c2"
+	"clienticon" "0777e42237155bfde34bc61ffbc2d3c10ecb5ea7"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"languages"
+	{
+		"english" "1"
+		"koreana" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"japanese" "1"
+		"turkish" "1"
+	}
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "46.84129679857456"
+			"height_pct" "55.86814046982515"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "46.84129679857456"
+				"height_pct" "55.86814046982515"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1727127706"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Greylock Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Greylock Studio"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_17" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1727186400"
+	"steam_deck_blog_url" "https://steamcommunity.com/games/1836730/announcements/detail/4706913871782495946\?snr=2___"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1836730"
+	"store_tags"
+	{
+		"0" "1663"
+		"1" "1774"
+		"2" "3843"
+		"3" "3834"
+		"4" "5547"
+		"5" "19"
+		"6" "3839"
+		"7" "4191"
+		"8" "21"
+		"9" "4252"
+		"10" "1732"
+		"11" "5363"
+		"12" "4166"
+		"13" "1684"
+		"14" "3916"
+		"15" "4036"
+		"16" "1685"
+		"17" "4508"
+		"18" "1654"
+		"19" "4004"
+	}
+	"review_score" "8"
+	"review_percentage" "98"
+}
+"extended"
+{
+	"developer" "Greylock Studio"
+	"publisher" "Greylock Studio"
+}
+"config"
+{
+	"installdir" "Greylock"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Greylock.exe"
+			"arguments" "-dx12 -noraytracing"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Greylock.exe"
+			"arguments" "-dx12 -noraytracing -gldebug"
+			"type" "option2"
+			"config"
+			{
+				"betakey" "internalshipping"
+			}
+			"description_loc"
+			{
+				"english" "with debug."
+			}
+			"description" "with debug."
+		}
+		"2"
+		{
+			"executable" "Greylock.exe"
+			"arguments" "-dx12 -noraytracing -gldebug"
+			"type" "option2"
+			"config"
+			{
+				"betakey" "kudosqa"
+			}
+			"description_loc"
+			{
+				"english" "with debug."
+			}
+			"description" "with debug."
+		}
+		"3"
+		{
+			"executable" "Greylock.exe"
+			"arguments" "-dx12 -noraytracing -gldebug"
+			"type" "option3"
+			"config"
+			{
+				"betakey" "trailer"
+			}
+			"description_loc"
+			{
+				"english" "with debug."
+			}
+			"description" "with debug."
+		}
+		"4"
+		{
+			"executable" "Greylock.exe"
+			"arguments" "-dx12"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Echo Point Nova with raytracing."
+			}
+			"description" "Echo Point Nova with raytracing."
+		}
+		"5"
+		{
+			"executable" "Greylock.exe"
+			"arguments" "-dx11 -noraytracing"
+			"type" "option3"
+			"description_loc"
+			{
+				"english" "with DX11."
+			}
+			"description" "with DX11."
+		}
+	}
+	"uselaunchcommandline" "1"
+	"steamcontrollertemplateindex" "2"
+	"steamdecktouchscreen" "1"
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1836731"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5118379094449489945"
+				"size" "3139732116"
+				"download" "2831521232"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "B5B973BF9523265BB2750499914B9BCD"
+				"size" "1C47BBDB8370C39547A32FD293DE3A3E"
+				"download" "8742662D99630AA7DB13688E05F3C961"
+			}
+			"internalshipping"
+			{
+				"gid" "69AE1FE01145E38858FEF53ABC5254F7"
+				"size" "E6DC8243FFE16939EDBA1BE67996BFD3"
+				"download" "97EA5E07AB0FA83755E53FA05D1D03AC"
+			}
+			"kudos3"
+			{
+				"gid" "6CF6856F8799298ABE0F6713B2CAACF0"
+				"size" "07C77578B04926F9638A8710EA093CA6"
+				"download" "03C4E0E2DAA5C1EB36C58032426078A6"
+			}
+			"kudosqa"
+			{
+				"gid" "DF8E5702C197484DE8DEA643B3F19C59"
+				"size" "6129088D3505E802FE5C564404ECC390"
+				"download" "342393B6DA58FCCB821DBCC95E83F48B"
+			}
+			"kudosqa2"
+			{
+				"gid" "DF8EB4454E732AD88FD06ACE55BFD067"
+				"size" "14F74BE56720DC98FC6235199A674175"
+				"download" "FAF9823512DD9A7758DC3169EEDED62C"
+			}
+			"trailer"
+			{
+				"gid" "E7629E6A39C7706F0A16B5ECACBDD557"
+				"size" "A59748FC3AEA0E096439006DB5183A9B"
+				"download" "C95859495092592B44B202F64EF14ECD"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15827998"
+			"timeupdated" "1727298894"
+		}
+		"internal"
+		{
+			"buildid" "15737330"
+			"pwdrequired" "1"
+			"timeupdated" "1726631815"
+		}
+		"internalshipping"
+		{
+			"buildid" "15827998"
+			"pwdrequired" "1"
+			"timeupdated" "1727297736"
+		}
+		"kudos3"
+		{
+			"buildid" "15790569"
+			"pwdrequired" "1"
+			"timeupdated" "1727067768"
+		}
+		"kudosqa"
+		{
+			"buildid" "15751467"
+			"pwdrequired" "1"
+			"timeupdated" "1726719402"
+		}
+		"kudosqa2"
+		{
+			"buildid" "15764416"
+			"pwdrequired" "1"
+			"timeupdated" "1726794992"
+		}
+		"trailer"
+		{
+			"buildid" "15782616"
+			"pwdrequired" "1"
+			"timeupdated" "1726946530"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "320000000"
+	"maxnumfiles" "256"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Greylock/Saved/SaveGames"
+			"pattern" "*.sav"
+		}
+	}
+}
