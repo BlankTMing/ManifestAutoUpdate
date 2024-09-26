@@ -1,0 +1,160 @@
+"appid" "107400"
+"common"
+{
+	"name" "Arma 2: Free"
+	"clienticon" "9224c6e45a99e1d39169c877435136b18b941f58"
+	"clienttga" "0d004f6e9feec4d0e8170a6f358bf659b53936e2"
+	"icon" "053e9846b1bfd12c7b502c2d72cfab257a42a258"
+	"logo" "a82cdebc2f98a380ff7846d71d951ad27c8eabbe"
+	"logo_small" "a82cdebc2f98a380ff7846d71d951ad27c8eabbe_thumb"
+	"type" "game"
+	"metacritic_name" "ARMA II Free"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1312578517"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Bohemia Interactive"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Bohemia Interactive"
+		}
+	}
+	"primary_genre" "0"
+	"steam_release_date" "1312578240"
+	"community_hub_visible" "1"
+	"gameid" "107400"
+	"review_score" "8"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"developer" "Bohemia Interactive"
+	"developer_url" "http://www.bistudio.com/"
+	"gamedir" "ARMA 2 Free"
+	"homepage" "http://www.arma2.com/free"
+	"icon" ""
+	"installscript" "107400_install.vdf"
+	"legacykeyregistrationmethod" "registry"
+	"legacykeyregistrylocation" "HKEY_CURRENT_USER\\Software\\Valve\\TestApp107400\\SteamKey"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "107401"
+	"showcdkeyinmenu" "1"
+	"showcdkeyonlaunch" "1"
+	"state" "eStateAvailable"
+	"supportscdkeycopytoclipboard" "1"
+	"publisher" "Bohemia Interactive"
+}
+"config"
+{
+	"installscriptsignature" "86c31a8497b588d32f19259fc0b3a3e7bf033c31ce081b0840d2186fdbd8fff1d71b89ddfe8cf35703c73d8e315cde4e2c9647de14409e42bb037720e3a244f538ed0db43c9dc4877604d5170d36c8bbd95936bcdc248a01deeaef852abda8e42abc0f862ae11ae901cad7b0d15f3d885dd771f2f81a49650f3158cd99136efe"
+	"installscriptoverride" "1"
+	"externalregistrationurl"
+	{
+		"english" "http://free.arma2.com/activation/"
+	}
+	"contenttype" "3"
+	"installdir" "ARMA 2 Free"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "arma2free.exe"
+		}
+		"1"
+		{
+			"description" "Launch in windowed mode"
+			"executable" "arma2free.exe"
+			"arguments" "-window"
+		}
+	}
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_local_machine\\software\\bohemia interactive studio\\arma 2 free"
+		{
+			"string"
+			{
+				"main" "%INSTALLDIR%"
+			}
+		}
+	}
+	"run process"
+	{
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"description" "Microsoft DirectX for Windows"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"battleyea2f"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\107400"
+			"description" "BattlEye Anti-Cheat software for ARMA 2 Free"
+			"process 1" "%INSTALLDIR%\\BEsetup\\setup_BattlEyeARMA2free.exe"
+			"ignoreexitcode" "1"
+			"nocleanup" "0"
+		}
+		"officialgamegroup"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\107400"
+			"description" "Official Game Group"
+			"process 1" "%INSTALLDIR%\\ARMA2_OGG.cmd"
+			"ignoreexitcode" "1"
+			"nocleanup" "1"
+		}
+	}
+	"arma 2 cd key"
+	{
+		"registrypath" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Bohemia Interactive Studio\\ARMA 2 Free\\KEY"
+	}
+	"ea oreg"
+	{
+		"string"
+		{
+			"english"
+			{
+				"url" "http://free.arma2.com/activation/"
+			}
+		}
+	}
+}
+"depots"
+{
+	"107401"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2848766536090122054"
+				"size" "1797952242"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "25889"
+		}
+	}
+}
