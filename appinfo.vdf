@@ -1,0 +1,183 @@
+"appid" "928970"
+"common"
+{
+	"name" "Lost Frontier"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"clienticon" "2714b10cd2d58dd9002b519870c0259a8d84f942"
+	"clienttga" "44090d7e44fde4cdbf1856746fd897caa2ac916e"
+	"icon" "53672c99d81a2f55b69655bcda642335d373fd43"
+	"clienticns" "a34cc06ccbd1bbe694bf13033f74af1b6fdb1a7a"
+	"logo" "295386030ce921540da9e8c7adae5867aa969117"
+	"logo_small" "295386030ce921540da9e8c7adae5867aa969117_thumb"
+	"releasestate" "released"
+	"metacritic_name" "Lost Frontier"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1538782365"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Mika Mobile, Inc."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Mika Mobile, Inc."
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_37" "1"
+		"category_39" "1"
+		"category_24" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_9" "1"
+		"category_44" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1539963766"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "928970"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "492"
+	}
+	"review_score" "7"
+	"review_percentage" "100"
+}
+"extended"
+{
+	"developer" "Mika Mobile, Inc."
+	"publisher" "Mika Mobile, Inc."
+	"homepage" "http://www.mikamobile.com/games/lost-frontier/"
+}
+"config"
+{
+	"installdir" "Lost Frontier"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Lost Frontier.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Lost Frontier.app/Contents/MacOS/Lost Frontier"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"928971"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6678670819446372150"
+				"size" "188316768"
+				"download" "84659536"
+			}
+		}
+	}
+	"928972"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2118636917888361326"
+				"size" "211699525"
+				"download" "88825360"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3216216"
+			"timeupdated" "1539666955"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "50000"
+	"maxnumfiles" "4"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Mika Mobile/Lost Frontier"
+			"pattern" "*.dat"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Mika Mobile/Lost Frontier"
+					"replace" "Mika Mobile/Lost Frontier"
+				}
+			}
+		}
+	}
+}
