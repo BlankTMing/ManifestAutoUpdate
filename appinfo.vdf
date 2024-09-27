@@ -1,0 +1,229 @@
+"appid" "2915480"
+"common"
+{
+	"name" "EGGGG"
+	"type" "Game"
+	"releasestate" "released"
+	"clienticon" "e8b3b736ee9e566163c298f39f992b0b4cb166a5"
+	"clienttga" "45dd1f59fc8c86c2ecaad7ae78499bedc2491ef4"
+	"icon" "6a0131cb54196312e98928b7b0dd00b78f43335b"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+	}
+	"name_localized"
+	{
+		"schinese" "蛋蛋蛋蛋蛋"
+	}
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" "macos64,macosapplesilicon"
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"schinese" "capsule_231x87_schinese.jpg"
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"schinese" "header_schinese.jpg"
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "zh-cn,en"
+		"library_hero" "en,zh-cn"
+		"library_logo" "zh-cn,en"
+		"library_header" "en,zh-cn"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "87.44138201334081"
+			"height_pct" "65.97222222222223"
+		}
+	}
+	"store_asset_mtime" "1712477421"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "SmallMill"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "SmallMill"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "4"
+		"3" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1715822843"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2915480"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "4136"
+		"2" "4182"
+		"3" "21"
+		"4" "3968"
+		"5" "3871"
+		"6" "1625"
+		"7" "4026"
+		"8" "5900"
+		"9" "615955"
+		"10" "5379"
+		"11" "3877"
+		"12" "4562"
+		"13" "6815"
+		"14" "1654"
+		"15" "6971"
+		"16" "4106"
+		"17" "15277"
+		"18" "1684"
+		"19" "4036"
+	}
+	"review_score" "7"
+	"review_percentage" "100"
+}
+"extended"
+{
+	"developer" "SmallMill"
+	"publisher" "SmallMill"
+}
+"config"
+{
+	"installdir" "PlayEgg"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "PlayEgg.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "playEgg.app/Contents/MacOS/PlayEgg"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"2915481"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3966399315444353423"
+				"size" "937234897"
+				"download" "63601216"
+			}
+		}
+	}
+	"2915482"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6560505257445112074"
+				"size" "1030667440"
+				"download" "83100528"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14397482"
+			"timeupdated" "1715913356"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "SmallMill"
+			"pattern" "*.es3"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "SmallMill/PlayEgg"
+			"pattern" "*.es3"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" ""
+		}
+	}
+}
