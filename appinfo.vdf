@@ -1,0 +1,263 @@
+"appid" "2574030"
+"common"
+{
+	"name" "Snake Crush"
+	"type" "Game"
+	"name_localized"
+	{
+		"schinese" "巫蛇夜宴"
+		"english" "Snake Crush"
+		"tchinese" "巫蛇夜宴"
+		"japanese" "巫蛇の夜宴"
+	}
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"icon" "b3332cb8c7b36cb09056559b3dcc11fe55d9e677"
+	"clienticon" "df98571c72039a1db1404e777f9f7c9f62c84015"
+	"clienttga" "e21811e70d884e877f78e15ccee55f9f0c4e5847"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"japanese" "1"
+	}
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"schinese" "capsule_231x87_schinese.jpg"
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"schinese" "header_schinese.jpg"
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "zh-cn,en"
+		"library_hero" "en"
+		"library_logo" "en,zh-cn"
+		"library_header" "en,zh-cn"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "75.06345080599516"
+			"height_pct" "48.04065646798104"
+		}
+	}
+	"store_asset_mtime" "1713023684"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Sugarcane Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" " Sugarcane Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1705716038"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2574030"
+	"store_tags"
+	{
+		"0" "42804"
+		"1" "1665"
+		"2" "4885"
+		"3" "4195"
+		"4" "597"
+		"5" "10808"
+		"6" "6815"
+		"7" "4791"
+		"8" "19"
+		"9" "3993"
+		"10" "4182"
+		"11" "3871"
+		"12" "1716"
+		"13" "3959"
+		"14" "3952"
+		"15" "16094"
+		"16" "1759"
+		"17" "8945"
+		"18" "492"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "Sugarcane Games"
+	"publisher" " Sugarcane Games"
+}
+"config"
+{
+	"installdir" "SnakeCrush"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SnakeCrush.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,schinese"
+	"2574031"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3250107195945706186"
+				"size" "2792053563"
+				"download" "260039184"
+			}
+			"local"
+			{
+				"gid" "3997719464098054665"
+				"size" "2820571633"
+				"download" "263927040"
+			}
+		}
+	}
+	"2574032"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1991958447376605202"
+				"size" "2818473237"
+				"download" "264914416"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14344582"
+			"timeupdated" "1715565282"
+		}
+		"local"
+		{
+			"buildid" "13760553"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1710570057"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "SugarcaneGames/SnakeCrush"
+			"pattern" "*.data"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "SugarcaneGames/SnakeCrush"
+					"replace" "unity.SugarcaneGames.SnakeCrush"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "SugarcaneGames/SnakeCrush"
+					"replace" ".config/unity3d/SugarcaneGames/SnakeCrush"
+				}
+			}
+		}
+	}
+}
