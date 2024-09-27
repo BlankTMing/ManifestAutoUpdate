@@ -1,0 +1,240 @@
+"appid" "2175450"
+"common"
+{
+	"name" "Rhythm Stones"
+	"type" "Game"
+	"releasestate" "released"
+	"name_localized"
+	{
+		"koreana" "리듬 스톤즈"
+	}
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" "macos64,macosapplesilicon"
+	"languages"
+	{
+		"english" "1"
+	}
+	"clienticon" "cd1aa51d806d32abdb778b3c715c6e298ee48635"
+	"clienttga" "d5e9e9e54dad1961dc5ee405605b3d5efc06b01e"
+	"clienticns" "42e4338dc9a643382c43aa55d20c5f2066382535"
+	"icon" "7c20c417cda95cc2e9d54daa476bccb83b13fcfc"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "64.00233372228703"
+			"height_pct" "64.46410195519672"
+		}
+	}
+	"store_asset_mtime" "1722096653"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "MELOVITY"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "MELOVITY"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "MELOVITY"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+		"3" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1666738846"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2175450"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "1752"
+		"2" "4191"
+		"3" "4026"
+		"4" "8253"
+		"5" "1621"
+		"6" "8666"
+		"7" "3959"
+		"8" "1716"
+		"9" "19"
+		"10" "597"
+		"11" "493"
+		"12" "5350"
+		"13" "4182"
+	}
+	"review_score" "6"
+	"review_percentage" "72"
+}
+"extended"
+{
+	"developer" "MELOVITY"
+	"publisher" "MELOVITY"
+}
+"config"
+{
+	"installdir" "Rhythm Stones"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Rhythm Stones.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Rhythm Stones.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"2175451"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2424488314189673048"
+				"size" "1076803359"
+				"download" "346716928"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha"
+			{
+				"gid" "3970BC2950F2715765690613D127F35D"
+				"size" "EF5681A35D0FAED72CCC5C37C89D19DB"
+				"download" "52960F1CB42FE18EEC50FF741AEC1CE0"
+			}
+		}
+	}
+	"2175452"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8917332936312297846"
+				"size" "1101084750"
+				"download" "354360528"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha"
+			{
+				"gid" "B59D46B0EAAC1BADCC1F1A22645C6A52"
+				"size" "1385A14E981423014573D464A18A2CFA"
+				"download" "6FB89A90E07A8B01DB09602928975ACB"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10210683"
+			"timeupdated" "1671872574"
+		}
+		"alpha"
+		{
+			"buildid" "10210683"
+			"pwdrequired" "1"
+			"timeupdated" "1671871831"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Rhythm Stones_Data/{64BitSteamID}"
+			"pattern" "GameData.json"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Rhythm Stones_Data/{64BitSteamID}"
+					"replace" "Rhythm Stones.app/Contents/{64BitSteamID}"
+				}
+			}
+		}
+	}
+}
