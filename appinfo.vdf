@@ -27,7 +27,7 @@
 	"icon" "40b7b18c72d7620cf8d2ba856c971e12efc0960c"
 	"releasestate" "released"
 	"controllertagwizard" "1"
-	"controller_support" "partial"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -114,7 +114,7 @@
 			}
 		}
 	}
-	"store_asset_mtime" "1711430437"
+	"store_asset_mtime" "1727327368"
 	"associations"
 	{
 		"0"
@@ -141,14 +141,13 @@
 	}
 	"category"
 	{
-		"category_18" "1"
 		"category_60" "1"
 		"category_23" "1"
 		"category_2" "1"
 		"category_55" "1"
 		"category_57" "1"
-		"category_59" "1"
 		"category_22" "1"
+		"category_28" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -189,14 +188,14 @@
 		"7" "19"
 		"8" "4182"
 	}
-	"review_score" "4"
-	"review_percentage" "35"
+	"review_score" "5"
+	"review_percentage" "47"
 }
 "extended"
 {
 	"developer" "Nihon Falcom"
 	"publisher" "Clouded Leopard Entertainment"
-	"listofdlc" "2740330,2740340,2740360,2740410,2740420,2740430,2740440,2740450,2740460,2740470,2740480,2740490,2740500,2740510,2740520,2740530,2740540,2740550,2740560,2740570,2740580,2740590,2740600,2740610,2740620,2740630,2740650,2740660,2740670,2740680,2740690,2740700,2740710,2740720,2740730,2740740,2740760,2740770,2740790,2740800,2740810,2740820,2740830,2740840,2740850,2740860,2740870,2740880,2740890,2740900,2740910,2740920,2740930,2740940,2740950,2740960,2740970,2740980,2741010,2741020,2741030,2741040"
+	"listofdlc" "2740330,2740340,2740360,2740370,2740390,2740410,2740420,2740430,2740440,2740450,2740460,2740470,2740480,2740490,2740500,2740510,2740520,2740530,2740540,2740550,2740560,2740570,2740580,2740590,2740600,2740610,2740620,2740630,2740650,2740660,2740670,2740680,2740690,2740700,2740710,2740720,2740730,2740740,2740760,2740770,2740790,2740800,2740810,2740820,2740830,2740840,2740850,2740860,2740870,2740880,2740890,2740900,2740910,2740920,2740930,2740940,2740950,2740960,2740970,2740980,2741010,2741020,2741030,2741040"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -207,33 +206,14 @@
 		"1"
 		{
 			"executable" "ysx.exe"
-			"arguments" "-log=0,log-all.txt"
 			"type" "default"
 			"config"
 			{
 				"oslist" "windows"
 			}
 		}
-		"2"
-		{
-			"executable" "launcher/Launcher.exe"
-			"type" "config"
-			"config"
-			{
-				"oslist" "windows"
-			}
-			"description_loc"
-			{
-				"english" "Config Tool"
-				"koreana" "설정 도구"
-				"schinese" "设置工具"
-				"tchinese" "設定工具"
-			}
-			"description" "Config Tool"
-		}
 	}
 	"steamdecktouchscreen" "1"
-	"steamconfigurator3rdpartynative" "65532"
 }
 "depots"
 {
@@ -266,36 +246,48 @@
 		{
 			"public"
 			{
-				"gid" "5773360404052812899"
-				"size" "13419560551"
-				"download" "6313639792"
+				"gid" "2172585903134927272"
+				"size" "13611264494"
+				"download" "6292536176"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"2.00"
+			{
+				"gid" "F9B329818D4108F587849148652108EB"
+				"size" "0893C063D95198D8792A0A53A660EA66"
+				"download" "6152E6AA969986F1D6FC6F376DCFFD1C"
+			}
+			"cle_beta2"
+			{
+				"gid" "46900B094EF73ECCB220444261677930"
+				"size" "286746C9601B736757FC6024C4E53D77"
+				"download" "3DFD88EF6DFC3BE45DE6942093D21243"
+			}
 			"mg_beta"
 			{
-				"gid" "8D4A2D19DBACA5EDA7E3B68D702E0F44"
-				"size" "CADC2EDA6DCB9A4DA8B15052EEFAB9A7"
-				"download" "75E1E3585445152FBAFF8B6E1BD6F1A9"
+				"gid" "3FB02AEBCBC3FEC9549D90197E78184A"
+				"size" "E2354814AF3242BA488CE04F6BEA0E2E"
+				"download" "4DC757F203A37B76174AB13AB080B7B2"
 			}
 			"mg_debug"
 			{
-				"gid" "0660F433BD1BE780230E397881EB062F"
-				"size" "753F5CA5529CC1FC378C6F6E363D8D25"
-				"download" "A0695A8209D77B69BF5ED67821DCB7EF"
+				"gid" "8E75CEFD5CBF5581F41413C793163165"
+				"size" "7D68EAE331DA474ABE9F9CDA4370B128"
+				"download" "0EBFA543A6ABED9AC37CA6C8B363BD42"
 			}
 			"mg_dev"
 			{
-				"gid" "210F81B422B542EA3B063E235ABB896E"
-				"size" "A48FD731378962227B09FABFABB37BD7"
-				"download" "8FF4C2D1B4818212E5A60C4138C29C41"
+				"gid" "EE066CB521901586F409F9DD95973AE5"
+				"size" "2740F3FB33B0153BB54C24C11C5DFB26"
+				"download" "89D4A0597C9B26E2DE86593E4BE5FE20"
 			}
 			"mg_dev_debug"
 			{
-				"gid" "64CA08E28AE0FB8DE9854D21EC4A370B"
-				"size" "1177118A562D17C302B5B16C4AEC16CE"
-				"download" "E4D375823408CDCF5B99143B9AF0346E"
+				"gid" "085EEB79F6D1299E276CB11E2B1D971F"
+				"size" "F166D3CDE2FED2D9BB6B70FCC1BEC017"
+				"download" "BF199B543E0B005359AAE0B981585AD8"
 			}
 			"1.00"
 			{
@@ -311,15 +303,15 @@
 			}
 			"cle_beta"
 			{
-				"gid" "97A45578B17386D49637F040CF92B1B2"
-				"size" "416E7391ACFAB156D57E4AFEDA8161CD"
-				"download" "F937A1C4CFFE611E96D510E4C4DBC92F"
+				"gid" "D2314C082BD463FEBECD41A2451EB985"
+				"size" "50AF7171B7B275B8648385E948C9B4E0"
+				"download" "FA472EA1B353AD16451384522A167A98"
 			}
 			"cle_debug"
 			{
-				"gid" "27AA94BCF0104D683F84BC889C184AF7"
-				"size" "E3F84D8043B02343489CA07D5A640E51"
-				"download" "45529FC0EFA4DB8D0C7163954ED233F4"
+				"gid" "7B8B1861E7189F219EDA5CB9E496E8A7"
+				"size" "899A3700FDE396CA4034B0A23CBFEFA4"
+				"download" "A6B95497DADADA283B1248FB427400E2"
 			}
 			"cle_test"
 			{
@@ -333,32 +325,44 @@
 	{
 		"public"
 		{
-			"buildid" "13736953"
-			"timeupdated" "1710423342"
+			"buildid" "15805656"
+			"timeupdated" "1727318768"
+		}
+		"2.00"
+		{
+			"buildid" "15805656"
+			"pwdrequired" "1"
+			"timeupdated" "1727317349"
+		}
+		"cle_beta2"
+		{
+			"buildid" "15836465"
+			"pwdrequired" "1"
+			"timeupdated" "1727378993"
 		}
 		"mg_beta"
 		{
-			"buildid" "15701387"
+			"buildid" "15847750"
 			"pwdrequired" "1"
-			"timeupdated" "1726320076"
+			"timeupdated" "1727427637"
 		}
 		"mg_debug"
 		{
-			"buildid" "15701355"
+			"buildid" "15847479"
 			"pwdrequired" "1"
-			"timeupdated" "1726320096"
+			"timeupdated" "1727427650"
 		}
 		"mg_dev"
 		{
-			"buildid" "15701387"
+			"buildid" "15847750"
 			"pwdrequired" "1"
-			"timeupdated" "1726315741"
+			"timeupdated" "1727426241"
 		}
 		"mg_dev_debug"
 		{
-			"buildid" "15701355"
+			"buildid" "15847479"
 			"pwdrequired" "1"
-			"timeupdated" "1726315765"
+			"timeupdated" "1727424871"
 		}
 		"1.00"
 		{
@@ -374,15 +378,15 @@
 		}
 		"cle_beta"
 		{
-			"buildid" "15676233"
+			"buildid" "15805656"
 			"pwdrequired" "1"
-			"timeupdated" "1726458310"
+			"timeupdated" "1727314963"
 		}
 		"cle_debug"
 		{
-			"buildid" "15676489"
+			"buildid" "15805748"
 			"pwdrequired" "1"
-			"timeupdated" "1726458290"
+			"timeupdated" "1727314946"
 		}
 		"cle_test"
 		{
