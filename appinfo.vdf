@@ -1,0 +1,431 @@
+"appid" "1082930"
+"common"
+{
+	"name" "The Signifier Director\'s Cut"
+	"type" "Game"
+	"icon" "85f7e88e23dd41fcf59d8f5bf0587a328d8a5c85"
+	"logo" "58ad8d72cc618af410e92aa3b57239f0a607f716"
+	"logo_small" "58ad8d72cc618af410e92aa3b57239f0a607f716_thumb"
+	"clienttga" "860c209d3bac88bd568300bf394d7cb1267fd472"
+	"linuxclienticon" "8fd1ff156a6840a600bf6a4d84ece9d41ac24b8f"
+	"clienticon" "9fc6da439415a299e903266e00ae437faefdcb82"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"spanish" "1"
+		"russian" "1"
+		"brazilian" "1"
+	}
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "2"
+		"2" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1710201600"
+		"tested_build_id" "6617607"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-1RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "55.756170137637824"
+			"height_pct" "94.06380702304544"
+		}
+	}
+	"store_asset_mtime" "1655469732"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Playmestudio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Raw Fury"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1602745200"
+	"steam_release_date" "1602766670"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1082930"
+	"store_tags"
+	{
+		"0" "1721"
+		"1" "4064"
+		"2" "8369"
+		"3" "6971"
+		"4" "1710"
+		"5" "4342"
+		"6" "5608"
+		"7" "6426"
+		"8" "5900"
+		"9" "4166"
+		"10" "492"
+		"11" "1742"
+		"12" "5716"
+		"13" "3834"
+		"14" "3839"
+		"15" "21"
+		"16" "12095"
+		"17" "4182"
+		"18" "5186"
+		"19" "4667"
+	}
+	"review_score" "8"
+	"review_percentage" "81"
+}
+"extended"
+{
+	"developer" "Playmestudio"
+	"publisher" "Raw Fury"
+	"homepage" "https://thesignifier.com"
+}
+"config"
+{
+	"installdir" "The Signifier"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "thesignifier.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Contents/MacOS/thesignifier"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "TheSignifierDC.x86_64"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "2"
+	"steamconfigurator3rdpartynative" "65532"
+}
+"depots"
+{
+	"1082931"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "755244617047273518"
+				"size" "32005541713"
+				"download" "11573123520"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"compatibility"
+			{
+				"gid" "21CA299B051B255A080D203004144D35"
+				"size" "6A11BEFE95E19C1F9D6767EA38ED2A84"
+				"download" "3300BC84CD59BAF47EB10A8A6DF0770B"
+			}
+			"directorscutbeta"
+			{
+				"gid" "78043ED5B2A984FEA81464CF39D924A4"
+				"size" "DE6689AFD508903B0A3DA01E70A6F15D"
+				"download" "9160B3F0A1E3A0A71F82296982C8F985"
+			}
+			"external"
+			{
+				"gid" "18E297AADB54695896760725048081CC"
+				"size" "011C52E52114C0CFD3CC0594132025FC"
+				"download" "81B32F3128814DBE1627BE16F3ADC9D4"
+			}
+			"external-testing"
+			{
+				"gid" "4119AF1C60BD759B19281EEA8CD0A81E"
+				"size" "CED106C1E0A51F332EC25A9DDFBE237C"
+				"download" "B8683F446C46F9F01C4856CC3843DB68"
+			}
+			"internal-testing"
+			{
+				"gid" "B9F94144543A0ED9977F5541CA4CBDD2"
+				"size" "1631FD3CD4AE96A70571BED4F3518D42"
+				"download" "BBA92676976D7C0DFEC717AD974F5F23"
+			}
+			"partner"
+			{
+				"gid" "A5CC75787C39E86544ADEBB371EB9F28"
+				"size" "6DBB2053F986A68ABD3EB81A9F833B95"
+				"download" "355F2768876581079BF477640FF2B0C4"
+			}
+			"the-sig-dc-pr"
+			{
+				"gid" "73A7762FBDC6F2339E61BFD96D2D5DA8"
+				"size" "9753DCEA7306CE949250504162243141"
+				"download" "CFFBC8DC1A923FEB7BDB20B8EAFFE625"
+			}
+		}
+	}
+	"1082932"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6636711184957174502"
+				"size" "32051501902"
+				"download" "11583794896"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"directorscutbeta"
+			{
+				"gid" "87923FF9F8669C9369CD5F65C2CDFDC2"
+				"size" "45143593A5C0C122B03D0D868F670B2C"
+				"download" "2E20FDA49E47E3375ED36EDBB20FF86B"
+			}
+			"external-testing"
+			{
+				"gid" "AB31CDA0C70898A6F60EDF49826442DA"
+				"size" "1408AF73C60003A1B746BC55D2C0F9D9"
+				"download" "8F9712596C0337A0334E20577ADFD995"
+			}
+			"internal-testing"
+			{
+				"gid" "DA1D49F6496203DC47C5FA4873E1DB75"
+				"size" "098D38898FF7797ABD842B9A0F7568CE"
+				"download" "A91C4A9D23CEDF90943791EC5E23FE7D"
+			}
+			"partner"
+			{
+				"gid" "10DF25EE631B28EA30B19B0E4E015218"
+				"size" "F2D64A228ABB57F4BA41A8E1BF5D0672"
+				"download" "560B3F4D064C93B34F9F1E41B35EC669"
+			}
+			"the-sig-dc-pr"
+			{
+				"gid" "64066DB149C6C14064AF7E7E52033D5B"
+				"size" "72EA4999CD35BBD73C66B2B14887B388"
+				"download" "1AD25EA05EB839EDFCB3054C6E3D4DB1"
+			}
+		}
+	}
+	"1082933"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"internal-testing"
+			{
+				"gid" "EB1356A9AF6B26571D5641AE68F56F82"
+				"size" "1D82657908C410E1D7368B5BBEB988F3"
+				"download" "BC7B521DAF4EFD5F19A57706A7E0CE33"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "6617607"
+			"timeupdated" "1619655887"
+		}
+		"compatibility"
+		{
+			"buildid" "5519719"
+			"pwdrequired" "1"
+			"timeupdated" "1599634609"
+		}
+		"directorscutbeta"
+		{
+			"buildid" "6617607"
+			"pwdrequired" "1"
+			"timeupdated" "1619655916"
+		}
+		"external"
+		{
+			"buildid" "4302269"
+			"pwdrequired" "1"
+			"timeupdated" "1571425555"
+		}
+		"external-testing"
+		{
+			"buildid" "5834473"
+			"pwdrequired" "1"
+			"timeupdated" "1605484222"
+		}
+		"internal-testing"
+		{
+			"buildid" "6617176"
+			"pwdrequired" "1"
+			"timeupdated" "1619650400"
+		}
+		"partner"
+		{
+			"buildid" "6617607"
+			"pwdrequired" "1"
+			"timeupdated" "1619655994"
+		}
+		"the-sig-dc-pr"
+		{
+			"buildid" "6617607"
+			"pwdrequired" "1"
+			"timeupdated" "1619655961"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "25000000"
+	"maxnumfiles" "300"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Playmestudio/thesignifier"
+			"pattern" "*.xml"
+			"recursive" "1"
+		}
+	}
+}
