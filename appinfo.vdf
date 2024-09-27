@@ -1,0 +1,221 @@
+"appid" "948100"
+"common"
+{
+	"name" "AREA 4643"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "c1495461f67a404d4f0c2d5217d7eb8e4b4e66a7"
+	"logo_small" "c1495461f67a404d4f0c2d5217d7eb8e4b4e66a7_thumb"
+	"icon" "c922a46247b81b0459caf5c0607156380cd16cc6"
+	"clienttga" "db1f4308b5920354e93462a427cb43816d6d9ad5"
+	"clienticon" "46fb14a350f934f2d7687d852c5cea7d84967cdb"
+	"osextended" "macos64,macosnotarized"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1664928000"
+		"tested_build_id" "3921585"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "AREA4643"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1541773173"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "DeathMofuMofu"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Diehardtales Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1545387465"
+	"community_hub_visible" "1"
+	"gameid" "948100"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "4637"
+		"3" "1688"
+		"4" "3964"
+		"5" "4115"
+	}
+	"review_score" "8"
+	"review_percentage" "99"
+}
+"extended"
+{
+	"developer" "DeathMofuMofu"
+	"publisher" "Diehardtales Games"
+}
+"config"
+{
+	"installdir" "AREA4643"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "yoroshi.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "yoroshi.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,japanese"
+	"948101"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3713184729709071082"
+				"size" "239791488"
+				"download" "49505744"
+			}
+		}
+	}
+	"948102"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6490570729371454670"
+				"size" "255311850"
+				"download" "52835616"
+			}
+		}
+	}
+	"hasdepotsindlc" "0"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3921585"
+			"timeupdated" "1560691339"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "2"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "yoroshi_Data"
+			"pattern" "*.dat"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
