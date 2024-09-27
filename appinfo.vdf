@@ -1,0 +1,221 @@
+"appid" "2431490"
+"common"
+{
+	"name" "英雄之旅"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"icon" "977dd440619fd4244ed7cb0036be71f19213192e"
+	"clienttga" "ee4e3c895efc2bb5f761b355678808eb2dce7607"
+	"clienticon" "db670a4aaadc47e18af4fed3c629c04d32473b6f"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1698796800"
+		"tested_build_id" "11631460"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"5"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "61.69370341925039"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1686100351"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Jinwind"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Jinwind"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1687244473"
+	"community_hub_visible" "1"
+	"gameid" "2431490"
+	"store_tags"
+	{
+		"0" "4236"
+		"1" "24003"
+		"2" "9"
+		"3" "122"
+		"4" "597"
+		"5" "615955"
+		"6" "4182"
+		"7" "379975"
+		"8" "5125"
+		"9" "3993"
+		"10" "31275"
+		"11" "3871"
+		"12" "492"
+		"13" "4094"
+		"14" "4057"
+		"15" "255534"
+	}
+	"review_score" "5"
+	"review_percentage" "55"
+}
+"extended"
+{
+	"developer" "Jinwind"
+	"publisher" "Jinwind"
+}
+"config"
+{
+	"installdir" "hero"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "hero\\heropc.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "游戏启动文件"
+			}
+			"description" "游戏启动文件"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "schinese"
+	"2431491"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4472778749801459197"
+				"size" "139625485"
+				"download" "45226720"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11631460"
+			"timeupdated" "1688566666"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "5000000"
+	"maxnumfiles" "5"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "jinfeng/heropc"
+			"pattern" "keychain-save-hero4.dat"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "jinfeng/heropc"
+			"pattern" "keychain-save1-hero4.dat"
+		}
+		"2"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "jinfeng/heropc"
+			"pattern" "keychain-save2-hero4.dat"
+		}
+	}
+}
