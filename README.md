@@ -1,76 +1,64 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-27 23:33:01
+## 更新时间：2024-09-27 23:40:47
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 856450 | A Story of a Band| Game |
-| 1461630 | Magic Potion Millionaire| Game |
-| 2669520 | Expansion VR| Game |
-| 1994760 | The Fairy's Secret| Game |
-| 691630 | STELLATUM| Game |
-| 634120 | Inmates| Game |
-| 2273050 | Dirty Dirty Pirates| Game |
-| 2188790 | UnknownPyramid| Game |
-| 1234700 | Hornet Virus: Steel Alcimus II| Game |
-| 2255730 | 告死天使复仇之夜 Death Angel Nightmare| Game |
-| 2563160 | 国際指定怪異124号 東京廃村| Game |
-| 2605500 | 原枝恚子神秘死亡案| Game |
-| 237890 | Agarest: Generations of War| Game |
-| 2975160 | Rose and Cross| Game |
-| 1872200 | IRON GUARD| Game |
-| 1845560 | 真 麻雀天下布武| Game |
-| 816430 | Radical Relocation| Game |
-| 602010 | Plank not included| Game |
-| 1714050 | SOKOBOT| Game |
-| 1170980 | A Planet of Mine| Game |
-| 1631500 | Dumpy & Bumpy| Game |
-| 1373630 | Ragnar's Chinese Memory Game| Game |
-| 1332220 | Mightyy's FPS Aim Trainer| Game |
-| 2246330 | Rescue Team: Magnetic Storm| Game |
-| 675030 | Super Samurai Rampage| Game |
-| 2184720 | Survivors: Three Kingdoms| Game |
-| 283620 | World of Subways 3 – London Underground Circle Line| Game |
-| 1020440 | Doodle Creatures| Game |
-| 2773230 | 18层:忘忧| Game |
-| 1363680 | 陷洪大冒险| Game |
-| 2433760 | 乐动未来·音计划| Game |
-| 2493160 | 1 Bit Survivor| Game |
-| 2892510 | 简易三国志| Game |
-| 2519220 | 神谕vr| Game |
-| 930840 | 东方百问~TouHouAsked| Game |
-| 1567200 | The Wolf| Game |
-| 2169300 | Dizzy Rogues| Game |
-| 1030360 | Midnight Evil| Game |
-| 1570790 | 2D Platformer GAME (Toy Factory)| Game |
-| 1707620 | 油老虎| Game |
-| 1843860 | The Redress of Mira| Game |
-| 2342390 | SUGAMENIA| Game |
-| 814900 | Sanguo Warriors VR 三国虎将传VR| Game |
-| 1545620 | Arcane Arts Academy| Game |
-| 2493710 | Hop Step Sing! Shikiri Shiishiba - By My Side| Game |
-| 1211370 | Goonya Fighter| Game |
-| 824090 | TailQuest Defense| Game |
-| 1396920 | No one lives in heaven - Real Time DLC| DLC |
-| 1898880 | The Silent Swan| Game |
-| 1285010 | Cyber Protocol| Game |
-| 2299750 | 帕秋莉的人偶之家大冒险| Game |
-| 1969830 | Dadish 3| Game |
-| 2214840 | The Shadow Over Route 80| Game |
-| 1747430 | Bomberpet| Game |
-| 2016540 | Chess Pills| Game |
-| 2461600 | Evil Officer| Game |
-| 1865220 | Ouija Rumours| Game |
-| 1659090 | REMEDIUM| Game |
-| 1951660 | We See You| Game |
-| 1155300 | Palallel| Game |
-| 2338120 | Outlive| Game |
-| 2701530 | The Lost Prince Digital Artbook| DLC |
-| 2525830 | The Lost Prince| Game |
-| 1464170 | 东方永恒符卡| Game |
-| 2544900 | 变色龙童绘历险| Game |
-| 1293780 | Fear the Dark Unknown: Chloe| Game |
-| 1989770 | Chickenoidz Super Party| Game |
-| 2119550 | Hot Guns: International Missions| Game |
-| 2366850 | DAIR| Game |
-| 369560 | The Story Goes On| Game |
-| 980480 | Towertale| Game |
+| 1669350 | Fingun| Game |
+| 1849380 | Levitation Simulator| Game |
+| 2001460 | 国際指定怪異123号 廃村| Game |
+| 1960400 | SokoChess| Game |
+| 1684220 | SEDOMAIRI| Game |
+| 1695400 | Lucky Fish Bread| Game |
+| 1016000 | Nerve| Game |
+| 2189860 | 午夜幸存者| Game |
+| 812650 | Data Defense| Game |
+| 787970 | miraclr - Divine Dating Sim| Game |
+| 1081870 | WarForwards| Game |
+| 2746960 | manimani| Game |
+| 2619570 | Fallen Ninja| Game |
+| 1581580 | The Legend of Bear-Truck Trucker| Game |
+| 2263680 | Furry OwO| Game |
+| 705090 | Trivia Vault: Super Heroes Trivia 2| Game |
+| 1004510 | DownStream : VR Whitewater Kayaking| Game |
+| 1601860 | Warp Factory| Game |
+| 1006450 | Eric The Unready| Game |
+| 2431490 | 英雄之旅| Game |
+| 2855480 | PARASiTE FLOWER| Game |
+| 461810 | CAFE 0 ~The Sleeping Beast~| Game |
+| 2443160 | Rat Catcher| Game |
+| 1330550 | Magic Lessons in Wand Valley| Game |
+| 340150 | Basement| Game |
+| 826740 | Rise of the Slime| Game |
+| 426190 | Miner Meltdown| Game |
+| 1980890 | Sky in your eyes| Game |
+| 2646060 | Luna's Light| Game |
+| 1698020 | 方寸幻镜| Game |
+| 2298060 | Polyrhythm Master| Game |
+| 2570150 | Psychopath Hunt Chapter two| Game |
+| 1851680 | Lost Alone Ep.2 - Paparino| Game |
+| 1725860 | 坑小球的小宇宙| Game |
+| 1399660 | My Little Prince - a jigsaw puzzle tale| Game |
+| 1100350 | #Funtime| Game |
+| 1376910 | 超级猫猫哥| Game |
+| 712240 | Sneaky Bears| Game |
+| 1019070 | Soft cookie| Game |
+| 461860 | Tower Dwellers| Game |
+| 1640100 | War Mines: WW1| Game |
+| 894000 | Night of the Blood Moon| Game |
+| 1275790 | Space Otter Charlie| Game |
+| 960030 | Deca| Game |
+| 741380 | Prisoner - The Mystery Complex| DLC |
+| 665340 | Ancient Amuletor VR| Game |
+| 748270 | VR Roller Coaster - Cave Depths| Game |
+| 1042210 | Guts 'N Goals| Game |
+| 1813690 | 参数生命：实验室| Game |
+| 2255290 | EL NE RUE| Game |
+| 1023790 | Rick Henderson| Game |
+| 1340920 | 猪头三大冒险| Game |
+| 1153460 | 战斧传说 VR| Game |
+| 2456340 | 太公传承| Game |
+| 450670 | Table Top Racing: World Tour| Game |
+| 2389050 | 《大侦探：超脑侦探(真相篇)-下篇-》| DLC |
+| 2387510 | 《大侦探：超脑侦探(潜入篇)-上篇-》| Game |
+| 2547570 | 蜜桃| Game |
+| 1275770 | The Narrator is a DICK : Longer, Harder, and Uncut| Game |
