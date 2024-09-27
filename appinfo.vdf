@@ -1,0 +1,342 @@
+"appid" "219890"
+"common"
+{
+	"name" "Antichamber"
+	"type" "Game"
+	"logo" "23966982a5795854342af3522706c7f9c6a83cb5"
+	"logo_small" "23966982a5795854342af3522706c7f9c6a83cb5_thumb"
+	"icon" "1c3afe41623c51172ef1dc96427bf23bb940748b"
+	"oslist" "windows,macos,linux"
+	"clienticon" "084232291438415db59af68a2ba283441ca9324a"
+	"clienttga" "37dc45d6dbc8f6b8967de8cd7034712cc7de75e8"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1644883200"
+		"tested_build_id" "296940"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Antichamber"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1525832304"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Alexander Bruce"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Demruth"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"steam_release_date" "1359655200"
+	"metacritic_score" "82"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/antichamber\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "219890"
+	"store_tags"
+	{
+		"0" "1664"
+		"1" "3839"
+		"2" "492"
+		"3" "1710"
+		"4" "3834"
+		"5" "4182"
+		"6" "4400"
+		"7" "6869"
+		"8" "21"
+		"9" "4026"
+		"10" "4094"
+		"11" "4166"
+		"12" "1714"
+		"13" "5186"
+		"14" "4305"
+		"15" "1756"
+		"16" "1628"
+		"17" "4711"
+		"18" "3942"
+		"19" "1625"
+	}
+	"review_score" "9"
+	"review_percentage" "95"
+}
+"extended"
+{
+	"developer" "Alexander Bruce"
+	"gamedir" "Antichamber"
+	"homepage" "http://www.antichamber-game.com"
+	"icon" ""
+	"installscriptosx" "219890_install.vdf"
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"thirdpartycdkey" "1"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Demruth"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Antichamber"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Binaries/Win32/UDK.exe"
+			"workingdir" "Binaries/Win32"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Antichamber.app/Contents/MacOS/UDKGame"
+			"description" "Launch"
+			"workingdir" "Antichamber.app/Contents/MacOS"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Binaries\\Linux\\UDKGame-Linux"
+			"description" "Launch"
+			"workingdir" "Binaries\\Linux\\"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"installscriptsignature" "aecda48b76157100589a080c5d0288ed86231a70734509a88babec8abd03811d095397bba8355790f9a12f67e84e428dee45c2c42e42ce31ad5638c7e9e61f3e558f878171af10a7dd5ec49ef31482911cdb8aa10469a4db735290d3cedb719ff2fb173e1d117dc23ac4ff7b1dd2e59a5bd11b1e92fda0bc4d1ada618230b638"
+	"installscriptoverride" "1"
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigfileids" "531095577"
+}
+"install"
+{
+	"run process"
+	{
+		"msvc redistributables"
+		{
+			"process 1" "%INSTALLDIR%\\Binaries\\Redist\\vcredist_x64_vs2008sp1.exe"
+			"command 1" "/q"
+			"nocleanup" "0"
+			"requirement_os"
+			{
+				"is64bitwindows" "1"
+			}
+		}
+		"amdcpu"
+		{
+			"process 1" "%INSTALLDIR%\\Binaries\\Redist\\amdcpusetup.exe"
+			"command 1" "/S"
+			"nocleanup" "0"
+			"ignoreexitcode" "1"
+			"requirement_os"
+			{
+				"ostype" "Windows XP"
+			}
+			"requirement_cpu"
+			{
+				"processorid" "AuthenticAMD"
+			}
+		}
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\Binaries\\Redist\\DirectX\\dxsetup.exe"
+			"command 1" "/silent"
+			"nocleanup" "0"
+		}
+		"physx"
+		{
+			"process 1" "%INSTALLDIR%\\Binaries\\Redist\\physx\\PhysX_9.10.0224_SystemSoftware.exe"
+			"command 1" "/passive"
+			"minimumhasrunvalue" "9100224"
+			"nocleanup" "0"
+		}
+		"dotnetfx"
+		{
+			"process 1" "%INSTALLDIR%\\Binaries\\Redist\\dotnetfx35setup.exe"
+			"command 1" "/q"
+			"nocleanup" "0"
+			"ignoreexitcode" "1"
+			"requirement_os"
+			{
+				"ostype" "Windows XP"
+			}
+		}
+	}
+}
+"depots"
+{
+	"preloadonly" "1"
+	"overridescddb" "1"
+	"219891"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1947404557169381197"
+				"size" "631890994"
+				"download" "0"
+			}
+			"beta"
+			{
+				"gid" "1947404557169381197"
+				"size" "631890994"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "C9D4FC3DACEBB87DA7F5A794B15F1A90"
+				"size" "7124773F4D0092616C69E08F3A8EB3D7"
+				"download" "49533FCB2726501DF31A723BB17AAD6A"
+			}
+		}
+	}
+	"219892"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8642718211971098228"
+				"size" "482710564"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "C3012E8B901234A39A99A3795CD9157D"
+				"size" "91922A597D7CAD050A5652F7A8DA2AA8"
+				"download" "49533FCB2726501DF31A723BB17AAD6A"
+			}
+		}
+	}
+	"219893"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1098988246616812101"
+				"size" "696062137"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "2EBDEFA0F631C2F144E1BC20881A5ABA"
+				"size" "8CEFEE1608BCC5B016A4C960135D7D8C"
+				"download" "49533FCB2726501DF31A723BB17AAD6A"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "296940"
+		}
+		"beta"
+		{
+			"buildid" "47878"
+		}
+		"internal"
+		{
+			"buildid" "294809"
+			"pwdrequired" "1"
+		}
+	}
+}
