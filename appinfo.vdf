@@ -1,0 +1,310 @@
+"appid" "300060"
+"common"
+{
+	"name" "ADR1FT"
+	"type" "Game"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"russian" "1"
+		"brazilian" "1"
+	}
+	"clienttga" "c5ce59bc02890ad0343dc5f6ae616ef2cf1218f9"
+	"logo" "8d730f59bab9744457c45af366566d90378572cb"
+	"logo_small" "8d730f59bab9744457c45af366566d90378572cb_thumb"
+	"clienticon" "1750d9b76810cbebb2d8ff27f924354d7c377146"
+	"icon" "d20ef6a81407f52ba520b317c2ac4952afa79826"
+	"controllervr"
+	{
+		"xinput" "1"
+		"steamvr" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+	}
+	"oslist" "windows"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1647302400"
+		"tested_build_id" "300060"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-experimental"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "ADR1FT"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1460133217"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "THREE ONE ZERO"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "505 Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "505 Games Official"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_31" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"italian"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"german"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"subtitles" "true"
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1459176760"
+	"metacritic_score" "64"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/adr1ft\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "300060"
+	"store_tags"
+	{
+		"0" "1755"
+		"1" "21"
+		"2" "21978"
+		"3" "492"
+		"4" "3839"
+		"5" "5900"
+		"6" "1662"
+		"7" "4182"
+		"8" "4166"
+		"9" "599"
+		"10" "3942"
+		"11" "7208"
+	}
+	"review_score" "5"
+	"review_percentage" "55"
+}
+"extended"
+{
+	"developer" "THREE ONE ZERO"
+	"publisher" "505 Games"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "ADR1FT"
+	"launch"
+	{
+		"0"
+		{
+			"executable" ".\\ADR1FT.exe"
+			"arguments" "-steam"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" ".\\ADR1FT.exe"
+			"arguments" "-steam"
+			"description" "VR (Oculus)"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" ".\\ADR1FT.exe"
+			"arguments" "-steam -steamvr"
+			"description" "VR (SteamVR)"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "2"
+}
+"depots"
+{
+	"baselanguages" "english,german,french,italian,spanish,russian,brazilian"
+	"300061"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6272383633067792745"
+				"size" "6722433152"
+				"download" "1495186208"
+			}
+			"beta"
+			{
+				"gid" "6272383633067792745"
+				"size" "6722433152"
+				"download" "1495186208"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"qagame"
+			{
+				"gid" "95019DB9193097BD5D8DE24C1DA4DC21"
+				"size" "6CFA34D3D9BADDF5119FF5D4BCBC1AE2"
+				"download" "4B9DDCE2B7F536B3C1C7A0F646881F45"
+			}
+		}
+	}
+	"300062"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+	}
+	"300063"
+	{
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2079148"
+			"timeupdated" "1505409249"
+		}
+		"beta"
+		{
+			"buildid" "2079148"
+			"timeupdated" "1504183493"
+		}
+		"qagame"
+		{
+			"buildid" "2079148"
+			"pwdrequired" "1"
+			"timeupdated" "1504183471"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "24576"
+	"maxnumfiles" "2"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "ADR1FT/Saved/SaveGames"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "ADR1FT/Saved/SaveGames"
+			"pattern" "*.sav"
+		}
+	}
+}
