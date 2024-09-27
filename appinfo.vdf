@@ -1,0 +1,213 @@
+"appid" "710820"
+"common"
+{
+	"name" "BELPAESE: Homecoming"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"icon" "1de991443e0971c67086996d35f5ff1bab6cd385"
+	"logo" "1f82aac6c37651c6c546c436a9aa87fbab609cf9"
+	"logo_small" "1f82aac6c37651c6c546c436a9aa87fbab609cf9_thumb"
+	"clienttga" "ce9dd98ec8de8b4feaac8e5dcd28e849ad7968f1"
+	"clienticon" "f02dfa05bb073d2982bb86688d4599ddfb50a06d"
+	"clienticns" "244be87c3f6cced75bbc521b0d9657d1cbae6331"
+	"releasestate" "released"
+	"metacritic_name" "BELPAESE: Homecoming"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1509485613"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Fazz Brothers"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Fazz Brothers"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1508155798"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "710820"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "1698"
+		"3" "3871"
+		"4" "4754"
+	}
+	"review_score" "7"
+	"review_percentage" "80"
+}
+"extended"
+{
+	"developer" "Fazz Brothers"
+	"publisher" "Fazz Brothers"
+	"homepage" "http://www.belpaesethegame.com"
+}
+"config"
+{
+	"installdir" "BELPAESE Homecoming"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TheBelPaese.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "TheBelPaese.app\\Contents\\MacOS\\runtime"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,italian,russian"
+	"hasdepotsindlc" "0"
+	"710822"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6907919989767496682"
+				"size" "128332946"
+				"download" "89339904"
+			}
+			"test"
+			{
+				"gid" "6907919989767496682"
+				"size" "128332946"
+				"download" "89339904"
+			}
+		}
+	}
+	"710823"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3515860716532764992"
+				"size" "137812584"
+				"download" "91110784"
+			}
+			"test"
+			{
+				"gid" "3515860716532764992"
+				"size" "137812584"
+				"download" "91110784"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2947100"
+			"timeupdated" "1531650301"
+		}
+		"test"
+		{
+			"buildid" "2947100"
+			"timeupdated" "1531650074"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "MacAppSupport"
+			"path" "Steam/steamapps/common/BELPAESE Homecoming/TheBelPaese.app/Contents/Resources"
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "MacAppSupport"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Steam/steamapps/common/BELPAESE Homecoming/TheBelPaese.app/Contents/Resources"
+					"replace" "."
+				}
+			}
+		}
+	}
+}
