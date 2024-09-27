@@ -1,0 +1,254 @@
+"appid" "968760"
+"common"
+{
+	"name" "Blood Card 2: Dark Mist"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"name_localized"
+	{
+		"schinese" "血牌2:浓雾"
+		"tchinese" "血牌2:濃霧"
+	}
+	"osextended" "macos64"
+	"clienttga" "7bbec0e125d4ac8cb9780299465a329563de26a9"
+	"clienticon" "7bcfc7775432cc782e30c212cf8373310e14dd64"
+	"icon" "0f8ef026c7f132a13387e56da4451ab50da53d8c"
+	"logo" "fcf34bdde770df91a039cdd536de2918c78eff74"
+	"logo_small" "fcf34bdde770df91a039cdd536de2918c78eff74_thumb"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"koreana" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"japanese" "1"
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn"
+		"library_hero" "en"
+		"library_logo" "en,zh-cn"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1669107986"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Pixel Cattle Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Pixel Cattle Games"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Pixel Cattle Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1618593120"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "968760"
+	"store_tags"
+	{
+		"0" "791774"
+		"1" "1666"
+		"2" "32322"
+		"3" "1716"
+		"4" "1677"
+		"5" "9"
+		"6" "4182"
+		"7" "3959"
+		"8" "492"
+		"9" "4711"
+		"10" "4026"
+		"11" "122"
+		"12" "11123"
+		"13" "3871"
+		"14" "1684"
+		"15" "5125"
+		"16" "597"
+		"17" "493"
+		"18" "1741"
+		"19" "1720"
+	}
+	"review_score" "8"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"developer" "Pixel Cattle Games"
+	"publisher" "Pixel Cattle Games"
+}
+"config"
+{
+	"installdir" "RedMist"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "RedMist.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "DarkMist.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"968761"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7295713418977844817"
+				"size" "268942476"
+				"download" "186354336"
+			}
+		}
+	}
+	"968762"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9063447656713296505"
+				"size" "237581122"
+				"download" "174789072"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "6468285"
+			"timeupdated" "1617182732"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "PixelCattleGames/RedMist/"
+			"pattern" "*.bc"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "PixelCattleGames/RedMist/"
+					"replace" "PixelCattleGames/DarkMist/"
+				}
+			}
+		}
+	}
+}
