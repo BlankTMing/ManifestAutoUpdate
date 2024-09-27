@@ -1,0 +1,220 @@
+"appid" "746620"
+"common"
+{
+	"name" "Bakery"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"clienttga" "30414ce9d262f40133e5f1b088dbf97d33022483"
+	"clienticon" "532318ec629ddf31771a01d8a54289b4200097b1"
+	"icon" "68c5f10e9153f54606d6ea54b8d34b853e358dfc"
+	"logo" "479ba0b8fecbf3f982802dcfb4f484879a4c3e46"
+	"logo_small" "479ba0b8fecbf3f982802dcfb4f484879a4c3e46_thumb"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1682553600"
+		"tested_build_id" "2649536"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DisplayOutputHasNonblockingIssues"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Bakery"
+	"small_capsule"
+	{
+		"schinese" "capsule_231x87_schinese.jpg"
+		"english" "capsule_231x87.jpg"
+		"tchinese" "capsule_231x87_tchinese.jpg"
+	}
+	"header_image"
+	{
+		"tchinese" "header_tchinese.jpg"
+		"schinese" "header_schinese.jpg"
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1668236612"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "ChaoYe Liu"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Happy Home Company"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1511354767"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "746620"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "599"
+		"2" "12472"
+		"3" "4004"
+		"4" "3854"
+	}
+	"review_score" "8"
+	"review_percentage" "80"
+}
+"extended"
+{
+	"developer" "ChaoYe Liu"
+	"publisher" "Happy Home Company"
+	"homepage" "https://www.facebook.com/hhg.bakery/"
+}
+"config"
+{
+	"installdir" "Bakery"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bakery.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"746621"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7257767501074616926"
+				"size" "749833308"
+				"download" "306121040"
+			}
+		}
+	}
+	"baselanguages" "english,schinese,tchinese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2649536"
+			"timeupdated" "1522468160"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "64000000"
+	"maxnumfiles" "64"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "savedata"
+			"pattern" "*"
+		}
+	}
+}
