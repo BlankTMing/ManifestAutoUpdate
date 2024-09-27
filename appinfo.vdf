@@ -1,0 +1,283 @@
+"appid" "1812420"
+"common"
+{
+	"name" "An Elder Scrolls Legend: Battlespire"
+	"type" "Game"
+	"releasestate" "released"
+	"clienticon" "585b20fd74f4f79110a25994381fb65cb76762fe"
+	"clienttga" "7baea6618523ff27acb87220e1e8c2d74e9cb84b"
+	"icon" "e14506f0f11e981832cb229afcf4d3c7f8d2ac99"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "57.79069767441861"
+			"height_pct" "72.79743528853004"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "57.79069767441861"
+				"height_pct" "72.79743528853004"
+			}
+		}
+	}
+	"store_asset_mtime" "1647528844"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Bethesda Softworks"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Bethesda Softworks"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "The Elder Scrolls"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "1"
+		"1" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1650992400"
+	"community_hub_visible" "1"
+	"gameid" "1812420"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "4231"
+		"2" "19"
+		"3" "1684"
+		"4" "4182"
+		"5" "1742"
+		"6" "4667"
+		"7" "4345"
+		"8" "6650"
+		"9" "3839"
+		"10" "1693"
+	}
+	"review_score" "6"
+	"review_percentage" "72"
+}
+"extended"
+{
+	"developer" "Bethesda Softworks"
+	"publisher" "Bethesda Softworks"
+}
+"config"
+{
+	"installdir" "An Elder Scrolls Legend Battlespire"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DOSBox-0.73\\dosbox.exe"
+			"arguments" "-noconsole -conf bs.conf -conf bs_single.conf -fullscreen"
+			"workingdir" "DOSBox-0.73"
+			"type" "option1"
+			"description_loc"
+			{
+				"english" "Full Screen"
+			}
+			"description" "Full Screen"
+		}
+		"1"
+		{
+			"executable" "DOSBox-0.73\\dosbox.exe"
+			"arguments" "-noconsole -conf bs.conf -conf bs_single.conf"
+			"workingdir" "DOSBox-0.73"
+			"type" "option2"
+			"description_loc"
+			{
+				"english" "Windowed"
+			}
+			"description" "Windowed"
+		}
+	}
+}
+"depots"
+{
+	"1812421"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1206167179448477018"
+				"size" "849985076"
+				"download" "559206464"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "BDE15503D5E2AEF32AA38A738A548827"
+				"size" "114AE5A6FFB99CB0BFC89D7288F21A9B"
+				"download" "BFC0C142A8CFCDD00F67FD332C2080AB"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8808329"
+			"timeupdated" "1654610409"
+		}
+		"beta"
+		{
+			"buildid" "8808329"
+			"pwdrequired" "1"
+			"timeupdated" "1653495150"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "SAVE0"
+			"pattern" "*"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "SAVE1"
+			"pattern" "*"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "SAVE2"
+			"pattern" "*"
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "SAVE3"
+			"pattern" "*"
+		}
+		"4"
+		{
+			"root" "gameinstall"
+			"path" "SAVE4"
+			"pattern" "*"
+		}
+		"5"
+		{
+			"root" "gameinstall"
+			"path" "SAVE5"
+			"pattern" "*"
+		}
+		"6"
+		{
+			"root" "gameinstall"
+			"path" "SAVE6"
+			"pattern" "*"
+		}
+		"7"
+		{
+			"root" "gameinstall"
+			"path" "SAVE7"
+			"pattern" "*"
+		}
+		"8"
+		{
+			"root" "gameinstall"
+			"path" "SAVE8"
+			"pattern" "*"
+		}
+		"9"
+		{
+			"root" "gameinstall"
+			"path" "SAVE9"
+			"pattern" "*"
+		}
+	}
+}
