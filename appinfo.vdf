@@ -1,0 +1,201 @@
+"appid" "35310"
+"common"
+{
+	"name" "Clutch"
+	"logo" "f1ccf505b86a56ccf87aceedfd5a0dd123548355"
+	"logo_small" "f1ccf505b86a56ccf87aceedfd5a0dd123548355_thumb"
+	"icon" "ed17c8cca6c6892ffc78baaa670da103f54ff8ab"
+	"clienttga" "50e785964ed2800489b4182773712e13fcc072ea"
+	"clienticon" "74085c6c78cf67c81dfeecc371fbf7e78323a280"
+	"type" "game"
+	"metacritic_name" "Clutch"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "79.51070336391439"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "79.51070336391439"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1572602623"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Targem Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Game Factory Interactive"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "9"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1243926000"
+	"steam_release_date" "1247814000"
+	"metacritic_score" "51"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/clutch\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "35310"
+	"store_tags"
+	{
+		"0" "4102"
+		"1" "699"
+		"2" "19"
+		"3" "1659"
+		"4" "1695"
+		"5" "4182"
+		"6" "4345"
+		"7" "1774"
+		"8" "1644"
+		"9" "3835"
+		"10" "1773"
+		"11" "7481"
+		"12" "5228"
+		"13" "4667"
+		"14" "3834"
+		"15" "5363"
+		"16" "4136"
+		"17" "1719"
+		"18" "599"
+		"19" "1100687"
+	}
+	"review_score" "6"
+	"review_percentage" "71"
+}
+"extended"
+{
+	"developer" "Targem Games"
+	"gamedir" "Clutch"
+	"homepage" "http://www.gfi.su/index1.php\?langid=2&amp;idt=1007&amp;categ_id=&amp;menu_id=&amp;page=Past_action"
+	"icon" ""
+	"installscript" "35310_install.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "35311"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Game Factory Interactive"
+	"gamemanualurl" "https://store.steampowered.com/manual/35310/"
+}
+"config"
+{
+	"installscriptsignature" "480308884c3efc92533523f6765b4ac683e38444733a72ffc009416f4b36fcd2353a2ea1a79cbea7b9072d15b7c973742c2ee3a8e9400d711eef5a3d7d19e9431a0e20dd2c4de3ce15d7b62ec2edae909c832ceda1ac0206d91c9c23db385bec5f52dea2a04187f992a76f6bb8482cf382b4a3b2d6964ffdeeee3895b4b1d500"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Clutch"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Clutch.exe"
+		}
+	}
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"process 1" "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"physx version"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\AGEIA Technologies"
+			"process 1" "%INSTALLDIR%\\PhysX_9.09.0428_SystemSoftware.exe"
+			"nocleanup" "1"
+			"minimumhasrunvalue" "9090428"
+		}
+	}
+}
+"depots"
+{
+	"35311"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1468015005547411110"
+				"size" "926879943"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "19481"
+		}
+	}
+}
