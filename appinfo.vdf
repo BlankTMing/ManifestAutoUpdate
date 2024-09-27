@@ -1,0 +1,229 @@
+"appid" "884960"
+"common"
+{
+	"name" "Rolling in the Reef"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "b21bddbe8e2b735dc1986b4efe2452d9c278587f"
+	"logo_small" "b21bddbe8e2b735dc1986b4efe2452d9c278587f_thumb"
+	"icon" "3e14ad7ea0b4f7872bf1d24cdd9b6e7861563445"
+	"clienticon" "d1511bdac20363f30ac3b9be245edbcf0cdc5347"
+	"clienttga" "ce9fb1710972d0a830a41aade44f279b8b029ebd"
+	"linuxclienticon" "072b49615034595800113b0a92fd9ade7af6a35c"
+	"clienticns" "8b0824b9849026eac02112e93c75df7a41d116c8"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"metacritic_name" "Rolling in the Reef"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1529430178"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "BrainGoodGames"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "BrainGoodGames"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_25" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1531497841"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "884960"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "492"
+		"2" "1677"
+		"3" "1741"
+		"4" "1770"
+		"5" "5125"
+		"6" "1664"
+	}
+	"review_score" "7"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "BrainGoodGames"
+	"publisher" "BrainGoodGames"
+	"homepage" "http://www.braingoodgames.com/"
+}
+"config"
+{
+	"installdir" "Rolling in the Reef"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "rolling.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "rolling.app\\Contents\\MacOS\\rolling.app"
+			"arguments" "-force-opengl -show-screen-selector"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "rolling.x86_64"
+			"arguments" "-force-opengl -show-screen-selector"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "rolling.x86"
+			"arguments" "-force-opengl -show-screen-selector"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+	}
+}
+"depots"
+{
+	"884961"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5157033835371768137"
+				"size" "173725294"
+				"download" "33071232"
+			}
+		}
+	}
+	"884962"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1516719089745803586"
+				"size" "174416204"
+				"download" "32888976"
+			}
+		}
+	}
+	"884963"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6463098897201557247"
+				"size" "207312874"
+				"download" "44277600"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8276103"
+			"timeupdated" "1645809789"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "40"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "rolling_Data/SavesDir"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "rolling.app/Contents/SavesDir"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "rolling_Data/SavesDir"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+			"recursive" "1"
+		}
+	}
+}
