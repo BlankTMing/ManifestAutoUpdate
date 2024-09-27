@@ -1,0 +1,898 @@
+"appid" "473770"
+"common"
+{
+	"name" "BallisticNG"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "9b5193c76cf1e5214beac09b7c5356422c60c09b"
+	"logo_small" "9b5193c76cf1e5214beac09b7c5356422c60c09b_thumb"
+	"clienttga" "8c01a1e92870055e79989467984ca170c04c7092"
+	"icon" "704fc93e14b095867fca9f629e8b589d4ddad56a"
+	"clienticon" "906e7871b3b30b7db94ecaa1fea2e6871e9a4327"
+	"releasestate" "released"
+	"controllervr"
+	{
+		"xinput" "1"
+		"kbm" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+	}
+	"osarch" "64"
+	"osextended" "macos64"
+	"openvrsupport" "1"
+	"metacritic_name" "BallisticNG"
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "44.80903337065168"
+			"height_pct" "21.18055555555557"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "44.80903337065168"
+				"height_pct" "21.18055555555557"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1699150375"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Neognosis"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Neognosis"
+		}
+	}
+	"primary_genre" "9"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "9"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_25" "1"
+		"category_17" "1"
+		"category_28" "1"
+		"category_30" "1"
+		"category_24" "1"
+		"category_36" "1"
+		"category_29" "1"
+		"category_27" "1"
+		"category_1" "1"
+		"category_44" "1"
+		"category_49" "1"
+		"category_47" "1"
+		"category_37" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"original_release_date" "1544774400"
+	"steam_release_date" "1544832166"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "473770"
+	"store_tags"
+	{
+		"0" "4102"
+		"1" "4295"
+		"2" "15045"
+		"3" "1734"
+		"4" "492"
+		"5" "699"
+		"6" "4004"
+		"7" "1773"
+		"8" "1669"
+		"9" "8122"
+		"10" "11104"
+		"11" "4182"
+		"12" "3859"
+		"13" "3942"
+		"14" "21978"
+		"15" "19"
+		"16" "4166"
+		"17" "10816"
+		"18" "1644"
+		"19" "1697"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Neognosis"
+	"publisher" "Neognosis"
+	"homepage" "https://neognosis.games/"
+	"listofdlc" "580180,1090110,1165070,1596120"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "BallisticNG"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "BallisticNG.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "BallisticNG.exe"
+			"arguments" "-vr"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "BallisticNG.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"4"
+		{
+			"executable" "BallisticNG"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"5"
+		{
+			"executable" "BallisticNG.exe"
+			"arguments" "-nougc"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "BallisticNG (Content Mods Disabled)"
+			}
+			"description" "BallisticNG (Content Mods Disabled)"
+		}
+		"6"
+		{
+			"executable" "BallisticNG.exe"
+			"arguments" "-nomods"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "BallisticNG (Code Mods Disabled)"
+			}
+			"description" "BallisticNG (Code Mods Disabled)"
+		}
+		"7"
+		{
+			"executable" "BallisticNG.exe"
+			"arguments" "-nougc -nomods"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "BallisticNG (All Mods Disabled)"
+			}
+			"description" "BallisticNG (All Mods Disabled)"
+		}
+		"8"
+		{
+			"executable" "BallisticNG.app"
+			"arguments" "-nougc"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "BallisticNG (Content Mods Disabled)"
+			}
+			"description" "BallisticNG (Content Mods Disabled)"
+		}
+		"9"
+		{
+			"executable" "BallisticNG.app"
+			"arguments" "-nomods"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "BallisticNG (Code Mods Disabled)"
+			}
+			"description" "BallisticNG (Code Mods Disabled)"
+		}
+		"10"
+		{
+			"executable" "BallisticNG.app"
+			"arguments" "-nougc -nomods"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "BallisticNG (All Mods Disabled)"
+			}
+			"description" "BallisticNG (All Mods Disabled)"
+		}
+		"11"
+		{
+			"executable" "BallisticNG"
+			"arguments" "-nougc"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "BallisticNG (Content Mods Disabled)"
+			}
+			"description" "BallisticNG (Content Mods Disabled)"
+		}
+		"12"
+		{
+			"executable" "BallisticNG"
+			"arguments" "-nomods"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "BallisticNG (Code Mods Disabled)"
+			}
+			"description" "BallisticNG (Code Mods Disabled)"
+		}
+		"13"
+		{
+			"executable" "BallisticNG"
+			"arguments" "-nougc -nomods"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "BallisticNG (All Mods Disabled)"
+			}
+			"description" "BallisticNG (All Mods Disabled)"
+		}
+	}
+	"usemms" "1"
+	"steamcontrollertemplateindex" "4"
+}
+"depots"
+{
+	"baselanguages" "english"
+	"workshopdepot" "473770"
+	"hasdepotsindlc" "1"
+	"473772"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "643489695962157170"
+				"size" "1684477096"
+				"download" "743627456"
+			}
+			"development"
+			{
+				"gid" "643489695962157170"
+				"size" "1684477096"
+				"download" "743627456"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"content_testing"
+			{
+				"gid" "C31A03147BC51E1BD23ABB7D46B35DAF"
+				"size" "92F133D395C4665F85F42B6E94CED78F"
+				"download" "574A71E5C42BE30D48E8CD4A5E0AC657"
+			}
+			"multiplat_testing"
+			{
+				"gid" "BF481FC196031864960FF5739B6D68C4"
+				"size" "758A9939E25B39EADD551FDCDD4B5453"
+				"download" "28E9C6758FFB22AD49F948D111E1D535"
+			}
+			"internal_testing"
+			{
+				"gid" "5AF3A9DC7AC7DB4191E4D84F24F2451A"
+				"size" "E86EFFDD5EB722DDC82DA4F6950F2B65"
+				"download" "0DC1A4FD747780FF5B01BEE83585C312"
+			}
+		}
+	}
+	"473771"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7096457131908181847"
+				"size" "2665859669"
+				"download" "1516213504"
+			}
+			"development"
+			{
+				"gid" "6671651214498931962"
+				"size" "2865982540"
+				"download" "1582300864"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"content_testing"
+			{
+				"gid" "208E1A238A27803A53E37727970670C0"
+				"size" "3ED72D8C16924C912515E91F15E9DAEE"
+				"download" "4EF2A950BE869E2CCF90F8040CEC604C"
+			}
+			"multiplat_testing"
+			{
+				"gid" "038BA7538038AEFD25B7B8DEA0F463DF"
+				"size" "4F1A3F54C989EF4835D1C9D6F0738085"
+				"download" "DCFAD87D448D303E3CF22EF580605237"
+			}
+			"internal_testing"
+			{
+				"gid" "B358581C6338051F9C371956FF69B50F"
+				"size" "3E1D0787A381B1B68D51DC1F08B70958"
+				"download" "723103C31CEE022B272928CBB952E4B5"
+			}
+		}
+	}
+	"580180"
+	{
+		"dlcappid" "580180"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5288741233217703303"
+				"size" "10030"
+				"download" "8192"
+			}
+			"development"
+			{
+				"gid" "5288741233217703303"
+				"size" "10030"
+				"download" "8192"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"content_testing"
+			{
+				"gid" "2ABF23B54A4F22ED38B51BAD265B5AFF"
+				"size" "949D011FFC71F32DA817FCCAEC965290"
+				"download" "92EE33953D89D8D8340FD6516D43A738"
+			}
+			"multiplat_testing"
+			{
+				"gid" "B44DCF06C3C84ABEF9E6A4ED1A1AAD36"
+				"size" "7C65329EB323947F0C633C36EA89ED4C"
+				"download" "7C65329EB323947F0C633C36EA89ED4C"
+			}
+			"internal_testing"
+			{
+				"gid" "CFC8C4BFD0248D61C6E1A3190CD3056E"
+				"size" "C278C31DCA6AB1A1230FE2B9BC72339D"
+				"download" "00C12DBF2CE7439ED8FF34FF3CFD792F"
+			}
+		}
+	}
+	"473773"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "620778362079245114"
+				"size" "0"
+				"download" "0"
+			}
+			"development"
+			{
+				"gid" "620778362079245114"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"content_testing"
+			{
+				"gid" "3B1C801CAA04A55B51976ED56E2A5457"
+				"size" "5B87012F3E370AC10255A2E59BA6E5A0"
+				"download" "5B87012F3E370AC10255A2E59BA6E5A0"
+			}
+			"multiplat_testing"
+			{
+				"gid" "8A8F3A5DD16950749AFDA6D2005A347F"
+				"size" "7C65329EB323947F0C633C36EA89ED4C"
+				"download" "7C65329EB323947F0C633C36EA89ED4C"
+			}
+			"internal_testing"
+			{
+				"gid" "CA832D5AD8AD77DFDFDFC8F92A78099C"
+				"size" "8B36D554969628409216018AF8BFE20C"
+				"download" "8B36D554969628409216018AF8BFE20C"
+			}
+		}
+	}
+	"473774"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4014449346643385213"
+				"size" "2646525466"
+				"download" "1492082464"
+			}
+			"development"
+			{
+				"gid" "4907675013909124959"
+				"size" "2842866183"
+				"download" "1556446672"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"content_testing"
+			{
+				"gid" "A421AFE947D58B539898A8D1813E343D"
+				"size" "23FB062952B6C1E078C58225001164D9"
+				"download" "A943A236FD0BDF8EA8D57AC23A12ED8D"
+			}
+			"multiplat_testing"
+			{
+				"gid" "C379CA44C72FE3C840E0E9354B17FC19"
+				"size" "8223D73A9EDF4BB77E0A49BCBBAE0311"
+				"download" "EE9AAF526964051813E24D4AE86BC2D3"
+			}
+			"internal_testing"
+			{
+				"gid" "89FF20040EB865F706706736028E57CB"
+				"size" "DC4E02B2FA2E391F39D1F2E37CF1275B"
+				"download" "9BCCDF19E61183FE0211B50056EC9E3B"
+			}
+		}
+	}
+	"473775"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "135057281956162401"
+				"size" "0"
+				"download" "0"
+			}
+			"development"
+			{
+				"gid" "135057281956162401"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"content_testing"
+			{
+				"gid" "A6444ED05DD49B480A10F1C0920FED46"
+				"size" "5B87012F3E370AC10255A2E59BA6E5A0"
+				"download" "5B87012F3E370AC10255A2E59BA6E5A0"
+			}
+			"multiplat_testing"
+			{
+				"gid" "47919A9CB508D57744B8C7E224C9F84A"
+				"size" "7C65329EB323947F0C633C36EA89ED4C"
+				"download" "7C65329EB323947F0C633C36EA89ED4C"
+			}
+			"internal_testing"
+			{
+				"gid" "18910AA454AF1EE47C84C1FFA5594E9A"
+				"size" "8B36D554969628409216018AF8BFE20C"
+				"download" "8B36D554969628409216018AF8BFE20C"
+			}
+		}
+	}
+	"473776"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5124439017636499118"
+				"size" "2635630922"
+				"download" "1495905216"
+			}
+			"development"
+			{
+				"gid" "7180269977240604142"
+				"size" "2831877462"
+				"download" "1561928736"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"content_testing"
+			{
+				"gid" "40FA7D63464AB57D6C61EC8AE65BCF66"
+				"size" "827A7F595902DDC676AB0F5B51F22F58"
+				"download" "B18CB091DF0E81E7C3C920F034750981"
+			}
+			"multiplat_testing"
+			{
+				"gid" "72E5CF39426693E4A1D82D9890F77EDA"
+				"size" "B13C46FADA9E3208E05B273924B5F6FE"
+				"download" "A278A7EB076AD9B37FF5170570713D17"
+			}
+			"internal_testing"
+			{
+				"gid" "FCD15AFD7A45FB4359B39882B01D29C1"
+				"size" "02F11A9BBED747B99C991D0BE61F5E5D"
+				"download" "C50918C9E80D46D33945D6E9CBFF9ACC"
+			}
+		}
+	}
+	"473777"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4760465353964547946"
+				"size" "0"
+				"download" "0"
+			}
+			"development"
+			{
+				"gid" "4760465353964547946"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"content_testing"
+			{
+				"gid" "12FD811619CF42215EC9289F79DDB15C"
+				"size" "5B87012F3E370AC10255A2E59BA6E5A0"
+				"download" "5B87012F3E370AC10255A2E59BA6E5A0"
+			}
+			"internal_testing"
+			{
+				"gid" "D10309B48DBAAD37717FE328D6A2F0A7"
+				"size" "8B36D554969628409216018AF8BFE20C"
+				"download" "8B36D554969628409216018AF8BFE20C"
+			}
+		}
+	}
+	"1090110"
+	{
+		"dlcappid" "1090110"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6376648912376132748"
+				"size" "105495121"
+				"download" "81726144"
+			}
+			"development"
+			{
+				"gid" "8795953495653963292"
+				"size" "105451906"
+				"download" "81716608"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"content_testing"
+			{
+				"gid" "FD96BD1A0173F7D608A31380845DFE35"
+				"size" "DE5B90D0E95E66094E7ED1EED25EFA80"
+				"download" "741FE69B7EC077A6C3EFA221CE2B9E8F"
+			}
+			"internal_testing"
+			{
+				"gid" "9DB43F25767BF8343F323A6BEE44A463"
+				"size" "6CA0383E9610B5C3A0ECA95FBF5B04E0"
+				"download" "CD41ECD41942A03DAFC618646F8EBA36"
+			}
+		}
+	}
+	"473778"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6253218341357570469"
+				"size" "170089314"
+				"download" "129432432"
+			}
+			"development"
+			{
+				"gid" "8029700942254803324"
+				"size" "170159688"
+				"download" "129472016"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"content_testing"
+			{
+				"gid" "D1D68D3DDD354BE7B25EFD3113EA0AB4"
+				"size" "E22AA6DD286FED00C10A250D97DBFCDA"
+				"download" "1310D0EB8270DBB6D1C3BF1C8F2C7174"
+			}
+			"internal_testing"
+			{
+				"gid" "CE8DCB37E44211D4EC6D760D084FAFBF"
+				"size" "10DF4767FE7D4A40833422EF21CD2779"
+				"download" "27DE11966FD925D9B3C6276D31085ADE"
+			}
+		}
+	}
+	"1165070"
+	{
+		"dlcappid" "1165070"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3570036594252761616"
+				"size" "115141673"
+				"download" "88741136"
+			}
+			"development"
+			{
+				"gid" "4789168868604853872"
+				"size" "115133404"
+				"download" "88748768"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"content_testing"
+			{
+				"gid" "9D5C6150E38CACB87AB2E83D10EAC3CD"
+				"size" "DAE1A2B8EBA08168D77BCB03CA6B89C8"
+				"download" "9D408228BEA0FA240F9ED318A1832966"
+			}
+			"internal_testing"
+			{
+				"gid" "ACE39E22FFDD67371F867D7814747548"
+				"size" "4879FA0F6323AB9FC5879ED08FE300DD"
+				"download" "D7C825FD5F15901B1770291E9970B623"
+			}
+		}
+	}
+	"1596120"
+	{
+		"dlcappid" "1596120"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4020594684102385043"
+				"size" "143386731"
+				"download" "117095376"
+			}
+			"development"
+			{
+				"gid" "8825375801579577319"
+				"size" "143391315"
+				"download" "117106064"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"content_testing"
+			{
+				"gid" "E4BD6067DE8E63F0D1CD2EB0F93E84B4"
+				"size" "FC91471C1048A11EEEF662F1300D30E5"
+				"download" "4C6813D260E312E27E537128313CA69B"
+			}
+			"internal_testing"
+			{
+				"gid" "F280A812C6ADD026B1AF955ACA4D69F2"
+				"size" "CE55DF2F06956BA74A3D548AD3D3D58F"
+				"download" "6787CD933F53BF843FAF172E37DBB368"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12883756"
+			"timeupdated" "1701826954"
+		}
+		"content_testing"
+		{
+			"buildid" "13899379"
+			"pwdrequired" "1"
+			"timeupdated" "1711756655"
+		}
+		"multiplat_testing"
+		{
+			"buildid" "6112501"
+			"pwdrequired" "1"
+			"timeupdated" "1611164338"
+		}
+		"development"
+		{
+			"buildid" "15627706"
+			"description" "In-development builds of the game."
+			"timeupdated" "1725749574"
+		}
+		"internal_testing"
+		{
+			"buildid" "15826579"
+			"pwdrequired" "1"
+			"timeupdated" "1727289397"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "User/Save/Campaign"
+			"pattern" "*.sav"
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "User/Save/Precision"
+			"pattern" "*.sav"
+			"recursive" "1"
+		}
+	}
+}
