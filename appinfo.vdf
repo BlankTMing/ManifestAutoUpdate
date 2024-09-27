@@ -1,0 +1,450 @@
+"appid" "210950"
+"common"
+{
+	"name" "Rune Classic"
+	"type" "Game"
+	"clienticon" "dd48ab046719510c7c48e347e1c48bb1f0464034"
+	"clienttga" "649e81fa8950257f10268ca0bc373186e2f8fc2f"
+	"icon" "3fd4d0f87b183d423eb666084c7ee15e1663d84f"
+	"logo" "fa1f9a8467774a6061ff42c802a534c19c6b33e4"
+	"logo_small" "fa1f9a8467774a6061ff42c802a534c19c6b33e4_thumb"
+	"oslist" "windows"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1661904000"
+		"tested_build_id" "3784864"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Rune Classic"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1339696510"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Human Head Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Human Head Studios"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"italian"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+		"russian"
+		{
+			"supported" "1"
+			"full_audio" "1"
+		}
+	}
+	"original_release_date" "1006070400"
+	"steam_release_date" "1339605180"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "210950"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "21"
+		"2" "1697"
+		"3" "1693"
+		"4" "1646"
+		"5" "11634"
+		"6" "3859"
+		"7" "4345"
+		"8" "4182"
+		"9" "16094"
+		"10" "1684"
+		"11" "122"
+		"12" "14720"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "Human Head Studios"
+	"gamedir" "Rune Classic"
+	"homepage" "http://www.rune-world.com"
+	"icon" ""
+	"noservers" "1"
+	"order" "1"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"publisher" "Human Head Studios"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Rune Classic"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "System/Rune.exe"
+			"arguments" ""
+			"description" "Launch"
+			"workingdir" "System"
+		}
+	}
+	"installscriptsignature" "854258392dd0dbfa57e2004b5ebbd02421a83c63b059bfd66cd94317fa671b4e29990ec7a9b280722907ced701f75991a31951ec4059e70acaaa64754f34949c69161505ea24dba9c3d7946be3bd03963c0dd9a4acef61026532ecc6251a70f781b96fd66a2b4fff9a294342d005ddadaeb21aabcddd279854f4447af56986b4"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"vcredist"
+		{
+			"process 1" "%INSTALLDIR%\\redist\\vcredist_x86.exe"
+			"command 1" "/q:a"
+			"nocleanup" "1"
+		}
+	}
+	"registry"
+	{
+		"hkey_local_machine\\software\\human head studios\\installed apps\\rune"
+		{
+			"string"
+			{
+				"folder" "%INSTALLDIR%"
+				"version" "110"
+			}
+		}
+		"hkey_local_machine\\software\\human head studios\\installed apps\\rune - halls of valhalla"
+		{
+			"string"
+			{
+				"folder" "%INSTALLDIR%"
+				"version" "110 HOV"
+			}
+		}
+	}
+}
+"depots"
+{
+	"210951"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6953708733068251455"
+				"size" "934847348"
+				"download" "672421104"
+			}
+			"local"
+			{
+				"gid" "8330462456683290134"
+				"size" "934809264"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"legacy"
+			{
+				"gid" "17CF33932B111F678900159F2C8CD0B3"
+				"size" "9B9EC033B76CDEEFAD15A0DB9A58EE9E"
+				"download" "14907CC185B0CDAE0F0521ADA63D79A0"
+			}
+			"testing"
+			{
+				"gid" "3A70E05066C08559E0E8A466449CEE47"
+				"size" "3090783FB85FF7D19FDB490243215175"
+				"download" "85CE2C92A3133D53D6FAC515582FD925"
+			}
+		}
+	}
+	"210952"
+	{
+		"config"
+		{
+			"language" "spanish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "777107265273949166"
+				"size" "169332942"
+				"download" "153084880"
+			}
+			"local"
+			{
+				"gid" "777107265273949166"
+				"size" "169332942"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"legacy"
+			{
+				"gid" "58834E312188FA54AAFB622FB3547E41"
+				"size" "28CE5E7AADB1EEE1E3AE412C70071A39"
+				"download" "263B7F38E7C7798610B585E0DD361C23"
+			}
+			"testing"
+			{
+				"gid" "83AD913B1F6538377DCB390AF784619E"
+				"size" "A0F7B878E0AEC1CD2BABE0CD772E2EA3"
+				"download" "630DCE68C76B0C0D22D7BA479A47603C"
+			}
+		}
+	}
+	"210953"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3938299019139833940"
+				"size" "170254644"
+				"download" "154424528"
+			}
+			"local"
+			{
+				"gid" "3938299019139833940"
+				"size" "170254644"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"legacy"
+			{
+				"gid" "5B2FD903079D2236AAC1AD5E8B4C31EF"
+				"size" "9F52633A9C2CE6CBE34D06CC6A0A7BEB"
+				"download" "533BA7A3E7BF56B1F3BC2858131BBE3B"
+			}
+			"testing"
+			{
+				"gid" "AF5C5220B53C8B3739F74DBDFC61F3A8"
+				"size" "B5DCCC711DED5D8C8178F3F8C3167B39"
+				"download" "5DA3D5A3A75A49824E074A7CA28A7AA1"
+			}
+		}
+	}
+	"210954"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1739291614212622999"
+				"size" "167953460"
+				"download" "151842576"
+			}
+			"local"
+			{
+				"gid" "1739291614212622999"
+				"size" "167953460"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"legacy"
+			{
+				"gid" "BBD036A2A2C5AD9EC7177E2A74963485"
+				"size" "467185B92EDA2F466B033D9D89706F52"
+				"download" "971F2A2316A4CA2B55792DD60678E03D"
+			}
+			"testing"
+			{
+				"gid" "62E2190B5AF00A8BEA47674F8105FDF7"
+				"size" "60B36A180693A08DA9098789C30B66BD"
+				"download" "2E8A67BCEF63B3214D07BD70E34EE78B"
+			}
+		}
+	}
+	"210955"
+	{
+		"config"
+		{
+			"language" "italian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "759252740686823211"
+				"size" "165993609"
+				"download" "150433920"
+			}
+			"local"
+			{
+				"gid" "759252740686823211"
+				"size" "165993609"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"legacy"
+			{
+				"gid" "324EC569CB0C79CB17FA607D35A83F6F"
+				"size" "15A678E72726DD8258E9FD0901FF619F"
+				"download" "3F9AA695F90D7DEC6B1B9928C763647F"
+			}
+			"testing"
+			{
+				"gid" "4E0792D348050A6DE20A918094FC1703"
+				"size" "8D07F883EB5220EF466C999D57519186"
+				"download" "4CD68F42C87E2A02318694EBFA8AD683"
+			}
+		}
+	}
+	"210956"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4888802562221311494"
+				"size" "115232694"
+				"download" "102626048"
+			}
+			"local"
+			{
+				"gid" "4888802562221311494"
+				"size" "115232694"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"legacy"
+			{
+				"gid" "F926BAA8DECEA620EE6AF08019C562A6"
+				"size" "F780D57A9EDF2839B8D30833EEFB4D93"
+				"download" "0ADBC5DFF2712DD29F2F9393896A8968"
+			}
+			"testing"
+			{
+				"gid" "4FB181549DF3285440F8ACDBB4FD6C4A"
+				"size" "D848A47B4A9CC900FF8726EB19C43BDC"
+				"download" "C9D2EB3796281A49EF9CE9A5DDDC12EA"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3784864"
+			"timeupdated" "1556738299"
+		}
+		"legacy"
+		{
+			"buildid" "3784864"
+			"pwdrequired" "1"
+			"timeupdated" "1556725111"
+		}
+		"local"
+		{
+			"buildid" "4489"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+		"testing"
+		{
+			"buildid" "3784864"
+			"pwdrequired" "1"
+			"timeupdated" "1556724642"
+		}
+	}
+}
