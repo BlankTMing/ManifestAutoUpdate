@@ -1,0 +1,398 @@
+"appid" "347290"
+"common"
+{
+	"name" "Rise & Shine"
+	"type" "Game"
+	"oslist" "windows,linux"
+	"icon" "47b2056b7151fc6d342f74411e1d193d92c94617"
+	"logo" "fea00d9ae54fca4c1ba173edaab228e0f9ee62a6"
+	"logo_small" "fea00d9ae54fca4c1ba173edaab228e0f9ee62a6_thumb"
+	"clienticon" "91070a0c6419bd6b817e7046d14e733a46c0f797"
+	"clienttga" "3bf05b618f9f906257addab547d5748adc999daa"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"russian" "1"
+	}
+	"osarch" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1672963200"
+		"tested_build_id" "1831579"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_CrossPlatformCloudSavesNotSupported"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-6"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Rise &amp;amp; Shine"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "44.09666142622492"
+			"height_pct" "98.8601282355735"
+		}
+	}
+	"store_asset_mtime" "1562014091"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Super Mega Team"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Adult Swim Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_33" "1"
+		"category_23" "1"
+		"category_43" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1484319516"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "347290"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "4106"
+		"3" "5537"
+		"4" "1625"
+		"5" "4026"
+		"6" "3871"
+		"7" "1774"
+		"8" "4234"
+	}
+	"review_score" "5"
+	"review_percentage" "69"
+}
+"extended"
+{
+	"developer" "Super Mega Team"
+	"publisher" "Adult Swim Games"
+	"homepage" "http://www.supermegateam.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Rise & Shine"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "RiseAndShine.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "RiseAndShine.app\\Contents\\MacOS\\RiseAndShine"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "RiseAndShine.x86"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "RiseAndShine.x86_64"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"4"
+		{
+			"executable" "RiseAndShine.exe"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+	}
+}
+"depots"
+{
+	"347291"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4749993985992397123"
+				"size" "4125504236"
+				"download" "965794144"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "11AF5C7D564E1434C020467A4C37D078"
+				"size" "A66C4AFF3AB766E222F6AADADA2FF9EB"
+				"download" "EEBDFF0925DBC1C4976287891D7A86A9"
+			}
+			"betatest"
+			{
+				"gid" "711DD7D862983499F7AB4C6644ACD72F"
+				"size" "357D280A52FDF2AC4D0544B859614C36"
+				"download" "573F4ABD491D0989A75633D2443D1116"
+			}
+			"storage"
+			{
+				"gid" "8A07DD8E44CFB12A06859BFA4D30259C"
+				"size" "7859AFF77498986C49C294926E2AEF54"
+				"download" "0C63984FEF3EBB635A3AAFA6E3025F9A"
+			}
+		}
+	}
+	"347292"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7769581941111356523"
+				"size" "4163774945"
+				"download" "977662864"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"betatest"
+			{
+				"gid" "E468C72C675020008D4A037A4DE302DA"
+				"size" "3B4EAD24E6295530DE08D1D8A01C6524"
+				"download" "40D9C3C8AD8D86D7EE900A4B21E75BCF"
+			}
+		}
+	}
+	"347293"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8601299211731238431"
+				"size" "4156890429"
+				"download" "976629840"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "D77432108796926EE8A9531B85C6CEDB"
+				"size" "9AB37BDB90D1DFC7CDE049C57BF04C94"
+				"download" "219821611875DA80954ED58434412F96"
+			}
+			"betatest"
+			{
+				"gid" "699802EC0C85B62BF2FF025762A8233A"
+				"size" "33251775D6A16A04012425EAC6483D95"
+				"download" "F9B42410005EC3BD9AC3CFC7FFFD7390"
+			}
+		}
+	}
+	"347294"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8998398898611274145"
+				"size" "4121136876"
+				"download" "965355984"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "3CB6E6D94204E7C3D8A5AACAF9CBA4C1"
+				"size" "8C9B895DC5B476C5616BE4B57AEEFF1C"
+				"download" "26D82D6823CE13C874DB275F2815ABAA"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1831579"
+			"timeupdated" "1495136648"
+		}
+		"beta"
+		{
+			"buildid" "1831473"
+			"pwdrequired" "1"
+			"timeupdated" "1495134510"
+		}
+		"betatest"
+		{
+			"buildid" "1630675"
+			"pwdrequired" "1"
+			"timeupdated" "1487087022"
+		}
+		"storage"
+		{
+			"buildid" "1555498"
+			"pwdrequired" "1"
+			"timeupdated" "1484061956"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10048576"
+	"maxnumfiles" "1"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+}
