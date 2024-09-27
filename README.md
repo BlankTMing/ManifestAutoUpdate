@@ -1,132 +1,141 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-27 10:37:07
+## 更新时间：2024-09-27 10:42:55
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 2443090 | 魔能英雄| Game |
-| 726830 | Vacation Simulator| Game |
-| 2833810 | SEX Campus🔞| Game |
-| 2347940 | Sea of Survivors| Game |
-| 1882500 | Cattails: Wildwood Story| Game |
-| 2300230 | Feather Party| Game |
-| 1287920 | Brass: Birmingham| Game |
-| 2744880 | Climber Animals: Together| Game |
-| 2816940 | 血色天堂 2| Game |
-| 2297010 | Combat Mission: Battle for Normandy| Game |
-| 1097050 | 绝地反击| Game |
-| 2818980 | The Gravedigger| Game |
-| 1493520 | Beat Hazard 3| Game |
-| 839870 | Wilmot's Warehouse| Game |
-| 1793170 | Racine| Game |
-| 1429150 | Dungeon Tavern| Game |
-| 1100990 | Aimbeast| Game |
-| 648410 | Colony Ship: A Post-Earth Role Playing Game| Game |
-| 639490 | Umineko When They Cry - Answer Arcs| Game |
-| 1603420 | 末日狂欢人外岛| Game |
-| 598810 | Carcassonne: The Official Board Game| Game |
-| 2385720 | The Police Mystery| Game |
-| 2327780 | HAELE 3D - Feet Poses Pro - Drawing References| Game |
-| 673600 | Prison Boss VR| Game |
-| 1709700 | How to Say Goodbye| Game |
-| 1946970 | 箭之岛| Game |
-| 2710290 | 惑星战士G| Game |
-| 644710 | Gary Grigsby's War in the West| Game |
-| 1397390 | The Break-In| Game |
-| 2782400 | 剪纸美术馆-自然| Game |
-| 2328780 | Pro Basketball Manager 2024| Game |
-| 2225610 | 赶紧送走| Game |
-| 2630300 | The Imperial Capital Burns - Muv-Luv Alternative Total Eclipse| Game |
-| 930020 | Dream Daddy: A Dad Dating Comic Book| DLC |
-| 654880 | Dream Daddy: A Dad Dating Simulator| Game |
-| 904520 | Red Embrace: Hollywood| Game |
-| 2551690 | Sex Bar Simulator 🍸🔞| Game |
-| 1158470 | Voxelgram| Game |
-| 257170 | Rebuild 3: Gangs of Deadsville| Game |
-| 2870420 | Mech Builder| Game |
-| 810500 | PowerBeatsVR| Game |
-| 2203590 | Tune in to the show| Game |
-| 2417820 | VR变态模拟的桌面模式| DLC |
-| 2406200 | VR色狼模拟| Game |
-| 2488050 | 新人军师公主大人的制胜秘诀| Game |
-| 2622260 | 誰ソ彼ホテル Re:newal| Game |
-| 1501690 | Dice Kingdoms| Game |
-| 2193720 | Super Dark Deception| Game |
-| 2533020 | Renaissance Kingdom Wars 文艺复兴王国战争| Game |
-| 1450330 | Concordia: Digital Edition| Game |
-| 2431690 | We Are Lost| Game |
-| 2409360 | Pixel Cafe| Game |
-| 1973580 | Once a Porn a Time| Game |
-| 966560 | ROGAN: The Thief in the Castle| Game |
-| 2441270 | Kill The Crows| Game |
-| 2456960 | The 7th Guest VR| Game |
-| 1427860 | Paradise Lust| Game |
-| 2964300 | City Bus Simulator 2024| Game |
-| 2477090 | Mosa Lina| Game |
-| 2930890 | 剪纸美术馆-成长| Game |
-| 1328530 | Quantum Protocol| Game |
-| 2732510 | Sex Detective [18+]| Game |
-| 1493730 | Secret Summer| Game |
-| 1367320 | Close Combat: Cross of Iron| Game |
-| 2971440 | Miko Sniper| Game |
-| 666610 | Endless ATC| Game |
-| 1224290 | Horizon's Gate| Game |
-| 2240790 | Sucker for Love: Date to Die For| Game |
-| 1955230 | 《佩妮大逃脱》| Game |
-| 2710660 | S.E.X. Retreat: WellCum In!| Game |
-| 1142220 | Beat Aim| Game |
-| 2274110 | The Elephant Collection| Game |
-| 591370 | Production Line| Game |
-| 966670 | The Wanderer: Frankenstein's Creature| Game |
-| 625980 | Yomawari: Midnight Shadows| Game |
-| 2791030 | Backrooms:Rebirth| Game |
-| 2227450 | 医疗无法人 大薮死人诊所| Game |
-| 2352790 | Goblin Lord wants me to become a Virgin Wizard by Managing The Brothel!?| Game |
-| 2172260 | The Complex: Expedition| Game |
-| 1440440 | Sam & Max Save the World| Game |
-| 2323810 | DEFENDUN| Game |
-| 2550170 | WILD SEX: WET GIRLS| Game |
-| 1536980 | Glass Masquerade 3: Honeylines| Game |
-| 1924170 | TT Isle Of Man: Ride on the Edge 3| Game |
-| 1747050 | Sam & Max: Beyond Time and Space| Game |
-| 495290 | AccuRC 2| Game |
-| 2194700 | Sex Gym 3D| Game |
-| 716400 | Battle of Red Cliffs VR| Game |
-| 1787960 | 铣削机模拟器| Game |
-| 2343920 | 特快小火车 Trackline Express| Game |
-| 1564790 | Submachine: Legacy| Game |
-| 1131920 | 东方的迷宫 幻想乡和通天的大树| Game |
-| 2803280 | Dragon Is Dead| Game |
-| 2669860 | Elder Legacy| Game |
-| 2511050 | 勇拳冲锋| Game |
-| 1378290 | The Citadel| Game |
-| 611160 | Karnage Chronicles| Game |
-| 1103860 | The Wizards - Dark Times| Game |
-| 1566200 | Tape to Tape| Game |
-| 1518220 | Spells & Secrets - 咒语与秘密| Game |
-| 1012110 | Military Conflict: Vietnam| Game |
-| 1921980 | 地平线之间| Game |
-| 2610690 | 少侠的江湖| Game |
-| 1063580 | Aeon's End| Game |
-| 2455340 | Together in Between| Game |
-| 1859270 | 最佳搭档| Game |
-| 1898500 | Worldless| Game |
-| 1987480 | 勇者与亡灵之都| Game |
-| 329970 | KeeperRL| Game |
-| 2786700 | ヴィクトルズ・テスト・ナイト| Game |
-| 2361690 | 间宫摩美想要疗愈你| Game |
-| 251470 | TowerFall Ascension| Game |
-| 2846210 | 深夜24时不来健身吗?| Game |
-| 636970 | Tales Of Glory| Game |
-| 2922020 | Sex Ghoul Fling🧟❤️| Game |
-| 1490410 | 你所不知道的童话故事| Game |
-| 2727440 | Hot Office: Sex Story 🔞| Game |
-| 1065100 | 龙族至宝：广茂之绿 (Golden Treasure: The Great Green)| Game |
-| 1931020 | Slayers X| Game |
-| 1420770 | Winter Resort Simulator 2| Game |
-| 2582730 | Black Smith4| Game |
-| 857690 | 潟湖茶座 : 喷泉奇谈| Game |
-| 1368870 | Field of Glory II: Medieval| Game |
-| 1269370 | 171| Game |
-| 677340 | The Colonists| Game |
-| 9200 | RAGE| game |
-| 335620 | Star Traders: Frontiers| Game |
+| 2304030 | 天下霸图| Game |
+| 1793090 | Blockbuster Inc.| Game |
+| 2441410 | Poozle Mania - Girls DLC #1| DLC |
+| 1362010 | SEX, Drugs and CYBERPUNK| Game |
+| 2006140 | Withering Rooms| Game |
+| 2978660 | Poozle Mania - Girls DLC #3| DLC |
+| 2206350 | Farm Manager World| Game |
+| 2693970 | Poozle Mania - Girls DLC #2| DLC |
+| 2191080 | Poozle Mania| Game |
+| 1940040 | The Price Of Flesh| Game |
+| 1475840 | RHYTHM SPROUT| Game |
+| 2095090 | ウーマンコミュニケーション| Game |
+| 2336760 | Immortal Hunters| Game |
+| 2478040 | Slugs and Bugs: Conversion| Game |
+| 1888300 | HOROS - monster slayer and lover of many| Game |
+| 3111680 | Can't revert| Game |
+| 465490 | Stellar Tactics| Game |
+| 1001220 | BoneCraft| Game |
+| 2336590 | 白夜梦| Game |
+| 2057430 | The Wraith of the Galaxy| Game |
+| 951240 | Obenseuer| Game |
+| 1599560 | Wanderer| Game |
+| 2175250 | 排球进阶指南| Game |
+| 593030 | Strategic Command WWII: War in Europe| Game |
+| 2930320 | Pharmacy Simulator| Game |
+| 2803360 | Project L33T| Game |
+| 1694510 | Barista Simulator| Game |
+| 1265220 | Cauldrons of War - Barbarossa| Game |
+| 1933490 | 一起来玩吧！Oink Games| Game |
+| 746620 | Bakery| Game |
+| 2767520 | LurkBait Twitch Fishing| Game |
+| 2475420 | Parking Tycoon: Business Simulator| Game |
+| 3022320 | Mobiles Tycoon| Game |
+| 2360340 | Whitewater VR: Extreme Kayaking Adventure| Game |
+| 250260 | Jazzpunk: Director's Cut| Game |
+| 1945260 | 果冻快递| Game |
+| 622720 | Weedcraft Inc| Game |
+| 1237040 | Alpha Hole Prison| Game |
+| 2676960 | 失落爱之岛| Game |
+| 1310330 | Goodbye Volcano High| Game |
+| 2508980 | PATHOGEN X| Game |
+| 1896390 | Stickman Trenches| Game |
+| 1122120 | STATIONflow| Game |
+| 905970 | Steel Crew| Game |
+| 287070 | Battle Academy| Game |
+| 1570510 | Undernauts: Labyrinth of Yomi| Game |
+| 2088840 | Picayune Dreams| Game |
+| 2129220 | 动物园模拟器| Game |
+| 1209700 | Max Gentlemen Sexy Business! Uncensored| DLC |
+| 851670 | LUMINES REMASTERED| Game |
+| 817840 | Max Gentlemen Sexy Business!| Game |
+| 1344740 | FOOTSIES| Game |
+| 1141580 | Taiji| Game |
+| 1573730 | Helicopter Simulator VR 2021 - Rescue Missions| Game |
+| 2675630 | 挤在一起的猫猫| Game |
+| 1286710 | Hylics 2| Game |
+| 2449040 | Cursorblade| Game |
+| 893050 | Hasbro's BATTLESHIP| Game |
+| 2523120 | King of the Bridge| Game |
+| 2263920 | Multiplayer Platform Golf| Game |
+| 1925320 | Escape Memoirs: Mansion Heist| Game |
+| 1293170 | BZZZT| Game |
+| 1915340 | VR NSFW| Game |
+| 2070760 | Hush Hush - 18+ Uncensored DLC| DLC |
+| 2070900 | Hush Hush - Official Artbook| DLC |
+| 1674890 | 👑 选王之剑 👑| Game |
+| 782250 | Hush Hush - Only Your Love Can Save Them| Game |
+| 2401680 | Pet Shop Simulator| Game |
+| 1146600 | 为了人民 / For The People| Game |
+| 2627270 | 藏尸体的方法| Game |
+| 845890 | 破月勇者| Game |
+| 2013520 | Fighting Girl Sakura-R - HCG PACK| DLC |
+| 2395810 | 富豪派对| Game |
+| 2013060 | FIGHTING GIRL SAKURA-R| Game |
+| 1504250 | Paper Planet| Game |
+| 2101890 | Zoonomaly| Game |
+| 2119670 | 打造吧！高尔夫之森 (Forest Golf Planner)| Game |
+| 1724440 | Epic Fantasy Battle Simulator| Game |
+| 2002220 | 守护者之魂| Game |
+| 789660 | Buggos| Game |
+| 846800 | Diner Bros| Game |
+| 1918040 | Army of Ruin| Game |
+| 2757250 | CUCKOLD'S GYM| Game |
+| 2281360 | Old Coin Pusher Friends 2| Game |
+| 2141770 | 浮城| Game |
+| 320430 | Ascension| Game |
+| 2993650 | Hentai Tales: Backyard 33rd| Game |
+| 2081470 | Red Matter 2| Game |
+| 1137410 | Depraved Awakening| Game |
+| 1674680 | Sword of the Necromancer - Artbook| DLC |
+| 1243890 | Sword of the Necromancer| Game |
+| 2351970 | Monster Girl 1,000| Game |
+| 2065810 | Undead Horde 2: Necropolis| Game |
+| 1051200 | Trover Saves the Universe| Game |
+| 3082620 | 无极群侠传| Game |
+| 1571940 | Ctrl Alt Ego| Game |
+| 2929730 | Cat Bait| Game |
+| 1969920 | Tomb Explorer VR| Game |
+| 1154850 | 9th Dawn III| Game |
+| 1329510 | Big Farm Story| Game |
+| 1988100 | 终焉之国与初始魔女| Game |
+| 248310 | Freedom Planet| Game |
+| 1591810 | Behind the Art and Magic of Chicken Police| DLC |
+| 3095550 | False Mall| Game |
+| 2137760 | Crafty Survivors| Game |
+| 2644360 | 国王之墓| Game |
+| 2402280 | Werewolf: The Apocalypse — The Book of Hungry Names| Game |
+| 2901520 | Альтушка для скуфа| Game |
+| 840010 | Garden Paws| Game |
+| 2593780 | 转生为领主开始冒险吧| Game |
+| 1826570 | First Class Escape 2: Head in the Clouds| Game |
+| 1550730 | 伊科内岛：筑梦之地| Game |
+| 1847510 | Boba Simulator| Game |
+| 779430 | Full Ace Tennis Simulator| Game |
+| 1898610 | Hands of Necromancy| Game |
+| 1078420 | Critters for Sale| Game |
+| 596500 | 奇皮与诺宝| Game |
+| 1297160 | a new life.| Game |
+| 336150 | Virtual Pool 4| Game |
+| 2088770 | 出牌吧！魂之勇者| Game |
+| 2974060 | [REC] Paroxysm| Game |
+| 476530 | Children of a Dead Earth| Game |
+| 2753620 | 水果山| Game |
+| 2140570 | Time Is Honey| Game |
+| 1485240 | Virt-U-Mate| Game |
+| 2686580 | 三小幸存者| Game |
+| 1097100 | Please, Touch The Artwork| Game |
+| 1933820 | SGS Korean War| Game |
+| 1764530 | Sailwind| Game |
+| 2336200 | Choo Choo Survivor| Game |
+| 1381850 | 战略思维：为自由而战| Game |
+| 2248330 | Backrooms Break| Game |
+| 922050 | DOOMBLADE| Game |
+| 2180210 | 冒险日记  Adventure Diary| Game |
+| 549080 | Tank Warfare: Tunisia 1943| Game |
+| 2160220 | Shipwrecked 64| Game |
