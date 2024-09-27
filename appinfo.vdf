@@ -1,0 +1,470 @@
+"appid" "269170"
+"common"
+{
+	"name" "SportsBar VR "
+	"type" "Game"
+	"releasestate" "released"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"oslist" "windows"
+	"logo" "c21892b684eb81bdcda7479bfc9bce07184b2861"
+	"logo_small" "c21892b684eb81bdcda7479bfc9bce07184b2861_thumb"
+	"icon" "3dd2d3e629dee5bc535b415cceb423fb2975afc7"
+	"clienttga" "3deefd8cf44aeec0fa488bb9896e3bbeef06e145"
+	"clienticon" "9351b36627f62b221951bf042e428e1a7ff81733"
+	"openvrsupport" "1"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "269170_eula_0"
+			"name" "SportsBar VR  EULA"
+			"url" "http://store.steampowered.com//eula/269170_eula_0"
+		}
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1644278400"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Pool Nation VR"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1512070332"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Cherry Pop Games"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Perilous Orbit"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Perilous Orbit"
+		}
+	}
+	"primary_genre" "18"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+		"3" "18"
+		"4" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_23" "1"
+		"category_36" "1"
+		"category_38" "1"
+		"category_49" "1"
+		"category_9" "1"
+		"category_52" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1464764400"
+	"steam_release_date" "1464801960"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "269170"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "21978"
+		"1" "701"
+		"2" "363767"
+		"3" "599"
+		"4" "597"
+		"5" "17927"
+		"6" "492"
+		"7" "7368"
+		"8" "9"
+		"9" "3968"
+		"10" "3859"
+		"11" "4190"
+	}
+	"review_score" "8"
+	"review_percentage" "83"
+}
+"extended"
+{
+	"developer" "Cherry Pop Games"
+	"publisher" "Perilous Orbit"
+	"homepage" "http://www.sportsbarvrexperience.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "PoolNationVR"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "PoolNationVR.exe"
+			"arguments" "-culture=\"en\" "
+			"description" "Vive"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "PoolNationVR.exe"
+			"arguments" "-culture=\"en\""
+			"description" "Multi-Platform"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "staging"
+			}
+		}
+		"2"
+		{
+			"executable" "PoolNationVR.exe"
+			"arguments" "-culture=\"en\" -VRPlatform=SteamVR -ForceLogFlush"
+			"description" "Vive (-ForceLogFlush)"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "development"
+			}
+		}
+		"3"
+		{
+			"executable" "PoolNationVR.exe"
+			"arguments" "-culture=\"en\""
+			"description" "Multi-Platform"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "oculus"
+			}
+		}
+		"4"
+		{
+			"executable" "PoolNationVR.exe"
+			"arguments" "-culture=\"en\""
+			"description" "Miller Branch"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "miller"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"overridescddb" "1"
+	"269171"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2629744644182942215"
+				"size" "1251853413"
+				"download" "1138694240"
+			}
+			"pool_nation_vr"
+			{
+				"gid" "8920018966838033888"
+				"size" "731906352"
+				"download" "636232544"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"competition_demo"
+			{
+				"gid" "2635443E2307F3C8BB613D718F7B30A6"
+				"size" "F99DC9D953435D3A592459811AF4108F"
+				"download" "81FAA8E529B4398DB5B303B5C125F756"
+			}
+			"development"
+			{
+				"gid" "9FFEEA24781F04ED808203560D4376C4"
+				"size" "DF6E1410AD87DB867CB275EE3AAE5FA2"
+				"download" "F801CA091026474615E3F6FB9060B0E8"
+			}
+			"filming"
+			{
+				"gid" "7D5C0BFD5483C93786D16B11E45CD979"
+				"size" "AE3BCE8195CF69F35EBD3D482EE3E901"
+				"download" "C1608930D3D98EF70A1A0079815C57AD"
+			}
+			"gdcdemo"
+			{
+				"gid" "B66E86D02769E30DFA5C09F5E30D9A93"
+				"size" "30D70632AEEBDE9F7BBB4F4A88279F06"
+				"download" "569BCCE13A57A5C4DF65FADCEC1B0D63"
+			}
+			"historic"
+			{
+				"gid" "3E790B79521EE1489E532F45F1DBA168"
+				"size" "0DE0B4AC76861020DF80B670271C576C"
+				"download" "9627EB72EC1215899498D74273C55F48"
+			}
+			"internal"
+			{
+				"gid" "ED154DC541E5D3F864ABFD5710238CC8"
+				"size" "0CA49636ED190A47B4185C61846DAB1E"
+				"download" "306747DFC8F46F0769257003F2A6FD88"
+			}
+			"layout"
+			{
+				"gid" "B22E6A4F24499E0B6FE7D724B009BA18"
+				"size" "39BC4D33B424BBF9232BD017211FCF02"
+				"download" "90C4139025DD136C1149D7E326723C15"
+			}
+			"multi-res"
+			{
+				"gid" "115269D4E254A9EF79DF058FCB030472"
+				"size" "4C0DC51E37339D6532E0A37D9DCF8EB8"
+				"download" "3419AABFC8BE96454865816D0E3E6658"
+			}
+			"oculus"
+			{
+				"gid" "5B9903FAC806BF097663CFAF3ACB1425"
+				"size" "E85E5F209F8C31A1783C0758215FDB89"
+				"download" "B2A48A6229B5E977858904C2CBC02025"
+			}
+			"pabst"
+			{
+				"gid" "68F5EE052EC0DF7F9EA540BA32F4BDC0"
+				"size" "E155DE7734CBF3AA8F23A135608CDFEB"
+				"download" "F673EC4388A537207A013560D6A888CA"
+			}
+			"performance"
+			{
+				"gid" "5053A5AA63F6790226C70117231E961A"
+				"size" "F9DA3C03B74BBAB07D0B26C217E85AE3"
+				"download" "312A8CB33989510E7B35C7249E347905"
+			}
+			"photon"
+			{
+				"gid" "F20790C161CB7942188FF59F3E097D8A"
+				"size" "B6CC0F5434A4CD053F4CFD283E4FF864"
+				"download" "F737D6BDD0A9CE6D60630AA1682F3407"
+			}
+			"previous"
+			{
+				"gid" "34A6DCF63455884B9E63D7324BA1ED46"
+				"size" "DEE56FE78479622362715712693468EE"
+				"download" "E1A888987C3594B32F543F245D8AE5E4"
+			}
+			"propool"
+			{
+				"gid" "1308976ED56F8ECC404B2E8C3B3EA93C"
+				"size" "240C00FAF7AD8DA9717377967FBBDB84"
+				"download" "7E360B1316B85DE0A19936BCB5A77953"
+			}
+			"staging"
+			{
+				"gid" "613ECABCC5431F541B1A308F0546B5DA"
+				"size" "5407AFABC9A4AEF961E48DE0D41D73B2"
+				"download" "F7219A3EEC476DF6BD4913F5A7205749"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2357894"
+			"timeupdated" "1513075341"
+		}
+		"competition_demo"
+		{
+			"buildid" "1403422"
+			"pwdrequired" "1"
+			"timeupdated" "1476973608"
+		}
+		"development"
+		{
+			"buildid" "1522125"
+			"pwdrequired" "1"
+			"timeupdated" "1481827877"
+		}
+		"filming"
+		{
+			"buildid" "1351211"
+			"pwdrequired" "1"
+			"timeupdated" "1474563389"
+		}
+		"gdcdemo"
+		{
+			"buildid" "1025115"
+			"pwdrequired" "1"
+			"timeupdated" "1486598541"
+		}
+		"historic"
+		{
+			"buildid" "1705597"
+			"pwdrequired" "1"
+			"timeupdated" "1500024117"
+		}
+		"internal"
+		{
+			"buildid" "1519316"
+			"pwdrequired" "1"
+			"timeupdated" "1481737547"
+		}
+		"layout"
+		{
+			"buildid" "1754054"
+			"pwdrequired" "1"
+			"timeupdated" "1492052644"
+		}
+		"multi-res"
+		{
+			"buildid" "1198043"
+			"pwdrequired" "1"
+			"timeupdated" "1466801397"
+		}
+		"oculus"
+		{
+			"buildid" "1239922"
+			"pwdrequired" "1"
+			"timeupdated" "1469176062"
+		}
+		"pabst"
+		{
+			"buildid" "1325732"
+			"pwdrequired" "1"
+			"timeupdated" "1473382919"
+		}
+		"performance"
+		{
+			"buildid" "1376396"
+			"pwdrequired" "1"
+			"timeupdated" "1475711767"
+		}
+		"photon"
+		{
+			"buildid" "2357894"
+			"pwdrequired" "1"
+			"timeupdated" "1513022954"
+		}
+		"pool_nation_vr"
+		{
+			"buildid" "1447162"
+			"description" "Pool Nation VR Full Release"
+			"timeupdated" "1481768666"
+		}
+		"previous"
+		{
+			"buildid" "1281020"
+			"pwdrequired" "1"
+			"timeupdated" "1472629812"
+		}
+		"propool"
+		{
+			"buildid" "1235717"
+			"pwdrequired" "1"
+			"timeupdated" "1468989318"
+		}
+		"staging"
+		{
+			"buildid" "2262552"
+			"pwdrequired" "1"
+			"timeupdated" "1510012688"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+}
