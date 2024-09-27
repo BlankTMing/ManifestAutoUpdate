@@ -1,0 +1,224 @@
+"appid" "741430"
+"common"
+{
+	"name" "Titanic VR"
+	"type" "Game"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+		"xinput" "1"
+		"kbm" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+		"roomscale"
+		{
+			"360_required" "0"
+			"width" "2"
+			"depth" "1.5"
+		}
+	}
+	"oslist" "windows"
+	"osarch" "64"
+	"logo" "c47a0323c4b24644c116991846c9c4863e5d30ab"
+	"logo_small" "c47a0323c4b24644c116991846c9c4863e5d30ab_thumb"
+	"icon" "42df7cb683aa4747ede561725bfe0f13dc6a04b9"
+	"clienttga" "19ea6f7f716c2601fa3085dcb03e6c067b97014f"
+	"clienticon" "87574aed45ec6753963e09e27ad19ecfec87f3c9"
+	"releasestate" "released"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1691107200"
+		"tested_build_id" "3214211"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Titanic VR"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1534427422"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Immersive VR Education Ltd"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Immersive VR Education Ltd"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "1"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1534434306"
+	"community_hub_visible" "1"
+	"gameid" "741430"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "19"
+		"2" "21978"
+		"3" "9157"
+	}
+	"review_score" "8"
+	"review_percentage" "82"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Immersive VR Education Ltd"
+	"publisher" "Immersive VR Education Ltd"
+	"homepage" "http://www.titanicvr.io"
+}
+"config"
+{
+	"installdir" "Titanic VR"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TitanicVR.exe"
+			"description" "in monitor mode"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "TitanicVR.exe"
+			"description" "with SteamVR"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "TitanicVR.exe"
+			"description" "with Oculus"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"741431"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4282123843272177713"
+				"size" "13948949111"
+				"download" "6468676032"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "A20D6613D4D80EB720DA0F9D88CFE58C"
+				"size" "E5DBBC688E14343BB2CD2029BDE65D6A"
+				"download" "27ACB7DEB97DEC5E8DC32D3215D7B11F"
+			}
+			"legacy"
+			{
+				"gid" "2A7DAB0AE4AC382928B8FD85C5600C24"
+				"size" "7E4D73F6EFEB3BF6E707931336E341F3"
+				"download" "FEE1D056BC8EE0B0B1A6F0C0BDFB8EF5"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3214211"
+			"timeupdated" "1539615173"
+		}
+		"beta"
+		{
+			"buildid" "3037484"
+			"pwdrequired" "1"
+			"timeupdated" "1534415737"
+		}
+		"legacy"
+		{
+			"buildid" "2444885"
+			"pwdrequired" "1"
+			"timeupdated" "1535117295"
+		}
+	}
+}
