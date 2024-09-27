@@ -1,0 +1,236 @@
+"appid" "29160"
+"common"
+{
+	"name" "Blueberry Garden"
+	"logo" "982baa3875301b85d08c8657e22a4f05a5dcad14"
+	"logo_small" "982baa3875301b85d08c8657e22a4f05a5dcad14_thumb"
+	"icon" "218364b17216bf6af8eca3ce4184552af9c6811b"
+	"clienticon" "81e07a5fa826200f3ae83060e0c8e3266470ae20"
+	"clienttga" "b43baccab99375d3b912afdf93b91b1ce7781e78"
+	"clienticns" "2b028eb288597e551936ffcc0b00d4942605b148"
+	"linuxclienticon" "8786dd6012764465b0450bdf4b14223548c46814"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"osextended" "macos64"
+	"type" "game"
+	"metacritic_name" "Blueberry Garden"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Erik Svedäng"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Erik Svedäng AB"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1244656800"
+	"metacritic_score" "68"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/blueberry-garden\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "29160"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "4234"
+		"3" "1664"
+	}
+	"review_score" "6"
+	"review_percentage" "77"
+}
+"extended"
+{
+	"developer" "Erik Svedäng"
+	"disableoverlay" "1"
+	"gamedir" "Blueberry Garden"
+	"homepage" "http://www.eriksvedang.com/blueberrygarden"
+	"icon" ""
+	"installscript" "29160_install.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "29161"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"developer_url" "http://www.eriksvedang.com"
+	"publisher" "Erik Svedäng AB"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Blueberry Garden"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "BlueberryGarden.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "./BlueberryGarden"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "Blueberry Garden.app/Contents/MacOS/BlueberryGarden"
+			"description" "Launch"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"2672200674"
+		{
+			"controller_type" "controller_switch_pro"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+		"2672203815"
+		{
+			"controller_type" "controller_xbox360"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+		"2672204806"
+		{
+			"controller_type" "controller_ps4"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+		"2672205710"
+		{
+			"controller_type" "controller_steamcontroller_gordon"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+	"steamconfigurator3rdpartynative" "65535"
+}
+"depots"
+{
+	"overridescddb" "1"
+	"29161"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7722392261850589317"
+				"size" "96126189"
+				"download" "0"
+			}
+			"linux32"
+			{
+				"gid" "7722392261850589317"
+				"size" "96126189"
+				"download" "0"
+			}
+		}
+	}
+	"29162"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1282994646699691350"
+				"size" "85269694"
+				"download" "17816288"
+			}
+			"linux32"
+			{
+				"gid" "3180662261230471532"
+				"size" "97482768"
+				"download" "24372400"
+			}
+		}
+	}
+	"29163"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1897866451486879991"
+				"size" "97916880"
+				"download" "20624016"
+			}
+			"linux32"
+			{
+				"gid" "5891833321826827408"
+				"size" "80757125"
+				"download" "17565248"
+			}
+		}
+	}
+	"markdlcdepots" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "7350850"
+			"timeupdated" "1631549812"
+		}
+		"linux32"
+		{
+			"buildid" "791174"
+			"description" "32-bit Linux (Legacy)"
+			"timeupdated" "1609453761"
+		}
+	}
+}
