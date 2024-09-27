@@ -1,0 +1,259 @@
+"appid" "1413210"
+"common"
+{
+	"name" "The Cassir Simulator"
+	"type" "Game"
+	"clienttga" "bcba60cf9781baac8dcf494bc420a596fc557131"
+	"clienticon" "4b508814a27cd46ff69d9e0295823c833bc860bb"
+	"icon" "627ed44c2b2cba89dcd2640d320413a34da00e71"
+	"logo" "992c019f9097464f65b410bd5323a5b9899ed5d2"
+	"logo_small" "992c019f9097464f65b410bd5323a5b9899ed5d2_thumb"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"releasestate" "released"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "80.09478672985779"
+			"height_pct" "59.515633471895896"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "UpperCenter"
+				"width_pct" "80.09478672985779"
+				"height_pct" "59.515633471895896"
+			}
+		}
+	}
+	"store_asset_mtime" "1619650821"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Maxim Abramov"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Maxim Abramov"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1601449200"
+	"steam_release_date" "1601290165"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1413210"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "599"
+		"2" "1773"
+		"3" "1662"
+		"4" "1716"
+		"5" "3959"
+		"6" "4191"
+		"7" "3839"
+		"8" "492"
+		"9" "3964"
+		"10" "1759"
+		"11" "8945"
+		"12" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "Maxim Abramov"
+	"publisher" "Maxim Abramov"
+}
+"config"
+{
+	"installdir" "The Cassir Simulator"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "CassirSimulator.exe"
+			"description" "64-bit"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "CassirSimulator.exe"
+			"description" "32-bit"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"baselanguages" "english,russian"
+	"1413211"
+	{
+		"config"
+		{
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4258889628856320548"
+				"size" "705020930"
+				"download" "114536000"
+			}
+		}
+	}
+	"1413212"
+	{
+		"config"
+		{
+			"osarch" "32"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5189166861939218386"
+				"size" "670514007"
+				"download" "92602624"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "7999136"
+			"timeupdated" "1641865202"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "10"
+	"appidredirect" "1413210"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Engine"
+			"pattern" "*.sav"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" ""
+		}
+	}
+}
