@@ -1,0 +1,227 @@
+"appid" "431230"
+"common"
+{
+	"name" "Tiny Guardians"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"icon" "42b099bcd9086a5c29ef0deb38495a5c6fbbe1b8"
+	"logo" "97fe5cb2640e3b8a6a44f75ef97e3ea3634aea0c"
+	"logo_small" "97fe5cb2640e3b8a6a44f75ef97e3ea3634aea0c_thumb"
+	"clienttga" "41de365d24adb6d66e969ef60498cbfbca9122a2"
+	"clienticon" "6b3087f897db91ff1b7e985c6dc524cecb1431dc"
+	"clienticns" "19fcd9207690ae12b4f0326e62fa7244cb310a1f"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1666656000"
+		"tested_build_id" "1108996"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Tiny Guardians"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1456208647"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Kurechii"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Kurechii"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_25" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1458802800"
+	"steam_release_date" "1458795275"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "431230"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "9"
+		"2" "21"
+		"3" "1645"
+	}
+	"review_score" "8"
+	"review_percentage" "81"
+}
+"extended"
+{
+	"developer" "Kurechii"
+	"publisher" "Kurechii"
+	"homepage" "http://tinyguardians.com"
+	"listofdlc" "448270"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Tiny Guardians"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "tiny_guardians.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "tiny_guardians.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" ""
+	"431231"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6870093865786658128"
+				"size" "768550175"
+				"download" "235602736"
+			}
+		}
+	}
+	"431232"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7115662816538326886"
+				"size" "811909929"
+				"download" "247381872"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1108996"
+			"timeupdated" "1463020434"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "3"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Kurechii/Tiny Guardians"
+			"pattern" "*.xml"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Kurechii/Tiny Guardians"
+					"replace" "unity.Kurechii.Tiny Guardians"
+				}
+			}
+		}
+	}
+}
