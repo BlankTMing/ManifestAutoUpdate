@@ -1,0 +1,531 @@
+"appid" "465490"
+"common"
+{
+	"name" "Stellar Tactics"
+	"type" "Game"
+	"oslist" "windows"
+	"logo" "c03b53c9e50317359b9737eb71c85eda56e82ea5"
+	"logo_small" "c03b53c9e50317359b9737eb71c85eda56e82ea5_thumb"
+	"icon" "275988ff240f1321c960085478e346b03a6a4706"
+	"clienttga" "2bbab58fc123f8f5c68a18e4938956c36fdb5114"
+	"clienticon" "5a7639f07dfca9278d0de220cacd6cecad547d63"
+	"releasestate" "released"
+	"osarch" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1655164800"
+		"tested_build_id" "8308903"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DeviceCompatibilityWarningsShown"
+			}
+			"5"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Stellar Tactics"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "48.318739374724466"
+			"height_pct" "85.31881416611155"
+		}
+	}
+	"store_asset_mtime" "1702665829"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Maverick Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Maverick Games"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "3"
+		"3" "2"
+		"4" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1474602644"
+	"community_hub_visible" "1"
+	"gameid" "465490"
+	"store_tags"
+	{
+		"0" "4474"
+		"1" "122"
+		"2" "4747"
+		"3" "10695"
+		"4" "21725"
+		"5" "4325"
+		"6" "1695"
+		"7" "5851"
+		"8" "3810"
+		"9" "3835"
+		"10" "14139"
+		"11" "3942"
+		"12" "4182"
+		"13" "1755"
+		"14" "493"
+		"15" "492"
+		"16" "1677"
+		"17" "21"
+		"18" "9"
+		"19" "3834"
+	}
+	"review_score" "8"
+	"review_percentage" "81"
+}
+"extended"
+{
+	"developer" "Maverick Games"
+	"publisher" "Maverick Games"
+	"homepage" "http://www.stellartactics.com"
+	"listofdlc" "1641980"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Stellar Tactics"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "StellarTactics.exe"
+			"arguments" "Abyss.stk"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Abyss.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "StellarTactics.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228984"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229020"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"465491"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8307542700223109387"
+				"size" "8710063376"
+				"download" "8727731312"
+			}
+			"publictest"
+			{
+				"gid" "8307542700223109387"
+				"size" "8710063376"
+				"download" "8727731312"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devbranch"
+			{
+				"gid" "765D564F9635141E99F16D9A2919378B"
+				"size" "24819C91BA01E9FB2A8AF9FEE85873C0"
+				"download" "A7B219F31C980C6A690DE14785C51DAE"
+			}
+			"testing"
+			{
+				"gid" "B7F31B3E2DF877532C7B2F88580A468E"
+				"size" "38A3E531F20973D0B06DA7F87AC5C1B5"
+				"download" "E9EFD126A4F8F857F919902E86C4828F"
+			}
+		}
+	}
+	"465492"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6097175170327164923"
+				"size" "8707278232"
+				"download" "8725595312"
+			}
+			"publictest"
+			{
+				"gid" "6097175170327164923"
+				"size" "8707278232"
+				"download" "8725595312"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devbranch"
+			{
+				"gid" "0A411965EC083ACF164BBA56BAA0CE07"
+				"size" "7233CFC6FA676D4D0F3BC91EF860C566"
+				"download" "438F975AD2327FB5FA3374942309EE19"
+			}
+			"testing"
+			{
+				"gid" "75DCFC9C5E3C12912A8223DFD7F84C27"
+				"size" "7F616D4F84838C7AE11311BEB85C1DF2"
+				"download" "0C0A54DC726178D6E4EE5B5BAEBFDB6F"
+			}
+		}
+	}
+	"465493"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5560543986092231887"
+				"size" "6725225917"
+				"download" "6682452416"
+			}
+			"publictest"
+			{
+				"gid" "5560543986092231887"
+				"size" "6725225917"
+				"download" "6682452416"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devbranch"
+			{
+				"gid" "EDB681866A24680F0ACA49C2E9D477D0"
+				"size" "1A6A1CEE04A09AF633EEE92B567E0396"
+				"download" "C3E22B84D822F12123358FBEA7B4769A"
+			}
+			"testing"
+			{
+				"gid" "C73C8697AE20D9700B6F4A8D8B35214A"
+				"size" "719EEA1CC1A26F327C92E29D2DFD764E"
+				"download" "0C4C9AB2B5458D93B2DB16E72DD5A60C"
+			}
+		}
+	}
+	"465494"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "919032696574385250"
+				"size" "6572125650"
+				"download" "6536178736"
+			}
+			"publictest"
+			{
+				"gid" "919032696574385250"
+				"size" "6572125650"
+				"download" "6536178736"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devbranch"
+			{
+				"gid" "3E5C207189C96A4FC9AECAE7A5A54989"
+				"size" "F3EAF4229FCBAFC9871FFB7D6C2ABE8F"
+				"download" "6CAC9201E9A6D7DE6C030C277CACC0DB"
+			}
+			"testing"
+			{
+				"gid" "A3E197F4432B8F9B45B7256ADF12C26D"
+				"size" "FBCC219AC0A2A1A5F9D308C168FA5E49"
+				"download" "2F1D08FAFE527F5C8DF2AC8FD3C647F3"
+			}
+		}
+	}
+	"1641980"
+	{
+		"dlcappid" "1641980"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "721555744058633319"
+				"size" "211295582"
+				"download" "114758656"
+			}
+			"publictest"
+			{
+				"gid" "721555744058633319"
+				"size" "211295582"
+				"download" "114758656"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devbranch"
+			{
+				"gid" "4FC3B58FEA47995AFEF666EA73E54788"
+				"size" "3547C8F1B6E9885531A9ADCD826687C7"
+				"download" "4645D9CF4D95C3194CEC02FE26E669D3"
+			}
+			"testing"
+			{
+				"gid" "5198DD509E785922A9DA0D58552F74CE"
+				"size" "0B5ED02E1D390601A57151B0CD57DE9C"
+				"download" "A3E97AC9AEE599E11F6BA23BC6E0EBC0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13417599"
+			"timeupdated" "1707505918"
+		}
+		"devbranch"
+		{
+			"buildid" "13417599"
+			"pwdrequired" "1"
+			"timeupdated" "1707503224"
+		}
+		"publictest"
+		{
+			"buildid" "13417599"
+			"description" "Public Testing Branch"
+			"timeupdated" "1707505868"
+		}
+		"testing"
+		{
+			"buildid" "13417599"
+			"pwdrequired" "1"
+			"timeupdated" "1707505882"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Save"
+			"pattern" "*.sts"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "sav_dat.xml"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "Save"
+			"pattern" "*.sts"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "."
+			"pattern" "sav_dat.xml"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
