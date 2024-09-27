@@ -1,0 +1,231 @@
+"appid" "576030"
+"common"
+{
+	"name" "MHRD"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"clienticon" "0bc67287d80c202514342ca753314eb01e8c0ac2"
+	"clienttga" "ab4f1beee4e1ec93c0ac2de2111e94ba43b43564"
+	"icon" "b06e46f64e7392fb166a47b241fe64670ef55212"
+	"clienticns" "fca240e3dc66bfe72fe4fd89d8738725a8296b1a"
+	"linuxclienticon" "a5c033e5524d6a3069f2691265b06be7d17fe10e"
+	"logo" "572e4dc9d25b8c35e404b0c6eb1c93462882fbe0"
+	"logo_small" "572e4dc9d25b8c35e404b0c6eb1c93462882fbe0_thumb"
+	"osextended" "macos64"
+	"metacritic_name" "MHRD"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1667122800"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Funghisoft"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Funghisoft"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1483604830"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "576030"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "492"
+		"2" "5432"
+		"3" "1664"
+		"4" "1036"
+		"5" "1674"
+		"6" "4026"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "Funghisoft"
+	"publisher" "Funghisoft"
+}
+"config"
+{
+	"installdir" "MHRD"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "MHRD.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "mhrd"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "mhrd.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"576031"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5030465315577490063"
+				"size" "115876957"
+				"download" "37255168"
+			}
+			"beta"
+			{
+				"gid" "5030465315577490063"
+				"size" "115876957"
+				"download" "37255168"
+			}
+		}
+	}
+	"576032"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8095994805620451904"
+				"size" "119068429"
+				"download" "37298080"
+			}
+			"beta"
+			{
+				"gid" "8095994805620451904"
+				"size" "119068429"
+				"download" "37298080"
+			}
+		}
+	}
+	"576033"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8790843105756004236"
+				"size" "92035750"
+				"download" "24975616"
+			}
+			"beta"
+			{
+				"gid" "8790843105756004236"
+				"size" "92035750"
+				"download" "24975616"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1609067"
+			"timeupdated" "1486147362"
+		}
+		"beta"
+		{
+			"buildid" "1609067"
+			"timeupdated" "1486146922"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "userdata/"
+			"pattern" "savestate"
+		}
+	}
+}
