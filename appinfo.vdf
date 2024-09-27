@@ -1,0 +1,215 @@
+"appid" "2707300"
+"common"
+{
+	"name" "Cosmic Collapse"
+	"type" "Game"
+	"releasestate" "released"
+	"icon" "e8b7b740d3b1780bee8f4790e6d95e6b9436f881"
+	"clienticon" "a9467bd4efec8e0eb79a906a1eb3fac73928f7c3"
+	"clienttga" "8c8dcb0f46f1c0b9035b27df9f30e3c4f0578a2c"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64,macosapplesilicon"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1706140800"
+		"tested_build_id" "12900114"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"controllertagwizard" "1"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "80.89244851258582"
+			"height_pct" "54.17952980289717"
+		}
+	}
+	"store_asset_mtime" "1702281489"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Apskeppet"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Apskeppet"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1705044031"
+	"community_hub_visible" "1"
+	"gameid" "2707300"
+	"store_tags"
+	{
+		"0" "1664"
+		"1" "1773"
+		"2" "597"
+		"3" "4305"
+		"4" "5350"
+		"5" "4182"
+		"6" "3964"
+		"7" "3968"
+		"8" "1654"
+		"9" "5154"
+		"10" "599"
+		"11" "4252"
+		"12" "4166"
+		"13" "4726"
+		"14" "4004"
+		"15" "3871"
+		"16" "7481"
+		"17" "4711"
+		"18" "492"
+		"19" "1755"
+	}
+	"review_score" "8"
+	"review_percentage" "100"
+}
+"extended"
+{
+	"developer" "Apskeppet"
+	"publisher" "Apskeppet"
+	"homepage" "https://apskeppet.se"
+}
+"config"
+{
+	"installdir" "Cosmic Collapse"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "cosmic_collapse-1.2.1_windows/cosmic_collapse-1.2.1.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "cosmic_collapse-1.2.1.app/Contents/MacOS/cosmic_collapse-1.2.1"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"2707302"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2734524743638705823"
+				"size" "2496430"
+				"download" "842576"
+			}
+		}
+	}
+	"2707303"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7304955418901059264"
+				"size" "11032197"
+				"download" "1285792"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12900114"
+			"timeupdated" "1701950964"
+		}
+	}
+}
