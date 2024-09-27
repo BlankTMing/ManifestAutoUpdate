@@ -1,0 +1,218 @@
+"appid" "569200"
+"common"
+{
+	"name" "Space Rogue Classic"
+	"type" "Game"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"logo" "939178d13511e2bd1037b3e1f56e65e8a8660884"
+	"logo_small" "939178d13511e2bd1037b3e1f56e65e8a8660884_thumb"
+	"clienticon" "58b7eaac81ac248c8796affa9f5a9c87db369f36"
+	"clienttga" "f9f4b154789e2e52b37594457462ece30d66be91"
+	"icon" "f6f93268e6b90bdcff5960a50ccbfaecbe866dd8"
+	"linuxclienticon" "a1e66c6cdf5a9bfdee7755a771def544f3a56adb"
+	"releasestate" "released"
+	"metacritic_name" "Space Rogue Classic"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1569375375"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "ORIGIN Systems, Inc."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "ORIGIN Systems, Inc."
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Nightdive Studios"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "3"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "599644800"
+	"steam_release_date" "1490725064"
+	"community_hub_visible" "1"
+	"gameid" "569200"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "19"
+		"2" "599"
+		"3" "1693"
+		"4" "1755"
+	}
+	"review_score" "7"
+	"review_percentage" "100"
+}
+"extended"
+{
+	"developer" "ORIGIN Systems, Inc."
+	"publisher" "ORIGIN Systems, Inc."
+	"homepage" "http://www.nightdivestudios.com"
+	"gamemanualurl" "https://store.steampowered.com/manual/569200/"
+}
+"config"
+{
+	"installdir" "Space Rogue Classic"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "dosbox_windows\\dosbox.exe"
+			"arguments" "-conf dosbox_src.conf -conf dosbox_src_launch_windows.conf -noconsole"
+			"workingdir" "dosbox_windows\\"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "dosbox_windows\\daum\\dosbox.exe"
+			"arguments" "-conf dosbox_src.conf -conf dosbox_src_launch_windows.conf -noconsole"
+			"workingdir" "dosbox_windows\\daum\\"
+			"description" "Play Space Rogue Classic in DOSBox Daum"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "dosbox_linux\\launch_src_game.sh"
+			"workingdir" "dosbox_linux\\"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "dosbox_linux\\daum\\launch_src_game_daum.sh"
+			"workingdir" "dosbox_linux\\daum\\"
+			"description" "Play Space Rogue Classic in DOSBox Daum"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"569201"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "879850507984492405"
+				"size" "13039337"
+				"download" "12558016"
+			}
+		}
+	}
+	"569202"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1360610856977843797"
+				"size" "30255898"
+				"download" "13021248"
+			}
+		}
+	}
+	"569203"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1734809189609909690"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"569204"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6257645254438933827"
+				"size" "18798378"
+				"download" "8161760"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1522806"
+			"timeupdated" "1481845678"
+		}
+	}
+}
