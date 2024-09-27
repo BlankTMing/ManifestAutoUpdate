@@ -1,0 +1,215 @@
+"appid" "2095180"
+"common"
+{
+	"name" "Numeral Lord"
+	"type" "Game"
+	"clienttga" "606d17dc5e22ad76de9411f85cf4fbd56b2294cb"
+	"linuxclienticon" "1da2acbc1ec62afdc9e93e7b74032362fd0e06eb"
+	"icon" "1701e398b27d0280ab2f8cbb38027465270f1895"
+	"clienticon" "92bbf6c81a236dbffff57b08808ef8b0261eac93"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"releasestate" "released"
+	"name_localized"
+	{
+		"schinese" "数字领主"
+	}
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "31.855527957525396"
+			"height_pct" "54.70529895247896"
+		}
+	}
+	"store_asset_mtime" "1665842071"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Flint Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Flint Games"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "2"
+		"3" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_47" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1665794799"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "2095180"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "9"
+		"2" "1741"
+		"3" "4094"
+		"4" "1775"
+		"5" "3859"
+		"6" "3871"
+		"7" "1670"
+		"8" "493"
+		"9" "492"
+		"10" "1708"
+		"11" "14139"
+		"12" "1717"
+	}
+	"review_score" "8"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"developer" "Flint Games"
+	"publisher" "Flint Games"
+}
+"config"
+{
+	"installdir" "Numeral Lord"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "NumeralLord.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"2095181"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9111103725268591709"
+				"size" "139133297"
+				"download" "34383312"
+			}
+		}
+	}
+	"workshopdepot" "2095180"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10520148"
+			"timeupdated" "1675996810"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "FlintGames/NumeralLord"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "FlintGames/NumeralLord"
+					"replace" "unity.FlintGames.NumeralLord"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "FlintGames/NumeralLord"
+					"replace" ".config/unity3d/FlintGames/NumeralLord"
+				}
+			}
+		}
+	}
+}
