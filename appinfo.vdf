@@ -1,0 +1,329 @@
+"appid" "264080"
+"common"
+{
+	"name" "Vangers"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"linuxclienticon" "8d47f20d28107c2c3047256d6e5c7dae32af2b0a"
+	"clienticon" "7308567fa9759e71ca0f22e68aadd47a23740b2b"
+	"clienttga" "83c1a9121154e6d248ba4ef4508f061c544a8811"
+	"icon" "ef424f97ac5e5c96b6a59cd1bffa58c06865528d"
+	"clienticns" "3bee7e59eda6bc5e51c075b3b3144185ae9550d9"
+	"logo" "da41604cda1522b7146b66245e37bb5048ebebef"
+	"logo_small" "da41604cda1522b7146b66245e37bb5048ebebef_thumb"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1691798400"
+		"tested_build_id" "10858768"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"russian" "capsule_231x87_russian.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"russian" "header_russian.jpg"
+	}
+	"store_asset_mtime" "1668149661"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "K-D Lab"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Association K-D Lab"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "9"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "898239600"
+	"steam_release_date" "1398369996"
+	"community_hub_visible" "1"
+	"gameid" "264080"
+	"store_tags"
+	{
+		"0" "699"
+		"1" "21"
+		"2" "19"
+		"3" "1714"
+		"4" "4166"
+		"5" "492"
+		"6" "1693"
+		"7" "1732"
+		"8" "1710"
+		"9" "1742"
+		"10" "1695"
+		"11" "122"
+		"12" "3942"
+		"13" "4004"
+		"14" "4791"
+		"15" "1756"
+		"16" "4182"
+		"17" "3810"
+		"18" "1721"
+		"19" "4026"
+	}
+	"review_score" "8"
+	"review_percentage" "92"
+}
+"extended"
+{
+	"developer" "K-D Lab"
+	"publisher" "Association K-D Lab"
+	"homepage" "https://univang.space"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Vangers"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "bin/Vangers.app/Contents/MacOS/Vangers"
+			"workingdir" "data"
+			"description" "OSX"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "bin/linux/vangers32"
+			"description" "Russian Linux 32bit"
+			"workingdir" "data"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "bin/linux/vangers64"
+			"description" "Russian Linux 64bit"
+			"workingdir" "data"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"4"
+		{
+			"executable" "bin/windows-64/vangers.exe"
+			"workingdir" "data"
+			"description" "win64"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"5"
+		{
+			"executable" "bin/windows-32/vangers.exe"
+			"workingdir" "data"
+			"description" "win32"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" "english,russian"
+	"markdlcdepots" "1"
+	"workshopdepot" "264080"
+	"264084"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2107099225693929061"
+				"size" "465150469"
+				"download" "267197712"
+			}
+			"beta"
+			{
+				"gid" "2107099225693929061"
+				"size" "465150469"
+				"download" "267197712"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"3dgame"
+			{
+				"gid" "39532621AAAB285F7821FD3FE7162096"
+				"size" "882BE4F2FDDC158646CF5B561B873CF0"
+				"download" "FFFC9420A393D998CEDBD95A47D281AA"
+			}
+			"alpha"
+			{
+				"gid" "ECBC73FAA6C892CE1D326E3ACA3F9768"
+				"size" "20C7289CA63A4809D1382EFF88A35319"
+				"download" "7923BB14140E3266E0D6270BE5FCD927"
+			}
+			"github"
+			{
+				"gid" "51BCA9B013E5BA837020570BD7EA6F84"
+				"size" "79CA73BB4FFFCD5AFE66EA91841EB476"
+				"download" "537BEF243EAF3354875F154997001C25"
+			}
+			"workshop"
+			{
+				"gid" "E0CB0E8504345230DEF801F83991024D"
+				"size" "E6957AA15B5762285E5C2BB426CA06CB"
+				"download" "A2B3621ED0804554ECEF78B22B1DD571"
+			}
+		}
+	}
+	"2879950"
+	{
+		"dlcappid" "2879950"
+	}
+	"hasdepotsindlc" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13324557"
+			"timeupdated" "1709440613"
+		}
+		"3dgame"
+		{
+			"buildid" "13258601"
+			"pwdrequired" "1"
+			"timeupdated" "1706093984"
+		}
+		"alpha"
+		{
+			"buildid" "13219569"
+			"pwdrequired" "1"
+			"timeupdated" "1705673838"
+		}
+		"beta"
+		{
+			"buildid" "13324557"
+			"description" "testing pre-release features here"
+			"timeupdated" "1706707171"
+		}
+		"github"
+		{
+			"buildid" "13324557"
+			"pwdrequired" "1"
+			"timeupdated" "1706707008"
+		}
+		"workshop"
+		{
+			"buildid" "13264077"
+			"pwdrequired" "1"
+			"timeupdated" "1706130989"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "data/savegame/"
+			"pattern" "*.dat"
+		}
+	}
+}
