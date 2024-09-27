@@ -1,0 +1,266 @@
+"appid" "655480"
+"common"
+{
+	"name" "Solar Settlers"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "2e58d1234e136aa8910ced001b472caa9f776783"
+	"logo_small" "2e58d1234e136aa8910ced001b472caa9f776783_thumb"
+	"icon" "279bd21dcfcf2866ccf253dd69ef3e709f1297ba"
+	"clienticon" "a0f35a475b5df0391ad606c5f77ee1efce1ab2ce"
+	"clienttga" "8dc42b9832c3aeae2b2d1e7d5428ed0a4887daf0"
+	"clienticns" "dc6fae89b92acb3fa4b68c340452c36f34e27fe0"
+	"linuxclienticon" "c648b126c2fe416db7242f49394883dc71b6f7db"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"osextended" "macos64,macosapplesilicon"
+	"metacritic_name" "Solar Settlers"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "41.48191365227538"
+			"height_pct" "65.958204701971"
+		}
+	}
+	"store_asset_mtime" "1570122518"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "BrainGoodGames"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "BrainGoodGames"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1500652805"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "655480"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "1666"
+		"2" "1677"
+		"3" "1770"
+		"4" "1664"
+		"5" "1755"
+		"6" "5125"
+		"7" "492"
+		"8" "1741"
+		"9" "3942"
+	}
+	"review_score" "8"
+	"review_percentage" "96"
+}
+"extended"
+{
+	"developer" "BrainGoodGames"
+	"publisher" "BrainGoodGames"
+	"homepage" "http://www.braingoodgames.com"
+}
+"config"
+{
+	"installdir" "Solar Settlers"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "solar.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "solar.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "solar.x86_64"
+			"arguments" "-force-opengl -show-screen-selector"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "solar.x86"
+			"arguments" "-force-opengl -show-screen-selector"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+	}
+}
+"depots"
+{
+	"655481"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2163404338611665782"
+				"size" "430232235"
+				"download" "77224848"
+			}
+			"beta"
+			{
+				"gid" "4422585145417044916"
+				"size" "430233392"
+				"download" "77221440"
+			}
+		}
+	}
+	"655482"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7024790737687280118"
+				"size" "453593730"
+				"download" "84580192"
+			}
+			"beta"
+			{
+				"gid" "7024790737687280118"
+				"size" "453593730"
+				"download" "84580192"
+			}
+		}
+	}
+	"655483"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5465274351675343766"
+				"size" "455058523"
+				"download" "85706416"
+			}
+			"beta"
+			{
+				"gid" "5465274351675343766"
+				"size" "455058523"
+				"download" "85706416"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11022046"
+			"timeupdated" "1681823039"
+		}
+		"beta"
+		{
+			"buildid" "12620856"
+			"timeupdated" "1699127484"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "40"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "solar_Data/SavesDir"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "solar.app/Contents/SavesDir"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "solar_Data/SavesDir"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+			"recursive" "1"
+		}
+	}
+}
