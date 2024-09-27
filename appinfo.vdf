@@ -1,0 +1,235 @@
+"appid" "1042330"
+"common"
+{
+	"name" "Tricky Cat"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"icon" "b22df672e546b7b5dc7108aa273ed6a247a0a83f"
+	"logo" "9316ec07879373c98979d54327140975f56bba83"
+	"logo_small" "9316ec07879373c98979d54327140975f56bba83_thumb"
+	"clienttga" "fa0e23d5bb813ed726c41ba0feee46a54e5fbbf2"
+	"clienticon" "9272e5f37b2f66c337c9d42a43c051038d67b92c"
+	"metacritic_name" "Tricky Cat"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1667116922"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "NanningsGames"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "NanningsGames"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Tricky"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Nannings"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1552720975"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1042330"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "4182"
+		"2" "1664"
+		"3" "1756"
+		"4" "3871"
+		"5" "5537"
+		"6" "7481"
+		"7" "7948"
+		"8" "1625"
+		"9" "4094"
+		"10" "5350"
+		"11" "1773"
+		"12" "19"
+		"13" "492"
+		"14" "4234"
+		"15" "4305"
+		"16" "5411"
+		"17" "7250"
+		"18" "1733"
+		"19" "1734"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "NanningsGames"
+	"publisher" "NanningsGames"
+	"homepage" "http://www.nannings.nz"
+	"listofdlc" "1043820"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Tricky Cat"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Tricky Cat.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Tricky Cat.x86_64"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1042331"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6241476642743041451"
+				"size" "151572013"
+				"download" "25379824"
+			}
+		}
+	}
+	"1043820"
+	{
+		"dlcappid" "1043820"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2138548110245319656"
+				"size" "266224296"
+				"download" "249003152"
+			}
+		}
+		"config"
+		{
+			"optionaldlc" "1043820"
+		}
+	}
+	"1042332"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8036272547357509513"
+				"size" "155986491"
+				"download" "26485168"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9852186"
+			"timeupdated" "1667383940"
+		}
+	}
+	"appmanagesdlc" "1"
+}
+"ufs"
+{
+	"quota" "10000"
+	"maxnumfiles" "2"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "NanningsGames/Tricky Cat/Data/NanningsGames"
+			"pattern" "savedata.binary"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "NanningsGames/Tricky Cat/Data/NanningsGames"
+					"replace" ".config/unity3d/NanningsGames/Tricky Cat/Data/NanningsGames"
+				}
+			}
+		}
+	}
+}
