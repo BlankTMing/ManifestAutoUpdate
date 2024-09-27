@@ -1,0 +1,230 @@
+"appid" "1095370"
+"common"
+{
+	"name" "Voxel Bot"
+	"type" "Game"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"clienttga" "86e8d5ffe9222392cec131193ad6af6e9a3c82d6"
+	"clienticon" "a82636c265cadb2e8a7691ee318029a495dbbc7e"
+	"icon" "cba5fc9e34d0f9528451e267f05316193d1069ea"
+	"logo" "8eac7961f43a9461b48b85f73a83c94a8c789841"
+	"logo_small" "8eac7961f43a9461b48b85f73a83c94a8c789841_thumb"
+	"releasestate" "released"
+	"metacritic_name" "Voxel Bot"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1667117685"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "NanningsGames"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "NanningsGames"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Nannings"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1560239262"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1095370"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "597"
+		"2" "1664"
+		"3" "4400"
+		"4" "4094"
+		"5" "4182"
+		"6" "4191"
+		"7" "4305"
+		"8" "5350"
+		"9" "5851"
+		"10" "7250"
+		"11" "1621"
+		"12" "1693"
+		"13" "4166"
+		"14" "4234"
+		"15" "4726"
+		"16" "7481"
+		"17" "1756"
+		"18" "7948"
+	}
+	"review_score" "7"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "NanningsGames"
+	"publisher" "NanningsGames"
+	"homepage" "http://www.nannings.nz"
+	"listofdlc" "1102450"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Voxel Bot"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Voxel Bot.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Voxel Bot.x86_64"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+}
+"depots"
+{
+	"1095371"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "306109113929251005"
+				"size" "168575849"
+				"download" "41120208"
+			}
+		}
+	}
+	"1102450"
+	{
+		"dlcappid" "1102450"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6871849557399706951"
+				"size" "266041096"
+				"download" "224274944"
+			}
+		}
+		"config"
+		{
+			"optionaldlc" "1102450"
+		}
+	}
+	"1095372"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7931918198825471061"
+				"size" "179811690"
+				"download" "42891136"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9843847"
+			"timeupdated" "1667297018"
+		}
+	}
+	"appmanagesdlc" "1"
+}
+"ufs"
+{
+	"quota" "10000"
+	"maxnumfiles" "2"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "NanningsGames/Voxel Bot"
+			"pattern" "savedata"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "NanningsGames/Voxel Bot"
+					"replace" ".config/unity3d/NanningsGames/Voxel Bot"
+				}
+			}
+		}
+	}
+}
