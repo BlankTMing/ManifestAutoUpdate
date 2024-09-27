@@ -1,0 +1,243 @@
+"appid" "2230220"
+"common"
+{
+	"name" "Wilderless"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64,macosnotarized"
+	"icon" "5d9a00a18fccde13be40021caf8c18c16eebfc84"
+	"clienttga" "445cd5a9da8e919ecc47f50fc5f461db45a463eb"
+	"clienticon" "e932847e9b68598b079bef1e6021736313c1581c"
+	"clienticns" "6d2c1786475679fd20f546ceebdb03ad40d2e554"
+	"releasestate" "released"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "61.81533646322379"
+			"height_pct" "48.95833333333334"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "61.81533646322379"
+				"height_pct" "48.95833333333334"
+			}
+		}
+	}
+	"store_asset_mtime" "1692498408"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Protopop"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Protopop"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1673317439"
+	"community_hub_visible" "1"
+	"gameid" "2230220"
+	"store_tags"
+	{
+		"0" "5125"
+		"1" "1695"
+		"2" "30358"
+		"3" "599"
+		"4" "3834"
+		"5" "1654"
+		"6" "3810"
+		"7" "5900"
+		"8" "1684"
+		"9" "4166"
+		"10" "122"
+		"11" "4191"
+		"12" "15045"
+		"13" "6041"
+		"14" "44868"
+		"15" "4747"
+		"16" "7481"
+		"17" "492"
+		"18" "4182"
+		"19" "96359"
+	}
+	"review_score" "6"
+	"review_percentage" "79"
+}
+"extended"
+{
+	"developer" "Protopop"
+	"publisher" "Protopop"
+	"homepage" "http://nimianlegends.com"
+}
+"config"
+{
+	"installdir" "Wilderless"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "release/Wilderless.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Wilderless for Windows"
+			}
+			"description" "Wilderless for Windows"
+		}
+		"1"
+		{
+			"executable" "wilderless/wilderless.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "Wilderless for Mac"
+			}
+			"description" "Wilderless for Mac"
+		}
+	}
+}
+"depots"
+{
+	"2230221"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1497341007440681311"
+				"size" "227022735"
+				"download" "150880304"
+			}
+			"beta"
+			{
+				"gid" "1497341007440681311"
+				"size" "227022735"
+				"download" "150880304"
+			}
+		}
+	}
+	"2230222"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5089938984788210145"
+				"size" "253467500"
+				"download" "160054496"
+			}
+			"beta"
+			{
+				"gid" "5089938984788210145"
+				"size" "253467500"
+				"download" "160054496"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13833922"
+			"timeupdated" "1713015664"
+		}
+		"beta"
+		{
+			"buildid" "13833922"
+			"description" "Wilderless Beta Test"
+			"timeupdated" "1711230222"
+		}
+	}
+}
