@@ -1,0 +1,371 @@
+"appid" "1256230"
+"common"
+{
+	"name" "Hyperbolica"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"osextended" "macos64,macosapplesilicon,macosnotarized"
+	"logo" "c9b50a66ef392d03ee77eecc136b08d192699474"
+	"logo_small" "c9b50a66ef392d03ee77eecc136b08d192699474_thumb"
+	"icon" "ec7090c43defa836b084d2a28c50143909ca44f1"
+	"clienticon" "2640c595941b3288115e2b7c71b25576b3399c59"
+	"clienttga" "6012ea81d68607ad0dfc5610e61f17101373c1fd"
+	"releasestate" "released"
+	"openxrsupport" "1"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"xinput" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+	}
+	"openvrsupport" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1650499200"
+		"tested_build_id" "8426571"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "42.577677674961365"
+			"height_pct" "87.08145333649964"
+		}
+	}
+	"store_asset_mtime" "1709754706"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "CodeParade"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "CodeParade"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1647242067"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1256230"
+	"store_tags"
+	{
+		"0" "1710"
+		"1" "3834"
+		"2" "3839"
+		"3" "21"
+		"4" "1664"
+		"5" "1695"
+		"6" "3942"
+		"7" "1714"
+		"8" "1742"
+		"9" "4136"
+		"10" "4182"
+		"11" "21978"
+		"12" "5186"
+		"13" "1719"
+		"14" "3968"
+		"15" "13782"
+		"16" "1036"
+		"17" "5395"
+		"18" "597"
+		"19" "492"
+	}
+	"review_score" "8"
+	"review_percentage" "83"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "CodeParade"
+	"publisher" "CodeParade"
+}
+"config"
+{
+	"installdir" "Hyperbolica"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Hyperbolica.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Hyperbolica.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "Hyperbolica.exe"
+			"arguments" "startXR"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "Hyperbolica.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "2"
+}
+"depots"
+{
+	"baselanguages" "english"
+	"1256232"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5372784962321487986"
+				"size" "902213919"
+				"download" "246595664"
+			}
+			"beta"
+			{
+				"gid" "5372784962321487986"
+				"size" "902213919"
+				"download" "246595664"
+			}
+			"local"
+			{
+				"gid" "7117179407390471369"
+				"size" "833933944"
+				"download" "191726976"
+			}
+			"speedrun-lts"
+			{
+				"gid" "8675196769763884461"
+				"size" "896332532"
+				"download" "246266176"
+			}
+		}
+	}
+	"1256231"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1397204239292742190"
+				"size" "910763765"
+				"download" "245183328"
+			}
+			"beta"
+			{
+				"gid" "1397204239292742190"
+				"size" "910763765"
+				"download" "245183328"
+			}
+			"speedrun-lts"
+			{
+				"gid" "7820341476727509390"
+				"size" "904419908"
+				"download" "244694864"
+			}
+		}
+	}
+	"1256233"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8659926419241925931"
+				"size" "930374655"
+				"download" "254914592"
+			}
+			"beta"
+			{
+				"gid" "8659926419241925931"
+				"size" "930374655"
+				"download" "254914592"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8675290"
+			"timeupdated" "1651692355"
+		}
+		"beta"
+		{
+			"buildid" "8675290"
+			"description" "Latest changes but with little testing."
+			"timeupdated" "1651655618"
+		}
+		"local"
+		{
+			"buildid" "8087660"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1643180819"
+		}
+		"speedrun-lts"
+		{
+			"buildid" "8426571"
+			"description" "Long term support for speedrunners, infrequent updates."
+			"timeupdated" "1648114681"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "CodeParade/Hyperbolica"
+			"pattern" "*.save"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxXdgConfigHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "CodeParade/Hyperbolica"
+					"replace" "unity3d/CodeParade/Hyperbolica"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "CodeParade/Hyperbolica"
+					"replace" "CodeParade/Hyperbolica"
+				}
+			}
+		}
+	}
+}
