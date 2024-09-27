@@ -1,0 +1,219 @@
+"appid" "2650830"
+"common"
+{
+	"name" "Crayon Computer"
+	"type" "Game"
+	"clienticon" "480f57d6a8c185c4558f1938fff6e6c04cb45341"
+	"clienttga" "c56ef0057c51500541048ff4bb74323569ee4175"
+	"icon" "d5fdc1fbaf4c1144e1d306975030c33bfc1956af"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" "macos64"
+	"name_localized"
+	{
+		"schinese" "蜡笔计算机"
+		"tchinese" "蠟筆計算機"
+	}
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "46.266044340723425"
+			"height_pct" "42.62645452386609"
+		}
+	}
+	"store_asset_mtime" "1705910811"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Artless Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Artless Games"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_25" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1708071102"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2650830"
+	"store_tags"
+	{
+		"0" "5432"
+		"1" "597"
+		"2" "599"
+		"3" "4400"
+		"4" "1664"
+		"5" "255534"
+		"6" "6815"
+		"7" "1643"
+		"8" "3968"
+		"9" "3871"
+		"10" "1036"
+		"11" "1702"
+		"12" "4182"
+	}
+	"review_score" "6"
+	"review_percentage" "75"
+}
+"extended"
+{
+	"developer" "Artless Games"
+	"publisher" "Artless Games"
+}
+"config"
+{
+	"installdir" "Crayon Computer"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "crayoncomputer.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "CrayonComputer.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"2650831"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6143777933395846418"
+				"size" "116198440"
+				"download" "69742784"
+			}
+		}
+	}
+	"2650832"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5412734668896563974"
+				"size" "197138838"
+				"download" "85869216"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13489112"
+			"timeupdated" "1708240878"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Godot/app_userdata/CrayonComputer"
+			"pattern" "*.*"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Godot/app_userdata/CrayonComputer"
+					"replace" "Godot/app_userdata/CrayonComputer"
+				}
+			}
+		}
+	}
+}
