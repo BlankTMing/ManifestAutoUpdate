@@ -1,0 +1,204 @@
+"appid" "259780"
+"common"
+{
+	"name" "Nimble Quest"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "50b783b10fca030352c69f48df57a16a62a80909"
+	"logo_small" "50b783b10fca030352c69f48df57a16a62a80909_thumb"
+	"icon" "bbaa22cddfbfc95c9089e3f922f108b0fcd86f87"
+	"clienticon" "b00905526b750bae328051996b3f76d570da892e"
+	"clienttga" "afda2f42347a12ee2ffe22ab9ca20cfd958b8254"
+	"clienticns" "b701ae77437411f45bcba8310678ffa8552a05db"
+	"linuxclienticon" "df2a2efc3b4fcad18b0e1dd4bb4f520bbc3aa911"
+	"metacritic_name" "Nimble Quest"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1383250335"
+	"associations"
+	{
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_29" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1386353820"
+	"community_hub_visible" "1"
+	"gameid" "259780"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "492"
+		"2" "19"
+		"3" "3964"
+		"4" "1773"
+		"5" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "NimbleQuest"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "NimbleQuest-Linux.x86"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"1"
+		{
+			"executable" "Nimble Quest.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "NimbleQuest.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"259782"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7145646309321793195"
+				"size" "105371692"
+				"download" "26450448"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "A7524CE99F4036245AFD45C5E3211049"
+				"size" "5AE17C00C7224230418AC487F917BB06"
+				"download" "E8F950CF5CF8A045A8B92196133ACF24"
+			}
+		}
+	}
+	"259781"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6355677360817048875"
+				"size" "134416079"
+				"download" "33257904"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "F981761DF25A581FD5DD5A055EA38A07"
+				"size" "A71A37D4FCE75865BCE5415C52CD435B"
+				"download" "061596082C2AAA3DF493AD451E29A53E"
+			}
+		}
+	}
+	"259783"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5282417015327870852"
+				"size" "98610814"
+				"download" "24640400"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "AC0584446913B62375BE4C913E44BADC"
+				"size" "8B3485FB00DC80817B1589E695E07965"
+				"download" "84678235453C5855C3CD2E7E913F1A61"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "421384"
+		}
+		"testing"
+		{
+			"buildid" "421384"
+			"pwdrequired" "1"
+		}
+	}
+}
