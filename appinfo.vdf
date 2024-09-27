@@ -1,0 +1,281 @@
+"appid" "589200"
+"common"
+{
+	"name" "Dreadhalls"
+	"type" "Game"
+	"releasestate" "released"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+		"xinput" "1"
+		"kbm" "1"
+	}
+	"playareavr"
+	{
+		"standing" "1"
+		"seated" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"oslist" "windows"
+	"osarch" "64"
+	"clienticon" "b5c5db773b3f2fc7f3625b7efc3e98c639f576a6"
+	"clienttga" "5dc9c663f018e2d1d65367bb7340552da14fe137"
+	"icon" "a9de591009c06c53d41e32293c36958e2f8dd854"
+	"logo" "1054ed79fa5ce0c16dca84fb94437a8709acf5b8"
+	"logo_small" "1054ed79fa5ce0c16dca84fb94437a8709acf5b8_thumb"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"openvr_action_manifest_path" "actions.json"
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1644278400"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Dreadhalls"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "41.31411036757599"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1666986358"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "White Door Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "White Door Games"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_52" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1489077834"
+	"community_hub_visible" "1"
+	"gameid" "589200"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "21978"
+		"2" "492"
+		"3" "1667"
+		"4" "4166"
+		"5" "5125"
+		"6" "3839"
+		"7" "1721"
+		"8" "19"
+		"9" "1716"
+		"10" "1720"
+		"11" "1662"
+		"12" "3978"
+		"13" "1759"
+		"14" "4182"
+		"15" "3934"
+		"16" "3859"
+		"17" "1664"
+		"18" "122"
+		"19" "7478"
+	}
+	"review_score" "8"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "White Door Games"
+	"publisher" "White Door Games"
+	"homepage" "http://www.dreadhalls.com/"
+}
+"config"
+{
+	"installdir" "Dreadhalls"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Dreadhalls.exe"
+			"type" "vr"
+		}
+		"1"
+		{
+			"executable" "Dreadhalls.exe"
+			"arguments" "-playSeated"
+			"description" "Dreadhalls (Seated Position)"
+			"type" "vr"
+		}
+		"2"
+		{
+			"executable" "Dreadhalls_Oculus.exe"
+			"type" "othervr"
+		}
+		"3"
+		{
+			"executable" "Dreadhalls_Oculus.exe"
+			"description" "Dreadhalls (Oculus / Experimental)"
+			"type" "vr"
+			"config"
+			{
+				"betakey" "beta"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"589201"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3278857277902790472"
+				"size" "1013220341"
+				"download" "290117888"
+			}
+			"beta"
+			{
+				"gid" "3278857277902790472"
+				"size" "1013220341"
+				"download" "290117888"
+			}
+			"old_version"
+			{
+				"gid" "4570358999682190860"
+				"size" "1003750332"
+				"download" "278582704"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"virtuix"
+			{
+				"gid" "FF22F05DC8F2FEF38D455D98412B373F"
+				"size" "FD8B9ADCC9E25824D6A7165304316FE5"
+				"download" "AF2DC580ACDC7710F5C13015A6FE4410"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5104167"
+			"timeupdated" "1591605425"
+		}
+		"beta"
+		{
+			"buildid" "5104167"
+			"description" "Public testing branch"
+			"timeupdated" "1591003828"
+		}
+		"old_version"
+		{
+			"buildid" "1809226"
+			"description" "Version 1.2.5.9"
+			"timeupdated" "1561019407"
+		}
+		"virtuix"
+		{
+			"buildid" "2116071"
+			"pwdrequired" "1"
+			"timeupdated" "1505323997"
+		}
+	}
+}
