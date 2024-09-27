@@ -1,0 +1,305 @@
+"appid" "2589440"
+"common"
+{
+	"name" "PowerWash Adventure VR"
+	"type" "Game"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+	}
+	"clienttga" "58d4d8624699cbc5d67d8fcda6352e27e756c00e"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"clienticon" "b859532f536b819c5bf96ae7cf3f6fc04c39f963"
+	"icon" "35c16df7eaf76b5aa0b234f287da13f087a9f54e"
+	"releasestate" "released"
+	"name_localized"
+	{
+		"schinese" "梦幻清洁工VR"
+	}
+	"openxrsupport" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1706745600"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "1"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"schinese" "capsule_231x87_schinese.jpg"
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"schinese" "header_schinese.jpg"
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn"
+		"library_hero" "en,zh-cn"
+		"library_logo" "en,zh-cn"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "31.223250953906415"
+			"height_pct" "49.99884542809894"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+				"schinese" "library_hero_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+				"schinese" "library_hero_schinese_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "UpperCenter"
+				"width_pct" "31.223250953906415"
+				"height_pct" "49.99884542809894"
+			}
+		}
+	}
+	"store_asset_mtime" "1701424837"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Grass Digital Technology"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Grass Digital Technology"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1702515660"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2589440"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "599"
+		"2" "21978"
+		"3" "1654"
+		"4" "10235"
+		"5" "9204"
+		"6" "3839"
+		"7" "8122"
+		"8" "4166"
+		"9" "4182"
+		"10" "17770"
+		"11" "1663"
+		"12" "29363"
+		"13" "1774"
+		"14" "1755"
+		"15" "3968"
+		"16" "4155"
+		"17" "1684"
+		"18" "21"
+		"19" "1100687"
+	}
+	"review_score" "6"
+	"review_percentage" "75"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Grass Digital Technology"
+	"publisher" "Grass Digital Technology"
+}
+"config"
+{
+	"installdir" "PowerWash Adventure"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Vr/PowerWashAdventure.exe"
+			"type" "openxr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Pcdemo/PowerWashAdventure.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "PowerWashAdventure Pc Demo"
+			}
+			"description" "PowerWashAdventure Pc Demo"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"hasdepotsindlc" "0"
+	"workshopdepot" "2589440"
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2589441"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6639772238147059964"
+				"size" "15964984777"
+				"download" "11889878144"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"skipgirl"
+			{
+				"gid" "B89158BF0D65B241888935ADAD8A9071"
+				"size" "85E2E792E2A87131A1CD4EB0871089B8"
+				"download" "2EFF4506FAD94038969ADDAA9CD17E46"
+			}
+			"test"
+			{
+				"gid" "59E0807099FFCA661AF81B20EFBA7694"
+				"size" "F6DFD6796023FC2A42FA8A6EC3A60520"
+				"download" "FB270C703E76CCE29AEB8980F50739E0"
+			}
+		}
+	}
+	"2672210"
+	{
+		"dlcappid" "2672210"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12960214"
+			"timeupdated" "1702556387"
+		}
+		"skipgirl"
+		{
+			"buildid" "12996805"
+			"pwdrequired" "1"
+			"timeupdated" "1702957324"
+		}
+		"test"
+		{
+			"buildid" "12960214"
+			"pwdrequired" "1"
+			"timeupdated" "1702555523"
+		}
+	}
+}
