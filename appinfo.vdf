@@ -1,0 +1,343 @@
+"appid" "2789810"
+"common"
+{
+	"name" "Bingle Bingle"
+	"type" "Game"
+	"releasestate" "released"
+	"icon" "28b7c36d4d30e0d50bcffb0d49fbd8098b123fe1"
+	"clienticon" "21ae64ba37de0b2beb99a9b90b57ea613dc63328"
+	"clienttga" "253c1c76e0ef8179840f291788d7b548d4831c17"
+	"clienticns" "324b26754d477567975c78319125a952f5daf04d"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"osextended" ""
+	"linuxclienticon" "21ae64ba37de0b2beb99a9b90b57ea613dc63328"
+	"name_localized"
+	{
+		"koreana" "Bingle Bingle / 빙글빙글"
+		"schinese" "Bingle Bingle / 转啊转"
+		"japanese" "Bingle Bingle / ビングルビングル"
+		"russian" "Bingle Bingle / Бингл Бингл"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1712361600"
+		"tested_build_id" "13832436"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+			"hdr_support" "0"
+		}
+	}
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "30.156252411069573"
+			"height_pct" "79.2856944678145"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "30.156252411069573"
+				"height_pct" "79.2856944678145"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1724732022"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Knitting Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Knitting Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1710781227"
+	"community_hub_visible" "1"
+	"gameid" "2789810"
+	"store_tags"
+	{
+		"0" "1091588"
+		"1" "1666"
+		"2" "1716"
+		"3" "14139"
+		"4" "32322"
+		"5" "4711"
+		"6" "3964"
+		"7" "9"
+		"8" "3959"
+		"9" "3871"
+		"10" "4182"
+		"11" "5154"
+		"12" "16250"
+		"13" "5125"
+		"14" "17389"
+		"15" "791774"
+		"16" "1677"
+		"17" "493"
+		"18" "492"
+	}
+	"review_score" "8"
+	"review_percentage" "85"
+}
+"extended"
+{
+	"developer" "Knitting Games"
+	"publisher" "Knitting Games"
+}
+"config"
+{
+	"installdir" "Bingle Bingle"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bb_windows.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "bin/bb_linux"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"2789811"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4663043450977097109"
+				"size" "250614882"
+				"download" "147272304"
+			}
+			"betatest"
+			{
+				"gid" "4448224455582636240"
+				"size" "274829842"
+				"download" "154279920"
+			}
+		}
+	}
+	"2789812"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8596791744438356670"
+				"size" "243214553"
+				"download" "130261968"
+			}
+			"betatest"
+			{
+				"gid" "3733881873561615257"
+				"size" "262647488"
+				"download" "134496480"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15206940"
+			"timeupdated" "1722390986"
+		}
+		"betatest"
+		{
+			"buildid" "15840049"
+			"description" "Public Beta Test"
+			"timeupdated" "1727370848"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "18"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "KnittingGames/BingleBingle"
+			"pattern" "config.json"
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "KnittingGames/BingleBingle"
+			"pattern" "CurrentRun.json"
+		}
+		"2"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "KnittingGames/BingleBingle"
+			"pattern" "Save.json"
+		}
+		"3"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "KnittingGames/BingleBingle"
+			"pattern" "LastLog.json"
+		}
+		"8"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "KnittingGames/BingleBingle"
+			"pattern" "CurrentRun.bak"
+		}
+		"9"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "KnittingGames/BingleBingle"
+			"pattern" "Save.bak"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxXdgDataHome"
+			"addpath" ""
+		}
+	}
+}
