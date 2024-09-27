@@ -1,0 +1,648 @@
+"appid" "1668510"
+"common"
+{
+	"name" "The Legend of Heroes: Trails from Zero"
+	"type" "Game"
+	"logo" "29cd8bd9616780dab5dda91373fc2a8e1f8720e6"
+	"logo_small" "29cd8bd9616780dab5dda91373fc2a8e1f8720e6_thumb"
+	"icon" "7e0b087576b90acae50a432c2fcf8d69e8f148e8"
+	"clienticon" "2edcaa0d236009ef0b13861e698f57f7d3af6cb1"
+	"clienttga" "c5e25c60095245904b72d4def0cb2df42745fbf4"
+	"name_localized"
+	{
+		"japanese" "英雄伝説 零の軌跡：改"
+	}
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"languages"
+	{
+		"english" "1"
+		"japanese" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1660176000"
+		"tested_build_id" "9146859"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1664241301"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Nihon Falcom"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "PH3 GmbH"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "NIS America, Inc."
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "The Legend of Heroes"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"full_audio" "true"
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1664298024"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1668510"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "4434"
+		"2" "1742"
+		"3" "4325"
+		"4" "4085"
+		"5" "1756"
+		"6" "4182"
+		"7" "1684"
+	}
+	"review_score" "9"
+	"review_percentage" "97"
+}
+"extended"
+{
+	"developer" "Nihon Falcom"
+	"publisher" "NIS America, Inc."
+	"listofdlc" "2098610"
+}
+"config"
+{
+	"installdir" "The Legend of Heroes Trails from Zero"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "zero.exe"
+			"type" "default"
+		}
+		"1"
+		{
+			"executable" "zero_debug.exe"
+			"type" "option1"
+			"config"
+			{
+				"betakey" "ph3_internal, test"
+			}
+			"description_loc"
+			{
+				"english" "Debug"
+			}
+			"description" "Debug"
+		}
+		"2"
+		{
+			"executable" "zero.exe"
+			"arguments" "-latest"
+			"description_loc"
+			{
+				"english" "Resume from the latest save"
+			}
+			"description" "Resume from the latest save"
+		}
+		"3"
+		{
+			"executable" "launch.bat"
+			"arguments" "\"SSS Classified Files Digital Art Book.pdf\""
+			"config"
+			{
+				"ownsdlc" "2098610"
+			}
+			"description_loc"
+			{
+				"english" "Open Digital Art Book"
+			}
+			"description" "Open Digital Art Book"
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"hasdepotsindlc" "1"
+	"1668511"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4581449294993574610"
+				"size" "3908651166"
+				"download" "3538907936"
+			}
+			"version_1.3.5"
+			{
+				"gid" "6861724558244846062"
+				"size" "3887558279"
+				"download" "3517943024"
+			}
+			"version_1.3.7.1"
+			{
+				"gid" "2642015353727919432"
+				"size" "3887595439"
+				"download" "3517906304"
+			}
+			"version_1.4.2"
+			{
+				"gid" "508203094616489293"
+				"size" "3908071034"
+				"download" "3538631456"
+			}
+			"version_1.4.3"
+			{
+				"gid" "7358496551110359983"
+				"size" "3908603817"
+				"download" "3538868640"
+			}
+			"version_1.4.4"
+			{
+				"gid" "1580635330728051641"
+				"size" "3908603817"
+				"download" "3538865984"
+			}
+			"version_1.4.5"
+			{
+				"gid" "827463924659838648"
+				"size" "3908602914"
+				"download" "3538868080"
+			}
+			"version_1.4.6"
+			{
+				"gid" "6431167110661705701"
+				"size" "3908649742"
+				"download" "3538907648"
+			}
+			"version_1.4.7"
+			{
+				"gid" "4862865744952428959"
+				"size" "3908650254"
+				"download" "3538908880"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"ph3_internal"
+			{
+				"gid" "5FA7FABA61D3A1D4F1EB6CB77B3EAA11"
+				"size" "29CA767F216BA51ED50BA80971643895"
+				"download" "D82DB195FA3189AE4B167D6601A726A0"
+			}
+			"test"
+			{
+				"gid" "3ADCC56B0CF87B320318B976E8F3CA08"
+				"size" "BCB679DF4AFA603E4EE156B5658A5389"
+				"download" "5E72FD82B28BF3808E88F60FB0F17AA2"
+			}
+			"version_1.0.0"
+			{
+				"gid" "BC11EA9E1F406EBCA90E2FD07AECED42"
+				"size" "15979A105F323134D84EA1640DDBB421"
+				"download" "B6C0DA4C0186782AE1AAAA476F3B4597"
+			}
+			"version_1.1"
+			{
+				"gid" "3370BE9A19AC8C0076E90490C2775544"
+				"size" "658CDF476AC3BD869F83F64BD9C9E1E4"
+				"download" "98D4336D45CDFFB05BA464360BAB7244"
+			}
+			"version_1.2"
+			{
+				"gid" "501270EAFBC6E8178882658010F430EA"
+				"size" "1905A4B0FF6045E1E8A333A055DE32A1"
+				"download" "13012D58ECAA80D8BBC94847067432A3"
+			}
+			"version_1.3"
+			{
+				"gid" "53D17E3177B38F0C6C094900E1892309"
+				"size" "F0E5D101185ECFD6CA453BF650D510F5"
+				"download" "012841FC51EFC77A7FEA1235B8BCF3CB"
+			}
+			"version_1.3.1"
+			{
+				"gid" "F579255E02E32D7F7B2E55A562E46F7C"
+				"size" "7324C12D3A2F010D77BBCA4053490165"
+				"download" "028C3381FE7B848512ED76CF23688D61"
+			}
+			"version_1.3.2"
+			{
+				"gid" "C9BFE70EAEB6CB57A75A85866FE80745"
+				"size" "36739E247090D1934644BB430D990E36"
+				"download" "F75D4462361439196057D957FB2222DD"
+			}
+			"version_1.3.4"
+			{
+				"gid" "A99CBBFF66586C2E09F58B95C322CECF"
+				"size" "072DBB7F6E5CA28A07395C77A703F487"
+				"download" "32E4F8862FDC6F718FA5800673016D9A"
+			}
+			"version_1.3.6"
+			{
+				"gid" "BC20C03AC67697FE301760BEC15CE60C"
+				"size" "DAC4F02A4B61E26E042F75CF8662842C"
+				"download" "0C0B318C19D558467F99BA3C620B4BED"
+			}
+			"version_1.4.0"
+			{
+				"gid" "1EFA66583BE209C563AF34BC59E6B493"
+				"size" "729BD4DA1FF4C5F5292002D79FDDF4BA"
+				"download" "F6ED69DB84ABAB6D51100C8D6D2A48B7"
+			}
+			"version_1.4.10"
+			{
+				"gid" "2F122E9E91F7EB2D786FC1EBDE7AC148"
+				"size" "3FCDA0B8BD50ACF47E8C071DB15B2A54"
+				"download" "4B633116E4184F2CBE0C53CC271528D5"
+			}
+			"version_1.4.11"
+			{
+				"gid" "FF1A8B76893198992FD3780166C3F79A"
+				"size" "F54A94644A84303663ECBBD4F470E0D5"
+				"download" "C946DA0BF3A53659DAF94189DE2093BF"
+			}
+			"version_1.4.12"
+			{
+				"gid" "D3A15FF70A78A869C3EBF203765C6854"
+				"size" "62366FA3E77C38835FAA286141330C82"
+				"download" "52AF7ED2428265D72913247DCC341B16"
+			}
+			"version_1.4.8"
+			{
+				"gid" "DA05A806866F310E362A86A514259BF1"
+				"size" "EE7225C331A7CDA314C07CFC0ABD7C8C"
+				"download" "532A324A3CCE2A63D87513B36B3DB68C"
+			}
+			"version_1.4.9"
+			{
+				"gid" "31D2E803DB041BEBB9999E5BF6499164"
+				"size" "8D9AECC3B153F97A7169D0568611D185"
+				"download" "1B953A5EB713F820078E3A3A613AC586"
+			}
+		}
+	}
+	"2098610"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "430895301975231520"
+				"size" "51956529"
+				"download" "50993520"
+			}
+		}
+		"dlcappid" "2098610"
+		"depotfromapp" "2098610"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11953188"
+			"timeupdated" "1693250939"
+		}
+		"ph3_internal"
+		{
+			"buildid" "11953188"
+			"pwdrequired" "1"
+			"timeupdated" "1692219484"
+		}
+		"test"
+		{
+			"buildid" "11953188"
+			"pwdrequired" "1"
+			"timeupdated" "1692219494"
+		}
+		"version_1.0.0"
+		{
+			"buildid" "8936737"
+			"pwdrequired" "1"
+			"timeupdated" "1656530172"
+		}
+		"version_1.1"
+		{
+			"buildid" "9030190"
+			"pwdrequired" "1"
+			"timeupdated" "1657143388"
+		}
+		"version_1.2"
+		{
+			"buildid" "9073444"
+			"pwdrequired" "1"
+			"timeupdated" "1657719660"
+		}
+		"version_1.3"
+		{
+			"buildid" "9113659"
+			"pwdrequired" "1"
+			"timeupdated" "1658216738"
+		}
+		"version_1.3.1"
+		{
+			"buildid" "9147277"
+			"pwdrequired" "1"
+			"timeupdated" "1658819131"
+		}
+		"version_1.3.2"
+		{
+			"buildid" "9190495"
+			"pwdrequired" "1"
+			"timeupdated" "1661458098"
+		}
+		"version_1.3.4"
+		{
+			"buildid" "9385859"
+			"pwdrequired" "1"
+			"timeupdated" "1663140977"
+		}
+		"version_1.3.5"
+		{
+			"buildid" "9512815"
+			"description" "Initial Public Release Version"
+			"timeupdated" "1665169630"
+		}
+		"version_1.3.6"
+		{
+			"buildid" "9642926"
+			"pwdrequired" "1"
+			"timeupdated" "1665332200"
+		}
+		"version_1.3.7.1"
+		{
+			"buildid" "9704740"
+			"description" "version_1.3.7.1"
+			"timeupdated" "1669584883"
+		}
+		"version_1.4.0"
+		{
+			"buildid" "10026280"
+			"pwdrequired" "1"
+			"timeupdated" "1670141332"
+		}
+		"version_1.4.10"
+		{
+			"buildid" "11247357"
+			"pwdrequired" "1"
+			"timeupdated" "1684272256"
+		}
+		"version_1.4.11"
+		{
+			"buildid" "11282744"
+			"pwdrequired" "1"
+			"timeupdated" "1684696283"
+		}
+		"version_1.4.12"
+		{
+			"buildid" "11953188"
+			"pwdrequired" "1"
+			"timeupdated" "1692219471"
+		}
+		"version_1.4.2"
+		{
+			"buildid" "10187435"
+			"description" "version_1.4.2"
+			"timeupdated" "1672846800"
+		}
+		"version_1.4.3"
+		{
+			"buildid" "10261258"
+			"description" "version_1.4.3"
+			"timeupdated" "1672954897"
+		}
+		"version_1.4.4"
+		{
+			"buildid" "10264325"
+			"description" "version_1.4.4"
+			"timeupdated" "1673678323"
+		}
+		"version_1.4.5"
+		{
+			"buildid" "10319315"
+			"description" "version_1.4.5"
+			"timeupdated" "1679519543"
+		}
+		"version_1.4.6"
+		{
+			"buildid" "10832541"
+			"description" "version_1.4.6"
+			"timeupdated" "1680036578"
+		}
+		"version_1.4.7"
+		{
+			"buildid" "10993007"
+			"description" "version_1.4.7"
+			"timeupdated" "1681386180"
+		}
+		"version_1.4.8"
+		{
+			"buildid" "11172448"
+			"pwdrequired" "1"
+			"timeupdated" "1683402228"
+		}
+		"version_1.4.9"
+		{
+			"buildid" "11226059"
+			"pwdrequired" "1"
+			"timeupdated" "1684001443"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1600"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinSavedGames"
+			"path" "Falcom/Zero"
+			"pattern" "*.png"
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "WinSavedGames"
+			"path" "Falcom/Zero"
+			"pattern" "*.dat"
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "WinSavedGames"
+			"path" "Falcom/Zero"
+			"pattern" "*.txt"
+			"recursive" "1"
+		}
+	}
+	"sync_while_suspended" "1"
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#statusfull" "%text%"
+			}
+		}
+	}
+}
