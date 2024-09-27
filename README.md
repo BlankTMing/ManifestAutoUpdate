@@ -1,59 +1,76 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-27 23:27:28
+## 更新时间：2024-09-27 23:33:01
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 2450430 | 探しものは、夏ですか。| Game |
-| 2236590 | 灵能觉醒| Game |
-| 2758290 | PROJECT 13| Game |
-| 815580 | Dark Parables: Return of the Salt Princess Collector's Edition| Game |
-| 1326270 | Festival Tycoon| Game |
-| 1693930 | 天地情殇| Game |
-| 2359760 | 荒野军团| Game |
-| 2073790 | HeadHorse Legacy| Game |
-| 2824160 | 开张啦！恐怖屋| Game |
-| 1752810 | PAPER BIRDS| Game |
-| 1809740 | FurstDate| Game |
-| 2684280 | 水箱| Game |
-| 2641630 | 悪夢の家 -Nightmare House-| Game |
-| 1867520 | Homestead Arcana| Game |
-| 1285180 | Maneuver Warfare| Game |
-| 2491050 | 像素猎魔人| Game |
-| 581460 | QuiVr Vanguard| Game |
-| 2220980 | 错误之事| Game |
-| 1535610 | Soul Nomad & the World Eaters| Game |
-| 2179030 | BOT.vinnik Chess: Prodigies| Game |
-| 1930420 | 狂人游戏：中国精神病人| Game |
-| 1035110 | Moonrise Fall| Game |
-| 2569610 | Turbo Chicken Simulator| Game |
-| 2358040 | Fantasy Craft| Game |
-| 2810580 | There's Something In The Ice| Game |
-| 1005050 | Fabulous - Angela's True Colors| Game |
-| 3028170 | NightGhast| Game |
-| 1893020 | Nekomew's Nightmares| Game |
-| 27000 | The Path| game |
-| 2834370 | 15th Floor| Game |
-| 2085440 | 信风的风信| Game |
-| 2267990 | Simulator Z| Game |
-| 914000 | Tiny Battle Simulator| Game |
-| 462940 | 创造历史: 第二次世界大战| Game |
-| 2171010 | 法老王的秘宝VR| Game |
-| 1674440 | Submarine War| Game |
-| 2412050 | No Ghost in Sky Elevator| Game |
-| 2837330 | Milky Way TD SURVIVORS AUTOBATTLER RTS| Game |
-| 1711190 | BOT.vinnik Chess: Early USSR Championships| Game |
-| 682140 | Undead Development| Game |
-| 2482150 | TENSEI| Game |
-| 1247160 | Wardogs: Red's Return| Game |
-| 1860900 | 蔓不生长 Antivine| Game |
-| 2929070 | 我在异界攒功德| Game |
-| 341440 | BANZAI PECAN: The Last Hope For the Young Century| Game |
-| 1979320 | 落叶城| Game |
-| 510740 | Konrad the Kitten - a virtual but real cat| Game |
-| 1160790 | 魔神少女 新生| Game |
-| 554710 | Spell Cast| Game |
-| 1505460 | Neon| Game |
-| 966470 | 忍者傳：三好家的隕落| Game |
-| 2109850 | Barbershop Simulator VR| Game |
-| 1581500 | Dragon Drop| Game |
-| 597200 | Epic Little War Game| Game |
+| 856450 | A Story of a Band| Game |
+| 1461630 | Magic Potion Millionaire| Game |
+| 2669520 | Expansion VR| Game |
+| 1994760 | The Fairy's Secret| Game |
+| 691630 | STELLATUM| Game |
+| 634120 | Inmates| Game |
+| 2273050 | Dirty Dirty Pirates| Game |
+| 2188790 | UnknownPyramid| Game |
+| 1234700 | Hornet Virus: Steel Alcimus II| Game |
+| 2255730 | 告死天使复仇之夜 Death Angel Nightmare| Game |
+| 2563160 | 国際指定怪異124号 東京廃村| Game |
+| 2605500 | 原枝恚子神秘死亡案| Game |
+| 237890 | Agarest: Generations of War| Game |
+| 2975160 | Rose and Cross| Game |
+| 1872200 | IRON GUARD| Game |
+| 1845560 | 真 麻雀天下布武| Game |
+| 816430 | Radical Relocation| Game |
+| 602010 | Plank not included| Game |
+| 1714050 | SOKOBOT| Game |
+| 1170980 | A Planet of Mine| Game |
+| 1631500 | Dumpy & Bumpy| Game |
+| 1373630 | Ragnar's Chinese Memory Game| Game |
+| 1332220 | Mightyy's FPS Aim Trainer| Game |
+| 2246330 | Rescue Team: Magnetic Storm| Game |
+| 675030 | Super Samurai Rampage| Game |
+| 2184720 | Survivors: Three Kingdoms| Game |
+| 283620 | World of Subways 3 – London Underground Circle Line| Game |
+| 1020440 | Doodle Creatures| Game |
+| 2773230 | 18层:忘忧| Game |
+| 1363680 | 陷洪大冒险| Game |
+| 2433760 | 乐动未来·音计划| Game |
+| 2493160 | 1 Bit Survivor| Game |
+| 2892510 | 简易三国志| Game |
+| 2519220 | 神谕vr| Game |
+| 930840 | 东方百问~TouHouAsked| Game |
+| 1567200 | The Wolf| Game |
+| 2169300 | Dizzy Rogues| Game |
+| 1030360 | Midnight Evil| Game |
+| 1570790 | 2D Platformer GAME (Toy Factory)| Game |
+| 1707620 | 油老虎| Game |
+| 1843860 | The Redress of Mira| Game |
+| 2342390 | SUGAMENIA| Game |
+| 814900 | Sanguo Warriors VR 三国虎将传VR| Game |
+| 1545620 | Arcane Arts Academy| Game |
+| 2493710 | Hop Step Sing! Shikiri Shiishiba - By My Side| Game |
+| 1211370 | Goonya Fighter| Game |
+| 824090 | TailQuest Defense| Game |
+| 1396920 | No one lives in heaven - Real Time DLC| DLC |
+| 1898880 | The Silent Swan| Game |
+| 1285010 | Cyber Protocol| Game |
+| 2299750 | 帕秋莉的人偶之家大冒险| Game |
+| 1969830 | Dadish 3| Game |
+| 2214840 | The Shadow Over Route 80| Game |
+| 1747430 | Bomberpet| Game |
+| 2016540 | Chess Pills| Game |
+| 2461600 | Evil Officer| Game |
+| 1865220 | Ouija Rumours| Game |
+| 1659090 | REMEDIUM| Game |
+| 1951660 | We See You| Game |
+| 1155300 | Palallel| Game |
+| 2338120 | Outlive| Game |
+| 2701530 | The Lost Prince Digital Artbook| DLC |
+| 2525830 | The Lost Prince| Game |
+| 1464170 | 东方永恒符卡| Game |
+| 2544900 | 变色龙童绘历险| Game |
+| 1293780 | Fear the Dark Unknown: Chloe| Game |
+| 1989770 | Chickenoidz Super Party| Game |
+| 2119550 | Hot Guns: International Missions| Game |
+| 2366850 | DAIR| Game |
+| 369560 | The Story Goes On| Game |
+| 980480 | Towertale| Game |
