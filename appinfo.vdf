@@ -1,0 +1,305 @@
+"appid" "1736400"
+"common"
+{
+	"name" "TramSim Munich"
+	"type" "Game"
+	"releasestate" "released"
+	"clienticon" "99d862e68d145c06f2bae8b73d1842fe428be99b"
+	"clienttga" "3644e3471a92cce83af00c56b6681a0faac6d6b6"
+	"icon" "2ce5bb68d076a824474635164adc854eb97be386"
+	"logo" "bee7c215a48d95b73a720abd2bcc23060e6b7681"
+	"logo_small" "bee7c215a48d95b73a720abd2bcc23060e6b7681_thumb"
+	"name_localized"
+	{
+	}
+	"eulas"
+	{
+		"0"
+		{
+			"id" "1736400_eula_0"
+			"name" "TramSim Munich EULA"
+			"url" "https://store.steampowered.com//eula/1736400_eula_0"
+			"version" "1"
+		}
+	}
+	"controllervr"
+	{
+		"xinput" "1"
+		"kbm" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+	}
+	"openvrsupport" "1"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "21.129587241522387"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "21.129587241522387"
+				"height_pct" "100"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1635947046"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "ViewApp"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Aerosoft GmbH"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1636016417"
+	"community_hub_visible" "1"
+	"gameid" "1736400"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "597"
+		"2" "1100687"
+		"3" "492"
+		"4" "4175"
+		"5" "1644"
+		"6" "3834"
+		"7" "3968"
+		"8" "4182"
+		"9" "4305"
+		"10" "5350"
+		"11" "1654"
+		"12" "4711"
+		"13" "1616"
+		"14" "176981"
+		"15" "4191"
+		"16" "113"
+		"17" "35079"
+		"18" "5611"
+		"19" "21978"
+	}
+	"review_score" "5"
+	"review_percentage" "66"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "ViewApp"
+	"publisher" "Aerosoft GmbH"
+}
+"config"
+{
+	"installdir" "TramSimMunich"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TramSimBootstrap.exe"
+			"arguments" "-userdir=Data"
+			"type" "default"
+		}
+		"1"
+		{
+			"executable" "TramSimVienna.exe"
+			"arguments" "-userdir=Data -nohmd"
+			"type" "option1"
+			"description_loc"
+			{
+				"english" "TramSim Munich directly"
+				"german" "TramSim Munich direkt"
+			}
+			"description" "TramSim Munich directly"
+		}
+		"2"
+		{
+			"executable" "TramSimVienna.exe"
+			"arguments" "-userdir=Data"
+			"type" "vr"
+			"description_loc"
+			{
+				"english" "TramSim Munich directly"
+				"german" "TramSim Munich direkt"
+			}
+			"description" "TramSim Munich directly"
+		}
+	}
+	"uselaunchcommandline" "1"
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1736401"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "622877735663167171"
+				"size" "13952892916"
+				"download" "13235293968"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"external_beta"
+			{
+				"gid" "3928BC734A092D73C19FAD53B0E4E96F"
+				"size" "332A85A371F55001CFEC2AAF458E2994"
+				"download" "710ACF8642002B7F1D0A4D547AD8D1FE"
+			}
+			"internal_beta"
+			{
+				"gid" "A90C97568B98DAA9F327A589AFCD83A5"
+				"size" "E1E3053BB4BB0C7D87B0128AFE89808F"
+				"download" "67D16A10F78E4B611D39061756152DA2"
+			}
+			"nightly"
+			{
+				"gid" "5984983C57F6193C2B33BF314A1D5755"
+				"size" "C4E46E16BB4E6EF3D319E07689708E6D"
+				"download" "D65A65060AB4EEFE3475E22B0048CC4F"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9106802"
+			"timeupdated" "1658218093"
+		}
+		"external_beta"
+		{
+			"buildid" "7627905"
+			"pwdrequired" "1"
+			"timeupdated" "1635543130"
+		}
+		"internal_beta"
+		{
+			"buildid" "9106802"
+			"pwdrequired" "1"
+			"timeupdated" "1657637622"
+		}
+		"nightly"
+		{
+			"buildid" "8295402"
+			"pwdrequired" "1"
+			"timeupdated" "1646158727"
+		}
+	}
+}
