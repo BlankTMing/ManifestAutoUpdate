@@ -1,0 +1,271 @@
+"appid" "857080"
+"common"
+{
+	"name" "Escape from the Princess"
+	"type" "Game"
+	"logo" "cd242339794e047a59a4262f29fc064d42aad0bc"
+	"logo_small" "cd242339794e047a59a4262f29fc064d42aad0bc_thumb"
+	"icon" "b5012b20940df742cb71fec4dfb7eed3958b1134"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"russian" "1"
+	}
+	"clienttga" "80a1e1ebdb2bb36c9fb2e9da92e8d1c023cc4ce0"
+	"clienticon" "aeca21dbbf73dcb782a24ec11017619c122a1e3c"
+	"clienticns" "6ffeea5fe91073869eec1585afda375fb2024d57"
+	"linuxclienticon" "ae346790e0ab4e96aad5925d999d291a64a72716"
+	"releasestate" "released"
+	"osextended" ""
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "5"
+	}
+	"metacritic_name" "Escape from the Princess"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "55.13418903150525"
+			"height_pct" "56.45927333175019"
+		}
+	}
+	"store_asset_mtime" "1667204890"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Salamandra88"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "7DOTS"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1537212420"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "857080"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "21"
+		"2" "597"
+		"3" "12095"
+		"4" "6650"
+		"5" "44868"
+		"6" "3799"
+		"7" "4085"
+		"8" "4947"
+		"9" "1684"
+		"10" "7208"
+		"11" "4726"
+		"12" "1719"
+		"13" "3871"
+		"14" "5611"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "Salamandra88"
+	"publisher" "7DOTS"
+	"homepage" "https://twitter.com/Salamandra_88"
+}
+"config"
+{
+	"installdir" "EscapeFromThePrincess"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "EscapeFromThePrincess.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "EscapeFromThePrincess.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "EscapeFromThePrincess.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,schinese,russian"
+	"857081"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5437840673686888314"
+				"size" "682416502"
+				"download" "560696192"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5309874"
+			"timeupdated" "1595258508"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Renpy/EscapefromthePrincess-1514986008"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "LinuxHome"
+			"path" ".renpy/EscapefromthePrincess-1514986008"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "MacHome"
+			"path" "Library/RenPy/EscapefromthePrincess-1514986008"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "game/saves"
+			"pattern" "*"
+			"recursive" "1"
+		}
+		"4"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Renpy/EscapefromthePrincessCH-1514986008"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"5"
+		{
+			"root" "LinuxHome"
+			"path" ".renpy/EscapefromthePrincessCH-1514986008"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+			"recursive" "1"
+		}
+		"6"
+		{
+			"root" "MacHome"
+			"path" "Library/RenPy/EscapefromthePrincessCH-1514986008"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+	}
+}
