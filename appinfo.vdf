@@ -1,0 +1,334 @@
+"appid" "2274110"
+"common"
+{
+	"name" "The Elephant Collection"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64"
+	"icon" "397a5eb7c41d9ecf22b33806435848e4bef280ab"
+	"clienticon" "7b3c0c31667c7e010048306eae6dbf155a4878b9"
+	"clienttga" "ac22ef636c99c93890f344fecd18d399e1f3df90"
+	"clienticns" "7b3c0c31667c7e010048306eae6dbf155a4878b9"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1706313600"
+		"tested_build_id" "12653144"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50"
+				"height_pct" "50"
+			}
+		}
+	}
+	"store_asset_mtime" "1699281528"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Wonderful Elephant (jmtb02)"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Armor Games Studios"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Wonderful Elephant"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1699282546"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2274110"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "1773"
+		"2" "1625"
+		"3" "5379"
+		"4" "19"
+		"5" "1719"
+		"6" "3871"
+		"7" "4136"
+		"8" "5923"
+		"9" "3798"
+		"10" "4182"
+		"11" "4845"
+		"12" "4305"
+		"13" "4726"
+		"14" "3834"
+		"15" "492"
+		"16" "4004"
+	}
+	"review_score" "9"
+	"review_percentage" "97"
+}
+"extended"
+{
+	"developer" "Wonderful Elephant (jmtb02)"
+	"publisher" "Armor Games Studios"
+	"homepage" "https://www.wonderfulelephant.com"
+}
+"config"
+{
+	"installdir" "Elephant Collection"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ElephantCollection_win.app/ElephantCollection.exe"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "ElephantCollection.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"2274111"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7868951923566153724"
+				"size" "90552673"
+				"download" "68015360"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"press"
+			{
+				"gid" "4B68A61006F82701F09A3CD79F6610B9"
+				"size" "6E46D8F46C32C90F03F5C10463804146"
+				"download" "5F7F22CE8E6728235D0C3840896EFF95"
+			}
+			"private"
+			{
+				"gid" "EAF94DDCC0631EED05DC74D9AECDEC9C"
+				"size" "A7FF979E801CAE84224DC18522C28D3C"
+				"download" "780141507B19EA3782CD942B0018B2F1"
+			}
+		}
+	}
+	"2274112"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9063114744486012611"
+				"size" "101175475"
+				"download" "69121952"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"press"
+			{
+				"gid" "1CDF1DE818CA1EBF3464B9BB49A27861"
+				"size" "686DF12A66DE2853047DCA45B4092D7C"
+				"download" "7B0A129E127FF767934F6D6FC2F5ACBF"
+			}
+			"private"
+			{
+				"gid" "65848D305A95DC6E704E81F031B69EA4"
+				"size" "B8AE2C57B4E637C02401C6DF51DD2AEE"
+				"download" "8D0019F41F64270BE224D225DBD56924"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12653144"
+			"timeupdated" "1699478470"
+		}
+		"press"
+		{
+			"buildid" "12568025"
+			"pwdrequired" "1"
+			"timeupdated" "1699283358"
+		}
+		"private"
+		{
+			"buildid" "14326280"
+			"pwdrequired" "1"
+			"timeupdated" "1715340173"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "5000000"
+	"maxnumfiles" "25"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "MacAppSupport"
+			"path" "ElephantCollection"
+			"pattern" "*.sol"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "ElephantCollection"
+			"pattern" "*.sol"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
