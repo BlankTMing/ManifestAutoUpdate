@@ -1,0 +1,222 @@
+"appid" "2535970"
+"common"
+{
+	"name" "LeagueTD"
+	"type" "Game"
+	"name_localized"
+	{
+		"schinese" "联盟塔防"
+		"english" "League TD"
+	}
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"clienticon" "de1684bed5892eed0236ab11122d7cde03cec0cf"
+	"clienttga" "e7b63242bcf9bb615376f461f0e8e3aa33833a8e"
+	"icon" "2bf83ecec41bb758996ea4d4379f4fb8c062e41c"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+	}
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1699401600"
+		"tested_build_id" "12363344"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "1"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn"
+		"library_hero" "en,zh-cn"
+		"library_logo" "en,zh-cn"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "89.70373506636571"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1690992435"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Wondarabyte"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Wondarabyte"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1692375699"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2535970"
+	"store_tags"
+	{
+		"0" "1645"
+		"1" "9"
+		"2" "3916"
+		"3" "4195"
+		"4" "5765"
+		"5" "4191"
+		"6" "4004"
+		"7" "3942"
+		"8" "4791"
+		"9" "4172"
+		"10" "1678"
+		"11" "1708"
+		"12" "7332"
+		"13" "3993"
+		"14" "8945"
+		"15" "1659"
+		"16" "4182"
+		"17" "492"
+	}
+	"review_score" "8"
+	"review_percentage" "95"
+}
+"extended"
+{
+	"developer" "Wondarabyte"
+	"publisher" "Wondarabyte"
+}
+"config"
+{
+	"installdir" "LeagueTD"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "LeagueTD\\LeagueTD.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2535971"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3047559623294045821"
+				"size" "5776312459"
+				"download" "5311384048"
+			}
+		}
+	}
+	"baselanguages" "english,schinese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12363344"
+			"timeupdated" "1696503496"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "50000000"
+	"maxnumfiles" "5000"
+	"sync_while_suspended" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "LeagueTD\\LeagueTD\\Saved"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
