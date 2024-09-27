@@ -1,0 +1,227 @@
+"appid" "2330500"
+"common"
+{
+	"name" "BETON BRUTAL"
+	"type" "Game"
+	"icon" "19faf04c80c4c927d7ca44e07d0921c8ef12a924"
+	"clienticon" "73801578d87f4067f3cb3755aab40313813c2666"
+	"clienttga" "cb75c174b0cb6a900d1166db6915678018948b72"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1681257600"
+		"tested_build_id" "10938242"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1711898760"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Jan Malitschek"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Jan Malitschek"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_30" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_17" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1680285479"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "2330500"
+	"store_tags"
+	{
+		"0" "3877"
+		"1" "5395"
+		"2" "4036"
+		"3" "4166"
+		"4" "597"
+		"5" "3834"
+		"6" "1625"
+		"7" "3835"
+		"8" "1721"
+		"9" "4191"
+		"10" "492"
+		"11" "4175"
+		"12" "4026"
+		"13" "30358"
+		"14" "1667"
+		"15" "4182"
+		"16" "7250"
+		"17" "3968"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"developer" "Jan Malitschek"
+	"publisher" "Jan Malitschek"
+	"listofdlc" "2462780"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "BETON BRUTAL"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "BetonBrutal.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "BetonBrutal.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "2330500"
+	"hasdepotsindlc" "1"
+	"2330501"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2373874877697788476"
+				"size" "379098252"
+				"download" "301798896"
+			}
+			"prescoutfix"
+			{
+				"gid" "506782107490327805"
+				"size" "232303006"
+				"download" "156583296"
+			}
+		}
+	}
+	"2330503"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"dlcappid" "2462780"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15212885"
+			"timeupdated" "1722430047"
+		}
+		"prescoutfix"
+		{
+			"buildid" "11007279"
+			"description" "Still features scouting exploits"
+			"timeupdated" "1681503117"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+}
