@@ -1,0 +1,219 @@
+"appid" "1042560"
+"common"
+{
+	"name" "Castle Legend：Devil Awakening"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "4469182bca3ff33dd0f9dc7100b3486c9ecdb6f2"
+	"logo_small" "4469182bca3ff33dd0f9dc7100b3486c9ecdb6f2_thumb"
+	"icon" "5e744a178d29f1db490b61f065f99a2b876bd47c"
+	"clienttga" "4ff691f262bb699d534943b4965b70e07fdb433f"
+	"clienticon" "d5bfef535370b36b1f733f4ccb1c9229e8cc67ad"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+	}
+	"clienticns" "b0a373f1a36deafd7b0e7f541df34aa09c64f3c5"
+	"linuxclienticon" "f1420c5d2642fa169bd483936025a41463c9916a"
+	"metacritic_name" "城堡传说：魔王觉醒"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1556173317"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "winwill工作室"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "winwill工作室"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "城堡传说"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1556175600"
+	"steam_release_date" "1556195421"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1042560"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "21"
+		"2" "122"
+	}
+	"review_score" "8"
+	"review_percentage" "80"
+	"review_score_bombs" "6"
+	"review_percentage_bombs" "71"
+}
+"extended"
+{
+	"developer" "winwill工作室"
+	"publisher" "winwill工作室"
+	"homepage" "http://www.chisennet.com/"
+}
+"config"
+{
+	"installdir" "DemonGame"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DemonGame\\城堡传说：魔王觉醒.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "DemonGame/DemonGame.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "6"
+}
+"depots"
+{
+	"baselanguages" "schinese"
+	"1042561"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8899237510004057072"
+				"size" "747471181"
+				"download" "135342304"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"develop"
+			{
+				"gid" "5B1C667E96266A7C4AC71077C0B9ACC8"
+				"size" "2E4C98520B3F2E4620F64E53E88998D3"
+				"download" "0B3CC8F15C92171D672C63A6C8D6D039"
+			}
+		}
+	}
+	"1042562"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3308316588792224085"
+				"size" "499395051"
+				"download" "121156688"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"develop"
+			{
+				"gid" "437965DA7D5E8FF65CCFE1BDFDF2D65A"
+				"size" "42B6AC79DA5965C41B400F42DFEDD38F"
+				"download" "2E5F37C93D7F7867460125A7BD20512C"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3780643"
+			"timeupdated" "1556614838"
+		}
+		"develop"
+		{
+			"buildid" "3718625"
+			"pwdrequired" "1"
+			"timeupdated" "1554725386"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "ShanghaiChiSen/城堡传说：魔王觉醒/1"
+			"pattern" "*.data"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "ShanghaiChiSen/城堡传说：魔王觉醒/1"
+					"replace" "unity.Shchisen.CastleLegend/1"
+				}
+			}
+		}
+	}
+}
