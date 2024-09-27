@@ -1,0 +1,602 @@
+"appid" "336140"
+"common"
+{
+	"name" "Unavowed"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "859137e9e13d678424e8564daad38d051dd10ecd"
+	"logo_small" "859137e9e13d678424e8564daad38d051dd10ecd_thumb"
+	"icon" "d5cca3b1456e90755e25436319ff49825beec0f5"
+	"clienticon" "f4b80999dd3e0f49f2ef2a841bb6de2435cbc399"
+	"clienttga" "be5a754329c5cf97ed907e0301868b4ede4b54d9"
+	"releasestate" "released"
+	"osextended" "macos64,macosnotarized"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1656460800"
+		"tested_build_id" "9006275"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Unavowed"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "75.20420070011667"
+			"height_pct" "62.15863215388269"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "75.20420070011667"
+				"height_pct" "62.15863215388269"
+			}
+		}
+	}
+	"store_asset_mtime" "1666988568"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Wadjet Eye Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Wadjet Eye Games"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_14" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_13" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1533735120"
+	"metacritic_score" "87"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/unavowed\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "336140"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "1698"
+		"2" "492"
+		"3" "1742"
+		"4" "3964"
+		"5" "10808"
+		"6" "5716"
+		"7" "4182"
+		"8" "6426"
+		"9" "5613"
+		"10" "4166"
+		"11" "3871"
+		"12" "4342"
+		"13" "7208"
+		"14" "4057"
+		"15" "6971"
+		"16" "4604"
+		"17" "4747"
+		"18" "3952"
+		"19" "6052"
+	}
+	"review_score" "9"
+	"review_percentage" "96"
+}
+"extended"
+{
+	"developer" "Wadjet Eye Games"
+	"publisher" "Wadjet Eye Games"
+	"homepage" "http://www.wadjeteyegames.com/unavowed"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Unavowed"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Unavowed.exe"
+			"description" "Launch"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "winsetup.exe"
+			"description" "Setup"
+			"type" "config"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "./Start.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+			"description_loc"
+			{
+				"english" "Launch [32bit]"
+			}
+			"description" "Launch [32bit]"
+		}
+		"4"
+		{
+			"executable" "./Start.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Launch [64bit]"
+			}
+			"description" "Launch [64bit]"
+		}
+		"5"
+		{
+			"executable" "./Start.sh"
+			"arguments" "--windowed"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "Windowed"
+			}
+			"description" "Windowed"
+		}
+		"6"
+		{
+			"executable" "Unavowed.app/Contents/MacOS/AGS"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "Launch"
+			}
+			"description" "Launch"
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "65535"
+	"steamcontrollerconfigdetails"
+	{
+		"2811592018"
+		{
+			"controller_type" "controller_neptune"
+			"enabled_branches" "default,pre-test"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"336141"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "493434053743014949"
+				"size" "2339415203"
+				"download" "1263367552"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "866167D4129EE7E9BD29447B7EF97568"
+				"size" "A842F1FF4CDA99D8BAEA4E0C92610CEA"
+				"download" "0A1F8246E3C9A81133589D8AF4C77186"
+			}
+			"controllerbuild"
+			{
+				"gid" "31BC336C8E0F030E630716869D75D7A4"
+				"size" "6D7379CC9E9A76E70B39216B2EE3D607"
+				"download" "8A4F5217561ABAFB9ADE5FEA0CE0F865"
+			}
+			"dev_test"
+			{
+				"gid" "54F28C86D8C7DF192778B8420EDBA543"
+				"size" "4315176C0B52B99CCDE63CBC1088E170"
+				"download" "83742D1DD9C62025D2FA6AACBC3BF542"
+			}
+			"jantest"
+			{
+				"gid" "F4061C56C8AB317B2987041D14FD2072"
+				"size" "85AB3F86AAC62A1B9B8BA50F9B22DEEE"
+				"download" "41163E14D420520EF80F7B0EED1F4D79"
+			}
+			"oldversion"
+			{
+				"gid" "938B402CFF1A7A2A448D7B210665A92B"
+				"size" "8883A8EF9B93C764164804E429EFD44C"
+				"download" "DE078B003736589008E59BCFC5B65FF4"
+			}
+			"press"
+			{
+				"gid" "FF033D7565B3FC0D54F32D8F45489A63"
+				"size" "5A29495212B43FB02FAD1E6918E4FA16"
+				"download" "5E444C2A6565DA10DF75E6D8F3E44F80"
+			}
+			"steamdeckpre"
+			{
+				"gid" "6195837D3BFC021606D72A3C7E2F1EBD"
+				"size" "05F992D1D746DF930681326DEE7128E8"
+				"download" "472EFF1E7B52AAC458D95F96CC4F572F"
+			}
+			"pre-test"
+			{
+				"gid" "EF6578DE49D0A0AC2566597E9D54C77C"
+				"size" "2B4450CEB99D20B6189A5A20C19FC7F9"
+				"download" "1C63E0FC3F307E88F9714013BF91DC05"
+			}
+		}
+	}
+	"336142"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1933395282337690073"
+				"size" "2342635843"
+				"download" "1266555088"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "B2207AE54BA0ED7F43A3EC4CF1670454"
+				"size" "37616C96C6018BAC392DCB19C40F2351"
+				"download" "4568ADE29E7D507D9D919E654BBF7B22"
+			}
+			"controllerbuild"
+			{
+				"gid" "3645C940D4C468D63F490DF9D783FBA8"
+				"size" "BAFD61DC223FB24C3B04858FB59D33FF"
+				"download" "A8F85369ED9CE16CE360E4CA147C4D22"
+			}
+			"dev_test"
+			{
+				"gid" "D0855E1AB0FA007CCF4815901C80EE97"
+				"size" "5B3E8E713491BFACB13A8CDC54381582"
+				"download" "91ED7140DE504FB93F0A24120ABB6650"
+			}
+			"jantest"
+			{
+				"gid" "8A9C7E24044E7D211FB541C792DA9B09"
+				"size" "73E926C8AFE3A48E5558A9C4CBFDE734"
+				"download" "5317E35B698D1179AF87CF2F7A7386B0"
+			}
+			"oldversion"
+			{
+				"gid" "D0F41C3AC86FF1EB183F8E3300C5CD62"
+				"size" "4C0FBCEB58B422BDFB6AD53D79F85DE6"
+				"download" "C15A9833C33EA81CFD1A82115FE09C0F"
+			}
+			"steamdeckpre"
+			{
+				"gid" "8A2AE78947C1A3A27DECEE5358053CB2"
+				"size" "F76B44281A0C44464F9966C9B78DC44E"
+				"download" "A00D9672605BA3853E92D452F02B2A18"
+			}
+			"pre-test"
+			{
+				"gid" "CEA848961F04E756244D7432BF76089A"
+				"size" "EB7168DB845AC2E398FCB9A69B4002FA"
+				"download" "EF8A16D7B3450F92707B300B8EE7A7A5"
+			}
+		}
+	}
+	"336143"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8841323237061828795"
+				"size" "2364184565"
+				"download" "1270118208"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"oldversion"
+			{
+				"gid" "0566D76EB9AE9EC464B2B71ED64CB75A"
+				"size" "1CA809E4784783444C5DF9E4CB338D62"
+				"download" "5B97F1262F28260746FBF8A6D019E649"
+			}
+			"steamdeckpre"
+			{
+				"gid" "CE83E4699A36825643CBCA136D4EA334"
+				"size" "3E5A586B0232BA7994D0B8964D8D9EB6"
+				"download" "FCB06F9D4FF9CBF137B493D5435DEF1B"
+			}
+			"pre-test"
+			{
+				"gid" "A4E1BC7CFE85344A3FBE35F217861999"
+				"size" "CC83288B581BC1450D275A0E40E993A5"
+				"download" "EE46CDBEE838B43F143FFF1055CAFE09"
+			}
+		}
+	}
+	"336144"
+	{
+		"config"
+		{
+			"steamdeck" "1"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8924689711172772897"
+				"size" "2407145461"
+				"download" "1280736864"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"oldversion"
+			{
+				"gid" "8A0A11DBF5DB431158EDDB869CCFE1E2"
+				"size" "4110D1DF6F793F60F69997770D35C2AF"
+				"download" "02C3C042BDDD07E53024AAAE50A91FEB"
+			}
+			"steamdeckpre"
+			{
+				"gid" "A3E2E9BADEB04CABA45B6B38898C2197"
+				"size" "0F29BFFED4C6136E7CCA7B9F1F10F0E9"
+				"download" "C7AF41FC09FD82D21A1002DAC760A85D"
+			}
+			"pre-test"
+			{
+				"gid" "9FDB99EA32CBADE51F45DF38847FBB0F"
+				"size" "3B04196CB5A98E765CA4989852CBDA7D"
+				"download" "431A2B6E834690AEEC62F2FD229A978B"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15792029"
+			"timeupdated" "1727079469"
+		}
+		"beta"
+		{
+			"buildid" "2996923"
+			"pwdrequired" "1"
+			"timeupdated" "1533143994"
+		}
+		"controllerbuild"
+		{
+			"buildid" "6446325"
+			"pwdrequired" "1"
+			"timeupdated" "1616774138"
+		}
+		"dev_test"
+		{
+			"buildid" "2997388"
+			"pwdrequired" "1"
+			"timeupdated" "1533152096"
+		}
+		"jantest"
+		{
+			"buildid" "2869878"
+			"pwdrequired" "1"
+			"timeupdated" "1529290163"
+		}
+		"oldversion"
+		{
+			"buildid" "11211003"
+			"pwdrequired" "1"
+			"timeupdated" "1690824169"
+		}
+		"press"
+		{
+			"buildid" "2766511"
+			"pwdrequired" "1"
+			"timeupdated" "1526061699"
+		}
+		"steamdeckpre"
+		{
+			"buildid" "8779363"
+			"pwdrequired" "1"
+			"timeupdated" "1656172581"
+		}
+		"pre-test"
+		{
+			"buildid" "15792029"
+			"pwdrequired" "1"
+			"timeupdated" "1727079303"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "524288000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinSavedGames"
+			"path" "Unavowed"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinSavedGames"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Unavowed"
+					"replace" "Unavowed"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinSavedGames"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Unavowed"
+					"replace" ".local/share/ags/Unavowed"
+				}
+			}
+		}
+	}
+}
