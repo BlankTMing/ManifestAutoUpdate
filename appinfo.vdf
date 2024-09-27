@@ -1,0 +1,597 @@
+"appid" "654880"
+"common"
+{
+	"name" "Dream Daddy: A Dad Dating Simulator"
+	"type" "Game"
+	"logo" "c17ba14ec77d04371e264110bdefe0487bfab061"
+	"logo_small" "c17ba14ec77d04371e264110bdefe0487bfab061_thumb"
+	"icon" "7687276ef9fd90f2b427564620a358f66771a84d"
+	"clienticon" "a48511476aab4fd72a9a9b5e07e69d15c4439a89"
+	"clienttga" "ad431e35770ccbd358a5a7fe408e44db241ea579"
+	"clienticns" "c7f2856b19a62e40d624b24a6923acb30cef1040"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"linuxclienticon" "a7ebe8078e717f6834da11350a8d898b0230b542"
+	"osextended" "macos64"
+	"languages"
+	{
+		"english" "1"
+		"japanese" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1666224000"
+		"tested_build_id" "7093924"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"4"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"5"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Dream Daddy: A Dad Dating Simulator"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "67.07820457004144"
+		}
+	}
+	"store_asset_mtime" "1600345724"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Game Grumps"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Game Grumps"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_13" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1500569160"
+	"metacritic_score" "72"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/dream-daddy-a-dad-dating-simulator\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "654880"
+	"store_tags"
+	{
+		"0" "44868"
+		"1" "9551"
+		"2" "12095"
+		"3" "4947"
+		"4" "599"
+		"5" "3799"
+		"6" "4747"
+		"7" "492"
+		"8" "10397"
+		"9" "597"
+		"10" "4136"
+		"11" "6426"
+		"12" "4726"
+		"13" "24904"
+		"14" "4182"
+		"15" "6650"
+		"16" "5611"
+		"17" "1742"
+		"18" "6971"
+		"19" "1719"
+	}
+	"review_score" "8"
+	"review_percentage" "91"
+}
+"extended"
+{
+	"developer" "Game Grumps"
+	"publisher" "Game Grumps"
+	"listofdlc" "930020"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Dream Daddy"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ddadds.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "DDaDDs.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "./DDaDDS.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "./DDaDDS.x86"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"4"
+		{
+			"executable" "./DDaDDS.x86_64"
+			"arguments" "-show-screen-selector"
+			"type" "config"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"5"
+		{
+			"executable" "./DDaDDS.x86"
+			"arguments" "-show-screen-selector"
+			"type" "config"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+	}
+}
+"depots"
+{
+	"hasdepotsindlc" "1"
+	"baselanguages" "english,japanese"
+	"654881"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7661804277649593956"
+				"size" "2899308507"
+				"download" "416664768"
+			}
+			"lastupdate"
+			{
+				"gid" "2560697031340076272"
+				"size" "3580038670"
+				"download" "415118656"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "84A9A123DA27836890CAADC40C0E86EB"
+				"size" "A5B2DE8F29F889558009DD2BABA54903"
+				"download" "5EE7FA8561BADDB3746BEBBF449C9609"
+			}
+			"internalrelease"
+			{
+				"gid" "D50D85AEAFB4C08EEBDA4F96A2B710FC"
+				"size" "CFECD75378A82C86A611FF9F55BEF995"
+				"download" "207AE6FBFDF1186B8B39B0B352925604"
+			}
+			"internalx86"
+			{
+				"gid" "C3439A36079BA57E5A69A2C70278917A"
+				"size" "0676A764ED6959DA3278E3441A7617E9"
+				"download" "2C8C772E9CAF0AD71F63FBB0FCD448EB"
+			}
+			"mactest"
+			{
+				"gid" "4DD5CA13DBF8329E84391DB933EBA8E8"
+				"size" "CA6F68AB638D6EE38BCA1A5C6AD6040B"
+				"download" "3A05A41540733B1CFAB410D27B1F5B97"
+			}
+			"testbranch"
+			{
+				"gid" "3B275E852DBA55CDF9170344C9B384E7"
+				"size" "1C9FA0D46CB49BFCA14BF981639D8566"
+				"download" "1C9FA0D46CB49BFCA14BF981639D8566"
+			}
+			"trailer"
+			{
+				"gid" "FEC4592F9B66E9F278A927FDCA558BB7"
+				"size" "41E77E1A9C95B4FBCB7C32D45DB406A0"
+				"download" "A4D226A940964D658C61460357AC769D"
+			}
+		}
+	}
+	"654882"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5010052914752550087"
+				"size" "2948791931"
+				"download" "429596784"
+			}
+			"lastupdate"
+			{
+				"gid" "7910248525148463780"
+				"size" "3670899237"
+				"download" "419487664"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "EE88174E0FF2152993A6D7D34EC0E7E5"
+				"size" "67B0D544684BC41048CD2617D31F0734"
+				"download" "6AAE783E5D41C3D42742B32394D3C5A9"
+			}
+			"internalrelease"
+			{
+				"gid" "D3872566AA4A4A92D25B18468AFD5D86"
+				"size" "B3ADA20FA2C2B790C0209D0BCE944E7D"
+				"download" "9D426CC96D897E7C4EB65CEE1B17FB92"
+			}
+			"internalx86"
+			{
+				"gid" "E6FB6243865B51B28D182319DD50C5E0"
+				"size" "F85E782111C735B43D799999D9267CF4"
+				"download" "C7838E2720E04A17220BF931D1B47013"
+			}
+			"mactest"
+			{
+				"gid" "B5A5A409C836C9C422DFD65D22CE44DD"
+				"size" "15BCE99511DCA8C10B316EF6E078D600"
+				"download" "D0E5AE39EFE6FAF826148BE1FCA91FA5"
+			}
+			"testbranch"
+			{
+				"gid" "FB62AF1DF63A99D2C304EADA763F9B81"
+				"size" "1C9FA0D46CB49BFCA14BF981639D8566"
+				"download" "1C9FA0D46CB49BFCA14BF981639D8566"
+			}
+			"trailer"
+			{
+				"gid" "E199208EE838E077C803198019836B6F"
+				"size" "DFA34869C0659F92F8D657512DAE3BAD"
+				"download" "B87BFEA90D0734FF9279BDE2408C484A"
+			}
+		}
+	}
+	"654883"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9178558417509159207"
+				"size" "2949533939"
+				"download" "432013408"
+			}
+			"lastupdate"
+			{
+				"gid" "5875505277089201959"
+				"size" "3694884293"
+				"download" "428672368"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "DEFC2016FAD1CEBA01E27A43585CDC06"
+				"size" "840EAA49FD872E11D3B353BA3DA8FD78"
+				"download" "45C70AF1FDB4D5990A7C9CDDD0FEDEF0"
+			}
+			"mactest"
+			{
+				"gid" "78202CB286E63D17A8CF8A3E5A6D9DE8"
+				"size" "DBD11DA22017958834F889E04696B38F"
+				"download" "F1782E113BC2B50C13158A0F22B95475"
+			}
+			"trailer"
+			{
+				"gid" "3FB1EFF01AEFE7267E023079B04B5AE5"
+				"size" "9D87E8BC2CB0B21CA36BC89E323E6009"
+				"download" "73C947ED7A74E7D57C1748E74E18CEE6"
+			}
+		}
+	}
+	"654884"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6855021586494700611"
+				"size" "8037440"
+				"download" "7488192"
+			}
+			"lastupdate"
+			{
+				"gid" "6855021586494700611"
+				"size" "8037440"
+				"download" "7488192"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "B51294C1884FD589F3A7C42567F56088"
+				"size" "3C23C56E67513B95BA62F86D544FA113"
+				"download" "E90CAAC61857920BC28BC38BDEAE9627"
+			}
+			"mactest"
+			{
+				"gid" "15785982769F1732900F878F5B88E905"
+				"size" "5FEA71899DF22DDD0FF6D3F47B5859A4"
+				"download" "C5305A7E8FDDD1ADAFD2A0067A372D15"
+			}
+			"trailer"
+			{
+				"gid" "5083091F4AC3ED9C347FA0AF27FC920C"
+				"size" "D183667A9994991F5527CFE7EB29CCFE"
+				"download" "7CDB1881FE19B112572FA6A711E39A8D"
+			}
+		}
+	}
+	"654885"
+	{
+		"config"
+		{
+			"language" "japanese"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8516514188627079067"
+				"size" "2971112174"
+				"download" "439377248"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "32C2F698F549804BBD2B1FCE5959E09F"
+				"size" "123A80D08D43632EED547C1EB491A1F4"
+				"download" "7243E4F47C750288264C7009F4CF97A1"
+			}
+			"mactest"
+			{
+				"gid" "7AFA1C1A3E9A2A445892E69F504E040A"
+				"size" "93151D2D3DAE0176CE48EAD0F93EC6EF"
+				"download" "1DD2F911CB921A1D5709445027B3F18B"
+			}
+		}
+	}
+	"654886"
+	{
+		"config"
+		{
+			"language" "japanese"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6250984711658390854"
+				"size" "2967184661"
+				"download" "438871296"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"mactest"
+			{
+				"gid" "FBEE3DC86E3F03A12B48BA392404DAD1"
+				"size" "96B528B4248882A7BF972B8ADEB74D40"
+				"download" "AADEE452B8726482A62C61C8EB8455C0"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "7093924"
+			"timeupdated" "1627383581"
+		}
+		"internal"
+		{
+			"buildid" "5538276"
+			"pwdrequired" "1"
+			"timeupdated" "1600030805"
+		}
+		"internalrelease"
+		{
+			"buildid" "1971545"
+			"pwdrequired" "1"
+			"timeupdated" "1500460080"
+		}
+		"internalx86"
+		{
+			"buildid" "2101326"
+			"pwdrequired" "1"
+			"timeupdated" "1504822946"
+		}
+		"lastupdate"
+		{
+			"buildid" "3072346"
+			"timeupdated" "1540911789"
+		}
+		"mactest"
+		{
+			"buildid" "7091329"
+			"pwdrequired" "1"
+			"timeupdated" "1627344127"
+		}
+		"testbranch"
+		{
+			"buildid" "1926344"
+			"pwdrequired" "1"
+			"timeupdated" "1500078997"
+		}
+		"trailer"
+		{
+			"buildid" "3146412"
+			"pwdrequired" "1"
+			"timeupdated" "1537573546"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "2097152"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Saves"
+			"pattern" "*.dad"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "Saves"
+			"pattern" "*.biz"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxXdgDataHome"
+			"addpath" "Game Grumps/Dream Daddy/"
+		}
+	}
+}
