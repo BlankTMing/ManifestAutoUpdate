@@ -1,126 +1,93 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-28 00:24:05
+## 更新时间：2024-09-28 00:33:11
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 224500 | Gnomoria| Game |
-| 2369140 | 绝影-Vanishing Shadow| Game |
-| 837590 | Operation Thunderstorm| Game |
-| 355680 | Overland| Game |
-| 600080 | 直到最后| Game |
-| 2314180 | Silent Nights| Game |
-| 839030 | Mad Frost| Game |
-| 2145220 | Silence Channel 2| Game |
-| 319740 | There Came an Echo| Game |
-| 706490 | Little hidden city| Game |
-| 628660 | Lode Runner Legacy| Game |
-| 566860 | VR Dungeon Knight| Game |
-| 1588870 | iblis| Game |
-| 587450 | Saurian| Game |
-| 1175880 | War Room| Game |
-| 1482820 | Void Marauders| Game |
-| 937940 | Sea Dogs: City of Abandoned Ships| Game |
-| 1612480 | Heal Hitler| Game |
-| 2198970 | Land of Towers| Game |
-| 1707540 | Escape From Monster| Game |
-| 1463010 | Tank Mechanic Simulator VR| Game |
-| 1786830 | 死灵保安 NecroBouncer| Game |
-| 1015080 | 吸血鬼 & 怪物陷阱 - 隱藏的對象遊戲 - 隐藏的图画| Game |
-| 1905940 | Painting VR| Game |
-| 2899040 | Midnight Lane| Game |
-| 839300 | Legendary Eleven| Game |
-| 318230 | Convoy| Game |
-| 1361860 | Toilet Management Simulator| Game |
-| 1069210 | Pulang : Insanity| Game |
-| 1309820 | Remains| Game |
-| 1294110 | 深林| Game |
-| 2187300 | Active Soccer 2023| Game |
-| 1604020 | Many Bricks Breaker| Game |
-| 2129150 | Horror Tale| Game |
-| 1092050 | Fire On Fight : Online Multiplayer Shooter| Game |
-| 1926090 | Coreborn| Game |
-| 996380 | Smartphone Tycoon| Game |
-| 1041710 | Sim Empire| Game |
-| 1408860 | Silence Channel| Game |
-| 758410 | AO International Tennis| Game |
-| 959150 | 创造历史 一战"| Game |
-| 2652000 | The Jackbox Naughty Pack| Game |
-| 701290 | Legendary Mahjong| Game |
-| 2211640 | Who Knocks| Game |
-| 420770 | 魔神少女| Game |
-| 465780 | NewRetroArcade: Neon| Game |
-| 2080250 | 混沌之塔| Game |
-| 238280 | Legend of Dungeon| Game |
-| 1510860 | Out of Sight| Game |
-| 1162480 | DIMENSION REIGN| Game |
-| 1702760 | In Next Life| Game |
-| 1437050 | EBOLA 2| Game |
-| 2459430 | Plastomorphosis| Game |
-| 2164750 | 开元| Game |
-| 2710320 | THE DESCENT| Game |
-| 493320 | Killing Time| Game |
-| 1365400 | My Universe - Pet Clinic Cats & Dogs| Game |
-| 1131450 | Above Earth| Game |
-| 1381440 | 80's OVERDRIVE| Game |
-| 1811070 | Fritz Chess 18 Steam Edition| Game |
-| 1666250 | Circus Electrique| Game |
-| 626600 | Lost Dimension| Game |
-| 1907380 | Arcane Vale| Game |
-| 1446930 | Merge & Blade| Game |
-| 724490 | Protocol| Game |
-| 347170 | Combat Air Patrol 2| Game |
-| 726250 | Unknightly| Game |
-| 2240920 | Vaudeville| Game |
-| 1407190 | My Universe - Cooking Star Restaurant| Game |
-| 325730 | The Hive| Game |
-| 323060 | Tharsis| Game |
-| 2281870 | Digs| Game |
-| 1558100 | PixPhys| Game |
-| 260410 | Get Off My Lawn!| Game |
-| 1339860 | 逐光之旅 Lumione| Game |
-| 1282080 | Chang'an of Tang Dynasty| Game |
-| 555060 | Final Soccer VR| Game |
-| 270830 | Global ATC Simulator| Game |
-| 1400760 | My Universe - My Baby| Game |
-| 908790 | Subdivision Infinity| Game |
-| 480640 | Pathfinder Adventures| Game |
-| 551700 | Gunheart| Game |
-| 496030 | Dark Parables: The Swan Princess and The Dire Tree Collector's Edition| Game |
-| 1715550 | 夜詛YASO curse of soirée| Game |
-| 2742150 | MUZY| Game |
-| 661740 | Morphite| Game |
-| 416210 | Block'hood| Game |
-| 1251970 | Gladiator Manager| Game |
-| 476700 | Island 359| Game |
-| 2230220 | Wilderless| Game |
-| 653940 | Zafehouse Diaries 2| Game |
-| 722920 | Hex Empire 3| Game |
-| 298480 | Victory At Sea| Game |
-| 401710 | Flinthook| Game |
-| 454120 | Starbase| Game |
-| 2931750 | Jurnal Malam : Bestfriend| Game |
-| 1089410 | Depression The Game Music DLC| DLC |
-| 473450 | The Narrator is a DICK| Game |
-| 254370 | Aquanox Deep Descent| Game |
-| 2900 | 688(I) Hunter/Killer| game |
-| 1617480 | Fight Party| Game |
-| 1313530 | FM| Game |
-| 951330 | Weaponry Dealer VR| Game |
-| 1781960 | Sigil of the Magi| Game |
-| 488690 | MX Nitro: Unleashed| Game |
-| 1041690 | Mace and Grace| Game |
-| 833090 | Swords of Gurrah| Game |
-| 1643820 | Age of Jura| Game |
-| 756230 | KARTOFELKA| Game |
-| 1548050 | Presence| Game |
-| 1444790 | Re:Turn - One Way Trip: Digital Comic Book| DLC |
-| 2147050 | 猫岛物语| Game |
-| 226120 | Weird Worlds: Return to Infinite Space| Game |
-| 395860 | The Last Dream: Developer's Edition| Game |
-| 933140 | Drunkn Bar Fight on Halloween| Game |
-| 788210 | The Bonfire: Forsaken Lands| Game |
-| 446550 | Infinite Minigolf| Game |
-| 1048580 | Powder VR| Game |
-| 297470 | Xsyon - Prelude| Game |
-| 863810 | SMASH BOY Ver.KZ| Game |
-| 262960 | Castle In The Darkness| Game |
+| 1274820 | Street Hero| Game |
+| 982670 | Clan N| Game |
+| 1444150 | BLINK: The Last Night| Game |
+| 1155620 | VITAL| Game |
+| 413470 | Where Angels Cry 2: Tears Of The Fallen Collectors Edition| Game |
+| 1515460 | Prison Tycoon: Under New Management| Game |
+| 2089500 | 谜塔和孩子们—奔向塔底—| Game |
+| 749920 | Eternal Dread| Game |
+| 2569580 | Dreams: Unlimited links| Game |
+| 1121140 | Ionia| Game |
+| 2262110 | 【VR】Physical Exam / イタズラ身体測定| Game |
+| 2328240 | 创神之阿尔斯马格纳| Game |
+| 290020 | LogicBots| Game |
+| 1933050 | Omega Pilot| Game |
+| 802330 | Badminton Kings VR| Game |
+| 809050 | 侦探福尔摩斯: 诱捕猎人 - 隐藏物品游戏| Game |
+| 269370 | Reaper - Tale of a Pale Swordsman| Game |
+| 749860 | Super Sportmatchen| Game |
+| 1275370 | Sharded World| Game |
+| 739170 | Parker & Lane: Twisted Minds| Game |
+| 458000 | March of the Living| Game |
+| 566780 | 超级节拍| Game |
+| 428370 | Windlands| Game |
+| 531180 | AIRHEART| Game |
+| 919330 | 替身| Game |
+| 1516900 | RASPBERRY MASH| Game |
+| 992610 | Let's Create! Pottery VR| Game |
+| 2636410 | Stranded| Game |
+| 311060 | Battle Mages: Sign of Darkness| Game |
+| 1635350 | Leave No One Behind: Ia Drang| Game |
+| 2860190 | 西游记 幻想西游释厄传| Game |
+| 1252240 | Aeon Drive| Game |
+| 2345630 | The Gap| Game |
+| 1535780 | 炎赤子| Game |
+| 920680 | Fate Hunters| Game |
+| 800200 | Witching Tower| Game |
+| 2902270 | Death Education| Game |
+| 2071600 | 大宋广记| Game |
+| 1205590 | 九霄仙阙| Game |
+| 1540840 | Sausage Fiesta| Game |
+| 2410640 | Shark! Shark!| Game |
+| 1071350 | Little One| Game |
+| 1302440 | RogueJack: Roguelike Blackjack| Game |
+| 1247740 | Your Story| Game |
+| 1337100 | Warhammer Age of Sigmar: Tempestfall| Game |
+| 1252390 | CyberHive| Game |
+| 672160 | OldMaidGirl| Game |
+| 998790 | Piczle Lines DX+α| Game |
+| 1116590 | Full Animal Party| Game |
+| 208620 | Midnight Mysteries: Salem Witch Trials| Game |
+| 363360 | Interstellar Rift| Game |
+| 630020 | TheFirstClass VR / 第一课 VR| Game |
+| 1562260 | Camping Simulator: The Squad| Game |
+| 2932950 | 天哪！是心动的感觉！| Game |
+| 2388460 | Pathfinder: Gallowspire Survivors| Game |
+| 552060 | EscapeVR: The Basement| Game |
+| 300060 | ADR1FT| Game |
+| 1217190 | 浮生万千之前世今生| Game |
+| 2860090 | Himantolo| Game |
+| 1015610 | THE LAST PLAYER| Game |
+| 1516680 | De'Vine: Heavenly Acres| Game |
+| 1139000 | 幸存者| Game |
+| 461500 | Omega Agent| Game |
+| 386840 | Sentinel 4: Dark Star| Game |
+| 1296980 | Forgotten Fields| Game |
+| 699700 | DYING: Reborn | Game |
+| 918110 | Animus - Stand Alone| Game |
+| 979310 | Disjunction| Game |
+| 926170 | Achromatic| Game |
+| 339250 | Winged Sakura: Endless Dream| Game |
+| 556340 | King Kaiju| Game |
+| 2009340 | Defend The Bits| Game |
+| 1813130 | 枫糖小屋| Game |
+| 1072620 | Weakless| Game |
+| 451080 | Giant Cop: Justice Above All| Game |
+| 1699280 | Hammerheart| Game |
+| 871920 | Mad Restaurant People| Game |
+| 92300 | A.R.E.S.| game |
+| 1493060 | Immortal Legacy: The Jade Cipher VR| Game |
+| 645040 | Dark Train: Soundtrack| DLC |
+| 532290 | Dark Train| Game |
+| 1193530 | Black Smith| Game |
+| 1489380 | Bad boy simulator| Game |
+| 1779760 | 末卡未来| Game |
+| 2132070 | The Billion Clicker| Game |
+| 427810 | CALENDULA| Game |
+| 2331080 | 浮生九还| Game |
+| 430410 | Memoranda| Game |
