@@ -1,0 +1,327 @@
+"appid" "1245780"
+"common"
+{
+	"name" "Mirage"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"logo" "483faedacd934b10458f05d59e09f024acb986f1"
+	"logo_small" "483faedacd934b10458f05d59e09f024acb986f1_thumb"
+	"icon" "1e00f7a352352fe8b293c54119cc26010b3c1610"
+	"clienticon" "ce01a577c975a62fe5ece02b60bae894ea30ab83"
+	"clienttga" "a98771e2e5a9855e8ca7ec8711b610a0e896aca7"
+	"openvrsupport" "1"
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "3"
+		"2" "4"
+		"3" "5"
+	}
+	"restricted_countries" "CN,DE"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1658188800"
+		"tested_build_id" "6468485"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "22.879618365680557"
+			"height_pct" "37.556124146942146"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "22.879618365680557"
+				"height_pct" "37.556124146942146"
+			}
+		}
+	}
+	"store_asset_mtime" "1672255068"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "MorganaVR"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "MorganaVR"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1596805268"
+	"community_hub_visible" "1"
+	"gameid" "1245780"
+	"store_tags"
+	{
+		"0" "12095"
+		"1" "6650"
+		"2" "5611"
+		"3" "24904"
+		"4" "21978"
+		"5" "599"
+		"6" "3810"
+		"7" "4191"
+		"8" "4175"
+		"9" "4747"
+		"10" "492"
+		"11" "493"
+		"12" "9551"
+		"13" "4947"
+		"14" "5608"
+		"15" "3968"
+		"16" "4835"
+		"17" "4182"
+		"18" "44868"
+		"19" "10235"
+	}
+	"review_score" "5"
+	"review_percentage" "62"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "MorganaVR"
+	"publisher" "MorganaVR"
+	"homepage" "https://morganavr-steam.com/"
+}
+"config"
+{
+	"installdir" "MirageByMorganaVR"
+	"launch"
+	{
+		"6"
+		{
+			"executable" "Mirage.exe"
+			"arguments" "-desktop"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Mirage (Desktop Mode)"
+			}
+			"description" "Mirage (Desktop Mode)"
+		}
+		"7"
+		{
+			"executable" "Mirage.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Mirage VR"
+			}
+			"description" "Mirage VR"
+		}
+		"10"
+		{
+			"executable" "mclauncher/miragecreativelauncher.exe"
+			"type" "editor"
+			"description_loc"
+			{
+				"english" "Mirage Creative"
+			}
+			"description" "Mirage Creative"
+		}
+	}
+}
+"depots"
+{
+	"1245782"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "239871543065492892"
+				"size" "4149060299"
+				"download" "2781436176"
+			}
+			"036-bvh-player"
+			{
+				"gid" "7820675311880266402"
+				"size" "3764431435"
+				"download" "2382508464"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"035beta"
+			{
+				"gid" "D54680F4EB8917EB1867F6A33C11454E"
+				"size" "5C2E2A5685D490481740B397B207847D"
+				"download" "B300CC58B7BB3C28E261FC7C914F18CE"
+			}
+			"035test"
+			{
+				"gid" "709CB5F89ADF622D4B122839109B0D80"
+				"size" "19ADEB71C7FBF033AA77F478D25BF2D2"
+				"download" "E21CCD651575CFC1B82A08A310F3DFD8"
+			}
+		}
+	}
+	"1245783"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"035test"
+			{
+				"gid" "117420DF6D22A78988EAA6BD86B0359B"
+				"size" "33581361FB4450D4F3E9D41CB1FD63B8"
+				"download" "31A26461FCC391DB24FD7D1E6680C59E"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10224996"
+			"timeupdated" "1672246341"
+		}
+		"035beta"
+		{
+			"buildid" "6246066"
+			"pwdrequired" "1"
+			"timeupdated" "1613470101"
+		}
+		"035test"
+		{
+			"buildid" "6266058"
+			"pwdrequired" "1"
+			"timeupdated" "1613753883"
+		}
+		"036-bvh-player"
+		{
+			"buildid" "10039486"
+			"description" "only bvh anims work"
+			"timeupdated" "1669852101"
+		}
+	}
+}
