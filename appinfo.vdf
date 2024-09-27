@@ -1,0 +1,232 @@
+"appid" "430410"
+"common"
+{
+	"name" "Memoranda"
+	"type" "Game"
+	"releasestate" "released"
+	"clienttga" "7d40455379a411d0f6f1cd97d00107b8f5254ba9"
+	"clienticon" "a12bd5525de426c1523938009855c561df4ef71e"
+	"icon" "7c125cbafe0f5a099ef5f63fe97ff5a7add83cb3"
+	"logo" "902410e66c82026130f383736d4229c64ee0cd27"
+	"logo_small" "902410e66c82026130f383736d4229c64ee0cd27_thumb"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"metacritic_name" "Memoranda"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1477392739"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Bit Byterz"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Digital Dragon"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_15" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1485331200"
+	"steam_release_date" "1485362197"
+	"metacritic_score" "58"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/memoranda\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "430410"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "1698"
+		"3" "7208"
+		"4" "6815"
+	}
+	"review_score" "6"
+	"review_percentage" "73"
+}
+"extended"
+{
+	"developer" "Bit Byterz"
+	"publisher" "Digital Dragon"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Memoranda"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Memoranda.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Memoranda.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "run.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"430411"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7198155183334816940"
+				"size" "813893577"
+				"download" "763371488"
+			}
+		}
+	}
+	"430412"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2339872536228748508"
+				"size" "819212079"
+				"download" "765055040"
+			}
+		}
+	}
+	"430413"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2738803742868238372"
+				"size" "813023440"
+				"download" "762924576"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1693416"
+			"timeupdated" "1489646508"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "50000000"
+	"maxnumfiles" "50"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Memoranda"
+			"pattern" "*.sav"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Memoranda"
+			"pattern" "*.png"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Memoranda"
+					"replace" "com.digitaldragongames.memoranda"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ".config/"
+		}
+	}
+}
