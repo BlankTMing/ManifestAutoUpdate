@@ -1,0 +1,290 @@
+"appid" "1247740"
+"common"
+{
+	"name" "Your Story"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "42fbf84773a790a2eb05bfa8f7e095d02ed13759"
+	"logo_small" "42fbf84773a790a2eb05bfa8f7e095d02ed13759_thumb"
+	"icon" "026de901f4eaa76767557e490f29d28b31808f68"
+	"clienttga" "98e3d6371d88536ddd46b23683c9c63b66310aac"
+	"clienticon" "88e84b3d8a16f35568902b83847023df74aea742"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"osextended" "macos64"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"polish" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1675468800"
+		"tested_build_id" "10392855"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Your Story"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "58.67778350655342"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "58.67778350655342"
+				"height_pct" "100"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1673620370"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "GameLoad"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "GameLoad"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1674151183"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1247740"
+	"store_tags"
+	{
+		"0" "1684"
+		"1" "3799"
+		"2" "21"
+		"3" "7208"
+		"4" "1742"
+		"5" "6971"
+		"6" "6426"
+		"7" "5716"
+		"8" "4166"
+		"9" "5094"
+		"10" "4947"
+		"11" "31579"
+		"12" "4172"
+		"13" "15172"
+		"14" "5186"
+		"15" "4486"
+		"16" "3871"
+		"17" "4182"
+		"18" "492"
+		"19" "9551"
+	}
+	"review_score" "6"
+	"review_percentage" "76"
+}
+"extended"
+{
+	"developer" "GameLoad"
+	"publisher" "GameLoad"
+	"homepage" "https://gameload.gg/yourstory/"
+}
+"config"
+{
+	"installdir" "Your Story"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "YourStory.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "YourStory.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "YourStory.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"1247741"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1431546674197163980"
+				"size" "1845085545"
+				"download" "1596456608"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"nsfw"
+			{
+				"gid" "4A7F83C4785CFDA03D6014CFB415AFE2"
+				"size" "BD01FC5E51C61BD3BC74368E673B4FCD"
+				"download" "4F5967005D4C7D874BAAE930E6C3B16B"
+			}
+			"prerelease_test"
+			{
+				"gid" "B0A203F4E0826F758864F967BEFAE36A"
+				"size" "26CA11815FDF74573E6697CC46C4F897"
+				"download" "E6EFCEAC08224C6B94E94685387C673A"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11175627"
+			"timeupdated" "1683481103"
+		}
+		"nsfw"
+		{
+			"buildid" "11175688"
+			"pwdrequired" "1"
+			"timeupdated" "1683482142"
+		}
+		"prerelease_test"
+		{
+			"buildid" "11175627"
+			"pwdrequired" "1"
+			"timeupdated" "1683480109"
+		}
+	}
+}
