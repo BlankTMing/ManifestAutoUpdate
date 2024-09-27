@@ -1,0 +1,228 @@
+"appid" "673600"
+"common"
+{
+	"name" "Prison Boss VR"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "2"
+			"360_required" "0"
+		}
+		"seated" "1"
+		"standing" "1"
+	}
+	"eulas"
+	{
+		"1"
+		{
+			"id" "673600_eula_1"
+			"name" "Prison Boss VR EULA"
+			"url" "https://store.steampowered.com//eula/673600_eula_1"
+		}
+	}
+	"icon" "ceda587574c5a9a4149ddf9d9d3a03b93c9b802e"
+	"clienttga" "71957956bb1a7c3d3e053aa0cb9edc4ee44b7c7b"
+	"clienticon" "1061349515812035a21f4ecd16b8ba88dffd727f"
+	"logo" "aca4c4b67807a9560977412b34f0746c34b205f4"
+	"logo_small" "aca4c4b67807a9560977412b34f0746c34b205f4_thumb"
+	"releasestate" "released"
+	"openvrsupport" "1"
+	"metacritic_name" "Prison Boss VR"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50.79357117588979"
+			"height_pct" "37.2650003957888"
+		}
+	}
+	"store_asset_mtime" "1716311135"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "TREBUCHET"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "TREBUCHET"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "TREBUCHET"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_52" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1504012028"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "673600"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "492"
+		"2" "21978"
+		"3" "1702"
+		"4" "4202"
+		"5" "8945"
+		"6" "4136"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "TREBUCHET"
+	"publisher" "TREBUCHET"
+	"homepage" "http://prisonbossvr.com/"
+}
+"config"
+{
+	"installdir" "Prison Boss VR"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "PrisonBossVR64.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,french,schinese"
+	"673601"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5644269150763984900"
+				"size" "1284232453"
+				"download" "519012800"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5152707"
+			"timeupdated" "1592149155"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "My Games/Prison Boss VR/Saves"
+			"pattern" "*.pbvr"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "WinMyDocuments"
+			"path" "My Games/Prison Boss VR/Config"
+			"pattern" "*.pbvr"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"2"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Trebuchet/Prison Boss VR"
+			"pattern" "*.pbvr"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
