@@ -1,0 +1,211 @@
+"appid" "2602780"
+"common"
+{
+	"name" "Filly Astray"
+	"type" "Game"
+	"clienticon" "6b285f8606e7a3e4e39f6845c14fd26570362362"
+	"clienttga" "6012ea81d68607ad0dfc5610e61f17101373c1fd"
+	"icon" "e6c4e773180c6bc2fceea99cfc3659d5d6ce587a"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1699660800"
+		"tested_build_id" "12659459"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "23.720930232558132"
+			"height_pct" "46.200427451911615"
+		}
+	}
+	"store_asset_mtime" "1697327862"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Bit Assembly"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Bit Assembly"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_55" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1698917187"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2602780"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "6041"
+		"2" "1625"
+		"3" "3993"
+		"4" "3871"
+		"5" "3964"
+		"6" "4726"
+		"7" "1684"
+		"8" "3798"
+		"9" "3916"
+		"10" "4747"
+		"11" "7208"
+		"12" "4736"
+		"13" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "Bit Assembly"
+	"publisher" "Bit Assembly"
+}
+"config"
+{
+	"installdir" "Filly Astray"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Anonfilly.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+	"steamdecktouchscreen" "1"
+}
+"depots"
+{
+	"2602781"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "925752677909564308"
+				"size" "277624748"
+				"download" "90115152"
+			}
+			"patch3"
+			{
+				"gid" "5708673539965009581"
+				"size" "277450921"
+				"download" "90102048"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12901565"
+			"timeupdated" "1701960320"
+		}
+		"patch3"
+		{
+			"buildid" "12659459"
+			"description" "old patch"
+			"timeupdated" "1701958079"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "2000"
+	"maxnumfiles" "4"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "BitGames\\Anonfilly\\saves"
+			"pattern" "*.filly"
+		}
+	}
+}
