@@ -1,0 +1,246 @@
+"appid" "1311540"
+"common"
+{
+	"name" "The Wake: Mourning Father, Mourning Mother"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" "macos64"
+	"logo" "d58a2572d2349258ed21e4fbf61b9a7d366ef56a"
+	"logo_small" "d58a2572d2349258ed21e4fbf61b9a7d366ef56a_thumb"
+	"clienticon" "2f63a4cd3adc7e13c92a87842c59c065adc0919f"
+	"clienttga" "fef432dceb739af15e4e9752deac13bcbbed021e"
+	"icon" "68f5c42b0403047cd465ed2bdef4ab5dea6e6384"
+	"languages"
+	{
+		"english" "1"
+		"koreana" "1"
+		"schinese" "1"
+		"japanese" "1"
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn"
+		"library_hero" "en"
+		"library_logo" "en,zh-cn"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "38.59138533178114"
+			"height_pct" "69.75777725005938"
+		}
+	}
+	"store_asset_mtime" "1607924285"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Somi"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Somi"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "indienova"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Somi"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1594393250"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1311540"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "21"
+		"2" "31275"
+		"3" "3964"
+		"4" "4166"
+		"5" "5984"
+		"6" "1664"
+		"7" "1742"
+		"8" "599"
+		"9" "13782"
+		"10" "3834"
+		"11" "5502"
+		"12" "3799"
+		"13" "1036"
+		"14" "9204"
+		"15" "3871"
+		"16" "4094"
+		"17" "4252"
+		"18" "6691"
+		"19" "4342"
+	}
+	"review_score" "8"
+	"review_percentage" "82"
+}
+"extended"
+{
+	"absolutemousecoordinates" "0"
+	"developer" "Somi"
+	"publisher" "Somi"
+	"homepage" "https://somigames.com/the-wake-2020/"
+}
+"config"
+{
+	"installdir" "TheWake"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "The Wake.exe"
+			"description" "Launch Windows"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "TheWake.app"
+			"description" "Launch Mac"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1311541"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5543231671881699249"
+				"size" "391619756"
+				"download" "299707584"
+			}
+		}
+	}
+	"1311542"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5919342515888379258"
+				"size" "398349554"
+				"download" "301550768"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "6008097"
+			"timeupdated" "1608743564"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000"
+	"maxnumfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "SOMI/The Wake"
+			"pattern" "progressSave.dat"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "SOMI/The Wake"
+					"replace" "SOMI/The Wake"
+				}
+			}
+		}
+	}
+}
