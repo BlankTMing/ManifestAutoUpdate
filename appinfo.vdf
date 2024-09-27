@@ -1,0 +1,381 @@
+"appid" "1103860"
+"common"
+{
+	"name" "The Wizards - Dark Times"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"logo" "68a841dc43604021948f59bb14e5b597c43200c9"
+	"logo_small" "68a841dc43604021948f59bb14e5b597c43200c9_thumb"
+	"icon" "f0aac9ef26b8aa46b1bafb47581445c610f1f6ee"
+	"clienttga" "6f3fdb4b2c7ade34634398c44178025a6389468b"
+	"clienticon" "e114b9bdc82fc0ac3edb3a5f5ff6975275514761"
+	"releasestate" "released"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+	}
+	"openvr_action_manifest_path" "WindowsNoEditor\\HMDProject\\Config\\SteamVRBindings\\steamvr_manifest.json"
+	"osextended" ""
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"japanese" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1644278400"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "The Wizards - Dark Times"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "55.892648774795774"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1701270016"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Carbon Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Vertigo Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_1" "1"
+		"category_38" "1"
+		"category_9" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1591282735"
+	"metacritic_score" "83"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/the-wizards---dark-times\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1103860"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "21"
+		"2" "21978"
+		"3" "4057"
+		"4" "1684"
+		"5" "1742"
+		"6" "3834"
+		"7" "3839"
+		"8" "4106"
+		"9" "4166"
+	}
+	"review_score" "6"
+	"review_percentage" "72"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Carbon Studio"
+	"publisher" "Vertigo Games"
+	"homepage" "http://darktimesgame.com/"
+}
+"config"
+{
+	"installdir" "The Wizards - Dark Times"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "WindowsNoEditor\\HMDProject.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Dark Times"
+			}
+			"description" "Dark Times"
+		}
+		"1"
+		{
+			"executable" "WindowsNoEditor\\HMDProject.exe"
+			"arguments" "-hmd=OculusHMD"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Dark Times"
+			}
+			"description" "Dark Times"
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1103861"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8496761445851694338"
+				"size" "23738883558"
+				"download" "23156217104"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "43128C942A6CE66A7B60E447D61E47C6"
+				"size" "64555071F62E2AF28DC98B3EF54EB42B"
+				"download" "857FCF0C8E652883DB7C67E9A08EF1CA"
+			}
+			"dt_brotherhood_beta"
+			{
+				"gid" "A291D6709D0A439E2B65ADDDFB81D1D5"
+				"size" "AB4DE1081068652AC774E9ABAF8DEEA1"
+				"download" "714F5FC304BA28B4162495CA2CB49CA0"
+			}
+			"dt_brotherhood_showcase"
+			{
+				"gid" "24F7E01CF6F00DFF56AD71903561C3DA"
+				"size" "D1793CB64E1B672481BE6DC6AD952483"
+				"download" "4F4AD359AE6E0477F70275D395FECA53"
+			}
+			"initial_release_channel"
+			{
+				"gid" "5CD5AC97BBDC3BA3FC0D4F47012EA258"
+				"size" "488C6BC0F15508F7BC5BFCC212E78972"
+				"download" "5F26A98ABF2DA2C5FF62734B8B26EE83"
+			}
+			"multiplayer"
+			{
+				"gid" "0A2E93C1E1D58486190ED0CA8D2B5A92"
+				"size" "3D566EDA7982B812C10020B4257B74D8"
+				"download" "84509833AD68945EA7CE8BD4E1E6EB51"
+			}
+			"pimax"
+			{
+				"gid" "48424BA6DBA6858F0B7FCC6BBF580BA4"
+				"size" "9204EF4B15897DE7A56C670FD3FC66BE"
+				"download" "7D1AEDCCD5B48EE7A65D559E516DC9D2"
+			}
+			"press"
+			{
+				"gid" "22B9E346BF60BE9D111A81D34A4B6790"
+				"size" "CE2C018AAF2AF348D6AF43B9620273BD"
+				"download" "BE226FDA87B7D742238551C4CFEE3B0B"
+			}
+			"public_development"
+			{
+				"gid" "9ACF61F35CC5AF85C628AC722FEC8885"
+				"size" "38EFB1E88817C5717C765A26949E3907"
+				"download" "64CDA4164E67BD0CD8C3CF8AA03A0634"
+			}
+			"test"
+			{
+				"gid" "7296F31FBE814E534C09EB67349C310F"
+				"size" "11F1B84BD81B796B1B904C4EF71243EC"
+				"download" "54018ECB0051A1D13CC810ACF730323A"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14696263"
+			"timeupdated" "1718718577"
+		}
+		"development"
+		{
+			"buildid" "12934301"
+			"pwdrequired" "1"
+			"timeupdated" "1702338507"
+		}
+		"dt_brotherhood_beta"
+		{
+			"buildid" "9360167"
+			"pwdrequired" "1"
+			"timeupdated" "1661165514"
+		}
+		"dt_brotherhood_showcase"
+		{
+			"buildid" "9372604"
+			"pwdrequired" "1"
+			"timeupdated" "1661274722"
+		}
+		"initial_release_channel"
+		{
+			"buildid" "5121876"
+			"pwdrequired" "1"
+			"timeupdated" "1594302225"
+		}
+		"multiplayer"
+		{
+			"buildid" "8691886"
+			"pwdrequired" "1"
+			"timeupdated" "1651847431"
+		}
+		"pimax"
+		{
+			"buildid" "5182275"
+			"pwdrequired" "1"
+			"timeupdated" "1592461442"
+		}
+		"press"
+		{
+			"buildid" "12808718"
+			"pwdrequired" "1"
+			"timeupdated" "1701102048"
+		}
+		"public_development"
+		{
+			"buildid" "5172934"
+			"pwdrequired" "1"
+			"timeupdated" "1592318405"
+		}
+		"test"
+		{
+			"buildid" "15037053"
+			"pwdrequired" "1"
+			"timeupdated" "1721052807"
+		}
+	}
+}
