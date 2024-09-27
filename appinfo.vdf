@@ -1,0 +1,611 @@
+"appid" "602700"
+"common"
+{
+	"name" "Chippy"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"icon" "09436cabeed3ce0565edce1bc29a127805a7928a"
+	"logo" "1c7c364a1f5e09b76c06775d51259e988955e496"
+	"logo_small" "1c7c364a1f5e09b76c06775d51259e988955e496_thumb"
+	"clienttga" "e72d4c0effbc739622f4f110b33a237851d7d17c"
+	"clienticon" "a42e37a646ab2621e4754de7a22271ed9e4da4b9"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "602700_eula_0"
+			"name" "Chippy EULA"
+			"url" "https://store.steampowered.com//eula/602700_eula_0"
+			"version" "1"
+		}
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1695427200"
+		"tested_build_id" "12223833"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-4"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Chippy"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "f261940c0b3588d4fc1ad263133259deade507d5/capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "64.16881837285621"
+			"height_pct" "87.84194585263583"
+		}
+	}
+	"store_asset_mtime" "1724162521"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Facepunch Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Facepunch Studios"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_28" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_30" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_39" "1"
+		"category_24" "1"
+		"category_44" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1560528128"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "602700"
+	"store_tags"
+	{
+		"0" "4885"
+		"1" "4758"
+		"2" "4255"
+		"3" "5547"
+		"4" "4026"
+		"5" "4637"
+		"6" "1773"
+		"7" "1774"
+		"8" "3871"
+		"9" "4791"
+		"10" "19"
+		"11" "5154"
+		"12" "4004"
+		"13" "4400"
+		"14" "1669"
+		"15" "4305"
+		"16" "3964"
+		"17" "1755"
+		"18" "5363"
+		"19" "3841"
+	}
+	"review_score" "8"
+	"review_percentage" "91"
+}
+"extended"
+{
+	"absolutemousecoordinates" "0"
+	"remoteplaytogethertestingbranches" "default,debug,jenkins,jenkins-debug,redux-preview"
+	"developer" "Facepunch Studios"
+	"publisher" "Facepunch Studios"
+	"homepage" "https://facepunch.com/games/chippy"
+}
+"config"
+{
+	"installdir" "Chippy"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Chippy.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Chippy"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "Chippy.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+				"betakey" "legacy"
+			}
+		}
+		"3"
+		{
+			"executable" "Chippy.x86"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+				"betakey" "legacy"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+	"steamconfigurator3rdpartynative" "5"
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"workshopdepot" "602700"
+	"602701"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2986824565107946112"
+				"size" "692486233"
+				"download" "276761536"
+			}
+			"legacy"
+			{
+				"gid" "3691733133981995635"
+				"size" "750983613"
+				"download" "196834448"
+			}
+			"legacy-v56"
+			{
+				"gid" "5256005685831111069"
+				"size" "723902680"
+				"download" "189835792"
+			}
+			"no-rendertextures"
+			{
+				"gid" "1276602229963882690"
+				"size" "935660068"
+				"download" "297637424"
+			}
+			"redux-workshop"
+			{
+				"gid" "7232543260635785636"
+				"size" "490306861"
+				"download" "158960928"
+			}
+			"debug"
+			{
+				"gid" "6250024479895188148"
+				"size" "908226622"
+				"download" "296195584"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"jenkins"
+			{
+				"gid" "21ABD908E5FEE10F444169653CF6CB05"
+				"size" "71CA07ACE022B44DFB88A72FE53DC93A"
+				"download" "2CCA701E11C654D04C08D79BC7B26905"
+			}
+			"rollback"
+			{
+				"gid" "05B0A8BEC35701E98A9FA91075BE318C"
+				"size" "AC86D07D6D43CE0B15E12A0CAD574D87"
+				"download" "A05376C1500EBD19CD4EFC86120C8ED5"
+			}
+			"trailer"
+			{
+				"gid" "0986ADE9A28E82EED5DE6C8D64DC3C43"
+				"size" "694C27BAB1A28D3F511D73A2754A2BC8"
+				"download" "169E57D7A63CAA2B89F18FB9EC2A73C4"
+			}
+			"jenkins-debug"
+			{
+				"gid" "652F4EC79278D3F319B407B92B1D10AD"
+				"size" "DD40A1A9574AA48C4A6BACB913E2F2D5"
+				"download" "E4454BA873509AE4C8F230BE62077532"
+			}
+		}
+	}
+	"602702"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1597671451732407788"
+				"size" "681586268"
+				"download" "273441264"
+			}
+			"legacy"
+			{
+				"gid" "1958049211329030861"
+				"size" "738118589"
+				"download" "192721936"
+			}
+			"legacy-v56"
+			{
+				"gid" "558392322835912032"
+				"size" "716570668"
+				"download" "187559152"
+			}
+			"no-rendertextures"
+			{
+				"gid" "1837188308290723030"
+				"size" "941693402"
+				"download" "294354496"
+			}
+			"redux-workshop"
+			{
+				"gid" "943512599531880409"
+				"size" "472622980"
+				"download" "153657408"
+			}
+			"debug"
+			{
+				"gid" "3144455846784093517"
+				"size" "913218667"
+				"download" "292907344"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"jenkins"
+			{
+				"gid" "182CCF8DF9906F46B2635C70E298E85E"
+				"size" "DB9B1F87E25CC3FE9DC5D869DD275921"
+				"download" "244C0906965B9981801AB312A7809E1D"
+			}
+			"rollback"
+			{
+				"gid" "7061E7E574CA94D5199F9E5C837AEE8A"
+				"size" "1EB20DE94719FD711906B89DF6F34041"
+				"download" "02328A942B2450C53498A6AB02D84BAE"
+			}
+			"trailer"
+			{
+				"gid" "0AF52CAB6C6E16951E85D9F99F028E11"
+				"size" "7B94492951878267AFC58166F7338316"
+				"download" "73EB8F30C0513FC40EAFEEB44C93F0D2"
+			}
+			"jenkins-debug"
+			{
+				"gid" "7012F1C05924D7BF4DEBF23AB7AB3365"
+				"size" "8B69097C035C5BEBABAC53DC54C55EC5"
+				"download" "8665D9BDFD67BD64F88167794FC62035"
+			}
+		}
+	}
+	"602704"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4241977917615397919"
+				"size" "741020634"
+				"download" "278127456"
+			}
+			"legacy"
+			{
+				"gid" "8009624615302096938"
+				"size" "779641433"
+				"download" "207474720"
+			}
+			"legacy-v56"
+			{
+				"gid" "5530499473670040245"
+				"size" "758133200"
+				"download" "202249232"
+			}
+			"no-rendertextures"
+			{
+				"gid" "4231254926349001258"
+				"size" "921091162"
+				"download" "299786800"
+			}
+			"redux-workshop"
+			{
+				"gid" "5159444018627853271"
+				"size" "506151963"
+				"download" "160283600"
+			}
+			"debug"
+			{
+				"gid" "2742775070220378767"
+				"size" "877986668"
+				"download" "295073664"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"jenkins"
+			{
+				"gid" "29C8C7EE00E981FC2EA94EDBD981EAA4"
+				"size" "CAD5824CE4DCBB2E847718876544C9FB"
+				"download" "74ABA861689ACFE8523B8EEC1A4E797A"
+			}
+			"rollback"
+			{
+				"gid" "334785C7F32F806AE1AC7DA0E99753BA"
+				"size" "6F1CAFF276401BC5CB0367D27D5A8AB9"
+				"download" "56C225831656220B3989DF92D56B843E"
+			}
+			"trailer"
+			{
+				"gid" "63EFCFA7FBFF99DFBC28D2B7604A8E0A"
+				"size" "1E876BB4A71C4EB14B9A1381D75DA44E"
+				"download" "D8F8F40F4831B425605FC3A93DD29669"
+			}
+			"jenkins-debug"
+			{
+				"gid" "17E6227F6A24AA62526FBF4098880325"
+				"size" "BF7CB9E667FBCC3DA0FF96F93C727C54"
+				"download" "3D6532FF7E0A48DC515AA583494222F8"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12223833"
+			"timeupdated" "1695118060"
+		}
+		"jenkins"
+		{
+			"buildid" "12223833"
+			"pwdrequired" "1"
+			"timeupdated" "1695115758"
+		}
+		"legacy"
+		{
+			"buildid" "5001262"
+			"description" "Archived replays from before the Redux Update"
+			"timeupdated" "1648046746"
+		}
+		"legacy-v56"
+		{
+			"buildid" "4332716"
+			"description" "Legacy replay support"
+			"timeupdated" "1572296117"
+		}
+		"no-rendertextures"
+		{
+			"buildid" "9150099"
+			"description" "Test build to support older GPUs"
+			"timeupdated" "1658248175"
+		}
+		"redux-workshop"
+		{
+			"buildid" "5874901"
+			"description" "Test workshop support in redux"
+			"timeupdated" "1606227439"
+		}
+		"rollback"
+		{
+			"buildid" "6928888"
+			"pwdrequired" "1"
+			"timeupdated" "1624561818"
+		}
+		"trailer"
+		{
+			"buildid" "8076646"
+			"pwdrequired" "1"
+			"timeupdated" "1643051903"
+		}
+		"debug"
+		{
+			"buildid" "15437325"
+			"description" "Development builds with extra diagnostics"
+			"timeupdated" "1724215620"
+		}
+		"jenkins-debug"
+		{
+			"buildid" "15437325"
+			"pwdrequired" "1"
+			"timeupdated" "1724173316"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "500000000"
+	"maxnumfiles" "10000"
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#mainmenu" "In the Main Menu"
+				"#playingstage" "{#Stage_%stage%}"
+				"#playingstagewithtime" "{#PlayingStage} - %time% - 🏆 %rank%%rank_postfix%"
+				"#playingstagewithprogress" "{#PlayingStage} - %progress%"
+				"#stage_intro" "Neophyte"
+				"#stage_octopus" "Kraken"
+				"#stage_mech" "Guardian"
+				"#stage_fuse" "Execution"
+				"#stage_trench" "Overgrowth"
+				"#stage_onion" "Anomaly"
+				"#stage_hunter" "Phobia"
+				"#stage_tentacle" "Medusa"
+				"#stage_orb" "Hermit"
+				"#stage_claw" "Goliath"
+				"#stage_frame" "Monarch"
+				"#stage_laser" "Prospector"
+				"#stage_storm" "Storm"
+				"#stage_invasion" "Xulgon"
+				"#stage_redux_intro" "Neophyte"
+				"#stage_redux_octopus" "Kraken"
+				"#stage_redux_mech" "Guardian"
+				"#stage_redux_fuse" "Execution"
+				"#stage_redux_trench" "Overgrowth"
+				"#stage_redux_onion" "Anomaly"
+				"#stage_redux_hunter" "Phobia"
+				"#stage_redux_tentacle" "Medusa"
+				"#stage_redux_orb" "Hermit"
+				"#stage_redux_claw" "Goliath"
+				"#stage_redux_frame" "Monarch"
+				"#stage_redux_laser" "Prospector"
+				"#stage_redux_storm" "Storm"
+				"#stage_redux_invasion" "Xulgon"
+				"#stage_extra_easy_crusade_intro" "Easy Neophyte"
+				"#stage_extra_easy_crusade_octopus" "Easy Kraken"
+				"#stage_extra_easy_crusade_mech" "Easy Guardian"
+				"#stage_extra_easy_crusade_fuse" "Easy Execution"
+				"#stage_extra_easy_crusade_trench" "Easy Overgrowth"
+				"#stage_extra_easy_crusade_onion" "Easy Anomaly"
+				"#stage_extra_easy_crusade_hunter" "Easy Phobia"
+				"#stage_extra_easy_invasion_tentacle" "Easy Medusa"
+				"#stage_extra_easy_invasion_orb" "Easy Hermit"
+				"#stage_extra_easy_invasion_claw" "Easy Goliath"
+				"#stage_extra_easy_invasion_frame" "Easy Monarch"
+				"#stage_extra_easy_invasion_laser" "Easy Prospector"
+				"#stage_extra_easy_invasion_storm" "Easy Storm"
+				"#stage_extra_easy_invasion_invasion" "Easy Xulgon"
+				"#stage_extra_hard_crusade_intro" "Nightmare Neophyte"
+				"#stage_extra_hard_crusade_octopus" "Nightmare Kraken"
+				"#stage_extra_hard_crusade_mech" "Nightmare Guardian"
+				"#stage_extra_hard_crusade_fuse" "Nightmare Execution"
+				"#stage_extra_hard_crusade_trench" "Nightmare Overgrowth"
+				"#stage_extra_hard_crusade_onion" "Nightmare Anomaly"
+				"#stage_extra_hard_crusade_hunter" "Nightmare Phobia"
+				"#stage_extra_hard_invasion_tentacle" "Nightmare Medusa"
+				"#stage_extra_hard_invasion_orb" "Nightmare Hermit"
+				"#stage_extra_hard_invasion_claw" "Nightmare Goliath"
+				"#stage_extra_hard_invasion_frame" "Nightmare Monarch"
+				"#stage_extra_hard_invasion_laser" "Nightmare Prospector"
+				"#stage_extra_hard_invasion_storm" "Nightmare Storm"
+				"#stage_extra_hard_invasion_invasion" "Nightmare Xulgon"
+				"#stage_extra_quad" "Quartet"
+				"#stage_extra_sliders" "Crossfire"
+				"#stage_extra_ballpit" "Ball Pit"
+				"#stage_extra_credits" "Credits"
+				"#stage_extra_speedruns_test" "Two Neophytes! Speedrun"
+				"#stage_extra_speedruns_crusade" "Crusade Speedrun"
+				"#stage_extra_speedruns_invasion" "Invasion Speedrun"
+				"#stage_extra_speedruns_wholegame" "Gauntlet Speedrun"
+				"#stage_extra_speedruns_easycrusade" "Easy Crusade Speedrun"
+				"#stage_extra_speedruns_easyinvasion" "Easy Invasion Speedrun"
+				"#stage_extra_speedruns_easywholegame" "Easy Gauntlet Speedrun"
+				"#stage_extra_speedruns_hardcrusade" "Nightmare Crusade Speedrun"
+				"#stage_extra_speedruns_hardinvasion" "Nightmare Invasion Speedrun"
+				"#stage_extra_speedruns_hardwholegame" "Nightmare Gauntlet Speedrun"
+			}
+		}
+	}
+}
