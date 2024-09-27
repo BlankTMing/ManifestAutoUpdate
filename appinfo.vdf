@@ -1,0 +1,225 @@
+"appid" "680400"
+"common"
+{
+	"name" "Light Tracer"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+	}
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"japanese" "1"
+	}
+	"logo" "184e76dae3eaa86dd63ef926fc96508faef60997"
+	"logo_small" "184e76dae3eaa86dd63ef926fc96508faef60997_thumb"
+	"icon" "49f878ee5349c0733ec134ced47d799b2a9b12b5"
+	"clienticon" "3f397eee8d718e873ac209fff4e39ed0863d1ca1"
+	"clienttga" "82163294fbc2b07de3eac649b3293143462b8dfc"
+	"releasestate" "released"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"metacritic_name" "Light Tracer"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1518615483"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Void Dimensions"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Oasis Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_22" "1"
+		"category_2" "1"
+		"category_29" "1"
+		"category_28" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1516003133"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "680400"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "21"
+		"2" "492"
+		"3" "21978"
+	}
+	"review_score" "7"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Void Dimensions"
+	"publisher" "Oasis Games"
+}
+"config"
+{
+	"installdir" "Light Tracer"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "LightTracer.exe"
+			"arguments" "-VIVE"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "LightTracer.exe"
+			"arguments" "-LTPS"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "LightTracer.exe"
+			"arguments" "-OCULUS"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229001"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229030"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"680401"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7121779702082379732"
+				"size" "1577818689"
+				"download" "672895872"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "96A9EA8BD6EE2858FF74D91B6E699BB5"
+				"size" "BD622711281E3D803333980843564DF7"
+				"download" "79331396C90E4341A32C277708BD393D"
+			}
+		}
+	}
+	"baselanguages" "english,schinese,tchinese,japanese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3219889"
+			"timeupdated" "1539750814"
+		}
+		"test"
+		{
+			"buildid" "2595998"
+			"pwdrequired" "1"
+			"timeupdated" "1520849274"
+		}
+	}
+}
