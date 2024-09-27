@@ -1,0 +1,230 @@
+"appid" "366380"
+"common"
+{
+	"name" "MYTH"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"clienticon" "a5743466f6e48f156bd57a1b042acda9aa5f2600"
+	"clienttga" "3dd342a9c17d19f45268883dfb6387d65e836879"
+	"icon" "2c35ef8db8cd5f072f16bff734601e527d5edf84"
+	"logo" "6470567f0dc36ea83619aa20c8b910c1c8135ba5"
+	"logo_small" "6470567f0dc36ea83619aa20c8b910c1c8135ba5_thumb"
+	"releasestate" "released"
+	"osextended" "macos64,macosnotarized"
+	"metacritic_name" "MYTH"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1568786610"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Circletempo"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "MangaGamer"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "MangaGamer"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1477638000"
+	"steam_release_date" "1477695205"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "366380"
+	"store_tags"
+	{
+		"0" "3799"
+		"1" "492"
+		"2" "21"
+		"3" "1667"
+		"4" "5716"
+		"5" "4085"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "Circletempo"
+	"publisher" "MangaGamer"
+	"homepage" "https://www.circletempo.net/myth/en/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "MYTH"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "MYTH.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "MYTH.sh"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "MYTH.app"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"366381"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4222323134392685915"
+				"size" "868445828"
+				"download" "676006480"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "D61C8563AB64648FD2348ADEF6A8BE40"
+				"size" "162B597F7FFB3FD3F00B354C3DD46EC2"
+				"download" "2D931794FFB3BBF750D4B9EE15D2E9AF"
+			}
+		}
+	}
+	"baselanguages" "english,japanese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3522153"
+			"timeupdated" "1549283661"
+		}
+		"test"
+		{
+			"buildid" "3522153"
+			"pwdrequired" "1"
+			"timeupdated" "1549005488"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "524288000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "MangaGamer/MYTH"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "MacHome"
+			"path" "Library/MangaGamer/MYTH"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "LinuxHome"
+			"path" ".mangagamer/MYTH"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+			"recursive" "1"
+		}
+	}
+}
