@@ -1,0 +1,774 @@
+"appid" "27000"
+"common"
+{
+	"name" "The Path"
+	"logo" "382d3d4bf9ef5233c472fca7a87dc18ebc66f126"
+	"logo_small" "382d3d4bf9ef5233c472fca7a87dc18ebc66f126_thumb"
+	"clienticon" "fadce9922a879dc10f8617b0321dcd11bca779f8"
+	"icon" "3921031bd7f10f594fb248d6378dd248c233a996"
+	"clienttga" "fca54478c11fa8cb4a3072f65ae7135703bbc985"
+	"metacritic_url" "pc/path"
+	"oslist" "macos,windows"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1693008000"
+		"tested_build_id" "3915363"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DisplayOutputHasNonblockingIssues"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "The Path"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1667032904"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Tale of Tales"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Tale of Tales"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"dutch"
+		{
+			"supported" "true"
+		}
+		"danish"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"hungarian"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1237359600"
+	"steam_release_date" "1237435200"
+	"metacritic_score" "79"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/the-path\?ftag=MCD-06-10aaa1f"
+	"community_hub_visible" "1"
+	"gameid" "27000"
+	"store_tags"
+	{
+		"0" "5900"
+		"1" "492"
+		"2" "1667"
+		"3" "3834"
+		"4" "7208"
+		"5" "21"
+		"6" "1710"
+		"7" "13782"
+		"8" "4166"
+		"9" "4182"
+		"10" "3952"
+		"11" "4342"
+		"12" "1721"
+		"13" "1742"
+		"14" "1697"
+		"15" "1756"
+		"16" "4234"
+		"17" "9994"
+		"18" "5186"
+		"19" "6650"
+	}
+	"review_score" "6"
+	"review_percentage" "77"
+}
+"extended"
+{
+	"developer" "Tale of Tales"
+	"gamedir" "The Path"
+	"homepage" "http://Tale-of-Tales.com/ThePath"
+	"icon" ""
+	"installscriptosx" "The Path.app/installscript_osx.vdf"
+	"installscript_macos" "The Path.app/installscript_osx.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "27001"
+	"primarycache_mac" "27012"
+	"primarycache_macos" "27012"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "macos,windows"
+	"developer_url" "http://Tale-of-Tales.com"
+	"publisher" "Tale of Tales"
+	"gamemanualurl" "https://store.steampowered.com/manual/27000/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "The Path"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "PathViewer.exe"
+			"arguments" "Q3DStart.q3d"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "The Path.app/Contents/MacOS/cider"
+			"arguments" "-psn"
+			"workingdir" "The Path"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"27012"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6628552926035620925"
+				"size" "617110408"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"audiofix"
+			{
+				"gid" "849094B85AF87D71AFED67A3DDC9779A"
+				"size" "6259FD9B5624C4408E5F2B2AAF059F42"
+				"download" "19DE6DA4581376BDF7E7C9A4780B2538"
+			}
+			"drmfix"
+			{
+				"gid" "F1725867736C7B369A45DD3FD165D331"
+				"size" "5B690554CF21384D611B21C701B09D46"
+				"download" "7A5D7F4173BEE25BD98ABFD151F322F9"
+			}
+			"osxnew"
+			{
+				"gid" "79F736398C60CC81051E68757146371F"
+				"size" "EA4AE8CA6CA921367035981E5B45C861"
+				"download" "5187CB7A0485ADACA272F3A82BFF26F3"
+			}
+		}
+	}
+	"27001"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2653026789660065677"
+				"size" "519088209"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"audiofix"
+			{
+				"gid" "23CC40579E8E78CFB320F93D02AF2794"
+				"size" "0D80DF381FD2DF90EDF3D0B365063598"
+				"download" "19DE6DA4581376BDF7E7C9A4780B2538"
+			}
+			"drmfix"
+			{
+				"gid" "B23225FF6D694AEE905282ECFEFB9A74"
+				"size" "AFAB0F6C3FDADA2039ADF10172687B64"
+				"download" "7A5D7F4173BEE25BD98ABFD151F322F9"
+			}
+			"osxnew"
+			{
+				"gid" "3807976D94CBA7914A59CBDD0EF5600F"
+				"size" "F90B5A6B432F48438E27E3B7E88D1387"
+				"download" "5187CB7A0485ADACA272F3A82BFF26F3"
+			}
+		}
+	}
+	"27002"
+	{
+		"config"
+		{
+			"language" "dutch"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3152633225166774386"
+				"size" "26027"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"audiofix"
+			{
+				"gid" "EAF9ADCF95B641088B0AC89C6513E5E1"
+				"size" "6E04C9270183C6492EE80CC3323D517E"
+				"download" "19DE6DA4581376BDF7E7C9A4780B2538"
+			}
+			"drmfix"
+			{
+				"gid" "CB05A689AF44A76F4BFB7261EB86043A"
+				"size" "7990334CEF81B9EAC3CBDF2AAA202D79"
+				"download" "7A5D7F4173BEE25BD98ABFD151F322F9"
+			}
+			"osxnew"
+			{
+				"gid" "334BCFEEB576EA372FF8B1B25649191D"
+				"size" "3B290A84BEC22110D07EEE5F884CDC7B"
+				"download" "5187CB7A0485ADACA272F3A82BFF26F3"
+			}
+		}
+	}
+	"27004"
+	{
+		"config"
+		{
+			"language" "danish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2973050471110046574"
+				"size" "8295039"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"audiofix"
+			{
+				"gid" "92C1F2D5C5D3B1BA9E80BF18200CF4C0"
+				"size" "5BE50D221B20B4569584323EE1B620A4"
+				"download" "19DE6DA4581376BDF7E7C9A4780B2538"
+			}
+			"drmfix"
+			{
+				"gid" "FF94BDDA346009F59E6D51CDA08DD1EE"
+				"size" "DD89AD6C281C787350B87FDA50C67388"
+				"download" "7A5D7F4173BEE25BD98ABFD151F322F9"
+			}
+			"osxnew"
+			{
+				"gid" "6802CA2CB0E2A3A8C4B3CF8C7EEA17B1"
+				"size" "19444DC20414630978C261221DF312A4"
+				"download" "5187CB7A0485ADACA272F3A82BFF26F3"
+			}
+		}
+	}
+	"27005"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6015425200337905893"
+				"size" "8297045"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"audiofix"
+			{
+				"gid" "7B149D2CE2F034EEB76E4D9AC5573882"
+				"size" "851F4E7C93828F5A2AD8A2BCA81C8A38"
+				"download" "19DE6DA4581376BDF7E7C9A4780B2538"
+			}
+			"drmfix"
+			{
+				"gid" "1FA5B977089A0730973BB5B3C4F5844D"
+				"size" "5EA5703CAFB1F3162F60D58B1CBC8A6D"
+				"download" "7A5D7F4173BEE25BD98ABFD151F322F9"
+			}
+			"osxnew"
+			{
+				"gid" "B6870A56E60E88F41694E403481BD179"
+				"size" "FF6C069392BBB1FBBD574590FE9DCDD6"
+				"download" "5187CB7A0485ADACA272F3A82BFF26F3"
+			}
+		}
+	}
+	"27006"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9190958508145386112"
+				"size" "8297640"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"audiofix"
+			{
+				"gid" "60A00B3ADFE036C320DB3CE1BA89526A"
+				"size" "BA12788A114BBFA124268AA423857C9A"
+				"download" "19DE6DA4581376BDF7E7C9A4780B2538"
+			}
+			"drmfix"
+			{
+				"gid" "F088B83170A433131D7FEBFC0AE38A77"
+				"size" "20ECE951D1949ECB86CFB9F8CBFEE2F3"
+				"download" "7A5D7F4173BEE25BD98ABFD151F322F9"
+			}
+			"osxnew"
+			{
+				"gid" "1BABEBBFE5344A2FFEDDE62978F9B3D8"
+				"size" "FB298274356C5DAAA7C5A236A8D91B90"
+				"download" "5187CB7A0485ADACA272F3A82BFF26F3"
+			}
+		}
+	}
+	"27007"
+	{
+		"config"
+		{
+			"language" "hungarian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5590894942598487034"
+				"size" "8295672"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"audiofix"
+			{
+				"gid" "EAD1FC3644C18EA232384E6C8F282BB3"
+				"size" "1EEE9DB5C43D3556F1E45130C13A300A"
+				"download" "19DE6DA4581376BDF7E7C9A4780B2538"
+			}
+			"drmfix"
+			{
+				"gid" "6A1836552FE0F5979CB29A4463EB8852"
+				"size" "28277105749432A73A34E43413DD8B80"
+				"download" "7A5D7F4173BEE25BD98ABFD151F322F9"
+			}
+			"osxnew"
+			{
+				"gid" "AE40E80E9F2F3647F460F51EFCCC9CDB"
+				"size" "C3CE7E8D648A4E90C27E66C7431B0A65"
+				"download" "5187CB7A0485ADACA272F3A82BFF26F3"
+			}
+		}
+	}
+	"27008"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7443456027842925386"
+				"size" "8297613"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"audiofix"
+			{
+				"gid" "20322857EC5B67C348FC7DFA3E6406AE"
+				"size" "1C0ADB19491C0297200309B96B95A025"
+				"download" "19DE6DA4581376BDF7E7C9A4780B2538"
+			}
+			"drmfix"
+			{
+				"gid" "0705A2AE911767717E988EBD13205E86"
+				"size" "D22BD7283EB4320CE7C9D5EF0D6F6BA9"
+				"download" "7A5D7F4173BEE25BD98ABFD151F322F9"
+			}
+			"osxnew"
+			{
+				"gid" "10E5E4F4B15C076E652EE768D33F33B1"
+				"size" "ABDFED94D0CF9BE0632A778E8FBC4C41"
+				"download" "5187CB7A0485ADACA272F3A82BFF26F3"
+			}
+		}
+	}
+	"27009"
+	{
+		"config"
+		{
+			"language" "portuguese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5764319490668407502"
+				"size" "8297264"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"audiofix"
+			{
+				"gid" "7F9CCAE8758DF665877B9D697A164209"
+				"size" "230B0673CC0BFBE82143CBD68E80FDFF"
+				"download" "19DE6DA4581376BDF7E7C9A4780B2538"
+			}
+			"drmfix"
+			{
+				"gid" "A1B0AFCC112AD960FD2BE6FFF026B896"
+				"size" "90A3EE2A1446BD2DC8EBFC4D4A68C226"
+				"download" "7A5D7F4173BEE25BD98ABFD151F322F9"
+			}
+			"osxnew"
+			{
+				"gid" "56D82D7CEAC0AE727B251BE0E01E1A89"
+				"size" "672EEDF2F0E4D828B3F39EB6F504CE1D"
+				"download" "5187CB7A0485ADACA272F3A82BFF26F3"
+			}
+		}
+	}
+	"27010"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8614072841386426765"
+				"size" "8295976"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"audiofix"
+			{
+				"gid" "2AAEBE14D3B02C032DECAF3AA54E2FB8"
+				"size" "60D46A3DE0560732A7C796FE060CC205"
+				"download" "19DE6DA4581376BDF7E7C9A4780B2538"
+			}
+			"drmfix"
+			{
+				"gid" "F9469729432955FF47CD60801FB61450"
+				"size" "093C7905361C6325A54D8BD915C98C41"
+				"download" "7A5D7F4173BEE25BD98ABFD151F322F9"
+			}
+			"osxnew"
+			{
+				"gid" "5629E23C4A22F3418F6002ABC9ABFED6"
+				"size" "CC814ABEC56E7E24708E74B8CC14E2DE"
+				"download" "5187CB7A0485ADACA272F3A82BFF26F3"
+			}
+		}
+	}
+	"27011"
+	{
+		"config"
+		{
+			"language" "romanian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8504949955743061003"
+				"size" "8296087"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"audiofix"
+			{
+				"gid" "B086EDA9A8F3AECEC453984157FF3DD9"
+				"size" "DC67E54765A71E530A406BFA38C083A4"
+				"download" "19DE6DA4581376BDF7E7C9A4780B2538"
+			}
+			"drmfix"
+			{
+				"gid" "DA9F1D15DF09BE67F15E89163124F443"
+				"size" "F1F65DC163483E301B14272FCA271766"
+				"download" "7A5D7F4173BEE25BD98ABFD151F322F9"
+			}
+			"osxnew"
+			{
+				"gid" "AB0DB4F6E775E27373A418DAFB2B3CCA"
+				"size" "4DB3E063B172F249BC8FA092C44BC6E4"
+				"download" "5187CB7A0485ADACA272F3A82BFF26F3"
+			}
+		}
+	}
+	"27013"
+	{
+		"config"
+		{
+			"language" "japanese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2968788011333206441"
+				"size" "95124565"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"audiofix"
+			{
+				"gid" "7B04873B574C1D244360CA6EDC13F7BB"
+				"size" "E5B08ACE66A165A69EB5950ACE263736"
+				"download" "19DE6DA4581376BDF7E7C9A4780B2538"
+			}
+			"drmfix"
+			{
+				"gid" "8B27D828A1F642D0D9542740D054B52F"
+				"size" "71EAC5305382B0971B7C5104B3C553CE"
+				"download" "7A5D7F4173BEE25BD98ABFD151F322F9"
+			}
+			"osxnew"
+			{
+				"gid" "DA6CEF6BB69E2DFD95B19439F9C06CC8"
+				"size" "40D3450397FE34D58956C16E0EC8C418"
+				"download" "5187CB7A0485ADACA272F3A82BFF26F3"
+			}
+		}
+	}
+	"27014"
+	{
+		"config"
+		{
+			"language" "polish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1613642059005447266"
+				"size" "29026473"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"audiofix"
+			{
+				"gid" "81667577B1ED05E5A880C7010420D1B1"
+				"size" "E8D2119D53E3137CF94E1CE7E67EF8D3"
+				"download" "19DE6DA4581376BDF7E7C9A4780B2538"
+			}
+			"drmfix"
+			{
+				"gid" "0C6D385AC2E87DEFB7FD662653530309"
+				"size" "43DFC86C44B7DCA47B860D0A8C78C3D4"
+				"download" "7A5D7F4173BEE25BD98ABFD151F322F9"
+			}
+			"osxnew"
+			{
+				"gid" "BDBF94BF3601C69F6E2D9721C54229D6"
+				"size" "93FEEBC13816E7DA74A1975DEF5AA9DD"
+				"download" "5187CB7A0485ADACA272F3A82BFF26F3"
+			}
+		}
+	}
+	"27015"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3615712058510193246"
+				"size" "158899531"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"audiofix"
+			{
+				"gid" "1322C3A01F54F8E350A45B5D6A80B1B5"
+				"size" "37672E0EE57A85AD74C6D478C594248B"
+				"download" "19DE6DA4581376BDF7E7C9A4780B2538"
+			}
+			"drmfix"
+			{
+				"gid" "6A17ECD013FD3F76EF972FC547F6E4D0"
+				"size" "2F61585BB4976380E16140F8A034DC9F"
+				"download" "7A5D7F4173BEE25BD98ABFD151F322F9"
+			}
+			"osxnew"
+			{
+				"gid" "D329AEEEE8939B70F92739CCEB20193E"
+				"size" "6A4F6FFBD6A4C2CA6A3CA05E561FA7AE"
+				"download" "5187CB7A0485ADACA272F3A82BFF26F3"
+			}
+		}
+	}
+	"27003"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2668925100055413349"
+				"size" "671844279"
+				"download" "249582176"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3915363"
+			"timeupdated" "1560435460"
+		}
+		"audiofix"
+		{
+			"buildid" "183994"
+			"pwdrequired" "1"
+		}
+		"drmfix"
+		{
+			"buildid" "91762"
+			"pwdrequired" "1"
+		}
+		"osxnew"
+		{
+			"buildid" "166621"
+			"pwdrequired" "1"
+		}
+	}
+}
