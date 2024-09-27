@@ -1,0 +1,240 @@
+"appid" "2132380"
+"common"
+{
+	"name" "Book of Korvald"
+	"type" "Game"
+	"releasestate" "released"
+	"icon" "84fcda55e4d77c183e9df33dde0370331a52a166"
+	"clienttga" "6bbf78633f49cbcc9a5d9d6f7b80f9b955e69309"
+	"clienticon" "4d3d4f07becad5de872f0fc532855f7ecf46ff54"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "2"
+		"2" "3"
+		"3" "5"
+		"4" "4"
+	}
+	"restricted_countries" "CN,DE"
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "78.84279967452017"
+			"height_pct" "89.5136759789336"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "78.84279967452017"
+				"height_pct" "89.5136759789336"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1715801011"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Punching Donut"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Shady Corner Games"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_59" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"full_audio" "true"
+			"subtitles" "true"
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1718597784"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2132380"
+	"store_tags"
+	{
+		"0" "6650"
+		"1" "12095"
+		"2" "21"
+		"3" "24904"
+		"4" "19"
+		"5" "5379"
+		"6" "4231"
+		"7" "9130"
+		"8" "4106"
+		"9" "42804"
+		"10" "3834"
+		"11" "3871"
+		"12" "1646"
+		"13" "4400"
+		"14" "6815"
+		"15" "4175"
+		"16" "4252"
+		"17" "1702"
+		"18" "4604"
+		"19" "5923"
+	}
+	"review_score" "8"
+	"review_percentage" "96"
+}
+"extended"
+{
+	"developer" "Punching Donut"
+	"publisher" "Shady Corner Games"
+	"homepage" "https://twitter.com/DonutPunching"
+}
+"config"
+{
+	"installdir" "Book of Korvald"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Book of Korvald.exe"
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+	"steamdecktouchscreen" "1"
+}
+"depots"
+{
+	"2132381"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6356150898322120782"
+				"size" "732797644"
+				"download" "635822992"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15744156"
+			"timeupdated" "1726671480"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "150000000"
+	"maxnumfiles" "20"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Punching Donut Games/Book of Korvald/SaveData"
+			"pattern" "*.data"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" ""
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ".config/unity3d/Punching Donut Games/Book of Korvald/SaveData"
+		}
+	}
+}
