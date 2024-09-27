@@ -1,0 +1,224 @@
+"appid" "2051440"
+"common"
+{
+	"name" "Guardener"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" "macos64"
+	"icon" "625fa891170738dcd6125135e3025847674b8906"
+	"clienttga" "7a414a388b00577a1ba96795019effd89c49d676"
+	"clienticon" "6ca6f8a8c39e76b981f5960c6bfe1cb483cc1e8b"
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1662163200"
+		"tested_build_id" "8951888"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "61.20092378752886"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1655795773"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Sokpop Collective"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Sokpop Collective"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Sokpop"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1655795962"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2051440"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "87918"
+		"2" "1723"
+		"3" "3813"
+		"4" "3871"
+		"5" "4305"
+		"6" "4726"
+		"7" "3964"
+		"8" "22602"
+		"9" "1684"
+		"10" "4136"
+		"11" "1662"
+		"12" "255534"
+		"13" "7332"
+		"14" "3993"
+		"15" "4182"
+		"16" "1773"
+		"17" "4520"
+		"18" "1645"
+		"19" "492"
+	}
+	"review_score" "8"
+	"review_percentage" "86"
+}
+"extended"
+{
+	"developer" "Sokpop Collective"
+	"publisher" "Sokpop Collective"
+}
+"config"
+{
+	"installdir" "Guardener"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "guardener.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Guardener.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2051441"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4711027684343647572"
+				"size" "23627776"
+				"download" "23787200"
+			}
+		}
+	}
+	"2051442"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2687661421278147409"
+				"size" "53630535"
+				"download" "24865264"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8951888"
+			"timeupdated" "1655410542"
+		}
+	}
+}
