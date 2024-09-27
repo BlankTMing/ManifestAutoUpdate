@@ -1,0 +1,281 @@
+"appid" "1397390"
+"common"
+{
+	"name" "The Break-In"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "baf25bf0b9cd2915acd2cececb2860dc868fec3b"
+	"logo_small" "baf25bf0b9cd2915acd2cececb2860dc868fec3b_thumb"
+	"icon" "c422453f02ab3f8fc5f1965ff9bcc4b18a11f781"
+	"clienttga" "dcbb9c0a5e6cb2daec6c67298a437f4efdd80a6c"
+	"clienticon" "5b05ebfa70d2a101622ab05025714596b2d4e928"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"openvrsupport" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1690934400"
+		"tested_build_id" "11786105"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-3"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomCenter"
+				"width_pct" "100"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1689627268"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "jorgen games Ltd"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Oliver Josh"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "jorgen games Ltd"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "28"
+		"3" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1689580824"
+	"community_hub_visible" "1"
+	"gameid" "1397390"
+	"store_tags"
+	{
+		"0" "21978"
+		"1" "3859"
+		"2" "1687"
+		"3" "599"
+		"4" "6378"
+		"5" "1680"
+		"6" "3843"
+		"7" "19"
+		"8" "4136"
+		"9" "1667"
+		"10" "3834"
+		"11" "1625"
+		"12" "1685"
+		"13" "5395"
+		"14" "9204"
+		"15" "3968"
+		"16" "3839"
+		"17" "4106"
+		"18" "4508"
+		"19" "19995"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"vrheadsetstreaming" "0"
+	"developer" "jorgen games Ltd"
+	"publisher" "jorgen games Ltd"
+}
+"config"
+{
+	"installdir" "The Break-In"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "nonVR/The Break In.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "VR/The Break In.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1397392"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2483183682884747122"
+				"size" "8018093953"
+				"download" "703406528"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15821922"
+			"timeupdated" "1727266053"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "600"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "jorgen games Ltd\\The Break In"
+			"pattern" "*.cache*"
+		}
+	}
+}
