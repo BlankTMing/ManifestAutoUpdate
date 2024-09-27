@@ -1,0 +1,469 @@
+"appid" "2192620"
+"common"
+{
+	"name" "ghostpia"
+	"type" "Game"
+	"clienticon" "dbe0213d1d0f9b3b219130a624141e3e82696af4"
+	"clienttga" "18cfcc04a32f3da196c0702c262cf551674a78cf"
+	"clienticns" "dbe0213d1d0f9b3b219130a624141e3e82696af4"
+	"linuxclienticon" "dbe0213d1d0f9b3b219130a624141e3e82696af4"
+	"icon" "bf629156bccd21bce0843b3bd48aeffac943f213"
+	"name_localized"
+	{
+		"english" "ghostpia Season One"
+		"japanese" "ghostpia シーズンワン"
+		"schinese" "ghostpia Season One《幽灵镇少女》"
+		"tchinese" "ghostpia Season One《幽靈鎮少女》"
+	}
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" "macos64,macosapplesilicon"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"japanese" "1"
+	}
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1708041600"
+		"tested_build_id" "13390794"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"japanese" "capsule_231x87_japanese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"japanese" "header_japanese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,ja"
+		"library_hero" "en"
+		"library_logo" "en,ja"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "46.22019574871729"
+			"height_pct" "54.61209398664874"
+		}
+	}
+	"store_asset_mtime" "1699967730"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Chosuido"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "超水道"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "room6"
+		}
+		"3"
+		{
+			"type" "publisher"
+			"name" "yokaze"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1692687628"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2192620"
+	"store_tags"
+	{
+		"0" "4182"
+		"1" "1667"
+		"2" "3799"
+		"3" "1721"
+		"4" "9551"
+		"5" "4486"
+		"6" "6426"
+		"7" "1742"
+		"8" "11014"
+		"9" "21"
+		"10" "1698"
+		"11" "31275"
+		"12" "5923"
+		"13" "4085"
+		"14" "4145"
+		"15" "6815"
+		"16" "5984"
+		"17" "5900"
+		"18" "4474"
+		"19" "599"
+	}
+	"review_score" "8"
+	"review_percentage" "97"
+}
+"extended"
+{
+	"developer" "Chosuido"
+	"publisher" "room6"
+	"homepage" "https://ghostpia.xyz/"
+	"listofdlc" "2538470"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "ghostpia"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ghostpia.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "ghostpia.app/Contents/MacOS/ghostpia"
+			"workingdir" "ghostpia.app/Contents/MacOS"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,schinese,tchinese,japanese"
+	"hasdepotsindlc" "1"
+	"2192621"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5256568270264874287"
+				"size" "3322956988"
+				"download" "2622384512"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"develop_dev"
+			{
+				"gid" "871DDEF692E95CFBAB92926CB5499ED0"
+				"size" "FBFBA7F4F6B86521922C6F8FC564961D"
+				"download" "9D572CB2B37434ACB39467C3913DC593"
+			}
+			"develop_mas"
+			{
+				"gid" "02D0CEF728482E0F10F9DB555E996512"
+				"size" "C2646AF30E3A02C338BCB34519B7984F"
+				"download" "0F0FE5F7906E596913FC2B2F6B169D6A"
+			}
+			"develop_sub_01"
+			{
+				"gid" "C596512C8C7A481DD5FEEAC04A4D6FC3"
+				"size" "C8F4AD32AAA3B38C7A63BC299F33DF88"
+				"download" "AC42A2D1DE72DE013FFBEBFA9538C2E2"
+			}
+			"master_v1.0"
+			{
+				"gid" "B4C8AF9233752E3E05DA63D39B6C61D2"
+				"size" "B50F74AE6818B43D6623EFC68EB938BF"
+				"download" "4A282ACAE20FD1AA05BC1230523B8939"
+			}
+			"master_v1.1.0"
+			{
+				"gid" "A24C8BB10F7807551C83C59A4D1A34A4"
+				"size" "7F27E5AFFBFEA086BC0D98463C8B6772"
+				"download" "B0769B514923B76C85E59182C139F53A"
+			}
+			"promo_01"
+			{
+				"gid" "B1A20F9EF13B42D0A29EACEB97D9658E"
+				"size" "BE612EB039B339D1CE633754E9350819"
+				"download" "9C32B8CAED3F1ABFC9BB879A5258A392"
+			}
+			"qa_dev_01"
+			{
+				"gid" "C6616A066E57E4901FF2653EEE16A8A9"
+				"size" "C6B340683D2A7C6F5146811B86FE8775"
+				"download" "3C03132E9A1760C898AAD373B1DE283F"
+			}
+			"qa_mas_01"
+			{
+				"gid" "EB1BE78CC467681C5A43605EC88F0C23"
+				"size" "D265F015DD3AAC01884786F854A58AE4"
+				"download" "D821921114377D68F9124E6C251E6F1A"
+			}
+		}
+	}
+	"2192622"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4604342952621369496"
+				"size" "3122662790"
+				"download" "2648826320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"develop_dev"
+			{
+				"gid" "F574FE60288ADDBDB931F7B03D499DBA"
+				"size" "C704FD5BB187AE819BBD1E7950CA45B1"
+				"download" "E29DE0949C6C94929F71BE1B5AA84054"
+			}
+			"develop_mas"
+			{
+				"gid" "4F300DABC940322E233F7D4B081E0F71"
+				"size" "2CAEDAD1FFBA8673F7BA15CB7F45910A"
+				"download" "BA67D007D3B3E6B1182409D7BDF3E9D9"
+			}
+			"develop_sub_01"
+			{
+				"gid" "B7E9100B75F647E2A1915B02A5919EF3"
+				"size" "BCF7BCBAFCC8403BE83AD1C92D45E3C5"
+				"download" "42E46C05778750D9ACD3DC38A0A95E05"
+			}
+			"master_v1.0"
+			{
+				"gid" "F3264369AC3A9202D1BDF2DB30399D10"
+				"size" "05FF6B74C980B0C678D361866916B7F9"
+				"download" "552011AD05B9C0B3700831109CB6D25F"
+			}
+			"master_v1.1.0"
+			{
+				"gid" "9B8CF7D2C1E07D8957F2E810AD20C82F"
+				"size" "766ACD47B8589F6E893FF836DD911104"
+				"download" "FAD3F0ABB35DD9A027597EB39B85BCFF"
+			}
+			"promo_01"
+			{
+				"gid" "E65039DFAFA5D2B5FB86C233D24791B4"
+				"size" "109694448157B0F61305F584CE98773F"
+				"download" "8727103CA4FB7886E34FEACD347537AB"
+			}
+			"qa_dev_01"
+			{
+				"gid" "D1AE08B3BF6A16DB8A57776F647F24DF"
+				"size" "BA6AF8D2A56A5FC32C69DC71F69BC2B8"
+				"download" "7CC1B7365CBE262C1D0F8F1BD7C418B5"
+			}
+			"qa_mas_01"
+			{
+				"gid" "3FC367911028737707E75EC8002074CE"
+				"size" "1977782D9720575ED950823F361A39FD"
+				"download" "C4F7CEE758AA0180AC506E5D0E60354E"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13609352"
+			"timeupdated" "1709622292"
+		}
+		"develop_dev"
+		{
+			"buildid" "13266150"
+			"pwdrequired" "1"
+			"timeupdated" "1707300625"
+		}
+		"develop_mas"
+		{
+			"buildid" "13609352"
+			"pwdrequired" "1"
+			"timeupdated" "1709269166"
+		}
+		"develop_sub_01"
+		{
+			"buildid" "11689590"
+			"pwdrequired" "1"
+			"timeupdated" "1689213206"
+		}
+		"master_v1.0"
+		{
+			"buildid" "11889122"
+			"pwdrequired" "1"
+			"timeupdated" "1692757821"
+		}
+		"master_v1.1.0"
+		{
+			"buildid" "12677725"
+			"pwdrequired" "1"
+			"timeupdated" "1700111242"
+		}
+		"promo_01"
+		{
+			"buildid" "11584103"
+			"pwdrequired" "1"
+			"timeupdated" "1688006077"
+		}
+		"qa_dev_01"
+		{
+			"buildid" "11638862"
+			"pwdrequired" "1"
+			"timeupdated" "1688638731"
+		}
+		"qa_mas_01"
+		{
+			"buildid" "13390794"
+			"pwdrequired" "1"
+			"timeupdated" "1708142467"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "268435456"
+	"maxnumfiles" "256"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Chosuido/ghostpia/"
+			"pattern" "*"
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "com.Chosuido.ghostpia/"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Chosuido/ghostpia/"
+					"replace" "com.Chosuido.ghostpia/"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinAppDataLocalLow"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "com.Chosuido.ghostpia/"
+					"replace" "Chosuido/ghostpia/"
+				}
+			}
+		}
+	}
+}
