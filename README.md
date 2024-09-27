@@ -1,64 +1,48 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-27 12:54:01
+## 更新时间：2024-09-27 12:58:45
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 278570 | Labyrinthine Dreams| Game |
-| 462000 | Cyberpong| Game |
-| 522020 | Blue Effect VR| Game |
-| 267360 | MURI| Game |
-| 602070 | Plasma Puncher| Game |
-| 2730650 | 逆乱封神之武王伐纣| Game |
-| 255340 | Escape Goat 2| Game |
-| 2396630 | Unsupervised| Game |
-| 1720160 | 旅者| Game |
-| 1716910 | 美足按摩| Game |
-| 387870 | Mold on Pizza 🍕| Game |
-| 913590 | Dimension Drifter| Game |
-| 99700 | NightSky| game |
-| 1278370 | Lost Circus VR| Game |
-| 1002 | Rag Doll Kung Fu| game |
-| 1897380 | Zemblanity| Game |
-| 1835870 | 黑猫魔法师| Game |
-| 1880490 | Meet me at NooN| Game |
-| 1042560 | Castle Legend：Devil Awakening| Game |
-| 1468380 | The Sundew| Game |
-| 1243700 | 长安夜明| Game |
-| 2112880 | 十五| Game |
-| 341090 | On A Roll 3D| Game |
-| 503340 | Dig 4 Destruction| Game |
-| 1330930 | Star Seeker in: the Secret of the Sorcerous Standoff| Game |
-| 1222870 | 黄河大合唱| Game |
-| 1096210 | Mekabolt| Game |
-| 680590 | Minotaur| Game |
-| 859340 | Seeking Dawn| Game |
-| 887340 | Owl Watch| Game |
-| 332530 | Shutshimi| Game |
-| 1819180 | Oxide Room 104| Game |
-| 2786160 | 骷髅大战| Game |
-| 1844060 | Holy Purge| Game |
-| 1549850 | Virtual Hunter| Game |
-| 259870 | OMG Zombies!| Game |
-| 2183200 | CHAQS| Game |
-| 1561400 | Sylphine| Game |
-| 1156510 | Peachleaf Pirates| Game |
-| 1887250 | Sand Castle| Game |
-| 1383720 | Cyber-doge 2077: Meme runner| Game |
-| 1128690 | Plunge| Game |
-| 2686330 | NOCLIP| Game |
-| 1750600 | Crate Mates| Game |
-| 58230 | MacGuffin's Curse| Game |
-| 1072300 | Echo Generation: Midnight Edition| Game |
-| 1186290 | 平衡球：深空归来| Game |
-| 525640 | Bullets And More VR - BAM VR| Game |
-| 457320 | HoloBall| Game |
-| 2903660 | 壮士水族馆 -肌肉水族馆模拟器-| Game |
-| 2338910 | Behold Battle| Game |
-| 269110 | Super Motherload| Game |
-| 2009620 | Harvest Hunt| Game |
-| 627890 | Reventa| Game |
-| 1143710 | Тёмное отражение (Dark Reflection)| Game |
-| 326720 | Instant Dungeon!| Game |
-| 2289130 | Weekend Warriors MMA| Game |
-| 2367480 | Speed Crew| Game |
-| 2567040 | Only Up Girl| Game |
+| 1231520 | Farmtale| Game |
+| 859200 | 破东荒| Game |
+| 2933870 | Mbembe Radio| Game |
+| 746350 | Air Combat Arena| Game |
+| 1744120 | Cannibals| Game |
+| 3088440 | Behind The Backrooms| Game |
+| 1731360 | 中国战疫| Game |
+| 927270 | Accounting+| Game |
+| 1337030 | En-Train| Game |
+| 1891560 | Climax Heroines| Game |
+| 2979780 | Sayo| Game |
+| 1710540 | 豪猪镇之秋| Game |
+| 2308790 | UNDRESS!| Game |
+| 1840790 | 合金突变| Game |
+| 1039310 | REGOLA| Game |
+| 2224790 | PIEN-ぴえん- & PAON-ぱおん- plus| Game |
+| 1221590 | Formula Car Racing Simulator| Game |
+| 2369880 | 地牢求生| Game |
+| 2837760 | 恐怖改造家| Game |
+| 1141930 | Mondly: Learn Languages in VR| Game |
+| 2778320 | The Vanished Sister| Game |
+| 1679740 | Once in Flowerlake| Game |
+| 1388490 | 资本模拟器| Game |
+| 1747900 | Enchanted Blacksmith| Game |
+| 2273570 | Speed Dates| Game |
+| 1366520 | Dungeon Limbus| Game |
+| 1774380 | Cine Tracer 2| Game |
+| 1304320 | 重装无限·Metal Infinite| Game |
+| 2255480 | 女妖联盟| Game |
+| 2187850 | 扫雷街机版| Game |
+| 2588610 | Last Lesson| Game |
+| 1703020 | 星舰迷航| Game |
+| 1782330 | Green Hell VR| Game |
+| 465890 | Dark Parables: The Final Cinderella Collector's Edition| Game |
+| 1312070 | Pink Island| Game |
+| 2899580 | 3番線 \| Sanbansen| Game |
+| 2735060 | Station 5| Game |
+| 2389560 | 9 lives to defend| Game |
+| 1748750 | Crystarise| Game |
+| 916180 | Doodle Derby| Game |
+| 2137660 | SANRI| Game |
+| 1966370 | Neon Speed| Game |
+| 1941310 | Sleep Paralysis: The Uncanny Valley| Game |
