@@ -1,0 +1,761 @@
+"appid" "1706090"
+"common"
+{
+	"name" "Bean and Nothingness"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "fc434afcc54aa58c2a9010577d22f63741c5d0df"
+	"logo_small" "fc434afcc54aa58c2a9010577d22f63741c5d0df_thumb"
+	"icon" "6a33d25e5b0efd691778166c81f5389cc0074635"
+	"clienticon" "aa24034ef18732b0cb81e1f506fd7108bfd024bf"
+	"clienttga" "6012ea81d68607ad0dfc5610e61f17101373c1fd"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1646956800"
+		"tested_build_id" "8321403"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+		}
+	}
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50"
+				"height_pct" "50"
+			}
+		}
+	}
+	"store_asset_mtime" "1645138298"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "RBOR Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "RBOR Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_17" "1"
+		"category_18" "1"
+		"category_22" "1"
+		"category_30" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1638370352"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "1706090"
+	"store_tags"
+	{
+		"0" "1664"
+		"1" "4026"
+		"2" "1677"
+		"3" "6129"
+		"4" "8122"
+		"5" "4182"
+		"6" "3871"
+		"7" "4791"
+		"8" "7481"
+		"9" "492"
+		"10" "4726"
+		"11" "597"
+	}
+	"review_score" "8"
+	"review_percentage" "98"
+}
+"extended"
+{
+	"developer" "RBOR Games"
+	"publisher" "RBOR Games"
+	"homepage" "http://beanandnothingness.com"
+}
+"config"
+{
+	"installdir" "Bean and Nothingness"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "beans.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "beans"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "beans"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "beans.sh"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+				"betakey" "linux-shell-script"
+			}
+			"description_loc"
+			{
+				"english" "with shell script"
+			}
+			"description" "with shell script"
+		}
+	}
+	"steamcontrollertemplateindex" "4"
+	"steamconfigurator3rdpartynative" "65532"
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1706091"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1403968713922791298"
+				"size" "149889135"
+				"download" "125628400"
+			}
+			"local"
+			{
+				"gid" "8533891839820725336"
+				"size" "153349396"
+				"download" "128558240"
+			}
+			"prev-version"
+			{
+				"gid" "2899251330998467222"
+				"size" "153890376"
+				"download" "129013184"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"debug"
+			{
+				"gid" "6F0004B0BA87B3234F542A608FD6C861"
+				"size" "F5E930866A6B938075D73EC2ADF9BE79"
+				"download" "D667B7547236183782F32ECEBB0A755F"
+			}
+			"linux-shell-script"
+			{
+				"gid" "9EC537E8EEF2F531D5A0A125676A1D7E"
+				"size" "A22D99D4A15344266DD630FFA2255031"
+				"download" "82B8836AD234EDAF6CF1232F51BAD85E"
+			}
+			"linux-testing"
+			{
+				"gid" "A89044F8880C58A3F87ACEF8C1092995"
+				"size" "A6879E8BB3B850DC0923CE5A7ED26F8B"
+				"download" "C85379717A6F5F96CE4A2219C1977100"
+			}
+		}
+	}
+	"1706092"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1986563220667897116"
+				"size" "13656205"
+				"download" "2747504"
+			}
+			"prev-version"
+			{
+				"gid" "1986563220667897116"
+				"size" "13656205"
+				"download" "2747504"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"debug"
+			{
+				"gid" "0BE0A969BC5042E87E120879FFA7893E"
+				"size" "E08CB8B9C2BF96D6973CBFE862FEA3B4"
+				"download" "7FB68DE8E3CCA23B24CA03929BDB3F36"
+			}
+			"linux-shell-script"
+			{
+				"gid" "E4C55605F31E1E922D5FE4A85E0C12B1"
+				"size" "DA34309D1BB767B7E756942F9DF6B863"
+				"download" "D2D382917D157F204A10F028ACDAE1A3"
+			}
+			"linux-testing"
+			{
+				"gid" "D4C49A8CD9F7897FCB330E2D6084F267"
+				"size" "02D983A487D9006BF9E26427D654CE72"
+				"download" "67472055FB7281679BC9EBDC23894328"
+			}
+		}
+	}
+	"1706093"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "24190181667455337"
+				"size" "9664302"
+				"download" "3106816"
+			}
+			"local"
+			{
+				"gid" "716198066107023550"
+				"size" "7726382"
+				"download" "2379120"
+			}
+			"prev-version"
+			{
+				"gid" "7002544144939932207"
+				"size" "8405806"
+				"download" "2591712"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"debug"
+			{
+				"gid" "29E9549CBE30D1A3B6BE3BDB11EBF652"
+				"size" "919F20C8F8E2AD1FD7CD15FD24EB2C04"
+				"download" "B7121D60756D4598D92D3906D00D3EB0"
+			}
+			"linux-shell-script"
+			{
+				"gid" "1EC1734DC0C260B28A9ECE41A4A15575"
+				"size" "C7615402858152951DC552993E0A2819"
+				"download" "1F385636AA4F20CBB2222BF990D24C1A"
+			}
+			"linux-testing"
+			{
+				"gid" "EA31B6A683F1875A74B70421DAD88B8F"
+				"size" "8905B97796CB3021285CBAAE708DA806"
+				"download" "7C1E8DD9579568FB1B93A2B2FEF310E7"
+			}
+		}
+	}
+	"1706094"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6674680495110599805"
+				"size" "7940247"
+				"download" "2185136"
+			}
+			"prev-version"
+			{
+				"gid" "8053936877994562962"
+				"size" "6337071"
+				"download" "1563168"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"debug"
+			{
+				"gid" "6534A237A9F45C9D62E774F13385A99C"
+				"size" "F54737A417462F9B57B59AC5FB5FB29E"
+				"download" "F251ACAD2C8D750195CDF29B5B233A75"
+			}
+			"linux-shell-script"
+			{
+				"gid" "AF8CCDEFD7A7CA42E2996A1B5DC44D86"
+				"size" "9F632BABA9BD7D0A77DC7EB51F5FD61A"
+				"download" "73220BBAD5E46D9C730417C9FB865348"
+			}
+			"linux-testing"
+			{
+				"gid" "B87C2433FEC96E131D806BC58C5488AE"
+				"size" "DE2A5E2C28F139F33D788D2BB2735443"
+				"download" "3A15E48F4DA8DDF8C69122E3EB3A0C47"
+			}
+		}
+	}
+	"workshopdepot" "1706090"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10216950"
+			"timeupdated" "1672069066"
+		}
+		"debug"
+		{
+			"buildid" "10216950"
+			"pwdrequired" "1"
+			"timeupdated" "1672068957"
+		}
+		"linux-shell-script"
+		{
+			"buildid" "10166699"
+			"pwdrequired" "1"
+			"timeupdated" "1671238447"
+		}
+		"linux-testing"
+		{
+			"buildid" "8225162"
+			"pwdrequired" "1"
+			"timeupdated" "1645131377"
+		}
+		"local"
+		{
+			"buildid" "7458576"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1633066941"
+		}
+		"prev-version"
+		{
+			"buildid" "9159377"
+			"description" "Most recent previous version"
+			"timeupdated" "1672068979"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "5000000"
+	"maxnumfiles" "500"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Bean and Nothingness/saves"
+			"pattern" "*.sav"
+		}
+		"2"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Bean and Nothingness/puzzles"
+			"pattern" "*.beanpuz"
+		}
+		"3"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Bean and Nothingness"
+			"pattern" "controls.txt"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"addpath" ".local/share/"
+		}
+	}
+}
+"localization"
+{
+	"richpresence"
+	{
+		"english"
+		{
+			"tokens"
+			{
+				"#custom" "Playing a custom puzzle"
+				"#editor" "In the puzzle editor"
+				"#mainmenu" "In the main menu"
+				"#towerstatus" "{#Status_%placename%}"
+				"#puzzlestatus" "Solving \"{#Status_%placename%}\""
+				"#status_temple_tower_name" "The Temple"
+				"#status_chasebomb_tower_name" "I: Initiate\'s Island"
+				"#status_bucket_tower_name" "II: Island of Buckets"
+				"#status_storm_tower_name" "III: Island of Clouds"
+				"#status_vine_tower_name" "IV: Island of Vines"
+				"#status_ice_tower_name" "V: Island of Ice"
+				"#status_blob_tower_name" "VI: Island of Blobs"
+				"#status_slurp_tower_name" "VII: Island of the Eichinger-Kuroyama Creature"
+				"#status_transformer_tower_name" "VIII: Island of Petals"
+				"#status_control_tower_name" "IX: Island of the Guardians"
+				"#status_master_tower_name" "Sanctuary"
+				"#status_unknown_tower_name" "<unknown island>"
+				"#status_puzname_unnamed" "<unnamed puzzle>"
+				"#status_temple_chasebomb" "Tutorial"
+				"#status_temple_bucket" "Welcome to the Island of Buckets"
+				"#status_temple_storm" "Welcome to the Island of Clouds"
+				"#status_temple_vine" "Welcome to the Island of Vines"
+				"#status_temple_ice" "Welcome to the Island of Ice"
+				"#status_temple_blob" "Welcome to the Island of Blobs"
+				"#status_temple_slurp" "Welcome to the Island of the Eichinger-Kuroyama Creature"
+				"#status_temple_transformer" "Welcome to the Island of Petals"
+				"#status_temple_control" "Welcome to the Island of the Guardians"
+				"#status_chasebomb_shove" "give it a good shove"
+				"#status_chasebomb_slime" "a slimy mess"
+				"#status_chasebomb_floor" "tiled over"
+				"#status_chasebomb_switch" "hold it down"
+				"#status_chasebomb_turn" "one good turn deserves another"
+				"#status_chasebomb_beansback" "spill the beans"
+				"#status_chasebomb_shove_2" "avalanche"
+				"#status_chasebomb_floor_2" "pavilion"
+				"#status_chasebomb_beansback_2" "cutting through"
+				"#status_chasebomb_shy_neighbors" "shy neighbors"
+				"#status_chasebomb_water_bounce" "hydrophobia"
+				"#status_chasebomb_wait" "good things come to those who wait"
+				"#status_chasebomb_three_orange" "three orange beans"
+				"#status_chasebomb_six_orange" "six orange beans"
+				"#status_chasebomb_overeager" "overeager friend"
+				"#status_chasebomb_beanapart" "a bean apart"
+				"#status_chasebomb_hiddenrock" "hidden rock"
+				"#status_chasebomb_lazyriver" "lazy river"
+				"#status_chasebomb_bombbounce" "sneaking past"
+				"#status_chasebomb_islandgate" "island gate"
+				"#status_chasebomb_twistybridges" "twisty bridges"
+				"#status_bucket_permeable" "artful dodgers"
+				"#status_bucket_noexplode" "you can\'t blow it up"
+				"#status_bucket_waterdrown" "bean retrieval"
+				"#status_bucket_beanback" "bean and back again"
+				"#status_bucket_chase_into_bomb" "moving in the right direction"
+				"#status_bucket_beanswitch_bounce" "off and on again"
+				"#status_bucket_sideswipe" "side swipe"
+				"#status_bucket_slime_peninsula" "slime peninsula"
+				"#status_bucket_hidden_detector" "one bean at a time"
+				"#status_bucket_detector" "lonely detector"
+				"#status_bucket_twosides_2" "two kingdoms"
+				"#status_bucket_pillars" "pillars and blocks"
+				"#status_bucket_threepaths" "three paths"
+				"#status_bucket_throughcracks" "through the cracks"
+				"#status_bucket_beancorner" "bean in the corner"
+				"#status_bucket_beanshore" "beans on the shore"
+				"#status_bucket_slimeline" "a thin line of slime"
+				"#status_bucket_beanback_2" "tricky return"
+				"#status_storm_float" "flying high"
+				"#status_storm_forcefield" "magical barrier"
+				"#status_storm_switch" "step on it"
+				"#status_storm_nopass" "line of no beans"
+				"#status_storm_fickle" "fickle friend"
+				"#status_storm_nopass_2" "none shall pass"
+				"#status_storm_liberate" "liberate the beans"
+				"#status_storm_horizontal" "the horizontal shuffle"
+				"#status_storm_crossed" "crossed streams"
+				"#status_storm_reef" "cloudy reef"
+				"#status_storm_friends_left" "friends forever"
+				"#status_storm_friends_right" "forever friends"
+				"#status_storm_balloon_tiled" "the tiled balloon"
+				"#status_storm_balloon_sandy" "the sandy balloon"
+				"#status_storm_nomake" "not making it"
+				"#status_storm_sevenblue" "like seven blue beans, when all you need is a yellow"
+				"#status_storm_rectangle" "stormy rectangle"
+				"#status_storm_sixlakes" "land of six lakes"
+				"#status_storm_notwithabean" "not with a bean, you don\'t"
+				"#status_storm_spider" "spider pond"
+				"#status_vine_chase" "eager friend"
+				"#status_vine_beanback" "bean recovery machine"
+				"#status_vine_motion" "frozen in motion"
+				"#status_vine_range" "as far as it can stretch"
+				"#status_vine_corner" "swampy nook"
+				"#status_vine_wall" "bringing it back"
+				"#status_vine_carry" "easier bean than done"
+				"#status_vine_helping" "a helping hand"
+				"#status_vine_bucket" "panopticon"
+				"#status_vine_neighbors" "friendly neighbors"
+				"#status_vine_stormswitch" "eyes of the storm"
+				"#status_vine_boardwalk" "a block on the boardwalk"
+				"#status_vine_pincer" "pincer pond"
+				"#status_vine_holdit" "hold it right there"
+				"#status_vine_longlake" "long lake"
+				"#status_vine_onebean" "one bean short"
+				"#status_vine_backenter" "back entrance"
+				"#status_vine_reach" "reaching for it"
+				"#status_vine_eightbeans" "seven beans in a box"
+				"#status_vine_cavein" "cave-in"
+				"#status_ice_antechamber" "floating"
+				"#status_ice_vinebridge" "the bridge of vines"
+				"#status_ice_bucketcarry" "cold courier"
+				"#status_ice_chasebridges" "puddle neighbors"
+				"#status_ice_freezeself" "uncrossable pond"
+				"#status_ice_vinegrab" "this far and no further"
+				"#status_ice_shortpier" "bridge to nowhere"
+				"#status_ice_grotto" "frozen grotto"
+				"#status_ice_thinice" "on thin ice"
+				"#status_ice_coldcramped" "cold and cramped"
+				"#status_ice_edgebuckets" "around the edges"
+				"#status_ice_emtrick" "little bean in a big pond"
+				"#status_ice_crossing" "crossing over"
+				"#status_ice_hermitage" "hermitage"
+				"#status_ice_snowypier" "snowy pier"
+				"#status_ice_gatekeepers" "gatekeepers"
+				"#status_ice_turncorner" "turn the corner"
+				"#status_ice_slippery" "slippery when wet"
+				"#status_ice_horizon" "clouds on the horizon"
+				"#status_ice_shoe" "snow shoe"
+				"#status_ice_smallgap" "the smallest gap"
+				"#status_blob_bombfloor" "working your way there"
+				"#status_blob_easybucket" "cleaning up"
+				"#status_blob_easyice" "two jumps"
+				"#status_blob_easyvine" "extender"
+				"#status_blob_easystorm" "sneaking around"
+				"#status_blob_tinyisland" "tiny island"
+				"#status_blob_googarden" "garden of goo"
+				"#status_blob_learning" "learning to fly"
+				"#status_blob_scarce" "scarce resources"
+				"#status_blob_companions" "devoted companions"
+				"#status_blob_airlock" "airlock"
+				"#status_blob_indestructible" "indestructible"
+				"#status_blob_icycircle" "icy circle"
+				"#status_blob_entryway" "entryway"
+				"#status_blob_noyellow" "the land without yellow"
+				"#status_blob_shortage" "explosive shortage"
+				"#status_blob_paintyellow" "paint the town yellow"
+				"#status_blob_forgotten" "forgotten switch"
+				"#status_blob_stable" "blob stable"
+				"#status_blob_drawbridge" "sunken drawbridge"
+				"#status_slurp_crossline" "cross the line"
+				"#status_slurp_unusual" "unusual retrieval"
+				"#status_slurp_mass" "mass production"
+				"#status_slurp_machine" "eichinger\'s machine"
+				"#status_slurp_grabby" "old grabby ninefingers"
+				"#status_slurp_freezer" "in the freezer"
+				"#status_slurp_rainbow" "kuroyama\'s rainbow"
+				"#status_slurp_stoplight" "stoplight"
+				"#status_slurp_time" "but you can\'t run any faster"
+				"#status_slurp_threegates" "three gates"
+				"#status_slurp_narrow" "long narrow road"
+				"#status_slurp_intobean" "bring it into bean"
+				"#status_slurp_beantimer" "merrily it rolls along"
+				"#status_slurp_tiny" "ten square feet"
+				"#status_slurp_corridor" "sticky corridor"
+				"#status_slurp_blobeasy" "laws of eichinger-kuroyama mitosis"
+				"#status_slurp_blobhard" "short fuse"
+				"#status_slurp_icechase" "a stranded bean"
+				"#status_slurp_noturnback" "no turning back"
+				"#status_slurp_disappearingact" "disappearing act"
+				"#status_slurp_frombelow" "from below"
+				"#status_transformer_hallway" "slimy hallway"
+				"#status_transformer_delivery" "special delivery"
+				"#status_transformer_change" "change for a time"
+				"#status_transformer_change_2" "time for a change"
+				"#status_transformer_yellowspot" "yellow spot"
+				"#status_transformer_playground" "playground"
+				"#status_transformer_inverted" "spies"
+				"#status_transformer_toll" "pay the toll"
+				"#status_transformer_threestorms" "silver lining"
+				"#status_transformer_areas" "land of blue"
+				"#status_transformer_trapped" "trapped"
+				"#status_transformer_batman" "in the wings"
+				"#status_transformer_purplebeans" "purple bean eater"
+				"#status_transformer_seasons" "seasons of bean"
+				"#status_transformer_nowhere" "nowhere to build"
+				"#status_transformer_limited" "and don\'t come back"
+				"#status_transformer_anybeans" "by any beans necessary"
+				"#status_transformer_cross" "bean cross"
+				"#status_control_recipemanip" "a useless bean"
+				"#status_control_easybucket" "from afar"
+				"#status_control_infinity" "seeing red"
+				"#status_control_storm_noshoot" "becoming inert"
+				"#status_control_duplicate" "indecision"
+				"#status_control_stormvine" "pillar"
+				"#status_control_whichone" "choice"
+				"#status_control_blobice" "moat"
+				"#status_control_bucketdoors" "commitment"
+				"#status_control_onedrop" "just one drop"
+				"#status_control_doubleup" "twins"
+				"#status_control_slurpblob" "nine-fingered guardian"
+				"#status_control_blobvine" "twisty path"
+				"#status_control_thunder" "thunderous guardian"
+				"#status_control_stormbrewing" "storm brewing"
+				"#status_control_castle" "castle"
+				"#status_control_washer" "once and for all"
+				"#status_control_hardbucket" "winding path"
+				"#status_control_limit" "outpost"
+				"#status_control_hardvine" "four tiny islands"
+				"#status_control_adventure" "adventure"
+				"#status_control_blobcapstone" "antechamber"
+				"#status_control_slurpbeans" "bean disposal"
+				"#status_control_vinepetals" "technicolor"
+				"#status_control_final" "the end justifies the beans"
+				"#status_control_hardblob" "red bean shortage"
+				"#status_sanc_holddoor_blobchain" "slime corridor"
+				"#status_sanc_storm_peninsula" "hooked peninsula"
+				"#status_sanc_vinechain" "triple airlock"
+				"#status_sanc_vinebridge_4" "rule of four"
+				"#status_sanc_vinebridge_8" "rule of eight"
+				"#status_sanc_vinebridge_16" "rule of sixteen"
+				"#status_sanc_magic_switch_intro" "magical switch"
+				"#status_sanc_magic_switch_holddoor" "a clever idea"
+				"#status_sanc_magic_switch_rainbow" "playground"
+				"#status_sanc_icestorm_push" "sliding around"
+				"#status_sanc_otherfoot" "the other foot"
+				"#status_sanc_vinecolumns" "ruins"
+				"#status_sanc_dilemma" "dilemma"
+				"#status_sanc_geometry" "geometry"
+				"#status_sanc_icewall" "getting around"
+				"#status_sanc_vine_reallyhard" "frustratingly difficult puzzle"
+				"#status_sanc_gonefishing" "gone fishing"
+				"#status_sanc_wrench" "wrench in the works"
+				"#status_sanc_beenthere" "bean there, done that"
+			}
+		}
+	}
+}
