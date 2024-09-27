@@ -1,0 +1,189 @@
+"appid" "899190"
+"common"
+{
+	"name" "A Piece of Wish upon the Stars"
+	"type" "Game"
+	"logo" "c575dd39de50697a3c1c7eca3f53f6c2277f49cf"
+	"logo_small" "c575dd39de50697a3c1c7eca3f53f6c2277f49cf_thumb"
+	"icon" "00dbefa2a031689138788c005daac9a58ed8cde3"
+	"clienticon" "10fc12598a55d39bd2a4f1f2dd3c9ce503c6816c"
+	"clienttga" "cdf984c73c3aec53b1df72b0193fef4a652c7775"
+	"clienticns" "0369cd764e2f4ea7c14704bf65a504ae30aa123d"
+	"oslist" "windows"
+	"osarch" ""
+	"releasestate" "released"
+	"metacritic_name" "1/4平方米的星空-A Piece of Wish upon the Stars"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1548593044"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Lingtan Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Lingtan Studio"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1541314800"
+	"steam_release_date" "1541346843"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "899190"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "21"
+		"2" "599"
+		"3" "3799"
+		"4" "12095"
+		"5" "4085"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"developer" "Lingtan Studio"
+	"publisher" "Lingtan Studio"
+	"homepage" "http://the9thday.net/"
+	"listofdlc" "972860,972870,972880"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "A Piece of Wish upon the Stars"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "SatrrySky.exe"
+			"type" "default"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "schinese"
+	"hasdepotsindlc" "1"
+	"899191"
+	{
+		"config"
+		{
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4807803813153740824"
+				"size" "4437266793"
+				"download" "1881989824"
+			}
+		}
+	}
+	"899192"
+	{
+		"config"
+		{
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2106252203423096129"
+				"size" "4431185604"
+				"download" "1879902096"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3652779"
+			"timeupdated" "1552755385"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "5000000"
+	"maxnumfiles" "50"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "lingtanstudio/StarrySky/"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "lingtanstudio/StarrySky/"
+					"replace" "com.lingtanstudio.starrysky"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "lingtanstudio/StarrySky/"
+					"replace" ".config/com/lingtanstudio/starrysky"
+				}
+			}
+		}
+	}
+}
