@@ -1,0 +1,478 @@
+"appid" "317040"
+"common"
+{
+	"name" "Strife: Veteran Edition"
+	"type" "Game"
+	"releasestate" "released"
+	"clienticon" "b4c986c169b84bb77357ef05187d7a90c885c8d5"
+	"clienttga" "8c99f16deb6da5e641e04b6173e6553ff53b89e1"
+	"icon" "493eec0345ac61367722d22336b09ad09a187689"
+	"oslist" "windows,macos,linux"
+	"logo" "a9d21d8806ab014f69836f1422f48c91503a6193"
+	"logo_small" "a9d21d8806ab014f69836f1422f48c91503a6193_thumb"
+	"clienticns" "adf5141c4fbae29d0ce2fbf563ba4ebc18400150"
+	"linuxclienticon" "1121451af7e4e7f1190a596702c189295b413f5e"
+	"osarch" ""
+	"osextended" "macos64"
+	"metacritic_name" "Strife: Veteran Edition"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "50"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "50"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1643001398"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Rogue Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Nightdive Studios"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"original_release_date" "833526000"
+	"steam_release_date" "1418410755"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "317040"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "122"
+		"2" "1663"
+		"3" "1693"
+		"4" "4004"
+		"5" "6691"
+		"6" "1023537"
+		"7" "3942"
+		"8" "1774"
+		"9" "3839"
+		"10" "4182"
+		"11" "9204"
+		"12" "3859"
+		"13" "3916"
+		"14" "4231"
+		"15" "1695"
+		"16" "1742"
+		"17" "7782"
+	}
+	"review_score" "8"
+	"review_percentage" "90"
+}
+"extended"
+{
+	"developer" "Rogue Entertainment"
+	"publisher" "Nightdive Studios"
+	"homepage" "http://www.nightdivestudios.com/games/strife/\?utm_source=steampowered.com&amp;utm_medium=product&amp;utm_campaign=website%20-%20strife"
+	"gamemanualurl" "https://store.steampowered.com/manual/317040/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Strife"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "strife-ve.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Strife-VE.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "strife-ve.sh"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "DOS\\DOSBox.exe"
+			"arguments" "-conf .\\dosbox_strife.conf"
+			"workingdir" "DOS"
+			"description" "Launch DOS Strife"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "DOS\\DOSBox.exe"
+			"arguments" "-conf .\\dosbox_strifebeta.conf"
+			"workingdir" "DOS"
+			"description" "Launch Strife 1995 Beta"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"signedfiles"
+	{
+		"strife-ve.exe" "30819D300D06092A864886F70D010101050003818B0030818702818100F8D0DDCE441A54708C2CD476FA693CA9F9F92341831773A89B6BA543F53C9F34A0A18449F4F1C492A44C7DF96F0C7CDC2E558EC1515C42550D81BD09C9809A7481BCC482A276AE92999994B9E6A52F37B5EF2AE55527C3B9C6ADBDABB7F8E357933A49932A91FE50E2DAE21DFE531C6DFE64A2326EAC1750B693AEAB34B519E3020111"
+	}
+}
+"depots"
+{
+	"228982"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"317041"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8796736291286375028"
+				"size" "442079258"
+				"download" "263005136"
+			}
+			"05092016build"
+			{
+				"gid" "900653190122883332"
+				"size" "423257206"
+				"download" "244579216"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "A74C7315E82E26FB34FC19417A5C5356"
+				"size" "78006426B1DA899C277F63602B796D52"
+				"download" "06251D7F513A82324AE837C53C0DAA66"
+			}
+			"thanksbye"
+			{
+				"gid" "9AD867787D17A6C289C139747768D254"
+				"size" "F0BD6317BBC63C23541DFA6959384AF0"
+				"download" "DA2DACA5FBED64CC805F8C9AB7666688"
+			}
+		}
+	}
+	"317042"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1198830728294479570"
+				"size" "24527949"
+				"download" "8307536"
+			}
+			"05092016build"
+			{
+				"gid" "1198830728294479570"
+				"size" "24527949"
+				"download" "8307536"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "2E9DD81961F27378BA34945ABCDF92FB"
+				"size" "00A4319185E4F033466D22AC568C4626"
+				"download" "A80FE0C5BCDCDA3BAEA28C2B02D5AAE3"
+			}
+			"thanksbye"
+			{
+				"gid" "95AFC12A3F3B378853A3DDAE83181F98"
+				"size" "05EA6519F2376C040BB70F75EF0F97A9"
+				"download" "7F7F9FA89B98E95E1CE2C004E831CAB9"
+			}
+		}
+	}
+	"317043"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3185751106997838901"
+				"size" "7802876"
+				"download" "1853104"
+			}
+			"05092016build"
+			{
+				"gid" "1501591943373779291"
+				"size" "3445692"
+				"download" "1028352"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "7153A1CB9B677086E6925B4B31D2C28E"
+				"size" "ED27C2CC8647719FEA712FA07417A372"
+				"download" "8A91D89E9552B75C13351145E89BA6FE"
+			}
+			"thanksbye"
+			{
+				"gid" "220F165054F962CBAC1CCC3EF1FC0DC5"
+				"size" "0DD4D83E6DE5659BB79AB40A594B1EFA"
+				"download" "81B870E4DEEB9EAC52C604AAB703539F"
+			}
+		}
+	}
+	"317044"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9196150414904191977"
+				"size" "143017253"
+				"download" "29671344"
+			}
+			"05092016build"
+			{
+				"gid" "7900819538162836326"
+				"size" "34543832"
+				"download" "15152448"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "C442414F199CD9607F35591788651C0E"
+				"size" "1EB31085736FAFD173750B83142E6427"
+				"download" "36182BEB4F3CC147BC754A3D1D9A5BB7"
+			}
+			"thanksbye"
+			{
+				"gid" "E134335675489542BA26E90CA2D8B903"
+				"size" "40A386489A06194128AF3B165B0CBB5B"
+				"download" "DD632AF87D3FF42CBDBA7BF26E69FEE7"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "7919178"
+			"timeupdated" "1640071526"
+		}
+		"05092016build"
+		{
+			"buildid" "5475682"
+			"description" "1.3 Build (May 09 2016) (WinXP Compat)"
+			"timeupdated" "1603598228"
+		}
+		"beta"
+		{
+			"buildid" "7919178"
+			"pwdrequired" "1"
+			"timeupdated" "1640069964"
+		}
+		"thanksbye"
+		{
+			"buildid" "5633926"
+			"pwdrequired" "1"
+			"timeupdated" "1601792069"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "56485760"
+	"maxnumfiles" "300"
+	"savefiles"
+	{
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "strfsav0.ssg"
+			"pattern" "*"
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "strfsav1.ssg"
+			"pattern" "*"
+		}
+		"3"
+		{
+			"root" "gameinstall"
+			"path" "strfsav2.ssg"
+			"pattern" "*"
+		}
+		"4"
+		{
+			"root" "gameinstall"
+			"path" "strfsav3.ssg"
+			"pattern" "*"
+		}
+		"5"
+		{
+			"root" "gameinstall"
+			"path" "strfsav4.ssg"
+			"pattern" "*"
+		}
+		"6"
+		{
+			"root" "gameinstall"
+			"path" "strfsav5.ssg"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" "com.nightdivestudios.Strife"
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxXdgDataHome"
+			"addpath" "strife-ve"
+		}
+	}
+}
