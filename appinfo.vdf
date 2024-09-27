@@ -1,0 +1,484 @@
+"appid" "1248060"
+"common"
+{
+	"name" "Realpolitiks II"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "de3d2dfee7083977d635da6111bddb1164028847"
+	"logo_small" "de3d2dfee7083977d635da6111bddb1164028847_thumb"
+	"icon" "ab49fa4166a0628bb5d24882c311bfdaaf03578a"
+	"clienticon" "53a64716f9cfcb987437446e66b234a95b9001d2"
+	"clienttga" "3f469351f80bd8d511f88f162f12d96f739eda2e"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1667520000"
+		"tested_build_id" "8214815"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Realpolitiks II"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomCenter"
+			"width_pct" "100"
+			"height_pct" "67.83868782126709"
+		}
+	}
+	"store_asset_mtime" "1673963795"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Jujubee S.A."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Fulqrum Publishing"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Fulqrum"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1620838448"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1248060"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "599"
+		"2" "492"
+		"3" "4364"
+		"4" "26921"
+		"5" "4754"
+		"6" "4853"
+		"7" "4175"
+		"8" "5673"
+		"9" "4182"
+		"10" "1708"
+		"11" "493"
+		"12" "1670"
+		"13" "1741"
+	}
+	"review_score" "5"
+	"review_percentage" "46"
+}
+"extended"
+{
+	"developer" "Jujubee S.A."
+	"publisher" "Fulqrum Publishing"
+	"listofdlc" "1581130"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Realpolitiks II"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "launcher-x64.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Launch"
+			}
+			"description" "Launch"
+		}
+		"1"
+		{
+			"executable" "RP2.x86_64"
+			"description" "Launch Linux"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "RP2.exe"
+			"arguments" "-ModEditor"
+			"description" "Mod Editor"
+			"type" "editor"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "RP2.app/Contents/MacOS/RP2"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"4"
+		{
+			"executable" "RP2.app/Contents/MacOS/RP2"
+			"arguments" "-ModEditor"
+			"type" "editor"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "Mod Editor"
+			}
+			"description" "Mod Editor"
+		}
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1248061"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6295491134016732767"
+				"size" "10126580963"
+				"download" "3339327616"
+			}
+			"betatest"
+			{
+				"gid" "7688814201355321814"
+				"size" "10208857862"
+				"download" "3084562192"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal2"
+			{
+				"gid" "03165919C7FEB919293E6D539043CC17"
+				"size" "42B1D02530ED6EB68D91ED653C751A8B"
+				"download" "872B75C58640291903075DE104CF78B4"
+			}
+			"internal"
+			{
+				"gid" "2F83B2D564A348B793A72C5BFA1B13D3"
+				"size" "ABF96C80178EA5A92C824F05EDCBAFA8"
+				"download" "B4CE945DDBA74587590A328D51B6D67F"
+			}
+			"jjbtest"
+			{
+				"gid" "5ED0EA0423814A7C23F41EFC091A8623"
+				"size" "F4FCA63EC43C727A894218942628C74B"
+				"download" "5F7FD58A52E057C1B055D6D73CC90B18"
+			}
+			"launcher"
+			{
+				"gid" "DC952C8C13B571096F4BC481E1D6FFEB"
+				"size" "5AF544BEF74F275D6E9FDD3ACD28E3DF"
+				"download" "947ACE48BFAA2B938D7E69DFEE883E86"
+			}
+		}
+	}
+	"1248062"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3344326778517932853"
+				"size" "9301093053"
+				"download" "2958096480"
+			}
+			"betatest"
+			{
+				"gid" "7998135728134412660"
+				"size" "8347794630"
+				"download" "3089605984"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal2"
+			{
+				"gid" "AD6BC57168F36894DB94D4E955CE9DF1"
+				"size" "ADF337FE26E5424C3CAF23C61DE6FF74"
+				"download" "BB269C29196B3097C85FA847ACA125A1"
+			}
+			"internal"
+			{
+				"gid" "0C4B369F28BC3C8D75E827861968C1CD"
+				"size" "A9D945971A6991640858C61DD5D0B1B8"
+				"download" "56E21056BBABCB9D76A41276A41BD1D9"
+			}
+			"jjbtest"
+			{
+				"gid" "05D30E50966480C04A155FBC7A1B28CE"
+				"size" "681BBA78ED2F08D1172F047FAC0C91AF"
+				"download" "4D248131C6DA19C018DACD8D34DC9A1F"
+			}
+			"launcher"
+			{
+				"gid" "0D191CD4BDB5E020EBBAA10285BA5DD9"
+				"size" "FCFDDA14C7121E605F2A4DC575A22AFB"
+				"download" "A46A09B4240454A72C93E6AB1CC18C53"
+			}
+		}
+	}
+	"1248063"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2020600963043205323"
+				"size" "9399828450"
+				"download" "3088367184"
+			}
+			"betatest"
+			{
+				"gid" "8693370555880656256"
+				"size" "9997126093"
+				"download" "3110079920"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal2"
+			{
+				"gid" "66F4DF7D5E8512466D851AF5590B36F3"
+				"size" "BF427E655006EC6212846C33E4854AF9"
+				"download" "70739E2A0EBD80C87897650B664A94A9"
+			}
+			"internal"
+			{
+				"gid" "6F62A20E7670850495FB7B9C10549E1B"
+				"size" "027995B27A1DEF9A109A75D3DC1FFF35"
+				"download" "A87F5B8AFC29E4E3DEB974DC3E4877FD"
+			}
+			"jjbtest"
+			{
+				"gid" "FEE928B417BA5C239277A8A1A88A8116"
+				"size" "5B1BFDADC7F8A90144D3E28160E2CA02"
+				"download" "CF12489A448EA93C603E14D2A22E578D"
+			}
+			"launcher"
+			{
+				"gid" "816ADB12DBD6B78E9286C61FCCEB9AB8"
+				"size" "C30A02F786883E4CE09B98A1AC2B110B"
+				"download" "FA8836B4E2D46F14518D875450A8CB42"
+			}
+		}
+	}
+	"1581130"
+	{
+		"dlcappid" "1581130"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2902076147201338177"
+				"size" "35725306"
+				"download" "30798640"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "7E28B733CD91D50A52D31EE5C8607F9D"
+				"size" "7DFF8B1DE83033375FD4533BA36348D1"
+				"download" "55D41B7F362D04C345E60BA2DD0A9CA9"
+			}
+			"jjbtest"
+			{
+				"gid" "B607723361C97FE10AD57F8031105774"
+				"size" "C97554C12B59931EE8CD5A6D766FCE56"
+				"download" "6E8ECB883A7B6760597507A6C9A1B87C"
+			}
+			"launcher"
+			{
+				"gid" "BCA3628BD686307AF0C91AE80EE6A607"
+				"size" "0CB3054E01CECD4F7B4B83AD95327B41"
+				"download" "4EA7C475508E43760602A07287113C63"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15306244"
+			"timeupdated" "1723130207"
+		}
+		"betatest"
+		{
+			"buildid" "6711457"
+			"description" "Beta test of an upcoming patch"
+			"timeupdated" "1621417978"
+		}
+		"internal2"
+		{
+			"buildid" "6652134"
+			"pwdrequired" "1"
+			"timeupdated" "1620223295"
+		}
+		"internal"
+		{
+			"buildid" "15305420"
+			"pwdrequired" "1"
+			"timeupdated" "1723125842"
+		}
+		"jjbtest"
+		{
+			"buildid" "15305420"
+			"pwdrequired" "1"
+			"timeupdated" "1723125850"
+		}
+		"launcher"
+		{
+			"buildid" "15305420"
+			"pwdrequired" "1"
+			"timeupdated" "1723125658"
+		}
+	}
+}
