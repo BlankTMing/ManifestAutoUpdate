@@ -1,0 +1,281 @@
+"appid" "98300"
+"common"
+{
+	"name" "Toy Soldiers"
+	"logo" "76047a850cc8e596f3f484abd38cf12653292cc4"
+	"logo_small" "76047a850cc8e596f3f484abd38cf12653292cc4_thumb"
+	"icon" "e14bbaf1d989bb69bac709351247762f14b3d476"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"tchinese" "1"
+		"japanese" "1"
+	}
+	"clienticon" "80fc396855c1be7054847ddf725c04ac69dc0f14"
+	"clienttga" "ad1ce5c7a7e0343f757a7917ef3f9ba5f5c7b3fd"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1651104000"
+		"tested_build_id" "37312"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Toy Soldiers"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1633604672"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Signal Studios"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "28"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+		}
+		"german"
+		{
+			"supported" "1"
+		}
+		"french"
+		{
+			"supported" "1"
+		}
+		"italian"
+		{
+			"supported" "1"
+		}
+		"koreana"
+		{
+			"supported" "1"
+		}
+		"spanish"
+		{
+			"supported" "1"
+		}
+		"tchinese"
+		{
+			"supported" "1"
+		}
+		"japanese"
+		{
+			"supported" "1"
+		}
+	}
+	"steam_release_date" "1335286800"
+	"metacritic_score" "71"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/toy-soldiers\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "98300"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "19"
+		"2" "1645"
+		"3" "597"
+		"4" "599"
+		"5" "5382"
+		"6" "3987"
+		"7" "4182"
+		"8" "1678"
+		"9" "3859"
+		"10" "4150"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "Signal Studios"
+	"gamedir" "TSPCGame"
+	"homepage" "https://www.toysoldiersonline.com/"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "98301"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+}
+"config"
+{
+	"installscriptsignature" "86446000bd075f08b975c0e591a170ed35b4ae59da0504caafaf9b66093fa73a6869b040ce6e7d7c5d4e36d0e0f249586a19b679efb385c12d40606110d49770c056ce9d98e7f0db4d48452bf0c2a552d6504234709f3c22eb36aed823b32f865c671cb72b7e2e727a0289257ab03e60620f43817570d87e70f4d1be7896e30b"
+	"installscriptoverride" "1"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "GameSW.exe"
+			"description" "Toy Soldiers Steamworks"
+		}
+	}
+	"contenttype" "3"
+	"installdir" "toy soldiers"
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\98300"
+			"process 1" "%INSTALLDIR%\\support\\DirectX\\DXSETUP.exe"
+			"command 1" "/silent"
+		}
+		"gfwl"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\98300"
+			"process 1" "%INSTALLDIR%\\support\\Gfwlivesetup.exe"
+			"command 1" "/q"
+		}
+		"vcredist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\98300"
+			"process 1" "%INSTALLDIR%\\support\\2010_vcredist_x86.exe"
+			"command 1" "/q"
+		}
+	}
+}
+"depots"
+{
+	"98302"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3033973263120305115"
+				"size" "3778711"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private"
+			{
+				"gid" "46DD5A086ECAAF79D0008DEBF39F1F9A"
+				"size" "E37D4F02673EDAFD53B99BDB4669E3E9"
+				"download" "1F0B2E20D2B9F8F0C33E8AED978575EF"
+			}
+		}
+	}
+	"98301"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "867139834971733210"
+				"size" "1875851313"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private"
+			{
+				"gid" "574418BA27FAE1215CDABDB7944C666C"
+				"size" "7FA99CF50B50B5E78E1658C6E1093CC0"
+				"download" "1F0B2E20D2B9F8F0C33E8AED978575EF"
+			}
+		}
+	}
+	"98303"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5146913372133581330"
+				"size" "3782144"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"private"
+			{
+				"gid" "5348A8DE08D10A2287EED1F72187A10E"
+				"size" "782165C4AF09275792D39C45B04054C4"
+				"download" "1F0B2E20D2B9F8F0C33E8AED978575EF"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "37312"
+		}
+		"private"
+		{
+			"buildid" "49536"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "30000"
+	"maxnumfiles" "2"
+}
