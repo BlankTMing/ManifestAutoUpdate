@@ -1,0 +1,308 @@
+"appid" "789570"
+"common"
+{
+	"name" "Nepenthe"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "02fd426fce069d59afcc38dc89e6a1c29c3585e7"
+	"logo_small" "02fd426fce069d59afcc38dc89e6a1c29c3585e7_thumb"
+	"icon" "da05564904c43151ea3c1892daf0024192629ac1"
+	"clienticns" "c6bd6c1aa77bcf868c560be06012dba3c670ee88"
+	"clienticon" "a7acd698c23288fc475363a04da1c2dd4a616e58"
+	"clienttga" "3e8c5f07816c6969ff6244d4c4a0897e14e6a0f5"
+	"linuxclienticon" "8919fe73634e51eaef41a9bf7dc18e1066ca0d2c"
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1697155200"
+		"tested_build_id" "2950759"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_CrossPlatformCloudSavesNotSupported"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-4"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"metacritic_name" "Nepenthe"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "43.38368580060421"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1572563974"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Yitz"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "yours truly"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Nepenthe"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1526548531"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "789570"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "492"
+		"2" "21"
+		"3" "19"
+		"4" "5577"
+		"5" "1667"
+		"6" "1710"
+		"7" "4166"
+		"8" "4231"
+		"9" "6426"
+		"10" "1684"
+		"11" "1756"
+		"12" "4136"
+		"13" "4342"
+		"14" "4885"
+		"15" "5716"
+		"16" "1742"
+		"17" "6971"
+		"18" "597"
+		"19" "10397"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"developer" "Yitz"
+	"publisher" "yours truly"
+}
+"config"
+{
+	"installdir" "Nepenthe"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Nepenthe.exe"
+			"arguments" "--in-process-gpu"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Nepenthe.app\\Contents\\MacOS\\nwjs"
+			"arguments" "--in-process-gpu"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Nepenthe\\Game"
+			"arguments" "--in-process-gpu"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"789571"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7436402241221410169"
+				"size" "510935552"
+				"download" "375712320"
+			}
+		}
+	}
+	"789572"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7960291837574940169"
+				"size" "473481762"
+				"download" "374225552"
+			}
+		}
+	}
+	"789575"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8315926199750215170"
+				"size" "487936322"
+				"download" "378671056"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2950759"
+			"timeupdated" "1531785739"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "30000000"
+	"maxnumfiles" "200"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "MacAppSupport"
+			"path" "LITTSTUDIOS"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "LITTSTUDIOS"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "LinuxXdgDataHome"
+			"path" "LITTSTUDIOS"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+			"recursive" "1"
+		}
+	}
+}
