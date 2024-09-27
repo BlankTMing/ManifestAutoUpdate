@@ -1,0 +1,244 @@
+"appid" "1945220"
+"common"
+{
+	"name" "Rhythm Journey"
+	"type" "Game"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" "macos64,macosapplesilicon"
+	"icon" "04b316124343d20322d40a606e11acd23cc34e9f"
+	"clienttga" "68354a594fb89d3cce2b9133344ed0795c540856"
+	"clienticon" "876d9a5df03cf04597262ff42bafeca96d3e048d"
+	"clienticns" "6a33936d51e54562bd6152454769e55f5c0b17b8"
+	"name_localized"
+	{
+		"koreana" "리듬 저니"
+	}
+	"languages"
+	{
+		"english" "1"
+		"koreana" "1"
+	}
+	"releasestate" "released"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "16.147137432658994"
+			"height_pct" "34.788846671416124"
+		}
+	}
+	"store_asset_mtime" "1722096547"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "MELOVITY"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "MELOVITY"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "MELOVITY"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1650153618"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1945220"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "1752"
+		"2" "597"
+		"3" "1621"
+		"4" "4026"
+		"5" "3871"
+		"6" "19"
+		"7" "8666"
+		"8" "5350"
+		"9" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "80"
+}
+"extended"
+{
+	"developer" "MELOVITY"
+	"publisher" "MELOVITY"
+}
+"config"
+{
+	"installdir" "Rhythm Journey"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Rhythm Journey.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Rhythm Journey.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"1945221"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2066695016510797443"
+				"size" "367096744"
+				"download" "124902144"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha"
+			{
+				"gid" "0B4EE85EA77CBE8E97E43E7E630F1E99"
+				"size" "F2B5197322CA8C50B30D22C5F76D12DE"
+				"download" "5ECDA68070FFC3CF31B41B7E5BE18B99"
+			}
+		}
+	}
+	"1945222"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2319009134777355689"
+				"size" "390005822"
+				"download" "131695632"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alpha"
+			{
+				"gid" "38BDA1429AD21B70DBEE88D5AD733EA7"
+				"size" "777CE627C90E2EB2ECCDCE7DBAFFAB16"
+				"download" "0FE8247D509E8DFA371550CF1597C8DD"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9852134"
+			"timeupdated" "1667388958"
+		}
+		"alpha"
+		{
+			"buildid" "9852134"
+			"pwdrequired" "1"
+			"timeupdated" "1667383794"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Rhythm Journey_Data/"
+			"pattern" "GameData.json"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Rhythm Journey_Data/"
+					"replace" "Rhythm Journey.app/Contents/"
+				}
+			}
+		}
+	}
+}
