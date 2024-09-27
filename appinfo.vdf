@@ -1,0 +1,379 @@
+"appid" "1683560"
+"common"
+{
+	"name" "Ravager"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"osextended" "macos64,macosapplesilicon"
+	"logo" "b45f7e11e13f7ebcacaa531659e5350eea4218f9"
+	"logo_small" "b45f7e11e13f7ebcacaa531659e5350eea4218f9_thumb"
+	"icon" "b65a76cbdbb20793d37a2f247096e2713d77c558"
+	"clienticns" "ffb8437728054ca2e05563a844978aa1cf237c88"
+	"linuxclienticon" "f94be4befbddb84cf96ced25a269b305aff401d4"
+	"clienticon" "2bc2b7be1dc4df18fe402522a9ff72dcacfa2778"
+	"clienttga" "6b4f2ed129f69a8f9ae482f9bf9e3bec210d8a0a"
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "2"
+		"2" "3"
+		"3" "4"
+		"4" "5"
+	}
+	"restricted_countries" "CN,DE"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1722470400"
+		"tested_build_id" "14955626"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "50"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "100"
+				"height_pct" "50"
+			}
+		}
+	}
+	"store_asset_mtime" "1691362721"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "4MinuteWarning"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "4MinuteWarning"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "3"
+		"1" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1630667889"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1683560"
+	"store_tags"
+	{
+		"0" "12095"
+		"1" "4046"
+		"2" "4604"
+		"3" "9551"
+		"4" "4947"
+		"5" "3799"
+		"6" "6426"
+		"7" "122"
+		"8" "1742"
+		"9" "4486"
+		"10" "19995"
+		"11" "7332"
+		"12" "6815"
+		"13" "5363"
+		"14" "6971"
+		"15" "4166"
+		"16" "8945"
+		"17" "6869"
+		"18" "3854"
+		"19" "44868"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"developer" "4MinuteWarning"
+	"publisher" "4MinuteWarning"
+}
+"config"
+{
+	"installdir" "Ravager"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Ravager\\Ravager.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "Ravager\\Ravager.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "Ravager\\Ravager.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"1683561"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2529785640890598135"
+				"size" "5503385697"
+				"download" "5305004224"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "3039EA3A8192E064E85F7B9479F7B761"
+				"size" "3D2A3A22A7B7CE9BD1F249BD4DA131F0"
+				"download" "BC8155545F10288257EE1AA9A1E84136"
+			}
+		}
+	}
+	"1683562"
+	{
+		"config"
+		{
+			"oslist" "macos"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5201616595817328711"
+				"size" "5503385697"
+				"download" "5304837136"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "154B4320E2B668F93106B57C8F9E5A8E"
+				"size" "3D2A3A22A7B7CE9BD1F249BD4DA131F0"
+				"download" "635D078E28DF5FAD512635A212B566C8"
+			}
+		}
+	}
+	"1683563"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3476164291222313687"
+				"size" "5503385697"
+				"download" "5304837136"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "4CF926CD283A749E8AD4DB4B1E2830F6"
+				"size" "3D2A3A22A7B7CE9BD1F249BD4DA131F0"
+				"download" "635D078E28DF5FAD512635A212B566C8"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15445685"
+			"timeupdated" "1724232540"
+		}
+		"test"
+		{
+			"buildid" "15808309"
+			"pwdrequired" "1"
+			"timeupdated" "1727179921"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "500000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Ravager/game/saves"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinAppDataRoaming"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Ravager/game/saves"
+					"replace" "RenPy/Ravager-1492958390"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "MacHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Ravager/game/saves"
+					"replace" "Library/RenPy/Ravager-1492958390"
+				}
+			}
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Ravager/game/saves"
+					"replace" ".renpy/Ravager-1492958390"
+				}
+			}
+		}
+	}
+}
