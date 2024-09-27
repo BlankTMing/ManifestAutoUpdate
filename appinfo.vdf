@@ -1,0 +1,362 @@
+"appid" "590690"
+"common"
+{
+	"name" "Sprint Vector"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+		"seated" "1"
+		"standing" "1"
+	}
+	"logo" "6c1924a7da0df6db1cb0c7e087be23e15f6c0089"
+	"logo_small" "6c1924a7da0df6db1cb0c7e087be23e15f6c0089_thumb"
+	"icon" "0a7b4bc6e15fd72b5cb1fb28e59eef5d00044914"
+	"clienttga" "43af747c9c9a9226c1f489631c3e3079f0410013"
+	"clienticon" "e7f62c256a4cf21d662bedbad5c02355e44dc12a"
+	"openvrsupport" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1644278400"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Sprint Vector"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "50"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1565043533"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Survios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Survios"
+		}
+	}
+	"primary_genre" "9"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "9"
+		"3" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_36" "1"
+		"category_27" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_52" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1518110009"
+	"metacritic_score" "84"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/sprint-vector\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "590690"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "699"
+		"1" "701"
+		"2" "96359"
+		"3" "19"
+		"4" "21978"
+		"5" "492"
+		"6" "4036"
+		"7" "3859"
+		"8" "1773"
+		"9" "3878"
+		"10" "1684"
+		"11" "4562"
+		"12" "1775"
+	}
+	"review_score" "8"
+	"review_percentage" "83"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Survios"
+	"publisher" "Survios"
+	"homepage" "http://www.sprintvector.com"
+}
+"config"
+{
+	"installdir" "Sprint Vector"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "SprintVector.exe"
+			"description" "Sprint Vector"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "SprintVector.exe"
+			"arguments" "-spectate"
+			"description" "spectator client for multiplayer games"
+			"type" "vr"
+			"config"
+			{
+				"betakey" "testingsupersecretstuff"
+			}
+		}
+		"3"
+		{
+			"executable" "SprintVector.exe"
+			"arguments" "-tournament"
+			"description" "LAN only Sprint Vector"
+			"type" "vr"
+			"config"
+			{
+				"betakey" "tournament-mode"
+			}
+		}
+		"4"
+		{
+			"executable" "SprintVector.exe"
+			"arguments" "-tournament -spectate"
+			"description" "spectator client for LAN games"
+			"type" "vr"
+			"config"
+			{
+				"betakey" "tournament-mode"
+			}
+		}
+	}
+}
+"depots"
+{
+	"hasdepotsindlc" "1"
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"590691"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5844801131315888080"
+				"size" "5623265607"
+				"download" "5424961760"
+			}
+			"tournament-mode"
+			{
+				"gid" "5558454642923589895"
+				"size" "5172451359"
+				"download" "4968472656"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"closedbeta"
+			{
+				"gid" "AF6C7ACE944A3F463534E0ACCC5C16A0"
+				"size" "48BC78F165555973367EC8FD5D8A87D3"
+				"download" "EAF695AB0F8DECF5AD832EEBA1A572BD"
+			}
+			"demo"
+			{
+				"gid" "D725122D8017E1A66BA9F9B5F1CA11AD"
+				"size" "8524A0E5DF034080070AFA5C92AB2C10"
+				"download" "1F2974EE8B353B5F5664B249BD2F2A99"
+			}
+			"dev_partner"
+			{
+				"gid" "1E5723BA0CFB9B9E2B5813FEDB5BC2C2"
+				"size" "5B3009CE2668A8920E321CB691D5641D"
+				"download" "1970D141A0EDEE7BDB0F58667F3E4704"
+			}
+			"dev_partner2"
+			{
+				"gid" "AA4D5A30E2333F3ECAA066851D6414E3"
+				"size" "564411CE0CA287E145717377725E811A"
+				"download" "BCBB8EAED93799294B8013A0081551A2"
+			}
+			"gdc2017"
+			{
+				"gid" "C4955EC01B37CA7E706D84FD6369CDE4"
+				"size" "8F8207E0C7D89D795CF6A8E6E7BA3190"
+				"download" "CF805669DAC231875777313E214A4FE5"
+			}
+			"pressreview"
+			{
+				"gid" "B5EED48B6CAA34DB46E8F46DF921C38F"
+				"size" "2C6CCE935C7886D377AEB2D220430286"
+				"download" "00906A54D24D50202096F1A2F8232714"
+			}
+			"qatestbranch"
+			{
+				"gid" "5A1C5DB83202355734A6F125F28E84C3"
+				"size" "648E1FC515986E3D4A07403F85E35142"
+				"download" "7953773DBE52CDA18347E3841D6BEAB2"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9024010"
+			"timeupdated" "1656544155"
+		}
+		"closedbeta"
+		{
+			"buildid" "2467025"
+			"pwdrequired" "1"
+			"timeupdated" "1516844866"
+		}
+		"demo"
+		{
+			"buildid" "1828562"
+			"pwdrequired" "1"
+			"timeupdated" "1495583286"
+		}
+		"dev_partner"
+		{
+			"buildid" "2664436"
+			"pwdrequired" "1"
+			"timeupdated" "1522987149"
+		}
+		"dev_partner2"
+		{
+			"buildid" "2817022"
+			"pwdrequired" "1"
+			"timeupdated" "1527641424"
+		}
+		"gdc2017"
+		{
+			"buildid" "1655599"
+			"pwdrequired" "1"
+			"timeupdated" "1509508478"
+		}
+		"pressreview"
+		{
+			"buildid" "2794592"
+			"pwdrequired" "1"
+			"timeupdated" "1527117566"
+		}
+		"qatestbranch"
+		{
+			"buildid" "9024010"
+			"pwdrequired" "1"
+			"timeupdated" "1656450765"
+		}
+		"tournament-mode"
+		{
+			"buildid" "2817059"
+			"description" "LAN Mode + Spectator Mode (Beta)"
+			"timeupdated" "1527641647"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "4194305"
+	"maxnumfiles" "10"
+}
