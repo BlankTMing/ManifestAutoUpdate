@@ -1,0 +1,398 @@
+"appid" "1051200"
+"common"
+{
+	"name" "Trover Saves the Universe"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"logo" "32ebad00ee643b7b669c7a81e27ef49db92501eb"
+	"logo_small" "32ebad00ee643b7b669c7a81e27ef49db92501eb_thumb"
+	"icon" "6fe897ac09c7c68e0bc119119baa68622cb636e2"
+	"clienticon" "a9b4d25f55effa76d81b10d77f8cf1b7d67cbffe"
+	"clienttga" "e46748a5486647539d1906c5099b39ad1350b977"
+	"controllervr"
+	{
+		"xinput" "1"
+		"kbm" "1"
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+	}
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"latam" "1"
+	}
+	"openvr_action_manifest_path" "Trover/Config/SteamVRBindings/steamvr_manifest.json"
+	"osextended" ""
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1646179200"
+		"tested_build_id" "4259160"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "simultaneous_gamepad_mouse"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "1"
+		}
+	}
+	"metacritic_name" "Trover Saves the Univese"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "51.757037080524924"
+			"height_pct" "86.1121162228711"
+		}
+	}
+	"store_asset_mtime" "1683161407"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Squanch Games, Inc."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Squanch Games, Inc."
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_43" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_23" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1559653080"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1051200"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "19"
+		"3" "21978"
+		"4" "1719"
+		"5" "5923"
+		"6" "4136"
+		"7" "5395"
+		"8" "4182"
+		"9" "19995"
+		"10" "1625"
+		"11" "4345"
+		"12" "4305"
+		"13" "4166"
+		"14" "1721"
+		"15" "3942"
+		"16" "4195"
+		"17" "1697"
+		"18" "3993"
+		"19" "7481"
+	}
+	"review_score" "8"
+	"review_percentage" "91"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Squanch Games, Inc."
+	"publisher" "Squanch Games, Inc."
+	"homepage" "https://www.troversavestheuniverse.com/"
+}
+"config"
+{
+	"installdir" "Trover Saves the Universe"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Trover.exe"
+			"arguments" "-nohmd"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Trover.exe"
+			"arguments" "-vr -hmd=SteamVR"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "Trover.exe"
+			"arguments" "-vr -hmd=OculusHMD"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"4"
+		{
+			"executable" "Trover.exe"
+			"arguments" "-vr -hmd=OSVR"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "OSVR Mode"
+			}
+			"description" "OSVR Mode"
+		}
+		"5"
+		{
+			"executable" "Trover.sh"
+			"arguments" "-nohmd"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "2"
+}
+"depots"
+{
+	"baselanguages" "english"
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1051201"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6716871881563049368"
+				"size" "25564000681"
+				"download" "4358954208"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"current_pc_demo_build"
+			{
+				"gid" "81DA66FD9E48F2501EBE859E98A78B43"
+				"size" "FFFACF1E423B22D131ABF29BDCAC62AA"
+				"download" "DA4A165BDDAA5ED199287073D5DBCDBC"
+			}
+			"friends_and_family_feedback_build"
+			{
+				"gid" "A716634848FB044F4E209864E2AB6B4A"
+				"size" "3A4DC182507B7A47E163B519CEDA7D01"
+				"download" "CCB120388B70F0F909BE38DE946C5789"
+			}
+			"intel_performance_testing"
+			{
+				"gid" "47F8A871A1932761E19B95C5B6426358"
+				"size" "2055A2B2250752775F31FA19B7892DAC"
+				"download" "FD7B30A97A723563A08B3325BE68E16F"
+			}
+			"martin_testing"
+			{
+				"gid" "2576C359B077E67F0048BC54C812E37A"
+				"size" "9A541C639B11DB93D4473F3309145EC4"
+				"download" "A0D265E56AC13150D63AD24D1EE56989"
+			}
+			"nick_testing"
+			{
+				"gid" "1732BADE0B797FBEDD0A39386D951783"
+				"size" "F8F049D75CEA8D85AADB3CA6AA204F6C"
+				"download" "0E4776FC356BF48616696F5B768AFE36"
+			}
+			"squanch_internal"
+			{
+				"gid" "A8806254B2E4389A844E54F97CBAA267"
+				"size" "427953AD55531DA463AD9F9B7746DD4D"
+				"download" "46EE44CCFCD0C8D9B04122EBDDC8BC1C"
+			}
+		}
+	}
+	"1051202"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+			"steamdeck" "1"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"nick_testing"
+			{
+				"gid" "EE84FB5873C3E28797855CDB0A8EEA3E"
+				"size" "B9714CC15AFB479C2688D2EA30EB5EEF"
+				"download" "95B5AF5C4D6A18606807E451B823F25B"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4259160"
+			"timeupdated" "1570543252"
+		}
+		"current_pc_demo_build"
+		{
+			"buildid" "3682346"
+			"pwdrequired" "1"
+			"timeupdated" "1555364996"
+		}
+		"friends_and_family_feedback_build"
+		{
+			"buildid" "4259160"
+			"pwdrequired" "1"
+			"timeupdated" "1570227227"
+		}
+		"intel_performance_testing"
+		{
+			"buildid" "4259160"
+			"pwdrequired" "1"
+			"timeupdated" "1570543274"
+		}
+		"martin_testing"
+		{
+			"buildid" "3899372"
+			"pwdrequired" "1"
+			"timeupdated" "1559943779"
+		}
+		"nick_testing"
+		{
+			"buildid" "8323934"
+			"pwdrequired" "1"
+			"timeupdated" "1646613590"
+		}
+		"squanch_internal"
+		{
+			"buildid" "4259004"
+			"pwdrequired" "1"
+			"timeupdated" "1570223829"
+		}
+	}
+}
