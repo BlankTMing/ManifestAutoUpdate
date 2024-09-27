@@ -1,0 +1,288 @@
+"appid" "1256060"
+"common"
+{
+	"name" "Cosmodread"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"clienticon" "5e77aa1718e267434ce1bd7e9e042b3834d4e510"
+	"clienttga" "1bcb09e7a739ccff85e39099ae81eff8270977ed"
+	"icon" "4a1e159919eed63cd59cd1340979f0265147cc59"
+	"logo" "24538c18ad137478b2bb46294a29fcb2032fd518"
+	"logo_small" "24538c18ad137478b2bb46294a29fcb2032fd518_thumb"
+	"openvr_controller_bindings"
+	{
+		"0"
+		{
+			"controller_type" "knuckles"
+			"url" "vr-input-workshop://2440929627"
+		}
+		"1"
+		{
+			"controller_type" "oculus_touch"
+			"url" "vr-input-workshop://2441583393"
+		}
+	}
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1662595200"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1614690004"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "White Door Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "White Door Games"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_52" "1"
+		"category_54" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1616691591"
+	"community_hub_visible" "1"
+	"gameid" "1256060"
+	"onlyvrsupport" "1"
+	"store_tags"
+	{
+		"0" "21978"
+		"1" "3978"
+		"2" "19"
+		"3" "1667"
+		"4" "1759"
+		"5" "3942"
+		"6" "21"
+		"7" "1716"
+		"8" "5125"
+		"9" "4166"
+		"10" "492"
+		"11" "4345"
+		"12" "1755"
+		"13" "1662"
+		"14" "4182"
+		"15" "3934"
+	}
+	"review_score" "8"
+	"review_percentage" "91"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "White Door Games"
+	"publisher" "White Door Games"
+	"homepage" "http://www.cosmodread.com"
+}
+"config"
+{
+	"installdir" "Cosmodread"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "Cosmodread.exe"
+			"arguments" "-openvr -vrmode openvr"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "Cosmodread.exe"
+			"arguments" "-oculus"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1256061"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7590242359295715383"
+				"size" "3684282501"
+				"download" "1313533696"
+			}
+			"old-version"
+			{
+				"gid" "4225587583061098667"
+				"size" "3684282037"
+				"download" "1313535232"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10289763"
+			"timeupdated" "1673350022"
+		}
+		"old-version"
+		{
+			"buildid" "9666381"
+			"description" "Previous version to the one in the main branch"
+			"timeupdated" "1673350009"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10485760"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "White Door Games/Cosmodread"
+			"pattern" "*.sav"
+		}
+	}
+}
