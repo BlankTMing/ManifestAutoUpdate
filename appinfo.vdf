@@ -1,0 +1,240 @@
+"appid" "2323810"
+"common"
+{
+	"name" "DEFENDUN"
+	"type" "Game"
+	"icon" "d3af0359c54f97a825493300da602f7a2bf25ef6"
+	"clienticon" "3016f368ebfc6a2b4b9a788f42e2bca76a26f7bc"
+	"clienttga" "f4f49dcc0f42e3676e2c18216cb005b2d92664fe"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"releasestate" "released"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "UpperCenter"
+				"width_pct" "100"
+				"height_pct" "100"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1708331573"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Gonggamorecontents Inc."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Gonggamorecontents Inc."
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "MYME GAMES"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"koreana"
+		{
+			"supported" "진실의"
+		}
+		"english"
+		{
+			"supported" "진실의"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1707908901"
+	"community_hub_visible" "1"
+	"gameid" "2323810"
+	"store_tags"
+	{
+		"0" "3964"
+		"1" "1645"
+		"2" "4182"
+		"3" "492"
+		"4" "3871"
+		"5" "4726"
+		"6" "597"
+		"7" "9"
+		"8" "1684"
+		"9" "3813"
+		"10" "4155"
+		"11" "493"
+		"12" "1720"
+		"13" "599"
+		"14" "3993"
+		"15" "30358"
+		"16" "4057"
+		"17" "6426"
+	}
+	"review_score" "6"
+	"review_percentage" "75"
+}
+"extended"
+{
+	"developer" "Gonggamorecontents Inc."
+	"publisher" "Gonggamorecontents Inc."
+}
+"config"
+{
+	"installdir" "DEFENDUN"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DefenDun.exe"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "DefenDun.exe"
+			}
+		}
+	}
+}
+"depots"
+{
+	"2323811"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6420006525098523247"
+				"size" "378243891"
+				"download" "87186320"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"test"
+			{
+				"gid" "96E86A071465C2A9E582C5EB91B531D3"
+				"size" "07292CBCDB00774A2EC17681CF072560"
+				"download" "81FBC2782B63C29E9B6C25ADCBDAD679"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13983675"
+			"timeupdated" "1712566056"
+		}
+		"test"
+		{
+			"buildid" "11377308"
+			"pwdrequired" "1"
+			"timeupdated" "1685863024"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "20"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "\\DefaultCompany\\DefenDun"
+			"pattern" "*"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" ""
+		}
+	}
+}
