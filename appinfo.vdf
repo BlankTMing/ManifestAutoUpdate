@@ -1,0 +1,305 @@
+"appid" "656240"
+"common"
+{
+	"name" "Heat"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"logo" "d1b27f35b72d70595c6e9feb52ef1b5fb6ff0332"
+	"logo_small" "d1b27f35b72d70595c6e9feb52ef1b5fb6ff0332_thumb"
+	"icon" "6537afba9db68fb5e15ba470075cf65129f3ba2d"
+	"clienticon" "dd8623218130d9e963dd27a389323cd6d6b5ddbd"
+	"clienttga" "f32c6427ce6b98436ff5135e12ea190d1b6c1974"
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "2"
+		"2" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1655510400"
+		"tested_build_id" "6929887"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_UnsupportedAntiCheatConfiguration"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-3"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Heat"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "50"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50"
+				"height_pct" "50"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1603860639"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Code}{atch"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Code}{atch"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "3"
+		"4" "28"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_36" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_49" "1"
+		"category_2" "1"
+		"category_47" "1"
+		"category_48" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1593134472"
+	"community_hub_visible" "1"
+	"gameid" "656240"
+	"store_tags"
+	{
+		"0" "1662"
+		"1" "1647"
+		"2" "1695"
+		"3" "3859"
+		"4" "13190"
+		"5" "1100689"
+		"6" "21"
+		"7" "122"
+		"8" "19"
+		"9" "492"
+		"10" "1702"
+		"11" "1643"
+		"12" "493"
+		"13" "599"
+		"14" "4345"
+		"15" "1775"
+		"16" "4667"
+		"17" "12095"
+		"18" "3810"
+		"19" "4182"
+	}
+	"review_score" "5"
+	"review_percentage" "48"
+}
+"extended"
+{
+	"anti_cheat_support_url" "https://www.easy.ac/r/steam/gamebans/\?steamAppId=656240"
+	"developer" "Code}{atch"
+	"publisher" "Code}{atch"
+	"homepage" "http://www.playheat.net/"
+}
+"config"
+{
+	"installdir" "Heat"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "EAC.exe"
+			"arguments" "-nolog -nologger"
+			"description" "Launches the game normally."
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "default"
+			}
+		}
+		"1"
+		{
+			"executable" "EAC.exe"
+			"description" "Launches the game with logging."
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "developer"
+			}
+		}
+		"2"
+		{
+			"executable" "EAC.exe"
+			"description" "Launches the game with logging."
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "debug"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "6"
+}
+"depots"
+{
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"656241"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8875948080000047406"
+				"size" "69682934695"
+				"download" "51148523680"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"developer"
+			{
+				"gid" "F4BBE141DF778A381B9F9F9B04631218"
+				"size" "18B94929F8A1311E2ABD8888CA223765"
+				"download" "67CC9A217A9229C011549954917539BE"
+			}
+			"eac_branch"
+			{
+				"gid" "11D2DE3116FAB11E3DA90800E2BE3573"
+				"size" "F7DB9759E3F744C7870AF4FAFC902B66"
+				"download" "A44C4377BDC0322B0EF37FF04D9DD1FA"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "6929887"
+			"timeupdated" "1624577279"
+		}
+		"developer"
+		{
+			"buildid" "6929887"
+			"pwdrequired" "1"
+			"timeupdated" "1624576075"
+		}
+		"eac_branch"
+		{
+			"buildid" "3454939"
+			"pwdrequired" "1"
+			"timeupdated" "1547164382"
+		}
+	}
+}
