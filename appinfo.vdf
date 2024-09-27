@@ -1,0 +1,231 @@
+"appid" "65300"
+"common"
+{
+	"name" "Dustforce"
+	"clienticon" "73979d0804784bed70983d6f77fabcbc707a9b23"
+	"clienttga" "0a88b7a45259ebba8bc598bed8657df10ebc3b56"
+	"icon" "7823652dcb6b11c024003ec590c17f461637c66f"
+	"logo" "6b3657f05813efb8061cb67d8989118ba5c7dde3"
+	"logo_small" "6b3657f05813efb8061cb67d8989118ba5c7dde3_thumb"
+	"clienticns" "d9adf0e9db49021f890a302850664e71c6af9689"
+	"linuxclienticon" "391583df29ad79c39318fbe6b5544e9559ad940f"
+	"oslist" "windows,macos,linux"
+	"type" "game"
+	"metacritic_name" "Dustforce"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1414113937"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Hitbox Team"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "1"
+		}
+	}
+	"steam_release_date" "1326824820"
+	"metacritic_score" "79"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/dustforce\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "65300"
+	"store_tags"
+	{
+		"0" "3877"
+		"1" "1625"
+		"2" "1756"
+		"3" "492"
+		"4" "4026"
+		"5" "5390"
+		"6" "3871"
+		"7" "19"
+		"8" "4252"
+		"9" "7368"
+		"10" "3841"
+		"11" "5154"
+		"12" "8122"
+		"13" "3798"
+		"14" "1734"
+		"15" "4182"
+		"16" "4036"
+		"17" "4166"
+		"18" "4840"
+		"19" "5379"
+	}
+	"review_score" "8"
+	"review_percentage" "87"
+}
+"extended"
+{
+	"developer" "Hitbox Team"
+	"gamedir" "Dustforce"
+	"homepage" "http://hitboxteam.com"
+	"icon" ""
+	"installscript_macos" "Dustforce.app/installscript_osx.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "65301"
+	"primarycache_linux" "65304"
+	"primarycache_macos" "65303"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "windows,macos,linux"
+}
+"config"
+{
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Dustforce.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Dustforce.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Dustforce.bin.x86_64"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"3"
+		{
+			"executable" "Dustforce.bin.x86"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+	}
+	"contenttype" "3"
+	"installdir" "Dustforce"
+}
+"depots"
+{
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229020"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"65304"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3714639269265804985"
+				"size" "419104964"
+				"download" "329362016"
+			}
+		}
+	}
+	"65303"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4613837143824220549"
+				"size" "414283370"
+				"download" "327007424"
+			}
+		}
+	}
+	"65301"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4400690205417711253"
+				"size" "429177053"
+				"download" "817529043664"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "480368"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+	"hidecloudui" "0"
+}
