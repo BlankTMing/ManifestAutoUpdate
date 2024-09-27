@@ -1,0 +1,338 @@
+"appid" "444000"
+"common"
+{
+	"name" "Super Night Riders"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "64b7c939b539d18fbaed7cfc5bdaf29dc9a7eb0a"
+	"logo_small" "64b7c939b539d18fbaed7cfc5bdaf29dc9a7eb0a_thumb"
+	"icon" "3b3f7ba0e1cde4b7506827ee67ccf65b5bd09a2a"
+	"clienttga" "a345fadac9e1d6ae4a9627a6a59309be56826212"
+	"clienticon" "7e336b96e4787a9dfe532578ff503b011f10938d"
+	"linuxclienticon" "48f91069eda6e88282252e4cb6c4f1e2a140f2d1"
+	"clienticns" "6842d1aac8eb7fc8a119e7c91c6929fe72ddea89"
+	"osarch" "64"
+	"osextended" "macos64"
+	"metacritic_name" "Super Night Riders"
+	"controllertagwizard" "1"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50"
+			"height_pct" "73.26388888888889"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50"
+				"height_pct" "73.26388888888889"
+			}
+		}
+	}
+	"store_asset_mtime" "1683078360"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "neko.works"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "neko.works"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Night Riders"
+		}
+	}
+	"primary_genre" "9"
+	"genres"
+	{
+		"0" "23"
+		"1" "9"
+		"2" "28"
+		"3" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_25" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1456153173"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "444000"
+	"store_tags"
+	{
+		"0" "1773"
+		"1" "699"
+		"2" "492"
+		"3" "198913"
+		"4" "4085"
+		"5" "4004"
+		"6" "3916"
+		"7" "1644"
+		"8" "7208"
+		"9" "7743"
+		"10" "4182"
+		"11" "4026"
+		"12" "1734"
+		"13" "1756"
+		"14" "4094"
+		"15" "599"
+		"16" "4166"
+		"17" "7481"
+		"18" "1693"
+		"19" "123332"
+	}
+	"review_score" "8"
+	"review_percentage" "85"
+}
+"extended"
+{
+	"gamedir" ""
+	"developer" "neko.works"
+	"publisher" "neko.works"
+	"homepage" "https://neko.works/SNR"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Super Night Riders"
+	"steamcontrollertemplateindex" "4"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "super_night_riders.exe"
+			"description" "Launch the Game!"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "super_night_riders.exe"
+			"arguments" "-show-screen-selector"
+			"description" "Resolution and Input Configuration"
+			"type" "config"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"2"
+		{
+			"executable" "super_night_riders.app\\Contents\\MacOS\\super_night_riders"
+			"description" "Launch the Game!"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "super_night_riders.app\\Contents\\MacOS\\super_night_riders"
+			"arguments" "-show-screen-selector"
+			"description" "Resolution and Input Configuration"
+			"type" "config"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"4"
+		{
+			"executable" "super_night_riders.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "Launch the Game!"
+			}
+			"description" "Launch the Game!"
+		}
+		"5"
+		{
+			"executable" "super_night_riders.x86_64"
+			"arguments" "-show-screen-selector"
+			"type" "config"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "Resolution and Input Configuration"
+			}
+			"description" "Resolution and Input Configuration"
+		}
+	}
+}
+"depots"
+{
+	"444001"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1686061010072582739"
+				"size" "117445762"
+				"download" "76312336"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "7314AC8C582E449883677576D33C53BA"
+				"size" "07CBF4EDF5AF6482C249A7CD1BCF83DA"
+				"download" "EE4F57DE39B0C7508FE4DF2818717573"
+			}
+		}
+	}
+	"444002"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1976848477910046557"
+				"size" "123910159"
+				"download" "80727856"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "8E1DED4403A8072AE7718F2F8D871E2B"
+				"size" "A5E952D79EDBB43AA60BD394F1CD68E8"
+				"download" "8374E560033CB16BA0E7A126AEC37976"
+			}
+		}
+	}
+	"444003"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4622314255006739590"
+				"size" "140992328"
+				"download" "91071264"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "C0A4D299213A8C0F7E02BE68147A0C83"
+				"size" "BC3D678413A437E8DBDDD21BE64BCF68"
+				"download" "9586552C63B140E5C089C5B8393F5874"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10744523"
+			"timeupdated" "1678509338"
+		}
+		"beta"
+		{
+			"buildid" "10744523"
+			"pwdrequired" "1"
+			"timeupdated" "1678499421"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "1"
+}
