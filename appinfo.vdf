@@ -1,0 +1,329 @@
+"appid" "2240920"
+"common"
+{
+	"name" "Vaudeville"
+	"type" "Game"
+	"icon" "e82340794866e12ec7d4a34cb5e39bd7b9cbebe9"
+	"clienticon" "d314aafe29b5c9f09c4704730f7f33cf190ccf4c"
+	"clienttga" "3664129c1922a2fcc45088261fea7bc0cc96e725"
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"osextended" ""
+	"releasestate" "released"
+	"aicontenttype" "2"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1698710400"
+		"tested_build_id" "12543543"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "1"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1701095213"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Bumblebee Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "BBS Games AB"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Vaudeville"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "28"
+		"3" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"subtitles" "true"
+		}
+		"dutch"
+		{
+			"subtitles" "true"
+		}
+		"portuguese"
+		{
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"subtitles" "true"
+		}
+		"ukrainian"
+		{
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1688128279"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2240920"
+	"store_tags"
+	{
+		"0" "7926"
+		"1" "15172"
+		"2" "6378"
+		"3" "8369"
+		"4" "6052"
+		"5" "5613"
+		"6" "13782"
+		"7" "4166"
+		"8" "1710"
+		"9" "11014"
+		"10" "9592"
+		"11" "5125"
+		"12" "1751"
+		"13" "4342"
+		"14" "6426"
+		"15" "3834"
+		"16" "10808"
+		"17" "599"
+		"18" "4182"
+		"19" "21"
+	}
+	"review_score" "5"
+	"review_percentage" "58"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Bumblebee Studios"
+	"publisher" "BBS Games AB"
+	"homepage" "http://www.bumblebee-studios.se/"
+}
+"config"
+{
+	"installdir" "Vaudeville"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Vaudeville.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Vaudeville (Windows)"
+			}
+			"description" "Vaudeville (Windows)"
+		}
+		"1"
+		{
+			"executable" "Vaudeville.exe"
+			"arguments" "-force-d3d11"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Vaudeville (DX11)"
+			}
+			"description" "Vaudeville (DX11)"
+		}
+		"2"
+		{
+			"executable" "Vaudeville.exe"
+			"arguments" "-force-vulkan"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Vaudeville (Vulkan)"
+			}
+			"description" "Vaudeville (Vulkan)"
+		}
+		"3"
+		{
+			"executable" "Linux/Vaudeville.x86_64"
+			"workingdir" "Linux"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "Vaudeville (Linux)"
+			}
+			"description" "Vaudeville (Linux)"
+		}
+	}
+}
+"depots"
+{
+	"2240921"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "710412345680454104"
+				"size" "11130091583"
+				"download" "3990786464"
+			}
+		}
+	}
+	"2240922"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4865412558867174183"
+				"size" "10851460020"
+				"download" "3871218624"
+			}
+		}
+	}
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese,dutch,brazilian,ukrainian,latam"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13228854"
+			"timeupdated" "1705790521"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "10"
+	"sync_while_suspended" "1"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Bumblebee Studios/Vaudeville/Saves"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
