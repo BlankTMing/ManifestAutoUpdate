@@ -1,0 +1,336 @@
+"appid" "63200"
+"common"
+{
+	"name" "Monday Night Combat"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"tchinese" "1"
+		"japanese" "1"
+	}
+	"logo" "f001d25ab0708c00a02dda7dd646d801c1dffb19"
+	"logo_small" "f001d25ab0708c00a02dda7dd646d801c1dffb19_thumb"
+	"clienticon" "c6fd81e1ad41bd7d5df74d68be0d9431d846c3e4"
+	"clienttga" "948f02ba2685aed085a7166857958ffd9cc4ee51"
+	"icon" "6259178c82fe149f1b91bb32b16ff5971aa2c205"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"type" "game"
+	"metacritic_name" "Monday Night Combat"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1324489701"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Uber Entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Uber Entertainment"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "2"
+		"2" "23"
+		"3" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_15" "1"
+		"category_8" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1295917200"
+	"metacritic_score" "82"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/monday-night-combat\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "63200"
+	"store_tags"
+	{
+		"0" "620519"
+		"1" "19"
+		"2" "3814"
+		"3" "1718"
+		"4" "492"
+		"5" "701"
+		"6" "9"
+		"7" "3859"
+		"8" "5547"
+		"9" "1719"
+		"10" "1645"
+		"11" "1685"
+		"12" "4562"
+		"13" "1774"
+	}
+	"review_score" "6"
+	"review_percentage" "78"
+}
+"extended"
+{
+	"developer" "Uber Entertainment"
+	"gamedir" "Monday Night Combat"
+	"homepage" "http://www.mondaynightcombat.com/"
+	"icon" ""
+	"installscript" "InstallScript.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "63201"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"vacmacmodulecache" "160"
+	"vacmodulecache" "202"
+	"vacmodulefilename" "sourceinit.dat"
+	"publisher" "Uber Entertainment"
+	"listofdlc" "63210,63211,63212,63213"
+}
+"config"
+{
+	"installscriptsignature" "62b29315d0b1f3cac837e6b3e9bab8b4620cf53853991be44ebd423ef14c710c9176a42d9e6a848734f06842921a4ddaf33a704b8dc45ee06cf5d03b8942ee3b5650527fb42f3ab8c4f6b629a47aa6546d403228cd996f9ddfe82001744e72efc011763eb3f0516f3e127b34944f1868b8c93c5c11fc45288f4b640b74f68a3f"
+	"installscriptoverride" "1"
+	"contenttype" "3"
+	"installdir" "Monday Night Combat"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "binaries\\win32\\mnc.exe"
+		}
+	}
+}
+"install"
+{
+	"run process"
+	{
+		"vc80redist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Uber\\MNC\\Support\\vc80redist"
+			"process 1" "%INSTALLDIR%\\binaries\\win32\\support\\vc80redist_x86.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+		"vc90redist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Uber\\MNC\\Support\\vc90redist"
+			"process 1" "%INSTALLDIR%\\binaries\\win32\\support\\vc90redist_x86.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Uber\\MNC\\Support\\dxsetup"
+			"process 1" "%INSTALLDIR%\\binaries\\win32\\support\\dxsetup.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"physx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Uber\\MNC\\Support\\physx"
+			"process 1" "%INSTALLDIR%\\binaries\\win32\\support\\PhysX_9.10.0513_SystemSoftware.exe"
+			"command 1" "/passive"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"63201"
+	{
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6328823794171306393"
+				"size" "2836294811"
+				"download" "0"
+			}
+		}
+	}
+	"63202"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2100080301913726054"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"63203"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3284462523808900863"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"63204"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3669221926238797233"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"63205"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1856156707846737899"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"63206"
+	{
+		"config"
+		{
+			"language" "koreana"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4636237943037689027"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"63207"
+	{
+		"config"
+		{
+			"language" "tchinese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5223568852102948385"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"63208"
+	{
+		"config"
+		{
+			"language" "japanese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8100843134131750988"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "87871"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1048576"
+	"maxnumfiles" "100"
+}
