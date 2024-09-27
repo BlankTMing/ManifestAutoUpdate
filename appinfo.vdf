@@ -1,0 +1,390 @@
+"appid" "603960"
+"common"
+{
+	"name" "Star of Providence"
+	"type" "Game"
+	"logo" "ffb8529dfe48ad60d2dcc7c8b92315066445a693"
+	"logo_small" "ffb8529dfe48ad60d2dcc7c8b92315066445a693_thumb"
+	"icon" "7ebe8b1bf5f5a8987db284d57f1710a6f30363cd"
+	"clienticon" "4b41df469738d0f0c5f0a817ab47e3a8ddf80c5d"
+	"clienttga" "eb5b4e17c87a6fe9cf0b8a156bc4d607bff60daf"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1698278400"
+		"tested_build_id" "12043418"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "28.121353558926458"
+			"height_pct" "51.519829019235345"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "28.121353558926458"
+				"height_pct" "51.519829019235345"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1692649179"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Team D-13"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Team D-13"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1496864495"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "603960"
+	"store_tags"
+	{
+		"0" "3959"
+		"1" "4885"
+		"2" "42804"
+		"3" "4255"
+		"4" "492"
+		"5" "3964"
+		"6" "19"
+		"7" "1716"
+		"8" "4026"
+		"9" "3871"
+		"10" "1720"
+		"11" "1774"
+		"12" "4182"
+		"13" "4791"
+		"14" "5125"
+		"15" "4711"
+		"16" "4004"
+		"17" "4758"
+		"18" "5547"
+		"19" "1759"
+	}
+	"review_score" "9"
+	"review_percentage" "97"
+}
+"extended"
+{
+	"developer" "Team D-13"
+	"publisher" "Team D-13"
+	"homepage" "http://team-d13.com/starofprovidence/"
+	"listofdlc" "1180120"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Monolith"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Star of Providence.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "run.sh"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "monolith"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"ownsdlc" "1180120"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german"
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"603961"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "849176818137810173"
+				"size" "75594114"
+				"download" "45706800"
+			}
+			"legacy"
+			{
+				"gid" "8195933074464664469"
+				"size" "104002540"
+				"download" "72624832"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "469DF75AEFCBBABC12225E1265496635"
+				"size" "E04D358A0526D4DF98DCF2B4F4C5A822"
+				"download" "11BEEA582D24D7FB45DF30303DF7BDB8"
+			}
+			"beta2"
+			{
+				"gid" "B1AEDBA0A1B08D722C098F2709C69196"
+				"size" "5070C721DF40747A11856A09263E7545"
+				"download" "BD3A46C47D5C98FA4C740535FAA5FE93"
+			}
+			"rebrand_test"
+			{
+				"gid" "16CC40C56F55A771B496068E05827C51"
+				"size" "127753108D00ACC24B71DEAF99FF0C2D"
+				"download" "5E2275E14FA6534EDB5C72599ECD33EC"
+			}
+			"qa_testing"
+			{
+				"gid" "B02DDD5A2FF888F63990654CC7F212FE"
+				"size" "90216BBF87AB4E520B3A094C635EAF67"
+				"download" "084BBE42F5A88F4CBD3CC08812D1517E"
+			}
+		}
+	}
+	"603962"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8714862893871944277"
+				"size" "56420443"
+				"download" "41903584"
+			}
+			"legacy"
+			{
+				"gid" "4284443728100432548"
+				"size" "31677866"
+				"download" "23133824"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "0ADADB7ED4A6AD4174215BCB8F4AB3F0"
+				"size" "B86B2FC6307DF2BDE77B0B511309C458"
+				"download" "34E81A687363376B86A0DA6D3257B8B4"
+			}
+			"beta2"
+			{
+				"gid" "1DF1F885BFD1EE7379A82DE5BC863FA2"
+				"size" "AC342BF110581C4F31853DE41C4BB84C"
+				"download" "B970DD6BB3DEEB09D2D942FAAAA24116"
+			}
+			"rebrand_test"
+			{
+				"gid" "2F62C6739FEC06C9F20B74A213273BEF"
+				"size" "EAAC5B9968510352D94515CD09AD9A21"
+				"download" "3DF3097323B10B44B81607008427274A"
+			}
+			"qa_testing"
+			{
+				"gid" "DBE99FD6A5E999282DD5C376474E1463"
+				"size" "D78562C9C1E58BDFB6215FF927E8AFBA"
+				"download" "E17E92D29F16A6733BD6F4676FAC285C"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12043418"
+			"timeupdated" "1693147538"
+		}
+		"beta"
+		{
+			"buildid" "12756022"
+			"pwdrequired" "1"
+			"timeupdated" "1700535480"
+		}
+		"beta2"
+		{
+			"buildid" "12756022"
+			"pwdrequired" "1"
+			"timeupdated" "1700535490"
+		}
+		"legacy"
+		{
+			"buildid" "11995386"
+			"description" "Formerly After The End"
+			"timeupdated" "1692647878"
+		}
+		"rebrand_test"
+		{
+			"buildid" "11995242"
+			"pwdrequired" "1"
+			"timeupdated" "1692645956"
+		}
+		"qa_testing"
+		{
+			"buildid" "15831522"
+			"pwdrequired" "1"
+			"timeupdated" "1727323161"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "50"
+}
