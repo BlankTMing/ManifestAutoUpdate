@@ -1,0 +1,240 @@
+"appid" "1494500"
+"common"
+{
+	"name" "FWsim - Fireworks Display Simulator"
+	"type" "Game"
+	"logo" "9810f4c359b93814063bc72a8e7f830a2c16361a"
+	"logo_small" "9810f4c359b93814063bc72a8e7f830a2c16361a_thumb"
+	"icon" "23b6b909d1d80364d459829fbb8c11c14b61430e"
+	"clienticon" "0bfae6e9f6bb677fdd108ddb18a9f95d843026a8"
+	"clienttga" "46dadb3bd0355dcf0a9ecac8fc8662b5b1295388"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "38.30352844705075"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "38.30352844705075"
+				"height_pct" "100"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1699122149"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Lukas Trötzmüller"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Lukas Trötzmüller"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_17" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1699010883"
+	"community_hub_visible" "1"
+	"gameid" "1494500"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "3810"
+		"2" "4191"
+		"3" "1654"
+		"4" "8122"
+		"5" "4182"
+	}
+	"review_score" "8"
+	"review_percentage" "97"
+}
+"extended"
+{
+	"developer" "Lukas Trötzmüller"
+	"publisher" "Lukas Trötzmüller"
+	"homepage" "https://www.fwsim.com/steam"
+}
+"config"
+{
+	"installdir" "FWsim Fireworks Simulator"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bin\\FWsim.exe"
+			"arguments" "-steam"
+			"workingdir" "bin\\"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228983"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1494501"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7584925154529772776"
+				"size" "474611266"
+				"download" "306867248"
+			}
+			"beta"
+			{
+				"gid" "7584925154529772776"
+				"size" "474611266"
+				"download" "306867248"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"testing"
+			{
+				"gid" "C9F19DA87EE54D3F9FB354C6EC1024FF"
+				"size" "941136DDA5951BFF2FA6686BA308403F"
+				"download" "B76CA308A6626A63364B90AC00EE3C85"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15691139"
+			"timeupdated" "1726232711"
+		}
+		"testing"
+		{
+			"buildid" "10425455"
+			"pwdrequired" "1"
+			"timeupdated" "1674925160"
+		}
+		"beta"
+		{
+			"buildid" "15691139"
+			"description" "Get early access to new features"
+			"timeupdated" "1726232608"
+		}
+	}
+}
