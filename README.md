@@ -1,16 +1,14 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-28 08:39:35
+## 更新时间：2024-09-28 08:43:08
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 780580 | Lost in the Dungeon| Game |
-| 388960 | Torn Tales| Game |
-| 337280 | Planetship| Game |
-| 508650 | 拯救世界特别小队| Game |
-| 430170 | Babel: Choice| Game |
-| 934120 | Monkeys & Dragons| Game |
-| 905670 | 巭孬嫑毖| Game |
-| 727220 | Nightingale Downs| Game |
-| 791760 | A Story of Distress| Game |
-| 1067450 | Never Let Me Awake| Game |
-| 400380 | Tactical Soccer The New Season| Game |
+| 1112050 | Time for Quest| Game |
+| 1530750 | EVERSLAUGHT| Game |
+| 341470 | Loot Hunter| Game |
+| 1852520 | 元宇宙普信男生存指南| Game |
+| 500320 | A Tale of Caos: Overture| Game |
+| 555370 | 1812: The Invasion of Canada| Game |
+| 1637200 | Mage Tower 魔旅之塔| Game |
+| 312150 | Wild Warfare| Game |
+| 2109020 | Koler 原色之战| Game |
