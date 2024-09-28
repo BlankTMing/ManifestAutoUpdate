@@ -1,0 +1,1351 @@
+"appid" "1172710"
+"common"
+{
+	"name" "Dune: Awakening"
+	"type" "Game"
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"osextended" ""
+	"icon" "97061ba72306e1a315c50e0fcd81405d22289640"
+	"clienticon" "9e2c3734926e4c284e838f0aef8c33c08777dff8"
+	"clienttga" "bbec1506ce34d03b4bcb3a3b197bc8a7f8dc7eca"
+	"releasestate" "prerelease"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "1172710_eula_0"
+			"name" "Dune: Awakening EULA"
+			"url" "https://store.steampowered.com//eula/1172710_eula_0"
+			"version" "1"
+		}
+	}
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"controllertagwizard" "1"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "a0652816c093b53259d0a9e176736d8fda496808/capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "49.76662777129522"
+			"height_pct" "42.40085490382334"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "49.76662777129522"
+				"height_pct" "42.40085490382334"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1725096291"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Funcom"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Funcom"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Funcom"
+		}
+	}
+	"primary_genre" "29"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "29"
+		"3" "3"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_20" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_18" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"community_hub_visible" "1"
+	"gameid" "1172710"
+	"exfgls" "8"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "1697"
+		"2" "128"
+		"3" "1100689"
+		"4" "3942"
+		"5" "1695"
+		"6" "3834"
+		"7" "3993"
+		"8" "1662"
+		"9" "1775"
+		"10" "6730"
+		"11" "1643"
+		"12" "122"
+		"13" "3810"
+		"14" "19"
+		"15" "3859"
+		"16" "4747"
+		"17" "1702"
+		"18" "3843"
+		"19" "3854"
+	}
+}
+"extended"
+{
+	"developer" "Funcom"
+	"publisher" "Funcom"
+	"homepage" "https://duneawakening.com/"
+}
+"config"
+{
+	"installdir" "Seabass"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DuneSandbox.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "default"
+			}
+		}
+		"24"
+		{
+			"executable" "DuneSandbox.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+		"51"
+		{
+			"executable" "DuneSandbox.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "release-18"
+			}
+			"description_loc"
+			{
+				"english" "Development build"
+			}
+			"description" "Development build"
+		}
+		"52"
+		{
+			"executable" "DuneSandbox-Win64-Test.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "release-18"
+			}
+			"description_loc"
+			{
+				"english" "Test build"
+			}
+			"description" "Test build"
+		}
+		"55"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "external-testing1"
+			}
+		}
+		"56"
+		{
+			"executable" "DuneSandbox.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "stable"
+			}
+			"description_loc"
+			{
+				"english" "Development build"
+			}
+			"description" "Development build"
+		}
+		"57"
+		{
+			"executable" "DuneSandbox-Win64-Test.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "stable"
+			}
+			"description_loc"
+			{
+				"english" "Test build"
+			}
+			"description" "Test build"
+		}
+		"58"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "release-18"
+			}
+			"description_loc"
+			{
+				"english" "Shipping build"
+			}
+			"description" "Shipping build"
+		}
+		"60"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "stable"
+			}
+			"description_loc"
+			{
+				"english" "Shipping build"
+			}
+			"description" "Shipping build"
+		}
+		"61"
+		{
+			"executable" "DuneSandbox.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "external-testing2"
+			}
+		}
+		"62"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "external2"
+			}
+			"description_loc"
+			{
+				"english" "Play Dune: Awakening"
+			}
+			"description" "Play Dune: Awakening"
+		}
+		"63"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "external1"
+			}
+		}
+		"64"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "sprint-playtest"
+			}
+			"description_loc"
+			{
+				"english" "Shipping Config"
+			}
+			"description" "Shipping Config"
+		}
+		"65"
+		{
+			"executable" "DuneSandbox-Win64-Test.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "qa-lasttestable"
+			}
+			"description_loc"
+			{
+				"english" "Test Config"
+			}
+			"description" "Test Config"
+		}
+		"66"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "qa-lasttestable"
+			}
+			"description_loc"
+			{
+				"english" "Shipping Config"
+			}
+			"description" "Shipping Config"
+		}
+		"67"
+		{
+			"executable" "DuneSandbox.exe"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "qa-lasttestable"
+			}
+			"description_loc"
+			{
+				"english" "Development Config"
+			}
+			"description" "Development Config"
+		}
+		"68"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "sb-dev"
+			}
+			"description_loc"
+			{
+				"english" "Shipping Config"
+			}
+			"description" "Shipping Config"
+		}
+		"69"
+		{
+			"executable" "DuneSandbox-Win64-Test.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "sb-dev"
+			}
+			"description_loc"
+			{
+				"english" "Test Config"
+			}
+			"description" "Test Config"
+		}
+		"70"
+		{
+			"executable" "DuneSandbox.exe"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "sb-dev"
+			}
+			"description_loc"
+			{
+				"english" "Development Config"
+			}
+			"description" "Development Config"
+		}
+		"71"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev1"
+			}
+			"description_loc"
+			{
+				"english" "Shipping Config"
+			}
+			"description" "Shipping Config"
+		}
+		"72"
+		{
+			"executable" "DuneSandbox-Win64-Test.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev1"
+			}
+			"description_loc"
+			{
+				"english" "Test Config"
+			}
+			"description" "Test Config"
+		}
+		"73"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev4"
+			}
+			"description_loc"
+			{
+				"english" "Shipping Config"
+			}
+			"description" "Shipping Config"
+		}
+		"74"
+		{
+			"executable" "DuneSandbox-Win64-Test.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev4"
+			}
+			"description_loc"
+			{
+				"english" "Test Config"
+			}
+			"description" "Test Config"
+		}
+		"77"
+		{
+			"executable" "DuneSandbox.exe"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev4"
+			}
+			"description_loc"
+			{
+				"english" "Development Config"
+			}
+			"description" "Development Config"
+		}
+		"78"
+		{
+			"executable" "DuneSandbox.exe"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev1"
+			}
+			"description_loc"
+			{
+				"english" "Development Config"
+			}
+			"description" "Development Config"
+		}
+		"79"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "sb-release-pb1"
+			}
+			"description_loc"
+			{
+				"english" "Shipping Config"
+			}
+			"description" "Shipping Config"
+		}
+		"80"
+		{
+			"executable" "DuneSandbox-Win64-Test.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "sb-release-pb1"
+			}
+			"description_loc"
+			{
+				"english" "Test Config"
+			}
+			"description" "Test Config"
+		}
+		"81"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev3"
+			}
+			"description_loc"
+			{
+				"english" "Shipping Config"
+			}
+			"description" "Shipping Config"
+		}
+		"82"
+		{
+			"executable" "DuneSandbox-Win64-Test.exe"
+			"type" "option2"
+			"config"
+			{
+				"betakey" "devigw"
+			}
+			"description_loc"
+			{
+				"english" "Test Configuration"
+			}
+			"description" "Test Configuration"
+		}
+		"83"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "option1"
+			"config"
+			{
+				"betakey" "devigw"
+			}
+			"description_loc"
+			{
+				"english" "Shipping Configuration"
+			}
+			"description" "Shipping Configuration"
+		}
+		"84"
+		{
+			"executable" "DuneSandbox.exe"
+			"type" "option3"
+			"config"
+			{
+				"betakey" "devigw"
+			}
+			"description_loc"
+			{
+				"english" "Development Configuration"
+			}
+			"description" "Development Configuration"
+		}
+		"85"
+		{
+			"executable" "DuneSandbox-Win64-Test.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev2"
+			}
+			"description_loc"
+			{
+				"english" "Test Configuration"
+			}
+			"description" "Test Configuration"
+		}
+		"86"
+		{
+			"executable" "DuneSandbox.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev2"
+			}
+			"description_loc"
+			{
+				"english" "Development Configuration"
+			}
+			"description" "Development Configuration"
+		}
+		"88"
+		{
+			"executable" "DuneSandbox.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "deep-desert"
+			}
+			"description_loc"
+			{
+				"english" "Development Configuration"
+			}
+			"description" "Development Configuration"
+		}
+		"89"
+		{
+			"executable" "DuneSandbox-Win64-Test.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "deep-desert"
+			}
+			"description_loc"
+			{
+				"english" "Test Configuration"
+			}
+			"description" "Test Configuration"
+		}
+		"90"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "deep-desert"
+			}
+			"description_loc"
+			{
+				"english" "Shipping Config"
+			}
+			"description" "Shipping Config"
+		}
+		"91"
+		{
+			"executable" "DuneSandbox.exe"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "sb-release-pb1"
+			}
+			"description_loc"
+			{
+				"english" "Development Configuration"
+			}
+			"description" "Development Configuration"
+		}
+		"92"
+		{
+			"executable" "Launcher\\FuncomLauncher.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "stable"
+			}
+			"description_loc"
+			{
+				"english" "Launcher (DuneSandbox.exe)"
+			}
+			"description" "Launcher (DuneSandbox.exe)"
+		}
+		"93"
+		{
+			"executable" "Launcher\\FuncomLauncher.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "release-18"
+			}
+			"description_loc"
+			{
+				"english" "Launcher (DuneSandbox.exe)"
+			}
+			"description" "Launcher (DuneSandbox.exe)"
+		}
+		"94"
+		{
+			"executable" "DuneSandbox-Win64-Test.exe"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev3"
+			}
+			"description_loc"
+			{
+				"english" "Test Configuration"
+			}
+			"description" "Test Configuration"
+		}
+		"95"
+		{
+			"executable" "DuneSandbox.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "dev3"
+			}
+			"description_loc"
+			{
+				"english" "Development Configuration"
+			}
+			"description" "Development Configuration"
+		}
+		"96"
+		{
+			"executable" "Launcher\\FuncomLauncher.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "sb-dev"
+			}
+			"description_loc"
+			{
+				"english" "Launcher (DuneSandbox.exe)"
+			}
+			"description" "Launcher (DuneSandbox.exe)"
+		}
+		"97"
+		{
+			"executable" "DuneSandbox-Win64-Shipping.exe"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "external-testing2"
+			}
+			"description_loc"
+			{
+				"english" "Shipping config"
+			}
+			"description" "Shipping config"
+		}
+	}
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1172711"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "733751004264486170"
+				"size" "196"
+				"download" "192"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"external1"
+			{
+				"gid" "164339C74F15A47B55B89C33D557FF74"
+				"size" "54E49DF9CD0CC346230E7B1021283E12"
+				"download" "22686A2FBF2568776D65AA20AD0CEF38"
+			}
+			"autobuildsystem"
+			{
+				"gid" "D6ADBAA5046EBB8D4EAE28F9AC35B876"
+				"size" "8280B8B09EF8CE8C7E7E69D080E71A06"
+				"download" "C4B54A1FFE604688FB4114D49331C56F"
+			}
+			"benchmark-demo"
+			{
+				"gid" "DF4DD11BE1B67F886E6973250F709E1D"
+				"size" "1B31313D0FB3774AB4EB3EE744458A5B"
+				"download" "E49DAA456F26669E5E3BFAB3E1C5078A"
+			}
+			"deep-desert"
+			{
+				"gid" "21FED0275FE83F72FCB08CCF224E878F"
+				"size" "B1DBCF4A5F46AC9E340C1128D93BDA98"
+				"download" "8FCC42B3DBF0E441BB3D6760D223A9D7"
+			}
+			"dev1"
+			{
+				"gid" "1B2C6CFA7495A78AD828389E5CFDC080"
+				"size" "7E5BAEFA950BDBED7153EDDA3AABC1B5"
+				"download" "0D9655C80F29C3363449AFCBEF334E84"
+			}
+			"dev2"
+			{
+				"gid" "32999A99C417D71075DC10025164D03E"
+				"size" "5A18585D3D19B59F0B8E4A8D5FC3F6BC"
+				"download" "8415AC7FEDE47A25506670B7E2C4ED85"
+			}
+			"dev3"
+			{
+				"gid" "127E9A041C77DF4EE276C1A59AF6E63F"
+				"size" "1D00A19EB9F1063C9A9D06A8CDD9A970"
+				"download" "A5ADBC2FE732886B13A6E77852C457E9"
+			}
+			"dev4"
+			{
+				"gid" "5C40C86BB4671EEFA5E066F271AA4AA2"
+				"size" "F2A2CA83B509D3D7823D14488A84FF01"
+				"download" "6F682F20B4425B99A50A1A1B486B2423"
+			}
+			"dev5"
+			{
+				"gid" "03D89ECE3222EAB00E79FBF4F5C2C79F"
+				"size" "83B7C9B32A5E35E3A4EC3C188D7A2994"
+				"download" "04316C27B7E7F21CA11050844B6C7B2D"
+			}
+			"devcinematics"
+			{
+				"gid" "4CE92F25C02A5593C6DD8617E98E978A"
+				"size" "06B7FF557DD81DF4299FF5A9868C76B4"
+				"download" "ABE09363B5AFD29D64A806804A1FCC1B"
+			}
+			"devigw"
+			{
+				"gid" "A1C806B91C7DE2C72C2DB259151AFC60"
+				"size" "AA70ADF2E5D0A76AF724D015F06A66AB"
+				"download" "D29133114C3B38AFCAABD3122706CB21"
+			}
+			"devrendering2"
+			{
+				"gid" "770F8DA51F167FF17A18641DBF1B6BF7"
+				"size" "AE37128F7DAD8823569197C5E1889624"
+				"download" "2D8D8D5F59C1E73B2ECD6FFFA1609893"
+			}
+			"external-testing1"
+			{
+				"gid" "3D7CEC0EC574153B50852F2306803C17"
+				"size" "759753580551BFC9BE8CFE98BFF28533"
+				"download" "5CD957E1125893FDF57CB06785398E93"
+			}
+			"external-testing2"
+			{
+				"gid" "2863EBB1C7B5CF4ED382A401B004A63D"
+				"size" "AB319FC3DB39A691FFC9D0606A282BCF"
+				"download" "97BB49E366EF9ECBA9D232E56D88B227"
+			}
+			"external2"
+			{
+				"gid" "E62BF0B8369B52CF5E8837DFF308A075"
+				"size" "66E4F0D591174846A65C726FE2F728CA"
+				"download" "30004620789B4B67B502E6AE1E890472"
+			}
+			"legendarybeta"
+			{
+				"gid" "F5D2C5D4F25392539F112A163561AEEB"
+				"size" "C83ACF73B476FAAA3A9BB0F4431BAB51"
+				"download" "486EF44C779EE84904B7478B6873409B"
+			}
+			"localization"
+			{
+				"gid" "D1DB8C61903DBC40385957905158DDEC"
+				"size" "31E2E1C7DD70841EECBEDE66200C94B0"
+				"download" "8254A0B9B0E07AD2D60DCC3B6517B71B"
+			}
+			"marketing"
+			{
+				"gid" "43E5741E4B17089190F65E73E7844925"
+				"size" "5592E59C43E9A35F23FE66A3C265C17E"
+				"download" "85D6D521DA8272A92482CCAC4D06ED86"
+			}
+			"perf-strike-team"
+			{
+				"gid" "59F9CC6D3A574467CF912B3F5DA83328"
+				"size" "2C2D8BB665B2754C3E9F804AFFFFA3BB"
+				"download" "73FEC2D3AE2BF10CACE122F99A4B0B36"
+			}
+			"qa-lasttestable"
+			{
+				"gid" "AD4CC07FE6BE0C7344285D49DC5CE1F4"
+				"size" "DA0A1B0C42CC22B7013D06590934BEDE"
+				"download" "611F797B49A54E99294BC018629907F1"
+			}
+			"release-18"
+			{
+				"gid" "845EAA318CD2B356FE505EC0E8A51780"
+				"size" "F6E69421B3CEACE1F938E042CC9082E7"
+				"download" "D62F5D27628F14FE372D7A973165D12E"
+			}
+			"stable"
+			{
+				"gid" "19BB4156BC2E5614EC655F86658AD660"
+				"size" "F69B60714F374718DC5C2F459054FD34"
+				"download" "B8789A27ED17CFE05FBCD10E1B1D64F7"
+			}
+			"techengine"
+			{
+				"gid" "898B66F727E3E8DBFD838E9B4B679028"
+				"size" "9FB19702DB5F7F4F14B77C196B98705F"
+				"download" "7EA30227479D7479193055F36541EA46"
+			}
+		}
+	}
+	"1172712"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"autobuildsystem"
+			{
+				"gid" "31A636EA2078642BDB8F98CBACD6058D"
+				"size" "4D6C27A04D2D0FB7E5EB18911CADA9E0"
+				"download" "E2854A2F2DECD4ABAF24F277A1B4E34A"
+			}
+			"deep-desert"
+			{
+				"gid" "C37420F1AD304E9E9DFBB5486553031C"
+				"size" "386778E481ABCE88DB4F7D83821ACA91"
+				"download" "F07E8CD4B6104DF49B26E9C3C2495D03"
+			}
+			"dev1"
+			{
+				"gid" "C8992D99E29BEA2F4C7361E3AAE1FF12"
+				"size" "44C39CF59763D5A1990CCB0332AB9826"
+				"download" "FF8565A76E036F334FF7DA9A8956DBD6"
+			}
+			"dev2"
+			{
+				"gid" "2970483C21C4C4EB7359427E1109D583"
+				"size" "5C72742F4D57936C5445C72851835622"
+				"download" "963AB6D813E43D64E8A994D4856371A0"
+			}
+			"dev3"
+			{
+				"gid" "95833A1AC4E844BF132969DF0DDD1A5D"
+				"size" "164EF810A60A2FF063A9963E7D2ADDE8"
+				"download" "A3DBC14F37BB82658A8E598931BDC61A"
+			}
+			"dev4"
+			{
+				"gid" "49DEF2E57966C7FE72C7AD857C05943B"
+				"size" "F1F938AC1F3FDF7DB52171A8BCA3C9CF"
+				"download" "4674DD0F0A7299A931D8CE19D8433DF4"
+			}
+			"dev5"
+			{
+				"gid" "2AB9AFF9C8B41566F8DC36DD316EA8E7"
+				"size" "5D42BE780FAC237D7D48A0D838FA6C5A"
+				"download" "63F7C1CDE3186273FE920F422BDAF4FC"
+			}
+			"devrendering2"
+			{
+				"gid" "D2D3B3448FF9A4B5998728BB6E8B028D"
+				"size" "24CB3B9CF1331C7E48C76C1C3FD7C805"
+				"download" "51B60A951BC319F5342E42520BE8B33A"
+			}
+			"external2"
+			{
+				"gid" "F9DDB43ECDE053DB3F0E8DA8C9427BB5"
+				"size" "7EB6827D48496D85AAE98E1A27670CF0"
+				"download" "41D14561485A8DE34682B574AF080268"
+			}
+			"legendarybeta"
+			{
+				"gid" "A1C0116DC2FDC701B8BB873FB41337B6"
+				"size" "3A70769AA6C64ABE73935BDD205D0FF1"
+				"download" "6A33985398793FA2BA1A28A544733A50"
+			}
+			"localization"
+			{
+				"gid" "744F71F987524946C3919A327D0F02F9"
+				"size" "41F9B7081B45DE1108EF9F7050BD4E62"
+				"download" "96E3AF4A132100E6BD561BB4AD4A4B5F"
+			}
+			"marketing"
+			{
+				"gid" "922CBCBB469136C4ACB56D8A6CC31C9B"
+				"size" "D246A1D4A938D26A5866B987F3FCAEB1"
+				"download" "9EBB28EB0FC890232ECB3072EFDCE1F2"
+			}
+			"perf-strike-team"
+			{
+				"gid" "30794CF46A088693F3E343D14FB1D08B"
+				"size" "E01A9D222E4D2019A14A74BED2C3B4D6"
+				"download" "59CF534B3591E5560934EB51DE02F0BA"
+			}
+			"qa-lasttestable"
+			{
+				"gid" "55475BFD6E85C5D4010CA4568A54220B"
+				"size" "59D3275FED8FCCE58D413D172DA8681E"
+				"download" "01B8816014AEED9991C03DB2FB6B64D7"
+			}
+			"release-18"
+			{
+				"gid" "6B15E27B88BC00828EC223F4FDED111A"
+				"size" "14351FFA7148CBB037D310C92E86293C"
+				"download" "8CC298CE2003C18794892A473D5A6DAF"
+			}
+			"stable"
+			{
+				"gid" "238B9EFA0E344BA2773E0D45B93C52AF"
+				"size" "57DBB8CAA223860164F1FD45F0F42062"
+				"download" "B8EE84E816B949A6636139D6D3553802"
+			}
+			"techengine"
+			{
+				"gid" "C7706C1697247B1FF3F5BD2E1BB223E1"
+				"size" "E5C31C5CF40D44558A62D36AB29C93D4"
+				"download" "5C3DEDB27F62F4033477F38E383DAB54"
+			}
+		}
+	}
+	"1172719"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"dev1"
+			{
+				"gid" "710FE4A48D121455DC0245BF69C6E5CC"
+				"size" "1FAEF89E117312124968C7369E4BDFE4"
+				"download" "42DC8D007A9675F601B8EBFB8407B3B7"
+			}
+			"dev3"
+			{
+				"gid" "56837C27D6E970904429C91C097FB9A4"
+				"size" "00FF9436DF639D914940EB896E4F5AE3"
+				"download" "62BB2E8C94D1349DCBC22A720D3CD795"
+			}
+			"dev5"
+			{
+				"gid" "5899B9591B5384080EFB0F07633C5724"
+				"size" "456998B959AAF0FDF630082C8F5ACF84"
+				"download" "E273FEC35E226E9C3BA4385D0B7A1C1D"
+			}
+			"localization"
+			{
+				"gid" "B39F5B554A8D26CB45DF68E1BD47060D"
+				"size" "9AB2FB7E919AD50D2CA35859B0E09B0E"
+				"download" "61B370B61E107020279897EC2031B230"
+			}
+			"marketing"
+			{
+				"gid" "141CCBE4194D574E8F139DF15AEFC7D9"
+				"size" "61537CB1E67B83F9F75931E1E7AA6B9F"
+				"download" "CB0545E7A57F785A0C6351F3646F086D"
+			}
+			"qa-lasttestable"
+			{
+				"gid" "37C8F7219A3D2478CE4355E787005C32"
+				"size" "4AA8179A784E856457E6EE5CA77F2C48"
+				"download" "98D82A80E10F967CB805A416A26AF7C2"
+			}
+			"release-18"
+			{
+				"gid" "7C03EF082AD56CDFC2EEA4990C2ED86C"
+				"size" "F3925FD87AF3207A7B1EB1E95B377211"
+				"download" "F32860D3CC77CC358214F401595389FA"
+			}
+			"stable"
+			{
+				"gid" "FE188A1556F371DA219850E575E30570"
+				"size" "517D9DBA0349EC6B73BCCA1BFFA67C4B"
+				"download" "7170759521B5CD838090B3E890612D65"
+			}
+			"techengine"
+			{
+				"gid" "45FC9FF5855BD183D9423F9F65597098"
+				"size" "A16C502CA6F0502A4F66781217F3106E"
+				"download" "02E6006B72F1087EC523B55E4F7DCC43"
+			}
+		}
+	}
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,turkish,brazilian,ukrainian"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "7473820"
+			"timeupdated" "1633345337"
+		}
+		"external1"
+		{
+			"buildid" "13814078"
+			"pwdrequired" "1"
+			"timeupdated" "1711047575"
+		}
+		"autobuildsystem"
+		{
+			"buildid" "15276035"
+			"pwdrequired" "1"
+			"timeupdated" "1722943533"
+		}
+		"benchmark-demo"
+		{
+			"buildid" "15853091"
+			"pwdrequired" "1"
+			"timeupdated" "1727454266"
+		}
+		"deep-desert"
+		{
+			"buildid" "15850264"
+			"pwdrequired" "1"
+			"timeupdated" "1727439163"
+		}
+		"dev1"
+		{
+			"buildid" "15813227"
+			"pwdrequired" "1"
+			"timeupdated" "1727206943"
+		}
+		"dev2"
+		{
+			"buildid" "15812801"
+			"pwdrequired" "1"
+			"timeupdated" "1727204504"
+		}
+		"dev3"
+		{
+			"buildid" "15725804"
+			"pwdrequired" "1"
+			"timeupdated" "1726559726"
+		}
+		"dev4"
+		{
+			"buildid" "15763826"
+			"pwdrequired" "1"
+			"timeupdated" "1726790201"
+		}
+		"dev5"
+		{
+			"buildid" "15841317"
+			"pwdrequired" "1"
+			"timeupdated" "1727378737"
+		}
+		"devcinematics"
+		{
+			"buildid" "15579368"
+			"pwdrequired" "1"
+			"timeupdated" "1725376106"
+		}
+		"devigw"
+		{
+			"buildid" "15843722"
+			"pwdrequired" "1"
+			"timeupdated" "1727394198"
+		}
+		"devrendering2"
+		{
+			"buildid" "15291563"
+			"pwdrequired" "1"
+			"timeupdated" "1723040814"
+		}
+		"external-testing1"
+		{
+			"buildid" "14642729"
+			"pwdrequired" "1"
+			"timeupdated" "1717911520"
+		}
+		"external-testing2"
+		{
+			"buildid" "15061088"
+			"pwdrequired" "1"
+			"timeupdated" "1721213702"
+		}
+		"external2"
+		{
+			"buildid" "14264970"
+			"pwdrequired" "1"
+			"timeupdated" "1714824022"
+		}
+		"legendarybeta"
+		{
+			"buildid" "14629085"
+			"pwdrequired" "1"
+			"timeupdated" "1717694553"
+		}
+		"localization"
+		{
+			"buildid" "15803886"
+			"pwdrequired" "1"
+			"timeupdated" "1727165569"
+		}
+		"marketing"
+		{
+			"buildid" "15713343"
+			"pwdrequired" "1"
+			"timeupdated" "1726484212"
+		}
+		"perf-strike-team"
+		{
+			"buildid" "15844971"
+			"pwdrequired" "1"
+			"timeupdated" "1727404134"
+		}
+		"qa-lasttestable"
+		{
+			"buildid" "15713343"
+			"pwdrequired" "1"
+			"timeupdated" "1726480169"
+		}
+		"release-18"
+		{
+			"buildid" "15845824"
+			"pwdrequired" "1"
+			"timeupdated" "1727412166"
+		}
+		"stable"
+		{
+			"buildid" "15848807"
+			"pwdrequired" "1"
+			"timeupdated" "1727431648"
+		}
+		"techengine"
+		{
+			"buildid" "15799141"
+			"pwdrequired" "1"
+			"timeupdated" "1727119761"
+		}
+	}
+}
