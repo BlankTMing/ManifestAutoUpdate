@@ -1,0 +1,194 @@
+"appid" "765490"
+"common"
+{
+	"name" "Spectrum Break"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"icon" "1f2d61fe9844b6982e4f9e81ad437f8146114980"
+	"clienttga" "3df72ba10a1f635a1162a9ddf55db57851f85251"
+	"clienticon" "a4e7426ea33772b7b58c2bdfc73eff31c9ccb9b6"
+	"clienticns" "8e344818039f6463156b90287fb732aae272b57a"
+	"logo" "7d73cae10db29ef059fa7707566b954113b9691b"
+	"logo_small" "7d73cae10db29ef059fa7707566b954113b9691b_thumb"
+	"metacritic_name" "Spectrum Break"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1518912723"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Jason Hein"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Jason Hein"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"original_release_date" "1522306800"
+	"steam_release_date" "1522342529"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "765490"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "21"
+	}
+	"review_score" "7"
+	"review_percentage" "95"
+}
+"extended"
+{
+	"developer" "Jason Hein"
+	"publisher" "Jason Hein"
+	"homepage" "https://spectrumbreak.com/"
+	"listofdlc" "838600"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Spectrum Break"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "SpectrumBreak.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "SpectrumBreak.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"765491"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "299456009197452067"
+				"size" "196351035"
+				"download" "92402144"
+			}
+		}
+	}
+	"765492"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5996883284367614957"
+				"size" "207229918"
+				"download" "95461136"
+			}
+		}
+	}
+	"838600"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1322207232395246232"
+				"size" "25322714"
+				"download" "24884624"
+			}
+		}
+		"dlcappid" "838600"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2749732"
+			"timeupdated" "1525590534"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "3000"
+	"maxnumfiles" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "JasonHein/SpectrumBreak"
+			"pattern" "GameData.json"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "JasonHein/SpectrumBreak"
+					"replace" "com.JasonHein.SpectrumBreak"
+				}
+			}
+		}
+	}
+}
