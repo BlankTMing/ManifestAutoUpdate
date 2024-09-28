@@ -1,0 +1,251 @@
+"appid" "2768020"
+"common"
+{
+	"name" "Baggage Inspector"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"polish" "1"
+	}
+	"icon" "9d127bdcca9310434455330eb2d989212ebad3ac"
+	"clienttga" "408239a89b8eb4f211a6c989b0086cc805c5f50c"
+	"clienticon" "329932f6c510ee87dec09633519c5d897c6221b2"
+	"releasestate" "released"
+	"openxrsupport" "1"
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "50.11641443538999"
+			"height_pct" "49.620042745191164"
+		}
+	}
+	"store_asset_mtime" "1718629806"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Quake Business"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Quake Business"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Untold Tales"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Untold Tales"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_52" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1718628857"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2768020"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "599"
+		"2" "21978"
+		"3" "4182"
+		"4" "3839"
+		"5" "1664"
+		"6" "4295"
+		"7" "10235"
+		"8" "19995"
+		"9" "1680"
+		"10" "8369"
+		"11" "3942"
+		"12" "9592"
+		"13" "6276"
+		"14" "3968"
+		"15" "21"
+	}
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Quake Business"
+	"publisher" "Quake Business"
+}
+"config"
+{
+	"installdir" "Baggage Inspector"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Baggage Inspector.exe"
+			"arguments" "--mode km"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Start without VR"
+			}
+			"description" "Start without VR"
+		}
+		"1"
+		{
+			"executable" "Baggage Inspector.exe"
+			"arguments" "--mode vr"
+			"type" "openxr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Baggage Inspector"
+			}
+			"description" "Baggage Inspector"
+		}
+	}
+}
+"depots"
+{
+	"2768021"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7447252068727228646"
+				"size" "6065549153"
+				"download" "1718412608"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev_branch"
+			{
+				"gid" "FA837B43AA06A1764BEA9E279E02778A"
+				"size" "D8C4DA51431A22CC37B77789C70D46BC"
+				"download" "5130DBFF976D9373ECF2CB3973ED98BB"
+			}
+		}
+	}
+	"baselanguages" "english,german,french,italian,spanish,polish"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15343219"
+			"timeupdated" "1723548802"
+		}
+		"dev_branch"
+		{
+			"buildid" "14818223"
+			"pwdrequired" "1"
+			"timeupdated" "1719235087"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "50000"
+	"maxnumfiles" "50"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "QuakeGames/Celnik/saves"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
