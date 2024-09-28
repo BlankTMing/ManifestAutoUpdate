@@ -1,0 +1,238 @@
+"appid" "549040"
+"common"
+{
+	"name" "Biotope"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"logo" "ebd81a1b84b58a7148c46d519deaed6b378ba87b"
+	"logo_small" "ebd81a1b84b58a7148c46d519deaed6b378ba87b_thumb"
+	"icon" "3d99296a5744e352a385fdf14c2aa4f1ab9cae70"
+	"clienttga" "ef96f9b8ad69026aee6b09052e501e32b52bb14e"
+	"clienticns" "33821a655f9cdaf4575086361ff0bcde129bc876"
+	"clienticon" "3fd4dd188d1c50b6c03067107456467a04e35321"
+	"osextended" "macos64"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1678752000"
+		"tested_build_id" "9994140"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Biotope"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+	}
+	"store_asset_mtime" "1601396329"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "MBL Development"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "MBL Development"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "28"
+		"2" "2"
+		"3" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1563893954"
+	"community_hub_visible" "1"
+	"gameid" "549040"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "10235"
+		"2" "9204"
+		"3" "597"
+		"4" "4175"
+		"5" "3810"
+		"6" "493"
+		"7" "4182"
+		"8" "1036"
+		"9" "4191"
+		"10" "4166"
+		"11" "12472"
+		"12" "1654"
+		"13" "5794"
+		"14" "9157"
+		"15" "6426"
+		"16" "1695"
+		"17" "1643"
+		"18" "12057"
+		"19" "4026"
+	}
+	"review_score" "5"
+	"review_percentage" "43"
+}
+"extended"
+{
+	"developer" "MBL Development"
+	"publisher" "MBL Development"
+}
+"config"
+{
+	"installdir" "Biotope"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "bin/client.app/Contents/MacOS/client"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"1"
+		{
+			"executable" "bin/client.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "bin/client-32.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"549041"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1104806577663048392"
+				"size" "922327010"
+				"download" "462016992"
+			}
+			"beta"
+			{
+				"gid" "4552248885177447941"
+				"size" "922341938"
+				"download" "462024672"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"devel"
+			{
+				"gid" "65B8208AAA4EA1E553FD8D01380EDCAB"
+				"size" "51A95844FDE5043D22F3ECAC34D35D4C"
+				"download" "F836CFCBED5E4B97609B63F59EF46DBD"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9994140"
+			"timeupdated" "1669142831"
+		}
+		"beta"
+		{
+			"buildid" "10110161"
+			"description" "Public Beta 2022.1 (7700)"
+			"timeupdated" "1670546336"
+		}
+		"devel"
+		{
+			"buildid" "13483941"
+			"pwdrequired" "1"
+			"timeupdated" "1708154463"
+		}
+	}
+}
