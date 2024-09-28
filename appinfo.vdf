@@ -1,0 +1,188 @@
+"appid" "702080"
+"common"
+{
+	"name" "MyFactory"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" ""
+	"clienttga" "e2d43874fb3136ac08d200c046424bfa6767de92"
+	"logo" "e98621ef9124c92bfc1d5cd9f646af2ae50c81cd"
+	"logo_small" "e98621ef9124c92bfc1d5cd9f646af2ae50c81cd_thumb"
+	"icon" "d9bfed3bd783d6d68b0edb1366c083c2a69ebfcf"
+	"clienticon" "bfb40be6ea485201bd2fbe23181c66b241d98765"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+	}
+	"metacritic_name" "My Factory 我的工厂"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1513826214"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Great God"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Great God"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+		"2" "2"
+		"3" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1506052710"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "702080"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "9"
+		"2" "492"
+		"3" "493"
+	}
+	"review_score" "5"
+	"review_percentage" "52"
+}
+"extended"
+{
+	"developer" "Great God"
+	"publisher" "Great God"
+	"homepage" "http://07game.com/index.php/Home/Product/IdealsCity.html"
+}
+"config"
+{
+	"installdir" "MyFactory"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "mf.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"ownsdlc" "790620"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "schinese"
+	"hasdepotsindlc" "0"
+	"702081"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6905804454492509701"
+				"size" "690275315"
+				"download" "211779056"
+			}
+		}
+	}
+	"798130"
+	{
+		"dlcappid" "798130"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "2615283"
+			"timeupdated" "1521455630"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "51200000"
+	"maxnumfiles" "50"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "DSCOM/ProjectSIM/SaveData"
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "DSCOM/ProjectSIM/SaveData"
+					"replace" "unity.DSCOM.ProjectSIM.SaveData"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "DSCOM/ProjectSIM/SaveData"
+					"replace" ".config/unity3d/DSCOM/ProjectSIM/SaveData"
+				}
+			}
+		}
+	}
+}
