@@ -1,0 +1,213 @@
+"appid" "601550"
+"common"
+{
+	"name" "Don\'t Look Back"
+	"type" "Game"
+	"playareavr"
+	{
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"controllervr"
+	{
+		"steamvr" "1"
+	}
+	"oslist" "windows"
+	"osarch" "64"
+	"clienttga" "b2962302b7c6497a1cd5b906d34ba30a7e7ed976"
+	"clienticon" "62abec7406ba803e1fc1d89b64fc09b961bf54fa"
+	"icon" "87b3edd6bad818545abae6a38165893d8b13fe86"
+	"logo" "fb75cb5c6fb7cd0fce7061f8ac065c3d80dec494"
+	"logo_small" "fb75cb5c6fb7cd0fce7061f8ac065c3d80dec494_thumb"
+	"openvrsupport" "1"
+	"releasestate" "released"
+	"metacritic_name" "Don\'t Look Back"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1488496352"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "catbull"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Omicron Games"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "catbull"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"original_release_date" "1487836800"
+	"steam_release_date" "1488503311"
+	"community_hub_visible" "1"
+	"gameid" "601550"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "21978"
+	}
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "catbull"
+	"publisher" "catbull"
+}
+"config"
+{
+	"installdir" "Don\'t Look Back"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "NeverLookBack.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "NeverLookBack.exe"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,schinese"
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"601551"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "352784883234843140"
+				"size" "2329939501"
+				"download" "2244885648"
+			}
+			"what"
+			{
+				"gid" "3892185074540917220"
+				"size" "2321780171"
+				"download" "2234118352"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1662428"
+			"timeupdated" "1488330374"
+		}
+		"what"
+		{
+			"buildid" "1653316"
+			"timeupdated" "1488330359"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10240000"
+	"maxnumfiles" "10"
+	"appidredirect" "601550"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "Binaries/Win64/"
+			"pattern" "PreSave"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" ""
+		}
+	}
+}
