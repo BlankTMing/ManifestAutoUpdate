@@ -1,0 +1,230 @@
+"appid" "1096240"
+"common"
+{
+	"name" "7 Lives"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" ""
+	"logo" "e4ad19c99c8489bbecd46b3b86e214eef62477ee"
+	"logo_small" "e4ad19c99c8489bbecd46b3b86e214eef62477ee_thumb"
+	"icon" "aab47ac6dd0f15eb2e4a3e8aaa78e9358ca5b30d"
+	"clienttga" "07f827e4ba1fef0bc1625636cf7623cf13c89b90"
+	"clienticon" "27c15220ac0ce1d785592e17f0f90fa3314b7588"
+	"clienticns" "c7a535842d0778c0bae26704c749d67ba33440f9"
+	"linuxclienticon" "4c8b0450a0b58a2380d3ae8a84d3c72314617724"
+	"releasestate" "released"
+	"metacritic_name" "7 Lives"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "31.731909845788834"
+			"height_pct" "56.940177119103566"
+		}
+	}
+	"store_asset_mtime" "1561486240"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "jota-gil"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Tbardo Games"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_23" "1"
+		"category_22" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1561038950"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1096240"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "597"
+		"2" "3799"
+		"3" "5984"
+		"4" "1742"
+		"5" "4064"
+		"6" "12095"
+	}
+	"review_score" "5"
+	"review_percentage" "68"
+}
+"extended"
+{
+	"developer" "jota-gil"
+	"publisher" "Tbardo Games"
+}
+"config"
+{
+	"installdir" "7 Lives"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "7Lives.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "7Lives.sh"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "7Lives.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+	"uselaunchcommandline" "1"
+}
+"depots"
+{
+	"1096241"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5443470109642390455"
+				"size" "159620029"
+				"download" "131981488"
+			}
+		}
+	}
+	"1096242"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8725103243513122634"
+				"size" "182758328"
+				"download" "137664896"
+			}
+		}
+	}
+	"1096243"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2549650806994618753"
+				"size" "156688259"
+				"download" "130743680"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3953817"
+			"timeupdated" "1561486821"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "game/saves"
+			"pattern" "*.*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "gameinstall"
+			"path" "game/saves"
+			"pattern" "*.*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+		"2"
+		{
+			"root" "gameinstall"
+			"path" "7Lives.app/Contents/Resources/autorun/game/saves"
+			"pattern" "*.*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+}
