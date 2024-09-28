@@ -1,15 +1,10 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-28 11:43:28
+## 更新时间：2024-09-28 11:47:06
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 2669160 | Strange world| Game |
-| 2832360 | Mirror world| Game |
-| 2839790 | light path| Game |
-| 2782460 | Tale of the Seas| Game |
-| 2782430 | Crazy module| Game |
-| 2732620 | Eternal gem| Game |
-| 2752380 | 影猫| Game |
-| 2798410 | uninhabited island| Game |
-| 2656360 | Small World| Game |
-| 2783980 | Ghost legend| Game |
+| 2784230 | mischievous| Game |
+| 2784240 | road of death| Game |
+| 2784850 | Is it different or not?| Game |
+| 2707580 | Safe House| Game |
+| 2290280 | 3D Whac-A-Mole| Game |
