@@ -1,0 +1,235 @@
+"appid" "1183140"
+"common"
+{
+	"name" "Planet Lander"
+	"type" "Game"
+	"clienticon" "c0d1336772702d089b8c68649ef586bfb92299cc"
+	"clienttga" "0630a1c276a29461c043ea629e7f5a78fbea1865"
+	"logo" "1b3efdd03ff83f66c2e2004ea17c245b677ea7db"
+	"logo_small" "1b3efdd03ff83f66c2e2004ea17c245b677ea7db_thumb"
+	"icon" "3a770288f3bc5f40325ca20f3434adb7d2f43023"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"osextended" ""
+	"metacritic_name" "Planet Lander"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1667068903"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "NanningsGames"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "NanningsGames"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Nannings"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+		"3" "9"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_25" "1"
+		"category_28" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1573202698"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1183140"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "597"
+		"3" "699"
+		"4" "1773"
+		"5" "1693"
+		"6" "1755"
+		"7" "1756"
+		"8" "3916"
+		"9" "3942"
+		"10" "3968"
+		"11" "4004"
+		"12" "4182"
+		"13" "4791"
+		"14" "7481"
+		"15" "15045"
+		"16" "7948"
+	}
+	"review_score" "6"
+	"review_percentage" "70"
+}
+"extended"
+{
+	"developer" "NanningsGames"
+	"publisher" "NanningsGames"
+	"homepage" "http://www.nannings.nz"
+	"listofdlc" "1185260"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Planet Lander"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Planet Lander.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Planet Lander.x86_64"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1183141"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7847588421944839553"
+				"size" "703599472"
+				"download" "206644272"
+			}
+		}
+	}
+	"1183142"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1490655299433785717"
+				"size" "719885704"
+				"download" "210350208"
+			}
+		}
+	}
+	"1185260"
+	{
+		"config"
+		{
+			"language" ""
+			"optionaldlc" "1185260"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8644618248570155231"
+				"size" "472034234"
+				"download" "428471232"
+			}
+		}
+		"dlcappid" "1185260"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9920957"
+			"timeupdated" "1668203871"
+		}
+	}
+	"appmanagesdlc" "1"
+}
+"ufs"
+{
+	"quota" "10000"
+	"maxnumfiles" "2"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "NanningsGames/Planet Lander"
+			"pattern" "savedata"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "NanningsGames/Planet Lander"
+					"replace" ".config/unity3d/NanningsGames/Planet Lander"
+				}
+			}
+		}
+	}
+}
