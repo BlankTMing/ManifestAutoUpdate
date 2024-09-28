@@ -1,0 +1,109 @@
+"appid" "950900"
+"common"
+{
+	"name" "Operation: Harsh Doorstop - Dedicated Server"
+	"type" "Tool"
+	"parent" "736590"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"osextended" ""
+	"clienticon" "304c2a17ff96e09a88c56d20359e77af0d3c9336"
+	"clienttga" "7ccd4e3efa6360fdfd4d87b28a83ce36e8da0ec7"
+	"icon" "c6bab4b59297f21d7c58195d2de0054662ec47d4"
+	"logo" "de07dc35292c5e4ecc0d15f43dd0ad3ce7266891"
+	"logo_small" "de07dc35292c5e4ecc0d15f43dd0ad3ce7266891_thumb"
+	"associations"
+	{
+	}
+	"primary_genre" "0"
+	"category"
+	{
+	}
+	"steam_release_date" "1676495052"
+	"gameid" "950900"
+	"exfgls" "9"
+}
+"config"
+{
+	"installdir" "Harsh Doorstop Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "HarshDoorstopServer.bat"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"950901"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4138809634208355764"
+				"size" "2293396789"
+				"download" "785761808"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "DF96F132849BEDAC91F2419869BB6B19"
+				"size" "0EC003DE268C78F9D4857FAE5AFFEDB6"
+				"download" "441B02FD29D4564270CCB47E6DC7A876"
+			}
+		}
+	}
+	"950902"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4930735536869631980"
+				"size" "2343565502"
+				"download" "793859888"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"staging"
+			{
+				"gid" "9B0F2C9D9E7174AD1FBDA9BEFC183B26"
+				"size" "EA9622BE882B710CD07DBB7B6193005C"
+				"download" "6EFECB7A16D1A87E1919D334CF4BA207"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13621008"
+			"timeupdated" "1709571471"
+		}
+		"staging"
+		{
+			"buildid" "13621008"
+			"pwdrequired" "1"
+			"timeupdated" "1709369018"
+		}
+	}
+}
