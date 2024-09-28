@@ -1,32 +1,28 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-28 08:31:08
+## 更新时间：2024-09-28 08:35:39
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 804730 | Third Front: WWII| Game |
-| 2100200 | Idle Zombies Clicker| Game |
-| 919160 | Submerged: VR Escape the Room| Game |
-| 893060 | WAyE| Game |
-| 1202090 | Pieces of Me: Northbound| Game |
-| 321830 | Cavern Kings| Game |
-| 1981050 | Defiled Survivors| Game |
-| 647500 | Near Death Experience| Game |
-| 2106170 | Super Weapon Master| Game |
-| 465540 | Adventure World| Game |
-| 1675940 | 江湖行| Game |
-| 568330 | (VR)西汉帝陵 The Han Dynasty Imperial Mausoleums| Game |
-| 1047860 | Dunrog| Game |
-| 1633460 | 罪印| Game |
-| 512170 | 507研究所| Game |
-| 1670010 | 逆生之都| Game |
-| 1295240 | Immortal Legacy: The Jade Cipher - Digital Artbook| DLC |
-| 1625020 | Sweet Candy| Game |
-| 1553690 | How does it work!?| Game |
-| 211280 | Primal Fears| Game |
-| 57700 | Who's That Flying?!| game |
-| 1489470 | 看见飘扬的斗篷了吗| Game |
-| 1074370 | Spherecraft| Game |
-| 466350 | Fossil Echo| Game |
-| 1988010 | Lightout 2| Game |
-| 711710 | RedEyes 赤瞳之勋| Game |
-| 2563540 | 英雄远征| Game |
+| 880620 | 荒漠求生| Game |
+| 1265650 | 山鬼| Game |
+| 622700 | War Heroes: Invasion| Game |
+| 406730 | 1,000 Heads Among the Trees| Game |
+| 1023390 | People| Game |
+| 1567270 | Castle survival| Game |
+| 436280 | Sudoku Quest| Game |
+| 687650 | 辣条杂货店:令人感动的穿越时光回到童年，中国小贩逆袭人生故事剧情，经典策略模拟经营休闲养成竞技娱乐独立游戏| Game |
+| 998150 | 荒野大蛮神WildSuperman| Game |
+| 1336720 | Mr.King Luo!Don't be kidding chapter 2| DLC |
+| 1951970 | 阿贝多家族庄园：寻找隐藏的物体| Game |
+| 995470 | Threshold| Game |
+| 1043470 | 弹幕那个恶人| Game |
+| 1227250 | 小镇放置修仙| Game |
+| 1096240 | 7 Lives| Game |
+| 1274310 | 东方鬼神玉| Game |
+| 612510 | The Far Frontier| Game |
+| 351450 | Scribble Space| Game |
+| 965180 | 骑士的魔法战争| Game |
+| 2406610 | 我们仨| Game |
+| 2412640 | Another day| Game |
+| 484350 | VRZ Torment| Game |
+| 956060 | Mittelborg| Game |
