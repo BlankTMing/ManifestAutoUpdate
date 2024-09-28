@@ -1,0 +1,374 @@
+"appid" "259830"
+"common"
+{
+	"name" "Wooden Sen\'SeY"
+	"type" "Game"
+	"releasestate" "released"
+	"logo" "f5adf50ab6a3634ef95f408ce261f5acad4eea90"
+	"logo_small" "f5adf50ab6a3634ef95f408ce261f5acad4eea90_thumb"
+	"icon" "198d13abb5888beddd6034772ea5830c21381d0c"
+	"clienttga" "8edd4bad443d3057f404b2d2de2c684c122020d3"
+	"clienticon" "d5355a6811922ac97f40345bff5ed746345527ac"
+	"oslist" "windows,macos,linux"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+		"polish" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1680739200"
+		"tested_build_id" "231006"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_CrossPlatformCloudSavesNotSupported"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-experimental"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "UntitledApp"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1384856025"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Upper Byte"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Spawn Digital"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1386283740"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "259830"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "1625"
+	}
+	"review_score" "5"
+	"review_percentage" "53"
+}
+"extended"
+{
+	"developer" "Upper Byte"
+	"publisher" "Spawn Digital"
+	"homepage" "http://www.upperbyte.com/en/wooden_sensey"
+	"listofdlc" "273700"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "WoodenSenSeY"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "WoodenSenSeY.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "WoodenSenSeY.app"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "launch32.sh"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "launch64.sh"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"markdlcdepots" "1"
+	"baselanguages" "english,german,french,italian,spanish,portuguese,polish,brazilian"
+	"228984"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"259831"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4280270854523551987"
+				"size" "510580973"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "4010635660229779821"
+				"size" "507666893"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "C76423832BD198ED8F0A5933DC12BA26"
+				"size" "7DD69C93A16536E449F2A8EB0D696A44"
+				"download" "E0D22C07A02E5FC07813778A0FD94CE2"
+			}
+		}
+	}
+	"259832"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "636376157555200141"
+				"size" "519376791"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "63D2D54CB2A0ECA36800B2D2DA7F9598"
+				"size" "D26E4567AAC93D4DE64D0E38011A8DD1"
+				"download" "4DDC8EB7B46BBEC04BD6233B1C35A2A9"
+			}
+		}
+	}
+	"259833"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4576804199673850126"
+				"size" "549764189"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "DFA1435C06AFCFBC00C96B3CC96681AE"
+				"size" "A7F202CE7B4665A4FCF9862DDD630BD0"
+				"download" "F1DCD4173C5D20F59C3F6032B596987F"
+			}
+		}
+	}
+	"273700"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8042945438109807751"
+				"size" "41565587"
+				"download" "0"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "1D0138C24A8A9E9F176A8B09E6C7E672"
+				"size" "D2875BAA508174E869CFCCBE48F00848"
+				"download" "5CC7A3B8A528142A8E3B38B3CCD43675"
+			}
+		}
+		"dlcappid" "273700"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "231006"
+		}
+		"beta"
+		{
+			"buildid" "673063"
+			"pwdrequired" "1"
+		}
+		"local"
+		{
+			"buildid" "144545"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "5000000"
+	"maxnumfiles" "10"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Upper Byte\\Wooden Sen\'Sey"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "MacAppSupport"
+			"path" "Upper Byte/Wooden Sen_Sey"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+	}
+}
