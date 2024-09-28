@@ -1,0 +1,79 @@
+"appid" "638500"
+"common"
+{
+	"name" "Soldat Dedicated Server"
+	"type" "Tool"
+	"parent" "638490"
+	"releasestate" "released"
+	"logo" "d306167067701260c36f017febcce9350b9013ca"
+	"logo_small" "d306167067701260c36f017febcce9350b9013ca_thumb"
+	"clienttga" "f241f532f7eb86f9623fe051a8df80726b036393"
+	"icon" "cd1157ecfc3c8e281918afda5e582ce1bb656429"
+	"clienticon" "a203cffa87b131a0f01bff782176290a7d359084"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"osextended" ""
+	"associations"
+	{
+	}
+	"primary_genre" "0"
+	"category"
+	{
+	}
+	"steam_release_date" "1586957523"
+	"gameid" "638500"
+	"exfgls" "9"
+}
+"extended"
+{
+	"gamedir" "Soldat"
+}
+"config"
+{
+	"installdir" "Soldat Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "soldatserver.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "soldatserver"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"638501"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2394792481016801454"
+				"size" "56582868"
+				"download" "15996752"
+			}
+		}
+	}
+	"workshopdepot" "638500"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "5004116"
+			"timeupdated" "1589099901"
+		}
+	}
+}
