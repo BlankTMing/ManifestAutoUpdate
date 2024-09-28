@@ -1,20 +1,24 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-28 11:18:00
+## 更新时间：2024-09-28 11:22:52
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1345200 | Pokie The Stickfigure| Game |
-| 2509130 | 公主棋局| Game |
-| 933050 | Lost Cosmonauts ARG| Game |
-| 1232670 | Mercenaries VR| Game |
-| 3030010 | 召唤师崛起   summoner rises| Game |
-| 2815110 | Ascent of the Dragon| Game |
-| 1116670 | Simple Railroad| Game |
-| 1700450 | Watashi no Kokoro!  君の事が好きです。| Game |
-| 2133070 | VR Basketball Sweetie| Game |
-| 937740 | Anime Babes: Solitaire| Game |
-| 2473950 | Hidden Series 1| Game |
-| 1019060 | 5.84 Wing| Game |
-| 1831290 | 与我签订契约，成为救世勇者吧！| Game |
-| 1519850 | STOP AND MOVE| Game |
-| 2558480 | 碧海潮生怀旧版| Game |
+| 655630 | Paddle Battle| Game |
+| 440470 | Absence| Game |
+| 991750 | Super Grower| Game |
+| 780260 | Stranded Alone| Game |
+| 1721930 | 深渊| Game |
+| 2784360 | 机械之围 Mechanical Besiege| Game |
+| 854540 | Paper Shakespeare: Loves Labor(s) Lost| Game |
+| 859820 | TripTrip| Game |
+| 3032880 | 小石冒险 - 多人BUG模式| DLC |
+| 3009580 | 弹幕禁止·红 BarrageForbidden-Scarlet！| DLC |
+| 2906930 | 小石冒险 Koishi Adventure⁓| Game |
+| 2061540 | Chompies!| Game |
+| 1008060 | The HARDEST BrickBreaker| Game |
+| 2116840 | 最后四人-The last four| Game |
+| 442190 | Mind Dead| Game |
+| 615080 | Runaway Train| Game |
+| 1183140 | Planet Lander| Game |
+| 2910900 | Last Heroes| Game |
+| 2498340 | Drop Pane : Not Only Match-3| Game |
