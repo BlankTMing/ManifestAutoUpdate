@@ -1,10 +1,9 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-28 16:52:03
+## 更新时间：2024-09-28 17:01:00
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1623720 | BrainTeaser| Game |
-| 664040 | Staff Wars: Wizard Rumble| Game |
-| 1631430 | Smirkers| Game |
-| 1718340 | 极简地牢 Simple Killer| Game |
-| 1428030 | Prince Of Wallachia| Game |
+| 1755990 | Try to Catch Up| Game |
+| 1844110 | The Legend of the War Axe| Game |
+| 1928390 | Sheep's Territory| Game |
+| 1522980 | Cavebound| Game |
