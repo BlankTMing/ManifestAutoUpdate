@@ -1,0 +1,369 @@
+"appid" "473970"
+"common"
+{
+	"name" "Zombie City Defense 2"
+	"type" "Game"
+	"controllervr"
+	{
+		"xinput" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+	}
+	"oslist" "windows,macos,linux"
+	"logo" "527be4ac9f9eda20dd40b07c3285b9dee3b1aadc"
+	"logo_small" "527be4ac9f9eda20dd40b07c3285b9dee3b1aadc_thumb"
+	"icon" "948e3ce9142721ee2a1ff04fe5916db03cb41d17"
+	"clienttga" "cf88db214fe954c4c4e1bbc95f4eede78e2341c9"
+	"clienticon" "fb95cfbac2d75df8f0777283d67aaa9478e15740"
+	"releasestate" "released"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1687478400"
+		"tested_build_id" "1354357"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-3"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Zombie City Defense 2"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1470588984"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Mozg Labs"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Mozg Labs"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "28"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_15" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1471625972"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "473970"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "599"
+		"2" "19"
+		"3" "492"
+		"4" "1659"
+		"5" "1645"
+		"6" "1708"
+		"7" "4168"
+		"8" "1678"
+		"9" "29363"
+		"10" "4175"
+	}
+	"review_score" "6"
+	"review_percentage" "71"
+}
+"extended"
+{
+	"developer" "Mozg Labs"
+	"publisher" "Mozg Labs"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Zombie City Defense 2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "ZCD2.exe"
+			"arguments" " -vrmode none"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "ZCD2.app\\Contents\\MacOS\\ZCD2"
+			"arguments" "-vrmode none"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "ZCD2.exe"
+			"arguments" " -vrmode oculus"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"3"
+		{
+			"executable" "ZCD2.x86"
+			"arguments" "-vrmode none LC_ALL=C %command%"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"4"
+		{
+			"executable" "ZCD2.x86_64"
+			"arguments" "-vrmode none LC_ALL=C %command%_64"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,koreana,spanish,russian"
+	"473971"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6958140988804126933"
+				"size" "1306057044"
+				"download" "289659728"
+			}
+			"beta"
+			{
+				"gid" "6971661569556037873"
+				"size" "1272531044"
+				"download" "290288960"
+			}
+		}
+	}
+	"473972"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "32"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7956860893969520894"
+				"size" "1306131644"
+				"download" "288420736"
+			}
+			"beta"
+			{
+				"gid" "8030183652535402781"
+				"size" "1267523220"
+				"download" "288882112"
+			}
+		}
+	}
+	"473973"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "883185376013582046"
+				"size" "1338343263"
+				"download" "299870240"
+			}
+			"beta"
+			{
+				"gid" "3683349746839411249"
+				"size" "1328874224"
+				"download" "300407216"
+			}
+		}
+	}
+	"473974"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2225640622224828128"
+				"size" "1330106165"
+				"download" "299455632"
+			}
+			"beta"
+			{
+				"gid" "4955488676818797684"
+				"size" "1299971300"
+				"download" "300052688"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1354357"
+			"timeupdated" "1474765828"
+		}
+		"beta"
+		{
+			"buildid" "1491497"
+			"description" "Newest unstable build"
+			"timeupdated" "1480630328"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10485760"
+	"maxnumfiles" "100"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Mozg Labs/ZOMBIE CITY DEFENSE 2"
+			"pattern" "*.txt"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Mozg Labs/ZOMBIE CITY DEFENSE 2"
+					"replace" "unity.Mozg Labs.ZOMBIE CITY DEFENSE 2"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Mozg Labs/ZOMBIE CITY DEFENSE 2"
+					"replace" ".config/unity3d/Mozg Labs/ZOMBIE CITY DEFENSE 2"
+				}
+			}
+		}
+	}
+}
