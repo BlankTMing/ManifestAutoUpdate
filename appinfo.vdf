@@ -1,0 +1,231 @@
+"appid" "991750"
+"common"
+{
+	"name" "Super Grower"
+	"type" "Game"
+	"logo" "c7c6a6c1c7529e091f0d1efc8b1a388737a47e6c"
+	"logo_small" "c7c6a6c1c7529e091f0d1efc8b1a388737a47e6c_thumb"
+	"icon" "c46a571a2f7e8536cc9abfd6ded940737357b58e"
+	"clienttga" "123b07210725390e3b644da3162d6576c90708d7"
+	"clienticon" "c90c18c0d6e669e711f2c0dc5dbdf3bf66b469a9"
+	"oslist" "windows,linux"
+	"osarch" ""
+	"releasestate" "released"
+	"metacritic_name" "Super Grower"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1667073619"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "NanningsGames"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "NanningsGames"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Nannings"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_28" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_2" "1"
+		"category_25" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1545989858"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "991750"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "597"
+		"3" "9"
+		"4" "3871"
+		"5" "1734"
+		"6" "1759"
+		"7" "4885"
+		"8" "4791"
+		"9" "11123"
+		"10" "4094"
+		"11" "4182"
+		"12" "1664"
+		"13" "4711"
+		"14" "1756"
+		"15" "7948"
+	}
+	"review_score" "6"
+	"review_percentage" "76"
+}
+"extended"
+{
+	"developer" "NanningsGames"
+	"publisher" "NanningsGames"
+	"homepage" "http://www.nannings.nz"
+	"listofdlc" "1039720"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Super Grower"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Super Grower.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Super Grower.x86_64"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"991751"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1015834607459863409"
+				"size" "71922725"
+				"download" "23484752"
+			}
+		}
+	}
+	"1039720"
+	{
+		"dlcappid" "1039720"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2027415010340420789"
+				"size" "16081766"
+				"download" "15614208"
+			}
+		}
+		"config"
+		{
+			"optionaldlc" "1039720"
+		}
+	}
+	"991752"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "953870358805070471"
+				"size" "76313973"
+				"download" "24591024"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9912876"
+			"timeupdated" "1668114966"
+		}
+	}
+	"appmanagesdlc" "1"
+}
+"ufs"
+{
+	"quota" "10000"
+	"maxnumfiles" "2"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "NanningsGames/Super Grower"
+			"pattern" "level_completed"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "NanningsGames/Super Grower"
+					"replace" ".config/unity3d/NanningsGames/Super Grower"
+				}
+			}
+		}
+	}
+}
