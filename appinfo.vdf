@@ -1,0 +1,224 @@
+"appid" "2650570"
+"common"
+{
+	"name" "Main Deity Space"
+	"type" "Game"
+	"clienticon" "88a29232ac26496b5181561c8fd2789d295a1e67"
+	"clienttga" "5fae6cbc984c523ce7909f86edc8805b9caa0162"
+	"icon" "ae3826bd304c5f31c01aae7204792cfc70bddb43"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"releasestate" "released"
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "100"
+			"height_pct" "50.38007901954175"
+		}
+	}
+	"store_asset_mtime" "1709200463"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "LV HANJIAN"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "LV HANJIAN"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_60" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1709230902"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2650570"
+	"store_tags"
+	{
+		"0" "42804"
+		"1" "3959"
+		"2" "1759"
+		"3" "454187"
+		"4" "4975"
+		"5" "19"
+		"6" "4791"
+		"7" "5125"
+		"8" "4172"
+		"9" "4236"
+		"10" "9541"
+		"11" "4057"
+		"12" "4604"
+		"13" "8122"
+		"14" "5154"
+		"15" "255534"
+		"16" "1662"
+		"17" "1702"
+		"18" "4342"
+		"19" "6276"
+	}
+}
+"extended"
+{
+	"developer" "LV HANJIAN"
+	"publisher" "LV HANJIAN"
+}
+"config"
+{
+	"installdir" "Main Deity Space"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "MainDeitySpace.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "15"
+	"steamcontrollertemplateindex" "4"
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2650571"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "632887239300822965"
+				"size" "6203610126"
+				"download" "5994674816"
+			}
+		}
+	}
+	"baselanguages" "english,schinese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13854999"
+			"timeupdated" "1711446514"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "MainDeitySpace"
+			"pattern" "*.sav"
+			"recursive" "1"
+		}
+	}
+	"sync_while_suspended" "1"
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxXdgConfigHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "MainDeitySpace"
+					"replace" "MainDeitySpace"
+				}
+			}
+		}
+	}
+}
