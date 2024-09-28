@@ -1,0 +1,182 @@
+"appid" "2465870"
+"common"
+{
+	"name" "危城逃生"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"icon" "bb92eba66f9666d799d05ae40147d8d1cbbc9ff2"
+	"clienttga" "c121d98ff1008d216ba764222fa820201e06b82d"
+	"clienticns" "4e756fd05ae1b163287daf0c4af8ded249d59b23"
+	"linuxclienticon" "73e6f40ee42803ec65d9f154d4b70227de048b6b"
+	"clienticon" "ccd4f4cbb8e22fd6db99556914ceaa6ae72c0a0f"
+	"releasestate" "released"
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "92.07579672695951"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1688350698"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "航海葱"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "航海葱"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_55" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1688574491"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2465870"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "4231"
+		"2" "4637"
+		"3" "5537"
+		"4" "3871"
+		"5" "5652"
+		"6" "3964"
+		"7" "8945"
+		"8" "1659"
+		"9" "4168"
+		"10" "3835"
+		"11" "19"
+		"12" "492"
+		"13" "3978"
+		"14" "5984"
+		"15" "4064"
+		"16" "3993"
+		"17" "4182"
+	}
+}
+"extended"
+{
+	"developer" "航海葱"
+	"publisher" "航海葱"
+}
+"config"
+{
+	"installdir" "危城逃生"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Game.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Loading"
+				"schinese" "正在启动"
+			}
+			"description" "Loading"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "schinese"
+	"2465871"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "30218870342361095"
+				"size" "264487370"
+				"download" "109412672"
+			}
+		}
+	}
+	"2465872"
+	{
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13427432"
+			"timeupdated" "1707665965"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "150000"
+	"maxnumfiles" "15"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"path" "www/save"
+			"pattern" "*.rpgsave"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "gameinstall"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "gameinstall"
+			"addpath" ""
+		}
+	}
+}
