@@ -1,25 +1,27 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-28 09:58:16
+## 更新时间：2024-09-28 10:04:15
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 496000 | BowMage| Game |
-| 708280 | Bobbi_Cities| Game |
-| 1409320 | VR Travelling towards World War III Scenario: Post Nuclear War Earth Fantasy| Game |
-| 2306480 | Dogs Day| Game |
-| 2202150 | NOT ME| Game |
-| 1716810 | Herodes| Game |
-| 1341310 | Space Pioneer| Game |
-| 1870580 | Winter With You| Game |
-| 2990570 | Color Splash: Fairies| Game |
-| 2318820 | Simple Increment| Game |
-| 2831200 | A Witch's Game| Game |
-| 1690340 | Stand Of Arms| Game |
-| 2912060 | Color Splash: Rodents| Game |
-| 1688310 | Perfect Affection Plan: Cassiopeia| Game |
-| 2953790 | WASDJK| Game |
-| 1353730 | 送外卖模拟器 Delivery Simulator| Game |
-| 2267680 | Agni Fighter| Game |
-| 2581810 | Color Splash: Birds| Game |
-| 2209810 | PIP L| Game |
-| 2863810 | 橘猫猫的幻想| Game |
+| 2606290 | Neon Fantasy: Cats| Game |
+| 1418990 | Unicorns on Unicycles| Game |
+| 2224530 | Gas Station Tycoon| Game |
+| 1302510 | 蒸汽波之路 VR| Game |
+| 2529180 | Color Splash: Cats| Game |
+| 2408600 | STSP: Super Titty Space Prison| Game |
+| 1975100 | Playback Trauma: In Sickness| Game |
+| 1721800 | 八尾| Game |
+| 676880 | Tales of Glacier (VR)| Game |
+| 2759800 | 忘川游RiverLife| Game |
+| 1776730 | Modern Game Tycoon| Game |
+| 547140 | Owari| Game |
+| 1486430 | 约会模拟器：原型| Game |
+| 3109480 | Magic wand| Game |
+| 2353820 | Poly Jigsaw: Animals| Game |
+| 1505600 | RETRIS| Game |
+| 2375560 | Poly Jigsaw: Butterflies| Game |
+| 1164330 | Smile To Fly| Game |
+| 1260340 | Naturalist Stories| Game |
+| 2876800 | Tenfold Loop| Game |
+| 1360480 | 推箱子(Push Box)| Game |
+| 1793780 | Poly Memory: Furries 2| Game |
