@@ -1,0 +1,227 @@
+"appid" "2372220"
+"common"
+{
+	"name" "Wonderway"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" "macos64,macosapplesilicon"
+	"name_localized"
+	{
+		"english" "Wonderway"
+		"schinese" "梦转星回"
+		"tchinese" "夢轉星回"
+	}
+	"clienticon" "41fdd8d3e8a4137dfae9c92e013e8b41118aed63"
+	"clienttga" "21aefbb9643b3eae4a1b113ccfc05913bf1d0c5c"
+	"linuxclienticon" "c374788ff1b79b16e9654b8888e28b7490f9eae9"
+	"icon" "8a4ccb4a7d86da813545a1af7a12c94ca7b7f920"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"japanese" "1"
+	}
+	"clienticns" "1a5d981997bbb267089b1ced6a0160d49e20e615"
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"schinese" "capsule_231x87_schinese.jpg"
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"schinese" "header_schinese.jpg"
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "zh-cn,en"
+		"library_hero" "zh-cn,en"
+		"library_logo" "en,zh-cn"
+		"library_header" "zh-cn,en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "35.32439962967936"
+			"height_pct" "61.78557087542588"
+		}
+	}
+	"store_asset_mtime" "1706452391"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "GameDreamland"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "GameDreamland"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+		}
+		"english"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1708093286"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2372220"
+	"store_tags"
+	{
+		"0" "492"
+		"1" "1664"
+		"2" "4026"
+		"3" "3964"
+		"4" "4182"
+		"5" "6129"
+		"6" "6625"
+		"7" "1730"
+		"8" "5537"
+		"9" "3871"
+		"10" "597"
+	}
+}
+"extended"
+{
+	"developer" "GameDreamland"
+	"publisher" "GameDreamland"
+	"homepage" "https://twitter.com/Wonderway_Elf"
+}
+"config"
+{
+	"installdir" "Wonderway"
+	"steamdecktouchscreen" "5"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Wonderway.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Wonderway.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,spanish,schinese,russian,japanese,brazilian"
+	"2372221"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7601707802270786473"
+				"size" "1867484633"
+				"download" "119426976"
+			}
+		}
+	}
+	"2372222"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8163706420591042849"
+				"size" "1891018729"
+				"download" "125135328"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "13564324"
+			"timeupdated" "1708952023"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "20971520"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "/GameDreamland/Wonderway"
+			"pattern" "*.ww"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "/GameDreamland/Wonderway"
+					"replace" "/GameDreamland/Wonderway"
+				}
+			}
+		}
+	}
+}
