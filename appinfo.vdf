@@ -1,0 +1,243 @@
+"appid" "350700"
+"common"
+{
+	"name" "Red Stone Online"
+	"type" "Game"
+	"clienticon" "34468450f6e7b9ec8f4f16b236fe7f881e58a0de"
+	"clienttga" "b30a3cba9590d881b1341bd6e953b401c13440fe"
+	"icon" "2672934bfadeedde64c012c7200abc432a4b20aa"
+	"oslist" "windows"
+	"logo" "d65a7e3b6023874adfc603c1941ad2f4167300e9"
+	"logo_small" "d65a7e3b6023874adfc603c1941ad2f4167300e9_thumb"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "350700_eula_0"
+			"name" "Red Stone Online EULA"
+			"url" "http://store.steampowered.com//eula/350700_eula_0"
+		}
+	}
+	"releasestate" "released"
+	"metacritic_name" "Red Stone Online"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "64.48792672772686"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "64.48792672772686"
+				"height_pct" "100"
+			}
+		}
+	}
+	"store_asset_mtime" "1663659619"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "L＆K Co., Ltd."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "L＆K Co., Ltd."
+		}
+	}
+	"primary_genre" "37"
+	"genres"
+	{
+		"0" "37"
+		"1" "29"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_20" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1429169666"
+	"community_hub_visible" "1"
+	"gameid" "350700"
+	"store_tags"
+	{
+		"0" "113"
+		"1" "122"
+		"2" "128"
+		"3" "4085"
+		"4" "1754"
+		"5" "4975"
+	}
+	"review_score" "5"
+	"review_percentage" "61"
+}
+"extended"
+{
+	"legacykeylinkedexternally" "1"
+	"gamedir" ""
+	"developer" "L＆K Co., Ltd."
+	"publisher" "L＆K Co., Ltd."
+	"homepage" "http://www.redstone-online.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Red Stone Online"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Launcher.exe"
+			"arguments" "steam"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptsignature" "7b852161d0789890f72f0e0840f7efc66b6337cba32f3ca7e21f636da21a6352112617b5767d7b9fcdbffa8702b146b33106ed6fbed80460926a45dd300c762fd99c3c15026c35d5ecebc03cd6d1590edc21ef502f143023a46aadd0b358089bead46bb6fdf59e2ea30241520858bd7ea48aea8e8446de4b262d46fba1fb397a"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"registry"
+	{
+		"hkey_current_user\\software\\l&k logic korea\\red stone for usa(steam)"
+		{
+			"string"
+			{
+				"path" "%INSTALLDIR%"
+				"title" "Red Stone"
+				"excute folder" "Red Stone"
+			}
+			"dword"
+			{
+				"steamversion" "585"
+			}
+		}
+	}
+	"run process on uninstall"
+	{
+		"process_name"
+		{
+			"process 1" "%INSTALLDIR%\\Uninstall.exe"
+			"command 1" "steam"
+		}
+	}
+}
+"depots"
+{
+	"228981"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"350701"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8360762506178982541"
+				"size" "3631554242"
+				"download" "1630895824"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"redstonetest"
+			{
+				"gid" "FCD0374D372A5181F0F16EC5CE4525ED"
+				"size" "70D008225DFD22FCF43AE6F2571F278A"
+				"download" "11A23DC2CAE249E28FCA59010EE7BB12"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3917357"
+			"timeupdated" "1560487051"
+		}
+		"redstonetest"
+		{
+			"buildid" "3917357"
+			"pwdrequired" "1"
+			"timeupdated" "1560487042"
+		}
+	}
+}
