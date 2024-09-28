@@ -1,0 +1,229 @@
+"appid" "211280"
+"common"
+{
+	"name" "Primal Fears"
+	"type" "Game"
+	"clienticon" "e14139d9998535e7ab35b824ce4900e5172c69f0"
+	"clienttga" "7f571ae3616ebc693a9e61b0ba5a9c921f907950"
+	"icon" "33e45596a47e4abe24b9950829299393d4177aa6"
+	"logo" "976d410c4f1215d4217711f0f5352f9cfd6d8089"
+	"logo_small" "976d410c4f1215d4217711f0f5352f9cfd6d8089_thumb"
+	"oslist" "windows"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1377426380"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "DnS Development"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "DnS Development"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_9" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_18" "1"
+		"category_1" "1"
+		"category_38" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1357654200"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "211280"
+	"store_tags"
+	{
+		"0" "19"
+		"1" "492"
+		"2" "4345"
+		"3" "4667"
+		"4" "1685"
+		"5" "1667"
+		"6" "4791"
+		"7" "1659"
+		"8" "1774"
+	}
+	"review_score" "5"
+	"review_percentage" "58"
+}
+"extended"
+{
+	"developer" "DnS Development"
+	"gamedir" "ValveTestApp211280"
+	"homepage" "http://www.primal-fears.com"
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateAvailable"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "DnS Development"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "primalfears"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "project4.exe"
+			"description" "Launch"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+	"installscriptsignature" "25f2f313627a8a0661c510fb40ec04625d9bba3d438202e91dae64583735f604d6beac50b8c9aa32eddc2c1ae9291eb51af03fa82e9187457a6329cef6da9787dded9faabd8c562be699c30957d320a9d63a5a33124cad631ef7b39115b75eac53fa8b31b083be1e173896f97863b64cb6febd139f1e0bf010f998c172edeb7d"
+	"installscriptoverride" "1"
+}
+"install"
+{
+	"run process"
+	{
+		"directx"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\211280"
+			"process 1" "%INSTALLDIR%\\redist\\directx\\DXSETUP.exe"
+			"command 1" "/silent"
+			"nocleanup" "1"
+		}
+		"openal"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\211280"
+			"process 1" "%INSTALLDIR%\\redist\\oalinst.exe"
+			"command 1" "/s"
+			"nocleanup" "1"
+		}
+		"vcredist"
+		{
+			"hasrunkey" "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\211280"
+			"process 1" "%INSTALLDIR%\\redist\\vcredist_x86.exe"
+			"command 1" "/q"
+			"nocleanup" "1"
+		}
+	}
+}
+"depots"
+{
+	"211281"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7904154760409166849"
+				"size" "1440789398"
+				"download" "710590352"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "CFE1CC00B8F6A400C0E0D916A442A5BB"
+				"size" "4873F75C57E9835FF5AA10D94B649BC5"
+				"download" "CB53253012A1381794AD2DE7E3D35480"
+			}
+			"betademo"
+			{
+				"gid" "57BD75A92C13E53F2D50434A15AFF237"
+				"size" "FCC23F807DCBD6FB53C978AEE8D39B23"
+				"download" "B44D5EC3628CE4AA2E89706DB7664B7F"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"preloadonly" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9448820"
+			"timeupdated" "1662288601"
+		}
+		"beta"
+		{
+			"buildid" "9448820"
+			"pwdrequired" "1"
+			"timeupdated" "1662287887"
+		}
+		"betademo"
+		{
+			"buildid" "30845"
+			"pwdrequired" "1"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "3500000"
+	"maxnumfiles" "300"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "primalfears/Save"
+			"pattern" "*.dat"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
