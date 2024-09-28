@@ -1,26 +1,27 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-09-28 09:33:34
+## 更新时间：2024-09-28 09:38:30
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 2245960 | Sex Adventures - Swingers Resort| Game |
-| 2345480 | 异星生存| Game |
-| 2863290 | Mini Micro Racing| Game |
-| 2924280 | Deep Sea Hunter| Game |
-| 2911230 | 星辰计划| Game |
-| 2221790 | 幻境咖啡馆| Game |
-| 1002420 | Agartha| Game |
-| 2065870 | 知天命| Game |
-| 1634970 | Idle Master Hunter Steam Edition| Game |
-| 1318720 | Norilsk - Art Collection| DLC |
-| 1215450 | Norilsk - Adult Patch| DLC |
-| 831540 | Norilsk| Game |
-| 2734370 | 东方崛起| Game |
-| 2210700 | 佩奇卡| Game |
-| 631920 | Somewhere on Zibylon| Game |
-| 2834890 | Christmas Stories: The Legend of Toymakers Collector's Edition| Game |
-| 1977660 | ELEGIES: Aya| Game |
-| 2083060 | Furry Femmes: Making an Obedient Bitch| Game |
-| 2658960 | The Lab and Dungeons| Game |
-| 2077770 | The Liminal Space| Game |
-| 3002340 | Sunset Solitaire| Game |
+| 2551860 | Knightess| Game |
+| 1776000 | Saturn Menace| Game |
+| 2425740 | 竹书纪年：三国志风云录| Game |
+| 1691830 | Temple with traps| Game |
+| 1663210 | PixelJunk™ Scrappers Deluxe| Game |
+| 2969220 | 幽暗破坏| Game |
+| 951160 | JUMP UP| Game |
+| 2001050 | 三国英雄坛| Game |
+| 2720680 | Sex Simulator - Bar Girls| Game |
+| 2994080 | The Cake| Game |
+| 1738540 | Dancing Cube| Game |
+| 1272360 | VRDJ| Game |
+| 2384790 | Paranormal Mission| Game |
+| 1011320 | Whiskey & Zombies| Game |
+| 2617210 | Lost Princess: Winterland| Game |
+| 976540 | Akihabara - Feel the Rhythm Remixed - Electric Symphony Soundtrack| DLC |
+| 636740 | Akihabara - Feel the Rhythm Remixed| Game |
+| 2724660 | 终境传说| Game |
+| 2548010 | Sex Simulator - CamGirl Audition| Game |
+| 1313330 | HEDE Game Engine| Game |
+| 1160050 | There is a Thief in my House| Game |
+| 2638900 | 家装计划| Game |
