@@ -11,7 +11,7 @@
 	"clienticns" "4405d4f371573f5f7d18d5a8e41912452c115606"
 	"clienticon" "a55514d45dee9f5355db7f630071f3a1c779a324"
 	"clienttga" "c6395637cfe184f46d27863e22b49159c3922be3"
-	"oslist" "windows"
+	"oslist" "windows,macos"
 	"osarch" ""
 	"osextended" ""
 	"languages"
@@ -231,11 +231,19 @@
 				"oslist" "windows"
 			}
 		}
+		"1"
+		{
+			"executable" "DriveMeCrazy_Mac"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
 	}
 }
 "depots"
 {
-	"baselanguages" "english,schinese,tchinese,japanese"
+	"baselanguages" "english,schinese,tchinese,japanese,vietnamese"
 	"hasdepotsindlc" "1"
 	"228988"
 	{
@@ -275,6 +283,12 @@
 				"size" "03A0C5A46A97416FBA6F73C72DF5597E"
 				"download" "08B5FA675224E32EBCC7A2B949AB0E13"
 			}
+			"mactest"
+			{
+				"gid" "E13AA8178699CE1043C945EDE03A06A4"
+				"size" "C0ED012902740CCDE8A40463F61DF070"
+				"download" "54ACD9EB2C991ADB0CE016F3E404691D"
+			}
 			"testing"
 			{
 				"gid" "11DB3F658567CAEDDF96B4F8405FEB33"
@@ -300,9 +314,9 @@
 		{
 			"public"
 			{
-				"gid" "5467270463782110169"
-				"size" "32260030212"
-				"download" "31879459152"
+				"gid" "3911614933443139150"
+				"size" "32265743686"
+				"download" "31883893936"
 			}
 		}
 		"encryptedmanifests"
@@ -313,11 +327,17 @@
 				"size" "7345184416F9689B79063A4A72A991E3"
 				"download" "8A47308E2DC8C3F06BA5E788E66A562E"
 			}
+			"mactest"
+			{
+				"gid" "C3063B0B86E7EE70308BBE8224AE09D9"
+				"size" "C5B0FD6139C50F00BE468FCB2BC6CFD8"
+				"download" "2D3575082AAD56B98DF4E07C23BB2769"
+			}
 			"testing"
 			{
-				"gid" "50361486D83A5F75ADFB9526F1CFA0B4"
-				"size" "D30B38390AE452280B396DB916486638"
-				"download" "79B90B563C43D25DF61DA91143C19094"
+				"gid" "B25AF300FB76A4523A207354A3EA8E60"
+				"size" "517FBC503C867C018A9262A59936CB03"
+				"download" "A40DB664511FE6A51B3722D2E692418A"
 			}
 			"wth5411724"
 			{
@@ -327,12 +347,31 @@
 			}
 		}
 	}
+	"2918552"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"mactest"
+			{
+				"gid" "58050A51414D3A444D7807399C35100D"
+				"size" "76689D988AB47C22550A1A84AC8F842F"
+				"download" "C72AE17A9F41DCA9720602A71EF3D3BD"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "15649773"
-			"timeupdated" "1725963670"
+			"buildid" "15818961"
+			"timeupdated" "1727249936"
 		}
 		"beta"
 		{
@@ -346,11 +385,17 @@
 			"pwdrequired" "1"
 			"timeupdated" "1723052885"
 		}
+		"mactest"
+		{
+			"buildid" "15851944"
+			"pwdrequired" "1"
+			"timeupdated" "1727447865"
+		}
 		"testing"
 		{
-			"buildid" "15636408"
+			"buildid" "15806398"
 			"pwdrequired" "1"
-			"timeupdated" "1725872762"
+			"timeupdated" "1727169673"
 		}
 		"wth5411724"
 		{
