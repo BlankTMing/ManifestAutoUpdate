@@ -21,12 +21,56 @@
 		"schinese" "1"
 		"japanese" "1"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1727222400"
+		"tested_build_id" "15700849"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
 	{
-		"english" "33de969dd821f5da3e2f1db87dbca59e918545cb/capsule_231x87.jpg"
-		"schinese" "0d00c355897cecb077fa2d0457114d7eb2bfed5f/capsule_231x87_schinese.jpg"
+		"english" "a020f372a55ec9e2584001b2aa78e49e67b0b590/capsule_231x87.jpg"
+		"schinese" "5d71cf2666fff244c0d30fa4e3f480d36aa41cd9/capsule_231x87_schinese.jpg"
 	}
 	"header_image"
 	{
@@ -98,7 +142,7 @@
 			}
 		}
 	}
-	"store_asset_mtime" "1726231822"
+	"store_asset_mtime" "1727322659"
 	"associations"
 	{
 		"0"
@@ -153,6 +197,7 @@
 		}
 	}
 	"steam_release_date" "1725588020"
+	"steam_deck_blog_url" "https://steamcommunity.com/app/1999520/discussions/0/4839770900416053548/"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "1999520"
@@ -236,24 +281,30 @@
 		{
 			"public"
 			{
-				"gid" "5347203489101420406"
-				"size" "791220670"
-				"download" "228156112"
+				"gid" "4174218424594426579"
+				"size" "791636654"
+				"download" "228188576"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"closedbeta"
 			{
-				"gid" "92866208183E0471BA395145E425E64A"
-				"size" "04EBAD8D57C60A2EE5062B7E5576BD1C"
-				"download" "37179D5FCC62428BE48C0AA93C66E60D"
+				"gid" "0B10F3B91BEA44C0F6647107D558D27E"
+				"size" "D0396155D6C9233500F3F2E88ED522F8"
+				"download" "7C7DC5602AD61E57163B7E4013F9AD46"
+			}
+			"expriment"
+			{
+				"gid" "9909B03D60E4F2AA231B382794EA7C9F"
+				"size" "0494AA30B3CEAD0140E2C2559BDA96AC"
+				"download" "E708B0F8F5B32815CE52507F78A55E40"
 			}
 			"qatest"
 			{
-				"gid" "733050916B8A11257295B4B3ECD4B1B3"
+				"gid" "FEFD63BA09CC77A371E2DC3E049740C4"
 				"size" "75EA3ADB9B7A724D9408471429A045EE"
-				"download" "84177500DB56BDA6964F73BDA56EE04B"
+				"download" "9BC59B31FCBFF1D604E7566CFEA32E1E"
 			}
 		}
 	}
@@ -268,24 +319,30 @@
 		{
 			"public"
 			{
-				"gid" "7751195811960137955"
-				"size" "821963051"
-				"download" "236437728"
+				"gid" "6529211053273882860"
+				"size" "824518197"
+				"download" "237006944"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"closedbeta"
 			{
-				"gid" "831A62BB3C08DED2BEB1AE2B2855487E"
-				"size" "9E0A3EBF5C40231E6C1C74EE89E312FC"
-				"download" "BB049851D6D9274C680FE172AF841B0F"
+				"gid" "FA30D450E56BF5F37C3DB8E31409B4CF"
+				"size" "9EA7013435C013782D184E15483F6C76"
+				"download" "9EDD8FE03D1073929342F36AA776B636"
+			}
+			"expriment"
+			{
+				"gid" "51C6CB1E80276B237E216842A7E686F8"
+				"size" "405CE1357C5A6AABDB6F0F603E12D6FF"
+				"download" "3A44E2E86C807F143458E81A52FEA2B2"
 			}
 			"qatest"
 			{
-				"gid" "7D6C373962808A400EC3D806A1177FB6"
-				"size" "97F0BB30552D602F611C8BC42FC02955"
-				"download" "CB983AE201FE09440296960636275ECA"
+				"gid" "B498AB4EA8B609807989DFFDBBB24C34"
+				"size" "435D93187454E2689A0795519852436F"
+				"download" "4BD50219628A00676E9FDA1990B708D5"
 			}
 		}
 	}
@@ -300,24 +357,30 @@
 		{
 			"public"
 			{
-				"gid" "3051340835777529230"
-				"size" "1113941650"
-				"download" "229097136"
+				"gid" "6050669533292888628"
+				"size" "956201653"
+				"download" "229113504"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"closedbeta"
 			{
-				"gid" "8C5A409CC65F1194105BF41DC8AEFC38"
-				"size" "44C3858750223B0B9ED4330C39239634"
-				"download" "E2FD2F4704543A3A5D94BECE3BD19A09"
+				"gid" "E98414DD7376DF841BB3C5DD6AD0A134"
+				"size" "A6276C9C8113485DA019D8F91C176060"
+				"download" "C5CE8FBE340069D82BD9D4B4FA2C3047"
+			}
+			"expriment"
+			{
+				"gid" "A0F7055D61E6A8A68487383543FF4E7F"
+				"size" "8F43FC0CF8EF55AEAA2C9061857F2B1D"
+				"download" "49DB387F3BA3A710C7B092C5E43C5075"
 			}
 			"qatest"
 			{
-				"gid" "4EBEA4184F21C3513E39D3C39978EA85"
-				"size" "A03EA2C51B8DF32C9536B797D8FB2548"
-				"download" "8335B347947FB5904EFF9AB78F3FB967"
+				"gid" "287FAA8F0185FD3375950A0BA75E5DFE"
+				"size" "2D507B847C826B80031427C7400A16E1"
+				"download" "4514125DFDB940E1273E3D5A51EFEEFE"
 			}
 		}
 	}
@@ -332,20 +395,26 @@
 	{
 		"public"
 		{
-			"buildid" "15759004"
-			"timeupdated" "1726761200"
+			"buildid" "15865918"
+			"timeupdated" "1727601565"
 		}
 		"closedbeta"
 		{
-			"buildid" "15759004"
+			"buildid" "15865918"
 			"pwdrequired" "1"
-			"timeupdated" "1726760936"
+			"timeupdated" "1727601535"
+		}
+		"expriment"
+		{
+			"buildid" "15865459"
+			"pwdrequired" "1"
+			"timeupdated" "1727596051"
 		}
 		"qatest"
 		{
-			"buildid" "15759004"
+			"buildid" "15833646"
 			"pwdrequired" "1"
-			"timeupdated" "1726761220"
+			"timeupdated" "1727338383"
 		}
 	}
 }
