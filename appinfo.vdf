@@ -1,0 +1,330 @@
+"appid" "414510"
+"common"
+{
+	"name" "5089: The Action RPG"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"logo" "ca0a3af626045cd2c20a07ff25660962b92b0579"
+	"logo_small" "ca0a3af626045cd2c20a07ff25660962b92b0579_thumb"
+	"icon" "bb863cc40ec1470faeb7982a65736cd1978e0b7c"
+	"clienticon" "63e6b10adf0d713ceae58d3e15ee179ce1066f4a"
+	"clienttga" "5b01053583d10038b46f6613ffd77efa0c311e44"
+	"releasestate" "released"
+	"controllervr"
+	{
+		"steamvr" "1"
+		"kbm" "1"
+		"oculus" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"osvrsupport" "1"
+	"openvrsupport" "1"
+	"metacritic_name" "5089: The Action RPG"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "88.24938057120332"
+			"height_pct" "68.63707293654457"
+		}
+	}
+	"store_asset_mtime" "1568814218"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Phr00t\'s Software"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Phr00t\'s Software"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_27" "1"
+		"category_9" "1"
+		"category_22" "1"
+		"category_31" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1454533200"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "414510"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "19"
+		"2" "492"
+		"3" "1695"
+		"4" "1663"
+		"5" "4231"
+		"6" "5125"
+		"7" "5752"
+		"8" "21978"
+		"9" "3839"
+		"10" "3942"
+		"11" "1685"
+		"12" "3859"
+		"13" "4295"
+		"14" "5765"
+		"15" "1643"
+		"16" "1687"
+		"17" "3810"
+		"18" "4166"
+		"19" "6971"
+	}
+	"review_score" "8"
+	"review_percentage" "83"
+}
+"extended"
+{
+	"gamedir" ""
+	"vrheadsetstreaming" "1"
+	"developer" "Phr00t\'s Software"
+	"publisher" "Phr00t\'s Software"
+	"homepage" "http://www.phr00t.com/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "5089"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "5089-novr.bat"
+			"description" "Launch 5089 Without VR"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "launchme.sh"
+			"description" "Launch Mac"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "5089.sh"
+			"description" "Launch Linux"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "5089.bat"
+			"description" "Launch SteamVR Win"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"4"
+		{
+			"executable" "5089-osvr.bat"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Launch with OSVR API"
+			}
+			"description" "Launch with OSVR API"
+		}
+	}
+}
+"depots"
+{
+	"414511"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3712135102764963788"
+				"size" "485738855"
+				"download" "238435456"
+			}
+			"beta"
+			{
+				"gid" "3712135102764963788"
+				"size" "485738855"
+				"download" "238435456"
+			}
+		}
+	}
+	"414512"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2317741868533484863"
+				"size" "418491820"
+				"download" "232699520"
+			}
+			"beta"
+			{
+				"gid" "2317741868533484863"
+				"size" "418491820"
+				"download" "232699520"
+			}
+		}
+	}
+	"414513"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1464614028641559992"
+				"size" "450543387"
+				"download" "235861104"
+			}
+			"beta"
+			{
+				"gid" "1464614028641559992"
+				"size" "450543387"
+				"download" "235861104"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "7627319"
+			"timeupdated" "1635535574"
+		}
+		"beta"
+		{
+			"buildid" "7627319"
+			"description" "testing branch"
+			"timeupdated" "1635535565"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "150"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"path" "5089"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "MacHome"
+			"path" "5089"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+			"recursive" "1"
+		}
+		"2"
+		{
+			"root" "LinuxHome"
+			"path" "5089"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinMyDocuments"
+			"os" "Windows"
+			"oscompare" "="
+			"useinstead" "WinMyDocuments"
+			"addpath" "../"
+		}
+	}
+}
