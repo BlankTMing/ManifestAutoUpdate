@@ -23,19 +23,19 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1719360000"
-		"tested_build_id" "14506420"
+		"test_timestamp" "1726531200"
+		"tested_build_id" "15446847"
 		"tests"
 		{
 			"0"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
 			}
 			"1"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
 			}
 			"2"
 			{
@@ -45,25 +45,15 @@
 			"3"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
-			}
-			"4"
-			{
-				"display" "4"
 				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
-			}
-			"5"
-			{
-				"display" "1"
-				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
 		{
 			"supported_input" "gamepad"
-			"requires_manual_keyboard_invoke" "1"
+			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "1"
+			"primary_player_is_controller_slot_0" "0"
 			"non_deck_display_glyphs" "1"
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
@@ -75,6 +65,7 @@
 		}
 	}
 	"controllertagwizard" "1"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -98,7 +89,60 @@
 			"height_pct" "71.87703535131405"
 		}
 	}
-	"store_asset_mtime" "1723190975"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "38.147970773179296"
+				"height_pct" "71.87703535131405"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1727700586"
 	"associations"
 	{
 		"0"
@@ -119,7 +163,7 @@
 		"3"
 		{
 			"type" "franchise"
-			"name" "Anshar Publishing"
+			"name" "Zoria: Age of Shattering"
 		}
 	}
 	"primary_genre" "3"
@@ -137,6 +181,7 @@
 		"category_23" "1"
 		"category_45" "1"
 		"category_46" "1"
+		"category_28" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -153,7 +198,7 @@
 			"subtitles" "true"
 		}
 	}
-	"steam_release_date" "1709834448"
+	"steam_release_date" "1709834400"
 	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "1159090"
@@ -181,14 +226,14 @@
 		"19" "9"
 	}
 	"review_score" "6"
-	"review_percentage" "78"
+	"review_percentage" "79"
 }
 "extended"
 {
 	"developer" "Tiny Trinket Games"
 	"publisher" "Anshar Publishing"
 	"homepage" "https://www.zoriagame.com"
-	"listofdlc" "2726430,2769850,2769860,2853200"
+	"listofdlc" "2726430,2769850,2769860,2853200,3217410"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -240,9 +285,9 @@
 		{
 			"public"
 			{
-				"gid" "4765297564526487826"
-				"size" "20116738751"
-				"download" "9797660448"
+				"gid" "6160341203009123154"
+				"size" "20167784853"
+				"download" "9830118144"
 			}
 		}
 		"encryptedmanifests"
@@ -261,9 +306,9 @@
 			}
 			"beta"
 			{
-				"gid" "D71E76A139AED75D7856B46922E0C467"
-				"size" "8AF8CA7F203934121EE8349B4455D8CB"
-				"download" "E9F6E114CDFBA6F55C13EAC0E20A27C8"
+				"gid" "453C73322415854F361D6731159DA032"
+				"size" "27DE7163412BCF27847ACE8B4523B3D3"
+				"download" "AFAB30594411A1D1DBDB3F9B94151A69"
 			}
 		}
 	}
@@ -278,9 +323,9 @@
 		{
 			"public"
 			{
-				"gid" "2263158949224168744"
-				"size" "20206723517"
-				"download" "9831507120"
+				"gid" "3479364722741162702"
+				"size" "20253558856"
+				"download" "9862929408"
 			}
 		}
 		"encryptedmanifests"
@@ -299,9 +344,9 @@
 			}
 			"beta"
 			{
-				"gid" "A97997C43C51EA27D1E45B8850885F3E"
-				"size" "5A1097711B1C842CA25F181C1D9F05BC"
-				"download" "5447E7C03CAD2E14F6A1D520A83DBF86"
+				"gid" "C28674EDF85EA907D0CF488F537EE917"
+				"size" "090D8BF2A3998229692397E58ECD5686"
+				"download" "67EE0DB6EB16BEE13055186604349740"
 			}
 		}
 	}
@@ -565,8 +610,8 @@
 	{
 		"public"
 		{
-			"buildid" "15446847"
-			"timeupdated" "1724239151"
+			"buildid" "15867209"
+			"timeupdated" "1727701182"
 		}
 		"0.9.5"
 		{
@@ -660,9 +705,9 @@
 		}
 		"beta"
 		{
-			"buildid" "15446657"
+			"buildid" "15867209"
 			"pwdrequired" "1"
-			"timeupdated" "1724238102"
+			"timeupdated" "1727622841"
 		}
 	}
 }
@@ -692,6 +737,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "24879270"
-"_sha" "4e7de97c47337bcdfd503c0defd26a839f879287"
-"_size" "14436"
+"_change_number" "25458587"
+"_sha" "c0e464d5e2d6c6ded5895548b26b11c33fec6e39"
+"_size" "15137"
