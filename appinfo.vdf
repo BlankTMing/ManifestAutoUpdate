@@ -14,6 +14,7 @@
 	{
 		"english" "1"
 		"schinese" "1"
+		"japanese" "1"
 	}
 	"name_localized"
 	{
@@ -98,7 +99,61 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1715999670"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"schinese" "library_600x900_schinese.jpg"
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"schinese" "library_600x900_schinese_2x.jpg"
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "60.85180863477248"
+				"height_pct" "100"
+			}
+			"image2x"
+			{
+				"schinese" "logo_schinese_2x.png"
+				"english" "logo_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+				"schinese" "library_header_schinese.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1720162576"
 	"associations"
 	{
 		"0"
@@ -152,6 +207,11 @@
 			"supported" "true"
 			"subtitles" "true"
 		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1708502240"
 	"community_visible_stats" "1"
@@ -166,19 +226,19 @@
 		"4" "3843"
 		"5" "3871"
 		"6" "12472"
-		"7" "3859"
-		"8" "1685"
-		"9" "4182"
-		"10" "3841"
-		"11" "9204"
-		"12" "3959"
+		"7" "1685"
+		"8" "3859"
+		"9" "3841"
+		"10" "4182"
+		"11" "3959"
+		"12" "9204"
 		"13" "7368"
 		"14" "42804"
 		"15" "19"
 		"16" "4136"
-		"17" "35079"
-		"18" "4195"
-		"19" "4562"
+		"17" "1716"
+		"18" "4562"
+		"19" "35079"
 	}
 	"review_score" "4"
 	"review_percentage" "25"
@@ -208,11 +268,11 @@
 		}
 	}
 	"steamdecktouchscreen" "1"
-	"steamconfigurator3rdpartynative" "14"
+	"steamconfigurator3rdpartynative" "15"
 }
 "depots"
 {
-	"baselanguages" "english,schinese"
+	"baselanguages" "english,schinese,japanese"
 	"hasdepotsindlc" "0"
 	"2336221"
 	{
@@ -220,24 +280,24 @@
 		{
 			"public"
 			{
-				"gid" "1605652267162657770"
-				"size" "293700344"
-				"download" "174759088"
+				"gid" "4618030371600083782"
+				"size" "295320376"
+				"download" "175301920"
+			}
+			"test_0.6.x"
+			{
+				"gid" "4618030371600083782"
+				"size" "295320376"
+				"download" "175301920"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"0.5test"
-			{
-				"gid" "3387392CEB076E31874C7FCED0706BD8"
-				"size" "DA144CC2FE455DC157CD64ACD0DA7867"
-				"download" "CDC5E84B3542DB3CB0388125BFB1AA43"
-			}
 			"finaltest"
 			{
-				"gid" "2983B52D997F80DDF5899C7FD0497769"
-				"size" "54B805BBFA09EAC36D19A50BD9E8BBAD"
-				"download" "CECDEDA99BD390F8ADAC0807CD624493"
+				"gid" "E880DF9410DF4D6708BB87AF5A8A2DAC"
+				"size" "9E59123EBFFC062F94EB19CF28ED6F72"
+				"download" "6CEBC5BB1D0FF49EC70C0858F2597459"
 			}
 		}
 	}
@@ -245,20 +305,20 @@
 	{
 		"public"
 		{
-			"buildid" "14878754"
-			"timeupdated" "1719629213"
-		}
-		"0.5test"
-		{
-			"buildid" "14878754"
-			"pwdrequired" "1"
-			"timeupdated" "1719629144"
+			"buildid" "15871300"
+			"timeupdated" "1727674311"
 		}
 		"finaltest"
 		{
-			"buildid" "14878754"
+			"buildid" "15871300"
 			"pwdrequired" "1"
-			"timeupdated" "1719629061"
+			"timeupdated" "1727674155"
+		}
+		"test_0.6.x"
+		{
+			"buildid" "15871300"
+			"description" "0.6测试版"
+			"timeupdated" "1727674140"
 		}
 	}
 }
@@ -293,59 +353,3 @@
 	}
 	"sync_while_suspended" "1"
 }
-"localization"
-{
-	"richpresence"
-	{
-		"schinese"
-		{
-			"tokens"
-			{
-				"#statuswithoutscore" "{#Status_%gamestatus%}"
-				"#statuswithscore" "分数: %score%"
-				"#status_atmainmenu" "在主菜单"
-				"#status_masterwaiting" "在自己家中 - 可乱入"
-				"#status_waiting" "在他人家中 - 可乱入"
-				"#status_masterfull" "在自己家中 - 满员"
-				"#status_full" "在他人家中 - 满员"
-				"#status_solo" "在自己家中 - 不可乱入"
-				"#status_day1" "当前天数 : 1"
-				"#status_day2" "当前天数 : 2"
-				"#status_day3" "当前天数 : 3"
-				"#status_day4" "当前天数 : 4"
-				"#status_day5" "当前天数 : 5"
-				"#status_day6" "当前天数 : 6"
-				"#status_day7" "当前天数 : 7"
-				"#status_day8" "当前天数 : 8"
-				"#status_day9" "当前天数 : 9"
-				"#status_day10" "当前天数 : 10"
-			}
-		}
-		"english"
-		{
-			"tokens"
-			{
-				"#status_atmainmenu" "Main Menu"
-				"#status_masterwaiting" "At Home - Can Join"
-				"#status_waiting" "At other\'s Home - Can Join"
-				"#status_masterfull" "At Home - Full"
-				"#status_full" "At other\'s Home - Full"
-				"#status_solo" "At Home"
-				"#status_day1" "Day : 1"
-				"#status_day2" "Day : 2"
-				"#status_day3" "Day : 3"
-				"#status_day4" "Day : 4"
-				"#status_day5" "Day : 5"
-				"#status_day6" "Day : 6"
-				"#status_day7" "Day : 7"
-				"#status_day8" "Day : 8"
-				"#status_day9" "Day : 9"
-				"#status_day10" "Day : 10"
-			}
-		}
-	}
-}
-"_missing_token" "False"
-"_change_number" "24171650"
-"_sha" "d91b5333a98e1da1d3dec8faf2aada17af82494e"
-"_size" "7064"
