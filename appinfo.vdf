@@ -19,6 +19,7 @@
 			"id" "1556200_eula_0"
 			"name" "Predator: Hunting Grounds EULA"
 			"url" "https://store.steampowered.com//eula/1556200_eula_0"
+			"version" "3"
 		}
 	}
 	"content_descriptors"
@@ -29,15 +30,35 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1644969600"
-		"tested_build_id" "7693767"
+		"category" "2"
+		"test_timestamp" "1726876800"
+		"tested_build_id" "15696669"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_UnsupportedAntiCheatConfiguration"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
@@ -45,13 +66,15 @@
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
 			"requires_non_controller_launcher_nav" "0"
-			"primary_player_is_controller_slot_0" "0"
+			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
-			"small_text" "0"
+			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-3RC"
 			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"controllertagwizard" "1"
@@ -69,6 +92,7 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -76,7 +100,52 @@
 			"height_pct" "71.65653394999245"
 		}
 	}
-	"store_asset_mtime" "1619052761"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "49.4279176201373"
+				"height_pct" "71.65653394999245"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "a899adfe28c8e26e732dd56c3759a595bc498c0d/library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "a899adfe28c8e26e732dd56c3759a595bc498c0d/library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1727282491"
 	"associations"
 	{
 		"0"
@@ -87,12 +156,7 @@
 		"1"
 		{
 			"type" "publisher"
-			"name" "PlayStation PC LLC"
-		}
-		"2"
-		{
-			"type" "franchise"
-			"name" "PlayStation Studios"
+			"name" "PlayStation Publishing LLC"
 		}
 	}
 	"primary_genre" "1"
@@ -111,6 +175,7 @@
 		"category_55" "1"
 		"category_57" "1"
 		"category_60" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -204,8 +269,8 @@
 		"4" "4747"
 		"5" "3839"
 		"6" "4191"
-		"7" "7481"
-		"8" "19"
+		"7" "19"
+		"8" "7481"
 		"9" "5765"
 		"10" "1697"
 		"11" "4168"
@@ -227,8 +292,8 @@
 	"anti_cheat_support_url" "https://www.easy.ac/r/steam/gamebans/\?steamAppId=1556200"
 	"serverbrowsername" "PHG"
 	"developer" "IllFonic"
-	"publisher" "PlayStation PC LLC"
-	"listofdlc" "1599480,1599481,1599482,1599483,1599484,1599485,1599486,1605820,1636840,1696000,1756590,1847080,1870540,1919280,1996830,2198530,2225270"
+	"publisher" "PlayStation Publishing LLC"
+	"listofdlc" "1599480,1599481,1599482,1599483,1599484,1599485,1599486,1605820,1636840,1696000,1756590,1847080,1870540,1919280,1996830,2198530,2225270,3189160"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -248,6 +313,9 @@
 			}
 		}
 	}
+	"steamcontrollertemplateindex" "2"
+	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "2"
 }
 "depots"
 {
@@ -275,60 +343,84 @@
 		{
 			"public"
 			{
-				"gid" "6565858941191211348"
-				"size" "57123234928"
-				"download" "28500163632"
+				"gid" "5259784265514666089"
+				"size" "45827839655"
+				"download" "24091320624"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"daily"
 			{
-				"gid" "C090E79DD49136992764C7B25F50F0B7"
-				"size" "16B80672E2C162FE6866C5A7A6D2BE9C"
-				"download" "2AEAD8BE92AA8C62B7C1388477067084"
+				"gid" "1B712C5176C35D4420FA206A95F75540"
+				"size" "13F01E16432473AF100B0608358B827D"
+				"download" "31A66AB6A093AF6F47C4D7E9E6F9E8F0"
 			}
 			"development"
 			{
-				"gid" "ABFB906EEA178F504179F3310C63E854"
-				"size" "35F63F5498F10106F4AF2697EB6E5E98"
-				"download" "078A865631AFAF435ED88CC182ADA63D"
+				"gid" "2FAB685B7B2C75E8608EA66FCC41CCAA"
+				"size" "00A99EF44A43AFF5F76BDA0541C2D6F7"
+				"download" "50A3EA8880D79FDB9D5B1DBC98E9CA54"
 			}
 			"main"
 			{
-				"gid" "E468F5C3EFCBA86F18C1CCDAA50DA16A"
-				"size" "7959B2627DAFF10B0FAF9A5065953213"
-				"download" "23CFC8BF093CE402BE834F8DC4255E17"
+				"gid" "46254633834BA46F0A50FFFE83E1F040"
+				"size" "4A6A4054F462357B1D6E9C566A404280"
+				"download" "0D241481CC27E8AB68CA58FB62727BB8"
 			}
 			"nightly"
 			{
-				"gid" "6149A854749C4AB894F928C1D5DDDAF5"
-				"size" "7D8962159ABBD4F7449C71D558C9E511"
-				"download" "351B6C64264C7F1100D278EEFDBEC77A"
+				"gid" "A574165A00A04C0CE4B107022D4CFAD5"
+				"size" "B845634EE796657A784C18DAB59D0D7D"
+				"download" "2114E68C66432468457CA1BD772D2338"
+			}
+			"partners"
+			{
+				"gid" "BF0AD44F1523EE42537A8B75FBE1BD1D"
+				"size" "F466F7BA559009C1C9063ABE381C38E9"
+				"download" "134422F0FF4E3F6842AB37658DF5E59C"
 			}
 			"playtest"
 			{
-				"gid" "8313334D21234E6869DE2A8DCBED8016"
-				"size" "E91079B82D7021BAD42FC5EE037706B3"
-				"download" "6759B468A8F13AAB18F7BE6E0008DBDA"
+				"gid" "CA1D0DD280233BCCAD3816A8DB916D4B"
+				"size" "0D14457BB219FEB7DAC2112D7186104D"
+				"download" "49D3B59A66E1F17FDA9C84CDA777B175"
+			}
+			"production"
+			{
+				"gid" "2BF22F3FBCBEF8AC8696A4A02D180842"
+				"size" "61BF1D4316A7480703E81E66A7F23259"
+				"download" "34E80F9CFAAD4ADEA4D2C332EF384B79"
 			}
 			"qatesting"
 			{
-				"gid" "5E3E8C7C2DD1A252E8CB102307AAEDF2"
-				"size" "0E48077171E4B89734BEFD931BBC73E6"
-				"download" "527BC0303C94B0493D60463596F3AE50"
+				"gid" "E7BF2044E924A679F38FF92D29CF13EE"
+				"size" "EABED72A52F6736188540F44F28AA987"
+				"download" "8816AB86E3A7400391CAE0454F32C981"
 			}
 			"release_candidate"
 			{
-				"gid" "581DD9148959EAB13F0299C3A62A0D73"
-				"size" "FD19698E30B2944A2B15147E276F5554"
-				"download" "A2EF6C1644D5B18B58A595A6D061CB7F"
+				"gid" "97713C60E39A1B5CB07B9F554D9C185C"
+				"size" "D76FBE7B144C090920A6EF8771C95C81"
+				"download" "86D5AB84E059C6FC9F64AC0B6E7C9F8D"
+			}
+			"shipping"
+			{
+				"gid" "FA00BEE30FB7E83A4E40D881648D40A1"
+				"size" "53C4EE387D76A980DC695EBD7ED68E79"
+				"download" "63560B035690D95115C13353BDA7ACB2"
 			}
 			"staging"
 			{
-				"gid" "094F6B53995BEB352930AF6C48475672"
-				"size" "954722EDB9835768CDF64622ADE4E895"
-				"download" "A5F93A50E1911E10DFD319C5EED84F97"
+				"gid" "0FA90A2C6FB33F0AA7E39669651D6797"
+				"size" "985C2ED98D3D8FF774DF0353F420B21D"
+				"download" "5E683F67D491F89449E0F791921CF709"
+			}
+			"testing"
+			{
+				"gid" "EC68E87B977FA97235FD240C48A28F05"
+				"size" "723ACEF1C2C0297DEA3C77D1FD43F844"
+				"download" "6ADD26A51F8EB8FB82A7E815F32A16B0"
 			}
 		}
 	}
@@ -336,56 +428,80 @@
 	{
 		"public"
 		{
-			"buildid" "13436553"
-			"timeupdated" "1712080857"
+			"buildid" "15817875"
+			"timeupdated" "1727798587"
 		}
 		"daily"
 		{
-			"buildid" "6583633"
+			"buildid" "15656835"
 			"pwdrequired" "1"
-			"timeupdated" "1619229132"
+			"timeupdated" "1726007628"
 		}
 		"development"
 		{
-			"buildid" "8086491"
+			"buildid" "15450109"
 			"pwdrequired" "1"
-			"timeupdated" "1643162168"
+			"timeupdated" "1724258077"
 		}
 		"main"
 		{
-			"buildid" "13275156"
+			"buildid" "15889325"
 			"pwdrequired" "1"
-			"timeupdated" "1706215582"
+			"timeupdated" "1727789486"
 		}
 		"nightly"
 		{
-			"buildid" "13238474"
+			"buildid" "15889858"
 			"pwdrequired" "1"
-			"timeupdated" "1705931908"
+			"timeupdated" "1727792199"
+		}
+		"partners"
+		{
+			"buildid" "15582155"
+			"pwdrequired" "1"
+			"timeupdated" "1726072469"
 		}
 		"playtest"
 		{
-			"buildid" "8575056"
+			"buildid" "15845496"
 			"pwdrequired" "1"
-			"timeupdated" "1650329136"
+			"timeupdated" "1727448865"
+		}
+		"production"
+		{
+			"buildid" "15818083"
+			"pwdrequired" "1"
+			"timeupdated" "1727800348"
 		}
 		"qatesting"
 		{
-			"buildid" "13420657"
+			"buildid" "15816565"
 			"pwdrequired" "1"
-			"timeupdated" "1707531313"
+			"timeupdated" "1727231458"
 		}
 		"release_candidate"
 		{
-			"buildid" "13436553"
+			"buildid" "15817875"
 			"pwdrequired" "1"
-			"timeupdated" "1707767329"
+			"timeupdated" "1727242536"
+		}
+		"shipping"
+		{
+			"buildid" "15880851"
+			"pwdrequired" "1"
+			"timeupdated" "1727731336"
 		}
 		"staging"
 		{
-			"buildid" "13436553"
+			"buildid" "15885652"
 			"pwdrequired" "1"
-			"timeupdated" "1710195068"
+			"timeupdated" "1727769170"
+		}
+		"testing"
+		{
+			"buildid" "15882488"
+			"pwdrequired" "1"
+			"timeupdated" "1727743406"
 		}
 	}
 }
@@ -412,6 +528,6 @@
 	"ignoreexternalfiles" "1"
 }
 "_missing_token" "False"
-"_change_number" "23005813"
-"_sha" "cbd57bcdbf0bd5a5671f0327475490ced2d36f47"
-"_size" "7786"
+"_change_number" "25480973"
+"_sha" "49da509c427b8905a7da33effe77372d22d4c757"
+"_size" "10336"
