@@ -1,0 +1,179 @@
+"appid" "2223650"
+"common"
+{
+	"name" "Motor Town: Behind The Wheel - Dedicated Server"
+	"type" "Tool"
+	"parent" "1369670"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"icon" "a579afcebdede718c088b0633d8e360a8ea81472"
+	"clienttga" "2e389128918a1ed34fad979bac38e0e7eae5bde3"
+	"clienticon" "eb6167ade88c187f3cc82603faa4f17859d0054e"
+	"releasestate" "released"
+	"gameid" "2223650"
+}
+"config"
+{
+	"installdir" "Motor Town Behind The Wheel - Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "MotorTown\\Binaries\\Win64\\MotorTownServer-Win64-Shipping.exe"
+			"arguments" "Jeju_World\?listen\? -server -log -useperfthreads"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7747775778018907449"
+				"size" "46727128"
+				"download" "14307024"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7138471031118904166"
+				"size" "78382436"
+				"download" "21254752"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2223651"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7766542651663955866"
+				"size" "43"
+				"download" "96"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "BB45056F833DF9C8B58D1312CDF9C5C4"
+				"size" "A8ACC0BD2613B3B03F7BE6AE5AE06E26"
+				"download" "17FECB522843A001399DA0445DA14A7C"
+			}
+			"development"
+			{
+				"gid" "1143A01ABDB24865E07B9A73E19578A8"
+				"size" "73A833137647CD4693065AB4DDEFC18B"
+				"download" "BA163B62C596AB9005C5BD97FA547949"
+			}
+			"test"
+			{
+				"gid" "6CC0F05BA05B4DC6304DA50BBBDE8194"
+				"size" "4349DB5BF60A5763BCE3C2D39EB9FF8F"
+				"download" "2ADE3E880B4608006354DDD52D754D01"
+			}
+			"test-driver"
+			{
+				"gid" "1BCD04182A4C0A1DAE16DE00B5DC29B7"
+				"size" "CFCF8814765CE5F8BE76E3B6B2B0EE56"
+				"download" "31F51A4D7A27544E834CBA2C1FF9F9EC"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "10222124"
+			"timeupdated" "1672283444"
+		}
+		"beta"
+		{
+			"buildid" "15706044"
+			"pwdrequired" "1"
+			"timeupdated" "1726412951"
+		}
+		"development"
+		{
+			"buildid" "15706044"
+			"pwdrequired" "1"
+			"timeupdated" "1726412925"
+		}
+		"test"
+		{
+			"buildid" "15706044"
+			"pwdrequired" "1"
+			"timeupdated" "1726412942"
+		}
+		"test-driver"
+		{
+			"buildid" "15706044"
+			"pwdrequired" "1"
+			"timeupdated" "1726412932"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "25233428"
+"_sha" "64fdc90f7edeafc7350b76b89cef5c135a81b7ff"
+"_size" "3064"
