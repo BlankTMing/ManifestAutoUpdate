@@ -10,6 +10,22 @@
 	"osarch" ""
 	"osextended" "macos64,macosapplesilicon"
 	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"russian" "1"
+		"japanese" "1"
+		"polish" "1"
+		"dutch" "1"
+		"romanian" "1"
+		"ukrainian" "1"
+		"vietnamese" "1"
+	}
 	"steam_deck_compatibility"
 	{
 		"category" "3"
@@ -52,7 +68,7 @@
 	"controller_support" "full"
 	"small_capsule"
 	{
-		"english" "capsule_231x87.jpg"
+		"english" "2a0e3105097770c33f8a7167a4a9a08e9d826bc5/capsule_231x87.jpg"
 	}
 	"header_image"
 	{
@@ -63,14 +79,68 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
-			"width_pct" "36.03174603174604"
-			"height_pct" "66.80020518930368"
+			"width_pct" "35.48500618167236"
+			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1669138365"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "35.48500618167236"
+				"height_pct" "100"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1727717322"
 	"associations"
 	{
 		"0"
@@ -155,6 +225,18 @@
 		{
 			"supported" "true"
 		}
+		"dutch"
+		{
+			"supported" "true"
+		}
+		"romanian"
+		{
+			"supported" "true"
+		}
+		"vietnamese"
+		{
+			"supported" "true"
+		}
 	}
 	"steam_release_date" "1652356859"
 	"community_visible_stats" "1"
@@ -172,16 +254,16 @@
 		"6" "17389"
 		"7" "3964"
 		"8" "6426"
-		"9" "4166"
-		"10" "4004"
+		"9" "4004"
+		"10" "4166"
 		"11" "19"
 		"12" "1774"
 		"13" "3959"
 		"14" "4637"
 		"15" "3871"
 		"16" "4252"
-		"17" "4562"
-		"18" "14139"
+		"17" "14139"
+		"18" "4562"
 		"19" "4791"
 	}
 	"review_score" "8"
@@ -237,7 +319,6 @@
 			"config"
 			{
 				"oslist" "linux"
-				"osarch" "64"
 			}
 		}
 	}
@@ -259,15 +340,21 @@
 		{
 			"public"
 			{
-				"gid" "6393112037399734035"
-				"size" "92631440"
-				"download" "84718000"
+				"gid" "6792280040765103523"
+				"size" "111241026"
+				"download" "103425680"
 			}
 			"v1.39"
 			{
 				"gid" "5181111827735820082"
 				"size" "75894205"
 				"download" "66188192"
+			}
+			"public-beta"
+			{
+				"gid" "6792280040765103523"
+				"size" "111241026"
+				"download" "103425680"
 			}
 		}
 	}
@@ -281,9 +368,15 @@
 		{
 			"public"
 			{
-				"gid" "2480803372126649970"
-				"size" "91522047"
-				"download" "83812096"
+				"gid" "2032997989787802947"
+				"size" "110510817"
+				"download" "102523216"
+			}
+			"public-beta"
+			{
+				"gid" "2032997989787802947"
+				"size" "110510817"
+				"download" "102523216"
 			}
 		}
 	}
@@ -297,9 +390,15 @@
 		{
 			"public"
 			{
-				"gid" "2038903805618106800"
-				"size" "94283132"
-				"download" "84056080"
+				"gid" "7216391417974355684"
+				"size" "113138622"
+				"download" "102724896"
+			}
+			"public-beta"
+			{
+				"gid" "7216391417974355684"
+				"size" "113138622"
+				"download" "102724896"
 			}
 		}
 	}
@@ -307,14 +406,20 @@
 	{
 		"public"
 		{
-			"buildid" "13884991"
-			"timeupdated" "1711645402"
+			"buildid" "15880004"
+			"timeupdated" "1727726373"
 		}
 		"v1.39"
 		{
 			"buildid" "12284753"
 			"description" "old art, pre modding update, pre-controller support"
 			"timeupdated" "1705939696"
+		}
+		"public-beta"
+		{
+			"buildid" "15880004"
+			"description" "v1.5 - join our discord to give feedback!"
+			"timeupdated" "1727727917"
 		}
 	}
 }
@@ -360,6 +465,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "22949675"
-"_sha" "818e981bf34de12b4c4ac9989227f15bcef32537"
-"_size" "6199"
+"_change_number" "25467698"
+"_sha" "b85d33891f1b5b5976e4893d7959ec9ee346a9d7"
+"_size" "7909"
