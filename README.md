@@ -1,17 +1,27 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-02 16:42:08
+## 更新时间：2024-10-03 00:44:30
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 570 | Dota 2| game |
 | 2055050 |   铁骑少女| Game |
+| 20 | Team Fortress Classic| game |
+| 352720 | The Universim| Game |
+| 70 | Half-Life| game |
+| 1149620 | 加油站大亨| Game |
+| 1593030 | 伊始之地| Game |
+| 1218210 | Coromon| Game |
+| 252490 | Rust| Game |
+| 700580 | Rust - Staging Branch| Game |
+| 2068280 | Nordic Ashes| Game |
+| 899770 | Last Epoch| Game |
+| 997010 | Police Simulator: Patrol Officers| Game |
+| 494840 | UBOAT| Game |
+| 1135230 | Ember Knights| Game |
 | 1134710 | NIMBY Rails| Game |
-| 222750 | Wargame: AirLand Battle| Game |
-| 2244130 | Ratopia| Game |
-| 843380 | Super Animal Royale| Game |
-| 720620 | TaleSpire| Game |
-| 1029210 | 30XX| Game |
-| 1876070 | Windsor - Strategy| Game |
-| 1366800 | Crosshair X| Application |
-| 1599340 | Lost Ark| Game |
+| 1928980 | 夜莺传说| Game |
+| 559650 | Witch It| Game |
+| 582660 | Black Desert| Game |
+| 505460 | Foxhole| Game |
+| 1231990 | 格式塔：蒸汽与煤渣| Game |
+| 1040200 | Crime Scene Cleaner| Game |
 | 2093920 | 灾变前夜| Game |
