@@ -6,11 +6,11 @@
 	"icon" "f3130dc5206c5ee0892534324d93c0721eccfbcc"
 	"clienticon" "eb27662671d208ef4d5b014df11dbe6c3815cb84"
 	"clienttga" "e1e2990268af0045dc7918992551521ee6716731"
-	"clienticns" "a25a29f2c56dfb38967dd327c75ff16cd5b8d903"
+	"clienticns" "2b53feb62b0bf5d6f3064add939213a759481327"
 	"linuxclienticon" "72d28b2d362bb389d0aea0532e71f720d69931bb"
 	"releasestate" "released"
 	"oslist" "windows,macos,linux"
-	"osarch" "64"
+	"osarch" ""
 	"osextended" "macos64"
 	"content_descriptors"
 	{
@@ -81,6 +81,48 @@
 			"pinned_position" "BottomLeft"
 			"width_pct" "47.90255361336834"
 			"height_pct" "82.98611111111111"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "47.90255361336834"
+				"height_pct" "82.98611111111111"
+			}
 		}
 	}
 	"store_asset_mtime" "1684181450"
@@ -227,6 +269,8 @@
 		}
 	}
 	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "65535"
+	"steamcontrollertemplateindex" "4"
 }
 "depots"
 {
@@ -236,21 +280,21 @@
 		{
 			"public"
 			{
-				"gid" "2596168121326934948"
-				"size" "8635778187"
-				"download" "8455369440"
-			}
-			"beta"
-			{
-				"gid" "2596168121326934948"
-				"size" "8635778187"
-				"download" "8455369440"
+				"gid" "481515281560860916"
+				"size" "9253807407"
+				"download" "9072495856"
 			}
 			"renpy-8"
 			{
 				"gid" "1528427442710082053"
 				"size" "8678427065"
 				"download" "8528860320"
+			}
+			"beta"
+			{
+				"gid" "481515281560860916"
+				"size" "9253807407"
+				"download" "9072495856"
 			}
 		}
 		"encryptedmanifests"
@@ -274,13 +318,13 @@
 				"size" "561445"
 				"download" "381024"
 			}
-			"beta"
+			"renpy-8"
 			{
 				"gid" "5310054855119015099"
 				"size" "561445"
 				"download" "381024"
 			}
-			"renpy-8"
+			"beta"
 			{
 				"gid" "5310054855119015099"
 				"size" "561445"
@@ -304,21 +348,21 @@
 		{
 			"public"
 			{
-				"gid" "415461011155533595"
-				"size" "3077490230"
-				"download" "3112283712"
-			}
-			"beta"
-			{
-				"gid" "415461011155533595"
-				"size" "3077490230"
-				"download" "3112283712"
+				"gid" "514870605590485213"
+				"size" "3076009095"
+				"download" "3114936720"
 			}
 			"renpy-8"
 			{
 				"gid" "415461011155533595"
 				"size" "3077490230"
 				"download" "3112283712"
+			}
+			"beta"
+			{
+				"gid" "514870605590485213"
+				"size" "3076009095"
+				"download" "3114936720"
 			}
 		}
 		"encryptedmanifests"
@@ -335,14 +379,8 @@
 	{
 		"public"
 		{
-			"buildid" "13519380"
-			"timeupdated" "1708526731"
-		}
-		"beta"
-		{
-			"buildid" "13519380"
-			"description" "beta branch"
-			"timeupdated" "1708519491"
+			"buildid" "15905120"
+			"timeupdated" "1727896647"
 		}
 		"protected"
 		{
@@ -355,6 +393,12 @@
 			"buildid" "14007881"
 			"description" "Branch with updated version of the engine"
 			"timeupdated" "1712742025"
+		}
+		"beta"
+		{
+			"buildid" "15905120"
+			"description" "beta branch"
+			"timeupdated" "1727886969"
 		}
 	}
 }
