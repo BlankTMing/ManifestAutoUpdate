@@ -47,6 +47,50 @@
 			"version" "1"
 		}
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1727827200"
+		"tested_build_id" "15848626"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "partial"
 	"small_capsule"
@@ -163,7 +207,7 @@
 			}
 		}
 	}
-	"store_asset_mtime" "1726752572"
+	"store_asset_mtime" "1727962958"
 	"associations"
 	{
 		"0"
@@ -264,6 +308,10 @@
 		{
 			"supported" "true"
 		}
+		"koreana"
+		{
+			"supported" "true"
+		}
 	}
 	"steam_release_date" "1726487362"
 	"steam_deck_blog_url" "https://steamcommunity.com/app/2904000/eventcomments/4844273660403443505\?snr=1_2108_9__2107"
@@ -284,8 +332,8 @@
 		"9" "4182"
 		"10" "1773"
 		"11" "597"
-		"12" "4637"
-		"13" "3859"
+		"12" "3859"
+		"13" "4637"
 		"14" "1716"
 		"15" "4791"
 		"16" "5154"
@@ -294,7 +342,7 @@
 		"19" "493"
 	}
 	"review_score" "8"
-	"review_percentage" "85"
+	"review_percentage" "86"
 }
 "extended"
 {
@@ -355,18 +403,18 @@
 		{
 			"public"
 			{
-				"gid" "4828810832380230828"
-				"size" "2178131770"
-				"download" "403752752"
+				"gid" "5212769788074028779"
+				"size" "2178111267"
+				"download" "404024224"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"testing"
 			{
-				"gid" "43978EAA28AFD5BAFA203F12002F86A1"
-				"size" "B46E4914E527D9A9A251134B835999BC"
-				"download" "BB525C5EB9553A60BD6D01FD41897A7D"
+				"gid" "61072E0E58BF6FF06FC19D369758277C"
+				"size" "59C7BA7540315E30D43196ED6B9FFD28"
+				"download" "600DD8FB7CD444C4B66DFEE6FB632896"
 			}
 		}
 	}
@@ -380,18 +428,18 @@
 		{
 			"public"
 			{
-				"gid" "5379276150576348529"
-				"size" "2226044793"
-				"download" "410449952"
+				"gid" "2101954568070809447"
+				"size" "2227166461"
+				"download" "410770336"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"testing"
 			{
-				"gid" "7A6CAFDC87AB095017D6E0BF8D19FF6A"
-				"size" "614C51FABD450668125F667B6F3E1A4A"
-				"download" "AC3454A66F43A23CEF6B7406C4ED316B"
+				"gid" "DDAEB0EEA33A60530EC50054AA262E97"
+				"size" "88D76D589966C317E1C9E1B0492B1021"
+				"download" "701BFFF25C01CA5DEEA3EB731F218A14"
 			}
 		}
 	}
@@ -399,21 +447,21 @@
 	{
 		"public"
 		{
-			"buildid" "15848626"
-			"timeupdated" "1727437747"
+			"buildid" "15915686"
+			"timeupdated" "1727963995"
 		}
 		"testing"
 		{
-			"buildid" "15848626"
+			"buildid" "15915686"
 			"pwdrequired" "1"
-			"timeupdated" "1727430688"
+			"timeupdated" "1727957043"
 		}
 	}
 }
 "ufs"
 {
 	"quota" "1000000"
-	"maxnumfiles" "1"
+	"maxnumfiles" "2"
 	"savefiles"
 	{
 		"0"
@@ -421,6 +469,12 @@
 			"root" "WinAppDataLocalLow"
 			"path" "BoltBlasterGames/TheSpellBrigade/"
 			"pattern" "*.es3"
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "BoltBlasterGames/TheSpellBrigade/"
+			"pattern" "*.bac"
 		}
 	}
 	"rootoverrides"
