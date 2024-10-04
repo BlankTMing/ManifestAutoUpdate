@@ -17,6 +17,8 @@
 	"oslist" "windows"
 	"osarch" ""
 	"osextended" ""
+	"controllertagwizard" "1"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -26,12 +28,15 @@
 	{
 		"schinese" "header_schinese.jpg"
 		"english" "header.jpg"
+		"sc_schinese" "header_sc_schinese.jpg"
+		"tchinese" "header_tchinese.jpg"
 	}
 	"library_assets"
 	{
 		"library_capsule" "zh-cn,en"
 		"library_hero" "en,zh-cn"
 		"library_logo" "zh-cn,en"
+		"library_header" "zh-xc,en,zh-cn,zh-tw"
 		"logo_position"
 		{
 			"pinned_position" "UpperCenter"
@@ -86,8 +91,25 @@
 				"english" "logo_2x.png"
 			}
 		}
+		"library_header"
+		{
+			"image"
+			{
+				"sc_schinese" "f4a55e8c6a5a8d7825cdd61f867f772d03aeb956/library_header_sc_schinese.jpg"
+				"english" "9d3eb63881a4c04110aaaa02117c0b3434538a21/library_header.jpg"
+				"schinese" "e9bb2849bb089b328073acaca850b9a98d380c54/library_header_schinese.jpg"
+				"tchinese" "e9bb2849bb089b328073acaca850b9a98d380c54/library_header_tchinese.jpg"
+			}
+			"image2x"
+			{
+				"sc_schinese" "f4a55e8c6a5a8d7825cdd61f867f772d03aeb956/library_header_sc_schinese_2x.jpg"
+				"english" "9d3eb63881a4c04110aaaa02117c0b3434538a21/library_header_2x.jpg"
+				"schinese" "e9bb2849bb089b328073acaca850b9a98d380c54/library_header_schinese_2x.jpg"
+				"tchinese" "e9bb2849bb089b328073acaca850b9a98d380c54/library_header_tchinese_2x.jpg"
+			}
+		}
 	}
-	"store_asset_mtime" "1680112217"
+	"store_asset_mtime" "1727996093"
 	"associations"
 	{
 		"0"
@@ -113,6 +135,7 @@
 	"category"
 	{
 		"category_2" "1"
+		"category_28" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -172,6 +195,8 @@
 			"executable" "ZEDZONE.exe"
 		}
 	}
+	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "7"
 }
 "depots"
 {
@@ -181,24 +206,24 @@
 		{
 			"public"
 			{
-				"gid" "3299964888921345320"
-				"size" "917279940"
-				"download" "206420416"
+				"gid" "158224023466528153"
+				"size" "994815290"
+				"download" "208546752"
 			}
 			"publicplaytest"
 			{
-				"gid" "3299964888921345320"
-				"size" "917279940"
-				"download" "206420416"
+				"gid" "158224023466528153"
+				"size" "994815290"
+				"download" "208546752"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"playtest"
 			{
-				"gid" "520CD3F35CA9D1B3760AE8BE9768569B"
-				"size" "E1B08C89FDE6E75938FE69C9E8707C6E"
-				"download" "05B890F2A728A1722FDF86C50E9082C1"
+				"gid" "9A9AA0E3E4433513729FD58A92251B4A"
+				"size" "A08A8C2A164E45CC252C971529511308"
+				"download" "AD6F5C18866EDA3E445ACB1AB6269B33"
 			}
 		}
 	}
@@ -207,24 +232,24 @@
 	{
 		"public"
 		{
-			"buildid" "15579922"
-			"timeupdated" "1725379310"
+			"buildid" "15922019"
+			"timeupdated" "1727992596"
 		}
 		"playtest"
 		{
-			"buildid" "15579922"
+			"buildid" "15922019"
 			"pwdrequired" "1"
-			"timeupdated" "1725379328"
+			"timeupdated" "1727992618"
 		}
 		"publicplaytest"
 		{
-			"buildid" "15579922"
+			"buildid" "15922019"
 			"description" "Playtest 测试版"
-			"timeupdated" "1725379270"
+			"timeupdated" "1727992555"
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "25060263"
-"_sha" "2407a34f327e05483237bc7527ee0fa356154c65"
-"_size" "4004"
+"_change_number" "25523976"
+"_sha" "eefb410854496c0ada816ec6f004d4304a5f5333"
+"_size" "5067"
