@@ -17,6 +17,7 @@
 			"id" "2280_eula_1"
 			"name" "DOOM + DOOM II EULA"
 			"url" "https://store.steampowered.com//eula/2280_eula_1"
+			"version" "1"
 		}
 	}
 	"type" "Game"
@@ -26,29 +27,51 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "1"
-		"test_timestamp" "1645747200"
-		"tested_build_id" "5619887"
+		"category" "3"
+		"test_timestamp" "1725667200"
+		"tested_build_id" "15522194"
 		"tests"
 		{
 			"0"
 			{
-				"display" "2"
-				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
 			}
 		}
 		"configuration"
 		{
 			"supported_input" "gamepad"
 			"requires_manual_keyboard_invoke" "0"
-			"requires_non_controller_launcher_nav" "1"
+			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
-			"small_text" "1"
+			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-stable"
+			"recommended_runtime" "proton-9.0-3RC"
 			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"controller_support" "full"
@@ -199,10 +222,10 @@
 	{
 		"0" "1663"
 		"1" "1693"
-		"2" "19"
-		"3" "6691"
-		"4" "4004"
-		"5" "1756"
+		"2" "6691"
+		"3" "19"
+		"4" "1756"
+		"5" "4004"
 		"6" "3916"
 		"7" "9541"
 		"8" "1774"
@@ -289,9 +312,9 @@
 		{
 			"public"
 			{
-				"gid" "7170171705571672175"
-				"size" "1150097405"
-				"download" "888887952"
+				"gid" "4669188166801166499"
+				"size" "1151255614"
+				"download" "889480656"
 			}
 			"previous-re-rerelease"
 			{
@@ -304,15 +327,15 @@
 		{
 			"beta"
 			{
-				"gid" "3486BF36BE4F6A00B2464FAB9370AC18"
-				"size" "408DC3FBBC5B4378E26555548912BF23"
-				"download" "CB659780853E6E0A1C5B56C52B126E37"
+				"gid" "C6B3F87368C9B67079FADB6B37D78DC9"
+				"size" "62D2D8A8C0AD3EF22BF988895D7F83E2"
+				"download" "452D0A29BDD6EB8188995BC347FB6F2D"
 			}
 			"betaer"
 			{
-				"gid" "0BA79FC158F783597C9F9D6FE7B431AF"
-				"size" "D9AB6A8138E3670CA396681026069AB7"
-				"download" "AD52FDE48D1872A562C4602059DCD19D"
+				"gid" "4397A11555FA02F987DF9A8982EFC83C"
+				"size" "7A684AE3AC1374E56A9A82D9347EE703"
+				"download" "B4CEB922FDE15DE4366C77C356B903AF"
 			}
 		}
 	}
@@ -322,20 +345,20 @@
 	{
 		"public"
 		{
-			"buildid" "15522194"
-			"timeupdated" "1725548573"
+			"buildid" "15887018"
+			"timeupdated" "1727967529"
 		}
 		"beta"
 		{
-			"buildid" "15601591"
+			"buildid" "15887018"
 			"pwdrequired" "1"
-			"timeupdated" "1725530426"
+			"timeupdated" "1727776821"
 		}
 		"betaer"
 		{
-			"buildid" "15522194"
+			"buildid" "15887018"
 			"pwdrequired" "1"
-			"timeupdated" "1724870059"
+			"timeupdated" "1727795539"
 		}
 		"previous-re-rerelease"
 		{
@@ -348,7 +371,7 @@
 "ufs"
 {
 	"quota" "500000000"
-	"maxnumfiles" "10"
+	"maxnumfiles" "1000"
 	"savefiles"
 	{
 		"1"
@@ -375,7 +398,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "25093841"
-"_sha" "98709d7847d7f1dbda4b5c693419e52caff7873c"
-"_size" "6584"
