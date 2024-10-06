@@ -1,17 +1,22 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-07 06:09:27
+## 更新时间：2024-10-07 06:16:00
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1500740 | Snail Simulator| Game |
-| 2249450 | Butterfly's Poison; Blood Chains| Game |
-| 1932680 | LunarLux| Game |
-| 2704190 | 抬头只见天花板：故态复萌 The Relapse| DLC |
-| 2867940 | Shanghai Summer - Digital Art| DLC |
-| 1838970 | Crush the Castle Legacy Collection| Game |
-| 3002560 | Containment Initiative 2| Game |
-| 1992640 | Anime vs Evil: Apocalypse| Game |
-| 600130 | Valfaris| Game |
-| 1323900 | Scrapnaut| Game |
-| 1834920 | Countryball: Europe 1890| Game |
-| 746840 | Chronicles of Magic: Divided Kingdoms| Game |
+| 1425760 | Pulling No Punches| Game |
+| 33320 | Prince of Persia: The Forgotten Sands| game |
+| 1064460 | Murder House| Game |
+| 2206390 | BandRoll| Game |
+| 3161850 | Boosted Survivors| Game |
+| 2142330 | Bud Spencer & Terence Hill - Slaps And Beans 2| Game |
+| 2966470 | IdontFall| Game |
+| 1804170 | Mimicry| Game |
+| 20820 | Shatter| game |
+| 1028630 | Cricket 19| Game |
+| 2615380 | 炎龙传说1+2| Game |
+| 1696220 | 胡修狐| Game |
+| 3072060 | 101 Cats Hidden in Las Vegas| Game |
+| 2791650 | 100 只猫 柏林| Game |
+| 2007980 | 米斯蒂闪耀繁盛记| Game |
+| 389170 | Songs for a Hero - Definitive Edition| Game |
+| 2600830 | Lost Hope: Backrooms| Game |
