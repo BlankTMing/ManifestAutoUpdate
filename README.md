@@ -1,16 +1,11 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-07 06:54:33
+## 更新时间：2024-10-07 07:03:15
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 450170 | BOOR| Game |
-| 949790 | Rogue Bit| Game |
-| 546780 | Anomalies| Game |
-| 1166580 | Best Plumber| Game |
-| 561770 | Just Ignore Them| Game |
-| 522490 | Carrie's Order Up| Game |
-| 3011740 | Border Dungeon| Game |
-| 2656690 | Sona-Nyl of the Violet Shadows Refrain| Game |
-| 263880 | Aqua Kitty - Milk Mine Defender| Game |
-| 514580 | Cooking Witch| Game |
-| 351250 | Avalanche 2: Super Avalanche| Game |
+| 454900 | Amaranthine| Game |
+| 447210 | Blink| Game |
+| 2755810 | The Street 10| Game |
+| 381900 | Bard's Gold| Game |
+| 596200 | Blood 'n Bikinis| Game |
+| 390870 | Circuit Breakers| Game |
