@@ -1,18 +1,17 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-07 06:01:43
+## 更新时间：2024-10-07 06:09:27
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 3173930 | 爆笑三国| Game |
-| 2649800 | 唐草卡 Vinecard| Game |
-| 1850550 | I'm on Observation Duty 5| Game |
-| 3046270 | Hentai Tales: Uninhabited Island| Game |
-| 1702390 | Voor De Kroon| Game |
-| 2823080 | Sketchy's Contract| Game |
-| 1608400 | Vermillion| Game |
-| 3118580 | 101 Cats Hidden in Shanghai| Game |
-| 781130 | Creatura| Game |
-| 2313160 | 闇鍋人狼| Game |
-| 286280 | Steel Armor: Blaze of War| Game |
-| 922400 | DX-Ball 2: 20th Anniversary Edition| Game |
-| 1807090 | Wantless| Game |
+| 1500740 | Snail Simulator| Game |
+| 2249450 | Butterfly's Poison; Blood Chains| Game |
+| 1932680 | LunarLux| Game |
+| 2704190 | 抬头只见天花板：故态复萌 The Relapse| DLC |
+| 2867940 | Shanghai Summer - Digital Art| DLC |
+| 1838970 | Crush the Castle Legacy Collection| Game |
+| 3002560 | Containment Initiative 2| Game |
+| 1992640 | Anime vs Evil: Apocalypse| Game |
+| 600130 | Valfaris| Game |
+| 1323900 | Scrapnaut| Game |
+| 1834920 | Countryball: Europe 1890| Game |
+| 746840 | Chronicles of Magic: Divided Kingdoms| Game |
