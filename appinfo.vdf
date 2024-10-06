@@ -1,0 +1,349 @@
+"appid" "2928520"
+"common"
+{
+	"name" "Recycling Center Simulator"
+	"type" "Game"
+	"releasestate" "released"
+	"icon" "5507249acd5a22400878e272093db1e351ecd68b"
+	"clienticon" "96184eac3ea0a4e1731ec31eb8df946597a43f99"
+	"clienttga" "f141d0b77ec057c31ed259966a35c666d65b9326"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"aicontenttype" "1"
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "52.917152858809786"
+			"height_pct" "73.93730705295654"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "52.917152858809786"
+				"height_pct" "73.93730705295654"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1727859009"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Balas Games"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "PlayWay S.A."
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"hungarian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1727873641"
+	"community_hub_visible" "1"
+	"gameid" "2928520"
+	"store_tags"
+	{
+		"0" "3839"
+		"1" "599"
+		"2" "12472"
+		"3" "16689"
+		"4" "10235"
+		"5" "9204"
+		"6" "3810"
+		"7" "4695"
+		"8" "255534"
+		"9" "1643"
+		"10" "3968"
+		"11" "4191"
+		"12" "4845"
+		"13" "4175"
+		"14" "1702"
+		"15" "1654"
+		"16" "8945"
+		"17" "597"
+		"18" "21"
+		"19" "5350"
+	}
+	"review_score" "8"
+	"review_percentage" "84"
+}
+"extended"
+{
+	"developer" "Balas Games"
+	"publisher" "PlayWay S.A."
+}
+"config"
+{
+	"installdir" "Recycling Center Simulator"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "rcsim.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Start (Auto Graphics API) - Recommended"
+			}
+			"description" "Start (Auto Graphics API) - Recommended"
+		}
+		"2"
+		{
+			"executable" "rcsim.exe"
+			"arguments" "-force-d3d11"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Start (DirectX 11)"
+			}
+			"description" "Start (DirectX 11)"
+		}
+		"3"
+		{
+			"executable" "rcsim.exe"
+			"arguments" "-force-vulkan"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Start (Vulkan)"
+			}
+			"description" "Start (Vulkan)"
+		}
+		"4"
+		{
+			"executable" "rcsim.exe"
+			"arguments" "-force-glcore"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Start (OpenGL)"
+			}
+			"description" "Start (OpenGL)"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,dutch,hungarian,turkish,brazilian"
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229007"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2928521"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8048264901290849611"
+				"size" "3687104344"
+				"download" "1462530256"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"beta"
+			{
+				"gid" "E7444F6BDB9A8FCC095C2B259DA9B3E4"
+				"size" "2B68103A494A6C21EEFCD2A6E12AF0B5"
+				"download" "A6BB8FBE415AC71C7783A282EC08E641"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15772463"
+			"timeupdated" "1726846287"
+		}
+		"beta"
+		{
+			"buildid" "15772463"
+			"pwdrequired" "1"
+			"timeupdated" "1726845826"
+		}
+	}
+}
