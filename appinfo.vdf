@@ -35,8 +35,8 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1693958400"
-		"tested_build_id" "12029572"
+		"test_timestamp" "1724716800"
+		"tested_build_id" "15448956"
 		"tests"
 		{
 			"0"
@@ -46,18 +46,18 @@
 			}
 			"1"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
 			}
 			"2"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"3"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"4"
 			{
@@ -75,16 +75,17 @@
 			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-experimental"
+			"recommended_runtime" "proton-stable"
 			"requires_h264" "1"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
 	{
-		"english" "capsule_231x87.jpg"
+		"english" "bc20cd4bc842be02228bbb4c6a7767c638fc2021/capsule_231x87.jpg"
 	}
 	"header_image"
 	{
@@ -103,7 +104,56 @@
 			"height_pct" "100"
 		}
 	}
-	"store_asset_mtime" "1713554741"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "100"
+				"height_pct" "100"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1725892407"
 	"associations"
 	{
 		"0"
@@ -207,34 +257,34 @@
 	{
 		"0" "4064"
 		"1" "6702"
-		"2" "1742"
-		"3" "3942"
-		"4" "4295"
-		"5" "1755"
-		"6" "5900"
-		"7" "5094"
-		"8" "5716"
-		"9" "21"
-		"10" "4145"
-		"11" "3834"
-		"12" "1697"
-		"13" "4175"
-		"14" "4191"
-		"15" "7250"
-		"16" "4182"
-		"17" "11014"
-		"18" "4559"
-		"19" "4342"
+		"2" "1667"
+		"3" "1742"
+		"4" "3942"
+		"5" "4295"
+		"6" "1755"
+		"7" "5900"
+		"8" "5094"
+		"9" "5716"
+		"10" "21"
+		"11" "4145"
+		"12" "3834"
+		"13" "1697"
+		"14" "4175"
+		"15" "4191"
+		"16" "7250"
+		"17" "4182"
+		"18" "11014"
+		"19" "4559"
 	}
 	"review_score" "6"
-	"review_percentage" "70"
+	"review_percentage" "71"
 }
 "extended"
 {
 	"developer" "Fallen Leaf"
 	"publisher" "Dear Villagers"
 	"homepage" "https://fallenleaf.com.pl/fort-solis/"
-	"listofdlc" "2545430"
+	"listofdlc" "2545430,3160390"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -349,9 +399,15 @@
 			}
 			"nightly"
 			{
-				"gid" "113D14321B29BBE7F67C92BAC9ABACEB"
-				"size" "CB77F873781A9C2D90C097C659B66E5B"
-				"download" "0B1F45721F16E72CDD2EDFC4E3B5A927"
+				"gid" "E5F8056AD8D3C17D7C9DC95CFE742892"
+				"size" "7E3E611DA32B5F4B119213FC56102D8D"
+				"download" "685D7791A2990815BE22BD2AB942AFE8"
+			}
+			"shipping"
+			{
+				"gid" "AD5A0851E203500DED4372412B736589"
+				"size" "F5790FC840059F055D301020482B7EBC"
+				"download" "CA4EA7FE7739455834E90E2D1071A01C"
 			}
 		}
 	}
@@ -378,6 +434,12 @@
 				"size" "6E6CFE390C95F82963663672D1CC8906"
 				"download" "5490DDFED73E5FBF8D9BE4811B1A4E31"
 			}
+			"shipping"
+			{
+				"gid" "8523FD4B35F84747EC0D9847AB08F483"
+				"size" "AD2D228B7C085B2D4EC3C25E6E2691CA"
+				"download" "0B93BD1E17CEC9535441BBBB124CA619"
+			}
 		}
 	}
 	"2545430"
@@ -393,6 +455,20 @@
 		}
 		"dlcappid" "2545430"
 		"depotfromapp" "2545430"
+	}
+	"3160390"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8483743732992104885"
+				"size" "3238374975"
+				"download" "2815588384"
+			}
+		}
+		"dlcappid" "3160390"
+		"depotfromapp" "3160390"
 	}
 	"branches"
 	{
@@ -433,9 +509,15 @@
 		}
 		"nightly"
 		{
-			"buildid" "14209899"
+			"buildid" "15303288"
 			"pwdrequired" "1"
-			"timeupdated" "1714401344"
+			"timeupdated" "1723114788"
+		}
+		"shipping"
+		{
+			"buildid" "15713902"
+			"pwdrequired" "1"
+			"timeupdated" "1726483744"
 		}
 	}
 }
@@ -467,7 +549,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "23356643"
-"_sha" "fd7449871bcf3e02affd4ab73bcdeeb4cf9ae11c"
-"_size" "8637"
