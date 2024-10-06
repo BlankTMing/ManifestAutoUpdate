@@ -1,24 +1,18 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-07 05:39:25
+## 更新时间：2024-10-07 05:46:14
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 2935700 | Cowgirl's Café| Game |
-| 1580880 | Hatred: Black Label - comic book| DLC |
-| 2468100 | Pyrene| Game |
-| 1171890 | Hatred: Subscribe or Die| DLC |
-| 3216920 | 《兵团突击：现代战争》 - 列车DLC| DLC |
-| 2703850 | Rooftops & Alleys: The Parkour Game| Game |
-| 1018000 | Arcade Classics Anniversary Collection| Game |
-| 2400770 | 地下城资本家 (Dungeon Tycoon)| Game |
-| 2923390 | 服装店模拟| Game |
-| 2550040 | Subside| Game |
-| 3095170 | Sunshine Love Chapter 1| Game |
-| 2963040 | BoneTown: The Second Coming Edition - Kinks Lesbian| DLC |
-| 2963010 | BoneTown: The Second Coming Edition - Kinks Straight| DLC |
-| 1668100 | BoneTown: The Second Coming Edition - Cheats| DLC |
-| 2963050 | BoneTown: The Second Coming Edition - Kinks BDSM| DLC |
-| 288080 | BoneTown| Game |
-| 2366970 | Arco| Game |
-| 1581770 | SpellForce: Conquest of Eo| Game |
-| 212680 | FTL: Faster Than Light| Game |
+| 1407180 | Lawgivers II| Game |
+| 2820130 | Anno 1602 - History Edition| Game |
+| 1674900 | Train Yard Builder| Game |
+| 2244470 | Train Valley World| Game |
+| 2229480 | 战乙女终焉之歌| Game |
+| 1419850 | Saleblazers| Game |
+| 1566840 | Eden's Ritter 1:2 - Priestess of Pleasure| Game |
+| 1051590 | Lulu & Ennoi - Sacred Suit Girls| Game |
+| 2724540 | Cybernetic Seduction - 第一季| Game |
+| 2873820 | Redemption of Li Wei| Game |
+| 1714320 | Find Love or Die Trying / 寻爱或赴死| Game |
+| 611660 | Fallout 4 VR| Game |
+| 3085890 | 世外桃源| Game |
