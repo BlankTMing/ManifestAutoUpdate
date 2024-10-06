@@ -1,12 +1,12 @@
 "appid" "2905090"
 "common"
 {
-	"name" "Ubersoldier"
+	"name" "UberSoldier"
 	"type" "Game"
 	"oslist" "windows"
 	"osarch" ""
 	"osextended" ""
-	"icon" "740982f8072b71036dcc8c55b90667ec9d0b0bc7"
+	"icon" "bf272391b276d8a56f4ea96be149fbd1322c116c"
 	"clienticon" "74b0748136cdcdfeab2e14527b01ba7527cb9149"
 	"clienttga" "6012ea81d68607ad0dfc5610e61f17101373c1fd"
 	"eulas"
@@ -20,6 +20,12 @@
 		}
 	}
 	"releasestate" "released"
+	"name_localized"
+	{
+		"russian" "Восточный фронт: Неизвестная война"
+		"french" "East Front: UberSoldier"
+		"german" "ÜberSoldier"
+	}
 	"content_descriptors"
 	{
 		"0" "2"
@@ -29,18 +35,20 @@
 	"controllertagwizard" "1"
 	"small_capsule"
 	{
-		"english" "capsule_231x87.jpg"
+		"russian" "71d18b74795c02a82517a3e8946191c153130eed/capsule_231x87_russian.jpg"
+		"english" "b897864eecdcbff6fa308875b83e89194427e28c/capsule_231x87.jpg"
 	}
 	"header_image"
 	{
 		"english" "header.jpg"
+		"russian" "header_russian.jpg"
 	}
 	"library_assets"
 	{
-		"library_capsule" "en"
+		"library_capsule" "en,ru"
 		"library_hero" "en"
-		"library_logo" "en"
-		"library_header" "en"
+		"library_logo" "en,ru"
+		"library_header" "en,ru"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -54,29 +62,32 @@
 		{
 			"image"
 			{
-				"english" "library_600x900.jpg"
+				"english" "6a0b1e8cba2716e4bd6f39f7e2c77fd36997136c/library_600x900.jpg"
+				"russian" "d4755889c1c3d779c96cfc7d9af76a7359a408b8/library_600x900_russian.jpg"
 			}
 			"image2x"
 			{
-				"english" "library_600x900_2x.jpg"
+				"english" "6a0b1e8cba2716e4bd6f39f7e2c77fd36997136c/library_600x900_2x.jpg"
+				"russian" "d4755889c1c3d779c96cfc7d9af76a7359a408b8/library_600x900_russian_2x.jpg"
 			}
 		}
 		"library_hero"
 		{
 			"image"
 			{
-				"english" "library_hero.jpg"
+				"english" "57a2e48d2517e51dc9dbab2a8da9c2d35d2b1799/library_hero.jpg"
 			}
 			"image2x"
 			{
-				"english" "library_hero_2x.jpg"
+				"english" "57a2e48d2517e51dc9dbab2a8da9c2d35d2b1799/library_hero_2x.jpg"
 			}
 		}
 		"library_logo"
 		{
 			"image"
 			{
-				"english" "logo.png"
+				"english" "f981f98eb0bb4d143a1ed7a796ee32a5abb250d9/logo.png"
+				"russian" "befc631e26268975fa22cf14dd37634db83920fd/logo_russian.png"
 			}
 			"logo_position"
 			{
@@ -84,16 +95,25 @@
 				"width_pct" "54.52646220315228"
 				"height_pct" "57.19016083254493"
 			}
+			"image2x"
+			{
+				"russian" "befc631e26268975fa22cf14dd37634db83920fd/logo_russian_2x.png"
+			}
 		}
 		"library_header"
 		{
 			"image"
 			{
-				"english" "library_header.jpg"
+				"english" "0fdbba7a5b3a49848b95e9038f96cf719489fbc7/library_header.jpg"
+				"russian" "93de8fe057d2508b78e80dd38c28cacf0688b436/library_header_russian.jpg"
+			}
+			"image2x"
+			{
+				"russian" "93de8fe057d2508b78e80dd38c28cacf0688b436/library_header_russian_2x.jpg"
 			}
 		}
 	}
-	"store_asset_mtime" "1712074824"
+	"store_asset_mtime" "1727988457"
 	"associations"
 	{
 		"0"
@@ -107,10 +127,10 @@
 			"name" "Strategy First"
 		}
 	}
-	"primary_genre" "2"
+	"primary_genre" "1"
 	"genres"
 	{
-		"0" "2"
+		"0" "1"
 	}
 	"category"
 	{
@@ -123,6 +143,34 @@
 		{
 			"supported" "true"
 			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+			"subtitles" "true"
 		}
 	}
 	"steam_release_date" "1712329035"
@@ -132,15 +180,27 @@
 	{
 		"0" "19"
 		"1" "1663"
-		"2" "4182"
-		"3" "7423"
-		"4" "4150"
-		"5" "1678"
-		"6" "4667"
-		"7" "9"
+		"2" "3839"
+		"3" "1774"
+		"4" "4182"
+		"5" "4150"
+		"6" "1678"
+		"7" "21"
+		"8" "7423"
+		"9" "4667"
+		"10" "4342"
+		"11" "5363"
+		"12" "1687"
+		"13" "1708"
+		"14" "3993"
+		"15" "4191"
+		"16" "1742"
+		"17" "3968"
+		"18" "6625"
+		"19" "5611"
 	}
 	"review_score" "7"
-	"review_percentage" "85"
+	"review_percentage" "84"
 }
 "extended"
 {
@@ -167,22 +227,112 @@
 {
 	"2905091"
 	{
+		"config"
+		{
+			"oslist" "windows"
+		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "1953114748872327307"
-				"size" "2035471171"
+				"gid" "3935295587647882312"
+				"size" "2033325680"
 				"download" "1951918352"
 			}
 		}
 	}
+	"2905092"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2910450870578356755"
+				"size" "2044107459"
+				"download" "1960281424"
+			}
+		}
+	}
+	"2905093"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5387777618570347454"
+				"size" "2045369688"
+				"download" "1963624448"
+			}
+		}
+	}
+	"2905094"
+	{
+		"config"
+		{
+			"language" "polish"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3157777742484897724"
+				"size" "2032595016"
+				"download" "1951171296"
+			}
+		}
+	}
+	"2905095"
+	{
+		"config"
+		{
+			"language" "czech"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4470749620826853795"
+				"size" "2033661101"
+				"download" "1951968736"
+			}
+		}
+	}
+	"2905096"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9207711470532220631"
+				"size" "2034073949"
+				"download" "1952324848"
+			}
+		}
+	}
+	"baselanguages" "english,german,french,russian,polish,czech"
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "13826048"
-			"timeupdated" "1711131108"
+			"buildid" "15921455"
+			"timeupdated" "1728097974"
 		}
 	}
 }
