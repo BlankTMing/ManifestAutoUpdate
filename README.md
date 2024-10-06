@@ -1,28 +1,24 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-07 05:24:32
+## 更新时间：2024-10-07 05:39:25
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 2974340 | God of War Ragnarök - Digital Artbook| DLC |
-| 1619750 | Karryn's Prison| Game |
-| 394360 | Hearts of Iron IV| Game |
-| 2344520 | 《暗黑破坏神® IV》| Game |
-| 2669320 | 《EA SPORTS FC™ 25》| Game |
-| 2679460 | 暗喻幻想：ReFantazio| Game |
-| 2652480 | 煌星的胜利女神| Game |
-| 2159210 | Just a To the Moon Series Beach Episode 《去月球系列海滩特别篇》| Game |
-| 1778820 | 铁拳8| Game |
-| 1671490 | 迷宫贩~魔王城的开店还债之旅~| Game |
-| 2920570 | Dale & Dawson Stationery Supplies| Game |
-| 2228280 | MEMORIA POLIS| Game |
-| 1866980 | 阿瑞亚之旅| Game |
-| 2543760 | KAGE～Shadow of The Ninja 绝影战士| Game |
-| 22380 | Fallout: New Vegas| game |
-| 2379910 | Dystopika: 未来城市沙盒| Game |
-| 252530 | OMSI 2| Game |
-| 1669000 | Age of Wonders 4| Game |
-| 2698780 | 合同村| Game |
-| 2346500 | 那个夏天的小岛| Game |
-| 1644320 | Railway Empire 2| Game |
-| 1076160 | Command: Modern Operations| Game |
-| 24010 | Train Simulator Classic 2024| Game |
+| 2935700 | Cowgirl's Café| Game |
+| 1580880 | Hatred: Black Label - comic book| DLC |
+| 2468100 | Pyrene| Game |
+| 1171890 | Hatred: Subscribe or Die| DLC |
+| 3216920 | 《兵团突击：现代战争》 - 列车DLC| DLC |
+| 2703850 | Rooftops & Alleys: The Parkour Game| Game |
+| 1018000 | Arcade Classics Anniversary Collection| Game |
+| 2400770 | 地下城资本家 (Dungeon Tycoon)| Game |
+| 2923390 | 服装店模拟| Game |
+| 2550040 | Subside| Game |
+| 3095170 | Sunshine Love Chapter 1| Game |
+| 2963040 | BoneTown: The Second Coming Edition - Kinks Lesbian| DLC |
+| 2963010 | BoneTown: The Second Coming Edition - Kinks Straight| DLC |
+| 1668100 | BoneTown: The Second Coming Edition - Cheats| DLC |
+| 2963050 | BoneTown: The Second Coming Edition - Kinks BDSM| DLC |
+| 288080 | BoneTown| Game |
+| 2366970 | Arco| Game |
+| 1581770 | SpellForce: Conquest of Eo| Game |
+| 212680 | FTL: Faster Than Light| Game |
