@@ -1,0 +1,275 @@
+"appid" "2468100"
+"common"
+{
+	"name" "Pyrene"
+	"type" "Game"
+	"icon" "03ea56b448dd9d3fd28a8ac5727692257f647e95"
+	"clienttga" "d43584281803fa1d58aa33bffffd06f5fcea4586"
+	"clienticon" "92187a697a0f20d24683967d8699350ece494911"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macosapplesilicon,macosnotarized"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"french" "1"
+	}
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"english" "c12c267970f5c6d9e7b128f780ee5b4bf3a06f0a/capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "61.26021003500583"
+			"height_pct" "66.5637615768226"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "61.26021003500583"
+				"height_pct" "66.5637615768226"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1724692386"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Two Tiny Dice"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Indie Asylum"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "23"
+		"1" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1726246803"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2468100"
+	"store_tags"
+	{
+		"0" "9541"
+		"1" "4325"
+		"2" "6426"
+		"3" "9"
+		"4" "1091588"
+		"5" "791774"
+		"6" "1720"
+		"7" "1741"
+		"8" "1716"
+		"9" "32322"
+		"10" "4604"
+		"11" "6730"
+		"12" "1666"
+		"13" "4791"
+		"14" "14139"
+		"15" "3854"
+		"16" "16094"
+		"17" "1742"
+		"18" "4182"
+		"19" "3871"
+	}
+	"review_score" "8"
+	"review_percentage" "94"
+}
+"extended"
+{
+	"developer" "Two Tiny Dice"
+	"publisher" "Indie Asylum"
+}
+"config"
+{
+	"installdir" "Pyrene"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Pyrene.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Pyrene.app\\Contents\\MacOS\\Pyrene"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2468101"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1312333455175153685"
+				"size" "439070200"
+				"download" "226555440"
+			}
+		}
+	}
+	"2468102"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5411733482403272211"
+				"size" "403536748"
+				"download" "209969616"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15917680"
+			"timeupdated" "1727967737"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "20"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Pyrene/Saves/"
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Pyrene/Saves/"
+					"replace" "Pyrene/Saves"
+				}
+			}
+		}
+	}
+	"sync_while_suspended" "1"
+}
