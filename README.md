@@ -1,12 +1,11 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-08 01:47:05
+## 更新时间：2024-10-08 01:58:29
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 898180 | Pull Me Out| Game |
-| 1332040 | Damn Endless Orcs| Game |
-| 831480 | Killer Backflip 5| Game |
-| 1019240 | Nippon Ecchi Jigsaw| Game |
-| 729170 | Soldier of Failure 2| Game |
-| 800280 | FLYVALNY 20!8| Game |
-| 845060 | Simple Golfing| Game |
+| 386870 | Playing History 2 - Slave Trade| Game |
+| 2993070 | Candy Roller| Game |
+| 757870 | Australian trip| Game |
+| 567660 | Baseball Riot| Game |
+| 1143440 | Connor's Desert Adventure| Game |
+| 1209520 | Smart Moves| Game |
