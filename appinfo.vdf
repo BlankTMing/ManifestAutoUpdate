@@ -1,0 +1,600 @@
+"appid" "254200"
+"common"
+{
+	"name" "FortressCraft Evolved"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos,linux"
+	"logo" "a3ed3993e8b5f185682764ac58801e1d66f64131"
+	"logo_small" "a3ed3993e8b5f185682764ac58801e1d66f64131_thumb"
+	"icon" "d0b946ea6ffd26802d922a7715a4c996dfe5e910"
+	"clienticon" "b9d3caad0799828eaca036241e25f66ff87ade80"
+	"clienttga" "d6fadc5755155877977ce16afb1e93a175ce7f3d"
+	"linuxclienticon" "36c83061491ae05cd4445cf339a9d165f68c98f6"
+	"metacritic_name" "FortressCraft"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "afdde99ac1f620194de2dfb310d5e0e7845ab482/capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "60.73512252042008"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "60.73512252042008"
+				"height_pct" "100"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1726285053"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "ProjectorGames"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Digital Tribe"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+		"3" "3"
+		"4" "28"
+		"5" "2"
+	}
+	"category"
+	{
+		"category_12" "1"
+		"category_2" "1"
+		"category_29" "1"
+		"category_22" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_25" "1"
+		"category_15" "1"
+		"category_17" "1"
+		"category_31" "1"
+		"category_18" "1"
+		"category_30" "1"
+		"category_36" "1"
+		"category_38" "1"
+		"category_27" "1"
+		"category_49" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1447088580"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "254200"
+	"store_tags"
+	{
+		"0" "1100689"
+		"1" "255534"
+		"2" "3810"
+		"3" "1702"
+		"4" "1643"
+		"5" "492"
+		"6" "1662"
+		"7" "9"
+		"8" "21"
+		"9" "7332"
+		"10" "599"
+		"11" "1695"
+		"12" "3859"
+		"13" "122"
+		"14" "597"
+		"15" "1732"
+		"16" "3942"
+		"17" "5981"
+		"18" "1645"
+		"19" "4182"
+	}
+	"review_score" "6"
+	"review_percentage" "72"
+}
+"extended"
+{
+	"gamedir" "fortresscraftevolved"
+	"noservers" "0"
+	"serverbrowsername" "FortressCraft Evolved"
+	"developer" "ProjectorGames"
+	"publisher" "Digital Tribe"
+	"homepage" "http://fortresscraft.com"
+	"listofdlc" "319580,400400,443690,443691,590460,637130"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "FortressCraft"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "32\\fortresscraft.exe"
+			"description" "Play FortressCraft"
+			"workingdir" "32"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "32"
+			}
+		}
+		"1"
+		{
+			"executable" "64\\FC_64.exe"
+			"description" "Play FortressCraft Evolved(64bit)"
+			"workingdir" "64"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "launchlinux"
+			"description" "Play FortesscCraft Evolved"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"3"
+		{
+			"executable" "FortressCraft.app"
+			"description" "Launch OSX"
+			"type" "none"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"228985"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"254201"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7106184416545424869"
+				"size" "8645669348"
+				"download" "1492422672"
+			}
+			"p15-frozen"
+			{
+				"gid" "6175933424295870828"
+				"size" "5448526974"
+				"download" "924701824"
+			}
+			"p16-frozen"
+			{
+				"gid" "7065898040068327295"
+				"size" "5653176298"
+				"download" "986560272"
+			}
+			"p17-frozen"
+			{
+				"gid" "8392348315297969551"
+				"size" "6119904309"
+				"download" "1080416944"
+			}
+			"p18-frozen"
+			{
+				"gid" "5231629446054308278"
+				"size" "6961586005"
+				"download" "1266089824"
+			}
+			"p19-frozen"
+			{
+				"gid" "8145889175199617307"
+				"size" "7019446076"
+				"download" "1204208384"
+			}
+			"p22-nightly"
+			{
+				"gid" "7971159471306697776"
+				"size" "7755879299"
+				"download" "1479147952"
+			}
+			"release_build_test"
+			{
+				"gid" "8127331889271715453"
+				"size" "6124751362"
+				"download" "1089738768"
+			}
+			"secret-nightly"
+			{
+				"gid" "178027076620587629"
+				"size" "8645668406"
+				"download" "1492421728"
+			}
+			"staging"
+			{
+				"gid" "7106184416545424869"
+				"size" "8645669348"
+				"download" "1492422672"
+			}
+			"veryold"
+			{
+				"gid" "3855709182446346844"
+				"size" "435386560"
+				"download" "0"
+			}
+			"veryoldsurvival"
+			{
+				"gid" "1442079980355821753"
+				"size" "2612610660"
+				"download" "599743329871"
+			}
+		}
+	}
+	"254202"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+	}
+	"319580"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"dlcappid" "319580"
+	}
+	"254203"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4448290825919231354"
+				"size" "4342158371"
+				"download" "1488362272"
+			}
+			"p15-frozen"
+			{
+				"gid" "6675369798063879935"
+				"size" "2738904880"
+				"download" "914909760"
+			}
+			"p16-frozen"
+			{
+				"gid" "4529314054825532789"
+				"size" "2843075174"
+				"download" "980581936"
+			}
+			"p17-frozen"
+			{
+				"gid" "3718809316091629961"
+				"size" "3070077673"
+				"download" "1074327024"
+			}
+			"p18-frozen"
+			{
+				"gid" "8890252751949615409"
+				"size" "3506994552"
+				"download" "1263094752"
+			}
+			"p19-frozen"
+			{
+				"gid" "7485342894640196218"
+				"size" "3534000661"
+				"download" "1200862272"
+			}
+			"p22-nightly"
+			{
+				"gid" "3718809316091629961"
+				"size" "3070077673"
+				"download" "1074327024"
+			}
+			"release_build_test"
+			{
+				"gid" "4529314054825532789"
+				"size" "2843075174"
+				"download" "980581936"
+			}
+			"secret-nightly"
+			{
+				"gid" "1692035248010619001"
+				"size" "4342157900"
+				"download" "1488362880"
+			}
+			"staging"
+			{
+				"gid" "4448290825919231354"
+				"size" "4342158371"
+				"download" "1488362272"
+			}
+			"veryold"
+			{
+				"gid" "4529314054825532789"
+				"size" "2843075174"
+				"download" "980581936"
+			}
+			"veryoldsurvival"
+			{
+				"gid" "4529314054825532789"
+				"size" "2843075174"
+				"download" "980581936"
+			}
+		}
+	}
+	"254204"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1680484253249274141"
+				"size" "4324850767"
+				"download" "1476920192"
+			}
+			"p15-frozen"
+			{
+				"gid" "4774826600804726428"
+				"size" "2750153359"
+				"download" "917289024"
+			}
+			"p16-frozen"
+			{
+				"gid" "1904920796075043868"
+				"size" "2853048357"
+				"download" "982594816"
+			}
+			"p17-frozen"
+			{
+				"gid" "2235398617474346494"
+				"size" "3081857800"
+				"download" "1077090976"
+			}
+			"p18-frozen"
+			{
+				"gid" "7639469610132351829"
+				"size" "3495125548"
+				"download" "1255183104"
+			}
+			"p19-frozen"
+			{
+				"gid" "3359959554907868817"
+				"size" "3520188073"
+				"download" "1191739104"
+			}
+			"p22-nightly"
+			{
+				"gid" "3437830827538085556"
+				"size" "3304692328"
+				"download" "1154221232"
+			}
+			"release_build_test"
+			{
+				"gid" "1904920796075043868"
+				"size" "2853048357"
+				"download" "982594816"
+			}
+			"secret-nightly"
+			{
+				"gid" "3867679637072900283"
+				"size" "4324849784"
+				"download" "1476920256"
+			}
+			"staging"
+			{
+				"gid" "1680484253249274141"
+				"size" "4324850767"
+				"download" "1476920192"
+			}
+			"veryold"
+			{
+				"gid" "1904920796075043868"
+				"size" "2853048357"
+				"download" "982594816"
+			}
+			"veryoldsurvival"
+			{
+				"gid" "1904920796075043868"
+				"size" "2853048357"
+				"download" "982594816"
+			}
+		}
+	}
+	"workshopdepot" "254200"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3882749"
+			"timeupdated" "1577302543"
+		}
+		"p15-frozen"
+		{
+			"buildid" "1542844"
+			"timeupdated" "1485867337"
+		}
+		"p16-frozen"
+		{
+			"buildid" "1615619"
+			"timeupdated" "1514287785"
+		}
+		"p17-frozen"
+		{
+			"buildid" "2421216"
+			"timeupdated" "1519218967"
+		}
+		"p18-frozen"
+		{
+			"buildid" "2560490"
+			"timeupdated" "1523532189"
+		}
+		"p19-frozen"
+		{
+			"buildid" "2692099"
+			"timeupdated" "1526576011"
+		}
+		"p22-nightly"
+		{
+			"buildid" "3114750"
+			"timeupdated" "1536755884"
+		}
+		"release_build_test"
+		{
+			"buildid" "2430066"
+			"timeupdated" "1515693286"
+		}
+		"secret-nightly"
+		{
+			"buildid" "3627890"
+			"timeupdated" "1552041871"
+		}
+		"staging"
+		{
+			"buildid" "3882749"
+			"timeupdated" "1559555713"
+		}
+		"veryold"
+		{
+			"buildid" "1857313"
+			"timeupdated" "1496238576"
+		}
+		"veryoldsurvival"
+		{
+			"buildid" "1857330"
+			"timeupdated" "1496238914"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"4"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "ProjectorGames/FortressCraft/PlayerStats"
+			"pattern" "*.*"
+			"recursive" "1"
+		}
+		"5"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "ProjectorGames/FortressCraft/Worlds"
+			"pattern" "*.*"
+			"recursive" "1"
+		}
+	}
+}
