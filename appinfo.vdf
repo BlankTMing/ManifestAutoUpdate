@@ -1,0 +1,231 @@
+"appid" "2774490"
+"common"
+{
+	"name" "梦境多人生存挑战"
+	"type" "Game"
+	"releasestate" "released"
+	"name_localized"
+	{
+		"english" "Dream Survivors"
+		"schinese" "梦境多人生存挑战"
+	}
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+	}
+	"icon" "2a5724dda65126a38bfc8b8859bd3ca320556adc"
+	"clienticon" "df141b629b3b125d50bf61ad6665b942cbe8a4cc"
+	"clienttga" "83a3523f5e77580fe4119ba7de517dee6d1e81e3"
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn"
+		"library_hero" "en"
+		"library_logo" "en,zh-cn"
+		"library_header" "en,zh-cn"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "67.0574432088606"
+			"height_pct" "100"
+		}
+	}
+	"store_asset_mtime" "1715739424"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "XYNetwork"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "XYNetwork"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "4"
+		"2" "23"
+		"3" "3"
+		"4" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1715962890"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2774490"
+	"store_tags"
+	{
+		"0" "3942"
+		"1" "3959"
+		"2" "42804"
+		"3" "1662"
+		"4" "597"
+		"5" "4018"
+		"6" "4885"
+		"7" "3871"
+		"8" "3859"
+		"9" "4182"
+		"10" "1716"
+		"11" "122"
+		"12" "492"
+		"13" "19"
+		"14" "493"
+	}
+	"review_score" "5"
+	"review_percentage" "68"
+}
+"extended"
+{
+	"absolutemousecoordinates" "0"
+	"remoteplaytogethertestingbranches" "local"
+	"developer" "XYNetwork"
+	"publisher" "XYNetwork"
+}
+"config"
+{
+	"installdir" "DreamSurvivors"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DreamSurvivors.exe"
+			"type" "default"
+		}
+	}
+}
+"depots"
+{
+	"2774491"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7865229371630006622"
+				"size" "371142699"
+				"download" "249614688"
+			}
+			"alphatest"
+			{
+				"gid" "7865229371630006622"
+				"size" "371142699"
+				"download" "249614688"
+			}
+			"local"
+			{
+				"gid" "1597791799165502372"
+				"size" "370212849"
+				"download" "248729520"
+			}
+		}
+	}
+	"baselanguages" "schinese"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "14490392"
+			"timeupdated" "1716611880"
+		}
+		"alphatest"
+		{
+			"buildid" "14490392"
+			"description" "预发布测试"
+			"timeupdated" "1716606366"
+		}
+		"local"
+		{
+			"buildid" "14369938"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1715740388"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "XYNetwork/DreamSurvivors/Saves/{64BitSteamID}"
+			"pattern" "*.sav"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "XYNetwork/DreamSurvivors/Saves/{64BitSteamID}"
+					"replace" "unity.XYNetwork.DreamSurvivors.Saves.{64BitSteamID}"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "XYNetwork/DreamSurvivors/Saves/{64BitSteamID}"
+					"replace" ".config/unity3d/XYNetwork/DreamSurvivors/Saves/{64BitSteamID}"
+				}
+			}
+		}
+	}
+}
