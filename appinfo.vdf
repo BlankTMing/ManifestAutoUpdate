@@ -1,0 +1,199 @@
+"appid" "431260"
+"common"
+{
+	"name" "Cursed"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,linux"
+	"clienticon" "42ff01f078a7b387705c7644627458c5c7047c1a"
+	"clienttga" "318884021fc6a6d28beaee5dac7aa939859953a7"
+	"icon" "8d0cd104910dadc88ba225d60a2bfb5e455d006c"
+	"logo" "d675d558f2ba45551b46a43fef4d667c08afbcd4"
+	"logo_small" "d675d558f2ba45551b46a43fef4d667c08afbcd4_thumb"
+	"clienticns" "96fc718ae0f8f8340a24dcc02ce48c31dd69f599"
+	"linuxclienticon" "96fc718ae0f8f8340a24dcc02ce48c31dd69f599"
+	"languages"
+	{
+		"english" "1"
+		"russian" "1"
+	}
+	"metacritic_name" "Cursed"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1465221920"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Jetdogs Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Jetdogs Studios"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1466146800"
+	"steam_release_date" "1466172650"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "431260"
+	"store_tags"
+	{
+		"0" "21"
+		"1" "492"
+		"2" "1698"
+		"3" "7208"
+		"4" "1667"
+		"5" "1738"
+		"6" "1664"
+		"7" "597"
+		"8" "9"
+	}
+	"review_score" "8"
+	"review_percentage" "80"
+}
+"extended"
+{
+	"developer" "Jetdogs Studios"
+	"publisher" "Jetdogs Studios"
+	"homepage" "http://jetdogs.com"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Cursed"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "cursed.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "cursed"
+			"type" "none"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,russian,czech"
+	"431261"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7604899045933726244"
+				"size" "1238584064"
+				"download" "765360096"
+			}
+		}
+	}
+	"431262"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5029574974732493998"
+				"size" "1305824708"
+				"download" "773577040"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1924728"
+			"timeupdated" "1498731726"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Jetdogs Studios/Cursed"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "LinuxHome"
+			"path" ".jetdogs/cursed"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
