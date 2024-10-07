@@ -1,0 +1,358 @@
+"appid" "421190"
+"common"
+{
+	"name" "Larcenauts"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"clienticon" "e2e7af9aa16f7647365686c0a5a84c9cdd993595"
+	"clienttga" "ba1c38a6b7328e3375809b81081d6d380de16314"
+	"icon" "3b0894a881f1f8e4aa84cf2d3736fb117f54d926"
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+	}
+	"logo" "dde260117481e35595e6bdfb7b90292316862777"
+	"logo_small" "dde260117481e35595e6bdfb7b90292316862777_thumb"
+	"controllervr"
+	{
+		"oculus" "1"
+	}
+	"releasestate" "released"
+	"openvr_action_manifest_path" "Firestorm\\Config\\SteamVRBindings\\steamvr_manifest.json"
+	"openvrsupport" "1"
+	"othervrsupport" "1"
+	"othervrsupport_rift_13" "1"
+	"openxrsupport" "1"
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1665532800"
+		"tested_build_id" "0"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "63.36405529953917"
+			"height_pct" "50"
+		}
+	}
+	"store_asset_mtime" "1664394854"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Impulse Gear, Inc."
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Impulse Gear, Inc."
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Larcenauts"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+	}
+	"category"
+	{
+		"category_1" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_27" "1"
+		"category_52" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1623949211"
+	"community_hub_visible" "1"
+	"gameid" "421190"
+	"store_tags"
+	{
+		"0" "21978"
+		"1" "19"
+		"2" "1663"
+		"3" "1775"
+		"4" "1774"
+		"5" "3859"
+		"6" "3942"
+		"7" "620519"
+		"8" "3839"
+		"9" "5711"
+		"10" "3993"
+	}
+	"review_score" "6"
+	"review_percentage" "71"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Impulse Gear, Inc."
+	"publisher" "Impulse Gear, Inc."
+	"homepage" "https://www.larcenauts.com/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Larcenauts"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Larcenauts.exe"
+			"arguments" "-SteamOSS -hmd=OculusHMD"
+			"type" "othervr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Larcenauts"
+			}
+			"description" "Larcenauts"
+		}
+		"1"
+		{
+			"executable" "Larcenauts.exe"
+			"arguments" "-SteamOSS -hmd=SteamVR"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Larcenauts"
+			}
+			"description" "Larcenauts"
+		}
+		"2"
+		{
+			"executable" "Larcenauts.exe"
+			"arguments" "-SteamOSS -nohmd"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Spectator Mode [BETA]"
+			}
+			"description" "Spectator Mode [BETA]"
+		}
+		"3"
+		{
+			"executable" "Larcenauts.exe"
+			"arguments" "-SteamOSS -hmd=OpenXR"
+			"type" "openxr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"betakey" "test"
+			}
+			"description_loc"
+			{
+				"english" "Larcenauts"
+			}
+			"description" "Larcenauts"
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"421191"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5064984311818583864"
+				"size" "33174762565"
+				"download" "9291761200"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"alphademo"
+			{
+				"gid" "CBA59B601E2644F216F5F8191A25722B"
+				"size" "4567A1E3451C4A2CB87C5DEB65D75C87"
+				"download" "9A75EEAD45B11FEE1555A315D43C2A91"
+			}
+			"ants"
+			{
+				"gid" "9DA7F4501D8A28FA284306221C408DE8"
+				"size" "351F95488C4800373D94C9D3979BC616"
+				"download" "713BFB275294E313A073733E107729F6"
+			}
+			"betademo"
+			{
+				"gid" "3F5E1EEEDFD0657938819BA73C9FBC7C"
+				"size" "4E603DEE05BA40342B7036A23977165D"
+				"download" "E18F1096B455E5B17BC14C50DD0A4540"
+			}
+			"qabuild"
+			{
+				"gid" "ECA5BF1DD74809E7B6B46FFF692EA090"
+				"size" "F2309C597CA50CEC9A1C7D39A0704AEB"
+				"download" "24C556C9D79A7404BB16BD697DAD2F17"
+			}
+			"releasestaging"
+			{
+				"gid" "861CFD3383FA771E481EB7BF660A0BBB"
+				"size" "622336C5275002774720B37E2CF501F8"
+				"download" "17D3ED31120AF3C94913035D0C67AD08"
+			}
+			"test"
+			{
+				"gid" "E627BAC239847D88B3427EE2588AFDDF"
+				"size" "9BA1110FC84894EC50FB6961DCA8088F"
+				"download" "6DE80E333CE4976197ABD0A1F7232E72"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "9856898"
+			"timeupdated" "1667503589"
+		}
+		"alphademo"
+		{
+			"buildid" "6121937"
+			"pwdrequired" "1"
+			"timeupdated" "1611794318"
+		}
+		"ants"
+		{
+			"buildid" "8134252"
+			"pwdrequired" "1"
+			"timeupdated" "1643839041"
+		}
+		"betademo"
+		{
+			"buildid" "6333482"
+			"pwdrequired" "1"
+			"timeupdated" "1614969649"
+		}
+		"qabuild"
+		{
+			"buildid" "8100312"
+			"pwdrequired" "1"
+			"timeupdated" "1643337318"
+		}
+		"releasestaging"
+		{
+			"buildid" "7904338"
+			"pwdrequired" "1"
+			"timeupdated" "1639772613"
+		}
+		"test"
+		{
+			"buildid" "11722485"
+			"pwdrequired" "1"
+			"timeupdated" "1689622137"
+		}
+	}
+}
