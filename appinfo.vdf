@@ -1,0 +1,264 @@
+"appid" "499560"
+"common"
+{
+	"name" "Fourtex Jugo"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"clienticon" "953468e05b265483165f259deaca0ec90eb2e153"
+	"clienttga" "c175f5ef4105e217c03eb10942f770046ea7d9d6"
+	"icon" "42a443f67f14b29df88e1f1b67b9b573bcb8096d"
+	"clienticns" "3a482dfb09e017e9b92e71aebb66a90e1975bc53"
+	"linuxclienticon" "895dd34c80dfb9daecfb23fd3463a0098e859a39"
+	"logo" "f3d7f159dcd7c13a1ec3b1b566b1fa3ceab26219"
+	"logo_small" "f3d7f159dcd7c13a1ec3b1b566b1fa3ceab26219_thumb"
+	"releasestate" "released"
+	"osarch" ""
+	"osextended" "macos64"
+	"metacritic_name" "Fourtex Jugo"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"store_asset_mtime" "1667227612"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Salty Dog Digital"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Salty Dog Digital"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "2"
+	}
+	"category"
+	{
+		"category_28" "1"
+		"category_2" "1"
+		"category_22" "1"
+		"category_29" "1"
+		"category_23" "1"
+		"category_15" "1"
+		"category_25" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1492106773"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "499560"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "9"
+		"2" "492"
+		"3" "4026"
+		"4" "1664"
+	}
+	"review_score" "5"
+	"review_percentage" "50"
+}
+"extended"
+{
+	"developer" "Salty Dog Digital"
+	"publisher" "Salty Dog Digital"
+	"homepage" "http://saltydog.digital/jugo/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Fourtex Jugo"
+	"steamcontrollertemplateindex" "4"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Jugo.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Jugo.app/Contents/MacOS/Jugo"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Jugo.x86"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "32"
+			}
+		}
+		"3"
+		{
+			"executable" "Jugo.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"499561"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5403283702564170294"
+				"size" "71593596"
+				"download" "19129616"
+			}
+			"beta"
+			{
+				"gid" "5403283702564170294"
+				"size" "71593596"
+				"download" "19129616"
+			}
+		}
+	}
+	"499562"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1715934001508820337"
+				"size" "114377461"
+				"download" "29773504"
+			}
+			"beta"
+			{
+				"gid" "1715934001508820337"
+				"size" "114377461"
+				"download" "29773504"
+			}
+		}
+	}
+	"499563"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8509400564027901207"
+				"size" "109400262"
+				"download" "29721856"
+			}
+			"beta"
+			{
+				"gid" "8509400564027901207"
+				"size" "109400262"
+				"download" "29721856"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "1720069"
+			"timeupdated" "1492094901"
+		}
+		"beta"
+		{
+			"buildid" "1720069"
+			"description" "Public beta branch"
+			"timeupdated" "1490712218"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "200000000"
+	"maxnumfiles" "2048"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Salty Dog Digital/Fourtex Jugo/data"
+			"pattern" "*.txt"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Salty Dog Digital/Fourtex Jugo/data"
+					"replace" "Salty Dog Digital/Fourtex Jugo/data"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Salty Dog Digital/Fourtex Jugo/data"
+					"replace" ".config/unity3d/Salty Dog Digital/Fourtex Jugo/data"
+				}
+			}
+		}
+	}
+}
