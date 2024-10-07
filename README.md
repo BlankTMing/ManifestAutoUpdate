@@ -1,12 +1,9 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-08 04:21:34
+## 更新时间：2024-10-08 04:29:22
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 3183860 | Warship| Game |
-| 2164220 | Who is There?| Game |
-| 2587010 | Road Motorcycle| Game |
-| 383780 | Judgement| Game |
-| 1872730 | Math Game| Game |
-| 1863910 | Project Speed 2| Game |
-| 853260 | Ants! Mission of the salvation| Game |
+| 1690180 | CarterStory| Game |
+| 3030160 | Neon Fantasy: Mushrooms| Game |
+| 2597420 | 悠闲打砖块| Game |
+| 1720180 | Mini Island: Autumn| Game |
