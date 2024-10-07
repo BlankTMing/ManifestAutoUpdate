@@ -1,17 +1,18 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-08 02:23:17
+## 更新时间：2024-10-08 02:31:14
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1044520 | Inugami: Doggy Dojo!| Game |
-| 491620 | Beeftacular| Game |
-| 361380 | World War I| Game |
-| 477730 | Eador. Imperium| Game |
-| 292200 | Crazy Plant Shop| Game |
-| 1715350 | UNDETECTED| Game |
-| 280520 | Crea| Game |
-| 818190 | Clicker: Mining Simulator - Soundtrack| DLC |
-| 1093760 | Shogun's Empire: Hex Commander| Game |
-| 1535500 | Mini Car Racing - Tiny Split Screen Tournament| Game |
-| 2127430 | LOOP8 降神| Game |
-| 362380 | Push Me Pull You| Game |
+| 744420 | Adventures Of Pipi| Game |
+| 1965060 | Quest room| Game |
+| 568500 | Atomic Reconstruction| Game |
+| 421190 | Larcenauts| Game |
+| 1080410 | Bake 'n Switch| Game |
+| 278530 | 3 Stars of Destiny| Game |
+| 452410 | Damsel| Game |
+| 431260 | Cursed| Game |
+| 315340 | A.R.E.S. Extinction Agenda EX| Game |
+| 1880200 | 九夜：刺狼| Game |
+| 785110 | Anime girl Or Bottle?| Game |
+| 564940 | Alone With You| Game |
+| 1802110 | Take Over Body| Game |
