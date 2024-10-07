@@ -1,6 +1,6 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-08 04:36:50
+## 更新时间：2024-10-08 04:44:33
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 2654700 | 扔彩虹模擬器 \| Coin Toss Rainbow Simulator| Game |
+| 1539510 | Temptations X: Darkest Fantasy| Game |
