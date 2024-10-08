@@ -31,6 +31,50 @@
 		"0" "2"
 		"1" "5"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1727395200"
+		"tested_build_id" "15226694"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -213,15 +257,15 @@
 		"3" "1625"
 		"4" "1774"
 		"5" "1773"
-		"6" "4747"
-		"7" "3871"
+		"6" "3871"
+		"7" "4747"
 		"8" "1667"
 		"9" "3835"
 		"10" "7481"
 		"11" "7250"
 		"12" "5765"
-		"13" "19"
-		"14" "3964"
+		"13" "3964"
+		"14" "19"
 		"15" "5154"
 		"16" "6691"
 		"17" "4182"
@@ -271,9 +315,18 @@
 		{
 			"public"
 			{
-				"gid" "135156887256228520"
-				"size" "1726850770"
-				"download" "371242400"
+				"gid" "6372238381765089723"
+				"size" "1726867886"
+				"download" "371244976"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"development"
+			{
+				"gid" "B8FC80A5CA495D8C12F90523DDB37E87"
+				"size" "C79EE85A8F75C1871619AA01D261EC00"
+				"download" "DFC8CDB4E1B09D471A7D3892645FFB87"
 			}
 		}
 	}
@@ -281,8 +334,14 @@
 	{
 		"public"
 		{
-			"buildid" "15226694"
-			"timeupdated" "1722515886"
+			"buildid" "15954051"
+			"timeupdated" "1728334529"
+		}
+		"development"
+		{
+			"buildid" "15954051"
+			"pwdrequired" "1"
+			"timeupdated" "1728309085"
 		}
 	}
 }
