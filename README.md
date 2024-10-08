@@ -1,6 +1,6 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-08 07:11:20
+## 更新时间：2024-10-08 08:03:37
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1790600 | 七龙珠 电光炸裂！ZERO| Game |
+| 1805541 | Expeditions: Rome - Soundtrack| Music |
