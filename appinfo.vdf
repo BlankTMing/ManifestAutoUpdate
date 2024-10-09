@@ -1,0 +1,375 @@
+"appid" "2990640"
+"common"
+{
+	"name" "Endoparasitic 2"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"osextended" "macos64,macosapplesilicon"
+	"icon" "cb1ca24b9acfcf01356871e4370a70c67369e869"
+	"clienticon" "9e1d636cd8ef89e1d55167bab16cb9c594cc8806"
+	"clienttga" "69345a031994bdae2e440eab826adf3d3a9f28fa"
+	"releasestate" "released"
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "90.57021673041436"
+			"height_pct" "61.314350628162614"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "90.57021673041436"
+				"height_pct" "61.314350628162614"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1724205597"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Deep Root Interactive"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Deep Root Interactive"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Endoparasitic"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "1"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1727808891"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2990640"
+	"store_tags"
+	{
+		"0" "3978"
+		"1" "1755"
+		"2" "3942"
+		"3" "3871"
+		"4" "1667"
+		"5" "19"
+		"6" "4791"
+		"7" "3834"
+		"8" "7432"
+		"9" "1774"
+		"10" "4182"
+		"11" "4106"
+		"12" "6869"
+		"13" "4094"
+		"14" "3964"
+		"15" "1687"
+		"16" "1659"
+		"17" "4166"
+		"18" "4342"
+		"19" "21"
+	}
+	"review_score" "8"
+	"review_percentage" "93"
+}
+"extended"
+{
+	"developer" "Deep Root Interactive"
+	"publisher" "Deep Root Interactive"
+	"homepage" "https://www.deeproot.dev/"
+}
+"config"
+{
+	"installdir" "Endoparasitic2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Endoparasitic2.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "Vulkan"
+			}
+			"description" "Vulkan"
+		}
+		"1"
+		{
+			"executable" "Endoparasitic2.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "Endoparasitic2.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"3"
+		{
+			"executable" "Endoparasitic2.exe"
+			"arguments" "--rendering-driver opengl3"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "using OpenGL"
+			}
+			"description" "using OpenGL"
+		}
+		"4"
+		{
+			"executable" "Endoparasitic2.x86_64"
+			"arguments" "--rendering-driver opengl3"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "linux"
+			}
+			"description_loc"
+			{
+				"english" "using OpenGL"
+			}
+			"description" "using OpenGL"
+		}
+		"5"
+		{
+			"executable" "Endoparasitic2.app"
+			"arguments" "--rendering-driver opengl3"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "using OpenGL"
+			}
+			"description" "using OpenGL"
+		}
+	}
+}
+"depots"
+{
+	"2990641"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8087007370474868414"
+				"size" "179936936"
+				"download" "87752288"
+			}
+			"beta"
+			{
+				"gid" "8087007370474868414"
+				"size" "179936936"
+				"download" "87752288"
+			}
+		}
+	}
+	"2990642"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8974617059828980294"
+				"size" "166781748"
+				"download" "83849120"
+			}
+			"beta"
+			{
+				"gid" "8974617059828980294"
+				"size" "166781748"
+				"download" "83849120"
+			}
+		}
+	}
+	"2990643"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2716015118443653850"
+				"size" "261112741"
+				"download" "104845440"
+			}
+			"beta"
+			{
+				"gid" "2716015118443653850"
+				"size" "261112741"
+				"download" "104845440"
+			}
+		}
+	}
+	"baselanguages" "english"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15934304"
+			"timeupdated" "1728084017"
+		}
+		"beta"
+		{
+			"buildid" "15934304"
+			"description" "for testing new patches"
+			"timeupdated" "1728071423"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "1000000000"
+	"maxnumfiles" "1000"
+	"ignoreexternalfiles" "1"
+	"hidecloudui" "1"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "Godot/app_userdata/Endoparasitic2/"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+		"1"
+		{
+			"root" "MacHome"
+			"path" ".local/share/godot/app_userdata/Endoparasitic/"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "MacOS"
+			}
+		}
+		"2"
+		{
+			"root" "LinuxHome"
+			"path" ".local/share/godot/app_userdata/Endoparasitic/"
+			"pattern" "*.save"
+			"platforms"
+			{
+				"1" "Linux"
+			}
+		}
+	}
+}
