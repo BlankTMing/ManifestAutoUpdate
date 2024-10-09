@@ -10,6 +10,50 @@
 	"oslist" "windows"
 	"osarch" ""
 	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1727827200"
+		"tested_build_id" "15850333"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -82,7 +126,7 @@
 			}
 		}
 	}
-	"store_asset_mtime" "1727713450"
+	"store_asset_mtime" "1727877495"
 	"associations"
 	{
 		"0"
@@ -199,7 +243,7 @@
 		"19" "1684"
 	}
 	"review_score" "8"
-	"review_percentage" "86"
+	"review_percentage" "85"
 }
 "extended"
 {
@@ -229,18 +273,18 @@
 		{
 			"public"
 			{
-				"gid" "4152174608633618706"
-				"size" "1051185450"
-				"download" "853953808"
+				"gid" "3582083124179263527"
+				"size" "1051186004"
+				"download" "853947376"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"twinsails_qa"
 			{
-				"gid" "CB4F896377DA4519749525283B53B1BE"
-				"size" "00A353C7EDDA59C82F7D9DC47B3C31CF"
-				"download" "B3DC469AE8AAF0D6F8ABF4B8C3E23BF3"
+				"gid" "0B21294BE8A2FE8505ADDE250D52EE7C"
+				"size" "2DC9B6AFA8FC2197C5B93EC0981AC6BE"
+				"download" "54C25A0F290E8557DC29839C2632C250"
 			}
 			"twinsails_prod"
 			{
@@ -250,15 +294,15 @@
 			}
 			"bloomtown_pre-release"
 			{
-				"gid" "54C036F099DD5DE3C676D7D1DEF5003F"
-				"size" "E58E5E464CF4838D5195557909AADBBB"
-				"download" "35FDA6734B3FA90C7211C11420B5932B"
+				"gid" "E480902FAF9CA12269E1222A4F0FD0A2"
+				"size" "E97A641A3157E75BD235C49539C60C57"
+				"download" "DA7F4471772532351FDDC3B904EB9464"
 			}
 			"test_dev"
 			{
-				"gid" "7A09971D0F812D868E60E72988075780"
-				"size" "C2919D4E861E30F69373BDD93D9E3E2F"
-				"download" "3E26FF444315D2E96F9745FE79264792"
+				"gid" "21B6156AA3D72C3B862455CE20C003DD"
+				"size" "A8CFB3D11331262E497680D8B5D2E91E"
+				"download" "87E5D0ABC06413B1282944E3DA0FE26A"
 			}
 			"twinsails_demo"
 			{
@@ -290,14 +334,14 @@
 	{
 		"public"
 		{
-			"buildid" "15887819"
-			"timeupdated" "1727798103"
+			"buildid" "15967657"
+			"timeupdated" "1728398754"
 		}
 		"twinsails_qa"
 		{
-			"buildid" "15887819"
+			"buildid" "15967657"
 			"pwdrequired" "1"
-			"timeupdated" "1727782107"
+			"timeupdated" "1728394588"
 		}
 		"twinsails_prod"
 		{
@@ -307,15 +351,15 @@
 		}
 		"bloomtown_pre-release"
 		{
-			"buildid" "15887819"
+			"buildid" "15967657"
 			"pwdrequired" "1"
-			"timeupdated" "1727802204"
+			"timeupdated" "1728398839"
 		}
 		"test_dev"
 		{
-			"buildid" "15885559"
+			"buildid" "15966995"
 			"pwdrequired" "1"
-			"timeupdated" "1727768671"
+			"timeupdated" "1728391194"
 		}
 		"twinsails_demo"
 		{
