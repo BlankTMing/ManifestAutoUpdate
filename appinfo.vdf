@@ -1,0 +1,346 @@
+"appid" "1248840"
+"common"
+{
+	"name" "Sephonie"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" ""
+	"osextended" "macos64,macosapplesilicon"
+	"logo" "7d0caa9cf2e2f5c459563de35c0e65e3631d62f0"
+	"logo_small" "7d0caa9cf2e2f5c459563de35c0e65e3631d62f0_thumb"
+	"clienticon" "591d297b26ba5a19c71ada234ab7cf58a0f4abdb"
+	"clienttga" "47273dcdbf2560b91cf25b57184402251b5874dc"
+	"icon" "fb2fcd05d5f5ac9d6955ef77bdb0d3734c0ba78c"
+	"languages"
+	{
+		"english" "1"
+		"japanese" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1658534400"
+		"tested_build_id" "8645737"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "38.28989255682121"
+			"height_pct" "96.52777777777777"
+		}
+	}
+	"store_asset_mtime" "1689388515"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Melos Han-Tani"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Marina Kittaka"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Analgesic Productions"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_13" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
+		"category_59" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+	}
+	"steam_release_date" "1649789511"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1248840"
+	"store_tags"
+	{
+		"0" "5395"
+		"1" "4166"
+		"2" "30358"
+		"3" "4036"
+		"4" "1654"
+		"5" "7208"
+		"6" "21"
+		"7" "1625"
+		"8" "44868"
+		"9" "1710"
+		"10" "4305"
+		"11" "1742"
+		"12" "4182"
+		"13" "492"
+		"14" "3834"
+		"15" "1697"
+		"16" "4191"
+		"17" "1684"
+		"18" "4853"
+		"19" "5608"
+	}
+	"review_score" "8"
+	"review_percentage" "91"
+}
+"extended"
+{
+	"developer" "Melos Han-Tani"
+	"publisher" "Analgesic Productions"
+	"homepage" "https://analgesic.productions/"
+}
+"config"
+{
+	"installdir" "Sephonie"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Sephonie.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Sephonie.app/Contents/MacOS/Sephonie"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "Sephonie.x86_64"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "2"
+	"steamconfigurator3rdpartynative" "65532"
+}
+"depots"
+{
+	"baselanguages" "english"
+	"1248841"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5315390127880244268"
+				"size" "739298387"
+				"download" "298670944"
+			}
+			"beta"
+			{
+				"gid" "5315390127880244268"
+				"size" "739298387"
+				"download" "298670944"
+			}
+		}
+	}
+	"1248842"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7778857068950083490"
+				"size" "750439802"
+				"download" "301871600"
+			}
+			"beta"
+			{
+				"gid" "7778857068950083490"
+				"size" "750439802"
+				"download" "301871600"
+			}
+		}
+	}
+	"1248843"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7893939953183765652"
+				"size" "737404995"
+				"download" "300006832"
+			}
+			"beta"
+			{
+				"gid" "7893939953183765652"
+				"size" "737404995"
+				"download" "300006832"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12907087"
+			"timeupdated" "1702005380"
+		}
+		"beta"
+		{
+			"buildid" "12907087"
+			"description" "steamdeck linux"
+			"timeupdated" "1702005746"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "10000000"
+	"maxnumfiles" "300"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Analgesic Productions LLC\\Sephonie"
+			"pattern" "*.txt"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" ""
+					"replace" "Analgesic Productions LLC/Sephonie"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Analgesic Productions LLC\\Sephonie"
+					"replace" ".config/unity3d/Analgesic Productions LLC/Sephonie"
+				}
+			}
+		}
+	}
+}
