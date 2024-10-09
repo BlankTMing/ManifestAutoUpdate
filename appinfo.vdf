@@ -1,0 +1,247 @@
+"appid" "1639880"
+"common"
+{
+	"name" "Longvinter Dedicated Server"
+	"type" "Tool"
+	"parent" "1635450"
+	"oslist" "windows,linux"
+	"osarch" "64"
+	"osextended" ""
+	"logo" "293ccb4c7bf0f2dc60233e5109b81c0e4cd16ef0"
+	"logo_small" "293ccb4c7bf0f2dc60233e5109b81c0e4cd16ef0_thumb"
+	"icon" "e14c0741602a743c0fe7fef9ca8a9c4231fe9682"
+	"clienttga" "9ceacf0e7471c8727b3fe186a6585e7357ec5ebb"
+	"clienticon" "da2efa45135aa1923b0f003b850ffe10ee7a10a4"
+	"releasestate" "released"
+	"associations"
+	{
+	}
+	"gameid" "1639880"
+	"exfgls" "9"
+}
+"config"
+{
+	"installdir" "Longvinter Dedicated Server"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Longvinter/Binaries/Win64/LongvinterServer-Win64-Shipping.exe"
+			"arguments" "-log"
+			"type" "server"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "Longvinter/Binaries/Linux/LongvinterServer-Linux-Shipping"
+			"arguments" "-log"
+			"type" "server"
+			"config"
+			{
+				"oslist" "linux"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1004"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7747775778018907449"
+				"size" "46727128"
+				"download" "14307024"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1005"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2135359612286175146"
+				"size" "0"
+				"download" "0"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1006"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7138471031118904166"
+				"size" "78382436"
+				"download" "21254752"
+			}
+		}
+		"depotfromapp" "1007"
+	}
+	"1639881"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6479487973657824494"
+				"size" "951539430"
+				"download" "265554672"
+			}
+			"1.10b"
+			{
+				"gid" "2303407881568629235"
+				"size" "641022907"
+				"download" "206679152"
+			}
+			"1.11"
+			{
+				"gid" "1144970778157545360"
+				"size" "884000338"
+				"download" "239296160"
+			}
+			"1.13"
+			{
+				"gid" "6599200428175941002"
+				"size" "992524165"
+				"download" "261701824"
+			}
+			"experimental"
+			{
+				"gid" "8686394292608968531"
+				"size" "970776672"
+				"download" "266803248"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"auth-test"
+			{
+				"gid" "5FC37890EECE0D4B8BEA14A0377B4C4C"
+				"size" "BC2B596E8792DE99BAD334F60FD0D035"
+				"download" "719E2178EBB5B0E7557AC3BB9E2336F2"
+			}
+		}
+	}
+	"1639882"
+	{
+		"config"
+		{
+			"oslist" "linux"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7952138994572180706"
+				"size" "892760817"
+				"download" "212919856"
+			}
+			"1.10b"
+			{
+				"gid" "582378037886370378"
+				"size" "586815316"
+				"download" "154400864"
+			}
+			"1.11"
+			{
+				"gid" "876347941046873366"
+				"size" "828749778"
+				"download" "186709856"
+			}
+			"1.13"
+			{
+				"gid" "3287206638975838103"
+				"size" "934344925"
+				"download" "209554400"
+			}
+			"experimental"
+			{
+				"gid" "7952138994572180706"
+				"size" "892760817"
+				"download" "212919856"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"auth-test"
+			{
+				"gid" "46D000D9F5C920DEAFCF74AFAA0B5DAC"
+				"size" "928FB472D7BFE7BE25D58209EEF2B3A3"
+				"download" "F3B81BE4B626C92C13CFFB2D848FF3A5"
+			}
+		}
+	}
+	"baselanguages" "english"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15873512"
+			"timeupdated" "1727689815"
+		}
+		"1.10b"
+		{
+			"buildid" "11252688"
+			"description" "For modding compatibility"
+			"timeupdated" "1684321074"
+		}
+		"1.11"
+		{
+			"buildid" "12632155"
+			"description" "For modding compatibility"
+			"timeupdated" "1700544879"
+		}
+		"1.13"
+		{
+			"buildid" "14596040"
+			"description" "For modding compatibility"
+			"timeupdated" "1719489616"
+		}
+		"auth-test"
+		{
+			"buildid" "14217250"
+			"pwdrequired" "1"
+			"timeupdated" "1716186846"
+		}
+		"experimental"
+		{
+			"buildid" "15927281"
+			"description" "For testing"
+			"timeupdated" "1728031122"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "25529961"
+"_sha" "684c8103257bcbde3f7fdc9450ba3fba110ab519"
+"_size" "4247"
