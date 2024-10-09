@@ -10,6 +10,55 @@
 	"clienticon" "a68d3e43f4aabfd25b4f7de4881f0762d22183e0"
 	"clienttga" "0239bcb1940f991f3d37c91c63307725bcdfef11"
 	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1727827200"
+		"tested_build_id" "15809656"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"small_capsule"
 	{
@@ -334,15 +383,15 @@
 		{
 			"public"
 			{
-				"gid" "2472447608858864979"
-				"size" "1933101230"
-				"download" "1079255200"
+				"gid" "7941149103086332028"
+				"size" "1944982555"
+				"download" "1081129792"
 			}
-			"beta-1_9_0"
+			"1_9_1-more-aftermath"
 			{
-				"gid" "3450058453618029993"
-				"size" "1932797437"
-				"download" "1079165152"
+				"gid" "2828404890125283018"
+				"size" "1944944155"
+				"download" "1081124608"
 			}
 			"old-1_8_5"
 			{
@@ -350,11 +399,23 @@
 				"size" "1932753675"
 				"download" "1079228304"
 			}
-			"testing"
+			"old-1_9_0c"
 			{
 				"gid" "2472447608858864979"
 				"size" "1933101230"
 				"download" "1079255200"
+			}
+			"test-1_9_0d"
+			{
+				"gid" "852150580104234455"
+				"size" "1933129902"
+				"download" "1079255968"
+			}
+			"testing"
+			{
+				"gid" "7941149103086332028"
+				"size" "1944982555"
+				"download" "1081129792"
 			}
 			"vk10"
 			{
@@ -390,15 +451,15 @@
 		{
 			"public"
 			{
-				"gid" "2410413203650705207"
-				"size" "2028060627"
-				"download" "1082659472"
+				"gid" "1496279031342719901"
+				"size" "2034404828"
+				"download" "1083082384"
 			}
-			"beta-1_9_0"
+			"1_9_1-more-aftermath"
 			{
-				"gid" "4967834660813500650"
-				"size" "2029518258"
-				"download" "1082719984"
+				"gid" "1496279031342719901"
+				"size" "2034404828"
+				"download" "1083082384"
 			}
 			"old-1_8_5"
 			{
@@ -406,11 +467,23 @@
 				"size" "2027675680"
 				"download" "1082608144"
 			}
-			"testing"
+			"old-1_9_0c"
 			{
 				"gid" "2410413203650705207"
 				"size" "2028060627"
 				"download" "1082659472"
+			}
+			"test-1_9_0d"
+			{
+				"gid" "2410413203650705207"
+				"size" "2028060627"
+				"download" "1082659472"
+			}
+			"testing"
+			{
+				"gid" "1496279031342719901"
+				"size" "2034404828"
+				"download" "1083082384"
 			}
 			"vk10"
 			{
@@ -439,14 +512,14 @@
 	{
 		"public"
 		{
-			"buildid" "15905717"
-			"timeupdated" "1727890921"
+			"buildid" "15974585"
+			"timeupdated" "1728438527"
 		}
-		"beta-1_9_0"
+		"1_9_1-more-aftermath"
 		{
-			"buildid" "15904551"
-			"description" "Patch PREVIEW - see post on Steam"
-			"timeupdated" "1727884561"
+			"buildid" "15973890"
+			"description" "More debug info in Aftermath"
+			"timeupdated" "1728433213"
 		}
 		"beta-testing"
 		{
@@ -460,11 +533,23 @@
 			"description" "Previous build"
 			"timeupdated" "1727890876"
 		}
-		"testing"
+		"old-1_9_0c"
 		{
 			"buildid" "15905717"
+			"description" "Previous build"
+			"timeupdated" "1728431519"
+		}
+		"test-1_9_0d"
+		{
+			"buildid" "15942105"
+			"description" "Moar windows"
+			"timeupdated" "1728168744"
+		}
+		"testing"
+		{
+			"buildid" "15974552"
 			"description" "Pre-release testing (unstable)"
-			"timeupdated" "1727890007"
+			"timeupdated" "1728438274"
 		}
 		"vk10"
 		{
@@ -514,6 +599,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "25505859"
-"_sha" "ee0b8d6a7581488c5514842a2016a7d91a56ffe5"
-"_size" "8734"
+"_change_number" "25620116"
+"_sha" "461264da63df9d352cfd7f5d89916b7e7ef10d8b"
+"_size" "10707"
