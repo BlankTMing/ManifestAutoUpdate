@@ -1,29 +1,27 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-10 16:41:16
+## 更新时间：2024-10-11 00:41:02
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 730 | Counter-Strike 2| Game |
-| 206440 | To the Moon《去月球》| Game |
-| 570 | Dota 2| game |
-| 20 | Team Fortress Classic| game |
-| 1485690 | 药剂大亨 - Potion Tycoon| Game |
+| 578080 | PUBG: BATTLEGROUNDS| Game |
 | 2343600 | 魔王终局| Game |
-| 362620 | Software Inc.| Game |
+| 1149620 | 加油站大亨| Game |
+| 700580 | Rust - Staging Branch| Game |
+| 1669000 | Age of Wonders 4| Game |
+| 1435790 | 密室逃脱模拟器| Game |
+| 1971870 | 真人快打 1 | Game |
+| 1062090 | 海狸浮生记 Timberborn| Game |
+| 1158310 | Crusader Kings III| Game |
+| 1284190 | The Planet Crafter| Game |
+| 1066780 | Transport Fever 2| Game |
 | 453090 | Parkitect| Game |
-| 1374930 | Black Geyser: Couriers of Darkness| Game |
-| 1101120 | 枪 匠 模拟器| Game |
-| 1494560 | 末日电涌 Rogue Voltage| Game |
-| 1432860 | Sun Haven| Game |
-| 2244130 | Ratopia| Game |
-| 2171630 | 地心归途| Game |
-| 582660 | Black Desert| Game |
-| 207140 | SpeedRunners| Game |
-| 2849080 | 王国保卫战 5：联盟| Game |
-| 665360 | Comedy Night| Game |
-| 1876070 | Windsor - Strategy| Game |
-| 1290000 | 冲就完事模拟器| Game |
-| 294100 | RimWorld| Game |
-| 2186680 | Warhammer 40,000: Rogue Trader| Game |
-| 2951990 | Warhammer 40,000: Rogue Trader - Void Shadows| DLC |
+| 2644470 | PICO PARK 2| Game |
+| 2361680 | 刀剑江湖路| Game |
+| 2334730 | Death Must Die| Game |
+| 1830970 | 将熄之焰 The Last Flame| Game |
+| 1167630 | Teardown| Game |
+| 489520 | 随从大师| Game |
+| 701160 | 王国：两位君主| Game |
+| 492720 | Tropico 6| Game |
+| 1934680 | Age of Mythology: Retold| Game |
 | 550650 | Black Squad| Game |
