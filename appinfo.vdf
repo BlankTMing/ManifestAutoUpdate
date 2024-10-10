@@ -215,7 +215,7 @@
 		"19" "1720"
 	}
 	"review_score" "8"
-	"review_percentage" "80"
+	"review_percentage" "81"
 }
 "extended"
 {
@@ -245,15 +245,15 @@
 			}
 			"description_loc"
 			{
-				"english" "Start with high-quality resources (need greater than 16GB memory)"
-				"schinese" "使用高清资源启动(需要16G以上内存)"
+				"english" "Start with high-quality resources (need greater than 24GB memory)"
+				"schinese" "使用高清资源启动(需要24G以上内存)"
 			}
-			"description" "Start with high-quality resources (need greater than 16GB memory)"
+			"description" "Start with high-quality resources (need greater than 24GB memory)"
 		}
 		"2"
 		{
 			"executable" "Sanctree.exe"
-			"arguments" "-sanctreelowres -sanctreereset"
+			"arguments" "-sanctreellowres -sanctreereset"
 			"config"
 			{
 				"oslist" "windows"
@@ -264,6 +264,21 @@
 				"schinese" "安全模式启动(重置用户配置并使用低清资源)"
 			}
 			"description" "Start in safe mode (reset user configuration and use low-quality resources)"
+		}
+		"3"
+		{
+			"executable" "Sanctree.exe"
+			"arguments" "-sanctreelowres -sanctreellowres"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Start with low-quality resources (for 12GB or lower memory)"
+				"schinese" "低清启动(适用于12G或更低的内存)"
+			}
+			"description" "Start with low-quality resources (for 12GB or lower memory)"
 		}
 	}
 	"steam_china_only"
@@ -279,18 +294,18 @@
 		{
 			"public"
 			{
-				"gid" "7299032260543787025"
-				"size" "6021386713"
-				"download" "851442096"
+				"gid" "5319901754233419057"
+				"size" "6648738145"
+				"download" "841550832"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"network_test"
 			{
-				"gid" "78F44E3077B851A5A46DF5EC2F3C459F"
-				"size" "EAE98441851C70EC034BA9E8567DEA89"
-				"download" "60767BC37E0EBBA4952584E9DDD7984D"
+				"gid" "5D502B096F099721BA69D0CAC0624EF3"
+				"size" "ADC6F0D4F21BC657B5870610243358C7"
+				"download" "6C8D2D02331DF2B2DDA3FC1BC8EF000C"
 			}
 		}
 	}
@@ -298,14 +313,14 @@
 	{
 		"public"
 		{
-			"buildid" "15965835"
-			"timeupdated" "1728384736"
+			"buildid" "15980841"
+			"timeupdated" "1728482358"
 		}
 		"network_test"
 		{
-			"buildid" "15942987"
+			"buildid" "15981825"
 			"pwdrequired" "1"
-			"timeupdated" "1728183943"
+			"timeupdated" "1728484110"
 		}
 	}
 }
@@ -316,3 +331,7 @@
 	"hidecloudui" "1"
 	"ignoreexternalfiles" "1"
 }
+"_missing_token" "False"
+"_change_number" "25640188"
+"_sha" "58f0104ca0a53cef78bd473bf3c9f3e3f022710c"
+"_size" "6385"
