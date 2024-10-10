@@ -10,6 +10,55 @@
 	"clienticon" "a68d3e43f4aabfd25b4f7de4881f0762d22183e0"
 	"clienttga" "0239bcb1940f991f3d37c91c63307725bcdfef11"
 	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1727827200"
+		"tested_build_id" "15809656"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "native"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"small_capsule"
 	{
@@ -334,33 +383,39 @@
 		{
 			"public"
 			{
-				"gid" "2472447608858864979"
-				"size" "1933101230"
-				"download" "1079255200"
+				"gid" "7941149103086332028"
+				"size" "1944982555"
+				"download" "1081129792"
 			}
-			"1_9_0d-aftermath"
+			"1_9_1-benchmark"
 			{
-				"gid" "385802217218916042"
-				"size" "1944940059"
-				"download" "1081117536"
+				"gid" "1933910426110083625"
+				"size" "1945368135"
+				"download" "1081260384"
 			}
-			"1_9_0d-mor-brix"
+			"1_9_1-more-aftermath"
 			{
-				"gid" "6740751908040068448"
-				"size" "1933125806"
-				"download" "1079264480"
+				"gid" "2828404890125283018"
+				"size" "1944944155"
+				"download" "1081124608"
 			}
-			"beta-1_9_0"
+			"beta-1_10_0"
 			{
-				"gid" "3450058453618029993"
-				"size" "1932797437"
-				"download" "1079165152"
+				"gid" "8957699152213062366"
+				"size" "1945506350"
+				"download" "1081140672"
 			}
 			"old-1_8_5"
 			{
 				"gid" "8056158963261683673"
 				"size" "1932753675"
 				"download" "1079228304"
+			}
+			"old-1_9_0c"
+			{
+				"gid" "2472447608858864979"
+				"size" "1933101230"
+				"download" "1079255200"
 			}
 			"test-1_9_0d"
 			{
@@ -370,9 +425,9 @@
 			}
 			"testing"
 			{
-				"gid" "6026376405129665994"
-				"size" "1944788654"
-				"download" "1081066976"
+				"gid" "7941149103086332028"
+				"size" "1944982555"
+				"download" "1081129792"
 			}
 			"vk10"
 			{
@@ -391,9 +446,9 @@
 		{
 			"beta-testing"
 			{
-				"gid" "3B0A53DF708D9784865AAC13B74A5DE8"
-				"size" "15725521344E4F61B14161215D7341D0"
-				"download" "C4EE44ACFB22210B7CD88C74A60D5ACB"
+				"gid" "6E5B4BA0FEDA58A9BF6C8E5D9B9974F7"
+				"size" "E11D60ACF1695F5633D839F58A888D1C"
+				"download" "53B93E5A718A34538680E5A8E63C4B54"
 			}
 		}
 	}
@@ -408,33 +463,39 @@
 		{
 			"public"
 			{
-				"gid" "2410413203650705207"
-				"size" "2028060627"
-				"download" "1082659472"
+				"gid" "1496279031342719901"
+				"size" "2034404828"
+				"download" "1083082384"
 			}
-			"1_9_0d-aftermath"
+			"1_9_1-benchmark"
 			{
-				"gid" "2410413203650705207"
-				"size" "2028060627"
-				"download" "1082659472"
+				"gid" "1496279031342719901"
+				"size" "2034404828"
+				"download" "1083082384"
 			}
-			"1_9_0d-mor-brix"
+			"1_9_1-more-aftermath"
 			{
-				"gid" "2410413203650705207"
-				"size" "2028060627"
-				"download" "1082659472"
+				"gid" "1496279031342719901"
+				"size" "2034404828"
+				"download" "1083082384"
 			}
-			"beta-1_9_0"
+			"beta-1_10_0"
 			{
-				"gid" "4967834660813500650"
-				"size" "2029518258"
-				"download" "1082719984"
+				"gid" "4598968894111214488"
+				"size" "2036488382"
+				"download" "1083158304"
 			}
 			"old-1_8_5"
 			{
 				"gid" "1114921517718178966"
 				"size" "2027675680"
 				"download" "1082608144"
+			}
+			"old-1_9_0c"
+			{
+				"gid" "2410413203650705207"
+				"size" "2028060627"
+				"download" "1082659472"
 			}
 			"test-1_9_0d"
 			{
@@ -444,9 +505,9 @@
 			}
 			"testing"
 			{
-				"gid" "5657343206104906332"
-				"size" "2035918686"
-				"download" "1083137776"
+				"gid" "1496279031342719901"
+				"size" "2034404828"
+				"download" "1083082384"
 			}
 			"vk10"
 			{
@@ -465,9 +526,9 @@
 		{
 			"beta-testing"
 			{
-				"gid" "D05340C9FB9947CD9F8383CEAAED060A"
-				"size" "AC37FEF2BCED2FB92B42E40640CF812B"
-				"download" "D900EEAC2066A2F61EDE26D9249EA71F"
+				"gid" "B8756EB8E37ABD253B231A363C7E7E12"
+				"size" "D37AE3FB5EE231F9FC4FDC04295DCD8A"
+				"download" "9771A8EE9A3431420A0AAD06B278A2FA"
 			}
 		}
 	}
@@ -475,38 +536,44 @@
 	{
 		"public"
 		{
-			"buildid" "15905717"
-			"timeupdated" "1727890921"
+			"buildid" "15974585"
+			"timeupdated" "1728438527"
 		}
-		"1_9_0d-aftermath"
+		"1_9_1-benchmark"
 		{
-			"buildid" "15966880"
-			"description" "NV Aftermath test (Windows-only)"
-			"timeupdated" "1728390444"
+			"buildid" "15982053"
+			"description" "1.9.1a plus benchmarking"
+			"timeupdated" "1728485418"
 		}
-		"1_9_0d-mor-brix"
+		"1_9_1-more-aftermath"
 		{
-			"buildid" "15954738"
-			"description" "1M bricks (windows-only build)"
-			"timeupdated" "1728312321"
+			"buildid" "15973890"
+			"description" "More debug info in Aftermath"
+			"timeupdated" "1728433213"
 		}
-		"beta-1_9_0"
+		"beta-1_10_0"
 		{
-			"buildid" "15904551"
+			"buildid" "15980881"
 			"description" "Patch PREVIEW - see post on Steam"
-			"timeupdated" "1727884561"
+			"timeupdated" "1728483405"
 		}
 		"beta-testing"
 		{
-			"buildid" "15904551"
+			"buildid" "15980881"
 			"pwdrequired" "1"
-			"timeupdated" "1727884326"
+			"timeupdated" "1728479755"
 		}
 		"old-1_8_5"
 		{
 			"buildid" "15891494"
 			"description" "Previous build"
 			"timeupdated" "1727890876"
+		}
+		"old-1_9_0c"
+		{
+			"buildid" "15905717"
+			"description" "Previous build"
+			"timeupdated" "1728431519"
 		}
 		"test-1_9_0d"
 		{
@@ -516,9 +583,9 @@
 		}
 		"testing"
 		{
-			"buildid" "15967989"
+			"buildid" "15974552"
 			"description" "Pre-release testing (unstable)"
-			"timeupdated" "1728396259"
+			"timeupdated" "1728438274"
 		}
 		"vk10"
 		{
@@ -567,3 +634,7 @@
 		}
 	}
 }
+"_missing_token" "False"
+"_change_number" "25630396"
+"_sha" "f6105107ba09507d53e4e44c027b955c43b995fe"
+"_size" "11470"
