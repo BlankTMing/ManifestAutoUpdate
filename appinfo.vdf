@@ -26,25 +26,25 @@
 	}
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1722384000"
-		"tested_build_id" "15066368"
+		"category" "3"
+		"test_timestamp" "1728604800"
+		"tested_build_id" "15953105"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"1"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"2"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
 			}
 			"3"
 			{
@@ -59,10 +59,10 @@
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "0"
 			"non_deck_display_glyphs" "0"
-			"small_text" "1"
+			"small_text" "0"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-9.0-2RC"
+			"recommended_runtime" "proton-stable"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
 			"hdr_support" "0"
@@ -96,7 +96,66 @@
 			"height_pct" "55.71158072058425"
 		}
 	}
-	"store_asset_mtime" "1724604918"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+				"koreana" "library_600x900_koreana.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+				"koreana" "library_600x900_koreana_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+				"schinese" "library_hero_schinese.jpg"
+				"japanese" "library_hero_japanese.jpg"
+				"koreana" "library_hero_koreana.jpg"
+				"sc_schinese" "library_hero_sc_schinese.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"sc_schinese" "logo_sc_schinese.png"
+				"koreana" "logo_koreana.png"
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "UpperCenter"
+				"width_pct" "92.65354149228767"
+				"height_pct" "55.71158072058425"
+			}
+			"image2x"
+			{
+				"sc_schinese" "logo_sc_schinese_2x.png"
+				"koreana" "logo_koreana_2x.png"
+				"english" "logo_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+				"sc_schinese" "library_header_sc_schinese.jpg"
+				"koreana" "library_header_koreana.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1728636364"
 	"associations"
 	{
 		"0"
@@ -194,7 +253,7 @@
 	"developer" "Gentle Troll Entertainment"
 	"publisher" "Gentle Troll Entertainment"
 	"homepage" "https://taverntalkgame.com\?ref=steam"
-	"listofdlc" "3047210,3054560,3054600,3054620"
+	"listofdlc" "3047210,3054560,3054600,3054620,3268390"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -326,9 +385,9 @@
 		{
 			"public"
 			{
-				"gid" "5310842300022369263"
-				"size" "661063142"
-				"download" "390477552"
+				"gid" "609169469122828883"
+				"size" "661086734"
+				"download" "390494816"
 			}
 		}
 		"encryptedmanifests"
@@ -339,23 +398,23 @@
 				"size" "F18278AA8A0286D14CB7D5A0DFE0BD15"
 				"download" "796FCA6054FD018FBBE4E8A1FA682A36"
 			}
-			"testing"
-			{
-				"gid" "C60C574EE13D285A93D97F20611AA83E"
-				"size" "596FB0A499D5DEF841886115B23684A0"
-				"download" "F54EA56977126C4789668DF9437C7665"
-			}
 			"testing-demo"
 			{
 				"gid" "7997A005F2784A1D2F69F861A2ACF151"
 				"size" "FC8BB97A62E57D6F4CE7245928EF82FE"
 				"download" "944D3A0C9E89105A7008F7FFCC335B89"
 			}
-			"testing-extended-demo"
+			"testing-dev"
 			{
-				"gid" "15DCC2A0C1D486859FB5AD9982E94FAF"
-				"size" "BA5BDFE5F4ADFD189114C1DF6F66D596"
-				"download" "D3A6B371D6775B2F0C29677D1AA7F9D0"
+				"gid" "EE6CDB0E755C24684C134649758C8CA7"
+				"size" "8C6A30E5C7CED529B8730C3E75A8327F"
+				"download" "8C5A6CE92F01C88C3A9FD20290F0B46C"
+			}
+			"testing-load"
+			{
+				"gid" "8E04A94CEF124E15E4761968857BEC89"
+				"size" "CA2B76F83E0706C868F8AC5D1D50F9F8"
+				"download" "698B96F6A23F12F2905863D82853E3E8"
 			}
 			"testing-loca"
 			{
@@ -365,9 +424,9 @@
 			}
 			"testing-release"
 			{
-				"gid" "78189B5F9522C74FF8C5CAAAA34C00D6"
-				"size" "30893322188FE1BF32F004B49B2BBF29"
-				"download" "79C95AB568056FA30D7B97EED0AF14E9"
+				"gid" "973674A623FFA2515C6A7DA31E77F037"
+				"size" "44521354DAF8CB2D165B1C85AC83C354"
+				"download" "F66907B09A2A9F51FF1A9A7657921D3B"
 			}
 			"testing-release-nightly"
 			{
@@ -388,9 +447,9 @@
 		{
 			"public"
 			{
-				"gid" "5539758682655309864"
-				"size" "762771323"
-				"download" "412331136"
+				"gid" "8320330115883488520"
+				"size" "762816788"
+				"download" "412233808"
 			}
 		}
 		"encryptedmanifests"
@@ -401,23 +460,29 @@
 				"size" "A56CC95BF53E6494FA92F1D597C80F53"
 				"download" "35471B4CF145373A079C2DBBA6E5B47A"
 			}
-			"testing"
-			{
-				"gid" "D44BDCCA3E9B4BD403718DF023BC325C"
-				"size" "AB44C4ABA561008C1EC19FD0B9E384DE"
-				"download" "AA1CF74150C4F2E60331754F5955387E"
-			}
 			"testing-demo"
 			{
 				"gid" "16CB2E6568B74812DCC6F7C7B1B233E0"
 				"size" "EDF37254541A23348AA947BDDD39DDF1"
 				"download" "5BEC49FF1DCC775B4367485D128C5163"
 			}
+			"testing-dev"
+			{
+				"gid" "B707D14FFF39D5B580EEEECE86CE588C"
+				"size" "BB1F6DCCDB31889E3A59D8BA6B595C9E"
+				"download" "1C3271D156D9C36552F8A89FADCD2C8B"
+			}
+			"testing-load"
+			{
+				"gid" "BBFB6FE8E74924F750A296A0586DC1B8"
+				"size" "F4B7CE81C5AC6E405C65EF8371D65042"
+				"download" "B808246F914131549CCC09275B5405AC"
+			}
 			"testing-release"
 			{
-				"gid" "5AF0942C249A56D28E8BD2B55F00C160"
-				"size" "9ED6728BE2FC87D6E7F4609EBFC56034"
-				"download" "C89F715A5DDBFB84D9DBDB9EFD04D21B"
+				"gid" "6BFE694D36052743C4A42FEAC3C1A9A2"
+				"size" "E206F74A0ADA8B3C8FAE462A3C9C9A45"
+				"download" "1448224EE6DE1048428743E17A7835AD"
 			}
 			"testing-release-nightly"
 			{
@@ -441,11 +506,17 @@
 		}
 		"encryptedmanifests"
 		{
-			"testing"
+			"testing-dev"
 			{
-				"gid" "2F5E1DD1D7B7C0542D2DDD0B5BBE4F75"
-				"size" "3583FA4BE541757DB7E8D4EDC51A3D15"
-				"download" "DC50870BB17082E93486100C6EC6C4A8"
+				"gid" "51AB67A1D5E9D6562FB63B688A4FCB58"
+				"size" "D50F7FEC8753E81285DFA2C8D938D772"
+				"download" "C0BB99FB85A9BF42859B0263D556BB46"
+			}
+			"testing-load"
+			{
+				"gid" "BA53A089E1A0C7A8B0552F2446146AB5"
+				"size" "AD81D4610CF03FD023E75062A35EC119"
+				"download" "91AC49B873B346CCC7B5BED39A34A2E9"
 			}
 			"testing-release"
 			{
@@ -460,8 +531,8 @@
 	{
 		"public"
 		{
-			"buildid" "15393549"
-			"timeupdated" "1723810247"
+			"buildid" "15953105"
+			"timeupdated" "1728630694"
 		}
 		"testing-kickstarter-demo"
 		{
@@ -469,23 +540,23 @@
 			"pwdrequired" "1"
 			"timeupdated" "1708360231"
 		}
-		"testing"
-		{
-			"buildid" "15493584"
-			"pwdrequired" "1"
-			"timeupdated" "1724678616"
-		}
 		"testing-demo"
 		{
 			"buildid" "15394115"
 			"pwdrequired" "1"
 			"timeupdated" "1723807402"
 		}
-		"testing-extended-demo"
+		"testing-dev"
 		{
-			"buildid" "14739802"
+			"buildid" "15951425"
 			"pwdrequired" "1"
-			"timeupdated" "1718613449"
+			"timeupdated" "1728293041"
+		}
+		"testing-load"
+		{
+			"buildid" "16006699"
+			"pwdrequired" "1"
+			"timeupdated" "1728636815"
 		}
 		"testing-loca"
 		{
@@ -495,9 +566,9 @@
 		}
 		"testing-release"
 		{
-			"buildid" "15393549"
+			"buildid" "15953105"
 			"pwdrequired" "1"
-			"timeupdated" "1723804020"
+			"timeupdated" "1728303161"
 		}
 		"testing-release-nightly"
 		{
