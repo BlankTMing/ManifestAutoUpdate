@@ -9,7 +9,7 @@
 	"logo_small" "1c2dc24a76df7a1c06a13eb7c8201c309ea796bb_thumb"
 	"clienticon" "97d513d999ad325287abe99b065fafeabe6309ae"
 	"clienttga" "506058dbab59a33ff18521253d9093169cef9e2b"
-	"oslist" "windows,macos"
+	"oslist" "windows,macos,linux"
 	"osarch" "64"
 	"osextended" "macos64,macosapplesilicon,macosnotarized"
 	"content_descriptors"
@@ -179,6 +179,61 @@
 			"full_audio" "true"
 			"subtitles" "true"
 		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1665646666"
 	"community_visible_stats" "1"
@@ -191,11 +246,11 @@
 		"2" "8369"
 		"3" "5372"
 		"4" "1664"
-		"5" "3871"
-		"6" "1742"
+		"5" "1742"
+		"6" "3871"
 		"7" "1698"
-		"8" "11014"
-		"9" "4064"
+		"8" "4064"
+		"9" "11014"
 		"10" "4342"
 		"11" "4166"
 		"12" "4182"
@@ -255,7 +310,6 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" " dev-branch-os-test"
 			}
 			"description_loc"
 			{
@@ -277,16 +331,35 @@
 		"3"
 		{
 			"executable" "linux/game.x86_64"
-			"type" "option2"
+			"type" "option1"
 			"config"
 			{
-				"betakey" "dev-branch-os-test"
+				"oslist" "linux"
+				"betakey" " dev-branch-os-test"
 			}
 			"description_loc"
 			{
-				"english" "The Case of the Golden Idol - Linux Version"
+				"english" "The Case of the Golden Idol - Steam Deck Version"
 			}
-			"description" "The Case of the Golden Idol - Linux Version"
+			"description" "The Case of the Golden Idol - Steam Deck Version"
+		}
+		"4"
+		{
+			"executable" "game.exe"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "NoBranch"
+			}
+			"description_loc"
+			{
+				"english" "The Case of the Golden Idol"
+				"koreana" "황금 우상 사건"
+				"tchinese" "黃金神像謀殺案"
+				"japanese" "ザ・ケース・オブ・ザ・ゴールデン・アイドル"
+			}
+			"description" "The Case of the Golden Idol"
 		}
 	}
 	"steamdecktouchscreen" "1"
@@ -306,9 +379,9 @@
 		{
 			"public"
 			{
-				"gid" "2422483732699678875"
-				"size" "410201913"
-				"download" "339927248"
+				"gid" "7967210891626946007"
+				"size" "1846760305"
+				"download" "554209328"
 			}
 		}
 		"encryptedmanifests"
@@ -357,9 +430,9 @@
 			}
 			"dev-branch-os-test"
 			{
-				"gid" "25B3BC4C253E3290811EEB49A99E3075"
-				"size" "4649A8BCE35267E402C3E16449DF72B9"
-				"download" "8BC89998EE4F92D3E41B32AAB06E26F3"
+				"gid" "3BEC472BCD66EFD1BB10C6D940EBE7B6"
+				"size" "B52511B2B01F7A9F9C37808FF2ACF3CA"
+				"download" "A1F02BF6710B2CD73DAAE0E6B79E2C6A"
 			}
 		}
 	}
@@ -428,7 +501,7 @@
 	{
 		"config"
 		{
-			"oslist" "windows,linux"
+			"oslist" "linux"
 		}
 		"manifests"
 		{
@@ -437,9 +510,9 @@
 		{
 			"dev-branch-os-test"
 			{
-				"gid" "F00ECAD0DC665CA05050A8072AC0904F"
-				"size" "3F62E45491F49C012B17FA8392C9C8F7"
-				"download" "6401EDBD964CF7F0C18EF17458AB8770"
+				"gid" "A962B6B7FD659358AAED95A69083B7AA"
+				"size" "A71CF4FCB83556F355BFF3A8B2AD36CD"
+				"download" "7FFF26AF98299D6A893EB04FAEE0A974"
 			}
 		}
 	}
@@ -531,12 +604,31 @@
 			}
 		}
 	}
+	"1677775"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"dev-branch-os-test"
+			{
+				"gid" "5E35E29CA0EEE51FBC3419073442DED0"
+				"size" "EEBEA98A91AA234979C21E42DD012098"
+				"download" "595B218380B4BCB28C3BB8DFD3E3B4A1"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "12157173"
-			"timeupdated" "1694419487"
+			"buildid" "15997527"
+			"timeupdated" "1728579045"
 		}
 		"alternative-saving"
 		{
@@ -582,9 +674,9 @@
 		}
 		"dev-branch-os-test"
 		{
-			"buildid" "15677879"
+			"buildid" "15996467"
 			"pwdrequired" "1"
-			"timeupdated" "1726147960"
+			"timeupdated" "1728573906"
 		}
 	}
 }
@@ -611,6 +703,12 @@
 			"root" "WinAppDataLocalLow"
 			"path" "PlayStack/The Case of the Golden Idol"
 			"pattern" "*.dat"
+		}
+		"5"
+		{
+			"root" "gameinstall"
+			"path" "SavesDir"
+			"pattern" "*.sav"
 		}
 	}
 	"rootoverrides"
