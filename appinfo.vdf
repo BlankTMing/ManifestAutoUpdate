@@ -43,29 +43,29 @@
 	"steam_deck_compatibility"
 	{
 		"category" "2"
-		"test_timestamp" "1669852800"
-		"tested_build_id" "6561869"
+		"test_timestamp" "1727136000"
+		"tested_build_id" "15587586"
 		"tests"
 		{
 			"0"
 			{
 				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
 			}
 			"1"
 			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
 			}
 			"2"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
 			}
 			"3"
 			{
 				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
 			}
 			"4"
 			{
@@ -80,12 +80,13 @@
 			"requires_non_controller_launcher_nav" "0"
 			"primary_player_is_controller_slot_0" "1"
 			"non_deck_display_glyphs" "0"
-			"small_text" "0"
+			"small_text" "1"
 			"requires_internet_for_setup" "0"
 			"requires_internet_for_singleplayer" "0"
-			"recommended_runtime" "proton-7.0-5"
+			"recommended_runtime" "proton-9.0-3RC"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"metacritic_name" "Atelier Ryza 2: Lost Legends &amp; the Secret Fairy"
@@ -333,13 +334,19 @@
 		{
 			"public"
 			{
-				"gid" "7807517503464923480"
-				"size" "24886193948"
-				"download" "13034514128"
+				"gid" "6355193257877894762"
+				"size" "24886193940"
+				"download" "13048846480"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"sim2zbufmeah"
+			{
+				"gid" "3F11A2699F24B63CB454EEE9759C2406"
+				"size" "97FA1A863E91A0E9EEF5E4AE0AB239B4"
+				"download" "9F1A10A983CAEB5C10A8CA724A1A8B77"
+			}
 			"qkh5xagucvcy"
 			{
 				"gid" "A3D5EC229D5A415B6F41E47C5F748107"
@@ -458,6 +465,12 @@
 		}
 		"encryptedmanifests"
 		{
+			"sim2zbufmeah"
+			{
+				"gid" "7BE885D64E74640B95ED05754FD2482E"
+				"size" "93C7E69D153432F9700E352443CC9CBE"
+				"download" "9EA9B207EFDA4178E9742027A26B4E08"
+			}
 			"qkh5xagucvcy"
 			{
 				"gid" "30B44EC694FD45B66F0BE0C06F404F9A"
@@ -534,6 +547,12 @@
 		}
 		"encryptedmanifests"
 		{
+			"sim2zbufmeah"
+			{
+				"gid" "C43B4896A3219B0E3BEAEEFCCA12D42B"
+				"size" "C341711E53EEBD3AB4B7F8942F30CD72"
+				"download" "CC614B8995DB8FA4A647667E51497CAE"
+			}
 			"qkh5xagucvcy"
 			{
 				"gid" "BEE00541F10031D4EB1D3C35816FBBAD"
@@ -610,6 +629,12 @@
 		}
 		"encryptedmanifests"
 		{
+			"sim2zbufmeah"
+			{
+				"gid" "6F24440C52CF6B5DD64447C447C64251"
+				"size" "B08E27CF78795CFBB24989DC77F7203A"
+				"download" "41D22ED60A874F2BD381B67F5218EB03"
+			}
 			"qkh5xagucvcy"
 			{
 				"gid" "66033C8EC89FBF90B9CA5869F6076E5B"
@@ -640,8 +665,14 @@
 	{
 		"public"
 		{
-			"buildid" "15587586"
-			"timeupdated" "1726796976"
+			"buildid" "15949491"
+			"timeupdated" "1728608584"
+		}
+		"sim2zbufmeah"
+		{
+			"buildid" "15949491"
+			"pwdrequired" "1"
+			"timeupdated" "1728278938"
 		}
 		"qkh5xagucvcy"
 		{
@@ -766,7 +797,3 @@
 		}
 	}
 }
-"_missing_token" "False"
-"_change_number" "25308765"
-"_sha" "51a4bfcf80aa747ac60a0eec17b110a33f8b843d"
-"_size" "17695"
