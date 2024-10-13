@@ -1,13 +1,11 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-13 22:18:08
+## 更新时间：2024-10-13 22:35:29
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 2165380 | 猎妻迷宫| Game |
-| 2976200 | 哥布林祭司的随从 美术设定集| DLC |
-| 3222700 | 海山：昆仑镜 - 三灾七难| DLC |
-| 2183900 | Warhammer 40,000: 星际战士2| Game |
-| 221001 | FTL: Faster Than Light - Soundtrack| Music |
-| 222750 | Wargame: AirLand Battle| Game |
-| 22380 | Fallout: New Vegas| game |
-| 22490 | Fallout: New Vegas PCR| game |
+| 229810 | A Fistful of Gun| Game |
+| 2304680 | Tofas Sahin: Online Car Driving| Game |
+| 2310700 | Shadow Corridor 2 雨ノ四葩| Game |
+| 2364370 | Zombie jokers 2| Game |
+| 2370170 | 地球再次变四方？！ 数码方块地球防卫军2| Game |
+| 2378910 | Settlements Rising| Game |
