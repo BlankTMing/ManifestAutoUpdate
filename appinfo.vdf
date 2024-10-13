@@ -12,6 +12,17 @@
 	"logo" "f9800c29947296e9d2ad1311674cf0dba52b6da0"
 	"logo_small" "f9800c29947296e9d2ad1311674cf0dba52b6da0_thumb"
 	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"tchinese" "1"
+	}
+	"name_localized"
+	{
+		"tchinese" "伊甸騎士 淫悅的聖魔騎士露西菲爾篇"
+		"schinese" "伊甸骑士 淫悦的圣魔骑士露西菲尔篇"
+	}
 	"content_descriptors"
 	{
 		"0" "1"
@@ -24,16 +35,21 @@
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
+		"schinese" "8367ea627ba830e388fe0b2f735a02bac4202799/capsule_231x87_schinese.jpg"
+		"tchinese" "ec940b75e99fc52f59cd4ca07517bea10e171bf2/capsule_231x87_tchinese.jpg"
 	}
 	"header_image"
 	{
 		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+		"tchinese" "header_tchinese.jpg"
 	}
 	"library_assets"
 	{
-		"library_capsule" "en"
+		"library_capsule" "en,zh-tw,zh-cn"
 		"library_hero" "en"
-		"library_logo" "en"
+		"library_logo" "en,zh-cn,zh-tw"
+		"library_header" "zh-cn,zh-tw,en"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -48,10 +64,14 @@
 			"image"
 			{
 				"english" "library_600x900.jpg"
+				"tchinese" "library_600x900_tchinese.jpg"
+				"schinese" "library_600x900_schinese.jpg"
 			}
 			"image2x"
 			{
 				"english" "library_600x900_2x.jpg"
+				"tchinese" "library_600x900_tchinese_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
 			}
 		}
 		"library_hero"
@@ -66,10 +86,14 @@
 			"image"
 			{
 				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+				"tchinese" "logo_tchinese.png"
 			}
 			"image2x"
 			{
 				"english" "logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+				"tchinese" "logo_tchinese_2x.png"
 			}
 			"logo_position"
 			{
@@ -78,8 +102,17 @@
 				"height_pct" "76.21705058180953"
 			}
 		}
+		"library_header"
+		{
+			"image"
+			{
+				"schinese" "library_header_schinese.jpg"
+				"tchinese" "library_header_tchinese.jpg"
+				"english" "cb4f39eb2147e5997774ade17c0377daba4c74e9/library_header.jpg"
+			}
+		}
 	}
-	"store_asset_mtime" "1685169607"
+	"store_asset_mtime" "1727691472"
 	"associations"
 	{
 		"0"
@@ -121,6 +154,16 @@
 		{
 			"full_audio" "true"
 		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
 	}
 	"steam_release_date" "1596178931"
 	"community_visible_stats" "1"
@@ -129,8 +172,8 @@
 	"store_tags"
 	{
 		"0" "3799"
-		"1" "4085"
-		"2" "12095"
+		"1" "12095"
+		"2" "4085"
 		"3" "4604"
 		"4" "4172"
 		"5" "21"
@@ -150,7 +193,7 @@
 		"19" "11014"
 	}
 	"review_score" "8"
-	"review_percentage" "87"
+	"review_percentage" "88"
 }
 "extended"
 {
@@ -233,14 +276,20 @@
 		}
 		"manifests"
 		{
+			"public"
+			{
+				"gid" "2366703997425411925"
+				"size" "447826102"
+				"download" "378828240"
+			}
 		}
 		"encryptedmanifests"
 		{
 			"beta"
 			{
-				"gid" "5A19721656B421BE634B22C621218BF3"
+				"gid" "369FBEF24FCA533F9864AEBF2F7EC6E6"
 				"size" "934CC8C918CD365814A5E972B81EB747"
-				"download" "13FC1656EA838DEBCCD162BC8B537AF2"
+				"download" "EBDA5D6A3C6561DD711C3D9F08DF4587"
 			}
 		}
 	}
@@ -252,14 +301,20 @@
 		}
 		"manifests"
 		{
+			"public"
+			{
+				"gid" "1199747046915986303"
+				"size" "445505496"
+				"download" "376560224"
+			}
 		}
 		"encryptedmanifests"
 		{
 			"beta"
 			{
-				"gid" "FB2F6A1271DC8503BF49F48A5E54D6A1"
-				"size" "BEFD5C52BF6BF2FD05B5111E8EB952DE"
-				"download" "7F9BB0B05F88D80B22A0F0C519F91EA6"
+				"gid" "DE1FB7198D6DF783C4EAF3923BA09877"
+				"size" "60F162F8D9E4B9D8CAFAD69FD2467C13"
+				"download" "1A4586474AE23FC99FF179693366DD72"
 			}
 		}
 	}
@@ -267,8 +322,8 @@
 	{
 		"public"
 		{
-			"buildid" "5344462"
-			"timeupdated" "1595991916"
+			"buildid" "15817286"
+			"timeupdated" "1727686713"
 		}
 		"alpha"
 		{
@@ -278,9 +333,9 @@
 		}
 		"beta"
 		{
-			"buildid" "15753788"
+			"buildid" "15817286"
 			"pwdrequired" "1"
-			"timeupdated" "1726734972"
+			"timeupdated" "1727237018"
 		}
 	}
 }
@@ -299,3 +354,7 @@
 		}
 	}
 }
+"_missing_token" "False"
+"_change_number" "25646269"
+"_sha" "c6a2fd4ab93f66ac567cedf407c3144f1b773fa9"
+"_size" "6454"
