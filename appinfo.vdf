@@ -10,7 +10,7 @@
 	"logo" "14f00f1abbe5d541e074386f1358f2422c4d6a5e"
 	"logo_small" "14f00f1abbe5d541e074386f1358f2422c4d6a5e_thumb"
 	"oslist" "windows"
-	"osarch" ""
+	"osarch" "64"
 	"osextended" ""
 	"languages"
 	{
@@ -73,6 +73,7 @@
 		}
 	}
 	"metacritic_name" "Colt Canyon"
+	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
 	{
@@ -87,6 +88,7 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "UpperCenter"
@@ -131,8 +133,19 @@
 				"height_pct" "83.4362384231774"
 			}
 		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "bd4554151030631cc2ee9a02744f0fc467420a68/library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "bd4554151030631cc2ee9a02744f0fc467420a68/library_header_2x.jpg"
+			}
+		}
 	}
-	"store_asset_mtime" "1661315920"
+	"store_asset_mtime" "1728768539"
 	"associations"
 	{
 		"0"
@@ -176,6 +189,10 @@
 		"category_29" "1"
 		"category_25" "1"
 		"category_43" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -299,9 +316,9 @@
 		{
 			"public"
 			{
-				"gid" "1118441811636874598"
-				"size" "567597457"
-				"download" "351428144"
+				"gid" "7538192620433998869"
+				"size" "571140696"
+				"download" "352585280"
 			}
 			"version-1020"
 			{
@@ -323,18 +340,24 @@
 			}
 			"unstable"
 			{
-				"gid" "7508574946463727061"
-				"size" "573218058"
-				"download" "352886624"
+				"gid" "7538192620433998869"
+				"size" "571140696"
+				"download" "352585280"
+			}
+			"version-1213"
+			{
+				"gid" "1118441811636874598"
+				"size" "567597457"
+				"download" "351428144"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"private"
 			{
-				"gid" "E023C6A18FEC9C8DBE6B4214D4074CB9"
-				"size" "BAA97AADD6B13E93D29B997DA2C2D746"
-				"download" "45F4E3FCB56D06087170C202D85AEBEB"
+				"gid" "9A8C2E22686D6FB3F4E72F7BAC64E421"
+				"size" "AAE175E4B5E6519F1939E1CA989F3AC0"
+				"download" "18D5B9959FB29843686FDDCBE6997FED"
 			}
 		}
 	}
@@ -344,8 +367,8 @@
 	{
 		"public"
 		{
-			"buildid" "10201865"
-			"timeupdated" "1673800292"
+			"buildid" "16022768"
+			"timeupdated" "1728768296"
 		}
 		"version-1020"
 		{
@@ -367,15 +390,21 @@
 		}
 		"private"
 		{
-			"buildid" "15690785"
+			"buildid" "16022768"
 			"pwdrequired" "1"
-			"timeupdated" "1726230714"
+			"timeupdated" "1728768108"
 		}
 		"unstable"
 		{
-			"buildid" "15690938"
+			"buildid" "16022768"
 			"description" "Public pre-release testing"
-			"timeupdated" "1726231533"
+			"timeupdated" "1728768263"
+		}
+		"version-1213"
+		{
+			"buildid" "10201865"
+			"description" "Version 1.2.1.3"
+			"timeupdated" "1728759706"
 		}
 	}
 }
@@ -409,54 +438,6 @@
 			"path" "ColtCanyon/userdata/savefiles/autosave"
 			"pattern" "*"
 			"recursive" "1"
-		}
-	}
-}
-"localization"
-{
-	"richpresence"
-	{
-		"english"
-		{
-			"tokens"
-			{
-				"#level" "Level"
-				"#progress" "progress"
-				"#areaboss_fight" "Facing Area %lvl% Boss"
-				"#areaboss_explore" "Approaching Area %lvl% Boss"
-				"#areaboss_won" "Defeated Area %lvl% Boss"
-				"#won" "Rescued partner successfully!"
-				"#ugpgrade" "Rescuing prisoner in {#level} %lvl%"
-				"#gameover" "Died at %progress% {#progress}"
-				"#inlevel_paused" "Resting in {#level} %lvl%"
-				"#inlevel_fight" "Fighting in {#level} %lvl%"
-				"#inlevel_explore" "Exploring {#level} %lvl%"
-				"#ambush" "Ambushed after {#level} %lvl%"
-				"#tutorial" "Entering the Canyon"
-				"#mainmenu" "Preparing for the Canyon"
-				"#unknown" "Doing secret stuff"
-			}
-		}
-		"german"
-		{
-			"tokens"
-			{
-				"#level" "Level"
-				"#progress" "Fortschritt"
-				"#areaboss_fight" "Bekämpft Area %lvl% Boss"
-				"#areaboss_explore" "Nähert sich Area %lvl% Boss"
-				"#areaboss_won" "Siegte über Area %lvl% Boss"
-				"#won" "Partner erfolgreich gerettet!"
-				"#ugpgrade" "Rettet Gefangene in {#level} %lvl%"
-				"#gameover" "Gestorben bei %progress% {#progress}"
-				"#inlevel_paused" "Pausiert in {#level} %lvl%"
-				"#inlevel_fight" "Kämpft in {#level} %lvl%"
-				"#inlevel_explore" "Erkundet {#level} %lvl%"
-				"#ambush" "Überfallen nach {#level} %lvl%"
-				"#tutorial" "Begiebt sich in den Canyon"
-				"#mainmenu" "Bereitet sich auf den Canyon vor"
-				"#unknown" "Macht geheime Sachen"
-			}
 		}
 	}
 }
