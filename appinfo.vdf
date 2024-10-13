@@ -15,6 +15,12 @@
 	"osarch" ""
 	"osextended" ""
 	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"schinese" "1"
+		"tchinese" "1"
+	}
 	"controllertagwizard" "1"
 	"small_capsule"
 	{
@@ -100,7 +106,7 @@
 			}
 		}
 	}
-	"store_asset_mtime" "1727101840"
+	"store_asset_mtime" "1727918795"
 	"associations"
 	{
 		"0"
@@ -113,6 +119,11 @@
 			"type" "publisher"
 			"name" "Macrojoy"
 		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "macrojoy"
+		}
 	}
 	"primary_genre" "1"
 	"genres"
@@ -123,6 +134,9 @@
 	"category"
 	{
 		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_25" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -141,6 +155,7 @@
 		}
 	}
 	"steam_release_date" "1721977365"
+	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "3059010"
 	"store_tags"
@@ -198,9 +213,9 @@
 		{
 			"public"
 			{
-				"gid" "5657046407181345110"
-				"size" "160760028"
-				"download" "156205776"
+				"gid" "7231332477940336906"
+				"size" "202833962"
+				"download" "173325392"
 			}
 		}
 	}
@@ -208,18 +223,16 @@
 	{
 		"public"
 		{
-			"buildid" "15808945"
-			"timeupdated" "1727183698"
+			"buildid" "16024117"
+			"timeupdated" "1728788999"
 		}
 	}
 }
 "ufs"
 {
-	"quota" "100"
+	"quota" "100000"
 	"maxnumfiles" "100"
 	"sync_while_suspended" "1"
-	"ignoreexternalfiles" "1"
-	"hidecloudui" "1"
 	"savefiles"
 	{
 		"0"
@@ -227,6 +240,17 @@
 			"root" "gameinstall"
 			"path" "SavesDir"
 			"pattern" "*.sav"
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"path" "CommandoCollection"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
 		}
 	}
 }
