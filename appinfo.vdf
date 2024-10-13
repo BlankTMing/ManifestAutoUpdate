@@ -3,7 +3,7 @@
 {
 	"name" "Environmental Station Alpha"
 	"type" "Game"
-	"oslist" "windows"
+	"oslist" "windows,macos,linux"
 	"logo" "e723421b76ad998944a6e009bc86db276167ac04"
 	"logo_small" "e723421b76ad998944a6e009bc86db276167ac04_thumb"
 	"icon" "2c9dce656d2da904e1fd3e0b9257c347609c9901"
@@ -12,7 +12,7 @@
 	"clienticns" "54734502a3092f1b17bc13d0191fa7b925595716"
 	"releasestate" "released"
 	"osarch" ""
-	"osextended" ""
+	"osextended" "macos64"
 	"steam_deck_compatibility"
 	{
 		"category" "1"
@@ -42,7 +42,8 @@
 		}
 	}
 	"metacritic_name" "Environmental Station Alpha"
-	"controller_support" "partial"
+	"controllertagwizard" "1"
+	"controller_support" "full"
 	"small_capsule"
 	{
 		"english" "capsule_231x87.jpg"
@@ -127,8 +128,9 @@
 	{
 		"category_2" "1"
 		"category_29" "1"
-		"category_18" "1"
 		"category_23" "1"
+		"category_22" "1"
+		"category_28" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -139,6 +141,7 @@
 		}
 	}
 	"steam_release_date" "1429743660"
+	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "350070"
 	"store_tags"
@@ -165,7 +168,6 @@
 }
 "extended"
 {
-	"disableoverlay" "1"
 	"developer" "Arvi Teikari"
 	"publisher" "Hempuli Oy"
 	"homepage" "http://www.hempuli.com/esa/"
@@ -185,15 +187,6 @@
 				"oslist" "windows"
 			}
 		}
-		"1"
-		{
-			"executable" "esa_launcher.sh"
-			"description" "Launch"
-			"config"
-			{
-				"oslist" "macos"
-			}
-		}
 		"2"
 		{
 			"executable" "Environmental Station Alpha.app\\Contents\\MacOS\\Chowdren"
@@ -201,7 +194,6 @@
 			"config"
 			{
 				"oslist" "macos"
-				"betakey" "chowdren"
 			}
 		}
 		"3"
@@ -211,10 +203,11 @@
 			"config"
 			{
 				"oslist" "linux"
-				"betakey" "chowdren"
 			}
 		}
 	}
+	"steamcontrollertemplateindex" "4"
+	"steamdecktouchscreen" "1"
 }
 "depots"
 {
@@ -229,9 +222,9 @@
 		{
 			"public"
 			{
-				"gid" "6718298598737953408"
-				"size" "118808226"
-				"download" "86905200"
+				"gid" "94169546639153247"
+				"size" "90041687"
+				"download" "42723504"
 			}
 		}
 		"encryptedmanifests"
@@ -244,9 +237,9 @@
 			}
 			"chowdren"
 			{
-				"gid" "D44E1395500D53292FD4C52FECDFD7E8"
-				"size" "035AE78A30EE4B5F14FCF35016E74F7D"
-				"download" "8F0E50B89D8D6D1246A8CA0470D6AB85"
+				"gid" "B6750CBFAD0B9A910037456C7A769D62"
+				"size" "0D2A265D9FCD821C1163CDC63D11C2F1"
+				"download" "0700F45586BB009AE25886BE130B5355"
 			}
 		}
 	}
@@ -260,9 +253,9 @@
 		{
 			"public"
 			{
-				"gid" "7037986358952019939"
-				"size" "125823626"
-				"download" "124557296"
+				"gid" "6861593558202500304"
+				"size" "89148712"
+				"download" "41700672"
 			}
 		}
 		"encryptedmanifests"
@@ -275,9 +268,9 @@
 			}
 			"chowdren"
 			{
-				"gid" "6CA84AD2D57665B06468B36147B908CC"
-				"size" "08503AC68702C2DCF60EC7251D2E1069"
-				"download" "1918B18020C7E7D447F924D4013FBB32"
+				"gid" "D75683875928B86D60FF6C7BEC7D215B"
+				"size" "70F8E143F0964AF987CF37722B5073D0"
+				"download" "8FA565815E37A6C54E25CF0D57372A4F"
 			}
 		}
 	}
@@ -289,14 +282,20 @@
 		}
 		"manifests"
 		{
+			"public"
+			{
+				"gid" "5672131987055997298"
+				"size" "88455799"
+				"download" "41636688"
+			}
 		}
 		"encryptedmanifests"
 		{
 			"chowdren"
 			{
-				"gid" "99A781E0EC2D38580FFDF9B26BFB050C"
-				"size" "A8702C8B8AF5406A058D7AAC24A7E78D"
-				"download" "045C32494959AB2F91CF937913F01F3D"
+				"gid" "F1F4D8C663A457F82436DE9EFB19BD0C"
+				"size" "632D0FAE5056A074CBF3C137E0B0D7FF"
+				"download" "FFD248D05960C88E16D993476427FC7E"
 			}
 		}
 	}
@@ -304,8 +303,8 @@
 	{
 		"public"
 		{
-			"buildid" "4567843"
-			"timeupdated" "1578983484"
+			"buildid" "16016005"
+			"timeupdated" "1728688166"
 		}
 		"esabeta"
 		{
@@ -315,9 +314,9 @@
 		}
 		"chowdren"
 		{
-			"buildid" "15819138"
+			"buildid" "16016005"
 			"pwdrequired" "1"
-			"timeupdated" "1727250683"
+			"timeupdated" "1728687997"
 		}
 	}
 }
@@ -332,70 +331,61 @@
 			"root" "WinAppDataRoaming"
 			"path" "MMFApplications"
 			"pattern" "ESA_Save.lar"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 		"1"
 		{
 			"root" "WinAppDataRoaming"
 			"path" "MMFApplications"
 			"pattern" "Map1.arr"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 		"2"
 		{
 			"root" "WinAppDataRoaming"
 			"path" "MMFApplications"
 			"pattern" "Map2.arr"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 		"3"
 		{
 			"root" "WinAppDataRoaming"
 			"path" "MMFApplications"
 			"pattern" "Map3.arr"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 		"4"
 		{
 			"root" "WinAppDataRoaming"
 			"path" "MMFApplications"
 			"pattern" "LMap1.arr"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 		"5"
 		{
 			"root" "WinAppDataRoaming"
 			"path" "MMFApplications"
 			"pattern" "LMap2.arr"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 		"6"
 		{
 			"root" "WinAppDataRoaming"
 			"path" "MMFApplications"
 			"pattern" "LMap3.arr"
-			"platforms"
-			{
-				"1" "Windows"
-			}
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxXdgDataHome"
+			"addpath" ""
+		}
+		"1"
+		{
+			"root" "WinAppDataRoaming"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"addpath" ""
 		}
 	}
 }
