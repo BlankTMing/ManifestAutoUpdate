@@ -1,0 +1,343 @@
+"appid" "1282050"
+"common"
+{
+	"name" "Tabletop Playground Beta"
+	"type" "Game"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"controllervr"
+	{
+		"steamvr" "1"
+		"oculus" "1"
+		"kbm" "1"
+	}
+	"playareavr"
+	{
+		"seated" "1"
+		"standing" "1"
+		"roomscale"
+		{
+			"width" "2"
+			"depth" "1.5"
+			"360_required" "0"
+		}
+	}
+	"clienttga" "dfddfe96ffb3bdde4955f0f288ea65ff53a2dc85"
+	"clienticon" "3dad50a032c3d371495abf0dc4e936e932804338"
+	"icon" "61a3bcf7f247567dde167fb89c52d654438a41dd"
+	"logo" "7df8d2781e850b27cc4478cf8b1a9ed9d6b8cc4a"
+	"logo_small" "7df8d2781e850b27cc4478cf8b1a9ed9d6b8cc4a_thumb"
+	"releasestate" "released"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "1282050_eula_0"
+			"name" "Tabletop Playground Beta EULA"
+			"url" "https://store.steampowered.com//eula/1282050_eula_0"
+		}
+	}
+	"openvrsupport" "1"
+	"app_retired_publisher_request" "1"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "65.78188143842424"
+			"height_pct" "40.0750436686984"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "65.78188143842424"
+				"height_pct" "40.0750436686984"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1587389103"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Plasticity Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Modularity"
+		}
+	}
+	"primary_genre" "28"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+		"3" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_47" "1"
+		"category_37" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_48" "1"
+		"category_39" "1"
+		"category_24" "1"
+		"category_23" "1"
+		"category_17" "1"
+		"category_53" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1587357370"
+	"community_hub_visible" "1"
+	"gameid" "1282050"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "9"
+		"2" "492"
+		"3" "597"
+		"4" "1669"
+		"5" "3968"
+		"6" "17389"
+		"7" "21978"
+		"8" "1666"
+		"9" "1685"
+		"10" "1770"
+		"11" "3810"
+		"12" "3843"
+		"13" "3859"
+		"14" "4184"
+	}
+	"review_score" "7"
+	"review_percentage" "85"
+}
+"extended"
+{
+	"vrheadsetstreaming" "1"
+	"developer" "Plasticity Studios"
+	"publisher" "Modularity"
+	"homepage" "https://tabletop-playground.com"
+}
+"config"
+{
+	"installdir" "TabletopPlaygroundBeta"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "TabletopPlayground.exe"
+			"arguments" "-nohmd"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"1"
+		{
+			"executable" "TabletopPlayground.exe"
+			"arguments" "-vr"
+			"type" "vr"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"838411"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "349925372548470597"
+				"size" "3278574587"
+				"download" "1416598752"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"releasecandidate"
+			{
+				"gid" "6FF0631C265B761F2BEA6B6DE4BACFFA"
+				"size" "E6BC1D1F68B6658BDC4ED1B2E8349B36"
+				"download" "CC6CFAC0C4CFB41923E4615D163C32BA"
+			}
+			"testing"
+			{
+				"gid" "EDC617E2694449E38DDC24D3A97B6B8A"
+				"size" "E09CCA5F4D0A8D3A8917C539462BD375"
+				"download" "D325B28C375396216177DBB522E1A943"
+			}
+		}
+		"depotfromapp" "838410"
+	}
+	"1282051"
+	{
+		"config"
+		{
+			"language" ""
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6845992518865518561"
+				"size" "2953748004"
+				"download" "1210222192"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"logging"
+			{
+				"gid" "F7F4F8C89A9CE2BD51AF27BCA2B376F5"
+				"size" "A308926FE99312CDAE536EDD0F79E658"
+				"download" "6A893BAA87018E21E65226FE5E0B5115"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "4957228"
+			"timeupdated" "1588114118"
+		}
+		"logging"
+		{
+			"buildid" "4931511"
+			"pwdrequired" "1"
+			"timeupdated" "1587580620"
+		}
+		"releasecandidate"
+		{
+			"buildid" "14049975"
+			"pwdrequired" "1"
+			"timeupdated" "1713111960"
+		}
+		"testing"
+		{
+			"buildid" "14049975"
+			"pwdrequired" "1"
+			"timeupdated" "1713112162"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "1000"
+	"appidredirect" "838410"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "TabletopPlayground/Saved/SavedStates"
+			"pattern" "*.vts"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocal"
+			"path" "TabletopPlayground/Saved/StoredObjects"
+			"pattern" "*.tpo"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "25376591"
+"_sha" "63d2ec88121587a13a845be2f02e49c0e18f8c7f"
+"_size" "5699"
