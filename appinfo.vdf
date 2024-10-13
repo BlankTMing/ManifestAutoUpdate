@@ -305,8 +305,8 @@
 		"2" "3814"
 		"3" "3859"
 		"4" "21"
-		"5" "4106"
-		"6" "6730"
+		"5" "6730"
+		"6" "4106"
 		"7" "1685"
 		"8" "1697"
 		"9" "4684"
@@ -322,7 +322,7 @@
 		"19" "4295"
 	}
 	"review_score" "8"
-	"review_percentage" "80"
+	"review_percentage" "81"
 }
 "extended"
 {
@@ -512,7 +512,7 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "focus_test_dev, steam_features, test_prod_steamfeats, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, ms_builds, steam_dev_livefocus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, ms_builds, steam_dev_live, patch_4x_steamfeats"
+				"betakey" "focus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, ms_builds, steam_dev_livefocus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, ms_builds, steam_dev_live"
 			}
 			"description_loc"
 			{
@@ -527,7 +527,7 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "focus_test_dev, steam_features, test_prod_steamfeats, natour,  test_backend,test_pros_true_retail, saber_external_preview, fe_crossplay, fe_hw_nvidia_temp, ms_builds, steam_dev_live, patch_4x_steamfeats"
+				"betakey" "focus_test_dev, steam_features, natour,  test_backend,test_pros_true_retail, saber_external_preview, fe_crossplay, fe_hw_nvidia_temp, ms_builds, steam_dev_live"
 			}
 			"description_loc"
 			{
@@ -543,7 +543,7 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "focus_test_dev, steam_features, test_prod_steamfeats, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, fe_hw_nvidia_temp, ms_builds, steam_dev_live, patch_4x_steamfeats"
+				"betakey" "focus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, fe_hw_nvidia_temp, ms_builds, patch_4x_steamfeats, steam_dev_live"
 			}
 			"description_loc"
 			{
@@ -641,7 +641,7 @@
 		"26"
 		{
 			"executable" "start_protected_game.exe"
-			"arguments" "--cwd client_pc\\root\\bin\\pc"
+			"arguments" "--cwd client_pc\\root\\bin\\pc --startup --set /Config/Steam/epicCrossplayEnable false"
 			"workingdir" "client_pc\\root\\bin\\pc"
 			"type" "option2"
 			"config"
@@ -651,9 +651,9 @@
 			}
 			"description_loc"
 			{
-				"english" "EAC Only"
+				"english" "Warhammer 40000 Space Marine 2 EAC Only"
 			}
-			"description" "EAC Only"
+			"description" "Warhammer 40000 Space Marine 2 EAC Only"
 		}
 		"28"
 		{
@@ -703,7 +703,7 @@
 		"32"
 		{
 			"executable" "client_pc\\root\\bin\\pc\\EpicOnlineServices\\start_epic_crossplay_game.bat"
-			"arguments" "--cwd client_pc\\root\\bin\\pc --set /Config/Steam/epicCrossplayEnable true"
+			"arguments" "--cwd client_pc\\root\\bin\\pc"
 			"config"
 			{
 				"oslist" "windows"
@@ -787,9 +787,9 @@
 			}
 			"anti-cheat_test"
 			{
-				"gid" "FFE111322A03A23DAA2ED424F7B98589"
-				"size" "8F55EDA4A2E23D7123F2F1FDF25B1462"
-				"download" "DD07C29561AECA1D5BEE274F5B9C0548"
+				"gid" "1C38CFC45CA646F65114C06F56147EAE"
+				"size" "C4F2198F4D537996776856754662BA0D"
+				"download" "1D1CEF8B759510BAFD2FF2E447D58138"
 			}
 			"fe_crossplay"
 			{
@@ -835,15 +835,15 @@
 			}
 			"focus_test_dev"
 			{
-				"gid" "8C1CF5941A8A9C25B0B242FDB35D32B4"
-				"size" "F5C36AA6139D58AFCD052429AE045700"
-				"download" "6CD562736B77D3B697683C6336E0EAC6"
+				"gid" "08E44A38D00851892F1C4F155DE67195"
+				"size" "1A310E8BC15C4466ECAB2E81878C0E93"
+				"download" "BCF20E100867CA19DB015A637272CFFE"
 			}
 			"focus_test_retail"
 			{
-				"gid" "EC49041449C0F61C1213028E334FFDE0"
-				"size" "A275FCE8EE88D6EDE64587B210A4B200"
-				"download" "2BA557B3A8CF70161FD105F6E36DF9AA"
+				"gid" "228E888A403FA23118095D0A75BF4FAC"
+				"size" "268A9AD139EE333881C07C28F8BD74B1"
+				"download" "BCC1DCA083660BB7C6E9F62D975C141F"
 			}
 			"gw_external_review"
 			{
@@ -859,9 +859,9 @@
 			}
 			"patch_4x_steamfeats"
 			{
-				"gid" "A4DF2BF46A821688E3B5443BF9BFEB3D"
-				"size" "22CDD8F80BAAEC5FCD6EE68CD0B1530D"
-				"download" "6A15609D0A98AD42BA390EAE9D22184B"
+				"gid" "6D72985FAA4A4E35A7A46075CF84707C"
+				"size" "9D12DFD82D402C9328C1D0DFB11AB59D"
+				"download" "AE905FB50BD5E41F6A167BFD0B9DFDDD"
 			}
 			"saber_external_preview"
 			{
@@ -877,27 +877,27 @@
 			}
 			"steam_features"
 			{
-				"gid" "D66FED0FF87746F7BA333AC2DC106E63"
-				"size" "76FA0C49AB62238074453604E5FC0A42"
-				"download" "C6629536377AE8FCDDA140DE47AE3754"
+				"gid" "B5805062A4CF08C3C944D603EEB9D859"
+				"size" "39347B29DFFCD069EF0AA08473CED6F9"
+				"download" "9492D0C9669E5ABA79D3909D4117F5A1"
 			}
 			"test_backend"
 			{
-				"gid" "15E6F1CA3A6E3D371BA909D024FDD7B0"
-				"size" "0FB6D1F1F1605DFBD1DEC11DC2D54E21"
-				"download" "AB586C29EBD0E760D623BF914F4D5292"
+				"gid" "7FB3B9F975280C707B103CE6F4095E4C"
+				"size" "BE4D871B9E31D3E1E7455843C1DC718B"
+				"download" "AE601E2B1BE9F368B8DF24B34545715F"
 			}
 			"test_bender"
 			{
-				"gid" "BE45F6CC4D9ED3692C9DA41F983C333C"
-				"size" "EB813B0FC0FB4A2B54E508AB155725CF"
-				"download" "B1B394008EB000990F2A4577E4DAB245"
+				"gid" "25C15F454556D7F38C1D743AE5E4979E"
+				"size" "7A8D6A0B3B63A989FE628034F9101BD1"
+				"download" "2513C98B4A548D9E4DBEB71DA7B7610C"
 			}
 			"test_prod_steamfeats"
 			{
-				"gid" "EC6117AB94696D153D1FD68B26A82122"
-				"size" "8A6962D7C46F53D5299F6BAB674BC34B"
-				"download" "0E21535A6367DA67386114567A97F74A"
+				"gid" "CFAB918F62449DA28BC67AB45A08BF53"
+				"size" "46DD92608C4F519FBBAC9200A5529136"
+				"download" "F220D21EA0E6F9DA2219D0B8133754EC"
 			}
 			"test_pros_true_retail"
 			{
@@ -907,9 +907,9 @@
 			}
 			"test_retail"
 			{
-				"gid" "237816B5AFE78D8D901EAFCE465EACB0"
-				"size" "93862950E5903FB710B9866DD9A662D5"
-				"download" "3FFDF97DBB27B5ED8847D8F024E85F77"
+				"gid" "90B88478DED97F2C2261E832924CE9B2"
+				"size" "CE0896A45FD68ADB6691402D359551BE"
+				"download" "58BB013B3EC619A6EC1292299A9F2E43"
 			}
 		}
 	}
@@ -990,9 +990,9 @@
 		}
 		"anti-cheat_test"
 		{
-			"buildid" "15952203"
+			"buildid" "16009132"
 			"pwdrequired" "1"
-			"timeupdated" "1728297705"
+			"timeupdated" "1728649066"
 		}
 		"fe_crossplay"
 		{
@@ -1038,15 +1038,15 @@
 		}
 		"focus_test_dev"
 		{
-			"buildid" "15916079"
+			"buildid" "15963037"
 			"pwdrequired" "1"
-			"timeupdated" "1727959149"
+			"timeupdated" "1728474289"
 		}
 		"focus_test_retail"
 		{
-			"buildid" "15915442"
+			"buildid" "15980428"
 			"pwdrequired" "1"
-			"timeupdated" "1727967928"
+			"timeupdated" "1728477171"
 		}
 		"gw_external_review"
 		{
@@ -1062,9 +1062,9 @@
 		}
 		"patch_4x_steamfeats"
 		{
-			"buildid" "15963038"
+			"buildid" "16024920"
 			"pwdrequired" "1"
-			"timeupdated" "1728367907"
+			"timeupdated" "1728802957"
 		}
 		"saber_external_preview"
 		{
@@ -1080,27 +1080,27 @@
 		}
 		"steam_features"
 		{
-			"buildid" "15915681"
+			"buildid" "15963037"
 			"pwdrequired" "1"
-			"timeupdated" "1727957033"
+			"timeupdated" "1728478204"
 		}
 		"test_backend"
 		{
-			"buildid" "15954040"
+			"buildid" "15993060"
 			"pwdrequired" "1"
-			"timeupdated" "1728308701"
+			"timeupdated" "1728566236"
 		}
 		"test_bender"
 		{
-			"buildid" "15952165"
+			"buildid" "15980556"
 			"pwdrequired" "1"
-			"timeupdated" "1728297482"
+			"timeupdated" "1728477766"
 		}
 		"test_prod_steamfeats"
 		{
-			"buildid" "15962983"
+			"buildid" "16024606"
 			"pwdrequired" "1"
-			"timeupdated" "1728367478"
+			"timeupdated" "1728797375"
 		}
 		"test_pros_true_retail"
 		{
@@ -1110,9 +1110,9 @@
 		}
 		"test_retail"
 		{
-			"buildid" "15915442"
+			"buildid" "16009277"
 			"pwdrequired" "1"
-			"timeupdated" "1727955833"
+			"timeupdated" "1728649929"
 		}
 	}
 }
@@ -1136,6 +1136,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "25582847"
-"_sha" "55e0afd63d2272fabdeb4ad4a6a9c750ae6bfba9"
-"_size" "25970"
+"_change_number" "25691090"
+"_sha" "5911f440ef43bcfc82259a78e718e93aa998a3f0"
+"_size" "25935"
