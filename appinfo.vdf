@@ -7,9 +7,9 @@
 	{
 		"schinese" "青天井"
 	}
-	"oslist" "windows"
+	"oslist" "windows,macos"
 	"osarch" ""
-	"osextended" ""
+	"osextended" "macos64,macosapplesilicon"
 	"clienttga" "ef40bebd915911841436a2cf0fd7c299f832a3be"
 	"linuxclienticon" "e563868c211979208e0ba105b7bf2d5b03b140c9"
 	"clienticon" "724578f710933ec59a8215b3d494e9691f9cfa75"
@@ -18,20 +18,22 @@
 	"controllertagwizard" "1"
 	"small_capsule"
 	{
-		"english" "9eb8a0cd19cede8c9fdd49aeceab7a26c4098242/capsule_231x87.jpg"
-		"schinese" "dbbac6e6a92e2a16daaabc20e87fb0d4034f21c2/capsule_231x87_schinese.jpg"
+		"english" "f31a682a52332e131acf395e1c10069e7b4ca97d/capsule_231x87.jpg"
+		"schinese" "7b85c7abaf25b5556471fb3bff565978b0630b19/capsule_231x87_schinese.jpg"
+		"japanese" "7b85c7abaf25b5556471fb3bff565978b0630b19/capsule_231x87_japanese.jpg"
 	}
 	"header_image"
 	{
 		"english" "header.jpg"
 		"schinese" "header_schinese.jpg"
+		"japanese" "header_japanese.jpg"
 	}
 	"library_assets"
 	{
-		"library_capsule" "en,zh-cn"
+		"library_capsule" "en,zh-cn,ja"
 		"library_hero" "en,zh-cn"
-		"library_logo" "en,zh-cn"
-		"library_header" "en,zh-cn"
+		"library_logo" "en,zh-cn,ja"
+		"library_header" "en,zh-cn,ja"
 		"logo_position"
 		{
 			"pinned_position" "BottomLeft"
@@ -45,13 +47,15 @@
 		{
 			"image"
 			{
-				"english" "library_600x900.jpg"
-				"schinese" "library_600x900_schinese.jpg"
+				"english" "ab3570f01d2896bf82f0e5cb072cf3c0ca54c002/library_600x900.jpg"
+				"schinese" "ab6912b7d3f20cd206546e4e3af99f6fc4327da8/library_600x900_schinese.jpg"
+				"japanese" "ab6912b7d3f20cd206546e4e3af99f6fc4327da8/library_600x900_japanese.jpg"
 			}
 			"image2x"
 			{
-				"english" "library_600x900_2x.jpg"
-				"schinese" "library_600x900_schinese_2x.jpg"
+				"english" "ab3570f01d2896bf82f0e5cb072cf3c0ca54c002/library_600x900_2x.jpg"
+				"schinese" "ab6912b7d3f20cd206546e4e3af99f6fc4327da8/library_600x900_schinese_2x.jpg"
+				"japanese" "ab6912b7d3f20cd206546e4e3af99f6fc4327da8/library_600x900_japanese_2x.jpg"
 			}
 		}
 		"library_hero"
@@ -71,13 +75,15 @@
 		{
 			"image"
 			{
-				"english" "logo.png"
-				"schinese" "logo_schinese.png"
+				"english" "25ba7a1bea17c229fca21769c6490ac4731e8692/logo.png"
+				"schinese" "c01a7dd2e507ca605787351e3d37a5db6d314cd0/logo_schinese.png"
+				"japanese" "c01a7dd2e507ca605787351e3d37a5db6d314cd0/logo_japanese.png"
 			}
 			"image2x"
 			{
-				"english" "logo_2x.png"
-				"schinese" "logo_schinese_2x.png"
+				"english" "25ba7a1bea17c229fca21769c6490ac4731e8692/logo_2x.png"
+				"schinese" "c01a7dd2e507ca605787351e3d37a5db6d314cd0/logo_schinese_2x.png"
+				"japanese" "c01a7dd2e507ca605787351e3d37a5db6d314cd0/logo_japanese_2x.png"
 			}
 			"logo_position"
 			{
@@ -90,12 +96,19 @@
 		{
 			"image"
 			{
-				"english" "library_header.jpg"
-				"schinese" "library_header_schinese.jpg"
+				"english" "7ed73c4c3fa8eee3676a248ee18f8266c6227d61/library_header.jpg"
+				"schinese" "f186be8d3ae31b2b0d6bb185022fc9719d99930c/library_header_schinese.jpg"
+				"japanese" "f186be8d3ae31b2b0d6bb185022fc9719d99930c/library_header_japanese.jpg"
+			}
+			"image2x"
+			{
+				"schinese" "f186be8d3ae31b2b0d6bb185022fc9719d99930c/library_header_schinese_2x.jpg"
+				"english" "7ed73c4c3fa8eee3676a248ee18f8266c6227d61/library_header_2x.jpg"
+				"japanese" "f186be8d3ae31b2b0d6bb185022fc9719d99930c/library_header_japanese_2x.jpg"
 			}
 		}
 	}
-	"store_asset_mtime" "1723988477"
+	"store_asset_mtime" "1728660559"
 	"associations"
 	{
 		"0"
@@ -120,20 +133,22 @@
 	"category"
 	{
 		"category_2" "1"
-		"category_62" "1"
 	}
 	"supported_languages"
 	{
 		"english"
 		{
 			"supported" "true"
-			"full_audio" "true"
 			"subtitles" "true"
 		}
 		"schinese"
 		{
 			"supported" "true"
-			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
 			"subtitles" "true"
 		}
 	}
@@ -183,10 +198,25 @@
 				"oslist" "windows"
 			}
 		}
+		"1"
+		{
+			"executable" "Aotenjo.app"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+			"description_loc"
+			{
+				"english" "OS X"
+			}
+			"description" "OS X"
+		}
 	}
 }
 "depots"
 {
+	"baselanguages" "english,schinese"
 	"3066571"
 	{
 		"config"
@@ -197,18 +227,18 @@
 		{
 			"public"
 			{
-				"gid" "5453820865940951588"
-				"size" "191239130"
-				"download" "39765856"
+				"gid" "5977039168774651996"
+				"size" "0"
+				"download" "0"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"devtest"
 			{
-				"gid" "9D5485C2245FAD09EEF5D65F6D272EB7"
-				"size" "AD1A39F0CA17F8810D3BB1CA8897FA84"
-				"download" "7378774451321654DAD026234AF0E3E2"
+				"gid" "59B3B0F99E4677F6EB4B05B07BDC5D74"
+				"size" "EE28CE927AE579DFC7D96952AFE3ED58"
+				"download" "4373A1E5761571D762002CB87911CAD5"
 			}
 			"gamecon"
 			{
@@ -222,21 +252,57 @@
 				"size" "6950C9AAAA3A10C2E74486CCDF5AC9C7"
 				"download" "6556A6CA1FD279562B0FE3D7A489858F"
 			}
+			"mediatest"
+			{
+				"gid" "8DCFA2D49F0DA636B04740EC24BF458D"
+				"size" "F0BCB31119B17F0324B3D001385144D6"
+				"download" "C7F4C3DD657D24235C284B6B51DDDE42"
+			}
+			"osxtest"
+			{
+				"gid" "27FF7DEAA8260695B357159535387476"
+				"size" "E994E0A426EC149EF30224A26F68D251"
+				"download" "B669968738988912B37199760EF97E7C"
+			}
+			"playertest2410"
+			{
+				"gid" "2C39BA5FB1D829B78B8BFBE5CE179DC3"
+				"size" "014A2060C32637F4C925A47F99979F7C"
+				"download" "B05F8CB309CA7829C17CAC1D364A91C4"
+			}
 		}
 	}
-	"baselanguages" "english,schinese"
+	"3066572"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"osxtest"
+			{
+				"gid" "F2799A49C92898483586F69628ACD353"
+				"size" "E7C75A3850A2D0D68C114B884B580E9E"
+				"download" "7264BF76B9B11A531D366DC3E1AA17BD"
+			}
+		}
+	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "15967055"
-			"timeupdated" "1728391317"
+			"buildid" "15978043"
+			"timeupdated" "1728467986"
 		}
 		"devtest"
 		{
-			"buildid" "15964709"
+			"buildid" "15993064"
 			"pwdrequired" "1"
-			"timeupdated" "1728381178"
+			"timeupdated" "1728556325"
 		}
 		"gamecon"
 		{
@@ -249,6 +315,24 @@
 			"buildid" "15767131"
 			"pwdrequired" "1"
 			"timeupdated" "1726816451"
+		}
+		"mediatest"
+		{
+			"buildid" "15973461"
+			"pwdrequired" "1"
+			"timeupdated" "1728457513"
+		}
+		"osxtest"
+		{
+			"buildid" "16008291"
+			"pwdrequired" "1"
+			"timeupdated" "1728647308"
+		}
+		"playertest2410"
+		{
+			"buildid" "16007628"
+			"pwdrequired" "1"
+			"timeupdated" "1728641673"
 		}
 	}
 }
