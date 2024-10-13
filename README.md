@@ -1,69 +1,31 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-13 14:48:28
+## 更新时间：2024-10-13 15:00:36
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1059980 | 吾王保卫战 Just King| Game |
-| 1094780 | Fisher Online| Game |
-| 1101120 | 枪 匠 模拟器| Game |
-| 1177420 | UncleNeighbor| Game |
-| 1167630 | Teardown| Game |
-| 1149460 | 翼星求生 ICARUS| Game |
-| 1266430 | 迷失幻途| Game |
-| 1264710 | Love and Sex: Second Base| Game |
-| 1341490 | Hellsweeper VR| Game |
-| 1360000 | The Infected| Game |
-| 1036640 | RPG Developer Bakin| Application |
-| 1351780 | 香肠派对| Game |
-| 1450900 | Desynced| Game |
-| 1455910 | 领地：种田与征战| Game |
-| 1475430 | 天师| Game |
+| 1320100 | 浣熊通缉犯 (Wanted Raccoon)| Game |
+| 222750 | Wargame: AirLand Battle| Game |
+| 1166860 | Rival Stars Horse Racing| Game |
+| 2904000 | 咒语旅团| Game |
+| 440 | Team Fortress 2| game |
 | 1432860 | Sun Haven| Game |
-| 1465360 | SnowRunner| Game |
-| 1652250 | 传说与战术自走棋| Game |
-| 1714320 | Find Love or Die Trying / 寻爱或赴死| Game |
-| 1658150 | 月光石岛| Game |
-| 1718570 | 神之天平（ASTLIBRA Revision）| Game |
-| 1742360 | 电竞梦物语| Game |
-| 1769170 | Shattered Pixel Dungeon| Game |
-| 1826060 | 循环的夜 Night Loops| Game |
-| 1599340 | Lost Ark| Game |
-| 1925620 | Ancient Wars: Medieval Crusades| Game |
-| 1985620 | 幽灵少女莱斯灵 (全年龄版)| Game |
-| 207930 | Sacred Citadel| Game |
-| 2116850 | Another Farm Roguelike| Game |
-| 2123380 | MOBIUS BAND*| Game |
-| 212680 | FTL: Faster Than Light| Game |
-| 2135430 | 英雄黄昏 - 扩展包| DLC |
-| 2134770 | SteamWorld Build| Game |
-| 2162680 | 末日清理专家 (Doom Sweeper)| Game |
-| 2194730 | ServiceIT: You can do IT| Game |
-| 22490 | Fallout: New Vegas PCR| game |
-| 2292060 | 法术圆盘| Game |
-| 2313020 | 赛马娘 Pretty Derby 热血喧闹大感谢祭！| Game |
-| 22380 | Fallout: New Vegas| game |
-| 2418520 | Farm Together 2| Game |
-| 2460920 | 亩地| Game |
-| 2491640 | SNAKE FARM| Game |
-| 2511050 | 勇拳冲锋| Game |
-| 2555570 | 哥布林时代 Age of Goblins| Game |
-| 2544720 | 职场幻想| Game |
-| 2093920 | 灾变前夜| Game |
-| 2607060 | From Glory To Goo| Game |
-| 2657060 | Teardown: Folkrace| DLC |
-| 2870420 | Mech Builder| Game |
-| 2849080 | 王国保卫战 5：联盟| Game |
-| 2972990 | hololive 宝藏山| Game |
-| 3048660 | 公主：东方与远征（Princess: The East and the Expedition）| Game |
-| 3070070 | TCG Card Shop Simulator| Game |
-| 420530 | OneShot| Game |
-| 454140 | First Person Tennis - The Real Tennis Simulator| Game |
-| 523070 | Black Forest| Game |
-| 453090 | Parkitect| Game |
-| 603390 | Stone Story RPG| Game |
-| 625980 | Yomawari: Midnight Shadows| Game |
-| 785740 | This Is the Police 2| Game |
-| 887570 | 星云：战舰指挥官 NEBULOUS: Fleet Command| Game |
-| 946720 | To The Rescue!| Game |
-| 95400 | ibb & obb| game |
-| 960090 | Bloons TD 6| Game |
+| 1350840 | 牧野之歌| Game |
+| 1360810 | 职场浮生记| Game |
+| 2693930 | 骰子闯魔城| Game |
+| 2924400 | 暗喻幻想：ReFantazio《女神异闻录５》秀尽学园高中校服&战斗BGM&战斗过场乐曲 套装| DLC |
+| 2924410 | 暗喻幻想：ReFantazio《女神异闻录４ 黄金版》八十神高中校服&战斗BGM&战斗过场乐曲 套装| DLC |
+| 2924420 | 暗喻幻想：ReFantazio《女神异闻录３》月光馆学园校服&战斗BGM&战斗过场乐曲 套装| DLC |
+| 2924430 | 暗喻幻想：ReFantazio《女神异闻录２》七姐妹学园校服&战斗BGM&战斗过场乐曲 套装| DLC |
+| 2924440 | 暗喻幻想：ReFantazio《女神异闻录Persona》圣艾露敏学园校服&战斗BGM&战斗过场乐曲 套装| DLC |
+| 2924450 | 暗喻幻想：ReFantazio《真·女神转生Ⅴ》绳印学园校服&战斗BGM&战斗过场乐曲 套装| DLC |
+| 2924460 | 暗喻幻想：ReFantazio《真·女神转生Ⅳ》武士众服装&战斗BGM&战斗过场乐曲 套装| DLC |
+| 2924470 | 暗喻幻想：ReFantazio“世界树的迷宫系列”职业服装&战斗BGM 套装| DLC |
+| 2999630 | 暗喻幻想：ReFantazio 数字豪华美术画册| DLC |
+| 2999640 | 暗喻幻想：ReFantazio 数字特别原声集| DLC |
+| 2198150 | Tiny Glade| Game |
+| 2999650 | ATLUS品牌35周年 数字历程纪念册| DLC |
+| 2999660 | ATLUS品牌35周年 数字历年精选| DLC |
+| 2200780 | My dream setup| Game |
+| 1639880 | Longvinter Dedicated Server| Tool |
+| 1451480 | The Greatest Penguin Heist of All Time| Game |
+| 1168690 | HELLSEED| Game |
