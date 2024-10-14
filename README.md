@@ -1,12 +1,13 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-14 15:23:41
+## 更新时间：2024-10-14 15:38:15
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
 | 1071100 | Boom 3D| Application |
 | 1424710 | Geneforge 1 - Mutagen| Game |
 | 1550180 | 9th Dawn Remake| Game |
 | 1684010 | Sail| Game |
+| 1714320 | Find Love or Die Trying / 寻爱或赴死| Game |
 | 1714330 | Find Love or Die Trying 粉丝包| DLC |
 | 1718570 | 神之天平（ASTLIBRA Revision）| Game |
 | 1735700 | 动物迷城| Game |
@@ -23,6 +24,9 @@
 | 2282410 | Mini-Market Simulator VR| Game |
 | 2501600 | 骰子浪游者| Game |
 | 2645490 | 幽灵猎人 Ghostbane| Game |
+| 2669360 | 神之天平外传：幻雾之洞窟| DLC |
+| 2719160 | Contractors Showdown| Game |
+| 299190 | ibb & obb - Original Soundtrack| Music |
 | 3054610 | 神器行者: 重生| Game |
 | 3175720 | 黑山恋爱咖啡厅| Game |
 | 382110 | Virtual Desktop| Application |
