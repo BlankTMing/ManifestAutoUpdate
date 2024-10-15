@@ -298,30 +298,37 @@
 }
 "depots"
 {
+	"baselanguages" "english,german,french,italian,spanish,schinese,tchinese,russian,japanese,polish,romanian,brazilian,ukrainian"
 	"1898301"
 	{
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "2477191604446638199"
-				"size" "5518838322"
-				"download" "2862981168"
+				"gid" "8098522891783920079"
+				"size" "5834394209"
+				"download" "2996008624"
 			}
 		}
 		"encryptedmanifests"
 		{
+			"alin2"
+			{
+				"gid" "B951692D13C827DE840CE9095A2346D2"
+				"size" "165CFCD01A42614F8375852608BF6F0B"
+				"download" "2EBA268AF181CFC99C25F99530E51752"
+			}
 			"testing"
 			{
-				"gid" "2EF59C291431EF1E15051200C1C593AD"
-				"size" "FFE5638229549F3A5E2DD582C0073948"
-				"download" "53F6D7CB228CF7FF202B292FF8025D55"
+				"gid" "DE08DA38D031967E32BD302CE4F0F6FA"
+				"size" "375716615F48F49D534A9E217D45F6CB"
+				"download" "6E8DBBD3A18DE1242F6042CAE4660100"
 			}
 			"staging"
 			{
-				"gid" "58B6842A672245746476828429888619"
-				"size" "DB898A6BFF855EFF2B24D9029A982EDC"
-				"download" "FD5F8DC0DFF93A45501EBA7DFA9D31F4"
+				"gid" "44420382E183936C6D4766D1C437A6DD"
+				"size" "AA16C108C9565CFC77CDC27838F39AEA"
+				"download" "3839050B5C414CE33641FF84F233A502"
 			}
 			"creatorspecial"
 			{
@@ -331,31 +338,36 @@
 			}
 			"locqa"
 			{
-				"gid" "1780C2E49928DCA67DC65B59BFECB081"
-				"size" "071D290366E86DD887CC03871D159AE5"
-				"download" "7A021306F37E40C4AE8ECFAB8956F212"
+				"gid" "8B837943EBB003C3F4D525858DBBAAE5"
+				"size" "1FDDCF4E6EDD2D08AF991E562BDD182E"
+				"download" "05BD831659AD8978211C4950201DF410"
 			}
 		}
 	}
-	"baselanguages" "english,german,french,italian,spanish,schinese,tchinese,russian,japanese,polish,romanian,brazilian,ukrainian"
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "15731657"
-			"timeupdated" "1726650004"
+			"buildid" "16035864"
+			"timeupdated" "1728907760"
+		}
+		"alin2"
+		{
+			"buildid" "16033796"
+			"pwdrequired" "1"
+			"timeupdated" "1728896322"
 		}
 		"testing"
 		{
-			"buildid" "15692767"
+			"buildid" "16035324"
 			"pwdrequired" "1"
-			"timeupdated" "1726241282"
+			"timeupdated" "1728904166"
 		}
 		"staging"
 		{
-			"buildid" "15731657"
+			"buildid" "16035864"
 			"pwdrequired" "1"
-			"timeupdated" "1726591350"
+			"timeupdated" "1728907216"
 		}
 		"creatorspecial"
 		{
@@ -365,9 +377,9 @@
 		}
 		"locqa"
 		{
-			"buildid" "15534643"
+			"buildid" "16035226"
 			"pwdrequired" "1"
-			"timeupdated" "1724952131"
+			"timeupdated" "1728903793"
 		}
 	}
 }
@@ -375,8 +387,6 @@
 {
 	"quota" "10000000000"
 	"maxnumfiles" "10000"
-	"hidecloudui" "1"
-	"ignoreexternalfiles" "1"
 	"savefiles"
 	{
 		"0"
@@ -385,180 +395,21 @@
 			"path" "Sand Sailor Studio/Aska/data"
 			"pattern" "Characters.*"
 		}
-	}
-}
-"localization"
-{
-	"richpresence"
-	{
-		"english"
+		"1"
 		{
-			"tokens"
-			{
-				"#statussingleplayerdaynight" "Singleplayer - {%DAYNIGHT%}: %DAY%"
-				"#statusmultiplayerdaynight" "Multiplayer - {%DAYNIGHT%}: %DAY%"
-				"#statushostingdaynight" "Hosting: %PLAYERSJOINED% - {%DAYNIGHT%}: %DAY%"
-				"#statusmainmenu" "In main menu"
-				"#statusloading" "Loading"
-				"#day" "Day"
-				"#night" "Night"
-			}
+			"root" "WinAppDataLocalLow"
+			"path" "Sand Sailor Studio/Aska/data"
+			"pattern" "Tutorials.*"
 		}
-		"romanian"
+		"2"
 		{
-			"tokens"
-			{
-				"#statussingleplayerdaynight" "Un singur jucător - {%DAYNIGHT%}: %DAY%"
-				"#statusmultiplayerdaynight" "Mai mulți jucători - {%DAYNIGHT%}: %DAY%"
-				"#statushostingdaynight" "Găzduiește: %PLAYERSJOINED% - {%DAYNIGHT%}: %DAY%"
-				"#statusmainmenu" "În meniul principal"
-				"#statusloading" "Se încarcă"
-				"#day" "Ziua"
-				"#night" "Noaptea"
-			}
-		}
-		"german"
-		{
-			"tokens"
-			{
-				"#statussingleplayerdaynight" "Einzelspieler - {%DAYNIGHT%}: %DAY%"
-				"#statusmultiplayerdaynight" "Mehrspieler - {%DAYNIGHT%}: %DAY%"
-				"#statushostingdaynight" "Hostet: %PLAYERSJOINED% - {%DAYNIGHT%}: %DAY%"
-				"#statusmainmenu" "Im Hauptmenü"
-				"#statusloading" "Wird geladen"
-				"#day" "Tag"
-				"#night" "Nacht"
-			}
-		}
-		"spanish"
-		{
-			"tokens"
-			{
-				"#statussingleplayerdaynight" "Un jugador - {%DAYNIGHT%}: %DAY%"
-				"#statusmultiplayerdaynight" "Multijugador - {%DAYNIGHT%}: %DAY%"
-				"#statushostingdaynight" "Organizando: %PLAYERSJOINED% - {%DAYNIGHT%}: %DAY%"
-				"#statusmainmenu" "En el menú principal"
-				"#statusloading" "Cargando"
-				"#day" "Día"
-				"#night" "Noche"
-			}
-		}
-		"french"
-		{
-			"tokens"
-			{
-				"#statussingleplayerdaynight" "Mode solo - {%DAYNIGHT%}: %DAY%"
-				"#statusmultiplayerdaynight" "Multijoueur - {%DAYNIGHT%}: %DAY%"
-				"#statushostingdaynight" "Héberge: %PLAYERSJOINED% - {%DAYNIGHT%}: %DAY%"
-				"#statusmainmenu" "Dans le menu principal"
-				"#statusloading" "Chargement"
-				"#day" "Jour"
-				"#night" "Nuit"
-			}
-		}
-		"italian"
-		{
-			"tokens"
-			{
-				"#statussingleplayerdaynight" "Giocatore singolo - {%DAYNIGHT%}: %DAY%"
-				"#statusmultiplayerdaynight" "Multigiocatore - {%DAYNIGHT%}: %DAY%"
-				"#statushostingdaynight" "Sta ospitando: %PLAYERSJOINED% - {%DAYNIGHT%}: %DAY%"
-				"#statusmainmenu" "Nel menu principale"
-				"#statusloading" "Caricamento"
-				"#day" "Giorno"
-				"#night" "Notte"
-			}
-		}
-		"japanese"
-		{
-			"tokens"
-			{
-				"#statussingleplayerdaynight" "シングルプレイヤー - {%DAYNIGHT%}: %DAY%"
-				"#statusmultiplayerdaynight" "マルチプレイヤー - {%DAYNIGHT%}: %DAY%"
-				"#statushostingdaynight" "ホスト中: %PLAYERSJOINED% - {%DAYNIGHT%}: %DAY%"
-				"#statusmainmenu" "メインメニューにて"
-				"#statusloading" "読み込み中"
-				"#day" "日"
-				"#night" "夜"
-			}
-		}
-		"schinese"
-		{
-			"tokens"
-			{
-				"#statussingleplayerdaynight" "单人模式 - {%DAYNIGHT%}: %DAY%"
-				"#statusmultiplayerdaynight" "多人模式 - {%DAYNIGHT%}: %DAY%"
-				"#statushostingdaynight" "房主: %PLAYERSJOINED% - {%DAYNIGHT%}: %DAY%"
-				"#statusmainmenu" "在主菜单中"
-				"#statusloading" "正在加载"
-				"#day" "白天"
-				"#night" "夜晚"
-			}
-		}
-		"tchinese"
-		{
-			"tokens"
-			{
-				"#statussingleplayerdaynight" "單人玩家 - {%DAYNIGHT%}: %DAY%"
-				"#statusmultiplayerdaynight" "多人玩家 - {%DAYNIGHT%}: %DAY%"
-				"#statushostingdaynight" "主持中: %PLAYERSJOINED% - {%DAYNIGHT%}: %DAY%"
-				"#statusmainmenu" "在主選單中"
-				"#statusloading" "載入中"
-				"#day" "白天"
-				"#night" "夜晚"
-			}
-		}
-		"polish"
-		{
-			"tokens"
-			{
-				"#statussingleplayerdaynight" "Jeden gracz - {%DAYNIGHT%}: %DAY%"
-				"#statusmultiplayerdaynight" "Tryb wieloosobowy - {%DAYNIGHT%}: %DAY%"
-				"#statushostingdaynight" "Dzień: %PLAYERSJOINED% - {%DAYNIGHT%}: %DAY%"
-				"#statusmainmenu" "W menu głównym"
-				"#statusloading" "Ładowanie"
-				"#day" "Dzień"
-				"#night" "Noc"
-			}
-		}
-		"brazilian"
-		{
-			"tokens"
-			{
-				"#statussingleplayerdaynight" "Um Jogador - {%DAYNIGHT%}: %DAY%"
-				"#statusmultiplayerdaynight" "Multijogador - {%DAYNIGHT%}: %DAY%"
-				"#statushostingdaynight" "Hospedando: %PLAYERSJOINED% - {%DAYNIGHT%}: %DAY%"
-				"#statusmainmenu" "No menu principal"
-				"#statusloading" "Carregando"
-				"#day" "Dia"
-				"#night" "Noite"
-			}
-		}
-		"russian"
-		{
-			"tokens"
-			{
-				"#statussingleplayerdaynight" "Одиночный режим - {%DAYNIGHT%}: %DAY%"
-				"#statusmultiplayerdaynight" "Многопольз. режим - {%DAYNIGHT%}: %DAY%"
-				"#statushostingdaynight" "Организатор игры: %PLAYERSJOINED% - {%DAYNIGHT%}: %DAY%"
-				"#statusmainmenu" "В главное меню"
-				"#statusloading" "Загрузка"
-				"#day" "День"
-				"#night" "Ночь"
-			}
-		}
-		"ukrainian"
-		{
-			"tokens"
-			{
-				"#statussingleplayerdaynight" "Однокористувацька гра - {%DAYNIGHT%}: %DAY%"
-				"#statusmultiplayerdaynight" "Багатокористувацька гра - {%DAYNIGHT%}: %DAY%"
-				"#statushostingdaynight" "Хазяїн: %PLAYERSJOINED% - {%DAYNIGHT%}: %DAY%"
-				"#statusmainmenu" "У головному меню"
-				"#statusloading" "Завантаження"
-				"#day" "День"
-				"#night" "Ніч"
-			}
+			"root" "WinAppDataLocalLow"
+			"path" "Sand Sailor Studio/Aska/data"
+			"pattern" "DeedsProgress.*"
 		}
 	}
 }
+"_missing_token" "False"
+"_change_number" "25707141"
+"_sha" "a6940b78b60e885edba4a530d73a9b1b8463b577"
+"_size" "7343"
