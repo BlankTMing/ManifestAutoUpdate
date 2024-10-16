@@ -4,9 +4,9 @@
 	"name" "Hades II"
 	"type" "Game"
 	"releasestate" "released"
-	"oslist" "windows"
+	"oslist" "windows,macos"
 	"osarch" "64"
-	"osextended" ""
+	"osextended" "macosapplesilicon"
 	"clienticon" "e8cd1233d374c647e8e3d7bbaa98a5d399e3f40b"
 	"clienttga" "193ac7d7df715b294dc5d44b6642fc8d96ddcaf2"
 	"icon" "621d9f1cfa204c0bae07a981f41007d2cf03a56c"
@@ -67,7 +67,7 @@
 	"controller_support" "full"
 	"small_capsule"
 	{
-		"english" "capsule_231x87.jpg"
+		"english" "81b47b439d9b2a0eaf615f22abb1872bf03e78b9/capsule_231x87.jpg"
 	}
 	"header_image"
 	{
@@ -81,12 +81,65 @@
 		"library_header" "en"
 		"logo_position"
 		{
-			"pinned_position" "BottomCenter"
-			"width_pct" "55.763587671367674"
-			"height_pct" "44.72873493201392"
+			"pinned_position" "CenterCenter"
+			"width_pct" "61.314319839115285"
+			"height_pct" "48.52812685306523"
 		}
 	}
-	"store_asset_mtime" "1715726960"
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "11d99eeba7fe9025ab493e934e070d882f8ed05e/library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "11d99eeba7fe9025ab493e934e070d882f8ed05e/library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "e8383bc3c54b563035c7fbff0737a7dad26fe8ff/library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "e8383bc3c54b563035c7fbff0737a7dad26fe8ff/library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "61.314319839115285"
+				"height_pct" "48.52812685306523"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "4a200ab8c9a0a1c3a6961f160a3043b7cadde754/library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "4a200ab8c9a0a1c3a6961f160a3043b7cadde754/library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1729095308"
 	"associations"
 	{
 		"0"
@@ -216,8 +269,8 @@
 	"store_tags"
 	{
 		"0" "19"
-		"1" "122"
-		"2" "1716"
+		"1" "1716"
+		"2" "122"
 		"3" "3959"
 		"4" "1646"
 		"5" "42804"
@@ -226,14 +279,14 @@
 		"8" "16094"
 		"9" "5851"
 		"10" "6815"
-		"11" "29482"
+		"11" "1742"
 		"12" "4166"
-		"13" "1742"
+		"13" "29482"
 		"14" "4182"
 		"15" "7208"
 		"16" "492"
-		"17" "1759"
-		"18" "493"
+		"17" "493"
+		"18" "1759"
 		"19" "4026"
 	}
 	"review_score" "8"
@@ -288,7 +341,7 @@
 		"2"
 		{
 			"executable" "Ship/Hades2.exe"
-			"arguments" "/c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /SaveCollectionRateFloat=0.4 /SaveCollectionDeathInterval=10 /strictpackagechecks=true"
+			"arguments" "/c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /SaveCollectionRateFloat=0.4 /SaveCollectionDeathInterval=10 /strictpackagechecks=true /ProgressionVersion=1"
 			"type" "default"
 			"config"
 			{
@@ -322,7 +375,7 @@
 		"4"
 		{
 			"executable" "Ship/Hades2.exe"
-			"arguments" "/c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /UseDevSaves=false /BuildLabel=HCTS /SaveCollectionRateFloat=1 /strictpackagechecks=true"
+			"arguments" "/c ../ /steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /UseDevSaves=false /BuildLabel=HCTS /SaveCollectionRateFloat=1 /strictpackagechecks=true /ProgressionVersion=1"
 			"type" "default"
 			"config"
 			{
@@ -367,13 +420,40 @@
 		"7"
 		{
 			"executable" "./Hades II.app"
-			"arguments" "/steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /UseDevSaves=true /SaveCollectionRate=100 /BuildLabel=HCTS"
+			"arguments" "/steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /UseDevSaves=false"
 			"type" "default"
 			"config"
 			{
 				"oslist" "macos"
 				"betakey" "test"
 			}
+		}
+		"8"
+		{
+			"executable" "./Hades II.app"
+			"arguments" "/steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /UseDevSaves=false"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+				"betakey" "external"
+			}
+		}
+		"9"
+		{
+			"executable" "./Hades II.app"
+			"arguments" "/steampowered /VerboseScriptLogging=false /DebugKeysEnabled=false /UnsafeDebugKeysEnabled=false /LiveCreateTextures=false /CheckNonExistingTextures=false /DirectLoadShell=true /UseDevSaves=false"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+				"betakey" "public"
+			}
+			"description_loc"
+			{
+				"english" "Ship"
+			}
+			"description" "Ship"
 		}
 	}
 }
@@ -398,42 +478,42 @@
 		{
 			"public"
 			{
-				"gid" "3663870558576431079"
-				"size" "4375477481"
-				"download" "3668832736"
+				"gid" "2753483146101464380"
+				"size" "6008192489"
+				"download" "4842604704"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"capture"
+			"external"
 			{
-				"gid" "D0ACA80B6BFC17859A850E95B29BC68B"
-				"size" "4B38AB35B644F7A8EF9D68CA3E6A8C87"
-				"download" "E56EF0C4598E450815EF73673315D7DF"
+				"gid" "62AA4FA56396C37F9E1F702E1493F1B5"
+				"size" "9BB3A32E5C43308B40BC0F423ED9E81D"
+				"download" "5746ADF532D9B14C810775724F7C9245"
 			}
 			"localization"
 			{
-				"gid" "4F4FE7F312AD9D30EAA86C2B3A7799EE"
-				"size" "EDD7820A8221B6CC90670338A85C7818"
-				"download" "7BD85CCF14FCF2A14BE69EB7D2A9928C"
+				"gid" "9CD38057C8900B976B16FA5FC68AAE57"
+				"size" "C2344F68B4DD0EE2FA34B7B7F8E95699"
+				"download" "0CF8F33B298854C781A082589BABAAA3"
 			}
 			"nightly"
 			{
-				"gid" "16EB40797F4E23483241B02708BD7ECB"
-				"size" "E75B1BE220032BF23F51AAEFB711BD39"
-				"download" "E0A79A1126E057E6C243E6B435F2DE02"
+				"gid" "E858D89F787D18237EEE1B18233BEA8A"
+				"size" "83EB13233740382F19021FF98BBC9585"
+				"download" "C7723F6E3BE03FB69607576708E33031"
 			}
 			"prev-nightly"
 			{
-				"gid" "BC0587F754A758F557A30221AD5E6C25"
-				"size" "671AA09323D39B2E5BAE9C863BD03346"
-				"download" "5EAEC90CFA28CE5B9A567999FF286F15"
+				"gid" "77D8E93A8A399F5439B1EFA556CDB174"
+				"size" "FEB5553B9848FDA8A3B0691B8F57D957"
+				"download" "233D05F513376E7E34D8928F160815CC"
 			}
 			"test"
 			{
-				"gid" "4946A58F46D396E1A4330C481FD92944"
-				"size" "0139754A008CDFD51B3D83803DA3B0D3"
-				"download" "370A067F55E70B847B6B83FA1562EAF6"
+				"gid" "6A1EEA44B74BC01FBBE5E529AB2CA311"
+				"size" "D3A80E0685B90F66E2A023BA3169BB14"
+				"download" "FE382B07461CCE7F471B272F00D8768A"
 			}
 		}
 	}
@@ -447,42 +527,42 @@
 		{
 			"public"
 			{
-				"gid" "1197531905109569330"
-				"size" "216566774"
-				"download" "41024096"
+				"gid" "8635746770086710752"
+				"size" "234554890"
+				"download" "45867552"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"capture"
+			"external"
 			{
-				"gid" "9C4F4EAEBE5CC49FED2EEC8719E68638"
-				"size" "A00E7C0DA48EC5CB227E6138E4D54C57"
-				"download" "287838ACAEB4AF1E535D8C9C628C464A"
+				"gid" "0A1EDDA6101D47F7B8FDB4CD65AA41EC"
+				"size" "426A8853F41B55C102C482F5935EC0FD"
+				"download" "89C5D97DE6674EF09AD47F3CAF158B3F"
 			}
 			"localization"
 			{
-				"gid" "941F24D4F6915A5D132AA1736CBB383A"
-				"size" "97BD1324126AE652F74F300462B3F09F"
-				"download" "000522E39F3BDEEC726B510B37AFC617"
+				"gid" "FB00682C78DD011E1FB9C058F70AE3B5"
+				"size" "A66732E96679A48D2452B27CBE2CF618"
+				"download" "2B30D60B9572AD8A14B9530422350650"
 			}
 			"nightly"
 			{
-				"gid" "C4BAEA15E296C80FAE5EAF13BBD4A585"
-				"size" "2B3D4976091C588E61B77968171CC86A"
-				"download" "38A5938837F3CF7CFF91A61D1BFA2659"
+				"gid" "DA749F9EFD34862EE840FD967BE8C00D"
+				"size" "174A64B5CCF1C5352ADBB0F5821852C2"
+				"download" "34A75A9BA63A2587E1C8B40574E5896A"
 			}
 			"prev-nightly"
 			{
-				"gid" "83A0F8769AD9C6CCB2ECEF920E7EE73B"
-				"size" "F7D3CE8C6B78EFB8E4EE37746677ECDE"
-				"download" "C6EE3C1A0B95C5B2B430DD87796865E8"
+				"gid" "C1ABDFF0142A8EA11D3691E1E8DC5D32"
+				"size" "96D2F90DA75685DC3DC1790F2EC6CFCD"
+				"download" "9DEE58472A650509781F64165EC8FD0F"
 			}
 			"test"
 			{
-				"gid" "324B3248109A6795A9CB443B05F6B0B2"
-				"size" "B3422AA6E92B42183DAFA3639AA8AC23"
-				"download" "94A8C60515FCE5E432A3671FC6B35515"
+				"gid" "45D110FF37FA4EFA3DAF71B2BDBFCEE9"
+				"size" "F934E32E415F585A4815958027F12335"
+				"download" "17EC11682065698160312FFB50CB350B"
 			}
 		}
 	}
@@ -496,42 +576,42 @@
 		{
 			"public"
 			{
-				"gid" "8376184417921442410"
-				"size" "82202875"
-				"download" "22719824"
+				"gid" "5724601555135751521"
+				"size" "91142445"
+				"download" "26527696"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"capture"
+			"external"
 			{
-				"gid" "D7AF6A3C434F123425E11B0082976DB0"
-				"size" "D19889F0365F2BD7D914866CB755B24C"
-				"download" "21294AEF928C1EDD168ACA159EE0AE29"
+				"gid" "B4EDB88C881565A8584832EC3CADFD9B"
+				"size" "8AEEFAE4321A9FD618B31104E2F87C04"
+				"download" "163AB68EE0E6E7D57B86165CC9DBB612"
 			}
 			"localization"
 			{
-				"gid" "9887BDF11676216D4863871859AE6B00"
-				"size" "4B6F8A21C9A717C0D9EEA784F32E37A6"
-				"download" "7B78A16BB805FC9F87E7094E42F012F9"
+				"gid" "60CC78BB59A0D4116DCE04F12D860981"
+				"size" "51B3FC3743B875C1379479A02C77FC69"
+				"download" "5BD7D6EC11E6BA049E8F570016D6F738"
 			}
 			"nightly"
 			{
-				"gid" "724E3D6C7D89311B976C4E56B5E99CAF"
-				"size" "4DC02BAEDCC7EF078E9AE86B76D7A26E"
-				"download" "4E3309089DEE9BFA669CC05D8E0D3A68"
+				"gid" "9EC86BD9990AC195F34DE1404E0F8324"
+				"size" "A183A87A9449B222894F9D5B47F51EF3"
+				"download" "D8E74C471425DCF113EF0D42CE0FFBDE"
 			}
 			"prev-nightly"
 			{
-				"gid" "E577D59E95885D3CC57AFD11A9168B06"
-				"size" "70CA6C9C6C1AB2520503EC70D10BCCA5"
-				"download" "C20A52E6A7045CC8EC5CB1F49E0F9F9A"
+				"gid" "F25F0FE8663F05E26F75FD806AAF7EDE"
+				"size" "285821636DA6E95A987958BB28AC9205"
+				"download" "34A6A5487F3F90B2DEDB1829971FB0E2"
 			}
 			"test"
 			{
-				"gid" "A4E20917DC878D4309F9CCCDE05D7C24"
-				"size" "B2ABE109B54ABEA5FDAD71F72A1ED4B4"
-				"download" "5726491C7EBD07628AA4A725E1C2DFF3"
+				"gid" "86880A19788FC549575E8708FA4692CB"
+				"size" "BEA7E006D9638401553448D08EAD63A5"
+				"download" "E2D9DF3AD7C99485C06F88008472630B"
 			}
 		}
 	}
@@ -546,42 +626,42 @@
 		{
 			"public"
 			{
-				"gid" "5082930318056722788"
-				"size" "4906550218"
-				"download" "3911138288"
+				"gid" "8626803042299906050"
+				"size" "6105099057"
+				"download" "4868795776"
 			}
 		}
 		"encryptedmanifests"
 		{
-			"capture"
+			"external"
 			{
-				"gid" "8BA6393B02C332240B1AFB501133B3D5"
-				"size" "F06441BA2AF447C8BE791FC39D49BC95"
-				"download" "021231775B2535E1B2250A3A1360C3F7"
+				"gid" "CC81FE181707CDF306558E465AE485F9"
+				"size" "E31CE954DD630B81A39A66A46FAFAE2F"
+				"download" "D718F6057655C3589EC2B764E752D338"
 			}
 			"localization"
 			{
-				"gid" "28959F89212E0403A5E07B02D688426C"
-				"size" "737A667DBED9EA0FE352C3134417E555"
-				"download" "A44A3FCADC74096CDDBF48BD2AFAA685"
+				"gid" "2DB55FC032AD5BA404AF00A9BFE4C006"
+				"size" "5A3A51D65E0DDD2161D0E697A0404F26"
+				"download" "875A4CD1CBE0237800BF67FF0DE2F9C4"
 			}
 			"nightly"
 			{
-				"gid" "1996199CACAB42F285EFAC4DECD06240"
-				"size" "C71191B7978421750FDE4E6447BFDC4E"
-				"download" "199EE52D276D299A4EAE24C620DD0F1C"
+				"gid" "FBBF2D29C698C8B4B230B5C86AACCDC0"
+				"size" "31DF894B982CC28A5F51C5CB23402ECB"
+				"download" "6B4474744E6BE54FCF566533EDC3AFD9"
 			}
 			"prev-nightly"
 			{
-				"gid" "C3EF6A2350C6640E6A7A27F483A2C6ED"
-				"size" "F4931AC3EC02197395DD10C0C62D889F"
-				"download" "8C048EB73C9E230ADCF7CC33DDF3FB31"
+				"gid" "975F6F69D11F37C5679484FB2C8058C5"
+				"size" "C5B8B6753C8E7AE768BE045744FE0252"
+				"download" "0D50E84C6FEFB9C1795BCB62CAEDA548"
 			}
 			"test"
 			{
-				"gid" "3A79C488D9710DEA49E772E058F97528"
-				"size" "F599C94375AAC82B5F189231A0BC3076"
-				"download" "E51EC4BACBBDAE3B1C709B81EE5020CF"
+				"gid" "9AA513F77C540B1D9EA3BFB5A8EE66B9"
+				"size" "BD031CE84AA97067DB3DE8975193B01A"
+				"download" "130EFBC7E967740DA2D32A527CCBED3D"
 			}
 		}
 	}
@@ -589,38 +669,38 @@
 	{
 		"public"
 		{
-			"buildid" "15199037"
-			"timeupdated" "1722374236"
+			"buildid" "16063205"
+			"timeupdated" "1729095223"
 		}
-		"capture"
+		"external"
 		{
-			"buildid" "14188798"
+			"buildid" "15940377"
 			"pwdrequired" "1"
-			"timeupdated" "1714152401"
+			"timeupdated" "1728323800"
 		}
 		"localization"
 		{
-			"buildid" "15199037"
+			"buildid" "16063205"
 			"pwdrequired" "1"
-			"timeupdated" "1722340583"
+			"timeupdated" "1729069537"
 		}
 		"nightly"
 		{
-			"buildid" "15199037"
+			"buildid" "16063205"
 			"pwdrequired" "1"
-			"timeupdated" "1722340581"
+			"timeupdated" "1729069528"
 		}
 		"prev-nightly"
 		{
-			"buildid" "15197055"
+			"buildid" "16057213"
 			"pwdrequired" "1"
-			"timeupdated" "1722340441"
+			"timeupdated" "1729069179"
 		}
 		"test"
 		{
-			"buildid" "15199037"
+			"buildid" "16063205"
 			"pwdrequired" "1"
-			"timeupdated" "1722340585"
+			"timeupdated" "1729069544"
 		}
 	}
 }
@@ -657,6 +737,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "24578802"
-"_sha" "b7d11f312ca054024573113bdb2ff3527fa06775"
-"_size" "14503"
+"_change_number" "25750455"
+"_sha" "8cfa0a6d841d938d59a9732d7821db34690656ac"
+"_size" "16413"
