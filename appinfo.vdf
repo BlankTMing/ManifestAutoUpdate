@@ -1,7 +1,7 @@
 "appid" "1063730"
 "common"
 {
-	"name" "New World"
+	"name" "New World: Aeternum"
 	"type" "Game"
 	"releasestate" "released"
 	"oslist" "windows"
@@ -18,17 +18,17 @@
 		"brazilian" "1"
 		"latam" "1"
 	}
-	"clienttga" "b4cecb811bfdbbb5da76d0b1ea0b5f9efc449558"
-	"clienticon" "35cb0c4a41ddd6ab7098e8c1137faa421919006d"
-	"icon" "082cb546221edf8c9e68d0abda0421ce3c55ee71"
+	"clienttga" "199fc9cc4f8a45edde964f45e24d76734a973cee"
+	"clienticon" "c3bd6cff459f0b3dce2591c99f0c8ff3276133d4"
+	"icon" "492810f26b28acafb3e9940ad86a10526363bb35"
 	"eulas"
 	{
 		"0"
 		{
-			"id" "1063730_eula_0"
-			"name" "New World EULA"
-			"url" "https://store.steampowered.com//eula/1063730_eula_0"
-			"version" "2"
+			"id" "1063730_eula_1"
+			"name" "New World: Aeternum EULA"
+			"url" "https://store.steampowered.com//eula/1063730_eula_1"
+			"version" "11"
 		}
 	}
 	"logo" "9de9c940b61a4620259aa25b38e703fbd4bd30c5"
@@ -92,7 +92,7 @@
 	"controller_support" "partial"
 	"small_capsule"
 	{
-		"english" "capsule_231x87.jpg"
+		"english" "2fe94eba6734521fbd4f44fb23ea66cb79376067/capsule_231x87.jpg"
 	}
 	"header_image"
 	{
@@ -103,11 +103,12 @@
 		"library_capsule" "en"
 		"library_hero" "en"
 		"library_logo" "en"
+		"library_header" "en"
 		"logo_position"
 		{
 			"pinned_position" "BottomCenter"
-			"width_pct" "100"
-			"height_pct" "86.28586591811646"
+			"width_pct" "52.800466744457395"
+			"height_pct" "18.843505105675604"
 		}
 	}
 	"library_assets_full"
@@ -116,43 +117,54 @@
 		{
 			"image"
 			{
-				"english" "library_600x900.jpg"
+				"english" "312be985f8d89f3df6cef33e333f7fd33bc4c039/library_600x900.jpg"
 			}
 			"image2x"
 			{
-				"english" "library_600x900_2x.jpg"
+				"english" "312be985f8d89f3df6cef33e333f7fd33bc4c039/library_600x900_2x.jpg"
 			}
 		}
 		"library_hero"
 		{
-			"image"
-			{
-				"english" "library_hero.jpg"
-			}
 			"image2x"
 			{
-				"english" "library_hero_2x.jpg"
+				"english" "41caae23b3b485071a898aaecf654613c7eb5462/library_hero_2x.jpg"
+			}
+			"image"
+			{
+				"english" "41caae23b3b485071a898aaecf654613c7eb5462/library_hero.jpg"
 			}
 		}
 		"library_logo"
 		{
 			"image"
 			{
-				"english" "logo.png"
+				"english" "67df53e91221dcdf6f35cf6cec9b0a1927e18104/logo.png"
 			}
 			"image2x"
 			{
-				"english" "logo_2x.png"
+				"english" "67df53e91221dcdf6f35cf6cec9b0a1927e18104/logo_2x.png"
 			}
 			"logo_position"
 			{
 				"pinned_position" "BottomCenter"
-				"width_pct" "100"
-				"height_pct" "86.28586591811646"
+				"width_pct" "52.800466744457395"
+				"height_pct" "18.843505105675604"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "bd98bbdc4fdf388d07afa6ec8d781cb863bccfb0/library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "bd98bbdc4fdf388d07afa6ec8d781cb863bccfb0/library_header_2x.jpg"
 			}
 		}
 	}
-	"store_asset_mtime" "1726502717"
+	"store_asset_mtime" "1728964044"
 	"associations"
 	{
 		"0"
@@ -290,7 +302,7 @@
 	"developer" "Amazon Games"
 	"publisher" "Amazon Games"
 	"homepage" "https://www.newworld.com/"
-	"listofdlc" "1200566,1266150,1266151,1266152,1266153,2221520,2487480"
+	"listofdlc" "1200566,1266150,1266151,1266152,1266153,2221520,2487480,3161150,3161160"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -309,9 +321,9 @@
 			}
 			"description_loc"
 			{
-				"english" "New World"
+				"english" "New World Aeternum"
 			}
-			"description" "New World"
+			"description" "New World Aeternum"
 		}
 		"1"
 		{
@@ -373,6 +385,22 @@
 				"english" "Play Custom Hack Job"
 			}
 			"description" "Play Custom Hack Job"
+		}
+		"5"
+		{
+			"executable" "NewWorldLauncher.exe"
+			"arguments" "-dx12"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "New World Aeternum DX12 BETA PREVIEW"
+			}
+			"description" "New World Aeternum DX12 BETA PREVIEW"
 		}
 	}
 }
@@ -439,18 +467,24 @@
 		{
 			"public"
 			{
-				"gid" "5443301517975250228"
-				"size" "84381231358"
-				"download" "74878869280"
+				"gid" "7402266719250690975"
+				"size" "80157594810"
+				"download" "70148457664"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"default-test"
 			{
-				"gid" "3EE247F75650EA5B02D420001F57BE3B"
-				"size" "A7D0B0F1A466B011AA53CE084CCCC557"
-				"download" "2A9AA743B11A5006A838904335C6D593"
+				"gid" "20D9942EA81200BF2029F41AA0D47785"
+				"size" "41AE69B22ABA4A82EFBDDA66FB2CC43F"
+				"download" "2F38494D9804E1A83512682E0381394B"
+			}
+			"preload"
+			{
+				"gid" "3A2250CA70C1851B2E7B86432A53D2B7"
+				"size" "71F28EDB7C3924E50125DD4E9781F9C3"
+				"download" "16A7260C55300A104374BD8641FD10B3"
 			}
 			"scale-test"
 			{
@@ -460,9 +494,9 @@
 			}
 			"staging"
 			{
-				"gid" "B8C7EA1224A69F0B436CF7AAD472BF82"
-				"size" "5F3B6D61578FD418D111DFF474789A72"
-				"download" "CA010DF1487FCE2953D1B739BA894E7C"
+				"gid" "D44FAD69AD742CAAC02795BCF502C95D"
+				"size" "FE3D43F7A4C1D9E806CA183A0C491717"
+				"download" "331928B4E267D96C3BDE46DEFBE22F18"
 			}
 		}
 	}
@@ -480,6 +514,12 @@
 		}
 		"encryptedmanifests"
 		{
+			"preload"
+			{
+				"gid" "E8C7700AE01AE875815AFB918BAA8225"
+				"size" "897EE76FAE4EF39C98403C4EEEDCB280"
+				"download" "FB1FC808EAEF7708DA429D9B396F01A3"
+			}
 			"scale-test"
 			{
 				"gid" "27975A9E5CC64E7024929A13775A04C9"
@@ -488,9 +528,9 @@
 			}
 			"staging"
 			{
-				"gid" "7A9BCB44B42D64F382851DF88CF23F78"
-				"size" "AC2200FD47A9B727ED4911612DB1CA60"
-				"download" "8571E78C9F2400648E30B976EEE0A823"
+				"gid" "7D1A9842C79F00A9E562B11B49E2D7A7"
+				"size" "B8F9CEC33C4AB9481D40B6E7E5EC803D"
+				"download" "508F263F1759A03C9A33B39395D9651B"
 			}
 		}
 	}
@@ -501,18 +541,24 @@
 		{
 			"public"
 			{
-				"gid" "7661971043706638399"
-				"size" "464511490"
-				"download" "114553536"
+				"gid" "5218612176613315574"
+				"size" "519600492"
+				"download" "126925488"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"default-test"
 			{
-				"gid" "379894A2F16A910DE9AE99A77FFA4154"
-				"size" "7ABD617A0BA0C20D61F390DF6723D182"
-				"download" "B328401A8B1E0828129AAD56F37E9B59"
+				"gid" "A4CB0F3780319FBF659140582A78D0F1"
+				"size" "63A02E4E10E545FD6ACAF844C8B96F09"
+				"download" "C4CC21D5B36A31561CE4625CEB1CE4AD"
+			}
+			"preload"
+			{
+				"gid" "08F3F083C3CAB404F23CDDC0D6325DCA"
+				"size" "5B6D2C22A45C1120D835408C507187F8"
+				"download" "B48CAE891187E79CB57F5773714CEC52"
 			}
 			"scale-test"
 			{
@@ -522,9 +568,9 @@
 			}
 			"staging"
 			{
-				"gid" "50BC08A408A15D0BFF2B518457281AF2"
-				"size" "8228A17A6B4ECF207A19ACDD4C5E9585"
-				"download" "FC48D414065F188A2BF13E6EA3A03A7B"
+				"gid" "535F778457955EC3DE084E8B73E3DACF"
+				"size" "90253BB570E47FFEFE45063DF149D03C"
+				"download" "982C4620F683A2CAB6B48A55D6193DD8"
 			}
 		}
 	}
@@ -535,18 +581,24 @@
 		{
 			"public"
 			{
-				"gid" "7465714282521650324"
-				"size" "206276776"
-				"download" "55061952"
+				"gid" "205967218696869912"
+				"size" "226179768"
+				"download" "58792544"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"default-test"
 			{
-				"gid" "51EAE32D91DBA41832FFC51841E5365A"
-				"size" "B108A72FFA0F1D3D14E1345201B6D6D0"
-				"download" "F41EE34A7CC62F3A8EC6E023639CC279"
+				"gid" "3FB5C74DC69DA76AA87678F372220CC9"
+				"size" "4F44419462063F112870CD3D339EE664"
+				"download" "6BC40E620BB3AB38572C109AB6857B58"
+			}
+			"preload"
+			{
+				"gid" "242567CC4070B235AF12AEF3D8B241D8"
+				"size" "54415C253C8A1F3B2131682A12DC6461"
+				"download" "3A05E16A2AC8A86BA32AD243A2924AE4"
 			}
 			"scale-test"
 			{
@@ -556,9 +608,9 @@
 			}
 			"staging"
 			{
-				"gid" "A8EAA69F8B333248B637F2D887F5D9C4"
-				"size" "7225B4CE8484C4624E303EEABDE423A0"
-				"download" "3DFA03309D5DD65057F5A414B03AC948"
+				"gid" "8D68ADC7D47FEAA2FE851BE2775B022E"
+				"size" "EB87CC0FC81C35BDC857D913BA9D2034"
+				"download" "3E4809101B18116DC5C801329E90F6FE"
 			}
 		}
 	}
@@ -570,14 +622,38 @@
 		}
 		"manifests"
 		{
+			"public"
+			{
+				"gid" "5469963474890023194"
+				"size" "2059475240"
+				"download" "2059842704"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"default-test"
+			{
+				"gid" "DDEF3BFB499946F7A0BFF625B02ED338"
+				"size" "703D9EEB896F578E2A053E895ACFD51B"
+				"download" "4AD6B7FDD9C791B35ACB8B7CFBFC36B7"
+			}
+			"preload"
+			{
+				"gid" "CED0D84F5FA6C8FE9C7D4233B77C9A77"
+				"size" "8B85955143BBE8DB7BDDDB034AF20A87"
+				"download" "73E134EDA3B7F162AA4F7101AE7AFB5D"
+			}
 			"scale-test"
 			{
 				"gid" "1C6CF42CE7495A65DEBE3726EFEAB67F"
 				"size" "3AAECDA774A2249315D347E77529840F"
 				"download" "3AAECDA774A2249315D347E77529840F"
+			}
+			"staging"
+			{
+				"gid" "F4006BA67CD38A4CA7397319F0537A49"
+				"size" "C62530AAC0EA72A9BBF4618272B8BE2B"
+				"download" "5E2AD860F9B5D5C4900F6755B75C4574"
 			}
 		}
 	}
@@ -589,14 +665,38 @@
 		}
 		"manifests"
 		{
+			"public"
+			{
+				"gid" "8400106410650126062"
+				"size" "2225275843"
+				"download" "2227292768"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"default-test"
+			{
+				"gid" "1BD25DF0CD1C5075311ACF7F91327CFF"
+				"size" "9FCB303C1DBB6FDD09212CF5C8A48662"
+				"download" "B3050577569767ECB8C01783F279E6CD"
+			}
+			"preload"
+			{
+				"gid" "BF56C544CED3DE9DCB4C4D3E8FBE8D71"
+				"size" "9AA64FBBE9AA2A42FF4028B59018E2B3"
+				"download" "36A9B77F61DD83EAC74AF1CECC7C6153"
+			}
 			"scale-test"
 			{
 				"gid" "8FD8EBC8EFAE05B80F1A062039F511AB"
 				"size" "3AAECDA774A2249315D347E77529840F"
 				"download" "3AAECDA774A2249315D347E77529840F"
+			}
+			"staging"
+			{
+				"gid" "02B0818CC39FCDB600DB15B3C303CC86"
+				"size" "04BCF940A10E1862A7E83541A347F6A8"
+				"download" "0BB49CC8095110CEC800C19B81A7C6C0"
 			}
 		}
 	}
@@ -608,14 +708,38 @@
 		}
 		"manifests"
 		{
+			"public"
+			{
+				"gid" "3289434464678121992"
+				"size" "2036430420"
+				"download" "2038504112"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"default-test"
+			{
+				"gid" "0B32113C4BEE36A3F41DDE990192F7A9"
+				"size" "D13AA35DE24C8DAA8CA26F94DCD79D63"
+				"download" "21E9D493ED9153BD41DEFF0ECA6F7400"
+			}
+			"preload"
+			{
+				"gid" "F2F265F93000F9D9865E892D01B43516"
+				"size" "71E8FEDD42288DB4EA39A643AE2C1FFA"
+				"download" "9471182AAB6039A77D022DFC70D2DA50"
+			}
 			"scale-test"
 			{
 				"gid" "95490369D21CB1FC64F593461EA90F6E"
 				"size" "3AAECDA774A2249315D347E77529840F"
 				"download" "3AAECDA774A2249315D347E77529840F"
+			}
+			"staging"
+			{
+				"gid" "167E4D7BBBAE946399D94C9F2D9D37CC"
+				"size" "3C7E23D1F46EB516A9BC9BA025370FCC"
+				"download" "8DC31A99FC538E2CC7D89618243DD1C9"
 			}
 		}
 	}
@@ -627,14 +751,38 @@
 		}
 		"manifests"
 		{
+			"public"
+			{
+				"gid" "8301923622478985189"
+				"size" "2303001978"
+				"download" "2302642528"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"default-test"
+			{
+				"gid" "2043C46DED143BF64609713E79CDA83C"
+				"size" "8329B12B0B206A031D72F7E9D00506C4"
+				"download" "5627C714A3D4A9D238CB57D16A0BFA38"
+			}
+			"preload"
+			{
+				"gid" "6D971EE176FA20210985D56072F1FBE3"
+				"size" "B7549F16EF82A4EFEB7A60BD4654E608"
+				"download" "E50A72730EC77EA97BA57C36E526683C"
+			}
 			"scale-test"
 			{
 				"gid" "4FE1B61B20DD3C1CA4871542F666AAD7"
 				"size" "3AAECDA774A2249315D347E77529840F"
 				"download" "3AAECDA774A2249315D347E77529840F"
+			}
+			"staging"
+			{
+				"gid" "FB2132EB7533673DF5173EFD5AA9EB21"
+				"size" "6B159C44FCF9CA28C745B40FDFC550C1"
+				"download" "D8F37DBCFA2617F7CF3F5B5B76FFC6EE"
 			}
 		}
 	}
@@ -646,14 +794,38 @@
 		}
 		"manifests"
 		{
+			"public"
+			{
+				"gid" "680020465507150124"
+				"size" "2087761584"
+				"download" "2086551504"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"default-test"
+			{
+				"gid" "3977B2E8A6EDF7DD9DFB21A6939AA2CD"
+				"size" "5244557B21BCCC0990DD000CB5258168"
+				"download" "C894759663AAF2D8BF7BA6BF0FB39458"
+			}
+			"preload"
+			{
+				"gid" "8316509ED4C96B2DB31BEBCA163F8942"
+				"size" "53BD68D63D09464857800D90CB091738"
+				"download" "2A9AC93347B7448AA8EA43DED6CBF217"
+			}
 			"scale-test"
 			{
 				"gid" "DF19DD85E1090D87021332E925F1339A"
 				"size" "3AAECDA774A2249315D347E77529840F"
 				"download" "3AAECDA774A2249315D347E77529840F"
+			}
+			"staging"
+			{
+				"gid" "860C066FC84D5D5091AF2DAD0FEF2A7D"
+				"size" "6F3E21A14DD7007CAD59BCE24E7FA447"
+				"download" "E083930CA45C09287010C95BC2E5F0D0"
 			}
 		}
 	}
@@ -665,14 +837,38 @@
 		}
 		"manifests"
 		{
+			"public"
+			{
+				"gid" "7387749122460771394"
+				"size" "2059475240"
+				"download" "2059842704"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"default-test"
+			{
+				"gid" "D783FA1BCB678EEAC762A4925594C883"
+				"size" "703D9EEB896F578E2A053E895ACFD51B"
+				"download" "4AD6B7FDD9C791B35ACB8B7CFBFC36B7"
+			}
+			"preload"
+			{
+				"gid" "F84B8BAAD232A2CD8149A17B1ED61A61"
+				"size" "8B85955143BBE8DB7BDDDB034AF20A87"
+				"download" "73E134EDA3B7F162AA4F7101AE7AFB5D"
+			}
 			"scale-test"
 			{
 				"gid" "B4828F2B83904AFEDD154E6EE24E676F"
 				"size" "3AAECDA774A2249315D347E77529840F"
 				"download" "3AAECDA774A2249315D347E77529840F"
+			}
+			"staging"
+			{
+				"gid" "076641711B63AA77A57539415176B5F5"
+				"size" "C62530AAC0EA72A9BBF4618272B8BE2B"
+				"download" "5E2AD860F9B5D5C4900F6755B75C4574"
 			}
 		}
 	}
@@ -684,14 +880,38 @@
 		}
 		"manifests"
 		{
+			"public"
+			{
+				"gid" "1172700343592401940"
+				"size" "2059475240"
+				"download" "2059842704"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"default-test"
+			{
+				"gid" "07F850C73317C4B92ED45A43BBF5C58C"
+				"size" "703D9EEB896F578E2A053E895ACFD51B"
+				"download" "4AD6B7FDD9C791B35ACB8B7CFBFC36B7"
+			}
+			"preload"
+			{
+				"gid" "EC493B5D4703A3A0363FEF32FB84A2C3"
+				"size" "8B85955143BBE8DB7BDDDB034AF20A87"
+				"download" "73E134EDA3B7F162AA4F7101AE7AFB5D"
+			}
 			"scale-test"
 			{
 				"gid" "C083A81744EEE265D2D538AD97053B3E"
 				"size" "3AAECDA774A2249315D347E77529840F"
 				"download" "3AAECDA774A2249315D347E77529840F"
+			}
+			"staging"
+			{
+				"gid" "B376D1E1624DC0D51B010427959B37A3"
+				"size" "C62530AAC0EA72A9BBF4618272B8BE2B"
+				"download" "5E2AD860F9B5D5C4900F6755B75C4574"
 			}
 		}
 	}
@@ -703,14 +923,38 @@
 		}
 		"manifests"
 		{
+			"public"
+			{
+				"gid" "7183590143693847630"
+				"size" "2303001978"
+				"download" "2302642528"
+			}
 		}
 		"encryptedmanifests"
 		{
+			"default-test"
+			{
+				"gid" "05397225C3DECDDF46B4F4948CE66E18"
+				"size" "8329B12B0B206A031D72F7E9D00506C4"
+				"download" "5627C714A3D4A9D238CB57D16A0BFA38"
+			}
+			"preload"
+			{
+				"gid" "FE5C4E524022E5F9CCFB3533C2382200"
+				"size" "B7549F16EF82A4EFEB7A60BD4654E608"
+				"download" "E50A72730EC77EA97BA57C36E526683C"
+			}
 			"scale-test"
 			{
 				"gid" "53409A083B4A71BD2F7BF9925B94AA01"
 				"size" "3AAECDA774A2249315D347E77529840F"
 				"download" "3AAECDA774A2249315D347E77529840F"
+			}
+			"staging"
+			{
+				"gid" "CB197F8844E4D64D7169DEA776754A09"
+				"size" "6B159C44FCF9CA28C745B40FDFC550C1"
+				"download" "D8F37DBCFA2617F7CF3F5B5B76FFC6EE"
 			}
 		}
 	}
@@ -718,14 +962,20 @@
 	{
 		"public"
 		{
-			"buildid" "15738329"
-			"timeupdated" "1726640135"
+			"buildid" "15921536"
+			"timeupdated" "1728963797"
 		}
 		"default-test"
 		{
-			"buildid" "15704939"
+			"buildid" "15921371"
 			"pwdrequired" "1"
-			"timeupdated" "1726367598"
+			"timeupdated" "1727988185"
+		}
+		"preload"
+		{
+			"buildid" "15921536"
+			"pwdrequired" "1"
+			"timeupdated" "1727989439"
 		}
 		"scale-test"
 		{
@@ -735,13 +985,13 @@
 		}
 		"staging"
 		{
-			"buildid" "14587638"
+			"buildid" "15922443"
 			"pwdrequired" "1"
-			"timeupdated" "1717432682"
+			"timeupdated" "1727995452"
 		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "25273709"
-"_sha" "19ee5ce19cb841980e989003542caf13e98879a1"
-"_size" "13363"
+"_change_number" "25740305"
+"_sha" "60c0925b5dcb9615b0c475dcb7f51224ef562af8"
+"_size" "20230"
