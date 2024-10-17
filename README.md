@@ -1,22 +1,27 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-17 00:28:50
+## 更新时间：2024-10-17 09:47:12
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 450860 | Andarilho| Game |
-| 740 | Counter-Strike Global Offensive - Dedicated Server| Tool |
-| 1086940 | Baldur's Gate 3| Game |
-| 986130 | Shadows of Doubt - 凶影疑云| Game |
-| 700580 | Rust - Staging Branch| Game |
-| 1485690 | 药剂大亨 - Potion Tycoon| Game |
-| 381210 | 黎明杀机| Game |
-| 1972440 | Shotgun King: The Final Checkmate| Game |
-| 1284190 | The Planet Crafter| Game |
-| 1029780 | Going Medieval| Game |
-| 1136370 | Bear and Breakfast| Game |
-| 1455910 | 领地：种田与征战| Game |
-| 222750 | Wargame: AirLand Battle| Game |
-| 1493640 | 驱灵者：新伊甸的幽灵| Game |
-| 1145350 | Hades II| Game |
-| 1635450 | Longvinter| Game |
-| 1639880 | Longvinter Dedicated Server| Tool |
+| 730 | Counter-Strike 2| Game |
+| 227300 | Euro Truck Simulator 2| Game |
+| 421800 | SCS Workshop Uploader| Tool |
+| 1203220 | 永劫无间| Game |
+| 469600 | 军团战争2 / Legion TD 2| Game |
+| 799600 | Cosmoteer: 星舰设计师| Game |
+| 270880 | American Truck Simulator| Game |
+| 1614550 | Astro Colony| Game |
+| 2662210 | Astro Colony Dedicated Server| Tool |
+| 2934900 | Astro Colony Dedicated Server Linux| Tool |
+| 393380 | Squad| Game |
+| 403240 | Squad Dedicated Server| Tool |
+| 1541840 | 古剑奇谭网络版 海外版| Game |
+| 1254120 | 神佑释放| Game |
+| 1645820 | SurrounDead| Game |
+| 1934680 | Age of Mythology: Retold| Game |
+| 1063730 | New World: Aeternum| Game |
+| 2399830 | 方舟: 生存飞升| Game |
+| 1824220 | Chivalry 2| Game |
+| 1451480 | The Greatest Penguin Heist of All Time| Game |
+| 2420660 | Neva| Game |
+| 2054970 | Dragon's Dogma 2| Game |
