@@ -1,27 +1,18 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-17 09:47:12
+## 更新时间：2024-10-17 16:29:25
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 730 | Counter-Strike 2| Game |
-| 227300 | Euro Truck Simulator 2| Game |
-| 421800 | SCS Workshop Uploader| Tool |
-| 1203220 | 永劫无间| Game |
-| 469600 | 军团战争2 / Legion TD 2| Game |
-| 799600 | Cosmoteer: 星舰设计师| Game |
-| 270880 | American Truck Simulator| Game |
-| 1614550 | Astro Colony| Game |
-| 2662210 | Astro Colony Dedicated Server| Tool |
-| 2934900 | Astro Colony Dedicated Server Linux| Tool |
-| 393380 | Squad| Game |
-| 403240 | Squad Dedicated Server| Tool |
-| 1541840 | 古剑奇谭网络版 海外版| Game |
-| 1254120 | 神佑释放| Game |
-| 1645820 | SurrounDead| Game |
-| 1934680 | Age of Mythology: Retold| Game |
-| 1063730 | New World: Aeternum| Game |
-| 2399830 | 方舟: 生存飞升| Game |
-| 1824220 | Chivalry 2| Game |
-| 1451480 | The Greatest Penguin Heist of All Time| Game |
-| 2420660 | Neva| Game |
-| 2054970 | Dragon's Dogma 2| Game |
+| 740 | Counter-Strike Global Offensive - Dedicated Server| Tool |
+| 578080 | PUBG: BATTLEGROUNDS| Game |
+| 236850 | Europa Universalis IV| Game |
+| 1245620 | 艾尔登法环| Game |
+| 991780 | 探灵笔記/拾遗记-1v5(Notes of Soul)| Game |
+| 1084600 | 沙石镇时光| Game |
+| 1284190 | The Planet Crafter| Game |
+| 960090 | Bloons TD 6| Game |
+| 960170 | DJMAX RESPECT V| Game |
+| 582660 | Black Desert| Game |
+| 2396980 | Fate/stay night REMASTERED| Game |
+| 2430930 | ARK: Survival Ascended Dedicated Server| Tool |
+| 2501600 | 骰子浪游者| Game |
