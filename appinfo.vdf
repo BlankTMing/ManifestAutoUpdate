@@ -1,0 +1,482 @@
+"appid" "1585180"
+"common"
+{
+	"name" "Drova - Forsaken Kin"
+	"type" "Game"
+	"oslist" "windows,macos,linux"
+	"osarch" "64"
+	"osextended" "macos64"
+	"logo" "f67aeadbc78ac66d674cc7d758215900dcfd4b26"
+	"logo_small" "f67aeadbc78ac66d674cc7d758215900dcfd4b26_thumb"
+	"icon" "7d2d654796697aee98f6ad74fcfa09a3cc1ff3d5"
+	"clienticon" "6b2ce7bbd0a5b132704fac3bacb662e426edff11"
+	"clienttga" "95d77f17ade9767d182e8f4454284b0b0a788487"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+	}
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "UpperCenter"
+			"width_pct" "69.3851761106259"
+			"height_pct" "75.85949564161375"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "46ec044de8296db0c385310476b0a25337b0cc28/library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "921e06c7565c82de40dcc711d9038e7697421eef/logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "UpperCenter"
+				"width_pct" "69.3851761106259"
+				"height_pct" "75.85949564161375"
+			}
+			"image2x"
+			{
+				"english" "921e06c7565c82de40dcc711d9038e7697421eef/logo_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "664cf6c71298a61bc798ca535193fe34eecd82ba/library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1729002212"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Just2D"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Deck13"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Deck13 Spotlight"
+		}
+		"3"
+		{
+			"type" "franchise"
+			"name" "Focus Entertainment"
+		}
+	}
+	"primary_genre" "3"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+		"3" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_22" "1"
+		"category_55" "1"
+		"category_56" "1"
+		"category_57" "1"
+		"category_58" "1"
+		"category_59" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1729000680"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1585180"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "3834"
+		"2" "4231"
+		"3" "4474"
+		"4" "29482"
+		"5" "4747"
+		"6" "3871"
+		"7" "6426"
+		"8" "9592"
+		"9" "1695"
+		"10" "19"
+		"11" "3964"
+		"12" "1742"
+		"13" "4604"
+		"14" "1684"
+		"15" "4057"
+		"16" "5716"
+		"17" "4182"
+		"18" "21"
+		"19" "4166"
+	}
+	"review_score" "8"
+	"review_percentage" "97"
+}
+"extended"
+{
+	"developer" "Just2D"
+	"publisher" "Deck13"
+	"homepage" "https://www.just2d.com"
+}
+"config"
+{
+	"installdir" "Drova - Forsaken Kin"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Drova.exe"
+			"arguments" "-system steam"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Drova.x86_64"
+			"arguments" "-system steam"
+			"type" "default"
+			"config"
+			{
+				"oslist" "linux"
+			}
+		}
+		"2"
+		{
+			"executable" "Drova.app\\Contents\\MacOS\\Drova"
+			"arguments" "-system steam"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"workshopdepot" "1585180"
+	"1585182"
+	{
+		"config"
+		{
+			"osarch" "64"
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7645335907873965129"
+				"size" "3882281829"
+				"download" "1103902304"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"presspreview"
+			{
+				"gid" "C60B247FC315C444F4ADFAB87B3C63EA"
+				"size" "5C046472AA2DA3D35E097CD0B724808A"
+				"download" "672732081B71A3E091C468DDCFF1AB50"
+			}
+			"custom"
+			{
+				"gid" "0B50553445DE8E8340BE5FFE0CB8042E"
+				"size" "EE1C4135078E2A5DA9A67500E5B6954C"
+				"download" "E47788B6913239A194EE0B04C18BF0B1"
+			}
+			"deck13qa"
+			{
+				"gid" "5CDE0FA0E9A7618E6D1C85C8C0815F0E"
+				"size" "31305720263111628A82134DA35DDAD8"
+				"download" "8B7BD29BA12C6A7531DB230C1DB94BA9"
+			}
+			"demo"
+			{
+				"gid" "823127ED7E6EB296868E09752EEE6DE7"
+				"size" "B147A4040CC6936F49FAC1DCA7B780AD"
+				"download" "33CF2DAE060612D91353A77169865A54"
+			}
+			"j2d_test_intern"
+			{
+				"gid" "FEE3A958979657CEFA18C73B526A9B6A"
+				"size" "CB97E9C90B30F3A93F864621D8040AED"
+				"download" "60407A96CB96A6CF9E0192CDC33319C3"
+			}
+			"nightly"
+			{
+				"gid" "69B8A08F6443905F48FC566E7A02EDA7"
+				"size" "B6C9653F87546A360B5B12BF7D5F81A8"
+				"download" "2DDF7F42F63CF3CDF1B2410532034E2A"
+			}
+			"stable"
+			{
+				"gid" "8A233A049E387483F55D3328C3F31358"
+				"size" "B555EF8FE6543BB5F41CA7274B06397B"
+				"download" "6B88EA85AAC73CC140C8CEB742F7EE02"
+			}
+			"trailer"
+			{
+				"gid" "ED69418A2D6C4D59DB2A00C64C73F7D5"
+				"size" "338E61BA37AB2D2DF1137B25C4E782B7"
+				"download" "3BB9465A2F12AF0201A56375E38D763E"
+			}
+		}
+	}
+	"1585181"
+	{
+		"config"
+		{
+			"oslist" "linux"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4864880184663784803"
+				"size" "3821750748"
+				"download" "1087917072"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"internal"
+			{
+				"gid" "2809123EEC57028139C1901BF3E481D7"
+				"size" "0B1C86131C21BC2016348BA632ADB436"
+				"download" "8F96EAEBA9C51CAC2CF1BF1E357ACF85"
+			}
+			"deck13qa"
+			{
+				"gid" "485BE6EDFC196E4D2362FB4574D6F6B9"
+				"size" "2371615BE65806FE32BCA02EF07A18B4"
+				"download" "8339991367B002EED98CA05E934A0A72"
+			}
+			"stable"
+			{
+				"gid" "835107DB644E61AF2914945C1CE3232E"
+				"size" "E8C6078B752055EF8D09369E2506FF2D"
+				"download" "53318FFE11BBBBF2087E37799066DDA9"
+			}
+		}
+	}
+	"1585183"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6001273661618777730"
+				"size" "3856475790"
+				"download" "1095955328"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"deck13qa"
+			{
+				"gid" "6484FBA735694C3C19902F25B4EDD473"
+				"size" "4F148D337DF637C7BC8C4B90D5B76B5F"
+				"download" "F45CFCD0073DF21AC6572D68B8A61D0F"
+			}
+			"stable"
+			{
+				"gid" "C7311B2B647B5992EA2B104E06226E68"
+				"size" "20738D5C237B2646E352240512695374"
+				"download" "85EC5C20670B4DAC00982D60535EB300"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "16057647"
+			"timeupdated" "1729031444"
+		}
+		"internal"
+		{
+			"buildid" "9568182"
+			"pwdrequired" "1"
+			"timeupdated" "1663835593"
+		}
+		"presspreview"
+		{
+			"buildid" "12627806"
+			"pwdrequired" "1"
+			"timeupdated" "1699260078"
+		}
+		"custom"
+		{
+			"buildid" "16008006"
+			"pwdrequired" "1"
+			"timeupdated" "1728643451"
+		}
+		"deck13qa"
+		{
+			"buildid" "16084494"
+			"pwdrequired" "1"
+			"timeupdated" "1729184756"
+		}
+		"demo"
+		{
+			"buildid" "15388697"
+			"pwdrequired" "1"
+			"timeupdated" "1723769464"
+		}
+		"j2d_test_intern"
+		{
+			"buildid" "16089308"
+			"pwdrequired" "1"
+			"timeupdated" "1729215639"
+		}
+		"nightly"
+		{
+			"buildid" "16089980"
+			"pwdrequired" "1"
+			"timeupdated" "1729220474"
+		}
+		"stable"
+		{
+			"buildid" "16035902"
+			"pwdrequired" "1"
+			"timeupdated" "1728907310"
+		}
+		"trailer"
+		{
+			"buildid" "15693502"
+			"pwdrequired" "1"
+			"timeupdated" "1726244932"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "50000000"
+	"maxnumfiles" "1000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "Just2D\\Drova\\Sprint_24"
+			"pattern" "*"
+			"recursive" "1"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Just2D\\Drova\\Sprint_24"
+					"replace" "Just2D/Drova/Sprint_24"
+				}
+			}
+		}
+		"1"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "Linux"
+			"oscompare" "="
+			"useinstead" "LinuxHome"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "Just2D\\Drova\\Sprint_24"
+					"replace" ".config/unity3d/Just2D/Drova/Sprint_24"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "25778367"
+"_sha" "77c7942726a8c8881be060d5e4777f47092174f2"
+"_size" "8813"
