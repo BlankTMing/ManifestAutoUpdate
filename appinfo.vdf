@@ -6,9 +6,9 @@
 	"icon" "31f0e63a85b3af9fa431c63b550a72e77cf7558e"
 	"clienticon" "bab4f8179ce55fbac73b8e74360c4d449768d282"
 	"clienttga" "edb1a2886d74f9824ee7a3fe4ec40d82beadd6cd"
-	"oslist" "windows"
+	"oslist" "windows,macos"
 	"osarch" ""
-	"osextended" ""
+	"osextended" "macos64,macosapplesilicon"
 	"name_localized"
 	{
 		"schinese" "小生活-悠闲小镇物语"
@@ -120,6 +120,7 @@
 	"category"
 	{
 		"category_2" "1"
+		"category_23" "1"
 		"category_62" "1"
 	}
 	"supported_languages"
@@ -169,7 +170,7 @@
 		"18" "492"
 	}
 	"review_score" "5"
-	"review_percentage" "68"
+	"review_percentage" "63"
 }
 "extended"
 {
@@ -189,6 +190,14 @@
 				"oslist" "windows"
 			}
 		}
+		"1"
+		{
+			"executable" "Graduated_mac.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
 	}
 }
 "depots"
@@ -196,13 +205,17 @@
 	"baselanguages" "english,schinese"
 	"3069041"
 	{
+		"config"
+		{
+			"oslist" "windows"
+		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "737246120146180385"
-				"size" "679910375"
-				"download" "340778784"
+				"gid" "3494271078553350787"
+				"size" "680081807"
+				"download" "340935488"
 			}
 		}
 	}
@@ -212,43 +225,64 @@
 		{
 			"oslist" "macos"
 		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "604417920140413573"
+				"size" "703114727"
+				"download" "347926912"
+			}
+		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "15658088"
-			"timeupdated" "1726017714"
+			"buildid" "16065029"
+			"timeupdated" "1729078492"
 		}
 	}
 }
 "ufs"
 {
-	"quota" "1048576"
-	"maxnumfiles" "1000"
-	"hidecloudui" "1"
-	"ignoreexternalfiles" "1"
+	"quota" "1000000000"
+	"maxnumfiles" "6000"
 	"savefiles"
 	{
 		"0"
 		{
 			"root" "WinAppDataLocalLow"
-			"path" "Love7\\Graduated\\Saves"
+			"path" "Love7/Graduated/Saves"
 			"pattern" "*.gsave"
-			"platforms"
-			{
-				"1" "Windows"
-			}
 		}
 		"1"
 		{
 			"root" "WinAppDataLocalLow"
-			"path" "Love7\\Graduated\\Saves"
+			"path" "Love7/Graduated/Saves"
 			"pattern" "*.gdesc"
-			"platforms"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
 			{
-				"1" "Windows"
+				"0"
+				{
+					"find" "Love7/Graduated/Saves"
+					"replace" "Love7/Graduated/Saves"
+				}
 			}
 		}
 	}
 }
+"_missing_token" "False"
+"_change_number" "25785201"
+"_sha" "e8a2f39417113810448482fed5da0c9b05041d31"
+"_size" "4672"
