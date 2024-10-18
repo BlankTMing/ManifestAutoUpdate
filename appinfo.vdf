@@ -37,6 +37,55 @@
 		"tchinese" "NBA 2K25"
 	}
 	"releasestate" "released"
+	"steam_deck_compatibility"
+	{
+		"category" "3"
+		"test_timestamp" "1728345600"
+		"tested_build_id" "15671202"
+		"tests"
+		{
+			"0"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"4"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_FirstTimeSetupRequiresActiveInternetConnection"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "1"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-3RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "partial"
 	"small_capsule"
@@ -109,7 +158,7 @@
 			}
 		}
 	}
-	"store_asset_mtime" "1724275465"
+	"store_asset_mtime" "1727486422"
 	"associations"
 	{
 		"0"
@@ -213,8 +262,8 @@
 		"7" "1775"
 		"8" "4747"
 		"9" "7481"
-		"10" "32322"
-		"11" "5711"
+		"10" "5711"
+		"11" "32322"
 		"12" "4202"
 		"13" "1685"
 		"14" "3841"
@@ -225,14 +274,14 @@
 		"19" "4840"
 	}
 	"review_score" "5"
-	"review_percentage" "55"
+	"review_percentage" "56"
 }
 "extended"
 {
 	"developer" "Visual Concepts"
 	"publisher" "2K"
 	"homepage" "https://www.nba2k.com/"
-	"listofdlc" "2974820,2974830,2975000,2975020,2982770,2982780,2982790"
+	"listofdlc" "2974820,2974830,2974840,2974850,2975000,2975020,2982770,2982780,2982790,3107390,3261610,3261620"
 	"dlcavailableonstore" "1"
 }
 "config"
@@ -250,13 +299,13 @@
 			"type" "default"
 			"config"
 			{
-				"betakey" "anticheat"
+				"betakey" "anticheat, silver2"
 			}
 			"description_loc"
 			{
-				"english" "Play NBA 2K25 with EAC"
+				"english" "Play NBA 2K25"
 			}
-			"description" "Play NBA 2K25 with EAC"
+			"description" "Play NBA 2K25"
 		}
 	}
 	"steamdecktouchscreen" "1"
@@ -291,9 +340,9 @@
 		{
 			"public"
 			{
-				"gid" "5245801588082672567"
-				"size" "143361509852"
-				"download" "136905730784"
+				"gid" "6357705776038764573"
+				"size" "146314336968"
+				"download" "139533085392"
 			}
 		}
 		"encryptedmanifests"
@@ -306,21 +355,21 @@
 			}
 			"anticheat"
 			{
-				"gid" "D62F3C9FD3C0211C9CF3D071F76B525B"
-				"size" "1E002826212ED7F0FC6E9F292B551814"
-				"download" "23B6BAB37989453F32EC279599002AD7"
+				"gid" "A30B74BAC2A276D96051FBD79CDB0197"
+				"size" "2DE31BC1170EE916CF52F4F1B71AEC85"
+				"download" "3CABFD5CCC60C4D3D898C5B86C9FCCBD"
 			}
 			"devtest1"
 			{
-				"gid" "EDBC237BA6573C1A9F412D1D532A6EF9"
-				"size" "21871157DE9BFE45A95841D5B5EAEBEE"
-				"download" "3BCAC9E4540EB6C1BD28045D78396A91"
+				"gid" "C1AE8926881069EA8C7650FB2C896E0A"
+				"size" "7914301E6B84DF1EAA9F9D09CCC0CCEC"
+				"download" "A5AC4AF48D31D0F97DE1E763D46648E9"
 			}
 			"devtest2"
 			{
-				"gid" "EA5B3725206A0FF18262407961FB7567"
-				"size" "1D8717EE1AB09E563E72C3F4F2675C68"
-				"download" "EF6C0462541017D336D83EF57BB57D3B"
+				"gid" "99CF370E8292A981FBDCD5B5FF57A507"
+				"size" "16073930FCA2F7F6B65EFCAEC40BDB64"
+				"download" "3AAB29550A99581336C646061293621C"
 			}
 			"devtest3"
 			{
@@ -336,15 +385,21 @@
 			}
 			"silver"
 			{
-				"gid" "D2ADA751AEFA51F2B165AF41683B89D1"
-				"size" "C9C959AE569FAD6055D8568B2D2B74A9"
-				"download" "B1905C0C2E0553445621D5B13478AA33"
+				"gid" "218715B14A82BD871CAD1AF271BDC2BA"
+				"size" "8D821A1966F81031F7A27DD15CB213FC"
+				"download" "93911FC7F56FE1A9CFDBFD021A3C1E30"
+			}
+			"silver2"
+			{
+				"gid" "F9CEC0A9220683CCAFF3F96E3CFD978B"
+				"size" "5779573049AC8642344BF5478290CE4B"
+				"download" "6A35EE2D317AF932D8712AD4DC7A5DB6"
 			}
 			"silvercompatrun"
 			{
-				"gid" "8BAB17C0B2EF2E02AC77532EB8BD94E3"
-				"size" "DA0DEE9F7FDFA4150F662481D6FF436A"
-				"download" "7BDF1D22DDBB5C3D17D59E43C01A6038"
+				"gid" "0A7045FAAADFFF32AC70BCB8BE3E704A"
+				"size" "4D1A700AFA932BC60DBD8181F7734291"
+				"download" "814009F0B48C30FE64DD3546AF52FD23"
 			}
 			"submission"
 			{
@@ -354,39 +409,58 @@
 			}
 		}
 	}
-	"3107391"
+	"3107390"
 	{
+		"dlcappid" "3107390"
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+			"optionaldlc" "3107390"
+		}
 		"manifests"
 		{
 			"public"
 			{
-				"gid" "3361720176549121138"
-				"size" "1669721127"
-				"download" "1237905504"
+				"gid" "1078383813480654244"
+				"size" "1677278743"
+				"download" "1246639984"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"devtest1"
 			{
-				"gid" "53847AF3FE44D3F302791FE05D92AB22"
-				"size" "9C9C9EFC77CD2EE7635BB0E8311289E0"
-				"download" "7693E05949439233D40818F04A8412C7"
+				"gid" "52D72AFB89EAD2373BA8282983FD41AD"
+				"size" "3920554A5BC9D4E7E32EFD4B9D5893C4"
+				"download" "B976A955B6ACC7178BB89F01510E6799"
+			}
+			"devtest2"
+			{
+				"gid" "056953102FF3F165366E48967DBA2DD6"
+				"size" "E0DB6C3F4D6427F7BA0C246728F5AF6F"
+				"download" "BC7ACE16DF2FEA09BAB3025FF06C39E9"
+			}
+			"silver"
+			{
+				"gid" "6A369EA61485A87E1BD477E1EB315CC2"
+				"size" "AB75D6FB475CD8140630C6A42CF05AFD"
+				"download" "E5362531A63245F928376D1CAD98D7C2"
+			}
+			"silver2"
+			{
+				"gid" "3E29C3DC809B74FD864AE163875A2231"
+				"size" "A0CBCAAB1A20BC28C5440BC1A9E528EE"
+				"download" "FCB4EEFE9AB0999383374B7911F55902"
 			}
 		}
-		"dlcappid" "3107390"
-		"config"
-		{
-			"optionaldlc" "3107390"
-		}
-		"depotfromapp" "3107390"
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "15766730"
-			"timeupdated" "1727366226"
+			"buildid" "16000206"
+			"timeupdated" "1729261299"
 		}
 		"ager"
 		{
@@ -396,21 +470,21 @@
 		}
 		"anticheat"
 		{
-			"buildid" "15361268"
+			"buildid" "15897758"
 			"pwdrequired" "1"
-			"timeupdated" "1723591806"
+			"timeupdated" "1727887181"
 		}
 		"devtest1"
 		{
-			"buildid" "15776294"
+			"buildid" "15910161"
 			"pwdrequired" "1"
-			"timeupdated" "1726870774"
+			"timeupdated" "1727919065"
 		}
 		"devtest2"
 		{
-			"buildid" "15205064"
+			"buildid" "15895587"
 			"pwdrequired" "1"
-			"timeupdated" "1722632834"
+			"timeupdated" "1727826035"
 		}
 		"devtest3"
 		{
@@ -426,15 +500,21 @@
 		}
 		"silver"
 		{
-			"buildid" "15828113"
+			"buildid" "16000206"
 			"pwdrequired" "1"
-			"timeupdated" "1727305687"
+			"timeupdated" "1728594470"
+		}
+		"silver2"
+		{
+			"buildid" "16086375"
+			"pwdrequired" "1"
+			"timeupdated" "1729195467"
 		}
 		"silvercompatrun"
 		{
-			"buildid" "15828113"
+			"buildid" "15897353"
 			"pwdrequired" "1"
-			"timeupdated" "1727305703"
+			"timeupdated" "1727886583"
 		}
 		"submission"
 		{
@@ -443,9 +523,14 @@
 			"timeupdated" "1723486736"
 		}
 	}
+	"appmanagesdlc" "1"
 }
 "ufs"
 {
 	"quota" "500000000"
 	"maxnumfiles" "250"
 }
+"_missing_token" "False"
+"_change_number" "25788549"
+"_sha" "4656b1c948dba82ec834475b2b341b98cbc3cb7d"
+"_size" "10186"
