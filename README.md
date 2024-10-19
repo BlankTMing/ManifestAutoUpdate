@@ -1,8 +1,9 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-19 18:04:50
+## 更新时间：2024-10-19 18:10:12
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1822550 | Microcivilization| Game |
-| 1909921 | 恋~一些小清新的猎奇故事~未来更新的所有故事| DLC |
-| 1849570 | 恋~一些小清新的猎奇故事~| Game |
+| 1663040 | Amber Isle| Game |
+| 1690850 | AKIBA'S TRIP: Hellbound & Debriefed - Soundtrack & Artbook| Music |
+| 1832290 | Royal Order - Official Guide| DLC |
+| 1755270 | Cosmic Cube| Game |
