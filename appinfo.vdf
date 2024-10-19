@@ -10,6 +10,60 @@
 	"oslist" "windows"
 	"osarch" "64"
 	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1728518400"
+		"tested_build_id" "15955294"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -141,8 +195,8 @@
 		"2" "1716"
 		"3" "1720"
 		"4" "3843"
-		"5" "5851"
-		"6" "4057"
+		"5" "4057"
+		"6" "5851"
 		"7" "3859"
 		"8" "492"
 		"9" "21"
@@ -209,9 +263,9 @@
 		{
 			"public"
 			{
-				"gid" "129982936972104123"
-				"size" "3807057685"
-				"download" "3393243904"
+				"gid" "4273031231107285597"
+				"size" "3819387940"
+				"download" "3405308816"
 			}
 		}
 		"encryptedmanifests"
@@ -242,15 +296,15 @@
 			}
 			"external_qa"
 			{
-				"gid" "1354ABC0872A3BD81E02379D702E656B"
-				"size" "F5B7ED4FC9B0773587F8228DE5ED9A4F"
-				"download" "FCE5282A33F1F322892563D1D0798E99"
+				"gid" "A51079D27EFA1544962374375423D34A"
+				"size" "EE1337C7D27E4C0FDBEE405DF2049877"
+				"download" "E5896A61CAB449586350F3C1E49CBC1B"
 			}
 			"external_qa_shipping"
 			{
-				"gid" "F5F8B582EF09341F490AC2CD800CB5A6"
-				"size" "D5AE18AADA6B2281F9848AAB6F6C5DE7"
-				"download" "B243192D034AF93FD36E72A0E4644382"
+				"gid" "564CA79F7CA3B83E3482D8EB7259A41E"
+				"size" "41DCC7CDFA665B00060008DFD87782DF"
+				"download" "B5536C03471350EDEAA4134B0A0FF7EC"
 			}
 			"humble_games"
 			{
@@ -300,8 +354,8 @@
 	{
 		"public"
 		{
-			"buildid" "15992373"
-			"timeupdated" "1728554361"
+			"buildid" "16069959"
+			"timeupdated" "1729281353"
 		}
 		"gdc_2024"
 		{
@@ -329,15 +383,15 @@
 		}
 		"external_qa"
 		{
-			"buildid" "16019817"
+			"buildid" "16069873"
 			"pwdrequired" "1"
-			"timeupdated" "1728727945"
+			"timeupdated" "1729101885"
 		}
 		"external_qa_shipping"
 		{
-			"buildid" "15992373"
+			"buildid" "16069959"
 			"pwdrequired" "1"
-			"timeupdated" "1728552983"
+			"timeupdated" "1729102070"
 		}
 		"humble_games"
 		{
@@ -399,6 +453,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "25689292"
-"_sha" "e4b35831cc9b084156e439c194197f3db3a5a5bd"
-"_size" "7576"
+"_change_number" "25792253"
+"_sha" "95ce434e1b37a911cbd1552f66df19d4e2aa4969"
+"_size" "8939"
