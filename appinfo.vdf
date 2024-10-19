@@ -1,0 +1,213 @@
+"appid" "62000"
+"common"
+{
+	"name" "Flight Control HD"
+	"logo" "34de2e89a598a7fabb2827a7680d18601c314108"
+	"logo_small" "34de2e89a598a7fabb2827a7680d18601c314108_thumb"
+	"icon" "d0d60a084a1bc31538941aaf3699b420c44a78b4"
+	"clienttga" "0ed0c086dfc6d2f1a135e2e1a0157da70ee83063"
+	"clienticns" "c3fb1252aa5ccb22ca6d7a09568d17f9a1bb577f"
+	"clienticon" "7fdacd112d56ea6799b58ba8f09c742cda9e66f7"
+	"oslist" "macos,windows"
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1646438400"
+		"tested_build_id" "23895"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-1"
+			"requires_h264" "0"
+		}
+	}
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Firemint"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Firemint"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "1"
+		"1" "33"
+		"2" "4"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_25" "1"
+		"category_23" "1"
+		"category_15" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1290103200"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "62000"
+	"store_tags"
+	{
+		"0" "597"
+		"1" "19"
+		"2" "25085"
+		"3" "1773"
+		"4" "4182"
+		"5" "9"
+		"6" "15045"
+		"7" "492"
+	}
+	"review_score" "8"
+	"review_percentage" "92"
+}
+"extended"
+{
+	"developer" "Firemint"
+	"gamedir" "Flight_Control_HD"
+	"homepage" "http://www.firemint.com/fchdsteam"
+	"icon" ""
+	"installscript" "installscript.vdf"
+	"installscriptosx" "Flight_Control_HD.app/installscript_osx.vdf"
+	"installscript_macos" "Flight_Control_HD.app/installscript_osx.vdf"
+	"noservers" "1"
+	"order" "1"
+	"primarycache" "62001"
+	"primarycache_mac" "62002"
+	"primarycache_macos" "62002"
+	"serverbrowsername" ""
+	"state" "eStateAvailable"
+	"validoslist" "macos,windows"
+	"publisher" "Firemint"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Flight_Control_HD"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "flightControl_win32.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Flight_Control_HD.app"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+	}
+}
+"depots"
+{
+	"62002"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3106020487338476313"
+				"size" "113878683"
+				"download" "0"
+			}
+		}
+	}
+	"62001"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"systemdefined" "1"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7298159594922281640"
+				"size" "119211127"
+				"download" "0"
+			}
+		}
+	}
+	"overridescddb" "1"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "23895"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "23591175"
+"_sha" "2b51d1f21564d04284c2df7a842cddaccd089287"
+"_size" "3843"
