@@ -1,9 +1,7 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-19 18:51:09
+## 更新时间：2024-10-19 18:58:10
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 1002300 | Fear & Hunger| Game |
-| 1028350 | Pupperazzi| Game |
-| 1024480 | Immortal Realms: Vampire Wars| Game |
-| 3170530 | Roger's Route DLC| DLC |
+| 2254890 | 致命解药| Game |
+| 3232020 | 开局五个亿 - 2K高清扩展包| DLC |
