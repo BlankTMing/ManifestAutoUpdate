@@ -1,26 +1,34 @@
 ## 注：清单库已加密想要入库请使用 ([入库工具](https://github.com/BlankTMing/ManifestAutoUpdate/releases))
 
-## 更新时间：2024-10-19 16:26:11
+## 更新时间：2024-10-19 16:40:03
 | AppID | 名称 | 类型  |
 | :-------------------- | :----------------------------- | :----------- |
-| 348910 | Faerie Solitaire Harvest| Game |
-| 351330 | DROD RPG: Tendry's Tale| Game |
-| 35010 | Batman: Arkham Asylum| game |
-| 358830 | Good Robot| Game |
-| 362130 | Ashes of Immortality| Game |
-| 362150 | Ashes of Immortality II - Bad Blood| Game |
-| 362140 | Ashes of Immortality II| Game |
-| 363790 | Egg Returns Home| Game |
-| 365160 | Kona| Game |
-| 378260 | Fortify| Game |
-| 380750 | Anima Gate of Memories| Game |
-| 386760 | Ame no Marginal -Rain Marginal- - Original Soundtrack| Music |
-| 388550 | Galactic Missile Defense| Game |
-| 399640 | Flamebreak| Game |
-| 400750 | Call to Arms - Gates of Hell: Ostfront| Game |
-| 406940 | Dub Dash| Game |
-| 409850 | Criminal Girls: Invite Only| Game |
-| 414110 | Blood Code OST| Music |
-| 424850 | Galactineers| Game |
-| 42920 | The Kings' Crusade| game |
-| 431750 | Iron Sea Defenders| Game |
+| 3027620 | 绽放★青春全力向前冲！| Game |
+| 3050530 | 地窖食堂| Game |
+| 3062930 | Unplagued| Game |
+| 306200 | The Happy Hereafter| Game |
+| 3071350 | Pig Knight| Game |
+| 3071370 | Boundary Master| Game |
+| 3088520 | 高管张伟和他面试时的冰激凌| Game |
+| 3084130 | 露露卡和大魔导士的色情陷阱地牢！ ～追寻古代的大秘宝～| Game |
+| 3092730 | Bloomtown: A Different Story Supporter Pack| Music |
+| 313810 | Legend of Kay Anniversary| Game |
+| 3145510 | 铁路日本！轨道之旅EX 登山电车 小田急箱根篇| Game |
+| 3154090 | Sins of a Solar Empire II - Soundtrack| Music |
+| 3171000 | Tokyo College Girls| Game |
+| 3171570 | Yarimono ~ DLC 1| DLC |
+| 3206480 | Endless Life| Game |
+| 3212400 | 精灵弓箭手 与 消失的大树 - R18| Game |
+| 3206580 | Remorse| Game |
+| 3218150 | 外星大逃杀| Game |
+| 3224510 | Just a To the Moon Series Beach Episode - 原声音乐 + 额外内容| Music |
+| 315210 | 自杀小队：消灭正义联盟| Game |
+| 3230000 | Europa: Ambient Moods| Music |
+| 3240960 | Last Time I Saw You - Soundtrack| Music |
+| 324170 | Pyrite Heart| Game |
+| 323780 | Fireworks Simulator| Game |
+| 328600 | Frozen Synapse Prime| Game |
+| 3310 | Chuzzle Deluxe| game |
+| 331910 | Beach Resort Simulator| Game |
+| 337950 | The SKIES| Game |
+| 33780 | Drakensang 2 - Phileasson's Secret| game |
