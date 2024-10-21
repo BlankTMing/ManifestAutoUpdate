@@ -3,7 +3,7 @@
 {
 	"name" "SILENT HILL 2"
 	"type" "Game"
-	"releasestate" "prerelease"
+	"releasestate" "released"
 	"oslist" "windows"
 	"osarch" "64"
 	"osextended" ""
@@ -31,6 +31,35 @@
 	{
 		"0" "2"
 		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1727913600"
+		"tested_build_id" "15849237"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
 	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
@@ -138,6 +167,7 @@
 		"category_55" "1"
 		"category_58" "1"
 		"category_22" "1"
+		"category_62" "1"
 	}
 	"supported_languages"
 	{
@@ -214,38 +244,42 @@
 			"subtitles" "true"
 		}
 	}
+	"steam_release_date" "1728360060"
+	"community_visible_stats" "1"
 	"community_hub_visible" "1"
 	"gameid" "2124490"
-	"exfgls" "8"
 	"store_tags"
 	{
 		"0" "1721"
-		"1" "1667"
-		"2" "3978"
+		"1" "3978"
+		"2" "1667"
 		"3" "4166"
 		"4" "1742"
 		"5" "5186"
 		"6" "5708"
-		"7" "21"
-		"8" "1756"
-		"9" "1697"
-		"10" "4182"
-		"11" "19"
-		"12" "6971"
+		"7" "1756"
+		"8" "1697"
+		"9" "4182"
+		"10" "21"
+		"11" "6971"
+		"12" "19"
 		"13" "3834"
 		"14" "4145"
 		"15" "4667"
-		"16" "4191"
-		"17" "1693"
-		"18" "12095"
+		"16" "12095"
+		"17" "4191"
+		"18" "1693"
 		"19" "4106"
 	}
+	"review_score" "8"
+	"review_percentage" "94"
 }
 "extended"
 {
 	"developer" "Bloober Team SA"
 	"publisher" "KONAMI"
 	"homepage" "https://www.konami.com/games/silenthill/2r/"
+	"listofdlc" "2951540,3097490,3097500"
 }
 "config"
 {
@@ -515,9 +549,9 @@
 		{
 			"public"
 			{
-				"gid" "2696526119968453238"
-				"size" "36270373712"
-				"download" "35273619712"
+				"gid" "4909948041673285525"
+				"size" "36299113058"
+				"download" "35290638208"
 			}
 		}
 		"encryptedmanifests"
@@ -548,15 +582,15 @@
 			}
 			"bleeding_edge"
 			{
-				"gid" "660FFFDFCD65850B02A21CCF09BFD3E5"
-				"size" "3CC976A664837AE68D5697B8787EF8C7"
-				"download" "BB2E512E493D17D536A72268158BBA47"
+				"gid" "1654280616BBE1E6B0EA877F669C7D7A"
+				"size" "C4EAA483CF4ABD29A2B0D5AE4AEB63C7"
+				"download" "0FB7476A03DEA62915D5AF1AD9840AD2"
 			}
 			"gpuvendor_intel"
 			{
-				"gid" "712DFDF3100F802C2A2420656DD8689D"
-				"size" "9BB3204D5A23C9F5130C16140D35F996"
-				"download" "6B7C3DAA57B376A0966E601A5E7912DB"
+				"gid" "886DE211F947C2BFA98B503E1E99F49F"
+				"size" "83EE58CA192DD3D9CB975AFA616E2F20"
+				"download" "737754F298D133E200F8A5770825E33D"
 			}
 			"gpuvendor_intel_old"
 			{
@@ -566,9 +600,9 @@
 			}
 			"gpuvendors"
 			{
-				"gid" "B1BD85A60EA2188BFB452147FD7C52F9"
-				"size" "9BE63F62ECC5B25A33C6EF46E442DE09"
-				"download" "CE20DAF27F8BFB6A7D62DD0BB529B578"
+				"gid" "6D788C580533E9B51AEE16B8F6A2DFE8"
+				"size" "1CA40BF24B3E40B659BD77F7E505B770"
+				"download" "004FEFE891B91690758BD63587D2582B"
 			}
 			"partners_branch"
 			{
@@ -578,9 +612,9 @@
 			}
 			"pso_recorder"
 			{
-				"gid" "721FCC19D9AC43F1F9886FE1E6C299FE"
-				"size" "A470C89410BAD73F3A521C52744DCC22"
-				"download" "78FD301986729C36716100E0F2F7BDF3"
+				"gid" "875A6BE7ECB13F0FC02BDF591279F3C3"
+				"size" "864A5864F7AED09AA3165C95D8C568BC"
+				"download" "1C5D1BF38B2E3A1AF12D2EE968788B5F"
 			}
 			"sh2_razer"
 			{
@@ -590,21 +624,15 @@
 			}
 			"stable_edge"
 			{
-				"gid" "BFE291C0E2B1B3E7926EC01ABAF4667D"
-				"size" "1BA53CD5FEBF501E5BFEE2B833E8D3C7"
-				"download" "730BE6C03B1F9D38DDC0362065A9B6E5"
+				"gid" "509570DCB24038F2FCCDB71A4AF87EBC"
+				"size" "DF3D215CEB9D6E578153C7B6CDAE7694"
+				"download" "BA8389C44A02C5D87F920F64776BAAD6"
 			}
 			"te_sr"
 			{
 				"gid" "4FBF6C772290D1A76220A4AE4768A785"
 				"size" "F4CC08F42D92599C1EF2017FFFF714B6"
 				"download" "BC5B0EFA39680BC9895428465D139F04"
-			}
-			"xbox_concept_submission"
-			{
-				"gid" "A5F13BC5FA077E32153A9C69F6B47C7E"
-				"size" "AF05135F8C963B9316AC7AD2262BB902"
-				"download" "E5B192D99E7F73E19F2F1749C58A4620"
 			}
 		}
 	}
@@ -614,8 +642,8 @@
 	{
 		"public"
 		{
-			"buildid" "15917889"
-			"timeupdated" "1728033737"
+			"buildid" "16082357"
+			"timeupdated" "1729501176"
 		}
 		"bdg_edge"
 		{
@@ -643,15 +671,15 @@
 		}
 		"bleeding_edge"
 		{
-			"buildid" "15937144"
+			"buildid" "16104140"
 			"pwdrequired" "1"
-			"timeupdated" "1728097035"
+			"timeupdated" "1729305802"
 		}
 		"gpuvendor_intel"
 		{
-			"buildid" "15848526"
+			"buildid" "16069967"
 			"pwdrequired" "1"
-			"timeupdated" "1727430246"
+			"timeupdated" "1729102090"
 		}
 		"gpuvendor_intel_old"
 		{
@@ -661,9 +689,9 @@
 		}
 		"gpuvendors"
 		{
-			"buildid" "15930135"
+			"buildid" "16069967"
 			"pwdrequired" "1"
-			"timeupdated" "1728051370"
+			"timeupdated" "1729102074"
 		}
 		"partners_branch"
 		{
@@ -673,9 +701,9 @@
 		}
 		"pso_recorder"
 		{
-			"buildid" "15889361"
+			"buildid" "16069967"
 			"pwdrequired" "1"
-			"timeupdated" "1727789666"
+			"timeupdated" "1729102018"
 		}
 		"sh2_razer"
 		{
@@ -685,9 +713,9 @@
 		}
 		"stable_edge"
 		{
-			"buildid" "15917889"
+			"buildid" "16082357"
 			"pwdrequired" "1"
-			"timeupdated" "1727968698"
+			"timeupdated" "1729174466"
 		}
 		"te_sr"
 		{
@@ -695,18 +723,12 @@
 			"pwdrequired" "1"
 			"timeupdated" "1715869387"
 		}
-		"xbox_concept_submission"
-		{
-			"buildid" "14057253"
-			"pwdrequired" "1"
-			"timeupdated" "1715592601"
-		}
 	}
 }
 "ufs"
 {
 	"quota" "64000000"
-	"maxnumfiles" "16"
+	"maxnumfiles" "64"
 	"savefiles"
 	{
 		"0"
@@ -723,3 +745,7 @@
 	"hidecloudui" "1"
 	"ignoreexternalfiles" "1"
 }
+"_missing_token" "False"
+"_change_number" "25816779"
+"_sha" "c6f1790142e3311d9d409c4cb02b8627326f336b"
+"_size" "14415"
