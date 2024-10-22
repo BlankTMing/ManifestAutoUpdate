@@ -48,54 +48,17 @@
 		"0" "2"
 		"1" "5"
 	}
-	"has_adult_content" "1"
-	"has_adult_content_violence" "1"
 	"steam_deck_compatibility"
 	{
-		"category" "2"
-		"test_timestamp" "1673654400"
-		"tested_build_id" "1238840"
+		"category" "1"
+		"test_timestamp" "1724284800"
+		"tested_build_id" "15283144"
 		"tests"
 		{
 			"0"
 			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
-			}
-			"1"
-			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
-			}
-			"2"
-			{
-				"display" "3"
-				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
-			}
-			"3"
-			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
-			}
-			"4"
-			{
-				"display" "4"
-				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
-			}
-			"5"
-			{
-				"display" "1"
-				"token" "#SteamDeckVerified_TestResult_FirstTimeSetupRequiresActiveInternetConnection"
-			}
-			"6"
-			{
-				"display" "1"
-				"token" "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
-			}
-			"7"
-			{
-				"display" "1"
-				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_UnsupportedAntiCheat_Other"
 			}
 		}
 		"configuration"
@@ -107,10 +70,11 @@
 			"non_deck_display_glyphs" "0"
 			"small_text" "1"
 			"requires_internet_for_setup" "1"
-			"requires_internet_for_singleplayer" "1"
+			"requires_internet_for_singleplayer" "0"
 			"recommended_runtime" "proton-experimental"
 			"requires_h264" "0"
 			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
 		}
 	}
 	"controller_support" "full"
@@ -132,6 +96,48 @@
 			"pinned_position" "BottomLeft"
 			"width_pct" "50"
 			"height_pct" "50"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "50"
+				"height_pct" "50"
+			}
 		}
 	}
 	"store_asset_mtime" "1624571179"
@@ -255,18 +261,18 @@
 		"0" "1663"
 		"1" "3859"
 		"2" "5382"
-		"3" "1678"
-		"4" "4182"
+		"3" "4182"
+		"4" "1678"
 		"5" "1774"
 		"6" "19"
 		"7" "3839"
-		"8" "4166"
-		"9" "3987"
+		"8" "3987"
+		"9" "4166"
 		"10" "1775"
 		"11" "128"
 		"12" "4345"
-		"13" "5363"
-		"14" "13276"
+		"13" "13276"
+		"14" "5363"
 		"15" "1695"
 		"16" "4667"
 		"17" "3968"
@@ -329,9 +335,9 @@
 		{
 			"public"
 			{
-				"gid" "9024089880317800404"
-				"size" "87424478974"
-				"download" "63206994784"
+				"gid" "8881835059789731946"
+				"size" "87659001200"
+				"download" "63594393040"
 			}
 		}
 		"encryptedmanifests"
@@ -341,6 +347,30 @@
 				"gid" "C130E4EDA9E384CDF9B9EF5C7D480023"
 				"size" "B9400FA51D05B7472F4A24B5F255826E"
 				"download" "EA7FF6E361544D133540851D9730C389"
+			}
+			"build_debug"
+			{
+				"gid" "95FC74354AD407CD69CF4B3D79CF32B9"
+				"size" "224480F7FF425BB10CCAE86836B36692"
+				"download" "33CF1A540324A708F41F224F4A33461C"
+			}
+			"eacc"
+			{
+				"gid" "F7CBB1E4CF75EFCD13F23537178936D1"
+				"size" "E64BA64D648E028C7ABB681F559E5BF4"
+				"download" "0844569D1A5DA340FAA74FDA2E4516FE"
+			}
+			"live_qv"
+			{
+				"gid" "2B1317C1D98B8CCADE3F2B50509857FF"
+				"size" "4B6D751ECDA8A7FDDAD242B48901363B"
+				"download" "1D63E951B411EB94981272F3430153B5"
+			}
+			"valve_review"
+			{
+				"gid" "254947440431C04741DA769DF739A881"
+				"size" "A9C98108261F66C0A9C9E99DBDCE3B10"
+				"download" "94BDE59B76F6745A53946F6533E6D004"
 			}
 		}
 	}
@@ -354,9 +384,9 @@
 		{
 			"public"
 			{
-				"gid" "6388517317255864068"
-				"size" "342517"
-				"download" "45792"
+				"gid" "6493123619515455044"
+				"size" "166576"
+				"download" "34848"
 			}
 		}
 		"encryptedmanifests"
@@ -366,6 +396,30 @@
 				"gid" "4C745612EC414EE22FBD17FBB3D971FF"
 				"size" "D265D0BC46E84691A15D30AB570D0ED3"
 				"download" "5E1351EABC7ED672B9312C2651343228"
+			}
+			"build_debug"
+			{
+				"gid" "B361D0A5976E31BF0CA4E35B56CBFBB8"
+				"size" "2E5812D4983EEE75BDBDD70D17D50926"
+				"download" "9C62776C83872F88D88753BB58AA6FAA"
+			}
+			"eacc"
+			{
+				"gid" "E663D6CB85C42DAAEC6B7ACC9BC575D4"
+				"size" "F99756DD8C1673034AFD3D21B9FBFB87"
+				"download" "A38B7DE7CDEAAC34B179DB809D1C846B"
+			}
+			"live_qv"
+			{
+				"gid" "A95499FD8A6D1993C75B14B22340882B"
+				"size" "8D7436BC025A61ED157788C1B368D221"
+				"download" "E8FB61D2C30DC6B16E5BE58F6869576E"
+			}
+			"valve_review"
+			{
+				"gid" "EE0AE324BAD01D9E12E056686363F23C"
+				"size" "A818D30FA37B5C197246DB2944C8B7F5"
+				"download" "5EA04132705B0AA3B1E69A9D9A0B9FE3"
 			}
 		}
 	}
@@ -379,9 +433,9 @@
 		{
 			"public"
 			{
-				"gid" "3509875832163915826"
-				"size" "341425"
-				"download" "47472"
+				"gid" "4585029454185435870"
+				"size" "220966"
+				"download" "39776"
 			}
 		}
 		"encryptedmanifests"
@@ -391,6 +445,30 @@
 				"gid" "E2BC2B29AA0E1CAD6D60E8CBA075F30A"
 				"size" "C638C8E3411934F43EEE788800770BA4"
 				"download" "4EAA6FCF4E13422799845E4BDE810A29"
+			}
+			"build_debug"
+			{
+				"gid" "90B14A474750618892BC754D4E940ED2"
+				"size" "00A5DAC5A2D3B559E3B7A1F9CC94F043"
+				"download" "081B30E1A68E0555BC44D8F67D59902A"
+			}
+			"eacc"
+			{
+				"gid" "DD1C44EF999660D08C5B893DAFF994E9"
+				"size" "62E4891477FD0DBEACA6C8A46EFD9DD5"
+				"download" "E25E04937E16D35CB1D9DE0F59D8D606"
+			}
+			"live_qv"
+			{
+				"gid" "4756FE9B2B04196D865B53DBF8FE7762"
+				"size" "6E9A502C379A32AE4596A6117EFBDC72"
+				"download" "F39496CFCC2324F99773F8550CF48760"
+			}
+			"valve_review"
+			{
+				"gid" "E08DD3ED15882F4A40C71FB469599337"
+				"size" "78A13A2F0788BA132570D4C3087455B1"
+				"download" "B0D4B69E5DC1A3CFB56FCE34F7EAC4A5"
 			}
 		}
 	}
@@ -404,9 +482,9 @@
 		{
 			"public"
 			{
-				"gid" "1354956789840294360"
-				"size" "198826"
-				"download" "34192"
+				"gid" "6374184585158957756"
+				"size" "178099"
+				"download" "35056"
 			}
 		}
 		"encryptedmanifests"
@@ -416,6 +494,30 @@
 				"gid" "3D48A4A87E6F3B5825E0045F8D129EC5"
 				"size" "DBF0358E00A3A457901AB99F7B92B2BE"
 				"download" "7BD72F19875674C7E98672C2C807C195"
+			}
+			"build_debug"
+			{
+				"gid" "36EF88E4A4115C9223B5FEC09FE04407"
+				"size" "2CFBF6D22872BB653198633116961127"
+				"download" "6290CF16CCCB8AC2690B09BA241FEF66"
+			}
+			"eacc"
+			{
+				"gid" "E62B5A146765722122790A660A1C2D3A"
+				"size" "99B92A012BD24A84ACE904081D9899F7"
+				"download" "9B7F4E1208F40BAFD60F7143CEC9AC9C"
+			}
+			"live_qv"
+			{
+				"gid" "5AB57915004563C68749071A5497AE0B"
+				"size" "6E65774BD64DFADF5D9AA23D28DB755B"
+				"download" "BA0F589CB7734154EEF6C47CE713CBF1"
+			}
+			"valve_review"
+			{
+				"gid" "F4EA2129F6DB5294824B4F9CBB50B69E"
+				"size" "02671B37942ED94D0EB2EB3E0D8E50F4"
+				"download" "63DA82B8145E366CAB5DA4E906764CA9"
 			}
 		}
 	}
@@ -429,9 +531,9 @@
 		{
 			"public"
 			{
-				"gid" "8414222523763357071"
-				"size" "334651"
-				"download" "47136"
+				"gid" "2315098224507679807"
+				"size" "200233"
+				"download" "38736"
 			}
 		}
 		"encryptedmanifests"
@@ -441,6 +543,30 @@
 				"gid" "53150BD18BC7BC58307C09526BE313F2"
 				"size" "771F278B1330073B38299830E1C8FA74"
 				"download" "1014BD6858BB506AF58FAA6FC15B57A5"
+			}
+			"build_debug"
+			{
+				"gid" "9DB2A328C1E9AA5C964E959EF429120D"
+				"size" "89ABCCEE9792EED7ECCA478BD7BF71D0"
+				"download" "04BA6242074E99CE8A7213F0E2A4BDA0"
+			}
+			"eacc"
+			{
+				"gid" "5099DB6782AC1AFFEA719C9998C70944"
+				"size" "4DD4E94E7F418D083BDCF1183AB99DEB"
+				"download" "9CD23C6C7ACDEC6ED51618F32CAC50DD"
+			}
+			"live_qv"
+			{
+				"gid" "6A579E334C2FB8029C5CF942E4DF19FF"
+				"size" "9EDEB71914D07E4C1CAD7724F4A16B9E"
+				"download" "530D285B6F00091CD82771332BD8E940"
+			}
+			"valve_review"
+			{
+				"gid" "0759C666615EFB3329A3975FB26DD928"
+				"size" "36B8D07D94F68865E2B7D64A4D5CF511"
+				"download" "32F89FFAC1362DA04860DCA0EE4DEB30"
 			}
 		}
 	}
@@ -454,9 +580,9 @@
 		{
 			"public"
 			{
-				"gid" "6095864270596417333"
-				"size" "317390"
-				"download" "45664"
+				"gid" "7784730895070955292"
+				"size" "179549"
+				"download" "36800"
 			}
 		}
 		"encryptedmanifests"
@@ -466,6 +592,30 @@
 				"gid" "737D90F0E84DF73AAF97280A569F6F47"
 				"size" "F165680D66B9E78E7C16D98F0B07AF1B"
 				"download" "0932DC51E4CD530607DB218835827F80"
+			}
+			"build_debug"
+			{
+				"gid" "4B02CDFFFECC27398AA17C9984950208"
+				"size" "6E25D9E60FDF8878A942689C516F4802"
+				"download" "617B6BDF19871D9553D1FB4B99873DCE"
+			}
+			"eacc"
+			{
+				"gid" "F078578AA15C46CF5065F185F39E50DF"
+				"size" "E6D4DB8D3784255A294DFFBA3780FFAA"
+				"download" "9B10917C27DF8BC930B018F3677C013B"
+			}
+			"live_qv"
+			{
+				"gid" "327A33122A12680B430CE55DC2641EC3"
+				"size" "B056D5B2560EC236B6F1D2067BEEB2E0"
+				"download" "1654C038A09D3A202C0DA2574E0E7995"
+			}
+			"valve_review"
+			{
+				"gid" "6A5D5E92F968CC2AFC9ED19D557D9D5A"
+				"size" "40A13C1BF51D9A9B722ABD7A6363F75F"
+				"download" "F3061BDBC717EE4FE234C6C3A2E183D3"
 			}
 		}
 	}
@@ -479,9 +629,9 @@
 		{
 			"public"
 			{
-				"gid" "3546468459242961505"
-				"size" "618887"
-				"download" "56464"
+				"gid" "4956675264415539844"
+				"size" "523187"
+				"download" "49040"
 			}
 		}
 		"encryptedmanifests"
@@ -491,6 +641,30 @@
 				"gid" "735FA8BAA6A5FA50F25A54B4CE422A9D"
 				"size" "8600EC03EC6064709A99583CEAE78AB2"
 				"download" "ACC8E4A6DC71E266FB4CCF240A0F6AB4"
+			}
+			"build_debug"
+			{
+				"gid" "BD96019DFE29D9D0DF427B4C7C6F19FA"
+				"size" "5F313CCDC0956CA58C023E9194BE8FFE"
+				"download" "9170E090D9FF8E1EF4BF86364E713844"
+			}
+			"eacc"
+			{
+				"gid" "E47E795AD53CE86242632E7D4BA9249C"
+				"size" "C02D409379CC7A6BC93F852521B56F4E"
+				"download" "229CD9BE492AFE025537DEB7A8FBAAB2"
+			}
+			"live_qv"
+			{
+				"gid" "B99C6F717F2EFE1F71D173E6266CB906"
+				"size" "03EAC94DD9D7A729A580CA252A51405C"
+				"download" "1FBF8BEDA1D156111B923E8541D3A45C"
+			}
+			"valve_review"
+			{
+				"gid" "8CABD3772137661547B6E32FE9A1A932"
+				"size" "86BB0ED9ED8CD5CDC0393FA63F24B604"
+				"download" "DA0106718BB1303CFDC91A3DCFA1DEFC"
 			}
 		}
 	}
@@ -504,9 +678,9 @@
 		{
 			"public"
 			{
-				"gid" "5408860530265325622"
-				"size" "374920"
-				"download" "50304"
+				"gid" "1262494410877970786"
+				"size" "274891"
+				"download" "42576"
 			}
 		}
 		"encryptedmanifests"
@@ -516,6 +690,30 @@
 				"gid" "30E185BEDDBEE49CE65952D0C99AEC4C"
 				"size" "647020802351F2CF0C4288DEC9CCA68A"
 				"download" "C8C3FB667AA0CE8DC6DBCC25992C6C9F"
+			}
+			"build_debug"
+			{
+				"gid" "F3658BA59EB49F01651434023DFAB38D"
+				"size" "A57AD52113AEA236A00775D6D2C48CC3"
+				"download" "B28E68A614940908AF6608F7559A6167"
+			}
+			"eacc"
+			{
+				"gid" "CA99D50614F090576B2049EBA7C06C7E"
+				"size" "14046B100B306926852F2F54520A2D65"
+				"download" "0D5B5F8B046C11957126ECBFEB2097EF"
+			}
+			"live_qv"
+			{
+				"gid" "114CA3925079CC79C6418644C7E46667"
+				"size" "49693E73C583FA11A439D9E391788845"
+				"download" "B07BD2783E1A53441E2C7060C9A84F1E"
+			}
+			"valve_review"
+			{
+				"gid" "0A0B28750A83327595678C5A7B9BF224"
+				"size" "7025266C012A23B6D8410C96881B9CD9"
+				"download" "7C19916B3458DF830BE576D499756E6D"
 			}
 		}
 	}
@@ -529,9 +727,9 @@
 		{
 			"public"
 			{
-				"gid" "8109048537205891769"
-				"size" "719004"
-				"download" "61568"
+				"gid" "7901958998371845775"
+				"size" "678919"
+				"download" "53616"
 			}
 		}
 		"encryptedmanifests"
@@ -541,6 +739,30 @@
 				"gid" "10D4EB1A3F76A43581031A45F6119E20"
 				"size" "08BDBA628C00270407FAACD8CDDDCB5E"
 				"download" "DAFEAD2FAB9EDF561493AD909F4FB362"
+			}
+			"build_debug"
+			{
+				"gid" "6137AD515F151B719A57B6B08F292A4F"
+				"size" "C20A66B2749E4C2322FD038EE6ABD7E0"
+				"download" "9CE69BFCA3E09273B10A08D778282953"
+			}
+			"eacc"
+			{
+				"gid" "76B2F5CA92F56F55FA60F66FC892DA3B"
+				"size" "79900507ECCCADAEFB4E1706313CB685"
+				"download" "1BD8BF7343C6DBFA6A49CA5F5D7844CD"
+			}
+			"live_qv"
+			{
+				"gid" "D8B7098C710FFF82BBC5B5960E3360D9"
+				"size" "664D62E1BFDBCE22ED19A92C63DC34C0"
+				"download" "AF50F83661E6788224C8962AA54225D9"
+			}
+			"valve_review"
+			{
+				"gid" "A84B0C1544A945CFD6CF034CCC4C8526"
+				"size" "893DDB493B8FA2852CEF3B601BDD6D6B"
+				"download" "17F9200DECA5003CEBC66C27DEC4A531"
 			}
 		}
 	}
@@ -554,9 +776,9 @@
 		{
 			"public"
 			{
-				"gid" "5267592215647805611"
-				"size" "527206"
-				"download" "54096"
+				"gid" "1867397315107119232"
+				"size" "588624"
+				"download" "53600"
 			}
 		}
 		"encryptedmanifests"
@@ -566,6 +788,30 @@
 				"gid" "AE1E7000D8E8013956D64FC11C505635"
 				"size" "FA6075F42E8B46E1FA3D2136156E7B8F"
 				"download" "770454473FEF49677FEF36CC1BA0D97F"
+			}
+			"build_debug"
+			{
+				"gid" "3FB5A199344715EA9402084B7C01D65E"
+				"size" "49B567395424B905D1976E4E62C8941D"
+				"download" "AFA5C9F70BBB7415E2B0F38BFFEF4093"
+			}
+			"eacc"
+			{
+				"gid" "F108BAF416CB26518C28A523EBB75525"
+				"size" "D8C0AF98D0086A946EB740FCB1310D41"
+				"download" "A4649E7C5F381F6DB1065629E5D21D8C"
+			}
+			"live_qv"
+			{
+				"gid" "DA810D79AFBE1760545B345C2A94D307"
+				"size" "4B4A996C23351CACEE37F22F6B4AC658"
+				"download" "5DB594B5C748EF1101D7667570091120"
+			}
+			"valve_review"
+			{
+				"gid" "976E1C9EFB9FC7FEF2AC02C0D8A8BEB6"
+				"size" "36E32439D47C8379A620781CD6AFE623"
+				"download" "D367DB7AFBD6333408418194F28A6CF7"
 			}
 		}
 	}
@@ -579,9 +825,9 @@
 		{
 			"public"
 			{
-				"gid" "1052943591490017851"
-				"size" "340936"
-				"download" "47440"
+				"gid" "4497724353466527133"
+				"size" "202286"
+				"download" "37920"
 			}
 		}
 		"encryptedmanifests"
@@ -591,6 +837,30 @@
 				"gid" "DC7E3C88597F3BD1518E862A7FA00774"
 				"size" "84B6F55597F8C5893A0972A0ADA977DC"
 				"download" "0F0B87D51D764774231510B068026116"
+			}
+			"build_debug"
+			{
+				"gid" "5DC88C947F3026C2430157583D25EA51"
+				"size" "A4C58467F0DFD7FB0DCC4D8E3A7DBF88"
+				"download" "CD1582018B2E3519FE4026BBE5AF4FE2"
+			}
+			"eacc"
+			{
+				"gid" "09A7980DD0B3A23618355FE2293A6EDB"
+				"size" "141AE3A8398E826EC491BBFA24F1098C"
+				"download" "E5CE1A5C3F72AE4CA40CBCB2AB63C201"
+			}
+			"live_qv"
+			{
+				"gid" "7925E5328CC3DC1004C592DCA41952B5"
+				"size" "0B19A441B7A446536317E9F76A42A4FE"
+				"download" "BAB2D4D91CDAD1F4BFAAA4D2DBB3417A"
+			}
+			"valve_review"
+			{
+				"gid" "0F541519D4D6F1E0B7F394458386378C"
+				"size" "EB1C9F5EC4A82CEF9B50F7BAA32EDC7B"
+				"download" "335211A1FC15FFD783D9DED123C60CE0"
 			}
 		}
 	}
@@ -604,9 +874,9 @@
 		{
 			"public"
 			{
-				"gid" "5018549281418513734"
-				"size" "330165"
-				"download" "46848"
+				"gid" "4699098756108839538"
+				"size" "195052"
+				"download" "38256"
 			}
 		}
 		"encryptedmanifests"
@@ -616,6 +886,30 @@
 				"gid" "073F6CB2AF61FBBE3846E0334872BC59"
 				"size" "495E23DE51227677C7C6D1401CB2C63F"
 				"download" "419312433031DCFCC9A9B888D10F1385"
+			}
+			"build_debug"
+			{
+				"gid" "48F758F263C7A1A3A52CBDC68B1B2E9D"
+				"size" "48D53E1D1A438ACF7C36499E17FCE4C8"
+				"download" "FC7274D3B7CF48218036E2E13275ADE4"
+			}
+			"eacc"
+			{
+				"gid" "2D3CC820511FF21D7A47E9C6057C6786"
+				"size" "7520AE33788D8F22143E29C11387C377"
+				"download" "3C0F13F8F70EF0F9CDB62A324696A683"
+			}
+			"live_qv"
+			{
+				"gid" "1FCBB7040AE5F8C98ABDC2BEDA210BDC"
+				"size" "01DB6958544AF9130837051EB09AE763"
+				"download" "8E050ECA07B6507BAA78A56D1EC3D47F"
+			}
+			"valve_review"
+			{
+				"gid" "91F6E067F4CCC3108447DB07246AE342"
+				"size" "A1B6F6996569D9C46B7C07B9C71073B9"
+				"download" "4EDD3003AFA14A6E5184C73B9DD425B1"
 			}
 		}
 	}
@@ -629,9 +923,9 @@
 		{
 			"public"
 			{
-				"gid" "6537253784316683000"
-				"size" "520842"
-				"download" "50048"
+				"gid" "6287561722421892589"
+				"size" "1699430"
+				"download" "55472"
 			}
 		}
 		"encryptedmanifests"
@@ -641,6 +935,30 @@
 				"gid" "58AA593C0D50D5173EA07E081D859198"
 				"size" "079C907BC0695C339B226B1F3DD73C09"
 				"download" "6F3AE1679C1356140BB0EF30D67D3503"
+			}
+			"build_debug"
+			{
+				"gid" "87F5E6DFF655AA82915200DCAD3CD58B"
+				"size" "122349491C84FEFC71A09C0A1187ED04"
+				"download" "C4BDED6C58720E113E5FAD6BC9C21D1D"
+			}
+			"eacc"
+			{
+				"gid" "17156055DFD32F17FF4BC7D00083718E"
+				"size" "60DCBFEE6899131B3321BBF2E3D39C94"
+				"download" "CA0F7C537CA8A76BFA974989C38FE1E1"
+			}
+			"live_qv"
+			{
+				"gid" "99EF49C817B7FC3B8D556B70B56970F1"
+				"size" "F3E4D7774629ADAF0836CEA0EB24A443"
+				"download" "D2B94D77CB6F98C93A329C4764960B5A"
+			}
+			"valve_review"
+			{
+				"gid" "68B790DD11F6B0D7602FE5C19D173F06"
+				"size" "FBC85AC3D97FA7617C042C8401FED5BD"
+				"download" "3454AA86C93D1D5FCE5B726DD47263A5"
 			}
 		}
 	}
@@ -654,9 +972,9 @@
 		{
 			"public"
 			{
-				"gid" "2870212658271900883"
-				"size" "408956"
-				"download" "50112"
+				"gid" "3401242962493191230"
+				"size" "303705"
+				"download" "41968"
 			}
 		}
 		"encryptedmanifests"
@@ -667,14 +985,38 @@
 				"size" "C2A2B92B49E988E09D5844570DAAA4C8"
 				"download" "C97B0AA20A6EB477EA4EC4CEE6E02519"
 			}
+			"build_debug"
+			{
+				"gid" "6AF7126192D077A9E1641FE2BFCC1AFF"
+				"size" "5D7804EE22D0D02272348137489CD32A"
+				"download" "1240BEEFB733135FBDAFC91520EBE9F3"
+			}
+			"eacc"
+			{
+				"gid" "FFA4FD7A6F896465C9EF7573537DFEE5"
+				"size" "3FB62AB50E255088FFD1505B720D2CE2"
+				"download" "3F706B7C9D87B26B4239ECDD0DEFC1A8"
+			}
+			"live_qv"
+			{
+				"gid" "6F85B249287AE86A1D008AD18C73EA39"
+				"size" "E57E9CD00CC321E1C8BB09F414A0BA99"
+				"download" "2BCA7D2933782334073655A9B78A439D"
+			}
+			"valve_review"
+			{
+				"gid" "89C0AB3F4FBAA56DCB798F869A058B13"
+				"size" "192A3EC07614925CE14DF3E172F60D42"
+				"download" "884D9D68AFF0BDA31AB507545056AF82"
+			}
 		}
 	}
 	"branches"
 	{
 		"public"
 		{
-			"buildid" "10359927"
-			"timeupdated" "1674475311"
+			"buildid" "15906665"
+			"timeupdated" "1729584005"
 		}
 		"eacc_ead_stage"
 		{
@@ -682,9 +1024,33 @@
 			"pwdrequired" "1"
 			"timeupdated" "1674151231"
 		}
+		"build_debug"
+		{
+			"buildid" "15093560"
+			"pwdrequired" "1"
+			"timeupdated" "1721419792"
+		}
+		"eacc"
+		{
+			"buildid" "15906665"
+			"pwdrequired" "1"
+			"timeupdated" "1727895383"
+		}
+		"live_qv"
+		{
+			"buildid" "15906665"
+			"pwdrequired" "1"
+			"timeupdated" "1728552948"
+		}
+		"valve_review"
+		{
+			"buildid" "15283144"
+			"pwdrequired" "1"
+			"timeupdated" "1723189399"
+		}
 	}
 }
 "_missing_token" "False"
-"_change_number" "21683907"
-"_sha" "8fb861a4508d60309632b432c5db0d833c811cf8"
-"_size" "12142"
+"_change_number" "25834295"
+"_sha" "c13569bbfeb6e00d158d613ed193dfca636a7b23"
+"_size" "22013"
