@@ -75,6 +75,55 @@
 			"height_pct" "67.50260560964668"
 		}
 	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "56.18214811694328"
+				"height_pct" "67.50260560964668"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
 	"store_asset_mtime" "1721913341"
 	"associations"
 	{
@@ -209,7 +258,7 @@
 		"19" "5900"
 	}
 	"review_score" "5"
-	"review_percentage" "61"
+	"review_percentage" "62"
 }
 "extended"
 {
@@ -225,6 +274,7 @@
 		"0"
 		{
 			"executable" "WSS.exe"
+			"arguments" "-Storefront=SteamOnlineSubsystem"
 			"type" "option1"
 			"config"
 			{
@@ -236,86 +286,6 @@
 				"english" "Winter Survival (DX12, SM6) - Default"
 			}
 			"description" "Winter Survival (DX12, SM6) - Default"
-		}
-		"2"
-		{
-			"executable" "WSS.exe"
-			"arguments" "-trace=counters,cpu,gpu,frame,slate,loadtime,file,log -statnamedevents"
-			"type" "option1"
-			"config"
-			{
-				"oslist" "windows"
-				"osarch" "64"
-				"betakey" "shipping-branch, dev-branch, qa-indium-play"
-			}
-			"description_loc"
-			{
-				"english" "Winter Survival (Insights)"
-			}
-			"description" "Winter Survival (Insights)"
-		}
-		"3"
-		{
-			"executable" "WSS.exe"
-			"arguments" "-dx11 -logPSO"
-			"type" "option1"
-			"config"
-			{
-				"oslist" "windows"
-				"osarch" "64"
-				"betakey" "shipping-branch, dev-branch, qa-indium-play"
-			}
-			"description_loc"
-			{
-				"english" "Winter Survival (DX11)"
-			}
-			"description" "Winter Survival (DX11)"
-		}
-		"4"
-		{
-			"executable" "WSS.exe"
-			"arguments" "-sm5 -logPSO"
-			"type" "option1"
-			"config"
-			{
-				"betakey" "shipping-branch, dev-branch, qa-indium-play"
-			}
-			"description_loc"
-			{
-				"english" "Winter Survival (DX12, SM5)"
-			}
-			"description" "Winter Survival (DX12, SM5)"
-		}
-		"5"
-		{
-			"executable" "WSS.exe"
-			"arguments" "-logPSO"
-			"type" "option1"
-			"config"
-			{
-				"betakey" "dev-branch, shipping-branch"
-			}
-			"description_loc"
-			{
-				"english" "Winter Survival (DX12, SM6) [Create PSO]"
-			}
-			"description" "Winter Survival (DX12, SM6) [Create PSO]"
-		}
-		"6"
-		{
-			"executable" "WSS.exe"
-			"arguments" "-gpucrashdebugging -aftermathall"
-			"type" "option1"
-			"config"
-			{
-				"oslist" "windows"
-				"osarch" "64"
-			}
-			"description_loc"
-			{
-				"english" "Winter Survival (GPU Crash Debugging)"
-			}
-			"description" "Winter Survival (GPU Crash Debugging)"
 		}
 	}
 }
@@ -345,9 +315,9 @@
 		{
 			"public"
 			{
-				"gid" "1664161837107389970"
-				"size" "9248857313"
-				"download" "9061492480"
+				"gid" "2503473449518135923"
+				"size" "9248819033"
+				"download" "9061421136"
 			}
 		}
 		"encryptedmanifests"
@@ -396,9 +366,9 @@
 			}
 			"dev-branch"
 			{
-				"gid" "0AC975307E49A081F75F14BA4CF7E3E0"
-				"size" "E0372282BABBE28067282D150062358E"
-				"download" "3332DECCAC1F492CF31A0190736AD252"
+				"gid" "15F4A4E465D23702881B86FB26A8FAC7"
+				"size" "A421B06C02AB7A0C087169CAE5BA794A"
+				"download" "F90BE946215A5B3B4955A73F2F5AF349"
 			}
 			"epic"
 			{
@@ -432,9 +402,9 @@
 			}
 			"previous-active"
 			{
-				"gid" "6F1937B04F64740067737DE4BA7EC96F"
-				"size" "785FCE429341FD9A5175C226EDFFD812"
-				"download" "78BBF4719E5BEBD0A51C7C68AFE193FD"
+				"gid" "864111C2FFC11D76D4889872EE610574"
+				"size" "0F73AFF96B0CF0DEB79DF8DE568046F9"
+				"download" "153EE1304403B3A8584BC5FFEED365BF"
 			}
 			"profiling"
 			{
@@ -450,15 +420,15 @@
 			}
 			"qa-branch"
 			{
-				"gid" "21152507BAC8494798681B4E3A1CEF77"
-				"size" "81FCFB7CC6378CE86CB778E584C3699B"
-				"download" "4C61DD08EE0B1875472EE869D0794441"
+				"gid" "E44504A6BD60F22A0EF5D353205D42EC"
+				"size" "5DC538F0B3464D81C6D4282D3B6F50BF"
+				"download" "C878035547EDCD81C4C2847DDE775A6B"
 			}
 			"shipping-branch"
 			{
-				"gid" "C2451A233BAFC48833FEE454BF4260A8"
-				"size" "BEE00F077E4CAF1ED122FF70BFE34050"
-				"download" "187820C31E5E3BD36DA1EC013B928867"
+				"gid" "8D4B6032F9F97C0D1194991D58640473"
+				"size" "22D48A09DFE2C65ED3EC5A31D7B358BC"
+				"download" "C2180681A76D611959F139D0450F13BB"
 			}
 		}
 	}
@@ -466,8 +436,8 @@
 	{
 		"public"
 		{
-			"buildid" "15278941"
-			"timeupdated" "1723044142"
+			"buildid" "15568691"
+			"timeupdated" "1729609202"
 		}
 		"focus"
 		{
@@ -513,9 +483,9 @@
 		}
 		"dev-branch"
 		{
-			"buildid" "15261827"
+			"buildid" "16121368"
 			"pwdrequired" "1"
-			"timeupdated" "1722848198"
+			"timeupdated" "1729509658"
 		}
 		"epic"
 		{
@@ -549,9 +519,9 @@
 		}
 		"previous-active"
 		{
-			"buildid" "15147654"
+			"buildid" "15278941"
 			"pwdrequired" "1"
-			"timeupdated" "1722269394"
+			"timeupdated" "1729609641"
 		}
 		"profiling"
 		{
@@ -567,15 +537,15 @@
 		}
 		"qa-branch"
 		{
-			"buildid" "15135177"
+			"buildid" "16095330"
 			"pwdrequired" "1"
-			"timeupdated" "1721812897"
+			"timeupdated" "1729251658"
 		}
 		"shipping-branch"
 		{
-			"buildid" "15278941"
+			"buildid" "15568691"
 			"pwdrequired" "1"
-			"timeupdated" "1722959590"
+			"timeupdated" "1725291330"
 		}
 	}
 }
@@ -598,6 +568,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "24687618"
-"_sha" "ba097dfe465aaf2382d740010c72cde1433e3207"
-"_size" "12114"
+"_change_number" "25841193"
+"_sha" "354400ac5ddc07d616273137d4f0b447e6bed3f7"
+"_size" "11141"
