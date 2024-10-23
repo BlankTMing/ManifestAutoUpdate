@@ -26,6 +26,50 @@
 		"brazilian" "1"
 		"latam" "1"
 	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1728604800"
+		"tested_build_id" "15639759"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
 	"controllertagwizard" "1"
 	"controller_support" "full"
 	"small_capsule"
@@ -214,18 +258,18 @@
 		"3" "3871"
 		"4" "4182"
 		"5" "3834"
-		"6" "19"
-		"7" "7743"
+		"6" "7743"
+		"7" "19"
 		"8" "1698"
-		"9" "492"
-		"10" "6971"
+		"9" "6971"
+		"10" "492"
 		"11" "4342"
 		"12" "4166"
-		"13" "6691"
-		"14" "3798"
+		"13" "3798"
+		"14" "6691"
 		"15" "4106"
-		"16" "3978"
-		"17" "1721"
+		"16" "1721"
+		"17" "3978"
 		"18" "1742"
 		"19" "5752"
 	}
@@ -268,30 +312,30 @@
 		{
 			"public"
 			{
-				"gid" "8615611344109499934"
-				"size" "3819158441"
-				"download" "903549728"
+				"gid" "415825989657187592"
+				"size" "3819237004"
+				"download" "902419952"
 			}
 			"beta"
 			{
-				"gid" "8615611344109499934"
-				"size" "3819158441"
-				"download" "903549728"
+				"gid" "5583949574859510748"
+				"size" "3822552706"
+				"download" "903311856"
 			}
 		}
 		"encryptedmanifests"
 		{
 			"endtoend"
 			{
-				"gid" "770E4098A2B624304AD4D9CB0A68D6B2"
-				"size" "A0964D4D77354B4F02CB453E67606EE7"
-				"download" "126E8226C449F71B4E0E9F4FA2ACC084"
+				"gid" "7B81814375611ACF4392EEAB5FE566A6"
+				"size" "730A6A726813AD48470AD5C20E893D41"
+				"download" "93600C9755425B09A2FEE73FDBFDA3F4"
 			}
 			"internal"
 			{
-				"gid" "399CE7AAC6E557E86D4BE96D0BA0069B"
-				"size" "A6131BA6A6B41D3E3A443279AB129D55"
-				"download" "4024E4CF12AF9AD0BDBB5D51F487C225"
+				"gid" "8F1A5D1E9BC004926B34AC21E64A860D"
+				"size" "AD5DCEE8C2CFE78710FE4C7A8E02391A"
+				"download" "15F796D32725F535565FC0DF1C71DF38"
 			}
 		}
 	}
@@ -299,26 +343,26 @@
 	{
 		"public"
 		{
-			"buildid" "15639759"
-			"timeupdated" "1726718039"
+			"buildid" "15714796"
+			"timeupdated" "1729656669"
 		}
 		"beta"
 		{
-			"buildid" "15639759"
+			"buildid" "15810175"
 			"description" "public beta testing"
-			"timeupdated" "1726134501"
+			"timeupdated" "1729656636"
 		}
 		"endtoend"
 		{
-			"buildid" "15751489"
+			"buildid" "15790550"
 			"pwdrequired" "1"
-			"timeupdated" "1726719757"
+			"timeupdated" "1727065218"
 		}
 		"internal"
 		{
-			"buildid" "15714796"
+			"buildid" "16145923"
 			"pwdrequired" "1"
-			"timeupdated" "1726490100"
+			"timeupdated" "1729658616"
 		}
 	}
 }
@@ -337,39 +381,7 @@
 		}
 	}
 }
-"localization"
-{
-	"richpresence"
-	{
-		"english"
-		{
-			"tokens"
-			{
-				"#status_mainmenu" "MainMenu"
-				"#status_prologue" "Prologue - {#Difficulty_%difficulty%}"
-				"#status_day" "Day %number% - {#Difficulty_%difficulty%}"
-				"#status_night" "Night %number% - {#Difficulty_%difficulty%}"
-				"#difficulty_creepy" "Creepy"
-				"#difficulty_frightening" "Frightening"
-				"#difficulty_terrifying" "Terrifying"
-				"#difficulty_nightmare" "Nightmare"
-				"#difficulty_custom" "Custom"
-			}
-		}
-		"brazilian"
-		{
-			"tokens"
-			{
-				"#status_mainmenu" "Menu Principal"
-				"#status_prologue" "Prologo - {#Difficulty_%difficulty%}"
-				"#status_day" "Dia %number% - {#Difficulty_%difficulty%}"
-				"#status_night" "Noite %number% - {#Difficulty_%difficulty%}"
-				"#difficulty_creepy" "Repugnante"
-				"#difficulty_frightening" "Assustador"
-				"#difficulty_terrifying" "Aterrorizante"
-				"#difficulty_nightmare" "Pesadelo"
-				"#difficulty_custom" "Personalizado"
-			}
-		}
-	}
-}
+"_missing_token" "False"
+"_change_number" "25850836"
+"_sha" "fcd1ef3dece0f41183bea58fbaa764f6bfe45587"
+"_size" "6764"
