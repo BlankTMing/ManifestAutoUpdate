@@ -322,7 +322,7 @@
 		"19" "4295"
 	}
 	"review_score" "6"
-	"review_percentage" "79"
+	"review_percentage" "78"
 }
 "extended"
 {
@@ -512,7 +512,7 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "focus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, ms_builds, steam_dev_livefocus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, ms_builds, steam_dev_live"
+				"betakey" "focus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, ms_builds, steam_dev_livefocus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, ms_builds, steam_dev_live, test_steam_dev"
 			}
 			"description_loc"
 			{
@@ -527,7 +527,7 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "focus_test_dev, steam_features, natour,  test_backend,test_pros_true_retail, saber_external_preview, fe_crossplay, fe_hw_nvidia_temp, ms_builds, steam_dev_live"
+				"betakey" "focus_test_dev, steam_features, natour,  test_backend,test_pros_true_retail, saber_external_preview, fe_crossplay, fe_hw_nvidia_temp, ms_builds, steam_dev_live, test_steam_dev"
 			}
 			"description_loc"
 			{
@@ -543,7 +543,7 @@
 			"config"
 			{
 				"oslist" "windows"
-				"betakey" "focus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, fe_hw_nvidia_temp, ms_builds, patch_4x_steamfeats, steam_dev_live"
+				"betakey" "focus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, fe_hw_nvidia_temp, ms_builds, patch_4x_steamfeats, steam_dev_live, test_steam_dev"
 			}
 			"description_loc"
 			{
@@ -602,7 +602,7 @@
 			"workingdir" "client_pc\\root\\bin\\pc"
 			"config"
 			{
-				"betakey" "anti-cheat_test, test_prod_steamfeats, test_backend"
+				"betakey" "anti-cheat_test, test_prod_steamfeats, test_backend, steam_features"
 			}
 			"description_loc"
 			{
@@ -648,7 +648,7 @@
 			"workingdir" "client_pc\\root\\bin\\pc\\"
 			"config"
 			{
-				"betakey" "patch_4x_steamfeats, test_prod_steamfeats"
+				"betakey" "patch_4x_steamfeats, test_prod_steamfeats, steam_features"
 			}
 			"description_loc"
 			{
@@ -693,7 +693,7 @@
 			"workingdir" "client_pc\\root\\bin\\pc"
 			"config"
 			{
-				"betakey" "test_prod_steamfeats, test_backend, patch_4x_steamfeats"
+				"betakey" "test_prod_steamfeats, test_backend, patch_4x_steamfeats, steam_features"
 			}
 			"description_loc"
 			{
@@ -717,7 +717,28 @@
 		}
 	}
 	"steamdecktouchscreen" "5"
-	"steamcontrollertemplateindex" "2"
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"3353436329"
+		{
+			"controller_type" "controller_ps4"
+			"enabled_branches" "steam_features"
+			"use_action_block" "false"
+		}
+		"3353463337"
+		{
+			"controller_type" "controller_xbox360"
+			"enabled_branches" "steam_features"
+			"use_action_block" "false"
+		}
+		"3353475589"
+		{
+			"controller_type" "controller_ps5"
+			"enabled_branches" "steam_features"
+			"use_action_block" "false"
+		}
+	}
 }
 "depots"
 {
@@ -737,9 +758,9 @@
 		{
 			"public"
 			{
-				"gid" "1362635049691270015"
-				"size" "72364082971"
-				"download" "58074065968"
+				"gid" "2356129057046004823"
+				"size" "72163945585"
+				"download" "57930804112"
 			}
 		}
 		"encryptedmanifests"
@@ -758,9 +779,9 @@
 			}
 			"anti-cheat_test"
 			{
-				"gid" "1C38CFC45CA646F65114C06F56147EAE"
-				"size" "C4F2198F4D537996776856754662BA0D"
-				"download" "1D1CEF8B759510BAFD2FF2E447D58138"
+				"gid" "58F55D0511C3B263B075241AB699E1F1"
+				"size" "C193CA6428BFD3DD216D606C2022CBFC"
+				"download" "96336EA0F988C6566E4F07060E6A7E2A"
 			}
 			"fe_crossplay"
 			{
@@ -780,6 +801,12 @@
 				"size" "965BE5CE6AECD0EDC099F23EDE875EC6"
 				"download" "B70812AC05947DD33C17080CBA34A708"
 			}
+			"fe_pgw"
+			{
+				"gid" "89BFEC9757183AE6BA33043AC141AB8E"
+				"size" "6C849C182BEAD0B5071238303A22883C"
+				"download" "E239174AE5D7B888AF63AC424E53703A"
+			}
 			"fe_temp_artbook"
 			{
 				"gid" "231474FFD2BF74DFD20BABE73888D8E9"
@@ -794,9 +821,9 @@
 			}
 			"focus_marketing_recording"
 			{
-				"gid" "3B7B646D5F9E41288DE981C59C75946B"
-				"size" "3D1B3BBE62D62147927E0D214DBDF382"
-				"download" "441F17DA184C33AA7915EBA849659EA3"
+				"gid" "1480113542283246DEDB7BDE4748E655"
+				"size" "A4AA4DE71B949EB5A5CED89436C5E7AC"
+				"download" "B1B539182199975D8FB098DB6A0AEA65"
 			}
 			"focus_playtest"
 			{
@@ -812,9 +839,9 @@
 			}
 			"focus_test_retail"
 			{
-				"gid" "EBCFEF1A885C91FB83B68EE58AAF9872"
-				"size" "BD864371B031498A94D9A55483B01AB0"
-				"download" "5248A7351747E48687F98B3DCA3B1BDE"
+				"gid" "1FF3EB47EBE972196BD54069672ECD7C"
+				"size" "585BA512615AC4DB82683CFC215BE76E"
+				"download" "3F71315AC6438642A37352581867FD72"
 			}
 			"gw_external_review"
 			{
@@ -824,15 +851,15 @@
 			}
 			"ms_builds"
 			{
-				"gid" "CCF7ECEB3CECFFA407268FC7C4CCF616"
-				"size" "FC92315462BEC630B98E782EA9A357A4"
-				"download" "93971354289EE1E5709D8621669BDA9B"
+				"gid" "2F0E73C1FC87599FDE999D0E0BC28150"
+				"size" "30ED229DAF49D26A2AE96EE9635AFAA8"
+				"download" "DB4E11C1EEBCE681A109E8459A7313C5"
 			}
 			"patch_4x_steamfeats"
 			{
-				"gid" "185DC04B0567471255423B5F591488AE"
-				"size" "C3F41BCA1B3697F5828B4899F9FA9532"
-				"download" "96C758AD69A39D4F187D82A9E2360D8F"
+				"gid" "09F8CFF5DD5F9164B87EA2472E1DA11B"
+				"size" "E54CA110CCCA1F64A77D8C6ADCEBF321"
+				"download" "22DA8AB8534CFF7BA0C4708CF5881C0C"
 			}
 			"saber_external_preview"
 			{
@@ -842,15 +869,15 @@
 			}
 			"steam_dev_live"
 			{
-				"gid" "924F0EE742BB114E7E72A8DFDFA4D3D9"
-				"size" "35149DA5FC1BF1B73853AD0CDA85C2E6"
-				"download" "B6F6D1AE520AD7BBAB4EF560C2153AC9"
+				"gid" "273EFA28107C2EA65F7EFF7246DBA937"
+				"size" "84ED06A931057A46E30578960916B456"
+				"download" "DB7236F6DAAE53C67406752464D1F366"
 			}
 			"steam_features"
 			{
-				"gid" "82442E8925211722677824A52386AFFA"
-				"size" "5E53CE689F11E3960882FAB1DCD5F30D"
-				"download" "1AFBED391DBA61B86D17A2ACBB59E836"
+				"gid" "ABA5A4B97FA868094949E523F0F0394F"
+				"size" "E3F42F2B174C585C47D1B2850915171D"
+				"download" "6B288A1644D97CE79B86FB327FFC3220"
 			}
 			"test_backend"
 			{
@@ -860,27 +887,21 @@
 			}
 			"test_bender"
 			{
-				"gid" "25C15F454556D7F38C1D743AE5E4979E"
-				"size" "7A8D6A0B3B63A989FE628034F9101BD1"
-				"download" "2513C98B4A548D9E4DBEB71DA7B7610C"
+				"gid" "6756794499A5A63F6DD5B730EE2A684C"
+				"size" "4554C12840D2180D3131624A18AFC603"
+				"download" "D890081F03D3F14338A1B929E091389D"
 			}
 			"test_prod_steamfeats"
 			{
-				"gid" "FAF0DA9ED5C853DC79D737093F5D6C83"
-				"size" "C77C1274E1F04E7B0C9F28FA5CDCA5D0"
-				"download" "FE2D374D0E8BA3F0BE504AFACC527001"
-			}
-			"test_pros_true_retail"
-			{
-				"gid" "ECAE11053978D32AC82675759635E3EF"
-				"size" "48124F3EA0373281517ED355C6DB6EAC"
-				"download" "5534B99ABB6E9C8849AE7A9542092DF8"
+				"gid" "C9FF497F1979E0C73DDEDE350CC71896"
+				"size" "6BFEE51BD467FCC002EC082F2AE1C124"
+				"download" "551D27CBF2348DE4E63528EF221DF7E3"
 			}
 			"test_retail"
 			{
-				"gid" "C3674EB66EB56F581E947437D01F4B19"
-				"size" "1B5C20301F967C7F622D1F4C78DC779E"
-				"download" "2BC8984ED3C6E294382478558B5B9144"
+				"gid" "6084AB5085BEA69BA826ED5E8713391D"
+				"size" "B056639C32E7B3C20F88E208E006D16E"
+				"download" "9AF3135607A939E150050286CB0B9134"
 			}
 		}
 	}
@@ -891,9 +912,9 @@
 		{
 			"public"
 			{
-				"gid" "8827062168828425910"
-				"size" "97213949164"
-				"download" "97749855104"
+				"gid" "9218327206926976227"
+				"size" "97194505802"
+				"download" "97712644880"
 			}
 		}
 		"encryptedmanifests"
@@ -910,11 +931,17 @@
 				"size" "B69A40A8322D89110CED19832C8364ED"
 				"download" "8687D6CF8185706407805ECB06797BF8"
 			}
+			"fe_pgw"
+			{
+				"gid" "0976D6B30EB806784338BFF2A9E31298"
+				"size" "3FE05D459DE4BFDC490ED24AC50273BF"
+				"download" "FD064CD40FB7BEBA64BBB91AF748BAFB"
+			}
 			"focus_test_retail"
 			{
-				"gid" "AA72A222824F954F187AE00B756A82B1"
-				"size" "FAE504714232C65163CD6BA4C480E49C"
-				"download" "EA06B2BECEE90961DEAEECF26FF49782"
+				"gid" "E4938CA11CEFC8A851AE4CB11277D14B"
+				"size" "2DA2BCCABC996BB5FD5F982378B1A6DE"
+				"download" "20CFA42CE27E0D9B00E42E4085F646A8"
 			}
 			"ms_builds"
 			{
@@ -922,11 +949,11 @@
 				"size" "C18445695A79665A50F955FF42EB96D4"
 				"download" "1C9B2668FB83C0CCC2CB7F990DB9019C"
 			}
-			"test_pros_true_retail"
+			"test_retail"
 			{
-				"gid" "FFA15E438FD93F7EC87798B9EA02B531"
-				"size" "D8E4BC03984BE22742E2EB9C79E4FAA5"
-				"download" "3800CA111FEAFA0198F911D51F538392"
+				"gid" "B3BCCC32D6CB318B5E6B7ACDE81A0BC0"
+				"size" "6782AA3540518C2B2BD60C64CFCC028D"
+				"download" "2364D076287DAA62E7A49DA8E7C1E7E4"
 			}
 		}
 	}
@@ -950,6 +977,12 @@
 				"size" "A18A6BB7CBCBE89A2C9F75492B5BE0F5"
 				"download" "3591EA7E62D9F46E942D53D13AAD61FB"
 			}
+			"fe_pgw"
+			{
+				"gid" "44A5C604CB74C070656781A4E7BFC737"
+				"size" "CEB754064B81457BB9A1017828CAF228"
+				"download" "DB0A156B921E022716CFB65CD3443AB9"
+			}
 			"fe_temp_artbook"
 			{
 				"gid" "E0E8BD4E555EBE18E8E09937D4ABF517"
@@ -968,8 +1001,8 @@
 	{
 		"public"
 		{
-			"buildid" "16078296"
-			"timeupdated" "1729155518"
+			"buildid" "16162824"
+			"timeupdated" "1729760405"
 		}
 		"natour"
 		{
@@ -985,9 +1018,9 @@
 		}
 		"anti-cheat_test"
 		{
-			"buildid" "16009132"
+			"buildid" "16122287"
 			"pwdrequired" "1"
-			"timeupdated" "1728649066"
+			"timeupdated" "1729514553"
 		}
 		"fe_crossplay"
 		{
@@ -1007,6 +1040,12 @@
 			"pwdrequired" "1"
 			"timeupdated" "1729094370"
 		}
+		"fe_pgw"
+		{
+			"buildid" "16136651"
+			"pwdrequired" "1"
+			"timeupdated" "1729602083"
+		}
 		"fe_temp_artbook"
 		{
 			"buildid" "15916536"
@@ -1021,9 +1060,9 @@
 		}
 		"focus_marketing_recording"
 		{
-			"buildid" "15961060"
+			"buildid" "16137247"
 			"pwdrequired" "1"
-			"timeupdated" "1728351929"
+			"timeupdated" "1729605972"
 		}
 		"focus_playtest"
 		{
@@ -1039,9 +1078,9 @@
 		}
 		"focus_test_retail"
 		{
-			"buildid" "16067526"
+			"buildid" "16134388"
 			"pwdrequired" "1"
-			"timeupdated" "1729090187"
+			"timeupdated" "1729590212"
 		}
 		"gw_external_review"
 		{
@@ -1051,15 +1090,15 @@
 		}
 		"ms_builds"
 		{
-			"buildid" "16078550"
+			"buildid" "16163619"
 			"pwdrequired" "1"
-			"timeupdated" "1729156603"
+			"timeupdated" "1729764022"
 		}
 		"patch_4x_steamfeats"
 		{
-			"buildid" "16105372"
+			"buildid" "16158939"
 			"pwdrequired" "1"
-			"timeupdated" "1729321192"
+			"timeupdated" "1729733393"
 		}
 		"saber_external_preview"
 		{
@@ -1069,15 +1108,15 @@
 		}
 		"steam_dev_live"
 		{
-			"buildid" "15847179"
+			"buildid" "16149698"
 			"pwdrequired" "1"
-			"timeupdated" "1727423409"
+			"timeupdated" "1729680009"
 		}
 		"steam_features"
 		{
-			"buildid" "16097433"
+			"buildid" "16166950"
 			"pwdrequired" "1"
-			"timeupdated" "1729262090"
+			"timeupdated" "1729780766"
 		}
 		"test_backend"
 		{
@@ -1087,27 +1126,21 @@
 		}
 		"test_bender"
 		{
-			"buildid" "15980556"
+			"buildid" "16168070"
 			"pwdrequired" "1"
-			"timeupdated" "1728477766"
+			"timeupdated" "1729786414"
 		}
 		"test_prod_steamfeats"
 		{
-			"buildid" "16104974"
+			"buildid" "16147306"
 			"pwdrequired" "1"
-			"timeupdated" "1729315747"
-		}
-		"test_pros_true_retail"
-		{
-			"buildid" "15915714"
-			"pwdrequired" "1"
-			"timeupdated" "1727957126"
+			"timeupdated" "1729668634"
 		}
 		"test_retail"
 		{
-			"buildid" "16067481"
+			"buildid" "16134388"
 			"pwdrequired" "1"
-			"timeupdated" "1729091451"
+			"timeupdated" "1729684099"
 		}
 	}
 }
@@ -1131,6 +1164,6 @@
 	}
 }
 "_missing_token" "False"
-"_change_number" "25797549"
-"_sha" "8082078fdb36ce7e361655aa14a853e70de9e459"
-"_size" "25771"
+"_change_number" "25880224"
+"_sha" "2b0d29b7897d4b1f20b2d265311688e3f95bce44"
+"_size" "26633"
